@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Why They Ignore Us — Mobile</title>
+<style>
+  :root{--teal:#138a8c; --gray:#8f969c; --fg:#111; --bg:#fff; --muted:#5b5b5b; --link:#0b69ff}
+  [data-theme="dark"]{--fg:#f5f7fa; --bg:#0f1113; --muted:#c9d1d9; --link:#69b0ff}
+  body{margin:0; font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial}
+  .wrap{max-width:720px; margin:0 auto; padding:18px; color:var(--fg); background:var(--bg)}
+  h1{font-size:22px; margin:0 0 8px}
+  .tag{font-size:13px; color:var(--muted)}
+  .card{border:1px solid color-mix(in srgb, var(--fg) 10%, transparent); border-radius:14px; padding:14px; margin:12px 0}
+  .pill{display:inline-block; font-size:12px; color:#fff; background:var(--teal); padding:4px 8px; border-radius:999px; margin:6px 0}
+  .pill.gray{background:var(--gray)}
+  .link{color:var(--fg); text-decoration:none; border-bottom:1px dashed color-mix(in srgb, var(--fg) 40%, transparent)}
+  .cta{display:block; text-align:center; padding:10px 12px; border-radius:12px; background:var(--teal); color:#fff; text-decoration:none; margin:14px 0}
+  footer{margin:14px 0 0; text-align:center; font-size:13px; color:var(--muted)}
+  .row{margin:10px 0}
+  .theme{position:fixed; right:12px; top:12px; border:1px solid color-mix(in srgb, var(--fg) 20%, transparent); background:transparent; color:var(--fg); padding:6px 10px; border-radius:10px}
+</style>
+</head>
+<body>
+<button class="theme" id="themeBtn">🌙</button>
+<div class="wrap">
+  <h1>Why They Ignore Us — And Why That Means We’re Winning</h1>
+  <div class="tag">Tier: Coalition & Advocacy • Color: Teal / Steel Gray</div>
+
+  <div class="card">
+    <span class="pill">Welcome & Purpose</span>
+    <p>If you’re new to Legal Calculus, the pushback you meet isn’t proof you’re wrong — it’s proof you’re effective.</p>
+  </div>
+
+  <!-- Symptom blocks -->
+  <div class="card">
+    <span class="pill gray">1 • Threatening Their Power</span>
+    <div class="row"><strong>Symptom:</strong> Gatekeepers hint you’re “overstepping.”</div>
+    <div class="row"><strong>Reason:</strong> Competent navigation challenges their monopoly.</div>
+    <div class="row"><strong>Your Goal:</strong> Collapse the hierarchy.</div>
+    <div class="row"><a class="link" href="#worker_preservationobjection">Worker: File a Procedural Objection ⚡</a></div>
+    <div class="row"><a class="link" href="#thinker_preservationstrategy">Thinker: Teaching Preservation Strategy</a></div>
+  </div>
+
+  <div class="card">
+    <span class="pill gray">2 • “Unconventional” Filings</span>
+    <div class="row"><strong>Symptom:</strong> Your submissions are labeled “odd.”</div>
+    <div class="row"><strong>Reason:</strong> Format turns experience into memory.</div>
+    <div class="row"><strong>Your Goal:</strong> Seize the narrative.</div>
+    <div class="row"><a class="link" href="#worker_mtd">Worker: Respond to Improper Motion to Dismiss</a></div>
+    <div class="row"><a class="link" href="#thinker_lawfare">Thinker: Analyzing Lawfare Tactics & Procedural Resistance</a></div>
+  </div>
+
+  <div class="card">
+    <span class="pill gray">3 • Hard to Co‑opt</span>
+    <div class="row"><strong>Symptom:</strong> Minimal engagement, no direct rebuttal.</div>
+    <div class="row"><strong>Reason:</strong> Coherent systems are harder to attack.</div>
+    <div class="row"><strong>Your Goal:</strong> Be too logical to ignore and too radical to absorb.</div>
+    <div class="row"><a class="link" href="#worker_publicarchive">Worker: Use Public Archive to Support Motion</a></div>
+    <div class="row"><a class="link" href="#thinker_publicrecord">Thinker: Teaching Public Record Advocacy</a></div>
+  </div>
+
+  <div class="card">
+    <span class="pill gray">4 • Silence vs. Evidence</span>
+    <div class="row"><strong>Symptom:</strong> Key points get no acknowledgment.</div>
+    <div class="row"><strong>Reason:</strong> Acknowledging your evidence admits fragility.</div>
+    <div class="row"><strong>Your Goal:</strong> Make the record indelible.</div>
+    <div class="row"><a class="link" href="#worker_documenterror">Worker: Document Judicial Error Without Contempt Risk</a></div>
+    <div class="row"><a class="link" href="#thinker_oversight">Thinker: Teaching Oversight & Accountability Mechanisms</a></div>
+  </div>
+
+  <div class="card">
+    <span class="pill gray">5 • “Rogue Agent” Framing</span>
+    <div class="row"><strong>Symptom:</strong> You’re excluded from “official” reform spaces.</div>
+    <div class="row"><strong>Reason:</strong> You refuse permissioned participation; you practice agency.</div>
+    <div class="row"><strong>Your Goal:</strong> Act with principled independence.</div>
+    <div class="row"><a class="link" href="#worker_publicaccess">Worker: Submit a Public Access Filing</a></div>
+    <div class="row"><a class="link" href="#thinker_transparency">Thinker: Coalition‑Building Through Procedural Transparency</a></div>
+  </div>
+
+  <a class="cta" href="#silence_archive">Add to the Silence Archive</a>
+  <footer>
+    Filing is protest. Format is memory. The record is the remedy.
+  </footer>
+</div>
+<script>
+  const btn=document.getElementById('themeBtn');
+  const root=document.documentElement;
+  const saved=localStorage.getItem('wtio-theme');
+  if(saved){root.setAttribute('data-theme', saved); btn.textContent = saved==='dark'?'☀️':'🌙';}
+  btn.addEventListener('click',()=>{
+    const cur=root.getAttribute('data-theme')==='dark'?'light':'dark';
+    root.setAttribute('data-theme',cur); localStorage.setItem('wtio-theme',cur); btn.textContent = cur==='dark'?'☀️':'🌙';
+  });
+</script>
+</body>
+</html>
