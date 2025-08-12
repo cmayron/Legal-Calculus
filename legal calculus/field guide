@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Legal Calculus — Worker ↔ Thinker Map</title>
+  <style>
+    :root{
+      --amber:#e5b535; --gray:#8f969c; --blue:#1f68ad; --teal:#138a8c; --crimson:#bf2e3d;
+      --bg:#ffffff; --fg:#111111; --muted:#5b5b5b; --border:#e5e7eb; --link:#0b69ff;
+    }
+    [data-theme="dark"]{
+      --bg:#0e0f11; --fg:#f5f7fa; --muted:#c9d1d9; --border:#2a2e35; --link:#5ab0ff;
+    }
+    html,body{margin:0; padding:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";}
+    .wrap{max-width:1100px; margin:0 auto; padding:20px;}
+    header{display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:16px;}
+    h1{font-size:clamp(22px,3.5vw,32px); margin:0; letter-spacing:.2px}
+    .tagline{font-style:italic; color:var(--muted); font-size:clamp(12px,2.3vw,14px)}
+    .controls{display:flex; align-items:center; gap:10px}
+    .btn{border:1px solid var(--border); background:transparent; color:var(--fg); padding:8px 10px; border-radius:10px; cursor:pointer}
+    .btn:hover{border-color:var(--muted)}
+
+    /* Map block */
+    .block{border:1px solid var(--border); border-radius:14px; padding:14px; margin:16px 0; background:color-mix(in oklab, var(--bg) 92%, var(--fg));}
+    .block h2{margin:0 0 8px 0; font-size:clamp(18px,2.8vw,22px)}
+    .map-head{display:grid; grid-template-columns:1fr 1fr; gap:10px; font-weight:600; padding:8px 10px;}
+    .map{display:grid; grid-template-columns:1fr; gap:10px}
+    .band{border:1px solid var(--border); border-radius:12px; overflow:hidden}
+    .band .label{padding:8px 12px; font-weight:700; color:#fff}
+    .band[data-color="amber"] .label{background:var(--amber)}
+    .band[data-color="gray"] .label{background:var(--gray)}
+    .band[data-color="blue"] .label{background:var(--blue)}
+    .band[data-color="teal"] .label{background:var(--teal)}
+    .band[data-color="crimson"] .label{background:var(--crimson)}
+
+    .rows{display:grid; grid-template-columns:1fr;}
+    .row{display:grid; grid-template-columns:1fr; border-top:1px solid var(--border)}
+    .cell{padding:10px 12px; display:flex; align-items:start; gap:8px}
+    .cell a{color:var(--fg); text-decoration:none; border-bottom:1px dashed color-mix(in srgb, var(--fg) 40%, transparent);}
+    .cell a:hover{color:var(--link); border-bottom-color:var(--link)}
+    .cell .dot{width:8px; height:8px; border-radius:999px; margin-top:6px}
+    .row .cell:nth-child(1) .dot{background:var(--border)}
+    .row .cell:nth-child(2) .dot{background:var(--border)}
+
+    /* Two-column on wider screens */
+    @media (min-width:820px){
+      .map-head{grid-template-columns:1fr 1fr}
+      .rows{grid-template-columns:1fr 1fr}
+      .row{grid-template-columns:1fr 1fr}
+    }
+
+    /* Tiles block */
+    .tiles{display:grid; grid-template-columns:1fr; gap:12px}
+    .tile{border:1px solid var(--border); border-radius:12px; padding:16px}
+    .tile h3{margin:0 0 8px 0; font-size:clamp(18px,2.6vw,22px)}
+    .tile ul{margin:8px 0 0 0; padding:0; list-style:none}
+    .tile li{display:flex; gap:8px; align-items:flex-start; padding:8px 0; border-top:1px dashed var(--border)}
+    .tile li:first-child{border-top:0}
+    .bullet{width:9px; height:9px; border-radius:999px; margin-top:6px}
+    .tile[data-color="amber"] .bullet{background:var(--amber)}
+    .tile[data-color="blue"] .bullet{background:var(--blue)}
+    .tile[data-color="teal"] .bullet{background:var(--teal)}
+
+    footer{margin:14px 0 0; text-align:center; color:var(--muted); font-size:13px}
+    footer a{color:var(--muted); text-decoration:none; border-bottom:1px dotted var(--muted)}
+
+    .legend{display:flex; flex-wrap:wrap; gap:8px; margin-top:6px}
+    .tag{display:inline-flex; gap:8px; align-items:center; padding:6px 10px; border-radius:999px; border:1px solid var(--border)}
+    .tag i{width:9px; height:9px; border-radius:999px;}
+    .tag.amb i{background:var(--amber)}
+    .tag.gry i{background:var(--gray)}
+    .tag.blu i{background:var(--blue)}
+    .tag.tel i{background:var(--teal)}
+    .tag.crm i{background:var(--crimson)}
+  </style>
+</head>
+<body>
+  <div class="wrap" id="top">
+    <header>
+      <div>
+        <h1>Legal Calculus — Worker ↔ Thinker Map</h1>
+        <div class="tagline">Filing is protest. Format is memory. The record is the remedy.</div>
+        <div class="legend" aria-label="Legend">
+          <span class="tag amb"><i></i> Appeals & Preservation</span>
+          <span class="tag gry"><i></i> Procedural Defense & Resistance</span>
+          <span class="tag blu"><i></i> Filing & Record-Building</span>
+          <span class="tag tel"><i></i> Coalition & Advocacy</span>
+          <span class="tag crm"><i></i> Oversight & Accountability</span>
+        </div>
+      </div>
+      <div class="controls">
+        <button class="btn" id="themeBtn" aria-label="Toggle theme">🌙 Dark</button>
+      </div>
+    </header>
+
+    <!-- Block 1: Map -->
+    <section class="block" aria-labelledby="map-title">
+      <h2 id="map-title">Worker → Thinker Map</h2>
+      <div class="map-head" role="row">
+        <div>Legal Calculus — Pro Se Task (Worker)</div>
+        <div>Field Guide — Educator Lesson (Thinker)</div>
+      </div>
+      <div class="map" role="grid">
+
+        <!-- Amber -->
+        <div class="band" data-color="amber">
+          <div class="label">Appeals &amp; Preservation</div>
+          <div class="rows">
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_noticeofappeal">File a Notice of Appeal Within Deadline ⚡ 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_proceduralpreservation">Teaching Procedural Preservation 🔗</a></div>
+            </div>
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_staypendingappeal">Draft a Motion for Stay Pending Appeal ⚡ 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_appellateframing">Teaching Appellate Case Framing 🔗</a></div>
+            </div>
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_preservepretrial">Preserve Issues in Pretrial Motions ⚡ 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_preservationmotionpractice">Teaching Preservation Through Motion Practice 🔗</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gray -->
+        <div class="band" data-color="gray">
+          <div class="label">Procedural Defense &amp; Resistance</div>
+          <div class="rows">
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_mtd">Respond to Improper Motion to Dismiss 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_lawfare">Analyzing Lawfare Tactics &amp; Procedural Resistance 🔗</a></div>
+            </div>
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_sj_evidencematrix">Oppose Summary Judgment with Evidence Matrix 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_resistance">Teaching Procedural Resistance 🔗</a></div>
+            </div>
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_misclassification">Contest Misclassification of Appeal ⚡ 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_jurisdiction">Teaching Jurisdiction &amp; Case Framing 🔗</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blue -->
+        <div class="band" data-color="blue">
+          <div class="label">Filing &amp; Record-Building</div>
+          <div class="rows">
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_indexrecord">Build and Index the Record Before Hearing 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_recordpower">Teaching Record-Building as Procedural Power 🔗</a></div>
+            </div>
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_preservationobjection">File a Procedural Objection to Preserve the Record ⚡ 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_preservationstrategy">Teaching Preservation Strategy 🔗</a></div>
+            </div>
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_prehearingplan">Create a Pre‑Hearing Filing Plan 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_prehearing">Teaching Pre‑Hearing Strategy 🔗</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Teal -->
+        <div class="band" data-color="teal">
+          <div class="label">Coalition &amp; Advocacy</div>
+          <div class="rows">
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_publicaccess">Submit a Public Access Filing 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_transparency">Coalition‑Building Through Procedural Transparency 🔗</a></div>
+            </div>
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_publicarchive">Use Public Archive to Support Motion 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_publicrecord">Teaching Public Record Advocacy 🔗</a></div>
+            </div>
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_advocacygroups">Share Procedural History with Advocacy Groups 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_coalitionstrategy">Teaching Coalition Strategy 🔗</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Crimson -->
+        <div class="band" data-color="crimson">
+          <div class="label">Oversight &amp; Accountability</div>
+          <div class="rows">
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_documenterror">Document Judicial Error Without Contempt Risk 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_oversight">Teaching Oversight &amp; Accountability Mechanisms 🔗</a></div>
+            </div>
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_misconduct">File a Misconduct Complaint 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_accountability">Teaching Accountability Process 🔗</a></div>
+            </div>
+            <div class="row">
+              <div class="cell"><span class="dot"></span><a href="#worker_patternreport">Create a Procedural Pattern Report 🔗</a></div>
+              <div class="cell"><span class="dot"></span><a href="#thinker_systemicanalysis">Teaching Systemic Analysis 🔗</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <a href="#home">Filing is protest. Format is memory. The record is the remedy.</a>
+      </footer>
+    </section>
+
+    <!-- Block 2: Explainer Tiles -->
+    <section class="block" aria-labelledby="tile-title">
+      <h2 id="tile-title">How to Use This Map</h2>
+      <div class="tiles">
+        <article class="tile" data-color="amber">
+          <h3><a href="#tile_deadline">Your Deadline Dashboard 🔗</a></h3>
+          <ul>
+            <li><span class="bullet"></span><span>Start from the task you must do now — file, object, preserve.</span></li>
+            <li><span class="bullet"></span><span>Step‑by‑step instructions and checklists.</span></li>
+            <li><span class="bullet"></span><span>Linked modules for deeper strategy.</span></li>
+            <li><span class="bullet"></span><span>Color coding shows related tasks under pressure.</span></li>
+            <li><span class="bullet"></span><span>⚡ marks time‑sensitive actions.</span></li>
+          </ul>
+        </article>
+        <article class="tile" data-color="blue">
+          <h3><a href="#tile_educators">The Law in Motion (For Educators) 🔗</a></h3>
+          <ul>
+            <li><span class="bullet"></span><span>Begin with preservation, resistance, and record‑building.</span></li>
+            <li><span class="bullet"></span><span>See how concepts play out in real pro se litigation.</span></li>
+            <li><span class="bullet"></span><span>Use in clinics, CLE, and reform courses.</span></li>
+            <li><span class="bullet"></span><span>Color links make lesson planning fast.</span></li>
+          </ul>
+        </article>
+        <article class="tile" data-color="teal">
+          <h3><a href="#tile_shared">One Map — Two Perspectives 🔗</a></h3>
+          <ul>
+            <li><span class="bullet"></span><span>Pro se litigants act with confidence.</span></li>
+            <li><span class="bullet"></span><span>Educators see the lived system from the ground up.</span></li>
+            <li><span class="bullet"></span><span>Shared framework improves training and advocacy.</span></li>
+            <li><span class="bullet"></span><span>Open‑source: use, adapt, and expand.</span></li>
+          </ul>
+        </article>
+      </div>
+      <footer>
+        <a href="#home">Filing is protest. Format is memory. The record is the remedy.</a>
+      </footer>
+    </section>
+  </div>
+
+  <script>
+    // Theme toggle with persistence
+    const btn=document.getElementById('themeBtn');
+    const root=document.documentElement;
+    const saved=localStorage.getItem('lc-theme');
+    if(saved){root.setAttribute('data-theme', saved); btn.textContent = saved==='dark'?'☀️ Light':'🌙 Dark';}
+    btn.addEventListener('click',()=>{
+      const cur=root.getAttribute('data-theme')==='dark'?'light':'dark';
+      root.setAttribute('data-theme', cur); localStorage.setItem('lc-theme',cur);
+      btn.textContent = cur==='dark'?'☀️ Light':'🌙 Dark';
+    });
+
+    // Smooth scroll for internal anchors
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const id=a.getAttribute('href').slice(1);
+        if(!id) return; // allow external later
+        const el=document.getElementById(id);
+        if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth', block:'start'}); }
+      });
+    });
+  </script>
+</body>
+</html>
