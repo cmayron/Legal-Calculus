@@ -1,0 +1,38 @@
+Legal Calculus 4.5 — Enhanced Modules — Module 32
+📘 Legal Calculus — Module 32
+
+The Public Case Page — Notion/GitHub Playbook
+
+⚖️ Core Message
+
+A live case page turns complexity into a single, transparent link.
+📖 Lesson Content
+
+1. Landing Sections: Case overview, timeline, filings, exhibits, media, contact.
+2. Linking: One URL per asset; short labels (Date • Title • Hash).
+3. Access: Public read‑only; private workspace for drafts and notes.
+4. Cadence: Update within 24 hours; add a 'What changed?' line.
+📝 Assignment
+
+Create a one‑page outline for your case page with headings and bullet links (use placeholder URLs and hashes).
+✅ Model Response
+
+CASE PAGE (outline)
+
+• Overview — one paragraph 'what/why now'
+
+• Timeline — 10 dated bullets with links
+
+• Filings — Dkt# • Title • SHA256 • Link
+
+• Exhibits — Ex label • Bates • Link
+
+ 
+
+💡 Reflection Summary
+
+One link beats twenty attachments.
+🎨 Visual Concept
+
+A single URL icon branching to timeline, filings, and exhibits.
+Page
