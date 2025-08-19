@@ -1,0 +1,51 @@
+📘 Legal Calculus — Module 85
+
+Build the Archive — The Case File You Control
+
+⚖️ Core Message
+
+Don’t let the court’s memory be the only memory. A parallel archive makes suppression visible and teaches others how to follow the record.
+
+📖 Lesson Content
+
+1. Purpose — Preserve truth beyond the clerk’s gate; enable teaching, audit, and appeal.
+
+2. Structure — Root folders for Pleadings, Exhibits (Bates), Orders, Timeline, Outreach, Media, FOIA.
+
+3. Public vs. Private — Public (read-only) mirror + private working set; redact PII.
+
+4. Versioning — Date-stamp filenames; keep a CHANGELOG; export PDFs for permanence.
+
+📝 Assignment
+
+Create a 'Case_Archive' folder with the recommended structure, including CHANGELOG.md and a Timeline.csv seeded with five key dates.
+
+✅ Model Response
+
+Case_Archive/
+
+ 00_Timeline/Timeline.csv
+
+ 01_Pleadings/
+
+ 02_Exhibits/Bates_0001-000N/
+
+ 03_Orders/
+
+ 04_Notices/
+
+ 05_FOIA/
+
+ 06_Outreach/Media_Briefs/
+
+ 99_CHANGELOG.md
+
+ 
+
+💡 Reflection Summary
+
+A parallel archive is due process for the public. It prevents truth from being erased.
+
+🎨 Visual Concept
+
+Two file cabinets: 'Court Docket' and 'Public Archive'. The second glows.
