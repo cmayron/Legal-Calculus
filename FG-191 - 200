@@ -1,0 +1,100 @@
+
+⸻
+
+FG-191 — One-Page Mandate Map (Task • Time • Proof)
+	•	⚖️ Core Message: The mandate is a checklist—make it one page.
+	•	📖 Lesson Content: Three rows: Task (findings/hearing/status), Deadline, Proof pin (Dkt/Appx). Attach as Ex. A to a short status.
+	•	📝 Assignment: Draft a 3-row mandate map for your case and paste into your status letter.
+	•	✅ Model Response: “Findings (a–d) by 09/15 → Proof Dkt 101:2–3; 20-min harm-only hearing; status ≤3 pp 09/22.”
+	•	💡 Reflection Summary: Clear lists convert to compliance.
+	•	🎨 Visual Concept: A 3-row grid with green checkboxes.
+
+⸻
+
+FG-192 — “No New Facts” Seal (Trust in 12 Words)
+	•	⚖️ Core Message: Stamp supplements with no-new-facts to preserve credibility.
+	•	📖 Lesson Content: First line: “This filing adds no new facts; cites authority/pins only.” Repeat in 28(j), status, and notices.
+	•	📝 Assignment: Add the no-new-facts line to your next supplement.
+	•	✅ Model Response: “No new facts; Issue 1 turns on missing harm findings (Dkt 18:2).”
+	•	💡 Reflection Summary: Constraints build trust.
+	•	🎨 Visual Concept: A small “NO NEW FACTS” ribbon on the page header.
+
+⸻
+
+FG-193 — Quote the Order, Not Yourself
+	•	⚖️ Core Message: The judge’s words are your best argument.
+	•	📖 Lesson Content: Open with the exact order line (gap/misread), then two pins, then one-line remedy. No adjectives.
+	•	📝 Assignment: Draft a 5-line section that starts with a direct order quote.
+	•	✅ Model Response: “‘Did not reach harm’ (Dkt 18:2) → remand 21d for findings (a–d).”
+	•	💡 Reflection Summary: Their language becomes your leverage.
+	•	🎨 Visual Concept: A highlighted sentence feeding an order card.
+
+⸻
+
+FG-194 — ECF Metadata Fix (Title • Party • Email)
+	•	⚖️ Core Message: Wrong metadata breaks service and search—fix it fast.
+	•	📖 Lesson Content: One-page notice: what’s wrong, correct text, why it matters (service/search), attach corrected first page.
+	•	📝 Assignment: Draft a 6-line ECF metadata correction with a before/after line.
+	•	✅ Model Response: “Correct title to ‘Motion for Preliminary Injunction’; service unchanged; first page attached.”
+	•	💡 Reflection Summary: Small clerical fixes prevent big detours.
+	•	🎨 Visual Concept: “Before/After” labels over a header bar.
+
+⸻
+
+FG-195 — “Pin First, Feeling Later” Edit Pass
+	•	⚖️ Core Message: Start each paragraph with a pin clause; feelings can follow.
+	•	📖 Lesson Content: Rewrite topic sentences: Pin → claim; move modifiers to the end; delete adverbs.
+	•	📝 Assignment: Convert five paragraphs to pin-first structure.
+	•	✅ Model Response: “Dkt 18 at 2 shows harm not reached; denial lacks findings.”
+	•	💡 Reflection Summary: Pages anchor belief; feelings never will.
+	•	🎨 Visual Concept: A paragraph with the first words underlined as a pin.
+
+⸻
+
+FG-196 — OA Packet Legend (So the Bench Doesn’t Guess)
+	•	⚖️ Core Message: Add a 3-line legend to the packet cover.
+	•	📖 Lesson Content: “Dkt at page”; “Ex at page”; “Appx ‘Tab __ p.__’”; include a hash line; number pages 1–6.
+	•	📝 Assignment: Draft the legend for your current OA hand-up.
+	•	✅ Model Response: “Cites to PDF pages; Appx ‘Tab 3 p.2’; packet SHA-256 41be22….”
+	•	💡 Reflection Summary: Tiny map → faster questions.
+	•	🎨 Visual Concept: Packet cover with a small legend box + fingerprint tag.
+
+⸻
+
+FG-197 — Micro-Errata (Fix the Line, Keep the Calendar)
+	•	⚖️ Core Message: Correct one line without restarting clocks.
+	•	📖 Lesson Content: Title: “Micro-Errata (No Schedule Change)”; table: Page • Before → After • Reason; attach corrected page.
+	•	📝 Assignment: Draft a 4-row micro-errata for your brief.
+	•	✅ Model Response: “p.12: ‘reached harm’ → ‘did not reach’; reason: transcription; hash updated.”
+	•	💡 Reflection Summary: Precision + no delay = yes.
+	•	🎨 Visual Concept: A tiny redline strip beside a calendar with an “unchanged” stamp.
+
+⸻
+
+FG-198 — Public Index Capture (Date • Hash • Mirror)
+	•	⚖️ Core Message: Make your index a verifiable artifact.
+	•	📖 Lesson Content: Each row: Date • Title • SHA-256 • Link • Status; footer: “Captured [date]; mirror M-1 same hash.”
+	•	📝 Assignment: Add a capture footer to your index page and export PDF.
+	•	✅ Model Response: “Captured 08/20; SHA-256 …; mirror M-1 same hash.”
+	•	💡 Reflection Summary: Public memory needs fingerprints.
+	•	🎨 Visual Concept: An index table with a fingerprint footer.
+
+⸻
+
+FG-199 — “Decide or Remand” Split Card (OA Hand-Up)
+	•	⚖️ Core Message: A one-screen card offering two clean doors.
+	•	📖 Lesson Content: Decide now (two pins, one-line holding) or limited remand (task/time/scope/fallback). Hash; place as p.2 of packet.
+	•	📝 Assignment: Draft your split card with exact pins.
+	•	✅ Model Response: “Reverse (wrong test; Dkt 18:2; Tab 3 p.2). Or remand 21d for (a–d); 20-min hearing.”
+	•	💡 Reflection Summary: Present the destination, not the road.
+	•	🎨 Visual Concept: Two arrows on one card pointing to a signature strip.
+
+⸻
+
+FG-200 — One-Page Closeout (What • Proof • Next)
+	•	⚖️ Core Message: End each phase with a single page.
+	•	📖 Lesson Content: What happened (one sentence) • Proof (two pins) • Next (one sentence + dates). Post to repo; update index.
+	•	📝 Assignment: Write a 120-word closeout page for your latest order; pin twice.
+	•	✅ Model Response: “Panel remanded for harm findings; order Dkt 101:2–3. Next: findings due 09/15; status 09/22.”
+	•	💡 Reflection Summary: Phases end on paper, not in memory.
+	•	🎨 Visual Concept: A one-page sheet with three bold headers: What • Proof • Next.
