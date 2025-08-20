@@ -1,0 +1,97 @@
+FG-241 — Replace-Without-Reset (Equivalence + Hash)
+	•	⚖️ Core Message: When you replace a PDF, prove equivalence so clocks don’t reset.
+	•	📖 Lesson Content: One-page notice: what changed (scan/rotation/compression), equivalence statement, new SHA-256, and (if pagination moved) a cite-sub table. Ask clerk to suppress prior link.
+	•	📝 Assignment: Draft a 6-line “Replace-Without-Reset” notice for a rotated appendix volume.
+	•	✅ Model Response: “Replace Vol. 2 (orientation fix); no argument change; pins unchanged; new SHA-256 41be22…; suppress prior link.”
+	•	💡 Reflection Summary: Equivalence + hash = instant hygiene.
+	•	🎨 Visual Concept: A tilted page rotating upright with a fingerprint tag.
+
+⸻
+
+FG-242 — Findings Grid (a–d Lines the Court Can Sign)
+	•	⚖️ Core Message: Offer four one-liners the court can adopt as findings.
+	•	📖 Lesson Content: Grid: Success/Harm/Equities/Public; each line has a neutral clause + pin + □ Reached / □ Not reached.
+	•	📝 Assignment: Build a findings grid for your case; paste into OA packet.
+	•	✅ Model Response: “Harm: ‘Record shows timing loss’ (Ex A:1). □ Reached □ Not reached.”
+	•	💡 Reflection Summary: Signable lines beat wishful prose.
+	•	🎨 Visual Concept: A 2×2 checklist with pin placeholders.
+
+⸻
+
+FG-243 — Minimal-Change Mandate (Implement Without Chaos)
+	•	⚖️ Core Message: Draft mandate text that fixes only what’s needed.
+	•	📖 Lesson Content: Sentence 1: task; 2: time; 3: scope (no reopening); 4: fallback (20-min hearing).
+	•	📝 Assignment: Write a four-sentence mandate implementing a factor-gap remand.
+	•	✅ Model Response: “Remand to enter findings (a–d) within 21 days; scope limited to those factors; 20-minute harm-only hearing permitted.”
+	•	💡 Reflection Summary: Narrow mandates get completed.
+	•	🎨 Visual Concept: A narrow corridor from “Opinion” to “Findings.”
+
+⸻
+
+FG-244 — After-Order Math Card (Rehearing • Mandate • Costs)
+	•	⚖️ Core Message: Turn post-decision chaos into a three-row card.
+	•	📖 Lesson Content: Event • Due • Rule • Pin for (1) rehearing, (2) stay/mandate, (3) costs/fees; include roll-forward.
+	•	📝 Assignment: Build your 3-row card and paste at the end of your status.
+	•	✅ Model Response: “Rehearing 14d (FRAP 40); mandate stay ask 7d (FRAP 41); costs 14d (FRAP 39).”
+	•	💡 Reflection Summary: Cards beat paragraphs under time pressure.
+	•	🎨 Visual Concept: Three flagged dates on a small timeline.
+
+⸻
+
+FG-245 — OA “Split Card” Mini (Decide / Clarify)
+	•	⚖️ Core Message: Offer two tiny doors if the panel resists remand.
+	•	📖 Lesson Content: One card: Decide (wrong test; two pins) or Clarify (fix line; no schedule change).
+	•	📝 Assignment: Draft your split card with exact pins.
+	•	✅ Model Response: “Reverse (wrong test; Dkt 18:2; Tab 3 p.2) or clarify n.3 to ‘not reached.’”
+	•	💡 Reflection Summary: Two paths, one destination.
+	•	🎨 Visual Concept: Two arrows pointing to a small signature strip.
+
+⸻
+
+FG-246 — Quote Audit Pass (≤25 Words, Page:Line)
+	•	⚖️ Core Message: Quotes persuade when short + pinned.
+	•	📖 Lesson Content: Cap quotes ≤25 words; add page:line; bracket grammar only; add a quote-to-pin table to your appendix.
+	•	📝 Assignment: Trim two quotes and add exact page:line pins.
+	•	✅ Model Response: “‘Did not reach harm’ (Dkt 18 at 2).”
+	•	💡 Reflection Summary: Surgical quotes gain trust.
+	•	🎨 Visual Concept: A scalpel trimming a quote ribbon with a pin tag.
+
+⸻
+
+FG-247 — Service Fail Safe (ECF + Mail + Courtesy)
+	•	⚖️ Core Message: Service disputes end when three channels are logged.
+	•	📖 Lesson Content: ECF receipt hash; USPS scan/time; courtesy email to non-ECF actors; file a Notice of Service with a 3-row table.
+	•	📝 Assignment: Build the 3-row service table for your last filing.
+	•	✅ Model Response: “ECF 23:57; USPS 07/31 09:42; courtesy email 08/01 16:10 (Ex A–C).”
+	•	💡 Reflection Summary: Redundancy defeats erasure.
+	•	🎨 Visual Concept: Cloud/envelope/hand icons checked off.
+
+⸻
+
+FG-248 — “No New Facts” Macro (Footer Across Docs)
+	•	⚖️ Core Message: Stamp the footer across letters and notices.
+	•	📖 Lesson Content: Footer macro: “No new facts; cites authority/pins only”; link to Master Index for hashes.
+	•	📝 Assignment: Add the footer to your template suite.
+	•	✅ Model Response: “No new facts; pins only. See Master_Index.csv.”
+	•	💡 Reflection Summary: Restraint reads as credibility.
+	•	🎨 Visual Concept: A footer ribbon labeled “No new facts.”
+
+⸻
+
+FG-249 — Exhibit Translator (ER/JA/SA → Tab p.#)
+	•	⚖️ Core Message: Normalize exhibit names across circuits.
+	•	📖 Lesson Content: Put a translator line in front matter: “ER/JA/SA refer to Appx ‘Tab __ p.__’ in this brief”; mirror in bookmarks.
+	•	📝 Assignment: Draft a 4-line translator and insert under your contents page.
+	•	✅ Model Response: “Cites are to PDF pages; ‘ER/JA/SA’ map to Appx tabs by ‘Tab __ p.__.’”
+	•	💡 Reflection Summary: One vocabulary, one map.
+	•	🎨 Visual Concept: Three labels converging on a single tab icon.
+
+⸻
+
+FG-250 — Release Note Card (Date • What • Where to Verify)
+	•	⚖️ Core Message: Each update gets a 60–120 word note—documents, not adjectives.
+	•	📖 Lesson Content: Date • What changed • Where to verify (Master Index row + file); paste to repo and post.
+	•	📝 Assignment: Write and post a release note for your latest filing.
+	•	✅ Model Response: “2025-08-20 — Added OA packet (SHA-256 …); see downloads table; policy-clean hand-ups filed.”
+	•	💡 Reflection Summary: Public memory forces discipline.
+	•	🎨 Visual Concept: A pinned index row with a fingerprint badge.
