@@ -1,0 +1,31 @@
+# Legal Calculus — Full Site + Kits Mega-Bundle v4
+
+## 📦 What’s New (v4)
+- Integrated **Site Bundle v9** (latest site snapshot).
+- Added **Field Guide Master Package (FG-1 → FG-1000)** to the Master Index and downloads table.
+- Regenerated **Start_Here.html** and **HASH_BADGES.md** from the updated Master_Index.csv.
+- Homepage (`index.html`) remains fully CSV-driven for integrity.
+- Includes all prior resources: Enhanced Modules 1–119, Complete Compendium, FG-991→1000 Pack, Roadmap Kit, Clerk 3-Click Packets, Poster, Appellate Kits, Templates, and Tools.
+
+## 🧾 Checksums & Integrity
+- Integrity for all files tracked in `Master_Index.csv` and `HASH_BADGES.md`.
+- Verify with `sha256sum` or any checksum utility.
+
+## 🚀 Deployment Steps
+1. Unzip into your GitHub repo or static host root.
+2. Commit and push files (including `index.html`, `Start_Here.html`, `Master_Index.csv`).
+3. Enable GitHub Pages (Settings → Pages → GitHub Actions for auto-build).
+4. Optionally run:
+   ```bash
+   ./build_all.sh https://yourdomain/path/
+   ```
+   to regenerate poster + bundle.
+
+## 🔖 Versioning
+- **v1** — Initial full-site bundle with base kits.
+- **v2** — Added CSV workflow, helper scripts, and Makefile.
+- **v3** — Integrated Field Guide Master Package (skeleton + quick refs).
+- **v4** — Added Site Bundle v9, Master Index update, and changelog.
+
+---
+**Release Date:** 2025-08-20
