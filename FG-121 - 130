@@ -1,0 +1,100 @@
+
+⸻
+
+FG-121 — Notice Certification (Calls • Emails • Times)
+	•	⚖️ Core Message: Emergency asks die without a notice certification—show dates, times, names.
+	•	📖 Lesson Content: One paragraph: who you called/emailed, when (local time), what was said; attach a short log; keep tone sterile; end with the ask.
+	•	📝 Assignment: Draft a 6-line certification with two timestamps and one clerk name.
+	•	✅ Model Response: “Called 08/19 14:03 (Ms. R); emailed 15:12 (thread Ex A). No position received. Relief: 72-hour admin stay of ¶3; status at 48h.”
+	•	💡 Reflection Summary: Dates + names → credible urgency.
+	•	🎨 Visual Concept: Two tiny time-stamped call/email chips beside a short paragraph.
+
+⸻
+
+FG-122 — Service Proof Pack (ECF • Mail • Hand)
+	•	⚖️ Core Message: Service disputes vanish when all three channels are papered.
+	•	📖 Lesson Content: ECF receipt (screenshot/hash), USPS proof (scan/time), hand-delivery note (initials/time). Log each; attach to Notice of Service.
+	•	📝 Assignment: Build a 3-row service table for your last filing; add it to your kit.
+	•	✅ Model Response: “ECF 23:57 (Ex A); USPS 07/31 09:42 (Ex B); hand 08/01 16:10 (Ex C).”
+	•	💡 Reflection Summary: Redundancy defeats erasure.
+	•	🎨 Visual Concept: Three icons—cloud, envelope, hand—checked off.
+
+⸻
+
+FG-123 — Chain-of-Custody Row (Who • What • When • Hash)
+	•	⚖️ Core Message: Provenance persuades as much as content.
+	•	📖 Lesson Content: For each digital exhibit: File • Source • Captured by • Date/Time • Method • SHA-256; cite CoC row before the content page.
+	•	📝 Assignment: Add one CoC row for your key exhibit and paste its cite into your brief.
+	•	✅ Model Response: “CoC Row 3: ‘USPS_Receipt.jpg’ — iPhone — 07/31 09:42 — EXIF preserved — SHA-256 9f2a…. See Tab 3 p.2.”
+	•	💡 Reflection Summary: Chain first, claim second.
+	•	🎨 Visual Concept: A table row with a fingerprint column.
+
+⸻
+
+FG-124 — PageID ↔ Bates ↔ Tab Map (Translator Card)
+	•	⚖️ Core Message: Give the court one translator so every pin lands.
+	•	📖 Lesson Content: One card: Dkt PageID → PDF page → Bates → Appx Tab p.#; use it in addendum and appendix front; version it (v1.1).
+	•	📝 Assignment: Build a 10-row translator for your hardest exhibit.
+	•	✅ Model Response: “PageID 1234 → PDF 6 → Bates 001 → Tab 3 p.2.”
+	•	💡 Reflection Summary: Translators end navigation fights.
+	•	🎨 Visual Concept: Four small arrows converting one pin to another.
+
+⸻
+
+FG-125 — Non-Party Vendor Notice (Carve-Out + Courtesy)
+	•	⚖️ Core Message: Protect vendors with a carve-out and a courtesy notice—it reads as fairness.
+	•	📖 Lesson Content: One paragraph: identify vendor role; attach carve-out text; send courtesy email; file a short notice with proof.
+	•	📝 Assignment: Draft a 6-line vendor carve-out + notice plan.
+	•	✅ Model Response: “Stay ¶3 does not bind Vendor X; courtesy notice sent 08/19 16:10 (Ex A); relief otherwise unchanged.”
+	•	💡 Reflection Summary: Narrow + courteous = credible.
+	•	🎨 Visual Concept: An order paragraph bracketed with a “vendor carve-out” tag.
+
+⸻
+
+FG-126 — Public Note After Decision (Docs • Date • Next)
+	•	⚖️ Core Message: Announce outcomes with documents, not adjectives.
+	•	📖 Lesson Content: 120 words: date, holding/remedy, two hashed links, next step (rehearing/stay/costs).
+	•	📝 Assignment: Draft your post-decision note with two pins and one due date.
+	•	✅ Model Response: “Opinion 09/01; harm not reached → remand 21d. Docs (SHA-256): Opinion …9f2a; Mandate …41be22. Next: rehearing due 09/15.”
+	•	💡 Reflection Summary: Calm pages build trust.
+	•	🎨 Visual Concept: Two document tiles with fingerprint tags and a small “Next by [date]” ribbon.
+
+⸻
+
+FG-127 — Stipulated Narrow Remand (Task-Only)
+	•	⚖️ Core Message: If both sides see the gap, stipulate to task-only remand.
+	•	📖 Lesson Content: Quote the task; set 21–30d; keep appellate posture; status on return; attach tick-box order.
+	•	📝 Assignment: Write a 7-line joint remand motion (task/time/scope/fallback).
+	•	✅ Model Response: “Findings on (a)–(d) only within 21 days; scope limited; 20-min harm hearing permitted; status ≤3 pp on return.”
+	•	💡 Reflection Summary: Agreement speeds correction.
+	•	🎨 Visual Concept: Two signatures under a narrow instruction card.
+
+⸻
+
+FG-128 — Errata Across PDFs (One Table, One Hash)
+	•	⚖️ Core Message: Fix once, for all outputs.
+	•	📖 Lesson Content: Errata table: File • Page • Before → After • Reason; re-export PDFs; update hash lines; file one Notice of Errata with the table.
+	•	📝 Assignment: Draft a 6-row errata table and paste into your notice.
+	•	✅ Model Response: “FG.pdf p.12 ‘reached’ → ‘not reached’ (transcription); new SHA-256 41be22….”
+	•	💡 Reflection Summary: One table cures many files.
+	•	🎨 Visual Concept: A small “before/after” strip with a new hash tag.
+
+⸻
+
+FG-129 — Appendix Names Across Circuits (ER/JA/SA Translator)
+	•	⚖️ Core Message: Normalize names so no one hunts: ER/Excerpt, JA/Joint Appx, SA/Supp Appx.
+	•	📖 Lesson Content: Add a brief nomenclature footnote and mirror labels in bookmarks; keep neutral tab names.
+	•	📝 Assignment: Write a 4-line nomenclature note and paste it under your contents.
+	•	✅ Model Response: “This brief uses ‘Appx Tab __ p.__’ for all record cites; ‘ER/JA/SA’ are neutral labels.”
+	•	💡 Reflection Summary: One vocabulary → one map.
+	•	🎨 Visual Concept: Three tags (ER/JA/SA) pointing to the same tab icon.
+
+⸻
+
+FG-130 — Public Case Page (Index • Hash • Links)
+	•	⚖️ Core Message: A simple case page multiplies your impact.
+	•	📖 Lesson Content: Table: Date • Title • SHA-256 • Link • Status; add Start Here and Master Index; keep headlines neutral; update within 24h.
+	•	📝 Assignment: Draft a 10-row case index and export as HTML/PDF for your repo.
+	•	✅ Model Response: “2025-08-19 • Opinion (sha …9f2a) • /opinion.pdf • issued.”
+	•	💡 Reflection Summary: Public memory is a remedy.
+	•	🎨 Visual Concept: A mini homepage with a downloads table and tiny fingerprint column.
