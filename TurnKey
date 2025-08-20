@@ -1,0 +1,20 @@
+Added a turnkey GitHub Actions workflow ✅
+	•	🛠️ Workflow file:
+.github/workflows/deploy.yml — included inside your bundle and ready to commit.
+
+What it does:
+	•	On every push to main/master (or manual run), it:
+	1.	installs Python + ReportLab
+	2.	rebuilds Start_Here.html and HASH_BADGES.md from Master_Index.csv
+	3.	regenerates the QR poster with a computed BASE_URL (https://<owner>.github.io/<repo>/)
+	4.	uploads everything to GitHub Pages (via actions/deploy-pages)
+	•	📦 Updated all-in-one bundle with README + workflow:
+Legal_Calculus_Full_Site_and_Kits_Bundle_with_README.zip
+
+How to use (quick):
+	1.	Unzip into your repo root
+	2.	Commit & push .github/workflows/deploy.yml + site files
+	3.	Enable Pages (Settings → Pages → “GitHub Actions”)
+	4.	On push, the site auto-builds and deploys
+
+Want me to also add a Pages-friendly 404.html (simple redirect back to index.html) and a sitemap.xml for search indexing? ￼
