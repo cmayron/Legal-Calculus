@@ -1,0 +1,97 @@
+FG-291 — Pin Dictionary (Legend Footnote & Card)
+	•	⚖️ Core Message: Teach your pin vocabulary once and reuse it everywhere.
+	•	📖 Lesson Content: First-use footnote + front-matter card: “Dkt 18 at 2 = PDF page; Ex A at 1 = exhibit page; Appx ‘Tab 3 p.2’ = appendix page; PageID if the court uses it.” Dual-pin the first cite, then the simpler form thereafter.
+	•	📝 Assignment: Draft a 5-line legend and paste it on page one and in a footnote.
+	•	✅ Model Response: “Cites are to PDF pages: ‘Dkt 18 at 2’; exhibits ‘Ex A at 1’; appendix ‘Tab 3 p.2’; PageID on first use.”
+	•	💡 Reflection Summary: One legend ends weeks of hunting.
+	•	🎨 Visual Concept: A small “Legend” card with three labeled pin tags.
+
+⸻
+
+FG-292 — Appendix Jump Links (Anchors & Back-to-Brief)
+	•	⚖️ Core Message: If links are allowed, make one-click out and back.
+	•	📖 Lesson Content: Add anchor headings at each tab (“Tab 3 p.2”) and a subtle “Back to Br. 12” link on the page; mirror with bookmarks; keep a non-linked master copy as the official file.
+	•	📝 Assignment: Add 10 anchors + “Back to Br. __” tags; re-export master and linked versions.
+	•	✅ Model Response: “Legend: [Dkt 18 at 2] → Appx ‘Tab 3 p.2’ → ‘Back to Br. 12’; non-linked PDF filed concurrently.”
+	•	💡 Reflection Summary: Navigation is relief’s best friend.
+	•	🎨 Visual Concept: An appendix page with a small “Back to Br. 12” tag.
+
+⸻
+
+FG-293 — PDF Title & Metadata Hygiene (Search & Service)
+	•	⚖️ Core Message: Clean Title metadata + searchable PDF/A stops “we couldn’t find it.”
+	•	📖 Lesson Content: Set Title = caption + short doc name; Author = party/counsel; PDF/A; bookmarks mirror H2s; remove comments/layers; file a one-line metadata correction if intake used the wrong title.
+	•	📝 Assignment: Update Title metadata on three exports; add a 4-line metadata notice template.
+	•	✅ Model Response: “Correct title to ‘Opening Brief (Ryan-Touhill)’; searchable PDF/A; bookmarks mirror headings.”
+	•	💡 Reflection Summary: Metadata is how the court’s systems see you.
+	•	🎨 Visual Concept: A PDF info panel with “Title/Author” green-checked.
+
+⸻
+
+FG-294 — Redaction Log (Line • Reason • Revisit)
+	•	⚖️ Core Message: Redact lines, not pages—log it and revisit.
+	•	📖 Lesson Content: Table: Tab • Page:Line • Reason (PII/safety/CBI) • Revisit date (e.g., +90d). File public-redacted + sealed originals; list hashes for both.
+	•	📝 Assignment: Write a 6-row redaction log and a 7-line seal/replace notice.
+	•	✅ Model Response: “Appx Tab 7 p.3 l.4–17 (PII); public/ sealed pages attached; revisit 90 days; SHA-256 listed.”
+	•	💡 Reflection Summary: Surgical, logged redactions earn trust.
+	•	🎨 Visual Concept: A page with a few thin black bars and a small clock ribbon “90d.”
+
+⸻
+
+FG-295 — CHECKSUMS & Mirrors (Same Hash, Two Doors)
+	•	⚖️ Core Message: A CHECKSUMS.txt + a mirror with the same hash ends link fights.
+	•	📖 Lesson Content: For each file, publish SHA-256 in CHECKSUMS.txt; maintain M-1/M-2 mirrors; if content changes, issue Notice of Mirror Update (same hash) or Errata (new hash).
+	•	📝 Assignment: Generate a CHECKSUMS.txt for your latest kit and post a mirror line.
+	•	✅ Model Response: “OA_6pp.pdf — SHA-256 41be22…; mirror M-1 same hash; index updated.”
+	•	💡 Reflection Summary: Hashes are the trust you can prove.
+	•	🎨 Visual Concept: Two identical tiles connected by a fingerprint thread.
+
+⸻
+
+FG-296 — De-Dupe the Appendix (Equivalence Map)
+	•	⚖️ Core Message: Kill duplicate pages with an equivalence table.
+	•	📖 Lesson Content: Table: Old Tab p.# → New Tab p.# (equivalent); compress or rotate; no argument change; new file hash; pin-substitution only if page numbers move.
+	•	📝 Assignment: Build a 6-row equivalence map and a 6-line replacement notice.
+	•	✅ Model Response: “Replace Vol. 2 (deskew/compress); tabs equivalent per Ex. A; SHA-256 …; no pin change.”
+	•	💡 Reflection Summary: Smaller books, same proof.
+	•	🎨 Visual Concept: Two page tiles merging with an equals sign and a fingerprint.
+
+⸻
+
+FG-297 — LEP & Language Access (Interpreters • Translations)
+	•	⚖️ Core Message: Ask early for language access; attach the logistics.
+	•	📖 Lesson Content: Identify LEP need; request interpreter/translation for OA or filings; note format (Zoom/tele/in-person), time, and attach a policy cite; provide documents list to translate (hashed).
+	•	📝 Assignment: Draft a 7-line language-access request with two windows and a doc list.
+	•	✅ Model Response: “Relief: interpreter for 15-min OA; Tue/Wed 2–4 PM; docs A–C (SHA-256 …) for translation.”
+	•	💡 Reflection Summary: Access is schedule + specifics.
+	•	🎨 Visual Concept: A speech-bubble icon with a small globe and calendar.
+
+⸻
+
+FG-298 — Exhibit Thumbnail Index (One Look, All Tabs)
+	•	⚖️ Core Message: A single thumbnail sheet turns “where?” into “here.”
+	•	📖 Lesson Content: One-page grid: Exhibit • Purpose • Auth pin • Content pin with small thumbnails; place at appendix front; hash footer; link to tabs if allowed.
+	•	📝 Assignment: Build a 12-thumb index page for your key exhibits.
+	•	✅ Model Response: “Ex A — USPS receipt — Auth Decl ¶4 (S-1 p.1) — Content Tab 3 p.2 — SHA-256 ….”
+	•	💡 Reflection Summary: Seeing the map accelerates reading.
+	•	🎨 Visual Concept: A contact-sheet style page with tiny previews and pins.
+
+⸻
+
+FG-299 — Case README (Public Page for Humans)
+	•	⚖️ Core Message: A plain-language README turns your case into a playbook.
+	•	📖 Lesson Content: Headings: What happened (1 sentence), Where to verify (two hashed links), What’s next (date), Relief text (one line). Post to repo root; update within 24h.
+	•	📝 Assignment: Draft a 150-word README for your matter with two hashes.
+	•	✅ Model Response: “Opinion 09/01 (sha …9f2a); Mandate (sha …41be22); next: findings due 09/15; relief: remand 21d (a–d).”
+	•	💡 Reflection Summary: Humans need one page, too.
+	•	🎨 Visual Concept: A clean web card with two fingerprint-tagged links.
+
+⸻
+
+FG-300 — Closeout v1 (Kit • Index • Note)
+	•	⚖️ Core Message: End each phase by shipping a v1 kit with hashes and a note.
+	•	📖 Lesson Content: ZIP: StartHere.md • OA card • Findings grid • Relief bank • Appendix guide; post CHECKSUMS.txt; add a Release Note row to your index.
+	•	📝 Assignment: Export your v1 kit and write a 90-word release note with hash lines.
+	•	✅ Model Response: “Release v1 — posts OA 6pp, findings card, relief bank; CHECKSUMS posted; next: status 09/22.”
+	•	💡 Reflection Summary: Closure creates momentum for the next step.
+	•	🎨 Visual Concept: A ribboned ZIP tile with a fingerprint tag and a short note.
