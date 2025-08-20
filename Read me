@@ -1,0 +1,10 @@
+All set ✅
+
+Here’s your updated full site + kits bundle with a README included:
+	•	📦 Legal_Calculus_Full_Site_and_Kits_Bundle_with_README.zip
+
+Inside you’ll now find:
+	•	Everything from the site (index.html, Start Here, Master Index, kits, poster, builders, Makefile, etc.)
+	•	Plus a README.txt explaining exactly how to run build_all.sh, regenerate Start_Here.html & HASH_BADGES.md, and rebuild the QR poster with your hosting URL.
+
+Do you want me to also add a sample deployment workflow (GitHub Actions YAML) so that every push auto-regenerates the site + poster and publishes to Pages? ￼
