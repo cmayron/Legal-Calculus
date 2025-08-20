@@ -1,0 +1,97 @@
+FG-161 — Emergency Triage (Clock • Harm • Scope)
+	•	⚖️ Core Message: In emergencies, decide three things fast: deadline, irreparable harm, narrow scope.
+	•	📖 Lesson Content: Write the date/time that matters (local court time), one sentence of non-recoverable harm, and the smallest relief that averts it (one paragraph/line). Everything else waits.
+	•	📝 Assignment: Draft a 4-line triage note (deadline • harm • scope • pin).
+	•	✅ Model Response: “Ballot print 09/05 12:00; unrecoverable reprint costs (Vendor Decl ¶7); stay ¶3 only; Dkt 18 at 2.”
+	•	💡 Reflection Summary: Small + dated + pinned beats chaos.
+	•	🎨 Visual Concept: A triangle labeled Clock / Harm / Scope.
+
+⸻
+
+FG-162 — Two-Page Emergency Pack (Motion + Order)
+	•	⚖️ Core Message: In a crisis, file two pages: 1-page motion + 1-page tick-box order.
+	•	📖 Lesson Content: Motion: ask • standard • two pins • narrow scope • status date. Order: grant/deny boxes • scope line • sunset • status.
+	•	📝 Assignment: Build a 2-page template that you can fill in 5 minutes.
+	•	✅ Model Response: “Relief: stay ¶3 72h (wrong test; Dkt 18:2; Tab 3 p.2); status 48h; sunset automatic.”
+	•	💡 Reflection Summary: Short papers move calendars; long ones miss them.
+	•	🎨 Visual Concept: Two sheets clipped—“Motion” and “Order” with checkboxes.
+
+⸻
+
+FG-163 — Vendor Harm Declaration (Irreparable = Non-Recoverable)
+	•	⚖️ Core Message: Emergency harm is money you can’t get back and deadlines that won’t wait.
+	•	📖 Lesson Content: Vendor decl: role, date-stamped PO, non-recoverable costs/time, specific steps paused by ¶/order. Pin the invoice and calendar.
+	•	📝 Assignment: Draft a 9-line vendor declaration with one invoice and one date pin.
+	•	✅ Model Response: “Print window closes 09/05; reprint costs non-recoverable; ¶3 forces redesign; PO Ex A; calendar Ex B.”
+	•	💡 Reflection Summary: Irreparable = no refund + no redo.
+	•	🎨 Visual Concept: A receipt icon with a clock overlay.
+
+⸻
+
+FG-164 — Decision-by-Date Skeleton (Show the Math)
+	•	⚖️ Core Message: Asking for a date works only if you show the math.
+	•	📖 Lesson Content: One line why the date matters; a 4-row clock table (trigger → interval → due → roll-forward); a one-line fallback admin stay.
+	•	📝 Assignment: Draft a 7-line “decide by” motion with the clock table.
+	•	✅ Model Response: “Decide by 09/05 (print). Rule 58 08/15 → +30 → 09/14 → weekend → 09/15; fallback 72h stay of ¶3.”
+	•	💡 Reflection Summary: Dates persuade when computed, not asserted.
+	•	🎨 Visual Concept: A calendar with a small math box.
+
+⸻
+
+FG-165 — After-Hours Filing Protocol (Receipts or It Didn’t Happen)
+	•	⚖️ Core Message: Nights/weekends require receipts + redundancy.
+	•	📖 Lesson Content: Attempt ECF; capture error/receipt; email clerk per standing order; voicemail log with time; overnight courier; hash PDFs. File a notice next business day with artifacts.
+	•	📝 Assignment: Write a 6-step after-hours checklist you can keep by your keyboard.
+	•	✅ Model Response: “ECF receipt 23:57; clerk email 00:07; voice log 00:10; courier 01:00; hash posted; notice filed 09:00.”
+	•	💡 Reflection Summary: Artifacts turn late into timely.
+	•	🎨 Visual Concept: A night-mode screen next to a small receipt strip.
+
+⸻
+
+FG-166 — Telephonic/Zoom Window Ask (Two Slots, No Drama)
+	•	⚖️ Core Message: Offer two realistic windows; keep it sterile.
+	•	📖 Lesson Content: Note caption, time need, two slots within 3–5 days, opponent’s position, and a fallback “submit on briefs.”
+	•	📝 Assignment: Draft a 7-line window request with the PACR (pin, availability, coordination, relief).
+	•	✅ Model Response: “Request 20-min Zoom; slots Tue/Wed 2–4 PM; opposing does not oppose; relief: stay ¶3 72h or limited remand 21d.”
+	•	💡 Reflection Summary: Specific windows get scheduled.
+	•	🎨 Visual Concept: Two highlighted time blocks on a week grid.
+
+⸻
+
+FG-167 — Emergency Undertakings (Security Without Cash)
+	•	⚖️ Core Message: Propose non-cash undertakings to earn a narrow stay.
+	•	📖 Lesson Content: Table: Risk → Undertaking (inventory → escrow item; timing → weekly report; fees → hold-harmless). Put a sunset and status line under the table.
+	•	📝 Assignment: Build a 4-row risk/undertaking table for your case.
+	•	✅ Model Response: “Risk: reprint loss → weekly report + vendor attestation; sunset 21d; status at day 14.”
+	•	💡 Reflection Summary: Security ≠ bond only.
+	•	🎨 Visual Concept: A lock icon next to a checklist (Escrow/Report/Hold-harmless).
+
+⸻
+
+FG-168 — Emergency Timeline Card (10 Rows, One Page)
+	•	⚖️ Core Message: A single-page timeline guides urgent relief faster than prose.
+	•	📖 Lesson Content: Date • Event • Pin • Effect; right-align dates; keep effects ≤6 words; add capture/hash footer. Use as OA hand-up.
+	•	📝 Assignment: Build a 10-row emergency timeline, hash it, file with your motion.
+	•	✅ Model Response: “09/05 print deadline — Vendor PO Ex A — non-recoverable; SHA-256 41be22… (captured 08/19).”
+	•	💡 Reflection Summary: Time + pin → relief.
+	•	🎨 Visual Concept: A tight table with a fingerprint footer.
+
+⸻
+
+FG-169 — Three-Door Emergency Menu (Admin • Narrow • Limited Remand)
+	•	⚖️ Core Message: Give the court three signable doors today.
+	•	📖 Lesson Content: Admin stay 48–72h; narrow stay of one ¶ with status/sunset; limited remand (task/time/scope). Two lines total.
+	•	📝 Assignment: Paste your 3-door menu as a footer in emergency filings.
+	•	✅ Model Response: “□ Admin 72h of ¶3 □ Stay ¶3 21d (status 14d) □ Remand 21d for findings (a–d).”
+	•	💡 Reflection Summary: Choice is speed.
+	•	🎨 Visual Concept: Three buttons feeding one signature line.
+
+⸻
+
+FG-170 — Post-Emergency Cleanup (Status • Convert • Calendar)
+	•	⚖️ Core Message: Close loops—status, convert emails to docket, reset dates.
+	•	📖 Lesson Content: File a 120-word status with what happened, two pins, new clock table, and any clarify line needed. Convert all emergency emails into a one-page Notice of Clerk Communication.
+	•	📝 Assignment: Draft the 120-word status + a 4-row new deadline table.
+	•	✅ Model Response: “Admin stay entered; vendor attested (Decl ¶7). New clock: 08/15 → +30 → 09/14 → weekend → 09/15; reply 09/22.”
+	•	💡 Reflection Summary: Emergencies end with paperwork, not relief.
+	•	🎨 Visual Concept: A broom icon next to a small calendar strip and a “Notice” tag.
