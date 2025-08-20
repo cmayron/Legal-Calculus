@@ -1,0 +1,97 @@
+FG-171 — One-Page Affidavit (Who • What • When • Proof)
+	•	⚖️ Core Message: Affidavits persuade when they are dated, specific, and pinned.
+	•	📖 Lesson Content: Five parts: Identity, Timeline bullets (dates/times), Facts in first person, Exhibit pins (Decl ¶→ Ex A:1), Perjury line + signature/date.
+	•	📝 Assignment: Draft a 10-bullet timeline affidavit with two exhibit pins.
+	•	✅ Model Response: “07/31 09:42 USPS receipt (Ex A:1); 08/02 portal error 503 (Ex B). I declare under penalty of perjury….”
+	•	💡 Reflection Summary: Specifics + oath convert narrative to proof.
+	•	🎨 Visual Concept: A sworn stamp over a tight bullet timeline.
+
+⸻
+
+FG-172 — Short RJN (Official Acts Only)
+	•	⚖️ Core Message: Notice existence/date/text of official acts—no advocacy.
+	•	📖 Lesson Content: Identify the source (court/agency), attach the PDF/hash, state why relevant (mootness/coordination), request judicial notice.
+	•	📝 Assignment: Draft a 6-line RJN with an official docket link and hash.
+	•	✅ Model Response: “Notice: Order entered 09/01 (official site; SHA-256 …); relevance: coordination; no merits argument.”
+	•	💡 Reflection Summary: Facts of record, not facts in dispute.
+	•	🎨 Visual Concept: A small gavel over a document with a fingerprint tag.
+
+⸻
+
+FG-173 — Exhibit Ladder (Auth → Content → Effect)
+	•	⚖️ Core Message: Show authentication first, then what, then why it matters.
+	•	📖 Lesson Content: Cite auth page (902(11)/clerk stamp/EXIF), then content page, then relevance line tied to a factor.
+	•	📝 Assignment: For two exhibits, write a 3-line ladder (auth/content/effect) with pins.
+	•	✅ Model Response: “Auth: Decl ¶4 (Tab S-1 p.1). Content: invoice (Tab 3 p.2). Effect: harm cost.”
+	•	💡 Reflection Summary: Provenance → payload → purpose.
+	•	🎨 Visual Concept: Three rungs labeled Auth/Content/Effect.
+
+⸻
+
+FG-174 — Findings Template (Fill-in Lines the Court Can Adopt)
+	•	⚖️ Core Message: Hand the judge neutral one-liners for each factor.
+	•	📖 Lesson Content: Four lines: Success/Harm/Equities/Public with blank pin boxes; add “Reached / Not reached” checkboxes; file as proposed findings.
+	•	📝 Assignment: Draft a one-page findings sheet with four lines and pin placeholders.
+	•	✅ Model Response: “Harm: ‘Record shows timing loss (Ex A:1).’ □ Reached □ Not reached.”
+	•	💡 Reflection Summary: Signable text accelerates decisions.
+	•	🎨 Visual Concept: A clean checklist sheet with small empty pin slots.
+
+⸻
+
+FG-175 — Quote-to-Pin Map (Prevent Misread)
+	•	⚖️ Core Message: Every quote gets a page:line and a nearby pin.
+	•	📖 Lesson Content: Build a side-by-side: Quote | Pin | Purpose; keep quotes ≤25 words; bracket grammar only.
+	•	📝 Assignment: Make a 6-row quote-to-pin table for your brief’s key lines.
+	•	✅ Model Response: “‘Did not reach harm’ — Dkt 18 at 2 — remand for findings.”
+	•	💡 Reflection Summary: Precision defeats paraphrase.
+	•	🎨 Visual Concept: A quote ribbon connected to a pin tag.
+
+⸻
+
+FG-176 — Narrow OA Ask (One Sentence You’ll Repeat)
+	•	⚖️ Core Message: End every answer with the same one-line ask.
+	•	📖 Lesson Content: Script a neutral line: standard + two pins + remedy; repeat until it lands.
+	•	📝 Assignment: Write your repeatable ask in ≤18 words.
+	•	✅ Model Response: “Abuse; harm not reached (Dkt 18:2; Tab 3 p.2); remand 21d for findings.”
+	•	💡 Reflection Summary: Repetition is direction.
+	•	🎨 Visual Concept: Echoing speech bubbles pointing to an order card.
+
+⸻
+
+FG-177 — Calendar Math Note (Footer on Every Filing)
+	•	⚖️ Core Message: Put clock math where judges can’t miss it.
+	•	📖 Lesson Content: Footer: Trigger → +interval → due → roll (local time); tie to your schedule ask; keep it one line.
+	•	📝 Assignment: Add a calendar-math footer to your next filing.
+	•	✅ Model Response: “Rule 58 08/15 → +30 → 09/14 → weekend → 09/15 (11:59 PM local).”
+	•	💡 Reflection Summary: Math ends deadline debates.
+	•	🎨 Visual Concept: A slim footer bar with a calendar icon and dates.
+
+⸻
+
+FG-178 — Minimal Relief First (Win the Small, Open the Door)
+	•	⚖️ Core Message: Ask for the least that cures the harm; earn trust.
+	•	📖 Lesson Content: Lead with clarify (one line) or 72h admin stay; place remand/stay ladders after; show no prejudice.
+	•	📝 Assignment: Replace your first ask with a smaller one in 2 lines.
+	•	✅ Model Response: “Clarify n.3 to ‘not reached’; alternatively admin stay ¶3 72h; status at 48h.”
+	•	💡 Reflection Summary: Small wins lead to bigger doors.
+	•	🎨 Visual Concept: A small green check opening a larger door.
+
+⸻
+
+FG-179 — OA Packet Hash & Notice (Same Day or It Didn’t Happen)
+	•	⚖️ Core Message: If you hand it up, file it with a hash the same day.
+	•	📖 Lesson Content: Compute SHA-256, file Notice of OA Materials with packet as an exhibit; mirror labels; add to your public index.
+	•	📝 Assignment: Write a 6-line notice template with a hash line.
+	•	✅ Model Response: “OA Packet (6 pp.) attached; SHA-256 41be22…; pins to Dkt 18:2 / Tab 3 p.2.”
+	•	💡 Reflection Summary: Hand + hash = history.
+	•	🎨 Visual Concept: A thin packet arrowing into a docket tile with a fingerprint.
+
+⸻
+
+FG-180 — Public Index Discipline (Update Within 24 Hours)
+	•	⚖️ Core Message: Credibility grows when your index stays fresh.
+	•	📖 Lesson Content: Add a row: Date • Title • SHA-256 • Link • Status; keep neutral headlines; post the Start Here and Master Index at the top.
+	•	📝 Assignment: Add your latest filing to the public index with the new hash.
+	•	✅ Model Response: “2025-08-20 • FG-1→50 Expanded (sha …9f2a) • /Field_Guide_FG1_50_Expanded.zip • posted.”
+	•	💡 Reflection Summary: Public memory = pressure that lasts.
+	•	🎨 Visual Concept: A clean index row with a fingerprint badge.
