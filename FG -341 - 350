@@ -1,0 +1,97 @@
+FG-341 — Page Numbering Translator (PDF • Bates • PageID)
+	•	⚖️ Core Message: Tell the court which number is which—once.
+	•	📖 Lesson Content: Legend: PDF page = “Dkt 18 at 2”; Bates = “Bates 001”; ECF PageID if used; show first dual-pin, then simple form; mirror in appendix/bookmarks.
+	•	📝 Assignment: Draft a 4-line translator and paste under your contents page.
+	•	✅ Model Response: “Cites are to PDF pages (‘Dkt 18 at 2’). Bates used in exhibits (‘Bates 001’). First use includes PageID where available.”
+	•	💡 Reflection Summary: One translator kills three hunts.
+	•	🎨 Visual Concept: Three tags (PDF/Bates/PageID) converging on one quote.
+
+⸻
+
+FG-342 — RJN of Official Acts (Existence • Date • Text)
+	•	⚖️ Core Message: Notice official records, not disputed facts.
+	•	📖 Lesson Content: Identify source (court/agency), attach or link official PDF, add capture/hash line; one sentence on relevance (mootness/coordination); no argument.
+	•	📝 Assignment: Draft a 6-line RJN with a capture/hash footer.
+	•	✅ Model Response: “Notice: 09/01 order (official site; captured 09/02; SHA-256 …); relevance: mandate timing; no merits argument.”
+	•	💡 Reflection Summary: Records, not rhetoric.
+	•	🎨 Visual Concept: A gavel tile with a tiny fingerprint footer.
+
+⸻
+
+FG-343 — “As-Filed Hash” Notice (Lock the Version)
+	•	⚖️ Core Message: Publishing the SHA-256 for your filing stops version fights.
+	•	📖 Lesson Content: Same-day notice: file name • SHA-256 • mirrors; state “PDF pages convention”; add to public index.
+	•	📝 Assignment: Generate a hash for your last PDF and draft the 5-line notice.
+	•	✅ Model Response: “Opening_Brief_v3.pdf — SHA-256 41be22…; mirrors M-1/M-2 same hash; cites to PDF pages.”
+	•	💡 Reflection Summary: Integrity you can prove.
+	•	🎨 Visual Concept: A document tile with a bold fingerprint line.
+
+⸻
+
+FG-344 — S-Tab Protocol (Sealed • Neutral • Index)
+	•	⚖️ Core Message: Sealed materials get neutral S-tabs and a sealed index to chambers.
+	•	📖 Lesson Content: Label “S-1, S-2…”; neutral titles; public stub cites “S-# at p.#”; sealed index shows Tab • Page • Purpose; include hash for sealed PDF.
+	•	📝 Assignment: Build a 10-row sealed index + one public stub legend.
+	•	✅ Model Response: “Public: ‘S-2 at 4 (supports harm).’ Chambers index: S-2 | 4 | supports factor (b) | SHA-256 ….”
+	•	💡 Reflection Summary: Neutrality + mapping = trust.
+	•	🎨 Visual Concept: A lock icon tab list with a slim index card.
+
+⸻
+
+FG-345 — Email Thread Exhibit (Headers • Message-ID • Body)
+	•	⚖️ Core Message: Prove email authenticity with headers first.
+	•	📖 Lesson Content: Exhibit stack: Header page (From/To/Date/Subject/Message-ID), then body; cite Message-ID; preserve .eml under seal if needed; add EXIF/metadata note.
+	•	📝 Assignment: Convert one email into a two-page auth-first exhibit.
+	•	✅ Model Response: “Auth: Header (Message-ID <…>) — Tab S-1 p.1; Content: body — Tab 3 p.2.”
+	•	💡 Reflection Summary: Headers are the key.
+	•	🎨 Visual Concept: An email header pane with a key icon.
+
+⸻
+
+FG-346 — Affidavit of Non-Service (Log • Artifact • Ask)
+	•	⚖️ Core Message: Non-service becomes proof with a log + artifacts.
+	•	📖 Lesson Content: Affidavit bullets: dates/times, channels checked (ECF/mail/courtesy), artifact pins (USPS scan/screenshot), prejudice line; ask: re-serve + reset date.
+	•	📝 Assignment: Draft a 9-line non-service affidavit with two artifacts.
+	•	✅ Model Response: “No ECF notice; USPS scan 07/31 09:42 (Ex A-1); screenshot 08/02 16:10 (Ex B-1). Ask: re-service + 7-day reset.”
+	•	💡 Reflection Summary: Process logs win resets.
+	•	🎨 Visual Concept: A sworn page with two tiny receipt thumbnails.
+
+⸻
+
+FG-347 — OA Backup Plan (Device • Dial-In • Packet)
+	•	⚖️ Core Message: Redundancy keeps OA alive when tech fails.
+	•	📖 Lesson Content: Two devices logged in (audio muted on backup), dial-in saved, packet local; file a 6-line contingency notice with two alternate windows.
+	•	📝 Assignment: Write your OA backup checklist and the contingency notice.
+	•	✅ Model Response: “If connection fails, request Zoom reset within 24h; windows Tue/Wed 2–4 PM; hand-ups pre-filed (hash …).”
+	•	💡 Reflection Summary: Prepared logistics = preserved argument.
+	•	🎨 Visual Concept: A laptop + phone icon with a small calendar strip.
+
+⸻
+
+FG-348 — Misclassification Fix (Correspondence → Motion)
+	•	⚖️ Core Message: When the docket mislabels your filing, correct the label—don’t re-file the case.
+	•	📖 Lesson Content: Notice: quote docket title, show correct title, attach first page, state relief text; ask to suppress prior link; no schedule change.
+	•	📝 Assignment: Draft a 7-line misclassification notice for a motion labeled “correspondence.”
+	•	✅ Model Response: “Correct ‘correspondence’ → ‘Motion to Clarify’; Title metadata set; first page attached; please suppress mis-link; no schedule change.”
+	•	💡 Reflection Summary: Fix the line, not the matter.
+	•	🎨 Visual Concept: A label sticker peeled off and replaced cleanly.
+
+⸻
+
+FG-349 — Stay Pending Cert (Rule 23 Toolkit)
+	•	⚖️ Core Message: Ask for a narrow, dated stay pending cert with Rule 23 factors.
+	•	📖 Lesson Content: Address likelihood (substantial question), irreparable harm, balance, public interest; limit to one paragraph/¶; sunset and status; attach tick-box order.
+	•	📝 Assignment: Draft a 9-line Rule 23 stay with two pins and a sunset.
+	•	✅ Model Response: “Stay ¶3 pending cert; substantial question on factor findings; harm: non-recoverable costs; sunset 30d; status 14d.”
+	•	💡 Reflection Summary: Small, time-boxed stays get granted.
+	•	🎨 Visual Concept: A SCOTUS tile with a 30-day ribbon.
+
+⸻
+
+FG-350 — Case Microsite (Index • Start-Here • Hashes)
+	•	⚖️ Core Message: A simple docs-first microsite multiplies reach and trust.
+	•	📖 Lesson Content: Root page: Start Here, Master Index (CSV), downloads table with SHA-256, release notes; post CHECKSUMS.txt; add mirror link; update within 24h of filings.
+	•	📝 Assignment: Export your microsite index (HTML/PDF) and add three top links.
+	•	✅ Model Response: “/index.html lists Start_Here, Master_Index.csv, and Field_Guide_FG1_50_Expanded.zip (SHA-256 …).”
+	•	💡 Reflection Summary: Public memory builds pressure for compliance.
+	•	🎨 Visual Concept: A clean homepage card with a fingerprint column.
