@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Initial commit — Legal Calculus v9"
+git branch -M main
+git remote add origin https://github.com/YOURUSERNAME/legal-calculus.git
+git push -u origin main
