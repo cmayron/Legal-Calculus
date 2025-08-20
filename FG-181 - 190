@@ -1,0 +1,100 @@
+
+⸻
+
+FG-181 — Two-Reader Rule (Buddy Check Before Filing)
+	•	⚖️ Core Message: A 10-minute peer pass catches what you won’t.
+	•	📖 Lesson Content: Assign a buddy reviewer for five checks: caption, one-pin-per-paragraph, quotes with pins, relief text pasted, attachment hygiene (PDF/A/bookmarks/Title). Log fixes in CHANGELOG.
+	•	📝 Assignment: Create a 5-item buddy-check card and run it on your next filing.
+	•	✅ Model Response: “Caption ✓; pins added to ¶¶ 7–9; quote pin fixed (Dkt 18:2); order pasted; PDF/A re-exported.”
+	•	💡 Reflection Summary: A second set of eyes is cheap insurance.
+	•	🎨 Visual Concept: Two checkmarks overlapping on a short card.
+
+⸻
+
+FG-182 — Version & Filename Discipline (Date • Title • v#)
+	•	⚖️ Core Message: Predictable names prevent the “which file?” fight.
+	•	📖 Lesson Content: Pattern: YYYY-MM-DD_ShortTitle_v1.pdf; no spaces; Title metadata set; keep only latest in the repo root; older versions live in /archive.
+	•	📝 Assignment: Rename your five most recent exports to the pattern; set Title metadata.
+	•	✅ Model Response: 2025-08-20_PI_Reply_v3.pdf (Title: “PI Reply v3 — 2025-08-20”).
+	•	💡 Reflection Summary: Order in filenames is order in court.
+	•	🎨 Visual Concept: A shelf of files with neat date labels.
+
+⸻
+
+FG-183 — CHANGELOG Discipline (What Changed • Why • Hash)
+	•	⚖️ Core Message: Small logs stop big confusion.
+	•	📖 Lesson Content: Each change gets one line: date • file • change • reason • new SHA-256. Keep it at repo root; link from Start Here.
+	•	📝 Assignment: Write three entries from your last re-exports.
+	•	✅ Model Response: “2025-08-20 | FG.pdf | fix n.3 ‘not reached’ | transcription | SHA-256 41be22….”
+	•	💡 Reflection Summary: A short memory prevents long arguments.
+	•	🎨 Visual Concept: A ledger line with a fingerprint tag.
+
+⸻
+
+FG-184 — Case Repo Layout (Folders You’ll Reuse)
+	•	⚖️ Core Message: A predictable repo makes help scalable.
+	•	📖 Lesson Content: Folders: /briefs /appendix /addendum /oa /orders /kits /release /archive; root has index.html, Master_Index.csv, Start_Here.html, CHECKSUMS.txt, CHANGELOG.md.
+	•	📝 Assignment: Create the folder tree and move three stray files into place.
+	•	✅ Model Response: oa/OA_6pp.pdf, orders/Draft_Order_v2.docx, kits/Relief_Bank.md.
+	•	💡 Reflection Summary: Structure is an invitation to collaborate.
+	•	🎨 Visual Concept: A clean folder tree with green ticks.
+
+⸻
+
+FG-185 — Intake Triage Card (5 Questions, 90 Seconds)
+	•	⚖️ Core Message: Ask five questions before you draft a word.
+	•	📖 Lesson Content: (1) What date governs harm? (2) What’s the smallest signable order? (3) Two best pins? (4) Posture triangle (statute/clock/copies)? (5) Who must be carved out?
+	•	📝 Assignment: Fill the card for a new matter; paste into the case notes.
+	•	✅ Model Response: “Print 09/05; clarify n.3 or 72h stay; Dkt 18:2/Tab 3 p.2; §1292; carve vendors.”
+	•	💡 Reflection Summary: Good questions save bad weeks.
+	•	🎨 Visual Concept: A 5-box triage card with one door highlighted.
+
+⸻
+
+FG-186 — Exhibit Ladder Labels (A, A-1, A-2)
+	•	⚖️ Core Message: Label exhibits so the reader never wonders “which page?”.
+	•	📖 Lesson Content: Ex A (main), A-1/A-2 (supporting pages); cite auth page first, then content; mirror labels on bookmarks and table.
+	•	📝 Assignment: Relabel one exhibit set with A / A-1 / A-2 and fix cites.
+	•	✅ Model Response: “Auth: Ex A (Decl ¶4); Content: Ex A-1 (invoice); Effect: harm cost.”
+	•	💡 Reflection Summary: Clear labels keep focus on proof.
+	•	🎨 Visual Concept: Three tabs A / A-1 / A-2 stepping downward.
+
+⸻
+
+FG-187 — OA Confirmation Note (Slot • Link • Packet • Policy)
+	•	⚖️ Core Message: Confirm hearing logistics in writing, not belief.
+	•	📖 Lesson Content: 6 lines: caption, date/time (local), format (Zoom/tele), hand-up policy cite, packet link/hash, contact if trouble. File the same as a notice.
+	•	📝 Assignment: Draft your OA confirmation note for the next setting.
+	•	✅ Model Response: “OA 09/10 2:00 PM (local); Zoom; hand-ups per Standing Order ¶3; packet SHA-256 …; tech contact ….”
+	•	💡 Reflection Summary: Logistics written = logistics remembered.
+	•	🎨 Visual Concept: A calendar tile clipped to a tiny packet icon.
+
+⸻
+
+FG-188 — Chart-to-Table Companion (Accessibility First)
+	•	⚖️ Core Message: Every chart needs a data table behind it.
+	•	📖 Lesson Content: Pair visuals with a 4-column table (Date • Count • Source • Pin); place in addendum; include capture/hash; reference the table in text.
+	•	📝 Assignment: Convert one chart into a one-page table with a hash footer.
+	•	✅ Model Response: “Days pending by motion (official dockets; captured 08/19; SHA-256 …).”
+	•	💡 Reflection Summary: Tables persuade; charts illustrate.
+	•	🎨 Visual Concept: A bar chart fading into a crisp table.
+
+⸻
+
+FG-189 — Affidavit Attachment Etiquette (Staple the Proof)
+	•	⚖️ Core Message: Declarations need receipts, not adjectives.
+	•	📖 Lesson Content: Each paragraph cites Ex page; use initials → exhibits naming; paginate attachments; add a hash if digital; file as one PDF.
+	•	📝 Assignment: Add two exhibit pins to your last affidavit and re-export.
+	•	✅ Model Response: “07/31 09:42 mail (Ex A-1); 08/02 error 503 (Ex B-1).”
+	•	💡 Reflection Summary: Proof beats persuasion.
+	•	🎨 Visual Concept: A sworn page with small receipt thumbnails in the margin.
+
+⸻
+
+FG-190 — Weekly Integrity Cadence (Scan • Hash • Note)
+	•	⚖️ Core Message: Integrity grows from a weekly ritual.
+	•	📖 Lesson Content: Every Friday: scan for new authority; update Master_Index.csv; rebuild Start_Here.html/HASH_BADGES.md; post hashes; write a 60-word release note.
+	•	📝 Assignment: Add a recurring calendar block and ship one entry this week.
+	•	✅ Model Response: “2025-08-22 — Added OA packet; SHA-256 …; see downloads table.”
+	•	💡 Reflection Summary: Rhythm turns paper into memory.
+	•	🎨 Visual Concept: A weekly calendar with a fingerprint on Fridays.
