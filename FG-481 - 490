@@ -1,0 +1,97 @@
+FG-481 — “Anchor Page” Callout (What This Page Proves)
+	•	⚖️ Core Message: Add a one-line callout to your anchor page: what it proves.
+	•	📖 Lesson Content: Callout text ≤12 words; neutral; pin nearby (“Dkt 18 at 2”). Keep in the margin or as a caption.
+	•	📝 Assignment: Write callouts for your two best pages.
+	•	✅ Model Response: “Order states ‘did not reach harm’ (Dkt 18 at 2).”
+	•	💡 Reflection Summary: Tiny labels guide eyes to decisions.
+	•	🎨 Visual Concept: A margin label pointing to the key sentence.
+
+⸻
+
+FG-482 — Exhibit Overlay (Bates • Region • Caption)
+	•	⚖️ Core Message: Overlay Bates, region boxes, and a short caption on key exhibits.
+	•	📖 Lesson Content: Add a footer Bates number; draw a thin box around the relevant region; caption ≤12 words describing significance; hash the view copy.
+	•	📝 Assignment: Produce a view copy for one exhibit with Bates + callout.
+	•	✅ Model Response: “Bates 001 — Region A shows USPS 09:42 timestamp (Ex A:1).”
+	•	💡 Reflection Summary: Annotated exhibits read as proof, not pictures.
+	•	🎨 Visual Concept: An exhibit with a thin box and a Bates footer.
+
+⸻
+
+FG-483 — “Back to Brief” Legends (If Links Allowed)
+	•	⚖️ Core Message: If you link out, give a way back.
+	•	📖 Lesson Content: At each tab page, add a small “Back to Br. 12” anchor; mirror in bookmarks; keep a non-linked master.
+	•	📝 Assignment: Add ten back-to-brief anchors; export master + linked versions.
+	•	✅ Model Response: “Legend: [Dkt 18 at 2] → Tab 3 p.2 → ‘Back to Br. 12.’”
+	•	💡 Reflection Summary: Round trips save minutes.
+	•	🎨 Visual Concept: A subtle “Back to Br.” tag in the upper corner.
+
+⸻
+
+FG-484 — PDF Contrast & Greyscale Key
+	•	⚖️ Core Message: Color meaning must survive a black-and-white printout.
+	•	📖 Lesson Content: Use patterns/labels; add a small greyscale key (“hatched = ¶3 window”); test a photocopy; re-hash.
+	•	📝 Assignment: Convert one figure to greyscale + key.
+	•	✅ Model Response: “Hatched band = vendor window; photocopy tested; SHA-256 ….”
+	•	💡 Reflection Summary: Meaning > aesthetics.
+	•	🎨 Visual Concept: A color figure next to a keyed greyscale twin.
+
+⸻
+
+FG-485 — Pin Column in Tables
+	•	⚖️ Core Message: Every table gets a pin column.
+	•	📖 Lesson Content: Add a rightmost column “Pin” (Dkt/Ex/Tr/Appx). Keep entries ≤12 words; one pin per row.
+	•	📝 Assignment: Update two tables to include a pin column.
+	•	✅ Model Response: “07/31 — USPS receipt — timely — Ex A:1.”
+	•	💡 Reflection Summary: Pins turn tables into evidence.
+	•	🎨 Visual Concept: A four-column table with a bold pin column.
+
+⸻
+
+FG-486 — Title Metadata Script (Automate the Fix)
+	•	⚖️ Core Message: Automate Title metadata so exports don’t drift.
+	•	📖 Lesson Content: Use a script/macro to set Title/Author/Subject from your filename and case; verify on 3 PDFs; log in CHANGELOG.
+	•	📝 Assignment: Write two Title lines your script should set automatically.
+	•	✅ Model Response: “Title: ‘Opening Brief (Ryan-Touhill) v3 — 2025-08-20’.”
+	•	💡 Reflection Summary: Automation keeps hygiene consistent.
+	•	🎨 Visual Concept: A gear icon pointing to a PDF info panel.
+
+⸻
+
+FG-487 — Cross-Forum Pin Translator (AR ↔ Dkt ↔ Tab)
+	•	⚖️ Core Message: Maintain a translator card for mixed records.
+	•	📖 Lesson Content: “AR Doc __ p.__ ↔ Dkt __ at __ ↔ Tab __ p.__”; keep a legend on page one; cite once per section.
+	•	📝 Assignment: Build five translator lines for your brief.
+	•	✅ Model Response: “AR 118:12 ↔ Dkt 18 at 2 ↔ Tab 3 p.2.”
+	•	💡 Reflection Summary: Translators kill hunts.
+	•	🎨 Visual Concept: Three tags with arrows in a loop.
+
+⸻
+
+FG-488 — “As-Captured” Note (Source • Date • Hash)
+	•	⚖️ Core Message: Source notes belong under every official text page.
+	•	📖 Lesson Content: Footer: “Source [official]; captured [date]; SHA-256 ….”; move screenshots to appendix; keep addendum text-only.
+	•	📝 Assignment: Add “as-captured” lines to two rule pages and re-export.
+	•	✅ Model Response: “Source: official CFR; captured 08/19; SHA-256 ….”
+	•	💡 Reflection Summary: Capture lines preempt link fights.
+	•	🎨 Visual Concept: A footer ribbon with a law-book + fingerprint icon.
+
+⸻
+
+FG-489 — Figure-to-Table Companion
+	•	⚖️ Core Message: Pair every figure with a one-page data table.
+	•	📖 Lesson Content: On the facing page: Date • Count • Source • Pin; add capture/hash; cite the table, not the figure.
+	•	📝 Assignment: Produce a table for one figure and cite it in text.
+	•	✅ Model Response: “Days pending by motion (official dockets; captured 08/19; SHA-256 …).”
+	•	💡 Reflection Summary: Tables survive scrutiny; figures signal.
+	•	🎨 Visual Concept: A chart fading into a tidy table.
+
+⸻
+
+FG-490 — “One-Screen” Downloads Page (Docs • Hashes • Status)
+	•	⚖️ Core Message: Your public page should fit one screen with hashes.
+	•	📖 Lesson Content: Top: Start Here; below: Downloads table (Date • Title • SHA-256 • Link • Status); mirrors posted; update within 24h.
+	•	📝 Assignment: Export your downloads page; add a row for the latest release.
+	•	✅ Model Response: “2025-08-20 — FG-1→50 Expanded (sha …) — /FG1_50_Expanded.zip — posted.”
+	•	💡 Reflection Summary: One screen builds trust faster than prose.
+	•	🎨 Visual Concept: A compact web page with a fingerprint
