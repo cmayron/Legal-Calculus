@@ -1,0 +1,97 @@
+FG-401 — “Raised • Ignored • Relief” Cert Sidebar
+	•	⚖️ Core Message: Show what you raised, what the lower court ignored, and the relief you seek.
+	•	📖 Lesson Content: Three-column table: Raised (pin) • Ignored (line/page) • Relief (two-line order). Append to petition or reply.
+	•	📝 Assignment: Draft a 4-row sidebar table for your petition.
+	•	✅ Model Response: “Timing harms — AR 118:12 — ‘not reached’ (Dkt 18:2) — Remand 21d.”
+	•	💡 Reflection Summary: Cert clerks trust structured omissions over adjectives.
+	•	🎨 Visual Concept: A margin table: three columns, one red “ignored” box.
+
+⸻
+
+FG-402 — SCOTUS Cover Metadata (Title • Author • Date)
+	•	⚖️ Core Message: Cert covers must pass metadata checks too.
+	•	📖 Lesson Content: Set Title = “Petition for Writ of Certiorari”; Author = party/counsel; Subject = short QP; Date = judgment date; export PDF/A; hash and log.
+	•	📝 Assignment: Re-export your cert cover with corrected metadata.
+	•	✅ Model Response: “Title: Petition for Writ of Certiorari; Author: Mayron; Subject: Factor-tied findings; Date: 09/01.”
+	•	💡 Reflection Summary: Metadata is part of compliance.
+	•	🎨 Visual Concept: A PDF info panel with green checks.
+
+⸻
+
+FG-403 — Amicus Hash Lines (Align with Petition)
+	•	⚖️ Core Message: Every amicus brief should mirror the petition’s hash + page convention.
+	•	📖 Lesson Content: Add footer: “Cites are to PDF pages; Petition hash ….”; post to amicus microsite.
+	•	📝 Assignment: Draft a 4-line footer for an amicus brief.
+	•	✅ Model Response: “Cites are to PDF pages. Petition hash: 41be22…. Filed 09/01.”
+	•	💡 Reflection Summary: Shared conventions = credibility.
+	•	🎨 Visual Concept: Multiple briefs showing same footer hash.
+
+⸻
+
+FG-404 — Joint Amicus Coordination Table
+	•	⚖️ Core Message: Amici add value when they divide issues.
+	•	📖 Lesson Content: Table: Amicus • Topic • Pages • Relief adopted; attach to coordination letter; prevent duplication.
+	•	📝 Assignment: Draft a 5-row amicus coordination table.
+	•	✅ Model Response: “Amicus A — split grid — 10 pp — adopts relief ladder. Amicus B — equities — 8 pp — same relief.”
+	•	💡 Reflection Summary: Harmony multiplies influence.
+	•	🎨 Visual Concept: A shared table with multiple arrows pointing to one relief block.
+
+⸻
+
+FG-405 — Cert “Two-Paragraph Reply”
+	•	⚖️ Core Message: The best cert replies are two tight paragraphs.
+	•	📖 Lesson Content: ¶1: split fit (grid + cite); ¶2: record gap + relief. ≤600 words.
+	•	📝 Assignment: Draft a 2-paragraph reply skeleton for your petition.
+	•	✅ Model Response: “Circuits split; petition shows clear divide (grid). Record gap: harm not reached (Dkt 18:2). Relief: grant or GVR.”
+	•	💡 Reflection Summary: Brevity = credibility.
+	•	🎨 Visual Concept: Two small blocks, arrows into a SCOTUS gavel.
+
+⸻
+
+FG-406 — SCOTUS Appendix “S-Tab” Protocol
+	•	⚖️ Core Message: Confidential materials get sealed tabs, neutral titles, and hashes.
+	•	📖 Lesson Content: Label “S-1, S-2…”; stub cites in petition; sealed index shows Tab • Page • Purpose • SHA-256.
+	•	📝 Assignment: Draft a 6-row sealed index for your appendix.
+	•	✅ Model Response: “S-2 | 4 | supports harm factor | SHA-256 ….”
+	•	💡 Reflection Summary: Transparency builds trust, even in sealed filings.
+	•	🎨 Visual Concept: A binder tab with a lock icon and fingerprint.
+
+⸻
+
+FG-407 — Cert Relief Card (Grant • GVR • Hold, One Screen)
+	•	⚖️ Core Message: Relief should fit on one card: three doors, one order line.
+	•	📖 Lesson Content: Rows: Grant (review merits), GVR (in light of case), Hold (pending [X]). End with scope/sunset line.
+	•	📝 Assignment: Draft a 3-row relief card for OA packet.
+	•	✅ Model Response: “Grant — must reach factor findings. GVR — in light of Winter. Hold — pending Doe.”
+	•	💡 Reflection Summary: Small cards survive conference.
+	•	🎨 Visual Concept: Three stacked doors on a single palm card.
+
+⸻
+
+FG-408 — Cert “Raised/Skipped” Gap Table
+	•	⚖️ Core Message: Clerks need a visual of what the lower court skipped.
+	•	📖 Lesson Content: Table: Issue • Raised (pin) • Skipped (line); one row per factor; relief: remand.
+	•	📝 Assignment: Draft a 4-row gap table for your petition.
+	•	✅ Model Response: “Harm — Mot PI (Dkt 14:3) — Skipped (Dkt 18:2) — Relief: remand 21d.”
+	•	💡 Reflection Summary: Gaps persuade more than stories.
+	•	🎨 Visual Concept: A grid with “Skipped” cells in red.
+
+⸻
+
+FG-409 — Amicus Release Note (Docs • Hashes • Next Step)
+	•	⚖️ Core Message: Amici should ship their briefs like releases.
+	•	📖 Lesson Content: Note: Date • Doc • SHA-256 • Next. Add to microsite.
+	•	📝 Assignment: Draft a 90-word release note for one amicus.
+	•	✅ Model Response: “09/10—Amicus brief filed (sha …). Next: reply due 09/20.”
+	•	💡 Reflection Summary: Amici who log look professional.
+	•	🎨 Visual Concept: A press-release card with a fingerprint.
+
+⸻
+
+FG-410 — SCOTUS Reply “Pin-First” Close
+	•	⚖️ Core Message: End your reply with pins → order.
+	•	📖 Lesson Content: Two pins (split + record gap) → one line of relief (grant/GVR/hold).
+	•	📝 Assignment: Draft your cert reply close in ≤40 words.
+	•	✅ Model Response: “Split: 2d v. 9th. Record: ‘not reached’ (Dkt 18:2). Relief: grant cert or GVR.”
+	•	💡 Reflection Summary: Closes are for signing, not summarizing.
+	•	🎨 Visual Concept: Two pin dots merging into a SCOTUS order line.
