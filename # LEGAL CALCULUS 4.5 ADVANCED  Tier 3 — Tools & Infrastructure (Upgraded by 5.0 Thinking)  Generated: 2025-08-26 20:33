@@ -1,0 +1,211 @@
+LEGAL CALCULUS 4.5 ADVANCED
+
+Tier 3 — Tools & Infrastructure (Upgraded by 5.0 Thinking)
+
+Generated: 2025-08-26 20:33
+
+
+
+Table of Contents
+ 
+
+
+
+
+
+1. Filing Manifest (One Page)
+1. Filing Manifest (One Page)
+Purpose
+Give clerks/judges a machine‑ and human‑readable snapshot.
+
+Template
+Document: [Title] | Date: [YYYY‑MM‑DD] | Contact: [Name]
+File: [YYYY‑MM‑DD_Party_DocType_Slug].pdf
+Hash (SHA‑256): [abcdef…]
+Requested Order: Option A / Option B
+Exhibits: Ex. A — [Title] — [Bates]; Ex. B — [Title] — [Bates]
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+2. Decision Cover (Issue → Authority → Record → Ask)
+2. Decision Cover (Issue → Authority → Record → Ask)
+Template
+Issue → “…”. Authority → [Rule]. Record → ECF [__]; Ex. A at 1. Ask → Order A/B.
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+3. Proposed Order (Option A / Option B)
+3. Proposed Order (Option A / Option B)
+Template
+[PROPOSED] ORDER
+Option A…
+Option B…
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+4. Procedural Intent & Good‑Faith Statement
+4. Procedural Intent & Good‑Faith Statement
+Block
+Good‑faith, narrow relief; not for delay; conferral dates; authorities; Order A/B.
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+5. Meet‑and‑Confer Certification
+5. Meet‑and‑Confer Certification
+Template
+I certify I attempted to resolve this issue on [dates]; see Exhibit A (emails).
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+6. Certificate of Service (FRCP 5)
+6. Certificate of Service (FRCP 5)
+Template
+CERTIFICATE OF SERVICE… recipients, methods, tracking; /s/ [Name].
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+7. Rule 65(b)(1)(B) Certification (TRO)
+7. Rule 65(b)(1)(B) Certification (TRO)
+Template
+Efforts to give notice; why notice risks harm; attachments with § 1746 declaration.
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+8. Motion to Accept Corrected Filing (Rule 6(b))
+8. Motion to Accept Corrected Filing (Rule 6(b))
+Skeleton
+Relief: accept corrected filing nunc pro tunc. Grounds: good cause/excusable neglect; no prejudice.
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+9. Notice of Non‑Response
+9. Notice of Non‑Response
+Template
+No response filed by [date]; deem unopposed or schedule OSC.
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+10. Motion to Direct Docketing / Clarify Docket
+10. Motion to Direct Docketing / Clarify Docket
+Skeleton
+FRCP 5(d)(4), 79(a); proof of tender; request docketing as of received date or deficiency order.
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+11. Suppression Index — CSV Schema + Example
+11. Suppression Index — CSV Schema + Example
+Schema
+Date, Event, Actor, Quote, Proof, Rule, Requested Cure, Outcome
+
+Example
+2025‑07‑05, Return email, Clerk, “wrong index”, Ex. B, FRCP 5(d)(4), Docket or deficiency, Pending
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+12. Source Ledger (Chain‑Verified Citations)
+12. Source Ledger (Chain‑Verified Citations)
+Schema
+¶#, Statement, Source, Pin‑cite, Hash/URL, Checked by, Date
+
+Example
+¶2, Portal receipt, Ex. C, ECF 25 at 3, SHA‑256 3f2c…, [Name], 2025‑08‑24
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+13. Hash Manifest (SHA‑256) — Instructions + Example
+13. Hash Manifest (SHA‑256) — Instructions + Example
+Instructions
+Compute SHA‑256 per file; store manifest; cite next to exhibits.
+
+Example
+3f2c… FedEx_ExA.pdf; a1b9… ClerkEmail_ExB.pdf
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+14. Portal Failure Declaration
+14. Portal Failure Declaration
+Template
+Attempted e‑file at [time]; error [screenshot]; used alternate method; served opposing.
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+15. Rule 11 Good‑Faith Certification & Safe‑Harbor Response
+15. Rule 11 Good‑Faith Certification & Safe‑Harbor Response
+Certification
+Rule 11(b) basis; evidentiary support.
+
+Safe‑Harbor
+Request safe‑harbor service identifying the challenged paper; 21‑day window.
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+16. Stay Pending Appeal — Short Form
+16. Stay Pending Appeal — Short Form
+Skeleton
+Nken/Winter factors; propose security; request admin stay; proposed order attached.
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+17. Appellate Record Kit (FRAP 10–11)
+17. Appellate Record Kit (FRAP 10–11)
+Contents
+• Transcript Order + Statement of Issues
+• Appendix/Excerpts TOC (ECF numbers)
+• FRAP 10(e) motion to correct/supplement
+• Designation notice
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+18. Standards Map Template
+18. Standards Map Template
+Template
+Issue → Standard (authority) → pin‑cites → relief under that standard.
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+19. Post‑Denial Map Template
+19. Post‑Denial Map Template
+Template
+Issue → Standard → Record → Remedy; note preservation.
+
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+20. Archive Pack v1 Structure
+20. Archive Pack v1 Structure
+Folders
+• /Public (Exhibits PDF/A + Index CSV + Summaries)
+• /Restricted (Unredacted, Work_Product)
+• /Press_Kit (OnePager, Timeline, Top10)
+
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
+21. Coalition Kit v1 (Stakeholder Map, Outreach Pack, Verification Script)
+21. Coalition Kit v1 (Stakeholder Map, Outreach Pack, Verification Script)
+Stakeholder Map
+Org | Contact | Why They Care | Ask | Materials | Status | Next Step | Deadline
+
+Outreach Pack
+150‑word email; 5‑slide overview; amicus/expert invite
+
+Verification Script
+Steps to independently verify 3 critical facts
+
+Legal Calculus 4.5 Advanced — Tier 3 | Page of
