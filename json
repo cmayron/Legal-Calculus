@@ -1,0 +1,17 @@
+{
+  "version": "0.3",
+  "cards": [
+    {
+      "id": "FG-001",
+      "volume": 1,
+      "title": "Filing = Existence",
+      "tags": ["foundations","filing","record"],
+      "core": "…",
+      "lesson": "…",
+      "assignment": "…",
+      "model": "…",
+      "reflection": "…",
+      "visual": "…"
+    }
+  ]
+}
