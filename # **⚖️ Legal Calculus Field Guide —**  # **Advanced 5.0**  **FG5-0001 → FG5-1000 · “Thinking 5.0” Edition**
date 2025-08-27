@@ -1,0 +1,460 @@
+# **⚖️ Legal Calculus Field Guide —**
+
+# **Advanced 5.0**
+
+**FG5-0001 → FG5-1000 · “Thinking 5.0” Edition**
+
+# **What’s new in 5.0 (the big upgrades)**
+
+THINK5 loop inside every card:
+
+- T — Trigger: what just happened that matters?
+- H — Hypotheses: what are the plausible legal frames/risks?
+- I — Inputs: evidence, rules, deadlines, record cites.
+- N — Navigation: concrete moves (filings, requests, scripts).
+- K — Knowledge: what to learn & memorialize for appeal.
+
+Ops Blocks in every card:
+
+- Filing Moves (ready-to-use one-liners/skeletons)
+- Evidence Ledger (what to capture & how)
+- Risk/Cost (Impact/Effort/Risk score 1–5)
+- Timeline (when to do the thing)
+- Reusable Snippet (drop-in sentence/paragraph)
+- Automation Prompt (so you can set reminders/checks)
+
+# Use: 20 volumes × 50 cards = 1000 cards. Below are (1) a universal template, (2) a compact schema if you want to generate or databind, and (3) 20 fully-authored “anchor cards” (one per 50-card band: 001, 050, …, 1000) to set the tone. You can spin up the remaining cards by cloning these patterns.
+
+# **A. Universal Card Template (copy/paste)**
+
+FG5-#### — Title + Emoji
+
+- Core Message — one sentence.
+- Lesson Content — 3–6 sharp lines (no legalese).
+- Assignment — the do-it-now action.
+- Model Response — one clean, court-safe sentence.
+- Reflection Summary — what this changes.
+- Visual Concept — an image you can sketch.
+
+THINK5
+
+- T (Trigger) —
+- H (Hypotheses) —
+- I (Inputs) —
+- N (Navigation) —
+- K (Knowledge) —
+
+Ops Blocks
+
+- Filing Moves: …
+- Evidence Ledger: …
+- Risk/Cost (I/E/R): Impact ■, Effort ■, Risk ■ (1–5 each)
+- Timeline: …
+- Reusable Snippet: “…”
+- Automation Prompt: “Tell me to … when … ; if …, draft …”
+
+# Safety note: Information only, not legal advice.
+
+# **B. Minimal JSON Schema (for programmatic builds)**
+
+{
+"id": "FG5-####",
+"volume": 1,
+"title": "Filing = Existence",
+"emoji": "⚪📄✨",
+"core_message": "",
+"lesson": ["", "", ""],
+"assignment": "",
+"model_response": "",
+"reflection": "",
+"visual": "",
+"think5": {
+"trigger": "",
+"hypotheses": ["", ""],
+"inputs": ["", ""],
+"navigation": ["", ""],
+"knowledge": ["", ""]
+},
+"ops": {
+"filing_moves": ["", ""],
+"evidence_ledger": ["", ""],
+"scores": {"impact": 4, "effort": 2, "risk": 2},
+"timeline": "",
+"snippet": "",
+"automation": ""
+},
+"tags": ["foundations","record","appeal"]
+}
+
+# **C. 20 Anchor Cards (Advanced 5.0)**
+
+# One per 50-card band. Use these as style beacons for the remaining 980.
+
+**FG5-0001 — Filing = Existence**
+
+**⚪📄✨**
+
+- Core Message: If it isn’t filed, it doesn’t exist for the court.
+- Lesson: The record is the only memory the system respects. Filing converts talk into evidence. Every later motion stands on today’s paper trail.
+- Assignment: File a 1-page notice that states your claim exists and identifies the precise relief sought.
+- Model Response: “This claim exists in the judicial record; relief requested as stated herein.”
+- Reflection: Existence beats argument.
+- Visual: A page switching on a courtroom light.
+
+THINK5
+
+- T: You’re about to be ignored.
+- H: (1) Non-filing = waiver. (2) Late filing ≠ filing.
+- I: Caption, case number, service addresses, date/time.
+- N: Draft → sign → file → serve → upload proof of service.
+- K: Log docket entry; note timestamp and clerk initials.
+
+Ops Blocks
+
+- Filing Moves: “Notice of Claim Existence & Relief Requested.”
+- Evidence Ledger: Screenshot of e-filing receipt; stamped copy.
+- Risk/Cost (I/E/R): 5/2/2
+- Timeline: Day 0 (start of record).
+- Reusable Snippet: “This filing preserves the claim’s existence and relief on the record.”
+- Automation Prompt: “Tell me day-of if no stamped copy is received by 4:30pm.”
+
+**FG5-0050 — Archive = Foundation**
+
+**⚪🗄️🏛️**
+
+- Core: The archive is structural; build on it or sink.
+- Lesson: Store every filing, receipt, exhibit index, and proof of service; mirror to 2 locations.
+- Assignment: Create a case binder: Index → Filings → Exhibits → Service → Orders → Timeline.
+- Model: “Archive index submitted; exhibits keyed to record cites.”
+- Reflection: Order reduces judicial friction.
+- Visual: Cabinets as footings beneath a courthouse.
+
+THINK5:
+
+T: Your folder chaos risks missed deadlines.
+
+H: (1) Loss of exhibit = prejudice; (2) Mis-index = credibility hit.
+
+I: Docket sheet, exhibit list, file tree.
+
+N: Build index → rename files YYYY-MM-DD_[doc] → checksum.
+
+K: Keep a “what changed since last hearing” log.
+
+Ops:
+
+- Moves: “Notice of Filing: Archive Index (Exhibit A).”
+- Ledger: File hashes, cloud link, local path.
+- I/E/R: 4/3/1
+- Timeline: Before first hearing.
+- Snippet: “Exhibits are tabbed and indexed by record cite.”
+- Automation: “Weekly: verify backups checksum; alert on mismatch.”
+
+**FG5-0100 — Archive = Black Box**
+
+**⚫📦**
+
+- Core: When the process crashes, the archive tells the story.
+- Lesson: Record every silence/denial/default as distinct events.
+- Assignment: Append a “Signal Log” table to filings: date, event, source, missing action, prejudice.
+- Model: “Black-box log preserved; silence recorded with timestamp.”
+- Reflection: You can’t appeal the silence you didn’t log.
+- Visual: Flight recorder glowing in darkness.
+
+THINK5: T: A motion vanished. H: clerk error vs. judicial choice. I: e-filing logs, email headers. N: Motion to Clarify Docket Status. K: “How to prove ‘received but unruled.’”
+
+Ops: Moves: “Motion to Clarify/Correct Docket (with Signal Log).” · Ledger: server headers. · I/E/R: 5/3/2 · Timeline: 7 days after non-action. · Snippet: “Non-ruling preserved as docket anomaly.” · Automation: “Ping clerk weekly until docket corrected.”
+
+**FG5-0150 — Archive = Illumination**
+
+**🟡✨**
+
+- Core: Archiving is a flashlight for outsiders (and future you).
+- Lesson: Cross-reference each exhibit to a plain-language one-liner.
+- Assignment: Add “Exhibit Purpose Lines” to your index.
+- Model: “Exh. B proves notice date (mail receipt 3/3).”
+- Reflection: Clarity wins mindshare.
+- Visual: Lighthouse beam labeling waves.
+
+THINK5: T: Judge skims; you translate. H: complexity vs. comprehension. I: exhibit list, dates. N: One-liner per exhibit. K: Reuse in appellate brief headings.
+
+Ops: Moves: “Supplemental Exhibit Index (Plain-Lang Guide).” · Ledger: purpose lines. · I/E/R: 4/2/1 · Timeline: 48h pre-hearing. · Snippet: “Plain-language mapping aids judicial efficiency.” · Automation: “Remind to update index after every new exhibit.”
+
+**FG5-0200 — Archive = Reactor**
+
+**🟠⚡**
+
+- Core: The record is your battery—charge it, then deploy.
+- Lesson: Pre-draft “if/then” scripts tied to expected rulings.
+- Assignment: Build a Playbook: If denied X → file Y within Z days.
+- Model: “Upon denial, Notice of Preservation & Motion to Reconsider filed (Rule __).”
+- Reflection: Prepared beats surprised.
+- Visual: Reactor core powering a motion machine.
+
+THINK5: T: Anticipated denial. H: abuse vs. discretion. I: rules for reconsideration. N: Draft both outcomes now. K: Track what worked.
+
+Ops: Moves: paired drafts; Ledger: rule cites; I/E/R: 5/3/3; Timeline: draft pre-hearing; Snippet: “This motion preserves error and requests specific correction.”; Automation: “Auto-draft reconsideration if denial detected in docket.”
+
+**FG5-0250 — Archive = Garden**
+
+**🟢🌼**
+
+- Core: Plant small, harvest big: micro-filings grow appellate issues.
+- Lesson: Use short “Notices of Preservation” whenever something smells off.
+- Assignment: File a 3-sentence Notice during any irregularity.
+- Model: “Irregularity preserved; prejudice noted; relief reserved.”
+- Reflection: 60 seconds now can save an appeal.
+- Visual: Seeds along a path sprouting captions.
+
+THINK5: T: Off-record hallway ruling. H: due process risk. I: dates, who, what. N: Notice within 24h. K: Tag and index.
+
+Ops: Moves: “Notice of Preservation (Irregularity).” · Ledger: time/place/who. · I/E/R: 4/1/2 · Timeline: same day. · Snippet: “This preserves objection without seeking merits relief.” · Automation: “Nudge: draft notice when ‘off-record’ keyword appears in notes.”
+
+**FG5-0300 — Archive = Eternal Sea**
+
+**🔵🌊**
+
+- Core: Everything flows to the archive; surf it, don’t drown.
+- Lesson: Summarize the case in 150 words every 30 days (rolling abstract).
+- Assignment: File “Monthly Case Abstract” as a letter to the court and into your binder.
+- Model: “Abstract filed; key shifts, pending motions, and deadlines listed.”
+- Reflection: Narrative control.
+- Visual: Tides carrying dated abstracts.
+
+THINK5: T: Long case drift. H: narrative loss. I: docket deltas. N: Abstract v1…vN. K: Side-by-side change log.
+
+Ops: Moves: “Case Abstract (Month/Year).” · Ledger: issue status table. · I/E/R: 4/2/1 · Timeline: monthly. · Snippet: “This abstract aids judicial economy.” · Automation: “Monthly: compile docket changes into an abstract draft.”
+
+**FG5-0350 — Archive = Eternal Record**
+
+**🟣📚**
+
+- Core: Memory beats muscle.
+- Lesson: Convert every phone call to a contemporaneous memo and file as “Notice of Conference Summary.”
+- Assignment: Draft & file within 24h of any substantive call.
+- Model: “Conference summary filed; matters discussed; no agreements reached.”
+- Reflection: You control the minutes.
+- Visual: A tape of time stretched into pages.
+
+THINK5: T: Oral exchange. H: later dispute. I: attendees, topics, asks. N: one-pager; serve all. K: standard memo template.
+
+Ops: Moves: “Notice of Conference Summary.” · Ledger: who/when/what/next. · I/E/R: 4/2/2 · Timeline: <24h. · Snippet: “Filed to preserve material communications.” · Automation: “Prompt: after any call event in calendar, open memo template.”
+
+**FG5-0400 — Archive = War Memorial**
+
+**🔴🕯️**
+
+- Core: Losses, too, belong in stone.
+- Lesson: After adverse orders, file a sober “Memorialization of Prejudice” tying facts to harm.
+- Assignment: Draft a 5-bullet harm list with cites.
+- Model: “Prejudice memorialized; appellate remedies preserved.”
+- Reflection: You honor the record, not the wound.
+- Visual: Names engraved; space for the next ruling.
+
+THINK5: T: Adverse order. H: reversible vs. harmless error. I: cite/line/page. N: memorial + notice of intent. K: checklist of reversible factors.
+
+Ops: Moves: “Memorialization of Prejudice.” · Ledger: harm matrix. · I/E/R: 5/2/2 · Timeline: within 7 days. · Snippet: “This preserves specific prejudice with record cites.” · Automation: “When ‘Order: Denied’ appears, generate harm matrix.”
+
+**FG5-0450 — Archive = Revelation**
+
+**⚪📖**
+
+- Core: In time, everything shows—help it along.
+- Lesson: Pair exhibits with a single-frame graphic (timeline tile).
+- Assignment: Produce 3 timeline tiles for your top exhibits.
+- Model: “Visual annex filed; correlates dates to actions.”
+- Reflection: Judges are human; pictures help.
+- Visual: Tile strip: Date → Event → Proof → Impact.
+
+THINK5: T: Info overload. H: cognitive load. I: dates & proofs. N: tiles as Appendix A. K: reuse for oral argument.
+
+Ops: Moves: “Visual Appendix (Timeline Tiles).” · Ledger: 3 tiles min. · I/E/R: 4/3/1 · Timeline: pre-hearing. · Snippet: “Visuals aid comprehension without argument.” · Automation: “When new exhibit added, prompt to create tile.”
+
+**FG5-0500 — Archive = Hall of Silver**
+
+**⚪🪞**
+
+- Core: Reflection sharpens appeal.
+- Lesson: After any ruling, write a 5-question “Silver Mirror” review (what worked/failed/learned/next/ask for help).
+- Assignment: File internally; quote 1–2 insights in your next motion.
+- Model: “Learning statements embedded; targeted relief refined.”
+- Reflection: Iteration is a weapon.
+- Visual: Mirror, notes stuck around it.
+
+THINK5: T: Ruling landed. H: habits vs. improvements. I: prior briefs, judge remarks. N: write mirror; fold insight into next brief. K: living playbook.
+
+Ops: Moves: internal memo; then “Targeted Motion” citing the insight. · Ledger: Q/A log. · I/E/R: 3/2/1 · Timeline: 48h after ruling. · Snippet: “In light of X, the narrow relief now sought is Y.” · Automation: “48h after ruling, prompt the 5 questions.”
+
+**FG5-0550 — Filing = Defiance**
+
+**🟤✊**
+
+- Core: Persistence is procedure, not attitude.
+- Lesson: Use polite, surgical language to object; let the record carry the edge.
+- Assignment: Replace adjectives with cites.
+- Model: “Objection preserved (See Dkt 43, Exh C, p.4).”
+- Reflection: Respect + precision > heat.
+- Visual: Scalpel, not a club.
+
+THINK5: T: You’re angry. H: venting risks sanctions. I: docket cites. N: object once, clearly, with cites. K: tone bank—phrases that travel.
+
+Ops: Moves: “Notice of Objection & Preservation (Single-Issue).” · Ledger: cite list. · I/E/R: 4/1/2 · Timeline: immediate. · Snippet: “Respectfully, objection is preserved for the reasons stated and cited.” · Automation: “When ‘denied’ detected, suggest this single-issue template.”
+
+**FG5-0600 — Archive = Living Network**
+
+**🟠🌐**
+
+- Core: Your case is a node; connect it.
+- Lesson: Build a cross-case appendix: similar rulings (for/against) with neutral summaries.
+- Assignment: Create a 1-page “Comparable Cases Table.”
+- Model: “Comparable cases appended; distinctions noted.”
+- Reflection: Credibility rises when you cite against interest.
+- Visual: Network graph with dots, not swords.
+
+THINK5: T: Judge asks: “Who has done this?” H: comparable vs. distinguishable. I: neutral summaries. N: file appendix. K: update monthly.
+
+Ops: Moves: “Appendix: Comparable Authorities (Neutral).” · Ledger: links & holdings. · I/E/R: 4/3/2 · Timeline: before dispositive motion. · Snippet: “Authority is cited neutrally; distinctions are explicit.” · Automation: “Monthly: search & append 2 new comparables.”
+
+**FG5-0650 — Archive = Sunlit Hall**
+
+**🟡🌞**
+
+- Core: Radical clarity: one page that orients a stranger.
+- Lesson: Draft a “One-Page Case Map” (parties, posture, issues, asks, cites).
+- Assignment: File as cover to any omnibus filing.
+- Model: “Case Map filed; court economy supported.”
+- Reflection: Mercy for the reader is power for you.
+- Visual: Architectural blueprint of your case.
+
+THINK5: T: Complex omnibus. H: reader fatigue. I: issues list, asks, cites. N: map + tabs. K: reuse template.
+
+Ops: Moves: “Case Map (One Page).” · Ledger: five bullets + cites. · I/E/R: 5/2/1 · Timeline: with any >10-page filing. · Snippet: “This map orients the court to issues and requested relief.” · Automation: “If filing >10 pages, prepend Case Map.”
+
+**FG5-0700 — Archive = Survival Atlas**
+
+**🟢🌍**
+
+- Core: After each hearing, draw a route to the next waypoint.
+- Lesson: Maintain a “Route Table”: Current point → Obstacles → Next move → Deadline.
+- Assignment: Publish the route table inside your binder and quote it in status letters.
+- Model: “Route table lodged; deadlines calendared.”
+- Reflection: Navigation beats speed.
+- Visual: Compass rose stamped on a map.
+
+THINK5: T: You feel lost. H: confusion ≠ defeat. I: deadlines, rules. N: route entry for each obstacle. K: convert to agenda for the next hearing.
+
+Ops: Moves: “Status Letter with Route Table.” · Ledger: obstacles grid. · I/E/R: 4/2/1 · Timeline: rolling. · Snippet: “Next move: __ by __ under Rule __.” · Automation: “Create tasks for each route row.”
+
+**FG5-0750 — Archive = Stone Staircase**
+
+**🔵🪜**
+
+- Core: Build steps today you’ll climb on appeal.
+- Lesson: End major filings with “Step-Up Paragraphs”: if denied now, what the appellate issue is.
+- Assignment: Add a 2-sentence “Step-Up” to your brief.
+- Model: “If relief is denied, the preserved question is __ (record cites).”
+- Reflection: Appellate judges love breadcrumbs.
+- Visual: Steps labeled with issue statements.
+
+THINK5: T: Big motion. H: denial likely. I: standards of review. N: step-up line with cites. K: copy to appeal outline.
+
+Ops: Moves: embed at end of argument. · Ledger: issue vault. · I/E/R: 5/1/1 · Timeline: now. · Snippet: as above. · Automation: “Lint rule: ‘Does brief include Step-Up?’”
+
+**FG5-0800 — Archive = Tapestry of Memory**
+
+**🟣🪡**
+
+- Core: Weave facts, don’t pile them.
+- Lesson: Pair each fact with its function (why it matters legally).
+- Assignment: Rewrite your fact section: every sentence ends with a parenthetical function.
+- Model: “On 3/3, notice mailed (satisfies due process notice).”
+- Reflection: Function frames fact.
+- Visual: Threads labeled “why.”
+
+THINK5: T: Facts sprawl. H: relevance gap. I: elements/standards. N: parenthetical functions. K: harvest for jury instructions or findings.
+
+Ops: Moves: “Functional Fact Section.” · Ledger: element map. · I/E/R: 5/3/2 · Timeline: before summary judgment. · Snippet: as model. · Automation: “Checklist: each fact maps to a legal element.”
+
+**FG5-0850 — Archive = Healing Spring**
+
+**🔴⛲**
+
+- Core: Debriefing heals the case.
+- Lesson: After conflict spikes, file a cooling “Request for Clarification” with zero adjectives.
+- Assignment: Submit 5 questions; no insinuations.
+- Model: “Seeking clarification on scope, deadline, and format.”
+- Reflection: Clarity reduces heat and error.
+- Visual: Water poured over embers.
+
+THINK5: T: Hostile exchange. H: tempers cloud record. I: order text. N: narrow questions only. K: store answers as constraints.
+
+Ops: Moves: “Request for Clarification (Neutral).” · Ledger: Q1–Q5. · I/E/R: 4/1/1 · Timeline: 72h post-incident. · Snippet: neutral question framing. · Automation: “If judge uses ‘unclear’/‘vague,’ prompt to file clarification.”
+
+**FG5-0900 — Archive = Eternal Witness**
+
+**⚪🌌**
+
+- Core: Your record will be read by strangers; write for them.
+- Lesson: Add a 120-word “Reader’s Preface” to any major submission: who you are, what you seek, which pages to read.
+- Assignment: Preface your next filing.
+- Model: “Reader’s Preface: Relief sought; start at p.2; exhibits A–C.”
+- Reflection: Hospitality for the reader = leverage.
+- Visual: A lantern at the doorway.
+
+THINK5: T: New judge/clerk. H: zero context. I: one-pager guided tour. N: add to front matter. K: keep a library of prefaces.
+
+Ops: Moves: “Reader’s Preface.” · Ledger: page map. · I/E/R: 4/1/1 · Timeline: now. · Snippet: “Start here: …” · Automation: “If clerk changes, auto-insert Preface.”
+
+**FG5-0950 — Archive = Eternal Chain**
+
+**⚫⛓️**
+
+- Core: Continuity is an argument.
+- Lesson: Compile an “Issue Chain” listing each preserved objection and where it appears again.
+- Assignment: Table with columns: Issue → First cite → Repeats → Current ask.
+- Model: “Continuity table filed; objections tracked from origination.”
+- Reflection: Appellate readers can trace your spine.
+- Visual: Linked circles across pages.
+
+THINK5: T: Appellate prep. H: waiver traps. I: objection cites. N: chain the issues. K: which chains are weakest?
+
+Ops: Moves: “Issue Continuity Table.” · Ledger: per-issue thread. · I/E/R: 5/2/2 · Timeline: pre-appeal. · Snippet: “Issue preserved at FG p.; raised again at p..” · Automation: “When an objection is entered, append to chain.”
+
+**FG5-1000 — Archive = Sovereign Memory**
+
+**🌌🗄️**
+
+- Core: The people’s record outlives any courtroom.
+- Lesson: Publish a redacted public version of your archive (privacy-safe) with a public index and lessons learned.
+- Assignment: Export a community copy; strip PII; add a pedagogy section.
+- Model: “Redacted archive published; educational index included.”
+- Reflection: You close the loop by teaching.
+- Visual: Stars forming a cabinet constellation.
+
+THINK5: T: Case sunset. H: privacy vs. pedagogy. I: PII checklist. N: redact → publish → license. K: what would have helped you on day 1?
+
+Ops: Moves: “Public Release Notice (Redacted).” · Ledger: redaction log. · I/E/R: 5/3/2 · Timeline: after final order/appeal window. · Snippet: “Released for education, CC BY-NC.” · Automation: “After closure, generate redaction tasks & license note.”
+
+# **D. How to spin the remaining 980 cards fast (your “5-minute forge”)**
+
+1. Pick the slot (e.g., FG5-0312).
+2. Choose a theme (volume color + your concept).
+3. Write Core (1 line).
+4. Draft THINK5 in 90 seconds.
+5. Add Ops (Moves, Ledger, Scores, Timeline, Snippet, Automation).
+6. Paste the model sentence; you’re done.
+
+# If you want, tell me: “Generate FG5-001→050 fully” (or any band), and I’ll produce that batch immediately in this 5.0 format.
+
+# **E. Micro-toolbox (drop-in snippets)**
+
+- Preserve Silence: “Judicial silence on [motion/date] is preserved as absence of due process; see Dkt __.”
+- Single-Issue Objection: “Respectfully, objection is preserved on [Rule/Right], as supported by Exh __.”
+- Clarification: “Petitioner seeks clarification limited to scope, deadline, and format to prevent prejudice.”
+- Step-Up (appeal breadcrumb): “If relief is denied, the preserved question is whether __ under standard __ (cites).”
+
+# **F. Not legal advice**
+
+This is an educational framework. Laws/procedures vary. Verify local rules & deadlines.
+
+Want me to generate a full 50-card band right now (e.g., FG5-001–050 Foundations) or export this as a ready-to-print PDF/DOCX? Say the word and specify which band(s
