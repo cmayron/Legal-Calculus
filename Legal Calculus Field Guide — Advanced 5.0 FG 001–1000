@@ -1,0 +1,18 @@
+Legal Calculus Field Guide — Advanced 5.0 FG 001–1000
+Single‑file • Offline
+Dark theme
+
+Theme
+Light
+
+Dark
+
+
+Reset
+Export JSON
+Bake HTML
+Copy Filters
+Loading…
+
+FG Advanced 5.0 is generated offline from composable templates. Use the toolbar to export the entire dataset or save a baked HTML snapshot.
+', '') .replace(/`); const blob = new Blob([baked], {type:"text/html"}); const a = Object.assign(document.createElement('a'), { href:URL.createObjectURL(blob), download:"LCFG_5_0_BAKED_FG1_1000.html" }); a.click(); setTimeout(()=>URL.revokeObjectURL(a.href), 1000); }); function escapeJSON(s){return s.replace(/{ const dummy = location.href.split("#")[0] + location.hash; navigator.clipboard.writeText(dummy).then(()=>{ count.textContent = "Filters URL copied."; setTimeout(()=>render(), 1200); }); }); // Hook inputs q.addEventListener('input', render); vol.addEventListener('change', render); // Initial hydrateFromHash(); render(); })();
