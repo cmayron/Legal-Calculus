@@ -1,0 +1,75 @@
+# **1) Add Light/Dark theme toggle to your existing Advanced app**
+
+**A) Add the button (inside the top**
+
+**.toolbar**
+
+**)**
+
+Search in your file for the toolbar buttons and insert this anywhere in that group:
+
+<button class="btn" id="btnTheme">🌓 Theme</button>
+
+**B) Add the light palette CSS (anywhere inside** 
+**<style>...</style>**
+**, after the** 
+**:root{...}**
+ **block)**
+
+/* Light theme palette overrides */
+body[data-theme="light"]{
+--bg:#f6f8fb;
+--panel:#ffffff;
+--muted:#49606f;
+--text:#0a1620;
+--accent:#0e7ad1;
+--accent-2:#0e9d7a;
+--chip:#f0f3f7;
+--chip-active:#e5f2ff;
+--border:#dbe3ea;
+--danger:#c62828;
+--ok:#2e7d32;
+--warn:#a86d00;
+}
+body[data-theme="light"] body,
+body[data-theme="light"] .btn{ background-image:none; }
+body[data-theme="light"] .card,
+body[data-theme="light"] .toolbar,
+body[data-theme="light"] .filters,
+body[data-theme="light"] #bundlePane{ box-shadow:0 4px 16px rgba(0,0,0,.06); }
+body[data-theme="light"] .panel-body .block{ background:#fbfdff; }
+
+**C) Add the JS (near the bottom, after other handlers but before** 
+**boot();**
+**)**
+
+<script>
+/* Theme toggle */
+(function(){
+const KEY='lcu.theme';
+function setTheme(t){ document.body.dataset.theme=t; try{localStorage.setItem(KEY,t);}catch{} }
+function getTheme(){ try{ return localStorage.getItem(KEY)||'dark'; }catch{ return 'dark'; } }
+window.initTheme = function(){ setTheme(getTheme()); };
+window.toggleTheme = function(){
+const next = (document.body.dataset.theme==='light') ? 'dark' : 'light';
+setTheme(next);
+toast(`Theme: ${next}`);
+};
+document.addEventListener('DOMContentLoaded', ()=>{
+const b=document.getElementById('btnTheme');
+if(b){ b.addEventListener('click', toggleTheme); }
+});
+})();
+</script>
+
+**D) Call**
+
+**initTheme()**
+
+**once on boot**
+
+Inside your existing boot() function (top or bottom is fine), add:
+
+initTheme();
+
+That’s it. Your Advanced app now remembers Light/Dark in localStorage and toggles instantly.
