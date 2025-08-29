@@ -1,0 +1,971 @@
+Awesome — here’s the single-file, dark-mode LC 4.5 Advanced app with the power-ups we discussed (variables/tokens, one-click generators, bundles, smarter search, workspace save/restore, encrypted export, command palette, print deck).
+
+Save this as LCFG-4.5-Advanced.html, open it locally, click Import MD to drop in your full Field Guide (FG 1–1000). It ships with a small seed so you can play immediately.
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Legal Calculus Field Guide — LC 4.5 Advanced (Single-File, Dark)</title>
+<meta name="theme-color" content="#0b0f14" />
+<style>
+  :root{
+    --bg:#0b0f14; --bg-2:#0f141a; --panel:#121823; --ink:#e7eef7;
+    --muted:#9bb0c6; --accent:#66e0ff; --accent-2:#a0ffcf;
+    --chip:#1a2330; --chip-b:#2a3545; --bad:#ff6b6b; --good:#09d3ac; --warn:#ffd166;
+    --fg-good:#0ee; --focus:#43b3ff; --code:#0d1117;
+    --vol1:#c8e6ff; --vol2:#c8ccff; --vol3:#fff3b0; --vol4:#ffb8a6; --vol5:#bbf7d0;
+    --vol6:#b3e6ff; --shadow: 0 6px 20px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0; background:linear-gradient(180deg,var(--bg),#0c1219 40%, var(--bg-2));
+    color:var(--ink); font: 14px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Inter, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  }
+  a{color:var(--accent)} a:hover{opacity:.9}
+  .app{display:grid; grid-template-rows:auto 1fr; height:100vh}
+  header{
+    display:flex; gap:10px; align-items:center; padding:12px 14px; background:rgba(8,12,18,.7);
+    position:sticky; top:0; backdrop-filter:saturate(1.2) blur(6px); z-index:10; border-bottom:1px solid #1b2534;
+  }
+  header .brand{font-weight:700; letter-spacing:.2px}
+  .tag{padding:2px 8px; border-radius:999px; background:var(--chip); color:var(--muted); border:1px solid var(--chip-b); font-size:12px}
+  .pill{padding:7px 10px; border-radius:10px; background:var(--panel); border:1px solid #1e2a3a; color:var(--ink)}
+  .btn{
+    padding:8px 12px; border-radius:10px; border:1px solid #263449; background:linear-gradient(180deg,#122032,#0f1a27);
+    color:var(--ink); cursor:pointer; box-shadow:var(--shadow); transition:transform .03s ease, border-color .15s;
+  }
+  .btn:active{transform:translateY(1px)}
+  .btn.secondary{background:#101622; border-color:#1c2838; color:var(--muted)}
+  .btn.ghost{background:transparent; border-color:#213147}
+  .btn.warn{border-color:#61501f; background:linear-gradient(180deg,#2a2312,#1a160e); color:#ffd166}
+  .btn.good{border-color:#1a463f; background:linear-gradient(180deg,#123029,#0d2420); color:#a0ffcf}
+  .btn.bad{border-color:#4b1f24; background:linear-gradient(180deg,#2a1216,#1a0d0f); color:#ffb3b3}
+  .btn:focus{outline:2px solid var(--focus); outline-offset:2px}
+  .sep{width:1px; height:28px; background:#1b2736; margin:0 6px}
+  .input, select{
+    background:#0e1621; border:1px solid #213147; color:var(--ink); border-radius:10px; padding:8px 10px; min-width:180px;
+  }
+  .search{display:flex; align-items:center; gap:8px; background:#0e1621; border:1px solid #213147; border-radius:10px; padding:6px 10px; min-width:260px}
+  .search input{all:unset; width:100%}
+  .kbd{background:#111825; border:1px solid #253247; padding:2px 6px; border-radius:6px; color:#a8c1db; font-size:12px}
+  main{display:grid; grid-template-columns: 420px 1fr; gap:12px; padding:12px}
+  .panel{
+    background:linear-gradient(180deg,#0e141c,#101827); border:1px solid #1d2a3b; border-radius:14px; box-shadow:var(--shadow);
+  }
+  .list{display:flex; flex-direction:column}
+  .cards{overflow:auto; max-height:calc(100vh - 120px); padding:10px}
+  .card{
+    border:1px solid #233147; border-radius:12px; padding:10px 12px; background:#0f1723; margin:8px 2px;
+    display:grid; grid-template-columns: 1fr auto; gap:6px; cursor:pointer; transition:background .15s, border-color .15s, transform .03s;
+  }
+  .card:hover{background:#0f1b2a}
+  .card.selected{border-color:#2f87ff; box-shadow:0 0 0 2px rgba(67,179,255,.22) inset}
+  .vol{font-size:12px; opacity:.85}
+  .vol[data-v="1"]{color:var(--vol1)} .vol[data-v="2"]{color:var(--vol2)} .vol[data-v="3"]{color:#ffe08a}
+  .vol[data-v="4"]{color:#ffb39d} .vol[data-v="5"]{color:#bff4cc} .vol[data-v="6"]{color:#b8e5ff}
+  .card h4{margin:0; font-size:14px}
+  .meta{color:var(--muted); font-size:12px; display:flex; gap:6px; align-items:center; flex-wrap:wrap}
+  .right{display:grid; grid-template-rows: auto 1fr}
+  .detail{padding:12px 14px; overflow:auto}
+  .detail h2{margin:.2rem 0 .6rem 0; font-size:18px}
+  .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:8px}
+  .box{background:#0d1520; border:1px solid #1f2a3a; border-radius:12px; padding:10px}
+  .box h3{margin:.1rem 0 .5rem 0; font-size:13px; color:#a8c1db; text-transform:uppercase; letter-spacing:.6px}
+  .token{color:var(--accent-2); font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace}
+  .bundle-bar{display:flex; gap:8px; align-items:center; padding:10px; border-top:1px solid #1b2534; background:#0e141c}
+  .bundle-count{font-weight:600}
+  .chips{display:flex; gap:6px; flex-wrap:wrap}
+  .chip{background:var(--chip); border:1px solid var(--chip-b); border-radius:999px; padding:4px 8px; color:#c7d7ea; font-size:12px}
+  .tags{display:flex; gap:6px; flex-wrap:wrap; margin-top:4px}
+  .tags .chip{cursor:pointer}
+  .footer{display:flex; padding:8px 12px; color:#8aa0b9; font-size:12px; justify-content:space-between; border-top:1px solid #1a2433}
+  /* Modals */
+  dialog{border:none; padding:0; border-radius:14px; background:#0f1622; color:var(--ink); width:min(900px,90vw); box-shadow:var(--shadow)}
+  dialog::backdrop{background:rgba(3,6,10,.7); backdrop-filter:blur(2px)}
+  .modal-head{padding:12px 14px; border-bottom:1px solid #1c2839; display:flex; justify-content:space-between; align-items:center}
+  .modal-body{padding:12px 14px}
+  textarea{width:100%; min-height:40vh; background:#0b111a; color:var(--ink); border:1px solid #223147; border-radius:12px; padding:10px}
+  .row{display:flex; gap:8px; flex-wrap:wrap; align-items:center}
+  .two{display:grid; grid-template-columns:1fr 1fr; gap:10px}
+  /* Command palette */
+  .palette{position:fixed; inset:0; display:none; place-items:start center; padding-top:10vh; z-index:999}
+  .palette.active{display:grid}
+  .pal{width:min(760px,92vw); border:1px solid #223049; border-radius:12px; background:#0f1623; box-shadow:var(--shadow)}
+  .pal input{all:unset; width:100%; padding:12px; background:#0e1520; border-bottom:1px solid #1a2637}
+  .pal .items{max-height:50vh; overflow:auto}
+  .pal .item{padding:10px 12px; border-bottom:1px solid #1a2637; cursor:pointer}
+  .pal .item:hover, .pal .item.active{background:#0f1c2c}
+  /* Print deck */
+  @media print{
+    header, .bundle-bar, .footer, .palette, .hide-print {display:none !important}
+    body{background:white; color:black}
+    .panel{border:0; box-shadow:none; background:white}
+    .cards{max-height:none}
+    .card{page-break-inside:avoid; border:1px solid #ccc; background:white; color:black}
+    a{color:black}
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="hide-print" aria-label="Toolbar">
+    <div class="brand">⚖️ LC 4.5 Advanced</div>
+    <span class="tag">Single-File • Offline</span>
+    <div class="sep"></div>
+
+    <label class="search" title="Search (Ctrl/Cmd+K opens command palette)">
+      🔎 <input id="q" placeholder="Search FG (e.g. silence eclipse model)" />
+    </label>
+
+    <select id="volFilter" title="Volume">
+      <option value="">All Volumes</option>
+      <option value="1">V1 Foundations</option>
+      <option value="2">V2 Suppression</option>
+      <option value="3">V3 Visibility</option>
+      <option value="4">V4 Action</option>
+      <option value="5">V5 Growth</option>
+      <option value="6">V6 Clarity</option>
+      <option value="7">V7 Memory</option>
+      <option value="8">V8 Struggle</option>
+      <option value="9">V9 Value</option>
+      <option value="10">V10 Reflection</option>
+    </select>
+
+    <select id="typeFilter" title="Section filter">
+      <option value="">All Sections</option>
+      <option>Core</option><option>Lesson</option><option>Assignment</option>
+      <option>Model</option><option>Reflection</option><option>Visual</option>
+    </select>
+
+    <button class="btn secondary" id="tagAny">Any Tag</button>
+    <div class="sep"></div>
+
+    <button class="btn" id="importMd">Import MD</button>
+    <button class="btn" id="importJson">Import JSON</button>
+    <button class="btn good" id="saveWorkspace">Save Workspace</button>
+    <button class="btn" id="loadWorkspace">Load Workspace</button>
+    <div class="sep"></div>
+
+    <button class="btn ghost" id="encExport" title="Encrypted export (AES-GCM)">🔐 Export</button>
+    <button class="btn ghost" id="encImport" title="Import encrypted">🔓 Import</button>
+    <div class="sep"></div>
+
+    <button class="btn good" id="genHearing" title="Generator">Hearing</button>
+    <button class="btn good" id="genMotion">Motion</button>
+    <button class="btn good" id="genAppeal">Appeal</button>
+    <div class="sep"></div>
+
+    <button class="btn" id="printDeck">Print</button>
+    <span class="tag">Cmd/Ctrl-K</span>
+  </header>
+
+  <main>
+    <section class="panel list" aria-label="Card list">
+      <div class="footer" style="border-top:none; padding:10px 12px">
+        <div class="row">
+          <button class="btn" id="clearFilters">Clear</button>
+          <button class="btn ghost" id="kiosk">Kiosk</button>
+          <span class="tag">Cards: <span id="count">0</span></span>
+        </div>
+        <div class="chips" id="activeTags"></div>
+      </div>
+      <div id="cards" class="cards" role="list"></div>
+      <div class="footer">
+        <span>Tip: Hold <span class="kbd">Shift</span> to multi-select. Press <span class="kbd">B</span> to add to bundle, <span class="kbd">C</span> to copy Model.</span>
+        <span>Built for offline — everything stays on your machine.</span>
+      </div>
+    </section>
+
+    <section class="panel right" aria-label="Detail & bundle">
+      <div class="detail" id="detail">
+        <h2>Welcome to LC 4.5 Advanced</h2>
+        <p>Import your full Field Guide Markdown (FG 1–1000) via <b>Import MD</b>. Use search, filters, tags; select cards and build a bundle. Tokens like <span class="token">{{party}}</span> and <span class="token">{{judge}}</span> auto-inject into generators and prints.</p>
+        <div class="grid">
+          <div class="box">
+            <h3>Case Variables</h3>
+            <div class="row">
+              <input class="input" id="v_party" placeholder="party (e.g., Jane Doe)" />
+              <input class="input" id="v_opposing" placeholder="opposing (e.g., State)" />
+              <input class="input" id="v_judge" placeholder="judge" />
+              <input class="input" id="v_court" placeholder="court" />
+            </div>
+            <div class="row" style="margin-top:6px">
+              <input class="input" id="v_docket" placeholder="docket" />
+              <input class="input" id="v_relief" placeholder="relief sought" />
+              <input class="input" id="v_date" placeholder="date" />
+              <button class="btn" id="saveVars">Save Vars</button>
+              <button class="btn secondary" id="clearVars">Clear</button>
+            </div>
+            <small class="muted">Use tokens in templates: <span class="token">{{party}}</span>, <span class="token">{{opposing}}</span>, <span class="token">{{judge}}</span>, <span class="token">{{court}}</span>, <span class="token">{{docket}}</span>, <span class="token">{{relief}}</span>, <span class="token">{{date}}</span>.</small>
+          </div>
+
+          <div class="box">
+            <h3>Generators</h3>
+            <p>Use selected cards to build a focused output.</p>
+            <div class="row">
+              <select id="genTone" class="input">
+                <option value="neutral">Neutral</option>
+                <option value="firm">Firm</option>
+                <option value="urgent">Urgent</option>
+              </select>
+              <select id="juris" class="input" title="Preset phrasing">
+                <option value="generic">Generic</option>
+                <option value="federal">Federal</option>
+                <option value="state">State</option>
+              </select>
+              <button class="btn good" id="previewDoc">Preview</button>
+              <button class="btn" id="copyDoc">Copy</button>
+              <button class="btn" id="downloadDoc">Download .txt</button>
+            </div>
+            <textarea id="docOut" placeholder="Generated document preview…"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="bundle-bar hide-print">
+        <span class="bundle-count">Bundle: <span id="bundleCount">0</span></span>
+        <button class="btn good" id="exportBundle">Export JSON</button>
+        <button class="btn" id="copyLines">Copy Model Lines</button>
+        <button class="btn bad" id="clearBundle">Clear</button>
+        <div class="chips" id="bundleChips"></div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- Import MD Modal -->
+<dialog id="mdModal">
+  <div class="modal-head">
+    <strong>Import Field Guide Markdown (FG 1–1000)</strong>
+    <button class="btn ghost" onclick="mdModal.close()">✕</button>
+  </div>
+  <div class="modal-body">
+    <p>Paste the full Markdown. The parser recognizes headings like <code>### FG-001 — Filing = Existence</code> and sections for Core/Lesson/Assignment/Model/Reflection/Visual.</p>
+    <textarea id="mdText"></textarea>
+    <div class="row" style="margin-top:8px">
+      <button class="btn good" id="parseMd">Import</button>
+      <button class="btn secondary" onclick="mdModal.close()">Cancel</button>
+    </div>
+  </div>
+</dialog>
+
+<!-- Import JSON Modal -->
+<dialog id="jsonModal">
+  <div class="modal-head">
+    <strong>Import Library JSON</strong>
+    <button class="btn ghost" onclick="jsonModal.close()">✕</button>
+  </div>
+  <div class="modal-body">
+    <textarea id="jsonText" placeholder='Paste previously exported .json here'></textarea>
+    <div class="row" style="margin-top:8px">
+      <button class="btn good" id="parseJson">Import JSON</button>
+      <button class="btn secondary" onclick="jsonModal.close()">Cancel</button>
+    </div>
+  </div>
+</dialog>
+
+<!-- Encrypted Export Modal -->
+<dialog id="encOutModal">
+  <div class="modal-head">
+    <strong>Encrypted Export (AES-GCM)</strong>
+    <button class="btn ghost" onclick="encOutModal.close()">✕</button>
+  </div>
+  <div class="modal-body two">
+    <div>
+      <label>Password</label>
+      <input id="encPassOut" class="input" type="password" placeholder="choose a password"/>
+    </div>
+    <div>
+      <label>Confirm</label>
+      <input id="encPassOut2" class="input" type="password" placeholder="repeat password"/>
+    </div>
+    <textarea id="encOutText" placeholder="Encrypted payload will appear here…"></textarea>
+    <div class="row">
+      <button class="btn good" id="doEnc">Encrypt</button>
+      <button class="btn" id="copyEnc">Copy</button>
+      <button class="btn" id="downloadEnc">Download .lcfg45.enc</button>
+    </div>
+  </div>
+</dialog>
+
+<!-- Encrypted Import Modal -->
+<dialog id="encInModal">
+  <div class="modal-head">
+    <strong>Import Encrypted (.enc)</strong>
+    <button class="btn ghost" onclick="encInModal.close()">✕</button>
+  </div>
+  <div class="modal-body">
+    <input id="encPassIn" class="input" type="password" placeholder="password"/>
+    <textarea id="encInText" placeholder="Paste encrypted text…"></textarea>
+    <div class="row">
+      <button class="btn good" id="doDec">Decrypt & Load</button>
+      <button class="btn secondary" onclick="encInModal.close()">Cancel</button>
+    </div>
+  </div>
+</dialog>
+
+<!-- Command Palette -->
+<div class="palette" id="palette" aria-hidden="true">
+  <div class="pal">
+    <input id="palInput" placeholder="Type a command… (↑/↓, Enter)" />
+    <div class="items" id="palItems"></div>
+  </div>
+</div>
+
+<script>
+(() => {
+  // ---------- Data structures ----------
+  /** @typedef {{id:string, fg:number, vol:number, title:string, core:string, lesson:string, assignment:string, model:string, reflection:string, visual:string, tags:string[], text:string}} Card */
+  const S = { cards: /**@type Card[]*/([]), filtered: [], selected: new Set(), bundle: [], tags: new Set(), activeTags: new Set(), vars: loadVars() || {}, query:"", synonyms: buildSynonyms(), idf:new Map(), df:new Map(), busy:false };
+
+  // ---------- Seed (6 demo cards) ----------
+  const seedMd = `### FG-001 — Filing = Existence
+- ⚖️ Core Message: To file is to exist in the record.
+- 📖 Lesson Content: No filing, no case. Filing transforms grievance into memory.
+- ✏️ Assignment: Draft one line asserting your claim exists because it is filed.
+- ✅ Model Response: "This claim exists because it is filed on the record."
+- 💡 Reflection Summary: Filing is the act of breathing life into protest.
+- 🎨 Visual Concept: A glowing brief appearing on an empty courtroom desk.
+
+### FG-002 — Silence = Absence
+- ⚖️ Core Message: Silence leaves only absence.
+- 📖 Lesson Content: Courts may ignore, but silence proves avoidance.
+- ✏️ Assignment: Draft one line preserving silence as part of record.
+- ✅ Model Response: "Judicial silence preserved as absence of due process."
+- 💡 Reflection Summary: Absence itself is evidence.
+- 🎨 Visual Concept: Empty judge’s chair with filing glowing beneath.
+
+### FG-003 — Denial = Recognition
+- ⚖️ Core Message: Denial recognizes what it seeks to dismiss.
+- 📖 Lesson Content: A denial means your claim was seen.
+- ✏️ Assignment: Draft one line reframing denial as acknowledgement.
+- ✅ Model Response: "Denial preserved as recognition of this claim’s presence."
+- 💡 Reflection Summary: Rejection is proof of visibility.
+- 🎨 Visual Concept: “Denied” stamp glowing as spotlight.
+
+### FG-004 — Default = Opportunity
+- ⚖️ Core Message: Default creates new openings.
+- 📖 Lesson Content: Defaults signal procedural cracks that can be preserved for later motion.
+- ✏️ Assignment: Draft one objection line turning default into opportunity.
+- ✅ Model Response: "Default preserved as opportunity to assert due process failure."
+- 💡 Reflection Summary: What’s missing can become entry.
+- 🎨 Visual Concept: Empty docket line glowing as open doorway.
+
+### FG-005 — Efficiency = Excuse
+- ⚖️ Core Message: Efficiency is the excuse for neglect.
+- 📖 Lesson Content: Courts substitute speed for substance. Preserve this evasion.
+- ✏️ Assignment: Draft one objection line to efficiency as avoidance.
+- ✅ Model Response: "Efficiency rationale preserved as excuse for due process denial."
+- 💡 Reflection Summary: Speed ≠ justice.
+- 🎨 Visual Concept: Stopwatch glowing, filings piling beneath.
+
+### FG-006 — Closure = Illusion
+- ⚖️ Core Message: Closure is theater, not truth.
+- 📖 Lesson Content: Courts stage endings for convenience. The record preserves ongoing reality.
+- ✏️ Assignment: Draft one closure-preservation line.
+- ✅ Model Response: "Closure preserved as illusion masking unresolved claim."
+- 💡 Reflection Summary: Curtain falls, story continues.
+- 🎨 Visual Concept: Courtroom door closing on glowing papers still moving inside.
+`;
+
+  // ---------- Helpers ----------
+  function $(q,root=document){return root.querySelector(q)}
+  function $all(q,root=document){return Array.from(root.querySelectorAll(q))}
+  function esc(s){return s.replace(/[&<>"']/g,m=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m]))}
+  function volFromFg(fg){
+    if(fg<=50) return 1; if(fg<=100) return 2; if(fg<=150) return 3; if(fg<=200) return 4; if(fg<=250) return 5;
+    if(fg<=300) return 6; if(fg<=350) return 7; if(fg<=400) return 8; if(fg<=450) return 9; if(fg<=500) return 10;
+    if(fg<=550) return 11; if(fg<=600) return 12; if(fg<=650) return 13; if(fg<=700) return 14; if(fg<=750) return 15;
+    if(fg<=800) return 16; if(fg<=850) return 17; if(fg<=900) return 18; if(fg<=950) return 19; return 20;
+  }
+  function autoTags(title){ // derive quick topic tags
+    const t = title.toLowerCase();
+    const tags = [];
+    ['filing','silence','denial','default','efficiency','closure','archive'].forEach(k=> t.includes(k) && tags.push(k));
+    return tags.length?tags:['general'];
+  }
+  function tokenize(str){
+    return (str||'').toLowerCase()
+      .replace(/["'’“”()[\]{}—–\-_/\\.,:;!?]+/g,' ')
+      .split(/\s+/).filter(Boolean);
+  }
+  function buildSynonyms(){
+    const m = new Map();
+    const add=(a,b)=>{m.set(a,new Set([a,b,...(m.get(a)||[])])); m.set(b,new Set([b,a,...(m.get(b)||[])]));}
+    add('appeal','appellate'); add('silence','mute'); add('closure','finality'); add('denial','refusal');
+    add('archive','record'); add('efficiency','speed'); add('default','omission'); add('filing','brief');
+    add('motion','request'); add('hearing','court'); add('due','process'); add('preserve','record');
+    // flatten to arrays
+    const out = new Map(); for(const [k,set] of m) out.set(k, Array.from(set));
+    return out;
+  }
+
+  // ---------- Markdown parser ----------
+  function parseMarkdown(md){
+    const blocks = md.split(/^###\s+/m).map(s=>s.trim()).filter(Boolean);
+    const cards = [];
+    for(const b of blocks){
+      const head = b.split('\n')[0]; // FG-xxx — Title
+      const m = head.match(/^FG[-–](\d+)\s+—\s+(.+)$/);
+      if(!m) continue;
+      const fg = +m[1]; const title = m[2].trim();
+      const vol = volFromFg(fg);
+
+      const pick = (label) => {
+        const rx = new RegExp(`^\\-\\s*[^\\s]+\\s*${label}\\s*:\\s*([\\s\\S]*?)(?=^\\-\\s*[^\\n]+\\:\\s*|\\Z)`,'m');
+        const mm = b.match(rx); return mm? mm[1].trim().replace(/^["“]|["”]$/g,''): '';
+      };
+      const card = {
+        id: 'FG'+String(fg).padStart(3,'0'),
+        fg, vol, title,
+        core: pick('Core Message'),
+        lesson: pick('Lesson Content'),
+        assignment: pick('Assignment'),
+        model: pick('Model Response'),
+        reflection: pick('Reflection Summary'),
+        visual: pick('Visual Concept'),
+        tags: autoTags(title),
+        text: ''
+      };
+      card.text = [card.title, card.core, card.lesson, card.assignment, card.model, card.reflection, card.visual].join('\n');
+      cards.push(card);
+    }
+    return cards;
+  }
+
+  // ---------- Indexing (simple TF-IDF) ----------
+  function buildIndex(){
+    S.df.clear(); S.idf.clear();
+    const docs = S.cards;
+    // DF
+    for(const c of docs){
+      const seen = new Set();
+      tokenize(c.text).forEach(t=> { if(!seen.has(t)){ seen.add(t); S.df.set(t, (S.df.get(t)||0)+1); } });
+    }
+    // IDF
+    const N = Math.max(1, docs.length);
+    for(const [t,df] of S.df.entries()){
+      const idf = Math.log( (N+1) / (df+1) ) + 1;
+      S.idf.set(t, idf);
+    }
+  }
+
+  function scoreQuery(card, qTokens){
+    // expand synonyms
+    const expand = (tok)=>{
+      return S.synonyms.get(tok) || [tok];
+    };
+    let score=0; const terms = tokenize(card.text);
+    for(const q of qTokens){
+      const variants = expand(q);
+      for(const v of variants){
+        const tf = terms.filter(t=>t===v).length;
+        if(tf) score += tf * (S.idf.get(v)||1);
+      }
+    }
+    // small boost if term in title or tags
+    const title = card.title.toLowerCase();
+    for(const q of qTokens){ if(title.includes(q)) score+= 1.2; }
+    for(const q of qTokens){ if(card.tags.includes(q)) score+= .8; }
+    return score;
+  }
+
+  // ---------- Rendering ----------
+  const elCards = $('#cards'), elCount = $('#count'), elBundleCount = $('#bundleCount'), elBundleChips = $('#bundleChips'), elActiveTags = $('#activeTags');
+  function renderCards(){
+    const list = S.filtered.length? S.filtered : S.cards;
+    elCards.innerHTML = list.map(c => {
+      const sel = S.selected.has(c.id)?' selected':'';
+      return `<div class="card${sel}" role="listitem" data-id="${c.id}">
+        <div>
+          <div class="meta"><span class="vol" data-v="${c.vol}">FG-${String(c.fg).padStart(3,'0')} · V${c.vol}</span> ${c.tags.map(t=>`<span class="chip">${esc(t)}</span>`).join('')}</div>
+          <h4>${esc(c.title)}</h4>
+          <div class="meta">${esc(c.core||'')}</div>
+        </div>
+        <div class="row" style="align-self:center">
+          <button class="btn secondary mini" data-act="add" title="Add to bundle">＋</button>
+          <button class="btn secondary mini" data-act="copy" title="Copy model">⧉</button>
+        </div>
+      </div>`;
+    }).join('');
+    elCount.textContent = String(list.length);
+  }
+
+  function showDetail(card){
+    if(!card){ $('#detail').innerHTML = '<h2>No card selected</h2>'; return; }
+    $('#detail').innerHTML = `
+      <h2>${esc(card.title)} <span class="tag">FG-${String(card.fg).padStart(3,'0')}</span> <span class="tag">V${card.vol}</span></h2>
+      <div class="grid">
+        <div class="box"><h3>Core</h3><div>${linkify(esc(card.core))}</div></div>
+        <div class="box"><h3>Lesson</h3><div>${linkify(esc(card.lesson))}</div></div>
+        <div class="box"><h3>Assignment</h3><div>${linkify(esc(card.assignment))}</div></div>
+        <div class="box"><h3>Model</h3><div><pre style="white-space:pre-wrap;background:#0b111a;border:1px solid #1d2a3b;padding:8px;border-radius:10px">${esc(card.model)}</pre></div></div>
+        <div class="box"><h3>Reflection</h3><div>${linkify(esc(card.reflection))}</div></div>
+        <div class="box"><h3>Visual</h3><div>${linkify(esc(card.visual))}</div></div>
+      </div>
+      <div class="tags">${card.tags.map(t=>`<span class="chip" data-tag="${esc(t)}">${esc(t)}</span>`).join('')}</div>
+    `;
+    // clickable tag filters
+    $('#detail').querySelectorAll('.tags .chip').forEach(n=> n.addEventListener('click',()=> toggleTag(n.dataset.tag)));
+  }
+
+  function linkify(text){
+    return text.replace(/(https?:\/\/[^\s)]+)|`([^`]+)`/g, (m, url, code)=>{
+      if(url) return `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(url)}</a>`;
+      if(code) return `<code style="background:#0d1117;border:1px solid #1f2a3a;border-radius:6px;padding:1px 4px">${esc(code)}</code>`;
+      return m;
+    });
+  }
+
+  function refresh(){
+    const vol = $('#volFilter').value;
+    const type = $('#typeFilter').value;
+    const list = [];
+    const base = S.cards;
+    // filter by tags
+    const tagSet = S.activeTags;
+    for(const c of base){
+      if(vol && String(c.vol)!==vol) continue;
+      if(tagSet.size && !c.tags.some(t=>tagSet.has(t))) continue;
+      // type filter narrows search scope
+      let hay = c.text;
+      if(type==='Core') hay = c.core;
+      else if(type==='Lesson') hay = c.lesson;
+      else if(type==='Assignment') hay = c.assignment;
+      else if(type==='Model') hay = c.model;
+      else if(type==='Reflection') hay = c.reflection;
+      else if(type==='Visual') hay = c.visual;
+
+      if(S.query){
+        const tokens = tokenize(S.query);
+        const s = scoreQuery({...c, text: hay}, tokens);
+        if(s>0) list.push({card:c,score:s});
+      } else list.push({card:c, score:0});
+    }
+    list.sort((a,b)=> b.score - a.score || a.card.fg - b.card.fg);
+    S.filtered = list.map(x=>x.card);
+    renderCards();
+  }
+
+  // ---------- Selection & bundle ----------
+  function toggleSelect(id, multi=false){
+    if(!multi) S.selected.clear();
+    S.selected.has(id) ? S.selected.delete(id) : S.selected.add(id);
+    renderCards(); showDetail(cardById([...S.selected][0]));
+  }
+  function addToBundle(id){
+    const c = cardById(id); if(!c) return;
+    if(!S.bundle.find(x=>x.id===id)) S.bundle.push(c);
+    renderBundle();
+  }
+  function removeFromBundle(id){
+    S.bundle = S.bundle.filter(x=>x.id!==id); renderBundle();
+  }
+  function clearBundle(){ S.bundle = []; renderBundle(); }
+  function renderBundle(){
+    elBundleCount.textContent = String(S.bundle.length);
+    elBundleChips.innerHTML = S.bundle.map(c=>`<span class="chip" title="Click to remove" data-bid="${c.id}">${esc(c.id)} · ${esc(c.title)}</span>`).join('');
+    elBundleChips.querySelectorAll('[data-bid]').forEach(n=> n.addEventListener('click',()=> removeFromBundle(n.dataset.bid)));
+  }
+  function cardById(id){ return S.cards.find(c=>c.id===id) }
+
+  // ---------- Variables / tokens ----------
+  function loadVars(){
+    try{ return JSON.parse(localStorage.getItem('lcfg_vars')||'{}'); }catch{ return {}; }
+  }
+  function saveVarsLocal(v){ localStorage.setItem('lcfg_vars', JSON.stringify(v||S.vars)); }
+  function setVarsUI(){
+    $('#v_party').value=S.vars.party||''; $('#v_opposing').value=S.vars.opposing||'';
+    $('#v_judge').value=S.vars.judge||''; $('#v_court').value=S.vars.court||'';
+    $('#v_docket').value=S.vars.docket||''; $('#v_relief').value=S.vars.relief||'';
+    $('#v_date').value=S.vars.date||'';
+  }
+  function pullVars(){
+    S.vars = {
+      party: $('#v_party').value.trim(),
+      opposing: $('#v_opposing').value.trim(),
+      judge: $('#v_judge').value.trim(),
+      court: $('#v_court').value.trim(),
+      docket: $('#v_docket').value.trim(),
+      relief: $('#v_relief').value.trim(),
+      date: $('#v_date').value.trim()
+    };
+    saveVarsLocal();
+  }
+  function injectTokens(str){
+    if(!str) return '';
+    return str
+      .replace(/\{\{party\}\}/g, S.vars.party||'{{party}}')
+      .replace(/\{\{opposing\}\}/g, S.vars.opposing||'{{opposing}}')
+      .replace(/\{\{judge\}\}/g, S.vars.judge||'{{judge}}')
+      .replace(/\{\{court\}\}/g, S.vars.court||'{{court}}')
+      .replace(/\{\{docket\}\}/g, S.vars.docket||'{{docket}}')
+      .replace(/\{\{relief\}\}/g, S.vars.relief||'{{relief}}')
+      .replace(/\{\{date\}\}/g, S.vars.date||'{{date}}');
+  }
+
+  // ---------- Generators ----------
+  const TEMPLATES = {
+    generic: {
+      hearing: (sel,tone)=>[
+        titleLine('Hearing Outline'),
+        partiesLine(),
+        dktLine(),
+        blank(),
+        'I. Core Points',
+        bullets(sel.map(c=>c.core || c.title)),
+        'II. Model Preservations (verbatim, cite docket on the record):',
+        bullets(sel.map(c=> injectTokens(c.model))),
+        'III. Requests:',
+        bullets([
+          `Place on the record that silence, where applicable, is preserved as due process denial.`,
+          `Rule on all pending motions; if not, note refusal for appeal.`,
+          `Grant relief: {{relief}}.`]),
+        closing(tone)
+      ].join('\n'),
+      motion: (sel,tone)=>[
+        caption('Motion to Preserve Record and for Relief'),
+        partiesLine(), dktLine(), blank(),
+        para(`Comes now {{party}} and moves this Court to preserve the following issues and grant relief. This motion is supported by attached points and authorities.`),
+        sec('Issues Preserved'),
+        bullets(sel.map(c=>`${c.title} — ${c.core}`)),
+        sec('Argument'),
+        sel.map(c=> subsec(c.title, [p(c.lesson), quote(injectTokens(c.model)), p('Reflection: '+(c.reflection||'')) ].join('\n'))).join('\n\n'),
+        sec('Relief Requested'),
+        bullets([`Grant: {{relief}}.`,`In the alternative, note all refusals on the record for appellate review.`]),
+        signature()
+      ].join('\n'),
+      appeal: (sel,tone)=>[
+        caption('Notice of Appeal & Record Preservation Statement'),
+        partiesLine(), dktLine(), blank(),
+        para(`{{party}} gives notice of appeal. The following matters are preserved, with citations to the record where available.`),
+        sec('Preserved Matters'),
+        table(['FG','Title','Model Line'], sel.map(c=>[c.id, c.title, injectTokens(c.model)])),
+        sec('Statement'),
+        para(`Under ${tone==='urgent'?'exigent':'applicable'} standards, unresolved issues must be reviewable. Any silence or refusal by the lower court is preserved as due process denial.`),
+        signature()
+      ].join('\n'),
+    },
+    federal:{ hearing:(s,t)=>TEMPLATES.generic.hearing(s,t),
+              motion:(s,t)=>TEMPLATES.generic.motion(s,t).replaceAll('this Court','this Court (federal jurisdiction)'),
+              appeal:(s,t)=>TEMPLATES.generic.appeal(s,t)},
+    state:{ hearing:(s,t)=>TEMPLATES.generic.hearing(s,t),
+            motion:(s,t)=>TEMPLATES.generic.motion(s,t).replaceAll('this Court','this Court (state jurisdiction)'),
+            appeal:(s,t)=>TEMPLATES.generic.appeal(s,t)}
+  };
+  // Tiny builders
+  const p = s=> s? s.replace(/\n+/g,' ').trim(): '';
+  const para = s=> s? s+'\n':'';
+  const blank = ()=>'\n';
+  const sec = s=> `\n=== ${s} ===\n`;
+  const subsec = (t,body)=> `\n— ${t} —\n${body}`;
+  const bullets = arr => arr.filter(Boolean).map(x=>'• '+p(x)).join('\n')+'\n';
+  const quote = s => s ? `“${s}”`:'';
+  const caption = t => `\n=== ${t} ===\n`;
+  const titleLine = t => `=== ${t} ===`;
+  const partiesLine = ()=> `Parties: {{party}} v. {{opposing}}  (Judge: {{judge}}, Court: {{court}})`;
+  const dktLine = ()=> `Docket: {{docket}} · Date: {{date}}`;
+  const signature = ()=> `\nRespectfully submitted,\n{{party}}\n`;
+  const table = (headers, rows) => {
+    const widths = headers.map((h,i)=> Math.max(h.length, ...rows.map(r=> String(r[i]||'').length)));
+    const th = headers.map((h,i)=> pad(h,widths[i])).join(' | ');
+    const bar = widths.map(w=>'-'.repeat(w)).join('-|-');
+    const rs = rows.map(r=> r.map((c,i)=> pad(String(c||''), widths[i])).join(' | ')).join('\n');
+    return th+'\n'+bar+'\n'+rs+'\n';
+  };
+  const pad=(s,w)=> s + ' '.repeat(Math.max(0, w - s.length));
+
+  function generate(which){
+    const sel = S.bundle.length? S.bundle : S.filtered.slice(0,5);
+    const tone = $('#genTone').value;
+    const jur = $('#juris').value;
+    const t = TEMPLATES[jur] || TEMPLATES.generic;
+    let out = '';
+    if(which==='hearing') out = t.hearing(sel, tone);
+    if(which==='motion') out = t.motion(sel, tone);
+    if(which==='appeal') out = t.appeal(sel, tone);
+    $('#docOut').value = injectTokens(out);
+  }
+
+  // ---------- Workspace (save/restore) ----------
+  function workspace(){
+    return {
+      _kind:'LCFG-4.5',
+      when: new Date().toISOString(),
+      cards:S.cards, tags:[...S.tags], vars:S.vars, bundle:S.bundle.map(c=>c.id)
+    };
+  }
+  function loadWorkspace(obj){
+    if(!obj || obj._kind!=='LCFG-4.5') throw new Error('Invalid workspace');
+    S.cards = obj.cards||[]; S.tags = new Set(obj.tags||[]);
+    S.vars = obj.vars||{}; saveVarsLocal();
+    // rebuild bundle
+    S.bundle = (obj.bundle||[]).map(id=> cardById(id)).filter(Boolean);
+    buildIndex(); S.filtered=[]; renderBundle(); setVarsUI(); refresh();
+  }
+
+  // ---------- Encrypted export/import (AES-GCM) ----------
+  async function sha256(bytes){ return await crypto.subtle.digest('SHA-256', bytes) }
+  function b64(bytes){ return btoa(String.fromCharCode(...new Uint8Array(bytes))) }
+  function b64d(str){ return Uint8Array.from(atob(str), c=>c.charCodeAt(0)) }
+  async function deriveKey(pass, salt){
+    const te = new TextEncoder();
+    const key = await crypto.subtle.importKey('raw', te.encode(pass), {name:'PBKDF2'}, false, ['deriveKey']);
+    return crypto.subtle.deriveKey(
+      {name:'PBKDF2', salt, iterations:120000, hash:'SHA-256'},
+      key, {name:'AES-GCM', length:256}, false, ['encrypt','decrypt']
+    );
+  }
+  async function encJson(obj, pass){
+    const te = new TextEncoder();
+    const iv = crypto.getRandomValues(new Uint8Array(12));
+    const salt = crypto.getRandomValues(new Uint8Array(16));
+    const k = await deriveKey(pass, salt);
+    const ct = await crypto.subtle.encrypt({name:'AES-GCM', iv}, k, te.encode(JSON.stringify(obj)));
+    return JSON.stringify({
+      v:1, alg:'AES-GCM', salt:b64(salt), iv:b64(iv), ct:b64(ct)
+    }, null, 2);
+  }
+  async function decJson(payload, pass){
+    const o = JSON.parse(payload);
+    const salt = b64d(o.salt), iv=b64d(o.iv), ct=b64d(o.ct);
+    const k = await deriveKey(pass, salt);
+    const pt = await crypto.subtle.decrypt({name:'AES-GCM', iv}, k, ct);
+    return JSON.parse(new TextDecoder().decode(pt));
+  }
+
+  // ---------- Command palette ----------
+  const PALETTE_CMDS = [
+    {label:'Import Markdown', run:()=> mdModal.showModal()},
+    {label:'Import JSON', run:()=> jsonModal.showModal()},
+    {label:'Save Workspace', run:()=> $('#saveWorkspace').click()},
+    {label:'Load Workspace', run:()=> $('#loadWorkspace').click()},
+    {label:'Encrypted Export', run:()=> encOutModal.showModal()},
+    {label:'Encrypted Import', run:()=> encInModal.showModal()},
+    {label:'Generate: Hearing', run:()=> generate('hearing')},
+    {label:'Generate: Motion', run:()=> generate('motion')},
+    {label:'Generate: Appeal', run:()=> generate('appeal')},
+    {label:'Copy Document', run:()=> $('#copyDoc').click()},
+    {label:'Print Deck', run:()=> window.print()},
+    {label:'Clear Filters', run:()=> $('#clearFilters').click()},
+    {label:'Focus Search', run:()=> $('#q').focus()},
+    {label:'Toggle Kiosk', run:()=> $('#kiosk').click()},
+  ];
+  function openPalette(){
+    const pal = $('#palette'); const input = $('#palInput'); const items = $('#palItems');
+    pal.classList.add('active'); pal.setAttribute('aria-hidden','false'); input.value=''; input.focus();
+    const render = (needle='')=>{
+      const n = needle.toLowerCase();
+      const list = PALETTE_CMDS.filter(c=> c.label.toLowerCase().includes(n));
+      items.innerHTML = list.map((c,i)=> `<div class="item ${i===0?'active':''}" data-i="${i}">${esc(c.label)}</div>`).join('');
+    };
+    render();
+    let idx=0;
+    const onKey = (e)=>{
+      const list = Array.from(items.children);
+      if(e.key==='Escape'){ close(); }
+      else if(e.key==='ArrowDown'){ idx=Math.min(list.length-1, idx+1); sync(); }
+      else if(e.key==='ArrowUp'){ idx=Math.max(0, idx-1); sync(); }
+      else if(e.key==='Enter'){ const cmd = PALETTE_CMDS.filter(c=> c.label.toLowerCase().includes(input.value.toLowerCase()))[idx]; if(cmd){ close(); cmd.run(); } }
+      else { render(input.value); idx=0; sync(); }
+      function sync(){ list.forEach((n,i)=>n.classList.toggle('active', i===idx)); }
+    };
+    const close = ()=>{ pal.classList.remove('active'); pal.setAttribute('aria-hidden','true'); input.removeEventListener('keydown', onKey); };
+    input.addEventListener('keydown', onKey);
+    items.addEventListener('click', e=>{
+      const it = e.target.closest('.item'); if(!it) return;
+      const i = +it.dataset.i; const list = PALETTE_CMDS.filter(c=> c.label.toLowerCase().includes(input.value.toLowerCase()));
+      const cmd = list[i]; close(); cmd && cmd.run();
+    });
+    pal.addEventListener('click', e=> { if(e.target===pal) { pal.classList.remove('active'); pal.setAttribute('aria-hidden','true'); } });
+  }
+
+  // ---------- Events ----------
+  // Seed
+  S.cards = parseMarkdown(seedMd);
+  S.cards.forEach(c=> c.tags.forEach(t=> S.tags.add(t)));
+  buildIndex(); renderCards(); setVarsUI();
+
+  // Clicks in list
+  elCards.addEventListener('click', e=>{
+    const card = e.target.closest('.card'); if(!card) return;
+    const id = card.dataset.id;
+    const act = e.target.dataset.act;
+    if(act==='add'){ addToBundle(id); return; }
+    if(act==='copy'){ const c = cardById(id); navigator.clipboard.writeText(injectTokens(c.model||'')); e.target.textContent='✓'; setTimeout(()=> e.target.textContent='⧉', 900); return; }
+    toggleSelect(id, e.shiftKey);
+  });
+
+  // Query
+  $('#q').addEventListener('input', (e)=>{ S.query = e.target.value.trim(); refresh(); });
+  $('#volFilter').addEventListener('change', refresh);
+  $('#typeFilter').addEventListener('change', refresh);
+
+  // Tag filter (Any/Active)
+  $('#tagAny').addEventListener('click', ()=>{
+    const list = Array.from(S.tags);
+    const pick = prompt('Filter by tag (comma to add). Known: '+list.join(', '), Array.from(S.activeTags).join(','));
+    if(pick!==null){
+      S.activeTags = new Set(pick.split(',').map(s=>s.trim()).filter(Boolean));
+      renderActiveTags(); refresh();
+    }
+  });
+  function renderActiveTags(){
+    elActiveTags.innerHTML = Array.from(S.activeTags).map(t=>`<span class="chip" data-tag="${esc(t)}">${esc(t)} ✕</span>`).join('');
+    elActiveTags.querySelectorAll('[data-tag]').forEach(n=> n.addEventListener('click', ()=> toggleTag(n.dataset.tag)));
+  }
+  function toggleTag(tag){ if(S.activeTags.has(tag)) S.activeTags.delete(tag); else S.activeTags.add(tag); renderActiveTags(); refresh(); }
+
+  // Selection keyboard
+  document.addEventListener('keydown', e=>{
+    if(e.key==='b' || e.key==='B'){
+      if(S.selected.size) [...S.selected].forEach(addToBundle);
+    }
+    if(e.key==='c' || e.key==='C'){
+      const id=[...S.selected][0]; if(id){ const c=cardById(id); navigator.clipboard.writeText(injectTokens(c.model||'')); }
+    }
+    if((e.ctrlKey||e.metaKey) && e.key.toLowerCase()==='k'){ e.preventDefault(); openPalette(); }
+  });
+
+  // Bundle buttons
+  $('#exportBundle').addEventListener('click', ()=>{
+    const data = { kind:'bundle', at:new Date().toISOString(), ids:S.bundle.map(c=>c.id), items:S.bundle };
+    download('lcfg45-bundle.json', JSON.stringify(data, null, 2));
+  });
+  $('#copyLines').addEventListener('click', ()=>{
+    const lines = S.bundle.map(c=> injectTokens(c.model||c.core||c.title)).join('\n');
+    navigator.clipboard.writeText(lines);
+  });
+  $('#clearBundle').addEventListener('click', clearBundle);
+
+  // Variables
+  $('#saveVars').addEventListener('click', ()=>{ pullVars(); toast('Variables saved'); });
+  $('#clearVars').addEventListener('click', ()=>{ S.vars={}; saveVarsLocal(); setVarsUI(); toast('Variables cleared'); });
+
+  // Generators
+  $('#genHearing').addEventListener('click', ()=> generate('hearing'));
+  $('#genMotion').addEventListener('click', ()=> generate('motion'));
+  $('#genAppeal').addEventListener('click', ()=> generate('appeal'));
+  $('#previewDoc').addEventListener('click', ()=> $('#docOut').value = injectTokens($('#docOut').value));
+  $('#copyDoc').addEventListener('click', ()=> navigator.clipboard.writeText($('#docOut').value));
+  $('#downloadDoc').addEventListener('click', ()=> download('lcfg45-doc.txt', $('#docOut').value));
+
+  // Print / kiosk
+  $('#printDeck').addEventListener('click', ()=> window.print());
+  $('#kiosk').addEventListener('click', ()=>{
+    document.body.classList.toggle('kiosk');
+    const on = document.body.classList.contains('kiosk');
+    document.querySelector('header').style.display = on?'none':'flex';
+  });
+
+  // Import MD
+  const mdModal = $('#mdModal');
+  $('#importMd').addEventListener('click', ()=> { $('#mdText').value=''; mdModal.showModal(); });
+  $('#parseMd').addEventListener('click', ()=>{
+    try{
+      const got = parseMarkdown($('#mdText').value);
+      if(!got.length) return alert('No FG cards found. Check headings like "### FG-001 — Title".');
+      S.cards = got;
+      S.tags.clear(); S.cards.forEach(c=> c.tags.forEach(t=> S.tags.add(t)));
+      buildIndex(); S.filtered=[]; S.selected.clear(); renderCards(); showDetail(S.cards[0]);
+      mdModal.close(); toast(`Imported ${S.cards.length} cards`);
+    }catch(err){ alert('Import error: '+err.message); }
+  });
+
+  // Import JSON (plain)
+  const jsonModal = $('#jsonModal');
+  $('#importJson').addEventListener('click', ()=> { $('#jsonText').value=''; jsonModal.showModal(); });
+  $('#parseJson').addEventListener('click', ()=>{
+    try{ const obj = JSON.parse($('#jsonText').value); loadWorkspace(obj); jsonModal.close(); toast('Workspace loaded'); }
+    catch(err){ alert('JSON error: '+err.message); }
+  });
+
+  // Save/Load workspace
+  $('#saveWorkspace').addEventListener('click', ()=> {
+    download('lcfg45-workspace.json', JSON.stringify(workspace(), null, 2));
+  });
+  $('#loadWorkspace').addEventListener('click', async ()=>{
+    const txt = await pickFileText('.json'); if(!txt) return;
+    try{ loadWorkspace(JSON.parse(txt)); toast('Workspace loaded'); } catch(err){ alert('Bad workspace: '+err.message); }
+  });
+
+  // Encrypted Export/Import
+  const encOutModal = $('#encOutModal'), encInModal = $('#encInModal');
+  $('#encExport').addEventListener('click', ()=> { $('#encPassOut').value=''; $('#encPassOut2').value=''; $('#encOutText').value=''; encOutModal.showModal(); });
+  $('#doEnc').addEventListener('click', async ()=>{
+    const p1=$('#encPassOut').value, p2=$('#encPassOut2').value; if(!p1 || p1!==p2) return alert('Passwords do not match');
+    $('#encOutText').value = await encJson(workspace(), p1);
+  });
+  $('#copyEnc').addEventListener('click', ()=> navigator.clipboard.writeText($('#encOutText').value));
+  $('#downloadEnc').addEventListener('click', ()=> download('lcfg45.enc', $('#encOutText').value));
+  $('#encImport').addEventListener('click', ()=> { $('#encInText').value=''; $('#encPassIn').value=''; encInModal.showModal(); });
+  $('#doDec').addEventListener('click', async ()=>{
+    try{
+      const obj = await decJson($('#encInText').value, $('#encPassIn').value);
+      loadWorkspace(obj); encInModal.close(); toast('Decrypted & loaded');
+    }catch(err){ alert('Decrypt failed: '+err.message); }
+  });
+
+  // Clear filters
+  $('#clearFilters').addEventListener('click', ()=>{
+    $('#q').value=''; $('#volFilter').value=''; $('#typeFilter').value=''; S.query=''; S.activeTags.clear(); renderActiveTags(); refresh();
+  });
+
+  // Detail on first card
+  showDetail(S.cards[0]); refresh();
+
+  // Click on tag chips in bundle / active tags handled where created.
+
+  // ---------- Utilities ----------
+  function toast(msg){
+    const n = document.createElement('div');
+    n.textContent = msg;
+    Object.assign(n.style, {position:'fixed', right:'14px', bottom:'16px', background:'#0e1622', color:'var(--ink)', border:'1px solid #223049', padding:'8px 12px', borderRadius:'10px', boxShadow: 'var(--shadow)', zIndex:9999});
+    document.body.appendChild(n); setTimeout(()=> n.remove(), 1600);
+  }
+  function download(name, text){
+    const blob = new Blob([text], {type:'application/octet-stream'});
+    const url = URL.createObjectURL(blob);
+    const a = Object.assign(document.createElement('a'), {href:url, download:name});
+    document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+  }
+  function pickFileText(accept='.json'){ return new Promise(res=>{
+    const inp = Object.assign(document.createElement('input'), {type:'file', accept});
+    inp.onchange = ()=> { const f = inp.files[0]; if(!f) return res(null);
+      const r = new FileReader(); r.onload = ()=> res(String(r.result)); r.readAsText(f);
+    };
+    inp.click();
+  })}
+  // Service worker (will no-op on file://)
+  try{
+    if(('serviceWorker' in navigator) && /^https?:/.test(location.protocol)){
+      const code = `self.addEventListener('install',e=>self.skipWaiting()); self.addEventListener('activate',e=>self.clients.claim());`;
+      const url = URL.createObjectURL(new Blob([code], {type:'text/javascript'}));
+      navigator.serviceWorker.register(url).catch(()=>{});
+    }
+  }catch{}
+  
+  // Click delegation for list tags
+  $('#cards').addEventListener('click', e=>{
+    const t = e.target.closest('.card'); if(!t) return;
+    const id = t.dataset.id;
+    showDetail(cardById(id));
+  });
+
+  // Click on tag chips under detail handled earlier
+
+  // Keep vars restored
+  setVarsUI();
+
+})();
+</script>
+</body>
+</html>
+How to use (recap)
+	1.	Open the file → click Import MD and paste your full Field Guide (FG 1–1000) Markdown.
+	2.	Use Search, Volume/Section filters, and tags.
+	3.	Select cards (Shift for multiselect) → Bundle → Hearing / Motion / Appeal or Export JSON.
+	4.	Set Case Variables once; tokens like {{party}} auto-fill in generators and copies.
+	5.	Save Workspace, Encrypted Export, or Print (clean, numbered deck).
