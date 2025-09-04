@@ -1,0 +1,51 @@
+A pragmatic way to quantify “injustice” in LCES
+
+Think in five buckets you can score 0–100 (higher = better). LCES can log these automatically or via quick prompts and then produce a composite “Justice Health” score for a case, a court, or a state.
+
+A. Access
+	1.	Representation gap = % of parties without counsel in comparable cases. (Large gap = red flag.) Research shows pro se parties fare far worse in court.  ￼ ￼
+	2.	Language access coverage = % of events where a qualified interpreter/translated forms were provided when needed; time from request → assignment. (Track Spanish separately.) Benchmarks & policy checklists exist.  ￼ ￼
+	3.	Affordability = out-of-pocket filing/service/record costs ÷ monthly income.
+
+B. Process
+4) Docket latency = days from filing → docketing; from motion → hearing; from hearing → order.
+5) Notice clarity = readability score of court notices (e.g., Flesch-Kincaid) + whether a Spanish version was supplied when LEP was flagged.
+6) Order completeness = % of orders with findings of fact, law, and citations (vs boilerplate).
+7) Record integrity = # of unexplained docket edits/“missing” items per 100 entries (LCES can detect with scheduled mirrors).
+
+C. Outcomes
+8) Disposition parity = win/relief rates for represented vs pro se in like cases; also English-proficient vs LEP. (Big gaps suggest structural problems.)  ￼ ￼
+9) Default rate = % of defaults in cases where notice was allegedly served (high rates can signal access failures).
+10) Arbitration diversion = % of cases compelled out of court; track employee/consumer win rates separately to contextualize.  ￼
+
+D. Equity
+11) Queue equity = wait times by party type (pro se vs represented), language status, or zip code; normalize by court load.
+12) Interpreter adequacy = interpreter fill-rate, credentials, and duration actually interpreted vs hearing length; track Spanish fulfillment specifically. (States vary—NCAJ’s Justice Index scores language-access policies you can use as external benchmarks.)  ￼
+
+E. User experience
+13) Comprehension = quick 3-question check after each hearing/notice (“What’s due? When? Where?”).
+14) Respect & responsiveness = time to clerk response; number of times instructions conflicted; ability to reach a human.
+
+Roll-up formula (simple and transparent)
+	•	Normalize each metric to 0–100.
+	•	Weighting example: Access 30% + Process 30% + Outcomes 30% + Equity 5% + UX 5%.
+	•	Justice Health = weighted average.
+	•	Injustice Score = 100 − Justice Health.
+LCES can show a dial for the individual case, and (with opt-in, anonymized aggregation) compare to court/state baselines.
+
+What the best data says about rarity & sufficiency
+	•	For low-income Americans, 92% of substantial civil legal problems receive no or inadequate legal help—that’s not rare. It’s the norm.  ￼
+	•	Self-represented parties lose dramatically more often; one analysis finds represented parties are ~6.5× more likely to win; another shows ~3% win rate for pro se plaintiffs in federal court (1998–2017). These are huge gaps.  ￼ ￼
+	•	Language access: States are uneven. The Justice Index scores every state on language-access and self-representation policies—perfect external benchmarks for LCES dashboards.  ￼
+	•	Forced arbitration removes many disputes from open court altogether, changing what “justice” people can access. Track it explicitly.  ￼
+
+Spanish-speaking/LEP-focused sub-metrics (bake into LCES)
+	•	Interpreter fill-rate (Spanish) = interpreter provided ÷ interpreter needed.
+	•	Notice parity (Spanish) = % of official notices served in Spanish when LEP was flagged.
+	•	Hearing comprehension (Spanish) = post-hearing 3-question check accuracy.
+	•	Cycle time with interpreter vs without.
+	•	Translated-forms coverage = % of required forms available in Spanish for the case type.
+
+Bottom line
+
+“Injustice” isn’t nebulous. You can instrument it. LCES can log the events you already track (filings, hearings, notices, orders), compute a case-level Injustice Score, and then roll those up to court- and state-level dashboards using public benchmarks (Justice Index) and national need data (LSC). That makes the problem visible—and actionable.  ￼ 
