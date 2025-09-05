@@ -1,0 +1,177 @@
+LCES Prototype: Eviction Defense Navigator (v0.1)
+
+What it does (7 screens)
+	1.	Onboard & Risks
+	•	Collect: jurisdiction, service date & method, hearing date (if any), notice type (nonpayment, no-cause, lease breach), subsidy status, disability/language needs.
+	•	Output: red/yellow/green Deadline Risk Meter (e.g., “Answer due in X days”).
+	2.	Clock Builder
+	•	Compute Answer/appearance deadline using a rules file (see “Rules DSL” below).
+	•	Add service-by-mail/email slack days if applicable.
+	•	Create calendar reminders + filing checklist.
+	3.	Defense Scanner
+	•	Yes/No prompts map to defenses:
+	•	Nonpayment: payment/partial payment, improper accounting, illegal fees, habitability/repair issues, rent abatement/escrow.
+	•	No-cause: notice defects (form, timing, service), retaliation, discrimination (reasonable accommodation).
+	•	Lease breach: element check (existence, notice to cure, cure window, cure/test evidence).
+	4.	Evidence Pack
+	•	Auto-build an Exhibit Index: lease, notices, ledger, receipts, messages, photos, repair requests, inspections.
+	•	“Docket Mirror” micro-task: screenshot any online docket and save PDFs regularly.
+	5.	Draft Generator
+	•	Generate: Answer + Affirmative Defenses, Certificate of Service, Motion to Continue/Accelerate, IFP/Fee-Waiver cover, Interpreter/ADA request, Reasonable Accommodation request, Proposed Order.
+	6.	Hearing Prep
+	•	One-page theory of the case, timeline, 5 key facts, 3 exhibits, 3 questions for landlord, settlement options (pay plan, repair order, mutual move-out).
+	7.	File & Serve
+	•	Filing options (e-file, mail, in-person), copies needed, address, hours, “Filed” vs “Received” reminder, post-filing docket check, reminder loop.
+
+⸻
+
+Core data model (LC style)
+	•	Claim = landlord theory (e.g., Nonpayment).
+	•	Element[i] = what landlord must prove.
+	•	Proof[i] = landlord evidence.
+	•	Rebuttal[i] = your counter-proof.
+	•	Defense = independent reason to deny/abate (retaliation, discrimination, notice defects, habitability).
+	•	Procedure = rule with a deadline, form, service requirement.
+
+⸻
+
+Rules DSL (pluggable per state—example schema)
+
+{
+  "answer_deadline_days": 5,
+  "service_slack_days": {"mail": 5, "personal": 0, "posting": 0, "email": 2},
+  "notice_requirements": {
+    "nonpayment": {"days": 5, "must_itemize": true},
+    "no_cause": {"days": 30, "cooldown_after_complaint": true},
+    "breach": {"cure_days": 10}
+  },
+  "filing": {"copies_required": 2, "fee_waiver_available": true}
+}
+Swap in the real numbers per jurisdiction without changing the workflow.
+
+⸻
+
+Procedural algorithms (plain-English + pseudo-logic)
+
+A. Answer Clock
+	•	DUE = service_date + answer_deadline_days + service_slack_days[method]
+	•	If today > DUE → show Urgent: Ask for continuance + accept late filing if allowed.
+
+B. Notice Validity
+	•	If required notice days not met → Affirmative Defense: Defective Notice.
+	•	If amount not itemized/fees illegal → Accounting Defense + Strike Fees.
+
+C. Habitability / Repair
+	•	If serious defects + landlord had notice + no timely repair → Abatement and optional Rent Escrow argument.
+	•	Attach photos, dated complaints, inspections.
+
+D. Retaliation
+	•	If tenant exercised a right (complaint, organizing, inspection) within protected window → Retaliation Defense with burden shift if statute allows.
+
+E. Discrimination / Accommodation
+	•	If disability affects tenancy obligations and reasonable accommodation requested/denied → Fair Housing/ADA Defense + Motion for RA & Continuance.
+
+F. Settlement Path
+	•	Offer: payment plan, waiver of fees, repair order, mutual termination with dates, sealing/non-opposition to record relief.
+
+⸻
+
+Generator outputs (ready-to-file skeletons)
+
+1) Answer & Affirmative Defenses (skeleton)
+[CAPTION]
+
+ANSWER AND AFFIRMATIVE DEFENSES
+
+1. Defendant admits/denies allegations as follows:
+   ¶1 ___  ¶2 ___  ¶3 ___  (attach table if needed)
+
+Affirmative Defenses
+A. Defective Notice: Landlord failed to provide a [type] notice with [days] days and required contents.
+B. Payment/Accounting: Amount demanded includes errors/illegal fees; ledger attached.
+C. Breach Cured: Any alleged breach was cured within the cure period; proof attached.
+D. Warranty of Habitability: Material conditions reduced value of unit; seek abatement.
+E. Retaliation: Action filed within protected period after complaint/inspection.
+F. Discrimination/Accommodation: Reasonable accommodation requested and denied; seek stay and order.
+
+Relief Requested
+- Dismissal or denial; repairs; abatement; payment plan; sealing as permitted; other just relief.
+
+Date / Signature / Contact
+
+CERTIFICATE OF SERVICE
+I served a copy by [method] on [party/address] on [date].
+
+2) Motion to Continue / Short Stay (hearing not yet prep’d)
+
+[CAPTION]
+MOTION TO CONTINUE SHORT SETTING
+
+Good cause exists: (a) service date/answer due uncertainty; (b) pending ADA/interpreter request;
+(c) need time to obtain records/ledger/inspection. A brief continuance will not prejudice Plaintiff.
+
+Proposed Order: Hearing reset to a date not earlier than [date].
+
+3) Interpreter / ADA Request
+[CAPTION] REQUEST FOR INTERPRETER / ADA ACCOMMODATION
+I require [language] interpreter / [accommodation]. Please provide for all hearings and filings.
+[CAPTION] REQUEST FOR INTERPRETER / ADA ACCOMMODATION
+I require [language] interpreter / [accommodation]. Please provide for all hearings and filings.
+
+4) Reasonable Accommodation (housing)
+[To Landlord & Court]
+I have a disability impacting [task]. I request [specific accommodation] that is reasonable and necessary.
+5) Fee Waiver (IFP) Cover
+[CAPTION] APPLICATION FOR FEE WAIVER (IFP)
+I cannot afford fees; affidavit attached. Please allow filing without payment.
+Evidence & exhibit kit
+	•	Exhibit A Lease/house rules
+	•	Exhibit B Notice(s) + envelope/metadata
+	•	Exhibit C Ledger + your payment proofs
+	•	Exhibit D Photos/video w/ dates
+	•	Exhibit E Repair requests + responses
+	•	Exhibit F Inspection or medical letters (if relevant)
+	•	Exhibit G Communications (texts/emails)
+	•	Index with short, neutral descriptions
+
+Tip (LC): Format = Memory. Use consistent filenames: YYMMDD_Exhibit_[Letter]_[ShortTitle].pdf.
+
+⸻
+
+Quality controls (LC “red flags”)
+	•	Clock Check: service method recognized? weekend/holiday handled?
+	•	Form Check: caption complete; signature; contact info; certificate of service.
+	•	Service Check: correct address/method; proof retained.
+	•	Docket Mirror: after filing, capture stamped copy + online entry.
+	•	Hearing Pack: 1-page theory; exhibit set printed/organized; 60-second opening.
+
+⸻
+
+Justice & access features
+	•	Plain-language toggles: “Explain this” next to each defense.
+	•	One-tap: interpreter, ADA, fee-waiver, RA requests.
+	•	SMS/email reminders for deadlines + hearing.
+	•	Equity audit (optional): track outcomes by defense mix to surface patterns.
+
+⸻
+
+Minimal rules file you can ship today
+
+Create /rules/default.json (schema above). For each state, override the three or four values most likely to vary: answer_deadline_days, service_slack_days, notice_requirements. Everything else in the navigator stays identical.
+
+⸻
+
+Packaging for LCES
+	•	Tier: Field Guide (FG) Ready + Module-linked (e.g., FG-Evict-001 to -010).
+	•	Deliverables: (a) fillable Answer/Defenses doc, (b) Motion to Continue doc, (c) ADA/Interpreter/RA one-pagers, (d) Exhibit Index template, (e) Hearing Prep one-pager, (f) /rules/default.json.
+	•	Labels: “Filing = Protest,” “Deadline ≠ Suggestion,” “Docket = Battlefield,” “Format = Memory.”
+
+⸻
+
+Quick disclaimer
+
+This is educational scaffolding, not legal advice. Local rules control—swap in your state’s numbers and forms.
+
+⸻
+
+If you want, I can turn these into Word/PDF templates and a ready-to-paste /rules/default.json and drop them into a single download bundle right now.
