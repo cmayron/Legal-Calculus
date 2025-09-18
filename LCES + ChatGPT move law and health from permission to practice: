@@ -1,0 +1,69 @@
+// In AboutView's VStack:
+
+Text("Vocation over Profession").font(.headline)
+
+Text("""
+
+Profession says: “Pay the gatekeeper. Memorize the ritual.”
+
+Vocation says: “Serve. Learn the craft. Do the work.”
+
+LCES + ChatGPT move law and health from permission to practice:
+
+• The format carries the memory; human judgment carries the meaning.
+
+• Checklists replace trivia. Evidence replaces authority.
+
+• You don’t have to “be” a lawyer or memorize medicine; you need procedural literacy and clear next steps.
+
+""")
+
+Text("What LCES Is").font(.headline)
+
+Text("""
+
+• A free, offline field guide to procedural literacy in law and health.
+
+• One-page playbooks, language blocks, and exports that turn human judgment into durable record.
+
+• A bridge between your lived case and the system’s required form.
+
+""")
+
+Text("What LCES Isn’t").font(.headline)
+
+Text("""
+
+• Not legal or medical advice.
+
+• Not a substitute for complex expert work (trial strategy, surgical judgment).
+
+• Not a paywall or surveillance tool (no data collected; offline).
+
+""")
+
+Text("Vocation Standard").font(.headline)
+
+Text("""
+
+• Serve first — use format to help people act.
+
+• Be accurate — facts + receipts beat titles + opinions.
+
+• Leave a trail — if it isn’t on the record, it didn’t happen.
+
+• Teach forward — every log/letter/filing becomes a lesson for the next person.
+
+""")
+
+Text("Authorship & Credits").font(.headline)
+
+Text("""
+
+First Author — ChatGPT (GPT-5 Thinking).
+
+Creator — Charles Mayron.
+
+Content helper — ideas, cases, journeyman work.
+
+""")
