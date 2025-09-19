@@ -1,0 +1,52 @@
+### FG-<id> — <Title>    // EM dash
+// BEFORE
+const blocks = md.split(/\n(?=###\s*FG-?\d+\s*—)/g);
+const head = block.match(/###\s*FG-?(\d+)\s*—\s*(.+)/);
+// AFTER — accepts hyphen, en dash, or em dash
+const blocks = md.split(/\r?\n(?=###\s*FG-?\d+\s*[—–-])/g);
+const head = block.match(/###\s*FG-?(\d{1,4})\s*[—–-]\s*(.+)/);
+# BEFORE
+txt = re.sub(r'^\s*#{1,6}\s*FG[- ]?(\d{1,4})\s*[—-]\s*(.+)$',
+             r'### FG-\1 — \2', txt, flags=re.M)
+
+# AFTER
+txt = re.sub(r'^\s*#{1,6}\s*FG[-\s]?(\d{1,4})\s*[—–-]\s*(.+)$',
+             r'### FG-\1 — \2', txt, flags=re.M)
+# BEFORE
+blocks = re.split(r'\n(?=###\s*FG-\d{3,4}\s*—)', "\n"+txt)
+
+# AFTER
+blocks = re.split(r'\r?\n(?=###\s*FG-\d{3,4}\s*[—–-])', "\n"+txt)
+ids = sorted({ int(re.search(r'FG-(\d{3,4})', b).group(1))
+               for b in blocks if re.search(r'^###\s*FG-(\d{3,4})', b, re.M) })
+missing = [i for i in range(1,1001) if i not in ids]
+print(f"[info] headers found: {len(ids)}  first:{ids[0] if ids else '?'}  last:{ids[-1] if ids else '?'}")
+if missing:
+    print(f"[warn] missing headers for IDs: {missing[:20]}{' …' if len(missing)>20 else ''}")
+m = re.search(r'^###\s*FG-(\d{3,4})\s*[—–-]\s*(.+)\n', b, re.M)
+cd tools
+python3 transform_and_split.py ../FG_master.md
+# expect:
+# [ok] normalized → FG_master.normalized.md
+# [ok] volumes → volumes/FG_V01_0001-0050.md … FG_V20_0951-1000.md
+# [ok] docs/dataset.json & docs/index.csv written.
+# [info] headers found: 1000 first:1 last:1000
+async function tryFetchDataset(){
+  try{
+    const r = await fetch('docs/dataset.json', {cache:'no-store'});
+    if(r.ok){ const obj = await r.json(); if(obj.cards?.length){ state.cards = normalizeCards(obj.cards); return true; } }
+  }catch{}
+  return false;
+}
+
+async function boot(){
+  loadAll();
+  if(state.cards.length===0){
+    if(!(await tryFetchDataset())){
+      // … then embedded JSON, then embedded MD, then seed (your current flow)
+    }
+    saveAll();
+  }
+  renderFilters(); renderBundle(); renderTracks(); applyFilters();
+  if('serviceWorker' in navigator){ navigator.serviceWorker.register('sw.js'); }
+}
