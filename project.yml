@@ -1,0 +1,40 @@
+name: LCESApp
+options:
+  deploymentTarget: { iOS: "16.0" }
+settings: { base: { SWIFT_VERSION: 5.9 } }
+
+packages:
+  ZIPFoundation:
+    url: https://github.com/weichsel/ZIPFoundation
+    from: 0.9.0
+
+targets:
+  LCESApp:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources/LCESApp
+      - path: App/ResourcesPrebaked
+        type: folder
+        buildPhase: resources
+    dependencies:
+      - package: ZIPFoundation
+      - sdk: libsqlite3.tbd
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.lces
+        INFOPLIST_FILE: Sources/LCESApp/Info.plist
+
+  LCESAppTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [ Tests/LCESAppTests ]
+    dependencies: [ { target: LCESApp } ]
+
+schemes:
+  LCES:
+    build:
+      targets: { LCESApp: all, LCESAppTests: [test] }
+    test:
+      gatherCoverage: true
+      targets: [ LCESAppTests ]
