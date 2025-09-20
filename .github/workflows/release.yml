@@ -1,0 +1,62 @@
+name: Release (Package Prebaked Bundle)
+
+on:
+  push:
+    tags: [ 'v*.*.*', 'v*.*', 'v*' ]
+
+env:
+  CONTENT_ROOT: App/ResourcesPrebaked   # contains payload/, db/, onboarding/, licenses/
+  DIST_DIR: dist
+
+jobs:
+  package-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ensure tools
+        run: sudo apt-get update && sudo apt-get install -y zip
+
+      - name: Package prebaked bundle
+        run: bash scripts/package_prebaked.sh "${{ github.ref_name }}" "${{ env.CONTENT_ROOT }}" "${{ env.DIST_DIR }}"
+
+      - name: Generate SHA256 checksums
+        run: python3 scripts/checksums_sha256.py "${{ env.DIST_DIR }}"
+
+      - name: Build content-manifest.json
+        run: |
+          python - <<'PY'
+          import json, os, hashlib
+          dist="dist"
+          tag=os.environ.get("GITHUB_REF_NAME","v0.0.0")
+          ver=tag[1:] if tag.startswith("v") else tag
+          def sha(p):
+            h=hashlib.sha256()
+            with open(p,"rb") as f:
+              for c in iter(lambda:f.read(8192), b""):
+                h.update(c)
+            return h.hexdigest(), os.path.getsize(p)
+          files=[]
+          for name in ["content.zip","lces.sqlite"]:
+            p=os.path.join(dist,name)
+            if os.path.exists(p):
+              digest,size=sha(p)
+              files.append({"name":name,"size":size,"sha256":digest})
+          cv={"lc":"4.5","fg":"5.0"}
+          try:
+            with open(os.path.join(dist,"manifest.json"),"r") as f:
+              cv=json.load(f).get("contentVersion",cv)
+          except: pass
+          m={"schema":1,"bundleVersion":ver,"contentVersion":cv,"files":files}
+          with open(os.path.join(dist,"content-manifest.json"),"w") as w: json.dump(m,w,indent=2)
+          PY
+
+      - name: Create GitHub Release and upload assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/LCES_Prebaked_Bundle_*.zip
+            dist/manifest*.json
+            dist/SHASUMS256.txt
+            dist/content-manifest.json
+          generate_release_notes: true
