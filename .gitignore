@@ -1,0 +1,12 @@
+# Xcode / Swift
+DerivedData/
+*.xcworkspace/*
+xcuserdata/
+build/
+*.xcresult
+# SwiftPM
+.build/
+# App bundles
+dist/
+# macOS cruft
+.DS_Store
