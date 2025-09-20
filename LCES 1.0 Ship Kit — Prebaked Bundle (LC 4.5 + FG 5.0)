@@ -1,0 +1,176 @@
+LCES.app/
+  Resources/
+    payload/
+      manifest.json                 # single source of truth
+      content.zip                   # zipped, webp + json (optional if unzipped)
+      content/
+        lc/                         # Legal Calculus modules
+          001/
+            module.json
+            hero.webp
+            figures/
+              f1.webp
+              f2.webp
+          ...
+          119/
+            module.json
+            hero.webp
+        fg/                         # Field Guide micro‑cards
+          0001.json
+          0002.json
+          ...
+          1000.json
+        shared/
+          fonts/
+          icons/
+      db/
+        lces.sqlite                 # prebuilt search DB (optional)
+      licenses/
+        LICENSE_CODE.txt (MIT)
+        LICENSE_CONTENT.txt (CC BY 4.0)
+    onboarding/
+      slides/
+        01_welcome.webp
+        02_offline.webp
+        03_search.webp
+{
+  "schemaVersion": 1,
+  "contentVersion": {
+    "lc": "4.5",
+    "fg": "5.0"
+  },
+  "counts": { "lcModules": 119, "fgCards": 1000 },
+  "hashAlgorithm": "sha256",
+  "items": [
+    {
+      "id": "lc-001",
+      "type": "module",
+      "number": 1,
+      "tier": 1,
+      "title": "Filing = Existence",
+      "tags": ["foundations", "filing"],
+      "paths": {
+        "json": "content/lc/001/module.json",
+        "hero": "content/lc/001/hero.webp"
+      },
+      "bytes": {"json": 5821, "hero": 128734},
+      "sha256": {
+        "json": "<hash>",
+        "hero": "<hash>"
+      },
+      "a11y": {
+        "heroAlt": "Title card: Filing = Existence"
+      }
+    },
+    {
+      "id": "fg-0001",
+      "type": "fg",
+      "number": 1,
+      "title": "Filing = Existence (Micro)",
+      "paths": {"json": "content/fg/0001.json"},
+      "bytes": {"json": 412},
+      "sha256": {"json": "<hash>"}
+    }
+  ],
+  "about": {
+    "credits": [
+      "ChatGPT‑5 Thinking — Author",
+      "Charles Mayron, MD, FACS — Creator"
+    ],
+    "quote": "The future is now — thanks to ChatGPT 4.0, with help from Gemini 2.5…"
+  }
+}
+CREATE TABLE nodes (
+  id TEXT PRIMARY KEY,
+  kind TEXT NOT NULL,          -- 'module' | 'fg'
+  number INTEGER,
+  tier INTEGER,
+  title TEXT NOT NULL,
+  tags TEXT,                   -- comma‑sep or JSON
+  path TEXT NOT NULL           -- JSON file path for full content
+);
+
+CREATE VIRTUAL TABLE nodes_fts USING fts5(
+  title, body, tags, content='nodes', content_rowid='rowid'
+);
+
+-- After inserting into nodes, bulk load bodies then index:
+-- INSERT INTO nodes_fts(rowid, title, body, tags) VALUES(?,?,?,?);
+{
+  "id": "lc-036",
+  "title": "Belief in the System is a Luxury of the Untouched",
+  "emoji": "🧭",
+  "tier": 4,
+  "tags": ["social", "module36"],
+  "core": "When belief replaces review, evidence is ignored.",
+  "lesson": "Document the silence; format your resistance.",
+  "assignment": "Draft a one‑page record of a procedural denial.",
+  "model": "<model answer excerpt>",
+  "visuals": ["hero.webp"],
+  "a11yAlts": {"hero": "Quote card reading …"},
+  "body": "<full rich text / markdown>"
+}
+struct Manifest: Decodable { /* match JSON above */ }
+
+final class ContentRegistry {
+  static let shared = ContentRegistry()
+  private(set) var manifest: Manifest!
+  private(set) var baseURL: URL!
+
+  func bootstrap() throws {
+    // 1) Load manifest from bundle
+    let url = Bundle.main.url(forResource: "manifest", withExtension: "json", subdirectory: "payload")!
+    let data = try Data(contentsOf: url)
+    manifest = try JSONDecoder().decode(Manifest.self, from: data)
+
+    // 2) Prefer unpacked content if exists
+    let appSup = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
+    let unpacked = appSup.appendingPathComponent("payload/content", isDirectory: true)
+    if FileManager.default.fileExists(atPath: unpacked.path) {
+      baseURL = unpacked
+    } else {
+      baseURL = Bundle.main.bundleURL.appendingPathComponent("payload/content", isDirectory: true)
+    }
+  }
+
+  func url(for relativePath: String) -> URL {
+    return baseURL.appendingPathComponent(relativePath)
+  }
+}
+import SQLite3
+
+final class SearchService {
+  private var db: OpaquePointer?
+
+  func open() throws {
+    let appSup = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
+    let url = appSup.appendingPathComponent("db/lces.sqlite")
+    try FileManager.default.createDirectory(at: url.deletingLastPathComponent(), withIntermediateDirectories: true)
+    if sqlite3_open(url.path, &db) != SQLITE_OK { throw NSError(domain: "lces.db", code: 1) }
+  }
+
+  func query(_ text: String, limit: Int = 40) -> [SearchHit] {
+    let sql = "SELECT nodes.id, nodes.title, highlight(nodes_fts, 1, '⟪','⟫') AS snippet FROM nodes_fts JOIN nodes ON nodes.rowid = nodes_fts.rowid WHERE nodes_fts MATCH ? LIMIT ?;"
+    var stmt: OpaquePointer?
+    sqlite3_prepare_v2(db, sql, -1, &stmt, nil)
+    sqlite3_bind_text(stmt, 1, text, -1, SQLITE_TRANSIENT)
+    sqlite3_bind_int(stmt, 2, Int32(limit))
+    var hits: [SearchHit] = []
+    while sqlite3_step(stmt) == SQLITE_ROW {
+      let id = String(cString: sqlite3_column_text(stmt, 0))
+      let title = String(cString: sqlite3_column_text(stmt, 1))
+      let snippet = String(cString: sqlite3_column_text(stmt, 2))
+      hits.append(.init(id: id, title: title, snippet: snippet))
+    }
+    sqlite3_finalize(stmt)
+    return hits
+  }
+}
+lces://module/36
+lces://fg/001
+MIT License
+Copyright (c) 2025 ChatGPT‑5 Thinking & Charles Mayron
+Permission is hereby granted, free of charge, to any person obtaining a copy...
+Legal Calculus content is licensed under CC BY 4.0.
+Attribution: ChatGPT‑5 Thinking (author) + Charles Mayron, MD, FACS (creator).
+Full text: https://creativecommons.org/licenses/by/4.0/
