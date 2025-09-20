@@ -1,0 +1,379 @@
+LCES 1.0 — Bootstrap & App Store Pack
+
+This adds drop‑in Swift for first‑run setup (copy content + DB to Application Support), Info.plist deep links, and App Store Privacy text. Designed to match the prebaked bundles you have (v1.0.2/1.0.3).
+
+⸻
+
+1) First‑Run Bootstrap (Swift)
+
+Copy prebaked content + DB out of the bundle to Application Support if not already present. Falls back to in‑bundle content if copying isn’t needed.
+
+import Foundation
+
+enum BootstrapError: Error { case manifestMissing, copyFailed(String) }
+
+struct BootstrapSummary {
+    let usedUnpackedContent: Bool
+    let usedAppSupportDB: Bool
+}
+
+final class LCESBootstrap {
+    static let shared = LCESBootstrap()
+
+    private let fm = FileManager.default
+    private var appSup: URL {
+        fm.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
+    }
+
+    // Bundle locations
+    private var bundlePayload: URL { Bundle.main.bundleURL.appendingPathComponent("payload", isDirectory: true) }
+    private var bundleContent: URL { bundlePayload.appendingPathComponent("content", isDirectory: true) }
+    private var bundleDB: URL { Bundle.main.bundleURL.appendingPathComponent("db/lces.sqlite") }
+
+    // App Support targets
+    private var targetContent: URL { appSup.appendingPathComponent("payload/content", isDirectory: true) }
+    private var targetDB: URL { appSup.appendingPathComponent("db/lces.sqlite") }
+
+    @discardableResult
+    func firstRunSetup() throws -> BootstrapSummary {
+        try fm.createDirectory(at: appSup, withIntermediateDirectories: true)
+        var usedUnpacked = false
+        var usedAppDB = false
+
+        // 1) Content: copy bundle payload/content → App Support if missing
+        if !fm.fileExists(atPath: targetContent.path) {
+            try copyDirectory(from: bundleContent, to: targetContent)
+            usedUnpacked = true
+        }
+
+        // 2) DB: copy db/lces.sqlite → App Support if missing
+        if !fm.fileExists(atPath: targetDB.path) {
+            // Ensure db dir exists
+            try fm.createDirectory(at: targetDB.deletingLastPathComponent(), withIntermediateDirectories: true)
+            if fm.fileExists(atPath: bundleDB.path) {
+                try fm.copyItem(at: bundleDB, to: targetDB)
+                usedAppDB = true
+            }
+        } else {
+            usedAppDB = true
+        }
+        return BootstrapSummary(usedUnpackedContent: usedUnpacked, usedAppSupportDB: usedAppDB)
+    }
+
+    private func copyDirectory(from: URL, to: URL) throws {
+        guard fm.fileExists(atPath: from.path) else { return }
+        try fm.createDirectory(at: to, withIntermediateDirectories: true)
+        let enumerator = fm.enumerator(at: from, includingPropertiesForKeys: [.isDirectoryKey])
+        while let src = enumerator?.nextObject() as? URL {
+            let rel = src.path.replacingOccurrences(of: from.path + "/", with: "")
+            let dst = to.appendingPathComponent(rel)
+            let values = try src.resourceValues(forKeys: [.isDirectoryKey])
+            if values.isDirectory == true {
+                try fm.createDirectory(at: dst, withIntermediateDirectories: true)
+            } else {
+                try fm.copyItem(at: src, to: dst)
+            }
+        }
+    }
+}
+
+Usage at launch:
+
+// AppDelegate.application(_:didFinishLaunchingWithOptions:)
+let _ = try? LCESBootstrap.shared.firstRunSetup()
+// Then continue with ContentRegistry.shared.bootstrap()
+
+Note: The prebaked bundles already include payload/content/ in the app. Unpacking to App Support is optional; the app can read straight from the bundle if you prefer read‑only.
+
+⸻
+
+2) Deep Links (Info.plist)
+
+Register the lces:// scheme for module/card routing.
+
+<!-- Info.plist -->
+<key>CFBundleURLTypes</key>
+<array>
+  <dict>
+    <key>CFBundleURLName</key>
+    <string>com.charlesmayron.lces</string>
+    <key>CFBundleURLSchemes</key>
+    <array>
+      <string>lces</string>
+    </array>
+  </dict>
+</array>
+
+Examples
+	•	lces://module/36 → Module 36
+	•	lces://fg/1 → Field Guide 0001
+
+⸻
+
+3) App Store Privacy — “Data Not Collected”
+
+Summary to paste:
+
+LCES works 100% offline. We do not collect or track any data. No accounts, analytics, or third‑party SDKs.
+
+App Privacy selections (App Store Connect)
+	•	Data Collection: None
+	•	Data Types: None
+	•	Data Linked to User: No
+	•	Data Used to Track: No
+	•	Third‑Party Advertising/Analytics: No
+	•	Developer’s Advertising/Marketing: No
+	•	Product Personalization: No
+	•	App Functionality: Local‑only (offline)
+
+Optional text for Support URL privacy page:
+
+We collect no personal data. The app works entirely offline. If you email us, that email resides in your inbox and ours—not in the app. Educational content only; not legal advice.
+
+
+⸻
+
+4) QA Smoke Tests (pre‑submission)
+	•	Launch in Airplane Mode → content loads; search returns hits (e.g., “Filing”).
+	•	Application Support/payload/content exists after first run (if using copy‑out).
+	•	Application Support/db/lces.sqlite exists; FTS query returns results.
+	•	Deep links open correct screens: lces://module/1, lces://fg/001.
+	•	VoiceOver reads hero alt text (Module 1).
+
+⸻
+
+5) Manifest with Reserved Namespaces (already applied)
+
+"contentVersion": {"lc":"4.5","fg":"5.0","jc":null,"mc":null,"lca":null},
+"counts": {"lcModules":119,"fgCards":1000,"jcModules":0,"mcCards":0,"lcaDocs":0},
+"namespaces": {"enabled":["lc","fg"], "reserved":["jc","mc","lca"]}
+
+
+⸻
+
+6) App Review Notes (paste into Review Notes box)
+	•	This is an offline educational reference. No login, no analytics, no trackers.
+	•	All 119 modules + 1,000 Field Guide cards are prebaked into the app bundle.
+	•	A prebuilt SQLite FTS index enables offline search.
+	•	Code: MIT. Content: CC BY 4.0. Credits included in‑app and in bundle licenses.
+
+⸻
+
+If you want, I can also generate a unit‑test target that verifies manifest counts, file presence, and FTS queries against the prebaked DB.
+This adds drop‑in Swift for first‑run setup (copy content + DB to Application Support), Info.plist deep links, and App Store Privacy text. Designed to match the prebaked bundles you have (v1.0.2/1.0.3).
+
+⸻
+
+1) First‑Run Bootstrap (Swift)
+
+Copy prebaked content + DB out of the bundle to Application Support if not already present. Falls back to in‑bundle content if copying isn’t needed.
+import Foundation
+
+enum BootstrapError: Error { case manifestMissing, copyFailed(String) }
+
+struct BootstrapSummary {
+    let usedUnpackedContent: Bool
+    let usedAppSupportDB: Bool
+}
+
+final class LCESBootstrap {
+    static let shared = LCESBootstrap()
+
+    private let fm = FileManager.default
+    private var appSup: URL {
+        fm.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
+    }
+
+    // Bundle locations
+    private var bundlePayload: URL { Bundle.main.bundleURL.appendingPathComponent("payload", isDirectory: true) }
+    private var bundleContent: URL { bundlePayload.appendingPathComponent("content", isDirectory: true) }
+    private var bundleDB: URL { Bundle.main.bundleURL.appendingPathComponent("db/lces.sqlite") }
+
+    // App Support targets
+    private var targetContent: URL { appSup.appendingPathComponent("payload/content", isDirectory: true) }
+    private var targetDB: URL { appSup.appendingPathComponent("db/lces.sqlite") }
+
+    @discardableResult
+    func firstRunSetup() throws -> BootstrapSummary {
+        try fm.createDirectory(at: appSup, withIntermediateDirectories: true)
+        var usedUnpacked = false
+        var usedAppDB = false
+
+        // 1) Content: copy bundle payload/content → App Support if missing
+        if !fm.fileExists(atPath: targetContent.path) {
+            try copyDirectory(from: bundleContent, to: targetContent)
+            usedUnpacked = true
+        }
+
+        // 2) DB: copy db/lces.sqlite → App Support if missing
+        if !fm.fileExists(atPath: targetDB.path) {
+            // Ensure db dir exists
+            try fm.createDirectory(at: targetDB.deletingLastPathComponent(), withIntermediateDirectories: true)
+            if fm.fileExists(atPath: bundleDB.path) {
+                try fm.copyItem(at: bundleDB, to: targetDB)
+                usedAppDB = true
+            }
+        } else {
+            usedAppDB = true
+        }
+        return BootstrapSummary(usedUnpackedContent: usedUnpacked, usedAppSupportDB: usedAppDB)
+    }
+
+    private func copyDirectory(from: URL, to: URL) throws {
+        guard fm.fileExists(atPath: from.path) else { return }
+        try fm.createDirectory(at: to, withIntermediateDirectories: true)
+        let enumerator = fm.enumerator(at: from, includingPropertiesForKeys: [.isDirectoryKey])
+        while let src = enumerator?.nextObject() as? URL {
+            let rel = src.path.replacingOccurrences(of: from.path + "/", with: "")
+            let dst = to.appendingPathComponent(rel)
+            let values = try src.resourceValues(forKeys: [.isDirectoryKey])
+            if values.isDirectory == true {
+                try fm.createDirectory(at: dst, withIntermediateDirectories: true)
+            } else {
+                try fm.copyItem(at: src, to: dst)
+            }
+        }
+    }
+}
+import Foundation
+
+enum BootstrapError: Error { case manifestMissing, copyFailed(String) }
+
+struct BootstrapSummary {
+    let usedUnpackedContent: Bool
+    let usedAppSupportDB: Bool
+}
+
+final class LCESBootstrap {
+    static let shared = LCESBootstrap()
+
+    private let fm = FileManager.default
+    private var appSup: URL {
+        fm.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
+    }
+
+    // Bundle locations
+    private var bundlePayload: URL { Bundle.main.bundleURL.appendingPathComponent("payload", isDirectory: true) }
+    private var bundleContent: URL { bundlePayload.appendingPathComponent("content", isDirectory: true) }
+    private var bundleDB: URL { Bundle.main.bundleURL.appendingPathComponent("db/lces.sqlite") }
+
+    // App Support targets
+    private var targetContent: URL { appSup.appendingPathComponent("payload/content", isDirectory: true) }
+    private var targetDB: URL { appSup.appendingPathComponent("db/lces.sqlite") }
+
+    @discardableResult
+    func firstRunSetup() throws -> BootstrapSummary {
+        try fm.createDirectory(at: appSup, withIntermediateDirectories: true)
+        var usedUnpacked = false
+        var usedAppDB = false
+
+        // 1) Content: copy bundle payload/content → App Support if missing
+        if !fm.fileExists(atPath: targetContent.path) {
+            try copyDirectory(from: bundleContent, to: targetContent)
+            usedUnpacked = true
+        }
+
+        // 2) DB: copy db/lces.sqlite → App Support if missing
+        if !fm.fileExists(atPath: targetDB.path) {
+            // Ensure db dir exists
+            try fm.createDirectory(at: targetDB.deletingLastPathComponent(), withIntermediateDirectories: true)
+            if fm.fileExists(atPath: bundleDB.path) {
+                try fm.copyItem(at: bundleDB, to: targetDB)
+                usedAppDB = true
+            }
+        } else {
+            usedAppDB = true
+        }
+        return BootstrapSummary(usedUnpackedContent: usedUnpacked, usedAppSupportDB: usedAppDB)
+    }
+
+    private func copyDirectory(from: URL, to: URL) throws {
+        guard fm.fileExists(atPath: from.path) else { return }
+        try fm.createDirectory(at: to, withIntermediateDirectories: true)
+        let enumerator = fm.enumerator(at: from, includingPropertiesForKeys: [.isDirectoryKey])
+        while let src = enumerator?.nextObject() as? URL {
+            let rel = src.path.replacingOccurrences(of: from.path + "/", with: "")
+            let dst = to.appendingPathComponent(rel)
+            let values = try src.resourceValues(forKeys: [.isDirectoryKey])
+            if values.isDirectory == true {
+                try fm.createDirectory(at: dst, withIntermediateDirectories: true)
+            } else {
+                try fm.copyItem(at: src, to: dst)
+            }
+        }
+    }
+}
+Usage at launch:
+// AppDelegate.application(_:didFinishLaunchingWithOptions:)
+let _ = try? LCESBootstrap.shared.firstRunSetup()
+// Then continue with ContentRegistry.shared.bootstrap()
+Note: The prebaked bundles already include payload/content/ in the app. Unpacking to App Support is optional; the app can read straight from the bundle if you prefer read‑only.
+
+⸻
+
+2) Deep Links (Info.plist)
+
+Register the lces:// scheme for module/card routing.
+<!-- Info.plist -->
+<key>CFBundleURLTypes</key>
+<array>
+  <dict>
+    <key>CFBundleURLName</key>
+    <string>com.charlesmayron.lces</string>
+    <key>CFBundleURLSchemes</key>
+    <array>
+      <string>lces</string>
+    </array>
+  </dict>
+</array>
+<!-- Info.plist -->
+<key>CFBundleURLTypes</key>
+<array>
+  <dict>
+    <key>CFBundleURLName</key>
+    <string>com.charlesmayron.lces</string>
+    <key>CFBundleURLSchemes</key>
+    <array>
+      <string>lces</string>
+    </array>
+  </dict>
+</array>
+Examples
+	•	lces://module/36 → Module 36
+	•	lces://fg/1 → Field Guide 0001
+3) App Store Privacy — “Data Not Collected”
+
+Summary to paste:
+
+LCES works 100% offline. We do not collect or track any data. No accounts, analytics, or third‑party SDKs.
+
+App Privacy selections (App Store Connect)
+	•	Data Collection: None
+	•	Data Types: None
+	•	Data Linked to User: No
+	•	Data Used to Track: No
+	•	Third‑Party Advertising/Analytics: No
+	•	Developer’s Advertising/Marketing: No
+	•	Product Personalization: No
+	•	App Functionality: Local‑only (offline)
+
+Optional text for Support URL privacy page:
+We collect no personal data. The app works entirely offline. If you email us, that email resides in your inbox and ours—not in the app. Educational content only; not legal advice.
+4) QA Smoke Tests (pre‑submission)
+	•	Launch in Airplane Mode → content loads; search returns hits (e.g., “Filing”).
+	•	Application Support/payload/content exists after first run (if using copy‑out).
+	•	Application Support/db/lces.sqlite exists; FTS query returns results.
+	•	Deep links open correct screens: lces://module/1, lces://fg/001.
+	•	VoiceOver reads hero alt text (Module 1).
+
+⸻
+
+5) Manifest with Reserved Namespaces (already applied)
+"contentVersion": {"lc":"4.5","fg":"5.0","jc":null,"mc":null,"lca":null},
+"counts": {"lcModules":119,"fgCards":1000,"jcModules":0,"mcCards":0,"lcaDocs":0},
+"namespaces": {"enabled":["lc","fg"], "reserved":["jc","mc","lca"]}
+6) App Review Notes (paste into Review Notes box)
+	•	This is an offline educational reference. No login, no analytics, no trackers.
+	•	All 119 modules + 1,000 Field Guide cards are prebaked into the app bundle.
+	•	A prebuilt SQLite FTS index enables offline search.
+	•	Code: MIT. Content: CC BY 4.0. Credits included in‑app and in bundle licenses.
