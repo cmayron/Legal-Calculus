@@ -1,0 +1,12 @@
+# LCES 1.0 — App Store Submission Packet
+
+This is the repo copy of the submission instructions. Keep it updated as you iterate.
+
+- Version / Build: **1.0 (100)**
+- Platform: **iOS 16+** (Universal)
+- App Privacy: **Data Not Collected**
+- Licenses: **MIT (code)**, **CC BY 4.0 (content)**
+
+**Primary reference**: If you need the full, formatted packet, see the PDF/TXT you generated earlier.
+<!-- Add to README.md: link to the submission packet -->
+> 📦 **App Store Submission**: See [docs/LCES_AppStore_Submission.md](docs/LCES_AppStore_Submission.md)
