@@ -1,0 +1,61 @@
+#!/usr/bin/env bash
+# ship_prebaked.sh  v1.0
+# Usage:
+#   bash scripts/ship_prebaked.sh v1.0.3 App/ResourcesPrebaked dist [--release owner/repo]
+set -euo pipefail
+
+if [[ $# -lt 3 ]]; then
+  echo "Usage: $0 <TAG like v1.0.3> <CONTENT_ROOT> <DIST_DIR> [--release owner/repo]" >&2
+  exit 64
+fi
+
+TAG="$1"; shift
+CONTENT_ROOT="$1"; shift
+DIST="${1%/}"; shift
+RELEASE_REPO=""; [[ "${1:-}" == "--release" ]] && RELEASE_REPO="${2:-}"
+
+bash scripts/package_prebaked.sh "$TAG" "$CONTENT_ROOT" "$DIST"
+python3 scripts/checksums_sha256.py "$DIST"
+
+# build content-manifest.json for updates channel
+python3 - <<PY
+import json, os, hashlib, sys
+dist = sys.argv[1] if len(sys.argv)>1 else "dist"
+tag  = sys.argv[2] if len(sys.argv)>2 else "v0.0.0"
+ver  = tag[1:] if tag.startswith("v") else tag
+def sha(p):
+  h=hashlib.sha256()
+  with open(p,"rb") as f:
+    for c in iter(lambda:f.read(8192), b""): h.update(c)
+  return h.hexdigest(), os.path.getsize(p)
+files=[]
+for name in ("content.zip","lces.sqlite"):
+  p=os.path.join(dist,name)
+  if os.path.exists(p):
+    d,s = sha(p)
+    files.append({"name":name,"size":s,"sha256":d})
+cv={"lc":"4.5","fg":"5.0"}
+try:
+  with open(os.path.join(dist,"manifest.json"),"r") as f:
+    cv=json.load(f).get("contentVersion",cv)
+except: pass
+with open(os.path.join(dist,"content-manifest.json"),"w") as w:
+  json.dump({"schema":1,"bundleVersion":ver,"contentVersion":cv,"files":files}, w, indent=2)
+print("Wrote", os.path.join(dist,"content-manifest.json"))
+PY "$DIST" "$TAG"
+
+# optional: publish a GitHub Release
+if [[ -n "$RELEASE_REPO" ]]; then
+  command -v gh >/dev/null 2>&1 || { echo "ERROR: gh CLI not found" >&2; exit 3; }
+  VER="${TAG#v}"
+  gh release create "$TAG" \
+    "$DIST/LCES_Prebaked_Bundle_${VER}.zip" \
+    "$DIST/manifest.json" \
+    "$DIST/manifest-${VER}.json" \
+    "$DIST/SHASUMS256.txt" \
+    "$DIST/content-manifest.json" \
+    --repo "$RELEASE_REPO" \
+    --title "LCES $VER — prebaked bundle" \
+    --notes "Prebaked offline bundle (manifest, checksums, update assets)."
+fi
+echo "✅ Ship complete."
