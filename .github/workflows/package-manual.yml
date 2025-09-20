@@ -1,0 +1,42 @@
+name: Package Prebaked (Manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version string (e.g., 1.0.3)'
+        required: true
+      content_root:
+        description: 'Root containing payload/, db/, onboarding/, licenses/'
+        required: false
+        default: 'App/ResourcesPrebaked'
+
+env:
+  DIST_DIR: dist
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ensure tools
+        run: sudo apt-get update && sudo apt-get install -y zip
+
+      - name: Pre-release sanity check
+        run: python3 scripts/pre_release_check.py "${{ github.event.inputs.content_root }}"
+
+      - name: Package prebaked bundle
+        run: bash scripts/package_prebaked.sh "v${{ github.event.inputs.version }}" "${{ github.event.inputs.content_root }}" "${{ env.DIST_DIR }}"
+
+      - name: Generate SHA256 checksums
+        run: python3 scripts/checksums_sha256.py "${{ env.DIST_DIR }}"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: prebaked-${{ github.event.inputs.version }}
+          path: |
+            dist/LCES_Prebaked_Bundle_*.zip
+            dist/manifest*.json
+            dist/SHASUMS256.txt
