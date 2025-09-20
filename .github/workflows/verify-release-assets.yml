@@ -1,0 +1,84 @@
+name: Verify Release Assets
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag to verify (e.g., v1.0.3)'
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get release by tag
+        id: rel
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const tag = core.getInput('tag');
+            const { data } = await github.rest.repos.getReleaseByTag({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              tag
+            });
+            core.setOutput('assets', JSON.stringify(data.assets || []));
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install requests
+        run: python -m pip install --upgrade pip requests
+
+      - name: Download assets
+        env:
+          ASSETS: ${{ steps.rel.outputs.assets }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p dist
+          python - <<'PY'
+          import json, os, requests
+          from pathlib import Path
+          assets = json.loads(os.environ['ASSETS'])
+          token  = os.environ['GITHUB_TOKEN']
+          hdrs   = {"Authorization": f"Bearer {token}", "Accept": "application/octet-stream"}
+          if not assets:
+              raise SystemExit("No assets found on the release for this tag.")
+          for a in assets:
+              url  = a['url']
+              name = a['name']
+              r = requests.get(url, headers=hdrs)
+              r.raise_for_status()
+              Path("dist", name).write_bytes(r.content)
+              print("Downloaded", name)
+          PY
+
+      - name: Assert expected assets exist
+        run: |
+          TAG="${{ github.event.inputs.tag }}"
+          VER="${TAG#v}"
+          cd dist
+          for f in \
+            "LCES_Prebaked_Bundle_${VER}.zip" \
+            "manifest.json" \
+            "manifest-${VER}.json" \
+            "SHASUMS256.txt"
+          do
+            test -f "$f" || { echo "Missing asset: $f" >&2; exit 2; }
+          done
+
+      - name: Verify SHA-256
+        run: |
+          cd dist
+          if command -v shasum >/dev/null 2>&1; then
+            shasum -a 256 -c SHASUMS256.txt
+          else
+            sha256sum -c SHASUMS256.txt
+          fi
