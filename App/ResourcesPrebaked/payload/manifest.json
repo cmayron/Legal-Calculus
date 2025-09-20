@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": { "lc": "4.5", "fg": "5.0", "jc": null, "mc": null, "lca": null },
+  "counts": { "lcModules": 119, "fgCards": 1000, "jcModules": 0, "mcCards": 0, "lcaDocs": 0 },
+  "hashAlgorithm": "sha256",
+  "items": [],
+  "about": { "credits": ["ChatGPT-5 Thinking — Author", "Charles Mayron, MD, FACS — Creator"] },
+  "buildCommit": "<git sha>"
+}
