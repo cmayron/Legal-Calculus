@@ -1,0 +1,32 @@
+Based on the document provided, "LCES — The People’s Law School" is a detailed framework for a free, AI-powered tool designed to help individuals navigate the legal system's procedures.
+The core idea is to use an AI (specifically, "ChatGPT-5 Thinking") as a drafting engine, while LCES itself provides the structure, rules, and workflows to ensure all legal documents are safe, organized, and compliant with procedural requirements. It is explicitly stated that this tool is not a substitute for legal advice or a lawyer but a "primer + workflow."
+Here's a summary of the key components outlined in the document:
+
+1. The Ecosystem
+LCES is built on a series of interlinked modules that create a complete system for learning and action:
+- Learning: LC (Legal Calculus) provides fundamental lessons, while LCA (Legal Calculus Advanced) offers deeper commentary.
+- Deployment: FG (Field Guide) contains practical "micro-cards" for real-time use, and FGA (Field Guide Advanced) provides annotated versions of these cards.
+- Anticipation: JC (Judicial Calculus) and LCa (Lawyer Calculus) help users predict and counter moves from the court and opposing counsel, respectively.
+This structure forms a 360° loop: learn → deploy → anticipate.
+1. The Workflow ("How to Use")
+The document presents an 8-step process called a "Legal Second-Opinion Run," which systematizes the preparation of a case:
+- Intake: A structured snapshot of the case's key details is created.
+- Module Map + Threat Alerts: The system maps the case to the relevant learning and action modules and identifies potential threats.
+- Governing Standards Sheet: Users define the legal standards and the specific relief they seek.
+- Draft Pack: The AI drafts file-ready documents like a complaint, motion, and proposed order.
+- Evidence Pack: A consistent method for labeling and indexing evidence is used.
+- Service + Docket-Watch: Provides a checklist for serving documents and monitoring court filings.
+- Hearing Kit: Prepares the user for a hearing with scripted openings and "trap → counter" cards.
+- Archive & Appeal Posture: The final step involves organizing all documents into a clean archive, which is crucial for a potential appeal.
+1. Key Principles and Users
+The document emphasizes "safety and accountability rails" as a core function of LCES. These include:
+- Strict adherence to format.
+- Dating every document and fact.
+- Tailoring relief to the specific harm and record.
+- Maintaining a permanent archive of all filings and proofs.
+The tool is designed for a variety of users, including:
+- Emergency Filers: For quick, time-sensitive legal actions.
+- Sustained Pro Se: Individuals representing themselves on an ongoing basis.
+- Clinics/Educators: To teach legal procedure with practical, deliverable outcomes.
+- Journalists/Reformers: To identify and document systemic patterns and tactics.
+The document also provides sample prompts, explains where the content lives (GitHub, Notion, Substack), and offers pre-written text for social media to explain the tool to different audiences.
