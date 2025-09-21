@@ -1,0 +1,199 @@
+## 🖨️ **LCES: Procedural Justice Toolkit**
+
+### *Federal Civil Rights Edition*
+
+A modular, AI-powered system for navigating federal court procedures
+
+---
+
+### 🟢 Cover Page
+
+> LCES: The People’s Law School
+> 
+> 
+> *Federal Civil Rights Toolkit*
+> 
+> *“Grievance becomes record. Record becomes doctrine.”*
+> 
+
+---
+
+### ✅ Legal Action Loop Checklist
+
+1. **Intake Sheet**
+    
+    ☐ Federal court name and district
+    
+    ☐ Type of claim (e.g., §1983, retaliation, due process)
+    
+    ☐ Key deadlines (statute of limitations, answer due, hearing date)
+    
+    ☐ Summary of facts
+    
+    ☐ Jurisdictional basis (e.g., under color of law)
+    
+2. **Module Map**
+    
+    ☐ LC lessons: captioning, service, Rule 12(b) defenses
+    
+    ☐ FG cards: file complaint, serve summons, oppose dismissal
+    
+    ☐ JC reflexes: exhaustion, qualified immunity, pro se bias
+    
+    ☐ LCa tactics: delay, boilerplate, procedural traps
+    
+3. **Draft Pack**
+    
+    ☐ Complaint with numbered facts
+    
+    ☐ Civil cover sheet
+    
+    ☐ Proposed summons
+    
+    ☐ Caption block
+    
+    ☐ Proof of service
+    
+4. **Evidence Pack**
+    
+    ☐ Exhibit Index
+    
+    ☐ Dated evidence (photos, declarations, records)
+    
+    ☐ Labels and descriptions
+    
+5. **Service & Docket-Watch**
+    
+    ☐ Serve defendants per Rule 4
+    
+    ☐ Monitor PACER or court docket weekly
+    
+    ☐ Set calendar reminders
+    
+    ☐ Ops buddy assigned
+    
+6. **Hearing Kit**
+    
+    ☐ Opening statement
+    
+    ☐ Trap-to-counter cards
+    
+    ☐ Notes on judge/counsel reflexes
+    
+    ☐ Rehearsal log
+    
+7. **Archive & Appeal Posture**
+    
+    ☐ Final filed documents
+    
+    ☐ Proofs
+    
+    ☐ Hearing notes
+    
+    ☐ Appeal-ready folder
+    
+8. **Feedback Loop**
+    
+    ☐ AI reflections
+    
+    ☐ Ops buddy notes
+    
+    ☐ Lessons learned
+    
+    ☐ Suggested edits
+    
+
+---
+
+### 🧩 Sample FG Cards
+
+**FG-501: File a Civil Rights Complaint (§1983)**
+
+- Trigger: Constitutional violation by government actor
+- Steps: Draft → Include “under color of law” → Attach summons → Serve → File
+
+**FG-602: Respond to Motion to Dismiss**
+
+- Trigger: Defendant files Rule 12(b)(6) motion
+- Steps: Draft opposition → Cite precedent → Attach exhibits → File
+
+**FG-703: Emergency Relief (TRO or Injunction)**
+
+- Trigger: Imminent harm (e.g., retaliation, denial of medication)
+- Steps: Draft motion → Attach declaration → Request expedited hearing → Archive
+
+---
+
+### 🧠 JC Reflexes
+
+**JC-045: “You Didn’t Exhaust Remedies”**
+
+- Counter: Show timeline or futility
+- Prep: FG-501 + LC exhaustion module
+
+**JC-052: “This Is Just a Policy Disagreement”**
+
+- Counter: Anchor claim in specific rights violated
+- Prep: FG-602 + LCA commentary
+
+**JC-063: “You’re Asking for Too Much”**
+
+- Counter: Narrow request, cite proportionality
+- Prep: FG-703 + LC equitable relief
+
+---
+
+### 🧑‍🤝‍🧑 Ops Buddy Protocol
+
+**Roles:**
+
+- Track deadlines
+- Help with printing and service
+- Be present for prep and hearings
+- Maintain archive
+
+**Tools:**
+
+- FG cards
+- Docket-Watch log
+- Archive checklist
+
+**Trust Signals:**
+
+- Shared calendar
+- Versioned folder
+- Clear communication
+
+---
+
+### 📣 Coalition Invite Letter
+
+> Join the LCES Coalition
+> 
+> 
+> Legal Calculus is public infrastructure. We’re building procedural memory together.
+> 
+> Contribute by proposing new cards, sharing case studies, translating modules, or onboarding new users.
+> 
+> Let’s transform grievance into record—and record into doctrine.
+> 
+
+---
+
+### 🔁 Semantic Scaffolding Diagram
+
+```
+Learn → Deploy → Defend → Archive → Reflect → Learn Again
+LC / LCA → FG / FGA → JC / LCa → Archive → AI + Ops Buddy → LC Updated
+
+```
+
+---
+
+### 📝 Notes Section
+
+Use this space to reflect, track progress, or suggest improvements.
+
+---
+
+Would you like this version adapted for another audience—like tenant defense, family law, or immigration? I can also help you build a live Notion version with toggles, embedded FG cards, and coalition onboarding flows. Let’s keep expanding.
