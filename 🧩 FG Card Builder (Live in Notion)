@@ -1,0 +1,80 @@
+## 🧩 FG Card Builder (Live in Notion)
+
+**Embed Location:**
+
+- Under **FG Cards Gallery**
+- Cross-linked from **Legal Action Loop Checklist** and **Coalition Invite Page**
+
+**Features:**
+
+- Toggle-based builder with pre-filled examples (FG-301, FG-402)
+- AI Assist toggle for countermove suggestions
+- Submission flow to **Feedback Loop**
+- Expansion button: *“Build FG card for Family Law / Immigration / Appellate”*
+
+---
+
+## 🧠 JC Reflex Builder (New Subpage)
+
+**Purpose:**
+
+Turn lived experience into procedural doctrine.
+
+**Structure:**
+
+- **Trigger Phrase:** Judge’s move (e.g., “You’re not credible”)
+- **Your Counter:** Litigant’s response
+- **Linked Prep Module:** FG card or LC lesson
+- **Evidence Type:** What supports the counter (e.g., receipts, timeline)
+- **Jurisdictional Notes:** Local rules or exceptions
+- **Coalition Tagging:** Add tags for review and deployment
+
+**Bonus:**
+
+- AI Suggest toggle: auto-link FG cards, suggest counters
+- Embed into **JC Reflexes Table** as a live database
+
+---
+
+## 🤝 Coalition Onboarding Flow (Live Page)
+
+**Embed Location:**
+
+- **Coalition Invite Page**
+- Cross-linked from **Welcome Page** and **Feedback Loop**
+
+**Flow:**
+
+1. **Welcome Message**
+    
+    *“You’re not alone. This toolkit is yours to build.”*
+    
+2. **Choose Your Role**
+    - Litigant
+    - Ops Buddy
+    - Builder
+    - Witness
+3. **Starter Pack**
+    - Notion templates
+    - Printable checklists
+    - Sample FG cards
+    - JC reflexes
+4. **Feedback Loop Embed**
+    - Submit new modules, case studies, or reflexes
+    - Tag by domain (Eviction, Family Law, Immigration, Appellate)
+
+---
+
+## 🔁 Expansion Forks (Ready to Build)
+
+Each fork activates a new domain with tailored FG cards and JC reflexes:
+
+- **Family Law Defense Toolkit**
+    - FG cards: Custody challenge, Support modification
+    - JC reflexes: “You abandoned the child” → Timeline + receipts
+- **Immigration Defense Toolkit**
+    - FG cards: Status assertion, Language access
+    - JC reflexes: “You don’t belong here” → Jurisdiction + due process
+- **Appellate Posture Toolkit**
+    - FG cards: Notice of Appeal, Stay request
+    - JC reflexes: “You waived that issue” → Record + procedural memory
