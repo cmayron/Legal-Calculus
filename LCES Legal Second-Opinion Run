@@ -1,0 +1,135 @@
+# **LCES Legal Second-Opinion Run**
+
+**1) Intake → Snapshot (you paste this)**
+
+LCES | CASE INTAKE
+Court + stage:
+Claims / causes:
+Relief sought (exact):
+Absolute deadlines (MM/DD/YYYY):
+Key dated facts (YYYY-MM-DD bullets):
+Evidence/exhibits list (IDs + 1-liners):
+Service status (who/when/how):
+Procedural posture (what’s on the docket?):
+Adverse moves expected:
+
+# **2) Issue framing → Module Map (our reasoning)**
+
+- LC (core): which foundational modules apply (e.g., LC-1 Filing=Protest, LC-2 Format=Memory, LC-14 Winter factors, LC-31 Archive=Appeal).
+- LCA (advanced): doctrine/case-law hooks to strengthen each move.
+- FG (quick): the micro-cards you’ll actually use mid-draft / hallway.
+- FGA (annotated): short notes + analogies to keep you steady under pressure.
+- JC (judge reflexes): likely court behaviors to pre-empt.
+- LCa (lawyer tactics): opponent’s plays + your counters.
+
+# Output: a one-page “Module Map + Threat Alerts” you can tape to your screen.
+
+# **3) Standards → What controls this decision**
+
+- Rules, standards, and local quirks you must satisfy (e.g., TRO factors, default protocol, mailbox/service rules, meet-and-confer traps).
+
+# Output: Governing Standards sheet with the exact elements you need to hit.
+
+# **4) Draft pack (you can file these)**
+
+- Complaint / Motion / Memo shell (captioned, numbered facts, clean headings).
+- Certificate of Service (COS) and Proposed Order.
+- Notice of Filing & Request for Docket Clarification (if the clerk lags).
+
+# Output: a folder of ready-to-edit docs, each with a 5-line checklist on page 1.
+
+COS mini-template
+
+[Caption]
+CERTIFICATE OF SERVICE
+I certify that on [DATE], I served [document(s)] by [METHOD] on:
+[NAME/ADDRESS/EMAIL/FAX].
+[If mail:] Under [jurisdiction] mailbox rule, service is effective upon [postmark/deposit].
+[Signature block]
+
+Docket-clarification mini-template
+
+[Caption]
+NOTICE OF FILING AND REQUEST FOR DOCKET CLARIFICATION
+Plaintiff submitted [items] via [method] on [DATE] (Proof: Exh. A [tracking/receipt]).
+As of [DATE], no docket entry/number appears. Please docket forthwith or provide a
+written order stating the basis for refusal. Plaintiff preserves the filing date of [DATE].
+[Signature block]
+
+# **5) Evidence pack → Memory that survives silence**
+
+- Exhibit index (A, B, C… with date/source/what it proves).
+- File-name and label scheme that matches captions and your FG cards.
+
+# Output: Exhibit Index + stamps so the record is self-authenticating.
+
+# **6) Service + Docket-watch routines**
+
+- Calendar pings for T-0/T+3/T+7 follow-ups.
+- Phone/email scripts + “what to do if mail/efiling is bounced.”
+
+# Output: Ops checklist you (or a helper) can run without thinking.
+
+# **7) Hearing kit (if a conference or motion is coming)**
+
+- 30/60/90-second opening aligned to the governing standard.
+- Trap → Counter cards (e.g., “vexatious,” “no harm,” “service defect”).
+- Status checklist and a debrief log to capture rulings and next steps.
+
+# Output: one printable page + three micro-cards.
+
+Opening (90-sec) skeleton
+
+Purpose: [What you’re asking for, precisely].
+Standard: [X elements]. Today I show [Element 1: cite/record], [2], [3]...
+Relief: [Tailored order language]. Prejudice if delayed: [1-liner].
+
+- “You’re vexatious.” → “Volume ≠ vexatious. Each filing targets a required element (see Index p.1). I’m preserving rights efficiently.”
+- “No irreparable harm.” → “Harm is immediate and not compensable by money: [fact/date/record cite]. Relief is tailored.”
+- “Service defective.” → “COS attached; if the court finds defect, I request a brief cure order and deem prior date preserved.”
+
+# **8) Archive & Appeal posture (LC-31 discipline)**
+
+- Versioned PDFs, stamped proofs, timeline, and a “refile/appeal” pack.
+
+# Output: Archive bundle you can hand to an appellate clerk tomorrow.
+
+# **JC / LCa Threat Matrix (starter)**
+
+- Filing stage:
+    - JC: Docket delay / “administrative return.”
+    - LCa: Pretextual meet-and-confer to stall.
+    - Counters: FG-001 (existence by filing), FG-004 (silence ≠ settlement), FG-010 (COS), Notice of Clarification.
+- 
+- Injunction/TRO:
+    - JC: “Extraordinary remedy” strictness.
+    - LCa: Attack irreparable harm; propose overbroadness.
+    - Counters: LC-14 Winter map; narrow relief paragraph; declarations.
+- 
+- Dismissal / default:
+    - JC: “Judicial efficiency” framing.
+    - LCa: Conflate default with consent.
+    - Counters: LC-5 / FG-005 (Default ≠ Consent); precise Rule 55 steps.
+- 
+- Discovery / sanctions:
+    - JC: Discretion emphasis.
+    - LCa: Label “burdensome/bad faith.”
+    - Counters: Proportionality factors; targeted requests; certification lines.
+- 
+
+# **What you actually receive (each run)**
+
+1. Module Map + Threat Alerts (1 page).
+2. Governing Standards sheet (1–2 pages).
+3. Draft pack (Complaint/Motion/Memo/COS/Proposed Order).
+4. Evidence pack (Exhibit Index + labels).
+5. Ops checklist (service + docket-watch).
+6. Hearing kit (opening + trap→counter + debrief).
+7. Archive bundle (versioned PDFs + proofs + timeline).
+
+# **Reuse prompts (keep these handy)**
+
+- “Map this to LC/LCA/FG/FGA, and list JC/LCa counters.”
+- “Draft COS + Docket Clarification for clerk delay using my facts.”
+- “Give me a 90-sec opening tied to [standard].”
+- “Build an Exhibit Index from these filenames.”
