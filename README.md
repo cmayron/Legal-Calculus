@@ -2,16 +2,22 @@
 
 # 📣 LEGAL CALCULUS IN ACTION  
 ## ✅ Quickstart
+
+**AHLA Arbitration Starter Bundle**
+- [Index](./packets/arbitration/_index.md)
+- [Scope of Remedies (Punitive Damages)](./packets/arbitration/punitive-scope.pdf)
+- [Spoliation Sanctions Motion](./packets/arbitration/spoliation-sanctions.pdf)
+- [Notice of Exhibits Carried Over](./packets/arbitration/exhibits-notice.pdf)
+
 - [Legal Calculus Framework — Quickstart Checklist (v4.5)](./lc-framework-quickstart-checklist-v45.md)
 - Templates: [lc-template-pack-v45.zip](./lc-template-pack-v45.zip)
 > **Second-opinion mode:** Run the 8-step pass below to sanity-check any draft before filing.
 
 > **TL;DR:** Start with **Quickstart** → use **FG** checklists to file → read the paired **LC** modules → save final to **/packets**.
 
-**In a hurry?** Jump to **[Crisis Mode (Pro Se)]
-(#1--crisis-mode-pro-se-in-a-hurry)**.
+**In a hurry?** Jump to **[Crisis Mode (Pro Se)](#1--crisis-mode-pro-se-in-a-hurry)**.
 
-**Table of Contents**
+**.Table of Contents**
 - [Quickstart](#-quickstart)
 - [Why It Matters](#-why-it-matters)
 - [System Map (LC • LCA • FG • FGA • JC • LCa)](#-system-map-lc--lca--fg--fga--jc--lca)
@@ -19,6 +25,8 @@
 - [Fast Links](#-fast-links-fill-in-your-repo-paths)
 - [Filing Hygiene (AI-era)](#-filing-hygiene-ai-era)
 - [License & Credits](#-license--credits)
+- [TNRPESC (7-point pre-file check)](#-tnrpesc--7-point-pre-file-check)
+
 ## 🧭 System Map (LC • LCA • FG • FGA • JC • LCa)
 
 - **LC — Legal Calculus (Modules 1–119):** Core teaching system (philosophy, strategy, assignments, visuals).
@@ -106,13 +114,6 @@
 
 - **Privacy/PHI:** Before committing, scrub protected health info. Use redactions in `/templates/redaction/`.
 - **File sizes:** Keep PDFs < 25–35 MB (common court portals). Split exhibits if needed.
-
-**AHLA Arbitration Starter Bundle**
-- [Index](./packets/arbitration/_index.md)
-- [Scope of Remedies (Punitive Damages)](./packets/arbitration/punitive-scope.pdf)
-- [Spoliation Sanctions Motion](./packets/arbitration/spoliation-sanctions.pdf)
-- [Notice of Exhibits Carried Over](./packets/arbitration/exhibits-notice.pdf)
-> 
 
 ## 💡 Why It Matters
 
