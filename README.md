@@ -52,12 +52,6 @@
 
 ## 🧰 Choose Your Mode
 
-### 1) 🚨 Crisis Mode (Pro Se in a hurry)
-1. Open **[FG index](./field-guide/)** ➝ run the **task that matches your emergency** (e.g., *FG-47 TRO Steps*, *FG-210 Service Checklist*, *FG-800 Spotting Judicial Bias*).
-2. Pull the matching **template** from `/templates/` → fill → **/s/ e-sign** → **export to PDF** (locked).
-...
-
-
 1. Open **[FG index](./field-guide/)** ➝ run the **task that matches your emergency** (e.g., *FG-47 TRO Steps*, *FG-210 Service Checklist*, *FG-800 Spotting Judicial Bias*).
 ### 1) 🚨 Crisis Mode (Pro Se in a hurry)
 1. Open **FG** index ➝ run the **task that matches your emergency** (e.g., *FG-47 TRO Steps*, *FG-210 Service Checklist*, *FG-800 Spotting Judicial Bias*).
