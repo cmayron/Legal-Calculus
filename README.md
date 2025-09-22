@@ -1,14 +1,10 @@
+
 # 📣 LEGAL CALCULUS IN ACTION  
-## ✅ Federal Filing Confirmed – August 6, 2025
+## ✅ Quickstart
+- [Legal Calculus Framework — Quickstart Checklist (v4.5)](./lc-framework-quickstart-checklist-v45.md)
+- Templates: [lc-template-pack-v45.zip](./lc-template-pack-v45.zip)
 
-**We filed. The court struck procedural notices — but the argument stands.**
-
-This repository documents the federal-level deployment of Legal Calculus 5.0, confirming that core filings remain intact on the docket:
-
-- 🧾 First Amended Complaint (FAC)
-- ⚖️ Objection to Magistrate Jurisdiction under 28 U.S.C. § 636(c)
-- 📄 Supplemental Brief in support of Complaint and TRO
-
+> Filing is protest. Format is memory. The record is the remedy.
 ---
 
 ## 💡 Why It Matters
