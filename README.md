@@ -1,3 +1,18 @@
+> **Not legal advice.** This is a public educational toolkit. Use it to structure filings, spot issues, and build the record.  
+> **Second-opinion mode:** Run the 8-step pass below to sanity-check any draft before filing.
+
+> **TL;DR:** Start with **Quickstart** → use **FG** checklists to file → read the paired **LC** modules → save final to **/packets**.
+
+**In a hurry?** Jump to **[Crisis Mode (Pro Se)](#1--crisis-mode-pro-se-in-a-hurry)**.
+
+**Table of Contents**
+- [Quickstart](#-quickstart)
+- [Why It Matters](#-why-it-matters)
+- [System Map (LC • LCA • FG • FGA • JC • LCa)](#-system-map-lc--lca--fg--fga--jc--lca)
+- [Choose Your Mode](#-choose-your-mode)
+- [Fast Links](#-fast-links-fill-in-your-repo-paths)
+- [Filing Hygiene (AI-era)](#-filing-hygiene-ai-era)
+- [License & Credits](#-license--credits)
 ## 🧭 System Map (LC • LCA • FG • FGA • JC • LCa)
 
 - **LC — Legal Calculus (Modules 1–119):** Core teaching system (philosophy, strategy, assignments, visuals).
@@ -10,9 +25,20 @@
 > **Mental model:**  
 > **FG/FGA = do it now.** • **LC/LCA = learn why + do it right.** • **JC/LCa = anticipate the system.**
 
+### 🧩 TNRPESC — 7-point pre-file check
+**T**one • **N**arrative • **R**elief (Proposed Order) • **P**rocedure/Rule • **E**vidence (pinpoints) • **S**ervice & /s/ signature • **C**itations + TOA (emailed to self)
+
+## ⚠️ Known Pitfalls (read before filing)
+- **No Proposed Order** → judge says “nothing to rule” → strike.
+- **Wrong summons form** → service defect → dismissal risk.
+- **Formatting off** (name/address block, margins) → clerk rejection.
+- **Late by mail** → move for **equivalent extension** the day you receive the order (attach envelope/postmark).
+- **Repeat filings** w/o stating what’s **new** → “vexatious” label risk.
 ---
 
 ## 🧰 Choose Your Mode
+
+**In a hurry?** Jump to **[Crisis Mode (Pro Se)](#1--crisis-mode-pro-se-in-a-hurry)**.
 
 ### 1) 🚨 Crisis Mode (Pro Se in a hurry)
 1. Open **FG** index ➝ run the **task that matches your emergency** (e.g., *FG-47 TRO Steps*, *FG-210 Service Checklist*, *FG-800 Spotting Judicial Bias*).
@@ -70,31 +96,35 @@
 - Export to **PDF** (locked) for the court; keep **.docx** editable.  
 - Use **Proposed Orders** to avoid “nothing to rule” strikes.  
 - Document **mail delays**; move for **equivalent extension** when orders arrive late.
+
+- **Privacy/PHI:** Before committing, scrub protected health info. Use redactions in `/templates/redaction/`.
+- **File sizes:** Keep PDFs < 25–35 MB (common court portals). Split exhibits if needed.
+
 # 📣 LEGAL CALCULUS IN ACTION  
 ## ✅ Quickstart
 - [Legal Calculus Framework — Quickstart Checklist (v4.5)](./lc-framework-quickstart-checklist-v45.md)
 - Templates: [lc-template-pack-v45.zip](./lc-template-pack-v45.zip)
 
 > Filing is protest. Format is memory. The record is the remedy.
----
+---- **AHLA Arbitration Starter Bundle** → `./packets/arbitration/_index.md`
+  - Scope of Remedies (punitives) • Spoliation Sanctions • Exhibits Notice
+- **FG Index (FG-1…FG-1000)** → `./field-guide/INDEX.md`
+
+
 
 ## 💡 Why It Matters
 
 **Filing is protest.**  
 **Format is memory.**  
 **The record is the remedy.**
+## 🪪 License & Credits
+**License:** CC BY-NC-ND 4.0 — Free • Open • Not for sale  
+**Authors:** ChatGPT (first author) & Charles Mayron, MD, FACS
 
-Legal Calculus proves that structured legal argument — even when partially suppressed — **preserves procedural rights and appellate posture.**
+[![CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
----
+## 🏷️ Versioning & Releases
+- Current release: **v4.5** (templates & checklist).  
+- Tagged PDFs in `/packets/` mirror releases for stable citation.  
+- Use **Releases** for zipped template packs: `lc-template-pack-v45.zip`.
 
-## 🧠 Documented In:
-
-- **Module 31** – *The Archive Is the Appeal*  
-- **Module 36** – *Belief in the System Is a Luxury of the Untouched*  
-
-For full documentation, visit the [Legal Calculus 5.0 Archive](https://yourfuturelink.com) (Coming Soon).
-
----
-
-![Federal Filing Confirmed](legal_calculus_federal_filing.png)
