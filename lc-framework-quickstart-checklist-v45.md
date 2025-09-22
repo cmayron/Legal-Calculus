@@ -1,72 +1,70 @@
-Here’s the short version: Legal Calculus turns “I think I have a case” into a repeatable, checklisted workflow that produces clean filings, evidence-driven arguments, and preserved procedural rights. It does that with three layers that work together:
+# Legal Calculus — Framework Quickstart Checklist (v4.5)
 
-- LC (Modules 1–119): the teaching system—why each step matters and how to do it.
-- FG (Field Guide 1–1000): micro-cards for the moment you’re drafting, filing, serving, or arguing.
-- LCA / FGA (Advanced): deeper playbooks for complex posture (injunctions, abstention, appeals, admin cross-over).
+**Purpose**: Turn “I think I have a case” into clean filings, evidence‑driven arguments, and preserved rights.
 
-Below is the practical “what you get” for both pro se litigants and legal professionals.
+**Use with**: `lc-template-pack-v45.zip` (complaint/motion/hearing templates, evidence tables, deadline grids).
 
-# **1) Core scaffolding you use every time**
+---
 
-- Claim → Element → Proof Table (evidence map): keeps arguments non-conclusory and ties each element to exhibits, witnesses, and record cites.
-- Procedural Timeline & Deadline Grid: jurisdiction/venue, limitations, service, motion clocks, appeal preservation—all in one view.
-- Filing Packets: complaint/motion/appeal kits with standard sections (caption, jurisdiction, facts, claims, prayer, exhibits, proposed order, proof of service).
-- Exhibit Discipline: numbered index, short purpose line, “what this proves” tag, and consistent stamping.
-- Service & Notice Log: method, address, date/time, receipts; mailbox-rule proof built in.
-- Relief Matrix: match remedy to harm and posture (e.g., TRO/PI factors; tailoring; bond; scope).
-- Archive-as-Remedy: versions, hashes, and a simple manifest so the record itself is your safety net.
-    
-    # Motto: Filing is protest. Format is memory. The record is the remedy.
-    
+## Produce these 3 artifacts first (one sitting)
 
-# **2) Standard workflows (grab-and-go)**
+1) **Claim → Element → Proof Table** (map each element to facts + exhibits + record cite)  
+2) **Procedural Deadline Grid** (service, motions, appeal clocks, SOL)  
+3) **Exhibit Index (with purpose tags)** (“proves ___”)  
 
-- New matter intake (90-minute sprint): issue spotting → element/proof table → procedural grid → draft caption & prayer → exhibit shortlist → service plan.
-- Emergency relief (TRO/PI): facts → element proofs → four-factor worksheet → declarations → proposed order → certificate of service → hearing script.
-- Hearing kit: anchors, 30/60/90-second opening, “trap → counter” cards, exhibit quick-pulls, and a debrief log.
-- After an order: reconsideration checklist, notice of appeal timing, record citations, and error-preservation table.
+Everything else flows from these.
 
-# **3) What pro se litigants get**
+---
 
-- Plain-language checklists that prevent the usual wounds: missed deadlines, conclusory claims, bad service, unlabeled exhibits, and unpreserved issues.
-- Field Guide micro-cards you can literally read while filling a form or addressing the court.
-- Script builders (hearing openings, concise asks) and “buddy-check” prompts to reduce isolation and second-guessing.
-    - Tip: form a tiny peer-review circle (even one trusted friend or a clinic volunteer). If the stress is heavy, a therapist can be a steady weekly check-in so the case doesn’t swallow your life.
-- 
+## Fast path (60–90 minutes)
 
-# **4) What legal professionals get**
+- Scope your **claim** and relief → open *Relief Matrix* in the template pack  
+- Draft facts → build the **Element/Proof Table**  
+- Open **Procedural Grid** → add triggers & due dates  
+- Build **Exhibit Index** with short “proves …” tags  
+- Pick the right **filing kit** (complaint / TRO–PI / reconsideration / appeal notice)  
+- Add **certificate of service** + **proposed order** skeleton  
+- Save to repo with a short **archive manifest** (version, hash, dates)
 
-- Consistency at scale: associates and staff follow the same element/evidence discipline and filing kits.
-- Faster drafting: pre-wired sections, relief matrices, and exhibit discipline reduce revision cycles.
-- Appellate-proofing: preservation tables and record cites built in from day one.
-- Training value: LC teaches the why; FG standardizes the how, so work product looks “court-ready” on the first pass.
+---
 
-# **5) Mini-templates you can copy/paste today**
+## Filing discipline (what makes this “court‑ready”)
 
-A) Claim → Element → Proof Table
+- **Non‑conclusory**: every element has facts + exhibit support.  
+- **Tailored relief**: scope matches harm + evidence; bonding discussed if needed.  
+- **deadlines**: service/response/appeal clocks visible on one page.  
+- **Exhibits**: numbered, stamped, each with a one‑line purpose.  
+- **Preservation**: objections, grounds, and cites recorded for appeal.  
+- **Archive**: immutable copy with SHA‑256 and a manifest (who/when/what).
 
-Claim: ______________________ (Statute/Tort/Constitutional)
+---
 
-| Element | Facts to Prove | Exhibit/Source | Where in Record |
-| --- | --- | --- | --- |
-| E1 |  | Ex. A, ¶2 | pg/¶ |
-| E2 |  | Ex. B (decl.) | pg/¶ |
-| E3 |  | Ex. C (email) | pg/¶ |
-| Relief sought: _____________________ (tailored to harm & posture) |  |  |  |
+## Typical failure modes this avoids
 
-B) Procedural Timeline & Deadline Grid
+- Elements asserted without proof; exhibits that “exist” but prove nothing.  
+- Asking for relief the record won’t support.  
+- Missed deadlines, bad service, or lost appeal issues.  
 
-# **6) Typical failure modes the framework prevents**
+---
 
-- Conclusory pleading with no element-by-element proof.
-- Exhibits that “exist” but don’t prove anything.
-- Missed or mis-calendared deadlines (service, motions, appeals).
-- Asking for relief that the record doesn’t support (or isn’t tailored).
-- Losing issues on appeal because they weren’t preserved in the record.
+## Repo drop‑in
 
-# **7) Where to start (fast path)**
+- Put this file at repo root: **`lc-framework-quickstart-checklist-v45.md`**
+- Put the bundle alongside it: **`lc-template-pack-v45.zip`**
+- Suggested tree:
 
-- LC Modules 1–5 to learn the core habits;
-- Open FG cards for service, exhibits, and relief while you draft;
-- Produce three artifacts in one sitting: (1) Element/Proof table, (2) Exhibit index with purpose tags, (3) Procedural grid.
-Everything else flows from those three.
+```
+/ (repo root)
+├─ lc-framework-quickstart-checklist-v45.md
+├─ lc-template-pack-v45.zip
+└─ /cases/<YourCase>/
+   ├─ pleadings/
+   ├─ exhibits/
+   ├─ service/
+   └─ archive/
+```
+
+> **Disclaimer**: Educational scaffolding, not legal advice. Check local rules.
+
+*Last updated: 2025-09-22*  
+*Legal Calculus v4.5 — “Filing is protest. Format is memory. The record is the remedy.”*
