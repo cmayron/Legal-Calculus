@@ -1,9 +1,15 @@
-> **Not legal advice.** This is a public educational toolkit. Use it to structure filings, spot issues, and build the record.  
+> **Not legal advice.** This is a public educational toolkit. Use it to structure filings, spot issues, and build the record.
+
+# 📣 LEGAL CALCULUS IN ACTION  
+## ✅ Quickstart
+- [Legal Calculus Framework — Quickstart Checklist (v4.5)](./lc-framework-quickstart-checklist-v45.md)
+- Templates: [lc-template-pack-v45.zip](./lc-template-pack-v45.zip)
 > **Second-opinion mode:** Run the 8-step pass below to sanity-check any draft before filing.
 
 > **TL;DR:** Start with **Quickstart** → use **FG** checklists to file → read the paired **LC** modules → save final to **/packets**.
 
-**In a hurry?** Jump to **[Crisis Mode (Pro Se)](#1--crisis-mode-pro-se-in-a-hurry)**.
+**In a hurry?** Jump to **[Crisis Mode (Pro Se)]
+(#1--crisis-mode-pro-se-in-a-hurry)**.
 
 **Table of Contents**
 - [Quickstart](#-quickstart)
@@ -100,17 +106,12 @@
 - **Privacy/PHI:** Before committing, scrub protected health info. Use redactions in `/templates/redaction/`.
 - **File sizes:** Keep PDFs < 25–35 MB (common court portals). Split exhibits if needed.
 
-# 📣 LEGAL CALCULUS IN ACTION  
-## ✅ Quickstart
-- [Legal Calculus Framework — Quickstart Checklist (v4.5)](./lc-framework-quickstart-checklist-v45.md)
-- Templates: [lc-template-pack-v45.zip](./lc-template-pack-v45.zip)
-
-> Filing is protest. Format is memory. The record is the remedy.
----- **AHLA Arbitration Starter Bundle** → `./packets/arbitration/_index.md`
-  - Scope of Remedies (punitives) • Spoliation Sanctions • Exhibits Notice
-- **FG Index (FG-1…FG-1000)** → `./field-guide/INDEX.md`
-
-
+> 
+---- **AHLA Arbitration Starter Bundle** →
+**AHLA Arbitration Starter Bundle** → ./packets/arbitration/_index.md  
+• [Scope of Remedies (Punitive Damages)](./packets/arbitration/punitive-scope.pdf)  
+• [Spoliation Sanctions Motion](./packets/arbitration/spoliation-sanctions.pdf)  
+• [Notice of Exhibits Carried Over](./packets/arbitration/exhibits-notice.pdf)
 
 ## 💡 Why It Matters
 
