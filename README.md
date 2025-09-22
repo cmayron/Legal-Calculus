@@ -85,15 +85,16 @@
 3. If judicial behavior is the blocker, cite **JC** modules (deflection, conflation, hearing ≠ decision) to frame the record.
 
 ---
-
 ## 🔗 Fast Links (fill in your repo paths)
-- **FG Index (FG-1…FG-1000):** `./field-guide/INDEX.md`
-- **LC Modules (1–119):** `./modules/INDEX.md`
-- **Master Field Guide v1.0 (PDF):** `./packets/master-field-guide-v1.0.pdf`
-- **Templates:** `./templates/`  
-- **Arbitration Tools (AHLA):** `./packets/arbitration/` (Scope of Remedies, Spoliation Sanctions, Exhibits Notice)
-- **Judicial Calculus (JC):** `./jc/INDEX.md`
-- **Lawyer Calculus (LCa):** `./lca/INDEX.md`
+- **FG Index (FG-1…FG-1000):** [./field-guide/INDEX.md](./field-guide/INDEX.md)
+- **LC Modules (1–119):** [./modules/INDEX.md](./modules/INDEX.md)
+- **Master Field Guide v1.0 (PDF):** [./packets/master-field-guide-v1.0.pdf](./packets/master-field-guide-v1.0.pdf)
+- **AHLA Arbitration Starter Bundle:** [./packets/arbitration/_index.md](./packets/arbitration/_index.md)  
+  – Scope of Remedies • Spoliation Sanctions • Exhibits Notice
+- **Templates:** [./templates/](./templates/)
+- **Judicial Calculus (JC):** [./jc/INDEX.md](./jc/INDEX.md)
+- **Lawyer Calculus (LCa):** [./lca/INDEX.md](./lca/INDEX.md)
+
 
 ---
 
@@ -106,12 +107,12 @@
 - **Privacy/PHI:** Before committing, scrub protected health info. Use redactions in `/templates/redaction/`.
 - **File sizes:** Keep PDFs < 25–35 MB (common court portals). Split exhibits if needed.
 
+**AHLA Arbitration Starter Bundle**
+- [Index](./packets/arbitration/_index.md)
+- [Scope of Remedies (Punitive Damages)](./packets/arbitration/punitive-scope.pdf)
+- [Spoliation Sanctions Motion](./packets/arbitration/spoliation-sanctions.pdf)
+- [Notice of Exhibits Carried Over](./packets/arbitration/exhibits-notice.pdf)
 > 
----- **AHLA Arbitration Starter Bundle** →
-**AHLA Arbitration Starter Bundle** → ./packets/arbitration/_index.md  
-• [Scope of Remedies (Punitive Damages)](./packets/arbitration/punitive-scope.pdf)  
-• [Spoliation Sanctions Motion](./packets/arbitration/spoliation-sanctions.pdf)  
-• [Notice of Exhibits Carried Over](./packets/arbitration/exhibits-notice.pdf)
 
 ## 💡 Why It Matters
 
