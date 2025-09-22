@@ -17,8 +17,8 @@
 
 **In a hurry?** Jump to **[Crisis Mode (Pro Se)](#1--crisis-mode-pro-se-in-a-hurry)**.
 
-**.Table of Contents**
-- [Quickstart](#-quickstart)
+## Table of Contents
+- [Quickstart](#quickstart)
 - [Why It Matters](#-why-it-matters)
 - [System Map (LC • LCA • FG • FGA • JC • LCa)](#-system-map-lc--lca--fg--fga--jc--lca)
 - [Choose Your Mode](#-choose-your-mode)
@@ -94,16 +94,15 @@
 
 ---
 ## 🔗 Fast Links (fill in your repo paths)
-- **FG Index (FG-1…FG-1000):** [./field-guide/INDEX.md](./field-guide/INDEX.md)
-- **LC Modules (1–119):** [./modules/INDEX.md](./modules/INDEX.md)
-- **Master Field Guide v1.0 (PDF):** [./packets/master-field-guide-v1.0.pdf](./packets/master-field-guide-v1.0.pdf)
-- **AHLA Arbitration Starter Bundle:** [./packets/arbitration/_index.md](./packets/arbitration/_index.md)  
-  – Scope of Remedies • Spoliation Sanctions • Exhibits Notice
-- **Templates:** [./templates/](./templates/)
-- **Judicial Calculus (JC):** [./jc/INDEX.md](./jc/INDEX.md)
-- **Lawyer Calculus (LCa):** [./lca/INDEX.md](./lca/INDEX.md)
 
+- - **FG Index (FG-1…FG-1000):** [Index](./field-guide/)
 
+- **LC Modules (1–119):** [Index](./modules/)
+- **Master Field Guide v1.0 (PDF):** [Download](./packets/master-field-guide-v1.0.pdf)
+- **AHLA Arbitration Starter Bundle:** [Index](./packets/arbitration/_index.md)
+- **Templates:** [Folder](./templates/)
+- **Judicial Calculus (JC):** [Index](./jc/)
+- **Lawyer Calculus (LCa):** [Index](./lca/)
 ---
 
 ## 🧼 Filing Hygiene (AI-era)
