@@ -52,8 +52,7 @@
 
 ## 🧰 Choose Your Mode
 
-**In a hurry?** Jump to **[Crisis Mode (Pro Se)](#1--crisis-mode-pro-se-in-a-hurry)**.
-
+1. Open **[FG index](./field-guide/)** ➝ run the **task that matches your emergency** (e.g., *FG-47 TRO Steps*, *FG-210 Service Checklist*, *FG-800 Spotting Judicial Bias*).
 ### 1) 🚨 Crisis Mode (Pro Se in a hurry)
 1. Open **FG** index ➝ run the **task that matches your emergency** (e.g., *FG-47 TRO Steps*, *FG-210 Service Checklist*, *FG-800 Spotting Judicial Bias*).
 2. Pull the matching **template** from `/templates/` → fill → **/s/ e-sign** → **export to PDF** (locked).
@@ -95,8 +94,7 @@
 ---
 ## 🔗 Fast Links (fill in your repo paths)
 
-- - **FG Index (FG-1…FG-1000):** [Index](./field-guide/)
-
+- **FG Index (FG-1…FG-1000):** [Index](./field-guide/)
 - **LC Modules (1–119):** [Index](./modules/)
 - **Master Field Guide v1.0 (PDF):** [Download](./packets/master-field-guide-v1.0.pdf)
 - **AHLA Arbitration Starter Bundle:** [Index](./packets/arbitration/_index.md)
@@ -104,7 +102,6 @@
 - **Judicial Calculus (JC):** [Index](./jc/)
 - **Lawyer Calculus (LCa):** [Index](./lca/)
 ---
-
 ## 🧼 Filing Hygiene (AI-era)
 - Always include **TOA**, validate with a **second** system, and **email the TOA to yourself** before filing.  
 - Export to **PDF** (locked) for the court; keep **.docx** editable.  
