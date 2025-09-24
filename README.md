@@ -1,5 +1,11 @@
 > **Not legal advice.** This is a public educational toolkit. Use it to structure filings, spot issues, and build the record.
 
+## LCES Base Map + Version Manifest
+- 📄 `LCES_Base_Map_Version_Manifest.docx` (authoritative)
+- 📖 `docs/LCES_Base_Map_Version_Manifest.md` (readable copy)
+
+Streams: **LC**, **LCa**, **JC**, **FG**, **FGA**
+
 # 📣 LEGAL CALCULUS IN ACTION  
 ## ✅ Quickstart
 
