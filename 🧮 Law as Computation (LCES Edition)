@@ -1,0 +1,146 @@
+# **🧮 Law as Computation (LCES Edition)**
+
+# 📣 Not legal advice. Educational framework to structure rules, surface ambiguity, and build an auditable record.
+
+# **TL;DR (Callout)**
+
+Make the computable parts of law executable, verifiable, and appealable—while clearly marking “human-judgment zones.” Outputs come with a trace: Inputs → Steps → Result → Review hooks.
+
+# **Core Thesis**
+
+- Some statutes/rules are effectively algorithms (deadlines, thresholds, benefit formulas). Encode them.
+- Keep open-textured standards (“reasonable,” “equitable”) as prose + precedent + factors.
+- Every determination produces a proof trace suitable for judicial review and public archiving.
+- Civil-rights guardrails: transparency, explainability, bias checks, consistent treatment for similarly situated people.
+
+# **Minimal Architecture (Toggles)**
+
+1) Rule Spec (DSL + tests)
+
+- Represent determinate rules in a DSL (or pseudocode) with unit tests.
+- Version + hash each spec for integrity.
+
+2) Evidence Pipeline (Inputs)
+
+- Capture inputs with timestamps, source links, and hashes.
+- Normalize formats (dates, currency, IDs).
+
+3) Decision Function (Compute)
+
+- Deterministic where the rule is determinate.
+- Emit intermediate steps, not just the answer.
+
+4) Audit Layer (Trace + Appeal)
+
+- Human-readable trace (why/what/how).
+- Hooks for reconsideration/appeal with new evidence.
+
+5) Public Archive (Memory)
+
+- Publish specs, test vectors, and anonymized traces to ensure consistency and learning across cases.
+
+# **Examples (Toggles)**
+
+A. Computation of Time (Deadlines/Limitations)
+
+- Inputs: service date, tolling events, court holidays.
+- Output: last permissible filing date + trace explaining every added/excluded day.
+
+B. Eligibility/Benefits & Tax Formulas
+
+- Inputs: income, dependents, qualifying events.
+- Output: eligibility determination + calculation steps + unit-test suite.
+
+# **Risks → Mitigations**
+
+- Over-formalization → Flag Human-Judgment Zone blocks; require factor-based analysis there.
+- Opacity → Publish the spec + tests + traces.
+- Bias → Run cohort checks (simulate diverse inputs; compare outcomes).
+- Spec drift → Version control; changelog with effective dates.
+
+# **Human-Judgment Zones (Callout)**
+
+Use factor checklists instead of code. Require: (1) cited evidence, (2) reasoned application of factors, (3) short conclusion tied to the record.
+
+# **LCES Alignment (Short)**
+
+- Filing = Protest. Format = Memory. The Record = Remedy.
+- This module operationalizes Format as Memory: every step produces reviewable evidence.
+- Pairs with FG cards on computation of time, service, and relief tailoring.
+
+# **Mini-Spec (Paste as Notion “Code” Block)**
+
+module: computation_of_time_v1
+effective: 2025-09-24
+inputs:
+filing_event_date: date
+service_date: date
+method_of_service: enum[personal, mail, electronic]
+tolling_events: list[event{start:date, end:date, reason:string}]
+court_holidays: list[date]
+weekend_rule: bool
+logic:
+base_deadline = service_date + rule_days(method_of_service)
+for each e in tolling_events:
+base_deadline += days_between(e.start, e.end)
+if weekend_rule and is_weekend_or_holiday(base_deadline, court_holidays):
+base_deadline = next_business_day(base_deadline, court_holidays)
+outputs:
+last_day_to_file: base_deadline
+trace:
+
+- step: "Compute base days from service"
+- step: "Add tolling intervals"
+- step: "Adjust to next business day if needed"
+review_hooks:
+reconsideration: "New evidence of tolling or miscalculated holiday"
+appeal: "Attach trace + governing rule text"
+tests:
+- name: "Mail service + weekend roll"
+input: {...}
+expect: { last_day_to_file: "2025-10-13" }
+
+# **Determination Trace (Template)**
+
+- Issue:
+- Governing Rule (quote/pinpoint):
+- Inputs (with sources & hashes):
+- Steps (numbered):
+- Result:
+- Human-Judgment Zone (if any): factors applied + short reasoning
+- Next Actions: rehearing/appeal paths, deadlines
+- Attachments: exhibits, test vector, spec version ID
+
+# **Quick-Start Checklist**
+
+- Identify computable rule segment(s) in your matter.
+- Draft the rule as pseudocode/DSL + 3–5 unit tests.
+- Define inputs and evidence normalization.
+- Produce one Determination Trace from real facts.
+- Publish spec + tests + anonymized trace to your archive.
+- Run a basic bias check (vary inputs across realistic cohorts).
+
+# **Collaboration & Care (Callout)**
+
+Invite 2–3 allies (clinic contact, engineer, trusted friend) to sanity-check your spec. Also, protect your energy: consider booking a brief session with a therapist/coach after you ship v1—pressure-testing ideas is easier when your nervous system has support.
+
+# **“Further Reading” (short list)**
+
+- Computational treatments of statutes (domain-specific languages for law)
+- Scholarship on “law as computation” and human-judgment limits
+- Practical calculators (deadline/benefit) with transparent logic
+
+**Optional: Tiny Database (for Specs)**
+
+Create a Notion database “Rule Specs” with properties:
+
+- Title (Name)
+- Status (Idea / Draft / Testing / Published)
+- Version (Text)
+- Effective Date (Date)
+- Has Judgment Zone? (Checkbox)
+- Link to Tests (URL)
+- Hash (Text)
+Seed rows:
+- computation_of_time_v1 — Testing
+- injunction_tailoring_v1 — Draft
