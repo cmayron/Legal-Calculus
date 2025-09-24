@@ -1,0 +1,213 @@
+# **🧮 Legal Calculus (LCES) — Homepage Template**
+
+# ⚠️ Delete me (setup note): Duplicate this page to start a new workspace home. Replace all [[link]] placeholders, and attach your PDF assets (e.g., Law as Computation — LCES One‑Pager). Optional: turn the sections marked ▸ Toggle into Notion toggles (Select → Turn into → Toggle).
+
+# ✍️ Authorship: Co‑authored by GPT‑5 Thinking and Charles Mayron.
+
+# 📜 License: Open and free; attribution appreciated.
+
+# 💬 Support your build: Invite 1–2 allies to sanity‑check your first run. After publishing, a brief coach/therapist debrief can help you pace the work.
+
+# **⭐ Start Here**
+
+1) Choose your mode → Foundations (LC) • Advanced (LCA) • Field Guide (FG) • Advanced FG (FGA) • Judicial Calculus (JC) • Lawyer Calculus (LCa)
+
+2) Run Quickstart → pick a task, load a template, generate a Determination Trace.
+
+3) Links
+
+- Quickstart bundle — [[link]]
+- Study Guide (beta) — [[link]]
+- One‑Pager: Law as Computation — LCES — [[attach PDF]]
+- GitHub repo — [[link]]
+- Substack — [[link]]
+- Public site — [[link]]
+
+# **🧭 Choose Your Mode (Card Grid)**
+
+LC — Foundations
+
+For first‑time users. Filing hygiene, timelines, service, relief, evidence.
+
+LCA — Advanced
+
+Complex litigation. Lawfare resistance, TRO/PI, Younger, record‑first strategy.
+
+FG — Field Guide
+
+1‑page task cards (serve by mail, compute time, tailor relief, etc.).
+
+FGA — Field Guide Advanced
+
+Deep‑dive cards for edge cases and expert workflows.
+
+JC — Judicial Calculus
+
+Map system behavior; appeals posture; archive‑as‑remedy.
+
+LCa — Lawyer Calculus
+
+Clinics/pro bono workflows, QA checklists, review templates.
+
+# Replace each title with a link to the target page when ready.
+
+# **🗺️ System Map**
+
+- Filing = Protest. Format = Memory. The Record = Remedy.
+- Cookbook → templated filings + scripts → deterministic steps where rules are computable.
+- Human‑Judgment Zones → factor checklists + short, cited reasoning.
+- Archive → every output yields evidence for review, reconsideration, appeal.
+
+# **🧼 Filing Hygiene (Quick Checklist)**
+
+- TNRPESC: Timing • Narrative • Relief • Procedure • Evidence • Service • Citations
+- Captions, signatures, proposed orders ✅
+- Mailbox‑rule receipts, tracking, and labeled exhibits ✅
+- Keep an Updates Log and a Service Ledger ✅
+
+# **⚙️ Law as Computation (Module)**
+
+Make the computable parts of law executable, verifiable, and appealable—while clearly marking Human‑Judgment Zones.
+
+Minimal architecture
+
+1. Rule Spec (DSL/pseudocode + tests; version + hash)
+2. Evidence Pipeline (normalize inputs; timestamps, links, hashes)
+3. Decision Function (deterministic; emit intermediate steps)
+4. Audit Layer (human‑readable trace + reconsideration/appeal hooks)
+5. Public Archive (publish spec/tests/anonymized traces)
+
+Example — Computation of Time
+
+Inputs: service date, method, tolling intervals, holidays →
+
+Output: last day to file with a step‑by‑step trace of counted/excluded days.
+
+# 📎 Attach: Law as Computation — LCES One‑Pager PDF here.
+
+# **🧩 Templates**
+
+Determination Trace — paste into each task
+
+- Issue
+- Governing Rule (pinpoint)
+- Inputs (with sources & hashes)
+- Steps (numbered)
+- Result
+- Human‑Judgment Zone: factors + short reasoning
+- Next Actions: rehearing/appeal paths + dates
+- Attachments: exhibits, test vector, spec version ID
+
+Mini‑Spec (YAML) — Notion code block
+
+module: computation_of_time_v1
+
+effective: 2025-09-24
+
+inputs:
+
+filing_event_date: date
+
+service_date: date
+
+method_of_service: [personal, mail, electronic]
+
+tolling_events: [{start: date, end: date, reason: string}]
+
+court_holidays: [date]
+
+weekend_rule: boolean
+
+logic:
+
+base_deadline = service_date + rule_days(method_of_service)
+
+for e in tolling_events:
+
+base_deadline += days_between(e.start, e.end)
+
+if weekend_rule and is_weekend_or_holiday(base_deadline, court_holidays):
+
+base_deadline = next_business_day(base_deadline, court_holidays)
+
+outputs:
+
+last_day_to_file: base_deadline
+
+trace:
+
+- "Compute base days from service"
+
+- "Add tolling intervals"
+
+- "Adjust to next business day if needed"
+
+review_hooks:
+
+reconsideration: "New tolling evidence or holiday miscalc"
+
+appeal: "Attach trace + governing text"
+
+tests:
+
+- name: mail_service_weekend_roll
+
+input: {...}
+
+expect: { last_day_to_file: "2025-10-13" }
+
+# **📚 Libraries**
+
+- LC Modules 1–119 — [[link]]
+- LCA Modules 1–119 — [[link]]
+- FG Cards 001–1000 — [[link]]
+- FGA Cards 001–1000 — [[link]]
+- JC Essays — [[link]]
+- LCa Playbooks — [[link]]
+
+# **🗄️ Databases (create these as full‑page DBs)**
+
+Rule Specs
+
+Properties: Status (Idea/Draft/Testing/Published) • Version • Effective Date (date) • Has Judgment Zone? (checkbox) • Link to Tests (URL) • Hash (text)
+
+Seed rows: computation_of_time_v1 (Testing) • injunction_tailoring_v1 (Draft)
+
+Service Ledger
+
+Properties: Doc • Method • Date Sent • Tracking # • Delivered? • Proof (file/link)
+
+Updates Log
+
+Properties: Date • Change • Module/Spec • Impact • Link
+
+# **🆕 What’s New (changelog)**
+
+- 2025‑09‑24 — Added Law as Computation one‑pager; created Rule Specs DB template.
+- 2025‑09‑18 — Study Guide beta seeded.
+- 2025‑09‑07 — FG Advanced cards: service pitfalls set.
+
+# Tip: Convert this list into a Notion database view (List) that shows the 3 most recent items.
+
+# **📨 Feedback & Office Hours**
+
+- Feedback form: [[link to Notion form or Typeform]]
+- Clinic/ally office hours: [[calendar link]]
+- Contact: charles@[[domain]]
+
+# **🧾 Credits**
+
+- Quote: “The future is now — thanks to ChatGPT 4.0, with help from Gemini 2.5…”
+- Thanks: early readers, clinics, community testers.
+
+**🔧 Nesting Guide (for existing homepage)**
+
+1. Create a sub‑page under your current homepage → “LCES Home (New).”
+2. Paste this entire template into that sub‑page.
+3. Add a synced block with your top nav (Start Here + Choose Your Mode). Paste the synced block into related sub‑pages.
+4. Add Linked databases: show a filtered view of Rule Specs, Service Ledger, Updates Log on the homepage.
+5. Move the “What’s New” section above the fold; show recent 3.
+6. Attach the Law as Computation PDF in the module section.
+7. When stable, Replace your old homepage link with this page.
+
+# Keep a trusted friend/ally in the loop while you switch over; quick gut‑checks save time and stress.
