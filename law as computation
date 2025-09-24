@@ -1,0 +1,97 @@
+# **1) Core definitions**
+
+- Inputs: Facts F, Rules/Procedure R
+- Baseline (LC/FG): compute Y★ (rule-pure outcome)
+- Observed (Court/Arb): outcome Y
+- Discretion Gap (DG): DG = Y – Y★ (variance from the lawful baseline)
+
+Goal: Make DG visible, comparable, and auditable across cases/judges/courts.
+
+# **2) Data model (one row per “issue”)**
+
+Minimal fields
+
+- case_id • court • judge • date_order
+- issue_id • issue_type (e.g., TRO, §1983, arbitration remedies)
+- y_star_text (Proposed Order ¶) • y_text (order’s operative language)
+- controlling_rules (e.g., Winter, Mitchum, Ex parte Young)
+- doctrine_invoked (e.g., abstention, Rooker-Feldman, none)
+- jc_tag (tactic taxonomy; see below)
+- evidence_pinpoints (Ex. A p.3; Dkt 17-2 ¶4)
+- dg_score (0–100) • harm_score (0–100) • timeliness_penalty (days lost by mail/clerical)
+- notes (short narrative) • doc_links (PDFs) • appendix_url (DG Appendix)
+
+JC/Tactic taxonomy (codes)
+
+- STRIKE (immediate strike) • SILENCE (ignore/consolidate)
+- CONFLATION (narrow → miscast as overreach) • ERASURE (Mitchum vanishes)
+- PERFORMANCE (hearing ≠ decision) • DEFERRAL (punt without basis)
+- DELAY (procedural slowing) • MISCLASS (mislabel to avoid review)
+
+# **3) Scoring (simple, explainable)**
+
+Element compliance (per issue type):
+
+- TRO (Winter): likelihood, irreparable harm, balance, public interest (0/1 each)
+- §1983/Mitchum: recognizes exception (0/1)
+- Young: prospective relief analysis (0/1)
+- Arbitration remedies: Mastrobuono logic applied (0/1)
+
+Compute
+
+- compliance = (#elements_applied / #elements_required)
+- justification = 1 if order states reasons tied to elements; else 0.5; if none, 0
+- timeliness = 1 – min(1, days_lost / deadline_days) (mailbox fairness)
+- DG score (0–100): DG = (1 – compliance*justification*timeliness) * 100
+- Weighted DG: DGw = DG * (1 + harm_score/100)
+
+Transparent math beats black-box ML. You can refine weights later.
+
+# **4) Operational pipeline (lightweight)**
+
+A. Prepare Y★
+
+- Use LC/FG module checklist → encode a one-paragraph Proposed Order.
+
+B. Capture Y
+
+- Paste the order’s operative paragraph (verbatim) and doctrine cited.
+
+C. Label & score
+
+- Tick element checklist (e.g., Winter’s 4) → auto compute DG.
+
+D. Store & publish
+
+- Save 1 CSV row per issue + attach PDFs.
+- Generate DG Appendix (you already have the .docx/.pdf template) and link it.
+
+# **5) Quick-start files (repo-ready)**
+
+- /dg/dg_cases.csv – rows = issues (fields above)
+- /dg/examples/ – PDFs of orders & proposed orders
+- /dg/templates/DG_Appendix_Template.docx – your appendix
+- /dg/README.md – explains scoring and codes
+
+Sample CSV row
+
+case_id,court,judge,date_order,issue_id,issue_type,y_star_text,y_text,controlling_rules,doctrine_invoked,jc_tag,evidence_pinpoints,dg_score,harm_score,timeliness_penalty,notes,doc_links,appendix_url
+CV2025-004386,Maricopa,Judge X,2025-09-05,TRO-1,TRO,"IT IS ORDERED... Winter satisfied","Motion DENIED. Nothing to rule","Winter","None","STRIKE","ExA p3; Dkt17-2 ¶4",85,70,4,"No element analysis",/packets/tro_order.pdf,/dg/appendices/cv2025_dgA.pdf
+
+# **6) Dashboards & questions to ask**
+
+- By court/judge: median DG, 75th percentile DG
+- By issue: which doctrines show highest DG?
+- Time series: does DG shrink after Proposed-Order discipline?
+- Mail fairness: correlation between days-lost and DG
+- Arbitration: % of cases confirming punitives up front
+
+# **7) Governance & defensibility**
+
+- PHI scrubbing; redact before commit.
+- Inter-rater checks (two scorers on a sample; reconcile).
+- Explainability: keep checklists + pinpoints for every score.
+
+# **8) Why this matters**
+
+If LC/FG computes the same Y★ for the same F,R, but forums return different Y, discretion is acting like law. The dataset quantifies that variance. The DG metric makes drift visible to appeals, oversight, and the public.
