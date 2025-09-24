@@ -1,0 +1,206 @@
+# **🧮 Legal Calculus (LCES)**
+
+# ⚠️ Not legal advice. Educational toolkit to structure filings, surface ambiguity, and build an auditable public record.
+
+# ✍️ Authorship: Co‑authored by ChatGPT‑5 Thinking and Charles Mayron.
+
+# 📜 License: Open, free, attribution appreciated.
+
+# **⭐ Start Here**
+
+1) Choose your mode → Foundations (LC) • Advanced (LCA) • Field Guide (FG) • Advanced FG (FGA) • Judicial Calculus (JC) • Lawyer Calculus (LCa)
+
+2) Run Quickstart → pick a task, load a template, generate a Determination Trace.
+
+3) Support → bring a clinic partner or friend to sanity‑check your first run. (If this is heavy, schedule a quick debrief with a therapist/coach—you deserve backup.)
+
+# 💾 Downloads / Links
+
+# Quickstart bundle — [[link]]
+
+# Study Guide (beta) — [[link]]
+
+# One‑pager: Law as Computation — LCES (attach PDF here)
+
+# GitHub repo — [[link]] • Substack — [[link]] • Notion public site — [[link]]
+
+# **🧭 Choose Your Mode (Card Grid)**
+
+LC — Foundations
+
+For first‑time users. Filing hygiene, timelines, service, relief, evidence.
+
+LCA — Advanced
+
+For complex litigation. Lawfare resistance, Younger, TRO/PI, record‑first strategy.
+
+FG — Field Guide
+
+1‑page cards for tasks (serve by mail, compute time, tailor relief, etc.).
+
+FGA — Field Guide Advanced
+
+Deep‑dive cards for expert workflows and edge cases.
+
+JC — Judicial Calculus
+
+Map the system’s behavior. Predictable patterns, appeals posture, archive‑as‑remedy.
+
+LCa — Lawyer Calculus
+
+For clinics/pro bono partners. Team workflows, QA checklists, review templates.
+
+# Add links to each section/page as you publish them.
+
+# **🗺️ System Map**
+
+- Filing = Protest. Format = Memory. The Record = Remedy.
+- Cookbook: templated filings + scripts → Deterministic steps where rules are computable.
+- Human‑Judgment Zones: factor checklists + short reasoning.
+- Archive: every output produces evidence for review, reconsideration, appeal.
+
+# **🧼 Filing Hygiene (Quick Checklist)**
+
+- TNRPESC: Timing • Narrative • Relief • Procedure • Evidence • Service • Citations
+- Proper captions, signatures, proposed orders.
+- Mailbox rule receipts, tracking, and scanned exhibits with labels.
+- Keep an Updates log and a Service Ledger.
+
+# **⚙️ Law as Computation (Module)**
+
+Make the computable parts of law executable, verifiable, and appealable—while clearly marking Human‑Judgment Zones.
+
+Minimal architecture
+
+1. Rule Spec (DSL/pseudocode + tests; version + hash)
+2. Evidence Pipeline (normalize inputs; timestamps, links, hashes)
+3. Decision Function (deterministic; emit intermediate steps)
+4. Audit Layer (human‑readable trace + reconsideration/appeal hooks)
+5. Public Archive (publish spec/tests/anonymized traces)
+
+Example: Computation of Time → inputs (service date, tolling, holidays) ⇒ result (last day to file) with trace explaining every counted/excluded day.
+
+# 📎 Attach: LCES One‑Pager PDF and link the longer explainer page.
+
+# **🧩 Templates**
+
+Determination Trace — paste into each task
+
+- Issue
+- Governing Rule (pinpoint)
+- Inputs (with sources & hashes)
+- Steps (numbered)
+- Result
+- Human‑Judgment Zone (if any): factors + short reasoning
+- Next Actions: rehearing/appeal paths + dates
+- Attachments: exhibits, test vector, spec version ID
+
+Mini‑Spec (YAML) — use a Notion code block
+
+module: computation_of_time_v1
+
+effective: 2025-09-24
+
+inputs:
+
+filing_event_date: date
+
+service_date: date
+
+method_of_service: [personal, mail, electronic]
+
+tolling_events: [{start: date, end: date, reason: string}]
+
+court_holidays: [date]
+
+weekend_rule: boolean
+
+logic:
+
+base_deadline = service_date + rule_days(method_of_service)
+
+for e in tolling_events:
+
+base_deadline += days_between(e.start, e.end)
+
+if weekend_rule and is_weekend_or_holiday(base_deadline, court_holidays):
+
+base_deadline = next_business_day(base_deadline, court_holidays)
+
+outputs:
+
+last_day_to_file: base_deadline
+
+trace:
+
+- "Compute base days from service"
+
+- "Add tolling intervals"
+
+- "Adjust to next business day if needed"
+
+review_hooks:
+
+reconsideration: "New tolling evidence or holiday miscalc"
+
+appeal: "Attach trace + governing text"
+
+tests:
+
+- name: mail_service_weekend_roll
+
+input: {...}
+
+expect: { last_day_to_file: "2025-10-13" }
+
+# **📚 Libraries (link sections)**
+
+- LC Modules 1–119 — [[link]]
+- LCA Modules 1–119 — [[link]]
+- FG Cards 001–1000 — [[link]]
+- FGA Cards 001–1000 — [[link]]
+- JC Essays — [[link]]
+- LCa Playbooks — [[link]]
+
+# **🗄️ Databases (create these in Notion)**
+
+Rule Specs
+
+Properties: Status (Idea/Draft/Testing/Published) • Version • Effective Date (date) • Has Judgment Zone? (checkbox) • Link to Tests (URL) • Hash (text)
+
+Seed rows: computation_of_time_v1 (Testing) • injunction_tailoring_v1 (Draft)
+
+Service Ledger
+
+Properties: Doc • Method • Date Sent • Tracking # • Delivered? • Proof (file/link)
+
+Updates Log
+
+Properties: Date • Change • Module/Spec • Impact • Link
+
+# **🆕 What’s New (changelog snippet)**
+
+- 2025‑09‑24 — Added Law as Computation One‑Pager; created Rule Specs DB template.
+- 2025‑09‑18 — Study Guide beta seeded.
+- 2025‑09‑07 — FG Advanced cards: service pitfalls set.
+
+# Tip: Make this a Notion database and show the 3 most recent as a list on the homepage.
+
+# **📨 Feedback & Office Hours**
+
+- Feedback form: [[link to Notion form or Typeform]]
+- Clinic/ally office hours: [[calendar link]]
+
+# Collaboration makes this lighter. Invite 2–3 allies to test a module with you. After a heavy sprint, debrief with a friend—or a short therapist/coach session. Building justice tools is real work; support helps.
+
+# **🧾 Credits**
+
+- Quote: “The future is now — thanks to ChatGPT 4.0, with help from Gemini 2.5…”
+- Thanks: early readers, clinics, and community testers.
+
+**Implementation Notes (delete before publishing)**
+
+- Use /callout, /toggle, and /columns to match the layout above.
+- Pin the Start Here block to the top; consider making it a synced block for subpages.
+- Replace all [[link]] with live URLs.
+- Attach the One‑Pager PDF in the Law as Computation section.
