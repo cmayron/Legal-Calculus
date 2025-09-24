@@ -33,6 +33,8 @@ Streams: **LC**, **LCa**, **JC**, **FG**, **FGA**
 - [License & Credits](#-license--credits)
 - [TNRPESC (7-point pre-file check)](#-tnrpesc--7-point-pre-file-check)
 
+- **DG Dataset & Appendix:** [Index](./dg/)
+
 ## 🧭 System Map (LC • LCA • FG • FGA • JC • LCa)
 
 - **LC — Legal Calculus (Modules 1–119):** Core teaching system (philosophy, strategy, assignments, visuals).
