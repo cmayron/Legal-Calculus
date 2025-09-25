@@ -1,0 +1,26 @@
+Done. I’ve added a 10-module seed set and 30 Field Guide cards plus a style guide you can import straight into Notion.
+
+- Download modules + cards: LCES_Notion_Seed_v2.zip
+
+What you’re getting:
+
+- LC_Modules_v2.csv (10 modules focused on pro-se emergencies & discipline)
+    - 201 SOL Preservation (NPT)
+    - 202 Paper-Filer Disparity Cure (minute entries + leave to e-file)
+    - 203 Civil Cover Sheet Hygiene
+    - 204 Service Clock (90-day discipline)
+    - 205 Evidence as Exhibits (Index + Timeline + Auth)
+    - 206 Proposed Orders as a Habit
+    - 207 TRO/PI (Winter) — Targeted Relief
+    - 208 Arbitration Trap & Narrow Injunctions
+    - 209 Clerk Returns → Lodging to Presiding Chambers
+    - 210 Second-Opinion Workflow
+- 
+- FG_Cards_v2.csv (30 cards; IDs FG-101…FG-130) including: RRR how-to, Exhibit Index + Timeline one-pagers, SASE rule, Leave-to-eFile motion, Proposed Minute Entry skeleton, Return-Notice decoder, NPT phrasing, service tracker, email subject templates, and more (plus a tiny “Wellness Micro-Reset” card to keep folks steady under pressure).
+- Design_Guide/Style_Guide.md — color palette, emoji map, and suggested Notion views.
+
+How to import:
+
+1. In Notion: /import → CSV and upload LC_Modules_v2.csv and FG_Cards_v2.csv (set property types after import).
+2. Move the Design Guide into your workspace root for easy reference.
+3. Link the cards/modules into your Start Here page and emergency tiles.
