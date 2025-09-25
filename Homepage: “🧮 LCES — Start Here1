@@ -1,0 +1,139 @@
+Homepage: “🧮 LCES — Start Here
+
+Not legal advice. Use at your own risk. LCES is an educational toolkit to structure filings and build the record.
+
+Mode tiles (as toggles or buttons):
+
+🚨 Pro Se Emergency
+
+🧭 Guided Filing (LC + FG)
+
+⚖️ JC / LCa Caveats (judge/lawyer calculus risks & constraints)
+
+🎓 Educator Track (LCA / FGA)
+
+🔁 Second-Opinion Run
+
+🗂 Case Studies (SOL Preservation, Clerk Returns, etc.)
+
+Quick links: GitHub repo • Substack overview • “How to Paste into ChatGPT”
+
+Database 1 —
+
+LC Modules
+
+(1–119)
+
+Properties (create these columns):
+
+Number (e.g., 14)
+
+Title (text)
+
+Tier (select: Foundations / Lawfare Resistance / Sovereignty / Memory / Futures / etc.)
+
+Core Message (text)
+
+Lesson (rich text)
+
+Assignment (rich text)
+
+Model Answer (rich text)
+
+Visual/Asset (file)
+
+ChatGPT Paste Block (rich text; see universal prompt below)
+
+Tags (multi-select: Procedure, Evidence, Service, Relief, SOL, Clerk, NPT, etc.)
+
+Version (e.g., 4.5)
+
+Updated (date)
+
+Hash (text, optional)
+
+Tip: include a “Mini” subpage in each module (“Micro-Module”) with a 1–2 paragraph quick-teach + a 5-line checklist. That’s what users will paste into ChatGPT during emergencies.
+
+Database 2 —
+
+FG Field Guide Cards
+
+(FG 001–1000)
+
+Properties:
+
+ID (e.g., FG-172)
+
+Card Title
+
+Core (1–2 lines)
+
+Checklist (bulleted)
+
+Example (short)
+
+Paste Block (see below)
+
+Tags (e.g., TRO, Filing Hygiene, NPT, SOL, Arbitration, Clerk)
+
+Track (select: Emergency / Planning / Evidence / Service / Appeals)
+
+Database 3 —
+
+Pro Se Emergency Box
+
+(fast routes)
+
+Make a template page for each emergency. Examples:
+
+SOL Preservation (Clerk Return / NPT)
+
+Goal: lock filing date to first receipt (pre-SOL).
+
+Steps (checklist): Timeline page → Evidence pack (RRR, pre-SOL stamps, deposit stamp) → Short NPT motion → Do Not Return Without Court Order notice → Proposed minute entry.
+
+Paste Block: “Emergency NPT helper” (below).
+
+Attachments: your PDFs (Packets 1–3, Timeline, Master Index).
+
+TRO/PI Starter (Winter)
+
+Service of Process Clock (90 days)
+
+Clerk Ping-Pong Cure (paper vs e-file)
+
+Database 4 —
+
+JC / LCa Caveats
+
+Short, teachable pages:
+
+“Judicial Efficiency ≠ Justice” — why ministerial returns ≠ SOL reset; how to ask for minute entries instead of returns.
+
+“Paper Filer Disparity” — itemized portal rejections vs wholesale paper returns; request leave to e-file.
+
+“Arbitration Trap Map” — how corporate defendants use cost/venue to wear you down + counter-moves.
+
+“Class-of-One” Equal-Protection Exposure — when paper-only treatment becomes arbitrary.
+
+Each page includes a “Paste to ChatGPT” instruction so the model can warn users in real time.
+
+Database 5 —
+
+Educator Track (LCA / FGA)
+
+LCA Modules (advanced theory, case studies, doctrine stacks).
+
+FGA Cards (1000-card deep practice).
+
+Teaching packs: slide links, assignments, rubrics, SCORM/xAPI files.
+
+Database 6 —
+
+Second-Opinion Run
+
+Create a page with the 8-step loop (your “Legal Second-Opinion Run”):
+
+Issue → 2. Facts → 3. Rule/Standard → 4. Procedure/Timing →
+
+Relief Sought → 6. Evidence/Exhibits → 7. Formatting/Service → 8. Risk Check (JC/LCa caveats)
