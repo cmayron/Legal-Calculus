@@ -1,0 +1,60 @@
+Calculus Educational System (LCES) — Start Here
+
+Modes: LC (why) • LCA (more) • FG (how) • FGA (advanced how) • JC (reality) • LCa (rep issues)
+
+# Safety Rails:
+
+ — Timing • Narrative • Relief • Procedure • Evidence • Service • Citations
+
+# Workflow:
+
+1) Collect Pillars → 2) Ask AI with the LCES prompt → 3) Build draft → 4) Run FG checklists → 5) Stress-test with JC → 6) If complex, consult LCA/FGA → 7) Finalize & file
+
+# Disclaimer:
+
+Educational toolkit. You’re responsible for your filings and deadlines.
+
+# **The “Pillars of Knowledge” (what you feed to AI)**
+
+Create a simple Notion template called “LCES Pillars” with these headings:
+
+- Facts (chronology + who/what/where/when)
+- Claims & Elements (cite the elements)
+- Relief Sought (exact orders requested)
+- Procedure/Posture (court, motions pending, deadlines)
+- Evidence (exhibits, declarations, recordings)
+- Service Plan (who/when/how)
+- Citations (controlling authority first)
+- Risks/Traps (abstention, jurisdiction, exhaustion, arbitration)
+
+# **One master prompt to run in any AI**
+
+Copy/paste this after the Pillars:
+
+# LCES Concierge Prompt
+
+Use LC (foundation) + FG (how) + JC (reality). If complexity appears, escalate to LCA/FGA.
+
+Map my claims → elements → proof; flag missing facts.Build a procedural path (venue, motion, timing, service) with deadlines.Draft: caption, intro paragraph, facts in numbered paragraphs, claims by count, requested relief, proposed order, certificate of service.Run an FG checklist for formatting, exhibits, service, and rule cites.Do a JC stress test: likely off-ramps/gatekeeping and my counters.If needed, propose LCA/FGA advanced strategies (exceptions, parallel remedies, appellate posture).Output a filing-ready Word outline + a Notion checklist of “before file” tasks.
+
+# **Minimal daily workflow (fast loop)**
+
+1. Collect Pillars (10–20 min).
+2. Run the Concierge Prompt with the Pillars.
+3. Tighten with FG (add missing exhibits, service details).
+4. Stress-test with JC (anticipate the judge’s off-ramp).
+5. Escalate to LCA/FGA only if triggers appear (abstention, parallel forum, TRO timing, arbitration).
+6. Ship (file) + Archive (your paper trail is your remedy).
+
+# **LCa: working with or without a lawyer**
+
+- Use LCa to write the scope memo (“what I want counsel to do / not do”), fee/withdrawal clauses, and expectations about format-first, record-first.
+- Share your Pillars + Concierge output so counsel plugs into your structure instead of reinventing it.
+
+# **Safety rails to never skip**
+
+- Dates & clocks (compute deadlines out loud).
+- Elements table (each claim has proof).
+- Proposed order (make relief executable).
+- Service specifics (who/when/how).
+- Archive (mail receipts, tracking, ECF IDs—saved the same day).
