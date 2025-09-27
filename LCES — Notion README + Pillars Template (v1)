@@ -1,0 +1,177 @@
+# **LCES — Notion README + Pillars Template (v1)**
+
+# Educational Toolkit — Not legal advice. You’re responsible for your filings and deadlines. Use this to structure facts → law → procedure → record.
+
+# **Modes at a Glance (When to Use What)**
+
+- LC (Legal Calculus) — What & Why. Principles, elements, and patterns. Start here.
+- LCA (Legal Calculus Advanced) — More. Edge cases, exceptions, parallel doctrines, decision trees.
+- FG (Field Guide) — How. Step-by-step cards, checklists, templates, fill‑ins.
+- FGA (Field Guide Advanced) — How+. Tight clocks, multi‑venue interplay, abstention/preemption traps.
+- JC (Judicial Calculus) — Reality. Gatekeeping, off‑ramps, docket drift, counters.
+- LCa (Lawyer Calculus) — Representation Issues. Scope with counsel, fee levers, withdrawal risk, partnering without losing the record.
+
+# **Safety Rails (TNRPESC)**
+
+- T — Timing: Compute every deadline explicitly (file/serve/respond/appeal).
+- N — Narrative: Chronology in clean, numbered facts.
+- R — Relief: Precise orders requested; include a proposed order.
+- P — Procedure: Venue, posture, rules invoked, standard of review.
+- E — Evidence: Exhibits, declarations, recordings, cites to the record.
+- S — Service: Who/when/how; attach proofs (tracking, receipts, ECF IDs).
+- C — Citations: Controlling authority first; pinpoint cites.
+
+# **Quickstart Workflow (Pin to the top of your Notion Home)**
+
+1. Collect Pillars (facts/claims/relief/procedure/evidence/service/citations/risks).
+2. Run the LCES Concierge Prompt (below) with your Pillars.
+3. Draft: caption → intro → facts → counts → relief → proposed order → certificate of service.
+4. FG Preflight checklist.
+5. JC Stress Test (anticipate off‑ramps; add counters).
+6. If triggers appear (abstention, arbitration, emergency timing), escalate to LCA/FGA.
+7. File and Archive (y**Notion Homepage README**
+- *Legal Calculus Educational System (LCES) — Start Here**
+- *Modes:** LC (why) • LCA (more) • FG (how) • FGA (advanced how) • JC (reality) • LCa (rep issues)
+- *Safety Rails:** TNRPESC — Timing • Narrative • Relief • Procedure • Evidence • Service • Citations
+- *Workflow:** 1) Collect Pillars → 2) Run Concierge Prompt → 3) Draft → 4) FG Preflight → 5) JC Stress Test → 6) LCA/FGA if needed → 7) File & Archive
+- *Disclaimer:** Educational toolkit. You’re responsible for your filings and deadlines.
+
+# **Pillars of Knowledge (Template)**
+
+Paste as a Notion template called “LCES Pillars” and fill every section.
+
+# LCES Pillars
+
+## 1) Facts (Chronology)
+
+- Parties & roles:
+- Key dates (YYYY‑MM‑DD):
+- What happened (numbered):
+- Current posture (what’s pending, what’s due):
+
+## 2) Claims & Elements
+
+- Claim A: [cite elements]
+
+- Element 1 → Proof in record:
+
+- Element 2 → Proof:
+
+- Claim B: …
+
+## 3) Relief Sought
+
+- Orders requested (exact language):
+- Tailoring (scope, duration, who is bound):
+- Proposed Order: [Y/N] (attach or draft)
+
+## 4) Procedure
+
+- Court/venue:
+- Rule(s) invoked:
+- Standard(s) (e.g., Winter factors):
+- Deadlines (computed):
+
+## 5) Evidence
+
+- Exhibits list (ID → description → where cited):
+- Declarations (who, what they attest):
+- Record cites (ECF/CM/Tracking IDs):
+
+## 6) Service Plan
+
+- Who must be served:
+- Method(s):
+- When (date/time zones):
+- Proof (receipt/ECF notice):
+
+## 7) Citations
+
+- Controlling authority (constitutions, statutes, binding cases):
+- Persuasive authority:
+- Pinpoint cites:
+
+## 8) Risks & Traps
+
+- Jurisdiction/abstention/exhaustion/arbitration issues:
+- Sanctions/fees exposure:
+- Parallel proceedings:
+
+# **LCES Concierge Prompt (for any AI)**
+
+Paste after your Pillars when you ask an AI for help.
+
+Use LC (foundation) + FG (how) + JC (reality). If complexity appears, escalate to LCA/FGA.
+
+1) Map **claims → elements → proof**, flag missing facts or weak elements.
+
+2) Build a **procedural path** (venue → motion(s) → timing → service) with explicit deadlines.
+
+3) Draft an outline: **caption; intro paragraph; numbered facts; claims by count; requested relief; proposed order; certificate of service.**
+
+4) Run an **FG preflight** checklist (format, exhibits, service, rule cites).
+
+5) Do a **JC stress test**: likely off‑ramps/gatekeeping and my counters.
+
+6) If needed, propose **LCA/FGA** strategies (exceptions, parallel remedies, appellate posture).
+
+7) Output: **filing‑ready Word outline** + a concise **Notion checklist** of “before file” tasks.
+
+# **FG Preflight (Checklist)**
+
+- [ ]  Dates/deadlines computed + shown in text
+- [ ]  Elements table complete (each element has proof)
+- [ ]  Relief tailored + Proposed Order attached
+- [ ]  Exhibits labeled, cited in text, and attached
+- [ ]  Declarations drafted where needed
+- [ ]  Proper captions/signatures/certificates present
+- [ ]  Service plan specific (who/when/how) + proof path
+- [ ]  Pinpoint citations to controlling authority
+- [ ]  Pagination/TOC (if long); clean numbering of facts
+- [ ]  Archive plan: what receipts/IDs to save same‑day
+
+# **JC Stress Test (Reality & Counters)**
+
+Likely Off‑Ramps → My Counter
+
+- “Procedural defect” → Show rule compliance + attach proof
+- “No irreparable harm” → Tie facts to constitutional/unique harms
+- “Not ripe / moot” → Timeline graphic + live controversy cites
+- “Jurisdiction/abstention” → Exceptions (bad faith/inadequacy), record cites
+- “Arbitration” → Unconscionability/waiver/scope; preserve appeal
+- “No standing” → Injury‑in‑fact + traceability + redressability table
+- “Discretionary denial” → Controlling standards + tailored, narrow relief
+
+# **LCa Scope with Counsel (1‑Page Memo)**
+
+Title: Scope of Representation & Record Discipline
+
+Goals: [what outcome]
+
+Scope: [tasks counsel handles / tasks I retain]
+
+Comms: Preferred channels; turnaround time; draft review steps
+
+Deadlines: Shared calendar; who computes; who files
+
+Format Control: Elements tables; proposed orders; service proofs mandatory
+
+Archive: Same‑day saving of ECF IDs, tracking, receipts
+
+Withdrawal/Fees: Triggers; estimates; costs approvals; arbitration clauses
+
+# **Light Teaming**
+
+- Create a Notion “Review Circle” page: add 1–2 trusted peers/clinic mentors for pre‑file reviews.
+- Add a weekly Grounding Check‑In note (what went well, what to fix next week). Keeping a small circle or therapist involved can make the workload more sustainable.
+
+# 
+
+1. Home: paste the Homepage README and the Quickstart Workflow.
+2. Templates: add LCES Pillars, FG Preflight, JC Stress Test, LCa Memo as Notion templates.
+3. Cases/Matters DB: properties → Status, Next Deadline (date), Venue, Mode (LC/FG/JC), Reviewer, Links (ECF, receipts), Risk Flags.
+4. Archive: Receipts/IDs/Proofs (same‑day dropbox for your record).
+
+—
+
+End of Notion‑ready blocks. Paste each section where noted and customize labels to match your courts and forums.
