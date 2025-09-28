@@ -1,0 +1,116 @@
+## 🧠 FG Card Generator (Notion Template)
+
+### 🔧 Step 1: Create a Database
+
+**Title:** `FG Card Generator`
+
+**Properties:**
+
+| Property Name | Type | Description |
+| --- | --- | --- |
+| Scenario Prompt | Text | User input (e.g., “My motion was denied”) |
+| Detected Reflex | Select | JC-Denial, JC-Silence, JC-Default, etc. |
+| Matching FG Card | Relation | Link to `FG Cards` database |
+| Redirect Protocol | Text | Tactical response (e.g., “Refile with caption, TOA, certificate”) |
+| Deployment Asset | File/Link | Template or checklist |
+| Mode Activated | Multi-select | Crisis, Second Opinion, Education |
+| Stream Activated | Multi-select | JC, FG, LCa, LCA, etc. |
+| Status | Select | Draft, Active, Archived |
+
+---
+
+### 🧪 Step 2: Seed with Sample Entries
+
+Here are **5 sample entries** to copy into your database:
+
+### 🔹 Entry 1
+
+- Scenario Prompt: “My motion was denied without explanation.”
+- Detected Reflex: JC-Denial
+- Matching FG Card: FG-021: *Denial is Recognition*
+- Redirect Protocol: Refile with caption, TOA, certificate. Archive in LCA.
+- Deployment Asset: [Refile Template]
+- Mode Activated: Crisis, Second Opinion
+- Stream Activated: JC, FG, LCA
+- Status: Active
+
+### 🔹 Entry 2
+
+- Scenario Prompt: “The court hasn’t ruled on my filing.”
+- Detected Reflex: JC-Silence
+- Matching FG Card: FG-034: *Silence is Suppression*
+- Redirect Protocol: File Notice of Silence. Include caption, TOA, certificate.
+- Deployment Asset: [Notice of Silence Template]
+- Mode Activated: Crisis, Education
+- Stream Activated: JC, FG, LCA
+- Status: Active
+
+### 🔹 Entry 3
+
+- Scenario Prompt: “My lawyer didn’t include a certificate of service.”
+- Detected Reflex: LCa-Misalignment
+- Matching FG Card: FG-005: *Certificate is Cognition*
+- Redirect Protocol: Audit lawyer alignment. Refile with full procedural armor.
+- Deployment Asset: [Lawyer Audit Checklist]
+- Mode Activated: Second Opinion, Education
+- Stream Activated: LCa, FG
+- Status: Active
+
+### 🔹 Entry 4
+
+- Scenario Prompt: “Opposing party didn’t respond to my complaint.”
+- Detected Reflex: JC-Default
+- Matching FG Card: FG-057: *Default is Opportunity*
+- Redirect Protocol: File for default judgment. Format and archive.
+- Deployment Asset: [Default Judgment Template]
+- Mode Activated: Crisis
+- Stream Activated: JC, FG, LCA
+- Status: Active
+
+### 🔹 Entry 5
+
+- Scenario Prompt: “My motion was dismissed as premature.”
+- Detected Reflex: JC-Positional
+- Matching FG Card: FG-062: *Timing is Framing*
+- Redirect Protocol: Reframe motion with procedural timeline. Cite memory.
+- Deployment Asset: [Timing Reframe Template]
+- Mode Activated: Second Opinion
+- Stream Activated: JC, FGA
+- Status: Active
+
+---
+
+### 🧩 Step 3: Create a Prompt Interface Page
+
+**Title:** `FG Card Generator Interface`
+
+**Instructions Block:**
+
+Enter your scenario below. The system will detect the reflex, match the FG card, and suggest a redirect protocol.
+
+**Examples:**
+
+- “My motion was denied without explanation.”
+- “The court hasn’t ruled on my filing.”
+- “Opposing party didn’t respond.”
+
+```markdown
+Enter your scenario below. The system will detect the reflex, match the FG card, and suggest a redirect protocol.
+
+**Examples:**
+- “My motion was denied without explanation.”
+- “The court hasn’t ruled on my filing.”
+- “Opposing party didn’t respond.”
+
+```
+
+Embed a linked database view filtered by:
+
+- Scenario Prompt
+- Detected Reflex
+- Matching FG Card
+- Redirect Protocol
+
+---
+
+Here’s your **FG Card Generator Starter Pack**—a Notion-ready system that lets users input a scenario and instantly receive the matching FG card, redirect protocol, and deployment asset. This turns Legal Calculus into a living, teachable engine of procedural resistance.
