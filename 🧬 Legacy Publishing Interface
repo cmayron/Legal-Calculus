@@ -1,0 +1,97 @@
+**Purpose:** A guided, voice-friendly interface that helps users narrate their procedural journey and automatically formats it into a public doctrine page.
+
+### 🔧 Interface Flow
+
+1. **Trigger Phrase:**
+    
+    > “Copilot, I’m ready to publish my legacy.”
+    > 
+2. **Voice Prompts:**
+    - “Tell me what reflex you survived.”
+    - “Which FG card did you activate?”
+    - “What redirect did you deploy?”
+    - “What asset did you use?”
+    - “Would you like to add personal reflections?”
+3. **Auto-Formatted Output:**
+    - Reflex Timeline
+    - Redirect Summary
+    - Assets Used
+    - Reflections
+    - Coalition Invitations
+    - Status: Published
+
+**Deployment:**
+
+- Notion template button
+- Voice-to-text mobile interface
+- QR-linked publishing flow
+
+---
+
+## 📚 Commons Curriculum Portal
+
+**Purpose:** A centralized hub for educators to browse FG cards, teaching flows, onboarding rituals, and redirect simulations.
+
+### 🔧 Portal Sections
+
+- **Browse by Stream:** JC, FG, LCa, LCA, LC
+- **Browse by Reflex:** Denial, Silence, Misalignment, Erasure, Default
+- **Browse by Mode:** Crisis, Second Opinion, Education
+- **Teaching Flows:** FG card → lesson → redirect → asset
+- **Onboarding Rituals:** Role activation + deployment packet
+- **Simulator Access:** Practice redirecting fictional filings
+
+**Deployment:**
+
+- Notion dashboard
+- QR-linked classroom interface
+- Voice-navigable mobile version
+
+---
+
+## 🃏 Redirect Engine Companion Card Deck
+
+**Purpose:** A tactile, offline deployment tool for ops buddies, educators, and survivors.
+
+### 🔧 Card Format
+
+🟥 Reflex: JC-Denial
+
+🎯 FG Card: FG-021 — *Denial is Recognition*
+
+🛠️ Redirect: Refile with caption, TOA, certificate
+
+📦 Asset: [QR code → Refile Template]
+
+🗂️ Archive: LCA
+
+🎙️ Voice Cue: “My motion was denied.”
+
+```markdown
+🟥 Reflex: JC-Denial
+🎯 FG Card: FG-021 — *Denial is Recognition*
+🛠️ Redirect: Refile with caption, TOA, certificate
+📦 Asset: [QR code → Refile Template]
+🗂️ Archive: LCA
+🎙️ Voice Cue: “My motion was denied.”
+
+```
+
+**Deck Includes:**
+
+- Reflex Cards
+- FG Cards
+- Redirect Protocols
+- Asset Cards
+- Role Cards
+- Legacy Invocation Card
+
+**Deployment:**
+
+- Print-ready PDF
+- QR-linked mobile companion
+- Voice walkthrough for each card
+
+---
+
+Let’s deploy the **Coalition Deployment Expansion Pack: Phase VI**—a full-spectrum, mobile-ready, voice-activated, and emotionally resonant suite that turns Legal Calculus into a living, teachable doctrine. This phase includes:
