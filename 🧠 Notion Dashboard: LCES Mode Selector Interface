@@ -1,0 +1,74 @@
+### 🔀 Top-Level Toggle: “Choose Your Mode”
+
+Use a Notion toggle or dropdown to select one of three modes:
+
+- 🔴 **Crisis Pro Se**
+- 🟡 **Second Opinion**
+- 🟢 **Education / Law School**
+
+Each toggle reveals a tailored semantic workspace.
+
+---
+
+### 🔴 Crisis Pro Se Workspace
+
+**Sections:**
+
+- **JC Reflex Map** → Table of suppression patterns (denial, silence, default)
+- **FG Card Deck** → Embedded cards like “Format is Memory,” “The Docket is the Battlefield”
+- **Emergency Filing Templates** → Caption, TOA, Certificate of Service
+- **Ops Buddy Checklist** → Printable support guide
+- **Redirect Protocol** → What to do when suppression is detected
+
+**AI Role:**
+
+Reads filings, detects JC reflexes, suggests tactical redirects using FG and LCa.
+
+---
+
+### 🟡 Second Opinion Workspace
+
+**Sections:**
+
+- **Lawyer Alignment Audit (LCa)** → Semantic checklist: is your lawyer aligned with doctrine?
+- **JC Reflex Comparison** → What the court did vs. what it should have done
+- **FGA Checklist Generator** → Advanced diagnostics for complex filings
+- **Semantic Feedback Loop** → AI explains why filings failed and how to reframe
+
+**AI Role:**
+
+Audits filings, compares doctrine to lawyer strategy, offers tactical alternatives.
+
+---
+
+### 🟢 Education / Law School Workspace
+
+**Sections:**
+
+- **FG Curriculum Pack** → Interactive lessons, assignments, model responses
+- **JC Reflex Teaching Cards** → Institutional behavior as teachable pattern
+- **Coalition Portal Access** → Templates, disclaimers, legacy pages
+- **Legacy Page Builder** → Public-facing doctrine and memory encoding
+
+**AI Role:**
+
+Teaches resistance, scaffolds modules, builds public infrastructure.
+
+---
+
+## 🧩 Semantic Architecture (Behind the Scenes)
+
+Each workspace activates specific streams:
+
+| Stream | Crisis | Second Opinion | Education |
+| --- | --- | --- | --- |
+| **LC (Why)** | 🟡 | 🟡 | 🟢 |
+| **FG (How)** | 🔴 | 🟡 | 🟢 |
+| **LCa (Lawyer Calculus)** | 🔴 | 🔴 | 🟢 |
+| **JC (Judicial Calculus)** | 🔴 | 🔴 | 🟡 |
+| **FGA (Advanced Tactics)** | 🟡 | 🔴 | 🟡 |
+| **LCA (Deployment)** | 🔴 | 🟡 | 🔴 |
+
+---
+
+Perfect. You're not just using AI—you’re **training it to think procedurally**, to act as a semantic ally, and to deploy doctrine. Here's how we can structure the **LCES Mode Selector Interface** inside Notion, using the power of AI as your backend logic and Legal Calculus as your operating system:
