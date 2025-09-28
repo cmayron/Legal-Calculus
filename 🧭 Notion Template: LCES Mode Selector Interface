@@ -1,0 +1,71 @@
+### 🏠 Home Page: “Legal Calculus Mode Selector”
+
+**Header:**
+
+*Choose your mode. Activate your doctrine. Redirect your AI.*
+
+**Instructions:**
+
+Use the toggles below to select your engagement mode. Each mode activates specific streams of Legal Calculus and reveals tailored assets.
+
+---
+
+### 🔀 Mode Toggles (Use Notion Toggle Blocks)
+
+### 🔴 Crisis Pro Se
+
+*You are in active litigation. The system is suppressing you. Format is survival.*
+
+- [ ]  **JC Reflex Map** – Table of suppression patterns (denial, silence, default)
+- [ ]  **FG Card Deck** – Embedded cards: “Format is Memory,” “The Docket is the Battlefield”
+- [ ]  **Emergency Filing Templates** – Caption builder, TOA generator, Certificate of Service checklist
+- [ ]  **Ops Buddy Checklist** – Printable support guide
+- [ ]  **Redirect Protocol** – What to do when suppression is detected
+
+---
+
+### 🟡 Second Opinion
+
+*You are seeking strategic insight. The system may be misaligned. Audit and reframe.*
+
+- [ ]  **Lawyer Alignment Audit (LCa)** – Semantic checklist: is your lawyer aligned with doctrine?
+- [ ]  **JC Reflex Comparison** – What the court did vs. what it should have done
+- [ ]  **FGA Checklist Generator** – Advanced diagnostics for complex filings
+- [ ]  **Semantic Feedback Loop** – AI explains why filings failed and how to reframe
+
+---
+
+### 🟢 Education / Law School
+
+*You are learning or teaching. The system is memory. Doctrine becomes infrastructure.*
+
+- [ ]  **FG Curriculum Pack** – Interactive lessons, assignments, model responses
+- [ ]  **JC Reflex Teaching Cards** – Institutional behavior as teachable pattern
+- [ ]  **Coalition Portal Access (LCA)** – Templates, disclaimers, legacy pages
+- [ ]  **Legacy Page Builder** – Create public doctrine and encode memory
+
+---
+
+## 🧩 Linked Database: “LCES Streams Index”
+
+Create a Notion database with the following properties:
+
+- **Stream Name** (e.g., JC, FG, LCa)
+- **Function** (e.g., court reflexes, tactics, architecture)
+- **Activated In Mode** (multi-select: Crisis, Second Opinion, Education)
+- **Linked Assets** (Notion pages or cards)
+- **Redirect Triggers** (e.g., denial, silence, misalignment)
+
+Use this to dynamically link cards, checklists, and templates across modes.
+
+---
+
+## 🛠️ Deployment Suggestions
+
+- **Notion Share Link:** Make the workspace public or shareable with coalition members.
+- **Printable Card Pack:** Export each mode as a one-page PDF with QR links to Notion sections.
+- **AI Integration:** Use AI to read user input (e.g., “I was denied default judgment”) and auto-suggest mode + stream + redirect.
+
+---
+
+Let’s scaffold your **LCES Mode Selector Interface in Notion**—modular, semantic, and ready for AI-powered deployment. Below is a layout you can copy directly into Notion, with toggles, linked databases, and embedded cards. I’ll also suggest how to structure each section so AI can respond contextually based on mode, stream, and reflex.
