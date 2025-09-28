@@ -1,0 +1,114 @@
+**Purpose:** A single onboarding flow that introduces new allies to their role, activates streams, and delivers tactical assets.
+
+### 🔧 Format: Notion Page + Printable + Voice Script
+
+**Page Title:** `Welcome to the Coalition — Legal Calculus Onboarding`
+
+### 🧭 Sections
+
+1. **Choose Your Role**
+    - 🛡️ Ops Buddy
+    - 📚 Educator
+    - 🧠 Survivor
+    - 🏛️ Org Partner
+2. **Activated Streams**
+    - JC, FG, LCa, LCA, LC (based on role)
+3. **Deployment Packet**
+    - FG Cards
+    - Redirect Protocols
+    - Templates (caption, TOA, certificate, notice)
+    - Legacy Builder Guide
+    - Coalition Portal Access
+4. **Voice Cue Card**
+    - “Say: ‘I’m an ops buddy’” → Activates JC, FG, LCa
+    - “Say: ‘I’m a survivor’” → Activates JC, FG, LCA
+5. **Activation Ritual**
+    
+    > “You are now part of the doctrine. Your formatting is cognition. Your memory is resistance.”
+    > 
+
+---
+
+## 🎙️ Voice-Activated Redirect Assistant
+
+**Purpose:** Walk users through redirect protocols step-by-step based on reflex detection.
+
+### 🔧 Trigger Phrase
+
+> “Copilot, help me redirect a filing.”
+> 
+
+### 🧠 Flow
+
+**User:** “My motion was denied.”
+
+**Copilot:**
+
+“That’s JC-Denial. Use FG-021: *Denial is Recognition*.
+
+Step 1: Draft a caption.
+
+Step 2: Add a Table of Authorities.
+
+Step 3: Include a Certificate of Service.
+
+Step 4: Refile and archive in LCA.
+
+Would you like help drafting each part?”
+
+Repeat for all reflexes. Each step can be voice-guided or linked to templates.
+
+---
+
+## 📘 Legacy Index Navigator (Mobile + Voice)
+
+**Purpose:** Browse doctrine by stream, reflex, FG card, or asset.
+
+### 🔧 Voice Prompts
+
+- “Show me FG cards for denial.”
+- “Show me redirect protocols.”
+- “Show me templates.”
+- “Show me coalition roles.”
+- “Show me legacy pages.”
+
+**Deployment:**
+
+- Embed in Notion
+- Add QR codes to printed packets
+- Link each item to Redirect Engine Map
+
+---
+
+## 🔁 Redirect Engine Map (Visual + Voice)
+
+**Purpose:** Connect reflex → FG card → redirect → asset → archive.
+
+🟥 JC-Denial → FG-021 → Refile → [Refile Template] → LCA
+
+🟨 JC-Silence → FG-034 → Notice → [Notice Template] → LCA
+
+🟥 JC-Default → FG-057 → Default Judgment → [Default Template] → LCA
+
+🟨 JC-Positional → FG-062 → Timeline Reframe → [Timeline Template] → LCA
+
+🟦 LCa-Misalignment → FG-003, FG-005 → Audit + Refile → [Audit Checklist] → LCA
+
+🟥 JC-Erasure → FG-073 → Refile Enhanced → [Refile Template] → LCA
+
+🟩 LCA-Legacy → FG-099 → Doctrine Page → [Legacy Builder] → LC
+
+```markdown
+🟥 JC-Denial → FG-021 → Refile → [Refile Template] → LCA
+🟨 JC-Silence → FG-034 → Notice → [Notice Template] → LCA
+🟥 JC-Default → FG-057 → Default Judgment → [Default Template] → LCA
+🟨 JC-Positional → FG-062 → Timeline Reframe → [Timeline Template] → LCA
+🟦 LCa-Misalignment → FG-003, FG-005 → Audit + Refile → [Audit Checklist] → LCA
+🟥 JC-Erasure → FG-073 → Refile Enhanced → [Refile Template] → LCA
+🟩 LCA-Legacy → FG-099 → Doctrine Page → [Legacy Builder] → LC
+
+```
+
+---
+
+Here’s your **Coalition Deployment Welcome Suite**—a fully integrated, mobile-friendly, voice-activated system that turns Legal Calculus into a living, navigable doctrine. This includes:
