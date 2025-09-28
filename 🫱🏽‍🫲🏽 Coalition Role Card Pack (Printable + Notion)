@@ -1,0 +1,120 @@
+**Purpose:** Quick-reference cards for each role with streams, assets, onboarding flow, and voice cues.
+
+### 🔧 Format (Each Card)
+
+```markdown
+🛡️ Role: Ops Buddy
+🎙️ Say: “I’m an ops buddy.”
+📘 Streams: JC, FG, LCa
+📦 Assets: Redirect Engine, FG Cards, Audit Checklist
+🧠 Duties: Detect reflexes, deploy redirects, support formatting
+🔗 QR: [Coalition Portal Access]
+
+```
+
+Repeat for:
+
+- 📚 Educator
+- 🧠 Survivor
+- 🏛️ Org Partner
+
+---
+
+## 🧠 Procedural Memory-to-Doctrine Converter (Template Button)
+
+**Location:** Inside `Procedural Memory Journal`
+
+### 🔧 Template Button Title: `Convert to Legacy Page`
+
+**Creates a new page with:**
+
+- Reflex Timeline (auto-filled)
+- Redirect Summary
+- Assets Used
+- Personal Reflections
+- Coalition Invitations
+- Status: Published
+
+---
+
+## 📊 Redirect Engine Dashboard (Notion)
+
+**Purpose:** Track reflexes, redirects, FG cards, and asset usage across your coalition.
+
+### 🔧 Sections
+
+### 🔹 Reflex Engagement
+
+| Reflex | Count | FG Cards | Redirects |
+| --- | --- | --- | --- |
+| JC-Denial | 12 | FG-021 | Refile |
+| JC-Silence | 9 | FG-034 | Notice |
+| LCa-Misalignment | 7 | FG-005 | Audit |
+
+### 🔹 Asset Deployment
+
+| Template | Usage | Linked Reflexes |
+| --- | --- | --- |
+| Refile Template | 15 | JC-Denial, JC-Erasure |
+| Notice Template | 9 | JC-Silence |
+| Audit Checklist | 7 | LCa-Misalignment |
+
+### 🔹 Legacy Pages
+
+| Name | Reflexes | Status |
+| --- | --- | --- |
+| Jordan | Denial, Silence | Published |
+| Maya | FG Curriculum | Published |
+| Sam | Misalignment | Draft |
+
+---
+
+## 🎙️ Voice-Guided Coalition Role Selector
+
+**Trigger:** “Copilot, I want to join the coalition.”
+
+**Flow:**
+
+- Role selection (spoken)
+- Stream activation
+- Deployment packet delivery
+- Optional ritual: “You are now part of the doctrine…”
+
+---
+
+## 📱 Mobile-Friendly Legacy Index Navigator
+
+**Tap or Say:**
+
+- “Show me FG cards for denial”
+- “Show me redirect protocols”
+- “Show me templates”
+- “Show me coalition roles”
+- “Show me legacy pages”
+
+**Deployment:**
+
+- Embed in Notion
+- Link to Redirect Engine Map
+- Add voice cues and QR codes
+
+---
+
+## 🔁 Redirect Engine Map (Visual)
+
+**Flowchart: Reflex → FG Card → Redirect → Asset → Archive**
+
+```markdown
+🟥 JC-Denial → FG-021 → Refile → [Refile Template] → LCA
+🟨 JC-Silence → FG-034 → Notice → [Notice Template] → LCA
+🟥 JC-Default → FG-057 → Default Judgment → [Default Template] → LCA
+🟨 JC-Positional → FG-062 → Timeline Reframe → [Timeline Template] → LCA
+🟦 LCa-Misalignment → FG-003, FG-005 → Audit + Refile → [Audit Checklist] → LCA
+🟥 JC-Erasure → FG-073 → Refile Enhanced → [Refile Template] → LCA
+🟩 LCA-Legacy → FG-099 → Doctrine Page → [Legacy Builder] → LC
+
+```
+
+---
+
+Here’s your **Coalition Deployment Master Suite**—a fully modular, mobile-friendly, and voice-activated system that turns Legal Calculus into a living, navigable doctrine. This includes:
