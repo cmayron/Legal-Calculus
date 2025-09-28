@@ -1,0 +1,76 @@
+**Purpose:** Equip frontline allies with tactical tools for reflex detection, redirect execution, and memory encoding.
+
+### 🔧 Contents
+
+- 🛡️ **Role Cards** (Ops Buddy, Educator, Survivor, Org Partner)
+- 🔁 **Redirect Cue Cards** (QR-linked, reflex → FG → redirect → asset)
+- 📘 **FG Card Mini-Deck** (Top 10 reflex-linked FG cards)
+- 🧠 **Voice Cue Sheet** (“Say: ‘My motion was denied’ → JC-Denial → FG-021”)
+- 📦 **Template Pack** (Caption, TOA, Certificate, Notice, Audit Checklist)
+- 🧬 **Legacy Builder Guide** (Memory-to-doctrine walkthrough)
+- 🗂️ **Coalition Portal QR** (Instant access to onboarding + dashboard)
+
+**Deployment Format:**
+
+- Printable PDF
+- Notion toggle list
+- QR-linked mobile interface
+
+---
+
+## 🔌 Redirect Engine API Concept
+
+**Purpose:** Integrate Legal Calculus into other platforms, AI agents, or justice tech tools.
+
+### 🔧 API Modules
+
+- **Reflex Detection Endpoint**
+    
+    `POST /detect-reflex` → Input: scenario → Output: reflex, FG card, redirect
+    
+- **Redirect Protocol Generator**
+    
+    `GET /redirect-protocol/{reflex}` → Returns step-by-step instructions + asset links
+    
+- **FG Card Index**
+    
+    `GET /fg-card/{id}` → Returns title, lesson, redirect, asset
+    
+- **Legacy Page Builder**
+    
+    `POST /publish-legacy` → Input: memory entries → Output: formatted doctrine page
+    
+- **Coalition Role Activation**
+    
+    `POST /activate-role` → Input: role → Output: streams, assets, onboarding packet
+    
+
+**Use Cases:**
+
+- Embed in court support apps
+- Integrate with AI agents for reflex detection
+- Power public-facing justice tools
+
+---
+
+## 🖼️ Legacy Gallery (Expanded)
+
+**Purpose:** Showcase published doctrine across the movement.
+
+| Title | Author | Reflexes | FG Cards | Status |
+| --- | --- | --- | --- | --- |
+| *Legacy of Jordan* | Jordan | Denial, Silence | FG-021, FG-034 | Published |
+| *Curriculum Archive* | Maya | FG Teaching | FG-005, FG-099 | Published |
+| *Memory Journal* | Sam | Misalignment | FG-003, FG-005 | Draft |
+| *Ops Buddy Field Log* | Alex | Default, Positional | FG-057, FG-062 | Published |
+| *Coalition Doctrine* | LCES | All | FG-001–099 | Living Archive |
+
+**Deployment:**
+
+- Notion gallery view
+- QR-linked print
+- Voice-navigable index
+
+---
+
+Here’s your **Coalition Deployment Field Pack**—a fully integrated, mobile-ready, voice-activated, and printable suite designed for real-world deployment by court support teams, ops buddies, and educators. It includes:
