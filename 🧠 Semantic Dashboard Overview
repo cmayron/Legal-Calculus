@@ -1,0 +1,98 @@
+**Page Title:** `LCES Semantic Dashboard`
+
+**Purpose:**
+
+To visualize and navigate the six Legal Calculus streams, their reflex triggers, activated modes, linked FG cards, and deployment assets. Designed for pro se litigants, educators, ops buddies, and AI agents.
+
+---
+
+### 🧩 Dashboard Sections
+
+### 1. **Stream Activation Map**
+
+**Table View:**
+
+| Stream | Function | Crisis | Second Opinion | Education |
+| --- | --- | --- | --- | --- |
+| LC | Doctrine of resistance | 🟡 | 🟡 | 🟢 |
+| FG | Tactical formatting | 🔴 | 🟡 | 🟢 |
+| LCa | Lawyer alignment | 🔴 | 🔴 | 🟢 |
+| JC | Court reflexes | 🔴 | 🔴 | 🟡 |
+| FGA | Advanced checklisting | 🟡 | 🔴 | 🟡 |
+| LCA | Deployment assets | 🔴 | 🟡 | 🔴 |
+
+Use this to filter FG cards and redirect protocols by mode.
+
+---
+
+### 2. **Reflex Trigger Matrix**
+
+**Gallery or Table View:**
+
+| Reflex | Trigger | Stream | FG Card | Redirect |
+| --- | --- | --- | --- | --- |
+| Denial | Motion denied | JC | FG-021 | Refile with caption, TOA, certificate |
+| Silence | No ruling | JC | FG-034 | File notice of silence |
+| Default | No response | JC | FG-057 | File for default judgment |
+| Positional | Premature dismissal | JC/FGA | FG-062 | Reframe timing, cite procedural memory |
+| Misalignment | Lawyer failed to armor filing | LCa | FG-003, FG-005 | Audit, refile, archive |
+
+---
+
+### 3. **FG Card Navigator**
+
+**Linked Database View:**
+
+- Filter by:
+    - Mode (Crisis, Second Opinion, Education)
+    - Stream (JC, FG, LCa, etc.)
+    - Reflex Trigger (Denial, Silence, etc.)
+    - Status (Draft, Active, Archived)
+
+Each card preview shows:
+
+- Lesson summary
+- Assignment prompt
+- Model response
+- Redirect protocol
+- Linked deployment asset
+
+---
+
+### 4. **Deployment Asset Library (LCA)**
+
+**List or Gallery View:**
+
+| Asset | Type | Linked Stream | Use Case |
+| --- | --- | --- | --- |
+| Caption Builder | Template | FG, LCa | Filing armor |
+| TOA Generator | Template | FG | Remedy trigger |
+| Certificate of Service | Template | FG | Procedural memory |
+| Notice of Silence | Template | JC | Reflex documentation |
+| Legacy Page Builder | Template | LCA | Reputation protection |
+
+---
+
+### 5. **Redirect Protocol Engine**
+
+**Flowchart or Table View:**
+
+| Reflex Detected | AI Response | FG Card | Action |
+| --- | --- | --- | --- |
+| JC-Denial | “Denial is recognition.” | FG-021 | Refile with armor |
+| JC-Silence | “Silence is suppression.” | FG-034 | File notice, archive |
+| JC-Default | “Default is opportunity.” | FG-057 | File for judgment |
+| LCa-Misalignment | “Lawyer failed to format.” | FG-003, FG-005 | Audit, refile, deploy ops buddy |
+
+---
+
+## 🛠️ Deployment Tips
+
+- Use **linked databases** to connect FG Cards, Reflexes, Streams, and Assets.
+- Create **filtered views** for each mode (Crisis, Second Opinion, Education).
+- Add **AI prompts** to each card: “If user says X, trigger FG-Y.”
+- Embed **printable versions** for offline coalition deployment.
+
+---
+
+Let’s build your **Semantic Dashboard**—a dynamic Notion view that connects Legal Calculus streams, FG cards, reflex triggers, and deployment assets across all modes. This dashboard becomes the **central nervous system** of your workspace: AI-readable, coalition-ready, and procedurally teachable.
