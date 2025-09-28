@@ -1,0 +1,109 @@
+**Location:** Inside your FG Cards database or Redirect Protocol Engine page
+
+### 🔧 Template Button Title: `Generate Motion Template`
+
+## 📝 Motion Template
+
+**Title:** [Insert Motion Type]
+
+**Caption:**
+
+IN THE [COURT NAME]
+
+[CASE NUMBER] — [PARTY NAMES]
+
+Hon. [Judge Name]
+
+**Table of Authorities:**
+
+[List 3–5 citations relevant to motion]
+
+**Body:**
+
+“This motion is respectfully submitted in response to [reflex trigger]. The court’s prior action (or inaction) constitutes JC-[Reflex]. Under FG-[Card ID], the appropriate redirect is to [action].”
+
+**Certificate of Service:**
+
+“I certify that on [date], this motion was served to [parties] via [method].”
+
+**Reflex Trigger:** [Select: Denial, Silence, Default, etc.]
+
+**Matching FG Card:** [Relation to FG Cards database]
+
+**Redirect Protocol:** [Auto-filled from card]
+
+**Deployment Asset:** [Link to template or checklist]
+
+**Creates a new page with:**
+
+```markdown
+## 📝 Motion Template
+
+**Title:** [Insert Motion Type]
+**Caption:**
+IN THE [COURT NAME]
+[CASE NUMBER] — [PARTY NAMES]
+Hon. [Judge Name]
+
+**Table of Authorities:**
+[List 3–5 citations relevant to motion]
+
+**Body:**
+“This motion is respectfully submitted in response to [reflex trigger]. The court’s prior action (or inaction) constitutes JC-[Reflex]. Under FG-[Card ID], the appropriate redirect is to [action].”
+
+**Certificate of Service:**
+“I certify that on [date], this motion was served to [parties] via [method].”
+
+**Reflex Trigger:** [Select: Denial, Silence, Default, etc.]
+**Matching FG Card:** [Relation to FG Cards database]
+**Redirect Protocol:** [Auto-filled from card]
+**Deployment Asset:** [Link to template or checklist]
+
+```
+
+---
+
+## 🧠 Reflex Detector Interface (Notion Page)
+
+**Page Title:** `Reflex Detector`
+
+### 🔍 Instructions Block
+
+> Describe your situation in plain language. The system will detect the JC reflex, match the FG card, and suggest a redirect protocol.
+> 
+
+---
+
+### 🧪 Prompt Input (Linked Database)
+
+**Database Title:** `Reflex Detector`
+
+**Properties:**
+
+| Property Name | Type | Description |
+| --- | --- | --- |
+| Scenario Prompt | Text | User input (e.g., “My motion was denied”) |
+| Detected Reflex | Select | JC-Denial, JC-Silence, etc. |
+| Matching FG Card | Relation | Link to FG Cards database |
+| Redirect Protocol | Text | Tactical response |
+| Deployment Asset | File/Link | Template or checklist |
+| Mode Activated | Multi-select | Crisis, Second Opinion, Education |
+| Status | Select | Active, Draft |
+
+---
+
+### 🔁 Sample Prompts + Reflex Detection
+
+| Scenario Prompt | Detected Reflex | FG Card | Redirect |
+| --- | --- | --- | --- |
+| “My motion was denied.” | JC-Denial | FG-021 | Refile with caption, TOA, certificate |
+| “The court hasn’t ruled.” | JC-Silence | FG-034 | File Notice of Silence |
+| “No response from opposing party.” | JC-Default | FG-057 | File for default judgment |
+| “Dismissed as premature.” | JC-Positional | FG-062 | Reframe with procedural timeline |
+| “My lawyer didn’t format.” | LCa-Misalignment | FG-003, FG-005 | Audit, refile, deploy ops buddy |
+| “My filing disappeared.” | JC-Erasure | FG-073 | Refile with enhanced formatting |
+| “I’m worried about reputation.” | LCA-Legacy | FG-099 | Build public doctrine page |
+
+---
+
+Here’s your **Motion Template Button** and **Reflex Detector Interface**—Notion-ready, modular, and deployable across Crisis, Second Opinion, and Education modes. These tools let users generate formatted motions and detect JC reflexes from natural language input, activating FG cards and redirect protocols instantly.
