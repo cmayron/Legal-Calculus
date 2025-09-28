@@ -1,0 +1,78 @@
+Stream activation map
+
+Which streams are active in each mode
+
+| Stream | Function | Crisis | Second Opinion | Education |
+| --- | --- | --- | --- | --- |
+| LC | Doctrine of resistance | 🟡 | 🟡 | 🟢 |
+| FG | Tactical formatting | 🔴 | 🟡 | 🟢 |
+| LCa | Lawyer alignment | 🔴 | 🔴 | 🟢 |
+| JC | Court reflexes | 🔴 | 🔴 | 🟡 |
+| FGA | Advanced checklisting | 🟡 | 🔴 | 🟡 |
+| LCA | Deployment assets | 🔴 | 🟡 | 🔴 |
+
+Reflex Trigger Matrix
+
+Which activates each FG and redirects
+
+| Reflex | Trigger | Stream | FG Card | Redirect Action |
+| --- | --- | --- | --- | --- |
+| Denial | Motion denied | JC | FG-021: Denial is Recognition | Refile with caption, TOA, certificate |
+| Silence | No ruling | JC | FG-034: Silence is Suppression | File notice of silence |
+| Default | No response | JC | FG-057: Default is Opportunity | File for default judgment |
+| Positional | Premature dismissal | JC/FGA | FG-062: Timing is Framing | Reframe timing, cite procedural memory |
+| Misalignment | Lawyer failed to armor filing | LCa | FG-003, FG-005 | Audit, refile, deploy ops buddy |
+
+FG card navigator 
+
+Filter and explore FG cards by stream reflex and mode 
+
+**Filters:**
+
+- Mode: Crisis, Second Opinion, Education
+- Stream: JC, FG, LCa, FGA, LCA
+- Reflex Trigger: Denial, Silence, Default, Positional, Misalignment
+- Status: Draft, Active, Archived
+
+**Sample Card Block:**
+
+**FG-034: Silence is Suppression**
+
+- Lesson: Silence is a reflex. It must be documented and redirected.
+- Assignment: File a Notice of Silence with caption, TOA, certificate.
+- Model Response: “This filing documents the court’s non-response…”
+- Linked Streams: JC, FG, LCA
+- Activated In Mode: Crisis, Second Opinion, Education
+- Reflex Trigger: JC-Silence
+- Redirect Protocol: Activate FG-034 → Format → Archive
+
+Deployment Asset Library 
+
+Templates and tools for redirecting formatting and archiving 
+
+| Asset | Type | Linked Stream | Use Case |
+| --- | --- | --- | --- |
+| Caption Builder | Template | FG, LCa | Filing armor |
+| TOA Generator | Template | FG | Remedy trigger |
+| Certificate of Service | Template | FG | Procedural memory |
+| Notice of Silence | Template | JC | Reflex documentation |
+| Legacy Page Builder | Template | LCA | Reputation protection |
+
+Redirect Protocol Engine
+
+What AI or user when a reflex is detected 
+
+**If Reflex Detected:**
+
+- JC-Denial → FG-021 → Refile with caption, TOA, certificate
+- JC-Silence → FG-034 → File notice, archive
+- JC-Default → FG-057 → File for judgment
+- LCa-Misalignment → FG-003, FG-005 → Audit, refile, deploy ops buddy
+
+**Redirect Flow:**
+
+1. Detect reflex
+2. Match FG card
+3. Format response
+4. Archive in LCA
+5. Escalate if needed
