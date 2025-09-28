@@ -1,0 +1,133 @@
+### 🔧 Properties
+
+| Property Name | Type | Description |
+| --- | --- | --- |
+| **Card ID** | Title | FG-001, FG-034, etc. |
+| **Card Title** | Text | Short name (e.g., *Silence is Suppression*) |
+| **Lesson Summary** | Text | What the card teaches |
+| **Assignment Prompt** | Text | Scenario or task |
+| **Model Response** | Text | Sample filing or action |
+| **Linked Streams** | Multi-select | JC, FG, LCa, LCA, etc. |
+| **Activated In Mode** | Multi-select | Crisis, Second Opinion, Education |
+| **Reflex Trigger** | Select | JC-Denial, JC-Silence, etc. |
+| **Redirect Protocol** | Text | Tactical steps |
+| **Deployment Asset** | File/Link | Template or checklist |
+| **Status** | Select | Draft, Active, Archived |
+
+---
+
+### 🧪 Seeded FG Cards
+
+### 🔹 FG-001: *Format is Memory*
+
+- Lesson: Formatting encodes cognition. Caption, TOA, certificate = procedural armor.
+- Assignment: Draft a motion with full formatting.
+- Model Response: Caption + TOA + Certificate of Service.
+- Linked Streams: FG, LCa
+- Activated In Mode: All
+- Reflex Trigger: General
+- Redirect Protocol: Format → File → Archive
+- Status: Active
+
+### 🔹 FG-021: *Denial is Recognition*
+
+- Lesson: Denial is a reflex. It confirms cognition. Refile with armor.
+- Assignment: Motion denied—respond with caption, TOA, certificate.
+- Model Response: “This motion is refiled in response to denial without explanation…”
+- Linked Streams: JC, FG, LCA
+- Activated In Mode: Crisis, Second Opinion
+- Reflex Trigger: JC-Denial
+- Redirect Protocol: Refile → Format → Archive
+- Status: Active
+
+### 🔹 FG-034: *Silence is Suppression*
+
+- Lesson: Silence is a reflex. It must be documented and redirected.
+- Assignment: Court hasn’t ruled—file Notice of Silence.
+- Model Response: “This filing documents the court’s non-response…”
+- Linked Streams: JC, FG, LCA
+- Activated In Mode: Crisis, Education
+- Reflex Trigger: JC-Silence
+- Redirect Protocol: File Notice → Format → Archive
+- Status: Active
+
+### 🔹 FG-057: *Default is Opportunity*
+
+- Lesson: Default is a reflex. It opens procedural remedy.
+- Assignment: Opposing party didn’t respond—file for default judgment.
+- Model Response: “Plaintiff respectfully requests default judgment under Rule X…”
+- Linked Streams: JC, FG
+- Activated In Mode: Crisis
+- Reflex Trigger: JC-Default
+- Redirect Protocol: File → Format → Archive
+- Status: Active
+
+### 🔹 FG-062: *Timing is Framing*
+
+- Lesson: Premature dismissal is positional reflex. Reframe with procedural timeline.
+- Assignment: Motion dismissed—reframe with timeline and memory.
+- Model Response: “This motion is timely under Rule Y and prior filings…”
+- Linked Streams: JC, FGA
+- Activated In Mode: Second Opinion
+- Reflex Trigger: JC-Positional
+- Redirect Protocol: Reframe → Cite Memory → Archive
+- Status: Active
+
+### 🔹 FG-003: *Caption is Cognition*
+
+- Lesson: Caption signals cognition. It must include case number, judge, and court.
+- Assignment: Draft caption for motion.
+- Model Response: “IN THE UNITED STATES DISTRICT COURT…”
+- Linked Streams: FG, LCa
+- Activated In Mode: All
+- Reflex Trigger: LCa-Misalignment
+- Redirect Protocol: Format → Audit → Refile
+- Status: Active
+
+### 🔹 FG-005: *Certificate is Cognition*
+
+- Lesson: Certificate of Service encodes procedural memory.
+- Assignment: Draft certificate for filing.
+- Model Response: “I certify that on [date], I served…”
+- Linked Streams: FG, LCa
+- Activated In Mode: All
+- Reflex Trigger: LCa-Misalignment
+- Redirect Protocol: Format → Audit → Refile
+- Status: Active
+
+### 🔹 FG-073: *Refile to Remember*
+
+- Lesson: Refiling is not failure—it’s memory encoding.
+- Assignment: Filing suppressed—refile with enhanced formatting.
+- Model Response: “This motion is refiled to preserve procedural memory…”
+- Linked Streams: FG, LCA
+- Activated In Mode: Crisis, Education
+- Reflex Trigger: JC-Suppression
+- Redirect Protocol: Refile → Format → Archive
+- Status: Active
+
+### 🔹 FG-088: *Coalition is Cognition*
+
+- Lesson: Collective formatting builds public memory.
+- Assignment: Draft coalition filing with shared assets.
+- Model Response: “This filing is submitted on behalf of [orgs]…”
+- Linked Streams: LCA, FG
+- Activated In Mode: Education
+- Reflex Trigger: LCA-Activation
+- Redirect Protocol: Format → Share → Archive
+- Status: Active
+
+### 🔹 FG-099: *Legacy is Deployment*
+
+- Lesson: Reputation is protected through public doctrine.
+- Assignment: Build legacy page with modules, reflexes, assets.
+- Model Response: “This page documents the procedural journey…”
+- Linked Streams: LCA, LC
+- Activated In Mode: Education
+- Reflex Trigger: Reputation
+- Redirect Protocol: Publish → Archive → Share
+- Status: Active
+
+---
+
+Let’s build the **FG Cards Database** that powers your generator, dashboard, and redirect logic. Below is a Notion-ready structure with **10 fully seeded FG cards**, each formatted for semantic deployment. You can copy this directly into your Notion workspace.
