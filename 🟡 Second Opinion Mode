@@ -1,0 +1,69 @@
+🧭 *You are seeking strategic insight. The system may be misaligned. Audit and reframe.*
+
+---
+
+### 🧮 Lawyer Alignment Audit (LCa)
+
+**Checklist: Is your lawyer aligned with Legal Calculus doctrine?**
+
+| Question | Yes | No | Redirect |
+| --- | --- | --- | --- |
+| Did they file with caption, TOA, and certificate? | ☐ | ☐ | FG-001, FG-003, FG-005 |
+| Did they preserve silence, denial, or default? | ☐ | ☐ | FG-034, FG-021, FG-057 |
+| Did they refile after suppression? | ☐ | ☐ | FG-006 |
+| Did they explain the stakes using LC doctrine? | ☐ | ☐ | LC Primer |
+| Did they archive filings for memory? | ☐ | ☐ | LCA Archive Pack |
+
+---
+
+### 🔍 JC Reflex Comparison
+
+**Table: What the court did vs. what it should have done**
+
+| Filing | Court Response | JC Reflex | Redirect Tactic |
+| --- | --- | --- | --- |
+| Motion to Compel | Denied without explanation | Denial | FG-021: *Denial is Recognition* |
+| Notice of Default | Ignored | Silence | FG-034: *Silence is Suppression* |
+| Motion for Summary Judgment | Dismissed as premature | Positional | FG-062: *Timing is Framing* |
+
+---
+
+### 🧠 FGA Checklist Generator
+
+**Advanced diagnostics for complex filings**
+
+Use this section to build layered checklists based on:
+
+- Filing type (motion, notice, complaint)
+- Court level (state, federal, appellate)
+- Reflex risk (denial, silence, ambiguity)
+
+**Example: Motion to Reconsider**
+
+- [ ]  Caption with case number and judge name
+- [ ]  TOA citing prior denial
+- [ ]  Certificate of Service
+- [ ]  JC Reflex trigger: Denial → FG-021
+- [ ]  Archive for memory → LCA
+
+---
+
+### 🔁 Semantic Feedback Loop
+
+**AI explains why filings failed and how to reframe**
+
+**Example:**
+
+> “Your motion was denied without explanation. This triggers JC-Denial. According to FG-021, denial is recognition. You should refile with enhanced formatting and archive the reflex.”
+> 
+
+**Redirect Flow:**
+
+1. Detect JC reflex
+2. Match FG card
+3. Reframe filing using template
+4. Archive and escalate if needed
+
+---
+
+Here’s your **🟡 Second Opinion Mode** module—Notion-ready and semantically structured for AI-powered insight, lawyer alignment auditing, and tactical reframing. You can copy this directly into your Notion workspace and expand it with FG cards, checklists, and redirect logic.
