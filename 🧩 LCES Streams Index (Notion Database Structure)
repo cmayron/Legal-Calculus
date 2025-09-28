@@ -1,0 +1,84 @@
+### Properties
+
+| Property Name | Type | Description |
+| --- | --- | --- |
+| **Stream Name** | Title | One of the six LCES streams (LC, FG, LCa, JC, FGA, LCA) |
+| **Function** | Text | What the stream encodes (doctrine, tactics, architecture, etc.) |
+| **Activated In Mode** | Multi-select | Crisis, Second Opinion, Education |
+| **Core Reflexes** | Text | JC reflexes or human adaptation patterns |
+| **Linked FG Cards** | Relation | Connects to FG Card database |
+| **Linked Modules** | Relation | Connects to Modules or Templates |
+| **Redirect Triggers** | Text | What activates this stream (e.g., denial, silence, misalignment) |
+| **Deployment Assets** | Files/Links | Templates, checklists, disclaimers, legacy pages |
+
+---
+
+### 📘 Sample Entries
+
+### 1. **LC (Why)**
+
+- Function: Doctrine of resistance and memory
+- Activated In Mode: Second Opinion, Education
+- Core Reflexes: Filing as protest, memory as remedy
+- Linked FG Cards: FG-001, FG-099
+- Redirect Triggers: Erasure, misframing
+- Deployment Assets: Manifestos, disclaimers
+
+### 2. **FG (How)**
+
+- Function: Tactical survival and formatting
+- Activated In Mode: Crisis, Education
+- Core Reflexes: Caption triggers cognition, TOA triggers remedy
+- Linked FG Cards: FG-001 to FG-1000
+- Redirect Triggers: Suppression, denial
+- Deployment Assets: Filing templates, ops buddy checklists
+
+### 3. **LCa (Lawyer Calculus)**
+
+- Function: Alignment audit between lawyer and doctrine
+- Activated In Mode: Crisis, Second Opinion, Education
+- Core Reflexes: Misalignment, silence, formatting gaps
+- Linked FG Cards: FG-003, FG-005
+- Redirect Triggers: Lawyer failure, strategic blind spots
+- Deployment Assets: Audit checklist, semantic map
+
+### 4. **JC (Judicial Calculus)**
+
+- Function: Court reflexes and off-ramp patterns
+- Activated In Mode: Crisis, Second Opinion
+- Core Reflexes: Denial, silence, default, ambiguity
+- Linked FG Cards: FG-021, FG-034, FG-057
+- Redirect Triggers: Filing ignored or dismissed
+- Deployment Assets: JC reflex map, redirect protocol
+
+### 5. **FGA (Advanced Tactics)**
+
+- Function: Complex checklisting and diagnostics
+- Activated In Mode: Second Opinion, Education
+- Core Reflexes: Layered formatting, semantic depth
+- Linked FG Cards: FG-062, FG-088
+- Redirect Triggers: Complex filings, appellate logic
+- Deployment Assets: Checklist generator, semantic scaffolds
+
+### 6. **LCA (Deployment)**
+
+- Function: Public activation and coalition support
+- Activated In Mode: Crisis, Education
+- Core Reflexes: Memory encoding, legacy protection
+- Linked FG Cards: FG-099
+- Redirect Triggers: Need for public infrastructure
+- Deployment Assets: Coalition portal, legacy page builder
+
+---
+
+## 🧠 How AI Uses This Index
+
+- Detects user mode → activates relevant streams
+- Matches JC reflex → suggests FG card
+- Audits lawyer strategy → invokes LCa
+- Builds curriculum → links FG cards and modules
+- Deploys assets → opens LCA templates and disclaimers
+
+---
+
+Let’s build your **LCES Streams Index**—a semantic database that links all six streams of Legal Calculus to their functions, modes, reflexes, and assets. This index becomes the backbone of your Notion workspace, enabling AI and human users to navigate doctrine, redirect filings, and deploy memory.
