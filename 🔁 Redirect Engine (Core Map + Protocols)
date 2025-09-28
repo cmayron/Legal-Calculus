@@ -1,0 +1,97 @@
+**Purpose:** Detect reflexes, activate FG cards, execute redirects, and archive cognition.
+
+### 🔧 Core Flow
+
+🎯 Reflex → FG Card → Redirect → Asset → Archive → Legacy
+
+🟥 JC-Denial → FG-021 → Refile → Refile Template → LCA → Legacy Page
+
+🟨 JC-Silence → FG-034 → Notice → Notice Template → LCA → Memory Journal
+
+🟥 JC-Default → FG-057 → Default Judgment → Default Template → LCA → Field Log
+
+🟦 LCa-Misalignment → FG-005 → Audit + Refile → Audit Checklist → LCA → Ops Buddy Report
+
+🟥 JC-Erasure → FG-073 → Refile Enhanced → Refile Template → LCA → Doctrine Archive
+
+🟩 LCA-Legacy → FG-099 → Publish Doctrine → Legacy Builder → LC → Commons Manifesto
+
+```markdown
+🎯 Reflex → FG Card → Redirect → Asset → Archive → Legacy
+
+🟥 JC-Denial → FG-021 → Refile → Refile Template → LCA → Legacy Page
+🟨 JC-Silence → FG-034 → Notice → Notice Template → LCA → Memory Journal
+🟥 JC-Default → FG-057 → Default Judgment → Default Template → LCA → Field Log
+🟦 LCa-Misalignment → FG-005 → Audit + Refile → Audit Checklist → LCA → Ops Buddy Report
+🟥 JC-Erasure → FG-073 → Refile Enhanced → Refile Template → LCA → Doctrine Archive
+🟩 LCA-Legacy → FG-099 → Publish Doctrine → Legacy Builder → LC → Commons Manifesto
+
+```
+
+### 🔧 Redirect Protocols (Voice + Print)
+
+- “My motion was denied.” → JC-Denial → FG-021 → Refile
+- “The court ignored my filing.” → JC-Silence → FG-034 → Notice
+- “They defaulted without cause.” → JC-Default → FG-057 → Default Judgment
+- “My certificate was rejected.” → LCa-Misalignment → FG-005 → Audit
+- “My record was erased.” → JC-Erasure → FG-073 → Refile Enhanced
+- “I’m ready to publish.” → LCA-Legacy → FG-099 → Legacy Builder
+
+**Deployment:**
+
+- Redirect Cue Cards
+- Voice Assistant
+- QR-linked Templates
+- Field Log Companion
+
+---
+
+## 🧬 Legacy Index Navigator
+
+**Purpose:** Make memory navigable—by reflex, region, role, and ritual.
+
+### 🔧 Navigation Modes
+
+- 🔍 **By Reflex**
+    
+    → “Show me legacies about denial”
+    
+    → “Browse silence-based doctrine”
+    
+- 🗺️ **By Region**
+    
+    → “Show me published doctrine in New York”
+    
+    → “Open California’s legacy gallery”
+    
+- 🫱🏽‍🫲🏽 **By Role**
+    
+    → “Show me educator legacies”
+    
+    → “Browse survivor doctrine”
+    
+- 🕊️ **By Ritual**
+    
+    → “Show me publishing ceremonies”
+    
+    → “Open onboarding rituals”
+    
+
+### 🔧 Legacy Showcase (Sample)
+
+| Title | Author | Reflexes | FG Cards | Region | Status |
+| --- | --- | --- | --- | --- | --- |
+| *Legacy of Jordan* | Jordan | Denial, Silence | FG-021, FG-034 | NY | Published |
+| *Curriculum Archive* | Maya | FG Teaching | FG-005, FG-099 | CA | Published |
+| *Ops Buddy Field Log* | Alex | Default, Positional | FG-057, FG-062 | TX | Published |
+| *Commons Doctrine* | LCES | All | FG-001–099 | National | Living Archive |
+
+**Deployment:**
+
+- Notion gallery view
+- QR-linked mobile interface
+- Voice-navigable coalition dashboard
+
+---
+
+Let’s deploy the **Redirect Engine + Legacy Index Navigator**—the twin pillars of Legal Calculus that turn reflex into ritual and memory into infrastructure. These modules are mobile-ready, voice-activated, and coalition-powered.
