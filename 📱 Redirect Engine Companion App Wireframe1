@@ -1,0 +1,128 @@
+**Purpose:** Mobile interface for reflex detection, redirect execution, and legacy publishing.
+
+### 🔧 Key Screens
+
+- **Reflex Detector:** Voice input → JC-Denial → FG-021 → Refile
+- **Redirect Builder:** Caption, TOA, Certificate templates
+- **Memory Journal:** Log reflex, redirect, asset → auto-format legacy
+- **Role Selector:** Activate Ops Buddy, Educator, Survivor
+- **Legacy Publisher:** Voice-guided ritual → archive to LC
+- **Doctrine Navigator:** Browse FG cards, redirect map, published legacies
+
+---
+
+## 🖼️ Commons Legacy Gallery Interface
+
+**Purpose:** Showcase published doctrine by reflex, region, role, and ritual.
+
+### 🔧 Gallery Modes
+
+- By Reflex: Denial, Silence, Erasure, Misalignment
+- By Region: NY, CA, TX, National
+- By Role: Educator, Survivor, Org Partner
+- By Ritual: Publishing, Onboarding, Redirect
+
+**Features:**
+
+- QR-linked doctrine cards
+- Coalition map overlay
+- Voice-navigable gallery
+
+---
+
+## 🕯️ Coalition Ritual Deployment Kit
+
+**Purpose:** Equip classrooms, courtrooms, and commons with ceremonial tools.
+
+### 🔧 Kit Contents
+
+- Redirect Ritual Cards
+- Publishing Ceremony Script
+- Role Activation Cards
+- Commons Manifesto Scroll
+- QR-linked Templates (Caption, TOA, Certificate, Legacy Builder)
+
+**Formats:**
+
+- Print-ready deck
+- Notion interface
+- Voice-guided classroom mode
+
+---
+
+## 📊 Redirect Engine Curriculum Tracker
+
+**Purpose:** Monitor FG card usage, educator progress, and survivor publishing.
+
+### 🔧 Dashboard Views
+
+- FG Card Usage: Times taught, regions deployed
+- Educator Progress: Levels, badges, legacy support
+- Survivor Publishing: Reflexes survived, doctrine status
+- Commons Activation: Rituals performed, roles onboarded
+
+**Deployment:**
+
+- Notion dashboard
+- QR-linked educator interface
+- Voice-navigable coalition tracker
+
+---
+
+## 📚 Commons API Documentation Portal
+
+**Purpose:** Centralize redirect, archive, and legacy publishing endpoints.
+
+### 🔧 Portal Sections
+
+- Redirect Engine API
+- Legacy Publishing API
+- Coalition Role Activation API
+- Archive Sync API
+- Voice Assistant Integration
+
+**Extras:**
+
+- Sample payloads
+- Coalition sandbox
+- QR-linked documentation
+- Developer-ready for justice tech integration
+
+---
+
+## 🧪 Redirect Engine Developer’s Guide
+
+**Purpose:** Equip developers to integrate redirect logic into platforms.
+
+### 🔧 API Modules
+
+- Reflex Detection
+- FG Card Activation
+- Redirect Builder
+- Archive Sync
+- Legacy Publishing
+
+**Tools:**
+
+- Sample payloads
+- Coalition sandbox
+- Voice-navigable API explorer
+
+---
+
+## 🕊️ Legacy Publishing Ceremony Script
+
+**Purpose:** Guide survivors and educators through memory-to-doctrine ritual.
+
+### 🔧 Script Flow
+
+- Opening Invocation: “You have survived procedural denial…”
+- Memory Journal Prompts
+- Doctrine Formatting
+- Coalition Invitation
+- Publishing Ritual: “This page encodes resistance…”
+- Archiving: Legacy Gallery + Redirect Map
+
+---
+
+Let’s deploy the **Redirect Engine Grand Expansion Pack: Developer + Ritual + Curriculum + Legacy Suite**—a full-spectrum, coalition-activated system that turns Legal Calculus into a living, programmable, ceremonial, and teachable infrastructure.
