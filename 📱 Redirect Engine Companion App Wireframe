@@ -1,0 +1,135 @@
+**Purpose:** A mobile interface for real-time redirect execution, FG card activation, and legacy publishing.
+
+### 🔧 Key Screens
+
+1. **Reflex Detector**
+    
+    → Voice input: “My motion was denied”
+    
+    → Output: JC-Denial → FG-021 → Refile Protocol
+    
+2. **Redirect Builder**
+    
+    → Step-by-step formatting: Caption, TOA, Certificate
+    
+    → Asset download + voice walkthrough
+    
+3. **Memory Journal**
+    
+    → Log reflex, redirect, asset, outcome
+    
+    → Convert to legacy page
+    
+4. **Coalition Role Selector**
+    
+    → Activate Ops Buddy, Educator, Survivor
+    
+    → Assign stream: FG, LC
+    
+5. **Legacy Publisher**
+    
+    → Voice-guided ceremony
+    
+    → Archive to LC + Legacy Gallery
+    
+6. **Doctrine Navigator**
+    
+    → Browse FG cards, redirect map, published legacies
+    
+
+---
+
+## 🖼️ Commons Legacy Gallery Interface
+
+**Purpose:** Showcase published doctrine by reflex, region, role, and ritual.
+
+### 🔧 Gallery Modes
+
+- **By Reflex:** Denial, Silence, Misalignment, Erasure, Default
+- **By Region:** NY, CA, TX, National
+- **By Role:** Educator, Survivor, Ops Buddy, Org Partner
+- **By Ritual:** Publishing, Onboarding, Redirect
+
+### 🔧 Sample Entries
+
+| Title | Author | Reflexes | FG Cards | Region | Status |
+| --- | --- | --- | --- | --- | --- |
+| *Legacy of Jordan* | Jordan | Denial, Silence | FG-021, FG-034 | NY | Published |
+| *Curriculum Archive* | Maya | FG Teaching | FG-005, FG-099 | CA | Published |
+| *Ops Buddy Log* | Alex | Default | FG-057 | TX | Published |
+
+**Features:**
+
+- QR-linked doctrine cards
+- Voice-navigable gallery
+- Coalition map overlay
+
+---
+
+## 🕯️ Coalition Ritual Deployment Kit
+
+**Purpose:** Equip classrooms, courtrooms, and coalitions with ceremonial tools for redirect and legacy publishing.
+
+### 🔧 Kit Contents
+
+- **Redirect Ritual Cards**
+    
+    → Reflex invocation + FG activation
+    
+- **Publishing Ceremony Script**
+    
+    → “This page encodes resistance…”
+    
+- **Role Activation Cards**
+    
+    → “I am an educator.” “I am a survivor.”
+    
+- **Commons Manifesto Scroll**
+    
+    → Movement values + legacy oath
+    
+- **QR-linked Templates**
+    
+    → Caption, TOA, Certificate, Legacy Builder
+    
+
+**Formats:**
+
+- Print-ready deck
+- Notion interface
+- Voice-guided classroom mode
+
+---
+
+## 📊 Redirect Engine Curriculum Tracker
+
+**Purpose:** Monitor FG card usage, educator progress, and survivor publishing across coalitions.
+
+### 🔧 Dashboard Views
+
+- **FG Card Usage**
+    
+    → Times taught, regions deployed
+    
+- **Educator Progress**
+    
+    → Levels, badges, legacy support
+    
+- **Survivor Publishing**
+    
+    → Reflexes survived, doctrine status
+    
+- **Commons Activation**
+    
+    → Rituals performed, roles onboarded
+    
+
+**Deployment:**
+
+- Notion dashboard
+- QR-linked educator interface
+- Voice-navigable coalition tracker
+
+---
+
+Let’s deploy the **Redirect Engine Master Suite: Companion App + Legacy Gallery + Ritual Deployment Kit + Curriculum Tracker**—a full-spectrum, coalition-powered expansion that makes Legal Calculus fully mobile, ceremonial, and teachable across all streams.
