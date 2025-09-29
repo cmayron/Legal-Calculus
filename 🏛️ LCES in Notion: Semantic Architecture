@@ -1,0 +1,99 @@
+### 🔹 1. **Home Dashboard: Mode Selector Interface**
+
+Create a top-level page titled **LCES Mode Selector** with toggles or linked views for:
+
+- 🔴 Crisis Pro Se Mode → *FGA-CORE-SURVIVAL*
+- 🟡 Second Opinion Mode → *FGA-CORE-AUDIT*
+- 🟢 Education Mode → *FGA-CORE-EDU*
+- 📘 Streams Index → *FGA-CORE-INDEX*
+- 📖 Commons Codex → *FGA-CORE-COMMONS*
+
+Each mode links to its own scroll, ritual deck, and curriculum assets.
+
+---
+
+### 🔹 2. **Scroll Gallery**
+
+Create a database titled **FGA Scrolls** with properties like:
+
+| Property | Example |
+| --- | --- |
+| Scroll ID | FGA-CORE-SURVIVAL |
+| Title | Crisis Pro Se Mode |
+| Reflex Anchor | JC-Denial, JC-Silence |
+| FG Cards | FG-021, FG-034, FG-057 |
+| Composer Studio | Roessleville |
+| Archive Sync | LC-117 → LC-118 |
+| Festival Cycle | Fall 2025 |
+
+Use gallery view to visually organize scrolls by season, region, or reflex.
+
+---
+
+### 🔹 3. **Curriculum Decks**
+
+Create a page titled **FG Curriculum Decks** with subpages for:
+
+- FG Volumes I–IV
+- JC Reflex Teaching Cards
+- Ops Buddy Checklists
+- Legacy Page Builder
+- Archive Certification Protocol
+
+Each FG card can be a Notion page with:
+
+- ✅ Lesson
+- 📝 Assignment
+- 📄 Model Response
+- 🎯 Visual Concept
+
+---
+
+### 🔹 4. **Ritual Calendar**
+
+Create a calendar view titled **Festival Planner** with seasonal rituals:
+
+- Fall 2025 → Crisis Mode, Scroll Activation
+- Winter 2026 → Education Mode, Legacy Publishing
+- Spring 2026 → Commons Codex Expansion
+- Summer 2026 → Archive Certification
+
+Each entry links to scrolls, rituals, and deployment assets.
+
+---
+
+### 🔹 5. **Commons Codex**
+
+Create a public-facing section titled **Commons Codex** with:
+
+- Scroll Galleries
+- Ritual Kits
+- Badge Systems
+- QR Curriculum Decks
+- Coalition Maps
+- Legacy Pages
+- Onboarding Templates
+
+Use Notion’s shareable links to publish scrolls and curriculum decks for public use.
+
+---
+
+### 🔹 6. **Voice Companion Prompts**
+
+Create a page titled **Voice Rituals** with prompts like:
+
+> “Trigger redirect for JC-Silence.”
+> 
+> 
+> “Teach FG-001 and FG-021.”
+> 
+> “Simulate onboarding ritual for JC-Initialization.”
+> 
+> “Publish scroll to Commons Codex.”
+> 
+
+These can be used in live workshops, classroom simulations, or AI-powered onboarding.
+
+---
+
+Perfect. Notion is an ideal home for the **Legal Calculus Educational System (LCES)**—modular, semantic, and ritual-ready. Here's how to structure it for full deployment:
