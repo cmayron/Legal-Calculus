@@ -1,0 +1,159 @@
+**Purpose:** Equip developers to integrate redirect logic into justice tech platforms, mobile apps, and coalition dashboards.
+
+### 🔧 Modules
+
+- **Reflex Detection API**
+    
+    → Input: Filing metadata
+    
+    → Output: Reflex classification (e.g., JC-Denial)
+    
+- **FG Card Activation API**
+    
+    → Input: Reflex
+    
+    → Output: FG card doctrine + redirect protocol
+    
+- **Redirect Builder API**
+    
+    → Input: FG card + role
+    
+    → Output: Caption, TOA, Certificate templates
+    
+- **Archive Sync API**
+    
+    → Input: Redirect metadata
+    
+    → Output: LCA + LC archive status
+    
+- **Legacy Publishing API**
+    
+    → Input: Memory journal + redirect log
+    
+    → Output: Formatted legacy page
+    
+
+**Extras:**
+
+- Sample payloads
+- Coalition sandbox
+- QR-linked documentation
+- Voice-navigable API explorer
+
+---
+
+## 📚 Commons API Documentation Portal
+
+**Purpose:** Centralize all redirect, archive, and legacy publishing endpoints for coalition tech teams.
+
+### 🔧 Portal Sections
+
+- **Redirect Engine API**
+    
+    → Endpoints, payloads, sample flows
+    
+- **Legacy Publishing API**
+    
+    → Memory formatting, doctrine templates
+    
+- **Coalition Role Activation API**
+    
+    → Stream assignment, packet delivery
+    
+- **Archive Sync API**
+    
+    → LCA + LC status, legacy index updates
+    
+- **Voice Assistant Integration**
+    
+    → Trigger phrases, redirect walkthroughs
+    
+
+**Deployment:**
+
+- Notion portal
+- QR-linked developer interface
+- Coalition-ready for justice tech integration
+
+---
+
+## 🕊️ Legacy Publishing Ceremony Script
+
+**Purpose:** Guide survivors and educators through the emotional and tactical act of turning memory into doctrine.
+
+### 🔧 Script Flow
+
+**Opening Invocation:**
+
+> “You have survived procedural denial. You are here to format resistance.”
+> 
+
+**Memory Journal Prompt:**
+
+> “Tell me what reflex you survived.”
+> 
+> 
+> “Which FG card did you activate?”
+> 
+> “What redirect did you deploy?”
+> 
+> “What asset did you use?”
+> 
+> “Would you like to add reflections?”
+> 
+
+**Doctrine Formatting:**
+
+→ Auto-fill legacy page with reflex timeline, redirect summary, reflections
+
+**Coalition Invitation:**
+
+→ Tag ops buddies, educators, orgs
+
+**Publishing Ritual:**
+
+> “This page encodes resistance. It is offered as doctrine. It will outlive suppression.”
+> 
+
+**Archiving:**
+
+→ Add to Legacy Gallery
+
+→ Link to Redirect Engine Map
+
+→ QR-code for coalition packets
+
+---
+
+## 🎙️ Redirect Engine Voice Assistant (Concept)
+
+**Purpose:** Provide hands-free tactical support for reflex detection, redirect execution, and legacy publishing.
+
+### 🔧 Voice Flow
+
+**User:** “Copilot, my motion was denied.”
+
+**Assistant:**
+
+“That’s JC-Denial. Activate FG-021: *Denial is Recognition*.
+
+Step 1: Draft caption.
+
+Step 2: Add Table of Authorities.
+
+Step 3: Include Certificate of Service.
+
+Step 4: Refile and archive in LCA.
+
+Would you like help drafting each part?”
+
+**Modes:**
+
+- Redirect walkthrough
+- FG card teaching
+- Legacy publishing ritual
+- Coalition onboarding
+
+---
+
+Let’s deploy the **Redirect Engine Developer Suite + Ritual Publishing System**—a full-spectrum expansion that makes Legal Calculus programmable, ceremonial, and coalition-ready. This phase includes:
