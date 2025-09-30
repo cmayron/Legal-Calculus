@@ -1,0 +1,527 @@
+Unified Litigation Equation • Renumber Map • One‑Pager Handouts (125–136) • Full Booklet (120–136)
+
+Not legal advice. Draft for your rules and facts. Credit: ChatGPT & Charles Mayron, MD, FACS.
+
+# **Table of Contents**
+
+(In Word: right‑click this field → Update Field → Update entire table.)
+
+# **Renumber Map (120–136)**
+
+| New No. | Old ID | Title |
+| --- | --- | --- |
+| 120 | Module 120 | The “Meet and Confer”: Weaponizing Good Faith |
+| 121 | Module 121 | Defending Your Deposition: The Record Is Your Shield |
+| 122 | Module 122 | Opposing Summary Judgment: Create the Factual Dispute |
+| 123 | Module 123 | Pro Se at Trial: Managing Exhibits |
+| 124 | Module 124 | Judicial Complaints: The Final Accountability Lever |
+| 125 | Module 125 (Anti‑JC‑13) | Preemptive Formatting: Paper Hearing + Options Order |
+| 126 | Module 126 (Anti‑JC‑19) | Chain‑Verified Pleading + Source Ledger |
+| 127 | Module 127 (Anti‑JC‑56) | Archive = Appeal: Manifest + Hashes + Mirror |
+| 128 | Module 128 (Anti‑JC‑34/35) | Two‑Column Dispute Engine at Draft |
+| 129 | Module 129 (Vexatious Shield) | Non‑Duplicative Notice + Purpose Statement |
+| 130 | Module 130 (Hygiene) | Docket Hygiene Preemptor: Service Map + COS + Deadline Grid |
+| 131 | PSY‑120 | Cognitive Biases on the Bench |
+| 132 | PSY‑121 | The “Reasonableness” Trap |
+| 133 | PSY‑122 | Litigation Pacing & Strategic Burnout |
+| 134 | ADV‑123 | Adverse Inference Playbook |
+| 135 | ADV‑124 | Summary Judgment “Showdown” |
+| 136 | ADV‑125 | Build Your Case Wiki |
+
+# **125 — Preemptive Formatting: Paper Hearing + Options Order (Anti‑JC‑13)**
+
+⚖️ Core Message — Make a reasoned order faster than a minute entry by shipping a Paper‑Hearing statement and a check‑box Proposed Order (A/B).
+
+# **Lesson**
+
+·       Say it up front: “Suitable for decision on the papers.”
+
+·       Attach A/B Proposed Order; keep **Issues Presented ≤ 3**.
+
+·       Lead with an **Element → Evidence** table (dated facts + pin‑cites).
+
+# **Assignment**
+
+Draft a one‑screen Issues Presented block and attach a signable A/B Proposed Order to your next motion.
+
+# **Model**
+
+“Suitable for decision on the papers. Proposed Order (A/B) attached.”
+
+# **Common Pitfalls & Traps**
+
+·       Overlong issues list
+
+·       No proposed order
+
+·       No pin‑cites
+
+# **Reflection**
+
+Make the good path the easy path.
+
+# **126 — Chain‑Verified Pleading + Source Ledger (Anti‑JC‑19)**
+
+⚖️ Core Message — Allegation + inline parenthetical pin‑cite + exhibit/hash defeats “conclusory.”
+
+# **Lesson**
+
+·       Maintain a **Source Ledger**: allegation → dated source & page/hash.
+
+·       Place pin‑cites **in the sentence** (parentheticals).
+
+·       Restrict assertions to facts you can pin to a page.
+
+# **Assignment**
+
+Convert 10 complaint allegations to chain‑verified sentences with in‑line pin‑cites.
+
+# **Model**
+
+“On Feb 20, 2024, Plaintiff reported X (Ex. C at 2; SHA‑256 …).”
+
+# **Common Pitfalls & Traps**
+
+·       Cites to whole exhibits
+
+·       No page IDs
+
+·       Speculation
+
+# **Reflection**
+
+Proof travels with the sentence.
+
+# **127 — Archive = Appeal: Manifest + Hashes + Mirror (Anti‑JC‑56)**
+
+⚖️ Core Message — Build the appellate record on Day 1 using a Filing Manifest, hashes, and a public mirror.
+
+# **Lesson**
+
+·       Ship a **Filing Manifest** with every filing (ECF, date, title, SHA‑256, mirror URL).
+
+·       Hash all exhibits; keep the index public and mirrored.
+
+·       Bundle a 10‑page “Record Packet” of what the judge had.
+
+# **Assignment**
+
+Fill a 10‑row manifest for your last filings (include hashes + mirror).
+
+# **Model**
+
+CSV columns: Document • Date • ECF • SHA‑256 • Mirror • Notes.
+
+# **Common Pitfalls & Traps**
+
+·       Missing hashes
+
+·       Vague titles
+
+·       No mirror link
+
+# **Reflection**
+
+If it’s not indexed, it didn’t happen.
+
+# **128 — Two‑Column Dispute Engine at Draft (Anti‑JC‑34/35)**
+
+⚖️ Core Message — Build your MSJ opposition while you draft—two‑column disputes with admissible cites.
+
+# **Lesson**
+
+·       Left: their “Undisputed Fact.” Right: **DISPUTED** + admissible pin‑cites.
+
+·       Use declarations (personal knowledge), depo page:line, exhibit page IDs.
+
+·       Focus on **material** elements/defenses.
+
+# **Assignment**
+
+Draft three two‑column disputes for the defense’s strongest claims.
+
+# **Model**
+
+“Solely performance” → **DISPUTED**: Report (2/20/24) + positive review (1/2024) (Ex. C; Ex. D).
+
+# **Common Pitfalls & Traps**
+
+·       Rhetoric without evidence
+
+·       Disputing immaterial facts
+
+·       No pin‑cites
+
+# **Reflection**
+
+Put up your evidence now.
+
+# **129 — Vexatious Shield: Non‑Duplicative Notice + Purpose Statement**
+
+⚖️ Core Message — Preempt duplicative/vexatious labeling by stating purpose and novelty plainly.
+
+# **Lesson**
+
+·       Add a **Notice of Non‑Duplicative Filing** explaining new facts/relief.
+
+·       Point to prior ECF only for context; specify distinctions.
+
+·       Keep it to 4–6 lines; show dates.
+
+# **Assignment**
+
+Draft a 4‑line non‑duplicative notice for your next filing.
+
+# **Model**
+
+“Addresses **new** dated events [dates]; seeks distinct relief [X]; prior ECF ## are context only.”
+
+# **Common Pitfalls & Traps**
+
+·       Re‑arguing without new facts
+
+·       No new relief
+
+·       Vague timing
+
+# **Reflection**
+
+Novelty, stated plainly, disarms the label.
+
+# **130 — Docket Hygiene Preemptor: Service Map + COS + Deadline Grid**
+
+⚖️ Core Message — Format errors fuel reflex denials; prevent them with hygiene work products.
+
+# **Lesson**
+
+·       **Service Map**: parties, capacities, methods; keep current.
+
+·       **COS templates**: mail/ECF/personal with date, method, full addresses, signature.
+
+·       **Deadline Grid**: rules clocks + buffers for 60 days.
+
+# **Assignment**
+
+Build a 1‑page Service Map and a 60‑day deadline grid; finalize COS templates.
+
+# **Model**
+
+COS: “I certify that on [date] I served [document] by [method] on [addresses] … /s/ [Name].”
+
+# **Common Pitfalls & Traps**
+
+·       Stale service list
+
+·       Missing method/date
+
+·       No buffers
+
+# **Reflection**
+
+Hygiene is armor.
+
+# **131 — Cognitive Biases on the Bench 🧠⚖️**
+
+⚖️ Core Message — Anchor early; confirm with dated proof; offer face‑saving narrow grants (A/B order).
+
+# **Lesson**
+
+·       Lead with the strongest, simplest issue (anchoring).
+
+·       Repeat element→evidence across intro, table, and proposed order (confirmation).
+
+·       Offer narrow relief to reduce resistance (face‑saving).
+
+# **Assignment**
+
+Write a 4‑sentence anchor and attach an A/B Proposed Order.
+
+# **Model**
+
+“Element **E1** is met by Exhibits A–C (dated). Proposed Order (A/B) attached.”
+
+# **Common Pitfalls & Traps**
+
+·       Burying the lead
+
+·       Moralizing tone
+
+·       No narrow option
+
+# **Reflection**
+
+Make the fair decision the easy decision.
+
+# **132 — The “Reasonableness” Trap 🕊️🪤**
+
+⚖️ Core Message — Document principled good faith while holding firm on scope tethered to rules and dates.
+
+# **Lesson**
+
+·       Pre‑email scope (custodians, dates, formats) → call → memorializing email.
+
+·       Propose staged discovery; demand a privilege log with specifics.
+
+·       Attach the meet‑and‑confer chain to your compel motion.
+
+# **Assignment**
+
+Prepare pre‑ and post‑confer emails for one RFP with 14‑day rolling production.
+
+# **Model**
+
+“Proportional: **08/01–09/30/2025**, custodians Krouner/Shipley/HR; formats PST/MSG/CSV. Privilege log in 10 days.”
+
+# **Common Pitfalls & Traps**
+
+·       Vague 'all documents' asks
+
+·       Refusing to confer
+
+·       No written memorialization
+
+# **Reflection**
+
+You aren’t convincing them—you’re building what convinces the judge.
+
+# **133 — Litigation Pacing & Strategic Burnout ⏱️🏃**
+
+⚖️ Core Message — Energy is a strategic asset; cadence beats heroics.
+
+# **Lesson**
+
+·       Adopt weekly/bi‑weekly filing rhythm with predictable small drops.
+
+·       Time‑box to 90‑minute drafting blocks; use templates to lower load.
+
+·       Schedule light weeks; rotate tasks (evidence, drafting, service).
+
+# **Assignment**
+
+Create a 6‑week cadence plan with two recovery slots and a 90‑minute stop rule.
+
+# **Model**
+
+Calendar grid with color‑coded tasks; 'stop' after 90 minutes.
+
+# **Common Pitfalls & Traps**
+
+·       All‑out weeks
+
+·       Perfectionism stalls
+
+·       No recovery
+
+# **Reflection**
+
+Sustainable pressure wins.
+
+# **134 — Adverse Inference Playbook 📄🔥**
+
+⚖️ Core Message — Convert absence into leverage via precise Rule 37/37(e) sanctions and jury instructions.
+
+# **Lesson**
+
+·       Serve a detailed preservation letter; log acknowledgment.
+
+·       Compel with sources/custodians/formats; demand a privilege log.
+
+·       Document non‑production by declaration; move for sanctions with model instruction.
+
+# **Assignment**
+
+Draft a one‑page sanctions outline + proposed jury instruction language.
+
+# **Model**
+
+“If you find Defendant failed to preserve relevant evidence after its duty arose, you **may** presume the evidence was unfavorable.”
+
+# **Common Pitfalls & Traps**
+
+·       Generic asks
+
+·       No proof of duty to preserve
+
+·       Overbroad remedies
+
+# **Reflection**
+
+Precision makes the remedy inevitable.
+
+# **135 — Summary Judgment “Showdown” 💥🥊**
+
+⚖️ Core Message — Show material disputes with admissible cites; SSDF two‑column rebuttal.
+
+# **Lesson**
+
+·       Create a Separate Statement of Disputed Facts (line‑by‑line).
+
+·       Stack admissible evidence (decl, depo pin‑cites, authenticated exhibits).
+
+·       Tie each dispute to an element/defense; front‑load your best three.
+
+# **Assignment**
+
+Build SSDF for five defense facts with three admissible cites each.
+
+# **Model**
+
+DF #7: “Solely performance.” → **DISPUTED** (Ex. C; Ex. D; Decl. ¶4).
+
+# **Common Pitfalls & Traps**
+
+·       Rhetoric without record
+
+·       Disputing immaterial points
+
+·       No pin‑cites
+
+# **Reflection**
+
+Put up or shut up—so put up your evidence.
+
+# **136 — Build Your Case Wiki 🧠🔗**
+
+⚖️ Core Message — A living, linked knowledge base turns storage into strategy.
+
+# **Lesson**
+
+·       Schema: Fact ID • Date • Exhibit ID • Bates • **Hash** • Element • Used In.
+
+·       Link: every fact ↔ exhibit page ↔ element ↔ filing.
+
+·       Use Notion/Obsidian/Sheets; export PDFs for the record.
+
+# **Assignment**
+
+Stand up the schema and enter 25 facts with exhibit links and elements.
+
+# **Model**
+
+“F‑023 • 2025‑02‑20 • Ex. C‑2 • Bates 0031 • SHA‑256 … • AEPA‑Causation • ECF 28 (PI).”
+
+# **Common Pitfalls & Traps**
+
+·       Free‑text chaos
+
+·       No hashes
+
+·       No 'Used In' field
+
+# **Reflection**
+
+Retrieval speed is litigation speed.
+
+# **Full Booklet (Modules 120–136)**
+
+# **120 — The “Meet and Confer”: Weaponizing Good Faith 🤝📞**
+
+- *Core Message**: The meet‑and‑confer duty is an opportunity to build a record of reasonableness and expose obstruction.
+- *Lesson**: Paper trail first/last; frame narrow, rule‑tied asks; build sanctions path.
+- *Assignment**: Draft the post‑call memorializing email for RFP #7; 14‑day rolling production; privilege log in 10 days.
+- *Model**: “Counsel, this memorializes our [date] meet‑and‑confer re RFP 7… confirm by Fri 5:00 PM to produce … or we will move to compel and for fees.”
+- *Reflection**: You’re not persuading them—you’re building the exhibit the judge will read.
+
+# **121 — Defending Your Deposition: The Record Is Your Shield 🎤🛡️**
+
+- *Core Message**: A deposition is record construction. Short, precise answers win.
+- *Lesson**: Pause; answer only what was asked; control documents.
+- *Assignment**: Rehearse 10 leading questions using the Four Magic Phrases.
+- *Model**: Q: “You were angry?” A: “I don’t recall my emotional state.”
+- *Reflection**: Make the transcript boring and precise.
+
+# **122 — Opposing Summary Judgment: Create the Factual Dispute 💥📄**
+
+- *Core Message**: You don’t need to win—show a genuine dispute of material fact.
+- *Lesson**: Two‑column response; admissible evidence; target materiality.
+- *Assignment**: Draft a two‑column rebuttal with three admissible cites.
+- *Model**: “Solely performance” → **DISPUTED**: Protected report (2/20/24) + positive review (1/2024) (Ex. C; Ex. D).
+- *Reflection**: MSJ is put up or shut up—put up your evidence.
+
+# **123 — Pro Se at Trial: Managing Exhibits 🗂️🎤**
+
+- *Core Message**: Evidence exists at trial only if marked, shown, founded, and admitted.
+- *Lesson**: Mark → Show → Foundation → Move to admit; binder + per‑witness tabs; copies x4.
+- *Assignment**: Build a one‑page Exhibit & Witness Map for three witnesses.
+- *Model**: Witness 1 (C. Mayron): Ex.1 Email 02/20/2024 (foundation Qs), Ex.2 Jan 2024 Review.
+- *Reflection**: Your outline is the script; your exhibits are the props—rehearse.
+
+# **124 — Judicial Complaints: The Final Accountability Lever 🏛️✍️**
+
+- *Core Message**: A judicial complaint is not an appeal—use it rarely for misconduct.
+- *Lesson**: Grounds (bias, undue delay, ex parte); proof‑first; no case advantage.
+- *Assignment**: Draft a 1‑paragraph complaint summary citing a specific canon.
+- *Model**: “Failure to rule on an emergency TRO for 94 days … violates Canon 3(B)(8).”
+- *Reflection**: Pull this lever when the record is undeniable and the harm is institutional.
+
+# **125 — Preemptive Formatting: Paper Hearing + Options Order (Anti‑JC‑13)**
+
+- *Core Message**: Make a reasoned order faster than a minute entry.
+- *Lesson**: Paper‑hearing statement; Proposed Order (A/B); ≤3 Issues Presented; Element→Evidence table.
+- *Assignment**: Generate your A/B order + Issues Presented.
+- *Reflection**: Make the good path the easy path.
+
+# **126 — Chain‑Verified Pleading + Source Ledger (Anti‑JC‑19)**
+
+- *Core Message**: Allegation + inline pin‑cite + exhibit/hash defeats “conclusory.”
+- *Lesson**: Maintain a Source Ledger; use parenthetical pin‑cites in the pleading.
+- *Assignment**: Convert 10 allegations to chain‑verified sentences.
+- *Reflection**: Proof travels with the sentence.
+
+# **127 — Archive = Appeal: Manifest + Hashes + Mirror (Anti‑JC‑56)**
+
+- *Core Message**: Build the appellate record on Day 1.
+- *Lesson**: Ship a Filing Manifest (ECF • date • hash • mirror URL) with every filing.
+- *Assignment**: Fill a 10‑row manifest for your last filings.
+- *Reflection**: If it’s not indexed, it didn’t happen.
+
+# **128 — Two‑Column Dispute Engine at Draft (Anti‑JC‑34/35)**
+
+- *Core Message**: Build your MSJ opposition while you draft.
+- *Lesson**: Two‑column chart—Undisputed vs. **DISPUTED** with admissible cites.
+- *Assignment**: Draft three rows for the biggest defense claim.
+- *Reflection**: Put up your evidence now.
+
+# **129 — Vexatious Shield: Non‑Duplicative Notice + Purpose Statement**
+
+- *Core Message**: Preempt duplicative/vexatious labels with purpose + novelty.
+- *Lesson**: Add a Non‑Duplicative Notice explaining new facts/relief.
+- *Assignment**: Draft a 4‑line notice for your next filing.
+- *Reflection**: Novelty, stated plainly, disarms the label.
+
+# **130 — Docket Hygiene Preemptor: Service Map + COS + Deadline Grid**
+
+- *Core Message**: Format errors fuel reflex denials; prevent them up front.
+- *Lesson**: Keep a Service Map, COS templates, and a 60‑day deadline grid.
+- *Assignment**: Build a one‑pager for all three.
+- *Reflection**: Hygiene is armor.
+
+# **131 — Cognitive Biases on the Bench 🧠⚖️**
+
+- *Core Message**: Anchor early; confirm with dated proof; offer face‑saving narrow grants (A/B order).
+- *Assignment**: 4‑sentence anchor + attach A/B order.
+
+# **132 — The “Reasonableness” Trap 🕊️🪤**
+
+- *Core Message**: Document principled good faith; frame narrow, rule‑tied asks; propose staged discovery.
+- *Assignment**: Pre‑ and post‑confer emails + privilege log demand.
+
+# **133 — Litigation Pacing & Strategic Burnout ⏱️🏃**
+
+- *Core Message**: Energy is strategy; pace wins.
+- *Assignment**: 6‑week cadence with two recovery slots; 90‑min stop rule.
+
+# **134 — Adverse Inference Playbook 📄🔥**
+
+- *Core Message**: Convert absence into leverage via Rule 37/37(e) and a model jury instruction.
+- *Assignment**: Draft a one‑page sanctions outline + model instruction.
+
+# **135 — Summary Judgment “Showdown” 💥🥊**
+
+- *Core Message**: Show material disputes with admissible cites; SSDF two‑column rebuttal.
+- *Assignment**: Top five defense facts, three cites each; anti‑cherry‑pick intro.
+
+# **136 — Build Your Case Wiki 🧠🔗**
+
+- *Core Message**: Schema + links turn storage into strategy.
+- *Assignment**: Enter 25 facts with exhibit links, elements, and “Used In” fields
