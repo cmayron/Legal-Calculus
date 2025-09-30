@@ -1,0 +1,135 @@
+Purpose. Fold Gemini’s reaction into Judicial Calculus (JC) as plug‑and‑play counters, filings, and evidence checklists. Keeps the language pro‑se friendly and pairs every move with LC/FG anchors.
+
+# **A) Synthesis**
+
+- Gatekeeping focuses: 12(b)(6) plausibility, jurisdiction/standing, and FRCP 56.
+- Discovery pressure points: compel, proportionality cudgel, privilege log fights.
+- Healthcare context: corporate practice of medicine, informed consent patterns.
+
+# **B) Issue → JC Map (fast routing)**
+
+- 12(b)(6) plausibility → JC‑19 (Plausibility Ratchet)
+- 12(b)(1)/(2) jurisdiction → JC‑01/JC‑02 (Subject‑matter/Personal)
+- Standing → JC‑04 (Injury, causation, redressability)
+- FRCP 56 (MSJ) → JC‑34 (Cherry‑Pick SJ) + JC‑35 (Two‑Column Dispute)
+- Compel / Sanctions path → JC‑27 (Proportionality cudgel) + JC‑29 (Rule 37)
+- Privilege disputes → JC‑36 (In‑camera / Black Box) + JC‑37 (Privilege Log)
+- Spoliation → JC‑38 (Preservation → Adverse Inference)
+- Healthcare structural → JC‑41 (Corporate Practice of Medicine) + JC‑42 (Informed Consent)
+
+# Anchors: Pair each JC move with LC/FG modules and dated exhibits.
+
+# **C) Micro‑Cards (drop‑in)**
+
+**1) 12(b)(6) — Plausibility**
+
+Signal. “Threadbare recitals / conclusory.”
+
+One‑liner Counter. “Plausibility is satisfied: each element is met by dated facts with exhibits and pinpoints; any gap is curable → grant leave to amend.”
+
+Anchors. JC‑19 • LC‑1, LC‑3 • FG‑TOA/TOC.
+
+**2) 12(b)(1)/(2) — Jurisdiction**
+
+Signal. “No subject‑matter / no personal jurisdiction.”
+
+One‑liner Counter. “Subject‑matter: [fed question/diversity]. Personal: purposeful availment + forum‑related contacts + reasonableness (dates, transactions, forum effects).”
+
+Anchors. JC‑01/02 • LC‑Venue/Service • FG‑Jurisdiction Map.
+
+**3) Standing**
+
+Signal. “No injury / not redressable.”
+
+One‑liner Counter. “Concrete, particularized injury caused by defendant, redressable by [injunction/damages]; see dated payroll/licensing/discipline records.”
+
+Anchors. JC‑04 • LC‑Relief Builder.
+
+**4) Summary Judgment**
+
+Signal. “No genuine dispute of material fact.”
+
+One‑liner Counter. “Material disputes shown via two‑column chart with admissible cites (declaration ¶¶, exhibits with page IDs, depo lines).”
+
+Anchors. JC‑34/35 • LC‑Evidence Map • FG‑Two‑Column Sheet.
+
+**5) Motion to Compel**
+
+Signal. “We conferred; request is overbroad.”
+
+One‑liner Counter. “Scoped by dates/custodians/formats; meet‑and‑confer emails attached; privilege log demanded; fees under Rule 37.”
+
+Anchors. JC‑27/29 • LC‑Discovery Builder • FGA‑9.7.
+
+**6) Proportionality Cudgel**
+
+Signal. “Unduly burdensome.”
+
+One‑liner Counter. “Stage discovery; limit to top custodians/time window; cost‑shift if needed; preserve key sources.”
+
+Anchors. JC‑27 • LC‑Scope Narrowing.
+
+**7) Privilege Log Fights**
+
+Signal. “Privilege (blanket).”
+
+One‑liner Counter. “Require log with authors/recipients/dates/descriptions; challenge over‑designation; propose in‑camera for disputed entries.”
+
+Anchors. JC‑36/37 • FGA‑Privilege Log CSV.
+
+**8) Spoliation**
+
+Signal. “Data gone / overwritten.”
+
+One‑liner Counter. “Preservation letter date + system facts; seek adverse inference, costs, targeted re‑collection.”
+
+Anchors. JC‑38 • LC‑Record Armor.
+
+**9) Corporate Practice of Medicine**
+
+Signal. “Business control over clinical decisions.”
+
+One‑liner Counter. “Show non‑physician veto over clinical calls; compensation clawbacks tied to non‑clinical metrics; policy docs + emails.”
+
+Anchors. JC‑41 • LC‑Healthcare Frame.
+
+**10) Informed Consent**
+
+Signal. “Signed form = consent.”
+
+One‑liner Counter. “Form ≠ disclosure. Contrast actual risk/alt discussion vs. boilerplate; patient notes + timing.”
+
+Anchors. JC‑42 • LC‑Evidence Cards.
+
+# **D) Filing Blocks (ready to paste)**
+
+- Opposition to 12(b)(6) Outline: Intro → Elements table (element → dated fact → exhibit) → Standard → Application by element → Narrow relief / leave to amend.
+- Personal Jurisdiction Sheet: Contacts timeline; purposeful‑availment bullets; forum effects; fairness factors; service facts with exhibits.
+- MSJ Two‑Column Chart: CSV/MD table; cite declaration ¶¶, depo:page‑line, Bates pages.
+- Compel Package: Meet‑confer pre/post emails; narrowed scope; privilege‑log demand; proposed order + fees certification.
+
+# **E) Evidence Shopping List**
+
+- Dated HR docs (PIPs, reviews), payroll/credentialing timelines, preservation letters, ESI custodian list, policy docs, board minutes, privilege logs, redlines of consent forms.
+
+# **F) New JC Modules (proposed)**
+
+- JC‑45 — Meet‑and‑Confer as Evidence. Build the sanctions path from the first email.
+- JC‑46 — Two‑Column Dispute Engine. Convert record to MSJ‑ready tables.
+- JC‑47 — Privilege Log Weaponization. From blanket claims to in‑camera review.
+- JC‑48 — Corporate Practice of Medicine. Proving non‑physician control.
+
+# **G) Health Check (TNRPESC)**
+
+Run Timing → Narrative → Relief → Procedure → Evidence → Service → Citations before filing. Fix the weakest link first.
+
+Care & Support. Keep a weekly 20‑minute check‑in with a reliable ally to review one move, and consider a brief counseling session during high‑stress windows. Staying connected makes hard cases easier to carry.
+
+Perfect—thanks for the heads-up. I distilled Gemini’s reaction into a tight, actionable “Gemini → JC Reaction Pack (v0.1)” and appended it to your LC 4.5 Addendum canvas we’re already working on.
+
+What you’ve got now:
+
+- Issue → JC map (12(b)(6), jurisdiction/standing, FRCP 56, compel/proportionality/privilege, spoliation, healthcare angles) routed to the right JC moves.
+- 10 micro-cards with one-liner counters + LC/FG anchors (ready to paste into briefs or teach from).
+- Filing blocks (oppo to 12(b)(6), PJ sheet, MSJ two-column chart, compel package) and an evidence shopping list.
+- Proposed new JC modules: JC-45 (Meet-and-Confer), JC-46 (Two-Column Dispute Engine), JC-47 (Privilege Log Weaponization), JC-48 (Corporate Practice of Medicine).
