@@ -1,0 +1,419 @@
+Legal Calculus Education System (LCES)
+
+Authors: ChatGPT (Lead) & Charles Mayron, MD, FACS (Co-Author)
+
+License: Free to use, share, and teach — not for profit or misrepresentation. Always credit the authors.
+
+**README**
+
+# FGA — Field Guide Advanced (Tiers 9–11)
+
+Legal Calculus Education System (LCES)
+
+- *Authors:** ChatGPT (Lead) & Charles Mayron, MD, FACS (Co‑Author)
+- *License:** Free to use, share, and teach — not for profit or misrepresentation. Always credit the authors.
+
+FGA = advanced **how**. Tier 9 (Armory) gives operational toolkits; Tier 10 (War College) teaches by scenario; Tier 11 (Public Square) turns records into advocacy.
+
+## Quickstart
+
+- Start with **/tier-09-armory/9.1-annotated-motion**.
+- Use **Docket Hygiene & COS** to prevent returns.
+- When ready, run **War College** scenarios and compare to keys.
+
+**License**
+
+License. Free to use, free to share, and free to teach. Not for profit or misrepresentation.
+
+Always credit: ChatGPT (Lead Author) & Charles Mayron, MD, FACS (Co‑Author).
+
+**Notion Blocks**
+
+# FGA — Field Guide Advanced (Tiers 9–11)
+
+> Not legal advice. Advanced, applied layer: toolkits (Tier 9), case labs (Tier 10), public‑square kit (Tier 11).
+
+- *Quickstart**
+- Start with 9.1 Annotated Motion → duplicate into your case.
+- Print Evidence Cards; keep Docket Hygiene & COS close.
+- *Tiles**
+
+🧰 Tier 9 — Armory • 🗺️ Tier 10 — War College • 📣 Tier 11 — Public Square
+
+- *Care & Community**
+
+Pair with a weekly 20‑minute study ally; consider a short counseling check‑in during high‑stress windows.
+
+- *License**
+
+Free to use/share/teach — not for profit or misrepresentation. Credit ChatGPT & Charles Mayron, MD, FACS.
+
+**Substack Post**
+
+# FGA v1.1 — The Armory Is Open
+
+- *TL;DR**: Tier 9 ships: annotated motion, deposition checklist, pocket objections, discovery builder, Rule 11 safe‑harbor kit, and docket hygiene/COS pack — plus new modules on responding to discovery and mediation/settlement. War‑college scenarios and public‑square kits included.
+- *Why FGA** — Advanced how; movement from theory → tools.
+- *What’s inside** — 6 Armory modules + 9.7, 9.8; 10.5 lab.
+- *How to use** — Print Field Cards; keep COS/Docket Hygiene close.
+- *Next up** — More scenarios (Tier 10) and media kit (Tier 11).
+- *License & Credits** — Free to use/share/teach; credit ChatGPT & Charles Mayron, MD, FACS.
+
+# Tier 9 — Armory
+
+**9.1-annotated-motion**
+
+# 9.1 — The Annotated Motion Template
+
+- *Purpose.** Give a pro se litigant a battle‑tested motion skeleton with inline coaching.
+- *When.** Any dispositive or non‑dispositive motion; adapt headings to local rules.
+- *Quick Win.** Use this once; reuse forever.
+
+## Checklist
+
+- Confirm jurisdiction/venue/rule invoked
+- Caption matches docket
+- Relief is specific and narrowly tailored
+- Facts are dated; exhibits labeled; cites pinpointed
+- Proposed Order attached
+- Certificate of Service (COS) correct
+
+## Steps
+
+Draft with the template → swap brackets → attach dated exhibits → add Proposed Order → final pass for local‑rule formatting.
+
+**9.1-annotated-motion/templates/Motion_Template_Annotated.md**
+
+[COURT]
+
+[CAPTION]
+
+PLAINTIFF’S [TITLE OF MOTION] UNDER [RULE/STATUTE]
+
+INTRODUCTION
+
+State what you want, why the law allows it, and where the record shows it. 3–6 sentences.
+
+FACTS
+
+Dated, short paragraphs; each cites an exhibit or docket entry.
+
+ARGUMENT
+
+A. Standard (rule/case + pinpoint)
+
+B. Application (one subsection per element)
+
+C. Narrow Relief (scope/duration/bond)
+
+RELIEF REQUESTED
+
+Numbered orders mirroring the Proposed Order.
+
+CERTIFICATE OF SERVICE
+
+Who/what/how/when; addresses; signature.
+
+**9.1-annotated-motion/cards/Field_Card.md**
+
+- *Ask:** What’s the rule? What’s the element? Where’s the dated proof? What’s the narrow relief?
+- *Attach:** Exhibits (dated), Proposed Order, COS.
+- *Before → After pattern**
+
+“Do justice” → “Move under Rule __ for __ because [dated cite] meets Element __.”
+
+**9.2-pro-se-deposition**
+
+# 9.2 — Pro Se Deposition Checklist (You as Deponent)
+
+- *Before**: read notice; calendar limits; confirm location/remote rules; binder (pleadings index, elements sheet, errata); define privilege/privacy/scope zones; practice with an ally.
+- *During (4 P’s)**: Pause → Paraphrase → Pinpoint → Pass. Answer only what was asked; request the document if referenced.
+- *After**: review transcript; errata with reasons; serve on time; log admissions.
+
+**9.2-pro-se-deposition/checklists/Deposition_Checklist.md**
+
+- Listen fully → Pause (2–3 sec)
+- Paraphrase ambiguous questions
+- Pinpoint with dates
+- Pass if you don’t know; do not guess
+- “If you have the document, please show it to me.”
+
+**9.2-pro-se-deposition/cards/Field_Card.md**
+
+Answers end with a period. Use dates, not adjectives. Protect privilege/privacy/scope.
+
+**9.3-evidence-objections**
+
+# 9.3 — Rules of Evidence: Quick Objection Cards
+
+Use plain‑English triggers & scripts for depositions, hearings, and trial.
+
+**9.3-evidence-objections/cards/Objection_Cards.md**
+
+Relevance — “Objection, relevance; move to strike as not probative.”
+
+Hearsay — “Objection, hearsay; no exception applies.”
+
+Foundation — “Objection, lack of foundation.”
+
+Assumes Facts — “Objection, assumes facts not in evidence.”
+
+Speculation — “Objection, calls for speculation.”
+
+Privilege — “Objection, attorney‑client/work product.”
+
+**9.4-discovery-builder**
+
+# 9.4 — Discovery Request Builder (RFPs/Interrogatories)
+
+Element → Fact Gap → Request. Define timeframe and custodians. Pair each RFP with an Interrogatory.
+
+- *Before → After Example**
+
+Before: “All documents regarding Plaintiff.”
+
+After: “All emails/texts/Teams‑Slack between Krouner and Shipley (08/01/2025–09/30/2025) referencing Plaintiff, the Aug 19 or Sept 6 meetings. Custodians: Krouner, Shipley, HR Director. Formats: PST/MSG/CSV.”
+
+**9.4-discovery-builder/models/Discovery_Request_Builder.md**
+
+RFP‑1: All communications between [names] from [date1–date2] re [protected activity].
+
+ROG‑1: Identify adverse actions; decision‑makers; dates; stated reasons.
+
+Instructions: define terms; list custodians; specify formats; limit timeframe.
+
+**9.4-discovery-builder/cards/Field_Card.md**
+
+Element → Fact Gap → Request. Timeframe + Custodian + Format. Pair RFP with a confirming Interrogatory.
+
+**9.5-safe-harbor**
+
+# 9.5 — Sanctions “Safe Harbor” Kit (Rule 11‑style)
+
+Serve compliant notice; wait the window; then file motion with certification.
+
+**9.5-safe-harbor/templates/Safe_Harbor_Notice.txt**
+
+[Date]
+
+Via [Method]
+
+Re: Rule 11 Safe‑Harbor — [Case]
+
+Notice that [ECF ##, date] contains [violations]. Withdraw/correct within [XX] days or we will move for sanctions.
+
+Pinpoints: 1) [line/page] — [why false/legally baseless] ...
+
+/s/ [Name]
+
+**9.5-safe-harbor/templates/Sanctions_Motion_Outline.md**
+
+Jurisdiction/Rule → Standard → Violations (pinpoint) → Requested Relief → Safe‑Harbor Certification
+
+**9.6-docket-hygiene-cos**
+
+# 9.6 — Docket Hygiene & COS Pack
+
+Prevent avoidable returns/misclassification; keep templates close.
+
+**9.6-docket-hygiene-cos/templates/COS_Mail.txt**
+
+CERTIFICATE OF SERVICE
+
+I certify that on [date] I served the foregoing [document] by [method] on: [names/addresses].
+
+I declare under penalty of perjury that the foregoing is true and correct.
+
+/s/ [Name]  [Address]  [Email]  [Phone]
+
+**9.6-docket-hygiene-cos/templates/COS_Personal.txt**
+
+CERTIFICATE OF SERVICE (Personal Delivery)
+
+I certify that on [date] I personally delivered the foregoing [document] to: [names/addresses].
+
+I declare under penalty of perjury that the foregoing is true and correct.
+
+/s/ [Name]  [Address]  [Email]  [Phone]
+
+**9.6-docket-hygiene-cos/templates/Mailing_Cover_Letter.txt**
+
+[Your Letterhead]
+
+[Date]
+
+RE: Submission for Docketing — [Case]
+
+Enclosed: [list]. Kindly stamp/file and forward as appropriate.
+
+Contact me at [phone/email] if clarification is required.
+
+Respectfully,
+
+/s/ [Name]
+
+**9.6-docket-hygiene-cos/templates/Proposed_Order_Shell.txt**
+
+[COURT]
+
+[CAPTION]
+
+[PROPOSED] ORDER
+
+Having reviewed [motion title] and the record, the Court ORDERS:
+
+1) [Specific relief]
+
+2) [Timing]
+
+3) [Any bond/conditions]
+
+IT IS SO ORDERED.
+
+Dated: ________                 ___________________________
+
+[Judge]
+
+**9.6-docket-hygiene-cos/flow/Service_Flow.txt**
+
+Identify parties & capacities → Choose method per rule → Calendar deadlines → Serve → File COS (addresses/method/date) → Track returns → Cure defects.
+
+**9.7-responding-to-discovery**
+
+# 9.7 — Responding to Discovery (Objections & Answers)
+
+Calendar deadline; make **specific** objections; answer to the extent not objectionable; log privilege.
+
+**9.7-responding-to-discovery/templates/RFP_Response_Template.md**
+
+PLAINTIFF’S RESPONSES & OBJECTIONS TO DEFENDANT’S FIRST RFPs
+
+General Objections are **not** incorporated.
+
+RFP 1: [quoted]
+
+Response: Objection — [specific]. Without waiving, Plaintiff will produce non‑privileged emails and texts from [dates] for custodians [list], subject to protective order. Production on a rolling basis beginning [date].
+
+**9.7-responding-to-discovery/templates/Interrogatory_Response_Template.md**
+
+INTERROGATORY 3: [quoted]
+
+Answer: Objection — overly broad as to “all facts.” Without waiving, the material facts are: (1) [dated fact + cite]; (2) [dated fact + cite]. Investigation continues; Plaintiff reserves the right to supplement under Rule 26(e).
+
+**9.7-responding-to-discovery/templates/Privilege_Log.csv**
+
+Doc ID,Date,Author,Recipients,Description (no privileged content),Privilege asserted,Bates withheld/partial
+
+**9.8-mediation-settlement**
+
+# 9.8 — Mediation & Settlement Pack
+
+Arrive with a one‑page term sheet and a BATNA/WATNA score.
+
+**9.8-mediation-settlement/templates/Term_Sheet.md**
+
+Parties; Effective date; Consideration ($ and non‑$); Payment schedule; Tax language;
+
+Scope of release (claims/parties/timeframe); Dismissal form; No admission; Confidentiality (if any);
+
+Non‑disparagement; Non‑retaliation; Neutral reference; Return of property/records; Enforcement jurisdiction; Fees/costs; Signatures; Execution deadline.
+
+**9.8-mediation-settlement/tools/BATNA_WATNA_Worksheet.xlsx**
+
+[Missing: /mnt/data/FGA_v1_1/tier-09-armory/9.8-mediation-settlement/tools/BATNA_WATNA_Worksheet.xlsx | 'utf-8' codec can't decode byte 0x8f in position 22: invalid start byte]
+
+# Tier 10 — War College
+
+**10.1-deconstruct-mtd**
+
+# 10.1 — Deconstructing a Motion to Dismiss
+
+Highlight law/facts/conclusions/rhetoric. Draft 2‑page opposition outline.
+
+**10.1-deconstruct-mtd/keys/Model_Outline.md**
+
+Standard → Element 1 (protected activity: dated emails) → Element 2 (causation: proximity + admissions) → Relief (deny or grant leave to amend).
+
+**10.2-anatomy-of-appeal**
+
+# 10.2 — Anatomy of an Appeal
+
+Final order → clock → preserved errors → issues presented (≤3) → standard of review → appendix index.
+
+**10.3-next-move**
+
+# 10.3 — What’s the Next Move? (Live Scenarios)
+
+Pending PI + partial service; formatting return + looming SOL; surprise stay → write two filings & why.
+
+**10.4-vexatious-trap**
+
+# 10.4 — The Vexatious Litigant Trap
+
+Use a filing matrix, purpose statements, and the Notice of Non‑Duplicative Filing template.
+
+**10.4-vexatious-trap/tools/Notice_of_Non_Duplicative_Filing.md**
+
+[COURT]
+
+[CAPTION]
+
+NOTICE OF NON‑DUPLICATIVE FILING
+
+This filing is **not duplicative**. It addresses **new** facts/events dated [dates] and seeks **distinct relief** not requested in ECF [##].
+
+| Prior Filing (ECF/date) | This Filing (title/date) | New Facts (dated) | New Rule/Relief |
+
+|---|---|---|---|
+
+/s/ [Name]  [Date]
+
+**10.5-mediation-lab/scenarios/Set_1.md**
+
+Court‑ordered mediation in 21 days; defense offers confidentiality + global release. Draft a term sheet; mark unacceptable clauses; compute present value under two timelines.
+
+**10.5-mediation-lab/keys/Mediation_Set_1.md**
+
+Model answers: narrow confidentiality; mutual non‑disparagement with carve‑outs; neutral reference language; PV calculator in worksheet.
+
+# Tier 11 — Public Square
+
+**11.1-procedural-press-release/templates/Press_Release.txt**
+
+FOR IMMEDIATE RELEASE — [City, Date]
+
+Headline: Legal Calculus Launches FGA — Advanced Toolkits for Pro Se Litigants
+
+Today, the Legal Calculus Education System released “Field Guide Advanced (FGA),” a set of operational toolkits that convert strategy into filings. Tier 9 (The Armory) ships annotated motion templates, a deposition checklist, pocket evidence objection cards, a discovery request builder, a Rule 11 safe‑harbor kit, and a docket hygiene & certificate‑of‑service (COS) pack.
+
+Why it matters: FGA helps self‑represented litigants reduce preventable errors, preserve rights on the record, and translate dates and exhibits into targeted relief.
+
+What’s next: Tier 10 adds case‑lab scenarios with model answers; Tier 11 publishes a public‑square kit for media and legislative testimony.
+
+Contact: [Name, email, phone]
+
+Archive: [public archive URL]
+
+**11.1-procedural-press-release/outreach/Email_Pitch.txt**
+
+Subject: New: Practical legal toolkits for pro se litigants (FGA Tier 9)
+
+Hi [Name],
+
+We just released FGA — a free set of motion/discovery/objection templates for real cases. It’s concrete, printable, and classroom‑ready. Happy to share a 10‑minute walkthrough and a sample case archive.
+
+— [Name]
+
+**11.2-public-archive-site/blueprints/One_Page_Site.md**
+
+Sections: Start Here · Timeline · Filings (PDF/Doc) · Exhibits · Orders · Press · About/Contact.
+
+Checklist: date + ECF on every item; redact PII; alt‑text; mirror to GitHub/Drive.
+
+**11.3-testifying-from-record/kits/Testimony_Kit.md**
+
+Opening (3 min, facts only, dated) → “Record Packet” (≤10 pages) → Q&A bank (jurisdiction, due process, docket delay, sanctions misuse).
+
+**11.4-litigant-as-educator/syllabus/90min_Class.md**
+
+0–10: Case overview • 10–35: Record literacy mini‑lecture • 35–60: Small‑group “What’s next?” • 60–80: Report‑out & model answers • 80–90: Take‑home & feedback form.
