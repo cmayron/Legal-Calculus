@@ -1,0 +1,2 @@
+unzip github_vNext_bundle_PRINT_FINAL.zip
+bash push_to_github_print.sh
