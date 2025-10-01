@@ -1,0 +1,133 @@
+**itle:** Notion  to [Relief Requested]
+
+**FG Card Reference:** FG-[Code]
+
+**Jurisdiction:** [Court Name, Location]
+
+**Matter:** [Case Name]
+
+**Filed By:** [Party Name, Role]
+
+**Date:** [Draft Date]
+
+---
+
+### I. Caption Block
+
+```
+[Your Name]
+[Your Address]
+[Your Phone Number]
+[Your Email Address]
+Pro Se Litigant / Plaintiff / Defendant
+
+IN THE [COURT NAME]
+[COUNTY], [STATE]
+[CASE NUMBER]
+
+[Your Name],
+  Plaintiff,
+    v.
+[Opposing Party Name],
+  Defendant.
+
+MOTION TO [RELIEF REQUESTED]
+
+```
+
+---
+
+### II. Introduction
+
+> Comes now [Your Name], appearing pro se, and respectfully moves this Court to [brief summary of relief], pursuant to [governing rule or statute].
+> 
+
+---
+
+### III. Procedural Posture
+
+- Date complaint filed: [Date]
+- Date of last ruling: [Date]
+- Current deadline or hearing: [Date]
+- Related FG cards: [FG-XXX, FG-YYY]
+- Related JC reflexes: [JC-XXX, JC-YYY]
+
+---
+
+### IV. Statement of Facts
+
+- Use numbered paragraphs
+- Include dates, events, and parties
+- Reference exhibits (e.g., “See Exhibit A”)
+- Use clean, declarative language
+
+---
+
+### V. Legal Standard
+
+> Under [Rule or Statute], the Court may grant [type of relief] when [standard].
+> 
+> 
+> Courts have held that [precedent or principle].
+> 
+
+---
+
+### VI. Argument
+
+Break into subsections if needed:
+
+- A. [First Legal Point]
+- B. [Second Legal Point]
+- C. [Equitable Considerations or Public Interest]
+
+Use citations, logic, and references to exhibits. Embed JC reflex counters if applicable.
+
+---
+
+### VII. Relief Requested
+
+> WHEREFORE, Plaintiff respectfully requests that this Court:
+> 
+> 1. [Primary relief]
+> 2. [Alternative relief, if any]
+> 3. [Any other relief deemed just and proper]
+
+---
+
+### VIII. Signature Block
+
+```
+Respectfully submitted,
+[Your Name]
+[Date]
+
+```
+
+---
+
+### IX. Certificate of Service
+
+> I certify that on [Date], I served a copy of this motion on [Opposing Party Name] via [Method].
+> 
+
+---
+
+### 🔁 AI Handoff Protocols
+
+- **Builder (ChatGPT):**
+    
+    Use this template to generate first draft. Pull facts from Intake Sheet and exhibits from Registry.
+    
+- **Strategist (Gemini):**
+    
+    Stress-test for procedural posture, JC reflexes, and logical gaps. Flag weak exhibits or overbroad relief.
+    
+- **Architect (Notion AI):**
+    
+    Archive final version, link to FG card, update Exhibit Registry and JC Reflex Log.
+    
+
+---
+
+Here’s a professional-grade **Motion Duplication Template** for your LCES workspace—designed for repeatable drafting across case types, jurisdictions, and AI handoffs. This template can be embedded in Notion as a page or database item, and used by ChatGPT (Builder) to generate first drafts, Gemini (Strategist) to stress-test, and Notion AI (Architect) to archive and version.
