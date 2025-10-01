@@ -1,0 +1,96 @@
+Create a top-level page titled:
+
+**LCES Matter Dashboard – Coalition Edition**
+
+Then add the following subpages and databases:
+
+---
+
+### 🗂️ 1. **FG Card Registry** (Linked Database)
+
+**Purpose:** Track procedural actions, triggers, and execution status.
+
+**Properties:**
+
+- FG Code (e.g., FG-301)
+- Title (e.g., File Answer to Eviction)
+- Trigger (e.g., Received summons)
+- Status (Not Started / In Progress / Done)
+- Linked Modules (LC lessons, JC reflexes)
+- Draft Attached (link to document or AI output)
+- Tags (Eviction, Civil Rights, Family Law, Federal)
+
+**Suggested View:** Gallery or Table
+
+---
+
+### 🧠 2. **JC Reflex Log** (Linked Database)
+
+**Purpose:** Track anticipated courtroom dynamics and your prepared counters.
+
+**Properties:**
+
+- JC Code (e.g., JC-011)
+- Reflex (e.g., “You didn’t pay rent”)
+- Counter Strategy (e.g., Show receipts, assert habitability)
+- Linked FG Cards
+- Status (Ready / Drafting / Not Started)
+- Notes (judge tendencies, ops buddy rehearsal)
+
+**Suggested View:** Table or Board (by status)
+
+---
+
+### 📁 3. **Exhibit Registry** (Linked Database)
+
+**Purpose:** Track evidence with discipline and integrity.
+
+**Properties:**
+
+- Exhibit Code (e.g., Exh-A)
+- Title (e.g., Mold photos)
+- Date
+- SHA-256 Hash (optional)
+- Linked FG Cards
+- Status (Indexed / Missing / Drafting)
+
+**Suggested View:** Table or Gallery
+
+---
+
+### 🧑‍🤝‍🧑 4. **Ops Buddy Tracker** (Optional)
+
+**Purpose:** Track support roles and assignments.
+
+**Properties:**
+
+- Task (e.g., Serve Answer)
+- Assigned To
+- Status
+- Notes
+
+**Suggested View:** Board or Table
+
+---
+
+### 📣 5. **Coalition Onboarding Portal**
+
+**Subpage Title:** *Welcome to LCES: Build Procedural Memory Together*
+
+**Sections:**
+
+- What Is LCES?
+- How the Legal Action Loop Works
+- How to Use FG Cards and JC Reflexes
+- How to Contribute (propose cards, share cases, translate modules)
+- Badge System (Builder, Strategist, Archivist, Ops Buddy, Ritual Keeper)
+
+**Optional Add-ons:**
+
+- Embedded video walkthrough
+- Festival kit for public launch
+- Ritual calendar (if activated later)
+
+---
+
+Would you like me to generate the actual Notion page content for each section—ready to paste and customize? I can also help you build a sample case workspace (e.g., Tenant Defense or Civil Rights) with preloaded FG cards, JC reflexes, and exhibits. Let’s keep building.
