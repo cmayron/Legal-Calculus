@@ -1,0 +1,31 @@
+Matter Dashboard — Notion Import Pack
+====================================
+
+This ZIP contains four CSV templates to spin up your Matter Dashboard in Notion:
+
+1) MatterDashboard_Issues.csv      → Master Issues List
+2) MatterDashboard_Exhibits.csv    → Exhibit Registry
+3) MatterDashboard_Service.csv     → Service Matrix
+4) MatterDashboard_Quality.csv     → Quality Bar Scorecard
+
+Quick Start (Notion)
+--------------------
+1. In Notion: / → “Table – Full page” → “Import” → choose CSV.
+2. Import each CSV as its own database (Issues, Exhibits, Service, Quality).
+3. Add relations:
+   • Issues ↔ Exhibits (Where Cited)
+   • Issues ↔ Service (Linked Issue)
+   • Issues ↔ Quality (Filing ID or Issue)
+4. Add views:
+   • Issues: Timeline (by Deadline), Risks (P0), This Week
+   • Exhibits: Uncited filter (Where Cited is empty)
+   • Service: Upcoming (Date Served empty), Proof Log (gallery)
+   • Quality: Open Gaps (unchecked items)
+
+Tips
+----
+• Keep exhibit hashes (SHA-256) in the registry; store originals and annotated copies.
+• Use consistent naming: YYYY-MM-DD_doc-type_vX_author.docx
+• Schedule Daily Ritual (10 min) + Weekly Retro (15 min) as calendar views.
+• Invite an “ops buddy” to your workspace for light accountability.
+
