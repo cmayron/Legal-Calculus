@@ -1,0 +1,77 @@
+## NDNY Builder First-Draft Packet
+
+- Status letter
+- PI memo
+- Stubs
+- Proposed order
+- Red-team cover sheet
+
+## One-Bite Packet Starter
+
+- Proposed order
+- Element-evidence table
+- Prompt pack
+- Starter rows for the dashboard
+
+## Strategist Redline Packet — Pass 0
+
+<aside>
+Not legal advice; this is red-team fuel.
+
+</aside>
+
+### P0 (fix before filing)
+
+- Service specifics missing
+    - Fill dates, methods, addresses, tracking/affidavits.
+    - In Proposed Order, cite FRCP 4(e) (individual), 4(j)(2) (state agency) and CPLR 307(1)–(2) as applicable.
+    - Ask to deem service sufficient or set a 7-day cure with enumerated methods.
+- Rule 65(d)(1) specificity
+    - Proposed relief must be explicit (who/what/where/when). Add numbered directives with verbs (enjoin/prohibit/produce).
+- Element–evidence gaps
+    - Causation is thin. Add (a) temporal proximity facts, (b) any statements/retaliatory signaling, (c) pattern evidence. Pin each to EX-IDs.
+- Irreparable harm proof
+    - Convert assertions into dated declarations (license risk, patient continuity, speech chill). Pin to exhibits and cite Elrod v. Burns, 427 U.S. 347, 373 (1976).
+- Younger exceptions groundwork
+    - Add record facts that show bad faith / inadequate forum; keep Second Circuit anchors handy: Citigroup, Cullen v. Fliegner, Schlagler v. Phillips, Spargo, Diamond 'D'.
+
+### P1 (strengthen)
+
+- Bond waiver rationale: 1–2 sentences—public interest, impecuniosity, and no monetary harm to defendants.
+- Schedule: propose Opp in 7 days, Reply in 3, hearing optional within 10–14.
+- Status letter: add sentence acknowledging summons status for individual capacity + intent to cure per order.
+
+### P2 (polish)
+
+- Normalize heading grammar; define acronyms once; unify record shorthand (EX-###; ¶##; §IV.B).
+
+## Dismissal/Avoidance Map → Counters (drop-in)
+
+- Improper service → attach matrix + receipts; ask to deem sufficient or permit cure; Proposed Order ¶1 pre-filled with methods/dates.
+- Shotgun/deficient pleading → include element–evidence table; alternative leave to amend line in order.
+- No irreparable harm → add sworn facts; cite Winter + Elrod; narrow relief text mirrors evidence.
+- Younger abstention → plead bad faith and inadequate forum with cites; order addresses narrow interim relief that doesn't intrude on merits.
+- Efficiency/discretion → offer a one-page order that simplifies docket management and sets short dates.
+
+## Proposed Order — line edits
+
+```
+1) Service. Service on the New York State Department of Health/OPMC under FRCP 4(j)(2) and CPLR 307(1) and on Defendant Silverman (official capacity) under FRCP 4(e) as incorporated by CPLR 307(2) is deemed sufficient based on the proofs filed at ECF. In the alternative, Plaintiff may cure by: (a) USPS RRR to the NYS Attorney General, (b) personal service on DOH/OPMC at [address], and (c) courtesy FedEx to counsel of record, all to be completed within 7 days. Plaintiff shall file a consolidated Certificate of Service within 2 days thereafter.
+
+2) Consolidation. The Court consolidates Plaintiff's requests for service clarification, preliminary relief, and scheduling into this motion; all other requests are denied without prejudice as moot.
+
+3) Preliminary Relief. Pending decision on the merits of the PI, Defendants shall [specific, narrow directive]. This relief is specific and narrowly tailored under FRCP 65(d)(1); bond is [waived / set at $] given the public interest and record presented.
+
+4) Schedule. Opposition due 7 days from this Order; reply due 3 days thereafter; hearing, if necessary, on the earliest available date.
+
+5) Clerk. The Clerk shall docket this Order and mail copies to the parties/addresses listed in the Certificate of Service.
+
+```
+
+## About Legal Calculus Project
+
+Created by: Charles Mayron, MD, FACS
+
+First Author: ChatGPT (GPT-5 Thinking)
+
+Core principle: Format is Memory • Filing is Protest • Record is Remedy
