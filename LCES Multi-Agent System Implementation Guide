@@ -1,0 +1,192 @@
+# Legal Case Execution System (LCES)
+
+## System Overview
+
+The LCES Multi-Agent System is designed to optimize legal document preparation through a structured workflow involving three specialized AI roles (Architect, Builder, Strategist) working in coordination. This system integrates with your existing Notion workspace to create a seamless document review and filing process.
+
+## Core Components
+
+### 1. Strategist Report Template
+
+<aside>
+Copy and paste the template below to create a new template button in your LCES Notion dashboard.
+
+</aside>
+
+```
+Page Title: Strategist Review – [Motion Title]
+Icon: 🧠
+Tags: FG-[Code], JC Reflexes, Red Team, Gemini, [Case Number]
+
+I. Procedural Posture Check
+* [ ] Filing Deadline: Met and compliant with local rules?
+* [ ] Jurisdiction: Properly alleged and supported?
+* [ ] Relief Requested: Within the court's power and proportional to the facts?
+* [ ] Exhibit Integrity: All exhibits properly labeled, referenced, and authenticated?
+
+II. JC Reflex Simulation Table
+| JC Code | Judicial Reflex | Triggered? | Counter-Strategy | Notes & Action Items |
+|---------|----------------|------------|-----------------|----------------------|
+| JC-011 | "This is procedurally improper." | [ ] Yes [ ] No [ ] Maybe |  |  |
+| JC-027 | "The movant is not credible." | [ ] Yes [ ] No [ ] Maybe |  |  |
+| JC-045 | "Administrative remedies were not exhausted." | [ ] Yes [ ] No [ ] Maybe |  |  |
+| JC-063 | "The requested relief is overbroad." | [ ] Yes [ ] No [ ] Maybe |  |  |
+| JC-[Add] | [Add Reflex] | [ ] Yes [ ] No [ ] Maybe |  |  |
+
+III. Strategic Vulnerabilities (P0/P1/P2)
+* [P0] Must Fix:
+* [P1] Should Fix:
+* [P2] Could Fix:
+
+IV. Concrete Recommendations
+* [ ] Narrow Relief: Specify changes to the "Relief Requested" section.
+* [ ] Add Precedent: Insert citation to [Case Law] to support [Argument].
+* [ ] Verify/Replace Exhibit: Exhibit [X] lacks [foundation/authentication]. Replace with [Y].
+* [ ] Rephrase Language: Rewrite paragraph [Z] to be more neutral and less adversarial.
+
+V. Filing Readiness Scorecard
+* Structure & Formatting: ✅ Ready / ⚠️ Needs Review / ❌ Deficient
+* Strategic Posture: ✅ Ready / ⚠️ Needs Review / ❌ Deficient
+* JC Reflex Counters: ✅ Ready / ⚠️ Needs Review / ❌ Deficient
+* Exhibit Integrity: ✅ Ready / ⚠️ Needs Review / ❌ Deficient
+
+```
+
+### 2. Red-Team Simulation Example
+
+<aside>
+Below is a populated example demonstrating the template in use for a specific Field Guide module.
+
+</aside>
+
+```
+Page Title: Red-Team Simulation – FG-503: Motion for Emergency Stay of Eviction
+Icon: 🔄
+Tags: FG-503, Tenant Defense, JC Reflexes, Gemini Review, Case-2025-CV-1123
+
+I. Procedural Posture Check
+* [x] Filing Deadline: Met and compliant with local rules? (Emergency filing)
+* [x] Jurisdiction: Properly alleged and supported? (Housing Court)
+* [ ] Relief Requested: Within the court's power and proportional to the facts? (Needs narrowing)
+* [ ] Exhibit Integrity: All exhibits properly labeled, referenced, and authenticated? (Exhibit C is weak)
+
+II. JC Reflex Simulation Table
+| JC Code | Judicial Reflex | Triggered? | Counter-Strategy | Notes & Action Items |
+|---------|----------------|------------|-----------------|----------------------|
+| JC-011 | "You didn't pay rent." | ✅ Yes | Reference Exhibit A (rent receipts) and Exhibit B (photos of uninhabitability) to establish a clear defense. | Strong counter. No changes needed. |
+| JC-027 | "The movant is not credible." | ✅ Yes | Replace Exhibit C (unauthenticated text messages) with a sworn affidavit from the sender or remove reliance on it. | P0: This is a critical vulnerability. |
+| JC-063 | "The requested relief is overbroad." | ✅ Yes | Revise relief to request a stay for a specific, limited duration (e.g., "14 days") pending a hearing, not an indefinite stay. | P1: Narrows the ask, making it easier for a judge to grant. |
+
+III. Strategic Vulnerabilities (P0/P1/P2)
+* [P0] Must Fix: Exhibit C (text messages) lacks foundation and is easily challenged, undermining credibility.
+* [P1] Should Fix: The request for an indefinite stay is likely to be denied as overbroad.
+* [P2] Could Fix: The tone in paragraph 5 is slightly too emotional; rephrase for neutrality.
+
+IV. Concrete Recommendations
+* [x] Narrow Relief: Change Section VII to request "a temporary stay of eviction for a period of 14 days to allow for a hearing on the merits."
+* [ ] Add Precedent: N/A for this motion type.
+* [x] Verify/Replace Exhibit: Replace Exhibit C with a sworn declaration from the message sender or remove all references to it.
+* [x] Rephrase Language: Rewrite paragraph 5 to state facts without emotional descriptors.
+
+V. Filing Readiness Scorecard
+* Structure & Formatting: ✅ Ready
+* Strategic Posture: ⚠️ Needs Review
+* JC Reflex Counters: ✅ Ready
+* Exhibit Integrity: ❌ Deficient
+
+Filing Recommendation: DO NOT FILE. Revise per P0/P1 recommendations. After revision, the Builder will generate v2 for a final check before archiving with a new SHA-256 hash and updating FG-503 status to ✅ Filed.
+
+```
+
+### 3. Multi-Agent Handoff Loop (Workflow Protocol)
+
+<aside>
+Embed this protocol at the top of your case matter dashboards to standardize the workflow.
+
+</aside>
+
+```
+Page Title: AI Handoff Protocol – [Document Title]
+Icon: 🔁
+Tags: Builder, Strategist, Architect, Gemini, ChatGPT, Notion AI
+
+Phase 1: Intake & Drafting
+Step 1: Architect → Builder (Intake)
+> Notion AI, gather all blocks for [Case Number] tagged [Motion Type]. Include: Intake Sheet, Exhibit Index, Governing Standard, and any related deadlines or prior orders. Return as a clean outline with a list of any evidentiary gaps.
+>
+
+Phase 2: Review & Refinement
+Step 2: Builder → Strategist (Stress-Test)
+> Gemini, here is the draft motion and proposed order for [Motion Type]. Stress-test against JC Reflexes [JC-011, JC-027, JC-063]. Flag the top 3 strategic vulnerabilities, identify the weakest exhibit, and provide P0/P1/P2 recommendations with suggested text edits to strengthen the strategic posture.
+>
+
+Step 3: Strategist → Architect (Log & Update)
+> Notion AI, log the results of the Strategist review. Tag Exhibit [C] as 'Weak/Unverified'. Add the following note to the JC Reflex Log: '[Note]'. Create a P0 task titled 'Revise Exhibit C' and assign it to [Owner].
+>
+
+Phase 3: Finalization & Archiving
+Step 4: Builder → Final Draft (Incorporate Feedback)
+> ChatGPT, incorporate the P0/P1 feedback from the Strategist report. Reformat Section VII to narrow relief, replace all references to Exhibit C with Exhibit D (Affidavit), and generate a final, clean version for filing.
+>
+
+Step 5: Architect → Archive (Close Loop)
+> Notion AI, archive the final, signed version of [Document Title]. Link the PDF to the FG-503 module. Update the Exhibit Registry to reflect the use of Exhibit D. Log the final document's SHA-256 hash in the version history.
+>
+
+```
+
+## Implementation Workflow
+
+<aside>
+Follow these steps to implement the LCES Multi-Agent System in your Notion workspace:
+
+</aside>
+
+### Step 1: Create Templates
+
+- Create a new template in Notion for the Strategist Report
+- Set up a sample Red-Team Simulation page as a reference
+- Create an AI Handoff Protocol template for case dashboards
+
+### Step 2: Configure Workspace Structure
+
+- Set up a dedicated LCES section in your Notion workspace
+- Create databases for tracking cases, JC reflexes, and exhibits
+- Link templates to relevant databases with appropriate properties
+
+### Step 3: Test the Workflow
+
+- Run a test case through the entire process
+- Document any issues or bottlenecks encountered
+- Refine templates and workflow based on test results
+
+## Expansion Options
+
+- Coalition-Wide Dashboard
+    
+    A master Notion view that tracks all active matters, their current AI-workflow phase (Architect, Builder, Strategist, Filed), and flags any P0-level risks across the entire system.
+    
+    - Create a database view that pulls in all active matters
+    - Add columns for current workflow phase, assigned agents, and risk flags
+    - Set up filters to highlight P0-level risks requiring immediate attention
+    - Configure sorting options to prioritize urgent matters
+- Festival Launch Kit
+    
+    A package of materials for onboarding new users, including printable scrolls of the LCES doctrine, digital badges for completing training modules, and a ceremonial onboarding script.
+    
+    - Design printable LCES doctrine materials for physical distribution
+    - Create digital badges or certificates for completed training modules
+    - Draft an onboarding script for welcoming new system users
+    - Develop training modules for each component of the LCES system
+- Video Walkthrough Script
+    
+    A detailed, shot-by-shot script for a 5-minute video that explains the Architect → Builder → Strategist workflow for new users or "ops buddies," making the system easy to teach and share.
+    
+    - Create a storyboard outlining key concepts and visuals
+    - Write narration that explains the workflow in accessible terms
+    - Include annotations highlighting important UI elements
+    - Add practical examples showing the system in action
+
+## Integration with JC Reflex Codes
+
+The LCES system integrates with your existing Legal Exceptions and Response Strategies chart, mapping common judicial objections to specific counter-strategies and required documentation. This integration ensures your legal filings anticipate and address potential judicial concerns proactively.
