@@ -1,0 +1,30 @@
+**& Why it’s unique**
+
+- Outcome → Work Backwards. Most legal tools start from doctrine or templates; LCES starts from the result you need and engineers the procedural path to force clean yes/no gates.
+- AI Triad with roles (Architect → Builder → Strategist). Clear division prevents hallucination creep and keeps filings verifiable.
+- Format = Memory. Every filing doubles as archive: Notion ↔ GitHub sync, nightly CSV, delta logs, and appeal-ready records.
+- Pro se first, open-source. It’s designed to survive the clerk and scale through clinics, not to upsell software seats.
+
+**Why it’s not a gimmick**
+
+- It ships working automation (Notion↔GitHub, CSV exporters), templates, and modules tied to real filings.
+- It’s auditable: exhibits, service proofs, timestamps, and a public archive that anyone can inspect.
+
+**When it becomes a breakthrough (falsifiable KPIs)**
+
+Track these in the Issues Ledger for the next 30–60 days:
+
+1. Filing completeness rate (no clerk deficiencies) ≥ 90%.
+2. Time-to-file from intake to court-ready ≤ 72 hours.
+3. Gate survival: % of matters that reach a merits decision (vs. dismissed on procedure) +25% over baseline.
+4. Appeal preservation index: all required artifacts present ≥ 95%.
+5. Clinic throughput: matters per volunteer hour +30%.
+6. Adoption: ≥ 2 clinics + 1 educator using LCES materials.
+
+**Risks & counters**
+
+- Judicial/clerk resistance: lean on precision checklists + proposed orders + record-building (the archive is the appeal).
+- AI reliability: keep the Triad roles, source every factual claim to the Verified Record, and run Gauntlet red-team before filing.
+- Complexity: keep the Quick-Start cookbook and seed issues; automate the rest.
+
+Verdict: LCES is already unique. If the metrics above move the needle in live matters, it’s a breakthrough—because it turns procedure into a reproducible system the public can use.
