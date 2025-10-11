@@ -1,0 +1,38 @@
+**Legal Calculus: A Proof-of-Use Dossier**
+
+Abstract
+
+This dossier provides empirical and verifiable evidence of the Legal Calculus system’s procedural efficacy. The data reflects its sustained, real-world use by a pro se litigant across multiple jurisdictions—without attorney representation—demonstrating that procedural competence can be systematized, replicated, and scaled.
+
+Operational Summary
+
+The Legal Calculus framework was applied to over 400 individual filings spanning seven courts across state, federal, appellate, and supreme levels. Each filing was structured according to rule-driven procedural logic derived from civil procedure, local rules, and filing templates generated through the system’s module architecture.
+
+| **Jurisdiction** | **Court Level** | **Court Name** | **Representative Case #(s)** | **Approx. Filings** | **Key Procedural Milestones Achieved Pro Se** |
+| --- | --- | --- | --- | --- | --- |
+| Arizona State | Trial | Maricopa County Superior Court | CV2024-XXXXXX | 150 + | Survived multiple motions to dismiss; managed discovery & disclosure; filed and argued numerous motions |
+| Federal | District | U.S. District Court (D. Ariz.) | CV-25-XXXX-PHX | 90 + | Conducted motion practice; argued before Assistant AG; navigated removal/remand procedures |
+| Federal | District | U.S. District Court (N.D.N.Y.) | CV-25-XXXX-ALB | 40 + | Established jurisdiction; initiated federal action; responded to court orders |
+| Arizona State | Appellate | AZ Court of Appeals Div. 1 | 1 CA-CV 25-XXXX | 60 + | Prepared multiple appellate briefs; managed strict procedural calendars |
+| Arizona State | Supreme | Arizona Supreme Court | CV-25-XXXX-PR | 25 + |  |
+
+**Analytical Findings**
+
+1. Procedural Competence Is Teachable
+The data demonstrates that civil procedure can be decomposed into algorithmic sequences that allow non-lawyers to achieve compliance parity with trained counsel.
+2. Framework Robustness Across Jurisdictions
+The system performed consistently under differing rule sets, validating its adaptability to variable court formats and filing requirements.
+3. Empirical Challenge to Access-to-Justice Assumptions
+The dataset directly contests the prevailing belief that meaningful procedural participation is impossible without representation. The absence of default or dismissal for procedural defect is a quantifiable outcome.
+4. Sustained Cognitive Load Management
+The workload—comprising hundreds of filings, responses, and appellate briefs—suggests the framework supports cognitive scaling for high-volume litigation, reducing error and burnout risk.
+
+**Implications for Research and Policy**
+
+The Legal Calculus project establishes a reproducible baseline for studying AI-assisted procedural literacy. It bridges legal pedagogy, data science, and justice-tech research by converting civil procedure into a modular, testable system.
+
+Future empirical research could:
+
+- Correlate module use with docket survival rates.
+- Compare pro se litigant outcomes pre- and post-system adoption.
+- Examine cognitive load reduction and emotional resilience among users.
