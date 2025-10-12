@@ -1,0 +1,158 @@
+# Phase 1: Create Folder Structure
+
+- [ ]  Create root folder: `/briefs`
+- [ ]  Create root folder: `/appendix`
+- [ ]  Create root folder: `/addendum`
+- [ ]  Create root folder: `/oa`
+- [ ]  Create root folder: `/orders`
+- [ ]  Create root folder: `/kits`
+- [ ]  Create root folder: `/release`
+- [ ]  Create root folder: `/archive`
+
+---
+
+# Phase 2: Create Archive Subfolders
+
+- [ ]  Create: `/archive/Public`
+- [ ]  Create: `/archive/Public/Exhibits`
+- [ ]  Create: `/archive/Public/Index`
+- [ ]  Create: `/archive/Public/Summaries`
+- [ ]  Create: `/archive/Restricted`
+- [ ]  Create: `/archive/Restricted/Unredacted`
+- [ ]  Create: `/archive/Restricted/Legal_Work_Product`
+- [ ]  Create: `/archive/Press_Kit`
+- [ ]  Create: `/archive/Case_Archive`
+- [ ]  Create: `/archive/Case_Archive/00_Timeline`
+- [ ]  Create: `/archive/Case_Archive/01_Pleadings`
+- [ ]  Create: `/archive/Case_Archive/02_Exhibits`
+- [ ]  Create: `/archive/Case_Archive/03_Orders`
+- [ ]  Create: `/archive/Case_Archive/04_Notices`
+- [ ]  Create: `/archive/Case_Archive/05_FOIA`
+
+---
+
+# Phase 3: Move Files to /briefs
+
+- [ ]  Move: Bench Brief templates → `/briefs/`
+- [ ]  Move: Jurisdiction & Authority Addendum → `/briefs/`
+- [ ]  Move: Status letter templates → `/briefs/`
+- [ ]  Move: All filed complaints and motions → `/briefs/`
+- [ ]  Move: Memoranda and legal arguments → `/briefs/`
+- [ ]  Move: Anti-gamesmanship order drafts → `/briefs/`
+
+---
+
+# Phase 4: Move Files to /orders
+
+- [ ]  Move: Proposed Order templates → `/orders/`
+- [ ]  Move: Draft orders ready for signature → `/orders/`
+- [ ]  Move: Relief Palette tick-box orders → `/orders/`
+- [ ]  Move: Clerk 3-Click templates → `/orders/`
+
+---
+
+# Phase 5: Move Files to /kits
+
+- [ ]  Move: Roadmap_Kit.pdf → `/kits/`
+- [ ]  Move: All FG cards (FG-001 through FG-1000) → `/kits/FG_Cards/`
+- [ ]  Move: All FGA cards (advanced) → `/kits/FGA_Cards/`
+- [ ]  Move: Case Workspace Template → `/kits/Templates/`
+- [ ]  Move: Intake Sheet template → `/kits/Templates/`
+- [ ]  Move: Draft Pack templates → `/kits/Templates/`
+- [ ]  Move: Evidence Pack templates → `/kits/Templates/`
+- [ ]  Move: Exhibit Index template → `/kits/Templates/`
+- [ ]  Move: Hearing Kit templates → `/kits/Templates/`
+- [ ]  Move: Legal Action Loop checklist → `/kits/Checklists/`
+- [ ]  Move: Ops Buddy Log template → `/kits/Templates/`
+- [ ]  Move: Service Tracker template → `/kits/Templates/`
+- [ ]  Move: Answer/Defenses fillable doc → `/kits/Templates/`
+- [ ]  Move: Motion to Continue doc → `/kits/Templates/`
+- [ ]  Move: ADA/Interpreter/RA one-pagers → `/kits/Templates/`
+- [ ]  Move: Hearing Prep one-pager → `/kits/Templates/`
+- [ ]  Move: /rules/default.json → `/kits/Rules/`
+
+---
+
+# Phase 6: Move Files to /archive
+
+- [ ]  Move: Site_Bundle_v4.zip → `/archive/Public/`
+- [ ]  Move: Site_Bundle_v7.zip → `/archive/Public/`
+- [ ]  Move: All versioned PDFs → `/archive/Case_Archive/01_Pleadings/`
+- [ ]  Move: Timeline files → `/archive/Case_Archive/00_Timeline/`
+- [ ]  Create: Timeline.csv with 5 key dates → `/archive/Case_Archive/00_Timeline/`
+- [ ]  Move: All exhibits with Bates numbers → `/archive/Case_Archive/02_Exhibits/`
+- [ ]  Move: Court orders → `/archive/Case_Archive/03_Orders/`
+- [ ]  Move: Notices of filing → `/archive/Case_Archive/04_Notices/`
+- [ ]  Move: FOIA requests → `/archive/Case_Archive/05_FOIA/`
+- [ ]  Move: Archive bundles with proofs → `/archive/Public/`
+
+---
+
+# Phase 7: Move Files to /release
+
+- [ ]  Move: LCES_About_OnePager_DARK.pdf → `/release/Press_Kit/`
+- [ ]  Move: LCES_About_Slide_DARK.pptx → `/release/Press_Kit/`
+- [ ]  Move: Coalition onboarding slide deck → `/release/Coalition/`
+- [ ]  Move: Coalition invite letter → `/release/Coalition/`
+- [ ]  Move: Press Kit one-pager → `/archive/Press_Kit/OnePager.pdf`
+- [ ]  Move: Timeline.png → `/archive/Press_Kit/Timeline.png`
+- [ ]  Move: Top10_Exhibits.pdf → `/archive/Press_Kit/Top10_Exhibits.pdf`
+- [ ]  Move: Proof-of-Index PDF → `/release/Verification/`
+
+---
+
+# Phase 8: Create Root Files
+
+- [ ]  Create: `index.html` (main navigation page)
+- [ ]  Create: `Start_Here.html` (use quickstart content from "🧭 Choose Your Mode")
+- [ ]  Create: `Master_Index.csv` with columns: Date | Document | Type | Location | Hash
+- [ ]  Extract SHA-256 hashes from Site Bundles → `CHECKSUMS.txt`
+- [ ]  Add line: `6d2ac88a67f50c93bd0f07892265807dddfb10fc797818619615c2927b597c3c Site_Bundle_v4.zip`
+- [ ]  Add line: `7b2a4086c19bb8777ce60259eba4004c5f813a0cc9448357d7ce07859f5c3cf7 Site_Bundle_v7.zip`
+- [ ]  Create: `CHANGELOG.md` with first entry: "2025-10-12 — Initial workspace structure created"
+
+---
+
+# Phase 9: Organize Learning Modules (Keep in Notion)
+
+<aside>
+**Note:** These should remain as Notion databases or pages, NOT moved to the file structure
+
+</aside>
+
+- [ ]  Organize: LC Modules 1-119 in Notion database
+- [ ]  Organize: LCA Advanced Modules in Notion database
+- [ ]  Organize: JC Reflexes Table in Notion
+- [ ]  Organize: JC Essays in Notion
+- [ ]  Organize: LCa (Lawyer Calculus) in Notion
+- [ ]  Organize: Module Crosswalk Table in Notion
+- [ ]  Create link from `index.html` to Notion workspace
+
+---
+
+# Phase 10: Quality Control
+
+- [ ]  Verify all files moved successfully
+- [ ]  Check file naming: YYYY-MM-DD_Document-Name_v#.pdf
+- [ ]  Confirm all hashes in CHECKSUMS.txt are correct
+- [ ]  Test all links in index.html
+- [ ]  Set permissions: Public folders = read-only
+- [ ]  Set permissions: Restricted folders = access-controlled
+- [ ]  Create backup of entire structure
+- [ ]  Update Master_Index.csv with all file locations
+
+---
+
+# Phase 11: Post-Migration Setup
+
+- [ ]  Seed Timeline.csv with dates from current cases
+- [ ]  Add first [CHANGELOG.md](http://CHANGELOG.md) entry with migration details
+- [ ]  Create [README.md](http://README.md) in each major folder explaining contents
+- [ ]  Upload structure to GitHub repository
+- [ ]  Test file retrieval from three different locations
+- [ ]  Share structure with one ops buddy for validation
+
+<aside>
+**✅ Migration Complete** — Your workspace now follows the LCES standard structure for scalability, portability, and verifiability.
+
+</aside>
