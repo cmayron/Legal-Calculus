@@ -1,0 +1,34 @@
+## Root Directory Pages
+
+- **/briefs** — All legal briefs and pleadings
+- **/appendix** — Supporting appendices
+- **/addendum** — Additional materials
+- **/oa** — Opening arguments and oral argument materials
+- **/orders** — Court orders and proposed orders
+- **/kits** — Reusable templates and relief banks
+- **/release** — Public release materials
+- **/archive** — Complete case archive
+
+## Root Files (Dashboard/Index Pages)
+
+- Master Index — Central navigation hub
+- Start Here — Workspace landing page with instructions
+- Changelog — Track updates and revisions
+- Checksums — Document verification tracking
+
+## Archive Structure
+
+- **/Public** — Exhibits (PDF-A with Bates), Index (CSV + JSON), Summaries
+- **/Restricted** — Unredacted materials and work product
+- **/Press_Kit** — OnePager.pdf, Timeline.png, Top10_Exhibits.pdf
+
+**Case Archive Subfolders:**
+
+- 00_Timeline
+- 01_Pleadings
+- 02_Exhibits (with Bates numbering)
+- 03_Orders
+- 04_Notices
+- 05_FOIA
+
+This structure makes collaboration scalable and ensures everything is portable and verifiable.
