@@ -1,0 +1,65 @@
+**Traditional playbook (typical)**
+
+1. Calendar the response deadline.
+2. Draft a facts section, cite a few exhibits.
+3. Argue “disputes of material fact exist.”
+
+**Legal Calculus approach (timeline + trap avoidance)**
+
+1. Backward plan from the hearing date
+    - Build a day-by-day checklist: opposing statement of facts, separate controverting statement (if required), numbered para-by-para responses, pinpoint cites, affidavits, Rule 56(d) fallback.
+2. 
+3. Evidence integrity sweep
+    - Every citation must be pin-pointed (page:line or paragraph).
+    - Convert images to searchable PDFs; include hash list (optional) for chain-of-custody clarity.
+4. 
+5. Trap catalog (jurisdiction-specific)
+    - Separate statement format? Font/line spacing? Page caps? Statement of material facts must be short numbered paragraphs? Answer these before writing.
+6. 
+7. 56(d) safety valve (if discovery was blocked)
+    - Pre-draft a 56(d) declaration identifying specific facts needed, why unavailable, and how they affect issues—ready to file if opposing moves early.
+8. 
+9. Dispute grid (one row per movant “fact”)
+
+| **Movant Fact #** | **Movant Citation** | **Your Response** | **Your Citation** | **Genuine Dispute?** |
+| --- | --- | --- | --- | --- |
+| 12 | Smith Dep. 44:2-15 | Disputed: context omitted | Jones Decl. Â¶7; Email 3/14/24, Ex. D at 2 | Yes |
+1. Packaging & redundancy
+    - Bundle a hyperlinked index of exhibits and a one-page “map” showing where each material dispute is proven.
+2. 
+3. Peer sanity check
+    - 10-minute call with a clinic volunteer or trusted friend to role-play the judge: “Show me exactly where you prove a dispute for Fact #12.” (Quick human contact helps you catch blind spots—and keeps you from white-knuckling it alone.)
+4. 
+
+Outcome difference: Instead of a generic “disputes exist” brief, you deliver a judge-readable dispute map plus a 56(d) parachute if discovery was constrained.
+
+# **Reusable mini-templates**
+
+1) Element Matrix (paste into any opposition)
+
+Cause of Action: ___________
+
+| Element | FAC ¶¶ / Evidence | Notes / Thin Spots | Planned Fix |
+| --- | --- | --- | --- |
+| E1 | ¶¶ 12–18; Ex. A | thin witness tie | add Jones Decl. ¶7 |
+| E2 | ¶¶ 19–25; Ex. B | ok | — |
+| E3 | ¶¶ 26–31; Ex. C | missing date | RJN of docket timestamp |
+
+2) EV Branch Sketch (5 minutes)
+
+Option: Oppose now | P(dismiss w/leave)=0.35 | Impact: -2 time, -1 credibility
+Option: Narrow + Oppose | P(deny)=0.55 | Impact: -1 time, +1 credibility
+Option: Ask to Amend | P(grant)=0.7 | Impact: -1 time, 0 credibility
+→ Choose: Narrow + Oppose (highest EV); keep LTA draft ready.
+
+3) SJ Dispute Grid (copy/paste)
+
+| # | Movant Fact | Their Cite | Your Response | Your Cite | Dispute? |
+| --- | --- | --- | --- | --- | --- |
+| 1 |  |  |  |  |  |
+
+# **Why this prepares you better**
+
+- Predictive posture: You pre-build fallbacks (LTA, 56(d)) instead of reacting after a bad order.
+- Judge-legible structure: Matrices and grids translate your story into decision units a court can adopt.
+- Clerk-proofing: Formatting, OCR, bookmarks, and clear exhibit labels reduce procedural friction.
