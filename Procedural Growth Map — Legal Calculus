@@ -1,0 +1,190 @@
+# **🎯 What this is**
+
+A concise roadmap from confusion → competence → coalition for pro se litigants using the Legal Calculus framework. Each stage includes goals, actions, artifacts, and subtle supports that make the process survivable.
+
+# **🔎 Quick Summary**
+
+- Fog → Orientation (Tier 1): Map facts, parties, deadlines, venue.
+- Basics → First Filing (Tier 1 → 2): Draft, format, serve, prove.
+- Competence → Preservation (Tier 2): Preserve issues early; attach proposed orders.
+- Resistance → Resilience (Tier 2 → 4): Counter off-ramps; keep moving.
+- Case-Ready → Appeal-Ready (Tier 4): Build the record you’ll need.
+- Solo → Supported (Tier 5): Publish the archive; recruit allies.
+- User → Builder (Tier 6–7): Automate and teach.
+
+# **🗺️ Stages (expandable)**
+
+**▶️ Fog → Orientation (Tier 1 — Foundations)**
+
+Goal: Act without confusion.
+
+Core actions
+
+- Create a Case Card (1‑pager): parties, claims, venue, deadlines, relief sought.
+- Build a Master Timeline (filings, service, orders, hearings).
+- Calendar rule-triggered deadlines.
+
+Artifacts
+
+- Case Card · Master Timeline.
+
+Support
+
+- Light-touch peer buddy or clinic if available. A short check-in can reduce overwhelm.
+
+**▶️ Basics → First Filing (Tier 1 → 2)**
+
+Goal: Draft, format, serve, and prove filing.
+
+Core actions
+
+- Draft compliant pleading/motion with clear ask and Proposed Order.
+- Format per local/rule requirements; add certificate of service.
+- Generate a Proof‑of‑Filing bundle (RRR receipts, POS, docket map).
+
+Artifacts
+
+- Proof‑of‑Filing bundle · Service Log · Docket Map.
+
+Support
+
+- Ask a friend to sanity-check clarity and tone.
+
+**▶️ Competence → Preservation (Tier 2 — Lawfare Resistance)**
+
+Goal: Anticipate traps and preserve issues early.
+
+Core actions
+
+- State specific relief and attach a Proposed Order.
+- Memorialize adverse rulings; keep a Citations Log.
+- Maintain an Issue Matrix tracking what’s preserved and how.
+
+Artifacts
+
+- Issue Matrix · Proposed Order templates · Citations Log.
+
+Support
+
+- If possible, a quick clinic/mentor review for a high‑stakes filing.
+
+**▶️ Resistance → Resilience (Tier 2 → 4)**
+
+Goal: Counter clerk/judicial off‑ramps with structure and keep going.
+
+Core actions
+
+- Use Counter‑Reflex templates (respectful, rule‑anchored responses).
+- Run a follow‑up scheduler (D‑3, D+7, etc.).
+- Track attempts to evade the merits.
+
+Artifacts
+
+- Counter‑Reflex templates · Follow‑up schedule.
+
+Support
+
+- Peer accountability (shared checklist). If stress spikes, a brief therapist check‑in can stabilize momentum.
+
+**▶️ Case‑Ready → Appeal‑Ready (Tier 4 — Procedural Futures)**
+
+Goal: Build the record you’ll need later.
+
+Core actions
+
+- Outline the appeal while trial is live; capture standards of review.
+- Preserve objections; keep appendix‑ready exhibits.
+
+Artifacts
+
+- Pre‑Appeal Brief skeleton · Appendix index.
+
+Support
+
+- Appeals clinic/mentor if accessible.
+
+**▶️ Solo → Supported (Tier 5 — Coalition & Memory)**
+
+Goal: Move from solo to supported through public memory.
+
+Core actions
+
+- Publish a clean archive (PDF/Notion).
+- Share playbooks; maintain a “who to call” list.
+- Recruit allies; contribute to shared knowledge.
+
+Artifacts
+
+- Public dossier · Outreach tracker · Ally list.
+
+Support
+
+- Friend/peer group, clinic, or community forum.
+
+**▶️ User → Builder (Tier 6–7 — Sovereignty & Archive)**
+
+Goal: Automate and teach others.
+
+Core actions
+
+- Turn checklists into templates; package a Toolkit ZIP.
+- Teach a module; submit improvements back to the commons.
+
+Artifacts
+
+- Reusable Toolkit ZIP · Community checklist.
+
+Support
+
+- Co‑author/peer editor.
+
+# **📊 Dashboard (build this as a Notion database)**
+
+Recommended properties
+
+- Name (Title)
+- Tier (Select: Tier 1, Tier 2, Tier 4, Tier 5, Tier 6–7)
+- Stage (Select: Orientation, First Filing, Preservation, Resilience, Appeal‑Ready, Coalition, Builder)
+- Goal (Text)
+- Core Actions (Text)
+- Artifacts (Multi‑select or Files)
+- Support (Text or Relation)
+- Status (Status: Not started → In progress → Done)
+- Due (Date)
+- Links (URL)
+
+Quick start via CSV
+
+1. Create a new Table in Notion.
+2. Import → CSV → upload LC_Procedural_Growth_Map_Notion_DB.csv.
+3. Convert columns to the property types above (e.g., “Tier” to Select, “Status” to Status).
+
+# **🧰 Template snippets (copy into new Notion templates)**
+
+Template: Counter‑Reflex Response
+
+- Trigger: (e.g., clerk says “we don’t accept…”)
+- Rule Anchor: [Rule/LR §]
+- Respectful Escalation: “To ensure the record is clear…”
+- Ask: Specific relief + Proposed Order
+- Follow‑up: D‑3 / D+7 reminders
+
+Template: Pre‑Appeal Skeleton
+
+- Issues Presented
+- Standards of Review
+- Record Citations
+- Relief Sought
+
+# **✅ Weekly Rhythm (checklist)**
+
+- Review upcoming deadlines and service proofs.
+- Update Issue Matrix and Citations Log.
+- 15‑minute peer check‑in; optional well‑being check if stress is high.
+
+# **📈 Metrics That Matter**
+
+- On‑time filing rate
+- Preserved‑issue count
+- Number of allies/mentors
+- Docket clarity (missing vs. present artifacts)
