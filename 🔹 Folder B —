@@ -1,0 +1,40 @@
+**Neutral Version**
+
+(Optimized for GitHub + automations)
+
+- Plain text, minimal front matter
+- YAML metadata block for Notion import (tags, status, version)
+- No visual emojis, suitable for command-line previewing
+
+**📁 Shared Structure in Both Versions**
+
+ProSe_Cycle_Workflow_Kit_v1.1_Master/
+│
+├── README/
+│   ├── How_to_Use_TwoMode_Workflow.md
+│   └── Quick_Start_Checklist.pdf
+│
+├── Branded/
+│   ├── 1_ProSe_Mode/
+│   ├── 2_SecondOpinion_Mode/
+│   └── 3_Final_Archive/
+│
+└── Neutral/
+├── 1_ProSe_Mode/
+├── 2_SecondOpinion_Mode/
+└── 3_Final_Archive/
+
+**🧭 Workflow Recap Inside Each README**
+
+Two-Mode Cycle Summary:
+
+Pro Se Mode → Second-Opinion Mode (Gemini = Advisor + Red-Team)
+→ Patch & Rebuild → Verify → Finalize → Archive
+
+Outputs each round:
+
+1. Draft
+2. Gemini Dual-Report
+3. Fix List
+4. Final Packet
+5. Archive Module (Case Study + Lessons Learned)
