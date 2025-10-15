@@ -1,0 +1,52 @@
+Included folders + files (ready to drag into Notion or GitHub):
+
+**Folder Tree**
+
+ProSe_Cycle_Workflow_Kit_v1/
+│
+├── 0_README/
+│   ├── How_to_Use_ProSe_Cycle.md
+│   └── Quick_Start_Checklist.pdf
+│
+├── 1_ProSe_Builder/
+│   ├── ProSe_Builder_Template.md
+│   ├── Exhibit_Index_Template.csv
+│   ├── Filing_Timeline_Template.csv
+│
+├── 2_Second_Opinion/
+│   ├── Second_Opinion_Template.md
+│   └── CaseLaw_Suggestion_Table.csv
+│
+├── 3_Red_Team/
+│   ├── Red_Team_Template.md
+│   ├── Opposition_Scenarios_Table.csv
+│   └── Residual_Risk_Scoring_Guide.pdf
+│
+├── 4_Fix_List/
+│   ├── Fix_List_Template.xlsx
+│   └── Severity_Color_Coding_Key.md
+│
+├── 5_Final_Packet/
+│   ├── Final_Packet_Checklist.md
+│   └── Certificate_of_Service_Sample.docx
+│
+└── 6_Archive_Module/
+├── Archive_Template.md
+├── CaseStudy_Sample_Module29.md
+└── Lessons_Learned_Template.md
+
+**Extras inside the README folder**
+
+- ✅ “How_to_Use_ProSe_Cycle.md” → walks you through the 7 steps (Pro Se → Second Opinion → Red Team → Fix → Patch → Finalize → Archive).
+- 🧠 “Quick_Start_Checklist.pdf” → a 1-page laminated-style guide for immediate reference.
+- 💬 Prompt shortcuts for ChatGPT/Gemini (as discussed).
+
+**Built-in metadata for Notion import**
+
+Each .md file will include Notion-compatible front-matter tags like:
+
+---
+
+## tags: ["Legal Calculus", "Pro Se Workflow", "Second Opinion", "Red Team"]
+status: "Template"
+version: "v1.0"
