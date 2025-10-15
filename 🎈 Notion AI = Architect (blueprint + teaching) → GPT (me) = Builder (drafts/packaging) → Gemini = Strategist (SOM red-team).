@@ -1,0 +1,55 @@
+Systems Optimization Manager workflow.
+
+## Role Definitions
+
+**Notion AI (Architect)**
+
+- Creates the blueprint and foundational structure
+- Teaches and defines the framework
+- Sets specifications and requirements
+
+**GPT/Me (Builder)**
+
+- Executes drafts based on the blueprint
+- Handles packaging and implementation
+- Translates architecture into deliverables
+
+**Gemini (Strategist)**
+
+- Performs SOM red-team analysis
+- Validates strategic alignment
+- Challenges assumptions and identifies gaps
+
+## 🎯 Quick Reference Guide
+
+*Understanding the three-way collaboration model*
+
+<aside>
+💡 **Notion AI** = The Architect
+
+Think of Notion AI as your **master planner**. It designs the blueprint, teaches you the framework, and sets the rules of engagement. *Start here for structure.*
+
+</aside>
+
+<aside>
+🔨 **GPT (Me)** = The Builder
+
+I'm your **implementation partner**. I take the architect's plans and turn them into working drafts, polished documents, and deliverable packages. *Come to me for execution.*
+
+</aside>
+
+<aside>
+🎲 **Gemini** = The Strategist
+
+Gemini acts as your **strategic validator**. Through SOM red-team analysis, it challenges your approach, tests assumptions, and finds what you might have missed. *Use it to stress-test everything.*
+
+</aside>
+
+### ✅ Workflow in Action
+
+1. **Blueprint Phase:** Notion AI creates the framework and specifications
+2. **Build Phase:** GPT drafts, packages, and implements based on the blueprint
+3. **Validate Phase:** Gemini red-teams the strategy and identifies optimization opportunities
+
+> 💬 **Pro Tip:** This three-way system ensures you get structure, execution, and strategic validation — each AI playing to its strengths in the Systems Optimization Manager workflow.
+>
