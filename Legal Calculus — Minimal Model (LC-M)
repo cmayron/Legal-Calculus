@@ -1,0 +1,102 @@
+# **1) First Principles**
+
+- P1 (Frame): State action → Federal right (14th DP/access) → Causation → Prospective relief (Ex parte Young).
+- P2 (Format > Discretion): Filing = protest, format = memory, record = remedy.
+- P3 (Preserve): If the judge won’t reach merits, force clean appeal hooks (12(d), notice limits, Rule 52, leave to amend, Rule 58/59).
+
+# **2) Objects (what you always maintain)**
+
+- O1 Proof Pack (per event): Upload receipt/NEF + FedEx delivery + clerk email/minute entry (1 PDF).
+- O2 Element Map (1 page): Defendant → Act → Federal deprivation → Ongoing harm → Pin-cite → Narrow remedy.
+- O3 Filing Pack (minimal): Notice (preservation) + Proposed Order + NOL/NOF/COS + Cover to AAG.
+- O4 False-Evidence Map (table): Item → Quote → Defect (602/802/901/403) → Counter-cite → Remedy (“no reliance”).
+
+# **3) Pipeline (A-B-S)**
+
+- Architect: Choose the smallest viable ask (e.g., “no reliance on Items 1–N”).
+- Builder: Generate: Notice, Proposed Order, Maps, Proof Pack.
+- Strategist: Insert preservation hooks; remove argument; set timers.
+
+# **4) Quality Gates (pass/fail)**
+
+- QG-1 Non-argumentative: Administrative tone; “NOT A SUR-REPLY” in title.
+- QG-2 Preservation Lines present: 12(d) objection; judicial-notice limiter; non-consent + Rule 72; Rule 52(a)(2); Rule 15(a)(2) leave; Rule 58.
+- QG-3 Narrow Relief: Prospective, specific (“no reliance on Items 1–N; correct record”).
+- QG-4 Timers: 14-day Rule 72; 28-day Rule 59(e); 30-day NOA.
+
+# **5) Decision Tree (MTD/TRO)**
+
+- If 12(b)(6) or 12(b)(1) raised:
+    - Disregard extra-pleading or convert under 12(d).
+    - If inclined to dismiss → grant leave to amend (FAC cures listed).
+- 
+- If Younger/abstention:
+    - Mitchum exception + bad-faith/taint; relief is prospective.
+- 
+- If MJ involvement:
+    - Non-consent; dispositive → R&R; calendar Rule 72 objections.
+- 
+- If new authority at arg:
+    - Request ≤3-page letter within 3 court days; order transcript; if denied, note objection, later 59(e).
+- 
+
+# **LC-M Schema (copy/paste to reuse)**
+
+legal_calculus_model:
+frame:
+cause: "42 U.S.C. §1983 – Fourteenth Amendment due process/access"
+relief: "Prospective (Ex parte Young), narrow: no reliance on Items 1–N; record correction"
+abstention_exception: "Mitchum v. Foster; Younger bad-faith/taint"
+objects:
+proof_pack: ["upload_receipt_or_NEF", "delivery_proof", "clerk_email_or_minute_entry"]
+element_map_fields: ["defendant", "act", "federal_deprivation", "ongoing_harm", "ecf_pin", "narrow_remedy"]
+false_evidence_fields: ["item", "quote", "defect_rule", "counter_ecf_pin", "remedy"]
+filings_minimal:
+- notice_preservation_recenter
+- proposed_order
+- NOL
+- NOF
+- COS
+- AAG_cover
+preservation_hooks:
+- "Rule 12(d) objection"
+- "Judicial notice = fact of filing, not truth (FRE 401–404, 802, 901)"
+- "Non-consent to MJ; Rule 72 path"
+- "Rule 52(a)(2) findings for TRO/PI"
+- "Rule 15(a)(2) leave to amend"
+- "Rule 58 separate judgment"
+timers:
+rule72_days: 14
+rule59e_days: 28
+notice_of_appeal_days: 30
+
+# **One-Page Templates**
+
+**A) Element Map (drop into any filing)**
+
+DEFENDANT/ROLE: _______________________________
+SPECIFIC ACT (date/time): ______________________
+FEDERAL DEPRIVATION (14th DP/access): _________
+ONGOING HARM (now): ____________________________
+EVIDENCE PIN-CITE (ECF ¶/Ex./page): ___________
+NARROW REMEDY: “No reliance on Items [__]; record correction/notice.”
+
+**B) False-Evidence Map (surgical)**
+
+Item #: ____  | Source & Pin: ____________
+Quoted Line: “____________________________”
+Defect & Rule: [FRE 602/802/901/403] _____
+Contradictor (ECF pin): _________________
+Requested Remedy: “No reliance; strike/limit”
+
+**C) Preservation Footer (paste everywhere)**
+
+Plaintiff objects under Rule 12(d) to extra-pleading materials; if considered, conversion with notice/discovery is required. If other-matter filings are noticed, notice is limited to existence, not truth. Plaintiff does not consent to magistrate jurisdiction; dispositive matters/TRO require district-judge decision or R&R with de novo review. For TRO/PI, Plaintiff requests Rule 52(a)(2) findings. If any deficiency is found, leave to amend under Rule 15(a)(2). Request Rule 58 separate judgment for clarity.
+
+# **How to run LC-M tomorrow (5-minute checklist)**
+
+1. File Notice + Proposed Order (you already have the consolidated pack).
+2. Attach NOL/NOF/COS + AAG cover (you have them).
+3. Keep Element Map ready; file only if the court invites merits or you need to cleanly anchor issues.
+4. Calendar Rule 72 / 59(e) / NOA.
+5. Stop. Wait for the court’s move (avoid “vexatious” optics).
