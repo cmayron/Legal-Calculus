@@ -1,0 +1,285 @@
+1. Matter Vault (single source of truth):
+    - A structured folder/DB for: pleadings, orders, exhibits, transcripts, emails, research memos, calendars.
+    - Consistent naming: YYYY-MM-DD_[Court]_[DocType]_[ShortTopic]_[ECF#].pdf.
+2. 
+3. Local Authority Library:
+    - Jurisdiction-filtered: statutes, rules, pattern jury instructions, and the top 50 controlling cases per claim/defense.
+    - Keep official PDFs and note authoritative cites + pin cites.
+4. 
+5. Facts & Record Graph:
+    - A living timeline (date, source, fact, exhibit cite, authentication).
+    - Issue tags (e.g., “notice,” “material breach,” “exhaustion,” “harmless error”).
+6. 
+7. Judge/Opponent Profiles (ethical):
+    - Prior rulings on your recurring motions, preferred authorities, tolerance for sanctions, page-limit quirks.
+    - Opponent patterns: delays, boilerplate, favored defenses, evidentiary tells.
+8. 
+9. Deadline Engine:
+    - Auto-calc rules (service, response, reply, disclosures, MSJ, Daubert).
+    - Red/amber/green lead times (e.g., D-21 research, D-14 outline, D-7 draft, D-2 cites check, D-1 file).
+10. 
+
+# **Research: turning “search” into controlled retrieval**
+
+Goal: Find what’s controlling, extract the rule, and document provenance so nothing “AI-ish” leaks into your citations.
+
+1. Query like a litigator, not a tourist
+    - Start with elements of the claim/defense, then dispositive standards (TRO/MSJ/12(b)(6)), then remedies.
+    - Use conjunctive prompts: “Find controlling 9th Cir. authority (post-2015) on compelled arbitration waiver when delay + prejudice; provide pin cites.”
+2. 
+3. Parallel source triangulation
+    - Pull from at least two primary databases + the official reporter PDF.
+    - Cross-read headnotes against the actual opinion text; headnotes are not law.
+4. 
+5. Shepardize/KeyCite before you fall in love
+    - Note treatment with a traffic-light tag in your memo (Green = followed; Yellow = distinguished; Red = negative).
+6. 
+7. Authority Matrix (keep this evergreen)
+    - Columns: Issue ▸ Case ▸ Court/Year ▸ Rule (one sentence) ▸ Pin Cite ▸ How Used (support/limit) ▸ Status.
+    - This becomes your cite farm for every brief.
+8. 
+
+Prompt you can paste:
+
+“Identify the controlling authorities (Supreme Court, [Circuit], [State high court]) on [issue]. Output as a table with: rule in one sentence, the precise pin cite, posture, and how courts treat it. Exclude persuasive cases unless no controlling law exists. Flag any abrogation.”
+
+# **Case-Law Analysis: from opinions to arguments**
+
+Deliverables to generate with AI (and keep):
+
+- Holding Cards: For each key case: posture, material facts, holding, rule, limits, best quote (≤25 words), and the exact page.
+- Analogize/Distinguish Grid: Row = your fact; Col A = Friendly case similarity; Col B = Opposing case difference; Col C = Why the difference matters legally.
+- Burden Map: Who carries what burden at each stage; what evidence satisfies it; where the opponent is thin.
+
+Prompt:
+
+“From the attached PDF opinions, extract: (1) rule statement; (2) holding; (3) material facts; (4) limits; (5) exact pin cite. Then produce an ‘Analogize/Distinguish’ grid against these case facts: [your facts].”
+
+# **Procedural Strategy: playing the docket like a board**
+
+Opening Book (first 30–45 days):
+
+- Lock a Procedural Calendar; list all known deadlines + likely motion windows.
+- File an early record-cleaner (motion to compel specifics, protective order scope, or a short status report) to frame the battlefield.
+- Send targeted RFAs designed to freeze key elements (jurisdiction, authenticity, business records, notice).
+
+Middlegame (pressure & traps):
+
+- War-Game Trees: “If they move for MSJ on causation, our 3 counters are A/B/C; evidence nodes X/Y/Z; cases Q/R/S.”
+- Trap Filings: Narrow 30(b)(6) topics, date-limited RFPs, or a motion in limine roadmap that makes their later position contradictory.
+- Narrative Control: Short, judge-friendly statements of issue framing in every filing; always include a 1-page issues chart.
+
+Endgame (pre-trial to verdict):
+
+- In limine suite sequenced to exclude their keystone and admit your anchors.
+- Jury-Instruction Back-solve: Draft the instruction first; make every evidence fight serve that language.
+- Verdict-Form Engineering: Element-by-element questions matching your proof grid.
+
+Prompts:
+
+- “Build a game tree from today’s docket. List the opponent’s likely three next moves, our counters, what proof each needs, and the strongest authority for each node.”
+- “Draft a 1-page issues chart for [motion] with: element, our proof, their likely rebuttal, our reply, and cites.”
+
+# **Implementing “Docket = Chessboard”**
+
+1. Live Docket Log
+    - Columns: ECF#, Title, Who, Rule/Authority, Relief Sought, Status, Next Deadline, Our Action, Risk (H/M/L).
+    - AI can summarize each new filing into the log and highlight new risks.
+2. 
+3. Move Review (per filing)
+    - AI extracts: concessions, inconsistent statements, new exhibits, and admissibility problems (foundation, hearsay, 403).
+    - Output: a “Counter-Move Brieflet” (≤400 words) you can drop into your draft.
+4. 
+5. Judge Preference Overlay
+    - For each motion type, the model pulls your judge’s prior orders and surfaces preferred frameworks and pet peeves.
+6. 
+7. Clock Control
+    - Generate a “No-Surprise Calendar”: D-21 outline, D-14 first draft, D-10 red team, D-7 cite check, D-3 exhibits final, D-1 QC.
+8. 
+
+# **Quality Gates (how you prevent AI errors)**
+
+- Source-only drafting: Quotes only from the attached PDF with a pin cite next to the quote.
+- Cite-first drafting: Paste your Authority Matrix into the prompt; tell the model “Use only these sources; do not invent citations.”
+- Red-Team Pass: After you draft, run: “You are opposing counsel. Attack this on: jurisdiction, ripeness, waiver, evidentiary foundations, remedy. Provide page-line hits.”
+- Judge-View Pass: “Rewrite the intro to match this judge’s preferred structure: issue ▸ rule ▸ application ▸ relief (≤250 words).”
+
+# **Templates to reuse (condensed)**
+
+Issue Synthesis Block (drop into any brief):
+
+- Issue: …
+- Rule (controlling): [one sentence + pin cite]
+- Application: [2–4 bullets keyed to exhibits/pin cites]
+- Relief: [exact order requested]
+
+Fact-Proof Table:
+
+Issue Synthesis Block (drop into any brief):
+
+- Issue: …
+- Rule (controlling): [one sentence + pin cite]
+- Application: [2–4 bullets keyed to exhibits/pin cites]
+- Relief: [exact order requested]
+
+Fact-Proof Table:
+
+| **Element** | **Fact** | **Exhibit/Â¶** | **Foundation** | **Case/Rule** |
+| --- | --- | --- | --- | --- |
+
+RFA Trap (surgical):
+
+# Admit that Exhibit 14 is a true and correct copy of the email dated [date] sent by [name] to [name], kept in the ordinary course of business.
+
+Opposition Skeleton (12(b)(6)/MSJ):
+
+- Roadmap paragraph.
+- Short facts (record cites only).
+- Standard (controlling authority; no treatise).
+- Argument headings = elements.
+- Each heading ends with a mini-holding: “Thus, element 2 is met as a matter of law.”
+
+# **Collaboration & ethics guardrails**
+
+- Confidentiality: Keep privileged docs local. Don’t paste sensitive client names into third-party tools unless covered by your confidentiality framework.
+- Attribution: Clearly mark which sections are AI-assisted and re-verify all quotes/cites.
+- No UPL: AI is a drafting and analysis tool. Final legal judgment is yours.
+
+# **Quick start: 90-minute sprint (copy this checklist)**
+
+1. Load the last 5 docket entries and your top 10 exhibits.
+2. Ask: “Summarize changes to risk posture and new deadlines from ECF ##–##.”
+3. Build/refresh the Authority Matrix for the next motion you expect.
+4. Generate the Analogize/Distinguish Grid against your 3 best and 3 worst cases.
+5. Produce a 1-page issues chart and a 400-word brieflet you can paste into your draft.
+6. Run the Red-Team Pass.
+7. Book the next two counter-moves and assign document owners/due dates.
+
+# 🎨 Visual Guide: Color-Coded System
+
+This guide uses colors to help you quickly identify different types of information:
+
+- 🟢 **Setup & Structure** – One-time infrastructure you build once
+- 🔵 **Research & Analysis** – Finding and understanding the law
+- 🟣 **Strategy & Tactics** – How to move on the board
+- 🟠 **Quality Control** – Gates to prevent errors
+- 🟡 **Templates & Tools** – Copy-paste starting points
+- 🔴 **Ethics & Compliance** – Professional responsibility guardrails
+
+# 📊 Quick Reference Dashboard
+
+<aside>
+**⚡ Daily Checklist**
+
+- [ ]  Check docket for new filings
+- [ ]  Update live docket log
+- [ ]  Review upcoming deadlines
+- [ ]  Run AI summary of overnight changes
+</aside>
+
+<aside>
+**🎯 Motion Prep Timeline**
+
+D-21: Research & outline
+
+D-14: First draft
+
+D-10: Red team review
+
+D-7: Citation check
+
+D-3: Final exhibits
+
+D-1: Quality control
+
+</aside>
+
+# 🎮 Strategic Framework at a Glance
+
+| **Phase** | **Key Moves** | **Tools to Use** | **Success Metric** |
+| --- | --- | --- | --- |
+| 🎬**Opening (D 1-45)** | Frame battlefield, file record-cleaners, targeted RFAs | Procedural Calendar, Authority Matrix | Favorable issue framing locked in |
+| ♟️**Middlegame** | War-game trees, trap filings, narrative control | Move Review, Judge Profiles | Opponent boxed into weak positions |
+| 🏁**Endgame** | MIL suite, jury instructions, verdict forms | Proof Grid, Issue Charts | Clean record for appeal/verdict |
+
+# ✅ Your AI Quality Gate Checklist
+
+<aside>
+
+**Before you file anything:**
+
+- [ ]  **Source-only drafting:** Every quote has a pin cite from attached PDF
+- [ ]  **Cite-first drafting:** AI uses only your Authority Matrix
+- [ ]  **Red-Team Pass:** Run attack analysis from opposing counsel POV
+- [ ]  **Judge-View Pass:** Reformat to match judge's preferred structure
+- [ ]  **Manual verification:** Spot-check 100% of citations in official reporter
+</aside>
+
+# ⚡ Power Prompts (Copy & Use)
+
+- **🔍 Research Prompt**
+    
+    ```
+    "Identify the controlling authorities (Supreme Court, [Circuit], [State high court]) on [issue]. Output as a table with: rule in one sentence, the precise pin cite, posture, and how courts treat it. Exclude persuasive cases unless no controlling law exists. Flag any abrogation."
+    ```
+    
+- **🎯 Case Analysis Prompt**
+    
+    ```
+    "From the attached PDF opinions, extract: (1) rule statement; (2) holding; (3) material facts; (4) limits; (5) exact pin cite. Then produce an 'Analogize/Distinguish' grid against these case facts: [your facts]."
+    ```
+    
+- **♟️ Strategy Prompt**
+    
+    ```
+    "Build a game tree from today's docket. List the opponent's likely three next moves, our counters, what proof each needs, and the strongest authority for each node."
+    ```
+    
+- **🛡️ Red Team Prompt**
+    
+    ```
+    "You are opposing counsel. Attack this on: jurisdiction, ripeness, waiver, evidentiary foundations, remedy. Provide page-line hits."
+    ```
+    
+
+# ⚖️ Ethics & Professional Responsibility
+
+<aside>
+
+**🔒 Confidentiality First**
+
+- Keep privileged documents local or in covered systems
+- Redact client names before using third-party AI tools
+- Verify your confidentiality framework covers AI assistance
+
+**📝 Attribution Standards**
+
+- Mark AI-assisted sections clearly in work product
+- Re-verify all quotes and citations manually
+- Never present AI output as your own analysis without review
+
+**👨‍⚖️ Professional Judgment**
+
+- AI is a drafting and analysis tool only
+- Final legal judgment must be yours
+- You remain responsible for all filed documents
+</aside>
+
+# 🚀 90-Minute Quick Start Sprint
+
+<aside>
+
+**Get up and running in one focused session:**
+
+- [ ]  **0:00-0:15** – Load last 5 docket entries and top 10 exhibits into system
+- [ ]  **0:15-0:30** – AI summary: "Changes to risk posture and new deadlines from ECF ##-##"
+- [ ]  **0:30-0:45** – Build/refresh Authority Matrix for next expected motion
+- [ ]  **0:45-0:60** – Generate Analogize/Distinguish Grid (3 best vs 3 worst cases)
+- [ ]  **0:60-0:75** – Produce 1-page issues chart and 400-word brieflet draft
+- [ ]  **0:75-0:85** – Run Red-Team Pass on draft
+- [ ]  **0:85-0:90** – Book next two counter-moves and assign owners/dates
+</aside>
+
+---
+
+*💡 Tip: Bookmark this guide and refer to the color-coded sections as you work through each phase of your case. The visual system helps you quickly find the right tool for the right job.*
