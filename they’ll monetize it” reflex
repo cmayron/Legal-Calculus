@@ -1,0 +1,64 @@
+Incumbents protect billables and brand reputation. The solution: make Legal Calculus (LC) mission-locked, evidence-driven, and revenue-neutral—easier to adopt than to resist.
+
+# **Disarm the “they’ll monetize it” reflex**
+
+- Position LC as a standard, not a competitor.
+“LC is a public procedural standard + teaching kit; firms can layer services on top.” (Standards don’t kill revenue; they create it.)
+- Human-in-the-loop by design.
+Checklists that require attorney/clinic sign-off reduce UPL fears and malpractice anxiety.
+- Outcome first, features second.
+Lead with time saved, error reductions, and docket wins—metrics are harder to dismiss than ideology.
+
+# **Lock the mission (so capture is costly)**
+
+- Licensing triad:
+    - Content: CC BY 4.0
+    - Code/tools: AGPL-3.0 (forces improvements to remain open if hosted)
+    - Data schemas: CC0 (encourages ecosystem adoption)
+- 
+- Governance: a short “Public Interest Charter” (purpose, non-discrimination, no paywalls for individuals/legal aid, transparent roadmap).
+- Trademark “Legal Calculus.” Lets you stop predatory forks that add paywalls.
+
+# **Route around gatekeepers**
+
+- Clinics/legal-aid pilots (4–6 weeks): you provide curriculum + forms; they provide outcomes + testimonial.
+- Court-adjacent audiences: self-help centers, librarians, community colleges—less captured, highly motivated.
+- Judicially friendly packaging: bench memos, neutral checklists, and model orders—this reads as help, not heresy.
+
+# **Proof loops that travel**
+
+- Pilot Report (4 pages): problem → LC modules used → before/after metrics → quotes.
+- DOI-backed release: mint a versioned public release with a “How to cite” block.
+- Micro-demos (≤5 min): one task each (e.g., “From denial to motion to reconsider in 3 steps”).
+
+# **Objection→Answer cheat sheet**
+
+- “AI is risky.” → LC uses primary-source PDFs + pin-cite enforcement; every quote is auditable.
+- “This replaces lawyers.” → LC amplifies supervision and trains juniors; it’s a procedural standard, not legal advice.
+- “Open = low quality.” → Show pilot metrics + judge-preferred formats (issues charts, element tables, model orders).
+
+# **Sustainable models that aren’t extractive**
+
+- Free for individuals/legal aid; paid institutional support (training, integrations, hosted search).
+- Funder-friendly menu: pilots, impact dashboards, and a public roadmap keyed to grants/donors.
+
+# **7-day sprint (concrete)**
+
+1. Publish a Mission-Locked License & Charter (1 page).
+2. Ship a v1 Pilot Kit (syllabus, assignments, evaluation rubric).
+3. Record two micro-demos.
+4. Stand up a metrics page (three KPIs you can update monthly).
+5. Email five clinic directors with the invite below.
+
+Pilot invite (paste-ready):
+
+“Subject: 4-week pilot to reduce filing errors for pro se litigants
+
+Hi [Name]—I’m piloting Legal Calculus, a free procedural standard + teaching kit. We’ll run a 4-week, light-lift pilot: (1) baseline 2–3 tasks your students already do; (2) LC modules/checklists; (3) before/after error/time metrics; (4) a short joint summary. No cost; all materials public. If helpful, I’ll handle setup and weekly office hours. Interested in picking two dates?”
+
+# **Next moves**
+
+- Launch the pilot kit and charter this week—speed signals seriousness.
+- Track one metric obsessively: time-to-competent-draft (before/after LC).
+- Publish one "win story" per month: case outcome, time saved, or adoption metric—makes LC real and spreadable.
+- Build a "judge toolkit": model orders, element checklists, and citation standards that courts can adopt without controversy.
