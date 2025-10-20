@@ -1,0 +1,555 @@
+## 🟢 JC-SC-201: "You didn’t give notice"
+
+- **Trigger Phrase:** “You didn’t notify the other party” / “No demand was made”
+- **Severity:** Low
+- **Contamination Risk:** Procedural compliance
+- **Counter Strategy:**
+    - Include demand letter or communication
+    - Show reasonable opportunity to cure
+- **Sample Language:***“Petitioner sent a written demand on [date] via certified mail (Exhibit A), allowing 14 days for response.”*
+
+---
+
+## 🟠 JC-SC-215: "This is a personal dispute"
+
+- **Trigger Phrase:** “This doesn’t belong in court” / “This is a private matter”
+- **Severity:** Medium
+- **Contamination Risk:** Jurisdictional framing
+- **Counter Strategy:**
+    - Emphasize contractual or financial harm
+    - Frame as legal—not emotional—dispute
+- **Sample Language:***“This claim arises from a written agreement (Exhibit B) and seeks reimbursement for specific, documented losses.”*
+
+---
+
+## 🔴 JC-SC-230: "You don’t have proof"
+
+- **Trigger Phrase:** “Where’s the evidence?” / “This is hearsay”
+- **Severity:** High
+- **Contamination Risk:** Global (entire claim)
+- **Counter Strategy:**
+    - Attach receipts, photos, messages, contracts
+    - Use timeline to link evidence to claim
+- **Sample Language:***“Exhibit C includes dated receipts and text confirmations showing the transaction and subsequent breach.”*
+
+---
+
+## 🟠 JC-SC-248: "You’re exaggerating the damages"
+
+- **Trigger Phrase:** “This amount seems inflated” / “You’re overestimating losses”
+- **Severity:** Medium
+- **Contamination Risk:** Damages credibility
+- **Counter Strategy:**
+    - Break down damages by category
+    - Use market rates or expert estimates
+- **Sample Language:***“Petitioner’s claim includes $450 for repairs (see invoice, Exhibit D) and $200 in lost wages (pay stub, Exhibit E).”*
+
+---
+
+## 📚 Next Steps
+
+Would you like to:
+
+- Build a **JC Reflex Dashboard** to navigate these modules interactively?
+- Create **FG Cards** for training pro se litigants and ops buddies?
+- Expand into **Emergency Motions**, **Restraining Orders**, or **Administrative Hearings**?
+- Or design a **Ceremonial Scroll** version for field deployment and legacy publishing?
+
+Say the word, and I’ll start building.
+
+---
+
+## 🟢 JC-SC-105: "Statute of limitations"
+
+- **Trigger Phrase:** "This claim is too old" / "You waited too long to file"
+- **Severity:** High
+- **Contamination Risk:** Total dismissal if upheld
+- **Counter Strategy:**
+    - Verify filing date against statutory deadline
+    - Identify tolling events (discovery rule, fraud concealment)
+    - Show continuing violation or damage
+- **Sample Language:***"Petitioner discovered the breach on [date], within the applicable limitations period, and filed within [X] days as required by [statute]."*
+
+---
+
+## 🟠 JC-SC-162: "You can't prove causation"
+
+- **Trigger Phrase:** "How do you know my actions caused your damages?" / "There could be other reasons"
+- **Severity:** Medium
+- **Contamination Risk:** Damages linkage
+- **Counter Strategy:**
+    - Establish clear timeline showing cause and effect
+    - Eliminate alternative explanations with documentation
+    - Use "but for" test: damages wouldn't exist without defendant's breach
+- **Sample Language:***"Prior to Defendant's breach on [date], Petitioner had no damages. Within 48 hours of the breach, the specific harm materialized (see Exhibit F), with no intervening causes."*
+
+---
+
+## 🔴 JC-SC-178: "You have unclean hands"
+
+- **Trigger Phrase:** "You're not innocent here" / "You contributed to this problem"
+- **Severity:** High
+- **Contamination Risk:** Equitable relief denial
+- **Counter Strategy:**
+    - Distinguish between your conduct and defendant's breach
+    - Show your actions were lawful and proportionate
+    - Demonstrate defendant's wrongdoing was independent and material
+- **Sample Language:** *"While Petitioner [describe minor conduct], this does not excuse Defendant's [specific breach]. Petitioner's actions were [lawful/reasonable] and did not cause or contribute to the damages claimed."*
+
+---
+
+## 🟠 JC-SC-194: "You failed to mitigate damages"
+
+- **Trigger Phrase:** "You didn't try to minimize your losses" / "You could have prevented this"
+- **Severity:** Medium
+- **Contamination Risk:** Damages reduction
+- **Counter Strategy:**
+    - Show reasonable steps taken to minimize harm
+    - Demonstrate mitigation efforts were unsuccessful or impossible
+    - Document timeline of attempts to cure or reduce damages
+- **Sample Language:** *"Petitioner immediately sought alternative arrangements upon Defendant's breach (see Exhibit G), but market conditions and timing made full mitigation impossible, resulting in unavoidable losses of $[amount]."*
+
+---
+
+## 🟢 JC-SC-210: "You don't have standing"
+
+- **Trigger Phrase:** "You're not the right person to bring this claim" / "You lack standing to sue"
+- **Severity:** High
+- **Contamination Risk:** Jurisdictional (entire case dismissal)
+- **Counter Strategy:**
+    - Demonstrate direct injury-in-fact (concrete and particularized harm)
+    - Show causal connection between defendant's conduct and your injury
+    - Establish that a favorable decision will redress the injury
+- **Sample Language:** *"Petitioner suffered direct financial harm of $[amount] as a result of Defendant's breach of contract dated [date]. Petitioner is the named party to the agreement (Exhibit H) and has standing to enforce its terms."*
+
+---
+
+## 🟢 JC-SC-225: "You waived your right to sue"
+
+- **Trigger Phrase:** "You agreed not to sue" / "The contract has an arbitration clause"
+- **Severity:** High
+- **Contamination Risk:** Jurisdictional (forum selection)
+- **Counter Strategy:**
+    - Review contract language for exceptions or conditions precedent
+    - Show waiver clause is unenforceable (unconscionability, fraud in inducement)
+    - Demonstrate breach occurred outside scope of waiver provision
+- **Sample Language:** *"The arbitration clause in Section [X] applies only to disputes arising under [specific provision]. This claim concerns [different issue] and falls outside the waiver's scope. Alternatively, the clause is unenforceable due to [lack of consideration/unconscionability]."*
+
+---
+
+## 🔴 JC-SC-240: "You signed a release"
+
+- **Trigger Phrase:** "You released all claims" / "This was already settled"
+- **Severity:** High
+- **Contamination Risk:** Total bar to recovery
+- **Counter Strategy:**
+    - Show release was procured by fraud, duress, or mutual mistake
+    - Demonstrate claims arose after release was signed
+    - Argue release language doesn't cover this specific claim
+- **Sample Language:** *"The release dated [date] explicitly excluded claims for [specific issue] as stated in paragraph [X]. Alternatively, Petitioner signed under duress/without knowledge of material facts, rendering the release voidable."*
+
+---
+
+## 🟠 JC-SC-255: "You're forum shopping"
+
+- **Trigger Phrase:** "You filed in the wrong court" / "This forum is improper"
+- **Severity:** Medium
+- **Contamination Risk:** Venue/jurisdictional challenge
+- **Counter Strategy:**
+    - Show proper venue under statutory requirements
+    - Demonstrate defendant's connection to forum (residence, business, or where cause of action arose)
+    - Establish convenience and interest of justice factors favor this forum
+- **Sample Language:** *"Venue is proper in this court because Defendant resides in this county and the contract was executed here (Exhibit I). The cause of action arose within this jurisdiction on [date]."*
+
+---
+
+## 🟢 JC-SC-270: "You lack a written contract"
+
+- **Trigger Phrase:** "There's no signed agreement" / "This was just a verbal understanding"
+- **Severity:** Medium
+- **Contamination Risk:** Contract enforceability
+- **Counter Strategy:**
+    - Show oral contracts are enforceable for amounts under statutory limits
+    - Demonstrate part performance or detrimental reliance
+    - Use emails, texts, or documented conduct showing agreement terms
+- **Sample Language:** *"While no formal contract exists, the parties' exchange of emails (Exhibit J) establishes mutual assent to material terms. Petitioner's performance and Defendant's acceptance constitute a valid oral contract enforceable under [statute]."*
+
+---
+
+## 🟠 JC-SC-285: "You're barred by res judicata"
+
+- **Trigger Phrase:** "This was already decided" / "You can't relitigate this"
+- **Severity:** High
+- **Contamination Risk:** Total dismissal if prior judgment applies
+- **Counter Strategy:**
+    - Show no prior final judgment on the merits exists
+    - Demonstrate current claims weren't and couldn't have been raised in prior action
+    - Establish different parties, different causes of action, or changed circumstances
+- **Sample Language:** *"No prior case adjudicated these specific claims. The earlier matter concerned [different issue] and involved [different parties/claims]. This action arises from conduct occurring after the prior judgment and presents distinct legal theories not previously available."*
+
+---
+
+## 🔴 JC-SC-300: "You're not licensed to practice here"
+
+- **Trigger Phrase:** "You can't represent yourself like this" / "This is unauthorized practice of law"
+- **Severity:** High
+- **Contamination Risk:** Procedural standing, potential sanctions
+- **Counter Strategy:**
+    - Clarify you are appearing pro se (self-represented)
+    - Cite right to self-representation under constitutional and statutory authority
+    - Distinguish between legal representation of others vs. self-advocacy
+- **Sample Language:** *"Petitioner appears pro se in this matter, exercising the constitutional right to self-representation. All filings are made on Petitioner's own behalf, not as legal representation of third parties."*
+
+---
+
+## 🟢 JC-SC-315: "You haven't exhausted administrative remedies"
+
+- **Trigger Phrase:** "You need to go through the proper channels first" / "There's an administrative process you skipped"
+- **Severity:** Medium
+- **Contamination Risk:** Premature filing, potential dismissal without prejudice
+- **Counter Strategy:**
+    - Show no administrative remedy exists for this type of claim
+    - Demonstrate exhaustion would be futile or inadequate
+    - Establish the claim falls within court's original jurisdiction, not requiring administrative review
+- **Sample Language:** *"No administrative remedy applies to breach of contract claims between private parties. This court has original jurisdiction under [statute]. Alternatively, administrative exhaustion would be futile as the agency lacks authority to award monetary damages sought here."*
+
+---
+
+## 🟠 JC-SC-330: "You're engaging in frivolous litigation"
+
+- **Trigger Phrase:** "This lawsuit has no merit" / "You're wasting the court's time"
+- **Severity:** High
+- **Contamination Risk:** Sanctions, attorney's fees, dismissal with prejudice
+- **Counter Strategy:**
+    - Demonstrate good faith basis for each claim with supporting evidence
+    - Show reasonable legal theory supported by existing law or good faith argument for extension
+    - Document pre-filing investigation and legal research
+- **Sample Language:** *"Each claim is supported by documented evidence (Exhibits A-K) and grounded in established legal principles under [cite statute/case law]. Petitioner conducted reasonable pre-filing investigation and brings these claims in good faith with proper legal foundation."*
+
+---
+
+## 🟢 JC-SC-345: "You lack clean hands"
+
+- **Trigger Phrase:** "You're guilty of wrongdoing too" / "You come to court with unclean hands"
+- **Severity:** Medium
+- **Contamination Risk:** Equitable defense, potential claim reduction or denial
+- **Counter Strategy:**
+    - Show your conduct was lawful and in good faith
+    - Demonstrate any alleged wrongdoing is unrelated to the claim
+    - Establish defendant's breach was independent and more egregious
+- **Sample Language:** *"Petitioner's conduct throughout was lawful and in full compliance with contractual obligations. Any alleged impropriety is unrelated to Defendant's breach and does not bar recovery. The clean hands doctrine does not apply where the complained-of conduct is independent of the transaction at issue."*
+
+---
+
+## 🟠 JC-SC-360: "You failed to mitigate damages"
+
+- **Trigger Phrase:** "You didn't try to minimize your losses" / "You let the damages pile up"
+- **Severity:** Medium
+- **Contamination Risk:** Damage reduction, potential offset of recoverable amount
+- **Counter Strategy:**
+    - Show reasonable efforts were made to minimize harm
+    - Demonstrate mitigation was impossible or would have been futile
+    - Establish defendant's conduct prevented or hindered mitigation efforts
+- **Sample Language:** *"Petitioner took reasonable steps to mitigate damages by [specific actions taken on dates]. Further mitigation was impossible because [reasons]. Defendant bears the burden of proving failure to mitigate and cannot meet that burden here."*
+
+---
+
+## 🟢 JC-SC-375: "You're asserting conflicting claims"
+
+- **Trigger Phrase:** "Your arguments contradict each other" / "You can't have it both ways"
+- **Severity:** Low
+- **Contamination Risk:** Credibility challenge, potential claim dismissal
+- **Counter Strategy:**
+    - Show claims are pleaded in the alternative as permitted by rules of civil procedure
+    - Demonstrate claims address different legal theories applicable to same facts
+    - Establish no actual contradiction exists when claims are properly understood
+- **Sample Language:** *"Petitioner pleads claims in the alternative as permitted under [procedural rule]. Each theory provides an independent basis for recovery based on the same underlying facts. Alternative pleading is proper where facts support multiple legal theories, and no election of remedies is required at this stage."*
+
+---
+
+## 🟠 JC-SC-390: "You're attempting to pierce the corporate veil improperly"
+
+- **Trigger Phrase:** "The corporation is a separate entity" / "You can't hold individuals liable for corporate debts"
+- **Severity:** High
+- **Contamination Risk:** Dismissal of claims against individual defendants, limitation to corporate assets only
+- **Counter Strategy:**
+    - Show corporate formalities were not observed (commingling of funds, no separate records, undercapitalization)
+    - Demonstrate corporation was used as alter ego or mere instrumentality of individual
+    - Establish fraud, injustice, or inequitable conduct that would result if corporate shield upheld
+- **Sample Language:** *"The corporate veil should be pierced because Defendant treated the corporation as a mere alter ego, commingling personal and corporate funds (Exhibit L), failing to maintain corporate formalities, and undercapitalizing the entity. Upholding the corporate shield would perpetuate fraud and work manifest injustice under the totality of circumstances."*
+
+---
+
+## 🟢 JC-SC-405: "You haven't properly served process"
+
+- **Trigger Phrase:** "The defendant wasn't properly notified" / "Service was defective"
+- **Severity:** High
+- **Contamination Risk:** Jurisdictional defect, potential dismissal without prejudice
+- **Counter Strategy:**
+    - Provide proof of service complying with statutory requirements
+    - Show service was made on authorized agent or proper party
+    - Demonstrate substantial compliance with service rules or waiver of objection
+- **Sample Language:** *"Service was properly effected on [date] by [method] in accordance with [statute/rule] as evidenced by proof of service filed with the court (Exhibit M). Defendant's acceptance of service and filing of responsive pleadings constitutes waiver of any service defect."*
+
+---
+
+## 🟢 JC-SC-420: "You're claiming damages you can't prove"
+
+- **Trigger Phrase:** "You have no evidence of actual damages" / "These damages are speculative"
+- **Severity:** Medium
+- **Contamination Risk:** Damage award reduction or denial of specific damage categories
+- **Counter Strategy:**
+    - Provide documentation of actual losses (invoices, receipts, bank statements, contracts)
+    - Use expert testimony or market data for harder-to-quantify damages
+    - Show reasonable certainty standard is met even if exact amount cannot be proven
+- **Sample Language:** *"Petitioner has documented actual damages through [invoices/receipts/bank records] (Exhibits N-P). Where exact amounts are difficult to ascertain, Petitioner has provided reasonable estimates based on [market rates/expert opinion/comparable transactions], meeting the standard of reasonable certainty required under [statute/case law]."*
+
+---
+
+## 🟢 JC-SC-435: "You're barred by accord and satisfaction"
+
+- **Trigger Phrase:** "You accepted payment in full settlement" / "The dispute was already resolved by agreement"
+- **Severity:** High
+- **Contamination Risk:** Complete bar to recovery, claim dismissal with prejudice
+- **Counter Strategy:**
+    - Show payment was accepted under protest or with explicit reservation of rights
+    - Demonstrate no meeting of the minds on settlement terms
+    - Establish payment was partial or on account, not in full satisfaction
+- **Sample Language:** *"No accord and satisfaction occurred. Petitioner accepted partial payment with explicit reservation of rights (Exhibit Q) and never agreed to discharge the full debt. The parties never reached a meeting of the minds on settlement terms, and Defendant's unilateral characterization of payment as 'final' does not create an accord."*
+
+---
+
+## 🟢 JC-SC-450: "You're seeking punitive damages inappropriately"
+
+- **Trigger Phrase:** "Punitive damages don't apply here" / "You haven't shown malice or oppression"
+- **Severity:** Medium
+- **Contamination Risk:** Denial of punitive damages, limitation to compensatory relief only
+- **Counter Strategy:**
+    - Demonstrate defendant's conduct was malicious, fraudulent, or oppressive
+    - Show clear and convincing evidence of willful and conscious disregard of rights
+    - Establish conduct goes beyond ordinary breach and involves aggravating circumstances
+- **Sample Language:** *"Punitive damages are warranted because Defendant's conduct was willful, malicious, and in conscious disregard of Petitioner's rights. Defendant knowingly [specific conduct] despite awareness of harm, demonstrating oppression and fraud sufficient to justify punitive award under [statute]."*
+
+---
+
+## 🟠 JC-SC-465: "You're barred by res judicata"
+
+- **Trigger Phrase:** "This was already decided in a prior case" / "You're relitigating the same claim"
+- **Severity:** High
+- **Contamination Risk:** Complete bar to recovery, dismissal with prejudice on grounds of claim preclusion
+- **Counter Strategy:**
+    - Show prior case involved different parties, different claims, or different causes of action
+    - Demonstrate no final judgment on the merits in prior proceeding
+    - Establish new facts or legal theories that were not and could not have been raised previously
+- **Sample Language:** *"Res judicata does not apply because the prior case involved [different parties/different legal theory/different set of facts]. No final judgment on the merits was entered, and the claims presented here could not have been brought in the prior action under the primary rights doctrine."*
+
+---
+
+## 🟠 JC-SC-480: "You're barred by collateral estoppel"
+
+- **Trigger Phrase:** "This issue was already decided" / "You can't relitigate facts determined in a prior case"
+- **Severity:** High
+- **Contamination Risk:** Preclusion of specific factual or legal issues, potential dismissal or summary judgment
+- **Counter Strategy:**
+    - Show the issue was not actually litigated or determined in the prior proceeding
+    - Demonstrate the issue was not essential to the prior judgment
+    - Establish changed circumstances or new evidence that makes relitigation appropriate
+- **Sample Language:** *"Collateral estoppel does not apply because the specific issue raised here was not actually litigated or necessarily decided in the prior case. The prior judgment rested on alternative grounds, and the issue Petitioner raises was neither essential to that judgment nor given full and fair opportunity for litigation."*
+
+---
+
+## 🟢 JC-SC-495: "You lack standing to bring this claim"
+
+- **Trigger Phrase:** "You're not the real party in interest" / "You have no legal right to sue"
+- **Severity:** High
+- **Contamination Risk:** Dismissal for lack of standing, jurisdictional defect
+- **Counter Strategy:**
+    - Demonstrate direct injury in fact that is concrete and particularized
+    - Show causal connection between defendant's conduct and petitioner's injury
+    - Establish petitioner is real party in interest with legal right to enforce the claim
+- **Sample Language:** *"Petitioner has standing as the real party in interest who suffered direct, concrete injury from Defendant's conduct. Petitioner holds the legal right to enforce this claim as [contract party/assignee/statutory beneficiary] and has suffered actual damages traceable to Defendant's actions."*
+
+---
+
+## 🟢 JC-SC-510: "You're seeking attorney fees without contractual or statutory basis"
+
+- **Trigger Phrase:** "There's no provision for attorney fees" / "You can't recover legal costs"
+- **Severity:** Medium
+- **Contamination Risk:** Denial of attorney fees recovery, limitation to costs of suit only
+- **Counter Strategy:**
+    - Point to specific contract provision authorizing prevailing party attorney fees
+    - Cite applicable statute providing for fee recovery (e.g., consumer protection, civil rights)
+    - Establish bad faith conduct or frivolous defense warranting fee award under court's inherent authority
+- **Sample Language:** *"Attorney fees are recoverable under [contract section X/statute Y], which provides for prevailing party fees. Petitioner has submitted detailed billing records (Exhibit R) documenting reasonable and necessary legal services. The fees requested are proportionate to the case complexity and amount in controversy."*
+
+---
+
+## 🟢 JC-SC-525: "You failed to mitigate your damages"
+
+- **Trigger Phrase:** "You could have prevented these losses" / "You didn't take reasonable steps to minimize harm"
+- **Severity:** Medium
+- **Contamination Risk:** Reduction of damage award, potential offset for avoidable consequences
+- **Counter Strategy:**
+    - Show reasonable efforts were made to minimize losses under the circumstances
+    - Demonstrate mitigation was impossible, impractical, or would have required unreasonable expense
+    - Establish defendant's conduct prevented or impeded mitigation efforts
+- **Sample Language:** *"Petitioner took all reasonable steps to mitigate damages by [specific actions taken] immediately upon discovering the breach. Further mitigation was impossible because [circumstances], and Defendant cannot benefit from losses caused by their own wrongful conduct that prevented effective mitigation."*
+
+---
+
+## 🟢 JC-SC-540: "You're barred by waiver or estoppel"
+
+- **Trigger Phrase:** "You gave up that right" / "Your prior conduct prevents you from asserting this claim"
+- **Severity:** High
+- **Contamination Risk:** Loss of specific rights or defenses, potential dismissal of claims based on conduct inconsistent with current position
+- **Counter Strategy:**
+    - Show no intentional relinquishment of known right
+    - Demonstrate no detrimental reliance by opposing party on petitioner's conduct
+    - Establish conduct was not inconsistent with current claim or was result of mistake/misrepresentation
+- **Sample Language:** *"No waiver or estoppel occurred. Petitioner never intentionally relinquished any known right, and Defendant cannot show detrimental reliance on any conduct by Petitioner. Any delay or prior statements were made under [mistake of fact/duress/lack of full information] and do not constitute knowing waiver of legal rights."*
+
+---
+
+## 🟠 JC-SC-555: "You're barred by laches"
+
+- **Trigger Phrase:** "You waited too long to assert your rights" / "Your unreasonable delay prejudiced the defendant"
+- **Severity:** High
+- **Contamination Risk:** Equitable bar to recovery, dismissal based on prejudicial delay even within statute of limitations
+- **Counter Strategy:**
+    - Show delay was reasonable under the circumstances or that petitioner lacked knowledge of the claim
+    - Demonstrate defendant suffered no material prejudice from the delay
+    - Establish defendant engaged in conduct that caused or contributed to the delay
+- **Sample Language:** *"Laches does not apply because Petitioner's delay was reasonable given [lack of knowledge/ongoing negotiations/defendant's assurances]. Defendant has not demonstrated material prejudice from any delay, and Defendant's own conduct [concealment/misrepresentation/encouragement to wait] caused or contributed to any delay in bringing this action."*
+
+---
+
+## 🟢 JC-SC-570: "You're seeking damages that are too speculative"
+
+- **Trigger Phrase:** "These damages are uncertain" / "You can't prove the amount with reasonable certainty"
+- **Severity:** Medium
+- **Contamination Risk:** Reduction or denial of future damages, limitation to proven past losses only
+- **Counter Strategy:**
+    - Provide documentary evidence, expert testimony, or established formulas to calculate damages
+    - Show damages flow naturally and proximately from defendant's breach
+    - Establish reasonable certainty through comparable transactions, market data, or business records
+- **Sample Language:** *"Damages are proven with reasonable certainty through [financial records/expert analysis/market comparables] (Exhibit S). The calculation methodology is standard in the industry and directly traces losses to Defendant's breach. While exact precision is impossible, Petitioner has established damages to a reasonable degree of certainty sufficient for recovery."*
+
+---
+
+## 🟢 JC-SC-585: "You're seeking unjust enrichment without proper basis"
+
+- **Trigger Phrase:** "There was a contract that governs this" / "You can't claim unjust enrichment when there's an agreement"
+- **Severity:** Medium
+- **Contamination Risk:** Dismissal of unjust enrichment claim, limitation to contract remedies only
+- **Counter Strategy:**
+    - Show no valid contract exists or contract is void, unenforceable, or inapplicable to the benefit conferred
+    - Demonstrate defendant received and retained benefit under circumstances making retention unjust
+    - Establish unjust enrichment as alternative pleading or applies to benefits outside contract scope
+- **Sample Language:** *"Unjust enrichment applies because [no valid contract exists/contract is void/benefit conferred falls outside contract scope]. Defendant received and retained [specific benefit] valued at [amount], and retention without compensation is unjust under the circumstances. Petitioner has no adequate remedy at law and seeks restitution in quantum meruit."*
+
+---
+
+## 🟢 JC-SC-600: "You're seeking punitive damages without proper showing"
+
+- **Trigger Phrase:** "There's no malice or oppression" / "Punitive damages aren't available in contract cases"
+- **Severity:** Medium
+- **Contamination Risk:** Denial of punitive damages, limitation to compensatory damages only
+- **Counter Strategy:**
+    - Demonstrate clear and convincing evidence of malice, fraud, or oppression
+    - Show conduct was despicable and undertaken with willful and conscious disregard of rights
+    - Establish independent tort claim supporting punitive damages even in contract dispute
+- **Sample Language:** *"Punitive damages are warranted under Civil Code § 3294 because Defendant's conduct was malicious and oppressive, undertaken with willful and conscious disregard of Petitioner's rights. The evidence shows [specific despicable conduct] that goes beyond mere breach and constitutes fraud/oppression justifying exemplary damages."*
+
+# 💰 JC Reflex Library: Small Claims Module v1.0
+
+These reflexes help self-represented litigants handle small claims disputes by anticipating procedural and evidentiary challenges while maintaining a professional presentation.
+
+---
+
+## 🟢 JC-SC-201: "You didn't give notice"
+
+- **Trigger Phrase:** "You didn't notify the other party" / "No demand was made"
+- **Severity:** Low
+- **Contamination Risk:** Procedural compliance
+- **Counter Strategy:**
+    - Include demand letter or prior communication
+    - Show reasonable opportunity to cure
+- **Sample Language:** *"Petitioner sent a written demand on [date] via certified mail (Exhibit A), allowing 14 days for response."*
+
+---
+
+## 🟠 JC-SC-215: "This is a personal dispute"
+
+- **Trigger Phrase:** "This doesn't belong in court" / "This is a private matter"
+- **Severity:** Medium
+- **Contamination Risk:** Jurisdictional framing
+- **Counter Strategy:**
+    - Emphasize contractual or financial harm
+    - Frame as a legal dispute, not an emotional one
+- **Sample Language:** *"This claim arises from a written agreement (Exhibit B) and seeks reimbursement for specific, documented losses."*
+
+---
+
+## 🔴 JC-SC-230: "You don't have proof"
+
+- **Trigger Phrase:** "Where's the evidence?" / "This is hearsay"
+- **Severity:** High
+- **Contamination Risk:** Global (entire claim)
+- **Counter Strategy:**
+    - Attach receipts, photos, messages, or contracts
+    - Use a timeline to connect evidence to your claim
+- **Sample Language:** *"Exhibit C includes dated receipts and text confirmations showing the transaction and subsequent breach."*
+
+---
+
+## 🟠 JC-SC-248: "You're exaggerating the damages"
+
+- **Trigger Phrase:** "This amount seems inflated" / "You're overestimating losses"
+- **Severity:** Medium
+- **Contamination Risk:** Damages credibility
+- **Counter Strategy:**
+    - Break down damages by category
+    - Use market rates or expert estimates
+- **Sample Language:** *"Petitioner's claim includes $450 for repairs (see invoice, Exhibit D) and $200 in lost wages (pay stub, Exhibit E)."*
+
+---
+
+# 
+
+## 🟢 JC-SC-260: "You missed the deadline"
+
+- **Trigger Phrase:** "This claim is time-barred" / "The statute of limitations has run"
+- **Severity:** Low
+- **Contamination Risk:** Procedural dismissal
+- **Counter Strategy:**
+    - Calculate filing date from injury/breach date
+    - Show tolling factors if applicable (discovery rule, disability)
+- **Sample Language:** *"Petitioner filed within the statutory period, as the breach occurred on [date] and this action was commenced on [date], well within the [X]-year limitation period."*
+
+---
+
+## 
+
+| **If Judge Says...** | **Apply Reflex** | **Priority Action** |
+| --- | --- | --- |
+| "No notice given" | JC-SC-201 | Present demand letter/communication |
+| "Personal dispute" | JC-SC-215 | Emphasize contract/financial harm |
+| "Where's the evidence?" | JC-SC-230 | Direct to specific exhibits |
+| "Damages inflated" | JC-SC-248 | Break down by category with proof |
+| "Statute of limitations" | JC-SC-260 | Calculate filing dates clearly |
+
+## 📋 How to Use This Library
+
+- **Step 1:** Review your draft pleading or argument and identify phrases that might trigger judicial skepticism
+- **Step 2:** Match the trigger to the appropriate reflex code and severity level
+- **Step 3:** Apply the counter-strategy and adapt the sample language to your specific facts
+- **Step 4:** Cross-reference multiple reflexes if your case involves overlapping triggers (e.g., credibility + procedural issues)
+- **Step 5:** Use the contamination risk level to prioritize which reflexes require the most defensive preparation
+
+---
+
+# 🎯 Quick Reference Guide
+
+Use this section to rapidly identify which reflex applies to your situation based on the judge's verbal cues or opposing counsel's arguments.
+
+## Small Claims Quick Lookup
