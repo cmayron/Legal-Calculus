@@ -1,0 +1,53 @@
+An interactive dashboard to monitor and navigate the JC Reflex Library across eviction, family law, and small-claims modules. It gives real-time visibility into each reflex’s severity, contamination risk, status, and counter-strategy links.
+
+---
+
+## Key Features
+
+- Module Filter: View reflexes by domain (Eviction, Family Law, Small Claims)
+- Severity Heatmap: Color-coded risk levels (High/Medium/Low)
+- Status Tracker: Flags like “🔴 Vulnerable,” “🟠 Mitigated,” “✅ Ready”
+- Quick Links: Direct access to sample language, exhibits, and rehearsal guides
+- Export & Print: CSV export or printable PDF of selected reflex sets
+
+---
+
+## Sample Reflex Overview
+
+| Reflex Code | Module | Trigger Phrase | Severity | Status | Counter Strategy |
+| --- | --- | --- | --- | --- | --- |
+| JC-027 | Eviction | “You’re not credible” | High | 🔴 Vulnerable | Replace exhibits; rehearse |
+| JC-FL-101 | Family Law | “You’re being vindictive” | High | ✅ Ready | Emphasize child’s best interest |
+| JC-SC-230 | Small Claims | “You don’t have proof” | High | 🟠 Mitigated | Attach receipts, photos, timeline |
+| JC-011 | Eviction | “You didn’t pay rent” | Low | ✅ Ready | Provide receipts; habitability DEF |
+| JC-FL-112 | Family Law | “You’re not putting child first” | Medium | ✅ Ready | Anchor requests in well-being |
+
+---
+
+# FG Cards (Flashcard Deck)
+
+A portable flashcard set designed to train pro se litigants and ops teams on JC reflex identification and counter-strategies. Ideal for workshops, rehearsals, or pocket guides.
+
+---
+
+## Card Structure
+
+- Front Side: Reflex Code; Trigger Phrase; Severity Icon
+- Back Side: Contamination Risk; Counter Strategy; Sample Language
+
+---
+
+## Usage Scenarios
+
+- Rapid Drills: Quiz team on reflex codes and counters
+- Role-Play Rehearsal: Simulate judicial questioning and responses
+- Field Kits: Include in coalition deployment packs for on-the-spot reference
+
+---
+
+## Production & Distribution
+
+- Format: 3×5″ index cards or digital PDF
+- Materials: Durable cardstock; rounded corners; color-coded edges
+- Distribution: Print-on-demand via coalition portal; shareable PDF links
+- Version Control: Include module/version on each card; archive with SHA-256 hash
