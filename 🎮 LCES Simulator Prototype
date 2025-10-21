@@ -1,0 +1,114 @@
+**Module 1:**
+
+**The 12(b)(6) Gauntlet & The FRCP 15 Gambit**
+
+**🧩 Scenario Overview**
+
+Objective: Survive a Motion to Dismiss by using Legal Calculus, not luck.
+
+You are a pro se plaintiff in federal court.
+
+The State’s Attorney General has filed a 100-page Motion to Dismiss under Rules 12(b)(1) and 12(b)(6).
+
+Your response is due in 14 days.
+
+You have just discovered new evidence and realized your original complaint omitted a key claim.
+
+What do you do?
+
+# **⚖️**
+
+# **Choose Your Move**
+
+**A. The Direct Confrontation**
+
+Action: Spend 14 days drafting a 100-page opposition.
+
+Logic: Fight brilliance with brilliance.
+
+| **Factor** | **Assessment** |
+| --- | --- |
+| Probability | ðŸ”´ Low â€” Youâ€™re defending a structurally flawed complaint. |
+| Cost/Benefit | âš ï¸ High cost, low reward. |
+| Opponent Reaction | Easy reply: â€œPlaintiff failed to cure deficiencies.â€ |
+| Judicial Response | Bound to rule on the old complaint. |
+| Preservation | âŒ No new evidence or claims preserved. |
+
+🧮 Legal Calculus Outcome: You played defense on their terms.
+
+📜 Result: Dismissed. Your logic was sound but not strategic.
+
+Lesson: Never fight where they aim. Shift the venue—procedurally.
+
+**B. The FRCP 15 Gambit**
+
+Action: File a Motion to Amend “As of Right” (Rule 15(a)(1)(B)) within the 21-day post-MTD window.
+
+Logic: Change the board, not the pieces.
+
+| **Factor** | **Assessment** |
+| --- | --- |
+| Probability | ðŸŸ¢ Very High â€” Amendment as of right is non-discretionary. |
+| Cost/Benefit | ðŸŸ¢ Low cost, high yield. |
+| Opponent Reaction | Must restart. Their MTD becomes moot. |
+| Judicial Response | Cannot rule on an obsolete pleading. |
+| Preservation | ðŸŸ¢ New evidence + claim now in the record. |
+
+🧮 Legal Calculus Outcome: You shifted the procedural timeline.
+
+📜 Result: Motion to Amend granted. Defendants’ MTD denied as moot.
+
+They must now re-plead or answer your new complaint.
+
+Badge Unlocked: 🟩 FRCP 15 Mastery — “Change the Battlefield.”
+
+**C. The Plea**
+
+Action: File a Motion for Extension of Time.
+
+Logic: Delay = survival.
+
+| **Factor** | **Assessment** |
+| --- | --- |
+| Probability | ðŸŸ¡ Medium â€” Judge might allow brief extension. |
+| Cost/Benefit | âšª Low cost, no strategic benefit. |
+| Opponent Reaction | Waits calmly. |
+| Judicial Response | Sees you as disorganized. |
+| Preservation | âŒ You bought time, not leverage. |
+
+🧮 Legal Calculus Outcome: You stayed alive but didn’t move forward.
+
+📜 Result: Thirty days gained, but no positional change.
+
+Badge: ⏳ Delay ≠ Defense.
+
+# **🧭**
+
+# **Debrief**
+
+By choosing Option B, you applied Procedural Lawfare:
+
+You didn’t fight the 12(b)(6) battle — you replaced the terrain with Rule 15.
+
+You neutralized 100 pages of opposition with one procedural pivot.
+
+That’s the essence of Legal Calculus: change the equation, not the argument.
+
+Unlocked Module 2: “The Younger Trap — Recognizing Bad Faith and Retaliation Exceptions.”
+
+# **⚙️**
+
+# **Prototype Notes (for Interactive Deployment)**
+
+Structure for Notion / LMS build:
+
+- 🧠 “Read Mode” = Scroll (theory)
+- 🎯 “Play Mode” = Choice cards → hidden result blocks
+- 🧩 “Sandbox Mode” = Timed path simulation (with branching dialogue)
+- 🧾 “Post-Game” = Auto-generated debrief + badge (stored in user dashboard)
+
+Possible logic structure (pseudo-code):
+
+IF user chooses A → outcome: dismissed → feedback: procedural rigidity = loss
+IF user chooses B → outcome: success → unlock next module
+IF user chooses C → outcome: delay → loop back to A or B
