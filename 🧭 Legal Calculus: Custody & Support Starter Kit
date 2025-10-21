@@ -1,0 +1,130 @@
+**Live Workspace Structure for Notion**
+
+---
+
+### 🗂️ Main Page: Starter Kit Dashboard
+
+**Title:** *Custody Strategist Module*
+
+**Description:**
+
+Welcome to your custody & support command center. This kit helps you intake cases, draft responses, track timelines, and deploy strategic reflexes—all in under 60 minutes.
+
+**Subpages & Databases:**
+
+- 📘 [Usage Guide](notion://www.notion.so/293fcedaaf3080259358cb5d22bc166c?showMoveTo=true&saveParent=true#usage-guide)
+- 📝 [Intake Form (Database)](notion://www.notion.so/293fcedaaf3080259358cb5d22bc166c?showMoveTo=true&saveParent=true#intake-form)
+- 📄 [Answer Scaffold](notion://www.notion.so/293fcedaaf3080259358cb5d22bc166c?showMoveTo=true&saveParent=true#answer-scaffold)
+- 📊 [Timeline Log (Database)](notion://www.notion.so/293fcedaaf3080259358cb5d22bc166c?showMoveTo=true&saveParent=true#timeline-log)
+- 🧠 [Field Guide Cards (Gallery)](notion://www.notion.so/293fcedaaf3080259358cb5d22bc166c?showMoveTo=true&saveParent=true#field-guide-cards)
+- 🛡️ [Coalition Add-ons](notion://www.notion.so/293fcedaaf3080259358cb5d22bc166c?showMoveTo=true&saveParent=true#coalition-add-ons)
+
+---
+
+### 📘 Usage Guide (Subpage)
+
+**Sections:**
+
+- Intake & Initial Consultation
+- Drafting Responses
+- Organizing Discovery
+- Strategic Deployment Tips
+- Ritual Integration
+
+Use callouts, toggles, or numbered steps for clarity.
+
+---
+
+### 📝 Intake Form (Database)
+
+**View Type:** Table or Form
+
+**Fields:**
+
+- Party Names (Text)
+- Children Involved (Multi-select or Text)
+- Key Deadlines (Date)
+- Safety Concerns (Checkbox + Notes)
+- Income Sources (Text or Multi-select)
+- Exhibit List (Relation to Timeline Log)
+
+---
+
+### 📄 Answer Scaffold (Subpage)
+
+**Plain-English Outline with Toggles:**
+
+- Custody Allegations
+- Support Allegations
+- Jurisdictional Challenges
+- Procedural Defenses
+- Exhibits & Attachments
+- Preservation Notes
+
+Use toggles for each section with example language and strategic notes.
+
+---
+
+### 📊 Timeline Log (Database)
+
+**View Type:** Table
+
+**Fields:**
+
+- Date (Date)
+- Event Description (Text)
+- Linked Exhibit (Relation to Intake Form or File Upload)
+- Category (Select: Incident, Filing, Hearing, etc.)
+- Notes (Text)
+
+Enable filters and sorting by date or category.
+
+---
+
+### 🧠 Field Guide Cards (Gallery View)
+
+**Each Card Includes:**
+
+- Title (e.g., “Relocation Dispute Strategy”)
+- Challenge Summary
+- Strategic Reflex (Plain-English guidance)
+- Links to Scaffold or Intake Form
+
+Use emojis or icons for visual clarity.
+
+---
+
+### 🛡️ Coalition Add-ons (Subpage)
+
+**Sections:**
+
+- 🎖️ Badge Tracker (Database)
+- 📱 Mobile & Voice Companion (Instructions + Embed)
+- 📜 Scroll Export (PDF or Page)
+- 🕯️ Rituals (Text + Audio Embed)
+
+---
+
+### 🕯️ Rituals (Subpage or Embed)
+
+**Examples:**
+
+- *Intake Invocation:* Spoken before filling Intake Form
+- *Timeline Blessing:* Spoken when logging first incident
+- *Scaffold Affirmation:* Spoken before filing responsive pleadings
+
+Include audio embeds or printable scrolls.
+
+---
+
+### 🎖️ Badge Tracker (Database)
+
+| Badge Name | Earned By |
+| --- | --- |
+| Custody Strategist | Completing full kit workflow |
+| Timeline Master | Logging 10+ events with linked exhibits |
+| FRCP Navigator | Citing correct procedural rule in pleadings |
+
+---
+
+If you'd like, I can help you write the welcome message, embed coalition links, or format the scrolls and rituals into printable PDFs. Just say “build welcome page” or “scroll PDF please” and I’ll generate the next module.
