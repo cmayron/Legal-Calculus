@@ -1,0 +1,237 @@
+A deployable, ship-ready module: intake schema, automated red‑flag checks, exportable templates (copy-paste ready), deadline logic, and implementation notes for two sprints.
+
+---
+
+### Overview
+
+- **Goal:** Enable a pro se user to intake a Motion to Dismiss (MTD), build a compliant, jurisdiction-ready Opposition, attach required declarations/exhibits, and export a complete Filing Pack.
+- **Scope:** Mechanical, structural, formatting, timing, service. Out of scope: merits advice, litigation strategy, persuasion coaching.
+- **Ship constraints:** Enforce UPL guardrails and persistent scope banner on every screen; free core delivery.
+
+---
+
+### Intake form schema (fields + validation rules)
+
+1. **Case metadata**
+    - Court (pre‑selected: District of Arizona); **validation:** accepted courts list.
+    - Docket number; **validation:** alphanumeric pattern.
+    - Judge name; **validation:** free text.
+    - Plaintiff(s) name(s) and contact; **validation:** required.
+    - Defendant(s) name(s) and contact; **validation:** required.
+2. **User role / authority**
+    - Filing party (Plaintiff/Defendant/Other); **validation:** required.
+    - Representation status (Pro se / Attorney); **validation:** required.
+3. **Upload / paste**
+    - Upload MTD PDF or paste text; **validation:** file type; OCR fallback for PDFs.
+    - Upload Complaint PDF or paste text; **validation:** required if Opposition cites complaint facts.
+4. **Service info**
+    - Date served; method (e‑file, mail, email); **validation:** date picker.
+    - Proof of service uploaded? (Y/N).
+5. **Deadlines & limits**
+    - Motion filing date; **auto-fill** from MTD header if parsed.
+    - Local rule page limit and font specs (auto-resolve from LR or allow override).
+6. **Exhibits**
+    - Upload exhibits (declaration files, docs); **validation:** file size, allowed types.
+7. **Preferences**
+    - Local rule variant (LR for AZ by default); signature block format (self-signed/decl.); retention toggle (local-only vs case workspace).
+
+---
+
+### Auto‑parsing outputs (from uploaded MTD)
+
+- Extracted motion grounds (list each ground: failure-to-state, jurisdictional, statute-of-limitations, etc.).
+- Filing date; deadline for opposition; page limits; LR citations requiring special sections (e.g., “no separate statement”).
+- Suggested argument headings derived from grounds (one-per-ground scaffold).
+
+---
+
+### Red‑flag checks (system-enforced with inline remediation)
+
+- Missing Complaint upload when facts are needed → prompt: “Upload complaint or paste relevant facts; show facts-to-elements worksheet.”
+- No declaration supporting factual assertions → require auto-declaration template and flag as mandatory.
+- Page limit exceeded → auto-truncate UI + show where to shorten; block export if non‑compliant.
+- Incorrect font/margin → auto-format and preview; block export if user rejects correction.
+- Missing Certificate of Service → auto-generate before export and block.
+- Service deadline missed → show computed due date, provide extension template, mark as high‑risk.
+- Motion grounds not parsed (ambiguous) → surface full text and offer checklist to map grounds manually.
+- Potential jurisdictional/venue flag identified in MTD (if motion moves to dismiss for lack of jurisdiction) → show neutral LR text and suggest clerking review (no merits advice).
+
+---
+
+### Opposition template (copy-paste ready; placeholders in ALL CAPS)
+
+[Caption Header — COURT, CASE NO., PARTIES]
+
+PLAINTIFF’S OPPOSITION TO DEFENDANT’S MOTION TO DISMISS
+
+INTRODUCTION
+
+Plaintiff, [PLAINTIFF NAME], respectfully opposes Defendant’s Motion to Dismiss filed on [MOTION DATE] for the following reasons.
+
+STATEMENT OF FACTS
+
+Plaintiff filed the Complaint on [COMPLAINT DATE]. The Complaint alleges: [BRIEF FACT BULLET POINTS — MAX 6 LINES]. For full allegations, see Complaint, ECF No. [X].
+
+LEGAL STANDARD
+
+An allegation is sufficient if it states a plausible claim for relief; courts accept well‑pleaded factual allegations as true for purposes of a Rule 12(b)(6) motion.
+
+ARGUMENT
+
+1. Failure to State a Claim — Legal Ground 1
+    - Legal standard: [CITE LOCAL RULE OR FEDERAL STANDARD].
+    - Facts as pleaded: [TWO–THREE SENTENCES tying complaint allegations to elements].
+    - Why dismissal is improper: [SHORT, NEUTRAL PARAGRAPH focused on pleading sufficiency].
+2. [Repeat for each ground parsed from MTD: “Lack of Subject Matter Jurisdiction”, “Statute of Limitations”, etc.]
+    - For each: include **(a)** legal standard, **(b)** facts as pleaded, **(c)** why dismissal is premature/misapplied at pleading stage.
+
+REQUEST FOR LEAVE TO AMEND (IF APPLICABLE)
+
+If the Court finds any pleading deficiency, Plaintiff respectfully requests leave to amend under Rule 15.
+
+CONCLUSION
+
+For the foregoing reasons, Plaintiff respectfully requests that the Court deny the Motion to Dismiss in its entirety, or in the alternative grant leave to amend.
+
+DATED: [DATE]
+
+Respectfully submitted,
+
+[PLAINTIFF NAME], Pro se
+
+[ADDRESS, PHONE, EMAIL]
+
+CERTIFICATE OF SERVICE
+
+I certify that on [DATE], I served the foregoing on counsel/parties by [METHOD].
+
+Signature: ___________________ Name: [PLAINTIFF NAME]
+
+---
+
+### Declaration template (28 U.S.C. § 1746)
+
+I, [NAME], declare under penalty of perjury under the laws of the United States of America that the foregoing is true and correct. I am over 18 years of age and competent to testify. Executed on [DATE] at [CITY, STATE].
+
+Signature: ___________________ Name: [NAME]
+
+---
+
+### Certificate of Service template
+
+I hereby certify that on [DATE], I served a true and correct copy of the foregoing [DOCUMENT NAME] by [E‑file/First‑class mail/Email] to: [LIST RECIPIENTS AND ADDRESSES].
+
+Signature: ___________________ Name: [NAME]
+
+---
+
+### Exhibit Wrangler rules & auto-indexing
+
+- All exhibits get 1-line captions: “Exhibit A — [DOCUMENT NAME]; Source: [SOURCE]; Pages: [X].”
+- Declarations auto-add §1746 language; each exhibit referenced as “Exhibit [LETTER] at page [Y]” with automatic footers.
+- Cross-reference checker ensures every exhibit cited in text exists in the bundle; missing exhibits block export.
+
+---
+
+### Compliance engine rules (AZ District specifics, default)
+
+- Page limit enforcement (auto-trim/notify).
+- Font and margin normalization (Times New Roman 12 / 1" margins or LR‑specified).
+- Local Rule citation check: if LR requires separate statement/table of authorities, system flags and inserts a placeholder TOC.
+- Certificate of Service required — enforced.
+- Automatic generation of “Request for Relief” prayer with minimal legalese.
+
+---
+
+### Deadline guard (logic for computing due date)
+
+- Base due date = Motion served date + local response days (AZ default: 21 days if served after e‑file notice; otherwise LR compute) — system resolves from MTD heading and service method.
+- If due date in the past → surface “deadline missed” state and auto-generate a Motion for Extension template and a Notice of Filing/Leave request checklist.
+- Calendar export (.ics) and one-click “Generate extension template” when appropriate.
+
+---
+
+### Export package (single ZIP contents)
+
+- Final PDF (court-ready) with bookmarks.
+- Source .docx/.odt (editable).
+- Signed Declaration PDF.
+- Certificate of Service PDF.
+- Exhibit folder (PDFs, indexed).
+- Compliance checklist (itemized pass/fail).
+- Change log (who/when/what).
+- Readme.txt with required filing instructions and local e‑file hints.
+
+---
+
+### Change log & privacy settings
+
+- **Change log fields:** timestamp, user id (or “local” if offline), action (create/edit/format), version hash.
+- **Privacy defaults:** local-first drafts, zero-retention of uploads unless user enables case workspace. If enabled, storage limited, user opt-in required and clearly explained.
+
+---
+
+### UI microcopy (persistent UPL & onboarding)
+
+- Persistent footer banner (every screen): **LCES gives procedural guidance and document assembly. It does not evaluate your claim, predict outcomes, or advise strategy. You decide what to file. We explain how to do it—accurately and on time.**
+- Three enforced answers (system refusals): when detected prompts match “Should I file X?”, “Do my facts meet Element Y?”, “Will I win?” — return decline response plus the appropriate neutral checklist or timeline resource.
+
+Onboarding first-run microcopy: “You bring the story. We’ll handle the rules, format, and timing. We won’t tell you what to argue—we’ll make sure what you file is on-time, complete, and readable.”
+
+---
+
+### Implementation roadmap (two sprints)
+
+Sprint 1 (Weeks 1–3)
+
+1. Parser + Intake UI (MTD & Complaint upload, metadata extraction).
+2. Opposition scaffold generator (template injection with placeholders).
+3. Compliance engine: page limits, font/margin, certificate of service enforcement.
+4. Deadline guard basic logic + .ics export.
+5. Export ZIP builder and local-first save.
+
+Sprint 2 (Weeks 4–6)
+
+1. Exhibit wrangler & auto-indexing; §1746 declaration auto-fill.
+2. Red‑flag checks enforcement and remediation UI.
+3. UPL persistent footer and three hard refusal pathways.
+4. UX polish, accessibility, AZ LR tuning, QA pass.
+5. Basic analytics hooks for success metrics.
+
+Technical priorities: robust OCR; deterministic deadline logic; LR rules mapping for AZ; offline/exportable docs; end-to-end test cases for common MTD samples.
+
+---
+
+### Success metrics to instrument from day one
+
+- **Acceptance rate:** percent of exports passing compliance engine (no manual corrections needed).
+- **Procedural survival proxy:** percent of cases where dismissal for pleading defects is avoided (measured by user follow-ups and clinic partner reports).
+- **User confidence delta:** pre/post 3‑question Likert survey.
+- **Judge/clerk friction:** returned-for-cure rate from user feedback and partner clinics.
+
+---
+
+### Quick integration notes for Field Kit / Mobile
+
+- Mobile: intake via photo (OCR) + paste; preflight preview before export.
+- Voice field kit: wire short prompts for “Upload MTD”, “Attach complaint”, “Build opposition” mapped to scaffold generator.
+- Clinic mode (next backlog): shared workspace and consented audit trail.
+
+---
+
+### Ready-to-paste artifacts (for product pages)
+
+Pricing FAQ bullets and Onboarding microcopy are approved and ready for the product page and first-run flows as you specified.
+
+---
+
+### Next operational steps (actionable)
+
+- Embed intake schema and Opposition template into the existing mobile Field Kit flows.
+- Wire parser + compliance engine endpoints with local-first default.
+- Run 10 representative MTD samples from AZ (real-world public dockets) through QA to tune red-flag sensitivity.
+- Loop in one trusted clinic partner for a closed pilot and collecting survival signals.
+
+---
+
+If you want, I will now generate the wire-level intake form JSON schema, the red-flag rule set in machine-readable form, and a clean .docx-ready text of the Opposition + Declaration + Certificate of Service for immediate upload into your CMS.
