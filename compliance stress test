@@ -1,0 +1,38 @@
+One-liner
+
+“The Strategist runs a compliance stress test (not legal advice) that challenges the procedural build produced by the Builder (ChatGPT, paralegal-like, non-interactive).”
+
+Banner (public-safe)
+
+“Compliance activity only. The Strategist performs a non-legal stress test of the Builder’s procedural formatting and assembly. No legal advice, recommendations, or predictions.”
+
+TOS / Policy clause
+
+“The Strategist role is limited to quality and safety checks of Builder outputs (UPL scan, completeness, consistency, procedural fit, audit logging). This is not legal advice and does not evaluate claim strength, recommend strategies, select causes of action, or predict outcomes.”
+
+Checklist header (paste atop your compliance page)
+
+Scope: Procedural build only — caption/sections, naming/date consistency, exhibit indexing, page limits, service blocks, required footers, manifest & checksums.
+Out of scope: Legal advice; selecting counts/forums; outcome predictions; value/damages opinions; ‘best argument’ or strategy.
+
+Manifest flags (add to your log)
+	•	compliance_role="strategist"
+	•	is_legal_advice=false
+	•	scope="procedural_build_review"
+	•	advice_leakage_scan="pass|warn"
+
+DB fields to add (Compliance Checks)
+	•	Is Legal Advice? (Checkbox → always unchecked)
+	•	Scope Verified (Procedural Only) (Select: pass/fail)
+	•	Advice Leakage (Select: pass/warn)
+	•	UPL Scan Result (Select: pass/warn/block)
+
+Safe phrasing to use
+	•	“stress-test the procedural build”
+	•	“formatting and assembly review”
+	•	“quality & safety check (non-legal)”
+
+Phrasing to avoid
+	•	“review arguments,” “best argument,” “is this claim valid,” “what should I argue,” “how to win,” “which forum,” “should I settle.”
+
+If you want, I can inject these lines into the Notion pages (Compliance page header, DB properties note, TOS page) and re-export your kit.
