@@ -1,0 +1,14 @@
+- In federal district courts (1998–2017), pro se plaintiffs won ~3% of final judgments; pro se defendants ~12%. Put differently, self-represented parties lose the vast majority of the time (≈80–90% depending on posture).
+- Another large empirical study finds pro se plaintiffs win ~4% when a final judgment is recorded; when the defendant is pro se, the plaintiff wins ~86%. That’s the same reality from the opposite side.
+
+# **Why outcomes skew this hard (JC = Reality)**
+
+- Case-selection effect: strong plaintiff cases tend to attract counsel; weaker/complex cases are likelier to proceed pro se, depressing the win rate.
+- Procedure traps + complexity: deadlines, service, page limits, and formatting errors tank cases before merits review; courts know this and have tried assorted assistance programs.
+- Case mix: many pro se filings cluster in categories with historically low success rates (e.g., certain prisoner or civil-rights claims).
+
+# **How LCES answers the gap (LC = Why · FG = How · JC = Reality)**
+
+- LC (Why): orient to the mission—procedural literacy for those priced-out or turned-away.
+- FG (How): UPL-safe document prep: service blocks, captions, certificates, exhibit indexing, page-limit checks—reducing unforced errors that kill cases early.
+- JC (Reality): make the odds explicit (like the stats above), then build guardrails: Architect → Blueprint → non-interactive, paralegal-like Builder → Strategist compliance stress-test with audit logs.
