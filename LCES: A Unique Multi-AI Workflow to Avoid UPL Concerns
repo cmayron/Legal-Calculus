@@ -1,0 +1,72 @@
+**Overview**
+
+Legal Calculus Educational System (LCES) uses a unique three-stage multi-AI workflow designed specifically to maintain clear boundaries and avoid unauthorized practice of law (UPL) concerns.
+
+### The Three-Stage Architecture
+
+**1. Architect (Notion AI / Gemini)**
+
+Provides the conceptual blueprint using the 6 layers of LCES:
+
+- **LC** — Legal Calculus core modules (1-119)
+- **LCA** — Legal Calculus Advanced with deeper doctrinal commentary
+- **FG** — Field Guide (1,000 tactical cards)
+- **FGA** — Field Guide Advanced with annotations
+- **JC** — Judicial Calculus (the judge's playbook)
+- **LCa** — Lawyer Calculus (the lawyer's playbook)
+
+**🔨 2. Builder (ChatGPT)**
+
+Takes the structured blueprint and expands it into full drafts, motions, or filings. Operates as a format provider within constraints, not an advice-giver.
+
+**3. Inspector (Gemini 2.5 / Peer Reviewer)**
+
+Serves as the verifier, using the Two-Reader Rule to cross-check citations, standards, and procedural hygiene.
+
+### How This Avoids UPL
+
+**Educational Framework** — LCES is positioned as teaching procedural literacy, not providing case-specific legal advice.
+
+**Separated Functions** — Each AI performs a distinct role (structure → draft → verify), with the human retaining responsibility for facts, ethics, and final decisions.
+
+**Open Disclosure** — All content was authored by ChatGPT (GPT-5) and this is disclosed openly. Users must verify and take responsibility for their filings.
+
+**Free & Open-Source** — Licensed under Creative Commons (CC BY-NC-SA), marked "Educational use only".
+
+**Core Philosophy** — LCES provides procedural scaffolding and empowers through education, not by replacing lawyers.
+
+---
+
+## 🎯 Why This Matters
+
+<aside>
+🏗️ **Architect**
+
+Builds the framework using LCES layers — no legal advice, just structure
+
+</aside>
+
+<aside>
+✍️ **Builder**
+
+Expands into full drafts — format provider, not decision-maker
+
+</aside>
+
+<aside>
+🔍 **Inspector**
+
+Verifies accuracy using Two-Reader Rule — quality control layer
+
+</aside>
+
+## ✅ Key Safeguards
+
+- [x]  Educational framework teaches procedural literacy
+- [x]  Separated AI functions with human oversight
+- [x]  Open disclosure of AI authorship
+- [x]  Free & open-source under Creative Commons
+- [x]  User retains full responsibility for filings
+
+> 💡 **Remember:** LCES provides the scaffolding — *you* provide the facts, judgment, and final responsibility. This is education, not representation.
+>
