@@ -1,0 +1,112 @@
+**Core thesis:** Procedural complexity functions as a wealth filter. The justice system routinely resolves cases on form rather than substance, and "judicial economy" often masks economic gatekeeping.
+
+### Five Core Claims (with sources)
+
+1. **The justice gap is structural, not anecdotal.** 92% of low-income Americans receive inadequate or no legal help for substantial civil legal problems. *Source: Legal Services Corporation Justice Gap study (2022)*
+2. **Representation massively shifts outcomes.** Meta-analyses show unrepresented parties lose approximately 6.5× more often in trial-level matters of average complexity. *Sources: Sandefur (2010) synthesis; Quintanilla (2017) review*
+3. **In federal court, pro se plaintiffs almost never win on the merits.** Analysis of 1998–2017 Administrative Office data shows ~3–4% plaintiff win rate when the plaintiff is pro se (compared to ~50/50 when both sides are represented). *Source: Levy's analysis of AO data*
+4. **"Invisible dismissal" manifests as early procedural exits.** Studies document high early attrition rates for self-represented litigants, including significantly lower motion-to-dismiss survival rates. *Example: Northern District of California MTD survival rate studies*
+5. **Prisoner and civil-rights dockets amplify the pattern.** These cases dominate pro se filings and underscore systemic power asymmetries. *Source: US Courts statistical overview*
+
+### What Legal Calculus Can Operationalize
+
+- **Format parity:** Pre-flight checks for jurisdiction, service, pleading sufficiency (Rules 8/9/12), and summary-judgment survival (Rule 56) so judges must address merits rather than dismiss on technicalities
+- **Docket discipline:** Automated calendars, proof-of-service kits, and objection/renewal timers to prevent "gotcha" dismissals based on missed deadlines
+- **Record hygiene:** Exhibit stamping, page-line citations, and properly formatted declarations that anticipate and prevent evidentiary objections
+- **Merits forcing:** Templates that explicitly connect facts → elements → controlling precedent, making it impossible to invoke "judicial economy" without addressing substantive legal questions
+- **Outcome telemetry:** Tag each filing with granular outcome codes (e.g., "dismissed on 12(b)(6) pre-answer," "reached MSJ," "merits trial/decision") to measure systemic progress beyond crude win rates
+
+### Metrics That Matter (Beyond Win Rates)
+
+- Percentage of cases surviving Rule 12(b)(6) motions to reach discovery phase
+- Percentage of cases reaching summary-judgment briefing stage
+- Time-to-merits measurement from initial filing
+- Rate of sanctions and fee-shifting threats against self-represented litigants
+- Citations to controlling law appearing in court orders (measuring "format → law followed" correlation)
+- Outcome variance by individual judge and venue (identifying procedural gatekeeping hotspots)
+
+### Anticipating Institutional Resistance
+
+**"Quality control / floodgates concern":** If tools can draft procedurally competent pleadings, they can also screen out weak claims upstream through merit assessment. This improves docket quality rather than degrading it. Access-to-justice technology evidence demonstrates productivity gains, not increased frivolous filings.
+
+**"We can't be everyone's lawyer":** The system isn't being asked to provide counsel—only to apply procedural rules neutrally once filings meet basic sufficiency standards that represented parties routinely satisfy.
+
+**"We lack resources":** Measuring time-to-merits and Rule 12(b)(6) survival rates reveals where procedural "flexibility" functions as a dismissal lever rather than reflecting genuine resource constraints. If procedural gatekeeping were truly about efficiency, it would be applied uniformly rather than disproportionately to pro se litigants.
+
+<aside>
+**📊 Evidence Base ("Receipts")**
+
+**92% unmet legal need:** Legal Services Corporation, *The Justice Gap* (2022)
+• **6.5× outcome disparity:** Sandefur, "The Impact of Counsel" (2010); Quintanilla et al., review (2017)
+• **~3–4% pro se plaintiff win rate:** Levy's analysis of Administrative Office data (1998–2017)
+• **Early procedural attrition:** Northern District of California motion-to-dismiss survival studies
+• **Pro se docket composition:** US Courts statistical overview of federal case filings
+
+</aside>
+
+### Fast Publishing Plan
+
+1. Open with the core thesis: "Procedural complexity functions as a wealth filter"
+2. Present the five empirical claims with supporting citations
+3. Detail 6–8 specific operational capabilities Legal Calculus provides
+4. Include metrics framework showing what to measure beyond raw win rates
+5. Address anticipated resistance with evidence-based responses
+6. Close with call-to-action for legal aid clinics and court administrators
+
+**Target completion:** 1–2 hours of focused editing to transform analytical framework into publication-ready argument with embedded evidence base.
+
+## 📐 Legal Calculus: Precision Tools for Access to Justice
+
+Legal Calculus is designed to transform how self-represented litigants navigate federal civil procedure. By automating procedural compliance and format parity, it ensures that cases are decided on their merits rather than dismissed on technicalities.
+
+### 🎯 Core Capabilities
+
+- **Smart Pleading Generator:** Creates Rule 8/9/12-compliant complaints with proper fact-to-element mapping and controlling precedent citations
+- **Jurisdiction Checker:** Pre-flight validation of subject-matter jurisdiction, personal jurisdiction, and venue requirements
+- **Service of Process Kit:** Step-by-step guidance with automated proof-of-service forms and deadline tracking
+- **Motion Defense Suite:** Templates for responding to 12(b)(6) motions with proper standard-of-review framing
+- **Discovery Navigator:** Guided interrogatory and document request drafting with automatic objection tracking
+- **Summary Judgment Toolkit:** Statement-of-facts generator with proper material-dispute framing and evidence citations
+- **Docket Calendar:** Automated deadline calculation with renewal reminders and extension request templates
+- **Evidence Formatter:** Exhibit stamping, declaration templates, and page-line citation tools
+
+### 📊 Success Metrics Dashboard
+
+Legal Calculus tracks outcomes across multiple dimensions to measure systemic impact:
+
+- **Procedural survival rate:** Percentage of cases surviving Rule 12(b)(6) dismissal
+- **Discovery access rate:** Percentage reaching fact-discovery phase
+- **Merits adjudication rate:** Percentage receiving substantive legal rulings rather than procedural dismissals
+- **Time-to-merits:** Days from filing to first substantive ruling
+- **Sanctions avoidance:** Rate of Rule 11 threats and fee-shifting attempts
+
+### 🚀 Getting Started
+
+1. **Case Intake:** Answer guided questions about your legal issue
+2. **Jurisdiction Analysis:** System validates federal court authority
+3. **Complaint Generation:** AI drafts procedurally compliant pleading
+4. **Filing Package:** Complete set of documents with filing instructions
+5. **Ongoing Support:** Deadline tracking and response templates throughout case lifecycle
+
+<aside>
+**🎓 Educational Component**
+
+Every document includes explanatory annotations showing *why* each procedural requirement matters and *how* it protects substantive rights. Users learn federal civil procedure by doing, with context-specific guidance at each decision point.
+
+</aside>
+
+### 🤝 Partnership Opportunities
+
+Legal Calculus seeks partnerships with:
+
+- **Legal aid organizations:** White-label deployment for clinic clients
+- **Law school clinics:** Supervised student use with outcome tracking
+- **Court self-help centers:** Integration with existing pro se assistance programs
+- **Access-to-justice researchers:** Data sharing for empirical studies of procedural barriers
+
+<aside>
+**⚖️ Ethical Framework**
+
+Legal Calculus does not provide legal advice or create attorney-client relationships. It offers the same procedural knowledge and format templates that represented parties routinely access through counsel. The tool levels the playing field by ensuring procedural competence, allowing courts to decide cases on substantive legal merit rather than technical default.
+
+</aside>
