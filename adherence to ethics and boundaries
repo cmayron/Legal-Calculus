@@ -1,0 +1,86 @@
+That's an excellent area to focus on. The strict adherence to ethics and boundaries is crucial to the LCES's viability, particularly in clinics and educational settings. The system's guardrails are designed to manage the specific risks associated with non-lawyers assisting with legal procedure, primarily the risk of the Unauthorized Practice of Law (UPL).
+🏛️ LCES Ethics & Boundaries: The UPL-Safe Framework
+The Legal Calculus Educational System maintains a strict boundary between education and legal advice using five core guardrails. These rules establish a clear, documented distinction between the educational product and the responsibility of the human user or supervising attorney.
+
+1. No Legal Advice & User Responsibility
+The foundational rule is that "LCES is educational. It is not legal advice."
+- Boundary Definition: The system provides how-to guides, checklists, and templates for procedure, but it does not interpret a user's specific facts, recommend a legal strategy, or predict the outcome of a case.
+- Mitigation of Risk: By requiring that "Users remain responsible for facts, filings, and compliance," the LCES legally places the burden of judgment and ultimate legal decisions on the individual. This ensures the system itself cannot be deemed to be "practicing law."
+1. Privilege Awareness & Privacy-First Exhibits
+The LCES recognizes the risks inherent in generating documents and evidence.
+- Privilege: The "privilege awareness" guardrail instructs users (and supervising clinics) to be cautious about what is shared with the system or other non-privileged parties, mitigating the risk of inadvertently waiving Attorney-Client Privilege or Work Product Protection when the framework is used in a clinic setting.
+- Privacy-First: The focus on "privacy-first exhibits" forces users to redact sensitive personal information from evidence before it is anchored in the Architect module, protecting the user's data and ensuring compliance with court-mandated privacy rules.
+1. The UPL-Safe Handoff (Clinic Supervision)
+This is the most critical element for legal aid teams and clinics. The LCES templates and checklists are structured to facilitate supervision and define the roles of non-lawyer personnel (students, advocates).
+- Clinics must supervise: The mandate is clear: "Clinics should supervise students consistent with jurisdictional UPL rules." The LCES does not replace the attorney/supervisor; it merely standardizes the work product that the supervisor reviews.
+- Format over Discretion: The system requires the non-lawyer (student/pro se litigant) to focus on the "Format over discretion"—i.e., Did I include the required caption? Did I follow the Rule 55 checklist? Is my proposed order lodged correctly?
+- The Handoff: The completed LCES Builder output (the formatted motion/pleading) is a clean, structured document based on verified facts and rule checklists. This defined, non-discretionary document is the UPL-safe handoff to the licensed attorney or supervising clinician, who then adds the final legal judgment, signature, and advice.
+| LCES Component | Non-Lawyer Role | Attorney/Supervisor Role | UPL Risk Status |
+|---|---|---|---|
+| Architect | Gathers and tags raw facts and evidence. | Provides legal advice on which facts are relevant to the claim. | LOW (Facts are not legal advice) |
+| Builder | Follows checklist to populate the required format (captions, signature line, table of contents). | Reviews and approves the substance and legal sufficiency of the drafting. | LOW (Work is procedural, not advisory) |
+| Strategist | Runs reflex checks against objective deadlines/rules. | Determines strategy based on stress-test results, signs the document, and files it. | ELIMINATED (Attorney owns final filing) |
+1. Cite-First Drafting
+The rule "cite-first drafting" is a critical guardrail against AI hallucination.
+- It forces the user to anchor a legal proposition to a verified statute, rule, or case (i.e., the citation), before drafting the argument based on that authority.
+- This ensures the document starts with a verified source, preventing the AI Builder (e.g., ChatGPT) from fabricating legal precedent, which is one of the most common UPL risks for pro se litigants using AI.
+By combining structured templates, clear disclaimers, and mandatory supervision steps, the LCES maintains its educational integrity while mitigating the substantial legal and ethical risks posed by the Unauthorized Practice of Law.
+Would you like to explore how the LCES addresses the unique Rule 16 schedules and local e-filing habits in its Arizona Superior Court track?
+
+## 🎨 Visual Guide: Understanding the LCES Guardrails
+
+To make these ethical boundaries more accessible, here's a user-friendly breakdown of how the LCES protects against UPL risks:
+
+<aside>
+📚 **Educational Tool**
+
+LCES teaches you *how* to do legal procedures—it doesn't tell you *what* to do in your case.
+
+</aside>
+
+<aside>
+✅ **You Stay in Control**
+
+You make all final decisions about your facts, filings, and strategy.
+
+</aside>
+
+<aside>
+🔒 **Privacy First**
+
+Redact sensitive info before uploading. Protect your privilege and personal data.
+
+</aside>
+
+<aside>
+👨‍⚖️ **Supervision Required**
+
+In clinics, an attorney reviews your work before filing. LCES prepares—lawyers approve.
+
+</aside>
+
+<aside>
+📖 **Cite First, Draft Second**
+
+Always anchor your argument to a real case, statute, or rule. No made-up law!
+
+</aside>
+
+<aside>
+⚡ **Format Over Judgment**
+
+Focus on getting the format right. Let your supervising attorney handle legal strategy.
+
+</aside>
+
+### 🛡️ The Safety Net: How It Works in Practice
+
+| **Stage** | **What You Do** | **What Protects You** | **UPL Risk** |
+| --- | --- | --- | --- |
+| Architect | Gather facts and documents | You're just organizing information, not interpreting law | ✓ Safe |
+| Builder | Fill in templates using checklists | Following procedural rules, not giving legal advice | ✓ Safe |
+| Strategist | Review deadline calculations | Supervisor makes final strategic decisions | ✓ Safe |
+| Filing | Prepare final document | Licensed attorney reviews and signs | ✓ Safe |
+
+> **💡 Remember:** LCES is like a cookbook for legal procedure. It gives you the recipe and ingredients list, but you still need to cook the meal—and in a clinic setting, a chef (attorney) tastes it before it's served to the court.
+>
