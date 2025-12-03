@@ -1,0 +1,151 @@
+Purpose: strategy under fire. anticipate off-ramps, box the court into the safest, least-appealable path.
+
+# Tone: calm, neutral, judge-friendly.
+
+**🧭 Situational Cards (open → copy what you need)**
+
+▸ Service defect ambush
+
+- What it really means: judge wants a procedural off-ramp.
+- Say (one bite): “Grant a brief Rule 4(m) extension and deem service timely upon proofs, then decide the PI.”
+- Proof to gather: USPS tracking (Ex. C), PS-3800/3811, FedEx POD (Ex. D), AAG email.
+- Follow-up ask: “Rule 52(a)(2) findings; if deferring, decide within 3 business days after proofs.”
+
+▸ Younger abstention play
+
+- Rule (once): proceedings “animated by a retaliatory, harassing, or other illegitimate motive.” (Diamond “D”, 282 F.3d at 199)
+- Apply facts: post-speech pivot → misattribution after notice → compelled exam/blanket releases.
+- Relief: status-quo only (no §230(7) exam; no blanket releases).
+
+▸ Futility / leave detour
+
+- Move: “FAC operative under Rule 15(a)(1) (timeline); ‘leave’ was courtesy; futility is moot.”
+- If needed: nunc pro tunc + issue summons + brief 4(m) extension.
+
+▸ No TRO / docket silence
+
+- Hook: administrative stay (status-quo) + 4(m) deem-timely; commit to decide on submission when proofs file.
+
+▸ “Vexatious/serial” label
+
+- Counter: one-bite filing — everything inside the Reply; no side letters.
+
+**🎙️ Tone & Scripts**
+
+Email to AAG (courtesy/notice)
+
+Subject: Mayron v. Silverman — Courtesy notice & tracking
+
+USPS Certified (RRR) [ARTICLE]; USPS Express [EI####] (scheduled/delivered [DATE/TIME]). Attach: FAC + PI papers.
+
+# “Delivery proof and PS-3811 will be filed.”
+
+30-sec hearing opener
+
+Your Honor, service is cured or imminent; we ask for Rule 4(m) deem-timely and a narrow status-quo order—no §230(7) exam, no blanket releases—so the Court can decide the merits. Younger does not apply: post-speech pivot; misattribution after notice; compelled exam. Mathews favors pre-deprivation relief; Winter factors are met.”
+
+Tone guard
+
+- Use “misattributed/inauthentic” (not “fabricated”) unless you have hard proof; cite exhibits (G–J) and the notice date.
+
+**🧾 Micro-Orders (copy)**
+
+Defer-then-decide (3 lines):
+
+1. Status-quo only (no §230(7) exam; no blanket releases).
+2. Rule 4(m) extended; service deemed timely upon filing of Commissioner proofs.
+3. PI decided on submission within 3 business days post-proofs.
+
+Administrative stay: same status-quo restraint pending PI decision (+ item 2 above).
+
+**🧱 Appeal-proofing**
+
+- Ask for Rule 52(a)(2) written findings.
+- Put dates inside sentences (Rule 15 timeline; service milestones).
+- Caption exhibit captions as statutory (Commissioner) vs courtesy (AAG/DOH Legal).
+
+# **FG — Field Guide (LC “How to do it”)**
+
+Purpose: recipes, checklists, copy blocks, exhibits, affidavits. zero guesswork.
+
+**📚 Runbook 1 — Service Cure (OPMC discipline / CPLR 307(2))**
+
+Who to serve
+
+- AG (CPLR 307(1)) + Commissioner of Health (CPLR 307(2)).
+- Address: James V. McDonald, M.D., M.P.H., Commissioner of Health
+NYS Dept. of Health, Corning Tower, Empire State Plaza, Albany, NY 12237.
+
+Steps
+
+- USPS Certified RRR (PS-3800/3811) to Commissioner.
+- Optional: USPS Express or FedEx (courtesy) for faster proof.
+- Save tracking PDF; later, file PS-3811.
+- In Reply: add Rule 4(l)(3) + Rule 4(m) deem-timely block.
+- Treat any NYSED mailings as courtesy.
+
+Reply drop-ins (paste)
+
+USPS Certified (RRR) No. [ARTICLE] mailed [DATE]; PS-3811 requested. USPS Express [EI####] — [Delivered/Scheduled] [DATE/TIME] (Ex. C). Rule 4(l)(3) permits proof to follow.
+
+Operative Pleading (Rule 15(a)(1)): FAC filed [date], within 21 days of Rule 12(b) served [date]; “leave” was courtesy. Futility is moot.
+
+Less-drastic alternative: brief 4(m) extension, deem-timely on proofs, decide the PI (Rule 1).
+
+**🧩 Runbook 2 — Single-Filing Reply (One-Bite)**
+
+- § II.A Service: 4(l)(3); 4(m) deem-timely; Rule 15 timeline; futility moot; No prejudice/Rule 1.
+- Younger (bad-faith): Diamond “D” 199 + facts (pivot → misattribution after notice → compelled exam/releases).
+- Mathews: bullets + DiBlasio; pre-deprivation timing.
+- Winter: Winter; Walsh 488; Rule 52 + defer-then-decide.
+
+**🧷 Runbook 3 — Exhibit Builder (C/D + G–J)**
+
+Ex. C (USPS)
+
+- Tracking PDF (Delivered) + PS-3800 + PS-3811 (later).
+Caption: USPS Tracking (Certified No. [####]) — [Delivered/Scheduled] [DATE/TIME] — Albany, NY 12237.
+
+Ex. D (FedEx, optional)
+
+- POD (name + time).
+Caption: FedEx POD — Commissioner — Delivered [DATE/TIME] — Direct Signature.
+
+Ex. G–J
+
+- G: notice to OPMC re misattribution (dated).
+- H: side-by-side message comparator (timestamps/sender/source).
+- I: contradictory termination docs (Brady vs. sworn “missed meeting”; resignation doc).
+- J: pre-hearing notice to Ian Silverman (header + delivered/read).
+
+**📝 Affidavit template — CPLR 307(2)**
+
+On [date mailed], I mailed a properly addressed envelope to James V. McDonald, M.D., M.P.H., Commissioner of Health, Corning Tower, ESP, Albany, NY 12237, by Certified Mail, RRR (Article No. [####]). USPS tracking shows [Delivered/Scheduled] [DATE/TIME] (Ex. A). I will file the PS-3811 upon return. /s/ [name].
+
+**📦 Checklists**
+
+- PI Run (Mon/Tue):
+    - FedEx POD → Ex. D; fill § II.A time.
+    - USPS “Delivered” → Ex. C; fill § II.A time.
+    - File Reply PDF; file Affidavit; later, PS-3811 supplement.
+- 
+- Service Proof Run:
+    - PS-3800, Tracking PDF, PS-3811, Affidavit.
+- 
+- Summons Issuance Run:
+    - Rule 15(a)(1) sentence; nunc pro tunc fallback; AO-440 ask.
+- 
+- Intake Run (Albany):
+    - Label: “Courtesy paper (electronic submission same day)” + case/judge; stamp a copy “Received.”
+- 
+
+# **Minimal Notion DB stubs (optional)**
+
+Paragraph Library (Notion DB)
+
+- Properties: Title, Tag (multi), Drop-in (rich text), Use in (§), Notes
+- Rows: “Service §II.A (4m/4l3/15a1)”; “Younger bad-faith (Diamond D)”; “Mathews bullets”; “Defer-then-decide (Rule 52)”; “Pro se solicitude”.
+
+Exhibits & Proofs (Notion DB)
+
+- Properties: Exhibit, Recipient, Vehicle, Tracking #, Mailed, Delivered, Green Card?, File, Caption, Statutory/Courtesy.
