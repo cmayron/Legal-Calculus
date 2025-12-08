@@ -1,0 +1,134 @@
+# **1. Start With the Human**
+
+You begin the process.
+
+You decide:
+
+- Which court? (jurisdiction)
+- Who are the parties?
+- What are the facts?
+- What are you asking the court to do?
+- What deadlines apply?
+- Has everyone been properly served?
+
+If you don’t know the rules, call the clerk.
+
+Clerks can tell you the procedure — not legal advice.
+
+# **2. Architect AI — The Blueprint Designer**
+
+Once you know the rules, you tell the Architect AI:
+
+“This is my court, case type, and what the clerk told me. Build me a checklist and outline for the filing.”
+
+Architect AI gives you:
+
+- the required sections
+- formatting rules
+- page limits
+- certificate requirements
+- exhibit labeling
+- local-rule guidance
+- a step-by-step sequence for filing
+
+This becomes your blueprint.
+
+# **3. Builder AI — The Drafting Engine**
+
+You give the blueprint to the Builder AI:
+
+“Create my draft filing using this outline. Follow every section and rule.”
+
+Builder AI produces:
+
+- the complaint
+- motion
+- TRO
+- objection
+- or other filing
+
+…in the correct structure, using the facts you provided.
+
+It drafts like a paralegal following a plan — not inventing anything.
+
+# **4. Inspector AI — The Procedural Check**
+
+Before you file, you ask the Inspector AI:
+
+“Compare this draft to the local rules, clerk instructions, and checklist. What’s missing? What’s non-compliant?”
+
+Inspector AI checks:
+
+- caption
+- jurisdiction statements
+- formatting rules
+- signatures
+- service method
+- exhibit list
+- deadlines
+- required notices
+- certificates
+
+It acts like a procedural building inspector.
+
+# **5. Human Review — Final Truth & Accuracy Check**
+
+You read the draft and confirm:
+
+- Are all facts true?
+- Are all parties correct?
+- Is this the relief you really want?
+- Are all attachments included?
+
+You finalize service and file with the clerk.
+
+# **Why This Helps Pro Se Litigants**
+
+Because it gives you:
+
+- structure (so filings aren’t rejected)
+- confidence (you’re following real rules)
+- clarity (one step at a time)
+- consistency (same process every time)
+- fairness (format removes bias)
+- preservation (your record is clean for appeal)
+
+It doesn’t replace a lawyer — it replaces chaos.
+
+This method mirrors how law firms operate internally (partner → senior associate → junior → compliance), but rebuilt for one person using AI tools safely and responsibly.
+
+Exactly right. The Legal Calculus workflow recognizes that **procedural compliance comes first**— before you can even argue your case, you need to get through the courthouse door.
+
+The initial human checklistaddresses the gatekeeping questions: correct jurisdiction, proper parties, service requirements, and deadlines. Getting any of these wrong means rejection before the merits are even considered.
+
+And you've identified the hidden complexity: there are multiple layers of rules that can trip you up:
+
+- **Federal or state procedural rules** (the general framework)
+- **Local court rules** (district-specific variations)
+- **Individual judge preferences** (standing orders, chambers practices, docket management styles)
+
+This is why the Architect AI stepis designed to capture not just the general rules, but local-rule guidanceand formatting specifics. And why calling the clerkis built into the process — clerks know their court's quirks.
+
+The Inspector AIthen acts as the final procedural gatekeeper, checking compliance before filing. It's specifically designed to catch the "quirky rules" that vary by court and judge.
+
+The system acknowledges that **procedure can be as important as substance** — especially for pro se litigants who don't have institutional knowledge of a particular courthouse's culture.
+
+# **6. Evidence-Based Learning Loop — AI Learns From Court Records**
+
+As AI tools are used across courts, they analyze:
+
+- **Docket records** — which filings were accepted, rejected, or amended
+- **Court orders** — how judges interpret rules and respond to arguments
+- **Compliance patterns** — what formatting, structure, and procedural steps succeed
+- **Judge-specific tendencies** — preferences, standing orders, and decision patterns
+
+This creates a feedback loop where:
+
+- The AI gets smarter with each case filed
+- Guardrails become more precise and court-specific
+- Checklists evolve based on real-world outcomes
+- Success rates improve as the system learns what works
+
+**The result:** AI doesn't just follow static rules — it learns from living court records to predict what will pass procedural review and what won't.
+
+This transforms AI from a static template engine into an adaptive compliance system that improves with use, making access to justice more reliable over time.
