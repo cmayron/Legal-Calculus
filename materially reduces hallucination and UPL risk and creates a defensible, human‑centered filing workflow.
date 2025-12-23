@@ -1,0 +1,76 @@
+### Short answer
+
+**Yes.** A single AI acting alone creates a real risk of unauthorized practice of law and hallucinations. When a self‑represented litigant (SRL) actively interrogates each AI layer, demands provenance, and requires human sign‑off, the result is a far more robust, auditable filing process.
+
+---
+
+### Why a single AI is risky and how SRL interrogation helps
+
+| **Single AI** | **Multilayered SRL‑driven process** |
+| --- | --- |
+| **Risk of UPL** — may produce case‑specific legal advice without human oversight | **Risk reduced** — SRL frames questions, forces explanations, and reserves legal decisions to humans |
+| **Higher hallucination rate** — model can invent citations or misapply law | **Lower hallucination rate** — Architect grounds sources, Builder constrained, Inspector verifies |
+| **Weak audit trail** — no clear provenance or sign‑offs | **Strong audit trail** — TOA, Inspector report, human sign‑off, timestamped archive |
+
+**Bold point:** *Interrogation by an informed SRL converts AI outputs from authoritative‑sounding assertions into testable hypotheses that must be proven before filing.*
+
+---
+
+### Practical protocol you can adopt now
+
+1. **Assemble a Table of Authorities** with full metadata: *case name; reporter; court; year; pinpoint; URL*.
+2. **Run Architect grounding** so every authority has a canonical source link or retrieved excerpt.
+3. **Ask Builder to draft** but constrain it: “Only use authorities listed in the TOA; if you need additional law, say ‘no source found’.”
+4. **Feed the TOA and draft to Inspector AI** with explicit verification prompts (authenticity, holding summary, applicability).
+5. **Human review and sign‑off** on every flagged item; document decisions and corrections.
+6. **Archive proof of diligence** by emailing the Inspector report, TOA, and human checklist to yourself with timestamps and a hash.
+7. **File only after human sign‑off** and retain the audit package for defense of due diligence.
+
+---
+
+### Sample Inspector prompts to use verbatim
+
+> Authenticity check
+> 
+> 
+> “For each citation in this Table of Authorities, state whether the citation exists in an authoritative source. Return: citation; exists yes/no; canonical URL; confidence score; note if multiple cases share the name.”
+> 
+
+> Holding summary and applicability check
+> 
+> 
+> “For each verified citation, provide a one‑sentence holding and state whether it plausibly applies to these facts: [one‑line fact summary]. Return: citation; one‑sentence holding; applies yes/no/uncertain; short rationale; confidence score.”
+> 
+
+> Red flag detection
+> 
+> 
+> “List any citations that are unpublished, out of jurisdiction, misformatted, or appear fabricated. For each, recommend the next human action: verify, replace, or remove.”
+> 
+
+Use **confidence thresholds** (e.g., flag anything < 0.80) and require human review for all flagged items.
+
+---
+
+### Audit trail and proof of due diligence
+
+- **Email subject:** Inspector Report and TOA Archive — [Case Name] — [Date]
+- **Email body:** short summary of flags and actions, human reviewer name and decision, list of attachments.
+- **Attachments:** TOA.csv; InspectorReport.json; SignedChecklist.pdf.
+- **Tamper evidence:** compute and include a SHA256 hash of the concatenated attachments in the email body.
+- **Retention:** store one copy in a private workspace and one offsite encrypted copy.
+
+---
+
+### Governance, limits, and best practices
+
+- **Mandatory human sign‑off** before any filing; AI outputs remain advisory.
+- **Document roles**: who is Architect, who runs Builder, who inspects, who signs.
+- **Train SRLs** on how to interrogate AI: ask for sources, ask for holdings, ask for jurisdiction, demand citations.
+- **Use multiple verification sources** (court websites, neutral databases) to avoid single‑source errors.
+- **Keep sensitive data out of public artifacts**; use private workspaces for client details.
+- **Treat the system as educational and procedural, not legal representation.**
+
+---
+
+**Bottom line:** Your approach — forcing each AI to prove its claims and preserving the Inspector’s report as an auditable artifact — materially reduces hallucination and UPL risk and creates a defensible, human‑centered filing workflow. If you want, I can produce the **TOA CSV template**, the **Inspector prompts in JSON**, and the **email body** ready to paste into your mail client.
