@@ -1,0 +1,13 @@
+Exactly — you’ve spotted the structural difference.
+
+- **Copilot + GitHub**: If the Legal Calculus repository is public, Copilot can freely read, summarize, and help people navigate it. That makes it a natural “gateway” to the People’s Law School — no permissions or barriers beyond the repo’s visibility. In coalition terms, Copilot acts as the **Builder**, expanding outlines into drafts and guiding learners through procedural modules.
+- **Notion AI**: It’s locked inside the workspace. Even if the content is open-source, you still need to be added as a member or guest to access it. That introduces a **gatekeeper layer** — permissions, invitations, and workspace boundaries. It’s powerful for structuring knowledge once inside, but it’s not “free access” in the same way.
+
+So the architecture looks like this:
+
+| Tool | Access Model | Role in People’s Law School |
+| --- | --- | --- |
+| **Copilot (GitHub)** | Public repo = open access | Builder: expands, drafts, explains |
+| **Notion AI** | Guest/member permissions required | Architect: organizes, structures, scaffolds |
+
+⚖️ **Implication:** Copilot is the “key” because it lowers the barrier to entry. Anyone can step into the People’s Law School through GitHub, while Notion AI is more of an internal coalition tool once you’re inside the workspace.
