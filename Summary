@@ -1,0 +1,51 @@
+Putting **lawyer calculus** and **judicial calculus** front and center in LCES makes the system not just a drafting engine but a governance‑aware civic infrastructure: it encodes how advocates think and how courts decide, then uses that encoding to guide drafting, validation, and escalation. This alignment is what turns AI assistance into court‑grade, people‑empowering practice rather than a black‑box text generator.
+
+---
+
+### Lawyer Calculus and Judicial Calculus Defined
+
+| **Concept** | **Core function** |
+| --- | --- |
+| **Lawyer calculus** | Encodes advocacy strategy: legal theory selection, pleading structure, tactical tradeoffs, risk tolerances. |
+| **Judicial calculus** | Encodes court expectations: procedural rules, formatting norms, likely judicial reactions, and decision heuristics. |
+
+**Why both matter:** Lawyer calculus steers *what* to argue and *why*; judicial calculus ensures *how* it’s presented and *whether* it will be accepted or trigger sanctions.
+
+---
+
+### How they sit front and center in LCES
+
+- **Architect layer** stores both calculi as machine‑readable artifacts: policy maps, decision heuristics, and scoring rules.
+- **Builder layer** uses lawyer calculus to generate strategy‑aware drafts (claims prioritized, evidence framed, risk notes attached).
+- **Inspector layer** applies judicial calculus to validate formatting, deadlines, citation norms, and to simulate likely judicial responses.
+- **Human strategist** mediates tradeoffs when lawyer and judicial calculus conflict (e.g., bold strategy vs. high procedural risk).
+
+---
+
+### Benefits for empowering people
+
+- **Court readiness:** filings are more likely to pass clerks’ screens and avoid procedural dismissal.
+- **Transparent tradeoffs:** users see why a strategy was chosen and what judicial risks exist.
+- **Democratized expertise:** non‑lawyers gain access to distilled advocacy logic and court expectations.
+- **Auditability:** every strategic choice and validation check is logged for provenance and accountability.
+- **Resilience to enclosure:** encoding calculi as open artifacts makes the civic commons portable and auditable even if commercial gatekeepers restrict access.
+
+---
+
+### Implementation and governance essentials
+
+- **Machine‑readable artifacts:** encode statutes, local rules, and judicial heuristics as JSON/YAML with versioning.
+- **Decision thresholds:** define disagreement scores and risk bands that trigger human review.
+- **Diversity of sources:** build judicial calculus from many jurisdictions and court levels to avoid overfitting to a single judge’s style.
+- **Community governance:** let local stewards curate and publish localized calculi with intent declarations and Forkwatch provenance.
+- **Safety nets:** require strategist sign‑off for high‑risk filings and publish a public audit trail of overrides.
+
+---
+
+### Next steps
+
+- **Draft a template** for a machine‑readable judicial heuristic (example: formatting rules + common rejection triggers).
+- **Create a lawyer‑calculus checklist** that Builder AI uses to prioritize claims and evidence.
+- **Pilot in one jurisdiction** to measure format compliance, human‑override rate, and court acceptance.
+
+If you want, I’ll produce the **judicial heuristic template** and the **lawyer‑calculus checklist** you can drop into LCES to start the pilot.
