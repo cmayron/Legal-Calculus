@@ -1,0 +1,281 @@
+### Acknowledgement
+
+Good — treat Notion as the **master authoring environment** and GitHub as the **public archive and distribution channel**. That distinction gives you editorial flexibility while preserving provenance and discoverability.
+
+---
+
+### Why keeping Notion as master is smart
+
+- **Rich authoring**: Notion supports long drafts, embedded media, databases, and iterative pedagogy that GitHub’s file model doesn’t.
+- **Living curriculum**: You can stage modules, collect feedback, and iterate without noisy commits.
+- **Onboarding & collaboration**: Notion databases let you track contributors, review status, and local steward assignments.
+- **Publish control**: You decide what becomes a canonical GitHub artifact and when.
+
+---
+
+### Practical sync strategy (Notion → GitHub)
+
+**Goal:** keep Notion as the single source of truth while publishing stable, audited artifacts to GitHub.
+
+1. **Define canonical artifacts**
+    - **What to publish**: README, Field Guides, Template packs, finalized Modules, judicial heuristics, Forkwatch ledger.
+    - **What to keep in Notion**: drafts, pedagogy notes, private case studies, internal discussion.
+2. **Standardize metadata in Notion**
+    - Add properties to each page/item: **Module ID**, **Version**, **Status** (Draft/Review/Published), **Jurisdiction**, **Author**, **Last Reviewed**, **Provenance Notes**.
+3. **Export pipeline**
+    - Use Notion’s export (Markdown + assets) or the Notion API to programmatically export pages marked **Published**.
+    - Convert exports into GitHub‑ready artifacts: tidy front‑matter, normalize filenames, bundle templates and zips.
+4. **Automated publishing**
+    - Create a small CI job (GitHub Actions or equivalent) that:
+        - Accepts exported Markdown + assets, runs a linter/formatter, updates version metadata, commits to a `published/` branch, and creates a release or tag.
+        - Optionally generates a human‑readable changelog from Notion’s “Last Reviewed” and “Provenance Notes.”
+5. **Provenance & Forkwatch**
+    - When publishing, append a **Provenance block** to each artifact with: Notion page URL (or ID), author, version, export timestamp, and a short intent declaration.
+    - Maintain a `forkwatch.json` ledger in the repo that lists forks, declared intent, and links to published artifacts.
+6. **Human sign‑off**
+    - Require a strategist or steward to flip the Notion page to **Published**; that action triggers the export/publish pipeline and records the sign‑off in the provenance block.
+
+---
+
+### Contributor workflow (recommended)
+
+- **Authoring**: Contributors draft in Notion under `Drafts/` with metadata filled.
+- **Review**: Local stewards or maintainers review in Notion, add comments, and set `Status=Ready for Publish`.
+- **Sign‑off**: Strategist sets `Status=Published` and adds a one‑line intent declaration.
+- **Publish**: CI exports and commits to GitHub; PR created for public review if desired.
+- **Post‑publish**: Forkwatch ledger updated automatically; announce in coalition channels.
+
+---
+
+### Minimal tech stack & tools
+
+- **Notion** (master content + metadata)
+- **Notion API** or export scripts (Python/Node) to pull pages marked Published
+- **Markdown converter** (if needed) to normalize Notion exports
+- **GitHub** for public artifacts, releases, and Forkwatch ledger
+- **CI** (GitHub Actions) to automate export → lint → commit → release
+- **Optional**: small web view for Forkwatch (static site generated from `forkwatch.json`)
+
+---
+
+### Governance, privacy, and safety notes
+
+- **Sensitive content**: Keep anonymized case studies and PII out of public exports. Mark pages with `Privacy=Internal` to prevent accidental publishing.
+- **Legal disclaimers**: Ensure exported artifacts include the repo’s disclaimers and the “not legal advice” notice.
+- **Audit trail**: Preserve Notion change history and include export timestamps in provenance blocks for accountability.
+
+---
+
+### Quick checklist to implement in the next 2 weeks
+
+- Add metadata fields to Notion pages (Module ID, Version, Status, Jurisdiction, Author).
+- Create a `Published` status workflow and strategist sign‑off rule.
+- Prototype a Notion export script that pulls `Status=Published` pages and writes Markdown + assets.
+- Build a simple GitHub Action that accepts the export, runs a formatter, and commits to `published/`.
+- Add a provenance template appended to each published file.
+- Seed `forkwatch.json` and a static Forkwatch view in the repo.
+
+---
+
+### Offer
+
+I can draft the **Notion metadata schema**, a **provenance template** to append to published artifacts, and a **CI job script** (GitHub Actions YAML) that automates export → lint → commit. I’ll also prepare the `forkwatch.json` schema and a one‑page contributor workflow to paste into Notion. Tell me which of those you want first and I’ll produce it.
+
+---
+
+### Deliverable #1: Notion metadata schema
+
+**Purpose:** Standardize content tracking, review workflows, and publishing signals across all Notion pages.
+
+### Core properties (add to every content page)
+
+- **Module ID** (text): Unique identifier, e.g., `FG-001`, `MOD-Jurisdiction-TX-002`
+- **Version** (text): Semantic version, e.g., `1.0.0`, `1.1.0-draft`
+- **Status** (select): `Draft` | `Review` | `Ready for Publish` | `Published` | `Archived`
+- **Jurisdiction** (multi-select): `Federal`, `TX`, `CA`, `NY`, etc.
+- **Author** (person): Primary author or contributor
+- **Last Reviewed** (date): Last editorial review or sign-off date
+- **Privacy** (select): `Public` | `Internal` (blocks export if Internal)
+- **Provenance Notes** (text): Short description of intent, changes, or context for this version
+
+### Optional properties (for advanced tracking)
+
+- **Steward** (person): Local steward or jurisdiction owner
+- **Related Modules** (relation): Links to other Notion pages
+- **Changelog URL** (url): Link to GitHub commit or release
+- **Export Timestamp** (date): Auto-populated by export script
+
+---
+
+### Deliverable #2: Provenance template
+
+**Purpose:** Append to every published artifact (Markdown file) to preserve accountability and traceability.
+
+```markdown
+---
+## Provenance
+
+**Module ID:** [Module ID from Notion]  
+**Version:** [Version from Notion]  
+**Author:** [Author name]  
+**Last Reviewed:** [Last Reviewed date]  
+**Published:** [Export timestamp]  
+**Notion Source:** [Notion page URL or ID]  
+**Intent Declaration:** [One-line statement from Provenance Notes]  
+**Repository:** https://github.com/[org]/[repo]  
+**License:** [License type, e.g., CC BY-SA 4.0]  
+
+*This document is part of the Judicial Forkwatch Coalition. It is not legal advice. For official guidance, consult a licensed attorney in your jurisdiction.*
+
+---
+
+```
+
+---
+
+### Deliverable #3: GitHub Actions CI job (export → lint → commit)
+
+**Purpose:** Automate the pipeline from Notion to GitHub when a page is marked `Published`.
+
+```yaml
+name: Publish from Notion
+
+on:
+  workflow_dispatch:
+    inputs:
+      notion_page_id:
+        description: 'Notion page ID to export'
+        required: true
+      module_id:
+        description: 'Module ID for file naming'
+        required: true
+
+jobs:
+  export-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install notion-client markdown-it-py
+
+      - name: Export from Notion
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          PAGE_ID: ${{ github.event.inputs.notion_page_id }}
+          MODULE_ID: ${{ github.event.inputs.module_id }}
+        run: |
+          python scripts/export_notion.py
+
+      - name: Lint and format Markdown
+        run: |
+          pip install mdformat
+          mdformat published/*.md
+
+      - name: Commit and push
+        run: |
+          git config user.name "Notion Publisher Bot"
+          git config user.email "bot@yourdomain.org"
+          git add published/
+          git commit -m "Publish ${{ github.event.inputs.module_id }} from Notion"
+          git push origin main
+
+      - name: Update Forkwatch ledger
+        run: |
+          python scripts/update_forkwatch.py "${{ github.event.inputs.module_id }}"
+          git add forkwatch.json
+          git commit -m "Update Forkwatch ledger for ${{ github.event.inputs.module_id }}"
+          git push origin main
+
+```
+
+**Notes:**
+
+- Store your Notion API key as a GitHub secret (`NOTION_API_KEY`)
+- The `export_notion.py` script fetches the page, converts to Markdown, appends provenance, and writes to `published/`
+- The `update_forkwatch.py` script adds an entry to `forkwatch.json` with module metadata
+
+---
+
+### Deliverable #4: forkwatch.json schema
+
+**Purpose:** Machine-readable ledger of all published artifacts and their forks.
+
+```json
+{
+  "version": "1.0.0",
+  "last_updated": "2025-12-28T12:35:00Z",
+  "repository": "https://github.com/[org]/[repo]",
+  "artifacts": [
+    {
+      "module_id": "FG-001",
+      "title": "Field Guide to Judicial Oversight",
+      "version": "1.0.0",
+      "jurisdiction": ["Federal"],
+      "published_date": "2025-12-01",
+      "notion_source": "https://notion.so/page-id",
+      "github_path": "published/FG-001-judicial-oversight.md",
+      "author": "Charles Mayron MD FACS",
+      "intent": "Establish baseline framework for judicial oversight protocols",
+      "forks": [
+        {
+          "forker": "Texas Health Coalition",
+          "fork_url": "https://github.com/tx-health/judicial-oversight",
+          "declared_intent": "Adapt for Texas state court system",
+          "date": "2025-12-15"
+        }
+      ]
+    }
+  ]
+}
+
+```
+
+---
+
+### Deliverable #5: Contributor workflow (paste into Notion)
+
+### Step-by-step guide for contributors
+
+1. **Draft in Notion**
+    - Create a new page under `Drafts/`
+    - Fill in metadata: Module ID, Version, Status=`Draft`, Jurisdiction, Author, Provenance Notes
+    - Write your content using Notion's full editor
+2. **Request review**
+    - When ready, set Status=`Review`
+    - Tag your local steward or maintainer in a comment
+    - Address feedback inline using Notion comments
+3. **Mark ready for publish**
+    - Once approved, steward sets Status=`Ready for Publish`
+    - Strategist reviews and adds a one-line intent declaration in Provenance Notes
+4. **Publish**
+    - Strategist sets Status=`Published` and records Last Reviewed date
+    - CI job is triggered (manually via GitHub Actions workflow_dispatch)
+    - Artifact appears in GitHub under `published/`
+5. **Post-publish**
+    - Forkwatch ledger is automatically updated
+    - Announce in coalition channels (Slack, email list, etc.)
+    - Monitor for forks and update `forkwatch.json` as they are declared
+
+**Key principle:** Notion is the living source of truth. GitHub is the audited public record. Never edit published files directly on GitHub — always update in Notion and re-export.
+
+---
+
+### Next steps
+
+- Implement metadata schema in your Notion workspace (5 minutes)
+- Add provenance template to a test page and export manually to verify format (10 minutes)
+- Set up GitHub secrets and test the CI job with a sample page (30 minutes)
+- Seed `forkwatch.json` with one artifact (5 minutes)
+- Share contributor workflow with your coalition stewards (5 minutes)
+
+**Total estimated setup time:** ~1 hour
+
+Let me know if you need any of these scripts (export_notion.py, update_forkwatch.py) written in detail, or if you want me to refine any part of this system.
