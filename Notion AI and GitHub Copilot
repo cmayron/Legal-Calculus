@@ -1,0 +1,45 @@
+Both **Notion AI** and **GitHub Copilot** can work with the Legal Calculus Educational System, but in different ways:
+
+**GitHub Copilot approach:**
+
+- Clone the Legal Calculus repository from [GitHub](https://github.com/cmayron/Legal-Calculus)
+- Open the files in VS Code with GitHub Copilot enabled for session-level assistance
+- For organization-wide access, an admin must enable the GitHub Cloud Knowledge connector for Microsoft 365 Copilot
+
+**Notion AI approach:**
+
+- Use Notion to organize evidence, templates, and workflows in databases
+- Leverage Notion AI for drafting, summarizing documents, and extracting timelines
+- Store court-ready documents with timestamps and metadata using Notion's structure
+
+The system combines structured curriculum, court-ready templates, and AI-assisted drafting into teachable modules specifically designed for pro se litigants. It's open-source under Creative Commons licensing and available on multiple platforms including GitHub, Notion, and LinkedIn.
+
+---
+
+## Summary
+
+- Legal Calculus Educational System supports both Notion AI and GitHub Copilot integration
+- GitHub Copilot requires cloning the repository and opening files in VS Code; organization-wide access needs admin configuration with Microsoft 365 Copilot
+- Notion AI enables database-driven organization of evidence, templates, and workflows with AI-powered drafting and document analysis
+- The system provides structured curriculum with court-ready templates and AI-assisted drafting designed specifically for pro se litigants
+- Available as open-source under Creative Commons licensing across GitHub, Notion, and LinkedIn platforms
+
+---
+
+## Key Takeaways
+
+- Legal Calculus integrates with both Notion AI and GitHub Copilot for different workflows
+- GitHub Copilot integration requires repository cloning and VS Code setup; enterprise access needs Microsoft 365 Copilot configuration
+- Notion AI provides database-driven evidence management, AI-powered document drafting, and timeline extraction
+- System delivers structured legal curriculum with court-ready templates tailored for pro se litigants
+- Open-source under Creative Commons licensing, accessible via GitHub, Notion, and LinkedIn
+
+---
+
+## Concise Overview
+
+- Legal Calculus Educational System integrates with both Notion AI and GitHub Copilot for flexible workflows
+- GitHub Copilot requires repository cloning to VS Code; enterprise deployment needs Microsoft 365 Copilot admin setup
+- Notion AI enables database-driven evidence organization with AI-powered drafting and timeline extraction capabilities
+- Provides structured legal curriculum with court-ready templates specifically designed for pro se litigants
+- Open-source under Creative Commons licensing across GitHub, Notion, and LinkedIn platforms
