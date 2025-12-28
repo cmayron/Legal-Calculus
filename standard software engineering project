@@ -1,0 +1,26 @@
+This is a highly structured and professional onboarding path. By treating the Legal Calculus Educational System (LCES) as a standard software engineering project, you are ensuring that any legal work produced is not only modular but also verifiable through a "chain of custody" (provenance).
+Below is a breakdown of how these steps solidify the Architect-Builder-Inspector workflow and a few suggestions to harden the pipeline.
+Phase 1: Environment & Infrastructure
+The focus here is on the "Local Dev" experience, ensuring contributors don't break the existing modular logic.
+
+- Step 1 & 2 (Fork/Smoke Test): This establishes the developer’s "sandbox."
+- Step 3 (Metadata & Provenance): This is the most critical step for legal integrity. By implementing a Notion → GitHub provenance block, you are creating a digital "fingerprint" of where a legal argument originated and how it evolved.
+    - Suggestion: The forkwatch.json should likely track the version of the "Inspector" logic used at the time of the commit to ensure retrospective audits are possible.
+    Phase 2: Automation & Intelligence
+    This phase transforms a static repository into an active "Legal Factory."
+- Step 4 (CI/GitHub Action): Automating the published/ directory prevents manual errors.
+- Step 5 (Inspector Prototypes): This is where the Three-AI Architecture comes to life.
+    - Formatting Checks: Ensure the Markdown matches court-specific styles (e.g., specific margins or font-weight simulation).
+    - Citation Patterns: An automated check that flags missing "id." or "supra" references can save a pro se litigant from significant procedural errors.
+    Phase 3: Documentation & Submission
+- Step 6 (API Documentation): Since LCES relies on specific Architect/Builder/Inspector roles, the [developer.md](http://developer.md/) needs to define the "hand-off" points. For example: How does the Architect output feed into the Builder prompt?
+- Step 7 (The Intent Declaration): In a legal context, the "Intent Declaration" in a PR acts like an affidavit of work, aligning perfectly with the LCES philosophy of transparency.
+Suggested Enhancements for the "Inspector" Logic
+To make the Inspector checks even more robust for contributors, you might consider adding these to Step 5:
+| Check Type | Logic | Purpose |
+|---|---|---|
+| Dead Link Check | Scans all [Source] links in the Markdown. | Ensures all evidence or exhibits cited are still accessible. |
+| Schema Validation | Validates the JSON front-matter against forkwatch.json. | Prevents "dirty" data from entering the published record. |
+| Logic Flagging | Searches for "Placeholder" text (e.g., [Insert Date]). | Prevents the submission of incomplete legal documents. |
+Next Step
+This roadmap is ready for execution. Would you like me to draft the initial content for [developer.md](http://developer.md/) or help you define the JSON schema for forkwatch.json to ensure it captures all necessary provenance data?
