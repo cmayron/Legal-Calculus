@@ -1,0 +1,27 @@
+The People’s Law School (LCES) depends on what you’re trying to do day-to-day:
+
+**If you’re a pro se litigant actually building a case**
+
+Use Notion first.
+
+It’s the easiest “operating system” for: evidence databases, timelines, task/workflow checklists, and keeping drafts tied to dates + metadata (the stuff that keeps you organized when things get messy). That lines up with how LCES is described and used publicly.
+
+**If you want the canonical source + templates + version history**
+
+Use GitHub.
+
+Best for: pulling the exact latest templates/modules, tracking changes, and (if you’re technical) contributing improvements. It’s also the most natural on-ramp for Copilot-style “read the repo and help me navigate it” workflows when the repo is public.
+
+**If you just want to learn the concepts / stay current**
+
+Use LinkedIn.
+
+LCES/Field Guide content is being actively published there as explainer posts and “tiles,” so it’s great for browsing and sharing.
+
+My default recommendation:
+
+- Start in Notion (run your matter there),
+- pull from GitHub (source-of-truth templates/modules),
+- use LinkedIn (updates + teaching bites).
+
+If you want, tell me which persona you’re optimizing for—(1) pro se building filings, (2) educator/clinic helping others, or (3) developer contributor—and I’ll give you the cleanest “click-by-click” entry path.
