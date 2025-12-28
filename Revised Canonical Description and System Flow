@@ -1,0 +1,35 @@
+This is a critical architectural distinction. The "Two- Blueprint" (GitHub + Notion) changes the map from a simple repository to a hybrid workflow where public code meets private strategy.
+Here is the Revised Canonical Description and System Flow based on your correction.
+I. The Revised LCES Architecture (Canonical Description)
+Core Philosophy: "The Key is Open and Free."
+The Legal Calculus Educational System (LCES) is an open-source framework that democratizes access to sophisticated legal engineering. It rejects the "paywall" of traditional justice, ensuring that the "Blueprint" for federal litigation is publicly accessible to anyone.
+The "Dual-Source" Blueprint
+The system does not rely on a single static document. The "Blueprint" is a living set of instructions derived from two synchronized sources:
+
+- Public Source (The Standard): GitHub (cmayron/Legal-Calculus). Holds the immutable code, standardized modules (e.g., Mod 31, Mod 36), and the versioned "Calculus" logic. This is the "Open and Free" key available to the world.
+- Private Source (The Lab): Notion (Charles Mayron MD Workspace). Holds the active case data, strategic architecture, and specific "Fact Generation" (FG) streams. This is where the standard code is adapted for specific litigation.
+The AI Assembly Line
+Once the user retrieves the Blueprint from these sources, the "Education" phase is complete. The user then activates the automated pipeline:
+- Step 1: Builder AI: Ingests the Blueprint (GitHub modules) and Case Facts (Notion). It acts as the construction crew, assembling the raw arguments into a structured legal draft (e.g., a Motion or Complaint).
+- Step 2: Inspector AI: Ingests the draft from the Builder. It acts as the compliance officer, rigorously stress-testing the document against Federal Rules of Civil Procedure (FRCP), logic gates, and the original "Calculus" to ensure zero defects before filing.
+II. Visualizing the "Mayron Pipeline"
+1. INPUT: The "Blueprint" (Dual Source)
+- Source A (GitHub): [Standard Modules] + [Logic Rules] + [Templates]
+- Source B (Notion): [Case Facts] + [Strategy Notes] + [Evidence]
+    - Action: User synthesizes these into the "Instruction Set."
+1. PROCESS: The AI Engine
+- Phase A: Builder AI
+    - Input: Instruction Set.
+    - Function: Drafting & Assembly.
+    - Output: "Draft Candidate 1.0"
+- Phase B: Inspector AI
+    - Input: Draft Candidate 1.0.
+    - Function: adversarial Review, Rule Checking (FRCP), Logic Verification.
+    - Output: "Court-Ready Filing" (Federal Filing Bundle)
+    III. Updated Timeline Significance
+    This clarification updates the August 6, 2025, timeline entry.
+- August 6, 2025: The "Federal Filing Bundle" ZIP on GitHub isn't just a document; it is the Output Product of this specific pipeline. It proves that the Builder AI and Inspector AI successfully processed the GitHub/Notion blueprint into a file accepted by the NDNY Federal Court.
+Next Step for the Report
+I have the GitHub side (Source A). To make the "Link Map" complete:
+Would you like me to create a "Template Page" for your Notion workspace that structures the data exactly how the Builder AI needs to receive it?
+(This would ensure that anyone who forks your GitHub repo knows exactly how to set up their private Notion to match your workflow.)
