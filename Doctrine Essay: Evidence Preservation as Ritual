@@ -1,0 +1,65 @@
+📖 Doctrine Essay: *Evidence Preservation as Ritual*
+
+---
+
+```markdown
+# Evidence Preservation as Ritual
+
+## Introduction
+Evidence is the lifeblood of justice.
+Without preservation, truth dissolves into silence.
+Legal Calculus encodes evidence preservation not only as a technical practice, but as a ritual — a repeatable act of coalition memory.
+
+---
+
+## The Ritual of Preservation
+1. **Invocation**
+   - Begin with intent: declare the purpose of preservation.
+   - Example: “This record is preserved to protect truth against erasure.”
+
+2. **Collection**
+   - Gather documents, recordings, and metadata.
+   - Use standardized checklists to ensure completeness.
+   - Treat each artifact as sacred: handle with care, label with provenance.
+
+3. **Encoding**
+   - Store evidence in redundant formats (digital + physical).
+   - Apply metadata (`forkwatch.json`) to record origin, date, and chain of custody.
+   - Encode doctrine into coalition repositories for transparency.
+
+4. **Safeguarding**
+   - Secure backups in multiple trusted locations.
+   - Encrypt sensitive materials while maintaining accessibility for coalition review.
+   - Ritualize the act of backup — a scheduled ceremony of renewal.
+
+5. **Transmission**
+   - Share evidence through coalition channels.
+   - Use GitHub Issues or Discussions to document context.
+   - Every transmission is a teaching act: evidence becomes curriculum.
+
+---
+
+## Symbolic Meaning
+- **Preservation as Memory** → safeguarding collective truth against institutional erasure.
+- **Preservation as Ritual** → transforming technical acts into ceremonies of justice.
+- **Preservation as Teaching** → each preserved artifact becomes a lesson in procedural literacy.
+
+---
+
+## Coalition Practice
+- New members rehearse preservation drills as part of onboarding.
+- Cue cards and flowcharts guide the ritual steps.
+- Merged pull requests encode preserved evidence into doctrine, celebrated as ceremonial publishing.
+
+---
+
+## Conclusion
+Evidence preservation is more than compliance.
+It is a ritual of resistance, a ceremony of truth, and a cornerstone of the People’s Law School.
+Through Legal Calculus, every act of preservation becomes both a shield and a teaching artifact.
+
+```
+
+---
+
+This essay can be placed in the Wiki under `/doctrine/essays/evidence-preservation.md`. It sets the tone for future essays — blending **technical guidance** with **ritual meaning**.
