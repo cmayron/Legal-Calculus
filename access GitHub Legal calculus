@@ -1,0 +1,34 @@
+The Legal Calculus GitHub repository is now live and publicly accessible under `cmayron/Legal-Calculus`.
+
+How to Access the Repository:
+- Repository URL: cmayron/Legal-Calculus on GitHub
+- Owner: Charles Mayron (cmayron)
+- Status: Public, open-source, free to fork and contribute.
+- Contents: Federal filing bundles, README documentation, and modules tied to Legal Calculus 5.0 deployment.
+
+Using Copilot to Navigate Legal Calculus:
+Copilot can assist by:
+- Explaining modules: Summarizing the purpose of each folder or file (e.g., evidence preservation, arbitration bias).
+- Drafting documentation: Autocompleting README files, module guides, and coalition onboarding scripts.
+- Generating templates: Creating markdown structures for rituals, advocacy kits, or procedural checklists.
+- Suggesting workflows: Helping design GitHub Actions for publishing doctrine or formatting filings.
+
+Repository Structure (People’s Law School Curriculum):
+- Orientation → onboarding rituals, coalition scripts.
+- Core Modules → evidence preservation, arbitration bias, procedural literacy.
+- Coalition Practice → advocacy kits, stress management rituals.
+- Ceremonial Publishing → doctrine essays, onboarding rites, coalition ceremonies.
+- Contribution Guides → instructions for forking, editing, and publishing modules.
+
+This structure reflects a law school curriculum in an open-source format, where each module serves as both a teaching tool and a coalition artifact.
+
+How to Contribute:
+1. Fork the repo to create your own copy under your GitHub account.
+2. Clone locally using `git clone https://lnkd.in/gPFm8pGD.
+3. Run smoke tests to confirm formatting.
+4. Add metadata by implementing provenance blocks (`forkwatch.json`).
+5. Create CI workflows using GitHub Actions for formatting and publishing doctrine.
+6. Submit Pull Requests with tests, changelog entries, and intent declarations.
+
+Risks & Considerations:
+- Procedural sensitivity: Contributions should respect
