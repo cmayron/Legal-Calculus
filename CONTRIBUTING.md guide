@@ -1,0 +1,100 @@
+ so coalition members know exactly how to fork, edit, and submit doctrine modules into the People’s Law School. This file will sit at the root of the Legal Calculus GitHub repo and serve as the onboarding manual for contributors.
+
+---
+
+## 📘 [CONTRIBUTING.md](http://contributing.md/) (Starter Draft)
+
+```markdown
+# Contributing to Legal Calculus: The People’s Law School
+
+Thank you for helping build an open-source procedural justice curriculum.
+This repository encodes doctrine, rituals, and coalition tools into modular, teachable artifacts.
+Your contributions strengthen transparency, empower litigants, and expand coalition practice.
+
+---
+
+## 🧭 Getting Started
+1. **Fork the repository**
+   - Click “Fork” in the top-right corner of GitHub.
+   - This creates your own copy under your account.
+
+2. **Clone locally**
+   ```bash
+   git clone <https://lnkd.in/gXVAzXNm>
+   cd Legal-Calculus
+
+```
+
+1. **Install dependencies**
+    - Run `npm install` (if modules use Node.js tooling).
+    - Confirm formatting and test scripts run correctly.
+
+---
+
+## 📂 Repository Structure
+
+- `/orientation` → onboarding rituals, cue cards, coalition scripts
+- `/modules` → evidence preservation, arbitration bias, procedural literacy
+- `/coalition-tools` → advocacy kits, stress management rituals
+- `/doctrine` → ceremonial publishing, essays, public doctrine
+- `/contributor-guides` → meta-guides for coalition practice
+
+---
+
+## ✍️ Contribution Workflow
+
+1. **Create a branch**
+    
+    ```bash
+    git checkout -b feature/new-module
+    
+    ```
+    
+2. **Add your module or edits**
+    - Place new doctrine in the correct folder.
+    - Include provenance metadata (`forkwatch.json`).
+    - Add visual aids (flowcharts, cue cards) if relevant.
+3. **Run tests and formatting**
+    
+    ```bash
+    npm run format
+    npm test
+    
+    ```
+    
+4. **Commit changes**
+    
+    ```bash
+    git commit -m "Add evidence preservation checklist"
+    
+    ```
+    
+5. **Push and open a Pull Request**
+    - Push to your fork.
+    - Open a PR against `main` in `cmayron/Legal-Calculus`.
+    - Include intent declaration and changelog entry.
+
+---
+
+## ✅ Contribution Standards
+
+- **Clarity** → Modules must be teachable and reproducible.
+- **Provenance** → Always include metadata for traceability.
+- **Coalition-first** → Contributions should empower collective practice, not individual gain.
+- **Respect** → Handle live filings and sensitive doctrine with care.
+
+---
+
+## 🏛 Review & Publishing
+
+- PRs are reviewed by coalition maintainers.
+- Approved contributions are merged into `main`.
+- GitHub Actions (`publish.yml`) will format and publish doctrine into `/public`.
+
+---
+
+## 🌱 Joining the Coalition
+
+- Use **Issues** for questions, proposals, or onboarding requests.
+- Use **Discussions** for coalition dialogue and doctrine refinement.
+- Every contribution is part of the People’s Law School curriculum.
