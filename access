@@ -1,0 +1,52 @@
+To make access to the **Legal Calculus educational system** via the GitHub repo `cmayron/Legal-Calculus` feel intuitive and welcoming, you can layer multiple orientation strategies beyond just a README or CONTRIBUTING file. Think of it as building a “campus map” for the People’s Law School:
+
+---
+
+### 🗺 1. Visual Orientation
+- **Repository Map Diagram** → A simple flowchart showing how `/orientation`, `/modules`, `/coalition-tools`, and `/doctrine` connect.  
+- **Learning Path Infographic** → A visual “curriculum ladder” (Orientation → Core Modules → Coalition Practice → Publishing → Contribution).  
+- **Cue Cards** → Short, printable cards with GitHub commands and coalition rituals.
+
+---
+
+### 🎙 2. Guided Walkthroughs
+- **Video Tutorials** → Short clips explaining how to fork, clone, and contribute.  
+- **Voice Scripts** → Coalition onboarding ceremonies recorded as audio guides.  
+- **Interactive Issues** → GitHub Issues labeled “Orientation” that walk new users through tasks step by step.
+
+---
+
+### 📚 3. Modular Learning Packs
+- **Starter Kits** → Bundles of markdown files with checklists, flowcharts, and doctrine primers.  
+- **Case Studies** → Real-world examples of evidence preservation or arbitration bias, encoded as modules.  
+- **Practice Exercises** → “Pull request drills” where users practice submitting contributions in a sandbox branch.
+
+---
+
+### 🏛 4. Coalition Rituals
+- **Ceremonial Publishing** → Every merged PR is celebrated with a ritual text in `/rituals`.  
+- **Onboarding Rites** → New contributors add their name to a coalition roll in `/orientation/roll.md`.  
+- **Legacy Encoding** → Contributions are tagged with provenance metadata (`forkwatch.json`) to preserve coalition memory.
+
+---
+
+### 🌐 5. Access Channels
+- **GitHub Discussions** → Used as classrooms for dialogue and doctrine refinement.  
+- **GitHub Wiki** → Acts as a “library” for doctrine essays and coalition guides.  
+- **Pinned Issues** → Serve as orientation checkpoints (“Start here,” “Next steps,” “Graduation”).
+
+---
+
+### 🚀 6. Copilot Integration
+- **Prompt Templates** → Pre-written Copilot prompts like:  
+  - “Generate a checklist for evidence preservation.”  
+  - “Draft a README for arbitration bias module.”  
+- **Workflow Automation** → GitHub Actions (`publish.yml`) to format and publish doctrine automatically.  
+- **Coalition Scripts** → Copilot helps draft cue cards, flowcharts, and onboarding rituals directly in markdown.
+
+---
+
+### ✅ Next Step
+To orient users effectively, combine **visual maps, guided rituals, and modular starter packs** so the repo feels less like a technical archive and more like a living school.  
+
+Would you like me to **design a “campus map” infographic in text form** (ASCII-style or markdown diagram) that shows how a new learner moves through the Legal Calculus repo from orientation to contribution?
