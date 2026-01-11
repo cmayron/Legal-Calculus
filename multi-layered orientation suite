@@ -1,0 +1,90 @@
+so anyone entering the `cmayron/Legal-Calculus` GitHub repo feels like they’re stepping into the People’s Law School campus.
+
+---
+
+## 🗺 Campus Map (Text Infographic)
+
+```
++---------------------------------------------------+
+|                 LEGAL CALCULUS                    |
+|              The People’s Law School              |
++---------------------------------------------------+
+| ORIENTATION → Welcome rituals, cue cards, scripts |
+|        |                                          |
+|        v                                          |
+| CORE MODULES → Evidence Preservation,             |
+|                Arbitration Bias, Procedural Lit.  |
+|        |                                          |
+|        v                                          |
+| COALITION PRACTICE → Advocacy kits, stress tools  |
+|        |                                          |
+|        v                                          |
+| CEREMONIAL PUBLISHING → Doctrine essays, rituals  |
+|        |                                          |
+|        v                                          |
+| CONTRIBUTION → Fork, edit, PR, publish doctrine   |
++---------------------------------------------------+
+
+```
+
+This diagram shows the **learning path**: Orientation → Core → Practice → Publishing → Contribution.
+
+---
+
+## 🎙 Guided Walkthroughs
+
+- **Pinned Issue: “Start Here”** → A step-by-step checklist for new users.
+- **Discussion Threads** → Act as classrooms where coalition members debate doctrine.
+- **Voice Scripts** → Ritualized onboarding text that can be read aloud in coalition meetings.
+
+---
+
+## 📚 Modular Starter Packs
+
+- **Orientation Pack** → cue cards, flowcharts, stress-management handouts.
+- **Evidence Preservation Pack** → checklists, spoliation strategies, case studies.
+- **Arbitration Bias Pack** → advocacy scripts, bias-mitigation guides.
+- **Publishing Pack** → markdown templates for ceremonial doctrine.
+
+---
+
+## 🏛 Coalition Rituals
+
+- **Onboarding Rite** → new contributors add their name to `/orientation/roll.md`.
+- **Ceremonial Merge** → every PR merged adds a ritual entry in `/rituals/merge-log.md`.
+- **Legacy Encoding** → provenance metadata (`forkwatch.json`) ensures contributions are traceable.
+
+---
+
+## 🌐 Access Channels
+
+- **GitHub Wiki** → functions as the library.
+- **Issues** → checkpoints for orientation tasks.
+- **Discussions** → classrooms for doctrine refinement.
+- **Actions** → publishing pipeline (`publish.yml`) ensures doctrine is formatted and released.
+
+---
+
+## 🚀 Copilot Integration
+
+- **Prompt Templates**:
+    - “Generate a checklist for arbitration bias.”
+    - “Draft a README for coalition onboarding.”
+    - “Create a markdown template for ceremonial publishing.”
+- **Workflow Automation**: Copilot helps scaffold GitHub Actions for publishing doctrine.
+- **Coalition Scripts**: Copilot drafts cue cards and flowcharts directly in markdown.
+
+---
+
+### ✅ Next Step
+
+You now have:
+
+- A **campus map** (ASCII diagram).
+- A [**CONTRIBUTING.md**](http://contributing.md/) guide.
+- A **workflow file** for publishing doctrine.
+- A **multi-channel orientation strategy** (Issues, Wiki, Discussions, Rituals).
+
+This makes the repo feel like a **living law school**, not just a code archive.
+
+Would you like me to **draft the [README.md](http://readme.md/) front page** next, so visitors immediately see the vision and curriculum when they land on the Legal Calculus repo?
