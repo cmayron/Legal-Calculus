@@ -1,0 +1,92 @@
+**Pro Se Survival Module** into a full **Survival Pack**. This pack is designed as a practical toolkit: cue cards for quick reference, flowcharts for visual navigation, and a checklist template that pro se litigants can print and carry into court.
+
+---
+
+## 📦 Pro Se Survival Pack
+
+### 🃏 Cue Cards (Quick Scripts)
+
+**Card 1: Notice of Appearance Pro Se**
+
+```
+I, [Name], will represent myself in this matter.
+Please direct all filings and notices to my address/email.
+
+```
+
+**Card 2: Evidence Preservation**
+
+```
+Step 1: Collect all documents.
+Step 2: Label with date and source.
+Step 3: Save copies in multiple formats.
+Step 4: Encode metadata for provenance.
+
+```
+
+**Card 3: Deadline Management**
+
+```
+Check docket weekly.
+Mark all filing deadlines on calendar.
+Set reminders 7 days before each deadline.
+
+```
+
+---
+
+### 🔄 Flowchart (Navigating Withdrawal)
+
+```
+Lawyer Withdraws
+       |
+       v
+ Acknowledge Withdrawal
+       |
+       v
+ Secure Record → Preserve Evidence
+       |
+       v
+ Notify Court → File Notice Pro Se
+       |
+       v
+ Manage Deadlines → Calendar + Reminders
+       |
+       v
+ Coalition Support → Issues + Discussions
+       |
+       v
+ File & Respond → Templates + Scripts
+       |
+       v
+ Stress Management → Rituals + Breathing
+
+```
+
+---
+
+### ✅ Checklist Template (Printable)
+
+**Pro Se Survival Checklist**
+
+- [ ]  Received withdrawal notice from court docket
+- [ ]  Collected all filings and exhibits
+- [ ]  Preserved evidence with metadata
+- [ ]  Filed Notice of Appearance Pro Se
+- [ ]  Updated contact info with court
+- [ ]  Created calendar of deadlines
+- [ ]  Joined coalition support channels
+- [ ]  Prepared filing templates
+- [ ]  Practiced stress management rituals
+
+---
+
+### 🌱 Coalition Rituals
+
+- Weekly “deadline rehearsal” meetings.
+- Collective evidence preservation ceremonies.
+- Merge rituals: every PR encoding survival strategies is celebrated in `/rituals/merge-log.md`.
+
+---
+
+This **Survival Pack** can live in `/modules/pro-se-survival-pack/` with subfolders for cue cards, flowcharts, and checklists. It transforms the moment of abandonment into a **structured curriculum** that others can follow step by step.
