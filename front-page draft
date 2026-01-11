@@ -1,0 +1,69 @@
+Here’s a **front-page draft** for the `cmayron/Legal-Calculus` GitHub repo, designed to orient visitors immediately and frame it as *The People’s Law School*.  
+
+---
+
+```markdown
+# Legal Calculus: The People’s Law School
+
+## Vision
+Legal Calculus is an open-source, modular system of procedural justice.  
+It transforms lived adversity into teachable doctrine, empowering pro se litigants, advocates, and coalitions.  
+This repository is the campus of the People’s Law School — transparent, navigable, and immune to capture.
+
+---
+
+## Curriculum Map
+```
+Orientation → Core Modules → Coalition Practice → Ceremonial Publishing → Contribution
+```
+
+- **Orientation** → onboarding rituals, cue cards, coalition scripts  
+- **Core Modules** → evidence preservation, arbitration bias, procedural literacy  
+- **Coalition Practice** → advocacy kits, stress management rituals  
+- **Ceremonial Publishing** → doctrine essays, onboarding rites, coalition ceremonies  
+- **Contribution** → fork, edit, pull request, publish doctrine  
+
+---
+
+## Getting Started
+1. **Fork this repository** → create your own copy.  
+2. **Clone locally** → `git clone https://lnkd.in/gPFm8pGD.  
+3. **Explore modules** → start with `/orientation` for onboarding.  
+4. **Contribute** → add doctrine, flowcharts, or rituals via pull requests.  
+
+---
+
+## Contribution Standards
+- **Clarity** → modules must be teachable and reproducible.  
+- **Provenance** → include metadata (`forkwatch.json`) for traceability.  
+- **Coalition-first** → contributions empower collective practice.  
+- **Respect** → handle live filings and sensitive doctrine with care.  
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for full guidelines.
+
+---
+
+## Publishing Pipeline
+- GitHub Actions (`publish.yml`) automatically format and publish doctrine.  
+- Contributions merged into `main` are released into `/public`.  
+- Every merge is a ceremonial act, encoded in `/rituals`.
+
+---
+
+## Outcomes
+- Transparent, navigable justice systems.  
+- Empowered litigants and coalitions.  
+- Public doctrine immune to capture.  
+- A living, evolving People’s Law School.
+
+---
+
+## Join the Coalition
+- Use **Issues** for questions and onboarding.  
+- Use **Discussions** as classrooms for doctrine refinement.  
+- Every contribution is part of the People’s Law School curriculum.
+```
+
+---
+
+This README makes the repo feel like a **campus front gate**: vision at the top, curriculum map in the middle, and contribution pathways clearly marked.  
