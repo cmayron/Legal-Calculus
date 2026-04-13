@@ -337,6 +337,39 @@ Use this directory for:
 - Checklists → `/field-guide/`  
 - Device workflows → `/workflows/`
 
+# 📄 /templates — Filing Skeletons, Forms, Checklists
+
+> **This directory answers:**  
+> “What structures can I use to draft filings quickly and correctly?”
+
+## Start Here
+- **lc-template-pack-v45.zip** — Full template bundle
+
+## What This Directory Contains
+Court‑ready skeletons integrating LC, FG, and JC principles.
+
+Use this directory for:
+- Motions, responses, notices  
+- Proposed Orders  
+- Redaction workflows  
+- Packet assembly  
+- TOA + citation validation  
+
+## File Index
+- `lc-template-pack-v45.zip` — Template bundle  
+- `proposed-order.docx` — One‑page Proposed Order  
+- `motion-skeleton.docx` — Motion framework  
+- `notice-template.docx` — Notice + service block  
+- `redaction/` — PHI/PII redaction tools  
+- `packet-structure.md` — How to assemble packets  
+
+## Where to Go Next
+- Examples → `/examples/`  
+- Doctrine → `/docs/20-architecture.md`  
+- Checklists → `/field-guide/`  
+- Archive → `/packets/`  
+- Quality check → Second‑Opinion Mode
+
 
 🧑‍🏫 /roles — Role‑Based Entry Points
 
