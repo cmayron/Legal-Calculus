@@ -1,4 +1,4 @@
-y
+
 Legal Calculus Educational System (LCES)
 
 Procedural‑literacy workspace for learners and practitioners.
