@@ -248,6 +248,54 @@ Use this directory for:
 ### Where to go next
 - **Need conceptual grounding:** `/docs/00-over
 
+## 📂 `/examples` — Real Artifacts & Case Studies
+
+> **This directory answers:**  
+> *“What does LCES look like in practice, with real filings, motions, and procedural artifacts?”*  
+>
+> **Start here:** [`00-index.md`](examples/00-index.md)  
+>
+> **Next:** [`ahla-arbitration/`](examples/ahla-arbitration/) • [`punitive-damages/`](examples/punitive-damages/)
+
+### What `/examples` contains
+The `/examples` directory is the **demonstration layer** of LCES.  
+If `/tutorials` shows *how* to perform tasks, `/examples` shows **what finished, real‑world outputs look like**.
+
+Use this directory for:
+- Case studies  
+- Completed filings  
+- Sample motions  
+- Arbitration bundles  
+- Spoliation and sanctions examples  
+- “Before vs. after” transformations  
+- Fully assembled packets  
+
+### Why this directory matters
+Examples are the bridge between:
+- **FG/FGA** (checklists → what to do)  
+- **LC/LCA** (doctrine → why it works)  
+- **Your filings** (actual practice → how it looks)  
+
+This is where learners and practitioners see the system *in action*.
+
+### File index
+- [`00-index.md`](examples/00-index.md) — Master index of all examples  
+- [`ahla-arbitration/`](examples/ahla-arbitration/) — AHLA Arbitration Starter Bundle  
+- [`punitive-damages/`](examples/punitive-damages/) — Scope of Remedies (Punitive Damages)  
+- [`spoliation-sanctions/`](examples/spoliation-sanctions/) — Spoliation Sanctions Motion  
+- [`notice-of-exhibits/`](examples/notice-of-exhibits/) — Notice of Exhibits Carried Over  
+- [`quickstart-checklist-v45.md`](examples/quickstart-checklist-v45.md) — Quickstart Checklist (v4.5)  
+
+*(If your actual folder names differ, I can adjust this instantly.)*
+
+### Where to go next
+- **Need templates:** `/templates/`  
+- **Need to assemble filings:** `/packets/`  
+- **Need doctrine:** `/docs/LCES_Base_Map_Version_Manifest.md`  
+- **Need checklists:** `/field-guide/`  
+- **Need device workflows:** `/workflows/`
+
+
 ## 🧑‍🏫 `/roles` — Role‑Based Entry Points (Learner • Instructor • Maintainer • Practitioner)
 
 > **This directory answers:**  
