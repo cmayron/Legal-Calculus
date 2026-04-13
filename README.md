@@ -5,6 +5,18 @@ Legal Calculus Educational System (LCES) is a structured, procedural-literacy fr
 
 It’s less like a traditional “legal guide” and more like a system for building, testing, and managing the legal record in real time.
 
+Disclaimer:
+The Legal Calculus Educational System (LCES) is a public educational toolkit intended to enhance procedural literacy and understanding of legal systems, workflows, and record-building practices. It is not a law firm, does not provide legal advice, and does not constitute the practice of law.
+
+Nothing within LCES, including templates, examples, workflows, or AI-assisted outputs, should be interpreted as legal advice or relied upon as a substitute for consultation with a licensed attorney. Use of this system does not create an attorney-client relationship or any form of professional engagement.
+
+Users are solely responsible for verifying the accuracy, completeness, and applicability of all materials and for ensuring compliance with applicable laws, court rules, and procedural requirements.
+
+AI tools referenced within LCES are used for drafting and educational support only. AI-generated content may be incomplete or inaccurate and must be independently reviewed. Communications with AI systems are not privileged. Users should not upload confidential, protected, or sensitive information to any cloud-based AI platform.
+
+By using LCES, you acknowledge and accept these limitations and responsibilities.
+
+
 ⸻
 
 🧠 Core Idea
