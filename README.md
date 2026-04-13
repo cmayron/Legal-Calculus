@@ -66,7 +66,135 @@ It is where you:
 
 The desktop is the archive steward.
 
+a pro se user can run the entire Legal‑Calculus learning and reasoning workflow using only an iPad with Copilot Pro.
+They do not need a desktop to learn, think, analyze, or generate doctrine maps, workflows, or Blueprint AI plans.
+
+But:
+If they want to maintain or update the GitHub repo, they will eventually need a desktop (or someone with one).
+The iPad workflow is complete for learning, but partial for archive stewardship.
+
+
+Can a Pro Se User Use Only an iPad + Copilot Pro?
+
+1. What a Pro Se User Can Do With Only an iPad
+
+A pro se user can perform all learning, reasoning, and transformation tasks using only:
+
+• iPad
+• Copilot Pro
+• Safari or GitHub App
+
+
+They can:
+
+• open the repo
+• read doctrine
+• copy/paste sections into Copilot Pro
+• generate explanations
+• create doctrine maps
+• build workflows
+• extract procedural skeletons
+• generate Blueprint AI plans
+• stress‑test logic
+• produce onboarding artifacts
+• learn the entire Legal‑Calculus system
+
+
+This means a pro se litigant can:
+
+• understand their case
+• map the legal terrain
+• identify procedural steps
+• generate filings
+• analyze opposing arguments
+• build their own learning archive
+
+
+All from an iPad.
+
+This is intentional — Legal‑Calculus is designed to democratize procedural literacy.
+
 ---
+
+2. What They Cannot Do on iPad Alone
+
+There is one limitation:
+
+They cannot maintain or update the GitHub repo from the iPad.
+
+Why:
+
+• GitHub on iPad is not a reliable commit workstation
+• Copilot Pro cannot fetch or write to the repo
+• Version control requires a desktop‑class environment
+
+
+So the pro se user can learn, think, analyze, and prepare,
+but they cannot steward the archive.
+
+This is by design — it protects:
+
+• version integrity
+• reproducibility
+• the educational architecture
+
+
+---
+
+3. The Pro Se Workflow (iPad‑Only Version)
+
+Step 1 — Open the Repo
+
+Safari → cmayron/legal-calculus
+
+Step 2 — Copy the Section
+
+Tap → Select → Copy
+
+Step 3 — Paste Into Copilot Pro
+
+Copilot Pro becomes the reasoning engine.
+
+Step 4 — Transform
+
+Ask Copilot Pro to:
+
+• explain
+• map
+• rewrite
+• structure
+• generate workflows
+• produce Blueprint AI plans
+• stress‑test logic
+
+
+Step 5 — Use the Output
+
+The pro se user can:
+
+• save it locally
+• use it in their case
+• build their own notes
+• generate filings
+• prepare arguments
+• understand procedure
+
+
+No desktop required.
+
+---
+
+4. Why This Matters
+
+This means a pro se litigant does not need:
+
+• a desktop
+• a law library
+• a legal education
+• a technical background
+
+
+They
 
 2. Copilot Pro — The Thinking Engine
 
