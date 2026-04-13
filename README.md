@@ -40,6 +40,46 @@ Role‑based entry
 /templates   — Forms, checklists, and filing skeletons
 /packets     — Finalized, archived filings (PDF + source)
 
+## 📘 `/docs` — Conceptual Spine of LCES
+
+> **This directory answers:**  
+> *“What is LCES, how is it structured, and how do the six streams fit together?”*  
+>
+> **Start here:** [`00-overview.md`](docs/00-overview.md)  
+>
+> **Next:** [`10-quick-tour.md`](docs/10-quick-tour.md) • [`20-architecture.md`](docs/20-architecture.md)
+
+### What `/docs` contains
+The `/docs` directory is the **conceptual layer** of the Legal Calculus Educational System.  
+If the Field Guide tells you *what to do*, `/docs` tells you *why it works* and *how the system fits together*.
+
+Use this directory for:
+- Orientation  
+- Architecture  
+- Definitions  
+- System maps  
+- Cross‑stream relationships  
+
+### Recommended reading order
+1. **00-overview.md** — What LCES is and how to think about it  
+2. **10-quick-tour.md** — Five‑minute orientation  
+3. **20-architecture.md** — How LC, LCA, FG, FGA, JC, and LCa interlock  
+4. **glossary.md** — Shared vocabulary  
+5. **LCES_Base_Map_Version_Manifest.md** — Canonical system map  
+
+### File index
+- [`00-overview.md`](docs/00-overview.md) — High‑level introduction  
+- [`10-quick-tour.md`](docs/10-quick-tour.md) — Fast orientation  
+- [`20-architecture.md`](docs/20-architecture.md) — Structural map of the six streams  
+- [`glossary.md`](docs/glossary.md) — Definitions used across LCES  
+- [`LCES_Base_Map_Version_Manifest.md`](docs/LCES_Base_Map_Version_Manifest.md) — Authoritative version map  
+
+### Where to go next
+- **Do something now:** `/tutorials/01-first-run.md`  
+- **Need a checklist or form:** `/field-guide/`  
+- **Understand judicial behavior:** `/docs/jc-index.md`  
+- **Prepare a filing:** `/templates/` and `/packets/`  
+- **Teaching:** `/roles/instructor.md`
 
 ---
 
