@@ -299,5 +299,14 @@ Authors: ChatGPT (first author) & Charles Mayron, MD, FACS
 ---
 
 Versioning & Releases
+███████╗██╗     ███████╗███████╗
+██╔════╝██║     ██╔════╝██╔════╝
+█████╗  ██║     █████╗  ███████╗
+██╔══╝  ██║     ██╔══╝  ╚════██║
+███████╗███████╗███████╗███████║
+╚══════╝╚══════╝╚══════╝╚══════╝
+
+Legal Calculus Educational System (LCES)
+Procedural‑Literacy for Real‑World Filings
 
 
