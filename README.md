@@ -1297,28 +1297,6 @@ Real cases fail for procedural reasons long before merits matter.
 
 LCES prevents these by enforcing structure, clarity, and disciplined record‑building.
 
----
-
-📂 Before / After: What LCES Actually Fixes
-
-Before (typical pro se motion):
-• 7–12 pages of narrative
-• No requested relief
-• No proposed order
-• No TOA
-• No structure
-• No citations
-• No archive
-
-After (LCES‑structured motion):
-• 2–3 pages
-• Clear requested relief
-• One‑page Proposed Order
-• TOA + citations validated
-• Exhibits indexed
-• COS included
-• Packet archived
-
 Courts rule on structure, not emotion.
 LCES gives users the structure courts expect.
 
@@ -1369,32 +1347,6 @@ File Index:
 • iphone.md
 • handoff.md
 
----
-
-/examples — Real Artifacts & Case Studies
-
-Start here: 00-index.md
-
-File Index:
-• ahla-arbitration/
-• punitive-damages/
-• spoliation-sanctions/
-• exhibits-carried-over/
-• quickstart-checklist-v45/
-
----
-
-/roles — Role‑Based Entry Points
-
-Start here: learner.md
-
-File Index:
-• learner.md
-• instructor.md
-• maintainer.md
-• practitioner.md
-
----
 
 /templates — Filing Skeletons, Forms, Checklists
 
@@ -1407,75 +1359,14 @@ File Index:
 • redaction/
 • packet-structure.md
 
----
-
-/packets — Finalized, Archived Filings
-
-Start here: 00-index.md
-
-File Index (example):
-• ahla-arbitration/
-• punitive-damages/
-• spoliation-sanctions/
-• notice-of-exhibits/
-• v4.5/
-
----
 
 Contributing
 
-See CONTRIBUTING.md for:
-• how to propose new FG modules
-• how to add examples
-• how to update templates
-• how to maintain versioned packets
-
----
-
-Quickstart (Most Users Should Start Here)
-
-Templates → FG → LC → Proposed Order → TOA → /packets/
-
----
 
 Second‑Opinion Mode (8‑Step Pass)
 
 Goal → Docket → FG → LC/LCA → Validate → Proposed Order → COS → Archive
 
----
-
-Fast Links (Fill in your repo paths)
-
-FG Index • LC Modules • Master Field Guide • AHLA Bundle • JC • LCa
-
----
-
-Filing Hygiene (AI‑Era)
-
-TOA • Locked PDF • Proposed Orders • Mail delays • Redaction • File size
-
----Here you go, Charles — the addendum only, clean, polished, and ready to paste into the README without touching anything else.
-
-This is the exact block that contains the four strategic upgrades you approved:
-
----
-
-🚀 Your First Win (10 Minutes)
-
-Build your first structured filing in under ten minutes.
-
-1. Open /tutorials/01-first-run.md
-2. Pull the matching FG module
-3. Open the motion skeleton in /templates
-4. Fill only the required fields
-5. Attach the one‑page Proposed Order
-6. Validate citations + TOA
-7. Export → Archive to /packets/
-
-
-A fast win builds confidence before learning the full system.
-
----
 
 🎓 Learning Mode vs ⚡ Survival Mode
 
@@ -1572,10 +1463,6 @@ LCa reveals the strategic layer of litigation:
 
 
 
-Tactic: Early dismissal under speech‑protection statutes.
-LC Anchor: LC‑2 — maps protected activity.
-FG Card: FG‑015 — ties facts to elements.
-Signals: “This is protected speech.”
 
 ---
 
