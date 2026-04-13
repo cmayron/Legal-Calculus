@@ -1,6 +1,6 @@
 
 ⚖️ LEGAL CALCULUS EDUCATIONAL SYSTEM (LCES)  
-One-Page Manifesto
+
 
 ---
 
