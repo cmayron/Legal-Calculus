@@ -249,6 +249,205 @@ And it produces:
 • teachable systems
 • scalable procedural literacy
 
+Below is the exact addendum your README now needs — the missing piece that explains, in clean procedural terms, how to use the GitHub repo with Copilot Pro on the iPad, and how this fits into the Legal‑Calculus multi‑AI workflow.
+
+This is paste‑ready, self‑contained, and written to integrate directly into the README you already have.
+
+---
+
+ADDENDUM: How to Use the GitHub Repo With Copilot Pro (iPad Workflow)
+
+This addendum documents the operational method for using the Legal‑Calculus GitHub repository (cmayron/legal-calculus) with Copilot Pro on the iPad.
+It explains how you actually get files into Copilot Pro, why the workflow is designed this way, and how it connects to the multi‑AI pipeline.
+
+This is the canonical procedure for interacting with the system.
+
+---
+
+1. Core Principle
+
+Copilot Pro cannot browse or fetch your GitHub repo.
+
+You bring the files to Copilot Pro.
+This preserves:
+
+• human control
+• procedural integrity
+• reproducibility
+• skepticism as a discipline
+
+
+Everything in this workflow depends on this principle.
+
+---
+
+2. Open the Repo on Your iPad
+
+You access the repo manually.
+
+Option A — Safari (recommended)
+
+1. Open Safari
+2. Go to: https://github.com/cmayron/legal-calculus
+3. Navigate to the file or folder you want
+
+
+Option B — GitHub App
+
+1. Open the GitHub app
+2. Navigate to the repo
+3. Open the file you want
+
+
+Safari gives the cleanest copy/paste behavior.
+
+---
+
+3. Select the Artifact You Want to Work On
+
+Inside the repo:
+
+• tap the file
+• GitHub displays it in a code viewer
+• scroll to the section you want
+
+
+You can bring in:
+
+• entire files
+• sections
+• doctrine blocks
+• workflows
+• diagrams (as text)
+• modules
+• examples
+
+
+Copilot Pro works best when you bring in the smallest complete conceptual unit.
+
+---
+
+4. Copy the Content
+
+On iPad:
+
+1. Tap and hold on the text
+2. Drag the selection handles
+3. Tap Copy
+
+
+This is the moment where you curate what enters the reasoning engine.
+
+---
+
+5. Paste Into Copilot Pro
+
+Switch to Copilot Pro.
+
+Tap into the message box.
+
+Tap Paste.
+
+You have now moved the artifact from the repo into the thinking engine.
+
+---
+
+6. Tell Copilot Pro What to Do
+
+Copilot Pro is the reasoning layer, not the file system.
+
+Typical commands:
+
+• “Rewrite this into a doctrine map.”
+• “Turn this into a workflow diagram.”
+• “Extract the procedural skeleton.”
+• “Generate a Blueprint AI plan from this module.”
+• “Stress‑test the logic.”
+• “Convert this into a user‑facing onboarding artifact.”
+• “Identify failure modes.”
+
+
+This is where the iPad becomes your cognitive workspace.
+
+---
+
+7. Move the Output Back to the Repo
+
+Once Copilot Pro produces the improved artifact:
+
+1. Copy the output
+2. Move to your Desktop (commit workstation)
+3. Paste the improved artifact into the correct file
+4. Commit the change
+
+
+This preserves:
+
+• version control
+• reproducibility
+• the integrity of the archive
+
+
+The iPad thinks.
+The Desktop commits.
+
+---
+
+8. Where Builder AI and Inspector AI Fit
+
+Copilot Pro produces Blueprint AI plans.
+
+Builder AI
+
+• constructs tools
+• implements modules
+• builds systems
+
+
+Inspector AI
+
+• tests
+• validates
+• challenges
+• identifies failure modes
+
+
+Only after Inspector AI approves do you commit the artifact back to GitHub.
+
+This embeds skepticism as a discipline.
+
+---
+
+9. The Entire Workflow in One Block
+
+Retrieve → Think → Build → Evaluate → Commit
+
+1. Open repo on iPad
+2. Copy the file or section
+3. Paste into Copilot Pro
+4. Transform it (maps, workflows, doctrine, Blueprint AI)
+5. Send plans to Builder AI
+6. Send outputs to Inspector AI
+7. Finalize on Desktop
+8. Commit to GitHub
+
+
+This is the Legal‑Calculus Multi‑AI Loop.
+
+---
+
+
+---
+
+If you want, I can also generate:
+
+• a diagram of this workflow
+• a quick‑start version for new users
+• a poster‑style artifact for the repo
+• a directory‑level README that mirrors this workflow
+
+
+Which one should I produce next?
 
 Start Here — Choose Your Path
 
