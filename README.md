@@ -275,6 +275,57 @@ Where to go next
 • Archive → /packets/
 • Quality check → Second‑Opinion Mode
 
+## 📦 `/packets` — Finalized, Archived Filings (PDF + Source)
+
+> **This directory answers:**  
+> *“Where do my completed filings, packets, and final artifacts live?”*  
+>
+> **Start here:** `00-index.md`  
+>
+> **Next:** Any packet folder (organized by case, motion type, or project)
+
+### What `/packets` contains
+The `/packets` directory is the **archive layer** of LCES.  
+This is where finished work lives — the final, court‑ready outputs produced after running:
+
+FG → LC/LCA → Templates → Second‑Opinion Mode → Filing Hygiene.
+
+Use this directory for:
+- Finalized motions, responses, notices  
+- Assembled filing packets  
+- Exhibits + TOA + COS bundles  
+- PDF exports (locked)  
+- Source `.docx` files for future revision  
+- Versioned releases (v4.5, v4.6, etc.)
+
+### Why `/packets` matters
+This directory is the **record** — the thing courts see, clerks handle, and judges rule on.
+
+It demonstrates:
+- Procedural literacy  
+- Formatting discipline  
+- Proposed‑Order integration  
+- Clean TOA + citation validation  
+- Proper archiving and reproducibility  
+
+It is the *proof* that LCES works.
+
+### File index (example structure)
+- `00-index.md` — Master index of all packets  
+- `ahla-arbitration/` — Completed AHLA arbitration packet  
+- `punitive-damages/` — Final punitive‑damages packet  
+- `spoliation-sanctions/` — Final sanctions packet  
+- `notice-of-exhibits/` — Final notice packet  
+- `v4.5/` — Tagged release packets for version 4.5  
+
+*(If your actual folder names differ, I can regenerate this index precisely.)*
+
+### Where to go next
+- Need templates → `/templates/`  
+- Need examples → `/examples/`  
+- Need doctrine → `/docs/20-architecture.md`  
+- Need checklists → `/field-guide/`  
+- Need device workflows → `/workflows/`  
 
 ---
 
