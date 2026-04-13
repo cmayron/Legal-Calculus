@@ -1,10 +1,131 @@
 
-Legal Calculus Educational System (LCES)
+⚖️ LEGAL CALCULUS EDUCATIONAL SYSTEM (LCES)  
+One-Page Manifesto
 
-Legal Calculus Educational System (LCES) is a structured, procedural-literacy framework you designed to help people understand how legal processes actually work in practice—not just the theory.
+---
 
-It’s less like a traditional “legal guide” and more like a system for building, testing, and managing the legal record in real time.
+### What LCES Is
+LCES is a legal operating system for building, testing, and controlling the record in real-world legal environments.
 
+It is not a theory of law.  
+It is a system for how decisions actually get made.
+
+---
+
+### Core Principle
+The record is the case.  
+If it is not structured, preserved, and sequenced correctly, it does not exist on review.
+
+---
+
+### Why LCES Exists
+Legal outcomes are often shaped before the merits are reached.
+
+- Procedure overrides substance  
+- Framing overrides facts  
+- Discretion creates off-ramps  
+- Noise hides signal  
+
+LCES exists to eliminate those failures.
+
+---
+
+### What LCES Does
+
+1. Builds Decision-Ready Records  
+Structures facts, law, and relief so a decision-maker can rule without avoidance.
+
+2. Controls Case Framing  
+Prevents distraction and mischaracterization from redefining the dispute.
+
+3. Separates What Matters from What Doesn’t  
+Distinguishes discretionary rulings from structural, reviewable errors.
+
+4. Exposes System Behavior  
+Anticipates how courts, arbitrators, and counsel actually operate under pressure.
+
+5. Stress-Tests the Case  
+Identifies weaknesses before they are exploited.
+
+6. Enforces Timeline Discipline  
+Sequences actions so early steps shape final outcomes.
+
+7. Standardizes High-Quality Output  
+Produces consistent, structured filings and evidence systems.
+
+8. Converts Irregularities into Reviewable Defects  
+Transforms procedural breakdowns into preserved grounds for challenge.
+
+---
+
+### The LCES Method
+
+Build → Test → Attack → Refine
+
+- Build the record with structure and discipline  
+- Test for completeness and legal significance  
+- Attack through adversarial simulation  
+- Refine until it survives review  
+
+Repeat until the record is resilient.
+
+---
+
+### Operating Reality
+
+- You may not get a reply  
+- You may not get a hearing  
+- You may not get a second chance  
+
+LCES assumes constraint and designs for it.
+
+---
+
+### Philosophy
+
+- Not everything that is true matters  
+- Not everything that matters is preserved  
+- Not everything preserved is reviewable  
+
+LCES aligns all three.
+
+---
+
+### Human + AI Integration
+
+- AI assists drafting and analysis  
+- Humans control strategy and judgment  
+- All outputs are reviewed, verified, and owned by the user  
+
+---
+
+### What LCES Produces
+
+- Clarity under pressure  
+- Discipline in execution  
+- Records that are harder to ignore  
+- Arguments that survive review  
+
+---
+
+### Bottom Line
+
+LCES does not argue harder.  
+It builds better.
+
+It does not chase outcomes.  
+It structures them.
+
+---
+
+### Disclaimer
+
+LCES is a public educational system for procedural literacy and record-building.  
+It is not legal advice and does not create an attorney-client relationship.  
+Users are responsible for verifying all information and complying with applicable laws and rules.  
+AI tools are not privileged—do not upload confidential or protected material.
+
+---
 Disclaimer:
 The Legal Calculus Educational System (LCES) is a public educational toolkit intended to enhance procedural literacy and understanding of legal systems, workflows, and record-building practices. It is not a law firm, does not provide legal advice, and does not constitute the practice of law.
 
