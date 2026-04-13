@@ -14,17 +14,7 @@ It teaches how filings, sequence, preservation, and framing shape outcomes in pr
 **The record is the case.**  
 If it is not structured, preserved, and sequenced correctly, it does not exist on review.
 
----
 
-## Start Here
-
-- **New to LCES:** `/docs/00-overview.md`  
-- **Five-minute orientation:** `/docs/10-quick-tour.md`  
-- **Do something now:** `/tutorials/01-first-run.md`  
-- **Under deadline:** Crisis Mode  
-- **Philosophy:** `/docs/manifesto.md`  
-
----
 
 ## What LCES Helps You Do
 
@@ -37,25 +27,6 @@ If it is not structured, preserved, and sequenced correctly, it does not exist o
 
 ---
 
-## Quickstart
-
-**Templates → FG → LC → Proposed Order → TOA → /packets/**
-
----
-
-## 🚀 Your First Win (10 Minutes)
-
-1. Open `/tutorials/01-first-run.md`  
-2. Pull the matching FG module  
-3. Open the motion skeleton in `/templates`  
-4. Fill only required fields  
-5. Attach a one-page Proposed Order  
-6. Validate citations + TOA  
-7. Export → Archive to `/packets/`  
-
-A fast win builds confidence before full system mastery.
-
----
 
 ## 🎓 Learning Mode vs ⚡ Survival Mode
 
@@ -65,10 +36,7 @@ For users who want to understand:
 - how systems process records  
 - how procedural literacy works  
 
-Start here:  
-`/docs → /tutorials → /examples`
 
----
 
 ### ⚡ Survival Mode (Crisis Mode)
 
