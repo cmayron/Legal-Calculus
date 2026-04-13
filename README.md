@@ -163,6 +163,50 @@ Use this directory for:
 - **Ready to build filings:** `/templates/`  
 - **Archiving outputs:** `/packets/`
 
+## 🔧 `/workflows` — Device‑Based Operational Loops
+
+> **This directory answers:**  
+> *“How do I run LCES on my actual devices — iPad, desktop, and iPhone — in real workflows?”*  
+>
+> **Start here:** [`ipad.md`](workflows/ipad.md)  
+>
+> **Next:** [`desktop.md`](workflows/desktop.md) • [`iphone.md`](workflows/iphone.md)
+
+### What `/workflows` contains
+The `/workflows` directory defines the **operational loops** for each device you use in the Legal Calculus system.  
+Where `/tutorials` shows *how to perform tasks*, `/workflows` shows *where those tasks live in your daily practice*.
+
+Use this directory for:
+- Device‑specific loops  
+- Capture → refine → commit cycles  
+- Filing hygiene workflows  
+- Second‑Opinion Mode integration  
+- iPad/desktop/iPhone role separation  
+
+### Device roles (LCES standard model)
+- **iPad — Thinking Workspace**  
+  Capture, annotate, draft, reflect, run FG micro‑modules.
+
+- **Desktop — Construction & Commit Workstation**  
+  Build packets, validate citations, structure filings, commit artifacts.
+
+- **iPhone — Quick Reference Device**  
+  Checklists, deadlines, TOA confirmation, service steps, docket snapshots.
+
+### File index
+- [`ipad.md`](workflows/ipad.md) — The iPad as a cognitive workspace (capture → refine loops)  
+- [`desktop.md`](workflows/desktop.md) — Desktop as construction + commit station  
+- [`iphone.md`](workflows/iphone.md) — iPhone as quick‑reference and diligence tracker  
+- [`second-opinion-loop.md`](workflows/second-opinion-loop.md) — Running the 8‑Step Pass across devices  
+- [`filing-hygiene.md`](workflows/filing-hygiene.md) — AI‑era hygiene and validation workflow  
+
+### Where to go next
+- **Need conceptual grounding:** `/docs/20-architecture.md`  
+- **Need step‑by‑step tasks:** `/tutorials/01-first-run.md`  
+- **Need checklists or forms:** `/field-guide/`  
+- **Ready to assemble filings:** `/templates/`  
+- **Archiving outputs:** `/packets/`
+
 
 📦 LCES Base Map + Version Manifest
 
