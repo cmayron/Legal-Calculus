@@ -21,7 +21,6 @@ Who This System Is For
 • Practitioners — improving filing discipline
 • Contributors — extending the Field Guide or modules
 
----Below is the Addendum written to slot cleanly into the existing production‑grade README you and I already built.
 It preserves your structure, tone, and pedagogical architecture.
 It adds only what was missing: How you use the system (Copilot Pro + iPad + Multi‑AI Pipeline).
 
