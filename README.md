@@ -249,9 +249,7 @@ And it produces:
 • teachable systems
 • scalable procedural literacy
 
-Below is the exact addendum your README now needs — the missing piece that explains, in clean procedural terms, how to use the GitHub repo with Copilot Pro on the iPad, and how this fits into the Legal‑Calculus multi‑AI workflow.
-
-This is paste‑ready, self‑contained, and written to integrate directly into the README you already have.
+in clean procedural terms, how to use the GitHub repo with Copilot Pro on the iPad, and how this fits into the Legal‑Calculus multi‑AI workflow.
 
 ---
 
@@ -434,20 +432,6 @@ Retrieve → Think → Build → Evaluate → Commit
 
 This is the Legal‑Calculus Multi‑AI Loop.
 
----
-
-
----
-
-If you want, I can also generate:
-
-• a diagram of this workflow
-• a quick‑start version for new users
-• a poster‑style artifact for the repo
-• a directory‑level README that mirrors this workflow
-
-
-Which one should I produce next?
 
 Start Here — Choose Your Path
 
