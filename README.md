@@ -57,15 +57,6 @@ For users who must act immediately.
 
 ---
 
-## Repository Map
-
-- `/docs` — concepts, architecture, glossary  
-- `/tutorials` — step-by-step workflows  
-- `/workflows` — device + AI operating loops  
-- `/templates` — filing skeletons and forms  
-- `/examples` — real artifacts and case studies  
-- `/roles` — role-based entry points  
-- `/packets` — finalized, archived filings  
 
 ---
 
@@ -1080,14 +1071,7 @@ Retrieve → Think → Build → Evaluate → Commit
 This is the Legal‑Calculus Multi‑AI Loop.
 
 
-Start Here — Choose Your Path
 
-Conceptual (learn the system): /docs/00-overview.md
-Hands‑on (do something now): /tutorials/01-first-run.md
-Five‑minute orientation: /docs/10-quick-tour.md
-Role‑based entry: Instructor → /roles/instructor.md • Contributor → CONTRIBUTING.md • Pro Se (urgent) → Crisis Mode (below)
-
----
 
 
 How to Navigate the Repository
@@ -1142,73 +1126,6 @@ Repository Map
 /templates — Forms, checklists, filing skeletons
 /packets — Finalized, archived filings (PDF + source)
 
----
-
-LCES System Map (Mermaid)
-
-flowchart TD
-A[LCES – Legal Calculus Educational System]:::core
-subgraph Streams[Six-Stream Model]
-LC[LC – Legal Calculus]:::stream
-LCA[LCA – Legal Calculus Advanced]:::stream
-FG[FG – Field Guide]:::stream
-FGA[FGA – Field Guide Advanced]:::stream
-JC[JC – Judicial Calculus]:::stream
-LCa[LCa – Lawyer Calculus]:::stream
-end
-A –> Streams
-subgraph Layers[Repository Layers]
-Docs[/docs – Conceptual Spine/]:::layer
-Tutorials[/tutorials – Hands‑On Walkthroughs/]:::layer
-Workflows[/workflows – Device Loops/]:::layer
-Templates[/templates – Filing Skeletons/]:::layer
-Packets[/packets – Finalized Filings/]:::layer
-Examples[/examples – Case Studies/]:::layer
-Roles[/roles – Role‑Based Entry/]:::layer
-end
-A –> Layers
-FG –> LC
-LC –> LCA
-LC –> Templates
-Templates –> Packets
-FG –> Templates
-JC –> Templates
-LCa –> Templates
-Examples –> Templates
-Tutorials –> Templates
-Workflows –> Templates
-subgraph Devices[Device Workflows]
-iPad[iPad – Thinking Workspace]:::device
-Desktop[Desktop – Construction & Commit]:::device
-iPhone[iPhone – Quick Reference]:::device
-end
-Workflows –> Devices
-iPad –> Tutorials
-Desktop –> Templates
-iPhone –> FG
-subgraph SOP[Second‑Opinion Mode – 8‑Step Pass]
-S1[1. State Goal]
-S2[2. Read Docket]
-S3[3. Pull FG Modules]
-S4[4. Open LC/LCA]
-S5[5. Validate Citations + TOA]
-S6[6. Attach Proposed Order]
-S7[7. COS + Filing Plan]
-S8[8. Archive to /packets]
-end
-Templates –> SOP
-SOP –> Packets
-subgraph Crisis[Crisis Mode – Pro Se Under Time Pressure]
-C1[FG Emergency Module]
-C2[Template Fill]
-C3[Proposed Order]
-C4[Validate + TOA]
-C5[File + Archive]
-end
-FG –> Crisis
-Crisis –> Packets
-
----
 
 🚨 Crisis Mode (Pro Se Under Time Pressure)
 
@@ -1219,13 +1136,7 @@ Use this when you:
 • must file something to preserve a right
 • need a structured emergency workflow
 
-Crisis Sequence (5 steps):
 
-1. Open FG Emergency Module
-2. Pull matching template → fill only required fields
-3. Attach a one‑page Proposed Order
-4. Validate citations + TOA → email to yourself
-5. File + Archive → /packets/
 
 
 Principles:
@@ -1251,73 +1162,6 @@ LCES prevents these by enforcing structure, clarity, and disciplined record‑bu
 
 Courts rule on structure, not emotion.
 LCES gives users the structure courts expect.
-
----
-
-/docs — Conceptual Spine of LCES
-
-Start here: 00-overview.md
-Next: 10-quick-tour.md • 20-architecture.md
-
-Use this directory for: Orientation • Architecture • Definitions • System maps • Cross‑stream relationships
-
-File Index:
-• 00-overview.md
-• 10-quick-tour.md
-• 20-architecture.md
-• glossary.md
-• LCES_Base_Map_Version_Manifest.md
-
----
-
-/tutorials — Hands‑On, Step‑By‑Step Walkthroughs
-
-Start here: 01-first-run.md
-Recommended sequence: 01 → 02 → 03 → 04 → 05
-
-File Index:
-• 01-first-run.md
-• 02-artifacts.md
-• 03-fg-integration.md
-• 04-packets.md
-• 05-review-loop.md
-
----
-
-/workflows — Device‑Based Operational Loops
-
-Start here: ipad.md
-
-Device roles:
-• iPad — Thinking workspace
-• Desktop — Construction & commit
-• iPhone — Quick reference
-
-File Index:
-• ipad.md
-• desktop.md
-• iphone.md
-• handoff.md
-
-
-/templates — Filing Skeletons, Forms, Checklists
-
-Start here: lc-template-pack-v45.zip
-
-File Index:
-• proposed-order.docx
-• motion-skeleton.docx
-• notice-template.docx
-• redaction/
-• packet-structure.md
-
-
-Contributing
-
-
-Second‑Opinion Mode (8‑Step Pass)
-
-Goal → Docket → FG → LC/LCA → Validate → Proposed Order → COS → Archive
 
 
 🎓 Learning Mode vs ⚡ Survival Mode
@@ -1412,15 +1256,6 @@ LCa reveals the strategic layer of litigation:
 • how they weaponize procedure
 • how they steer cases toward dismissal or arbitration
 • how they frame narratives to control judicial attention
-
-
-
-
----
-
-
-
-
 
 
 Why It Matters
