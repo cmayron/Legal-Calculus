@@ -1,4 +1,4 @@
-
+y
 
 Legal Calculus Educational System (LCES)
 
@@ -283,19 +283,308 @@ Template pack: lc-template-pack-v45.zip
 
 ---
 
-If you want, I can now:
+Excellent — Option A means I now generate all directory‑level READMEs, one for each major folder, so the repo becomes a fully guided, self‑navigating educational system at every depth.
 
-1. Generate directory‑level READMEs for each folder
+Below are the complete, paste‑ready READMEs for:
 
-(so every directory teaches itself)
+• /docs
+• /tutorials
+• /workflows
+• /examples
+• /roles
+• /templates
+• /packets
 
-2. Generate `/packets/00-index.md`
 
-(so your archive becomes navigable)
+Each one is clean, structured, and aligned with the architecture you’ve built.
 
-3. Build a polished visual system map for the README header
+---
 
-(Mermaid or ASCII)
+✅ 1. `/docs/README.md` — Conceptual Spine
 
-Just tell me which direction you want next.
+# 📘 /docs — Conceptual Spine of LCES
 
+> **This directory answers:**  
+> “What is LCES, how is it structured, and how do the six streams fit together?”
+
+## Start Here
+- **00-overview.md** — High‑level introduction  
+- **10-quick-tour.md** — Five‑minute orientation  
+- **20-architecture.md** — Structural map of LC, LCA, FG, FGA, JC, LCa  
+
+## What This Directory Contains
+The `/docs` directory is the **conceptual layer** of LCES.  
+If the Field Guide tells you *what to do*, `/docs` tells you *why it works* and *how the system fits together*.
+
+Use this directory for:
+- Orientation  
+- Architecture  
+- Definitions  
+- System maps  
+- Cross‑stream relationships  
+
+## File Index
+- `00-overview.md` — What LCES is  
+- `10-quick-tour.md` — Fast orientation  
+- `20-architecture.md` — Six‑stream structure  
+- `glossary.md` — Shared vocabulary  
+- `LCES_Base_Map_Version_Manifest.md` — Canonical system map  
+
+## Where to Go Next
+- Hands‑on steps → `/tutorials/01-first-run.md`  
+- Checklists/forms → `/field-guide/`  
+- Judicial behavior → `/docs/jc-index.md`  
+- Filing prep → `/templates/`  
+- Teaching → `/roles/instructor.md`
+
+
+---
+
+✅ 2. `/tutorials/README.md` — Hands‑On Walkthroughs
+
+# 🛠️ /tutorials — Hands‑On, Step‑By‑Step Walkthroughs
+
+> **This directory answers:**  
+> “How do I actually run LCES in practice?”
+
+## Start Here
+- **01-first-run.md** — Your first operational pass
+
+## What This Directory Contains
+The `/tutorials` directory is the **hands‑on layer** of LCES.  
+Where `/docs` explains the system, `/tutorials` shows you **how to operate it**.
+
+Use this directory for:
+- First‑run setup  
+- Guided exercises  
+- Artifact inspection  
+- Filing simulations  
+- End‑to‑end procedural walkthroughs  
+
+## Recommended Sequence
+1. `01-first-run.md`  
+2. `02-artifacts.md`  
+3. `03-fg-integration.md`  
+4. `04-packets.md`  
+5. `05-review-loop.md`  
+
+## File Index
+- `01-first-run.md` — First operational walkthrough  
+- `02-artifacts.md` — Understanding artifacts  
+- `03-fg-integration.md` — Using FG/FGA inside tutorials  
+- `04-packets.md` — Building filing packets  
+- `05-review-loop.md` — Running the 8‑Step Pass  
+
+## Where to Go Next
+- Conceptual grounding → `/docs/00-overview.md`  
+- Checklists/forms → `/field-guide/`  
+- Build filings → `/templates/`  
+- Archive outputs → `/packets/`  
+- Teaching → `/roles/instructor.md`
+
+
+---
+
+✅ 3. `/workflows/README.md` — Device Loops
+
+# 🔧 /workflows — Device‑Based Operational Loops
+
+> **This directory answers:**  
+> “How do I run LCES across my devices in a stable, repeatable way?”
+
+## Start Here
+- **ipad.md** — Thinking workspace loop
+
+## What This Directory Contains
+The `/workflows` directory defines the **canonical device loops** for LCES.
+
+## Device Roles (LCES Standard)
+- **iPad — Thinking Workspace**  
+  Capture, annotate, draft, run FG micro‑modules.
+- **Desktop — Construction & Commit Station**  
+  Build packets, validate citations, finalize filings.
+- **iPhone — Quick Reference Device**  
+  Checklists, deadlines, TOA reminders, service rules.
+
+## File Index
+- `ipad.md` — Cognitive workspace loop  
+- `desktop.md` — Construction + commit loop  
+- `iphone.md` — Quick‑reference loop  
+- `handoff.md` — Cross‑device transitions  
+
+## Where to Go Next
+- Conceptual grounding → `/docs/20-architecture.md`  
+- Step‑by‑step tasks → `/tutorials/01-first-run.md`  
+- Checklists → `/field-guide/`  
+- Build filings → `/templates/`  
+- Archive → `/packets/`
+
+
+---
+
+✅ 4. `/examples/README.md` — Case Studies
+
+# 📂 /examples — Real Artifacts, Case Studies, Demonstrations
+
+> **This directory answers:**  
+> “What does LCES look like in action?”
+
+## Start Here
+- **00-index.md** — Master index of examples
+
+## What This Directory Contains
+The `/examples` directory is the **demonstration layer** of LCES.  
+It shows real filings, motions, sanctions, remedies, and procedural strategy.
+
+Use this directory for:
+- Case studies  
+- Worked examples  
+- Annotated filings  
+- Arbitration bundles  
+- FG + LC + JC integration  
+- Before/after transformations  
+
+## File Index
+- `00-index.md` — Master index  
+- `ahla-arbitration/` — AHLA Arbitration Starter Bundle  
+- `punitive-damages/` — Scope of Remedies  
+- `spoliation-sanctions/` — Sanctions motion  
+- `exhibits-carried-over/` — Notice of Exhibits  
+- `quickstart-checklist-v45/` — Checklist v4.5  
+
+## Where to Go Next
+- Templates → `/templates/`  
+- Assemble filings → `/packets/`  
+- Doctrine → `/docs/LCES_Base_Map_Version_Manifest.md`  
+- Checklists → `/field-guide/`  
+- Device workflows → `/workflows/`
+
+
+---
+
+✅ 5. `/roles/README.md` — Role‑Based Entry
+
+# 🧑‍🏫 /roles — Role‑Based Entry Points
+
+> **This directory answers:**  
+> “Where should I start based on my role?”
+
+## Start Here
+- **learner.md** — Orientation path
+
+## What This Directory Contains
+Tailored onboarding paths for:
+- Learners  
+- Instructors  
+- Maintainers  
+- Practitioners  
+
+## File Index
+- `learner.md` — Orientation path  
+- `instructor.md` — Teaching paths  
+- `maintainer.md` — Contribution workflow  
+- `practitioner.md` — Practitioner workflows  
+
+## Where to Go Next
+- Conceptual grounding → `/docs/00-overview.md`  
+- Hands‑on steps → `/tutorials/01-first-run.md`  
+- Checklists → `/field-guide/`  
+- Build filings → `/templates/`  
+- Archive → `/packets/`
+
+
+---
+
+✅ 6. `/templates/README.md` — Filing Skeletons
+
+# 📄 /templates — Filing Skeletons, Forms, Checklists
+
+> **This directory answers:**  
+> “What structures can I use to draft filings quickly and correctly?”
+
+## Start Here
+- **lc-template-pack-v45.zip** — Full template bundle
+
+## What This Directory Contains
+Court‑ready skeletons integrating LC, FG, and JC principles.
+
+Use this directory for:
+- Motions, responses, notices  
+- Proposed Orders  
+- Redaction workflows  
+- Packet assembly  
+- TOA + citation validation  
+
+## File Index
+- `lc-template-pack-v45.zip` — Template bundle  
+- `proposed-order.docx` — One‑page Proposed Order  
+- `motion-skeleton.docx` — Motion framework  
+- `notice-template.docx` — Notice + service block  
+- `redaction/` — PHI/PII redaction tools  
+- `packet-structure.md` — How to assemble packets  
+
+## Where to Go Next
+- Examples → `/examples/`  
+- Doctrine → `/docs/20-architecture.md`  
+- Checklists → `/field-guide/`  
+- Archive → `/packets/`  
+- Quality check → Second‑Opinion Mode
+
+
+---
+
+✅ 7. `/packets/README.md` — Finalized Filings
+
+# 📦 /packets — Finalized, Archived Filings (PDF + Source)
+
+> **This directory answers:**  
+> “Where do my completed filings live?”
+
+## Start Here
+- **00-index.md** — Master index of packets
+
+## What This Directory Contains
+The `/packets` directory is the **archive layer** of LCES.  
+This is where finished, court‑ready outputs live.
+
+Use this directory for:
+- Finalized motions, responses, notices  
+- Assembled filing packets  
+- Exhibits + TOA + COS bundles  
+- Locked PDFs  
+- Editable `.docx` sources  
+- Versioned releases  
+
+## File Index (example)
+- `00-index.md` — Packet index  
+- `ahla-arbitration/` — Completed arbitration packet  
+- `punitive-damages/` — Final punitive‑damages packet  
+- `spoliation-sanctions/` — Final sanctions packet  
+- `notice-of-exhibits/` — Final notice packet  
+- `v4.5/` — Tagged release packets  
+
+## Where to Go Next
+- Templates → `/templates/`  
+- Examples → `/examples/`  
+- Doctrine → `/docs/20-architecture.md`  
+- Checklists → `/field-guide/`  
+- Device workflows → `/workflows/`
+
+
+---
+
+🎉 Your repo is now a fully guided, self‑navigating system
+
+Every directory now:
+
+• explains itself
+• orients the user
+• provides a local index
+• links to the next step
+• reinforces the architecture
+
+
+
+So navigation becomes frictionless.
+
+Which one do you want next?
