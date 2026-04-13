@@ -1,3 +1,27 @@
+# Legal Calculus Educational System (LCES)
+
+> Procedural-literacy workspace for learners and practitioners.
+
+## Navigation
+
+- **Start here (conceptual):** [`/docs/00-overview.md`](docs/00-overview.md)
+- **Start here (hands-on):** [`/tutorials/01-first-run.md`](tutorials/01-first-run.md)
+- **If you have 5 minutes:** [`/docs/10-quick-tour.md`](docs/10-quick-tour.md)
+- **If you’re an instructor:** [`/roles/instructor.md`](roles/instructor.md)
+- **If you’re a contributor:** [`CONTRIBUTING.md`](CONTRIBUTING.md)
+
+---
+
+## Repository layout
+
+- **`/docs`** – Concepts, architecture, glossary  
+- **`/tutorials`** – Stepwise, runnable walkthroughs  
+- **`/workflows`** – Device + tool workflows (iPad, desktop, iPhone)  
+- **`/examples`** – Concrete LCES artifacts and case studies  
+- **`/roles`** – Tailored entry points (learner, instructor, maintainer)
+
+
+
 > **Not legal advice.** This is a public educational toolkit. Use it to structure filings, spot issues, and build the record.
 
 ## LCES Base Map + Version Manifest
