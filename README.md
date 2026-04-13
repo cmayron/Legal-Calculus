@@ -302,7 +302,41 @@ Answers:
 Start here: /examples/00-index.md
 Next: ahla-arbitration/ • punitive-damages/
 
----
+---# 📂 /examples — Real Artifacts, Case Studies, Demonstrations
+
+> **This directory answers:**  
+> “What does LCES look like in action?”
+
+## Start Here
+- **00-index.md** — Master index of examples
+
+## What This Directory Contains
+The `/examples` directory is the **demonstration layer** of LCES.  
+It shows real filings, motions, sanctions, remedies, and procedural strategy.
+
+Use this directory for:
+- Case studies  
+- Worked examples  
+- Annotated filings  
+- Arbitration bundles  
+- FG + LC + JC integration  
+- Before/after transformations  
+
+## File Index
+- `00-index.md` — Master index  
+- `ahla-arbitration/` — AHLA Arbitration Starter Bundle  
+- `punitive-damages/` — Scope of Remedies  
+- `spoliation-sanctions/` — Sanctions motion  
+- `exhibits-carried-over/` — Notice of Exhibits  
+- `quickstart-checklist-v45/` — Checklist v4.5  
+
+## Where to Go Next
+- Templates → `/templates/`  
+- Assemble filings → `/packets/`  
+- Doctrine → `/docs/LCES_Base_Map_Version_Manifest.md`  
+- Checklists → `/field-guide/`  
+- Device workflows → `/workflows/`
+
 
 🧑‍🏫 /roles — Role‑Based Entry Points
 
