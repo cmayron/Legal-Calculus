@@ -388,16 +388,7 @@ Current release: v4.5
 Tagged PDFs in /packets/
 Template pack: lc-template-pack-v45.zip
 
----
 
-If you want, I can now generate:
-
-• A GitHub social preview image
-• A graphical SVG banner
-• A printable one‑page Quickstart
-• A full onboarding PDF
-
-Just tell me where you want to go next.
 ██╔════╝██║     ██╔════╝██╔════╝
 █████╗  ██║     █████╗  ███████╗
 ██╔══╝  ██║     ██╔══╝  ╚════██║
