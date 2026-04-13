@@ -286,6 +286,55 @@ Use this directory if you are:
 - **Building filings:** `/templates/`  
 - **Archiving outputs:** `/packets/`
 
+## 📄 `/templates` — Filing Skeletons, Forms, and Procedural Checklists
+
+> **This directory answers:**  
+> *“What pre‑built structures can I use to draft filings quickly and correctly?”*  
+>
+> **Start here:** [`lc-template-pack-v45.zip`](templates/lc-template-pack-v45.zip)  
+>
+> **Next:** [`proposed-order.docx`](templates/proposed-order.docx) • [`motion-skeleton.docx`](templates/motion-skeleton.docx)
+
+### What `/templates` contains
+The `/templates` directory is the **production layer** of LCES.  
+These are the **ready‑to‑use, court‑ready skeletons** that integrate LC, FG, and JC principles into clean, disciplined drafting frameworks.
+
+Use this directory for:
+- Motions, responses, and notices  
+- Proposed Orders  
+- Service and certificate blocks  
+- Redaction workflows  
+- Filing packet structures  
+- TOA and citation‑validation workflows  
+
+### Why templates matter
+Templates enforce:
+- Proper structure  
+- Procedural hygiene  
+- Judicial‑friendly formatting  
+- Proposed‑Order discipline  
+- FG → LC → JC integration  
+- Repeatable packet assembly  
+
+They are the fastest way to produce filings that are **coherent, compliant, and court‑actionable**.
+
+### File index (example structure)
+- [`lc-template-pack-v45.zip`](templates/lc-template-pack-v45.zip) — Full template bundle (v4.5)  
+- [`proposed-order.docx`](templates/proposed-order.docx) — One‑page Proposed Order skeleton  
+- [`motion-skeleton.docx`](templates/motion-skeleton.docx) — General motion framework  
+- [`notice-template.docx`](templates/notice-template.docx) — Notice + service block  
+- [`redaction/`](templates/redaction/) — PHI/PII redaction tools and examples  
+- [`packet-structure.md`](templates/packet-structure.md) — How to assemble a filing packet  
+
+*(If your actual filenames differ, I can regenerate this index precisely.)*
+
+### Where to go next
+- **Need examples of completed filings:** `/examples/`  
+- **Need conceptual grounding:** `/docs/20-architecture.md`  
+- **Need checklists/forms:** `/field-guide/`  
+- **Archiving your outputs:** `/packets/`  
+- **Running a quality check:** Second‑Opinion Mode (8‑Step Pass)
+
 
 📦 LCES Base Map + Version Manifest
 
