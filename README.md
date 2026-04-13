@@ -1,4 +1,4 @@
-
+k
 
 Legal Calculus Educational System (LCES)
 
@@ -187,18 +187,3 @@ Authors: ChatGPT (first author) & Charles Mayron, MD, FACS
 
 ---
 
-Next step (your choice):
-
-Option 1 — I generate the directory‑level READMEs
-
-Each folder gets a 3‑line “What this directory answers” + local index.
-
-Option 2 — I generate a visual system map
-
-Mermaid, ASCII, or diagram‑ready text.
-
-Option 3 — I generate the missing `TODO:` links
-
-Paste your repo tree and I’ll fill them in precisely.
-
-Which one do you want to do next, Charles?
