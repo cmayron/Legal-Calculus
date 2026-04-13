@@ -81,7 +81,47 @@ Use this directory for:
 - **Prepare a filing:** `/templates/` and `/packets/`  
 - **Teaching:** `/roles/instructor.md`
 
----
+---## 🛠️ `/tutorials` — Hands‑On, Step‑By‑Step Walkthroughs
+
+> **This directory answers:**  
+> *“How do I actually run LCES in practice, step by step?”*  
+>
+> **Start here:** [`01-first-run.md`](tutorials/01-first-run.md)  
+>
+> **Next:** [`02-artifacts.md`](tutorials/02-artifacts.md) • [`03-fg-integration.md`](tutorials/03-fg-integration.md)
+
+### What `/tutorials` contains
+The `/tutorials` directory is the **hands‑on layer** of LCES.  
+If `/docs` explains the system, `/tutorials` shows you **how to operate it** with real actions, real artifacts, and real workflows.
+
+Use this directory for:
+- First‑run setup  
+- Guided exercises  
+- Artifact inspection  
+- Filing simulations  
+- End‑to‑end procedural walkthroughs  
+
+### Recommended sequence
+1. **01-first-run.md** — Your first operational pass through LCES  
+2. **02-artifacts.md** — How to inspect, validate, and structure artifacts  
+3. **03-fg-integration.md** — How tutorials connect to FG/FGA micro‑modules  
+4. **04-packets.md** — How to assemble and archive filing packets  
+5. **05-review-loop.md** — How to run the Second‑Opinion 8‑Step Pass inside a tutorial  
+
+### File index
+- [`01-first-run.md`](tutorials/01-first-run.md) — First operational walkthrough  
+- [`02-artifacts.md`](tutorials/02-artifacts.md) — Understanding and validating artifacts  
+- [`03-fg-integration.md`](tutorials/03-fg-integration.md) — Using FG/FGA inside tutorials  
+- [`04-packets.md`](tutorials/04-packets.md) — Building filing packets  
+- [`05-review-loop.md`](tutorials/05-review-loop.md) — Running the 8‑Step Second‑Opinion Pass  
+
+### Where to go next
+- **Need conceptual grounding:** `/docs/00-overview.md`  
+- **Need a checklist or form:** `/field-guide/`  
+- **Ready to build filings:** `/templates/`  
+- **Archiving outputs:** `/packets/`  
+- **Teaching or supervising:** `/roles/instructor.md`
+
 
 📦 LCES Base Map + Version Manifest
 
