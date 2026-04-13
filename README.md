@@ -1089,22 +1089,6 @@ Role‑based entry: Instructor → /roles/instructor.md • Contributor → CONT
 
 ---
 
-🚀 Your First Win (10 Minutes)
-
-Build your first structured filing in under ten minutes.
-
-1. Open /tutorials/01-first-run.md
-2. Pull the matching FG module
-3. Open the motion skeleton in /templates
-4. Fill only the required fields
-5. Attach the one‑page Proposed Order
-6. Validate citations + TOA
-7. Export → Archive to /packets/
-
-
-A fast win builds confidence before learning the full system.
-
----
 
 How to Navigate the Repository
 
@@ -1449,8 +1433,7 @@ The record is the remedy.
 
 License & Credits
 
-CC BY‑NC‑ND 4.0
-Authors: ChatGPT (first author) & Charles Mayron, MD, FACS
+Charles Mayron, MD, FACS
 
 
 
