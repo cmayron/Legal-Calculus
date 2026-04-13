@@ -300,18 +300,4 @@ Authors: ChatGPT (first author) & Charles Mayron, MD, FACS
 
 Versioning & Releases
 
-Current release: v4.5
-Tagged PDFs in /packets/
-Template pack: lc-template-pack-v45.zip
 
----
-
-If you want, I can also generate:
-
-• CONTRIBUTING.md
-• A polished header banner
-• Badges (version, license, structure)
-• /packets/00-index.md
-• A “Philosophy of LCES” section
-
-Just tell me which one you want next.
