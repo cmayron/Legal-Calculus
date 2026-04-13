@@ -205,7 +205,46 @@ First‑run setup • Guided exercises • Artifact inspection • Filing simula
 Recommended sequence:
 01 → 02 → 03 → 04 → 05
 
----
+---# 🛠️ /tutorials — Hands‑On, Step‑By‑Step Walkthroughs
+
+> **This directory answers:**  
+> “How do I actually run LCES in practice?”
+
+## Start Here
+- **01-first-run.md** — Your first operational pass
+
+## What This Directory Contains
+The `/tutorials` directory is the **hands‑on layer** of LCES.  
+Where `/docs` explains the system, `/tutorials` shows you **how to operate it**.
+
+Use this directory for:
+- First‑run setup  
+- Guided exercises  
+- Artifact inspection  
+- Filing simulations  
+- End‑to‑end procedural walkthroughs  
+
+## Recommended Sequence
+1. `01-first-run.md`  
+2. `02-artifacts.md`  
+3. `03-fg-integration.md`  
+4. `04-packets.md`  
+5. `05-review-loop.md`  
+
+## File Index
+- `01-first-run.md` — First operational walkthrough  
+- `02-artifacts.md` — Understanding artifacts  
+- `03-fg-integration.md` — Using FG/FGA inside tutorials  
+- `04-packets.md` — Building filing packets  
+- `05-review-loop.md` — Running the 8‑Step Pass  
+
+## Where to Go Next
+- Conceptual grounding → `/docs/00-overview.md`  
+- Checklists/forms → `/field-guide/`  
+- Build filings → `/templates/`  
+- Archive outputs → `/packets/`  
+- Teaching → `/roles/instructor.md`
+
 
 🔧 /workflows — Device‑Based Operational Loops
 
