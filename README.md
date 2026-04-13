@@ -24,10 +24,6 @@ Who This System Is For
 It preserves your structure, tone, and pedagogical architecture.
 It adds only what was missing: How you use the system (Copilot Pro + iPad + Multi‑AI Pipeline).
 
-This is paste‑ready — no editing required.
-
----
-
 How to Use the System (Copilot Pro + iPad + Multi‑AI Pipeline)
 
 operational workflow that powers Legal Calculus:
