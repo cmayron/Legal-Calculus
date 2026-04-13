@@ -248,6 +248,44 @@ Use this directory for:
 ### Where to go next
 - **Need conceptual grounding:** `/docs/00-over
 
+## 🧑‍🏫 `/roles` — Role‑Based Entry Points (Learner • Instructor • Maintainer • Practitioner)
+
+> **This directory answers:**  
+> *“Where should I start based on my role, experience level, or purpose?”*  
+>
+> **Start here:** [`learner.md`](roles/learner.md)  
+>
+> **Next:** [`instructor.md`](roles/instructor.md) • [`maintainer.md`](roles/maintainer.md)
+
+### What `/roles` contains
+The `/roles` directory provides **tailored onboarding paths** for different types of LCES users.  
+Instead of one generic starting point, each role gets a **curated sequence** of readings, tutorials, and examples.
+
+Use this directory if you are:
+- A **learner** trying to understand LCES from scratch  
+- An **instructor** teaching LCES in a clinic, workshop, or practicum  
+- A **maintainer** contributing to the repo  
+- A **practitioner** integrating LCES into real filings or workflows  
+
+### Role summaries
+- **Learner** — Start with the quick tour → run the first tutorial → explore examples  
+- **Instructor** — Use the Master Field Guide → assign LC modules → run practicum loops  
+- **Maintainer** — Follow contribution standards → structure new FG entries → update indexes  
+- **Practitioner** — Use FG/FGA → run Second‑Opinion Mode → build packets  
+
+### File index
+- [`learner.md`](roles/learner.md) — Orientation path for new users  
+- [`instructor.md`](roles/instructor.md) — Teaching paths, assignments, and practicum structure  
+- [`maintainer.md`](roles/maintainer.md) — Contribution rules, structure, and update workflow  
+- [`practitioner.md`](roles/practitioner.md) *(optional)* — Practitioner‑focused workflows  
+
+### Where to go next
+- **Need conceptual grounding:** `/docs/00-overview.md`  
+- **Need hands‑on steps:** `/tutorials/01-first-run.md`  
+- **Need checklists/forms:** `/field-guide/`  
+- **Building filings:** `/templates/`  
+- **Archiving outputs:** `/packets/`
+
 
 📦 LCES Base Map + Version Manifest
 
