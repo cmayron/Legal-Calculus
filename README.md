@@ -207,6 +207,47 @@ Use this directory for:
 - **Ready to assemble filings:** `/templates/`  
 - **Archiving outputs:** `/packets/`
 
+## 📂 `/examples` — Real Artifacts, Case Studies, and Demonstrations
+
+> **This directory answers:**  
+> *“What does LCES look like in action, with real filings, motions, and procedural moves?”*  
+>
+> **Start here:** [`00-index.md`](examples/00-index.md)  
+>
+> **Next:** [`ahla-arbitration/`](examples/ahla-arbitration/) • [`punitive-damages/`](examples/punitive-damages/)
+
+### What `/examples` contains
+The `/examples` directory is the **demonstration layer** of LCES.  
+Where `/docs` explains and `/tutorials` guide, `/examples` shows **real, concrete instantiations** of LCES principles applied to filings, motions, sanctions, remedies, and procedural strategy.
+
+Use this directory for:
+- Case studies  
+- Worked examples  
+- Annotated filings  
+- Arbitration bundles  
+- Demonstrations of FG + LC + JC integration  
+- Before/after transformations  
+
+### Typical use cases
+- You want to see how a Proposed Order is structured  
+- You want to compare a weak vs. strong motion  
+- You want to understand how FG modules map to real filings  
+- You want to study judicial‑behavior patterns in context  
+- You want to model your own packet after a proven example  
+
+### File index (example structure)
+- [`00-index.md`](examples/00-index.md) — Master index of all examples  
+- [`ahla-arbitration/`](examples/ahla-arbitration/) — AHLA Arbitration Starter Bundle  
+- [`punitive-damages/`](examples/punitive-damages/) — Scope of Remedies (Punitive Damages)  
+- [`spoliation-sanctions/`](examples/spoliation-sanctions/) — Spoliation Sanctions Motion  
+- [`exhibits-carried-over/`](examples/exhibits-carried-over/) — Notice of Exhibits Carried Over  
+- [`quickstart-checklist-v45/`](examples/quickstart-checklist-v45/) — Quickstart Checklist (v4.5)  
+
+*(If your actual folder names differ, I can regenerate this index precisely.)*
+
+### Where to go next
+- **Need conceptual grounding:** `/docs/00-over
+
 
 📦 LCES Base Map + Version Manifest
 
