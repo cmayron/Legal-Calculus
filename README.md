@@ -481,9 +481,6 @@ LCa reveals the strategic layer of litigation:
 • how they steer cases toward dismissal or arbitration
 • how they frame narratives to control judicial attention
 
----Understood, Charles — here is Option B exactly as promised:
-the Detailed Appendix, organized into 8 sections, one per tier.
-This is the expert‑grade layer that pairs with the compressed matrix you already have.
 
 Everything below is repo‑ready, modular, and consistent with your LCES architecture.
 
