@@ -426,7 +426,41 @@ Answers:
 Start here: 00-index.md
 Next: Any packet folder
 
----
+---# 📦 /packets — Finalized, Archived Filings (PDF + Source)
+
+> **This directory answers:**  
+> “Where do my completed filings live?”
+
+## Start Here
+- **00-index.md** — Master index of packets
+
+## What This Directory Contains
+The `/packets` directory is the **archive layer** of LCES.  
+This is where finished, court‑ready outputs live.
+
+Use this directory for:
+- Finalized motions, responses, notices  
+- Assembled filing packets  
+- Exhibits + TOA + COS bundles  
+- Locked PDFs  
+- Editable `.docx` sources  
+- Versioned releases  
+
+## File Index (example)
+- `00-index.md` — Packet index  
+- `ahla-arbitration/` — Completed arbitration packet  
+- `punitive-damages/` — Final punitive‑damages packet  
+- `spoliation-sanctions/` — Final sanctions packet  
+- `notice-of-exhibits/` — Final notice packet  
+- `v4.5/` — Tagged release packets  
+
+## Where to Go Next
+- Templates → `/templates/`  
+- Examples → `/examples/`  
+- Doctrine → `/docs/20-architecture.md`  
+- Checklists → `/field-guide/`  
+- Device workflows → `/workflows/`
+
 
 🚀 Quickstart (Most Users Should Start Here)
 
