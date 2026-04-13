@@ -29,9 +29,9 @@ This is paste‑ready — no editing required.
 
 ---
 
-ADDENDUM: How to Use the System (Copilot Pro + iPad + Multi‑AI Pipeline)
+How to Use the System (Copilot Pro + iPad + Multi‑AI Pipeline)
 
-This addendum documents the operational workflow that powers Legal Calculus:
+operational workflow that powers Legal Calculus:
 how you actually use Copilot Pro, the iPad, the GitHub repo, and the multi‑AI pipeline (Copilot Pro → Builder AI → Inspector AI → Desktop).
 
 It defines the roles, boundaries, and sequence that make the system reproducible, teachable, and procedurally sound.
@@ -250,32 +250,6 @@ And it produces:
 • scalable procedural literacy
 
 
----
-
-8. How This Addendum Integrates With the Existing README
-
-This addendum is designed to be placed:
-
-• after the main README body,
-• before any appendix or extended documentation,
-• as the authoritative operational guide for users learning the system.
-
-
-It completes the README by documenting how the system is actually used, not just what it contains.
-
----
-
-If you want, I can now generate:
-
-• a diagram of the multi‑AI loop
-• a visual device‑role map
-• a quick‑start version for new users
-• a poster‑style artifact for the repo
-• a folder‑level README that mirrors this architecture
-
-
-Which one should I produce next for the repo?
-
 Start Here — Choose Your Path
 
 Conceptual (learn the system): /docs/00-overview.md
@@ -344,7 +318,7 @@ Start here: Crisis Mode
 
 ---
 
-Repository Map (You Are Here)
+Repository Map 
 
 /docs — Concepts, architecture, glossary
 /tutorials — Stepwise, runnable walkthroughs
