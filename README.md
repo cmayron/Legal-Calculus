@@ -155,7 +155,41 @@ Judicial behavior → /docs/jc-index.md
 Filing prep → /templates/
 Teaching → /roles/instructor.md
 
----
+---# 📘 /docs — Conceptual Spine of LCES
+
+> **This directory answers:**  
+> “What is LCES, how is it structured, and how do the six streams fit together?”
+
+## Start Here
+- **00-overview.md** — High‑level introduction  
+- **10-quick-tour.md** — Five‑minute orientation  
+- **20-architecture.md** — Structural map of LC, LCA, FG, FGA, JC, LCa  
+
+## What This Directory Contains
+The `/docs` directory is the **conceptual layer** of LCES.  
+If the Field Guide tells you *what to do*, `/docs` tells you *why it works* and *how the system fits together*.
+
+Use this directory for:
+- Orientation  
+- Architecture  
+- Definitions  
+- System maps  
+- Cross‑stream relationships  
+
+## File Index
+- `00-overview.md` — What LCES is  
+- `10-quick-tour.md` — Fast orientation  
+- `20-architecture.md` — Six‑stream structure  
+- `glossary.md` — Shared vocabulary  
+- `LCES_Base_Map_Version_Manifest.md` — Canonical system map  
+
+## Where to Go Next
+- Hands‑on steps → `/tutorials/01-first-run.md`  
+- Checklists/forms → `/field-guide/`  
+- Judicial behavior → `/docs/jc-index.md`  
+- Filing prep → `/templates/`  
+- Teaching → `/roles/instructor.md`
+
 
 🛠️ /tutorials — Hands‑On, Step‑By‑Step Walkthroughs
 
