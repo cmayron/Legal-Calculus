@@ -255,12 +255,12 @@ This is paste‑ready, self‑contained, and written to integrate directly into 
 
 ---
 
-ADDENDUM: How to Use the GitHub Repo With Copilot Pro (iPad Workflow)
+How to Use the GitHub Repo With Copilot Pro (iPad Workflow)
 
-This addendum documents the operational method for using the Legal‑Calculus GitHub repository (cmayron/legal-calculus) with Copilot Pro on the iPad.
+operational method for using the Legal‑Calculus GitHub repository (cmayron/legal-calculus) with Copilot Pro on the iPad.
 It explains how you actually get files into Copilot Pro, why the workflow is designed this way, and how it connects to the multi‑AI pipeline.
 
-This is the canonical procedure for interacting with the system.
+canonical procedure for interacting with the system.
 
 ---
 
