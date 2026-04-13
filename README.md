@@ -346,7 +346,34 @@ Answers:
 Start here: /roles/learner.md
 Next: /roles/instructor.md • /roles/maintainer.md
 
----
+---# 🧑‍🏫 /roles — Role‑Based Entry Points
+
+> **This directory answers:**  
+> “Where should I start based on my role?”
+
+## Start Here
+- **learner.md** — Orientation path
+
+## What This Directory Contains
+Tailored onboarding paths for:
+- Learners  
+- Instructors  
+- Maintainers  
+- Practitioners  
+
+## File Index
+- `learner.md` — Orientation path  
+- `instructor.md` — Teaching paths  
+- `maintainer.md` — Contribution workflow  
+- `practitioner.md` — Practitioner workflows  
+
+## Where to Go Next
+- Conceptual grounding → `/docs/00-overview.md`  
+- Hands‑on steps → `/tutorials/01-first-run.md`  
+- Checklists → `/field-guide/`  
+- Build filings → `/templates/`  
+- Archive → `/packets/`
+
 
 📄 /templates — Filing Skeletons, Forms, Checklists
 
