@@ -122,6 +122,47 @@ Use this directory for:
 - **Archiving outputs:** `/packets/`  
 - **Teaching or supervising:** `/roles/instructor.md`
 
+## 🔧 `/workflows` — Device‑Based Operational Loops (iPad • Desktop • iPhone)
+
+> **This directory answers:**  
+> *“How do I run LCES across my devices in a stable, repeatable way?”*  
+>
+> **Start here:** [`ipad.md`](workflows/ipad.md)  
+>
+> **Next:** [`desktop.md`](workflows/desktop.md) • [`iphone.md`](workflows/iphone.md)
+
+### What `/workflows` contains
+The `/workflows` directory defines the **canonical device loops** for LCES.  
+Each file shows how a specific device supports a different cognitive or procedural role in the system.
+
+Use this directory for:
+- Daily operational loops  
+- Device‑specific best practices  
+- Capture → refine → commit workflows  
+- Filing hygiene across devices  
+- Cross‑device handoff patterns  
+
+### Device roles (LCES standard)
+- **iPad — Thinking Workspace**  
+  Capture, annotate, draft, sketch logic, run FG micro‑modules.
+- **Desktop — Construction & Commit Station**  
+  Build packets, validate citations, structure artifacts, finalize filings.
+- **iPhone — Quick Reference Device**  
+  Pull checklists, deadlines, TOA reminders, service rules, FG lookups.
+
+### File index
+- [`ipad.md`](workflows/ipad.md) — Cognitive workspace loop (capture → refine)  
+- [`desktop.md`](workflows/desktop.md) — Construction, validation, and commit loop  
+- [`iphone.md`](workflows/iphone.md) — Quick‑reference and emergency‑mode loop  
+- [`handoff.md`](workflows/handoff.md) *(optional)* — Cross‑device transitions  
+
+### Where to go next
+- **Need conceptual grounding:** `/docs/20-architecture.md`  
+- **Need step‑by‑step tasks:** `/tutorials/01-first-run.md`  
+- **Need checklists/forms:** `/field-guide/`  
+- **Ready to build filings:** `/templates/`  
+- **Archiving outputs:** `/packets/`
+
 
 📦 LCES Base Map + Version Manifest
 
