@@ -1,4 +1,4 @@
-
+g
 Legal Calculus Educational System (LCES)
 
 Procedural‑literacy workspace for learners and practitioners.
@@ -380,13 +380,6 @@ License & Credits
 CC BY‑NC‑ND 4.0
 Authors: ChatGPT (first author) & Charles Mayron, MD, FACS
 
----
-
-Versioning & Releases
-
-Current release: v4.5
-Tagged PDFs in /packets/
-Template pack: lc-template-pack-v45.zip
 
 
 ██╔════╝██║     ██╔════╝██╔════╝
