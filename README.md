@@ -1,6 +1,187 @@
 
 ⚖️ LEGAL CALCULUS EDUCATIONAL SYSTEM (LCES)  
+# ⚖️ Legal Calculus Educational System (LCES)
 
+> **Procedural literacy for real-world filings.**  
+> Build records that are harder to ignore, distort, or evade.
+
+LCES is a public educational system for structuring the legal record under real-world constraints.  
+It teaches how filings, sequence, preservation, and framing shape outcomes in practice.
+
+---
+
+## Core Principle
+
+**The record is the case.**  
+If it is not structured, preserved, and sequenced correctly, it does not exist on review.
+
+---
+
+## Start Here
+
+- **New to LCES:** `/docs/00-overview.md`  
+- **Five-minute orientation:** `/docs/10-quick-tour.md`  
+- **Do something now:** `/tutorials/01-first-run.md`  
+- **Under deadline:** Crisis Mode  
+- **Philosophy:** `/docs/manifesto.md`  
+
+---
+
+## What LCES Helps You Do
+
+- build decision-ready records  
+- control framing  
+- preserve reviewable issues  
+- reduce procedural drift  
+- separate signal from noise  
+- work effectively under constraint  
+
+---
+
+## Quickstart
+
+**Templates → FG → LC → Proposed Order → TOA → /packets/**
+
+---
+
+## 🚀 Your First Win (10 Minutes)
+
+1. Open `/tutorials/01-first-run.md`  
+2. Pull the matching FG module  
+3. Open the motion skeleton in `/templates`  
+4. Fill only required fields  
+5. Attach a one-page Proposed Order  
+6. Validate citations + TOA  
+7. Export → Archive to `/packets/`  
+
+A fast win builds confidence before full system mastery.
+
+---
+
+## 🎓 Learning Mode vs ⚡ Survival Mode
+
+### 🎓 Learning Mode
+For users who want to understand:
+- how filings fit together  
+- how systems process records  
+- how procedural literacy works  
+
+Start here:  
+`/docs → /tutorials → /examples`
+
+---
+
+### ⚡ Survival Mode (Crisis Mode)
+
+For users who must act immediately.
+
+**Crisis Sequence:**
+1. Open FG Emergency Module  
+2. Pull template → fill required fields only  
+3. Attach one-page Proposed Order  
+4. Validate citations + TOA → email to yourself  
+5. File + archive to `/packets/`  
+
+**Principles:**
+- short filings beat perfect filings  
+- proposed orders prevent “nothing to rule” outcomes  
+- validation protects the record  
+- archive everything  
+
+---
+
+## Repository Map
+
+- `/docs` — concepts, architecture, glossary  
+- `/tutorials` — step-by-step workflows  
+- `/workflows` — device + AI operating loops  
+- `/templates` — filing skeletons and forms  
+- `/examples` — real artifacts and case studies  
+- `/roles` — role-based entry points  
+- `/packets` — finalized, archived filings  
+
+---
+
+## Device Workflow
+
+**iPad** → thinking workspace  
+(read, annotate, map, structure)
+
+**Desktop** → construction + commit  
+(finalize, integrate, archive)
+
+**iPhone** → quick reference  
+(field access, checklists)
+
+---
+
+## Multi-AI Workflow
+
+LCES separates roles to preserve control and clarity.
+
+**Blueprint AI** → structure, maps, workflows  
+**Builder AI** → construction, tools, systems  
+**Inspector AI** → testing, validation, red-team  
+**Human** → strategy, judgment, final decisions  
+
+**Loop:**  
+Retrieve → Think → Build → Evaluate → Commit
+
+---
+
+## Common Failure Modes
+
+- no proposed order  
+- no clear requested relief  
+- no archive  
+- weak sequencing  
+- narrative overload  
+- side-show framing  
+
+LCES reduces these through structure and discipline.
+
+---
+
+## Before / After
+
+**Before**
+- long narrative  
+- unclear relief  
+- no structure  
+- no archive  
+
+**After**
+- concise structure  
+- clear requested relief  
+- proposed order  
+- validated citations  
+- archived packet  
+
+Courts and tribunals respond to structure before emotion.
+
+---
+
+## Bottom Line
+
+**LCES does not argue harder. It builds better.**
+
+**Filing is protest.  
+Format is memory.  
+The record is the remedy.**
+
+---
+
+## Disclaimer
+
+LCES is a public educational system for procedural literacy and record-building.
+
+It is not legal advice and does not create an attorney-client relationship.
+
+Users are responsible for verifying all information and complying with applicable laws, rules, and deadlines.
+
+AI outputs may be incomplete or inaccurate and must be independently reviewed.
+
+**AI chats are not privileged. Do not upload confidential or protected material to cloud-based AI systems.**
 }
 # ⚖️ Legal Calculus Educational System (LCES)
 
