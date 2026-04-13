@@ -522,7 +522,7 @@ Courts rule on structure, not emotion.
 
 ---
 
-If you want, I can also generate a one‑page printable version of this addendum for onboarding packets.
+
 
 Why It Matters
 
