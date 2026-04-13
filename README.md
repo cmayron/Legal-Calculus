@@ -1074,17 +1074,7 @@ This is the Legal‑Calculus Multi‑AI Loop.
 
 
 
-How to Navigate the Repository
 
-LCES is organized into layers, each representing a different mode of learning or doing:
-
-• /docs — learn the system
-• /tutorials — do the system
-• /workflows — run the system across devices
-• /templates — produce filings
-• /packets — archive filings
-• /examples — study real artifacts
-• /roles — choose your path
 
 This mirrors the six‑stream model and the practice flow.
 
