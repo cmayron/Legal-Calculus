@@ -1,4 +1,4 @@
-
+y
 Legal Calculus Educational System (LCES)
 
 Procedural‑literacy workspace for learners and practitioners.
@@ -365,7 +365,164 @@ Filing Hygiene (AI‑Era)
 
 TOA • Locked PDF • Proposed Orders • Mail delays • Redaction • File size
 
+---Here you go, Charles — the addendum only, clean, polished, and ready to paste into the README without touching anything else.
+
+This is the exact block that contains the four strategic upgrades you approved:
+
 ---
+
+🚀 Your First Win (10 Minutes)
+
+Build your first structured filing in under ten minutes.
+
+1. Open /tutorials/01-first-run.md
+2. Pull the matching FG module
+3. Open the motion skeleton in /templates
+4. Fill only the required fields
+5. Attach the one‑page Proposed Order
+6. Validate citations + TOA
+7. Export → Archive to /packets/
+
+
+A fast win builds confidence before learning the full system.
+
+---
+
+🎓 Learning Mode vs ⚡ Survival Mode
+
+LCES has two operational modes:
+
+🎓 Mode A — Learning the System
+For users who want to understand:
+• how filings fit together
+• how courts process documents
+• how to build procedural literacy
+• how to use LC, LCA, FG, JC, LCa
+
+Start here: /docs → /tutorials → /examples
+
+⚡ Mode B — Survival Under Deadline
+For users who must file today.
+This mode uses:
+• FG Emergency Modules
+• Templates
+• Proposed Orders
+• TOA validation
+• Archive to /packets/**
+
+Start here: Crisis Mode
+
+---
+
+⚖️ The Calculus Ecosystem
+
+The Calculus model is a six‑stream educational architecture.
+Each stream teaches a different perspective inside the legal system — litigant, student, judge, lawyer — and each stream has its own style, purpose, and audience.
+
+Together, they form a complete procedural‑literacy system.
+
+---
+
+1. LC — Legal Calculus (Modules 1–119)
+
+Audience: Pro se litigants
+Purpose: Core teaching modules
+Why it exists: Build procedural literacy step‑by‑step
+Style: Structured lessons + assignments
+
+---
+
+2. LCA — Legal Calculus Advanced (Modules 1–119)
+
+Audience: Students, clinics, reformers
+Purpose: Expanded commentary on LC
+Why it exists: Add doctrine, cross‑links, case law, reflection
+Style: Textbook edition, deeper study
+
+---
+
+3. FG — Field Guide (Modules 1–1000)
+
+Audience: Litigants in real time
+Purpose: Micro‑cards, tactical prompts
+Why it exists: Quick reference in hearings, filings, appeals
+Style: One‑liners, short assignments, models
+
+---
+
+4. FGA — Field Guide Advanced (Modules 1–1000)
+
+Audience: Litigants + students
+Purpose: Annotated field cards
+Why it exists: Link FG to LC + LCA, add analogies and reflection
+Style: Pocket reference + study notes
+
+---
+
+5. JC — Judicial Calculus
+
+Audience: Reformers, pro se litigants, academics
+Purpose: The judge’s playbook
+Why it exists: Decode institutional reflexes — delay, silence, discretion, efficiency excuses
+Style: Parallel to LC but flipped — “what the court calculates while you calculate”
+
+---
+
+6. LCa — Lawyer Calculus
+
+Audience: Law students, clinics, reformers, critics
+Purpose: The lawyer’s playbook
+Why it exists: Expose big‑law tactics — procedural suppression, arbitration funnels, motion‑to‑dismiss strategies, label manipulation
+Style: Parallel to LC, but showing the strategic incentives of counsel
+
+LCa reveals the strategic layer of litigation:
+• how lawyers shape the record
+• how they weaponize procedure
+• how they steer cases toward dismissal or arbitration
+• how they frame narratives to control judicial attention
+
+---
+
+⚠️ Common Failure Modes (And How LCES Prevents Them)
+
+Real cases fail for procedural reasons long before merits matter.
+
+• Judge ignores merits → procedural off‑ramp
+• Opponent creates sideshow → record dilution
+• No Proposed Order → no ruling
+• No archive → no memory
+• No COS → service challenge
+• Overlong filings → judicial disengagement
+
+LCES prevents these by enforcing structure, clarity, and disciplined record‑building.
+
+---
+
+📂 Before / After: What LCES Actually Fixes
+
+Before (typical pro se motion):
+• 7–12 pages of narrative
+• No requested relief
+• No proposed order
+• No TOA
+• No structure
+• No citations
+• No archive
+
+After (LCES‑structured motion):
+• 2–3 pages
+• Clear requested relief
+• One‑page Proposed Order
+• TOA + citations validated
+• Exhibits indexed
+• COS included
+• Packet archived
+
+Courts rule on structure, not emotion.
+
+---
+
+If you want, I can also generate a one‑page printable version of this addendum for onboarding packets.
 
 Why It Matters
 
