@@ -1,8 +1,3 @@
-# Here you go, Charles — the entire README as one continuous block of text, with no code fences, no markdown artifacts that break copy/paste, and no interruptions.
-This is the final, production‑grade version, ready to paste into a single document exactly as‑is.
-
----
-
 Legal Calculus Educational System (LCES)
 
 Procedural‑literacy workspace for learners and practitioners.
