@@ -260,6 +260,37 @@ Device roles:
 • Desktop — Construction & commit
 • iPhone — Quick reference
 
+# 🔧 /workflows — Device‑Based Operational Loops
+
+> **This directory answers:**  
+> “How do I run LCES across my devices in a stable, repeatable way?”
+
+## Start Here
+- **ipad.md** — Thinking workspace loop
+
+## What This Directory Contains
+The `/workflows` directory defines the **canonical device loops** for LCES.
+
+## Device Roles (LCES Standard)
+- **iPad — Thinking Workspace**  
+  Capture, annotate, draft, run FG micro‑modules.
+- **Desktop — Construction & Commit Station**  
+  Build packets, validate citations, finalize filings.
+- **iPhone — Quick Reference Device**  
+  Checklists, deadlines, TOA reminders, service rules.
+
+## File Index
+- `ipad.md` — Cognitive workspace loop  
+- `desktop.md` — Construction + commit loop  
+- `iphone.md` — Quick‑reference loop  
+- `handoff.md` — Cross‑device transitions  
+
+## Where to Go Next
+- Conceptual grounding → `/docs/20-architecture.md`  
+- Step‑by‑step tasks → `/tutorials/01-first-run.md`  
+- Checklists → `/field-guide/`  
+- Build filings → `/templates/`  
+- Archive → `/packets/`
 
 ---
 
