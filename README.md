@@ -141,7 +141,9 @@ LCES will meet you where you are — crisis, learning, or mastery — and move y
 
 
 
-✅ THE COPY‑AND‑PASTE README (Operational, Copilot‑Ready)
+✅ THE COPY‑AND‑PASTE 
+
+README (Operational, Copilot‑Ready)
 
 Paste this into Copilot Pro to initialize the Legal Calculus Educational System (LCES).
 
