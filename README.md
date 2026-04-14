@@ -1,3 +1,150 @@
+Here is the Startup Page — the page a new user should see before anything else, the page that orients them, calms them, and tells them exactly what to do next.
+
+This is the page that sits at:
+
+the GitHub Pages landing page.
+
+It is intentionally short, directive, and welcoming — because this is the first moment of contact.
+
+---
+
+⚖️ LCES Startup Page
+
+Welcome to the Legal Calculus Educational System
+
+Your procedural‑literacy operating system.
+
+---
+
+What This System Does
+
+LCES teaches you how legal systems behave in practice:
+
+• how records are built
+• how filings survive
+• how review works
+• how mischaracterization happens
+• how to prevent procedural drift
+
+
+This is not legal advice.
+This is procedural literacy — the skill that determines what survives.
+
+---
+
+If You Are New, Start Here
+
+1. Open the README
+
+The README is your Quick‑Start Guide.
+It shows you how to use:
+
+• your iPad
+• Copilot Pro
+• the repo
+• the multi‑AI workflow
+
+
+It is designed to be copied directly into Copilot Pro.
+
+---
+
+2. If You Are in Crisis (Filing Today)
+
+Go immediately to:
+
+/FG/000‑Crisis‑Mode.md
+
+
+This gives you:
+
+• the 10‑minute filing
+• the one‑page proposed order
+• the emergency pipeline
+• the minimum‑viable structure
+
+
+Something beats nothing.
+Short beats perfect.
+Presence beats silence.
+
+---
+
+3. If You Want to Understand the System
+
+Read the LCES Manifesto:
+
+/docs/manifesto.md
+
+
+This explains:
+
+• why the record is the case
+• how systems behave
+• why structure beats argument
+• how displacement happens
+• how to build records that survive
+
+
+This is the philosophical core of LCES.
+
+---
+
+How to Use This Repo (Simple Loop)
+
+1. Open a file
+2. Copy a section
+3. Paste into Copilot Pro
+4. Ask for structure, mapping, rewriting, or testing
+5. Use the output
+6. Archive final versions on desktop
+
+
+This loop is the heart of the system.
+
+---
+
+Where to Go Next
+
+Field Guide (FG)
+
+Tactical modules (1–1000).
+Short, actionable, pro se‑friendly.
+
+Legal Calculus (LC)
+
+Core curriculum (1–119).
+The foundation of procedural literacy.
+
+Advanced Streams
+
+• LCA — Doctrine + Commentary
+• FGA — Annotated Field Cards
+• JC — Judicial Calculus
+• LCa — Lawyer Calculus
+
+
+---
+
+The Only Three Things You Must Remember
+
+• The record is the case.
+• Proposed orders create ruling paths.
+• Archive everything.
+
+
+If you do these three things, you are already operating above the level of most litigants — and many lawyers.
+
+---
+
+You Are Ready
+
+Start with the README.
+Paste it into Copilot Pro.
+Begin the loop.
+
+LCES will meet you where you are — crisis, learning, or mastery — and move you forward.
+
 
 
 ✅ THE COPY‑AND‑PASTE README (Operational, Copilot‑Ready)
