@@ -35,7 +35,110 @@ LCES teaches you how legal systems behave in practice:
 This is not legal advice.
 This is procedural literacy — the skill that determines what survives.
 
----
+⚖️ LEGAL CALCULUS EDUCATIONAL SYSTEM (LCES)
+
+What This Is
+
+LCES is an open, structured system for building a legal record that can be understood, preserved, and reviewed.
+
+It is not a traditional guide.
+It is not meant to be read like a book.
+
+It is a staged, copy-paste activation system designed to run inside GitHub Copilot Pro (or similar AI environments).
+
+⸻
+
+🚦 How To Use This System (Read This First)
+
+Do not try to read everything.
+
+Instead:
+	1.	Start here
+	2.	Copy the first block
+	3.	Paste into Copilot Pro
+	4.	Let it initialize
+	5.	Follow the instructions it gives you
+	6.	Return here only when directed
+
+This system works by sequence, not volume.
+
+⸻
+
+🧭 Core Concept
+
+This repository is a guided operational workflow:
+	•	Each section contains copy-paste blocks
+	•	Each block is a payload
+	•	Each payload advances the system
+	•	“Stop signs” are decision points, not decoration
+
+You are not consuming information.
+
+You are activating a process.
+
+⸻
+
+🚫 Critical Warnings
+	•	AI chat systems are not privileged
+	•	Do not upload confidential, protected, or sensitive material
+	•	This is an educational system, not legal advice
+
+You control what you input.
+You control what becomes part of your record.
+
+⸻
+
+🟢 START HERE
+
+👉 Go to: [STARTUP PAGE / INITIALIZATION BLOCK]
+	•	Copy the full block
+	•	Paste into Copilot Pro
+	•	Do not modify it
+	•	Let the system respond
+
+⸻
+
+🚨 IF YOU HAVE A DEADLINE / HEARING / FILING TODAY
+
+👉 Go to: [CRISIS MODE / FILING TODAY]
+
+This path bypasses full initialization and gets you to a decision-ready output quickly.
+
+⸻
+
+🧱 SYSTEM STRUCTURE (For Orientation Only)
+
+You do not need this to begin, but for clarity:
+
+1. Launch Layer
+Entry point and initialization
+
+2. Execution Layer
+Copy/paste blocks, workflows, stop signs
+
+3. Doctrine Layer
+Manifesto, theory, and full system architecture
+
+⸻
+
+📌 Important
+
+If it is not:
+	•	structured
+	•	preserved
+	•	and sequenced
+
+it does not exist on review.
+
+⸻
+
+⚖️ Purpose
+
+LCES exists to help users:
+	•	Build decision-ready records
+	•	Control framing and sequence
+	•	Avoid losing on procedure instead of substance
+
 
 If You Are New, Start Here
 
