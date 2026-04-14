@@ -1532,3 +1532,157 @@ flowchart TD
     iPad cannot commit to GitHub  
     Desktop required for archive stewardship"]
 
+flowchart TD
+
+%% =========================
+%% TITLE
+%% =========================
+A0["⚖️ **Legal Calculus Educational System (LCES)**  
+*Procedural‑Literacy Operating System*  
+**The Record is the Case**"]
+
+%% =========================
+%% SIX‑STREAM EDUCATIONAL ECOSYSTEM
+%% =========================
+subgraph S["📚 Six‑Stream Educational Ecosystem"]
+    LC["LC — Legal Calculus  
+    *Core modules (1–119)*  
+    Procedural literacy for pro se users"]
+
+    LCA["LCA — Legal Calculus Advanced  
+    *Commentary + doctrine*  
+    Deep study + reflection"]
+
+    FG["FG — Field Guide  
+    *Modules 1–1000*  
+    Tactical prompts, micro‑cards"]
+
+    FGA["FGA — Field Guide Advanced  
+    Annotated field cards  
+    Links FG ↔ LC ↔ LCA"]
+
+    JC["JC — Judicial Calculus  
+    *Judge’s playbook*  
+    Institutional reflexes, off‑ramps"]
+
+    LCa["LCa — Lawyer Calculus  
+    *Counsel’s playbook*  
+    Tactics, framing, suppression"]
+end
+
+A0 --> S
+
+%% =========================
+%% DEVICE WORKFLOW
+%% =========================
+subgraph D["📱 Device Workflow"]
+    IPAD["📘 iPad  
+    *Thinking Workspace*  
+    Read · Annotate · Map · Structure"]
+
+    DESKTOP["🖥️ Desktop  
+    *Construction + Commit*  
+    Finalize · Integrate · Archive"]
+
+    PHONE["📱 iPhone  
+    *Quick Reference*  
+    Checklists · Field Access"]
+end
+
+A0 --> D
+
+%% =========================
+%% MULTI‑AI WORKFLOW
+%% =========================
+subgraph AI["🤖 Multi‑AI Workflow"]
+    BP["🧩 Blueprint AI  
+    Structure · Maps · Doctrine Plans"]
+
+    BD["🛠️ Builder AI  
+    Draft · Construct · Implement"]
+
+    INSP["🔍 Inspector AI  
+    Test · Validate · Red‑Team"]
+
+    HUMAN["🧠 Human  
+    Strategy · Judgment · Final Decisions"]
+end
+
+A0 --> AI
+
+BP --> BD --> INSP --> HUMAN
+HUMAN --> BP
+
+%% =========================
+%% OPERATIONAL LOOP
+%% =========================
+subgraph LOOP["🔄 Operational Loop"]
+    R["📥 Retrieve  
+    (Human selects repo artifact)"]
+
+    T["🧠 Think  
+    (iPad + Copilot Pro)"]
+
+    B["🔧 Build  
+    (Builder AI)"]
+
+    E["🧪 Evaluate  
+    (Inspector AI)"]
+
+    C["🗂️ Commit  
+    (Desktop → GitHub Archive)"]
+end
+
+A0 --> LOOP
+
+R --> T --> B --> E --> C --> R
+
+%% =========================
+%% CRISIS MODE PIPELINE
+%% =========================
+subgraph CRISIS["⚡ Crisis Mode Pipeline (When Filing Today)"]
+    CM1["📁 Open FG Emergency Module"]
+    CM2["📝 Fill Template (required fields only)"]
+    CM3["⚖️ Attach One‑Page Proposed Order"]
+    CM4["✔️ Validate Citations + TOA → Email to Self"]
+    CM5["📦 File + Archive to /packets/"]
+end
+
+A0 --> CRISIS
+
+%% =========================
+%% ARCHIVE + PACKET FLOW
+%% =========================
+subgraph ARCH["🗄️ Archive + Packet Flow"]
+    PKT["📦 Packets  
+    Finalized filings + source"]
+
+    DOCS["📚 Docs  
+    Doctrine · Tutorials · Workflows"]
+
+    TEMPLATES["📄 Templates  
+    Forms · Skeletons · Checklists"]
+
+    EXAMPLES["📁 Examples  
+    Real artifacts · Case studies"]
+end
+
+C --> PKT
+S --> DOCS
+DOCS --> TEMPLATES
+DOCS --> EXAMPLES
+
+%% =========================
+%% PRINCIPLES
+%% =========================
+subgraph PRINC["📌 Core Principles"]
+    P1["The record is the case"]
+    P2["Short filings beat perfect filings"]
+    P3["Proposed orders prevent 'nothing to rule'"]
+    P4["Archive everything"]
+    P5["Human controls strategy"]
+end
+
+A0 --> PRINC
+
+
