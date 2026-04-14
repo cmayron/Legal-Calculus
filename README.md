@@ -1,4 +1,4 @@
-
+u
 # ⚖️ Legal Calculus Educational System (LCES)
 
 > **Procedural literacy for real-world filings.**  
@@ -1474,3 +1474,61 @@ It builds better.**
 **Filing is protest.  
 Format is memory.  
 The record is the remedy.**
+
+flowchart TD
+
+    %% Title
+    A0["📘 **Pro Se Quick‑Start Guide**  
+    *iPad + Copilot Pro Workflow*"]
+
+    %% Sections
+    A0 --> A1["🔍 **Retrieve**  
+    Open repo in Safari  
+    https://github.com/cmayron/legal-calculus"]
+
+    A1 --> A2["📄 **Select & Copy**  
+    Choose file or section  
+    Tap → Select → Copy"]
+
+    A2 --> A3["🧠 **Think (Copilot Pro)**  
+    Paste into Copilot Pro  
+    Ask: explain · map · rewrite · extract skeleton"]
+
+    A3 --> A4["🔧 **Transform**  
+    Generate:  
+    • doctrine maps  
+    • workflows  
+    • Blueprint AI plans  
+    • stress‑tests"]
+
+    A4 --> A5["📤 **Use Output**  
+    Save locally  
+    Prepare filings  
+    Build arguments  
+    Learn the system"]
+
+    A5 --> A6["🗂️ **Archive (Optional)**  
+    Desktop required for commits  
+    Protect version integrity"]
+
+    %% Crisis Mode
+    A3 --> C0["⚡ **Crisis Mode (If Filing Today)**"]
+
+    C0 --> C1["📁 Open FG Emergency Module"]
+    C1 --> C2["📝 Fill Template (required fields only)"]
+    C2 --> C3["⚖️ Attach One‑Page Proposed Order"]
+    C3 --> C4["✔️ Validate Citations + TOA → Email to Self"]
+    C4 --> C5["📦 File + Archive to /packets/"]
+
+    %% Principles
+    A6 --> P0["📌 **Principles**  
+    • The record is the case  
+    • Short filings beat perfect filings  
+    • Proposed orders prevent 'nothing to rule'  
+    • Archive everything"]
+
+    %% Limitations
+    A6 --> L0["⚠️ **Limitation**  
+    iPad cannot commit to GitHub  
+    Desktop required for archive stewardship"]
+
