@@ -1,5 +1,18 @@
 ⚖️ LCES Startup Page
 
+## Disclaimer
+
+LCES is a public educational system for procedural literacy and record-building.
+
+It is not legal advice and does not create an attorney-client relationship.
+
+Users are responsible for verifying all information and complying with applicable laws, rules, and deadlines.
+
+AI outputs may be incomplete or inaccurate and must be independently reviewed.
+
+**AI chats are not privileged. Do not upload confidential or protected material to cloud-based AI systems.**
+}
+
 Welcome to the Legal Calculus Educational System
 
 Your procedural‑literacy operating system.
@@ -877,18 +890,7 @@ The record is the remedy.**
 
 ---
 
-## Disclaimer
 
-LCES is a public educational system for procedural literacy and record-building.
-
-It is not legal advice and does not create an attorney-client relationship.
-
-Users are responsible for verifying all information and complying with applicable laws, rules, and deadlines.
-
-AI outputs may be incomplete or inaccurate and must be independently reviewed.
-
-**AI chats are not privileged. Do not upload confidential or protected material to cloud-based AI systems.**
-}
 # ⚖️ Legal Calculus Educational System (LCES)
 
 ## What This Is
