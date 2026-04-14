@@ -1,5 +1,10 @@
 ⚖️ LCES Startup Page
 
+Welcome to the Legal Calculus Educational System
+
+Your procedural‑literacy operating system.
+
+
 ## Disclaimer
 
 LCES is a public educational system for procedural literacy and record-building.
@@ -13,9 +18,6 @@ AI outputs may be incomplete or inaccurate and must be independently reviewed.
 **AI chats are not privileged. Do not upload confidential or protected material to cloud-based AI systems.**
 }
 
-Welcome to the Legal Calculus Educational System
-
-Your procedural‑literacy operating system.
 
 ---
 
