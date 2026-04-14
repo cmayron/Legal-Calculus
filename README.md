@@ -1,7 +1,3 @@
-
-
-✅ THE COPY‑AND‑PASTE into Copilot pro on ipad 
-
 ⚖️ LCES Startup Page
 
 Welcome to the Legal Calculus Educational System
@@ -28,8 +24,6 @@ This is procedural literacy — the skill that determines what survives.
 
 If You Are New, Start Here
 
-1. Open the README
-
 The README is your Quick‑Start Guide.
 It shows you how to use:
 
@@ -38,8 +32,11 @@ It shows you how to use:
 • the repo
 • the multi‑AI workflow
 
+STOP
 
-# 🚀 **First Output Protocol (Run This Immediately)**  
+✅ THE COPY‑AND‑PASTE into Copilot pro on ipad 
+
+# 🚀 **First Output Protocol 
 **Do not read further until you complete this.  
 This system is learned by doing—not by reading.**
 
