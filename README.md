@@ -1,5 +1,6 @@
 
 
+✅ THE COPY‑AND‑PASTE
 ⚖️ LCES Startup Page
 
 Welcome to the Legal Calculus Educational System
@@ -45,7 +46,7 @@ It is designed to be copied directly into Copilot Pro.
 
 Go immediately to:
 
-/FG/000‑Crisis‑Mode.md
+Crisis‑Mode.md
 
 
 This gives you:
@@ -66,7 +67,7 @@ Presence beats silence.
 
 Read the LCES Manifesto:
 
-/docs/manifesto.md
+manifesto.md below
 
 
 This explains:
@@ -131,7 +132,7 @@ If you do these three things, you are already operating above the level of most 
 
 You Are Ready
 
-Start with the README.
+Start with the start up and readme and copy 
 Paste it into Copilot Pro.
 Begin the loop.
 
@@ -367,8 +368,7 @@ Repeat until only what matters remains.
 
 Perfect — here is the full, repo‑ready Manifesto page, written as a standalone governing document for:
 
-• /docs/manifesto.md
-• or /📘 LCES Manifesto.md
+manifesto.md
 
 
 It is structured, elevated, and complete — the “constitution” of the system.
@@ -377,6 +377,7 @@ You can copy‑and‑paste this directly.
 
 ---
 
+✅ THE COPY‑AND‑PASTE
 ⚖️ LCES Manifesto
 
 Legal Calculus Educational System
@@ -633,7 +634,7 @@ Retrieve → Think → Build → Evaluate → Commit → Repeat
 
 End of Manifesto
 
-
+✅ THE COPY‑AND‑PASTE
 LCES is a public educational system for structuring the legal record under real-world constraints.  
 It teaches how filings, sequence, preservation, and framing shape outcomes in practice.
 
@@ -1736,15 +1737,6 @@ Start here: Crisis Mode
 
 ---
 
-Repository Map 
-
-/docs — Concepts, architecture, glossary
-/tutorials — Stepwise, runnable walkthroughs
-/workflows — Device workflows (iPad, desktop, iPhone)
-/examples — Real artifacts and case studies
-/roles — Tailored entry points
-/templates — Forms, checklists, filing skeletons
-/packets — Finalized, archived filings (PDF + source)
 
 
 🚨 Crisis Mode (Pro Se Under Time Pressure)
@@ -1809,7 +1801,7 @@ This mode uses:
 Start here: Crisis Mode
 
 ---
-
+✅ THE COPY‑AND‑PASTE
 ⚖️ The Calculus Ecosystem
 
 The Calculus model is a six‑stream educational architecture.
