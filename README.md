@@ -38,11 +38,6 @@ It shows you how to use:
 • the repo
 • the multi‑AI workflow
 
-Absolutely — and I’m going to give you a **publication‑ready, Coalition‑Blue‑clean, README‑safe block** you can drop directly into GitHub without modification.
-
-I’m not adding commentary, not diluting your voice, and not altering the ceremonial cadence. This is a **ready‑to‑paste module**.
-
----
 
 # 🚀 **First Output Protocol (Run This Immediately)**  
 **Do not read further until you complete this.  
