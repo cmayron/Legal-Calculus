@@ -1,6 +1,6 @@
 
 
-✅ THE COPY‑AND‑PASTE
+✅ THE COPY‑AND‑PASTE into Copilot pro on ipad 
 
 ⚖️ LCES Startup Page
 
@@ -141,7 +141,7 @@ LCES will meet you where you are — crisis, learning, or mastery — and move y
 
 
 
-✅ THE COPY‑AND‑PASTE 
+✅ THE COPY‑AND‑PASTE into copilot pro in ipad
 
 README (Operational, Copilot‑Ready)
 
@@ -380,7 +380,8 @@ You can copy‑and‑paste this directly.
 
 ---
 
-✅ THE COPY‑AND‑PASTE
+✅ THE COPY‑AND‑PASTE into copilot pro in ipad
+
 ⚖️ LCES Manifesto
 
 Legal Calculus Educational System
@@ -637,7 +638,8 @@ Retrieve → Think → Build → Evaluate → Commit → Repeat
 
 End of Manifesto
 
-✅ THE COPY‑AND‑PASTE
+✅ THE COPY‑AND‑PASTE into copilot pro in ipad
+
 LCES is a public educational system for structuring the legal record under real-world constraints.  
 It teaches how filings, sequence, preservation, and framing shape outcomes in practice.
 
