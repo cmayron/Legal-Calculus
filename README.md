@@ -1,12 +1,4 @@
-Here is the Startup Page — the page a new user should see before anything else, the page that orients them, calms them, and tells them exactly what to do next.
 
-This is the page that sits at:
-
-the GitHub Pages landing page.
-
-It is intentionally short, directive, and welcoming — because this is the first moment of contact.
-
----
 
 ⚖️ LCES Startup Page
 
