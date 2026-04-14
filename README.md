@@ -150,11 +150,9 @@ Whether ______ given ______
 
 # Step 5 — Weak Point
 [one sentence]
-```
+`
 
----
 
-If you want, I can also generate a **Coalition Blue visual plate**, a **README badge**, or a **Substack‑carousel version** of this protocol.
 
 It is designed to be copied directly into Copilot Pro.
 
