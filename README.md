@@ -87,7 +87,7 @@ Convert the issue into a **yes/no** question:
 **“Whether ______ given ______”**
 
 Example:  
-*Whether the termination violated AEPA given the timing of protected disclosures*
+*Whether the termination violated law  given the timing of protected disclosures*
 
 ---
 
@@ -98,8 +98,8 @@ Structure it:
 - Event → Action → Evidence  
 
 Example:  
-- Jan 7 meeting → filing restriction imposed → ECM entry  
-- Mar 24 stay → all deadlines suspended → ECM notice  
+- meeting → filing restriction imposed → docket entry  
+- stay → all deadlines suspended → notice to court 
 
 ---
 
