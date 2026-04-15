@@ -89,34 +89,6 @@ LCES is built for
 
 **"People's Law School" curriculum**
 
-# **📁 REPOSITORY MAP (Recommended for Navigation)**
-
-```
-/LCES
-   /LC        Core Calculus
-   /LCa       Lawyer Calculus
-   /JC        Judicial Calculus
-   /LCA       Advanced Calculus
-   /FG        Field Guides
-   /FGA       Advanced Field Guides
-   /Editions
-       /SmallClaims
-       /FamilyCourt
-       /TrustEstate
-   /DeepResearch
-   /Plates
-   /Workflows
-```
-
----
-
-# **📘 HOW TO USE THIS REPOSITORY**
-
-1. **Initialize LCES** using the Startup Block.  
-2. **Identify your Edition** (Small Claims, Family Court, Trust & Estate).  
-3. **(Optional) Run Deep Research** if you have Issue + Story + Evidence.  
-4. **Use Field Guides** (FG/FGA) for workflows and procedures.  
-5. **Use Calculi** (LC, LCa, JC, LCA) for reasoning and structure.  
 
 ---
 
@@ -364,10 +336,50 @@ LCES is built on:
 - multiple **domain‑specific editions**, and  
 - an optional **Deep Research engine** for structured analysis.
 
+# **📁 REPOSITORY MAP (Recommended for Navigation)**
+
+```
+/LCES
+   /LC        Core Calculus
+   /LCa       Lawyer Calculus
+   /JC        Judicial Calculus
+   /LCA       Advanced Calculus
+   /FG        Field Guides
+   /FGA       Advanced Field Guides
+   /Editions
+       /SmallClaims
+       /FamilyCourt
+       /TrustEstate
+   /DeepResearch
+   /Plates
+   /Workflows
+```
+
+---
+
+# **📘 HOW TO USE THIS REPOSITORY**
+
+1. **Initialize LCES** using the Startup Block.  
+2. **Identify your Edition** (Small Claims, Family Court, Trust & Estate).  
+3. **(Optional) Run Deep Research** if you have Issue + Story + Evidence.  
+4. **Use Field Guides** (FG/FGA) for workflows and procedures.  
+5. **Use Calculi** (LC, LCa, JC, LCA) for reasoning and structure.  
+
+
 --
 
 #**UPLOAD BLOCK to Copilot Pro Ai to initiate the LCES 
 #**LCES UNIFIED INITIALIZATION PROTOCOL**
+
+Why this works
+	•	Single paste → full system boot
+	•	Automatically routes roles
+	•	Forces correct behavior without training
+	•	Works across Copilot, ChatGPT, Gemini, etc.
+	•	Keeps your core philosophy intact:
+	•	record = interface
+	•	human = strategist
+	•	AI = structured engine
 
 Legal Calculus Educational System (LCES)
 Procedural-Literacy Operating System
@@ -606,22 +618,11 @@ Human → DECIDES (strategy + commitment)
 ---
 
 
-🔷 SECURITY RULE
 
-Do not include confidential, privileged, or sensitive material.
-AI chats are not privileged.
 
 ⸻
 
-Why this works
-	•	Single paste → full system boot
-	•	Automatically routes roles
-	•	Forces correct behavior without training
-	•	Works across Copilot, ChatGPT, Gemini, etc.
-	•	Keeps your core philosophy intact:
-	•	record = interface
-	•	human = strategist
-	•	AI = structured engine
+
 
 
 
@@ -935,10 +936,6 @@ Paste your "Smallest Complete Unit" (One issue, one fact, or one filing) to begi
 ## What this is
 LCES is a system for turning raw facts into structured filings that preserve rights, build record, and create procedural leverage.
 
-
-
-## What matters most
-**Not louder argument. Better record.**
 ---
 ## Philosophy
 
