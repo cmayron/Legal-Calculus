@@ -709,7 +709,7 @@ Check for:
 - citation gaps  
 - preservation failures  
 
-### 5. Never Commit until redteam and stress tests are run
+### 5. Never Commit until redteam and stress tests are run and deep research is done 
 Finalize and preserve the finished work.
 
 Examples:
@@ -928,19 +928,19 @@ Before copy-paste:
 
 Use LCES as a structuring and drafting system. Use independent judgment before filing, sharing, or relying on outputs.
 
----> **Disclaimer:** LCES is an educational and procedural-literacy tool, not legal advice. Verify all law, rules, deadlines, and filing requirements independently. Do not upload confidential, privileged, protected, or sensitive material to cloud AI tools.
+
 
 ⚖️ Legal Calculus Educational System (LCES)
 Procedural-Literacy Operating System
 The Record is the Case. The Record is the Remedy.
 
-🛡️ Disclaimer
+🛡️ Disclaimer Yes again its so important and critical 
 LCES is an educational and procedural-literacy system. It is designed to help users organize facts, understand workflow, and generate draft materials for review.
 • Not Legal Advice: LCES is not a law firm or a substitute for licensed legal counsel. Nothing in this system constitutes legal advice or creates an attorney-client relationship.
 • User Responsibility: Users are 100% responsible for verifying all laws, rules, deadlines, and filing requirements.
 • Privacy Warning: Do not upload confidential, privileged, or sensitive material to cloud AI tools. Redact all PII (Personally Identifiable Information) before use.
 
-📚 The Six Calculi
+📚 The Six Calculi the unique archival material 
 The foundational architecture of LCES consists of six interlocking modules that define how the system analyzes and structures procedural reasoning.
 1.	LC (Legal Calculus): The base grammar of procedural literacy and core doctrine.
 2.	LCa (Lawyer Calculus): Models how professionals structure arguments and position evidence.
@@ -949,7 +949,7 @@ The foundational architecture of LCES consists of six interlocking modules that 
 5.	FG (Field Guides): Operational checklists and step-by-step workflows.
 6.	FGA (Advanced Field Guides): Specialized guides for complex or multi-party litigation.
 
-⚙️ The Operating Loop
+⚙️ The Operating Loop iterative but you need to certain your anchors are correct 
 LCES operates on a recursive five-step cycle.
 1.	Retrieve: Isolate the Smallest Complete Unit (SCU). Work with one issue, one filing, or one paragraph of facts at a time to prevent "narrative bloat."
 2.	Think: Activate the Calculi. Identify what must be preserved and what relief is actually possible.
