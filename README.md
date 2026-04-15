@@ -525,6 +525,38 @@ Use LCES as a structuring and drafting system. Use independent judgment before f
 
 ---> **Disclaimer:** LCES is an educational and procedural-literacy tool, not legal advice. Verify all law, rules, deadlines, and filing requirements independently. Do not upload confidential, privileged, protected, or sensitive material to cloud AI tools.
 
+⚖️ Legal Calculus Educational System (LCES)
+Procedural-Literacy Operating System
+The Record is the Case. The Record is the Remedy.
+🛡️ Disclaimer
+LCES is an educational and procedural-literacy system. It is designed to help users organize facts, understand workflow, and generate draft materials for review.
+• Not Legal Advice: LCES is not a law firm or a substitute for licensed legal counsel. Nothing in this system constitutes legal advice or creates an attorney-client relationship.
+• User Responsibility: Users are 100% responsible for verifying all laws, rules, deadlines, and filing requirements.
+• Privacy Warning: Do not upload confidential, privileged, or sensitive material to cloud AI tools. Redact all PII (Personally Identifiable Information) before use.
+📚 The Six Calculi
+The foundational architecture of LCES consists of six interlocking modules that define how the system analyzes and structures procedural reasoning.
+1.	LC (Legal Calculus): The base grammar of procedural literacy and core doctrine.
+2.	LCa (Lawyer Calculus): Models how professionals structure arguments and position evidence.
+3.	JC (Judicial Calculus): Models how the court evaluates claims and weighs evidence.
+4.	LCA (Advanced Calculus): High-order reasoning and appellate posture.
+5.	FG (Field Guides): Operational checklists and step-by-step workflows.
+6.	FGA (Advanced Field Guides): Specialized guides for complex or multi-party litigation.
+⚙️ The Operating Loop
+LCES operates on a recursive five-step cycle.
+1.	Retrieve: Isolate the Smallest Complete Unit (SCU). Work with one issue, one filing, or one paragraph of facts at a time to prevent "narrative bloat."
+2.	Think: Activate the Calculi. Identify what must be preserved and what relief is actually possible.
+3.	Transform: Convert raw source material into a Minimum-Viable Filing (MVF) or a procedural artifact.
+4.	Evaluate: Run a Red-Team Pass. Identify procedural defects, missing facts, or formatting risks.
+5.	Commit: Finalize the work. Generate metadata, archive the packet, and preserve the "timestamp trail."
+🤖 AI Functional Roles
+LCES uses AI as a structured engine, governed by the Human Strategist.
+• The Architect (Copilot): Focuses on sequencing, logic, and system framing.
+• The Scrivener (Builder): Focuses on drafting, organizing, and assembling the work product.
+• The Inspector (Gemini): Focuses on red-team review, procedural attack, and weakness detection.
+⚡ The Execution Layer: Quick-Start Block
+Copy and paste this block into your AI workspace to begin a session.
+
+
 ## Quick-Start Block
 
 Paste the following into your AI workspace when beginning a session.
