@@ -464,58 +464,26 @@ LCES is built on:
 - multiple **domain‑specific editions**, and  
 - an optional **Deep Research engine** for structured analysis.
 
-# **📁 REPOSITORY MAP (Recommended for Navigation)**
+## 📁 Repository Map
 
-```
+Recommended navigation structure:
+
+```text
 /LCES
-   /LC        Core Calculus
-   /LCa       Lawyer Calculus
-   /JC        Judicial Calculus
-   /LCA       Advanced Calculus
-   /FG        Field Guides
-   /FGA       Advanced Field Guides
-   /Editions
-       /SmallClaims
-       /FamilyCourt
-       /TrustEstate
-   /DeepResearch
-   /Plates
-   /Workflows
-```
+  /LC            Core Calculus
+  /LCa           Lawyer Calculus
+  /JC            Judicial Calculus
+  /LCA           Advanced Calculus
+  /FG            Field Guides
+  /FGA           Advanced Field Guides
+  /Editions
+    /SmallClaims
+    /FamilyCourt
+    /TrustEstate
+  /DeepResearch
+  /Plates
+  /Workflows
 
-### **Output**
-- Issue Statement  
-- Fact Map  
-- Claim Map  
-- Timeline  
-- Evidence Correlation  
-- Contradiction Flags  
-- Missing Evidence List  
-- Procedural Posture  
-- Next-Step Workflow  
-
----
-
-
-
-
-⸻
-
-
-
-
-
-LCES supports human judgment — it does not replace it. Assume Ai is no accurate for your issue so you must challenge it 
-
----
-
-# **📘 HOW TO USE THIS REPOSITORY**
-
-1. **Initialize LCES** using the Startup Block.  
-2. **Identify your Edition** (Small Claims, Family Court, Trust & Estate).  
-3. **(Optional) Run Deep Research** if you have Issue + Story + Evidence.  
-4. **Use Field Guides** (FG/FGA) for workflows and procedures.  
-5. **Use Calculi** (LC, LCa, JC, LCA) for reasoning and # LCES ARCHITECT INITIALIZATION BLOCK
 
 # LCES DEEP RESEARCH BLOCK
 
