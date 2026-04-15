@@ -2324,349 +2324,162 @@ Format is memory.
 The record is the remedy.**
 
 flowchart TD
+    A0["📘 **Pro Se Quick‑Start Guide**\n*iPad + Copilot Pro Workflow*"]
 
-    %% Title
-    A0["📘 **Pro Se Quick‑Start Guide**  
-    *iPad + Copilot Pro Workflow*"]
+    A0 --> R["📥 **Retrieve**\nOpen repo in Safari\nhttps://github.com/cmayron/legal-calculus"]
+    R --> JUR["🧾 **Check Local E‑Filing Rules**\nIf prohibited → PAPER PATH\nIf allowed → EFILE PATH"]
+    JUR -->|EFILE OK| EFILE["📤 Prepare for E‑File"]
+    JUR -->|EFILE prohibited| PAPER["📜 Prepare Paper Filing\nService + Local Rules"]
 
-    %% Sections
-    A0 --> A1["🔍 **Retrieve**  
-    Open repo in Safari  
-    https://github.com/cmayron/legal-calculus"]
+    EFILE --> A1["📄 **Select & Copy**\nChoose file or section\nTap → Select → Copy"]
+    PAPER --> A1
+    A1 --> A2["🧠 **Think (Copilot Pro)**\nPaste into Copilot Pro\nAsk: explain · map · rewrite · extract skeleton"]
+    A2 --> A3["🔧 **Transform**\nGenerate: doctrine maps; workflows; Blueprint AI plans; stress‑tests"]
 
-    A1 --> A2["📄 **Select & Copy**  
-    Choose file or section  
-    Tap → Select → Copy"]
-
-    A2 --> A3["🧠 **Think (Copilot Pro)**  
-    Paste into Copilot Pro  
-    Ask: explain · map · rewrite · extract skeleton"]
-
-    A3 --> A4["🔧 **Transform**  
-    Generate:  
-    • doctrine maps  
-    • workflows  
-    • Blueprint AI plans  
-    • stress‑tests"]
-
-    A4 --> A5["📤 **Use Output**  
-    Save locally  
-    Prepare filings  
-    Build arguments  
-    Learn the system"]
-
-    A5 --> A6["🗂️ **Archive (Optional)**  
-    Desktop required for commits  
-    Protect version integrity"]
-
-    %% Crisis Mode
     A3 --> C0["⚡ **Crisis Mode (If Filing Today)**"]
+    C0 --> CM_DL["⬇️ **Download Crisis Template**\nRequired fields highlighted; optional fields greyed"]
+    CM_DL --> CM1["📁 Open FG Emergency Module"]
+    CM1 --> CM2["📝 Fill Template\n**Required**: case caption; relief requested; contact info; signature block\n**Optional**: extended background"]
+    CM2 --> CM3["⚖️ Attach One‑Page Proposed Order"]
+    CM3 --> CM4["✔️ Validate Citations + TOA (Checklist)"]
+    CM4 --> CM5["📧 Email copy to self\nInclude: packet + proposed order"]
+    CM5 --> SIGN
+
+    CM4 --> VC1["1. **Pin cite present**"]
+    CM4 --> VC2["2. **Source type & jurisdiction**\n(case/statute/reg)"]
+    CM4 --> VC3["3. **Binding vs persuasive**"]
+    CM4 --> VC4["4. **Negative treatment check**\n(quick citator search)"]
+
+    A3 --> SIGN["✍️ **Signature & Fees**\nConfirm e‑signature method; fee or waiver; attachments"]
+    SIGN --> EXH["📎 **Exhibits & Redaction**\nLabel exhibits; redact PII; index; file size OK"]
+    EXH --> FEE["💵 **Fee / Fee Waiver**\nPay fee OR attach waiver + affidavit"]
+    FEE --> FILE["📦 **File**\nE‑file or hand‑deliver per JUR decision"]
+    CM5 --> FILE
+
+    FILE --> RECEIPT["📥 **Proof of Transmission**\nSave EFSP receipt; screenshot; timestamp; email to self"]
+    RECEIPT --> PKT["📦 Packets\nFinalized filings + source"]
+    PKT --> ARCHIVE["🗄️ Archive to /packets/\nDesktop commit recommended\nInclude metadata"]
+
+    FILE --> REJ_CHECK["🔎 Court Response Received?"]
+    REJ_CHECK -->|Accepted| ACCEPT["✅ Filing Accepted"]
+    REJ_CHECK -->|Rejected| REJ["❌ Rejected Filing\nReceive court reason → Fix required fields → Refile or hand‑deliver"]
+    REJ --> REJ_FIX["🛠️ Fix: correct metadata; attach missing docs; fix signature"]
+    REJ_FIX --> CLERK["📞 Clerk Contact / Escalation\nCall clerk; ask refile window; in‑person option"]
+    CLERK --> REFILE["🔁 Refile within local deadline"]
+    REFILE --> ARCHIVE
+
+    ARCHIVE --> META["📝 Archive Metadata\nAuthor; Date/Time; Source file#hash; Action; Crisis Y/N"]
+    ARCHIVE --> SEC["🔒 Security\nEncrypt packet when emailing; avoid public Wi‑Fi"]
+
+    ARCHIVE --> P0["📌 **Principles**\n• The record is the case\n• Short filings beat perfect filings\n• Proposed orders prevent 'nothing to rule'\n• Archive everything\n• Human controls strategy"]
+
+    subgraph D["📱 Device Workflow"]
+        IPAD["📘 iPad\nThinking Workspace\nRead · Annotate · Map · Structure"]
+        DESKTOP["🖥️ Desktop\nConstruction + Commit\nFinalize · Integrate · Archive"]
+        PHONE["📱 iPhone\nQuick Reference\nChecklists · Field Access"]
+    end
+    A0 --> D
+    IPAD --> DESKTOP
+
+    subgraph AI["🤖 Multi‑AI Workflow"]
+        BP["🧩 Blueprint AI\nStructure · Maps · Doctrine Plans"]
+        BD["🛠️ Builder AI\nDraft · Construct · Implement"]
+        INSP["🔍 Inspector AI\nTest · Validate · Red‑Team"]
+        HUMAN["🧠 Human\nStrategy · Judgment · Final Decisions"]
+    end
+    A0 --> AI
+    BP --> BD --> INSP --> HUMAN --> BP
+
+    subgraph LOOP["🔄 Operational Loop"]
+        R2["📥 Retrieve"]
+        T["🧠 Think"]
+        B["🔧 Build"]
+        E["🧪 Evaluate"]
+        C["🗂️ Commit"]
+    end
+    A0 --> LOOP
+    R2 --> T --> B --> E --> C --> R2
+
+FG Emergency Module — Crisis Template
+
+Required fields (bold)
+- **Case caption (Plaintiff v. Defendant):** ___________________________
+- **Court name and division:** ___________________________
+- **Case number (if known):** ___________________________
+- **Relief requested (one sentence):** ___________________________
+- **Grounds / legal basis (short):** ___________________________
+- **One‑page proposed order attached:** [ ] Yes  [ ] No
+- **Contact information (name, email, phone):** ___________________________
+- **Signature block (typed name; e‑signature method):** ___________________________
+
+Required attachments checklist
+- One‑page Proposed Order (use Minimal Proposed Order skeleton)
+- Exhibits index and labeled exhibits
+- Fee payment receipt OR Fee waiver + supporting affidavit (if applicable)
+- Proof of Service (completed after filing)
+
+Optional fields
+- Short factual background (2–4 lines): ___________________________
+- Key citations (short list): ___________________________
+- Exhibits attached (list): ___________________________
+- Notes for clerk or judge (brief): ___________________________
+
+Citation Checklist (boxed)
+- Pin cite present
+- Source type & jurisdiction (case/statute/reg)
+- Binding vs persuasive
+- Negative treatment check (quick citator search)
+
+Security and filing notes
+- Remove or redact PII where required
+- Encrypt packet when emailing; avoid public Wi‑Fi for filing
+- If ADA accommodation needed, note request and local contact
+
+Footer: Legal Calculus Educational System (LCES) — Procedural‑Literacy Operating System — The Record is the Case
+
+[Caption]
 
-    C0 --> C1["📁 Open FG Emergency Module"]
-    C1 --> C2["📝 Fill Template (required fields only)"]
-    C2 --> C3["⚖️ Attach One‑Page Proposed Order"]
-    C3 --> C4["✔️ Validate Citations + TOA → Email to Self"]
-    C4 --> C5["📦 File + Archive to /packets/"]
-
-    %% Principles
-    A6 --> P0["📌 **Principles**  
-    • The record is the case  
-    • Short filings beat perfect filings  
-    • Proposed orders prevent 'nothing to rule'  
-    • Archive everything"]
-
-    %% Limitations
-    A6 --> L0["⚠️ **Limitation**  
-    iPad cannot commit to GitHub  
-    Desktop required for archive stewardship"]
-
-flowchart TD
-
-%% =========================
-%% TITLE
-%% =========================
-A0["⚖️ **Legal Calculus Educational System (LCES)**  
-*Procedural‑Literacy Operating System*  
-**The Record is the Case**"]
-
-%% =========================
-%% SIX‑STREAM EDUCATIONAL ECOSYSTEM
-%% =========================
-subgraph S["📚 Six‑Stream Educational Ecosystem"]
-    LC["LC — Legal Calculus  
-    *Core modules (1–119)*  
-    Procedural literacy for pro se users"]
-
-    LCA["LCA — Legal Calculus Advanced  
-    *Commentary + doctrine*  
-    Deep study + reflection"]
-
-    FG["FG — Field Guide  
-    *Modules 1–1000*  
-    Tactical prompts, micro‑cards"]
-
-    FGA["FGA — Field Guide Advanced  
-    Annotated field cards  
-    Links FG ↔ LC ↔ LCA"]
-
-    JC["JC — Judicial Calculus  
-    *Judge’s playbook*  
-    Institutional reflexes, off‑ramps"]
-
-    LCa["LCa — Lawyer Calculus  
-    *Counsel’s playbook*  
-    Tactics, framing, suppression"]
-end
-
-A0 --> S
-
-%% =========================
-%% DEVICE WORKFLOW
-%% =========================
-subgraph D["📱 Device Workflow"]
-    IPAD["📘 iPad  
-    *Thinking Workspace*  
-    Read · Annotate · Map · Structure"]
-
-    DESKTOP["🖥️ Desktop  
-    *Construction + Commit*  
-    Finalize · Integrate · Archive"]
-
-    PHONE["📱 iPhone  
-    *Quick Reference*  
-    Checklists · Field Access"]
-end
-
-A0 --> D
-
-%% =========================
-%% MULTI‑AI WORKFLOW
-%% =========================
-subgraph AI["🤖 Multi‑AI Workflow"]
-    BP["🧩 Blueprint AI  
-    Structure · Maps · Doctrine Plans"]
-
-    BD["🛠️ Builder AI  
-    Draft · Construct · Implement"]
-
-    INSP["🔍 Inspector AI  
-    Test · Validate · Red‑Team"]
-
-    HUMAN["🧠 Human  
-    Strategy · Judgment · Final Decisions"]
-end
-
-A0 --> AI
-
-BP --> BD --> INSP --> HUMAN
-HUMAN --> BP
-
-%% =========================
-%% OPERATIONAL LOOP
-%% =========================
-subgraph LOOP["🔄 Operational Loop"]
-    R["📥 Retrieve  
-    (Human selects repo artifact)"]
-
-    T["🧠 Think  
-    (iPad + Copilot Pro)"]
-
-    B["🔧 Build  
-    (Builder AI)"]
-
-    E["🧪 Evaluate  
-    (Inspector AI)"]
-
-    C["🗂️ Commit  
-    (Desktop → GitHub Archive)"]
-end
-
-A0 --> LOOP
-
-R --> T --> B --> E --> C --> R
-
-%% =========================
-%% CRISIS MODE PIPELINE
-%% =========================
-subgraph CRISIS["⚡ Crisis Mode Pipeline (When Filing Today)"]
-    CM1["📁 Open FG Emergency Module"]
-    CM2["📝 Fill Template (required fields only)"]
-    CM3["⚖️ Attach One‑Page Proposed Order"]
-    CM4["✔️ Validate Citations + TOA → Email to Self"]
-    CM5["📦 File + Archive to /packets/"]
-end
-
-A0 --> CRISIS
-
-%% =========================
-%% ARCHIVE + PACKET FLOW
-%% =========================
-subgraph ARCH["🗄️ Archive + Packet Flow"]
-    PKT["📦 Packets  
-    Finalized filings + source"]
-
-    DOCS["📚 Docs  
-    Doctrine · Tutorials · Workflows"]
-
-    TEMPLATES["📄 Templates  
-    Forms · Skeletons · Checklists"]
-
-    EXAMPLES["📁 Examples  
-    Real artifacts · Case studies"]
-end
-
-C --> PKT
-S --> DOCS
-DOCS --> TEMPLATES
-DOCS --> EXAMPLES
-
-%% =========================
-%% PRINCIPLES
-%% =========================
-subgraph PRINC["📌 Core Principles"]
-    P1["The record is the case"]
-    P2["Short filings beat perfect filings"]
-    P3["Proposed orders prevent 'nothing to rule'"]
-    P4["Archive everything"]
-    P5["Human controls strategy"]
-end
-
-A0 --> PRINC
-
-flowchart TD
-
-%% =========================
-%% TITLE
-%% =========================
-A0["⚖️ **Legal Calculus Educational System (LCES)**  
-*Procedural‑Literacy Operating System*  
-**The Record is the Case**"]
-
-%% =========================
-%% SIX‑STREAM EDUCATIONAL ECOSYSTEM
-%% =========================
-subgraph S["📚 Six‑Stream Educational Ecosystem"]
-    LC["LC — Legal Calculus  
-    Core Modules (1–119)"]
-
-    LCA["LCA — Legal Calculus Advanced  
-    Commentary · Doctrine"]
-
-    FG["FG — Field Guide  
-    Tactical Prompts (1–1000)"]
-
-    FGA["FGA — Field Guide Advanced  
-    Annotated Cards"]
-
-    JC["JC — Judicial Calculus  
-    Judge’s Playbook"]
-
-    LCa["LCa — Lawyer Calculus  
-    Counsel’s Playbook"]
-end
-
-A0 --> S
-
-LC --> LCA
-LC --> FG
-FG --> FGA
-LCA --> FGA
-JC --> LC
-LCa --> LC
-
-%% =========================
-%% DEVICE WORKFLOW
-%% =========================
-subgraph D["📱 Device Workflow"]
-    IPAD["📘 iPad  
-    Thinking Workspace  
-    Read · Annotate · Map · Structure"]
-
-    DESKTOP["🖥️ Desktop  
-    Construction + Commit  
-    Finalize · Integrate · Archive"]
-
-    PHONE["📱 iPhone  
-    Quick Reference  
-    Checklists · Field Access"]
-end
-
-A0 --> D
-PHONE --> IPAD --> DESKTOP
-
-%% =========================
-%% MULTI‑AI WORKFLOW
-%% =========================
-subgraph AI["🤖 Multi‑AI Workflow"]
-    BP["🧩 Blueprint AI  
-    Structure · Maps · Doctrine Plans"]
-
-    BD["🛠️ Builder AI  
-    Draft · Construct · Implement"]
-
-    INSP["🔍 Inspector AI  
-    Test · Validate · Red‑Team"]
-
-    HUMAN["🧠 Human  
-    Strategy · Judgment · Final Decisions"]
-end
-
-A0 --> AI
-
-BP --> BD --> INSP --> HUMAN --> BP
-
-%% =========================
-%% OPERATIONAL LOOP
-%% =========================
-subgraph LOOP["🔄 Operational Loop"]
-    R["📥 Retrieve  
-    (Human selects repo artifact)"]
-
-    T["🧠 Think  
-    (iPad + Copilot Pro)"]
-
-    B["🔧 Build  
-    (Builder AI)"]
-
-    E["🧪 Evaluate  
-    (Inspector AI)"]
-
-    C["🗂️ Commit  
-    (Desktop → GitHub Archive)"]
-end
-
-A0 --> LOOP
-
-HUMAN --> R
-R --> T --> B --> E --> C --> R
-
-%% =========================
-%% CRISIS MODE PIPELINE
-%% =========================
-subgraph CRISIS["⚡ Crisis Mode Pipeline (When Filing Today)"]
-    CM1["📁 Open FG Emergency Module"]
-    CM2["📝 Fill Template (required fields only)"]
-    CM3["⚖️ Attach One‑Page Proposed Order"]
-    CM4["✔️ Validate Citations + TOA → Email to Self"]
-    CM5["📦 File + Archive to /packets/"]
-end
-
-A0 --> CRISIS
-
-CM1 --> CM2 --> CM3 --> CM4 --> CM5
-
-%% =========================
-%% PRINCIPLES
-%% =========================
-subgraph PRINC["📌 Core Principles"]
-    P1["The record is the case"]
-    P2["Short filings beat perfect filings"]
-    P3["Proposed orders prevent 'nothing to rule'"]
-    P4["Archive everything"]
-    P5["Human controls strategy"]
-end
-
-A0 --> PRINC
+ORDER
+
+Upon consideration of the [document title] filed on [date], and for good cause shown, it is ORDERED that:
+
+1. [Relief granted in one sentence].
+2. [Any deadlines or actions required, with dates].
+3. [Clerk instructions, if any].
+
+SO ORDERED this ___ day of ______, 20__.
+
+_________________________________
+Judge [Name]
+
+PROOF OF SERVICE
+
+I certify that on [date] I served a true and correct copy of the foregoing [document title] on the following parties by [method]: [list names, addresses, emails].
+
+/s/ [Name]
+[Typed name]
+[Contact info]
+
+E‑file allowed: Yes / No
+Filing hours cutoff: _______
+Local formatting rules: _______
+Service rules: e‑service / mail / hand‑deliver
+Fee amount / waiver available: $____ / waiver? Y/N
+
+Exhibits labeled and indexed; sensitive PII redacted; file sizes within EFSP limits; separate PDFs for distinct documents.
+
+Acceptable e‑signature methods: typed signature with /s/ line; court‑approved e‑sign platform; wet signature when required.
+If unable to pay: attach fee waiver + supporting affidavit.
+
+Save EFSP receipt; screenshot confirmation; timestamp; email packet to self; archive to /packets/ with metadata.
+
+Author: [name] | Date: [YYYY‑MM‑DD HH:MM] | Source: [repo/file#hash] | Action: [file/refile/reject] | Crisis: Y/N
+
+- Pin cite present
+- Source type & jurisdiction (case/statute/reg)
+- Binding vs persuasive
+- Negative treatment check (citator result)
+
 
 
 
