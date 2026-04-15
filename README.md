@@ -202,7 +202,7 @@ It ensures consistency, prevents drift, and anchors the system in procedural lit
 **Foundation Architecture of the Legal Calculus Educational System (LCES)
 **
 
-The Legal Calculus Environment System is built on six interlocking calculi.  
+The Legal Calculus Educational System is built on six interlocking calculi.  
 These modules define how the system analyzes, teaches, and structures procedural reasoning.  
 They form the backbone of the GitHub repository.
 
@@ -323,12 +323,6 @@ Acknowledge activation with:
 
 ---
 
-# **📚 THE SIX CALCULI OF LCES**  
-**Foundation Architecture of the Legal Calculus Environment System**
-
-The Legal Calculus Environment System is built on six interlocking calculi.  
-These modules define how the system analyzes, teaches, and structures procedural reasoning.  
-They form the backbone of the GitHub repository.
 
 ## **1. LC — Core Calculus**  
 Defines procedural literacy, core doctrine, and the structural grammar of disputes.
