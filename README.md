@@ -260,7 +260,7 @@ This gives new users a **first‑step workflow**:
 
 - Initialize LCES  
 - Choose an Edition  
-- (Optional) Run Deep Research  
+- Always Run Deep Research  
 - Use Field Guides  
 
 This prevents confusion and reduces cognitive load.
