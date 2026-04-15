@@ -295,10 +295,10 @@ It also clarifies that LCES is a **procedural‑literacy system**, not a legal�
 #
 ---
 
-# **LEGAL CALCULUS ENVIRONMENT SYSTEM (LCES)**  
+# **LEGAL CALCULUS EDUCATIONAL SYSTEM (LCES)**  
 
 
-The Legal Calculus Environment System (LCES) is a procedural‑literacy framework deployed through this GitHub repository.  
+The Legal Calculus Educational System (LCES) is a procedural‑literacy framework deployed through this GitHub repository.  
 It provides a structured, teachable, auditable environment for analyzing disputes, mapping processes, and supporting human judgment.
 
 LCES is built on:
