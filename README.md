@@ -356,7 +356,7 @@ Important:
 
 Use LCES as a structuring and drafting system. Use independent judgment before filing, sharing, or relying on outputs.
 
----
+---> **Disclaimer:** LCES is an educational and procedural-literacy tool, not legal advice. Verify all law, rules, deadlines, and filing requirements independently. Do not upload confidential, privileged, protected, or sensitive material to cloud AI tools.
 
 ## Quick-Start Block
 
