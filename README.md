@@ -290,7 +290,7 @@ Check for:
 - citation gaps  
 - preservation failures  
 
-### 5. Never Commit until redteam and strest tests 
+### 5. Never Commit until redteam and stress tests are run
 Finalize and preserve the finished work.
 
 Examples:
