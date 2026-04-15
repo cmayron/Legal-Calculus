@@ -301,7 +301,13 @@ Examples:
 - filing receipts  
 - archive copy  
 
----
+---📝 Final Checklist for the Strategist
+Before any output leaves the LCES environment, the Human Strategist must confirm:
+• [ ] Jurisdiction: Does this court have the power to act?
+• [ ] Standing: Does the party have the right to ask?
+• [ ] Timeliness: Is the deadline met?
+• [ ] Preservation: If this is denied, is the record clean for review?
+
 
 ## AI Roles tools to assist human decision maker
 
