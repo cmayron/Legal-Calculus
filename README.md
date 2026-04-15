@@ -131,6 +131,66 @@ Identify:
 These six calculi define the system’s analytical structure.
 They are modular, interlocking, and collectively form the backbone of the GitHub repository.
 
+This block is the entry ritual for all users and all agents.  
+It ensures consistency, prevents drift, and anchors the system in procedural literacy.
+
+---
+
+# **📚 THE SIX CALCULI OF LCES**  
+**Foundation Architecture of the Legal Calculus Environment System**
+
+The Legal Calculus Environment System is built on six interlocking calculi.  
+These modules define how the system analyzes, teaches, and structures procedural reasoning.  
+They form the backbone of the GitHub repository.
+
+---
+
+## **1. LC — Core Calculus**  
+The foundational operating system.  
+Defines procedural literacy, core doctrine, and the structural grammar of disputes.
+
+---
+
+## **2. LCa — Lawyer Calculus**  
+Models how lawyers structure arguments, position evidence, and build the record.  
+Teaches users how legal professionals think procedurally.
+
+---
+
+## **3. JC — Judicial Calculus**  
+Models how judges evaluate claims, weigh evidence, and apply procedural rules.  
+Provides a neutral, court‑centered analytical frame.
+
+---
+
+## **4. LCA — Advanced Calculus**  
+Extends LC with higher‑order reasoning, appellate posture, and complex procedural structures.
+
+---
+
+## **5. FG — Field Guides**  
+Operational, user‑facing guides for real‑world deployment.  
+Provides checklists, workflows, and step‑by‑step procedures.
+
+---
+
+## **6. FGA — Advanced Field Guides**  
+High‑resolution guides for complex scenarios, coalition deployment, and advanced training.
+
+---
+
+## **Purpose of the Six Calculi**  
+Together, these calculi ensure LCES remains:
+
+- modular  
+- teachable  
+- auditable  
+- scalable  
+- procedurally consistent  
+- adaptable to real cases  
+
+They are the structural backbone of the repository and all LCES workflows.
+
 
 Run Deep Research on the issue, story, and evidence provided.
 Extract facts, claims, timelines, contradictions, missing pieces, and procedural posture.
