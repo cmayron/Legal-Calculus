@@ -633,6 +633,7 @@ Each edition is built on the Six Calculi and compatible with Deep Research.
 - Next-Step Workflow  
 
 ---
+upload this to copilot Ai to activate 
 
 🛡️ LCES ALL-IN-ONE ACTIVATION BLOCK
 
