@@ -488,6 +488,11 @@ Used for drafting, transforming, organizing, and assembling work product.
 
 ### Inspector AI Gemini 
 Used for red-team review, procedural attack simulation, and weakness detection.
+ "Procedural Friction."
+Add this instruction to the Inspector role:
+• "Analyze the draft for Jurisdictional Clarity: Does the court have the power to grant this specific relief?"
+• "Analyze for Fact/Conclusion Separation: Are the facts stated as neutral observations, or are they buried in argumentative adjectives?"
+• "Analyze for Preservation: If the judge says 'No' today, does this filing contain the necessary objections to win on appeal later?"
 
 ### Human Strategist makes it not UPL
 The human remains responsible for:
