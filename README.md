@@ -145,7 +145,7 @@ They form the backbone of the GitHub repository.
 
 ---
 
-## **1. LC — Core Calculus**  
+## **1. LC — Legal Calculus**  
 The foundational operating system.  
 Defines procedural literacy, core doctrine, and the structural grammar of disputes.
 
@@ -163,7 +163,7 @@ Provides a neutral, court‑centered analytical frame.
 
 ---
 
-## **4. LCA — Advanced Calculus**  
+## **4. LCA — Legal Calculus Advanced**
 Extends LC with higher‑order reasoning, appellate posture, and complex procedural structures.
 
 ---
@@ -174,8 +174,8 @@ Provides checklists, workflows, and step‑by‑step procedures.
 
 ---
 
-## **6. FGA — Advanced Field Guides**  
-High‑resolution guides for complex scenarios, coalition deployment, and advanced training.
+## **6. FGA  Field Guides Advanced**  
+High‑resolution guides for complex scenarios, appeals , and advanced situations.
 
 ---
 
