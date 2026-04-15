@@ -332,29 +332,7 @@ Your role is to:
 5. Support human judgment.
 
 Acknowledge activation with:
-"LCES initialized."
-```
-
----
-
-
-## **1. LC — Core Calculus**  
-Defines procedural literacy, core doctrine, and the structural grammar of disputes.
-
-## **2. LCa — Lawyer Calculus**  
-Models how lawyers structure arguments, position evidence, and build the record.
-
-## **3. JC — Judicial Calculus**  
-Models how judges evaluate claims, weigh evidence, and apply procedural rules.
-
-## **4. LCA — Advanced Calculus**  
-Extends LC with higher‑order reasoning, appellate posture, and complex structures.
-
-## **5. FG — Field Guides**  
-Operational guides: checklists, workflows, and step sequences.
-
-## **6. FGA — Advanced Field Guides**  
-High‑resolution guides for complex scenarios and coalition deployment.
+"LCES 
 
 ---
 
