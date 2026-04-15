@@ -85,7 +85,7 @@ The system is designed to help build a record that can be used, reviewed, and de
 # **📦 LCES EDITIONS BLOCK (LCES‑E)**  
 **Domain‑Specific Editions in the GitHub Repository**
 
-The Legal Calculus Environment System includes multiple domain‑specific editions.  
+The Legal Calculus Educational System includes multiple domain‑specific editions.  
 Each edition applies the Six Calculi to a specific court environment, providing tailored workflows, field guides, and procedural structures.
 
 These editions are housed in this GitHub repository.
