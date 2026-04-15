@@ -254,6 +254,202 @@ Together, these calculi ensure LCES remains:
 
 They are the structural backbone of the repository and all LCES workflows.
 
+Absolutely — your README is already strong, but there are **three high‑impact improvements** that will make it *cleaner, more navigable, and more authoritative* without adding noise or ceremony.
+
+Below is a **surgical upgrade plan** followed by the **improved integrated README** if you want to adopt it.
+
+---
+
+# **TOP‑LEVEL IMPROVEMENTS (High‑Value, Zero‑Bloat)**
+
+## **1. Add a “Repository Map” section**
+Right now, the README tells the user *what* LCES is, but not *where things live* in the repo.  
+A short, clean map dramatically improves onboarding and GitHub usability.
+
+## **2. Add a “How to Use This Repository” section**
+This gives new users a **first‑step workflow**:
+
+- Initialize LCES  
+- Choose an Edition  
+- (Optional) Run Deep Research  
+- Use Field Guides  
+
+This prevents confusion and reduces cognitive load.
+
+## **3. Add a “Who This System Is For” section**
+This helps orient:
+
+- pro se litigants  
+- coalition members  
+- educators  
+- technologists  
+- AI agents  
+
+It also clarifies that LCES is a **procedural‑literacy system**, not a legal‑advice engine.
+
+---
+
+# **IMPROVED README WITH ALL BLOCKS + THE NEW SECTIONS**
+
+Below is the **enhanced version** of your README with the improvements integrated.  
+This is the version I recommend publishing.
+
+---
+
+# **LEGAL CALCULUS ENVIRONMENT SYSTEM (LCES)**  
+**Canonical README — Repository Edition**
+
+The Legal Calculus Environment System (LCES) is a procedural‑literacy framework deployed through this GitHub repository.  
+It provides a structured, teachable, auditable environment for analyzing disputes, mapping processes, and supporting human judgment.
+
+LCES is built on:
+
+- a unified **Startup Block**,  
+- the **Six Calculi architecture**,  
+- multiple **domain‑specific editions**, and  
+- an optional **Deep Research engine** for structured analysis.
+
+This README presents all components in the correct operational order.
+
+---
+
+# **📦 LCES STARTUP BLOCK (v2.1)**  
+**Initialize the Legal Calculus Environment System**
+
+```
+You are entering the Legal Calculus Environment System (LCES).
+
+Operate in procedural‑literacy mode.
+Prioritize clarity, structure, and teachability.
+Do not draft unless instructed.
+Do not decide outcomes.
+Do not provide legal advice.
+
+Your role is to:
+1. Extract structure.
+2. Map processes.
+3. Build workflows.
+4. Preserve doctrine.
+5. Support human judgment.
+
+Acknowledge activation with:
+"LCES initialized."
+```
+
+---
+
+# **📚 THE SIX CALCULI OF LCES**  
+**Foundation Architecture of the Legal Calculus Environment System**
+
+The Legal Calculus Environment System is built on six interlocking calculi.  
+These modules define how the system analyzes, teaches, and structures procedural reasoning.  
+They form the backbone of the GitHub repository.
+
+## **1. LC — Core Calculus**  
+Defines procedural literacy, core doctrine, and the structural grammar of disputes.
+
+## **2. LCa — Lawyer Calculus**  
+Models how lawyers structure arguments, position evidence, and build the record.
+
+## **3. JC — Judicial Calculus**  
+Models how judges evaluate claims, weigh evidence, and apply procedural rules.
+
+## **4. LCA — Advanced Calculus**  
+Extends LC with higher‑order reasoning, appellate posture, and complex structures.
+
+## **5. FG — Field Guides**  
+Operational guides: checklists, workflows, and step sequences.
+
+## **6. FGA — Advanced Field Guides**  
+High‑resolution guides for complex scenarios and coalition deployment.
+
+---
+
+# **📦 LCES EDITIONS BLOCK (LCES‑E)**  
+**Domain‑Specific Editions in the GitHub Repository**
+
+LCES includes multiple domain‑specific editions.  
+Each edition applies the Six Calculi to a specific court environment.
+
+## **1. Small Claims Edition (SC‑LCES)**  
+Simplified procedural maps, evidence‑first workflows, hearing prep, enforcement.
+
+## **2. Family Court Edition (FC‑LCES)**  
+Sensitive‑matter intake, incident mapping, evidence standards, motion workflows.
+
+## **3. Trust & Estate Edition (TE‑LCES)**  
+Probate pathways, fiduciary‑duty analysis, contested‑estate workflows.
+
+Each edition is built on the Six Calculi and compatible with Deep Research.
+
+---
+
+
+### **Output**
+- Issue Statement  
+- Fact Map  
+- Claim Map  
+- Timeline  
+- Evidence Correlation  
+- Contradiction Flags  
+- Missing Evidence List  
+- Procedural Posture  
+- Next-Step Workflow  
+
+---
+
+# **📁 REPOSITORY MAP (Recommended for Navigation)**
+
+```
+/LCES
+   /LC        Core Calculus
+   /LCa       Lawyer Calculus
+   /JC        Judicial Calculus
+   /LCA       Advanced Calculus
+   /FG        Field Guides
+   /FGA       Advanced Field Guides
+   /Editions
+       /SmallClaims
+       /FamilyCourt
+       /TrustEstate
+   /DeepResearch
+   /Plates
+   /Workflows
+```
+
+---
+
+# **📘 HOW TO USE THIS REPOSITORY**
+
+1. **Initialize LCES** using the Startup Block.  
+2. **Identify your Edition** (Small Claims, Family Court, Trust & Estate).  
+3. **(Optional) Run Deep Research** if you have Issue + Story + Evidence.  
+4. **Use Field Guides** (FG/FGA) for workflows and procedures.  
+5. **Use Calculi** (LC, LCa, JC, LCA) for reasoning and structure.  
+
+---
+
+# **🎯 WHO THIS SYSTEM IS FOR**
+
+- Pro se litigants  
+- Coalition members  
+- Educators  
+- Procedural‑literacy learners  
+- Technologists building justice tools  
+- AI agents operating inside LCES  
+
+LCES supports human judgment — it does not replace it.
+
+---
+
+# **If you want, I can now generate:**
+
+- a **visual plate bundle** (Startup, Six Calculi, Editions, Deep Research)  
+- a **directory map plate**  
+- a **Substack‑ready ceremonial edition**  
+- a **LinkedIn teaching edition**  
+
+Which one should I prepare next?
 
 Run Deep Research on the issue, story, and evidence provided.
 Extract facts, claims, timelines, contradictions, missing pieces, and procedural posture.
