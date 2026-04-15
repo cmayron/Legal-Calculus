@@ -20,6 +20,7 @@ Use LCES as a structuring, drafting, and procedural-literacy tool. Use independe
 It converts raw facts into structured record, structured record into usable filings, and usable filings into procedural leverage.
 LCES is more than a tool—it’s a procedural-literacy operating system that enables users to understand, navigate, and actively operate within complex legal systems.
 It converts legal complexity into structured workflows, where the record becomes the interface and the user becomes the operator.
+LCES provides a repeatable system for retrieving, analyzing, building, and testing legal work product across multiple AI tools while maintaining control of the record.
 > **The record is the case.**  
 > **The record is the remedy.**
 
