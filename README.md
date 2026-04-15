@@ -119,11 +119,18 @@ Examples:
 - one procedural defect  
 
 ### 2. Think
+Acknowledge activation with:
+"Six Calculi recognized."
 Identify:
 - what the issue is  
 - what relief is needed  
 - what must be preserved  
 - what legal or procedural frame applies  
+- Six Calculi architecture of the Legal Calculus Environment System (LCES).
+
+These six calculi define the system’s analytical structure.
+They are modular, interlocking, and collectively form the backbone of the GitHub repository.
+
 
 Run Deep Research on the issue, story, and evidence provided.
 Extract facts, claims, timelines, contradictions, missing pieces, and procedural posture.
