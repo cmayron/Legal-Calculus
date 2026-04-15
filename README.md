@@ -1483,84 +1483,54 @@ Every output must:
 Procedural-Literacy Operating System
 The Record is the Case. The Record is the Remedy.
 
-🛡️ Disclaimer Yes again its so important and critical 
-LCES is an educational and procedural-literacy system. It is designed to help users organize facts, understand workflow, and generate draft materials for review.
-• Not Legal Advice: LCES is not a law firm or a substitute for licensed legal counsel. Nothing in this system constitutes legal advice or creates an attorney-client relationship.
-• User Responsibility: Users are 100% responsible for verifying all laws, rules, deadlines, and filing requirements.
-• Privacy Warning: Do not upload confidential, privileged, or sensitive material to cloud AI tools. Redact all PII (Personally Identifiable Information) before use.
+## Conclusion
 
-📚 The Six Calculi the unique archival material 
-The foundational architecture of LCES consists of six interlocking modules that define how the system analyzes and structures procedural reasoning.
-1.	LC (Legal Calculus): The base grammar of procedural literacy and core doctrine.
-2.	LCa (Lawyer Calculus): Models how professionals structure arguments and position evidence.
-3.	JC (Judicial Calculus): Models how the court evaluates claims and weighs evidence.
-4.	LCA (Advanced Calculus): High-order reasoning and appellate posture.
-5.	FG (Field Guides): Operational checklists and step-by-step workflows.
-6.	FGA (Advanced Field Guides): Specialized guides for complex or multi-party litigation.
+The Legal Calculus Educational System (LCES) is a procedural-literacy framework for turning raw facts into structured record, structured record into usable filings, and usable filings into preserved procedural leverage.
 
-⚙️ The Operating Loop iterative but you need to certain your anchors are correct 
-LCES operates on a recursive five-step cycle.
-1.	Retrieve: Isolate the Smallest Complete Unit (SCU). Work with one issue, one filing, or one paragraph of facts at a time to prevent "narrative bloat."
-2.	Think: Activate the Calculi. Identify what must be preserved and what relief is actually possible.
-3.	Transform: Convert raw source material into a Minimum-Viable Filing (MVF) or a procedural artifact.
-4.	Evaluate: Run a Red-Team Pass. Identify procedural defects, missing facts, or formatting risks.
-5.	Commit: Finalize the work. Generate metadata, archive the packet, and preserve the "timestamp trail."
+LCES is built on a simple principle:
 
-🤖 AI Functional Roles
-LCES uses AI as a structured engine, governed by the Human Strategist.
-• The Architect (Copilot): Focuses on sequencing, logic, and system framing.
-• The Scrivener (Builder): Focuses on drafting, organizing, and assembling the work product.
-• The Inspector (Gemini): Focuses on red-team review, procedural attack, and weakness detection.
+**The record is the case.**  
+**The record is the remedy.**
 
+Its purpose is not to replace counsel, automate judgment, or guarantee outcomes. Its purpose is to improve clarity, structure, preservation, and disciplined workflow inside complex legal systems.
 
-DISCIPLINE: 
-1. Work with the "Smallest Complete Unit" only.
-2. Prioritize procedural clarity over emotional narrative.
-3. The Human Strategist provides the Truth; the AI provides the Structure.
+LCES trains users to:
 
-READY FOR SOURCE MATERIAL. 
-Paste your "Smallest Complete Unit" (One issue, one fact, or one filing) to begin.
+- isolate the issue  
+- structure the record  
+- preserve what matters  
+- test for weakness  
+- build work product that remains reviewable under pressure  
 
+LCES uses AI as a structured engine:
 
-**Legal Calculus Educational System**  
-**Procedural-Literacy Operating System**
+- Architect → structure and workflow  
+- Builder → drafting and transformation  
+- Inspector → red-team analysis and validation  
 
-> **The record is the case.**  
-> **The record is the remedy.**
+The Human Strategist remains responsible for all decisions.
 
-## What this is
-LCES is a system for turning raw facts into structured filings that preserve rights, build record, and create procedural leverage.
+**The AI assists. The Human Strategist decides.**
 
----
-## Philosophy
+Use LCES as an educational and drafting framework. Apply independent judgment before filing, serving, sharing, or relying on any output.
 
-> **LCES does not argue harder. It builds better.**  
-> **Filing is protest. Format is memory. The record is the remedy.**
+Do not upload confidential, privileged, protected, sealed, or sensitive material into cloud AI tools. Redact personal identifiers before use. AI chats and cloud drafting environments are not privileged by default.
 
----
-**Educational Tool**
+**Filing is preservation.**  
+**Format is memory.**  
+**Structure is leverage.**  
+**The record is the remedy.**
 
-**Notice & User Agreement**
-LCES is a procedural-literacy framework. It provides structural templates and organizational logic for educational purposes only.
-No Legal Advice: LCES does not provide legal advice or substitute for the counsel of a licensed attorney.
-No Privilege: Communications with AI tools are not privileged. Users must redact PII (Personally Identifiable Information) before use.
-User Liability: The user assumes all risk for filing decisions, deadline compliance, and the accuracy of AI-generated citations. The AI assists; the Human Decides.
+Build the record. Preserve the issue. Proceed with discipline.
 
-⚖️ License & Copyright
-Copyright (c) 2024-2026 Charles Mayron, MD.
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
-This work is licensed under the CC BY-NC-SA 4.0 license.
+## License
 
-1. You are free to:
-• Share: Copy and redistribute the material in any medium or format.
-• Adapt: Remix, transform, and build upon the material.
-2. Under the following terms:
-• Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-• Non-Commercial: You may not use the material for commercial purposes. This includes, but is not limited to, charging tuition, selling access to the repository, or using the system for paid legal services.
-• ShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-3. No additional restrictions:
+Copyright © 2024–2026 Charles Mayron, MD. All rights reserved except as licensed below.
 
-You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-Full License Deed: https://creativecommons.org/licenses/by-nc-sa/4.0/
-Legal Code: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).**
 
+You may copy, redistribute, remix, transform, and build upon this material for non-commercial purposes, provided that you give appropriate attribution and distribute derivative works under the same license.
+
+Commercial use is not permitted without prior written permission from the copyright holder.
+
+See the `LICENSE` file for full terms.
