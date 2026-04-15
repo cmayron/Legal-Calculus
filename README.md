@@ -143,22 +143,13 @@ It is activated alawys  when the user has:
 
 ---
 
-## **1. When to Use Deep Research**
+When to Use Deep Research**
 Use Deep Research the user does not know the nuances :
-
-- clarity on what happened  
-- a structured timeline  
-- a fact map  
-- a claim map  
-- contradictions flagged  
-- missing evidence identified  
-- a procedural posture  
-- next‑step guidance  
 
 It is required for general use.  
 
 
-## **2. How to Invoke Deep Research**
+How to Invoke Deep Research**
 After completing the Startup Block, the user may run:
 
 ```
@@ -168,13 +159,6 @@ Produce a structured output with next-step recommendations.
 
 
 This output becomes the foundation for drafting, strategy, or further analysis.
-
----
-
-## **5. Scope**
-Deep Research is an **analysis module**, not a decision-maker.  
-It does not provide legal advice or determine outcomes.  
-It structures information so the user can proceed with clarity.
 
 ### 3. Transform
 Convert the source material into usable work product.
