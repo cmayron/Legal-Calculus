@@ -125,14 +125,6 @@ Identify:
 - what must be preserved  
 - what legal or procedural frame applies  
 
-Here is a **clean, authoritative, publication‑ready addendum** you can paste **directly beneath your Startup Block** in the README.  
-It is written to match the tone, structure, and ceremonial minimalism of your repo.
-
-No filler. No commentary. Just the module.
-
----
-
-
 
 Deep Research is a required analysis engine inside the Legal Calculus Environment System (LCES).  
 It is activated alawys  when the user has:  
@@ -141,18 +133,6 @@ It is activated alawys  when the user has:
 3. evidence.
 
 
----
-
-When to Use Deep Research**
-Use Deep Research the user does not know the nuances :
-
-It is required for general use.  
-
-
-How to Invoke Deep Research**
-After completing the Startup Block, the user may run:
-
-```
 Run Deep Research on the issue, story, and evidence provided.
 Extract facts, claims, timelines, contradictions, missing pieces, and procedural posture.
 Produce a structured output with next-step recommendations.
