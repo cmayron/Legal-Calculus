@@ -1,4 +1,16 @@
+## Disclaimer
 
+LCES is an educational and procedural-literacy system. It is designed to help users organize facts, understand workflow, improve record discipline, and generate draft materials for review.
+
+LCES is **not** a law firm, legal clinic, or substitute for licensed legal counsel. Nothing in this repository constitutes legal advice, creates an attorney-client relationship, or guarantees any legal outcome.
+
+Users are responsible for verifying all law, rules, deadlines, citations, formatting requirements, and filing decisions before relying on or submitting any output.
+
+AI-assisted outputs may contain errors, omissions, formatting defects, inaccurate citations, or incomplete analysis. All outputs must be independently reviewed and validated by the user before use.
+
+Do **not** upload confidential, privileged, protected, sealed, or sensitive material to cloud AI tools. Redact personal identifiers and protected information before copy-paste. AI chat logs and cloud drafting environments are not privileged by default and should not be treated as secure evidence repositories.
+
+Use LCES as a structuring, drafting, and procedural-literacy tool. Use independent judgment before filing, serving, sharing, or relying on any output.
 
 # Legal Calculus Educational System (LCES)
 
