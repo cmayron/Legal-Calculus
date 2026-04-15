@@ -8,6 +8,7 @@ Turn raw facts into structured records and usable filings instantly.
 Quick Start: 
 Input "Initialize LCES. 
 I have an issue, a story, and evidence."
+Result: Your device is now a procedural-literacy engine.
 
 ## Disclaimer
 
