@@ -82,6 +82,68 @@ That means the user should think not only about what happened, but also about:
 The system is designed to help build a record that can be used, reviewed, and defended.
 
 ---
+# **📦 LCES EDITIONS BLOCK (LCES‑E)**  
+**Domain‑Specific Editions in the GitHub Repository**
+
+The Legal Calculus Environment System includes multiple domain‑specific editions.  
+Each edition applies the Six Calculi to a specific court environment, providing tailored workflows, field guides, and procedural structures.
+
+These editions are housed in this GitHub repository.
+
+---
+
+## **1. Small Claims Edition (SC‑LCES)**  
+Designed for high‑volume, low‑complexity disputes.  
+Provides:
+
+- simplified procedural maps  
+- evidence‑first workflows  
+- hearing preparation guides  
+- judgment‑enforcement sequences  
+
+Optimized for pro se users and rapid deployment.
+
+---
+
+## **2. Family Court Edition (FC‑LCES)**  
+Designed for custody, support, parenting time, and family‑law disputes.  
+Provides:
+
+- intake architecture for sensitive matters  
+- timeline and incident mapping  
+- evidence organization for family‑court standards  
+- motion and hearing workflows  
+
+Built for clarity, safety, and procedural stability.
+
+---
+
+## **3. Trust & Estate Edition (TE‑LCES)**  
+Designed for probate, trusts, fiduciary duties, and estate‑related disputes.  
+Provides:
+
+- estate‑planning intake structures  
+- probate pathway maps  
+- fiduciary‑duty analysis  
+- contested‑estate workflows  
+- executor/trustee/beneficiary quickstarts  
+
+Optimized for doctrinal clarity and multi‑party complexity.
+
+---
+
+## **Purpose of the Editions**  
+The editions ensure LCES remains:
+
+- domain‑specific  
+- context‑aware  
+- procedurally accurate  
+- accessible to non‑lawyers  
+- scalable across court types  
+
+Each edition is built on the **Six Calculi**, activated through the **Startup Block**, and compatible with **Deep Research**.
+
+---
 
 ## What LCES Does
 
