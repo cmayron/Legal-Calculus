@@ -56,6 +56,28 @@ Its focus is not “argue harder.” Its focus is to:
 - commit the packet  
 
 LCES is built for **procedural clarity**, **repeatable workflow**, and **record discipline**.
+"People's Law School" curriculum
+🎓 Beyond Procedural Literacy: The Educational Core
+LCES is more than a drafting tool; it is a cognitive framework designed to reshape how you perceive, process, and present a dispute. As the "People’s Law School," it focuses on three primary educational pillars:
+🧠 1. Multi-Perspective Analytical Modeling
+Most litigants fail because they only see the case from their own point of view. LCES trains the user to cycle through the Six Calculi to view the dispute from every seat in the courtroom:
+• The Judicial Lens (JC): Learn to identify what a judge needs to see (neutral facts and evidence) rather than what you want to say (emotion and narrative).
+• The Adversarial Lens (LCa): Understand how a professional opponent will attempt to deconstruct your record so you can build it stronger from the start.
+• The Procedural Lens (LC): Master the "grammar of law"—the specific rules and sequences that dictate whether an argument is even allowed to be heard.
+🛡️ 2. Strategic Stress-Testing (Adversarial Defense)
+LCES teaches the discipline of Red-Teaming. Before a single document is filed, the system subjects the work to a "procedural attack." This process educates the user on:
+• Fact/Conclusion Separation: Learning to distinguish between what you can prove and what you merely claim.
+• Gap Identification: Using Deep Research to find the "missing pieces" of evidence before the opposition points them out.
+• Risk Mitigation: Identifying "fatal flaws" in jurisdiction or timing that could lead to immediate dismissal.
+📁 3. The Sovereignty of the Record
+The core philosophy—The Record is the Remedy—teaches a masterclass in information management. LCES provides the tools to build a "Reviewable Record" that survives the chaos of litigation:
+• Archive Discipline: Learning to treat every email, receipt, and filing as a permanent artifact with associated metadata.
+• Chronology as Power: Transforming scattered memories into a hard, evidence-backed timeline that serves as the backbone of any claim.
+• Preservation for Appeal: Educating the user on how to "protect the record" today so that a higher court has something to review tomorrow.
+⚡ 4. Cognitive Efficiency (The SCU Method)
+LCES solves the problem of "litigation burnout" by teaching the Smallest Complete Unit (SCU) workflow. This educational method focuses on:
+• Isolating Issues: Breaking a complex case into tiny, manageable, and winnable procedural tasks.
+• Workflow Integrity: Following the Retrieve → Think → Transform → Evaluate → Commit loop to ensure consistency and prevent "narrative drift."
 
 ---
 
