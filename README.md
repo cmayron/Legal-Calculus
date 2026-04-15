@@ -82,7 +82,7 @@ LCES teaches the discipline of Red-Teaming. Before a single document is filed, t
 • Gap Identification: Using Deep Research to find the "missing pieces" of evidence before the opposition points them out.
 • Risk Mitigation: Identifying "fatal flaws" in jurisdiction or timing that could lead to immediate dismissal.
 
-📁 3. The **Sovereignty of the Record**
+📁 3. **Sovereignty of the Record**
 The core philosophy—The Record is the Remedy—teaches a masterclass in information management. LCES provides the tools to build a "Reviewable Record" that survives the chaos of litigation:
 • Archive Discipline: Learning to treat every email, receipt, and filing as a permanent artifact with associated metadata.
 • Chronology as Power: Transforming scattered memories into a hard, evidence-backed timeline that serves as the backbone of any claim.
