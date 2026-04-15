@@ -6,7 +6,7 @@ No Barriers.
 To start:Upload this **README.md** to your AI Copilot to activate the procedural-literacy engine. 
 Turn raw facts into structured records and usable filings instantly. 
 Quick Start: 
-Input "Initialize LCES. 
+Input "Initialize LCES. by upload to copilot ai
 I have an issue, a story, and evidence."
 Result: Your device is now a procedural-literacy engine.
 
