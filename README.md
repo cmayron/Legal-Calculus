@@ -255,7 +255,7 @@ Together, these calculi ensure LCES remains:
 They are the structural backbone of the repository and all LCES workflows.
 
 
-## **2. Add a “How to Use This Repository” section**
+## **2. "How to Use This Repository” section**
 This gives new users a **first‑step workflow**:
 
 - Initialize LCES  
