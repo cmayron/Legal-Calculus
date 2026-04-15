@@ -350,12 +350,12 @@ LCES is built on:
 - multiple **domain‑specific editions**, and  
 - an optional **Deep Research engine** for structured analysis.
 
-This README presents all components in the correct operational order.
 
----🎈upload this to Copilot Pro Ai to initiate the LCES 
-## What this block does
-This Quick-Start block is the execution layer of LCES. It helps you take one issue, one filing, or one paragraph of facts and turn it into a clean working draft.
-**LCES UNIFIED INITIALIZATION PROTOCOL**
+
+#**UPLOAD BLOCK to Copilot Pro Ai to initiate the LCES 
+
+the execution layer of LCES. 
+#**LCES UNIFIED INITIALIZATION PROTOCOL**
 
 Legal Calculus Educational System (LCES)
 Procedural-Literacy Operating System
