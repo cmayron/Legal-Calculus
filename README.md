@@ -3,8 +3,11 @@ Legal Calculus Educational System (LCES):
 **No Tuition**
 No Gatekeepers. 
 No Barriers. 
-To start:Upload this **README.md** to your AI Copilot to activate the procedural-literacy engine. 
+To start:
+Upload this **README.md** to your AI Copilot Pro
+to activate the procedural-literacy engine. 
 Turn raw facts into structured records and usable filings instantly. 
+
 Quick Start: 
 Input "Initialize LCES" by **upload** to **CoPilot Pro Ai**
 I have an issue, a story, and evidence."
