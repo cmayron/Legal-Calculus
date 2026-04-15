@@ -220,39 +220,7 @@ LCES is not a substitute for judgment. It is a structure for applying judgment m
 
 ---
 
-## Operating Loop
 
-LCES runs on a simple five-step workflow:
-
-**Retrieve → Think → Transform → Evaluate → Commit**
-
-### 1. Retrieve
-Pull the smallest complete unit needed to act.
-
-Examples:
-- one issue  
-- one filing  
-- one paragraph of facts  
-- one exhibit cluster  
-- one procedural defect  
-
-### 2. Think
-Acknowledge activation with:
-"Six Calculi recognized."
-Identify:
-- what the issue is  
-- what relief is needed  
-- what must be preserved  
-- what legal or procedural frame applies  
-- Six Calculi architecture of the Legal Calculus Environment System (LCES).
-
-These six calculi define the system’s analytical structure.
-They are modular, interlocking, and collectively form the backbone of the GitHub repository.
-
-This block is the entry ritual for all users and all agents.  
-It ensures consistency, prevents drift, and anchors the system in procedural literacy.
-
----
 
 # **📚 THE SIX CALCULI OF LCES**  
 **Foundation Architecture of the Legal Calculus Educational System (LCES)
@@ -350,11 +318,9 @@ LCES is built on:
 - multiple **domain‑specific editions**, and  
 - an optional **Deep Research engine** for structured analysis.
 
-
+--
 
 #**UPLOAD BLOCK to Copilot Pro Ai to initiate the LCES 
-
-the execution layer of LCES. 
 #**LCES UNIFIED INITIALIZATION PROTOCOL**
 
 Legal Calculus Educational System (LCES)
@@ -501,26 +467,6 @@ Activation Requirements:
 • Narrative/story  
 • Supporting evidence  
 
-Response:  
-"Deep Research initialized."
-
-Extraction Only:
-
-1. Extract facts  
-2. Map claims  
-3. Build timeline  
-4. Correlate evidence  
-5. Flag contradictions  
-6. Identify missing elements  
-7. Define procedural posture  
-8. Generate next-step workflows  
-
-Hard Rules:
-
-• Do not draft  
-• Do not decide  
-• Do not give legal advice  
-• Do not speculate  
 
 🔷 ARCHITECT OUTPUT STANDARDS
 
