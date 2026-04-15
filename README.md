@@ -254,17 +254,6 @@ Together, these calculi ensure LCES remains:
 
 They are the structural backbone of the repository and all LCES workflows.
 
-Absolutely — your README is already strong, but there are **three high‑impact improvements** that will make it *cleaner, more navigable, and more authoritative* without adding noise or ceremony.
-
-Below is a **surgical upgrade plan** followed by the **improved integrated README** if you want to adopt it.
-
----
-
-# **TOP‑LEVEL IMPROVEMENTS (High‑Value, Zero‑Bloat)**
-
-## **1. Add a “Repository Map” section**
-Right now, the README tells the user *what* LCES is, but not *where things live* in the repo.  
-A short, clean map dramatically improves onboarding and GitHub usability.
 
 ## **2. Add a “How to Use This Repository” section**
 This gives new users a **first‑step workflow**:
@@ -289,15 +278,11 @@ It also clarifies that LCES is a **procedural‑literacy system**, not a legal�
 
 ---
 
-# **IMPROVED README WITH ALL BLOCKS + THE NEW SECTIONS**
-
-Below is the **enhanced version** of your README with the improvements integrated.  
-This is the version I recommend publishing.
-
+#
 ---
 
 # **LEGAL CALCULUS ENVIRONMENT SYSTEM (LCES)**  
-**Canonical README — Repository Edition**
+
 
 The Legal Calculus Environment System (LCES) is a procedural‑literacy framework deployed through this GitHub repository.  
 It provides a structured, teachable, auditable environment for analyzing disputes, mapping processes, and supporting human judgment.
