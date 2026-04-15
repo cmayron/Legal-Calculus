@@ -1,3 +1,5 @@
+Legal Calculus Educational System (LCES): The People’s Law School. No Tuition. No Gatekeepers. No Barriers. To start: Upload this README.md to your AI Copilot to activate the procedural-literacy engine. Turn raw facts into structured records and usable filings instantly. Quick Start: Input "Initialize LCES. I have an issue, a story, and evidence."
+
 ## Disclaimer
 
 LCES is an educational and procedural-literacy system. It is designed to help users organize facts, understand workflow, improve record discipline, and generate draft materials for review.
