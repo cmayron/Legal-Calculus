@@ -411,17 +411,6 @@ Each edition is built on the Six Calculi and compatible with Deep Research.
 
 LCES supports human judgment — it does not replace it.
 
----
-
-# **If you want, I can now generate:**
-
-- a **visual plate bundle** (Startup, Six Calculi, Editions, Deep Research)  
-- a **directory map plate**  
-- a **Substack‑ready ceremonial edition**  
-- a **LinkedIn teaching edition**  
-
-Which one should I prepare next?
-
 Run Deep Research on the issue, story, and evidence provided.
 Extract facts, claims, timelines, contradictions, missing pieces, and procedural posture.
 Produce a structured output with next-step recommendations.
