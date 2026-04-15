@@ -132,21 +132,19 @@ No filler. No commentary. Just the module.
 
 ---
 
-# **📎 Addendum: Deep Research Use (DR‑0)**  
-**Optional Module for Users Who Need Structured Analysis**
 
-Deep Research is an optional analysis engine inside the Legal Calculus Environment System (LCES).  
-It is activated only when the user has:  
+
+Deep Research is a required analysis engine inside the Legal Calculus Environment System (LCES).  
+It is activated alawys  when the user has:  
 1. an issue,  
 2. a story, and  
 3. evidence.
 
-This addendum explains how to invoke it from the startup sequence.
 
 ---
 
 ## **1. When to Use Deep Research**
-Use Deep Research when the user needs:
+Use Deep Research the user does not know the nuances :
 
 - clarity on what happened  
 - a structured timeline  
@@ -157,10 +155,8 @@ Use Deep Research when the user needs:
 - a procedural posture  
 - next‑step guidance  
 
-It is not required for general use.  
-It is recommended for any matter involving narrative + documents.
+It is required for general use.  
 
----
 
 ## **2. How to Invoke Deep Research**
 After completing the Startup Block, the user may run:
@@ -169,48 +165,7 @@ After completing the Startup Block, the user may run:
 Run Deep Research on the issue, story, and evidence provided.
 Extract facts, claims, timelines, contradictions, missing pieces, and procedural posture.
 Produce a structured output with next-step recommendations.
-```
 
-Deep Research will automatically:
-
-- parse narrative  
-- extract facts  
-- correlate evidence  
-- map claims  
-- build a timeline  
-- identify gaps  
-- generate a procedural frame  
-
----
-
-## **3. Required Inputs**
-Deep Research requires three inputs:
-
-### **A. Issue**  
-A short description of what the user needs to understand.
-
-### **B. Story**  
-A narrative including events, timeline, context, and harms.
-
-### **C. Evidence**  
-Any supporting materials (PDFs, emails, screenshots, filings, policies, contracts).
-
-Without these three, Deep Research will not activate.
-
----
-
-## **4. Output**
-Deep Research produces:
-
-- Issue Statement  
-- Fact Map  
-- Claim Map  
-- Timeline  
-- Evidence Correlation  
-- Contradiction Flags  
-- Missing Evidence List  
-- Procedural Posture  
-- Next-Step Workflow  
 
 This output becomes the foundation for drafting, strategy, or further analysis.
 
@@ -220,10 +175,6 @@ This output becomes the foundation for drafting, strategy, or further analysis.
 Deep Research is an **analysis module**, not a decision-maker.  
 It does not provide legal advice or determine outcomes.  
 It structures information so the user can proceed with clarity.
-
----
-
-If you want, I can also generate a **Deep Research Plate** (visual), a **DR‑1 Scroll**, or a **workflow card** for onboarding.
 
 ### 3. Transform
 Convert the source material into usable work product.
