@@ -58,6 +58,27 @@ Its focus is not “argue harder.” Its focus is to:
 - test the weakness  
 - commit the packet  
 
+## **2. "How to Use This Repository” section**
+This gives new users a **first‑step workflow**:
+
+- Initialize LCES  
+- Choose an Edition  
+- Always Run Deep Research  
+- Use Field Guides  
+
+This prevents confusion and reduces cognitive load.
+
+## **3. Add a “Who This System Is For” section**
+This helps orient:
+
+- pro se litigants  
+- coalition members  
+- educators  
+- technologists  
+- AI agents  
+
+It also clarifies that LCES is a **procedural‑literacy system**, not a legal‑advice engine.
+
 LCES is built for
 
 **procedural clarity**
@@ -67,6 +88,48 @@ LCES is built for
 **record discipline**
 
 **"People's Law School" curriculum**
+
+# **📁 REPOSITORY MAP (Recommended for Navigation)**
+
+```
+/LCES
+   /LC        Core Calculus
+   /LCa       Lawyer Calculus
+   /JC        Judicial Calculus
+   /LCA       Advanced Calculus
+   /FG        Field Guides
+   /FGA       Advanced Field Guides
+   /Editions
+       /SmallClaims
+       /FamilyCourt
+       /TrustEstate
+   /DeepResearch
+   /Plates
+   /Workflows
+```
+
+---
+
+# **📘 HOW TO USE THIS REPOSITORY**
+
+1. **Initialize LCES** using the Startup Block.  
+2. **Identify your Edition** (Small Claims, Family Court, Trust & Estate).  
+3. **(Optional) Run Deep Research** if you have Issue + Story + Evidence.  
+4. **Use Field Guides** (FG/FGA) for workflows and procedures.  
+5. **Use Calculi** (LC, LCa, JC, LCA) for reasoning and structure.  
+
+---
+
+# **🎯 TO BE CLEAR WHO THIS SYSTEM IS FOR**
+
+- Pro se litigants  
+- Coalition members  
+- Educators  
+- Procedural‑literacy learners  
+- Technologists building justice tools  
+- AI agents operating inside LCES  
+
+
 
 🎓 Beyond Procedural Literacy: The Educational Core
 LCES is more than a drafting tool; it is a cognitive framework designed to reshape how you perceive, process, and present a dispute. 
@@ -118,7 +181,22 @@ LCES therefore treats **format, preservation, chronology, and filing sequence** 
 > **Structure is leverage.**  
 > **Preservation is power.**
 
----
+## What LCES Does
+
+LCES helps a user take **one issue at a time** and turn it into a clean procedural product.
+
+Typical outputs include:
+
+- minimum-viable filings  
+- proposed orders  
+- doctrine maps  
+- filing sequences  
+- chronology blocks  
+- preservation notes  
+- packet metadata  
+- archive-ready filing packets  
+
+LCES is not a substitute for judgment. It is a structure for applying judgment more consistently.
 
 ## Core Principle
 
@@ -136,6 +214,9 @@ That means the user should think not only about what happened, but also about:
 - what survives after memory, pressure, and narrative conflict  
 
 The system is designed to help build a record that can be used, reviewed, and defended.
+
+---
+
 
 ---
 # **📦 LCES EDITIONS BLOCK (LCES‑E)**  
@@ -201,22 +282,6 @@ Each edition is built on the **Six Calculi**, activated through the **Startup Bl
 
 ---
 
-## What LCES Does
-
-LCES helps a user take **one issue at a time** and turn it into a clean procedural product.
-
-Typical outputs include:
-
-- minimum-viable filings  
-- proposed orders  
-- doctrine maps  
-- filing sequences  
-- chronology blocks  
-- preservation notes  
-- packet metadata  
-- archive-ready filing packets  
-
-LCES is not a substitute for judgment. It is a structure for applying judgment more consistently.
 
 ---
 
@@ -279,26 +344,7 @@ Together, these calculi ensure LCES remains:
 They are the structural backbone of the repository and all LCES workflows.
 
 
-## **2. "How to Use This Repository” section**
-This gives new users a **first‑step workflow**:
 
-- Initialize LCES  
-- Choose an Edition  
-- Always Run Deep Research  
-- Use Field Guides  
-
-This prevents confusion and reduces cognitive load.
-
-## **3. Add a “Who This System Is For” section**
-This helps orient:
-
-- pro se litigants  
-- coalition members  
-- educators  
-- technologists  
-- AI agents  
-
-It also clarifies that LCES is a **procedural‑literacy system**, not a legal‑advice engine.
 
 ---
 
@@ -578,45 +624,6 @@ Why this works
 	•	AI = structured engine
 
 
-# **📁 REPOSITORY MAP (Recommended for Navigation)**
-
-```
-/LCES
-   /LC        Core Calculus
-   /LCa       Lawyer Calculus
-   /JC        Judicial Calculus
-   /LCA       Advanced Calculus
-   /FG        Field Guides
-   /FGA       Advanced Field Guides
-   /Editions
-       /SmallClaims
-       /FamilyCourt
-       /TrustEstate
-   /DeepResearch
-   /Plates
-   /Workflows
-```
-
----
-
-# **📘 HOW TO USE THIS REPOSITORY**
-
-1. **Initialize LCES** using the Startup Block.  
-2. **Identify your Edition** (Small Claims, Family Court, Trust & Estate).  
-3. **(Optional) Run Deep Research** if you have Issue + Story + Evidence.  
-4. **Use Field Guides** (FG/FGA) for workflows and procedures.  
-5. **Use Calculi** (LC, LCa, JC, LCA) for reasoning and structure.  
-
----
-
-# **🎯 TO BE CLEAR WHO THIS SYSTEM IS FOR**
-
-- Pro se litigants  
-- Coalition members  
-- Educators  
-- Procedural‑literacy learners  
-- Technologists building justice tools  
-- AI agents operating inside LCES  
 
 LCES supports human judgment — it does not replace it. Assume Ai is no accurate for your issue so you must challenge it 
 
