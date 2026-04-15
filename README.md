@@ -56,9 +56,14 @@ Its focus is not “argue harder.” Its focus is to:
 - commit the packet  
 
 LCES is built for **procedural clarity**, **repeatable workflow**, and **record discipline**.
-"People's Law School" curriculum
+
+**"People's Law School" curriculum*+
+
 🎓 Beyond Procedural Literacy: The Educational Core
-LCES is more than a drafting tool; it is a cognitive framework designed to reshape how you perceive, process, and present a dispute. As the "People’s Law School," it focuses on three primary educational pillars:
+LCES is more than a drafting tool; it is a cognitive framework designed to reshape how you perceive, process, and present a dispute. 
+
+As the "People’s Law School," it focuses on three primary educational pillars:
+
 🧠 1. Multi-Perspective Analytical Modeling
 Most litigants fail because they only see the case from their own point of view. LCES trains the user to cycle through the Six Calculi to view the dispute from every seat in the courtroom:
 • The Judicial Lens (JC): Learn to identify what a judge needs to see (neutral facts and evidence) rather than what you want to say (emotion and narrative).
