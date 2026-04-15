@@ -130,7 +130,7 @@ Extract facts, claims, timelines, contradictions, missing pieces, and procedural
 Produce a structured output with next-step recommendations.
 
 
-Deep Research is a required analysis engine inside the Legal Calculus Environment System (LCES).  
+Deep Research is a required analysis engine inside the Legal Calculus Educational System (LCES).  
 It is activated alawys  when the user has:  
 1. an issue,  
 2. a story, and  
