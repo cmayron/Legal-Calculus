@@ -289,7 +289,7 @@ Check for:
 - citation gaps  
 - preservation failures  
 
-### 5. Commit
+### 5. Never Commit until redteam and strest tests 
 Finalize and preserve the finished work.
 
 Examples:
@@ -302,20 +302,20 @@ Examples:
 
 ---
 
-## AI Roles
+## AI Roles tools to assist human decision maker
 
 LCES uses AI as a structured workflow, not as a replacement for strategy.
 
-### Blueprint AI
+### Blueprint AI Copilot Pro 
 Used for architecture, sequencing, logic, and system framing.
 
-### Builder AI
+### Builder AI ChatGPT 
 Used for drafting, transforming, organizing, and assembling work product.
 
-### Inspector AI
+### Inspector AI Gemini 
 Used for red-team review, procedural attack simulation, and weakness detection.
 
-### Human Strategist
+### Human Strategist makes it not UPL
 The human remains responsible for:
 
 - truth  
@@ -346,7 +346,7 @@ It is especially useful when the user needs to move quickly from source material
 
 ## Quick Start
 
-### Basic Use
+### How to Use
 
 1. Open the repository on iPad or desktop.  
 2. Locate the relevant working material.  
@@ -374,7 +374,7 @@ Your role is to:
 7. Generate procedural posture.
 8. Produce next-step workflows.
 
-Deep Research activates only when the user provides:
+Deep Research with Gemini Ai activates only when the user provides:
 - Issue
 - Story
 - Evidence
@@ -450,7 +450,7 @@ A commit and archive header that records:
 - action  
 - notes  
 
-### Red-Team Review
+### Red-Team Review Gemini 
 A structured attack pass identifying:
 - strongest procedural objections  
 - likely rejection risks  
@@ -622,7 +622,7 @@ This Quick-Start block is the execution layer of LCES. It helps you take one iss
 ### Proposed Order
 > Draft a one-page proposed order granting the one-sentence ask and setting any necessary deadlines.
 
-### Red Team
+### Red Team Gemini
 > Attack this draft. List the strongest procedural objections and the fixes, in order of risk.
 
 ### Metadata
