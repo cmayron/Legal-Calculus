@@ -59,9 +59,12 @@ Its focus is not “argue harder.” Its focus is to:
 - commit the packet  
 
 LCES is built for
-**procedural clarity**, **
-**repeatable workflow**, 
-**record discipline**.
+
+**procedural clarity**
+
+**repeatable workflow**
+
+**record discipline**
 
 **"People's Law School" curriculum**
 
