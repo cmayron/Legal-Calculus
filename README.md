@@ -125,18 +125,16 @@ Identify:
 - what must be preserved  
 - what legal or procedural frame applies  
 
+Run Deep Research on the issue, story, and evidence provided.
+Extract facts, claims, timelines, contradictions, missing pieces, and procedural posture.
+Produce a structured output with next-step recommendations.
+
 
 Deep Research is a required analysis engine inside the Legal Calculus Environment System (LCES).  
 It is activated alawys  when the user has:  
 1. an issue,  
 2. a story, and  
 3. evidence.
-
-
-Run Deep Research on the issue, story, and evidence provided.
-Extract facts, claims, timelines, contradictions, missing pieces, and procedural posture.
-Produce a structured output with next-step recommendations.
-
 
 This output becomes the foundation for drafting, strategy, or further analysis.
 
