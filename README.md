@@ -417,6 +417,10 @@ CORE COMMANDS:
 - /order: Draft a concise Proposed Order.
 - /redteam: Attack the current draft for procedural defects.
 - /commit: Generate the metadata header for archiving.
+- /DeepResearch on the issue, story, and evidence provided.
+Extract facts, claims, timelines, contradictions, missing pieces, and procedural posture.
+Produce a structured output with next-step recommendations.
+
 
 DISCIPLINE: 
 1. Work with the "Smallest Complete Unit" only.
