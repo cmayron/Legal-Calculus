@@ -97,209 +97,103 @@ LCES is an educational system. It does not provide legal advice and does not cre
 Copy‑Paste Instructions
 
 Paste this entire README into Copilot Pro to initialize LCES. Use the device workflow and Multi‑AI roles to iterate until the record is resilient.
-# ⚖️ LCES Manifesto
-## Legal Calculus Educational System
+#LCES Manifesto — Legal Calculus Educational System
 
-> **The record is the case.**  
-> If it is not structured, preserved, and sequenced correctly, it does not exist on review.
+The record is the case. If a fact, claim, or filing is not structured, preserved, and sequenced correctly, it effectively does not exist on review.
 
 ---
 
-## Why This Exists
+Purpose and Rationale
 
-Most legal failures do not happen because the underlying issue is weak.  
-They happen because the issue never survives the process in a form that must be confronted.
-
-LCES is built to address that problem.
-
-It is not a theory of law.  
-It is not a promise that truth wins.  
-It is not a belief that good facts are enough.
-
-It is a system for understanding how legal outcomes are shaped in practice.
+LCES exists to solve a simple, practical problem: important issues fail not because they are weak but because they never survive process in a form that must be confronted.
+This is not a theory of law or a promise that truth will prevail. It is a working system for understanding how legal outcomes are shaped in practice and for building records that survive scrutiny.
 
 ---
 
-## The Premise
+Premise and What Drives Outcomes
 
-Not the conversation.  
-Not intent.  
-Not what “really happened.”
+Premise: Not conversation. Not intent. Not what “really happened.”
+The record.
 
-**The record.**
+Outcomes are driven by:
 
-If it is not preserved, it is unstable.  
-If it is not structured, it is avoidable.  
-If it is not sequenced correctly, it disappears on review.
+• What is preserved
+• What is reviewable
+• What is easy to rule on
+• What can be ignored
+• What provides an off‑ramp
 
----
 
-## What Actually Drives Outcomes
-
-Outcomes are often shaped by:
-
-- what is preserved  
-- what is reviewable  
-- what is easy to rule on  
-- what can be ignored  
-- what gives an off-ramp  
-
-The strongest argument does not always prevail.  
-The most structured record often does.
+The best argument does not always win; the most structured record often does.
 
 ---
 
-## The System View
+System View and Method
 
-Legal work is not just argument.  
-It is architecture.
+Legal work is architecture as much as argument. Key elements:
 
-- filings are positioning  
-- timelines are sequencing  
-- objections are preservation  
-- proposed orders are ruling paths  
-- archives are memory  
+• Filings are positioning.
+• Timelines are sequencing.
+• Objections are preservation.
+• Proposed orders are ruling paths.
+• Archives are institutional memory.
 
-Procedural literacy determines what survives.
 
----
+Method: Build → Test → Attack → Refine
 
-## The Reality
-
-You may not get a reply.  
-You may not get a hearing.  
-You may not get a second chance.
-
-The system must work under those conditions.
-
----
-
-## The Method
-
-**Build → Test → Attack → Refine**
-
-- build the record  
-- test for significance  
-- attack from adversarial perspective  
-- refine until resilient  
-
+1. Build a structured record.
+2. Test for legal significance.
+3. Attack adversarially to expose weaknesses.
+4. Refine until the record is resilient.
 Repeat until only what matters remains.
 
----
-
-## Framing
-
-Cases are often lost through:
-
-- side shows  
-- mischaracterization  
-- procedural drift  
-- narrative substitution  
-
-When this happens, the merits are not defeated.  
-They are displaced.
-
-LCES prevents that displacement.
 
 ---
 
-## Discipline
+Discipline and System Behavior
 
-Not everything true matters.  
-Not everything important is preserved.  
-Not everything preserved is reviewable.
+Not everything true matters. Not everything important is preserved. Not everything preserved is reviewable. Discipline aligns truth, preservation, and reviewability.
 
-Discipline aligns all three.
+LCES constantly asks:
 
----
+• Did the process follow its structure?
+• Did the record channel remain stable?
+• Did procedure replace substance?
+• Did the system shift without acknowledgment?
 
-## System Behavior
 
-LCES asks:
-
-- did the process follow its structure?  
-- did the record channel remain stable?  
-- did procedure replace substance?  
-- did the system shift without acknowledgment?  
-
-Procedural breakdowns often shape outcomes before they are visible.
+Procedural breakdowns shape outcomes long before they are obvious.
 
 ---
 
-## What LCES Is
+Human Control, AI, and Scope
 
-Not anti-lawyer.  
-Not anti-court.
+Human judgment controls strategy. AI assists drafting, mapping, and testing. AI is not judgment, authorship, or privilege. The human decides what the record becomes.
 
-It is:
+LCES is:
 
-- pro-structure  
-- pro-clarity  
-- pro-discipline  
-- pro-accountability  
+• Pro‑structure
+• Pro‑clarity
+• Pro‑discipline
+• Pro‑accountability
 
-It assumes systems behave through incentives, routines, and constraints.
 
----
-
-## Education
-
-LCES teaches:
-
-- how systems behave  
-- how records function  
-- how filings are processed  
-- how review actually works  
-
-Procedural literacy becomes a public skill.
+It is not anti‑lawyer or anti‑court. It is an operating discipline designed to work under real constraints: no reply, no hearing, no second chance.
 
 ---
 
-## Human + AI
+Promise and Bottom Line
 
-AI assists with drafting and analysis.  
-Humans control strategy and judgment.
+LCES does not promise victory or justice. It promises a method: a way to build records that are harder to ignore, harder to mischaracterize, and harder to erase.
 
-AI is not:
-- judgment  
-- authorship  
-- privilege  
-
-The human decides what the record becomes.
+LCES does not argue harder. It builds better.
+Filing is protest. Format is memory. The record is the remedy.
 
 ---
 
-## What This Is
+Disclaimer
 
-LCES is an operating discipline.
-
-The work is not finished when the argument sounds good.  
-It is finished when the record cannot be easily ignored or distorted.
-
----
-
-## What It Promises
-
-Not victory.  
-Not justice.
-
-A method.
-
-A way to build records that are:
-- harder to ignore  
-- harder to mischaracterize  
-- harder to erase  
-
----
-
-## Bottom Line
-
-**LCES does not argue harder.  
-It builds better.**
-
-**Filing is protest.  
-Format is memory.  
-The record is the remedy.**
+LCES is an educational system for procedural literacy and record‑building. It is not legal advice and does not create an attorney‑client relationship. Users must verify all materials, comply with applicable laws and rules, and avoid uploading confidential or protected information to cloud AI systems.
 
 flowchart TD
     A0["📘 **Pro Se Quick‑Start Guide**\n*iPad + Copilot Pro Workflow*"]
