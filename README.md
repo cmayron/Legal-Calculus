@@ -353,7 +353,8 @@ LCES is built on:
 This README presents all components in the correct operational order.
 
 ---
-LCES UNIFIED INITIALIZATION PROTOCOL
+**LCES UNIFIED INITIALIZATION PROTOCOL**
+
 Legal Calculus Educational System (LCES)
 Procedural-Literacy Operating System
 The Record is the Case. The Record is the Remedy.
