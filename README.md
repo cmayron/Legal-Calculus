@@ -73,7 +73,7 @@ LCES is more than a drafting tool; it is a cognitive framework designed to resha
 
 As the "People’s Law School," it focuses on three primary educational pillars:
 
-🧠 1. Multi-Perspective Analytical Modeling
+🧠 1. **Multi-Perspective Analytical Modeling**
 Most litigants fail because they only see the case from their own point of view. LCES trains the user to cycle through the Six Calculi to view the dispute from every seat in the courtroom:
 
 • The **Judicial Lens** (JC): Learn to identify what a judge needs to see (neutral facts and evidence) rather than what you want to say (emotion and narrative).
