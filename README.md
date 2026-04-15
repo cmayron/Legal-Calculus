@@ -1,4 +1,4 @@
-##Legal Calculus Educational System (LCES): 
+##Legal Calculus Educational System (LCES):##
 **The People’s Law School**
 No Tuition. 
 No Gatekeepers. 
