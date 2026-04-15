@@ -846,4 +846,17 @@ LCES is a procedural-literacy framework. It provides structural templates and or
 No Legal Advice: LCES does not provide legal advice or substitute for the counsel of a licensed attorney.
 No Privilege: Communications with AI tools are not privileged. Users must redact PII (Personally Identifiable Information) before use.
 User Liability: The user assumes all risk for filing decisions, deadline compliance, and the accuracy of AI-generated citations. The AI assists; the Human Decides.
+⚖️ License & Copyright
+Copyright (c) 2024-2026 Charles Mayron, MD.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+This work is licensed under the CC BY-NC-SA 4.0 license.
+1. You are free to:
+• Share: Copy and redistribute the material in any medium or format.
+• Adapt: Remix, transform, and build upon the material.
+2. Under the following terms:
+• Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+• Non-Commercial: You may not use the material for commercial purposes. This includes, but is not limited to, charging tuition, selling access to the repository, or using the system for paid legal services.
+• ShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+3. No additional restrictions:
+You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
