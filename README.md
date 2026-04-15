@@ -846,4 +846,10 @@ This Quick-Start block is the execution layer of LCES. It helps you take one iss
 > **Filing is protest. Format is memory. The record is the remedy.**
 
 ---
+"Educational Tool"
+Notice & User Agreement
+LCES is a procedural-literacy framework. It provides structural templates and organizational logic for educational purposes only.
+No Legal Advice: LCES does not provide legal advice or substitute for the counsel of a licensed attorney.
+No Privilege: Communications with AI tools are not privileged. Users must redact PII (Personally Identifiable Information) before use.
+User Liability: The user assumes all risk for filing decisions, deadline compliance, and the accuracy of AI-generated citations. The AI assists; the Human Decides.
 
