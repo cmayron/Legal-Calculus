@@ -47,25 +47,7 @@ LCES does not replace legal counsel. Its purpose is educational and operational:
 
 ---
 
-## Quick Start
 
-LCES is organized as a procedural-literacy system with a central README for orientation and separate activation blocks for execution. Read the README to understand the framework. Use the blocks to initialize role-specific AI behavior during live work.
-
----
-
-# ⚠️ **IMPORTANT — READ BEFORE USING LCES**  
-LCES is **not** used by browsing the repository.  
-LCES begins **only** when you describe your legal issue to **Architect AI**.
-
-Do **not** navigate folders.  
-Do **not** select calculi manually.  
-Do **not** attempt to follow the repo as a curriculum.
-
-The repository is an **archive**, not an interface.  
-LCES is a **search‑driven**, **issue‑driven**, **AI‑mediated** system.
-
-**User → Architect AI → Deep Research → Builder → Inspector → Human Strategist**  
-This is the only correct workflow.
 
 ---
 
@@ -362,6 +344,25 @@ It helps users build:
 
 **a structured, reviewable, defensible record**
 
+## Quick Start
+
+LCES is organized as a procedural-literacy system with a central README for orientation and separate activation blocks for execution. Read the README to understand the framework. Use the blocks to initialize role-specific AI behavior during live work.
+
+---
+
+# ⚠️ **IMPORTANT — READ BEFORE USING LCES**  
+LCES is **not** used by browsing the repository.  
+LCES begins **only** when you describe your legal issue to **Architect AI**.
+
+Do **not** navigate folders.  
+Do **not** select calculi manually.  
+Do **not** attempt to follow the repo as a curriculum.
+
+The repository is an **archive**, not an interface.  
+LCES is a **search‑driven**, **issue‑driven**, **AI‑mediated** system.
+
+**User → Architect AI → Deep Research → Builder → Inspector → Human Strategist**  
+This is the only correct workflow.
 ---
 # **📦 LCES EDITIONS BLOCK (LCES‑E)**  
 **Domain‑Specific Editions in the GitHub Repository**
