@@ -841,8 +841,7 @@ This output becomes the foundation for drafting, strategy, or further analysis.
 LCES is a procedural system, not a conversational system.  
 Operate with structure, precision, and execution discipline.
 
-**The Record is the Case.**  
-**The Record is the Remedy.**
+
 
 ---
 
