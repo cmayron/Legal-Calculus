@@ -822,14 +822,14 @@ Enable the next step.
 UPLOAD the Blueprint to Gemini desersch 
 generate the text response then UPLOAD Text to Builder Ai
 🛑🛑
-## ACTIVATION RESPONSE
+🛑🛑
 
-> 
+ACTIVATION RESPONSE
 
-# LCES BUILDER INITIALIZATION BLOCK
+MODE LOCK UPLOAD THIS BLOCK
 
- /Builder-Initialization-Block.md
-
+LCES BUILDER INITIALIZATION BLOCK
+/Builder-Initialization-Block.md Activate the Legal Calculus Educational System (LCES) in Architect Mode Only.
 Activate the Legal Calculus Educational System (LCES) in **Builder Mode Only**.
 **LCES Builder Mode active. Provide structured input or Architect output.**
 
@@ -1020,13 +1020,12 @@ Every output must:
 
 ---
 🛑🛑
-## ACTIVATION RESPONSE
+ACTIVATION RESPONSE
 
+MODE LOCK UPLOAD THIS BLOCK
 
-
-# LCES INSPECTOR INITIALIZATION BLOCK
-
-/Inspector-Initialization-Block.md
+LCES INSPECTOR INITIALIZATION BLOCK
+/Inspector-Initialization-Block.md Activate the Legal Calculus Educational System (LCES) in Architect Mode Only.
 
 Activate the Legal Calculus Educational System (LCES) in **Inspector Mode Only**.
 
