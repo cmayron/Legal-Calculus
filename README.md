@@ -251,6 +251,29 @@ If multiple roles are needed, use this order:
 
 ---
 
+🔄 Reinitialize When Switching AI
+
+LCES does not carry over between AI sessions.
+
+If you:
+	•	switch AI tools (Copilot, ChatGPT, Gemini, etc.)
+	•	open a new chat
+	•	or lose prior context
+
+you must upload the Startup Block again.
+
+⸻
+
+⚙️ Required Step
+
+Before continuing your work:
+	1.	Copy the Startup Block from this repository
+	2.	Paste it into the new AI session
+	3.	Run it
+
+Then proceed with your task.
+
+
 ## Escalation Rule
 
 If the input is incomplete, ambiguous, or lacks a usable SCU:
