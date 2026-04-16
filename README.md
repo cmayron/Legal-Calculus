@@ -25,10 +25,6 @@ LCES does not replace legal counsel. Its purpose is educational and operational:
 
 LCES is organized as a procedural-literacy system with a central README for orientation and separate activation blocks for execution. Read the README to understand the framework. Use the blocks to initialize role-specific AI behavior during live work.
 
-Here is a **clean, authoritative TOP‑OF‑README WARNING BLOCK** you can paste directly at the very beginning of the README.
-
-It is short, sharp, and sets the boundary conditions for the entire system.
-
 ---
 
 # ⚠️ **IMPORTANT — READ BEFORE USING LCES**  
