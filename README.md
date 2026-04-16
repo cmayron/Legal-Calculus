@@ -4,14 +4,12 @@ Legal Calculus Educational System (LCES)
 
 ---
 
-Here is your **shorter, punchier, high‑signal version** — built for instant comprehension and fast onboarding energy:
 
----
 
 # ⚡️ Legal Calculus Educational System (LCES)  
 ### *What this repo actually is — in one punch*
 
-This repo **is the school**.  
+This reposit **is the the library **.  
 The README and Startup Block **are the first lessons**.  
 Copilot/Blueprint AI **is your Architect**.  
 Search **is your retrieval engine**.
@@ -24,7 +22,7 @@ Everything here is a **teaching plate** you can plug directly into your Blueprin
 
 - **Read the README** → orientation + core doctrine  
 - **Run the Startup Block** → initialize your Blueprint  
-- **Search the repo** → find the exact module or workflow you need  
+- **Search legal-calculus via search** → find the exact module or workflow you need  
 - **Use Copilot** → summarize, map, generate, extend  
 
 LCES is a **living educational system**, not a document dump.
@@ -32,12 +30,11 @@ LCES is a **living educational system**, not a document dump.
 ---
 
 ## 🗺 Repo = Campus Map  
-- **/LCES** — doctrine  
-- **/FG** — field guides  
-- **/Editions** — jurisdiction tracks  
-- **/Workflows** — procedural engines  
+the essential lessions are Lawyer calculus and Judicial calculus modules 
+helpful is the Field Guide modules the how
 
-Every folder is a **classroom**.
+
+Every folder is a **optional lesson**.
 
 ---
 
