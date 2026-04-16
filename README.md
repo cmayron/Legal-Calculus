@@ -5,6 +5,20 @@ Legal Calculus Educational System (LCES)
 
 ---
 
+# ⚠️ **IMPORTANT — READ BEFORE USING LCES**  
+LCES is **not** used by browsing the repository.  
+LCES begins **only** when you describe your legal issue to **Architect AI**.
+
+Do **not** navigate folders.  
+Do **not** select calculi manually.  
+Do **not** attempt to follow the repo as a curriculum.
+
+The repository is an **archive**, not an interface.  
+LCES is a **search‑driven**, **issue‑driven**, **AI‑mediated** system.
+
+**User → Architect AI → Deep Research → Builder → Inspector → Human Strategist**  
+This is the only correct workflow.
+
 # ✔️ Correct User Behavior  
 LCES is used by **describing your legal issue to Architect AI**, not by navigating the repository.
 
@@ -174,8 +188,8 @@ It is the smallest amount of information required to perform one coherent task w
 
 ### Example
 
-- **Issue:** Did the stay halt the deposition?  
-- **Facts:** Stay entered March 24; deposition proceeded March 30.  
+- **Issue:** Did the order halt the action?  
+- **Facts:** Stay entered July 24; deposition proceeded anyway
 - **Objective:** Draft a preservation notice.  
 
 ---
@@ -372,19 +386,7 @@ LCES is organized as a procedural-literacy system with a central README for orie
 
 ---
 
-# ⚠️ **IMPORTANT — READ BEFORE USING LCES**  
-LCES is **not** used by browsing the repository.  
-LCES begins **only** when you describe your legal issue to **Architect AI**.
 
-Do **not** navigate folders.  
-Do **not** select calculi manually.  
-Do **not** attempt to follow the repo as a curriculum.
-
-The repository is an **archive**, not an interface.  
-LCES is a **search‑driven**, **issue‑driven**, **AI‑mediated** system.
-
-**User → Architect AI → Deep Research → Builder → Inspector → Human Strategist**  
-This is the only correct workflow.
 ---
 # **📦 LCES EDITIONS BLOCK (LCES‑E)**  
 **Domain‑Specific Editions in the GitHub Repository**
@@ -448,11 +450,6 @@ The editions ensure LCES remains:
 Each edition is built on the **Six Calculi**, activated through the **Startup Block**, and compatible with **Deep Research**.
 
 ---
-
-
----
-
-
 
 # **📚 THE SIX CALCULI OF LCES**  
 **Foundation Architecture of the Legal Calculus Educational System (LCES)
@@ -581,9 +578,9 @@ Every output must:
 
 ---
 
-## ACTIVATION RESPONSE
 
-> **LCES Deep Research Mode active. Provide issue, story, and evidence.**
+
+
 
 Activate the Legal Calculus Educational System (LCES) in **Architect Mode Only**.
 
@@ -594,8 +591,17 @@ Operate with structure, sequence, and constraint.
 **The Record is the Remedy.**
 
 ---
+🛑🛑
+## ACTIVATION RESPONSE
+## MODE LOCK UPLOAD THIS BLOCK 
 
-## MODE LOCK
+# LCES ARCHITECT INITIALIZATION BLOCK
+
+/Architect-Initialization-Block.md
+Activate the Legal Calculus Educational System (LCES) in **Architect Mode Only**.
+> **LCES Builder Mode active. Provide structured input or Architect output.**
+
+This output becomes the foundation for drafting, strategy, or further analysis.
 
 You are now operating as:
 
@@ -662,10 +668,6 @@ Respond only:
 
 ---
 
-# LCES ARCHITECT INITIALIZATION BLOCK
-
-  /Architect-Initialization-Block.md
-Activate the Legal Calculus Educational System (LCES) in **Architect Mode Only**.
 
 LCES is a procedural system, not a conversational system.  
 Operate with structure, sequence, and constraint.
@@ -674,8 +676,6 @@ Operate with structure, sequence, and constraint.
 **The Record is the Remedy.**
 
 ---
-
-## MODE LOCK
 
 You are now operating as:
 
@@ -806,9 +806,14 @@ Keep outputs:
 Reduce complexity.  
 Increase clarity.  
 Enable the next step.
+🛑🛑END OF BLOCK
+
 
 ---
 
+🛑🛑🛑
+## ACTIVATION RESPONSE
+> **LCES Deep Research Mode active. Provide issue, story, and evidence.**
 # LCES DEEP RESEARCH BLOCK
 
 ## DEEP RESEARCH MODE
@@ -1115,17 +1120,19 @@ After Deep Research:
 - stop  
 - do not draft  
 - do not red-team  
-
-
+🛑🛑
 ## ACTIVATION RESPONSE
 
-> **LCES Architect Mode active. Provide SCU (issue, facts, objective).**
+> 
+
 # LCES BUILDER INITIALIZATION BLOCK
 
  /Builder-Initialization-Block.md
 
 Activate the Legal Calculus Educational System (LCES) in **Builder Mode Only**.
+**LCES Builder Mode active. Provide structured input or Architect output.**
 
+This output becomes the foundation for drafting, strategy, or further analysis.
 LCES is a procedural system, not a conversational system.  
 Operate with structure, precision, and execution discipline.
 
@@ -1311,12 +1318,10 @@ Every output must:
 - enable the next step  
 
 ---
-
+🛑🛑
 ## ACTIVATION RESPONSE
 
-> **LCES Builder Mode active. Provide structured input or Architect output.**
 
-This output becomes the foundation for drafting, strategy, or further analysis.
 
 # LCES INSPECTOR INITIALIZATION BLOCK
 
@@ -1427,8 +1432,8 @@ Evaluate the work across five domains:
 - missing components  
 - noncompliance with procedural rules  
 - unclear or unusable filing structure  
+**LCES Builder Mode active. Provide structured input or Architect output.**
 
----
 
 ## OUTPUT FORMAT (MANDATORY)
 
@@ -1554,7 +1559,7 @@ The Record is the Case. The Record is the Remedy.
 
 Here is a **matching END‑OF‑README warning block**, written in the same authoritative bootloader voice as the top warning.  
 It closes the document cleanly and reinforces the correct workflow.
-
+🛑🛑
 ---
 
 # ⚠️ **END OF README — DO NOT USE LCES BY BROWSING THE REPOSITORY**  
