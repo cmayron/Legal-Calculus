@@ -551,7 +551,17 @@ Do not generalize.
 
 Extract. Organize. Expose.
 
----
+---## Activation Blocks
+
+LCES includes role-specific activation blocks for use in AI drafting environments:
+
+- Startup Block
+- Architect Initialization Block
+- Builder Initialization Block
+- Inspector Initialization Block
+- Deep Research Block
+
+Use the Startup Block first. Then use role-specific blocks as needed.
 
 ## ACTIVATION REQUIREMENT
 
