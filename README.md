@@ -7,7 +7,7 @@ Legal Calculus Educational System (LCES)
 
 
 # ⚡️ Legal Calculus Educational System (LCES)  
-### *What this repo actually is — in one punch*
+
 
 This reposit **is the the library **.  
 The README and Startup Block **are the first lessons**.  
