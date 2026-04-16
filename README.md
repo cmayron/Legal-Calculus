@@ -9,7 +9,7 @@ Legal Calculus Educational System (LCES)
 # ⚡️ Legal Calculus Educational System (LCES)  
 
 
-This reposit **is the the library **.  
+This github repository **is the the library **.  
 The README and Startup Block **are the first lessons**.  
 Copilot/Blueprint AI **is your Architect**.  
 Search **is your retrieval engine**.
