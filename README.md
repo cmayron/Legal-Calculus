@@ -455,20 +455,6 @@ They are the structural backbone of the repository and all LCES workflows.
 
 # **LEGAL CALCULUS EDUCATIONAL SYSTEM (LCES)**  
 
-
-The Legal Calculus Educational System (LCES) is a procedural‑literacy framework deployed through this GitHub repository.  
-It provides a structured, teachable, auditable environment for analyzing disputes, mapping processes, and supporting human judgment.
-
-LCES is built on:
-  /Startup-Block.md
-  
-- a unified **Startup Block**,  
-- the **Six Calculi architecture**,  
-- multiple **domain‑specific editions**, and  
-- an optional **Deep Research engine** for structured analysis.
-
-#Here is the **first paragraph only**, clean and ready to paste:
-
 ---
 
 # 🚀 START HERE  
