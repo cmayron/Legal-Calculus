@@ -1,92 +1,63 @@
 Legal Calculus Educational System (LCES)
+A procedural-literacy framework for building, testing, and preserving legal work product.
 
-**A procedural-literacy framework for building, testing, and preserving legal work product**
+This repository is the LCES library.
+The README and Startup Blocks are the first lessons and operating instructions.
+Copilot or Blueprint AI functions as Architect.
+Search functions as retrieval.
 
----
+The README contains teaching material and startup blocks that can be inserted directly into your Blueprint.
 
-This github repository **is the the library **.  
-The README and Startup Block **are the first lessons**.  
-Copilot/Blueprint AI **is your Architect**.  
-Search **is your retrieval engine**.
+When changing AI roles, upload the 🛑 block for that role to initialize the correct mode.
 
-Everything in README is a **teaching and startup
- plate** you can plug directly into your Blueprint.
+HOW TO USE THIS REPOSITORY
+	•	Read the README.
+	•	Run the Startup Block.
+	•	Search legal-calculus for the module or workflow you need.
+	•	Use Copilot to summarize, map, generate, and extend.
 
-When you change Ai upload the block marked 🛑 in Readme specific to that Ai role so its initialized
----
+LCES is a living educational system, not a document dump.
 
-## 🔑 How to use this repo (fast)
+REPOSITORY STRUCTURE
 
-- **Read the README** → orientation + core doctrine  
-- **Run the Startup Block** → initialize your Blueprint  
-- **Search legal-calculus via search** → find the exact module or workflow you need  
-- **Use Copilot** → summarize, map, generate, extend  
+Think of the repository as a campus map.
+The core lessons are Lawyer Calculus and Judicial Calculus.
+The Field Guide modules provide practical guidance.
+All folders are optional lessons, not a required sequence.
 
-LCES is a **living educational system**, not a document dump.
+IMPORTANT — READ BEFORE USING LCES
 
----
+Do not use LCES by browsing the repository.
+LCES begins when you present your legal issue to Architect AI.
 
-## 🗺 Repo = Campus Map  
-the essential lessions are Lawyer calculus and Judicial calculus modules 
-helpful is the Field Guide modules the how
+Do not navigate folders as if they are the workflow.
+Do not manually choose calculi.
+Do not treat the repository as a curriculum or template bank.
 
+The repository is an archive.
+The interface is Architect AI.
 
-Every folder is a **optional lesson**.
+WORKFLOW
 
----
+User → Architect AI → Deep Research → Builder → Inspector → Human Strategist
 
-## 🎯 Why it works  
-LCES teaches procedural literacy by design.  
-Copilot builds your Blueprint from the materials you retrieve.  
-Search keeps everything findable, teachable, and expandable.
+USER SEQUENCE
+	•	Describe the situation in plain language.
+	•	Let Architect AI identify the issue and the Smallest Complete Unit (SCU).
+	•	Let Architect AI determine the correct calculus and edition.
+	•	Use Deep Research only when triggered.
+	•	Let Builder AI draft from Architect structure.
+	•	Use Inspector AI to test the output.
+	•	Retain final judgment as Human Strategist.
 
----
+LCES is search-driven, issue-driven, and AI-mediated.
 
-If you want, I can now generate an **even tighter micro‑version**, a **ceremonial version**, or a **LinkedIn‑optimized version**.
+Turn raw facts into structured record.
+Turn structured record into usable filings.
+Turn usable filings into preserved procedural leverage.
 
-# ⚠️ **IMPORTANT — READ BEFORE USING LCES**  
-LCES is **not** used by browsing the repository.  
-LCES begins **only** when you describe your legal issue to **Architect AI**.
-
-Do **not** navigate folders.  
-Do **not** select calculi manually.  
-Do **not** attempt to follow the repo as a curriculum.
-
-The repository is an **archive**, not an interface.  
-LCES is a **search‑driven**, **issue‑driven**, **AI‑mediated** system.
-
-**User → Architect AI → Deep Research → Builder → Inspector → Human Strategist**  
-This is the only correct workflow.
-
-# ✔️ Correct User Behavior  
-LCES is used by **describing your legal issue to Architect AI**, not by navigating the repository.
-
-The correct sequence is:
-
-**User → Architect AI → Deep Research → Builder → Inspector → Human Strategist**
-
-Follow these rules:
-
-- Start by explaining your situation in plain language  
-- Let Architect AI extract the issue and identify the SCU  
-- Allow Architect AI to determine the correct calculus and edition  
-- Allow Deep Research to activate only when triggered  
-- Let Builder AI draft only from Architect structure  
-- Use Inspector AI to test, not rewrite  
-- Make all final decisions as the Human Strategist  
-
-Do **not** browse folders.  
-Do **not** select calculi manually.  
-Do **not** treat the repo as a template library.
-
-LCES is **search‑driven**, **issue‑driven**, and **AI‑mediated**.
-Turn raw facts into structured record.  
-Turn structured record into usable filings.  
-Turn usable filings into procedural leverage.
-
-**The record is the case.**  
-**The record is the remedy.**
-
+The record is the case.
+The record is the remedy.
 ---
 
 ## Overview
