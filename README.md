@@ -1,8 +1,7 @@
 # Legal Calculus Educational System (LCES)
 
 **A procedural-literacy framework for building, testing, and preserving legal work product**
-Here is a **clean, standalone “Correct User Behavior” block** you can paste anywhere in the README.  
-It matches the tone and structure of your other warnings.
+
 
 ---
 
