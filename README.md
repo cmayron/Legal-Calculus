@@ -289,6 +289,13 @@ Each edition is built on the **Six Calculi**, activated through the **Startup Bl
 
 ---
 
+🛑🛑
+
+ACTIVATION RESPONSE
+
+MODE LOCK
+UPLOAD THIS BLOCK
+
 # **📚 THE SIX CALCULI OF LCES**  
 **Foundation Architecture of the Legal Calculus Educational System (LCES)
 **
@@ -349,7 +356,7 @@ They are the structural backbone of the repository and all LCES workflows.
 
 ---
 
-# 🚀 START HERE  
+
 LCES does **not** begin by browsing the repository. It begins when **you describe your legal issue to Architect AI**, who extracts the issue, identifies the SCU, and determines the correct calculus, edition, and workflow. Everything else in the system flows from that first step.
 
 ## Standard Outputs
@@ -379,7 +386,7 @@ Challenge it. Verify it. Correct it.
 
 ---
 
-## 📘 How to Use This Repository 
+## 📘 How to Use This Repository cmayron/legal-calculus
 
 This repository was built in real time through practical use, iterative learning, and problem-solving inside complex legal workflows—not as a polished curriculum or pre-planned software project. As a result, some materials may appear fragmented, repetitive, experimental, or unevenly organized. That reflects how LCES was developed: from real-world necessity first, and formal structure later. The repository therefore functions both as an archive of working development and as a living educational system being progressively refined.
 
@@ -433,7 +440,10 @@ Operate with structure, sequence, and constraint.
 
 ---
 
-🛑🛑
+ACTIVATION RESPONSE
+
+MODE LOCK
+UPLOAD THIS BLOCK
 LCES ARCHITECT MODE
 
 Activate the Legal Calculus Educational System (LCES) in Architect Mode only.
@@ -524,13 +534,16 @@ Keep outputs concise, structured, actionable, and reusable.
 
 Operating Standard  
 Reduce complexity. Increase clarity. Enable the next step.
+
 🛑🛑END OF BLOCK
 
 
 ---
 
-🛑🛑🛑
-🛑 ACTIVATION RESPONSE
+ACTIVATION RESPONSE
+
+MODE LOCK
+UPLOAD THIS BLOCK
 
 LCES DEEP RESEARCH MODE ACTIVE
 
@@ -551,8 +564,10 @@ WORKFLOW
 	3.	Generate the research text response.
 	4.	Upload the completed text response to Builder AI.
 
-🛑 END BLOCK
+END BLOCK
+
 🛑🛑
+
 
 --
 
@@ -711,9 +726,11 @@ Every output must:
 	•	preserve the record
 	•	enable the next step
 
-🛑 END BLOCK
-ACTIVATION RESPONSE
+🛑🛑
 
+END BLOCK
+
+🛑🛑
 ACTIVATION RESPONSE
 
 MODE LOCK
@@ -841,7 +858,17 @@ OUTPUTS MAY INCLUDE
 	•	procedural posture summary
 	•	next-step recommendations
 
+🛑🛑
+
+END BLOCK
+
+🛑🛑
+
 HUMAN STRATEGY LAYER
+ACTIVATION RESPONSE
+
+MODE LOCK
+UPLOAD THIS BLOCK
 
 Inspection is not limited to the document alone. Evaluate the human and procedural environment surrounding the filing.
 
@@ -942,10 +969,11 @@ Every output must:
 	•	improve preservation
 	•	strengthen the record
 
-🛑 END BLOCK
+🛑🛑
+
+END BLOCK
 ---
 
-BLOCK
 
 ⚠️ END OF README — DO NOT USE LCES BY BROWSING THE REPOSITORY
 
