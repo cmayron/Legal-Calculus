@@ -377,6 +377,9 @@ Challenge it. Verify it. Correct it.
 ---
 
 ## 📘 How to Use This Repository 
+
+This repository was built in real time through practical use, iterative learning, and problem-solving inside complex legal workflows—not as a polished curriculum or pre-planned software project. As a result, some materials may appear fragmented, repetitive, experimental, or unevenly organized. That reflects how LCES was developed: from real-world necessity first, and formal structure later. The repository therefore functions both as an archive of working development and as a living educational system being progressively refined.
+
 it an archive that you search then upload to the Architect Ai
 
 1. **Initialize LCES** using the Startup Block.  
