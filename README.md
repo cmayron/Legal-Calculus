@@ -43,10 +43,6 @@ This is the only correct workflow.
 
 ---
 
-If you want, I can generate a matching **END‑OF‑README warning**, a **visual banner**, or a **shorter version** for GitHub’s mobile view.
-
----
-
 ## Disclaimer
 
 LCES is an educational and procedural-literacy system. It is designed to help users organize facts, understand workflow, improve record discipline, and generate draft materials for review.
