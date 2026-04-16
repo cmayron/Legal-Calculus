@@ -1496,6 +1496,31 @@ The Record is the Case. The Record is the Remedy.
 
 ## Conclusion
 
+Here is a **matching END‑OF‑README warning block**, written in the same authoritative bootloader voice as the top warning.  
+It closes the document cleanly and reinforces the correct workflow.
+
+---
+
+# ⚠️ **END OF README — DO NOT USE LCES BY BROWSING THE REPOSITORY**  
+If you reached this point by scrolling, remember:
+
+LCES is **not** a folder‑driven system.  
+LCES is **not** a template library.  
+LCES is **not** a curriculum to click through.
+
+The repository is an **archive**.  
+The interface is **Architect AI**.
+
+Correct workflow:
+
+**User → Architect AI → Deep Research → Builder → Inspector → Human Strategist**
+
+If you are not starting with Architect AI, you are **not** using LCES as designed.
+
+Return to the top.  
+Begin with your issue.  
+Activate Architect AI.
+
 The Legal Calculus Educational System (LCES) is a procedural-literacy framework for turning raw facts into structured record, structured record into usable filings, and usable filings into preserved procedural leverage.
 
 LCES is built on a simple principle:
