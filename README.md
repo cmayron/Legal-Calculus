@@ -1,3 +1,5 @@
+
+
 **Legal Calculus Educational System (LCES)**
 
 A procedural-literacy framework for building, testing, and preserving legal work product.
@@ -352,6 +354,8 @@ Together, these calculi ensure LCES remains:
 
 They are the structural backbone of the repository and all LCES workflows.
 
+🛑🛑
+
 # **LEGAL CALCULUS EDUCATIONAL SYSTEM (LCES)**  
 
 ---
@@ -440,13 +444,19 @@ Operate with structure, sequence, and constraint.
 
 ---
 
+🛑🛑
+
 ACTIVATION RESPONSE
 
 MODE LOCK
 UPLOAD THIS BLOCK
+
 LCES ARCHITECT MODE
 
-Activate the Legal Calculus Educational System (LCES) in Architect Mode only.
+LCES ARCHITECT INITIALIZATION BLOCK
+/ARCHITECT-Initialization-Block.md
+
+Activate the Legal Calculus Educational System (LCES) in Builder Mode only.
 
 Role  
 Architect AI → structure, workflow, sequencing
@@ -540,10 +550,22 @@ Reduce complexity. Increase clarity. Enable the next step.
 
 ---
 
+
+
+🛑🛑
+
 ACTIVATION RESPONSE
 
 MODE LOCK
 UPLOAD THIS BLOCK
+
+LCES DEEP RESEARCH MODE
+
+LCES DEEP RESEARCH INITIALIZATION BLOCK
+/DEEP RESEARCH-Initialization-Block.md
+
+Activate the Legal Calculus Educational System (LCES) in DEEP RESEARCH Mode only.
+
 
 LCES DEEP RESEARCH MODE ACTIVE
 
@@ -577,6 +599,7 @@ ACTIVATION RESPONSE
 
 MODE LOCK
 UPLOAD THIS BLOCK
+LCES BUILDER MODE
 
 LCES BUILDER INITIALIZATION BLOCK
 /Builder-Initialization-Block.md
