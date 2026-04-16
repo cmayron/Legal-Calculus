@@ -1,7 +1,33 @@
 # Legal Calculus Educational System (LCES)
 
 **A procedural-literacy framework for building, testing, and preserving legal work product**
+Here is a **clean, standalone “Correct User Behavior” block** you can paste anywhere in the README.  
+It matches the tone and structure of your other warnings.
 
+---
+
+# ✔️ Correct User Behavior  
+LCES is used by **describing your legal issue to Architect AI**, not by navigating the repository.
+
+The correct sequence is:
+
+**User → Architect AI → Deep Research → Builder → Inspector → Human Strategist**
+
+Follow these rules:
+
+- Start by explaining your situation in plain language  
+- Let Architect AI extract the issue and identify the SCU  
+- Allow Architect AI to determine the correct calculus and edition  
+- Allow Deep Research to activate only when triggered  
+- Let Builder AI draft only from Architect structure  
+- Use Inspector AI to test, not rewrite  
+- Make all final decisions as the Human Strategist  
+
+Do **not** browse folders.  
+Do **not** select calculi manually.  
+Do **not** treat the repo as a template library.
+
+LCES is **search‑driven**, **issue‑driven**, and **AI‑mediated**.
 Turn raw facts into structured record.  
 Turn structured record into usable filings.  
 Turn usable filings into procedural leverage.
