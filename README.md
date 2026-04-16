@@ -591,6 +591,7 @@ Operate with structure, sequence, and constraint.
 **The Record is the Remedy.**
 
 ---
+
 🛑🛑
 ## ACTIVATION RESPONSE
 ## MODE LOCK UPLOAD THIS BLOCK 
@@ -822,6 +823,9 @@ Enable the next step.
 UPLOAD the Blueprint to Gemini desersch 
 generate the text response then UPLOAD Text to Builder Ai
 🛑🛑
+
+--
+
 🛑🛑
 
 ACTIVATION RESPONSE
@@ -1019,6 +1023,7 @@ Every output must:
 - enable the next step  
 
 ---
+
 🛑🛑
 ACTIVATION RESPONSE
 
