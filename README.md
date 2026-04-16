@@ -467,25 +467,12 @@ LCES is built on:
 - multiple **domain‑specific editions**, and  
 - an optional **Deep Research engine** for structured analysis.
 
-## 📁 Repository Map
+#Here is the **first paragraph only**, clean and ready to paste:
 
-Recommended navigation structure:
+---
 
-```text
-/LCES
-  /LC            Core Calculus
-  /LCa           Lawyer Calculus
-  /JC            Judicial Calculus
-  /LCA           Advanced Calculus
-  /FG            Field Guides
-  /FGA           Advanced Field Guides
-  /Editions
-    /SmallClaims
-    /FamilyCourt
-    /TrustEstate
-  /DeepResearch
-  /Plates
-  /Workflows
+# 🚀 START HERE  
+LCES does **not** begin by browsing the repository. It begins when **you describe your legal issue to Architect AI**, who extracts the issue, identifies the SCU, and determines the correct calculus, edition, and workflow. Everything else in the system flows from that first step.
 
 ## Standard Outputs
 
