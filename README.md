@@ -1,400 +1,225 @@
 Legal Calculus Educational System (LCES)
+
 A procedural-literacy framework for building, testing, and preserving legal work product.
 
-This repository is the LCES library.
-The README and Startup Blocks are the first lessons and operating instructions.
-Copilot or Blueprint AI functions as Architect.
-Search functions as retrieval.
+Overview
 
-The README contains teaching material and startup blocks that can be inserted directly into your Blueprint.
+LCES is an educational framework for organizing facts, structuring workflow, preserving the record, and generating draft materials for review.
 
-When changing AI roles, upload the 🛑 block for that role to initialize the correct mode.
-
-HOW TO USE THIS REPOSITORY
-	•	Read the README.
-	•	Run the Startup Block.
-	•	Search legal-calculus for the module or workflow you need.
-	•	Use Copilot to summarize, map, generate, and extend.
-
-LCES is a living educational system, not a document dump.
-
-REPOSITORY STRUCTURE
-
-Think of the repository as a campus map.
-The core lessons are Lawyer Calculus and Judicial Calculus.
-The Field Guide modules provide practical guidance.
-All folders are optional lessons, not a required sequence.
-
-IMPORTANT — READ BEFORE USING LCES
-
-Do not use LCES by browsing the repository.
-LCES begins when you present your legal issue to Architect AI.
-
-Do not navigate folders as if they are the workflow.
-Do not manually choose calculi.
-Do not treat the repository as a curriculum or template bank.
-
-The repository is an archive.
-The interface is Architect AI.
-
-WORKFLOW
-
-User → Architect AI → Deep Research → Builder → Inspector → Human Strategist
-
-USER SEQUENCE
-	•	Describe the situation in plain language.
-	•	Let Architect AI identify the issue and the Smallest Complete Unit (SCU).
-	•	Let Architect AI determine the correct calculus and edition.
-	•	Use Deep Research only when triggered.
-	•	Let Builder AI draft from Architect structure.
-	•	Use Inspector AI to test the output.
-	•	Retain final judgment as Human Strategist.
-
-LCES is search-driven, issue-driven, and AI-mediated.
-
-Turn raw facts into structured record.
-Turn structured record into usable filings.
-Turn usable filings into preserved procedural leverage.
-
-The record is the case.
-The record is the remedy.
----
-
-## Overview
-
-The Legal Calculus Educational System (LCES) is an educational framework for organizing facts, structuring workflow, preserving the record, and generating draft materials for review.
-
-LCES is designed for users working inside complex legal processes where success often depends not only on the strength of the underlying issue, but on sequencing, preservation, clarity, and reviewability. It helps users convert scattered information into structured work product that can be refined, tested, organized, and preserved.
+It is designed for people working inside complex legal processes, where outcomes often depend not only on the underlying issue, but also on sequencing, preservation, clarity, and reviewability. LCES helps convert scattered information into structured work product that can be refined, tested, organized, and preserved.
 
 LCES does not replace legal counsel. Its purpose is educational and operational: to help users think clearly, work systematically, and build a reviewable record.
 
----
+Core Idea
 
+LCES is built around one governing principle:
 
+The record is the case.
+The record is the remedy.
 
----
+Its purpose is not to argue harder. Its purpose is to help users:
+	•	identify the issue
+	•	structure the record
+	•	preserve what matters
+	•	test for weakness
+	•	produce reviewable work product
 
-## Disclaimer
+What LCES Is
 
-LCES is an educational and procedural-literacy system. It is designed to help users organize facts, understand workflow, improve record discipline, and generate draft materials for review.
+LCES is not just a set of prompts, templates, or notes. It is a working framework for turning:
+	•	confusion → sequence
+	•	facts → filing
+	•	filing → preservation
+	•	preservation → reviewable record
 
-LCES is **not** a law firm, legal clinic, or substitute for licensed legal counsel. Nothing in this repository constitutes legal advice, creates an attorney-client relationship, or guarantees any legal outcome.
+Many legal problems are not lost because the issue is weak. They are lost because the matter is poorly structured, poorly sequenced, poorly preserved, or poorly presented. LCES exists to reduce that failure mode.
+
+Format is memory.
+Structure is leverage.
+Preservation is power.
+
+The SCU Method
+
+LCES uses the Smallest Complete Unit (SCU) method to reduce overload and improve precision.
+
+An SCU is the smallest amount of information needed to perform one coherent task without confusion, assumption, or narrative drift.
+
+A usable SCU contains:
+	•	issue
+	•	facts
+	•	objective
+
+Example:
+	•	Issue: Did the order halt the action?
+	•	Facts: Stay entered July 24; deposition proceeded anyway.
+	•	Objective: Draft a preservation notice.
+
+Operating Loop
+
+LCES uses a repeatable workflow:
+
+Retrieve → Think → Transform → Evaluate → Commit
+	•	Retrieve: gather relevant facts, excerpts, dates, and objectives
+	•	Think: identify the issue, sequence, and controlling procedural problem
+	•	Transform: create the needed output
+	•	Evaluate: test the result for weakness, omission, or drift
+	•	Commit: save, label, and preserve the finished work product
+
+Role Model
+
+LCES works best when roles remain distinct.
+
+Architect
+
+Responsible for structure.
+
+Typical outputs:
+	•	issue framing
+	•	outline
+	•	workflow design
+	•	chronology
+	•	packet structure
+
+Builder
+
+Responsible for drafting.
+
+Typical outputs:
+	•	motions
+	•	notices
+	•	declarations
+	•	argument sections
+	•	preservation language
+
+Inspector
+
+Responsible for analysis.
+
+Typical outputs:
+	•	weakness detection
+	•	gap identification
+	•	adversarial testing
+	•	procedural risk review
+
+Output Boundary Rule
+
+Each role should produce only its assigned output:
+	•	Architect → structure only
+	•	Builder → drafting only
+	•	Inspector → analysis only
+
+Do not blend roles unless a sequenced workflow is explicitly requested.
+
+Default sequence:
+
+Architect → Builder → Inspector
+
+Escalation Rule
+
+If the input is incomplete, ambiguous, or lacks a usable SCU:
+	•	do not proceed
+	•	do not assume
+	•	do not generate partial output
+
+Respond with:
+
+SCU incomplete. Specify:
+	•	issue
+	•	facts
+	•	objective (structure / draft / review)
+
+Default to Architect mode when resolving ambiguity.
+
+Human Control
+
+AI may assist with structuring, drafting, and testing. It does not replace judgment.
+
+Users remain responsible for verifying:
+	•	facts
+	•	law
+	•	deadlines
+	•	citations
+	•	formatting
+	•	filing decisions
+
+AI can accelerate workflow. It cannot assume responsibility for the result.
+
+Record Discipline
+
+LCES depends on disciplined record handling. That includes:
+	•	preserving chronology
+	•	versioning drafts
+	•	separating fact from conclusion
+	•	labeling materials clearly
+	•	organizing work for review, not just immediate use
+
+The goal is not simply to generate text. The goal is to create work product that remains usable later.
+
+What LCES Produces
+
+Depending on the task, LCES can help generate:
+	•	outlines
+	•	chronologies
+	•	draft filings
+	•	notices
+	•	declarations
+	•	review matrices
+	•	adversarial tests
+	•	packet structures
+
+All outputs should be treated as drafts requiring human review.
+
+What LCES Does Not Do
+
+LCES does not:
+	•	provide legal advice
+	•	replace licensed counsel
+	•	guarantee outcomes
+	•	ensure accuracy automatically
+	•	make cloud environments secure
+	•	convert draft output into filing-ready work without review
+
+Reinitialize When Switching AI
+
+LCES does not carry over automatically between AI sessions.
+
+If you:
+	•	switch AI tools
+	•	open a new chat
+	•	lose prior context
+
+upload the Startup Block again before continuing.
+
+Disclaimer
+
+LCES is an educational and procedural-literacy system. It is not a law firm, legal clinic, or substitute for licensed counsel. Nothing in this repository constitutes legal advice, creates an attorney-client relationship, or guarantees any outcome.
 
 Users are responsible for verifying all law, rules, deadlines, citations, formatting requirements, procedural requirements, and filing decisions before relying on or submitting any output.
 
 AI-assisted outputs may contain errors, omissions, formatting defects, inaccurate citations, or incomplete analysis. Every output must be independently reviewed, validated, and revised before use.
 
-Do **not** upload confidential, privileged, protected, sealed, or sensitive material into cloud AI tools. Redact personal identifiers and protected information before copy-paste. AI chat logs and cloud drafting environments are **not privileged by default** and should not be treated as secure evidence repositories.
-
-Use LCES as a structuring, drafting, and procedural-literacy tool. Apply independent judgment before filing, serving, sharing, or relying on any output.
-
----
-
-## What LCES Is
-
-LCES is not merely a collection of prompts, templates, or notes. It is a working framework for turning disorder into structure.
-
-It helps users move from:
-
-- confusion → sequence  
-- facts → filing  
-- filing → preservation  
-- preservation → reviewable record  
-
-Its purpose is not to “argue harder.” Its purpose is to help users:
-
-- identify the issue  
-- preserve the record  
-- structure the filing  
-- test the weakness  
-- commit the packet  
-
----
-
-## Why LCES Exists
-
-Many legal problems are not lost because the underlying issue is weak. They are lost because the issue is poorly structured, poorly sequenced, poorly preserved, or poorly presented.
-
-LCES exists to reduce that failure mode.
-
-It is built on a simple premise: structure often determines whether an argument can be heard, reviewed, or defended at all.
-
-**Format is memory.**  
-**Structure is leverage.**  
-**Preservation is power.**
-
----
-
-## Core Principle
-
-LCES is built around one governing idea:
-
-**The record is the case.**  
-**The record is the remedy.**
-
-That principle requires the user to think beyond what happened and ask:
-
-- what must be preserved  
-- what must be filed  
-- what can be reviewed  
-- what will survive delay, pressure, and narrative conflict  
-
-The aim is to build a record that remains usable under scrutiny.
-
----
-
-## Educational Model
-
-LCES functions as a practical procedural-learning system: a form of **People’s Law School** organized around disciplined legal workflow.
-
-### 1. Multi-Perspective Modeling
-
-LCES trains users to examine a matter from more than one viewpoint at the same time:
-
-- **Judicial Lens (JC):** What must be shown, supported, and reviewable  
-- **Adversarial Lens (LCa):** How the record may be attacked  
-- **Procedural Lens (LC):** Whether the issue can be heard, preserved, or considered at all  
-
-### 2. Strategic Stress-Testing
-
-Before filing, LCES teaches users to:
-
-- separate fact from conclusion  
-- identify missing evidence  
-- detect unsupported leaps  
-- locate procedural weakness  
-- test whether the work can survive challenge  
-
-### 3. Sovereignty of the Record
-
-LCES treats the record as a source of procedural power. This includes:
-
-- preserving materials as durable artifacts  
-- building a clear chronology  
-- organizing work for future review  
-- protecting issues before they are obscured by time or conflict  
-
-### 4. Cognitive Efficiency Through SCU
-
-LCES uses the **Smallest Complete Unit (SCU)** method to reduce overload and improve precision.
-
-Rather than attempting to process an entire dispute at once, the user isolates the next complete unit of work and finishes it cleanly before moving on.
-
----
-
-## The SCU Method
-
-### What SCU Means
-
-**SCU** stands for **Smallest Complete Unit**.
-
-It is the smallest amount of information required to perform one coherent task without confusion, assumption, or narrative drift.
-
-### A usable SCU contains:
-
-- **issue**  
-- **facts**  
-- **objective**  
-
-### Example
-
-- **Issue:** Did the order halt the action?  
-- **Facts:** Stay entered July 24; deposition proceeded anyway
-- **Objective:** Draft a preservation notice.  
-
----
-
-## Operating Loop
-
-LCES uses a repeatable workflow:
-
-**Retrieve → Think → Transform → Evaluate → Commit**
-
-- **Retrieve:** gather the relevant facts, excerpts, dates, and objectives  
-- **Think:** identify the issue, the sequence, and the controlling procedural problem  
-- **Transform:** create the needed output  
-- **Evaluate:** stress-test the result for weakness, omission, or drift  
-- **Commit:** save, label, and preserve the finished work product  
-
----
-
-## Roles
-
-LCES works best when roles remain distinct.
-
-### Architect
-
-Responsible for structure.
-
-Typical outputs:
-
-- issue framing  
-- outline  
-- workflow design  
-- chronology  
-- packet structure  
-
-### Builder
-
-Responsible for drafting.
-
-Typical outputs:
-
-- motions  
-- notices  
-- declarations  
-- argument sections  
-- preservation language  
-
-### Inspector
-
-Responsible for analysis.
-
-Typical outputs:
-
-- weakness detection  
-- gap identification  
-- adversarial testing  
-- procedural risk review  
-
----
-
-## Output Boundary Rule
-
-Each role should produce only its assigned output:
-
-- **Architect → structure only**  
-- **Builder → drafting only**  
-- **Inspector → analysis only**  
-
-Do not blend roles unless a sequenced workflow is explicitly requested.
-
-If multiple roles are needed, use this order:
-
-**Architect → Builder → Inspector**
-
----
-
-🔄 Reinitialize When Switching AI
-
-LCES does not carry over between AI sessions.
-
-If you:
-	•	switch AI tools (Copilot, ChatGPT, Gemini, etc.)
-	•	open a new chat
-	•	or lose prior context
-
-you must upload the Startup Block again.
-
-⸻
-
-⚙️ Required Step
-
-Before continuing your work:
-	1.	Copy the Startup Block from this repository
-	2.	Paste it into the new AI session
-	3.	Run it
-
-Then proceed with your task.
-
-
-## Escalation Rule
-
-If the input is incomplete, ambiguous, or lacks a usable SCU:
-
-- do not proceed  
-- do not assume  
-- do not generate partial output  
-
-Respond with:
-
-> **SCU incomplete. Specify:**  
-> - issue  
-> - facts  
-> - objective (structure / draft / review)
-
-Default to **Architect mode** when resolving ambiguity.
-
----
-
-## Human Control
-
-AI may assist with structuring, drafting, and testing. It does not replace judgment.
-
-Users remain responsible for verifying:
-
-- facts  
-- law  
-- deadlines  
-- citations  
-- formatting  
-- filing decisions  
-
-AI can accelerate workflow. It cannot assume responsibility for the result.
-
----
-
-## Record Discipline
-
-LCES depends on disciplined record handling. That includes:
-
-- preserving chronology  
-- versioning drafts  
-- separating fact from conclusion  
-- labeling materials clearly  
-- organizing work for review, not just immediate use  
-
-The goal is not simply to generate text. The goal is to create work product that remains usable later.
-
----
-
-## What LCES Produces
-
-Depending on the task, LCES can help generate:
-
-- outlines  
-- chronologies  
-- draft filings  
-- notices  
-- declarations  
-- review matrices  
-- adversarial tests  
-- packet structures  
-
-All outputs should be treated as drafts requiring human review.
-
----
-
-## What LCES Does Not Do
-
-LCES does **not**:
-
-- provide legal advice  
-- replace licensed counsel  
-- guarantee outcomes  
-- ensure accuracy automatically  
-- make cloud environments secure  
-- convert draft output into filing-ready work without review  
-
----
-
-## Bottom Line
+Do not upload confidential, privileged, protected, sealed, or sensitive material into cloud AI tools. Redact personal identifiers and protected information before use. AI chat logs and cloud drafting environments are not privileged by default and should not be treated as secure evidence repositories.
+
+Quick Start
+	1.	Read the README for orientation.
+	2.	Upload the Startup Block.
+	3.	Start with an SCU:
+	•	issue
+	•	facts
+	•	objective
+	4.	Use Architect for structure.
+	5.	Use Builder for drafting.
+	6.	Use Inspector for testing.
+	7.	Make final decisions as the human decision-maker.
+
+Bottom Line
 
 LCES is a procedural-literacy framework for turning:
+	•	disorder → structure
+	•	structure → filings
+	•	filings → procedural leverage
 
-- disorder → structure  
-- structure → filings  
-- filings → procedural leverage  
-
-It helps users build:
-
-**a structured, reviewable, defensible record**
-
-## Quick Start
-
-LCES is organized as a procedural-literacy system with a central README for orientation and separate activation blocks for execution. Read the README to understand the framework. Use the blocks to initialize role-specific AI behavior during live work.
-
----
+It helps users build a structured, reviewable, defensible record.
 
 
 ---
