@@ -1,8 +1,8 @@
-Legal Calculus Educational System (LCES)
+***Legal Calculus Educational System (LCES)***
 
 A procedural-literacy framework for building, testing, and preserving legal work product.
 
-Overview
+##Overview##
 
 LCES is an educational framework for organizing facts, structuring workflow, preserving the record, and generating draft materials for review.
 
