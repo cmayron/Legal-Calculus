@@ -521,7 +521,8 @@ Challenge it. Verify it. Correct it.
 
 ---
 
-## 📘 How to Use This Repository
+## 📘 How to Use This Repository 
+it an archive that you search then upload to the Architect Ai
 
 1. **Initialize LCES** using the Startup Block.  
 2. **Identify your Edition** (Small Claims, Family Court, Trust & Estate).  
