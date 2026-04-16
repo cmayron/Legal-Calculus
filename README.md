@@ -10,6 +10,9 @@ It is designed for people working inside complex legal processes, where outcomes
 
 LCES does not replace legal counsel. Its purpose is educational and operational: to help users think clearly, work systematically, and build a reviewable record.
 
+LCES supports four primary entry modes. These modes reflect why a user is here and what they need right now. Pro Se Mode is for self‑represented litigants who must turn one issue and one paragraph of facts into a minimum‑viable filing that preserves the record. Second‑Opinion Mode is for users who already have a draft and want a structural, sequencing, or preservation review before filing. Education Mode treats each issue as a learning unit, using doctrine maps, chronology blocks, and filing sequences to build procedural literacy. Crisis Mode is for time‑compressed situations where the user must move from disorder to one clean, defensible step as quickly as possible. All four modes run on the same core loop—Retrieve → Think → Transform → Evaluate → Commit—and the repository serves as the archive for ideas, protocols, editorials, and system artifacts that support them.
+
+
 Core Idea
 
 LCES is built around one governing principle:
