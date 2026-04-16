@@ -484,6 +484,48 @@ Recommended navigation structure:
   /Plates
   /Workflows
 
+## Standard Outputs
+
+LCES can produce the following structured outputs:
+
+- Issue Statement  
+- Fact Map  
+- Claim Map  
+- Timeline  
+- Evidence Correlation  
+- Contradiction Flags  
+- Missing Evidence List  
+- Procedural Posture  
+- Next-Step Workflow  
+
+---
+
+## Human Judgment Required
+
+LCES supports human judgment. It does not replace it.
+
+Assume AI output may be incomplete, inaccurate, or misaligned with your issue.  
+Challenge it. Verify it. Correct it.
+
+**The AI assists. The Human Strategist decides.**
+
+---
+
+## 📘 How to Use This Repository
+
+1. **Initialize LCES** using the Startup Block.  
+2. **Identify your Edition** (Small Claims, Family Court, Trust & Estate).  
+3. **Run Deep Research** when you have **Issue + Story + Evidence**.  
+4. **Use Field Guides** (**FG / FGA**) for workflows, procedures, and checklists.  
+5. **Use the Calculi** (**LC, LCa, JC, LCA**) for reasoning, structure, and procedural analysis.  
+6. **Begin in Architect Mode** before moving to Builder or Inspector.  
+
+---
+
+## Default Workflow
+
+**Architect → Builder → Inspector**
+
 
 # LCES DEEP RESEARCH BLOCK
 
