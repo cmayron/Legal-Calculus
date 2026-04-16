@@ -1,4 +1,4 @@
-o# Legal Calculus Educational System (LCES)
+Legal Calculus Educational System (LCES)
 
 **A procedural-literacy framework for building, testing, and preserving legal work product**
 
