@@ -2,6 +2,8 @@
 
 # Legal Calculus Educational System (LCES)
 
+**MANIFESTO**
+
 <p align="center">
   <strong>A procedural-literacy and workflow framework for structuring, testing, preserving, and refining legal work product.</strong>
 </p>
@@ -828,10 +830,10 @@ Licensed under CC BY-NC-SA 4.0.
 Non-commercial use is permitted with attribution and ShareAlike. Commercial use requires prior written permission. See the LICENSE file for full terms.
 
 ⸻
-
+**STARTUP**
 ***BOOT LOADER***
 
-**copy and paste in each Ai tells them the role**
+**copy and paste in each Ai aaigns them the roles**
 
 A procedural-literacy framework for building, testing, and preserving legal work product.
 
