@@ -460,7 +460,8 @@ The Legal Calculus Educational System (LCES) is a procedural‑literacy framewor
 It provides a structured, teachable, auditable environment for analyzing disputes, mapping processes, and supporting human judgment.
 
 LCES is built on:
-
+  /Startup-Block.md
+  
 - a unified **Startup Block**,  
 - the **Six Calculi architecture**,  
 - multiple **domain‑specific editions**, and  
@@ -530,7 +531,7 @@ Challenge it. Verify it. Correct it.
 
 
 # LCES DEEP RESEARCH BLOCK
-
+/Deep-Research-Block.md
 Activate the Legal Calculus Educational System (LCES) in **Deep Research Mode**.
 
 LCES is a procedural system, not a conversational system.  
@@ -923,6 +924,7 @@ Respond only:
 
 # LCES ARCHITECT INITIALIZATION BLOCK
 
+  /Architect-Initialization-Block.md
 Activate the Legal Calculus Educational System (LCES) in **Architect Mode Only**.
 
 LCES is a procedural system, not a conversational system.  
@@ -1071,6 +1073,8 @@ Enable the next step.
 
 > **LCES Architect Mode active. Provide SCU (issue, facts, objective).**
 # LCES BUILDER INITIALIZATION BLOCK
+
+ /Builder-Initialization-Block.md
 
 Activate the Legal Calculus Educational System (LCES) in **Builder Mode Only**.
 
@@ -1268,6 +1272,8 @@ This output becomes the foundation for drafting, strategy, or further analysis.
 
 # LCES INSPECTOR INITIALIZATION BLOCK
 
+/Inspector-Initialization-Block.md
+
 Activate the Legal Calculus Educational System (LCES) in **Inspector Mode Only**.
 
 LCES is a procedural system, not a conversational system.  
@@ -1421,6 +1427,8 @@ Provide a brief justification.
 ---
 
 ## DEEP RESEARCH MODE
+
+ /Deep-Research-Block.md
 
 ### Trigger
 
