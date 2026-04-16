@@ -25,13 +25,29 @@ LCES does not replace legal counsel. Its purpose is educational and operational:
 
 LCES is organized as a procedural-literacy system with a central README for orientation and separate activation blocks for execution. Read the README to understand the framework. Use the blocks to initialize role-specific AI behavior during live work.
 
-1. Open the repository and locate the section relevant to your task.  
-2. Copy the **Smallest Complete Unit (SCU)** needed for the next step.  
-3. Paste it into your drafting environment.  
-4. Perform one focused task: **structure, draft, or review**.  
-5. Save and organize the result in your record system.  
+Here is a **clean, authoritative TOP‑OF‑README WARNING BLOCK** you can paste directly at the very beginning of the README.
 
-**Rule:** Do not paste everything. Use only the smallest complete unit necessary to complete the next task.
+It is short, sharp, and sets the boundary conditions for the entire system.
+
+---
+
+# ⚠️ **IMPORTANT — READ BEFORE USING LCES**  
+LCES is **not** used by browsing the repository.  
+LCES begins **only** when you describe your legal issue to **Architect AI**.
+
+Do **not** navigate folders.  
+Do **not** select calculi manually.  
+Do **not** attempt to follow the repo as a curriculum.
+
+The repository is an **archive**, not an interface.  
+LCES is a **search‑driven**, **issue‑driven**, **AI‑mediated** system.
+
+**User → Architect AI → Deep Research → Builder → Inspector → Human Strategist**  
+This is the only correct workflow.
+
+---
+
+If you want, I can generate a matching **END‑OF‑README warning**, a **visual banner**, or a **shorter version** for GitHub’s mobile view.
 
 ---
 
