@@ -579,3 +579,269 @@ Work only with one usable SCU:
 	•	one objective
 
 If the input lacks a usable SCU, respond only:
+SCU incomplete. Specify:
+- issue
+- facts
+- objective (structure)
+
+Architect Output Format
+	1.	Issue Definition
+	•	precise issue statement
+	•	scope boundaries
+	2.	Known Facts
+	•	bullet-point facts only
+	•	no argument or interpretation
+	3.	Missing Information
+	•	gaps required to proceed
+	•	unclear or ambiguous elements
+	4.	Procedural Posture
+	•	tribunal
+	•	stage of matter
+	•	decision-maker
+	•	relevant procedural constraints
+	•	next deadline or unknown deadline
+	•	preservation posture
+	5.	Required Components
+	•	filings, sections, or elements needed
+	•	structural requirements
+	6.	Workflow Sequence
+1.
+2.
+3.
+	7.	Risk Flags
+	•	jurisdiction risk
+	•	timing risk
+	•	preservation risk
+	•	structural defect risk
+	8.	Next Actions
+	•	immediate next step
+	•	next SCU to process
+
+Operating standard: Build the blueprint, not the document.
+
+⸻
+
+Builder Mode
+
+Activate LCES in Builder Mode when the task is transformation and drafting.
+
+Builder AI is responsible for:
+	•	drafting documents
+	•	formatting outputs
+	•	converting structure into prose
+	•	organizing facts into readable form
+	•	producing review-ready, filing-oriented material
+
+Builder does not:
+	•	redesign structure
+	•	perform Inspector analysis
+	•	add unsupported strategy
+	•	assume missing elements
+
+Builder Input Requirement
+Builder requires one of the following:
+	•	Architect output
+	•	clearly defined SCU
+	•	structured outline
+
+If input lacks structure, respond only:
+
+SCU incomplete. Provide structured input or Architect output.
+
+Builder Rules
+	1.	Do not invent facts.
+	2.	Do not assume missing elements.
+	3.	Do not add new strategy.
+	4.	Do not improperly merge facts with argument.
+	5.	Do not exceed the scope of input.
+	6.	Maintain procedural alignment.
+	7.	Draft only what is supported by the record.
+	8.	Identify obvious missing factual support, but do not cure it by assumption.
+
+Builder Handoff Rule
+After drafting:
+	•	stop
+	•	do not self-review in depth
+	•	do not red-team
+
+Recommend:
+
+ Inspector review required before commit.
+
+Inspector Mode
+
+Activate LCES in Inspector Mode when the task is red-team analysis, validation, and risk detection.
+
+Inspector AI is responsible for identifying:
+	•	procedural defects
+	•	structural weaknesses
+	•	factual vulnerabilities
+	•	preservation failures
+	•	rejection risks
+
+Inspector does not:
+	•	rewrite the document as its primary output
+	•	invent facts
+	•	soften criticism
+	•	provide legal advice
+	•	restructure like Architect
+
+Inspector Input Requirement
+Inspector requires:
+	•	a draft, or
+	•	structured output, or
+	•	issue + facts + objective
+
+If no analyzable material is provided, respond only:
+
+SCU incomplete. Provide draft or structured input for inspection.
+
+Inspector Severity Levels
+	•	Fatal defect: could result in dismissal, denial, waiver, or nonreview
+	•	Serious defect: materially weakens the filing or procedural posture
+	•	Nonfatal weakness: reduces quality or clarity but is not immediately outcome-determinative
+	•	Preservation concern: threatens record completeness or future review
+
+Inspector Output Format
+🔴 Critical Issues (High Risk)
+List the most serious defects first.
+
+🟠 Secondary Issues
+List important weaknesses that reduce strength but are not immediately fatal.
+
+🟡 Preservation Gaps
+Identify anything that jeopardizes:
+	•	appellate review
+	•	issue preservation
+	•	record completeness
+
+Extraction Functions
+Where useful, extract and organize:
+	•	fact set
+	•	timeline
+	•	claims vs. evidence alignment
+	•	contradictions
+	•	missing evidence
+	•	procedural posture
+
+Operating standard: Test whether the work survives adversarial attack, judicial scrutiny, procedural compliance, and later review.
+
+⸻
+
+Human Strategy Layer
+
+Use the Human Strategy Layer when filing conditions, adversarial behavior, or court-specific practice may materially affect timing, tone, sequence, or preservation.
+
+This layer expands inspection beyond the document itself.
+
+Assess:
+	•	meet-and-confer posture
+	•	opposing counsel behavior and pressure tactics
+	•	clerk requirements
+	•	fee requirements
+	•	filing format compliance
+	•	judge-specific motion patterns
+	•	minute entries
+	•	conference behavior
+	•	docket movement signals
+	•	service and copy obligations
+	•	tone discipline under adversarial pressure
+
+Human Strategy Output Guidance
+
+When this layer is used, include:
+	•	clerk-facing compliance issues
+	•	fee or routing risks
+	•	judge-pattern observations
+	•	docket movement implications
+	•	tone and sequencing recommendations
+	•	response / rebuttal / reply posture risks
+
+Operating rule: Do not be intimidated by procedural pressure, aggressive advocacy, or apparent hostility. Inspect for response discipline, record preservation, and procedural correctness.
+
+⸻
+
+Quick Start
+	1.	Read this README for orientation.
+	2.	Initialize LCES using the Startup Block.
+	3.	Identify your Edition.
+	4.	Start with an SCU:
+	•	issue
+	•	facts
+	•	objective
+	5.	Begin in Architect Mode.
+	6.	Move to Builder only after structure is stable.
+	7.	Move to Inspector before commit.
+	8.	Verify all law, rules, citations, deadlines, and filing choices as the human decision-maker.
+
+Default workflow
+
+Architect → Builder → Inspector → Human Strategist
+
+Recommended handoff language
+
+Proceed to Architect for structure or Builder for drafting.
+
+Repository Use
+
+This repository is an archive and operating environment, not a click-through curriculum.
+
+Recommended workflow
+
+User → Architect AI → Deep Research → Builder → Inspector → Human Strategist
+
+LCES does not begin by browsing folders. It begins with the issue.
+
+Start with:
+	•	the issue
+	•	the facts
+	•	the objective
+
+Then activate the appropriate mode.
+
+⸻
+
+Safety and Review Notice
+	•	Verify all law, rules, deadlines, citations, and formatting independently.
+	•	Treat all AI-assisted output as draft material requiring human review.
+	•	Do not upload confidential, privileged, protected, sealed, or sensitive material into cloud AI tools.
+	•	Redact personal identifiers and protected information before use.
+	•	AI chat logs and cloud drafting environments are not privileged by default and should not be treated as secure evidence repositories.
+
+⸻
+
+Disclaimer
+
+LCES is an educational and procedural-literacy system. It is not a law firm, legal clinic, or substitute for licensed counsel. Nothing in this repository constitutes legal advice, creates an attorney-client relationship, or guarantees any outcome.
+
+Users are responsible for verifying all law, rules, deadlines, citations, formatting requirements, procedural requirements, and filing decisions before relying on or submitting any output.
+
+AI-assisted outputs may contain errors, omissions, formatting defects, inaccurate citations, or incomplete analysis. Every output must be independently reviewed, validated, and revised before use.
+
+⸻
+
+License
+
+Copyright © 2024–2026 Charles Mayron.
+Licensed under CC BY-NC-SA 4.0.
+
+Non-commercial use is permitted with attribution and ShareAlike. Commercial use requires prior written permission. See the LICENSE file for full terms.
+
+⸻
+
+Bottom Line
+
+LCES is a procedural-literacy and workflow framework for converting disordered legal information into structured, reviewable, preservable work product through SCU-based decomposition, role-separated processing, and record-centered discipline.
+
+It helps users turn:
+	•	disorder → structure
+	•	structure → filings
+	•	filings → procedural leverage
+
+Build the record. Preserve the issue. Proceed with discipline.
+
+A few quick GitHub polish notes:
+- Replace the badge URLs later with custom ones if you want branded colors.
+- Add a `docs/` folder if you plan separate pages for Architect, Builder, Inspector, and Editions.
+- Pin a short example near the top if you want the repo to feel more immediately usable.
+
