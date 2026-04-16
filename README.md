@@ -2,7 +2,7 @@
 
 A procedural-literacy framework for building, testing, and preserving legal work product.
 
-*Overview*
+**Overview**
 
 LCES is an educational framework for organizing facts, structuring workflow, preserving the record, and generating draft materials for review.
 
@@ -13,7 +13,7 @@ LCES does not replace legal counsel. Its purpose is educational and operational:
 LCES supports four primary entry modes. These modes reflect why a user is here and what they need right now. Pro Se Mode is for self‑represented litigants who must turn one issue and one paragraph of facts into a minimum‑viable filing that preserves the record. Second‑Opinion Mode is for users who already have a draft and want a structural, sequencing, or preservation review before filing. Education Mode treats each issue as a learning unit, using doctrine maps, chronology blocks, and filing sequences to build procedural literacy. Crisis Mode is for time‑compressed situations where the user must move from disorder to one clean, defensible step as quickly as possible. All four modes run on the same core loop—Retrieve → Think → Transform → Evaluate → Commit—and the repository serves as the archive for ideas, protocols, editorials, and system artifacts that support them.
 
 
-Core Idea
+**Core Idea**
 
 LCES is built around one governing principle:
 
@@ -27,7 +27,7 @@ Its purpose is not to argue harder. Its purpose is to help users:
 	•	test for weakness
 	•	produce reviewable work product
 
-What LCES Is
+**What LCES Is**
 
 LCES is not just a set of prompts, templates, or notes. It is a working framework for turning:
 	•	confusion → sequence
@@ -41,7 +41,7 @@ Format is memory.
 Structure is leverage.
 Preservation is power.
 
-The SCU Method
+**The SCU Method**
 
 LCES uses the Smallest Complete Unit (SCU) method to reduce overload and improve precision.
 
@@ -57,7 +57,7 @@ Example:
 	•	Facts: Stay entered July 24; deposition proceeded anyway.
 	•	Objective: Draft a preservation notice.
 
-Operating Loop
+**Operating Loop**
 
 LCES uses a repeatable workflow:
 
@@ -68,11 +68,11 @@ Retrieve → Think → Transform → Evaluate → Commit
 	•	Evaluate: test the result for weakness, omission, or drift
 	•	Commit: save, label, and preserve the finished work product
 
-Role Model
+**Role Model**
 
 LCES works best when roles remain distinct.
 
-Architect
+*Architect*
 
 Responsible for structure.
 
@@ -83,7 +83,7 @@ Typical outputs:
 	•	chronology
 	•	packet structure
 
-Builder
+*Builder*
 
 Responsible for drafting.
 
@@ -94,7 +94,7 @@ Typical outputs:
 	•	argument sections
 	•	preservation language
 
-Inspector
+*Inspector*
 
 Responsible for analysis.
 
@@ -117,7 +117,7 @@ Default sequence:
 
 Architect → Builder → Inspector
 
-Escalation Rule
+**Escalation Rule**
 
 If the input is incomplete, ambiguous, or lacks a usable SCU:
 	•	do not proceed
@@ -133,7 +133,7 @@ SCU incomplete. Specify:
 
 Default to Architect mode when resolving ambiguity.
 
-Human Control
+**Human Control**
 
 AI may assist with structuring, drafting, and testing. It does not replace judgment.
 
@@ -147,7 +147,7 @@ Users remain responsible for verifying:
 
 AI can accelerate workflow. It cannot assume responsibility for the result.
 
-Record Discipline
+**Record Discipline**
 
 LCES depends on disciplined record handling. That includes:
 	•	preserving chronology
@@ -158,7 +158,7 @@ LCES depends on disciplined record handling. That includes:
 
 The goal is not simply to generate text. The goal is to create work product that remains usable later.
 
-What LCES Produces
+**What LCES Produces**
 
 Depending on the task, LCES can help generate:
 	•	outlines
@@ -172,7 +172,7 @@ Depending on the task, LCES can help generate:
 
 All outputs should be treated as drafts requiring human review.
 
-What LCES Does Not Do
+**What LCES Does Not Do**
 
 LCES does not:
 	•	provide legal advice
@@ -182,7 +182,7 @@ LCES does not:
 	•	make cloud environments secure
 	•	convert draft output into filing-ready work without review
 
-Reinitialize When Switching AI
+*Reinitialize When Switching AI*
 
 LCES does not carry over automatically between AI sessions.
 
@@ -193,7 +193,7 @@ If you:
 
 upload the Startup Block again before continuing.
 
-Disclaimer
+***Disclaimer***
 
 LCES is an educational and procedural-literacy system. It is not a law firm, legal clinic, or substitute for licensed counsel. Nothing in this repository constitutes legal advice, creates an attorney-client relationship, or guarantees any outcome.
 
