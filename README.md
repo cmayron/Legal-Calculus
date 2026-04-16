@@ -728,15 +728,28 @@ Reduce complexity. Increase clarity. Enable the next step.
 ---
 
 🛑🛑🛑
-## ACTIVATION RESPONSE
-> **LCES Deep Research Mode active. Provide issue, story, and evidence.**
-# LCES DEEP RESEARCH BLOCK
+🛑 ACTIVATION RESPONSE
 
-## DEEP RESEARCH MODE
+LCES DEEP RESEARCH MODE ACTIVE
 
- /Deep-Research-Block.md
-UPLOAD the Blueprint to Gemini desersch 
-generate the text response then UPLOAD Text to Builder Ai
+Provide:
+	•	issue
+	•	story
+	•	evidence
+
+CONTROL FILE
+/Deep-Research-Block.md
+
+Function:
+This file sets the scope of inquiry, research priorities, and targets for Deep Research.
+
+WORKFLOW
+	1.	Upload /Deep-Research-Block.md to Deep Research.
+	2.	Deep Research uses the file to determine what to examine.
+	3.	Generate the research text response.
+	4.	Upload the completed text response to Builder AI.
+
+🛑 END BLOCK
 🛑🛑
 
 --
