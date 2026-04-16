@@ -16,6 +16,7 @@ Search **is your retrieval engine**.
 
 Everything here is a **teaching plate** you can plug directly into your Blueprint.
 
+When you change Ai upload the block specific to thst Ai role so its initialized
 ---
 
 ## 🔑 How to use this repo (fast)
