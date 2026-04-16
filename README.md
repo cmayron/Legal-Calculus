@@ -1143,72 +1143,50 @@ Every output must:
 🛑 END BLOCK
 ---
 
-# ⚠️ **END OF README — DO NOT USE LCES BY BROWSING THE REPOSITORY**  
-If you reached this point by scrolling, remember:
+BLOCK
 
-LCES is **not** a folder‑driven system.  
-LCES is **not** a template library.  
-LCES is **not** a curriculum to click through.
+⚠️ END OF README — DO NOT USE LCES BY BROWSING THE REPOSITORY
 
-The repository is an **archive**.  
-The interface is **Architect AI**.
+LCES is not a folder-driven system, template library, or click-through curriculum.
+The repository is an archive. The interface is Architect AI.
 
-Correct workflow:
+Workflow:
+User → Architect AI → Deep Research → Builder → Inspector → Human Strategist
 
-**User → Architect AI → Deep Research → Builder → Inspector → Human Strategist**
+If you do not begin with Architect AI, you are not using LCES as designed.
 
-If you are not starting with Architect AI, you are **not** using LCES as designed.
-
-Return to the top.  
-Begin with your issue.  
+Return to the top.
+Begin with your issue.
 Activate Architect AI.
 
-The Legal Calculus Educational System (LCES) is a procedural-literacy framework for turning raw facts into structured record, structured record into usable filings, and usable filings into preserved procedural leverage.
+LCES is a procedural-literacy framework for converting facts into record, record into filings, and filings into preserved procedural leverage.
 
-LCES is built on a simple principle:
+Core principle:
+The record is the case.
+The record is the remedy.
 
-**The record is the case.**  
-**The record is the remedy.**
+LCES improves clarity, structure, preservation, and disciplined workflow. It does not replace counsel, automate judgment, or guarantee outcomes.
 
-Its purpose is not to replace counsel, automate judgment, or guarantee outcomes. Its purpose is to improve clarity, structure, preservation, and disciplined workflow inside complex legal systems.
+AI roles:
+	•	Architect → structure and workflow
+	•	Builder → drafting and transformation
+	•	Inspector → red-team analysis and validation
 
-LCES trains users to:
+The Human Strategist decides.
 
-- isolate the issue  
-- structure the record  
-- preserve what matters  
-- test for weakness  
-- build work product that remains reviewable under pressure  
+Use independent judgment before filing, serving, sharing, or relying on any output.
 
-LCES uses AI as a structured engine:
+Do not upload confidential, privileged, protected, sealed, or sensitive material into cloud AI tools. Redact personal identifiers before use.
 
-- Architect → structure and workflow  
-- Builder → drafting and transformation  
-- Inspector → red-team analysis and validation  
-
-The Human Strategist remains responsible for all decisions.
-
-**The AI assists. The Human Strategist decides.**
-
-Use LCES as an educational and drafting framework. Apply independent judgment before filing, serving, sharing, or relying on any output.
-
-Do not upload confidential, privileged, protected, sealed, or sensitive material into cloud AI tools. Redact personal identifiers before use. AI chats and cloud drafting environments are not privileged by default.
-
-**Filing is preservation.**  
-**Format is memory.**  
-**Structure is leverage.**  
-**The record is the remedy.**
+Filing is preservation.
+Format is memory.
+Structure is leverage.
+The record is the remedy.
 
 Build the record. Preserve the issue. Proceed with discipline.
 
-## License
+LICENSE
 
 Copyright © 2024–2026 Charles Mayron, MD. All rights reserved except as licensed below.
 
-This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).**
-
-You may copy, redistribute, remix, transform, and build upon this material for non-commercial purposes, provided that you give appropriate attribution and distribute derivative works under the same license.
-
-Commercial use is not permitted without prior written permission from the copyright holder.
-
-See the `LICENSE` file for full terms.
+Licensed under CC BY-NC-SA 4.0. Non-commercial use is permitted with attribution and ShareAlike. Commercial use requires prior written permission. See the LICENSE file for full terms.
