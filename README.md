@@ -14,7 +14,8 @@ The README and Startup Block **are the first lessons**.
 Copilot/Blueprint AI **is your Architect**.  
 Search **is your retrieval engine**.
 
-Everything here is a **teaching plate** you can plug directly into your Blueprint.
+Everything in README is a **teaching and startup
+ plate** you can plug directly into your Blueprint.
 
 When you change Ai upload the block marked 🛑 in Readme specific to that Ai role so its initialized
 ---
