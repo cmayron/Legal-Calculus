@@ -1,8 +1,10 @@
 
 
 # Legal Calculus Educational System (LCES)
-MANIFESTO.md
+
 **MANIFESTO**
+
+MANIFESTO.md
 
 <p align="center">
   <strong>A LCES is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.</strong>
