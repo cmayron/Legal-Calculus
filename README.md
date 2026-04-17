@@ -837,9 +837,9 @@ Non-commercial use is permitted with attribution and ShareAlike. Commercial use 
 **BOOT LOADER**
 
 **Execution Standard (The Handoff)**
-1. ARCHITECT defines the blueprint (Structure).
-2. BUILDER uses the blueprint to generate the draft (Prose).
-3. INSPECTOR red-teams the draft for failure (Analysis).
+1. ARCHITECT defines the blueprint (Structure). Copilot Ai
+2. BUILDER uses the blueprint to generate the draft (Prose). ChatGPT 
+3. INSPECTOR red-teams the draft for failure (Analysis).Gemini Ai
 
 Human decision-maker must verify the output before the next handoff occurs.
 
