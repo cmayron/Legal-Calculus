@@ -832,13 +832,15 @@ Non-commercial use is permitted with attribution and ShareAlike. Commercial use 
 
 **STARTUP**
 
-**BOOT LOADER**
+**BOOT LOADER** ****COPY&PASTE** **CoPilot**
 
-**COPY&PASTE first into Copilot to initialize the Architect to build the blueprint**
+**to initialize the Architect to build the blueprint**
+
 ***IMPORTANT Tell Ai you want to use Legal Calculus educational System (LCES)***
+
 **Then ChatGPT needs this boot loader to initialize the Builder**
 
-**Then Gemini needs this boot loader to initialize the Inspector**
+**Then Gemini needs this boot loader to initialize the Inspector Ai**
 
 **Execution Standard (The Handoff)**
 1. ARCHITECT defines the blueprint (Structure). Copilot Ai
