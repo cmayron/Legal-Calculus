@@ -337,6 +337,20 @@ All outputs should be treated as drafts requiring human review.
 
 ⸻
 
+**Chief Complaint + Factual Anchor**
+
+LCES begins with two inputs: a chief complaint and a factual anchor.
+
+The chief complaint identifies the live legal or procedural problem.
+The factual anchor identifies the concrete item that gives that problem legal significance.
+
+A factual anchor may be a document, order, filing, email, transcript excerpt, record entry, event, or other specific fact tied to the issue.
+
+This keeps analysis grounded in something concrete, citable, and capable of being preserved in the record.
+
+Without a factual anchor, analysis drifts. With one, the record begins.
+
+
 📚 THE SIX CALCULI OF LCES
 *Foundation Architecture of the Legal Calculus Educational System (LCES) **
 The Legal Calculus Educational System is built on six interlocking calculi.
@@ -975,6 +989,20 @@ The editions ensure LCES remains:
 Each edition is built on the **Six Calculi**, activated through the **Startup Block**, and compatible with **Deep Research**.
 
 ---
+
+**Chief Complaint + Factual Anchor**
+
+LCES begins with two inputs: a chief complaint and a factual anchor.
+
+The chief complaint identifies the live legal or procedural problem.
+The factual anchor identifies the concrete item that gives that problem legal significance.
+
+A factual anchor may be a document, order, filing, email, transcript excerpt, record entry, event, or other specific fact tied to the issue.
+
+This keeps analysis grounded in something concrete, citable, and capable of being preserved in the record.
+
+Without a factual anchor, analysis drifts. With one, the record begins.
+
 
 🛑🛑
 
