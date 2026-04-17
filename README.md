@@ -1493,7 +1493,7 @@ Use this layer to identify patterns that affect how the work will be received, p
 
 Review order of operations: 1. Clerk-Facing Requirements
 
-```
+
 •	filing fees
 •	formatting rules
 •	required copies
@@ -1516,7 +1516,7 @@ Review order of operations: 1. Clerk-Facing Requirements
 •	prejudice risk
 •	tone traps
 •	response pressure points
-```
+
 
 Function:
 
