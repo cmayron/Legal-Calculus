@@ -1139,7 +1139,7 @@ it an archive that you search then upload to the Architect Ai
 
 ## **Default Workflow**
 
-**Architect → Builder → Inspector**
+**Architect → Builder → Inspector → Human Strategist**
 
 Recommend:
 
