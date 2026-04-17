@@ -1,7 +1,7 @@
 
 
 # Legal Calculus Educational System (LCES)
-
+MANIFESTO.md
 **MANIFESTO**
 
 <p align="center">
@@ -806,6 +806,7 @@ Licensed under CC BY-NC-SA 4.0.
 Non-commercial use is permitted with attribution and ShareAlike. Commercial use requires prior written permission. See the LICENSE file for full terms.
 
 ⸻
+BOOTLOADER.md
 
 **STARTUP**
 
