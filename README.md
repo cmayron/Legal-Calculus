@@ -703,6 +703,7 @@ Inspector Severity Levels
 	•	Preservation concern: threatens record completeness or future review
 
 Inspector Output Format
+
 🔴 Critical Issues (High Risk)
 List the most serious defects first.
 
@@ -829,13 +830,14 @@ Non-commercial use is permitted with attribution and ShareAlike. Commercial use 
 
 ⸻
 
-
-
 **STARTUP**
+
 **BOOT LOADER**
-COPY&PASTE first into Copilot to initialize the Architect to build the blueprint 
+
+**COPY&PASTE first into Copilot to initialize the Architect to build the blueprint 
 Then ChatGPT needs this boot loader to initialize the Builder 
-Then Gemini needs this boot loader to initialize the Inspector 
+Then Gemini needs this boot loader to initialize the Inspector**
+
 **Execution Standard (The Handoff)**
 1. ARCHITECT defines the blueprint (Structure). Copilot Ai
 2. BUILDER uses the blueprint to generate the draft (Prose). ChatGPT 
