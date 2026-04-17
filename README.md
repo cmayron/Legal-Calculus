@@ -197,7 +197,7 @@ LCES works best when roles remain distinct.
 
 Role separation exists to reduce drift, prevent premature drafting, isolate defects, and preserve accountability across stages.
 
-### Architect
+### Architect (Copilot Ai with boot loader)
 
 Responsible for structure.
 
@@ -210,7 +210,7 @@ Responsible for structure.
 - missing-information map
 - procedural sequence
 
-### Builder
+### Builder (chatGPT with boot loader)
 
 Responsible for drafting and transformation.
 
@@ -224,7 +224,7 @@ Responsible for drafting and transformation.
 - proposed orders
 - filing-oriented drafts
 
-### Inspector
+### Inspector (Gemini with loader)
 
 Responsible for adversarial testing and validation.
 
