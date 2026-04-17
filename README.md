@@ -1462,7 +1462,6 @@ RED-TEAM ANALYSIS FRAMEWORK
 •	missing components
 •	noncompliance with procedural rules
 •	unclear or unusable filing structure
-```
 
 OUTPUT FORMAT
 
@@ -1549,36 +1548,3 @@ Every output must: • reduce blind spots • increase defensibility • improve
 
 ## **END BLOCK**
 
-⚠️ END OF README — DO NOT USE LCES BY BROWSING THE REPOSITORY
-
-LCES is not a folder-driven system, template library, or click-through curriculum. The repository is an archive. The interface is Architect AI.
-
-Workflow: User → Architect AI → Deep Research → Builder → Inspector → Human Strategist
-
-If you do not begin with Architect AI, you are not using LCES as designed.
-
-Return to the top. Begin with your issue. Activate Architect AI.
-
-LCES is a procedural-literacy framework for converting facts into record, record into filings, and filings into preserved procedural leverage.
-
-Core principle: The record is the case. The record is the remedy.
-
-LCES improves clarity, structure, preservation, and disciplined workflow. It does not replace counsel, automate judgment, or guarantee outcomes.
-
-AI roles: • Architect → structure and workflow • Builder → drafting and transformation • Inspector → red-team analysis and validation
-
-The Human Strategist decides.
-
-Use independent judgment before filing, serving, sharing, or relying on any output.
-
-Do not upload confidential, privileged, protected, sealed, or sensitive material into cloud AI tools. Redact personal identifiers before use.
-
-Filing is preservation. Format is memory. Structure is leverage. The record is the remedy.
-
-Build the record. Preserve the issue. Proceed with discipline.
-
-LICENSE
-
-Copyright © 2024–2026 Charles Mayron, MD. All rights reserved except as licensed below.
-
-Licensed under CC BY-NC-SA 4.0. Non-commercial use is permitted with attribution and ShareAlike. Commercial use requires prior written permission. See the LICENSE file for full terms.
