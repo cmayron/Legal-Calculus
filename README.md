@@ -835,7 +835,7 @@ Non-commercial use is permitted with attribution and ShareAlike. Commercial use 
 **BOOT LOADER**
 
 **COPY&PASTE first into Copilot to initialize the Architect to build the blueprint**
-
+***IMPORTANT Tell Ai you want to use Legal Calculus educational System (LCES)***
 **Then ChatGPT needs this boot loader to initialize the Builder**
 
 **Then Gemini needs this boot loader to initialize the Inspector**
