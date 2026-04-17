@@ -248,7 +248,7 @@ Do not blend roles within a single output. Role transitions must be explicit and
 
 **Default sequence**
 
-Architect → Builder → Inspector Commercial use requires prior written permission. See the LICENSE file for full terms.
+Architect → Builder → Inspector → Human Strategist Commerial use requires prior written permission. See the LICENSE file for full terms.
 
 ⸻
 
