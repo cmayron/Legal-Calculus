@@ -248,9 +248,7 @@ Do not blend roles within a single output. Role transitions must be explicit and
 
 **Default sequence**
 
-```text
 Architect → Builder → Inspector Commercial use requires prior written permission. See the LICENSE file for full terms.
-
 
 ⸻
 
