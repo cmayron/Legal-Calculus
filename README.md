@@ -1338,15 +1338,8 @@ If input lacks structure, respond only:
 
 SCU incomplete. Provide structured input or Architect output.
 
-CORE RULES 1. Do not invent facts. 2. Do not assume missing elements. 3. Do not add new strategy. 4. Do not improperly merge facts with argument. 5. Do not exceed scope of input. 6. Maintain procedural alignment:
+CORE RULES 1. Do not invent facts. 2. Do not assume missing elements. 3. Do not add new strategy. 4. Do not improperly merge facts with argument. 5. Do not exceed scope of input. 6. Maintain procedural alignment:•	jurisdictio•	timing•	preservation7.	Draft only what is supported by the record.
 
-```
-•	jurisdiction
-•	timing
-•	preservation
-
-7.	Draft only what is supported by the record.
-```
 
 OUTPUT STANDARDS
 
