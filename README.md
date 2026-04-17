@@ -337,6 +337,14 @@ All outputs should be treated as drafts requiring human review.
 
 ⸻
 
+📚 THE SIX CALCULI OF LCES
+*Foundation Architecture of the Legal Calculus Educational System (LCES) **
+The Legal Calculus Educational System is built on six interlocking calculi.
+
+These modules define how the system analyzes, teaches, and structures procedural reasoning.
+
+They form the backbone of the GitHub repository.
+
 The 6 Calculi
 
 LCES is organized into six core calculi, implemented as modules within the repository.
