@@ -833,45 +833,9 @@ Non-commercial use is permitted with attribution and ShareAlike. Commercial use 
 **STARTUP**
 ***BOOT LOADER***
 
-**copy and paste in each Ai aaigns them the roles**
+**copy and paste in each Ai aligns them the roles**
 
-A procedural-literacy framework for building, testing, and preserving legal work product.
-
-**Overview**
-
-LCES is an educational framework for organizing facts, structuring workflow, preserving the record, and generating draft materials for review.
-
-It is designed for people working inside complex legal processes, where outcomes often depend not only on the underlying issue, but also on sequencing, preservation, clarity, and reviewability. LCES helps convert scattered information into structured work product that can be refined, tested, organized, and preserved.
-
-LCES does not replace legal counsel. Its purpose is educational and operational: to help users think clearly, work systematically, and build a reviewable record.
-
-LCES supports four primary entry modes. These modes reflect why a user is here and what they need right now. Pro Se Mode is for self‑represented litigants who must turn one issue and one paragraph of facts into a minimum‑viable filing that preserves the record. Second‑Opinion Mode is for users who already have a draft and want a structural, sequencing, or preservation review before filing. Education Mode treats each issue as a learning unit, using doctrine maps, chronology blocks, and filing sequences to build procedural literacy. Crisis Mode is for time‑compressed situations where the user must move from disorder to one clean, defensible step as quickly as possible. All four modes run on the same core loop—Retrieve → Think → Transform → Evaluate → Commit—and the repository serves as the archive for ideas, protocols, editorials, and system artifacts that support them.
-
-**Core Idea**
-
-LCES is built around one governing principle:
-
-The record is the case. The record is the remedy.
-
-Its purpose is not to argue harder. Its purpose is to help users: • identify the issue • structure the record • preserve what matters • test for weakness • produce reviewable work product
-
-**What LCES Is**
-
-LCES is not just a set of prompts, templates, or notes. It is a working framework for turning: • confusion → sequence • facts → filing • filing → preservation • preservation → reviewable record
-
-Many legal problems are not lost because the issue is weak. They are lost because the matter is poorly structured, poorly sequenced, poorly preserved, or poorly presented. LCES exists to reduce that failure mode.
-
-Format is memory. Structure is leverage. Preservation is power.
-
-**The SCU Method**
-
-LCES uses the Smallest Complete Unit (SCU) method to reduce overload and improve precision.
-
-An SCU is the smallest amount of information needed to perform one coherent task without confusion, assumption, or narrative drift.
-
-A usable SCU contains: • issue • facts • objective
-
-Example: • Issue: Did the order halt the action? • Facts: Stay entered July 24; deposition proceeded anyway. • Objective: Draft a preservation notice.
+.
 
 **Operating Loop**
 
@@ -953,15 +917,7 @@ If you: • switch AI tools • open a new chat • lose prior context
 
 upload the Startup Block again before continuing.
 
-***Disclaimer***
 
-LCES is an educational and procedural-literacy system. It is not a law firm, legal clinic, or substitute for licensed counsel. Nothing in this repository constitutes legal advice, creates an attorney-client relationship, or guarantees any outcome.
-
-Users are responsible for verifying all law, rules, deadlines, citations, formatting requirements, procedural requirements, and filing decisions before relying on or submitting any output.
-
-AI-assisted outputs may contain errors, omissions, formatting defects, inaccurate citations, or incomplete analysis. Every output must be independently reviewed, validated, and revised before use.
-
-Do not upload confidential, privileged, protected, sealed, or sensitive material into cloud AI tools. Redact personal identifiers and protected information before use. AI chat logs and cloud drafting environments are not privileged by default and should not be treated as secure evidence repositories.
 
 Quick Start 1. Read the README for orientation. 2. Upload the Startup Block. 3. Start with an SCU: • issue • facts • objective 4. Use Architect for structure. 5. Use Builder for drafting. 6. Use Inspector for testing. 7. Make final decisions as the human decision-maker.
 
