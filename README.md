@@ -1423,9 +1423,9 @@ SCU incomplete. Provide draft or structured input for inspection.
 
 CORE RULES 1. Do not rewrite the document as your primary output. 2. Do not invent facts. 3. Do not assume missing support. 4. Do not soften criticism. 5. Do not provide legal advice. 6. Focus on failure modes, not style preference. 7. Prioritize risk, not completeness.
 
-RED-TEAM ANALYSIS FRAMEWORK 1. Procedural Defects
+RED-TEAM ANALYSIS FRAMEWORK
+1. Procedural Defects
 
-```
 •	jurisdictional failure
 •	standing defects
 •	timeliness issues
