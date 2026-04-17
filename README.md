@@ -986,61 +986,79 @@ They form the backbone of the GitHub repository.
 
 ---
 
-## **1. LC — Legal Calculus**
+The 6 Calculi
 
-The foundational operating system.
+LCES is organized into six core calculi, implemented as modules within the repository.
 
-Defines procedural literacy, core doctrine, and the structural grammar of disputes.
+These calculi are built for the legal system as it actually functions. They are designed to help users understand outcomes, interpret the behavior of legal actors, and respond in a structured, reviewable way.
 
----
+A legal system is not the same thing as a justice system.
 
-## **2. LCa — Lawyer Calculus**
+Rules matter, but outcomes are also shaped by motivation, procedure, workload, incentives, institutional pressure, advocacy choices, and record design. The Six Calculi exist to make those forces visible.
 
-Models how lawyers structure arguments, position evidence, and build the record.
+⸻
 
-Teaches users how legal professionals think procedurally.
+LC — Legal Calculus
 
----
+Explains why legal outcomes happen.
 
-## **3. JC — Judicial Calculus**
+Focus: evidence-based outcomes, causation, procedural effect, record dynamics, system behavior Core question: Why did this happen?
 
-Models how judges evaluate claims, weigh evidence, and apply procedural rules.
+⸻
 
-Provides a neutral, court‑centered analytical frame.
+JC — Judicial Calculus
 
----
+Models the judge’s real-world motivations, including efficiency, docket pressure, temperament, procedural control, and available off-ramps.
 
-## **4. LCA — Legal Calculus Advanced**
+Focus: judicial motivation, efficiency, workload, narrowing paths, practical judicial behavior Core question: What is motivating the judge, and what path is the judge likely to take?
 
-Extends LC with higher‑order reasoning, appellate posture, and complex procedural structures.
+⸻
 
----
+LCa — Lawyer Calculus
 
-## **5. FG — Field Guides**
+Models the lawyer’s real-world motivations, including leverage, client protection, narrative control, record shaping, reputational concerns, and strategic risk management.
 
-Operational, user‑facing guides for real‑world deployment.
+Focus: advocacy motivation, leverage, client protection, record construction, professional incentives Core question: What is motivating the lawyer, and how is that shaping the argument and record?
 
-Provides checklists, workflows, and step‑by‑step procedures.
+⸻
 
----
+LCA — Legal Calculus Advanced
 
-## **6. FGA Field Guides Advanced**
+Extends Legal Calculus into deeper analysis of strategic interaction, institutional pressure, hidden causation, and long-range consequence.
 
-High‑resolution guides for complex scenarios, appeals , and advanced situations.
+Focus: deeper causation, institutional pressure, strategic interaction, review-level significance, structural consequence Core question: What deeper forces are driving this outcome?
 
----
+⸻
 
-## **Purpose of the Six Calculi**
+FG — Field Guide
 
-Together, these calculi ensure LCES remains:
+Provides the practical method for action inside legal process.
 
-- modular
-- teachable
-- auditable
-- scalable
-- procedurally consistent
-- adaptable to real cases
+Focus: next steps, issue spotting, chronology, filing sequence, preservation Core question: What do I do now?
 
+⸻
+
+FGA — Field Guide Advanced
+
+Applies the Field Guide in more complex, unstable, or high-pressure situations where adaptation and preservation must happen at the same time.
+
+Focus: advanced execution, adaptation, escalation, procedural pressure, live preservation strategy Core question: How do I act strategically under real conditions?
+
+⸻
+
+Core Distinction • LC and LCA explain why outcomes happen • FG and FGA explain how to respond • JC explains the judge’s motivations • LCa explains the lawyer’s motivations
+
+Together, the six calculi help users understand the difference between law in theory and legal behavior in practice.
+
+⸻
+
+Operating Premise
+
+LCES is not built around idealized justice. It is built around real legal process.
+
+That means recognizing that judges manage burden, time, and procedural risk; lawyers manage leverage, exposure, and client position; institutions manage order, flow, and self-protection; and outcomes are shaped by the record actually built, not the fairness ideally imagined.
+
+LCES studies the legal system as it functions.
 They are the structural backbone of the repository and all LCES workflows.
 
 🛑🛑
