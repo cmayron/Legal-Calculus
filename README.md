@@ -810,8 +810,12 @@ Non-commercial use is permitted with attribution and ShareAlike. Commercial use 
 ⸻
 🚀📘 LCES STARTUP
 BOOTLOADER.md
+copy this entire block the paste it into each Ai
+
 **BOOT LOADER** **COPY&PASTE** **1st CoPilot**
+
 **To initialize the Architect to build the blueprint**
+
 **IMPORTANT Input into Ai you want to use Legal Calculus educational System (LCES)**
 **2nd ChatGPT needs this boot loader to initialize the Builder**
 **3rd Gemini needs this boot loader to initialize the Inspector Ai**
