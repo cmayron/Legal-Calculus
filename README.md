@@ -808,18 +808,12 @@ Licensed under CC BY-NC-SA 4.0.
 Non-commercial use is permitted with attribution and ShareAlike. Commercial use requires prior written permission. See the LICENSE file for full terms.
 
 ⸻
+🚀📘 LCES STARTUP
 BOOTLOADER.md
-
-**STARTUP**
-
 **BOOT LOADER** **COPY&PASTE** **1st CoPilot**
-
 **To initialize the Architect to build the blueprint**
-
 **IMPORTANT Input into Ai you want to use Legal Calculus educational System (LCES)**
-
 **2nd ChatGPT needs this boot loader to initialize the Builder**
-
 **3rd Gemini needs this boot loader to initialize the Inspector Ai**
 
 **Execution Standard (The Handoff)**
