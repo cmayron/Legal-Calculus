@@ -1,5 +1,4 @@
-# LCES
-Legal Calculus Educational System
+# LCES Legal Calculus Educational System
 
 
 
