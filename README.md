@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <strong>*LCES Legal Calculus Educational System* is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.</strong>
+  <strong>LCES Legal Calculus Educational System is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.</strong>
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@ README.md
 
 *LCES Legal Calculus Educational System*
 
-LCES is a procedural-literacy and workflow framework for organizing facts, structuring legal work, preserving the record, and producing reviewable draft work product.
+LCES Legal Calculus Educational System is a procedural-literacy and workflow framework for organizing facts, structuring legal work, preserving the record, and producing reviewable draft work product.
 
 It is designed for people working inside complex legal processes, where outcomes often depend not only on the underlying issue, but also on sequence, preservation, clarity, incentives, and the record that gets built.
 
@@ -148,7 +148,7 @@ Success condition:
 
 The Six Calculi
 
-LCES is built on six interlocking calculi. These modules explain how legal outcomes happen, how legal actors behave, and how users can respond in a structured, reviewable way.
+LCES Legal Calculus Educational System is built on six interlocking calculi. These modules explain how legal outcomes happen, how legal actors behave, and how users can respond in a structured, reviewable way.
 
 LC — Legal Calculus
 
@@ -325,8 +325,7 @@ Users are responsible for verifying all law, rules, deadlines, citations, format
 
 MANIFESTO.md
 
-LCES
-Legal Calculus Educational System
+*LCES Legal Calculus Educational System*
 
 LCES is built for the real world.
 
@@ -411,7 +410,7 @@ With scope control, legal work becomes usable.
 
 The Six Calculi
 
-LCES is organized around six interlocking calculi because legal outcomes are not driven by one force alone.
+LCES Legal Calculus Educational System is organized around six interlocking calculi because legal outcomes are not driven by one force alone.
 
 Legal Calculus (LC)
 
@@ -539,7 +538,7 @@ It is built for the real world.  ￼
 
 
 
-Activate the Legal Calculus Educational System (LCES).
+Activate the *LCES Legal Calculus Educational System*
 
 LCES is a procedural-literacy and workflow-control system.
 It is educational only.
