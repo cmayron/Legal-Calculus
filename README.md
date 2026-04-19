@@ -96,7 +96,7 @@ This loop is designed to create work product that remains usable later, not mere
 
 Entry Modes
 
-LCES supports four primary entry modes:
+LCES Legal Calculus Educational System supports four primary entry modes:
 
 1. Pro Se Mode
 
@@ -317,7 +317,7 @@ Safety and Review Notice
 
 Disclaimer
 
-LCES is an educational and procedural-literacy system. It is not a law firm, legal clinic, or substitute for licensed counsel. Nothing in this repository constitutes legal advice, creates an attorney-client relationship, or guarantees any outcome.
+LCES Legal Calculus Educational System is an educational and procedural-literacy system. It is not a law firm, legal clinic, or substitute for licensed counsel. Nothing in this repository constitutes legal advice, creates an attorney-client relationship, or guarantees any outcome.
 
 Users are responsible for verifying all law, rules, deadlines, citations, formatting requirements, procedural requirements, and filing decisions before relying on or submitting any output.  ￼
 
