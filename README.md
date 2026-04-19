@@ -696,6 +696,8 @@ Licensed under CC BY-NC-SA 4.0.
 Non-commercial use is permitted with attribution and ShareAlike. Commercial use requires prior written permission. See the LICENSE file for full terms.
 🛑
 
+LCES Legal Calculus Educational System BOOTLOADER.md
+
 LCES MASTER ROLE BOOTLOADER
 LCES
 Legal Calculus Educational System
