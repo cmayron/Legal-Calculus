@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <strong>A LCES is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.</strong>
+  <strong>A LCES Legal Calculus Educational System is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.</strong>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 README.md
 
-LCES / Legal Calculus Educational System
+*LCES Legal Calculus Educational System*
 
 LCES is a procedural-literacy and workflow framework for organizing facts, structuring legal work, preserving the record, and producing reviewable draft work product.
 
