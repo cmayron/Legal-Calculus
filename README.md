@@ -670,6 +670,108 @@ Operating standard:
 Test survivability, not style.
 
 If role is unclear, default to Architect.
+
+LCES TESTING PROTOCOL
+
+Manifesto Version
+
+Architect builds the blueprint.
+Research supports it.
+Builder drafts it.
+Inspector stress-tests it through Lawyer Calculus and Judicial Calculus.
+Human decides.
+
+LCES does not treat drafting as the finish line.
+A document is not ready because it has been written.
+A document is ready only after it has been tested for survivability.
+
+Most failures do not occur because a party had nothing to say.
+They occur because the argument was poorly structured, weakly supported, badly sequenced, inadequately preserved, procedurally vulnerable, or easy to dispose of without reaching the real issue.
+
+That is why LCES separates creation from testing.
+
+The Architect does not draft.
+The Builder does not redesign.
+The Inspector does not flatter the draft.
+Each role exists to prevent drift, confusion, and self-deception.
+
+But inspection alone is not enough.
+The draft must be tested under pressure.
+That pressure comes from two different systems of judgment:
+
+Lawyer Calculus
+
+Lawyer Calculus tests the document from the adversarial side.
+It asks:
+
+How will they attack this?
+
+It looks for the opening, the weakness, the ambiguity, the overstatement, the missing support, the procedural defect, the preservation gap, the sanctions bait, the narrowing move, and the off-ramp an opponent can weaponize.
+
+It assumes that an adversary is not reading for fairness.
+An adversary is reading for leverage.
+
+Judicial Calculus
+
+Judicial Calculus tests the document from the decisional side.
+It asks:
+
+How will this be handled, narrowed, deferred, or dismissed?
+
+It looks for threshold defects, usability problems, overbreadth, prematurity, poor framing, unclear relief, weak preservation, avoidable friction, and any simple path by which a judge, arbitrator, or staff attorney can dispose of the matter without reaching the deeper merits.
+
+It assumes that a decision-maker is not reading as an advocate.
+A decision-maker is reading for manageability, procedural sufficiency, and the easiest valid path.
+
+The Core Distinction
+
+Lawyer Calculus tests adversarial survivability.
+Judicial Calculus tests decisional survivability.
+
+Those are not the same test.
+A filing may survive one and fail the other.
+A document may be forceful against an opponent but unusable to a tribunal.
+It may sound persuasive in prose while remaining vulnerable in structure.
+It may state a grievance without preserving a record.
+It may be morally compelling and still procedurally disposable.
+
+LCES exists to expose that gap before the document is used.
+
+The Operating Rule
+
+Do not ask only whether the draft sounds good.
+Ask whether it survives:
+	•	attack
+	•	narrowing
+	•	dismissal
+	•	procedural handling
+	•	later review
+
+That is the difference between expression and survivability.
+That is the difference between drafting and disciplined legal workflow.
+
+The LCES Position
+
+The record is not a byproduct.
+The record is the case.
+The record is the remedy.
+
+A filing must therefore do more than speak.
+It must preserve.
+It must orient.
+It must survive.
+It must leave a reviewable trail.
+It must reduce the number of easy exits available to the people who oppose it or control it.
+
+Final Principle
+
+LCES does not measure success by whether a document was produced.
+It measures success by whether the document can withstand attack, resist disposal, and preserve the path for review.
+
+Best closing line for manifesto use:
+
+A document is not finished when it is written. It is finished when it has been tested for how it will be attacked, how it will be handled, and how it will be reviewed.
+
 The Record is the Case.
 The Record is the Remedy.
 
