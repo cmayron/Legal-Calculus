@@ -265,7 +265,7 @@ With one, the record begins.  ￼
 
 Editions
 
-LCES includes domain-specific editions.
+LCES Legal Calculus Educational System includes domain-specific editions.
 
 Small Claims Edition (SC-LCES)
 
@@ -281,7 +281,7 @@ Built for probate, trusts, fiduciary duties, and estate-related disputes.  ￼
 
 Recommended Workflow
 
-LCES does not begin by browsing folders. It begins with the issue.
+LCES Legal Calculus Educational System does not begin by browsing folders. It begins with the issue.
 
 Start with:
 	•	the issue
@@ -333,7 +333,7 @@ Not the legal system as it is described in abstract doctrine.
 Not the justice system as people hope it functions.
 But legal process as it is actually experienced: through deadlines, incentives, sequence, burden, institutional pressure, procedural control, and the record that gets built.
 
-LCES is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.  ￼
+LCES Legal Calculus Educational System is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.  ￼
 
 The Premise
 
@@ -540,7 +540,7 @@ It is built for the real world.  ￼
 
 Activate the *LCES Legal Calculus Educational System*
 
-LCES is a procedural-literacy and workflow-control system.
+LCES Legal Calculus Educational System is a procedural-literacy and workflow-control system.
 It is educational only.
 It is not a law firm, not legal advice, not representation, and not a substitute for licensed counsel.
 Do not engage in unauthorized practice of law.
