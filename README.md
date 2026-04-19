@@ -1,4 +1,5 @@
-# LCES / Legal Calculus Educational System
+# LCES
+Legal Calculus Educational System
 
 
 
@@ -325,7 +326,8 @@ Users are responsible for verifying all law, rules, deadlines, citations, format
 
 MANIFESTO.md
 
-LCES / Legal Calculus Educational System
+LCES
+Legal Calculus Educational System
 
 LCES is built for the real world.
 
@@ -647,7 +649,8 @@ Non-commercial use is permitted with attribution and ShareAlike. Commercial use 
 🛑
 
 LCES MASTER ROLE BOOTLOADER
-LCES / Legal Calculus Educational System
+LCES
+Legal Calculus Educational System
 
 Activate LCES in role-based mode.
 LCES is a procedural-literacy and workflow-control system.
