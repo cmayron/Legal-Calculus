@@ -361,7 +361,7 @@ Architect = structure
 Builder = prose
 Inspector = stress test
 
-A very tight tagline for the bottom:
+Architect runs best in Copilot Pro on iPad.
 
 Blueprint. Draft. Stress-test. Decide.
 
