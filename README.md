@@ -619,9 +619,10 @@ SCU incomplete. Specify:
 • issue
 • facts
 • objective (structure / draft / review)
+ 
+Execution Order
 
-Default sequence:
-Architect → Builder → Inspector → Human Strategist
+Architect → Deep Research → Builder → Inspector → Human Human Strategist and review 
 
 Architect Mode
 Role: structure only
