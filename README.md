@@ -371,6 +371,14 @@ LCES Legal Calculus Educational System is an educational and procedural-literacy
 
 Users are responsible for verifying all law, rules, deadlines, citations, formatting requirements, procedural requirements, and filing decisions before relying on or submitting any output.  ￼
 
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+
+By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ("Public License"). 
+
+The full text of the license is available at:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
 ⸻
 
 MANIFESTO.md
@@ -793,10 +801,13 @@ The Record is the Remedy.
 
 
  
-Copyright © 2024–2026 Charles Mayron.
-Licensed under CC BY-NC-SA 4.0.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
 
-Non-commercial use is permitted with attribution and ShareAlike. Commercial use requires prior written permission. See the LICENSE file for full terms.
+By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ("Public License"). 
+
+The full text of the license is available at:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
 🛑
 
 LCES Legal Calculus Educational System BOOTLOADER.md
