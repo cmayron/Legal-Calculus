@@ -385,7 +385,7 @@ Architect runs best in Copilot Pro on iPad.
 
 Blueprint. Draft. Stress-test. Decide.
 
-Addendum: Addressing Adoption & Ethical Hurdles
+**Addendum: Addressing Adoption & Ethical Hurdles**
 I. The "Neutrality" Firewall
 To resolve the legal-information vs. legal-advice friction, LCES adopts a Strict Variable Separation:
 • The System (Constants): LCES provides the universal "Calculus"—the structural logic, procedural order, and "Format as Memory" templates.
@@ -420,7 +420,7 @@ LCES Legal Calculus Educational System is an educational and procedural-literacy
 Users are responsible for verifying all law, rules, deadlines, citations, formatting requirements, procedural requirements, and filing decisions before relying on or submitting any output.  ￼
 
 
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License**
 
 By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ("Public License"). 
 
@@ -852,7 +852,7 @@ A document is not finished when it is written. It is finished when it has been t
 The Record is the Case.
 The Record is the Remedy.
 
-Addendum: Procedural Guardrails & Operational Limits
+**Addendum: Procedural Guardrails & Operational Limits**
 1. The Jurisdictional Firewall (Logic vs. Advice)
 To navigate the friction between neutral legal information and fact-specific legal advice, LCES adopts a Strict Variable Separation:
 • The System (Constants): LCES provides the universal "Calculus"—the structural if/then logic of a claim and the "Format as Memory" templates.
@@ -895,7 +895,7 @@ The system utilizes a Bootloader-style operating protocol to simplify the "Cogni
 
 
  
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License**
 
 By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ("Public License"). 
 
@@ -1396,7 +1396,7 @@ Inspector = stress test
 
 ⸻
 
-Addendum: The LCES Bootloader Protocol
+**Addendum: The LCES Bootloader Protocol**
 To mitigate the hurdles of digital literacy and tool-fluency, all interactions with the system must initiate via the Stage 0 Bootloader. This protocol ensures that the AI environment is safe and the user’s cognitive load is managed.
 Stage 0: The Environmental & Safety Audit
 Before any legal logic is processed, the user must establish the "Human-Centric Shield."
@@ -1418,7 +1418,7 @@ The final step of the Bootloader is the "Verification Handshake."
 • Last-Mile Verification: The Bootloader concludes by generating a Verification Checklist specifically tailored to the user’s local jurisdiction variables (Deadlines, Filing Fees, and Citations).
 
 
-Tagline
+**Tagline**
 
 Blueprint. Research. Draft. Stress-test. Decide.
 
@@ -1426,7 +1426,7 @@ Best strong sentence for the protocol:
 
 The Builder does not draft from assumption; it drafts from a blueprint that has already been research-supported.
 
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License**
 
 By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ("Public License"). 
 
