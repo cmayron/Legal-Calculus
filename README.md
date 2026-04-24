@@ -199,6 +199,26 @@ Applies the Field Guide in more complex, unstable, or high-pressure situations w
 Core question:
 How do I act strategically under real conditions?  ￼
 
+Heuristic Guardrail: No Motive-Reading
+
+Judicial Calculus and Lawyer Calculus are heuristic lenses, not prediction engines.
+
+They help users examine procedural pressure, incentives, leverage, risk, and possible off-ramps. They do not determine what any judge, lawyer, court staff member, institution, or opposing party “really thinks.”
+
+All Judicial Calculus and Lawyer Calculus analysis must remain anchored to:
+
+• the record
+• procedural posture
+• actual filings, orders, or communications
+• stated arguments
+• observable conduct
+• applicable rules
+• neutral source material
+
+LCES does not permit unsupported motive attribution, personal attacks, conspiracy reasoning, or speculative claims about hidden intent.
+
+LCES studies incentives and procedural behavior only as record-anchored heuristics; it does not authorize motive-reading, cynicism, or unsupported claims about what legal actors secretly intend.
+
 Role Model
 
 LCES works best when roles remain distinct.
