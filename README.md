@@ -15,7 +15,7 @@
 
 ---
 
-README.md
+**README.md**
 
 *LCES Legal Calculus Educational System*
 
@@ -36,7 +36,7 @@ Many legal losses occur not only because the underlying issue is weak, but becau
 
 LCES exists to reduce that failure mode.
 
-What LCES Does
+**What LCES Does**
 
 LCES is a framework for turning:
 	•	confusion into sequence
@@ -52,7 +52,7 @@ Preservation is power.  ￼
 
 What LCES Is Not
 
-LCES is not:
+**LCES is not:**
 	•	a law firm
 	•	a legal clinic
 	•	a substitute for licensed counsel
@@ -63,7 +63,7 @@ LCES is not:
 
 All outputs are drafts requiring verification, correction, and decision by the human user.  ￼
 
-Core Method: The Smallest Complete Unit (SCU)
+**Core Method: The Smallest Complete Unit (SCU)**
 
 LCES uses the Smallest Complete Unit (SCU) method to reduce overload, narrow scope, and improve precision.
 
@@ -81,7 +81,7 @@ Example
 	•	Facts: Stay entered July 24; deposition proceeded anyway.
 	•	Objective: Draft a preservation notice.  ￼
 
-Operating Loop
+**Operating Loop**
 
 LCES uses a repeatable workflow:
 
@@ -94,7 +94,7 @@ Retrieve → Frame → Transform → Evaluate → Commit
 
 This loop is designed to create work product that remains usable later, not merely text that looks complete in the moment.
 
-Entry Modes
+**Entry Modes**
 
 LCES Legal Calculus Educational System supports four primary entry modes:
 
@@ -146,7 +146,7 @@ Priority:
 Success condition:
 	•	one immediate, procedurally defensible action  ￼
 
-The Six Calculi
+**The Six Calculi**
 
 LCES Legal Calculus Educational System is built on six interlocking calculi. These modules explain how legal outcomes happen, how legal actors behave, and how users can respond in a structured, reviewable way.
 
@@ -223,7 +223,7 @@ Role Model
 
 LCES works best when roles remain distinct.
 
-Architect
+**Architect**
 
 Responsible for structure.
 
@@ -235,7 +235,7 @@ Typical outputs:
 	•	packet structure
 	•	procedural sequence
 
-Builder
+**Builder**
 
 Responsible for drafting and transformation.
 
@@ -247,7 +247,7 @@ Typical outputs:
 	•	proposed orders
 	•	filing-oriented drafts
 
-Inspector
+**Inspector**
 
 Responsible for adversarial testing and validation.
 
@@ -267,9 +267,9 @@ Each role should produce only its assigned output.
 
 Default sequence:
 
-Architect → Builder → Inspector → Human Strategist
+**Architect → Builder → Inspector → Human Strategist**
 
-Chief Complaint + Factual Anchor
+**Chief Complaint + Factual Anchor**
 
 LCES begins with two inputs:
 	•	a chief complaint
