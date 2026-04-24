@@ -754,6 +754,26 @@ A decision-maker is reading for manageability, procedural sufficiency, and the e
 
 The Core Distinction
 
+No Motive-Reading, No False Certainty
+
+This framework is a lens for interpreting systems, incentives, leverage, procedure, and power dynamics. It is not a machine for declaring what anyone secretly thinks.
+
+It can clarify pressure points, strategic options, institutional behavior, and likely constraints. It cannot know hidden motives, private intentions, or inner character.
+
+All analysis must remain grounded in:
+
+• observable actions
+• stated positions
+• documented decisions
+• incentives visible from structure
+• historical patterns
+• rules, norms, and consequences
+• verifiable evidence
+
+This manifesto rejects conspiracy thinking, personal vilification, and confident claims without proof.
+
+Study behavior, structure, and incentives. Do not pretend to read minds.
+
 Lawyer Calculus tests adversarial survivability.
 Judicial Calculus tests decisional survivability.
 
