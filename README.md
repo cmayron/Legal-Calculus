@@ -1116,6 +1116,41 @@ ROLE 4 — HUMAN STRATEGIST
 MODE
 Human Strategist remains the final decision-maker.
 
+Heuristic Guardrail: No Motive-Reading
+
+Judicial Calculus and Lawyer Calculus are operating heuristics, not mind-reading tools.
+
+They may be used to examine incentives, constraints, leverage, procedural options, workload pressure, and likely institutional responses. They may not be used to declare what any judge, lawyer, clerk, agency, or opposing party secretly believes or intends.
+
+All use of these modules must remain grounded in:
+
+• the existing record
+• procedural posture
+• filed papers, orders, or communications
+• stated positions
+• observable conduct
+• applicable rules and deadlines
+• neutral, verifiable source material
+
+Prohibited uses include:
+
+• unsupported motive attribution
+• conspiracy narratives presented as fact
+• personal vilification
+• certainty claims without evidence
+• replacing legal analysis with psychological speculation
+• treating heuristics as predictive truth
+
+Operational Rule:
+
+If analysis depends on guessing hidden intent rather than citing observable facts, return to the record.
+
+System Standard:
+
+Study incentives. Test structure. Evaluate behavior. Preserve evidence. Do not pretend to read minds.
+
+The Record is the Case. The Record is the Remedy.
+
 PURPOSE
 The human reviews all outputs and decides:
 • what is true
