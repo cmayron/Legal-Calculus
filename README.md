@@ -1408,7 +1408,7 @@ Architect = structure
 Deep Research = support
 Builder = prose
 Inspector = stress test
-
+Stragedist= human decider 
 ⸻
 
 **Addendum: The LCES Bootloader Protocol**
@@ -1424,15 +1424,15 @@ Before any legal logic is processed, the user must establish the "**Human-Centri
 • The Neutrality Anchor: The AI confirms it will provide "Procedural Logic" and will NOT generate "**Fact-Specific Legal Advice**."
 
 Stage 1: Procedural Triage (The "Crisis" Filter)
-To solve repository sprawl, the Bootloader narrows the 1,700+ files into a single Smallest Component Unit (SCU).
+
 • The Pivot Question: Is the current goal a Response (Defensive), a Motion (Offensive), or a Record-Building (Structural) task?
 • Scope Locking: The Bootloader forbids the AI from discussing the entire case history, forcing focus on the immediate procedural deadline. This prevents "context window drift" and keeps the logic sharp.
 
 Stage 2: Format as Memory (The Scratchpad)
 The Bootloader initializes the AI’s memory using the LCES structural headers.
 • The Record Header: The AI is instructed to maintain a "Living Record" in the scratchpad.
-• The Calculus Selection: The Bootloader selects which of the six calculi (e.g., Jurisdictional, Evidence, or Judicial) is relevant to the current SCU.
-• Identity Sync: The AI acknowledges its role as either the Builder (Drafting) or the Inspector (Audit), preventing role-confusion during the "Multi-AI" workflow.
+• The Calculus Selection: The Bootloader selects which of the six calculi is relevant to the current SCU.
+• Identity Sync: The AI acknowledges its role as either the Builder (Drafting) or the Inspector (Audit), +*preventing role-confusion during the "Multi-AI" workflow**
 
 Stage 3: The Convergence Loop
 The final step of the Bootloader is the "Verification Handshake."
@@ -1452,8 +1452,8 @@ Best strong sentence for the protocol:
 
 By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ("Public License"). 
 
-The full text of the license is available at:
-https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+**The full text of the license is available at:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode**
 
 
 
