@@ -1442,11 +1442,11 @@ The final step of the Bootloader is the "Verification Handshake."
 
 **Tagline**
 
-Blueprint. Research. Draft. Stress-test. Decide.
+**Blueprint. Research. Draft. Stress-test. Decide**.
 
 Best strong sentence for the protocol:
 
-The Builder does not draft from assumption; it drafts from a blueprint that has already been research-supported.
+**The Builder does not draft from assumption; it drafts from a blueprint that has already been research-supported**.
 
 **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License**
 
