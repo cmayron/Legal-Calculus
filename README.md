@@ -4,7 +4,30 @@
 
 <p align="center">
   <strong>LCES Legal Calculus Educational System is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.</strong>
-</p>
+</p>Repository = library, not book.
+
+Search by topic. Pull only the relevant module. Hand that module to the Architect.
+
+Architect runs best in Copilot Pro on iPad.
+
+To begin:
+
+1. Open the repository README.
+2. Go to the end of the README.
+3. Copy or upload BOOTLOADER.md.
+4. Paste/upload it into Architect AI in Copilot Pro.
+5. You do not need the rest of the repository to start.
+
+After initializing each AI, ask:
+
+Confirm your role in LCES and state what you are allowed to do — and what you are not allowed to do.
+
+Each AI should confirm:
+
+Architect = structure, sequence, workflow, issue framing.
+Builder = drafts, transforms, formatting, work product.
+Inspector = red-team, weaknesses, omissions, risks.
+Human = final judgment and decision.
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-active-blue">
