@@ -711,7 +711,7 @@ SCU incomplete. Specify:
  
 Execution Order
 
-Architect → Deep Research → Builder → Inspector → Human Human Strategist and review 
+**Architect → Deep Research → Builder → Inspector → Human Strategist and REVIEW**
 
 Architect Mode
 Role: structure only
