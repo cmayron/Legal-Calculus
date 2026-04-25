@@ -14,7 +14,7 @@ To begin:
 
 1. Open the repository README.
 2. Go to the end of the README.
-3. Copy or upload BOOTLOADER.md.
+3. Copy or upload BOOTLOADER.
 4. Paste/upload it into Architect AI in Copilot Pro.
 5. You do not need the rest of the repository to start.
 
@@ -38,7 +38,7 @@ Human = final judgment and decision.
 
 ---
 
-**README.md**
+**README**
 
 *LCES Legal Calculus Educational System*
 
@@ -358,7 +358,7 @@ Safety and Review Notice
 	•	Redact personal identifiers and protected information before use.
 	•	AI chat logs and cloud drafting environments are not privileged by default and should not be treated as secure evidence repositories.  ￼
 
-**LCES MODE LOCK — BOOTLOADER CARD**
+**LCES MODE LOCK — BOOTLOADER OVERVIEW**
 
 Platform Assignment
 	•	Architect = Copilot
@@ -411,35 +411,35 @@ Blueprint. Draft. Stress-test. Decide.
 **Addendum: Addressing Adoption & Ethical Hurdles**
 
 
-I. The "Neutrality" Firewall
+I. **The "Neutrality" Firewall**
 To resolve the legal-information vs. legal-advice friction, LCES adopts a Strict Variable Separation:
 • The System (Constants): LCES provides the universal "Calculus"—the structural logic, procedural order, and "Format as Memory" templates.
 • The User (Variables): The user provides the "Local Variable"—the jurisdiction-specific citations, statutes of limitations, and local court rules.
 • The Guardrail: By treating law as a variable to be verified by the human agent, LCES remains a Procedural Calculator, protecting the boundary of neutral legal information.
 
 
-II. The Instrumentality & Convergence Protocol
+II. **The Instrumentality & Convergence Protocol**
 To mitigate AI-hallucination and external tool risk, the system codifies the Multi-AI Workflow:
 • Instrumentality: AI is utilized as a mechanical drafting instrument (a "pencil"), not a legal agent. It possesses no authority.
 • The Convergence Rule: A procedural step is only considered "Stable" when independent models (e.g., the Builder and the Inspector) converge on the same logic.
 • Verification Mandate: The user bears the ultimate "Verification Discipline." No LCES-assisted draft is final until every citation is checked against an official court reporter or verified legal database.
 
 
-III. Tiered Entry (Solving the Sprawl)
+III. **Tiered Entry** (Solving the Sprawl)
 To lower the barrier for the "median user in crisis," the repository is organized by User Intent:
 1.	The Active Toolset ("The Book"): Curated, modular templates and the Stage 0 Bootloader for immediate action.
 2.	The Research Archive ("The Library"): The living archive of 1,700+ commits and scripts (Swift, Python, Shell) for power users, clinic staff, and developers.
 • Note: Casual users are directed to the Bootloader to avoid the cognitive overwhelm of the full archive.
 
 
-IV. Hybrid Licensing & Contribution
+IV. **Hybrid Licensing & Contribution**
 To address licensing friction and facilitate downstream adoption:
 • Educational Content: (The Calculus, Manifesto, and Logic) remains under CC BY-NC-SA 4.0.
 • Functional Infrastructure: All functional code and automation scripts in the /scripts directory are dual-licensed under the MIT License.
 • Norms: This ensures that LCES logic can be integrated into simplified front-ends, commercial tools, or clinical workflows without the atypical restrictions of Creative Commons on software code.
 
 
-V. The Bootloader: "Format as Memory"
+V. **The Bootloader: "Format as Memory"**
 The system utilizes a bootloader-style operating protocol to simplify entry:
 • Stage 0 (Safety): Environmental audit to ensure AI tool choice and data-handling practices are sound.
 • Stage 1 (Triage): Narrowing the user’s vast legal problem into a single Smallest Component Unit (SCU).
@@ -461,7 +461,7 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
 ⸻
 
-MANIFESTO.md
+**MANIFESTO**
 
 *LCES Legal Calculus Educational System*
 
@@ -607,11 +607,11 @@ Role Separation
 Structure, drafting, and adversarial testing are different tasks.
 When they are blended too early, quality drops.
 
-That is why LCES separates roles into:
+**That is why LCES separates roles into:
 	•	Architect — structure
 	•	Builder — drafting
 	•	Inspector — analysis
-	•	Human Strategist — judgment and decision  ￼
+	•	Human Strategist — judgment and decision**  ￼
 
 This separation exists to reduce drift, prevent premature drafting, isolate defects, and preserve accountability across stages.
 
@@ -762,13 +762,13 @@ If role is unclear, default to Architect.
 
 LCES TESTING PROTOCOL
 
-Manifesto Version
 
-Architect builds the blueprint.
+
+**Architect builds the blueprint.
 Research supports it.
 Builder drafts it.
 Inspector stress-tests it through Lawyer Calculus and Judicial Calculus.
-Human decides.
+Human decides.**
 
 **LCES does not treat drafting as the finish line.
 A document is not ready because it has been written.
