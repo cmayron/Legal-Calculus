@@ -27,12 +27,12 @@ LCES helps convert disorder into structured, reusable work product.
 
 It does not replace legal counsel. It is an educational and operational framework for thinking clearly, working systematically, and building a reviewable record.  ￼
 
-Governing Principle
+**Governing Principle**
 
 The record is the case.
 The record is the remedy.
 
-Many legal losses occur not only because the underlying issue is weak, but because the matter is poorly structured, poorly preserved, poorly sequenced, or difficult to review.
+**Many legal losses occur not only because the underlying issue is weak, but because the matter is poorly structured, poorly preserved, poorly sequenced, or difficult to review**
 
 LCES exists to reduce that failure mode.
 
@@ -50,7 +50,7 @@ Format is memory.
 Structure is leverage.
 Preservation is power.  ￼
 
-What LCES Is Not
+**What LCES Is Not**
 
 **LCES is not:**
 	•	a law firm
@@ -98,7 +98,7 @@ This loop is designed to create work product that remains usable later, not mere
 
 LCES Legal Calculus Educational System supports four primary entry modes:
 
-1. Pro Se Mode
+1. **Pro Se Mode**
 
 For self-represented users who need a minimum viable procedural step.
 
@@ -110,7 +110,7 @@ Priority:
 Success condition:
 	•	one clean, reviewable step that preserves the record
 
-2. Second-Opinion Mode
+2. **Second-Opinion Mode**
 
 For users who already have a draft and need structural, sequencing, or preservation review before filing.
 
@@ -122,7 +122,7 @@ Priority:
 Success condition:
 	•	clear identification of structural flaws, gaps, or risk points before commit
 
-3. Education Mode
+3. **Education Mode**
 
 For users learning how legal process works through structured issues, doctrine maps, chronology blocks, and filing sequences.
 
@@ -134,7 +134,7 @@ Priority:
 Success condition:
 	•	improved ability to frame issues, sequence action, and understand the record
 
-4. Crisis Mode
+4. **Crisis Mode**
 
 For time-compressed situations where the user must move from disorder to one clean, defensible step quickly.
 
@@ -150,7 +150,7 @@ Success condition:
 
 LCES Legal Calculus Educational System is built on six interlocking calculi. These modules explain how legal outcomes happen, how legal actors behave, and how users can respond in a structured, reviewable way.
 
-LC — Legal Calculus
+**LC — Legal Calculus**
 
 Explains why legal outcomes happen.
 
@@ -164,35 +164,35 @@ Focus:
 Core question:
 Why did this happen?
 
-JC — Judicial Calculus
+**JC — Judicial Calculus**
 
 Models the judge’s real-world motivations, including efficiency, docket pressure, temperament, procedural control, and available off-ramps.
 
 Core question:
 What is motivating the judge, and what path is the judge likely to take?
 
-LCa — Lawyer Calculus
+**LCa — Lawyer Calculus**
 
 Models the lawyer’s real-world motivations, including leverage, client protection, narrative control, record shaping, reputational concerns, and strategic risk management.
 
 Core question:
 What is motivating the lawyer, and how is that shaping the argument and record?
 
-LCA — Legal Calculus Advanced
+**LCA — Legal Calculus Advanced**
 
 Extends Legal Calculus into deeper analysis of strategic interaction, institutional pressure, hidden causation, and long-range consequence.
 
 Core question:
 What deeper forces are driving this outcome?
 
-FG — Field Guide
+**FG — Field Guide**
 
 Provides the practical method for action inside legal process.
 
 Core question:
 What do I do now?
 
-FGA — Field Guide Advanced
+**FGA — Field Guide Advanced**
 
 Applies the Field Guide in more complex, unstable, or high-pressure situations where adaptation and preservation must happen at the same time.
 
@@ -201,7 +201,7 @@ How do I act strategically under real conditions?  ￼
 
 Heuristic Guardrail: No Motive-Reading
 
-Judicial Calculus and Lawyer Calculus are heuristic lenses, not prediction engines.
+**Judicial Calculus and Lawyer Calculus are heuristic lenses, not prediction engines**
 
 They help users examine procedural pressure, incentives, leverage, risk, and possible off-ramps. They do not determine what any judge, lawyer, court staff member, institution, or opposing party “really thinks.”
 
@@ -287,15 +287,15 @@ Editions
 
 LCES Legal Calculus Educational System includes domain-specific editions.
 
-Small Claims Edition (SC-LCES)
+**Small Claims Edition (SC-LCES)**
 
 Built for high-volume, lower-complexity disputes.
 
-Family Court Edition (FC-LCES)
+**Family Court Edition (FC-LCES)**
 
 Built for custody, support, parenting-time, and related family-law disputes.
 
-Trust & Estate Edition (TE-LCES)
+**Trust & Estate Edition (TE-LCES)**
 
 Built for probate, trusts, fiduciary duties, and estate-related disputes.  ￼
 
@@ -312,7 +312,7 @@ Then activate the appropriate mode.
 
 Recommended workflow:
 
-User → Architect → Deep Research → Builder → Inspector → Human Strategist  ￼
+**User → Architect → Deep Research → Builder → Inspector → Human Strategist**￼
 
 Human Control
 
@@ -325,8 +325,8 @@ AI may assist with structure, drafting, and testing, but responsibility remains 
 	•	filing choice
 	•	strategic judgment  ￼
 
-The AI assists.
-The Human Strategist decides.
+**The AI assists.
+The Human Strategist decides**
 
 Safety and Review Notice
 	•	Verify all law, rules, deadlines, citations, and formatting independently.
@@ -335,33 +335,33 @@ Safety and Review Notice
 	•	Redact personal identifiers and protected information before use.
 	•	AI chat logs and cloud drafting environments are not privileged by default and should not be treated as secure evidence repositories.  ￼
 
-LCES MODE LOCK — BOOTLOADER CARD
+**LCES MODE LOCK — BOOTLOADER CARD**
 
 Platform Assignment
 	•	Architect = Copilot
 	•	Builder = ChatGPT
 	•	Inspector = Gemini
 
-Core Rule
+**Core Rule**
 Keep roles separate.
 Do not merge functions.
 Do not let one mode do another mode’s job.
 
-Architect Mode
+**Architect Mode**
 
 Role: structure only
 Do: issue framing, scope boundaries, fact organization, missing-information map, procedural posture, workflow sequence, risk flags
 Do not: draft full prose, invent facts, fill gaps, provide legal advice
 Standard: Build the blueprint, not the document.
 
-Builder Mode
+**Builder Mode**
 
 Role: drafting only
 Do: convert structured input into draft prose, draft notices, declarations, chronologies, proposed orders, motion sections
 Do not: redesign structure, invent facts, assume missing support, change scope without instruction, provide legal advice
 Standard: Execute the blueprint, not redesign it.
 
-Inspector Mode
+**Inspector Mode**
 
 Role: analysis only
 Do: identify procedural defects, structural weaknesses, factual vulnerabilities, preservation gaps, ambiguity, rejection risks, attack points
