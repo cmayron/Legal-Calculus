@@ -446,12 +446,11 @@ The system utilizes a bootloader-style operating protocol to simplify entry:
 • Stage 2 (Drafting): Establishing the record as the remedy through structured formatting.
 
 
-**Disclaimer
+**DISCLAIMER**
 
-LCES Legal Calculus Educational System is an educational and procedural-literacy system. It is not a law firm, legal clinic, or substitute for licensed counsel. Nothing in this repository constitutes legal advice, creates an attorney-client relationship, or guarantees any outcome.
+LCES Legal Calculus Educational System is an educational and procedural-literacy system. It is NOT a law firm, legal clinic, or substitute for licensed counsel. Nothing in this repository constitutes legal advice, creates an attorney-client relationship, or guarantees any outcome.
 
-Users are responsible for verifying all law, rules, deadlines, citations, formatting requirements, procedural requirements, and filing decisions before relying on or submitting any output.  ￼
-**
+**Users are responsible for verifying all law, rules, deadlines, citations, formatting requirements, procedural requirements, and filing decisions before relying on or submitting any output**
 
 **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License**
 
@@ -468,15 +467,15 @@ MANIFESTO.md
 
 LCES is built for the real world.
 
-Not the legal system as it is described in abstract doctrine.
+**Not the legal system as it is described in abstract doctrine.
 Not the justice system as people hope it functions.
-But legal process as it is actually experienced: through deadlines, incentives, sequence, burden, institutional pressure, procedural control, and the record that gets built.
+But legal process as it is actually experienced: through deadlines, incentives, sequence, burden, institutional pressure, procedural control, and the record that gets built.**
 
-LCES Legal Calculus Educational System is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.  ￼
+LCES Legal Calculus Educational System is a procedural-literacy framework for understanding WHY legal outcomes happen, HOW legal actors behave, and how to respond in a structured, reviewable way.  ￼
 
 The Premise
 
-A legal system is not the same thing as a justice system.
+**A legal system is not the same thing as a justice system.**
 
 Rules matter. Law matters. Facts matter. But outcomes are also shaped by:
 	•	timing
