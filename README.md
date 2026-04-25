@@ -446,12 +446,12 @@ The system utilizes a bootloader-style operating protocol to simplify entry:
 • Stage 2 (Drafting): Establishing the record as the remedy through structured formatting.
 
 
-Disclaimer
+**Disclaimer
 
 LCES Legal Calculus Educational System is an educational and procedural-literacy system. It is not a law firm, legal clinic, or substitute for licensed counsel. Nothing in this repository constitutes legal advice, creates an attorney-client relationship, or guarantees any outcome.
 
 Users are responsible for verifying all law, rules, deadlines, citations, formatting requirements, procedural requirements, and filing decisions before relying on or submitting any output.  ￼
-
+**
 
 **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License**
 
