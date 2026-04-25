@@ -1444,18 +1444,18 @@ Before any legal logic is processed, the user must establish the "**Human-Centri
 • Hallucination Guard: The AI is prompted to adopt the Inspector role, acknowledging that **every citation it generates must be flagged for manual verification** by the Architect and Human
 • The Neutrality Anchor: The AI confirms it will provide "Procedural Logic" and will NOT generate "**Fact-Specific Legal Advice**."
 
-Stage 1: Procedural Triage (The "Crisis" Filter)
+**Stage 1: Procedural Triage (The "Crisis" Filter)**
 
 • The Pivot Question: Is the current goal a Response (Defensive), a Motion (Offensive), or a Record-Building (Structural) task?
 • Scope Locking: The Bootloader forbids the AI from discussing the entire case history, forcing focus on the immediate procedural deadline. This prevents "context window drift" and keeps the logic sharp.
 
-Stage 2: Format as Memory (The Scratchpad)
+**Stage 2: Format as Memory (The Scratchpad)**
 The Bootloader initializes the AI’s memory using the LCES structural headers.
 • The Record Header: The AI is instructed to maintain a "Living Record" in the scratchpad.
 • The Calculus Selection: The Bootloader selects which of the six calculi is relevant to the current SCU.
 • Identity Sync: The AI acknowledges its role as either the Builder (Drafting) or the Inspector (Audit), +*preventing role-confusion during the "Multi-AI" workflow**
 
-Stage 3: The Convergence Loop
+**Stage 3: The Convergence Loop**
 The final step of the Bootloader is the "Verification Handshake."
 • Cross-Model Check: The output from the Builder is fed into a separate "Inspector" instance.
 • Last-Mile Verification: The Bootloader concludes by generating a Verification Checklist specifically tailored to the user’s local jurisdiction variables (Deadlines, Filing Fees, and Citations).
