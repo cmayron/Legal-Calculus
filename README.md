@@ -909,7 +909,7 @@ To resolve licensing friction and facilitate adoption across legal clinics and s
 • Functional Infrastructure: All functional code and scripts in the /scripts directory are dual-licensed under the MIT License.
 • Purpose: This allows for the integration of LCES logic into simplified front-ends and professional workflows without the atypical restrictions often associated with Creative Commons in software.
 
-5. The "Format as Memory" Protocol
+5. **The "Format as Memory" Protocol**
 The system utilizes a Bootloader-style operating protocol to simplify the "Cognitive Ambition" of the project:
 • Stage 0 (Audit): A mandatory environmental check to verify AI privacy settings and tool choice.
 • Stage 1 (Triage): Breaking a legal crisis into a single Smallest Component Unit (SCU).
