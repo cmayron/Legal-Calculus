@@ -863,26 +863,31 @@ The Record is the Case.
 The Record is the Remedy.
 
 **Addendum: Procedural Guardrails & Operational Limits**
+
 1. The Jurisdictional Firewall (Logic vs. Advice)
 To navigate the friction between neutral legal information and fact-specific legal advice, LCES adopts a Strict Variable Separation:
 • The System (Constants): LCES provides the universal "Calculus"—the structural if/then logic of a claim and the "Format as Memory" templates.
 • The User (Variables): The user is responsible for inputting the "Local Variable"—jurisdiction-specific citations, filing deadlines, and local court rules.
 • The Guardrail: LCES acts as a Procedural Calculator. By treating local law as a user-provided variable, the system remains a provider of neutral logic, ensuring the user remains the sole architect of their legal strategy.
+
 2. The Instrumentality Principle (AI Safety)
 To mitigate the risks of AI hallucinations and court sanctions, LCES codifies a Human-in-the-Loop requirement:
 • Instrumentality: AI tools are mechanical instruments (drafting pencils), not legal agents. They possess no authority and no inherent "truth."
 • The Convergence Rule: A procedural path is only "LCES-Validated" when multiple independent models (e.g., the Builder and the Inspector) converge on the same logic.
 • Verification Mandate: The user bears the ultimate "Verification Discipline." No LCES-assisted draft is final until every citation is checked against an official court reporter or verified database.
+
 3. Tiered Entry (Solving the Sprawl)
 To lower the barrier for the median user in crisis and address repository sprawl, LCES is now organized by User Intent:
 • The Active Toolset ("The Book"): Curated, modular templates and the Stage 0 Bootloader designed for immediate, high-stakes action.
 • The Research Archive ("The Library"): The expansive record of 1,700+ commits and automation scripts (Python, Swift, Shell) intended for power users, clinic staff, and developers.
 • Note: Casual users are directed to the Bootloader to avoid the cognitive overwhelm of the full archive.
+
 4. Hybrid Licensing & Downstream Utility
 To resolve licensing friction and facilitate adoption across legal clinics and software environments:
 • Educational Content: The Calculus, the Manifesto, and the conceptual logic remain under CC BY-NC-SA 4.0.
 • Functional Infrastructure: All functional code and scripts in the /scripts directory are dual-licensed under the MIT License.
 • Purpose: This allows for the integration of LCES logic into simplified front-ends and professional workflows without the atypical restrictions often associated with Creative Commons in software.
+
 5. The "Format as Memory" Protocol
 The system utilizes a Bootloader-style operating protocol to simplify the "Cognitive Ambition" of the project:
 • Stage 0 (Audit): A mandatory environmental check to verify AI privacy settings and tool choice.
@@ -1407,21 +1412,28 @@ Inspector = stress test
 ⸻
 
 **Addendum: The LCES Bootloader Protocol**
-To mitigate the hurdles of digital literacy and tool-fluency, all interactions with the system must initiate via the Stage 0 Bootloader. This protocol ensures that the AI environment is safe and the user’s cognitive load is managed.
-Stage 0: The Environmental & Safety Audit
-Before any legal logic is processed, the user must establish the "Human-Centric Shield."
-• Tool Verification: The AI must confirm it is operating in a "Private" or "Tiered" mode where user data is not utilized for model training.
-• Hallucination Guard: The AI is prompted to adopt the Inspector role, acknowledging that every citation it generates must be flagged for manual verification by the Architect (Human).
-• The Neutrality Anchor: The AI confirms it will provide "Procedural Logic" and will not generate "Fact-Specific Legal Advice."
+
+To mitigate the hurdles of digital literacy and tool-fluency, all interactions with the system must initiate via the Stage 0 Bootloader. 
+This protocol ensures that the AI environment is safe and the user’s cognitive load is managed.
+
+**Stage 0: The Environmental & Safety Audit**
+
+Before any legal logic is processed, the user must establish the "**Human-Centric Shield**."
+• Tool Verification: The AI must confirm it is operating in a "Private" or "Tiered" mode where user data is NOT **utilized for model training**.
+• Hallucination Guard: The AI is prompted to adopt the Inspector role, acknowledging that **every citation it generates must be flagged for manual verification** by the Architect and Human
+• The Neutrality Anchor: The AI confirms it will provide "Procedural Logic" and will NOT generate "**Fact-Specific Legal Advice**."
+
 Stage 1: Procedural Triage (The "Crisis" Filter)
 To solve repository sprawl, the Bootloader narrows the 1,700+ files into a single Smallest Component Unit (SCU).
 • The Pivot Question: Is the current goal a Response (Defensive), a Motion (Offensive), or a Record-Building (Structural) task?
 • Scope Locking: The Bootloader forbids the AI from discussing the entire case history, forcing focus on the immediate procedural deadline. This prevents "context window drift" and keeps the logic sharp.
+
 Stage 2: Format as Memory (The Scratchpad)
 The Bootloader initializes the AI’s memory using the LCES structural headers.
 • The Record Header: The AI is instructed to maintain a "Living Record" in the scratchpad.
 • The Calculus Selection: The Bootloader selects which of the six calculi (e.g., Jurisdictional, Evidence, or Judicial) is relevant to the current SCU.
 • Identity Sync: The AI acknowledges its role as either the Builder (Drafting) or the Inspector (Audit), preventing role-confusion during the "Multi-AI" workflow.
+
 Stage 3: The Convergence Loop
 The final step of the Bootloader is the "Verification Handshake."
 • Cross-Model Check: The output from the Builder is fed into a separate "Inspector" instance.
