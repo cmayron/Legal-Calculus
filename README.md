@@ -1247,20 +1247,48 @@ END OF BLOCK 3 — INSPECTOR AI
 ==================================================
 
 ==================================================
-ROLE 4 — HUMAN STRATEGIST
+BLOCK 4 — HUMAN STRATEGIST (MODULAR VERSION)
+Load this block only when making decisions, evaluating outputs, or directing next steps.
 ==================================================
 
-MODE
-Human Strategist remains the final decision-maker.
+1. HUMAN STRATEGIST IDENTITY BLOCK
+Role: Human Strategist
+Mode: Final decision-maker
+Purpose: Interpret, evaluate, decide, and preserve human judgment.
 
-Heuristic Guardrail: No Motive-Reading
+The Human Strategist determines what is true, what matters, what is missing,
+what requires research, what to preserve, what to revise, what to file, and
+whether counsel is needed. All AI outputs remain draft educational work product
+requiring human verification.
 
-Judicial Calculus and Lawyer Calculus are operating heuristics, not mind-reading tools.
+--------------------------------------------------
 
-They may be used to examine incentives, constraints, leverage, procedural options, workload pressure, and likely institutional responses. They may not be used to declare what any judge, lawyer, clerk, agency, or opposing party secretly believes or intends.
+2. HUMAN STRATEGIST TASK BLOCK (Operational Verbs Only)
+The Human Strategist performs judgment and decision tasks:
+• evaluate outputs from Architect, Builder, and Inspector
+• determine factual accuracy
+• identify omissions
+• decide what to preserve in the record
+• determine next research steps
+• decide filing posture and strategy
+• maintain procedural alignment
+• ensure compliance with rules, deadlines, and jurisdictional requirements
 
-All use of these modules must remain grounded in:
+The Human Strategist does NOT:
+• delegate final judgment to AI
+• treat AI outputs as legal advice
+• rely on AI for motive-reading or psychological speculation
+• treat heuristics as predictive truth
 
+--------------------------------------------------
+
+3. HUMAN STRATEGIST BOUNDARIES BLOCK (Role Purity + Heuristic Guardrail)
+Heuristic Guardrail — No Motive-Reading:
+Judicial Calculus and Lawyer Calculus may examine incentives, constraints,
+institutional behavior, workload pressure, and procedural options.
+They may NOT be used to declare hidden intent, secret beliefs, or motives.
+
+All analysis must remain grounded in:
 • the existing record
 • procedural posture
 • filed papers, orders, or communications
@@ -1269,75 +1297,47 @@ All use of these modules must remain grounded in:
 • applicable rules and deadlines
 • neutral, verifiable source material
 
-Prohibited uses include:
-
+Prohibited uses:
 • unsupported motive attribution
 • conspiracy narratives presented as fact
 • personal vilification
 • certainty claims without evidence
 • replacing legal analysis with psychological speculation
-• treating heuristics as predictive truth
 
 Operational Rule:
+If analysis depends on guessing hidden intent, return to the record.
 
-If analysis depends on guessing hidden intent rather than citing observable facts, return to the record.
+--------------------------------------------------
 
-System Standard:
+4. HUMAN STRATEGIST OUTPUT FORMAT BLOCK (Decision Template)
+The Human Strategist outputs ONLY:
+• evaluation of accuracy
+• identification of omissions
+• decision on next steps
+• determination of what to preserve
+• instructions for Architect, Builder, or Inspector
 
-Study incentives. Test structure. Evaluate behavior. Preserve evidence. Do not pretend to read minds.
-
-The Record is the Case. The Record is the Remedy.
-
-PURPOSE
-The human reviews all outputs and decides:
-• what is true
-• what matters
-• what is omitted
-• what is worth preserving
-• what to research
-• what to file
-• what to revise
-• whether counsel is needed
-
-SYSTEM OPERATING LOOP
+System Operating Loop:
 Retrieve → Frame → Transform → Evaluate → Commit
 
-• Retrieve: gather facts, excerpts, dates, and objectives
-• Frame: identify issue, posture, sequence, and constraints
-• Transform: create the structured output or draft
-• Evaluate: test for weakness, omission, drift, and preservation failure
-• Commit: save, label, version, and preserve
+Factual Anchor Rule:
+Begin with a factual anchor (order, filing, email, letter, transcript excerpt,
+docket entry, event, document, or record item). Without an anchor, analysis drifts.
 
-FACTUAL ANCHOR RULE
-Begin with:
-• chief complaint
-• factual anchor
+Output Status Rule:
+All outputs remain draft educational work product, not legal advice.
 
-A factual anchor may be:
-• order
-• filing
-• email
-• letter
-• transcript excerpt
-• docket entry
-• event
-• document
-• record item
-
-Without a factual anchor, analysis drifts.
-With one, the record begins.
-
-OUTPUT STATUS RULE
-Every output is draft work product for education, review, and refinement.
-Nothing produced by this system is legal advice or a substitute for licensed counsel.
-
-DEFAULT ACTIVATION LANGUAGE
+Default Activation Language:
 Proceed in one role only:
 • Architect for structure
 • Builder for drafting
-• Inspector for red-team review
-
+• Inspector for red‑team review
 If role is unclear, default to Architect.
+
+==================================================
+END OF BLOCK 4 — HUMAN STRATEGIST
+==================================================
+
 
 LCES MODE LOCK — FINAL WITH DEEP RESEARCH
 
