@@ -29,6 +29,19 @@ Each AI should confirm:
 • Inspector = red‑team, weaknesses, omissions, risks  
 • Human = final judgment and decision
 
+/QUICK_START.md
+    → Onboarding + SCU + Modes + Bootloader summary
+
+/README.md
+    → What LCES is, what it does, how to use it
+
+/MANIFESTO.md
+    → Full doctrine + Mode‑Lock + Deep Research + Workflow
+
+/BOOTLOADER.md
+    → Minimal operational role blocks (Architect / Builder / Inspector / Human)
+
+
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-active-blue">
