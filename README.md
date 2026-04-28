@@ -461,462 +461,348 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
 ⸻
 
-**MANIFESTO**
+# LCES MANIFESTO v2
+## Legal Calculus Educational System  
+## Built for the Real World
 
-*LCES Legal Calculus Educational System*
+---
 
-LCES is built for the real world.
+## I. The Premise
 
-**Not the legal system as it is described in abstract doctrine.
-Not the justice system as people hope it functions.
-But legal process as it is actually experienced: through deadlines, incentives, sequence, burden, institutional pressure, procedural control, and the record that gets built.**
+LCES is built for the legal system as it is experienced, not as it is idealized.  
+Not doctrine.  
+Not theory.  
+Not aspirational justice.  
 
-LCES Legal Calculus Educational System is a procedural-literacy framework for understanding WHY legal outcomes happen, HOW legal actors behave, and how to respond in a structured, reviewable way.  ￼
+But the lived system shaped by:
+• deadlines  
+• incentives  
+• burden  
+• institutional pressure  
+• procedural control  
+• record design  
+• what gets preserved — and what does not  
 
-The Premise
+LCES exists because many legal failures are not failures of merit.  
+They are failures of structure, sequence, preservation, and reviewability.
 
-**A legal system is not the same thing as a justice system.**
+A strong issue can be lost inside a weak record.  
+A valid objection can disappear if not preserved.  
+A serious problem can be neutralized if buried in disorder.
 
-Rules matter. Law matters. Facts matter. But outcomes are also shaped by:
-	•	timing
-	•	workload
-	•	leverage
-	•	record design
-	•	advocacy choices
-	•	institutional incentives
-	•	procedural instability
-	•	what gets preserved and what does not  ￼
+LCES addresses that gap.
 
-LCES exists because many legal failures are not merely failures of merit. They are failures of structure, sequence, preservation, and reviewability.
+---
 
-A strong issue can still be lost inside a weak record.
-A valid objection can still disappear if it is not preserved.
-A serious problem can still be neutralized if it is buried in disorder.
+## II. Governing Principle
 
-That is the space LCES addresses.
+**The record is the case.  
+The record is the remedy.**
 
-The Governing Principle
+LCES begins with what exists, what can be shown, what has been preserved, and what can survive review.  
+It does not begin with abstraction or optimism.
 
-The record is the case.
-The record is the remedy.
+---
 
-LCES begins there.
+## III. Function of LCES
 
-It does not begin with abstraction.
-It does not begin with optimism.
-It does not begin with theory detached from use.
+LCES converts legal disorder into structured, reviewable work product.
 
-**It begins with the record: what exists, what can be shown, what has been preserved, what can be organized, and what can survive later review**
+It helps users:
+• identify the issue  
+• isolate the smallest workable unit  
+• separate fact from conclusion  
+• preserve what matters  
+• reduce drift  
+• expose weakness  
+• produce reviewable output  
+• enable the next defensible step  
 
-The Function of LCES
+LCES does not exist to argue harder.  
+It exists to structure better.
 
-LCES is designed to turn legal disorder into structured work product.
+---
 
-Its purpose is to help users:
-	•	identify the issue
-	•	isolate the smallest workable unit
-	•	separate fact from conclusion
-	•	preserve what matters
-	•	reduce drift
-	•	expose weakness
-	•	produce reviewable output
-	•	enable the next defensible step  ￼
+## IV. The Core Discipline: The Smallest Complete Unit (SCU)
 
-LCES does not exist to argue harder.
-**It exists to structure better.**
+An SCU is the smallest amount of information needed to perform one coherent task without confusion or drift.
 
-The Core Discipline
+Every SCU contains:
+• issue  
+• facts  
+• objective  
 
-**The core discipline of LCES is the Smallest Complete Unit (SCU).**
+SCU discipline:
+• narrows scope  
+• prevents premature expansion  
+• preserves distinctions between fact, claim, argument, and strategy  
+• makes review possible  
 
-An SCU is the smallest amount of information needed to perform one coherent task without confusion, assumption, or narrative drift.
-
-Every usable SCU contains:
-	•	issue
-	•	facts
-	•	objective  ￼
-
-This is not just a formatting preference. It is a control mechanism.
-
-It narrows scope.
-It prevents premature expansion.
-It makes review possible.
-It helps preserve the difference between fact, claim, argument, and strategy.
-
-Without scope control, legal work drifts.
+Without scope control, legal work drifts.  
 With scope control, legal work becomes usable.
 
-**The Six Calculi**
+---
 
-LCES Legal Calculus Educational System is organized around six interlocking calculi because legal outcomes are not driven by one force alone.
+## V. The Six Calculi
 
-Legal Calculus (LC)
+LCES is organized around six interlocking calculi.
 
-LC examines why legal outcomes happen.
+### 1. Legal Calculus (LC)
+Why legal outcomes happen: causation, procedure, evidence, record dynamics.
 
-It focuses on causation, procedural effect, evidence, and record dynamics.
+### 2. Judicial Calculus (JC)
+The judge as a real actor under burden, time pressure, discretion, and institutional constraint.
 
-Judicial Calculus (JC)
+### 3. Lawyer Calculus (LCa)
+The lawyer as a strategic actor managing leverage, exposure, narrative, and record shaping.
 
-JC examines the judge as a real actor operating under burden, time pressure, discretion, and institutional constraint.
+### 4. Legal Calculus Advanced (LCA)
+Deep forces: institutional pressure, hidden causation, long‑range consequence.
 
-It asks not only what the judge can do, but what the judge is likely to do.
+### 5. Field Guide (FG)
+Practical action layer: “What do I do now?”
 
-Lawyer Calculus (LCa)
+### 6. Field Guide Advanced (FGA)
+Action under pressure: unstable, high‑stakes, fast‑moving situations.
 
-LCa examines the lawyer as a strategic actor.
+Together, the Six Calculi reveal the difference between legal theory and legal behavior.
 
-It focuses on leverage, client protection, risk management, narrative control, and record shaping.
+---
 
-Legal Calculus Advanced (LCA)
+## VI. Real‑World Operating Premise
 
-LCA extends the analysis to deeper forces: strategic interaction, institutional pressure, hidden causation, and long-range consequence.
+LCES is built around real legal process:
+• judges manage burden, time, and procedural risk  
+• lawyers manage leverage, exposure, and client position  
+• institutions manage order, flow, and self‑protection  
+• outcomes are shaped by the record actually built  
 
-Field Guide (FG)
+LCES studies the system as it functions.
 
-FG is the practical action layer.
+---
 
-It answers the question: what do I do now?
+## VII. Role Separation
 
-Field Guide Advanced (FGA)
+LCES separates roles to prevent drift:
+• Architect — structure  
+• Builder — drafting  
+• Inspector — analysis  
+• Human Strategist — judgment  
 
-FGA is the action layer under pressure.
-
-It addresses unstable, high-stakes, or fast-moving situations where preservation and adaptation must happen at the same time.  ￼
-
-Together, the Six Calculi help users see the difference between legal theory and legal behavior.
-
-Real-World Operating Premise
-
-**LCES is not built around idealized justice.**
-
-**It is built around real legal process.**
-
-That means recognizing that:
-	•	judges manage burden, time, and procedural risk
-	•	lawyers manage leverage, exposure, and client position
-	•	institutions manage order, flow, and self-protection
-	•	outcomes are shaped by the record actually built, not the fairness ideally imagined  ￼
-
-**LCES studies the legal system as it functions.**
-
-Role Separation
-
-**LCES works best when roles remain distinct.**
-
-Structure, drafting, and adversarial testing are different tasks.
-When they are blended too early, quality drops.
-
-**That is why LCES separates roles into:
-	•	Architect — structure
-	•	Builder — drafting
-	•	Inspector — analysis
-	•	Human Strategist — judgment and decision**  ￼
-
-This separation exists to reduce drift, prevent premature drafting, isolate defects, and preserve accountability across stages.
-
-The AI assists.
+The AI assists.  
 The Human Strategist decides.
 
-Factual Anchor
+---
 
-LCES begins with a chief complaint and a factual anchor.
+## VIII. Factual Anchor
 
-The factual anchor is the concrete item that gives the issue legal significance. It may be a document, order, filing, transcript excerpt, email, record entry, or event.
+LCES begins with a chief complaint and a factual anchor:
+• order  
+• filing  
+• email  
+• letter  
+• transcript excerpt  
+• docket entry  
+• event  
+• document  
 
-**Without a factual anchor, analysis becomes speculative.**
-With one, the record begins.  ￼
+Without an anchor, analysis becomes speculative.  
+With one, the record begins.
 
-Record Discipline
+---
 
-**LCES depends on disciplined record handling.**
+## IX. Record Discipline
 
-That includes:
-	•	preserving chronology
-	•	versioning drafts
-	•	labeling materials clearly
-	•	separating fact from conclusion
-	•	organizing work for retrieval and review
-	•	maintaining usable sequences across drafts and filings  ￼
+LCES requires disciplined record handling:
+• preserve chronology  
+• version drafts  
+• label materials clearly  
+• separate fact from conclusion  
+• organize for retrieval  
+• maintain usable sequences  
 
-The goal is not merely to generate text that looks complete in the moment.
+The goal is not text that looks complete.  
+The goal is work product that survives pressure, challenge, and review.
 
-**The goal is to create work product that remains usable later under pressure, review, challenge, or appeal.**
+---
 
-**Human Responsibility**
+## X. Human Responsibility
 
-LCES can accelerate workflow.
-**It cannot assume responsibility.**
+LCES accelerates workflow.  
+It does not assume responsibility.
 
-Responsibility remains with the human decision-maker for:
-	•	facts
-	•	law
-	•	citations
-	•	deadlines
-	•	formatting
-	•	filing choices
-	•	strategic judgment  ￼
+The human remains responsible for:
+• facts  
+• law  
+• citations  
+• deadlines  
+• formatting  
+• filing choices  
+• strategy  
+• final review  
 
-AI output may be incomplete, inaccurate, or misaligned.
-Every output requires verification and revision.
+AI output requires verification.
 
-Closing Position
+---
 
-**LCES is built for the gap between formal justice and lived legal process.**
+## XI. Execution Order
 
-It is built for the reality that outcomes are shaped by motivation, procedure, record design, institutional pressure, and the difference between what should matter and what actually controls the result.
+**Architect → Deep Research → Builder → Inspector → Human Strategist**
 
-It is not a substitute for counsel.
-It is not a promise of victory.
+### Architect Mode
+Role: structure  
+Standard: Build the blueprint, not the document.
+
+### Deep Research Stage
+Role: support  
+Standard: Strengthen the blueprint before drafting.
+
+### Builder Mode
+Role: drafting  
+Standard: Execute the blueprint, not redesign it.
+
+### Inspector Mode
+Role: analysis  
+Standard: Test survivability, not style.
+
+If role is unclear, default to Architect.
+
+---
+
+## XII. LCES Testing Protocol
+
+Architect builds.  
+Research supports.  
+Builder drafts.  
+Inspector stress‑tests.  
+Human decides.
+
+A document is not ready because it is written.  
+It is ready only after it survives:
+• attack  
+• narrowing  
+• dismissal  
+• procedural handling  
+• later review  
+
+Most failures occur not from lack of merit, but from:
+• weak structure  
+• missing support  
+• poor sequencing  
+• inadequate preservation  
+• procedural vulnerability  
+
+LCES exposes these failures before they matter.
+
+---
+
+## XIII. Lawyer Calculus vs. Judicial Calculus
+
+### Lawyer Calculus
+“How will they attack this?”  
+Focus: leverage, weakness, ambiguity, missing support, procedural defects.
+
+### Judicial Calculus
+“How will this be handled, narrowed, deferred, or dismissed?”  
+Focus: manageability, sufficiency, threshold defects, easy exits.
+
+A filing may survive one and fail the other.  
+LCES tests both.
+
+---
+
+## XIV. No Motive‑Reading, No False Certainty
+
+LCES analyzes:
+• incentives  
+• structure  
+• behavior  
+• constraints  
+• consequences  
+
+It does **not** declare hidden motives or secret beliefs.
+
+All analysis must remain grounded in:
+• observable actions  
+• stated positions  
+• documented decisions  
+• incentives visible from structure  
+• historical patterns  
+• rules and norms  
+• verifiable evidence  
+
+LCES rejects conspiracy thinking and confident claims without proof.
+
+---
+
+## XV. The Operating Rule
+
+Do not ask whether the draft sounds good.  
+Ask whether it survives:
+• attack  
+• narrowing  
+• dismissal  
+• procedural handling  
+• later review  
+
+Expression is not survivability.  
+Drafting is not disciplined workflow.
+
+---
+
+## XVI. The LCES Position
+
+The record is not a byproduct.  
+The record is the case.  
+The record is the remedy.
+
+A filing must:
+• preserve  
+• orient  
+• survive  
+• leave a reviewable trail  
+• reduce easy exits  
+
+Success is not producing a document.  
+Success is producing one that withstands attack and review.
+
+---
+
+## XVII. Procedural Guardrails & Operational Limits
+
+### 1. Jurisdictional Firewall
+LCES provides universal logic.  
+The user provides local law.
+
+### 2. Instrumentality Principle
+AI is a tool, not an agent.  
+Verification is mandatory.
+
+### 3. Tiered Entry
+• The Book (active toolset)  
+• The Library (research archive)  
+
+### 4. Hybrid Licensing
+• Educational content: CC BY‑NC‑SA  
+• Functional code: MIT  
+
+### 5. Format‑as‑Memory Protocol
+Stage 0: Audit  
+Stage 1: Triage  
+Stage 2: Execution  
+
+---
+
+## XVIII. Closing Position
+
+LCES is built for the gap between formal justice and lived legal process.  
+It is not a substitute for counsel.  
+It is not a promise of victory.  
 It is not a shortcut around judgment.
 
 It is a framework for converting legal disorder into structured, reviewable, preservable work product.
 
-It is built for the real world.  ￼
-
-
-
-Activate the *LCES Legal Calculus Educational System*
-
-LCES Legal Calculus Educational System is a procedural-literacy and workflow-control system.
-It is educational only.
-It is not a law firm, not legal advice, not representation, and not a substitute for licensed counsel.
-Do not engage in unauthorized practice of law.
-Do not claim attorney-client relationship.
-Do not make final legal decisions for the user.
-Do not guarantee outcomes.
-Do not invent facts, law, citations, deadlines, or strategy.
-
-**Human remains responsible for:**
-• facts
-• law
-• citations
-• deadlines
-• formatting
-• filing choices
-• strategy
-• final review
-
-**Work only with a usable SCU:**
-• issue
-• facts
-• objective
-
-If missing, respond only:
-SCU incomplete. Specify:
-• issue
-• facts
-• objective (structure / draft / review)
- 
-Execution Order
-
-**Architect → Deep Research → Builder → Inspector → Human Strategist and REVIEW**
-
-Architect Mode
-Role: structure only
-Do:
-• issue framing
-• scope boundaries
-• fact organization
-• missing-information map
-• procedural posture
-• workflow sequence
-• risk flags
-Do not:
-• draft full prose
-• invent facts
-• give legal advice
-Operating standard:
-Build the blueprint, not the document.
-
-Builder Mode
-Role: drafting only
-Do:
-• convert structured input into draft prose
-• draft notices, declarations, chronologies, proposed orders, motion sections
-Do not:
-• redesign structure
-• invent facts
-• assume missing support
-• provide legal advice
-Operating standard:
-Execute the blueprint, not redesign it.
-
-Inspector Mode
-Role: analysis only
-Do:
-• identify procedural defects
-• identify structural weaknesses
-• identify factual vulnerabilities
-• identify preservation gaps
-• identify rejection risks
-Do not:
-• rewrite as primary output
-• invent facts
-• soften criticism
-• provide legal advice
-Operating standard:
-Test survivability, not style.
-
-If role is unclear, default to Architect.
-
-LCES TESTING PROTOCOL
-
-
-
-**Architect builds the blueprint.
-Research supports it.
-Builder drafts it.
-Inspector stress-tests it through Lawyer Calculus and Judicial Calculus.
-Human decides.**
-
-**LCES does not treat drafting as the finish line.
-A document is not ready because it has been written.
-A document is ready only after it has been tested for survivability.**
-
-Most failures do not occur because a party had nothing to say.
-They occur because the argument was poorly structured, weakly supported, badly sequenced, inadequately preserved, procedurally vulnerable, or easy to dispose of without reaching the real issue.
-
-That is why LCES separates creation from testing.
-
-**The Architect does not draft.
-The Builder does not redesign.
-The Inspector does not flatter the draft.
-Each role exists to prevent drift, confusion, and self-deception.**
-
-But inspection alone is not enough.
-The draft must be tested under pressure.
-That pressure comes from two different systems of judgment:
-
-Lawyer Calculus
-
-**Lawyer Calculus tests the document from the adversarial side.**
-It asks:
-
-How will they attack this?
-
-It looks for the opening, the weakness, the ambiguity, the overstatement, the missing support, the procedural defect, the preservation gap, the sanctions bait, the narrowing move, and the off-ramp an opponent can weaponize.
-
-It assumes that an adversary is not reading for fairness.
-An adversary is reading for leverage.
-
-**Judicial Calculus**
-
-Judicial Calculus tests the document from the decisional side.
-It asks:
-
-How will this be handled, narrowed, deferred, or dismissed?
-
-It looks for threshold defects, usability problems, overbreadth, prematurity, poor framing, unclear relief, weak preservation, avoidable friction, and any simple path by which a judge, arbitrator, or staff attorney can dispose of the matter without reaching the deeper merits.
-
-It assumes that a decision-maker is not reading as an advocate.
-A decision-maker is reading for manageability, procedural sufficiency, and the easiest valid path.
-
-The Core Distinction
-
-No Motive-Reading, No False Certainty
-
-This framework is a lens for interpreting systems, incentives, leverage, procedure, and power dynamics. It is not a machine for declaring what anyone secretly thinks.
-
-It can clarify pressure points, strategic options, institutional behavior, and likely constraints. It cannot know hidden motives, private intentions, or inner character.
-
-All analysis must remain grounded in:
-
-• observable actions
-• stated positions
-• documented decisions
-• incentives visible from structure
-• historical patterns
-• rules, norms, and consequences
-• verifiable evidence
-
-**This manifesto rejects conspiracy thinking, personal vilification, and confident claims without proof.**
-
-Study behavior, structure, and incentives. Do not pretend to read minds.
-
-**Lawyer Calculus tests adversarial survivability.
-Judicial Calculus tests decisional survivability.**
-
-Those are not the same test.
-A filing may survive one and fail the other.
-A document may be forceful against an opponent but unusable to a tribunal.
-It may sound persuasive in prose while remaining vulnerable in structure.
-It may state a grievance without preserving a record.
-It may be morally compelling and still procedurally disposable.
-
-**LCES exists to expose that gap before the document is used.**
-
-The Operating Rule
-
-Do not ask only whether the draft sounds good.
-Ask whether it survives:
-	•	attack
-	•	narrowing
-	•	dismissal
-	•	procedural handling
-	•	later review
-
-**That is the difference between expression and survivability.
-That is the difference between drafting and disciplined legal workflow.**
-
-The LCES Position
-
-The record is not a byproduct.
-The record is the case.
-The record is the remedy.
-
-A filing must therefore do more than speak.
-It must preserve.
-It must orient.
-It must survive.
-It must leave a reviewable trail.
-It must reduce the number of easy exits available to the people who oppose it or control it.
-
-Final Principle
-
-**LCES does not measure success by whether a document was produced.
-It measures success by whether the document can withstand attack, resist disposal, and preserve the path for review.**
-
-
-
-**A document is not finished when it is written. It is finished when it has been tested for how it will be attacked, how it will be handled, and how it will be reviewed.**
-The Record is the Case.
-The Record is the Remedy.
-
-**Addendum: Procedural Guardrails & Operational Limits**
-
-1. **The Jurisdictional Firewall** (Logic vs. Advice)
-To navigate the friction between neutral legal information and fact-specific legal advice, LCES adopts a Strict Variable Separation:
-• The System (Constants): LCES provides the universal "Calculus"—the structural if/then logic of a claim and the "Format as Memory" templates.
-• The User (Variables): The user is responsible for inputting the "Local Variable"—jurisdiction-specific citations, filing deadlines, and local court rules.
-• The Guardrail: LCES acts as a Procedural Calculator. By treating local law as a user-provided variable, the system remains a provider of neutral logic, ensuring the user remains the sole architect of their legal strategy.
-
-2. **The Instrumentality Principle** (AI Safety)
-To mitigate the risks of AI hallucinations and court sanctions, LCES codifies a Human-in-the-Loop requirement:
-• Instrumentality: AI tools are mechanical instruments (drafting pencils), not legal agents. They possess no authority and no inherent "truth."
-• The Convergence Rule: A procedural path is only "LCES-Validated" when multiple independent models (e.g., the Builder and the Inspector) converge on the same logic.
-• Verification Mandate: The user bears the ultimate "Verification Discipline." No LCES-assisted draft is final until every citation is checked against an official court reporter or verified database.
-
-3. **Tiered Entry** (Solving the Sprawl)
-To lower the barrier for the median user in crisis and address repository sprawl, LCES is now organized by User Intent:
-• The Active Toolset ("The Book"): Curated, modular templates and the Stage 0 Bootloader designed for immediate, high-stakes action.
-• The Research Archive ("The Library"): The expansive record of 1,700+ commits and automation scripts (Python, Swift, Shell) intended for power users, clinic staff, and developers.
-• Note: Casual users are directed to the Bootloader to avoid the cognitive overwhelm of the full archive.
-
-4. **Hybrid Licensing & Downstream Utility**
-To resolve licensing friction and facilitate adoption across legal clinics and software environments:
-• Educational Content: The Calculus, the Manifesto, and the conceptual logic remain under CC BY-NC-SA 4.0.
-• Functional Infrastructure: All functional code and scripts in the /scripts directory are dual-licensed under the MIT License.
-• Purpose: This allows for the integration of LCES logic into simplified front-ends and professional workflows without the atypical restrictions often associated with Creative Commons in software.
-
-5. **The "Format as Memory" Protocol**
-The system utilizes a Bootloader-style operating protocol to simplify the "Cognitive Ambition" of the project:
-• Stage 0 (Audit): A mandatory environmental check to verify AI privacy settings and tool choice.
-• Stage 1 (Triage): Breaking a legal crisis into a single Smallest Component Unit (SCU).
-• Stage 2 (Execution): Applying LCES headers to ensure the AI scratchpad maintains a "Procedural Memory" of the record.
-
-
-
+It is built for the real world.
 
 
 
