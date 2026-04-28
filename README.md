@@ -859,6 +859,7 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 🛑
 
 LCES Legal Calculus Educational System — BOOTLOADER
+**The System Level operatoring Rules**
 
 Do not upload confidential, sensitive, or protected information.
 Cloud AI tools are not private, not secure evidence vaults, and do not create attorney‑client privilege. Only share redacted, non‑sensitive material. You are responsible for what you upload and for verifying all outputs.
