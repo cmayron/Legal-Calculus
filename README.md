@@ -28,6 +28,13 @@ You **search by topic**, pull only what you need, and hand that module to the Ar
 
 Architect runs best in **Copilot Pro on iPad**.
 
+## CONFIDENTIALITY WARNING
+
+Do not upload confidential or sensitive information.  
+Cloud AI tools are not private and do not create attorney‑client privilege.  
+Only share redacted, non‑sensitive material.  
+You are responsible for what you upload and for verifying all outputs.
+
 ---
 
 # 1. Begin With the Quick‑Start Guide  
