@@ -40,6 +40,139 @@ Each AI should confirm:
 ---
 
 # LCES Legal Calculus Educational System  
+
+# LCES QUICK‑START GUIDE  
+## 30–90 seconds to operational clarity
+
+---
+
+# 1. Start With the SCU (Smallest Complete Unit)
+
+Define one SCU:
+
+• Issue — the specific procedural or factual problem  
+• Facts — the concrete items tied to the issue  
+• Objective — the next action you need  
+
+If any piece is missing:
+
+SCU incomplete. Specify issue, facts, objective.
+
+SCU discipline prevents drift and keeps work reviewable.
+
+---
+
+# 2. Identify Your Mode
+
+Choose the mode that matches your situation:
+
+• Pro Se Mode — one clean, defensible step  
+• Second‑Opinion Mode — review an existing draft  
+• Education Mode — learn structured reasoning  
+• Crisis Mode — act quickly and avoid avoidable error  
+
+Pick one. Do not mix modes.
+
+---
+
+# 3. Activate the Bootloader (Stage 0 → Stage 3)
+
+## Stage 0 — Safety Audit
+• Confirm private mode  
+• Activate Hallucination Guard  
+• Activate Neutrality Anchor  
+
+## Stage 1 — Procedural Triage
+• Identify task: Response / Motion / Record‑Building  
+• Lock scope to the immediate deadline  
+
+## Stage 2 — Format as Memory
+• Initialize scratchpad  
+• Select relevant Calculus  
+• Sync identity (Architect / Builder / Inspector)  
+
+## Stage 3 — Convergence Loop
+• Builder output → Inspector  
+• Inspector produces verification checklist  
+
+---
+
+# 4. Follow the LCES Execution Order
+
+Architect → Deep Research → Builder → Inspector → Human Strategist
+
+• Architect — structure  
+• Deep Research — support  
+• Builder — prose  
+• Inspector — stress test  
+• Human Strategist — final decision  
+
+Reset Rule:  
+• Structure drift → Architect  
+• Missing support → Deep Research  
+• Draft redesign → Architect  
+• Analysis drifting into rewriting → Inspector  
+
+---
+
+# 5. Use the LCES Operating Loop
+
+Retrieve → Frame → Transform → Evaluate → Commit
+
+• Retrieve facts, excerpts, dates  
+• Frame issue and posture  
+• Transform into structured output  
+• Evaluate for weakness and drift  
+• Commit by saving, labeling, preserving  
+
+---
+
+# 6. Preserve the Record
+
+Every output should:
+
+• orient the reader  
+• preserve the issue  
+• reduce ambiguity  
+• survive attack  
+• survive narrowing  
+• survive dismissal  
+• survive later review  
+
+The record is the case.  
+The record is the remedy.
+
+---
+
+# 7. Human Responsibility
+
+The human remains responsible for:
+
+• facts  
+• law  
+• citations  
+• deadlines  
+• formatting  
+• filing decisions  
+• strategy  
+• final review  
+
+AI assists.  
+The Human Strategist decides.
+
+---
+
+# 8. The One‑Sentence Protocol
+
+The Builder does not draft from assumption; it drafts from a blueprint that has already been research‑supported.
+
+---
+
+# 9. Tagline
+
+Blueprint. Research. Draft. Stress‑test. Decide.
+
+
 ## README v2 — Clear • Direct • Operational
 
 ---
