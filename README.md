@@ -35,6 +35,7 @@ Cloud AI tools are not private and do not create attorney‑client privilege.
 Only share redacted, non‑sensitive material.  
 You are responsible for what you upload and for verifying all outputs.
 
+
 ---
 
 # 1. Begin With the Quick‑Start Guide  
@@ -387,6 +388,44 @@ A step is “stable” only when multiple models converge.
 ### Tiered Entry  
 • The Book — active toolset  
 • The Library — research archive  
+
+## Cost & Usage Considerations
+
+LCES is an open‑access procedural‑literacy framework. The system itself is free, but the AI platforms used to operate it may have their own costs, limits, or usage models. LCES does not control or modify the pricing of any external AI service.
+
+### Architect (Copilot)
+The Architect role runs on Microsoft Copilot.  
+Copilot may use a credit‑based or usage‑based model for advanced reasoning features.  
+Architect tasks typically involve:
+- long‑context analysis
+- multi‑file reasoning
+- structured blueprint generation
+
+These operations may consume more credits than simple chat or code completion. Users should monitor their Copilot usage to avoid interruptions.
+
+### Builder (ChatGPT)
+The Builder role runs on ChatGPT.  
+Drafting, expansion, and formatting are generally predictable in cost and token usage.  
+The Builder does not perform repo‑wide analysis, so it is typically less resource‑intensive than the Architect.
+
+### Inspector (Gemini)
+The Inspector role runs on Gemini.  
+Stress‑testing and adversarial review may involve longer outputs or deeper reasoning, depending on the draft.  
+Users should be aware of any model‑specific limits or billing structures.
+
+### Human Strategist
+The human remains the final authority.  
+LCES does not replace professional judgment, does not guarantee outcomes, and does not reduce the need for independent verification.
+
+### Summary
+LCES itself is free.  
+The cost of using LCES depends entirely on:
+- the AI platforms selected
+- the models chosen
+- the length and complexity of the user’s materials
+- the frequency of Architect‑level operations
+
+Users should review the pricing and usage policies of each AI provider to understand how their own workflow may be affected.
 
 ### Hybrid Licensing  
 • Educational content: CC BY‑NC‑SA 4.0  
