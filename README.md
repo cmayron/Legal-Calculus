@@ -772,8 +772,8 @@ Stage 2: Execution
 
 Platform Assignment:  
 • Architect = Copilot Pro on iPad  
-• Builder = ChatGPT  
-• Inspector = Gemini  
+• Builder = ChatGPT plus
+• Inspector = Gemini 3 Flash
 
 Core Rule:  
 Roles must remain separate. No mode performs another mode’s function.
