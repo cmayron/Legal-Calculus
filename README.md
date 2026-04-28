@@ -17,8 +17,6 @@
 
 ---
 
-# LCES Legal Calculus Educational System  
-
 # START HERE — LCES Legal Calculus Educational System  
 ## Your entry point into the framework
 
