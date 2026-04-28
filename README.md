@@ -57,7 +57,6 @@ This is the fastest way to get oriented.
 # 2. Then Read the README  
 **What LCES is, how it works, and how to use it**
 
-👉 **Open: `README.md`**
 
 You will learn:
 
@@ -77,7 +76,6 @@ This is your operational overview.
 # 3. For Full Doctrine, Read the Manifesto  
 **The complete logic of the system**
 
-👉 **Open: `MANIFESTO.md`**
 
 You will learn:
 
@@ -100,7 +98,6 @@ This is the full conceptual foundation.
 # 4. To Run LCES, Load the Bootloader  
 **Minimal, role‑pure, operational**
 
-👉 **Open: `BOOTLOADER.md`**
 
 This file contains:
 
