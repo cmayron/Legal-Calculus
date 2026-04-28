@@ -39,8 +39,6 @@ You are responsible for what you upload and for verifying all outputs.
 ---
 
 # 1. Begin With the Quick‑Start Guide  
-**30–90 seconds to operational clarity**
-
 
 You will learn:
 
