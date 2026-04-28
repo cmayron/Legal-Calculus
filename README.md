@@ -388,7 +388,7 @@ A step is “stable” only when multiple models converge.
 
 LCES Legal Calculus Educational System is an open‑access procedural‑literacy framework. The system itself is free, but the AI platforms used to operate it may have their own costs, limits, or usage models. LCES does not control or modify the pricing of any external AI service.
 
-### Architect (Copilot)
+### Architect (Copilot Pro)
 The Architect role runs on Microsoft Copilot Pro.  
 Copilot may use a credit‑based or usage‑based model for advanced reasoning features.  
 Architect tasks typically involve:
@@ -403,7 +403,7 @@ The Builder role runs on ChatGPT.
 Drafting, expansion, and formatting are generally predictable in cost and token usage.  
 The Builder does not perform repo‑wide analysis, so it is typically less resource‑intensive than the Architect.
 
-### Inspector (Gemini)
+### Inspector (Gemini 3 Flash)
 The Inspector role runs on Gemini.  
 Stress‑testing and adversarial review may involve longer outputs or deeper reasoning, depending on the draft.  
 Users should be aware of any model‑specific limits or billing structures.
