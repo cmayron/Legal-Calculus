@@ -118,7 +118,7 @@ This is the file you paste into Architect AI in Copilot Pro.
 
 After loading the Bootloader into each AI, ask:
 
-**“Confirm your role in LCES and state what you are allowed to do — and what you are not allowed to do.”**
+**“Confirm your role in LCES Legal Calculus Educational System and state what you are allowed to do — and what you are not allowed to do.”**
 
 Each AI should respond:
 
@@ -186,7 +186,7 @@ LCES exists to reduce that failure mode.
 
 ## Core Method: The Smallest Complete Unit (SCU)
 
-LCES operates on the SCU — the smallest amount of information needed to perform one coherent task.
+LCES Legal Calculus Educational System operates on the SCU — the smallest amount of information needed to perform one coherent task.
 
 A complete SCU contains:
 
@@ -218,7 +218,7 @@ This loop creates usable work product, not just text.
 
 ## Entry Modes
 
-LCES supports four primary user modes:
+LCES Legal Calculus Educational System supports four primary user modes:
 
 ### Pro Se Mode  
 Minimum viable procedural step.  
@@ -269,7 +269,7 @@ All analysis must remain record‑anchored.
 
 ## Role Model (Multi‑AI Workflow)
 
-LCES works best when roles remain distinct:
+LCES Legal Calculus Educational System works best when roles remain distinct:
 
 • Architect — structure  
 • Deep Research — support  
@@ -287,7 +287,7 @@ Each role produces only its assigned output.
 
 ## Chief Complaint + Factual Anchor
 
-LCES begins with:
+LCES Legal Calculus Educational System begins with:
 
 • a chief complaint  
 • a factual anchor  
@@ -335,7 +335,7 @@ The Human Strategist decides.
 
 ---
 
-## LCES Mode Lock — Bootloader Overview
+## LCES Legal Calculus Educational System Mode Lock — Bootloader Overview
 
 Platform Assignment:  
 • Architect = Copilot Pro (iPad)  
@@ -386,10 +386,10 @@ A step is “stable” only when multiple models converge.
 
 ## Cost & Usage Considerations
 
-LCES is an open‑access procedural‑literacy framework. The system itself is free, but the AI platforms used to operate it may have their own costs, limits, or usage models. LCES does not control or modify the pricing of any external AI service.
+LCES Legal Calculus Educational System is an open‑access procedural‑literacy framework. The system itself is free, but the AI platforms used to operate it may have their own costs, limits, or usage models. LCES does not control or modify the pricing of any external AI service.
 
 ### Architect (Copilot)
-The Architect role runs on Microsoft Copilot.  
+The Architect role runs on Microsoft Copilot Pro.  
 Copilot may use a credit‑based or usage‑based model for advanced reasoning features.  
 Architect tasks typically involve:
 - long‑context analysis
@@ -398,7 +398,7 @@ Architect tasks typically involve:
 
 These operations may consume more credits than simple chat or code completion. Users should monitor their Copilot usage to avoid interruptions.
 
-### Builder (ChatGPT)
+### Builder (ChatGPT Plus)
 The Builder role runs on ChatGPT.  
 Drafting, expansion, and formatting are generally predictable in cost and token usage.  
 The Builder does not perform repo‑wide analysis, so it is typically less resource‑intensive than the Architect.
@@ -430,7 +430,7 @@ Users should review the pricing and usage policies of each AI provider to unders
 
 ## Disclaimer
 
-LCES is an educational and procedural‑literacy system.  
+LCES Legal Calculus Educational System is an educational and procedural‑literacy system.  
 It is not legal advice, representation, or a substitute for licensed counsel.  
 Users must verify all law, rules, deadlines, citations, and filing decisions.
 
@@ -445,7 +445,7 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
 ---
 
-# I. Purpose of LCES
+# I. Purpose of LCES Legal Calculus Educational System 
 
 LCES is built for the real world — not the legal system as described in doctrine, and not the justice system as people hope it works. It is built for legal process as it is actually experienced:
 
@@ -505,7 +505,7 @@ With SCU discipline, legal work becomes usable.
 
 # IV. The Six Calculi
 
-LCES organizes legal understanding into six calculi:
+LCES Legal Calculus Educational System organizes legal understanding into six calculi:
 
 ## 1. Legal Calculus (LC)
 Why legal outcomes happen: causation, procedure, evidence, record dynamics.
@@ -894,7 +894,8 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 # LCES — Legal Calculus Educational System  
 ## BOOTLOADER (System-Level Operating Rules)
 
-LCES (Legal Calculus Educational System) is a procedural‑literacy and workflow‑control framework that teaches users how to structure legal work without providing legal advice. It operates through a role‑based, multi‑AI sequence—Architect, Builder, Inspector—each performing a distinct and limited function. The Bootloader defines the system‑level operating rules that govern all roles, preserve safety boundaries, and maintain human primacy. All outputs require independent human verification.
+LCES Legal Calculus Educational System
+is a procedural‑literacy and workflow‑control framework that teaches users how to structure legal work without providing legal advice. It operates through a role‑based, multi‑AI sequence—Architect, Builder, Inspector—each performing a distinct and limited function. The Bootloader defines the system‑level operating rules that govern all roles, preserve safety boundaries, and maintain human primacy. All outputs require independent human verification.
 
 Do not upload confidential, sensitive, or protected information.  
 Cloud AI tools are not private, not secure evidence vaults, and do not create attorney‑client privilege.  
