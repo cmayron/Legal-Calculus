@@ -20,7 +20,7 @@
 # START HERE —  
 ## Your entry point into the framework
 
-LCES is a procedural‑literacy and workflow system for structuring facts, preserving the record, and producing reviewable draft work product.
+LCES Legal Calculus Educational System is a procedural‑literacy and workflow system for structuring facts, preserving the record, and producing reviewable draft work product.
 
 This repository is a **library**, not a book.  
 You do not read it front‑to‑back.  
@@ -55,7 +55,7 @@ This is the fastest way to get oriented.
 ---
 
 # 2. Then Read the README  
-**What LCES is, how it works, and how to use it**
+**What LCES Legal Calculus Educational System is, how it works, and how to use it**
 
 
 You will learn:
@@ -95,7 +95,7 @@ This is the full conceptual foundation.
 
 ---
 
-# 4. To Run LCES, Load the Bootloader  
+# 4. To Run LCES Legal Calculus Educational System , Load the Bootloader  
 **Minimal, role‑pure, operational**
 
 
@@ -154,7 +154,7 @@ You can pull additional modules only when needed.
 
 ---
 
-## What LCES Is
+## What LCES Legal Calculus Educational System Is
 
 LCES is a procedural‑literacy and workflow system for organizing facts, structuring legal work, preserving the record, and producing reviewable draft work product.
 
@@ -202,7 +202,7 @@ SCU discipline prevents drift and keeps work reviewable.
 
 ---
 
-## The LCES Operating Loop
+## The LCES Legal Calculus Educational System Operating Loop
 
 **Retrieve → Frame → Transform → Evaluate → Commit**
 
