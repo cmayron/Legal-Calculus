@@ -38,425 +38,254 @@ Human = final judgment and decision.
 
 ---
 
-**README**
+# LCES Legal Calculus Educational System  
+## README v2 — Clear • Direct • Operational
 
-*LCES Legal Calculus Educational System*
+---
 
-LCES Legal Calculus Educational System is a procedural-literacy and workflow framework for organizing facts, structuring legal work, preserving the record, and producing reviewable draft work product.
+## What LCES Is
 
-It is designed for people working inside complex legal processes, where outcomes often depend not only on the underlying issue, but also on sequence, preservation, clarity, incentives, and the record that gets built.
+LCES is a procedural‑literacy and workflow system for organizing facts, structuring legal work, preserving the record, and producing reviewable draft work product.
 
-LCES helps convert disorder into structured, reusable work product.
+It is built for real legal environments where outcomes depend on:
 
-It does not replace legal counsel. It is an educational and operational framework for thinking clearly, working systematically, and building a reviewable record.  ￼
+• sequence  
+• preservation  
+• clarity  
+• incentives  
+• procedural posture  
+• the record that gets built  
 
-**Governing Principle**
+LCES converts disorder → structure → draft → preservation → reviewable record.
 
-The record is the case.
-The record is the remedy.
+LCES is not legal advice, not a law firm, and not a substitute for licensed counsel.  
+All outputs require human verification.
 
-**Many legal losses occur not only because the underlying issue is weak, but because the matter is poorly structured, poorly preserved, poorly sequenced, or difficult to review**
+---
 
+## Governing Principle
+
+**The record is the case.  
+The record is the remedy.**
+
+Most failures happen because the record is weak, unclear, incomplete, or procedurally vulnerable.  
 LCES exists to reduce that failure mode.
 
-**What LCES Does**
+---
 
-LCES is a framework for turning:
-	•	confusion into sequence
-	•	facts into structure
-	•	structure into draft work product
-	•	draft work product into preservation
-	•	preservation into a reviewable record
-	•	a reviewable record into a defensible next step
+## Core Method: The Smallest Complete Unit (SCU)
 
-Format is memory.
-Structure is leverage.
-Preservation is power.  ￼
+LCES operates on the SCU — the smallest amount of information needed to perform one coherent task.
 
-**What LCES Is Not**
+A complete SCU contains:
 
-**LCES is not:**
-	•	a law firm
-	•	a legal clinic
-	•	a substitute for licensed counsel
-	•	a source of legal advice
-	•	a guarantee of outcomes
-	•	an automated filing system
-	•	a system that makes draft output filing-ready without human review
+• issue  
+• facts  
+• objective  
 
-All outputs are drafts requiring verification, correction, and decision by the human user.  ￼
+If any are missing, the system responds:
 
-**Core Method: The Smallest Complete Unit (SCU)**
+**SCU incomplete. Specify issue, facts, objective.**
 
-LCES uses the Smallest Complete Unit (SCU) method to reduce overload, narrow scope, and improve precision.
+SCU discipline prevents drift and keeps work reviewable.
 
-An SCU is the smallest amount of information needed to perform one coherent task without confusion, assumption, or narrative drift.
+---
 
-A usable SCU contains:
-	•	issue
-	•	facts
-	•	objective
+## The LCES Operating Loop
 
-An SCU is complete only when it is narrow enough to execute and specific enough to review.
+**Retrieve → Frame → Transform → Evaluate → Commit**
 
-Example
-	•	Issue: Did the order halt the action?
-	•	Facts: Stay entered July 24; deposition proceeded anyway.
-	•	Objective: Draft a preservation notice.  ￼
+• Retrieve — gather facts, excerpts, dates, objectives  
+• Frame — identify issue, posture, sequence, constraint  
+• Transform — produce the required draft  
+• Evaluate — test for weakness, omission, drift  
+• Commit — save, label, version, preserve  
 
-**Operating Loop**
+This loop creates usable work product, not just text.
 
-LCES uses a repeatable workflow:
+---
 
-Retrieve → Frame → Transform → Evaluate → Commit
-	•	Retrieve — gather relevant facts, excerpts, dates, and objectives
-	•	Frame — identify the issue, procedural posture, sequence, and controlling constraint
-	•	Transform — create the required output
-	•	Evaluate — test the result for weakness, omission, or drift
-	•	Commit — save, label, version, and preserve the finished work product  ￼
+## Entry Modes
 
-This loop is designed to create work product that remains usable later, not merely text that looks complete in the moment.
+LCES supports four primary user modes:
 
-**Entry Modes**
+### Pro Se Mode  
+Minimum viable procedural step.  
+Success: one clean, reviewable action.
 
-LCES Legal Calculus Educational System supports four primary entry modes:
+### Second‑Opinion Mode  
+Review an existing draft for structure, sequence, preservation.  
+Success: identify flaws and risks before filing.
 
-1. **Pro Se Mode**
+### Education Mode  
+Learn legal process through structured reasoning.  
+Success: improved procedural literacy.
 
-For self-represented users who need a minimum viable procedural step.
+### Crisis Mode  
+Move from disorder to one defensible step quickly.  
+Success: preserve the issue and avoid avoidable error.
 
-Priority:
-	•	issue isolation
-	•	preservation
-	•	filing sequence
+---
 
-Success condition:
-	•	one clean, reviewable step that preserves the record
+## The Six Calculi
 
-2. **Second-Opinion Mode**
+• **LC — Legal Calculus**: Why outcomes happen  
+• **JC — Judicial Calculus**: How judges manage burden and risk  
+• **LCa — Lawyer Calculus**: How lawyers manage leverage and exposure  
+• **LCA — Legal Calculus Advanced**: Deep forces and long‑range consequences  
+• **FG — Field Guide**: What to do now  
+• **FGA — Field Guide Advanced**: Action under pressure  
 
-For users who already have a draft and need structural, sequencing, or preservation review before filing.
+These modules explain legal behavior, not just legal theory.
 
-Priority:
-	•	weakness detection
-	•	procedural alignment
-	•	preservation review
+---
 
-Success condition:
-	•	clear identification of structural flaws, gaps, or risk points before commit
+## Heuristic Guardrail: No Motive‑Reading
 
-3. **Education Mode**
+LCES analyzes:
 
-For users learning how legal process works through structured issues, doctrine maps, chronology blocks, and filing sequences.
+• incentives  
+• posture  
+• filings  
+• conduct  
+• rules  
+• record  
 
-Priority:
-	•	procedural literacy
-	•	role clarity
-	•	repeatable reasoning
+It does not guess hidden motives or secret intentions.  
+All analysis must remain record‑anchored.
 
-Success condition:
-	•	improved ability to frame issues, sequence action, and understand the record
+---
 
-4. **Crisis Mode**
+## Role Model (Multi‑AI Workflow)
 
-For time-compressed situations where the user must move from disorder to one clean, defensible step quickly.
+LCES works best when roles remain distinct:
 
-Priority:
-	•	narrowing scope
-	•	preserving the issue
-	•	minimizing avoidable error
-
-Success condition:
-	•	one immediate, procedurally defensible action  ￼
-
-**The Six Calculi**
-
-LCES Legal Calculus Educational System is built on six interlocking calculi. These modules explain how legal outcomes happen, how legal actors behave, and how users can respond in a structured, reviewable way.
-
-**LC — Legal Calculus**
-
-Explains why legal outcomes happen.
-
-Focus:
-	•	evidence-based outcomes
-	•	causation
-	•	procedural effect
-	•	record dynamics
-	•	system behavior
-
-Core question:
-Why did this happen?
-
-**JC — Judicial Calculus**
-
-Models the judge’s real-world motivations, including efficiency, docket pressure, temperament, procedural control, and available off-ramps.
-
-Core question:
-What is motivating the judge, and what path is the judge likely to take?
-
-**LCa — Lawyer Calculus**
-
-Models the lawyer’s real-world motivations, including leverage, client protection, narrative control, record shaping, reputational concerns, and strategic risk management.
-
-Core question:
-What is motivating the lawyer, and how is that shaping the argument and record?
-
-**LCA — Legal Calculus Advanced**
-
-Extends Legal Calculus into deeper analysis of strategic interaction, institutional pressure, hidden causation, and long-range consequence.
-
-Core question:
-What deeper forces are driving this outcome?
-
-**FG — Field Guide**
-
-Provides the practical method for action inside legal process.
-
-Core question:
-What do I do now?
-
-**FGA — Field Guide Advanced**
-
-Applies the Field Guide in more complex, unstable, or high-pressure situations where adaptation and preservation must happen at the same time.
-
-Core question:
-How do I act strategically under real conditions?  ￼
-
-Heuristic Guardrail: No Motive-Reading
-
-**Judicial Calculus and Lawyer Calculus are heuristic lenses, not prediction engines**
-
-They help users examine procedural pressure, incentives, leverage, risk, and possible off-ramps. They do not determine what any judge, lawyer, court staff member, institution, or opposing party “really thinks.”
-
-All Judicial Calculus and Lawyer Calculus analysis must remain anchored to:
-
-• the record
-• procedural posture
-• actual filings, orders, or communications
-• stated arguments
-• observable conduct
-• applicable rules
-• neutral source material
-
-LCES does not permit unsupported motive attribution, personal attacks, conspiracy reasoning, or speculative claims about hidden intent.
-
-LCES studies incentives and procedural behavior only as record-anchored heuristics; it does not authorize motive-reading, cynicism, or unsupported claims about what legal actors secretly intend.
-
-Role Model
-
-LCES works best when roles remain distinct.
-
-**Architect**
-
-Responsible for structure.
-
-Typical outputs:
-	•	issue framing
-	•	outline
-	•	workflow design
-	•	chronology
-	•	packet structure
-	•	procedural sequence
-
-**Builder**
-
-Responsible for drafting and transformation.
-
-Typical outputs:
-	•	motions
-	•	notices
-	•	declarations
-	•	factual summaries
-	•	proposed orders
-	•	filing-oriented drafts
-
-**Inspector**
-
-Responsible for adversarial testing and validation.
-
-Typical outputs:
-	•	weakness detection
-	•	contradiction flags
-	•	procedural risk review
-	•	preservation analysis
-	•	rejection-risk analysis  ￼
-
-Output Boundary Rule
-
-Each role should produce only its assigned output.
-	•	Architect → structure
-	•	Builder → drafting
-	•	Inspector → analysis
+• Architect — structure  
+• Deep Research — support  
+• Builder — drafting  
+• Inspector — analysis  
+• Human Strategist — judgment  
 
 Default sequence:
 
-**Architect → Builder → Inspector → Human Strategist**
+**Architect → Deep Research → Builder → Inspector → Human Strategist**
 
-**Chief Complaint + Factual Anchor**
+Each role produces only its assigned output.
 
-LCES begins with two inputs:
-	•	a chief complaint
-	•	a factual anchor
+---
 
-The chief complaint identifies the live legal or procedural problem.
-The factual anchor identifies the concrete item that gives that problem legal significance.
+## Chief Complaint + Factual Anchor
 
-A factual anchor may be a document, order, filing, email, transcript excerpt, record entry, event, or other specific fact tied to the issue.
+LCES begins with:
 
-Without a factual anchor, analysis drifts.
-With one, the record begins.  ￼
+• a chief complaint  
+• a factual anchor  
 
-Editions
+The factual anchor is the concrete item giving the issue legal significance.
 
-LCES Legal Calculus Educational System includes domain-specific editions.
+Without an anchor, analysis drifts.  
+With one, the record begins.
 
-**Small Claims Edition (SC-LCES)**
+---
 
-Built for high-volume, lower-complexity disputes.
-
-**Family Court Edition (FC-LCES)**
-
-Built for custody, support, parenting-time, and related family-law disputes.
-
-**Trust & Estate Edition (TE-LCES)**
-
-Built for probate, trusts, fiduciary duties, and estate-related disputes.  ￼
-
-Recommended Workflow
-
-LCES Legal Calculus Educational System does not begin by browsing folders. It begins with the issue.
+## Recommended Workflow
 
 Start with:
-	•	the issue
-	•	the facts
-	•	the objective
 
-Then activate the appropriate mode.
+• issue  
+• facts  
+• objective  
 
-Recommended workflow:
+Then activate:
 
-**User → Architect → Deep Research → Builder → Inspector → Human Strategist**￼
+**User → Architect → Deep Research → Builder → Inspector → Human Strategist**
 
-Human Control
+Human responsibility remains for:
 
-AI may assist with structure, drafting, and testing, but responsibility remains with the human decision-maker for:
-	•	factual accuracy
-	•	legal validity
-	•	deadlines
-	•	citations
-	•	formatting
-	•	filing choice
-	•	strategic judgment  ￼
+• accuracy  
+• law  
+• deadlines  
+• citations  
+• formatting  
+• filing decisions  
 
-**The AI assists.
-The Human Strategist decides**
+The AI assists.  
+The Human Strategist decides.
 
-Safety and Review Notice
-	•	Verify all law, rules, deadlines, citations, and formatting independently.
-	•	Treat all AI-assisted output as draft material requiring human review.
-	•	Do not upload confidential, privileged, protected, sealed, or sensitive material into cloud AI tools.
-	•	Redact personal identifiers and protected information before use.
-	•	AI chat logs and cloud drafting environments are not privileged by default and should not be treated as secure evidence repositories.  ￼
+---
 
-**LCES MODE LOCK — BOOTLOADER OVERVIEW**
+## Safety & Review Notice
 
-Platform Assignment
-	•	Architect = Copilot
-	•	Builder = ChatGPT
-	•	Inspector = Gemini
+• Verify all law, rules, deadlines, citations, and formatting independently.  
+• Treat all AI output as draft.  
+• Do not upload confidential or privileged material into cloud AI tools.  
+• Redact personal identifiers before use.  
+• Cloud AI environments are not privileged evidence repositories.
 
-**Core Rule**
-Keep roles separate.
-Do not merge functions.
-Do not let one mode do another mode’s job.
+---
 
-**Architect Mode**
+## LCES Mode Lock — Bootloader Overview
 
-Role: structure only
-Do: issue framing, scope boundaries, fact organization, missing-information map, procedural posture, workflow sequence, risk flags
-Do not: draft full prose, invent facts, fill gaps, provide legal advice
-Standard: Build the blueprint, not the document.
+Platform Assignment:  
+• Architect = Copilot Pro (iPad)  
+• Builder = ChatGPT  
+• Inspector = Gemini  
 
-**Builder Mode**
+Core Rule:  
+**Keep roles separate. Do not merge functions.**
 
-Role: drafting only
-Do: convert structured input into draft prose, draft notices, declarations, chronologies, proposed orders, motion sections
-Do not: redesign structure, invent facts, assume missing support, change scope without instruction, provide legal advice
-Standard: Execute the blueprint, not redesign it.
+### Architect Mode  
+Structure only.  
+Standard: Build the blueprint.
 
-**Inspector Mode**
+### Builder Mode  
+Drafting only.  
+Standard: Execute the blueprint.
 
-Role: analysis only
-Do: identify procedural defects, structural weaknesses, factual vulnerabilities, preservation gaps, ambiguity, rejection risks, attack points
-Do not: rewrite as the primary output, invent facts, soften criticism, drift into drafting mode, provide legal advice
-Standard: Test survivability, not style.
+### Inspector Mode  
+Analysis only.  
+Standard: Test survivability.
 
-Execution Order
-Architect → Builder → Inspector → Human review
+Execution Order:  
+**Architect → Builder → Inspector → Human review**
 
-Reset Rule
-If structure drifts, return to Architect.
-If drafting drifts, return to Builder.
-If analysis drifts into rewriting, return to Inspector.
+Reset Rule:  
+Return to the correct role when drift occurs.
 
-Master Formula
-Architect = structure
-Builder = prose
-Inspector = stress test
+Master Formula:  
+**Architect = structure • Builder = prose • Inspector = stress test**
 
-Architect runs best in Copilot Pro on iPad.
+Tagline:  
+**Blueprint. Draft. Stress‑test. Decide.**
 
-Blueprint. Draft. Stress-test. Decide.
+---
 
-**Addendum: Addressing Adoption & Ethical Hurdles**
+## Adoption & Ethical Guardrails
 
+### Neutrality Firewall  
+LCES provides structure; the user provides local law.
 
-I. **The "Neutrality" Firewall**
-To resolve the legal-information vs. legal-advice friction, LCES adopts a Strict Variable Separation:
-• The System (Constants): LCES provides the universal "Calculus"—the structural logic, procedural order, and "Format as Memory" templates.
-• The User (Variables): The user provides the "Local Variable"—the jurisdiction-specific citations, statutes of limitations, and local court rules.
-• The Guardrail: By treating law as a variable to be verified by the human agent, LCES remains a Procedural Calculator, protecting the boundary of neutral legal information.
+### Instrumentality & Convergence Protocol  
+AI is a tool, not an agent.  
+A step is “stable” only when multiple models converge.
 
+### Tiered Entry  
+• The Book — active toolset  
+• The Library — research archive  
 
-II. **The Instrumentality & Convergence Protocol**
-To mitigate AI-hallucination and external tool risk, the system codifies the Multi-AI Workflow:
-• Instrumentality: AI is utilized as a mechanical drafting instrument (a "pencil"), not a legal agent. It possesses no authority.
-• The Convergence Rule: A procedural step is only considered "Stable" when independent models (e.g., the Builder and the Inspector) converge on the same logic.
-• Verification Mandate: The user bears the ultimate "Verification Discipline." No LCES-assisted draft is final until every citation is checked against an official court reporter or verified legal database.
+### Hybrid Licensing  
+• Educational content: CC BY‑NC‑SA 4.0  
+• Functional code: MIT License
 
+---
 
-III. **Tiered Entry** (Solving the Sprawl)
-To lower the barrier for the "median user in crisis," the repository is organized by User Intent:
-1.	The Active Toolset ("The Book"): Curated, modular templates and the Stage 0 Bootloader for immediate action.
-2.	The Research Archive ("The Library"): The living archive of 1,700+ commits and scripts (Swift, Python, Shell) for power users, clinic staff, and developers.
-• Note: Casual users are directed to the Bootloader to avoid the cognitive overwhelm of the full archive.
+## Disclaimer
 
+LCES is an educational and procedural‑literacy system.  
+It is not legal advice, representation, or a substitute for licensed counsel.  
+Users must verify all law, rules, deadlines, citations, and filing decisions.
 
-IV. **Hybrid Licensing & Contribution**
-To address licensing friction and facilitate downstream adoption:
-• Educational Content: (The Calculus, Manifesto, and Logic) remains under CC BY-NC-SA 4.0.
-• Functional Infrastructure: All functional code and automation scripts in the /scripts directory are dual-licensed under the MIT License.
-• Norms: This ensures that LCES logic can be integrated into simplified front-ends, commercial tools, or clinical workflows without the atypical restrictions of Creative Commons on software code.
-
-
-V. **The Bootloader: "Format as Memory"**
-The system utilizes a bootloader-style operating protocol to simplify entry:
-• Stage 0 (Safety): Environmental audit to ensure AI tool choice and data-handling practices are sound.
-• Stage 1 (Triage): Narrowing the user’s vast legal problem into a single Smallest Component Unit (SCU).
-• Stage 2 (Drafting): Establishing the record as the remedy through structured formatting.
-
-
-**DISCLAIMER**
-
-LCES Legal Calculus Educational System is an educational and procedural-literacy system. It is NOT a law firm, legal clinic, or substitute for licensed counsel. Nothing in this repository constitutes legal advice, creates an attorney-client relationship, or guarantees any outcome.
-
-**Users are responsible for verifying all law, rules, deadlines, citations, formatting requirements, procedural requirements, and filing decisions before relying on or submitting any output**
-
-**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License**
-
-By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ("Public License"). 
-
-The full text of the license is available at:
+Full license text:  
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
 ⸻
