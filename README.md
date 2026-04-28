@@ -17,7 +17,7 @@
 
 ---
 
-# START HERE — LCES Legal Calculus Educational System  
+# START HERE —  
 ## Your entry point into the framework
 
 LCES is a procedural‑literacy and workflow system for structuring facts, preserving the record, and producing reviewable draft work product.
