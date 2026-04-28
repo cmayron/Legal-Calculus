@@ -54,136 +54,135 @@ Each AI should confirm:
 
 # LCES Legal Calculus Educational System  
 
-# LCES QUICK‑START GUIDE  
-## 30–90 seconds to operational clarity
+# START HERE — LCES Legal Calculus Educational System  
+## Your entry point into the framework
+
+LCES is a procedural‑literacy and workflow system for structuring facts, preserving the record, and producing reviewable draft work product.
+
+This repository is a **library**, not a book.  
+You do not read it front‑to‑back.  
+You **search by topic**, pull only what you need, and hand that module to the Architect.
+
+Architect runs best in **Copilot Pro on iPad**.
 
 ---
 
-# 1. Start With the SCU (Smallest Complete Unit)
+# 1. Begin With the Quick‑Start Guide  
+**30–90 seconds to operational clarity**
 
-Define one SCU:
+👉 **Open: `QUICK_START.md`**
 
-• Issue — the specific procedural or factual problem  
-• Facts — the concrete items tied to the issue  
-• Objective — the next action you need  
+You will learn:
 
-If any piece is missing:
+• how to form the SCU (issue • facts • objective)  
+• how to choose your mode (Pro Se, Second‑Opinion, Education, Crisis)  
+• how to activate the Bootloader (Stage 0 → Stage 3)  
+• how to follow the execution order  
+• how to preserve the record  
+• the one‑sentence protocol  
+• the LCES tagline  
 
-SCU incomplete. Specify issue, facts, objective.
-
-SCU discipline prevents drift and keeps work reviewable.
-
----
-
-# 2. Identify Your Mode
-
-Choose the mode that matches your situation:
-
-• Pro Se Mode — one clean, defensible step  
-• Second‑Opinion Mode — review an existing draft  
-• Education Mode — learn structured reasoning  
-• Crisis Mode — act quickly and avoid avoidable error  
-
-Pick one. Do not mix modes.
+This is the fastest way to get oriented.
 
 ---
 
-# 3. Activate the Bootloader (Stage 0 → Stage 3)
+# 2. Then Read the README  
+**What LCES is, how it works, and how to use it**
 
-## Stage 0 — Safety Audit
-• Confirm private mode  
-• Activate Hallucination Guard  
-• Activate Neutrality Anchor  
+👉 **Open: `README.md`**
 
-## Stage 1 — Procedural Triage
-• Identify task: Response / Motion / Record‑Building  
-• Lock scope to the immediate deadline  
+You will learn:
 
-## Stage 2 — Format as Memory
-• Initialize scratchpad  
-• Select relevant Calculus  
-• Sync identity (Architect / Builder / Inspector)  
+• what LCES does  
+• what LCES is not  
+• the SCU method  
+• the operating loop  
+• the six calculi  
+• the role model  
+• the safety boundaries  
+• the recommended workflow  
 
-## Stage 3 — Convergence Loop
-• Builder output → Inspector  
-• Inspector produces verification checklist  
+This is your operational overview.
 
 ---
 
-# 4. Follow the LCES Execution Order
+# 3. For Full Doctrine, Read the Manifesto  
+**The complete logic of the system**
 
-Architect → Deep Research → Builder → Inspector → Human Strategist
+👉 **Open: `MANIFESTO.md`**
 
-• Architect — structure  
-• Deep Research — support  
-• Builder — prose  
-• Inspector — stress test  
-• Human Strategist — final decision  
+You will learn:
 
-Reset Rule:  
-• Structure drift → Architect  
-• Missing support → Deep Research  
-• Draft redesign → Architect  
-• Analysis drifting into rewriting → Inspector  
+• the governing principle  
+• the six calculi in depth  
+• the real‑world operating premise  
+• role separation  
+• record discipline  
+• the LCES testing protocol  
+• Lawyer Calculus vs Judicial Calculus  
+• the Mode‑Lock Protocol  
+• the Deep Research stage  
+• the Bootloader Protocol  
+• the closing position  
 
----
-
-# 5. Use the LCES Operating Loop
-
-Retrieve → Frame → Transform → Evaluate → Commit
-
-• Retrieve facts, excerpts, dates  
-• Frame issue and posture  
-• Transform into structured output  
-• Evaluate for weakness and drift  
-• Commit by saving, labeling, preserving  
+This is the full conceptual foundation.
 
 ---
 
-# 6. Preserve the Record
+# 4. To Run LCES, Load the Bootloader  
+**Minimal, role‑pure, operational**
 
-Every output should:
+👉 **Open: `BOOTLOADER.md`**
 
-• orient the reader  
-• preserve the issue  
-• reduce ambiguity  
-• survive attack  
-• survive narrowing  
-• survive dismissal  
-• survive later review  
+This file contains:
 
-The record is the case.  
-The record is the remedy.
+• SCU rule  
+• role separation  
+• Architect block  
+• Builder block  
+• Inspector block  
+• Human Strategist block  
+• safety boundaries  
+• output formats  
 
----
-
-# 7. Human Responsibility
-
-The human remains responsible for:
-
-• facts  
-• law  
-• citations  
-• deadlines  
-• formatting  
-• filing decisions  
-• strategy  
-• final review  
-
-AI assists.  
-The Human Strategist decides.
+This is the file you paste into Architect AI in Copilot Pro.
 
 ---
 
-# 8. The One‑Sentence Protocol
+# 5. Initialize the AIs
 
-The Builder does not draft from assumption; it drafts from a blueprint that has already been research‑supported.
+After loading the Bootloader into each AI, ask:
+
+**“Confirm your role in LCES and state what you are allowed to do — and what you are not allowed to do.”**
+
+Each AI should respond:
+
+• **Architect** = structure, sequence, workflow, issue framing  
+• **Builder** = drafts, transforms, formatting, work product  
+• **Inspector** = red‑team, weaknesses, omissions, risks  
+• **Human** = final judgment and decision  
+
+Roles must remain separate.
 
 ---
 
-# 9. Tagline
+# 6. You Do Not Need the Whole Repository to Start
 
-Blueprint. Research. Draft. Stress‑test. Decide.
+To begin:
+
+1. Open the README  
+2. Scroll to the end  
+3. Copy or upload the Bootloader  
+4. Paste it into Architect AI in Copilot Pro  
+
+You can pull additional modules only when needed.
+
+---
+
+# 7. Tagline
+
+**Blueprint. Research. Draft. Stress‑test. Decide.**
+
 
 
 ## README v2 — Clear • Direct • Operational
