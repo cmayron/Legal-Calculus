@@ -36,8 +36,6 @@ Cloud AI tools are not private and do not create attorney‑client privilege.
 Only share redacted, non‑sensitive material.
 You are responsible for what you upload and for verifying all outputs.
 
-Here is the **exact, copy‑and‑paste‑ready UPL Shield Block** with **no commentary**, **no extras**, and **no surrounding explanation** — just the block itself, exactly as you requested.
-
 ---
 
 # ⚠️ **UPL SHIELD: HUMAN‑CONTROL & LEGAL‑USE BOUNDARY**  
