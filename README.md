@@ -187,7 +187,7 @@ You may **not**:
 
 
 
-**I. What Is**LCES Legal Calculus Educational System™?
+**I. What IS LCES Legal Calculus Educational System™?**
 
 LCES is a **procedural‑literacy and workflow system** for:
 
