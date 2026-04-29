@@ -1,8 +1,5 @@
 
 
-**LCES Legal Calculus Educational System™**
-
-
 <p align="center">
   <strong>
 
