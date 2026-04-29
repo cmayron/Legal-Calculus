@@ -129,296 +129,244 @@ You can pull additional modules only when needed.
 7. Tagline
 Blueprint. Research. Draft. Stress‑test. Decide.
 
-## README v2 — Clear • Direct • Operational
+README v2 — Clear • Direct • Operational
 
----
-
-## What LCES Legal Calculus Educational System Is
+What LCES Legal Calculus Educational System Is
 
 LCES is a procedural‑literacy and workflow system for organizing facts, structuring legal work, preserving the record, and producing reviewable draft work product.
 
 It is built for real legal environments where outcomes depend on:
 
-• sequence  
-• preservation  
-• clarity  
-• incentives  
-• procedural posture  
-• the record that gets built  
+• sequence
+• preservation
+• clarity
+• incentives
+• procedural posture
+• the record that gets built
 
 LCES converts disorder → structure → draft → preservation → reviewable record.
 
-LCES is not legal advice, not a law firm, and not a substitute for licensed counsel.  
+LCES is not legal advice, not a law firm, and not a substitute for licensed counsel.
 All outputs require human verification.
 
----
+Governing Principle
 
-## Governing Principle
+The record is the case.
+The record is the remedy.
 
-**The record is the case.  
-The record is the remedy.**
-
-Most failures happen because the record is weak, unclear, incomplete, or procedurally vulnerable.  
+Most failures happen because the record is weak, unclear, incomplete, or procedurally vulnerable.
 LCES exists to reduce that failure mode.
 
----
+Core Method: The Smallest Complete Unit (SCU)
 
-## Core Method: The Smallest Complete Unit (SCU)
-
-LCES Legal Calculus Educational System operates on the SCU — the smallest amount of information needed to perform one coherent task.
+LCES operates on the SCU — the smallest amount of information needed to perform one coherent task.
 
 A complete SCU contains:
 
-• issue  
-• facts  
-• objective  
+• issue
+• facts
+• objective
 
 If any are missing, the system responds:
 
-**SCU incomplete. Specify issue, facts, objective.**
+SCU incomplete. Specify issue, facts, objective.
 
 SCU discipline prevents drift and keeps work reviewable.
 
----
+The LCES Operating Loop
 
-## The LCES Legal Calculus Educational System Operating Loop
+Retrieve → Frame → Transform → Evaluate → Commit
 
-**Retrieve → Frame → Transform → Evaluate → Commit**
-
-• Retrieve — gather facts, excerpts, dates, objectives  
-• Frame — identify issue, posture, sequence, constraint  
-• Transform — produce the required draft  
-• Evaluate — test for weakness, omission, drift  
-• Commit — save, label, version, preserve  
+• Retrieve — gather facts, excerpts, dates, objectives
+• Frame — identify issue, posture, sequence, constraint
+• Transform — produce the required draft
+• Evaluate — test for weakness, omission, drift
+• Commit — save, label, version, preserve
 
 This loop creates usable work product, not just text.
 
----
+Entry Modes
 
-## Entry Modes
+LCES supports four primary user modes:
 
-LCES Legal Calculus Educational System supports four primary user modes:
-
-### Pro Se Mode  
-Minimum viable procedural step.  
+Pro Se Mode
+Minimum viable procedural step.
 Success: one clean, reviewable action.
 
-### Second‑Opinion Mode  
-Review an existing draft for structure, sequence, preservation.  
+Second‑Opinion Mode
+Review an existing draft for structure, sequence, preservation.
 Success: identify flaws and risks before filing.
 
-### Education Mode  
-Learn legal process through structured reasoning.  
+Education Mode
+Learn legal process through structured reasoning.
 Success: improved procedural literacy.
 
-### Crisis Mode  
-Move from disorder to one defensible step quickly.  
+Crisis Mode
+Move from disorder to one defensible step quickly.
 Success: preserve the issue and avoid avoidable error.
 
----
+The Six Calculi
 
-## The Six Calculi
-
-• **LC — Legal Calculus**: Why outcomes happen  
-• **JC — Judicial Calculus**: How judges manage burden and risk  
-• **LCa — Lawyer Calculus**: How lawyers manage leverage and exposure  
-• **LCA — Legal Calculus Advanced**: Deep forces and long‑range consequences  
-• **FG — Field Guide**: What to do now  
-• **FGA — Field Guide Advanced**: Action under pressure  
+• LC — Legal Calculus: Why outcomes happen
+• JC — Judicial Calculus: How judges manage burden and risk
+• LCa — Lawyer Calculus: How lawyers manage leverage and exposure
+• LCA — Legal Calculus Advanced: Deep forces and long‑range consequences
+• FG — Field Guide: What to do now
+• FGA — Field Guide Advanced: Action under pressure
 
 These modules explain legal behavior, not just legal theory.
 
----
-
-## Heuristic Guardrail: No Motive‑Reading
+Heuristic Guardrail: No Motive‑Reading
 
 LCES analyzes:
 
-• incentives  
-• posture  
-• filings  
-• conduct  
-• rules  
-• record  
+• incentives
+• posture
+• filings
+• conduct
+• rules
+• record
 
-It does not guess hidden motives or secret intentions.  
+It does not guess hidden motives or secret intentions.
 All analysis must remain record‑anchored.
 
----
+Role Model (Four‑AI Workflow)
 
-## Role Model (Multi‑AI Workflow)
+LCES works best when roles remain distinct:
 
-LCES Legal Calculus Educational System works best when roles remain distinct:
-
-• Architect — structure  
-• Deep Research — support  
-• Builder — drafting  
-• Inspector — analysis  
-• Human Strategist — judgment  
+• Architect — structure, sequence, workflow
+• Builder — drafting, transformation, formatting
+• Inspector — red‑team review, weaknesses, omissions, risks
+• Human Strategist — judgment, decisions, preservation
 
 Default sequence:
 
-**Architect → Deep Research → Builder → Inspector → Human Strategist**
+Architect → Builder → Inspector → Human Strategist
 
 Each role produces only its assigned output.
 
----
+Chief Complaint + Factual Anchor
 
-## Chief Complaint + Factual Anchor
+LCES begins with:
 
-LCES Legal Calculus Educational System begins with:
-
-• a chief complaint  
-• a factual anchor  
+• a chief complaint
+• a factual anchor
 
 The factual anchor is the concrete item giving the issue legal significance.
 
-Without an anchor, analysis drifts.  
+Without an anchor, analysis drifts.
 With one, the record begins.
 
----
-
-## Recommended Workflow
+Recommended Workflow
 
 Start with:
 
-• issue  
-• facts  
-• objective  
+• issue
+• facts
+• objective
 
 Then activate:
 
-**User → Architect → Deep Research → Builder → Inspector → Human Strategist**
+User → Architect → Builder → Inspector → Human Strategist
 
 Human responsibility remains for:
 
-• accuracy  
-• law  
-• deadlines  
-• citations  
-• formatting  
-• filing decisions  
+• accuracy
+• law
+• deadlines
+• citations
+• formatting
+• filing decisions
 
-The AI assists.  
+The AI assists.
 The Human Strategist decides.
 
----
+Safety & Review Notice
 
-## Safety & Review Notice
-
-• Verify all law, rules, deadlines, citations, and formatting independently.  
-• Treat all AI output as draft.  
-• Do not upload confidential or privileged material into cloud AI tools.  
-• Redact personal identifiers before use.  
+• Verify all law, rules, deadlines, citations, and formatting independently.
+• Treat all AI output as draft.
+• Do not upload confidential or privileged material into cloud AI tools.
+• Redact personal identifiers before use.
 • Cloud AI environments are not privileged evidence repositories.
 
----
+LCES Mode Lock — Bootloader Overview
 
-## LCES Legal Calculus Educational System Mode Lock — Bootloader Overview
+Platform Assignment:
+• Architect = Copilot Pro on desktop (required for repository access)
+• Builder = ChatGPT
+• Inspector = Gemini
+• Human Strategist = human role
 
-Platform Assignment:  
-• Architect = Copilot Pro (iPad)  
-• Builder = ChatGPT  
-• Inspector = Gemini  
+Core Rule:
+Keep roles separate. Do not merge functions.
 
-Core Rule:  
-**Keep roles separate. Do not merge functions.**
-
-### Architect Mode  
-Structure only.  
+Architect Mode
+Structure only.
 Standard: Build the blueprint.
+Requires desktop Copilot Pro for native repo visibility.
 
-### Builder Mode  
-Drafting only.  
+Builder Mode
+Drafting only.
 Standard: Execute the blueprint.
 
-### Inspector Mode  
-Analysis only.  
+Inspector Mode
+Analysis only.
 Standard: Test survivability.
 
-Execution Order:  
-**Architect → Builder → Inspector → Human review**
+Execution Order:
+Architect → Builder → Inspector → Human review
 
-Reset Rule:  
+Reset Rule:
 Return to the correct role when drift occurs.
 
-Master Formula:  
-**Architect = structure • Builder = prose • Inspector = stress test**
+Master Formula:
+Architect = structure • Builder = prose • Inspector = stress test
 
-Tagline:  
-**Blueprint. Draft. Stress‑test. Decide.**
+Tagline:
+Blueprint. Draft. Stress‑test. Decide.
 
----
+Adoption & Ethical Guardrails
 
-## Adoption & Ethical Guardrails
-
-### Neutrality Firewall  
+Neutrality Firewall
 LCES provides structure; the user provides local law.
 
-### Instrumentality & Convergence Protocol  
-AI is a tool, not an agent.  
+Instrumentality & Convergence Protocol
+AI is a tool, not an agent.
 A step is “stable” only when multiple models converge.
 
-### Tiered Entry  
-• The Book — active toolset  
-• The Library — research archive  
+Tiered Entry
+• The Book — active toolset
+• The Library — research archive
 
-## Cost & Usage Considerations
+Cost & Usage Considerations
 
-LCES Legal Calculus Educational System is an open‑access procedural‑literacy framework. The system itself is free, but the AI platforms used to operate it may have their own costs, limits, or usage models. LCES does not control or modify the pricing of any external AI service.
+LCES is an open‑access procedural‑literacy framework. The system itself is free, but the AI platforms used to operate it may have their own costs, limits, or usage models. LCES does not control or modify the pricing of any external AI service.
 
-### Architect (Copilot Pro on desktop if you want the repository to be accessed)
+Architect (Copilot Pro on desktop)
+Architect tasks involve long‑context analysis, multi‑file reasoning, and blueprint generation. These require desktop Copilot Pro for full repository visibility.
 
-The Architect role runs on Microsoft Copilot Pro.  
-Copilot may use a credit‑based or usage‑based model for advanced reasoning features.  
-Architect tasks typically involve:
-- long‑context analysis
-- multi‑file reasoning
-- structured blueprint generation
+Builder (ChatGPT Plus)
+Drafting, expansion, and formatting. Predictable token usage.
 
-These operations may consume more credits than simple chat or code completion. Users should monitor their Copilot usage to avoid interruptions.
+Inspector (Gemini 3 Flash)
+Stress‑testing and adversarial review. May involve deeper reasoning.
 
-### Builder (ChatGPT Plus)
-The Builder role runs on ChatGPT.  
-Drafting, expansion, and formatting are generally predictable in cost and token usage.  
-The Builder does not perform repo‑wide analysis, so it is typically less resource‑intensive than the Architect.
+Human Strategist
+The human remains the final authority.
 
-### Inspector (Gemini 3 Flash)
-The Inspector role runs on Gemini.  
-Stress‑testing and adversarial review may involve longer outputs or deeper reasoning, depending on the draft.  
-Users should be aware of any model‑specific limits or billing structures.
+Hybrid Licensing
 
-### Human Strategist
-The human remains the final authority.  
-LCES does not replace professional judgment, does not guarantee outcomes, and does not reduce the need for independent verification.
-
-### Summary
-LCES itself is free.  
-The cost of using LCES depends entirely on:
-- the AI platforms selected
-- the models chosen
-- the length and complexity of the user’s materials
-- the frequency of Architect‑level operations
-
-Users should review the pricing and usage policies of each AI provider to understand how their own workflow may be affected.
-
-### Hybrid Licensing  
-• Educational content: CC BY‑NC‑SA 4.0  
+• Educational content: CC BY‑NC‑SA 4.0
 • Functional code: MIT License
 
----
+Disclaimer
 
-## Disclaimer
-
-LCES Legal Calculus Educational System is an educational and procedural‑literacy system.  
-It is not legal advice, representation, or a substitute for licensed counsel.  
+LCES is an educational and procedural‑literacy system.
+It is not legal advice, representation, or a substitute for licensed counsel.
 Users must verify all law, rules, deadlines, citations, and filing decisions.
 
-Full license text:  
+Full license text:
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
-
-⸻
-
 # LCES MANIFESTO v3
 ## Legal Calculus Educational System  
 ## Clear • Direct • Operational
