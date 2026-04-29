@@ -26,7 +26,7 @@ This repository is a **library**, not a book.
 You do not read it front‑to‑back.  
 You **search by topic**, pull only what you need, and hand that module to the Architect.
 
-Architect runs best in **Copilot Pro on desktop because it can resd the repository **.
+Architect runs best in **Copilot Pro on desktop because it can read the repository **.
 
 ## CONFIDENTIALITY WARNING
 
