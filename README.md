@@ -1,4 +1,4 @@
-# 
+
 
 **LCES Legal Calculus Educational System™**
 
@@ -99,7 +99,7 @@ LCES is a **public good**, not a product.
 ---
 
 
-""1. Begin With the Quick‑Start Guide""
+**""1. Begin With the Quick‑Start Guide""**
 You will learn:
 
 • how to form the SCU (issue • facts • objective)
