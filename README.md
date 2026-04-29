@@ -92,7 +92,6 @@ LCES is a **public good**, not a product.
 
 ---
 
-If you want, I can now generate the **footer shield**, **LICENSE.md**, **NOTICE.md**, or assemble the **full README** with all legal‑use sections integrated.
 
 1. Begin With the Quick‑Start Guide
 You will learn:
