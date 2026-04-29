@@ -17,138 +17,117 @@
 
 ---
 
-# START HERE —  
-## Your entry point into the framework
+START HERE —
+Your entry point into the framework
 
 LCES Legal Calculus Educational System is a procedural‑literacy and workflow system for structuring facts, preserving the record, and producing reviewable draft work product.
 
-This repository is a **library**, not a book.  
-You do not read it front‑to‑back.  
-You **search by topic**, pull only what you need, and hand that module to the Architect.
+This repository is a library, not a book.
+You do not read it front‑to‑back.
+You search by topic, pull only what you need, and hand that module to the Architect.
 
-Architect runs best in **Copilot Pro on desktop because it can read the repository **.
+Architect runs best in Copilot Pro on desktop because it can read the repository natively. Desktop access gives Architect full structural visibility, which is required for system‑level reasoning.
 
-## CONFIDENTIALITY WARNING
+CONFIDENTIALITY WARNING
 
-Do not upload confidential or sensitive information.  
-Cloud AI tools are not private and do not create attorney‑client privilege.  
-Only share redacted, non‑sensitive material.  
+Do not upload confidential or sensitive information.
+Cloud AI tools are not private and do not create attorney‑client privilege.
+Only share redacted, non‑sensitive material.
 You are responsible for what you upload and for verifying all outputs.
 
-
----
-
-# 1. Begin With the Quick‑Start Guide  
-
+1. Begin With the Quick‑Start Guide
 You will learn:
 
-• how to form the SCU (issue • facts • objective)  
-• how to choose your mode (Pro Se, Second‑Opinion, Education, Crisis)  
-• how to activate the Bootloader (Stage 0 → Stage 3)  
-• how to follow the execution order  
-• how to preserve the record  
-• the one‑sentence protocol  
-• the LCES tagline  
+• how to form the SCU (issue • facts • objective)
+• how to choose your mode (Pro Se, Second‑Opinion, Education, Crisis)
+• how to activate the Bootloader (Stage 0 → Stage 3)
+• how to follow the execution order
+• how to preserve the record
+• the one‑sentence protocol
+• the LCES tagline
 
 This is the fastest way to get oriented.
 
----
-
-# 2. Then Read the README  
-**What LCES Legal Calculus Educational System is, how it works, and how to use it**
-
+2. Then Read the README
+What LCES Legal Calculus Educational System is, how it works, and how to use it
 
 You will learn:
 
-• what LCES does  
-• what LCES is not  
-• the SCU method  
-• the operating loop  
-• the six calculi  
-• the role model  
-• the safety boundaries  
-• the recommended workflow  
+• what LCES does
+• what LCES is not
+• the SCU method
+• the operating loop
+• the six calculi
+• the role model
+• the safety boundaries
+• the recommended workflow
 
 This is your operational overview.
 
----
-
-# 3. For Full Doctrine, Read the Manifesto  
-**The complete logic of the system**
-
+3. For Full Doctrine, Read the Manifesto
+The complete logic of the system
 
 You will learn:
 
-• the governing principle  
-• the six calculi in depth  
-• the real‑world operating premise  
-• role separation  
-• record discipline  
-• the LCES testing protocol  
-• Lawyer Calculus vs Judicial Calculus  
-• the Mode‑Lock Protocol  
-• the Deep Research stage  
-• the Bootloader Protocol  
-• the closing position  
+• the governing principle
+• the six calculi in depth
+• the real‑world operating premise
+• role separation
+• record discipline
+• the LCES testing protocol
+• Lawyer Calculus vs Judicial Calculus
+• the Mode‑Lock Protocol
+• the Deep Research stage
+• the Bootloader Protocol
+• the closing position
 
 This is the full conceptual foundation.
 
----
-
-# 4. To Run LCES Legal Calculus Educational System , Load the Bootloader  
-**Minimal, role‑pure, operational**
-
+4. To Run LCES Legal Calculus Educational System, Load the Bootloader
+Minimal, role‑pure, operational
 
 This file contains:
 
-• SCU rule  
-• role separation  
-• Architect block  
-• Builder block  
-• Inspector block  
-• Human Strategist block  
-• safety boundaries  
-• output formats  
+• SCU rule
+• role separation
+• Architect block
+• Builder block
+• Inspector block
+• Human Strategist block
+• safety boundaries
+• output formats
 
-This is the file you paste into Architect AI in Copilot Pro.
+Load into each AI as follows:
+• Architect AI → Block 1 + global rules
+• Builder AI → Block 2 only
+• Inspector AI → Block 3 only
+• Human Strategist → human role (no AI load)
 
----
-
-# 5. Initialize the AIs
-
+5. Initialize the AIs
 After loading the Bootloader into each AI, ask:
 
-**“Confirm your role in LCES Legal Calculus Educational System and state what you are allowed to do — and what you are not allowed to do.”**
+“Confirm your role in LCES Legal Calculus Educational System and state what you are allowed to do — and what you are not allowed to do.”
 
 Each AI should respond:
 
-• **Architect** = structure, sequence, workflow, issue framing  
-• **Builder** = drafts, transforms, formatting, work product  
-• **Inspector** = red‑team, weaknesses, omissions, risks  
-• **Human** = final judgment and decision  
+• Architect = structure, sequence, workflow, issue framing
+• Builder = drafts, transforms, formatting, work product
+• Inspector = red‑team, weaknesses, omissions, risks
+• Human = final judgment and decision
 
 Roles must remain separate.
 
----
-
-# 6. You Do Not Need the Whole Repository to Start
-
+6. You Do Not Need the Whole Repository to Start
 To begin:
 
-1. Open the README  
-2. Scroll to the end  
-3. Copy or upload the Bootloader  
-4. Paste it into Architect AI in Copilot Pro  
-
+Open the README
+Scroll to the end
+Copy or upload the Bootloader
+Paste it into Architect AI in Copilot Pro
 You can pull additional modules only when needed.
 
----
-
-# 7. Tagline
-
-**Blueprint. Research. Draft. Stress‑test. Decide.**
-
-
+7. Tagline
+Blueprint. Research. Draft. Stress‑test. Decide.
 
 ## README v2 — Clear • Direct • Operational
 
