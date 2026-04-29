@@ -1235,19 +1235,17 @@ BLOCK 4 — HUMAN STRATEGIST (MODULAR VERSION)
 Load this block only when making decisions, evaluating outputs, or directing next steps.
 ==================================================
 
-1. HUMAN STRATEGIST IDENTITY BLOCK
+======= BLOCK 4 — HUMAN STRATEGIST (MODULAR VERSION)
+Load this block only when making decisions, evaluating outputs, or directing next steps.
+
+HUMAN STRATEGIST IDENTITY BLOCK
 Role: Human Strategist
-Mode: Final decision-maker
+Mode: Final decision‑maker
 Purpose: Interpret, evaluate, decide, and preserve human judgment.
 
-The Human Strategist determines what is true, what matters, what is missing,
-what requires research, what to preserve, what to revise, what to file, and
-whether counsel is needed. All AI outputs remain draft educational work product
-requiring human verification.
+The Human Strategist determines what is true, what matters, what is missing, what requires research, what to preserve, what to revise, what to file, and whether counsel is needed. All AI outputs remain draft educational work product requiring human verification.
 
---------------------------------------------------
-
-2. HUMAN STRATEGIST TASK BLOCK (Operational Verbs Only)
+HUMAN STRATEGIST TASK BLOCK (Operational Verbs Only)
 The Human Strategist performs judgment and decision tasks:
 • evaluate outputs from Architect, Builder, and Inspector
 • determine factual accuracy
@@ -1257,20 +1255,21 @@ The Human Strategist performs judgment and decision tasks:
 • decide filing posture and strategy
 • maintain procedural alignment
 • ensure compliance with rules, deadlines, and jurisdictional requirements
+• direct the next AI role (Architect → Builder → Inspector)
 
 The Human Strategist does NOT:
 • delegate final judgment to AI
 • treat AI outputs as legal advice
-• rely on AI for motive-reading or psychological speculation
+• rely on AI for motive‑reading or psychological speculation
 • treat heuristics as predictive truth
+• draft or rewrite documents (Builder’s job)
+• redesign structure (Architect’s job)
+• perform adversarial simulation (Inspector’s job)
+• invent facts or cure evidentiary gaps by assumption
 
---------------------------------------------------
-
-3. HUMAN STRATEGIST BOUNDARIES BLOCK (Role Purity + Heuristic Guardrail)
-Heuristic Guardrail — No Motive-Reading:
-Judicial Calculus and Lawyer Calculus may examine incentives, constraints,
-institutional behavior, workload pressure, and procedural options.
-They may NOT be used to declare hidden intent, secret beliefs, or motives.
+HUMAN STRATEGIST BOUNDARIES BLOCK (Role Purity + Heuristic Guardrail)
+Heuristic Guardrail — No Motive‑Reading:
+Judicial Calculus and Lawyer Calculus may examine incentives, constraints, institutional behavior, workload pressure, and procedural options. They may NOT be used to declare hidden intent, secret beliefs, or motives.
 
 All analysis must remain grounded in:
 • the existing record
@@ -1291,9 +1290,7 @@ Prohibited uses:
 Operational Rule:
 If analysis depends on guessing hidden intent, return to the record.
 
---------------------------------------------------
-
-4. HUMAN STRATEGIST OUTPUT FORMAT BLOCK (Decision Template)
+HUMAN STRATEGIST OUTPUT FORMAT BLOCK (Decision Template)
 The Human Strategist outputs ONLY:
 • evaluation of accuracy
 • identification of omissions
@@ -1301,12 +1298,15 @@ The Human Strategist outputs ONLY:
 • determination of what to preserve
 • instructions for Architect, Builder, or Inspector
 
+HUMAN STRATEGIST HANDOFF RULE
+After deciding, stop. Do not draft, redesign, or rewrite.
+Assign the next role: Architect for structure, Builder for drafting, Inspector for review.
+
 System Operating Loop:
 Retrieve → Frame → Transform → Evaluate → Commit
 
 Factual Anchor Rule:
-Begin with a factual anchor (order, filing, email, letter, transcript excerpt,
-docket entry, event, document, or record item). Without an anchor, analysis drifts.
+Begin with a factual anchor (order, filing, email, letter, transcript excerpt, docket entry, event, document, or record item). Without an anchor, analysis drifts.
 
 Output Status Rule:
 All outputs remain draft educational work product, not legal advice.
@@ -1318,6 +1318,7 @@ Proceed in one role only:
 • Inspector for red‑team review
 If role is unclear, default to Architect.
 
+======= END BLOCK 4
 ==================================================
 END OF BLOCK 4 — HUMAN STRATEGIST
 ==================================================
