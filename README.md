@@ -38,58 +38,7 @@ You are responsible for what you upload and for verifying all outputs.
 
 ---
 
-# ⚠️ **UPL SHIELD: HUMAN‑CONTROL & LEGAL‑USE BOUNDARY**  
-**This repository provides a procedural‑literacy system, not legal advice.**
 
-All outputs generated through LCES are **educational**, **structural**, and **procedural**.
-
-**LCES Legal Calculus Educational System™** are **educational**, **structural**, and **procedural**.  
-LCES does **not** interpret law, provide legal advice, or replace licensed counsel.  
-All legal decisions remain **human decisions**.
-
-### **Human Strategist Responsibilities**
-You — the human strategist — are solely responsible for:
-
-- verifying all facts  
-- checking all deadlines  
-- confirming all citations  
-- ensuring jurisdictional compliance  
-- selecting strategy, arguments, and filings  
-- deciding what to file, when, and why  
-
-LCES does **not** perform these functions.
-
-### **System Boundaries**
-LCES:
-
-- does **not** practice law  
-- does **not** represent anyone  
-- does **not** provide legal advice  
-- does **not** automate legal services  
-- does **not** make strategic or interpretive decisions  
-- does **not** replace attorneys or licensed professionals  
-
-LCES is a **public procedural‑literacy framework**, not a legal‑services engine.
-
-### **Prohibited Uses**
-You may **not**:
-
-- use LCES to provide legal advice to others  
-- use LCES to represent another person  
-- deploy LCES as a commercial or automated legal‑service tool  
-- remove attribution, edition lineage, or doctrinal boundaries  
-- misrepresent LCES as a substitute for licensed counsel  
-
-### **Purpose of This Shield**
-This boundary protects:
-
-- the **public‑education mission**  
-- the **non‑commercial doctrine**  
-- the **coalition governance model**  
-- the **integrity of the Calculi**  
-- the **user**, the **maintainers**, and the **public**  
-
-LCES is a **public good**, not a product.
 
 ---
 
@@ -1402,7 +1351,58 @@ If role is unclear, default to Architect.
 END OF BLOCK 4 — HUMAN STRATEGIST
 ==================================================
 
+# ⚠️ **UPL SHIELD: HUMAN‑CONTROL & LEGAL‑USE BOUNDARY**  
+**This repository provides a procedural‑literacy system, not legal advice.**
 
+All outputs generated through LCES are **educational**, **structural**, and **procedural**.
+
+**LCES Legal Calculus Educational System™** are **educational**, **structural**, and **procedural**.  
+LCES does **not** interpret law, provide legal advice, or replace licensed counsel.  
+All legal decisions remain **human decisions**.
+
+### **Human Strategist Responsibilities**
+You — the human strategist — are solely responsible for:
+
+- verifying all facts  
+- checking all deadlines  
+- confirming all citations  
+- ensuring jurisdictional compliance  
+- selecting strategy, arguments, and filings  
+- deciding what to file, when, and why  
+
+LCES does **not** perform these functions.
+
+### **System Boundaries**
+LCES:
+
+- does **not** practice law  
+- does **not** represent anyone  
+- does **not** provide legal advice  
+- does **not** automate legal services  
+- does **not** make strategic or interpretive decisions  
+- does **not** replace attorneys or licensed professionals  
+
+LCES is a **public procedural‑literacy framework**, not a legal‑services engine.
+
+### **Prohibited Uses**
+You may **not**:
+
+- use LCES to provide legal advice to others  
+- use LCES to represent another person  
+- deploy LCES as a commercial or automated legal‑service tool  
+- remove attribution, edition lineage, or doctrinal boundaries  
+- misrepresent LCES as a substitute for licensed counsel  
+
+### **Purpose of This Shield**
+This boundary protects:
+
+- the **public‑education mission**  
+- the **non‑commercial doctrine**  
+- the **coalition governance model**  
+- the **integrity of the Calculi**  
+- the **user**, the **maintainers**, and the **public**  
+
+LCES is a **public good**, not a product.
 
 **LCES Legal Calculus Educational System™**— License
 
