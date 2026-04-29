@@ -388,7 +388,8 @@ A step is “stable” only when multiple models converge.
 
 LCES Legal Calculus Educational System is an open‑access procedural‑literacy framework. The system itself is free, but the AI platforms used to operate it may have their own costs, limits, or usage models. LCES does not control or modify the pricing of any external AI service.
 
-### Architect (Copilot Pro)
+### Architect (Copilot Pro on desktop if you want the repository to be accessed)
+
 The Architect role runs on Microsoft Copilot Pro.  
 Copilot may use a credit‑based or usage‑based model for advanced reasoning features.  
 Architect tasks typically involve:
