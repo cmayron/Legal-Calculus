@@ -392,6 +392,29 @@ This license prohibits:
 Full license text:
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
+Trademark Notice
+
+LCES Legal Calculus Educational System™, including the name, brand, mark, and associated identifiers, is a trademark of its creator.
+
+The trademark covers:
+• the name “LCES Legal Calculus Educational System”
+• the abbreviation “LCES”
+• associated branding, terminology, and system identity
+
+This trademark protects the identity of the system. It does not restrict non-commercial use of the educational content licensed under CC BY-NC-SA 4.0.
+
+No person or entity may:
+• use the name or mark in a way that implies endorsement
+• sell products or services under the LCES name
+• create commercial offerings using the LCES brand
+• represent derivative works as official LCES materials
+
+Permitted uses:
+• non-commercial educational use
+• attribution-compliant sharing
+• adaptation under CC BY-NC-SA 4.0, without using the LCES name as branding
+
+Unauthorized commercial use of the LCES name or mark is prohibited.
 
 LCES MANIFESTO v4
 Legal Calculus Educational System
@@ -748,6 +771,29 @@ This license prohibits:
 Full license text:
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
+Trademark Notice
+
+LCES Legal Calculus Educational System™, including the name, brand, mark, and associated identifiers, is a trademark of its creator.
+
+The trademark covers:
+• the name “LCES Legal Calculus Educational System”
+• the abbreviation “LCES”
+• associated branding, terminology, and system identity
+
+This trademark protects the identity of the system. It does not restrict non-commercial use of the educational content licensed under CC BY-NC-SA 4.0.
+
+No person or entity may:
+• use the name or mark in a way that implies endorsement
+• sell products or services under the LCES name
+• create commercial offerings using the LCES brand
+• represent derivative works as official LCES materials
+
+Permitted uses:
+• non-commercial educational use
+• attribution-compliant sharing
+• adaptation under CC BY-NC-SA 4.0, without using the LCES name as branding
+
+Unauthorized commercial use of the LCES name or mark is prohibited.
 
 # LCES — Legal Calculus Educational System  
 ## BOOTLOADER (System-Level Operating Rules)
@@ -1209,4 +1255,27 @@ This license prohibits:
 Full license text:
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
+Trademark Notice
+
+LCES Legal Calculus Educational System™, including the name, brand, mark, and associated identifiers, is a trademark of its creator.
+
+The trademark covers:
+• the name “LCES Legal Calculus Educational System”
+• the abbreviation “LCES”
+• associated branding, terminology, and system identity
+
+This trademark protects the identity of the system. It does not restrict non-commercial use of the educational content licensed under CC BY-NC-SA 4.0.
+
+No person or entity may:
+• use the name or mark in a way that implies endorsement
+• sell products or services under the LCES name
+• create commercial offerings using the LCES brand
+• represent derivative works as official LCES materials
+
+Permitted uses:
+• non-commercial educational use
+• attribution-compliant sharing
+• adaptation under CC BY-NC-SA 4.0, without using the LCES name as branding
+
+Unauthorized commercial use of the LCES name or mark is prohibited.
 
