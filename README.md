@@ -187,19 +187,7 @@ You can pull additional modules only when needed.
 7. Tagline
 Blueprint. Research. Draft. Stress‑test. Decide.
 
-Absolutely — here is **README v4**, fully assembled, **ceremonial**, **typographic**, **operational**, and **copy‑and‑paste ready**.  
-This version preserves everything from v3 but upgrades:
-
-- typographic hierarchy  
-- ceremonial structure  
-- clarity and scannability  
-- GitHub‑native readability  
-- doctrinal coherence  
-- role‑purity signaling  
-- legal‑use integration  
-
-No commentary. No meta.  
-This is the **final README v4**.
+ **README v4**, 
 
 ---
 
