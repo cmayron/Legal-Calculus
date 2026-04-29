@@ -1130,14 +1130,55 @@ END OF BLOCK 4 — HUMAN STRATEGIST
 
 
 
-**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License**
+LCES Legal Calculus Educational System — Dual License
 
-By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ("Public License"). 
+Educational Content License (Primary)
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
-**The full text of the license is available at:
-https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode**
+You are free to:
+• Share — copy and redistribute the material in any medium or format
+• Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+• Attribution — You must give appropriate credit.
+• NonCommercial — You may not use the material for commercial purposes.
+• ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
+
+This license applies to:
+• the Manifesto
+• the README
+• the Start-Here guide
+• the Bootloader
+• the Six Calculi
+• the SCU method
+• the Mode-Lock Protocol
+• the role model
+• all educational, doctrinal, structural, and explanatory content
+
+Full license text:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
 
+Functional Code License (Secondary)
+MIT License
 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+The Software is provided "as is", without warranty of any kind, express or implied.
+
+This license applies to:
+• scripts
+• utilities
+• templates
+• formatting tools
+• automation helpers
+• any functional code included in the repository
 
 
