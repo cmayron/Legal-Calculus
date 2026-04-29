@@ -4,7 +4,9 @@
 
 
 <p align="center">
-  <strong>LCES Legal Calculus Educational System is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.</strong>
+  <strong># 
+
+**LCES Legal Calculus Educational System™** is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.</strong>
 </p>
 
 
@@ -45,7 +47,9 @@ Here is the **exact, copy‑and‑paste‑ready UPL Shield Block** with **no com
 # ⚠️ **UPL SHIELD: HUMAN‑CONTROL & LEGAL‑USE BOUNDARY**  
 **This repository provides a procedural‑literacy system, not legal advice.**
 
-All outputs generated through the Legal Calculus Educational System (LCES) are **educational**, **structural**, and **procedural**.  
+All outputs generated through the # 
+
+**LCES Legal Calculus Educational System™** are **educational**, **structural**, and **procedural**.  
 LCES does **not** interpret law, provide legal advice, or replace licensed counsel.  
 All legal decisions remain **human decisions**.
 
