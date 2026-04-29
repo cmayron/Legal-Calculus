@@ -308,7 +308,7 @@ All analysis must remain **record‑anchored**.
 
 ---
 
-# **VIII. Role Model (Four‑AI Workflow)**
+# **VIII. Role Model (Three‑AI Workflow)**
 
 LCES works best when roles remain distinct:
 
