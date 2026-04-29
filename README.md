@@ -587,8 +587,7 @@ Unauthorized commercial use of the LCES name or mark is prohibited.
 ---
 
 
-**LCES MANIFESTO v4**
-**LCES Legal Calculus Educational System™**
+# **MANIFESTO LCES Legal Calculus Educational System™** v4
 
 Clear • Direct • Operational
 
