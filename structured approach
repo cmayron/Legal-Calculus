@@ -1,0 +1,7 @@
+The Legal Calculus Educational System (LCES) effectively addresses key challenges in legal filing through a structured approach:
+
+- **Hallucination Risk**: By separating the creative/conversational phase (Notion/Literacy) from the drafting phase (ChatGPT/Builder) and the verification phase (Gemini/Strategist), the LCES minimizes the risk of errors that can arise when relying on a single AI for all tasks.
+- **Procedural Compliance**: Adhering to the mantra, "Format is memory. The record is the remedy," the system emphasizes structured input and formatted output. This focus ensures that the resulting court documents comply with the technical requirements of court rules (FRCP, ARCP, CPLR), which are often the primary reason for dismissals in pro se cases.
+- **Ethical Boundaries**: The workflow maintains ethical standards by implementing guardrails that prevent the provision of legal advice. AIs are utilized solely for educational purposes, drafting, and testing procedural vehicles, rather than for formulating substantive legal strategies.
+
+The LCES harnesses open-source templates and accessible AI tools to democratize the mechanics of legal filing, significantly improving access to justice for self-represented litigants in complex jurisdictions.

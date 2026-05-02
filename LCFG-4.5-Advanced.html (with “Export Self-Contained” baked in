@@ -1,0 +1,530 @@
+Perfect. Since pasting all 1,000 cards directly into this chat would be too huge, I made you a version that can bake your full deck into the file itself with one click.
+
+**What you’ll get**
+
+- A single-file, dark-mode LC 4.5 Advanced app (local-only).
+- Import your full Markdown once, then click Export Self-Contained HTML → it generates a new .html that already includes your entire Field Guide inside the file. Open it offline, it loads instantly—no importing needed.
+
+**Do this**
+
+1. Save the file below as LCFG-4.5-Advanced.html.
+2. Open it → Import MD → paste your FG 1–1000.
+3. Click Export Self-Contained HTML → open the downloaded file. That one has your whole deck inlined forever.
+
+**LCFG-4.5-Advanced.html**
+
+**(with “Export Self-Contained” baked in)**
+
+# Save everything between the lines as a single .html file.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LCFG 4.5 Advanced — Legal Calculus Field Guide (Single-File, Dark)</title>
+<style>
+:root{
+--bg:#0b0d10; --panel:#12151a; --muted:#1a1f26; --ink:#e9eef7; --sub:#b6c2d0;
+--brand:#6ee7ff; --brand2:#a78bfa; --warn:#ffd166; --accent:#64d99c; --danger:#ff6b6b;
+--ring:#3b82f6;
+--mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+--sans: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+margin:0; background:linear-gradient(180deg,#0b0d10 0%, #0c1117 60%, #0b0d10 100%);
+color:var(--ink); font-family:var(--sans); -webkit-font-smoothing:antialiased;
+}
+a{color:var(--brand); text-decoration:none}
+a:hover{opacity:.9}
+button{cursor:pointer}
+button, input, select, textarea{color:var(--ink); background:var(--muted); border:1px solid #1f2630; border-radius:10px; padding:.6rem .8rem}
+button:focus, input:focus, select:focus, textarea:focus{outline:2px solid var(--ring); outline-offset:1px}
+small,.sub{color:var(--sub)}
+hr{border:0; height:1px; background:#1f2630}
+header{
+position:sticky; top:0; z-index:50; backdrop-filter:saturate(180%) blur(8px);
+background:linear-gradient(180deg, rgba(10,12,16,.85), rgba(10,12,16,.65));
+border-bottom:1px solid #161b22;
+}
+.container{max-width:1200px; margin:0 auto; padding:1rem}
+.flex{display:flex; gap:.75rem; align-items:center}
+.row{display:flex; gap:.5rem; flex-wrap:wrap}
+.tools{display:flex; gap:.5rem; flex-wrap:wrap}
+.tag{display:inline-flex; gap:.35rem; align-items:center; font-size:.75rem; padding:.2rem .5rem; border-radius:999px; border:1px solid #2a3241; background:#121722}
+.grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px}
+.card{
+border:1px solid #1f2630; background:linear-gradient(180deg,#11151c,#0f141b);
+padding:12px; border-radius:14px; display:flex; flex-direction:column; gap:.5rem; position:relative;
+}
+.card h3{margin:.2rem 0 .1rem 0; font-size:1.02rem}
+.card .meta{display:flex; gap:.5rem; flex-wrap:wrap}
+.card .meta .pill{font-size:.7rem; padding:.15rem .45rem; border-radius:999px; border:1px solid #2a3241; color:#bcd}
+.card .body{display:grid; gap:.5rem}
+.card .body section{border:1px dashed #243042; border-radius:8px; padding:.45rem .55rem; background:#0c1219}
+.card .body h4{margin:0 0 .25rem 0; font-size:.82rem; color:var(--brand2)}
+.card .row-btns{display:flex; gap:.4rem; flex-wrap:wrap}
+.card .row-btns button{border-radius:8px; font-size:.85rem}
+.card input[type="checkbox"]{position:absolute; right:10px; top:10px; width:18px; height:18px}
+.toolbar{display:grid; grid-template-columns: 1fr auto; gap:1rem; align-items:center}
+.searchbar{display:flex; gap:.5rem; align-items:center}
+.searchbar input[type="search"]{flex:1; font-size:1rem; padding:.7rem .8rem; border-radius:12px}
+.btn{background:#0f1420; border:1px solid #202633; padding:.6rem .8rem; border-radius:10px}
+.btn.brand{background:linear-gradient(90deg,#0f1725,#0b1e2d); border-color:#22314a}
+.btn.green{background:#0f1c17; border-color:#1f3b30}
+.btn.red{background:#1c1212; border-color:#3a2020}
+.btn.warn{background:#1d1a0e; border-color:#3c3418}
+.btn:hover{filter:brightness(1.05)}
+.aside{
+position:sticky; top:72px; align-self:flex-start; min-width:300px;
+border:1px solid #1f2630; background:#0d1218; border-radius:14px; padding:12px; max-height:calc(100vh - 90px); overflow:auto;
+}
+.split{display:grid; grid-template-columns: minmax(0,1fr) 320px; gap:16px}
+@media (max-width: 980px){ .split{grid-template-columns: 1fr} .aside{position:relative; top:auto; max-height:none} }
+.modal{position:fixed; inset:0; display:none; align-items:center; justify-content:center; z-index:100}
+.modal.active{display:flex}
+.modal .sheet{
+width:min(880px,94vw); max-height:90vh; overflow:auto; background:#0f141b; border:1px solid #222b38; border-radius:14px; padding:16px;
+}
+@media print{
+header, .aside, .filterbar, .searchbar, .row-btns, .tools, .footer {display:none !important}
+body{background:#fff; color:#000}
+.card{break-inside:avoid; background:#fff; border-color:#999}
+.card .body section{background:#fff}
+}
+.badge{border:1px solid #2a3241; border-radius:8px; padding:.05rem .35rem; font-size:.72rem}
+.mono{font-family:var(--mono)}
+.footer{opacity:.8; margin:1rem 0}
+</style>
+</head>
+<body>
+<header>
+<div class="container toolbar">
+<div class="searchbar">
+<strong style="font-size:1.05rem">⚖️ LCFG 4.5 Advanced</strong>
+<input id="q" type="search" placeholder="Search text (FG, title, fields)…  ⌘/Ctrl+K" />
+<select id="vol" title="Volume"></select>
+<select id="subject" title="Subject">
+<option value="">All Subjects</option>
+<option>Filing</option><option>Silence</option><option>Denial</option>
+<option>Default</option><option>Efficiency</option><option>Closure</option><option>Archive</option>
+</select>
+<label class="tag"><input id="chkCore" type="checkbox" checked/> Core</label>
+<label class="tag"><input id="chkLesson" type="checkbox" checked/> Lesson</label>
+<label class="tag"><input id="chkAssign" type="checkbox" checked/> Assignment</label>
+<label class="tag"><input id="chkModel" type="checkbox" checked/> Model</label>
+<label class="tag"><input id="chkReflect" type="checkbox" checked/> Reflection</label>
+<button id="btnClear" class="btn" title="Reset filters">Reset</button>
+</div>
+<div class="tools">
+<button id="btnImport" class="btn brand" title="Paste or upload your Markdown">Import MD</button>
+<button id="btnExport" class="btn" title="Export current deck as JSON">Export JSON</button>
+<button id="btnSelf" class="btn" title="Export a new HTML with your deck embedded">Export Self-Contained HTML</button>
+<button id="btnBundle" class="btn green">Bundle</button>
+<button id="btnPrint" class="btn warn" title="Print clean deck">Print</button>
+<button id="btnHelp" class="btn">Help</button>
+</div>
+</div>
+</header>
+
+<main class="container split">
+<section>
+<div id="stats" class="sub" style="margin:.25rem 0 .75rem 0"></div>
+<div id="grid" class="grid"></div>
+</section>
+
+<aside class="aside">
+<h3 style="margin:.25rem 0 .35rem 0">📦 Bundle</h3>
+<div class="sub" style="margin-bottom:.5rem">Select cards, choose a mode, then copy or export.</div>
+<div class="row">
+<select id="bundleMode">
+<option value="hearing">Hearing Outline</option>
+<option value="motion">Motion Draft</option>
+<option value="appeal">Appeal Points</option>
+</select>
+<button id="btnBuild" class="btn green">Build</button>
+<button id="btnCopyBundle" class="btn">Copy</button>
+</div>
+<textarea id="bundleOut" rows="14" style="width:100%;margin-top:.5rem; font-family:var(--mono);"></textarea>
+<div class="row" style="margin-top:.5rem">
+<button id="btnDownloadBundle" class="btn">Download .txt</button>
+<button id="btnClearSel" class="btn red">Clear Selection</button>
+</div>
+<hr style="margin:12px 0">
+<h4 style="margin:.2rem 0 .4rem 0">📎 Quick Copy</h4>
+<div class="row">
+<button id="btnCopyModels" class="btn">Copy Model lines</button>
+<button id="btnCopyAssignments" class="btn">Copy Assignment lines</button>
+</div>
+</aside>
+</main>
+
+<div class="container footer sub">
+Local-first. No servers. Import your full Markdown once, then use “Export Self-Contained HTML” to bake it into the file.
+</div>
+
+<!-- Import Modal -->
+<div id="modal" class="modal">
+<div class="sheet">
+<div class="flex" style="justify-content:space-between">
+<h3 style="margin:.25rem 0">📥 Import Markdown</h3>
+<button id="xModal" class="btn">Close</button>
+</div>
+<div class="sub" style="margin:.25rem 0 .75rem 0">
+Paste your complete Field Guide Markdown (FG 1–1000). Parser is resilient to small format shifts (labels like Core / Lesson / Assignment / Model / Reflection).
+</div>
+<textarea id="md" rows="18" style="width:100%; font-family:var(--mono);" placeholder="Paste FULL Markdown here…"></textarea>
+<div class="row" style="margin-top:.6rem">
+<input id="file" type="file" accept=".md,.txt" />
+<button id="doImport" class="btn brand">Parse & Replace Deck</button>
+<button id="doAppend" class="btn">Parse & Append</button>
+</div>
+</div>
+</div>
+
+<script>
+/* -------------------- State & Seed -------------------- */
+const state = {
+cards: [],
+filters: { q:"", vol:"", subject:"", show:{core:1, lesson:1, assign:1, model:1, reflect:1} },
+selection: new Set()
+};
+
+// Load embedded deck if present (for self-contained builds)
+(function loadEmbedded(){
+const s = document.getElementById('embeddedDeck');
+if (!s) return;
+try{
+const j = JSON.parse(s.textContent);
+if (Array.isArray(j.cards) && j.cards.length){
+state.cards = j.cards; localStorage.setItem('lcfg45_advanced', JSON.stringify({cards:j.cards}));
+}
+}catch(e){ console.warn('Embedded deck parse failed', e); }
+})();
+
+// 7-card seed so the UI is alive before you import (replaced on import)
+const seedMD = `
+
+### FG-001 — Filing = Existence ⚪📄✨
+
+- ⚖️ **Core Message:** To file is to exist in the record.
+- 📖 **Lesson Content:** Filing transforms grievance into memory.
+- ✏️ **Assignment:** Draft a line asserting existence via filing.
+- ✅ **Model Response:** "This claim exists because it is filed on the record."
+- 💡 **Reflection Summary:** Filing breathes life into protest.
+- 🎨 **Visual Concept:** A glowing brief on an empty bench.
+
+### FG-002 — Silence = Absence ⚪🤐🚫
+
+- ⚖️ **Core Message:** Silence leaves only absence.
+- 📖 **Lesson Content:** Courts may ignore; the docket remembers.
+- ✏️ **Assignment:** Preserve silence as part of the record.
+- ✅ **Model Response:** "Judicial silence preserved as absence of due process."
+- 💡 **Reflection Summary:** Absence is evidence.
+- 🎨 **Visual Concept:** Empty chair; document glowing beneath.
+
+### FG-003 — Denial = Recognition ⚪🚫👁️
+
+- ⚖️ **Core Message:** Denial recognizes what it rejects.
+- 📖 **Lesson Content:** Every refusal is an acknowledgement.
+- ✏️ **Assignment:** Reframe denial as visibility.
+- ✅ **Model Response:** "Denial preserved as recognition of this claim’s presence."
+- 💡 **Reflection Summary:** Opposition proves presence.
+- 🎨 **Visual Concept:** "Denied" stamp as spotlight.
+
+### FG-004 — Default = Opportunity ⚪⏳🔑
+
+- ⚖️ **Core Message:** Default creates openings.
+- 📖 **Lesson Content:** Procedural cracks can be preserved.
+- ✏️ **Assignment:** Turn default into due-process objection.
+- ✅ **Model Response:** "Default preserved as opportunity to assert due process failure."
+- 💡 **Reflection Summary:** What’s missing can be entry.
+- 🎨 **Visual Concept:** Empty docket line as doorway.
+
+### FG-005 — Efficiency = Excuse ⚪⏱️🪞
+
+- ⚖️ **Core Message:** Speed is not justice.
+- 📖 **Lesson Content:** Name efficiency when it erases substance.
+- ✏️ **Assignment:** Object to efficiency as avoidance.
+- ✅ **Model Response:** "Efficiency rationale preserved as excuse for due process denial."
+- 💡 **Reflection Summary:** Pace ≠ fairness.
+- 🎨 **Visual Concept:** Stopwatch over buried filings.
+
+### FG-006 — Closure = Illusion ⚪🚪🎭
+
+- ⚖️ **Core Message:** Closure is theater, not truth.
+- 📖 **Lesson Content:** Preserve the unresolved reality.
+- ✏️ **Assignment:** Memorialize the attempted ending.
+- ✅ **Model Response:** "Closure preserved as illusion masking unresolved claim."
+- 💡 **Reflection Summary:** Curtain falls, story continues.
+- 🎨 **Visual Concept:** Door closing; papers still moving.
+
+### FG-007 — Filing = Presence ⚪📄👤
+
+- ⚖️ **Core Message:** Filing makes you present.
+- 📖 **Lesson Content:** With filing, your voice persists.
+- ✏️ **Assignment:** Assert presence through filing.
+- ✅ **Model Response:** "This filing preserved as proof of my presence in the record."
+- 💡 **Reflection Summary:** Filing is embodiment.
+- 🎨 **Visual Concept:** Silhouette made of briefs.
+`;
+
+/* -------------------- Helpers -------------------- */
+const $ = s=>document.querySelector(s);
+const el = (tag, attrs={}, ...kids) => {
+const n = document.createElement(tag);
+for (const [k,v] of Object.entries(attrs)){
+if (k==='class') n.className=v;
+else if (k==='html') n.innerHTML=v;
+else if (k.startsWith('on')) n.addEventListener(k.slice(2), v);
+else n.setAttribute(k,v);
+}
+for (const kid of kids){ if (kid==null) continue; n.append(kid.nodeType?kid:document.createTextNode(kid)); }
+return n;
+};
+const toVol = fg => Math.max(1, Math.ceil(Number(fg)/50));
+const subjectFromTitle = t => (t.split('=')[0]||t).replace(/[#*`~\s—-]/g,' ').trim().split(' ')[0]||'';
+const save = () => localStorage.setItem('lcfg45_advanced', JSON.stringify({cards:state.cards}));
+const load = () => { try{ const j = JSON.parse(localStorage.getItem('lcfg45_advanced')||'null'); if (j?.cards?.length){ state.cards=j.cards; return true; } }catch(*){ } return false; };
+const download = (name, text, mime='text/plain') => { const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([text],{type:mime})); a.download=name; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),500); };
+const clip = async (t)=>{ try{ await navigator.clipboard.writeText(t); toast('Copied'); }catch(*){ alert('Copied text length: '+t.length); } }
+const toast = (msg) => { const t=el('div',{style:`position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#0f1725;border:1px solid #2a3241;padding:.5rem .7rem;border-radius:9px;z-index:999`},msg); document.body.append(t); setTimeout(()=>t.remove(),1300); };
+
+/* -------------------- Markdown Parser -------------------- */
+function parseCards(md){
+const lines = md.replace(/\r/g,'').split('\n');
+const cards = [];
+let cur=null, buf=[];
+const push = () => {
+if(!cur) return;
+const chunk = buf.join('\n').trim();
+const card = harvest(cur, chunk);
+cards.push(card); cur=null; buf=[];
+};
+for (const line of lines){
+const m = line.match(/^#{2,3}\s*FG-?(\d{1,4})\s*[—-]\s*(.+)$/i);
+if (m){ if (cur) push(); cur = { fg:Number(m[1]), title:m[2].trim() }; }
+else if (cur){ buf.push(line); }
+}
+if (cur) push();
+return cards;
+}
+function harvest(h, chunk){
+const find = (name) => {
+const re = new RegExp(`^\\\\s*[-*]\\\\s.*?\\\\*\\\\*${name}\\\\*\\\\*\\\\s*:\\\\s*(.+)$`,'im');
+const m = chunk.match(re); return m? m[1].trim(): '';
+};
+const f = {
+core: find('Core Message'),
+lesson: find('Lesson Content'),
+assign: find('Assignment'),
+model: find('Model Response'),
+reflect: find('Reflection Summary'),
+visual: find('Visual Concept')
+};
+const subject = subjectFromTitle(h.title);
+const vol = toVol(h.fg);
+const text = [h.title, f.core, f.lesson, f.assign, f.model, f.reflect, f.visual].join('\n').toLowerCase();
+return {
+id: 'FG-'+String(h.fg).padStart(3,'0'),
+fg: Number(h.fg), volume: vol, title: h.title, subject,
+fields: f, text
+};
+}
+
+/* -------------------- Render -------------------- */
+function renderVolumesOptions(){
+const sel = $('#vol'); sel.innerHTML = `<option value="">All Volumes</option>`;
+for(let i=1;i<=20;i++){ const o = el('option',{}, 'Vol '+i); o.value = ''+i; sel.append(o); }
+}
+function render(){
+const grid = $('#grid'); grid.innerHTML='';
+const stats = $('#stats');
+const {q, vol, subject} = state.filters;
+const show = state.filters.show;
+let list = state.cards;
+
+if (q){
+const needle = q.toLowerCase();
+list = list.filter(c => c.text.includes(needle) || c.id.toLowerCase().includes(needle));
+}
+if (vol) list = list.filter(c => String(c.volume) === vol);
+if (subject) list = list.filter(c => c.subject.toLowerCase() === subject.toLowerCase());
+
+stats.textContent = `Showing ${list.length} of ${state.cards.length} cards • Selected: ${state.selection.size}`;
+list.forEach(card => grid.append(renderCard(card, show)));
+}
+function renderCard(card, show){
+const c = el('div', {class:'card', 'data-id':card.id});
+const checked = state.selection.has([card.id](http://card.id/));
+c.append(
+el('input', {type:'checkbox', checked, onchange:(e)=>toggleSelect([card.id](http://card.id/),e.target.checked)}),
+el('div', {class:'meta'},
+el('span', {class:'pill'}, [card.id](http://card.id/)),
+el('span', {class:'pill'}, 'Vol '+card.volume),
+el('span', {class:'pill'}, card.subject||'—'),
+),
+el('h3', {}, card.title)
+);
+const body = el('div', {class:'body'});
+const addSec = (name, val) => {
+if (!val || !show[name]) return;
+const titleMap = {core:'Core Message', lesson:'Lesson', assign:'Assignment', model:'Model Response', reflect:'Reflection'};
+body.append(el('section', {}, el('h4', {}, titleMap[name]), el('div', {}, val)));
+};
+addSec('core', card.fields.core);
+addSec('lesson', card.fields.lesson);
+addSec('assign', card.fields.assign);
+addSec('model', card.fields.model);
+addSec('reflect', card.fields.reflect);
+
+const row = el('div', {class:'row-btns'},
+el('button', {class:'btn', onclick:()=>copyLine(card.fields.model || '')}, 'Copy Model'),
+el('button', {class:'btn', onclick:()=>copyLine(card.fields.assign || '')}, 'Copy Assignment'),
+el('button', {class:'btn', onclick:()=>copyCard(card)}, 'Copy Card'),
+);
+c.append(body, row);
+return c;
+}
+function copyLine(text){ if (!text) return toast('Nothing to copy'); clip(text); }
+function copyCard(card){
+const t = `${card.id} — ${card.title} Core: ${card.fields.core||''} Lesson: ${card.fields.lesson||''} Assignment: ${card.fields.assign||''} Model: ${card.fields.model||''} Reflection: ${card.fields.reflect||''}`;
+clip(t);
+}
+
+/* -------------------- Selection & Bundle -------------------- */
+function toggleSelect(id, on){ if (on) state.selection.add(id); else state.selection.delete(id); render(); }
+function getSelected(){ const ids=[...state.selection]; return state.cards.filter(c => ids.includes([c.id](http://c.id/))).sort((a,b)=>a.fg-b.fg); }
+function buildBundle(mode){
+const sel = getSelected();
+if (!sel.length){ $('#bundleOut').value=''; return toast('No cards selected'); }
+const now = new Date().toLocaleString();
+let txt = `LCFG 4.5 Advanced Bundle • ${mode.toUpperCase()} • ${now}\\n\\n`;
+if (mode==='hearing'){
+txt += `=== Hearing Outline (${sel.length} cards) ===\\n`;
+sel.forEach((c,i)=>{ txt += `${i+1}. ${c.id} — ${c.title}\\n   • Core: ${c.fields.core}\\n   • Line: ${c.fields.model}\\n${c.fields.assign?`   • Assignment: ${c.fields.assign}\n`:''}\\n`; });
+} else if (mode==='motion'){
+txt += `=== Motion Draft (${sel.length} cards) ===\\nINTRODUCTION\\nThis motion preserves the following issues via the record.\\n\\nISSUES PRESERVED\\n`;
+sel.forEach((c,i)=>{ txt += `${i+1}) ${c.id} — ${c.title}\\n- Preservation Line: ${c.fields.model}\\n- Support: ${c.fields.lesson}\\n\\n`; });
+txt += `PRAYER FOR RELIEF\\nMovant requests the Court to address each preserved issue or explain the silence on the record.\\n`;
+} else {
+txt += `=== Appeal Points (${sel.length} cards) ===\\nSTANDARD OF REVIEW\\nPreservation shown by filed record below.\\n\\nARGUMENT SUMMARY\\n`;
+sel.forEach((c,i)=>{ txt += `Point ${i+1}: ${c.id} — ${c.title}\\n   Preserved: ${c.fields.model}\\n   Record Context: ${c.fields.lesson}\\n\\n`; });
+txt += `CONCLUSION\\nAppellant respectfully requests reversal or remand consistent with the preserved record.\\n`;
+}
+$('#bundleOut').value = txt;
+}
+
+/* -------------------- Filters & Events -------------------- */
+function setFilter(){
+state.filters.q = $('#q').value.trim();
+state.filters.vol = $('#vol').value;
+state.filters.subject = $('#subject').value;
+state.filters.show = {
+core: +$('#chkCore').checked, lesson:+$('#chkLesson').checked, assign:+$('#chkAssign').checked,
+model:+$('#chkModel').checked, reflect:+$('#chkReflect').checked
+};
+render();
+}
+function exportJSON(){
+const data = { updated: new Date().toISOString(), count: state.cards.length, cards: state.cards };
+download('LCFG-4.5-Advanced.json', JSON.stringify(data,null,2), 'application/json');
+}
+function exportBundleTxt(){
+const t = $('#bundleOut').value || '';
+if (!t.trim()) return toast('Nothing to download');
+download('LCFG-4.5-Advanced-bundle.txt', t, 'text/plain');
+}
+
+/* -------------------- Self-Contained Export -------------------- */
+function exportSelfContained(){
+if (!state.cards.length) return alert('No deck loaded yet. Import your Markdown first.');
+const deck = { updated:new Date().toISOString(), cards: state.cards };
+const json = JSON.stringify(deck).replace(/<\/script>/gi,'<\\/script>');
+const payload = `<script id="embeddedDeck" type="application/json">${json}</script>`;
+// Clone current document HTML and inject embedded deck before </body>
+const html = document.documentElement.outerHTML.replace('</body>', payload + '\n</body>');
+download('LCFG-4.5-Advanced-embedded.html', html, 'text/html');
+}
+
+/* -------------------- Import MD -------------------- */
+function doParseReplace(text, append=false){
+const cards = parseCards(text);
+if (!cards.length){ alert('No cards detected. Ensure headings like "### FG-123 — Title" and labeled bullets exist.'); return; }
+state.cards = append ? dedupe([...state.cards, ...cards]) : cards;
+save(); state.selection.clear(); render(); toast(`Loaded ${cards.length} cards`);
+}
+function dedupe(arr){ const m=new Map(); for (const c of arr) m.set([c.id](http://c.id/),c); return [...m.values()].sort((a,b)=>a.fg-b.fg); }
+
+/* -------------------- Init -------------------- */
+function init(){
+// Populate volume options
+const sel = $('#vol'); sel.innerHTML = `<option value="">All Volumes</option>`; for(let i=1;i<=20;i++){ const o=document.createElement('option'); o.value=''+i; o.textContent='Vol '+i; sel.append(o); }
+
+// Load deck: embedded > localStorage > seed
+if (!state.cards.length){
+if (!load()){
+state.cards = parseCards(seedMD);
+save();
+}
+}
+render();
+
+// Events
+$('#q').addEventListener('input', setFilter);
+$('#vol').addEventListener('change', setFilter);
+$('#subject').addEventListener('change', setFilter);
+['#chkCore','#chkLesson','#chkAssign','#chkModel','#chkReflect'].forEach(s=>$(s).addEventListener('change', setFilter));
+$('#btnClear').addEventListener('click', ()=>{
+$('#q').value=''; $('#vol').value=''; $('#subject').value='';
+['#chkCore','#chkLesson','#chkAssign','#chkModel','#chkReflect'].forEach(s=>$(s).checked=true);
+setFilter();
+});
+
+// Import modal
+$('#btnImport').addEventListener('click', ()=>$('#modal').classList.add('active'));
+$('#xModal').addEventListener('click', ()=>$('#modal').classList.remove('active'));
+$('#doImport').addEventListener('click', ()=>doParseReplace($('#md').value, false));
+$('#doAppend').addEventListener('click', ()=>doParseReplace($('#md').value, true));
+$('#file').addEventListener('change', (e)=>{
+const f = e.target.files[0]; if (!f) return;
+const r = new FileReader(); r.onload = () => { $('#md').value = r.result; }; r.readAsText(f);
+});
+
+// Exporters
+$('#btnExport').addEventListener('click', exportJSON);
+$('#btnSelf').addEventListener('click', exportSelfContained);
+
+// Bundle tools
+$('#btnBundle').addEventListener('click', ()=>buildBundle($('#bundleMode').value));
+$('#btnBuild').addEventListener('click', ()=>buildBundle($('#bundleMode').value));
+$('#btnCopyBundle').addEventListener('click', ()=>clip($('#bundleOut').value||''));
+$('#btnDownloadBundle').addEventListener('click', exportBundleTxt);
+$('#btnCopyModels').addEventListener('click', ()=>{
+const lines = getSelected().map(c=>`${c.id}: ${c.fields.model}`).filter(Boolean).join('\n');
+if (!lines) return toast('No models in selection'); clip(lines);
+});
+$('#btnCopyAssignments').addEventListener('click', ()=>{
+const lines = getSelected().map(c=>`${c.id}: ${c.fields.assign}`).filter(Boolean).join('\n');
+if (!lines) return toast('No assignments in selection'); clip(lines);
+});
+$('#btnClearSel').addEventListener('click', ()=>{ state.selection.clear(); render(); });
+$('#btnPrint').addEventListener('click', ()=>window.print());
+$('#btnHelp').addEventListener('click', ()=>{
+alert(`LCFG 4.5 Advanced — Tips • Import: Paste your full Markdown (FG 1–1000). Labels: Core / Lesson / Assignment / Model / Reflection. • Search & Filter: text, volume, subject. Toggle visibility of fields. • Selection: click checkboxes. Build a Bundle (Hearing, Motion, Appeal), then Copy / Download / Print. • Export JSON: snapshot of your deck. • Export Self-Contained HTML: creates a new .html with your full deck embedded for instant offline use.`);
+});
+
+// Keyboard shortcuts
+window.addEventListener('keydown', (e)=>{
+if ((e.ctrlKey||e.metaKey) && e.key.toLowerCase()==='k'){ e.preventDefault(); $('#q').focus(); $('#q').select(); }
+if ((e.ctrlKey||e.metaKey) && e.key.toLowerCase()==='a'){ e.preventDefault(); state.selection = new Set(state.cards.map(c=>[c.id](http://c.id/))); render(); }
+});
+}
+init();
+</script>
+</body>
+</html>
+
+If you want, I can also produce a pre-baked file right here with a subset of your modules inlined as a demo (e.g., Vols 1–2), and you can swap in the full FG via Import → Export Self-Contained in one move.

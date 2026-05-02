@@ -1,0 +1,1439 @@
+/Field_Guide/
+  /docs/
+    dataset.json              # <-- full cards dataset (cards[1..1000])
+    /blocks_b20/              # <-- auto-generated
+      B20_01_FG0001-0020.md
+      B20_01_FG0001-0020.json
+      ...
+      B20_50_FG0981-1000.md
+      B20_50_FG0981-1000.json
+      README.md
+    blocks_b20_index.json     # manifest (all 50)
+  /tools/
+    build_blocks_b20.py       # <-- new, safe builder (below)
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Builds 50 Module-B blocks (20 cards each) from a single dataset.json.
+Safe: read-only input; writes to docs/blocks_b20/ and a manifest.
+
+Usage:
+  python3 tools/build_blocks_b20.py docs/dataset.json
+  # or just: python3 tools/build_blocks_b20.py   (auto-probe)
+
+dataset.json schema (minimum):
+{
+  "cards": [
+    { "id": 1, "title": "...", "core": "...", "lesson": "...",
+      "assignment": "...", "model": "...", "reflection": "...", "visual": "..." },
+    ...
+  ]
+}
+"""
+import json, os, sys, math, re
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_INPUTS = [
+    ROOT / "docs" / "dataset.json",
+    ROOT / "dataset.json",
+]
+
+OUT_DIR = ROOT / "docs" / "blocks_b20"
+MANIFEST = ROOT / "docs" / "blocks_b20_index.json"
+
+BLOCK_SIZE = 20  # 50 blocks × 20 cards = 1000
+
+def one_line(s):
+    return re.sub(r"\s+", " ", (s or "").strip())
+
+def load_dataset(path=None):
+    cand = [Path(path)] if path else DEFAULT_INPUTS
+    for p in cand:
+        if p.exists():
+            with p.open("r", encoding="utf-8") as f:
+                obj = json.load(f)
+            if not isinstance(obj, dict) or "cards" not in obj:
+                raise ValueError(f"{p} is missing a top-level 'cards' array.")
+            return obj, p
+    raise FileNotFoundError("dataset.json not found. Tried: " + ", ".join(map(str, cand)))
+
+def normalize_cards(cards):
+    out = []
+    seen = set()
+    dups = set()
+    for c in cards:
+        try:
+            cid = int(c.get("id"))
+        except Exception:
+            continue
+        if cid in seen:
+            dups.add(cid)
+            continue
+        seen.add(cid)
+        out.append({
+            "id": cid,
+            "title": c.get("title","").strip(),
+            "core": c.get("core",""),
+            "lesson": c.get("lesson",""),
+            "assignment": c.get("assignment",""),
+            "model": c.get("model",""),
+            "reflection": c.get("reflection",""),
+            "visual": c.get("visual",""),
+        })
+    out.sort(key=lambda x: x["id"])
+    return out, sorted(dups)
+
+def write_block_files(block_num, chunk, out_dir):
+    first_id = chunk[0]["id"]; last_id = chunk[-1]["id"]
+    bnum = f"{block_num:02d}"
+    base = f"B20_{bnum}_FG{first_id:04d}-{last_id:04d}"
+
+    # Markdown (compact, print-friendly)
+    md_lines = [f"# Module B — Pack {bnum} (FG {first_id:04d}–{last_id:04d})\n"]
+    for c in chunk:
+        cid = c["id"]
+        md_lines += [
+            f"## FG-{cid:04d} — {one_line(c['title'])}",
+            f"- ⚖️ Core: {one_line(c['core'])}",
+            f"- 📖 Lesson: {one_line(c['lesson'])}",
+            f"- ✏️ Assignment: {one_line(c['assignment'])}",
+            f"- ✅ Model: {one_line(c['model'])}",
+            f"- 💡 Reflection: {one_line(c['reflection'])}",
+            f"- 🎨 Visual: {one_line(c['visual'])}",
+            ""
+        ]
+    md_text = "\n".join(md_lines).strip() + "\n"
+    (out_dir / f"{base}.md").write_text(md_text, encoding="utf-8")
+
+    # JSON (for app Study Mode / Tracks)
+    j_obj = {
+        "kind": "LCFG.block.v1",
+        "id": f"B20-{bnum}",
+        "range": [first_id, last_id],
+        "cards": chunk
+    }
+    (out_dir / f"{base}.json").write_text(json.dumps(j_obj, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    return {
+        "id": f"B20-{bnum}",
+        "range": [first_id, last_id],
+        "md": str((out_dir / f"{base}.md").relative_to(ROOT)),
+        "json": str((out_dir / f"{base}.json").relative_to(ROOT)),
+    }
+
+def main():
+    # 0) input
+    path = sys.argv[1] if len(sys.argv) > 1 else None
+    data, used = load_dataset(path)
+
+    # 1) normalize + sanity checks
+    cards, dups = normalize_cards(data.get("cards", []))
+    if not cards:
+        raise SystemExit("No cards found in dataset.")
+    first, last = cards[0]["id"], cards[-1]["id"]
+
+    missing = []
+    if last >= 1000:
+        want = set(range(1, 1001))
+        have = set(c["id"] for c in cards)
+        missing = sorted(list(want - have))
+
+    # Log warnings, but still proceed with what we have
+    print(f"[info] input: {used}")
+    print(f"[info] cards: {len(cards)} (first={first}, last={last})")
+    if dups:
+        print(f"[warn] duplicate ids skipped: {dups[:10]}{' …' if len(dups)>10 else ''}")
+    if missing:
+        print(f"[warn] missing ids (sample): {missing[:10]}{' …' if len(missing)>10 else ''}")
+
+    # 2) build blocks
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    blocks = []
+    total = len(cards)
+    block_count = math.ceil(total / BLOCK_SIZE)
+
+    for i in range(block_count):
+        start = i * BLOCK_SIZE
+        end = min(start + BLOCK_SIZE, total)
+        chunk = cards[start:end]
+        blocks.append(write_block_files(i+1, chunk, OUT_DIR))
+
+    # 3) manifest + readme
+    manifest = {
+        "kind": "LCFG.blocks.v1",
+        "source": str(used.relative_to(ROOT)),
+        "generatedAt": __import__("datetime").datetime.utcnow().isoformat() + "Z",
+        "block_size": BLOCK_SIZE,
+        "total_cards": total,
+        "blocks": blocks
+    }
+    MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    readme = [
+        "# Module-B Blocks (20-card packs)",
+        "",
+        f"- Source dataset: `{manifest['source']}`",
+        f"- Total cards: {total}",
+        f"- Block size: {BLOCK_SIZE}",
+        f"- Blocks: {len(blocks)}",
+        "",
+        "Each pack includes compact Core / Lesson / Assignment / Model / Reflection / Visual.",
+    ]
+    (OUT_DIR / "README.md").write_text("\n".join(readme) + "\n", encoding="utf-8")
+
+    print(f"[ok] module-B blocks → {OUT_DIR} (count: {len(blocks)})")
+    print(f"[ok] manifest → {MANIFEST}")
+
+if __name__ == "__main__":
+    main()
+# from repo root
+python3 tools/build_blocks_b20.py docs/dataset.json
+# (or just) python3 tools/build_blocks_b20.py
+[ok] module-B blocks → docs/blocks_b20 (count: 50)
+[ok] manifest → docs/blocks_b20_index.json
+git add docs/blocks_b20 docs/blocks_b20_index.json tools/build_blocks_b20.py
+git commit -m "feat(blocks-b20): add 50 Module-B study packs + manifest"
+git push
+// after renderFilters(); renderBundle(); renderTracks(); applyFilters();
+tryFetchB20Tracks();
+async function tryFetchB20Tracks(){
+  try{
+    const r = await fetch('docs/blocks_b20_index.json', {cache:'no-store'});
+    if(!r.ok) return;
+    const idx = await r.json();
+    idx.blocks.forEach(b=>{
+      const name = `B20 ${b.id} (FG ${String(b.range[0]).padStart(4,'0')}-${String(b.range[1]).padStart(4,'0')})`;
+      state.tracks[name] = { kind:'track.block.v1', href:b.json };
+    });
+    saveAll(); renderTracks();
+  }catch(e){ /* silent */ }
+}
+name: build-b20
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: python3 tools/build_blocks_b20.py docs/dataset.json
+      - run: git diff --quiet || (echo "Blocks changed; commit them." && exit 1)
+const LS = {
+  cards:'lcfg_cards_v45_unified_lces_v1',
+  bundle:'lcfg_bundle_v45_unified_lces_v1',
+  selected:'lcfg_selected_v45_unified_lces_v1',
+  tracks:'lcfg_tracks_v45_unified_lces_v1'
+};
+/Field_Guide/
+  /docs/
+    dataset.json              # full 1–1000 cards (you generate this once)
+    /blocks_b20/              # auto-generated (50 packs × 20 cards)
+  /tools/
+    md_to_dataset.py          # FG_master.md → docs/dataset.json
+    build_blocks_b20.py       # dataset.json → 50 Module-B packs
+    validate_dataset.py       # sanity checks (ids, coverage, empties)
+Makefile                      # convenience targets
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Parse a normalized FG master Markdown into dataset.json
+Input expects headers like:
+### FG-0001 — Filing = Existence
+- ⚖️ **Core Message:** ...
+- 📖 **Lesson Content:** ...
+- ✏️ **Assignment:** ...
+- ✅ **Model Response:** ...
+- 💡 **Reflection Summary:** ...
+- 🎨 **Visual Concept:** Illustrative: ... | Conceptual: ...
+
+Usage:
+  python3 tools/md_to_dataset.py FG_master.normalized.md  # or FG_master.md
+  # writes docs/dataset.json
+"""
+import re, json, sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / "docs" / "dataset.json"
+
+HEAD_RE = re.compile(r"^###\s*FG-?(\d{1,4})\s*—\s*(.+?)\s*$")
+SEC_RE = {
+    "core": re.compile(r"⚖️\s*\*\*Core Message:\*\*\s*(.+)", re.I),
+    "lesson": re.compile(r"📖\s*\*\*Lesson Content:\*\*\s*(.+)", re.I),
+    "assignment": re.compile(r"✏️\s*\*\*Assignment:\*\*\s*(.+)", re.I),
+    "model": re.compile(r"✅\s*\*\*Model Response:\*\*\s*(.+)", re.I),
+    "reflection": re.compile(r"💡\s*\*\*Reflection Summary:\*\*\s*(.+)", re.I),
+    "visual": re.compile(r"🎨\s*\*\*Visual Concept:\*\*\s*(.+)", re.I),
+}
+
+def clean(s): return re.sub(r"\s+", " ", (s or "").strip())
+
+def parse(md_text:str):
+    cards = []
+    blocks = re.split(r"\n(?=###\s*FG-?\d+\s*—)", md_text)
+    for block in blocks:
+        lines = [l.rstrip() for l in block.strip().splitlines() if l.strip()]
+        if not lines: continue
+        m = HEAD_RE.match(lines[0])
+        if not m: continue
+        cid = int(m.group(1))
+        title = clean(m.group(2))
+
+        # one-line capture for each section; tolerant to bullet prefixes
+        sec = {k:"" for k in SEC_RE}
+        for ln in lines[1:]:
+            for key, rx in SEC_RE.items():
+                mm = rx.search(ln)
+                if mm:
+                    sec[key] = clean(mm.group(1))
+        cards.append({
+            "id": cid, "title": title,
+            "core": sec["core"], "lesson": sec["lesson"],
+            "assignment": sec["assignment"], "model": sec["model"],
+            "reflection": sec["reflection"], "visual": sec["visual"],
+        })
+    cards.sort(key=lambda x: x["id"])
+    return {"cards": cards}
+
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python3 tools/md_to_dataset.py FG_master.md")
+        sys.exit(2)
+    src = Path(sys.argv[1]).resolve()
+    if not src.exists():
+        print(f"Not found: {src}")
+        sys.exit(2)
+    out = parse(src.read_text(encoding="utf-8"))
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[ok] dataset → {OUT} ({len(out['cards'])} cards)")
+
+if __name__ == "__main__":
+    main()
+python3 tools/md_to_dataset.py FG_master.normalized.md
+#!/usr/bin/env python3
+import json, sys
+from pathlib import Path
+
+def main(path):
+    p = Path(path)
+    obj = json.loads(p.read_text(encoding="utf-8"))
+    cards = obj.get("cards", [])
+    ids = [c.get("id") for c in cards if isinstance(c.get("id"), int)]
+    bad_ids = [i for i in ids if not (1 <= i <= 1000)]
+    dup_ids = sorted(set([i for i in ids if ids.count(i) > 1]))
+    missing = sorted(set(range(1,1001)) - set(ids))
+    empties = []
+    for c in cards:
+        empty_fields = [k for k in ("title","core","lesson","assignment","model","reflection")
+                        if not str(c.get(k,"")).strip()]
+        if empty_fields:
+            empties.append((c["id"], empty_fields))
+
+    print(f"[info] cards={len(cards)}")
+    if bad_ids: print(f"[warn] out-of-range ids: {bad_ids[:10]}{' …' if len(bad_ids)>10 else ''}")
+    if dup_ids: print(f"[warn] duplicate ids: {dup_ids[:10]}{' …' if len(dup_ids)>10 else ''}")
+    if missing: print(f"[warn] missing ids: {missing[:20]}{' …' if len(missing)>20 else ''}")
+    if empties:
+        sample = ', '.join([f"{i}:{'/'.join(fs)}" for i,fs in empties[:10]])
+        print(f"[warn] empty sections (sample): {sample}{' …' if len(empties)>10 else ''}")
+
+    ok = not(bad_ids or dup_ids)
+    print("[ok]" if ok else "[fail]") 
+    return 0 if ok else 1
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1] if len(sys.argv)>1 else "docs/dataset.json"))
+python3 tools/validate_dataset.py docs/dataset.json
+DATA=docs/dataset.json
+MASTER=FG_master.normalized.md
+
+.PHONY: dataset validate blocks all
+dataset:
+	python3 tools/md_to_dataset.py $(MASTER)
+
+validate:
+	python3 tools/validate_dataset.py $(DATA)
+
+blocks:
+	python3 tools/build_blocks_b20.py $(DATA)
+
+all: dataset validate blocks
+make all
+# generated packs
+/docs/blocks_b20/*.md
+/docs/blocks_b20/*.json
+# keep the folder & readme
+!/docs/blocks_b20/
+!/docs/blocks_b20/README.md
+const LS = {
+  cards:'lcfg_cards_v45_unified_lces_v1',
+  bundle:'lcfg_bundle_v45_unified_lces_v1',
+  selected:'lcfg_selected_v45_unified_lces_v1',
+  tracks:'lcfg_tracks_v45_unified_lces_v1'
+};
+async function tryFetchB20Tracks(){
+  try{
+    const r = await fetch('docs/blocks_b20_index.json', {cache:'no-store'});
+    if(!r.ok) return;
+    const idx = await r.json();
+    idx.blocks.forEach(b=>{
+      const name = `B20 ${b.id} (FG ${String(b.range[0]).padStart(4,'0')}-${String(b.range[1]).padStart(4,'0')})`;
+      state.tracks[name] = { kind:'track.block.v1', href:b.json };
+    });
+    saveAll(); renderTracks();
+  }catch(e){}
+}
+tryFetchB20Tracks();
+# 0) ensure FG_master.normalized.md matches your template
+python3 tools/md_to_dataset.py FG_master.normalized.md
+python3 tools/validate_dataset.py docs/dataset.json
+python3 tools/build_blocks_b20.py docs/dataset.json
+
+git add docs/dataset.json docs/blocks_b20 docs/blocks_b20_index.json tools/*.py Makefile
+git commit -m "dataset + 50 Module-B packs (LCES)"
+git push
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Build 50 Module-B packs (20 cards each) from docs/dataset.json
+
+Usage:
+  python3 tools/build_blocks_b20.py docs/dataset.json
+Outputs:
+  docs/blocks_b20/B20_01_0001-0020.json
+  docs/blocks_b20/B20_01_0001-0020.md
+  ...
+  docs/blocks_b20_index.json
+"""
+import json, sys, math, datetime
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT_DIR = ROOT / "docs" / "blocks_b20"
+INDEX = ROOT / "docs" / "blocks_b20_index.json"
+
+MD_HEADER = "# Module-B Pack {n:02d} — FG {start:04d}–{end:04d}\n\n"
+
+def md_card(c):
+    pad = str(c["id"]).zfill(4)
+    t = c.get("title","").strip()
+    core = c.get("core","").strip()
+    lesson = c.get("lesson","").strip()
+    assignment = c.get("assignment","").strip()
+    model = c.get("model","").strip()
+    reflection = c.get("reflection","").strip()
+    visual = c.get("visual","").strip()
+    return (
+f"""### FG-{pad} — {t}
+- ⚖️ **Core Message:** {core}
+- 📖 **Lesson Content:** {lesson}
+- ✏️ **Assignment:** {assignment}
+- ✅ **Model Response:** {model}
+- 💡 **Reflection Summary:** {reflection}
+- 🎨 **Visual Concept:** {visual}
+
+"""
+    )
+
+def main(path):
+    src = Path(path).resolve()
+    if not src.exists():
+        print(f"Not found: {src}")
+        sys.exit(2)
+
+    data = json.loads(src.read_text(encoding="utf-8"))
+    cards = data.get("cards", [])
+    cards = [c for c in cards if isinstance(c.get("id"), int)]
+    cards.sort(key=lambda x: x["id"])
+
+    # Build id map for quick lookup
+    idmap = {c["id"]: c for c in cards}
+    generated = datetime.datetime.utcnow().isoformat() + "Z"
+
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    blocks = []
+    # 50 blocks, ranges [1..20], [21..40], ... [981..1000]
+    for n in range(1, 51):
+        start = (n - 1) * 20 + 1
+        end = n * 20
+        ids_in_range = list(range(start, end + 1))
+        present = [idmap[i] for i in ids_in_range if i in idmap]
+        missing = [i for i in ids_in_range if i not in idmap]
+
+        base = f"B20_{n:02d}_{start:04d}-{end:04d}"
+        jpath = OUT_DIR / f"{base}.json"
+        mpath = OUT_DIR / f"{base}.md"
+
+        payload = {
+            "kind": "LCFG.block.b20.v1",
+            "pack": n,
+            "range": [start, end],
+            "count": len(present),
+            "ids": [c["id"] for c in present],
+            "missing": missing,
+            "generatedAt": generated,
+            "cards": present
+        }
+        jpath.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+        md = [MD_HEADER.format(n=n, start=start, end=end)]
+        for c in present:
+            md.append(md_card(c))
+        # If there are missing ids, note them at the bottom for visibility
+        if missing:
+            md.append("## Missing IDs in this range\n\n")
+            md.append(", ".join([f"FG-{i:04d}" for i in missing]) + "\n")
+        mpath.write_text("".join(md), encoding="utf-8")
+
+        blocks.append({
+            "id": n,
+            "range": [start, end],
+            "json": f"docs/blocks_b20/{base}.json",
+            "md": f"docs/blocks_b20/{base}.md",
+            "count": len(present),
+            "missing": missing,
+        })
+
+    INDEX.write_text(json.dumps({
+        "kind": "LCFG.blocks.b20.index.v1",
+        "generatedAt": generated,
+        "totalBlocks": len(blocks),
+        "blocks": blocks
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    print(f"[ok] wrote {len(blocks)} packs → {OUT_DIR}")
+    print(f"[ok] index → {INDEX}")
+
+if __name__ == "__main__":
+    p = sys.argv[1] if len(sys.argv) > 1 else (ROOT / "docs" / "dataset.json")
+    main(p)
+# Module-B Packs (20-card blocks)
+
+Auto-generated by `tools/build_blocks_b20.py` from `docs/dataset.json`.
+
+- **Index:** `docs/blocks_b20_index.json`
+- **Each pack:** `B20_##_####-####.json` + `B20_##_####-####.md`
+- Missing IDs within any 20-range are reported in both JSON (`missing`) and MD footers.
+<script>
+// fetch dataset.json if nothing is in local storage
+async function tryFetchDataset() {
+  if (state.cards.length > 0) return;
+  try {
+    const r = await fetch('docs/dataset.json', { cache: 'no-store' });
+    if (!r.ok) return;
+    const obj = await r.json();
+    if (obj.cards?.length) {
+      state.cards = normalizeCards(obj.cards);
+      saveAll(); applyFilters(); renderBundle(); renderTracks();
+      toast(`Loaded ${state.cards.length} cards from dataset.json`);
+    }
+  } catch (e) {}
+}
+
+// fetch tracks from blocks_b20_index.json
+async function tryFetchB20Tracks(){
+  try{
+    const r = await fetch('docs/blocks_b20_index.json', {cache:'no-store'});
+    if(!r.ok) return;
+    const idx = await r.json();
+    (idx.blocks||[]).forEach(b=>{
+      const name = `B20 ${b.id} (FG ${String(b.range[0]).padStart(4,'0')}-${String(b.range[1]).padStart(4,'0')})`;
+      state.tracks[name] = { kind:'track.block.v1', href:b.json };
+    });
+    saveAll(); renderTracks();
+  }catch(e){}
+}
+</script>
+tryFetchDataset();
+tryFetchB20Tracks();
+const LS = {
+  cards:'lcfg_cards_v45_unified_lces_v1',
+  bundle:'lcfg_bundle_v45_unified_lces_v1',
+  selected:'lcfg_selected_v45_unified_lces_v1',
+  tracks:'lcfg_tracks_v45_unified_lces_v1'
+};
+# Generate dataset.json from your normalized FG markdown
+python3 tools/md_to_dataset.py FG_master.normalized.md
+
+# Sanity checks (ids, duplicates, empties)
+python3 tools/validate_dataset.py docs/dataset.json
+
+# Build the 50 x 20-card packs + index
+python3 tools/build_blocks_b20.py docs/dataset.json
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Convert normalized Field Guide Markdown → docs/dataset.json
+
+Input format (per card):
+### FG-0001 — Filing = Existence
+- ⚖️ **Core Message:** ...
+- 📖 **Lesson Content:** ...
+- ✏️ **Assignment:** ...
+- ✅ **Model Response:** ...
+- 💡 **Reflection Summary:** ...
+- 🎨 **Visual Concept:** ...
+
+Usage:
+  python3 tools/md_to_dataset.py FG_master.normalized.md
+Writes:
+  docs/dataset.json
+"""
+import re, json, sys, datetime
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / "docs" / "dataset.json"
+
+H_SPLIT = re.compile(r"\n(?=###\s*FG-?\d+\s*[—-])", re.M)
+H_HEAD  = re.compile(r"^###\s*FG-?(\d+)\s*[—-]\s*(.+?)\s*$", re.M)
+
+def grab(block, label):
+    # tolerate emojis, punctuation, spaces, bold markers
+    # e.g. "- ⚖️ **Core Message:** text"
+    pat = re.compile(
+        rf"{re.escape(label)}\s*:\s*(.*?)(?=\n- |\Z)",
+        re.I | re.S
+    )
+    m = pat.search(block)
+    return (m.group(1).strip() if m else "")
+
+def topic_from_title(title):
+    # e.g. "Filing = Existence" → "Filing"
+    t = (title.split("=")[0] or title).strip()
+    t = re.sub(r"[^A-Za-z ]", "", t).strip() or "Other"
+    # Normalize first token to our app's Topic set when possible
+    first = t.split()[0]
+    return first or "Other"
+
+def card_from_block(block):
+    h = H_HEAD.search(block)
+    if not h: return None
+    cid = int(h.group(1))
+    title = h.group(2).strip()
+
+    # Labels (keep flexible, ignore emojis/bold)
+    core        = grab(block, "**Core Message**")
+    if not core: core = grab(block, "Core Message")
+    lesson      = grab(block, "**Lesson Content**") or grab(block, "Lesson Content")
+    assignment  = grab(block, "**Assignment**")     or grab(block, "Assignment")
+    model       = grab(block, "**Model Response**") or grab(block, "Model Response")
+    reflection  = grab(block, "**Reflection Summary**") or grab(block, "Reflection Summary")
+    visual      = grab(block, "**Visual Concept**") or grab(block, "Visual Concept")
+
+    volume = max(1, (cid + 49) // 50)
+    topic  = topic_from_title(title)
+
+    return {
+        "id": cid,
+        "title": title,
+        "volume": volume,
+        "topic": topic,
+        "core": core,
+        "lesson": lesson,
+        "assignment": assignment,
+        "model": model,
+        "reflection": reflection,
+        "visual": visual,
+        "tags": []
+    }
+
+def main(md_path):
+    src = Path(md_path).resolve()
+    if not src.exists():
+        print(f"Not found: {src}")
+        sys.exit(2)
+
+    md = src.read_text(encoding="utf-8").strip()
+    blocks = H_SPLIT.split(md)
+    cards = []
+    for b in blocks:
+        if not b.strip(): continue
+        c = card_from_block(b)
+        if c: cards.append(c)
+
+    cards.sort(key=lambda x: x["id"])
+
+    payload = {
+        "kind": "LCFG.dataset.v1",
+        "generatedAt": datetime.datetime.utcnow().isoformat() + "Z",
+        "count": len(cards),
+        "cards": cards
+    }
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[ok] wrote {len(cards)} cards → {OUT}")
+
+if __name__ == "__main__":
+    p = sys.argv[1] if len(sys.argv) > 1 else ""
+    if not p:
+        print("Usage: python3 tools/md_to_dataset.py FG_master.normalized.md")
+        sys.exit(1)
+    main(p)
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Validate docs/dataset.json for:
+- duplicate ids
+- missing 1..1000
+- empty core/lesson/assignment/model/reflection/visual
+
+Usage:
+  python3 tools/validate_dataset.py docs/dataset.json
+"""
+import sys, json
+from pathlib import Path
+
+REQUIRED = ["title","core","lesson","assignment","model","reflection","visual"]
+
+def main(path):
+    src = Path(path).resolve()
+    if not src.exists():
+        print(f"Not found: {src}")
+        sys.exit(2)
+
+    data = json.loads(src.read_text(encoding="utf-8"))
+    cards = data.get("cards", [])
+    ids = [c["id"] for c in cards if isinstance(c.get("id"), int)]
+    dup = sorted([i for i in set(ids) if ids.count(i) > 1])
+    allset = set(ids)
+
+    missing = [i for i in range(1, 1001) if i not in allset]
+    empties = []
+    for c in cards:
+        bad = [k for k in REQUIRED if not str(c.get(k,"")).strip()]
+        if bad:
+            empties.append({"id": c["id"], "fields": bad})
+
+    print("== dataset validation ==")
+    print(f" total cards: {len(cards)}")
+    print(f" unique ids:  {len(allset)}")
+    print(f" duplicates:  {len(dup)}", (dup[:10] + (["..."] if len(dup)>10 else [])))
+    print(f" missing 1..1000: {len(missing)}", (missing[:10] + (["..."] if len(missing)>10 else [])))
+    print(f" cards with empty fields: {len(empties)}")
+    if empties:
+        for row in empties[:10]:
+            print(f"  FG-{row['id']:04d} → {', '.join(row['fields'])}")
+        if len(empties) > 10:
+            print("  ...")
+
+    ok = (not dup) and (not missing) and (not empties)
+    print("\nSTATUS:", "OK" if ok else "ATTENTION")
+    sys.exit(0 if ok else 1)
+
+if __name__ == "__main__":
+    p = sys.argv[1] if len(sys.argv) > 1 else "docs/dataset.json"
+    main(p)
+# Makefile – repo root
+
+MD=FG_master.normalized.md
+DATA=docs/dataset.json
+
+.PHONY: all dataset validate blocks clean
+
+all: dataset validate blocks
+
+dataset:
+	python3 tools/md_to_dataset.py $(MD)
+
+validate:
+	python3 tools/validate_dataset.py $(DATA)
+
+blocks:
+	python3 tools/build_blocks_b20.py $(DATA)
+
+clean:
+	rm -rf docs/blocks_b20 docs/blocks_b20_index.json
+const LS = {
+  cards:'lcfg_cards_v45_unified_lces_v1',
+  bundle:'lcfg_bundle_v45_unified_lces_v1',
+  selected:'lcfg_selected_v45_unified_lces_v1',
+  tracks:'lcfg_tracks_v45_unified_lces_v1'
+};
+// Try to fetch a prebaked dataset if local storage is empty
+async function tryFetchDataset() {
+  if (state.cards.length > 0) return;
+  try {
+    const r = await fetch('docs/dataset.json', { cache: 'no-store' });
+    if (!r.ok) return;
+    const obj = await r.json();
+    if (obj.cards?.length) {
+      state.cards = normalizeCards(obj.cards);
+      saveAll(); applyFilters(); renderBundle(); renderTracks();
+      toast(`Loaded ${state.cards.length} cards from dataset.json`);
+    }
+  } catch {}
+}
+
+// Load B20 tracks list → state.tracks
+async function tryFetchB20Tracks() {
+  try{
+    const r = await fetch('docs/blocks_b20_index.json', { cache: 'no-store' });
+    if(!r.ok) return;
+    const idx = await r.json();
+    (idx.blocks||[]).forEach(b=>{
+      const name = `B20 ${String(b.id).padStart(2,'0')} (FG ${String(b.range[0]).padStart(4,'0')}-${String(b.range[1]).padStart(4,'0')})`;
+      state.tracks[name] = { kind:'track.block.v1', href:b.json };
+    });
+    saveAll(); renderTracks();
+  }catch{}
+}
+
+// When user picks a track, load that pack and select/bundle its IDs
+byId('tracksSelect').onchange = async (e)=>{
+  const name = e.target.value;
+  if(!name) return;
+  const href = state.tracks?.[name]?.href;
+  if(!href) return;
+  try{
+    const r = await fetch(href, { cache: 'no-store' });
+    if(!r.ok) return toast('Track fetch failed', true);
+    const pack = await r.json();
+    const ids = pack.ids || [];
+    state.selected = new Set(ids);
+    state.bundle = ids.slice(0);
+    saveAll(); renderBundle(); applyFilters();
+    toast(`Loaded track: ${name} • ${ids.length} cards`);
+  }catch{ toast('Track parse error', true); }
+};
+tryFetchDataset();
+tryFetchB20Tracks();
+# 1) Build dataset from your full normalized FG (1–1000)
+python3 tools/md_to_dataset.py FG_master.normalized.md
+
+# 2) Validate integrity (duplicates / missing / empty fields)
+python3 tools/validate_dataset.py docs/dataset.json
+
+# 3) Pre-bake Module-B packs (50 x 20 cards)
+python3 tools/build_blocks_b20.py docs/dataset.json
+git add tools/*.py docs/dataset.json docs/blocks_b20* Makefile
+git commit -m "LCES: prebaked dataset + 50 Module-B blocks + validators"
+git push
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Build 50 x 20-card Module-B blocks from docs/dataset.json
+
+Usage:
+  python3 tools/build_blocks_b20.py docs/dataset.json
+
+Outputs:
+  docs/blocks_b20/B01.json, B01.md, ... B50.json, B50.md
+  docs/blocks_b20_index.json
+"""
+import json, sys
+from pathlib import Path
+from datetime import datetime
+
+def read_dataset(path):
+    p = Path(path).resolve()
+    if not p.exists():
+        raise SystemExit(f"[!] dataset not found: {p}")
+    data = json.loads(p.read_text(encoding="utf-8"))
+    cards = data.get("cards", [])
+    # normalize & sort by id
+    cards = [c for c in cards if isinstance(c.get("id"), int)]
+    cards.sort(key=lambda c: c["id"])
+    return cards
+
+def block_ranges(total=1000, size=20):
+    blocks = []
+    start = 1
+    bid = 1
+    while start <= total:
+        end = min(total, start + size - 1)
+        blocks.append((bid, start, end))
+        bid += 1
+        start = end + 1
+    return blocks
+
+def ensure_dir(path):
+    Path(path).mkdir(parents=True, exist_ok=True)
+
+def main(dataset_path):
+    root = Path(__file__).resolve().parents[1]
+    out_dir = root / "docs" / "blocks_b20"
+    ensure_dir(out_dir)
+
+    cards = read_dataset(dataset_path)
+    by_id = {c["id"]: c for c in cards}
+    total_ids = sorted(by_id.keys())
+    if not total_ids or total_ids[0] != 1 or total_ids[-1] != 1000:
+        print("[!] WARNING: dataset does not span 1..1000 (validator should catch this)")
+
+    index = {
+        "kind": "LCFG.blocks_b20.index.v1",
+        "generatedAt": datetime.utcnow().isoformat() + "Z",
+        "count": 50,
+        "blocks": []
+    }
+
+    for bid, a, b in block_ranges(total=1000, size=20):
+        ids = [i for i in range(a, b + 1) if i in by_id]
+        title = f"B{bid:02d} (FG {a:04d}-{b:04d})"
+        jname = f"B{bid:02d}.json"
+        mname = f"B{bid:02d}.md"
+
+        # JSON payload (keep light; app only needs ids)
+        payload = {
+            "kind": "LCFG.block.v1",
+            "id": bid,
+            "title": title,
+            "range": [a, b],
+            "ids": ids
+        }
+        (out_dir / jname).write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+        # Markdown companion (human-friendly)
+        lines = [f"# {title}", ""]
+        for i in ids:
+            c = by_id[i]
+            lines.append(f"- FG-{i:04d} — {c.get('title','').strip()}")
+        (out_dir / mname).write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+        index["blocks"].append({
+            "id": bid,
+            "range": [a, b],
+            "json": f"docs/blocks_b20/{jname}",
+            "md":   f"docs/blocks_b20/{mname}"
+        })
+
+    # write index
+    (root / "docs" / "blocks_b20_index.json").write_text(
+        json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    print(f"[ok] built 50 blocks → {out_dir}")
+    print(f"[ok] index → docs/blocks_b20_index.json")
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python3 tools/build_blocks_b20.py docs/dataset.json")
+        raise SystemExit(1)
+    main(sys.argv[1])
+## Build steps (safe, reproducible)
+
+```bash
+# 1) Convert your normalized FG markdown (1–1000) → dataset.json
+python3 tools/md_to_dataset.py FG_master.normalized.md
+
+# 2) Validate integrity (no gaps/dupes/empties)
+python3 tools/validate_dataset.py docs/dataset.json
+
+# 3) Pre-bake 50 Module-B blocks (20 cards each)
+python3 tools/build_blocks_b20.py docs/dataset.json
+---
+
+If you want, I can also paste a **ready-to-commit repo tree** with these scripts and your existing single-file app, but the above is everything you need to finish the bake and push to GitHub safely.
+/Field_Guide_App/
+  README.md
+  LICENSE.md
+  .gitignore
+  index.html                 # LCES 4.5 Unified (offline, single-file)
+  /docs/
+    dataset.json            # (generated) 1–1000 cards
+    blocks_b20_index.json   # (generated) index of 50 blocks
+    /blocks_b20/            # (generated) B01.json..B50.json (+ .md)
+  /tools/
+    transform_and_split.py  # normalize MD + split volumes + build CSV
+    md_to_dataset.py        # parse normalized MD → docs/dataset.json
+    validate_dataset.py     # safety checks (1..1000, no dupes, etc.)
+    build_blocks_b20.py     # make 50 × 20-card packs + index
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Legal Calculus — LC 4.5 Advanced (Unified, Pre-Seeded)</title>
+<style>
+  :root{
+    --bg:#0c0f14; --bg-2:#121620; --bg-3:#171c27;
+    --text:#e7ecf3; --muted:#9fb0c8; --faint:#7e8aa1; --accent:#7dd3fc;
+    --chip:#1f2634; --chip-br:#2a3242; --card:#111826; --card-br:#1b2232;
+    --hl:#0ea5e9; --link:#93c5fd;
+    --btn:#1b2332; --btn-br:#2c3547; --btn-h:#232d40;
+    --shadow:0 8px 24px rgba(0,0,0,.35);
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    --sans: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji","Segoe UI Emoji";
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.45}
+  a{color:var(--link);text-decoration:none}
+  .app{display:grid;grid-template-rows:auto 1fr auto;min-height:100dvh;grid-template-columns:280px 1fr;grid-template-areas:"top top" "side main" "foot foot";}
+  header{grid-area:top;position:sticky;top:0;z-index:5;background:linear-gradient(180deg,var(--bg-2),var(--bg));border-bottom:1px solid var(--card-br);padding:10px 14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  header .brand{display:flex;gap:10px;align-items:center;font-weight:800;letter-spacing:.2px}
+  header .brand .dot{width:10px;height:10px;border-radius:50%;background:var(--hl);box-shadow:0 0 14px var(--hl)}
+  .pill{background:var(--btn);border:1px solid var(--btn-br);border-radius:999px;padding:7px 10px;display:flex;align-items:center;gap:8px}
+  .pill input[type="search"]{background:transparent;border:none;outline:none;color:var(--text);width:240px;font-size:14px}
+  .btn{background:var(--btn);border:1px solid var(--btn-br);padding:8px 12px;border-radius:10px;color:var(--text);cursor:pointer;transition:.15s background}
+  .btn:hover{background:var(--btn-h)} .btn.inline{padding:4px 8px;border-radius:8px;font-size:12px}
+  aside{grid-area:side;border-right:1px solid var(--card-br);background:var(--bg-2);padding:14px;overflow:auto}
+  .group{margin-bottom:16px} .group h3{margin:0 0 8px;font-size:13px;color:#9fb0c8;letter-spacing:.4px;text-transform:uppercase}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{background:#1f2634;border:1px solid #2a3242;padding:6px 8px;border-radius:999px;font-size:12px;cursor:pointer;user-select:none}
+  .chip.active{border-color:#7dd3fc;box-shadow:0 0 0 2px #0ea5e92e}
+  .sep{height:1px;background:#1b2232;margin:12px 0}
+  main{grid-area:main;padding:16px;overflow:auto;background:radial-gradient(1200px 600px at 60% -50%, #0b1220 0, transparent 60%)}
+  .toolbar{display:flex;gap:8px;align-items:center;margin-bottom:12px;flex-wrap:wrap}
+  .count{color:#9fb0c8;font-size:13px}
+  .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(310px,1fr))}
+  .card{background:#111826;border:1px solid #1b2232;border-radius:12px;padding:12px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:8px}
+  .card h4{margin:0;font-size:15px}
+  .meta{display:flex;gap:8px;align-items:center;color:#7e8aa1;font-size:12px}
+  .badges{display:flex;gap:6px;flex-wrap:wrap}
+  .badge{font-size:11px;background:#0f172a;border:1px solid #1e293b;padding:3px 6px;border-radius:999px;color:#b6c8e6}
+  .sections{display:flex;flex-direction:column;gap:6px}
+  .sect{font-size:13px;color:#c7d1e3}
+  .sect b{color:#9db4d8}
+  footer{grid-area:foot;padding:10px 14px;border-top:1px solid #1b2232;background:linear-gradient(180deg,var(--bg),var(--bg-2));color:#9fb0c8;display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+  dialog{border:none;padding:0;border-radius:14px;overflow:hidden;color:var(--text);background:#121620;border:1px solid #1b2232;max-width:min(900px,96vw);box-shadow:0 24px 60px rgba(0,0,0,.55)}
+  .dlg{padding:14px} .dlg h2{margin:0 0 8px}
+  textarea,select,input[type="text"]{width:100%;background:#0f1420;color:var(--text);border:1px solid #2a3242;border-radius:10px;padding:10px;font-family:var(--mono)}
+  textarea{min-height:220px;resize:vertical}
+  @media print {
+    header,aside,footer,.toolbar{display:none!important}
+    main{padding:0} #printable{display:block!important;color:black}
+    .p-card{page-break-inside:avoid;border:1px solid #222;margin:8px;padding:10px;border-radius:8px}
+    .p-card h4{margin:0 0 6px 0} .p-sect{font-size:12px}
+  }
+</style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="brand"><div class="dot"></div><div>Legal Calculus — <b>LC 4.5 Advanced (Unified)</b></div></div>
+      <div class="pill">🔎 <input id="q" type="search" placeholder="Search cards — ⌘/Ctrl+K" /></div>
+      <button class="btn" id="importMdBtn">Import MD</button>
+      <button class="btn" id="importJsonBtn">Import JSON</button>
+      <button class="btn" id="exportJsonBtn">Export JSON</button>
+      <button class="btn" id="copyLinesBtn">Copy Lines</button>
+      <button class="btn" id="printBtn">Print</button>
+      <span class="count" id="countLabel">0 cards</span>
+      <span class="count" id="loadStatus"></span>
+    </header>
+
+    <aside>
+      <div class="group"><h3>Volume</h3><div class="chips" id="volumes"></div></div>
+      <div class="group"><h3>Topic</h3><div class="chips" id="topics"></div></div>
+      <div class="group"><h3>Show Sections</h3><div class="chips" id="types"></div></div>
+      <div class="sep"></div>
+      <div class="group">
+        <h3>Bundle (hearing / motion / appeal)</h3>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn inline" id="bundleFromSel">Add Selected</button>
+          <button class="btn inline" id="bundleClear">Clear</button>
+          <button class="btn inline" id="bundleCopy">Copy</button>
+          <button class="btn inline" id="bundleExport">Export JSON</button>
+        </div>
+        <div class="list" id="bundleList" style="margin-top:8px;display:flex;flex-direction:column;gap:6px;max-height:160px;overflow:auto"></div>
+      </div>
+      <div class="group">
+        <h3>Tracks</h3>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">
+          <button class="btn inline" id="saveTrackBtn">Save Track</button>
+          <select id="tracksSelect" class="pill" title="Load Track"></select>
+        </div>
+        <div class="small">Auto-loads <code>docs/blocks_b20_index.json</code> (B01..B50). Your custom tracks save to LocalStorage.</div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="toolbar">
+        <span class="small">Sort:</span>
+        <select id="sort" class="pill">
+          <option value="id-asc">FG# ↑</option>
+          <option value="id-desc">FG# ↓</option>
+          <option value="title-asc">Title A–Z</option>
+          <option value="title-desc">Title Z–A</option>
+        </select>
+        <label class="pill"><input type="checkbox" id="onlySelected" /> Only selected</label>
+        <label class="pill"><input type="checkbox" id="liveFilter" checked /> Live filter</label>
+        <label class="pill"><input type="checkbox" id="showPrintPrep" /> Print view</label>
+      </div>
+      <div id="cards" class="grid"></div>
+      <div id="printable" style="display:none"></div>
+    </main>
+
+    <footer>
+      <div class="small">LC Unified 4.5 — Offline single-file. LocalStorage keeps data.</div>
+      <div class="small">© Legal Calculus (open-access). No profit / no misrepresentation.</div>
+    </footer>
+  </div>
+
+  <!-- Import MD -->
+  <dialog id="mdDlg">
+    <div class="dlg">
+      <h2>Import Field Guide (Markdown FG 1–1000)</h2>
+      <p class="small">Paste your normalized Markdown (### FG-#### … sections).</p>
+      <textarea id="mdText" placeholder="Paste full Field Guide Markdown here…"></textarea>
+      <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:10px">
+        <button class="btn" onclick="mdDlg.close()">Cancel</button>
+        <button class="btn" id="mdParseBtn">Parse & Load</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Import JSON -->
+  <dialog id="jsonDlg">
+    <div class="dlg">
+      <h2>Import JSON</h2>
+      <textarea id="jsonText" placeholder='{"cards":[…]}'></textarea>
+      <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:10px">
+        <button class="btn" onclick="jsonDlg.close()">Cancel</button>
+        <button class="btn" id="jsonLoadBtn">Load JSON</button>
+      </div>
+    </div>
+  </dialog>
+
+<script>
+/* ---------------------- Utilities & State ---------------------- */
+const $ = sel => document.querySelector(sel);
+const $$ = sel => Array.from(document.querySelectorAll(sel));
+const byId = id => document.getElementById(id);
+
+/* LCES storage keys (as requested) */
+const LS = {
+  cards:'lcfg_cards_v45_unified_lces_v1',
+  bundle:'lcfg_bundle_v45_unified_lces_v1',
+  selected:'lcfg_selected_v45_unified_lces_v1',
+  tracks:'lcfg_tracks_v45_unified_lces_v1'
+};
+
+const state = {
+  cards: [],
+  filtered: [],
+  selected: new Set(),
+  bundle: [],
+  filters: {
+    q: '', volume: 0, topics: new Set(),
+    showTypes: new Set(['core','lesson','assignment','model','reflection','visual']),
+    onlySelected:false, sort:'id-asc'
+  },
+  tracks: {},             // name → {ids:[]}
+  blockIndex: null        // docs/blocks_b20_index.json
+};
+
+const TOPIC_SET = ['Filing','Silence','Denial','Default','Efficiency','Closure','Archive'];
+const TYPES = [
+  { key:'core',label:'⚖️ Core'},{ key:'lesson',label:'📖 Lesson'},
+  { key:'assignment',label:'✏️ Assignment'},{ key:'model',label:'✅ Model'},
+  { key:'reflection',label:'💡 Reflection'},{ key:'visual',label:'🎨 Visual'},
+];
+const VOLUMES = Array.from({length:20},(_,i)=>i+1);
+
+/* ---------------------- Storage ---------------------- */
+function saveAll(){
+  localStorage.setItem(LS.cards, JSON.stringify(state.cards));
+  localStorage.setItem(LS.bundle, JSON.stringify(state.bundle));
+  localStorage.setItem(LS.selected, JSON.stringify([...state.selected]));
+  localStorage.setItem(LS.tracks, JSON.stringify(state.tracks));
+}
+function loadAll(){
+  const c = localStorage.getItem(LS.cards);
+  const b = localStorage.getItem(LS.bundle);
+  const s = localStorage.getItem(LS.selected);
+  const t = localStorage.getItem(LS.tracks);
+  state.cards = c? JSON.parse(c): [];
+  state.bundle = b? JSON.parse(b): [];
+  state.selected = new Set(s? JSON.parse(s): []);
+  state.tracks = t? JSON.parse(t): {};
+}
+
+/* ---------------------- Fetch helpers ---------------------- */
+async function fetchJson(url){
+  try{
+    const res = await fetch(url, {cache:'no-store'});
+    if(!res.ok) throw new Error(res.status);
+    return await res.json();
+  }catch(e){ return null; }
+}
+
+/* ---------------------- Markdown Parser (simple) ---------------------- */
+function parseMarkdown(md){
+  const blocks = md.split(/\n(?=###\s*FG-?\d+\s*—)/g);
+  const out = [];
+  for(const block of blocks){
+    const head = block.match(/###\s*FG-?(\d+)\s*—\s*(.+)/);
+    if(!head) continue;
+    const id = +head[1]; const title = head[2].trim();
+    const volume = Math.max(1, Math.ceil(id/50));
+    const topic = (title.split('=').shift()||'').trim().replace(/[^A-Za-z]/g,'') || 'Other';
+    const sec = (re)=> (block.match(re)?.[1]||'').trim();
+    out.push({
+      id, title, volume, topic,
+      core: sec(/Core Message:\**\s*([\s\S]*?)(?:\n-|\n$)/i),
+      lesson: sec(/Lesson Content:\**\s*([\s\S]*?)(?:\n-|\n$)/i),
+      assignment: sec(/Assignment:\**\s*([\s\S]*?)(?:\n-|\n$)/i),
+      model: sec(/Model Response:\**\s*([\s\S]*?)(?:\n-|\n$)/i),
+      reflection: sec(/Reflection Summary:\**\s*([\s\S]*?)(?:\n-|\n$)/i),
+      visual: sec(/Visual Concept:\**\s*([\s\S]*?)(?:\n-|\n$)/i),
+      tags:[]
+    });
+  }
+  return out;
+}
+
+/* ---------------------- Filters & Render ---------------------- */
+function volumeChip(v){ const el=document.createElement('div'); el.className='chip'; el.textContent=v===0?'All':`V${v}`; el.dataset.v=v;
+  if(state.filters.volume===v) el.classList.add('active');
+  el.onclick=()=>{ state.filters.volume=v; renderFilters(); applyFilters(); }; return el; }
+function topicChip(name){ const el=document.createElement('div'); el.className='chip'; el.textContent=name;
+  if(state.filters.topics.has(name)) el.classList.add('active');
+  el.onclick=()=>{ state.filters.topics.has(name)? state.filters.topics.delete(name): state.filters.topics.add(name); renderFilters(); applyFilters(); }; return el; }
+function typeChip(t){ const el=document.createElement('div'); el.className='chip'; el.textContent=t.label; el.dataset.key=t.key;
+  if(state.filters.showTypes.has(t.key)) el.classList.add('active');
+  el.onclick=()=>{ state.filters.showTypes.has(t.key)? state.filters.showTypes.delete(t.key): state.filters.showTypes.add(t.key); renderFilters(); applyFilters(); }; return el; }
+
+function renderFilters(){
+  const v = byId('volumes'); v.innerHTML=''; v.appendChild(volumeChip(0)); VOLUMES.forEach(x=>v.appendChild(volumeChip(x)));
+  const t = byId('topics'); t.innerHTML=''; TOPIC_SET.forEach(n=>t.appendChild(topicChip(n)));
+  const y = byId('types'); y.innerHTML=''; TYPES.forEach(k=>y.appendChild(typeChip(k)));
+}
+
+function applyFilters(){
+  const f = state.filters; const qx = f.q.trim().toLowerCase();
+  let rows = state.cards.slice();
+  if(f.volume>0) rows = rows.filter(c=>c.volume===f.volume);
+  if(f.topics.size>0) rows = rows.filter(c=>f.topics.has(c.topic) || f.topics.has(c.topic?.split(/\s+/)[0]));
+  if(f.onlySelected) rows = rows.filter(c=>state.selected.has(c.id));
+  if(qx){
+    rows = rows.filter(c=>{
+      const hay = [
+        c.title,
+        f.showTypes.has('core')?c.core:'',
+        f.showTypes.has('lesson')?c.lesson:'',
+        f.showTypes.has('assignment')?c.assignment:'',
+        f.showTypes.has('model')?c.model:'',
+        f.showTypes.has('reflection')?c.reflection:'',
+        f.showTypes.has('visual')?c.visual:''
+      ].join(' | ').toLowerCase();
+      return hay.includes(qx);
+    });
+  }
+  if(f.sort==='id-asc') rows.sort((a,b)=>a.id-b.id);
+  if(f.sort==='id-desc') rows.sort((a,b)=>b.id-a.id);
+  if(f.sort==='title-asc') rows.sort((a,b)=>a.title.localeCompare(b.title));
+  if(f.sort==='title-desc') rows.sort((a,b)=>b.title.localeCompare(a.title));
+  state.filtered = rows;
+  renderCards(); updateCounts();
+}
+
+function badge(text){ const s=document.createElement('span'); s.className='badge'; s.textContent=text; return s; }
+function escapeHtml(s){ return String(s||'').replace(/[&<>]/g,c=>({ '&':'&amp;','<':'&lt;','>':'&gt;' }[c])) }
+
+function renderCards(){
+  const host = byId('cards'); host.innerHTML='';
+  for(const c of state.filtered){
+    const card = document.createElement('div'); card.className='card';
+    const h4 = document.createElement('h4'); h4.innerHTML = `<span style="opacity:.7">FG-${String(c.id).padStart(3,'0')}</span> — ${escapeHtml(c.title)}`;
+    card.appendChild(h4);
+    const meta = document.createElement('div'); meta.className='meta'; meta.innerHTML = `V${c.volume} • <span class="muted">${escapeHtml(c.topic)}</span>`;
+    card.appendChild(meta);
+
+    const b = document.createElement('div'); b.className='badges';
+    if(state.selected.has(c.id)) b.appendChild(badge('Selected'));
+    if(state.bundle.includes(c.id)) b.appendChild(badge('In Bundle'));
+    (c.tags||[]).slice(0,4).forEach(t=>b.appendChild(badge('#'+t)));
+    card.appendChild(b);
+
+    const secs = document.createElement('div'); secs.className='sections';
+    const sec = (k,l,v)=>{ if(!state.filters.showTypes.has(k)) return; const d=document.createElement('div'); d.className='sect'; d.innerHTML=`<b>${l}:</b> ${escapeHtml(v||'')}`; secs.appendChild(d); };
+    sec('core','⚖️ Core',c.core); sec('lesson','📖 Lesson',c.lesson); sec('assignment','✏️ Assignment',c.assignment);
+    sec('model','✅ Model',c.model); sec('reflection','💡 Reflection',c.reflection); sec('visual','🎨 Visual',c.visual);
+    card.appendChild(secs);
+
+    const actions = document.createElement('div'); actions.style.display='flex'; actions.style.gap='8px'; actions.style.flexWrap='wrap'; actions.style.marginTop='6px';
+    const mkBtn=(t,fn)=>{const b=document.createElement('button'); b.className='btn inline'; b.textContent=t; b.onclick=fn; return b;};
+    actions.appendChild(mkBtn(state.selected.has(c.id)?'Deselect':'Select',()=>{ state.selected.has(c.id)?state.selected.delete(c.id):state.selected.add(c.id); saveAll(); applyFilters(); }));
+    actions.appendChild(mkBtn('Add to Bundle',()=>{ if(!state.bundle.includes(c.id)) state.bundle.push(c.id); saveAll(); renderBundle(); applyFilters(); }));
+    actions.appendChild(mkBtn('Copy Lines',()=>copyCardLines(c)));
+    card.appendChild(actions);
+
+    host.appendChild(card);
+  }
+}
+
+function updateCounts(){ byId('countLabel').textContent = `${state.filtered.length} cards • selected ${state.selected.size} • bundle ${state.bundle.length}`; }
+
+/* ---------------------- Bundle ---------------------- */
+function renderBundle(){
+  const list = byId('bundleList'); list.innerHTML='';
+  for(const id of state.bundle){
+    const c = state.cards.find(x=>x.id===id); if(!c) continue;
+    const row = document.createElement('div'); row.className='row';
+    row.style.display='flex'; row.style.alignItems='center'; row.style.gap='6px';
+    row.innerHTML = `<span style="opacity:.7">FG-${String(id).padStart(3,'0')}</span> — ${escapeHtml(c.title)}`;
+    const del = document.createElement('button'); del.className='btn inline'; del.textContent='✕';
+    del.onclick=()=>{ state.bundle = state.bundle.filter(x=>x!==id); saveAll(); renderBundle(); applyFilters(); };
+    row.appendChild(del); list.appendChild(row);
+  }
+}
+function bundleText(cards){
+  return cards.map(c => [
+    `FG-${String(c.id).padStart(3,'0')} — ${c.title}`,
+    c.core?`• Core: ${c.core}`:'', c.assignment?`• Assignment: ${c.assignment}`:'',
+    c.model?`• Model: ${c.model}`:'', c.reflection?`• Reflection: ${c.reflection}`:''
+  ].filter(Boolean).join('\n')).join('\n\n');
+}
+function copyBundle(){
+  const cards = state.bundle.map(id=>state.cards.find(x=>x.id===id)).filter(Boolean);
+  navigator.clipboard.writeText(bundleText(cards)); toast('Bundle copied');
+}
+function exportBundleJSON(){
+  const payload = { kind:'LCFG.bundle.v1', createdAt:new Date().toISOString(), ids:state.bundle.slice(),
+    cards: state.bundle.map(id=>state.cards.find(x=>x.id===id)).filter(Boolean) };
+  download('LCFG-bundle.json', JSON.stringify(payload,null,2));
+}
+
+/* ---------------------- Print ---------------------- */
+function buildPrintable(){
+  const host=byId('printable'); host.innerHTML='';
+  const picks = state.filters.onlySelected? state.cards.filter(c=>state.selected.has(c.id))
+              : (state.bundle.length? state.bundle.map(id=>state.cards.find(x=>x.id===id)).filter(Boolean) : state.filtered);
+  picks.forEach(c=>{
+    const d=document.createElement('div'); d.className='p-card';
+    d.innerHTML = `<h4>FG-${String(c.id).padStart(3,'0')} — ${escapeHtml(c.title)} <span style="float:right;font-weight:600">V${c.volume}</span></h4>
+    <div class="p-sect"><b>Core:</b> ${escapeHtml(c.core||'')}</div>
+    <div class="p-sect"><b>Lesson:</b> ${escapeHtml(c.lesson||'')}</div>
+    <div class="p-sect"><b>Assignment:</b> ${escapeHtml(c.assignment||'')}</div>
+    <div class="p-sect"><b>Model:</b> ${escapeHtml(c.model||'')}</div>
+    <div class="p-sect"><b>Reflection:</b> ${escapeHtml(c.reflection||'')}</div>`;
+    host.appendChild(d);
+  });
+}
+
+/* ---------------------- Tracks (incl. 50 B-packs) ---------------------- */
+function renderTracks(){
+  const sel=byId('tracksSelect'); sel.innerHTML='';
+  const def=document.createElement('option'); def.value=''; def.textContent='— Load Track —'; sel.appendChild(def);
+  // from LocalStorage
+  Object.keys(state.tracks).sort().forEach(name=>{ const o=document.createElement('option'); o.value=name; o.textContent=name; sel.appendChild(o); });
+  // from blocks index
+  if(state.blockIndex?.blocks?.length){
+    const group = document.createElement('optgroup'); group.label='Module-B (20-card)'; sel.appendChild(group);
+    state.blockIndex.blocks.forEach(b=>{
+      const o=document.createElement('option');
+      o.value = `__block:${b.id}`; o.textContent = `B${String(b.id).padStart(2,'0')} FG ${String(b.range[0]).padStart(4,'0')}-${String(b.range[1]).padStart(4,'0')}`;
+      group.appendChild(o);
+    });
+  }
+}
+
+/* ---------------------- UI helpers ---------------------- */
+function download(filename, text){ const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([text],{type:'application/json'})); a.download=filename; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),1500); }
+function toast(msg,bad=false){ const t=document.createElement('div'); t.textContent=msg; t.style.position='fixed'; t.style.bottom='14px'; t.style.right='14px'; t.style.background=bad?'#4a1a1f':'#0b3b66'; t.style.border='1px solid #124a7d'; t.style.padding='8px 10px'; t.style.borderRadius='10px'; t.style.zIndex=9999; t.style.boxShadow='var(--shadow)'; document.body.appendChild(t); setTimeout(()=>t.remove(),2000); }
+
+/* ---------------------- Boot ---------------------- */
+async function boot(){
+  loadAll();
+  byId('loadStatus').textContent = '• loading…';
+
+  // 1) Try LocalStorage (already loaded)
+  if(state.cards.length===0){
+    // 2) Try embedded JSON
+    const ej = document.getElementById('embedded-json')?.textContent.trim();
+    if(ej){
+      try{ const obj = JSON.parse(ej); if(obj.cards?.length){ state.cards = normalizeCards(obj.cards); toast(`Loaded ${state.cards.length} embedded cards`); } }catch{}
+    }
+  }
+
+  // 3) Try docs/dataset.json (GitHub Pages / local dev)
+  if(state.cards.length===0){
+    const ds = await fetchJson('docs/dataset.json');
+    if(ds?.cards?.length){ state.cards = normalizeCards(ds.cards); toast(`Loaded ${state.cards.length} from docs/dataset.json`); }
+  }
+
+  // 4) Load Module-B index (optional)
+  state.blockIndex = await fetchJson('docs/blocks_b20_index.json');
+
+  if(state.cards.length===0){
+    // last-resort mini seed
+    state.cards = normalizeCards([
+      { id:1,  title:'Filing = Existence', volume:1, topic:'Filing',
+        core:'To file is to exist in the record.',
+        lesson:'No filing, no case. Filing transforms grievance into memory.',
+        assignment:'Write one line asserting existence by filing.',
+        model:'This claim exists because it is filed on the record.',
+        reflection:'Filing breathes life into protest.',
+        visual:'Glowing brief.'
+      }
+    ]);
+    toast('Mini seed loaded', true);
+  }
+
+  saveAll();
+  renderFilters(); renderBundle(); renderTracks(); applyFilters();
+  byId('loadStatus').textContent = `• ready`;
+}
+
+function normalizeCards(arr){
+  return arr.map(c=>{
+    const id = Number(c.id);
+    return {
+      id,
+      title: c.title||`FG-${id}`,
+      volume: c.volume || Math.max(1, Math.ceil(id/50)),
+      topic: c.topic || (c.title?.split('=')[0]||'Other').trim(),
+      core: c.core||'', lesson: c.lesson||'', assignment: c.assignment||'',
+      model: c.model||'', reflection: c.reflection||'', visual: c.visual||'',
+      tags: c.tags||[]
+    };
+  }).sort((a,b)=>a.id-b.id);
+}
+
+function copyCardLines(c){
+  const text = [`FG-${String(c.id).padStart(3,'0')} — ${c.title}`, c.core?`Core: ${c.core}`:'', c.assignment?`Assignment: ${c.assignment}`:'', c.model?`Model: ${c.model}`:'', c.reflection?`Reflection: ${c.reflection}`:''].filter(Boolean).join('\n');
+  navigator.clipboard.writeText(text); toast('Lines copied');
+}
+
+/* ---------------------- Wire UI ---------------------- */
+window.addEventListener('DOMContentLoaded', ()=>{
+  boot();
+
+  byId('q').addEventListener('input', e=>{ state.filters.q=e.target.value; if(byId('liveFilter').checked) applyFilters(); });
+  byId('sort').onchange = e=>{ state.filters.sort=e.target.value; applyFilters(); };
+  byId('onlySelected').onchange = e=>{ state.filters.onlySelected=e.target.checked; applyFilters(); };
+  byId('liveFilter').onchange = ()=> applyFilters();
+  byId('showPrintPrep').onchange = e=>{ const on=e.target.checked; byId('printable').style.display=on?'block':'none'; if(on) buildPrintable(); };
+
+  // Bundle controls
+  byId('bundleFromSel').onclick = ()=>{ [...state.selected].forEach(id=>{ if(!state.bundle.includes(id)) state.bundle.push(id); }); saveAll(); renderBundle(); };
+  byId('bundleClear').onclick = ()=>{ state.bundle = []; saveAll(); renderBundle(); };
+  byId('bundleCopy').onclick = copyBundle;
+  byId('bundleExport').onclick = exportBundleJSON;
+
+  // Importers / Exporters
+  byId('importMdBtn').onclick = ()=> mdDlg.showModal();
+  byId('mdParseBtn').onclick = ()=>{
+    const md = byId('mdText').value;
+    const cards = parseMarkdown(md);
+    if(cards.length===0){ toast('No cards found. Headers like "### FG-0001 — Title".', true); return; }
+    state.cards = normalizeCards(cards); saveAll(); mdDlg.close(); renderFilters(); applyFilters(); renderTracks(); toast(`Parsed ${state.cards.length} cards`);
+  };
+
+  byId('importJsonBtn').onclick = ()=> jsonDlg.showModal();
+  byId('jsonLoadBtn').onclick = ()=>{
+    const text = byId('jsonText').value;
+    try{
+      const obj = JSON.parse(text);
+      if(obj.cards?.length){
+        state.cards = normalizeCards(obj.cards);
+        saveAll(); jsonDlg.close(); applyFilters(); renderBundle(); renderTracks(); toast(`Loaded ${state.cards.length} cards`);
+      } else if (obj.ids && obj.cards){
+        state.bundle = obj.ids;
+        const present = new Set(state.cards.map(c=>c.id));
+        obj.cards.forEach(c=>{ if(!present.has(c.id)) state.cards.push(c) });
+        state.cards = normalizeCards(state.cards);
+        saveAll(); jsonDlg.close(); applyFilters(); renderBundle(); renderTracks(); toast(`Loaded bundle of ${state.bundle.length}`);
+      } else { toast('JSON not recognized', true); }
+    } catch(e){ toast('Invalid JSON', true); }
+  };
+
+  byId('exportJsonBtn').onclick = ()=>{
+    const payload = { kind:'LCFG.dataset.v1', exportedAt:new Date().toISOString(), cards:state.cards };
+    download('LCFG-dataset.json', JSON.stringify(payload,null,2
+

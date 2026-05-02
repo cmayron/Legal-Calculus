@@ -1,0 +1,125 @@
+**Purpose:** Equip court support teams and ops buddies with real-world tactical assets.
+
+### 🔧 Contents
+
+- **Role Cards** (Ops Buddy, Educator, Survivor, Org Partner)
+- **Redirect Cue Cards** (QR-linked reflex → FG → redirect → asset)
+- **FG Card Mini-Deck** (Top 10 reflex-linked cards)
+- **Voice Cue Sheet** (“Say: ‘My motion was denied’ → JC-Denial → FG-021”)
+- **Template Pack** (Caption, TOA, Certificate, Notice, Audit Checklist)
+- **Legacy Builder Guide** (Memory-to-doctrine walkthrough)
+- **Coalition Portal QR** (Instant access to onboarding + dashboard)
+
+**Deployment Format:**
+
+- Printable PDF
+- Notion toggle list
+- QR-linked mobile interface
+- Voice walkthrough embedded
+
+---
+
+## 🔌 Redirect Engine API Concept
+
+**Purpose:** Integrate Legal Calculus into justice tech platforms and AI agents.
+
+### 🔧 API Modules
+
+| Endpoint | Function |
+| --- | --- |
+| `POST /detect-reflex` | Input: scenario → Output: reflex, FG card, redirect |
+| `GET /redirect-protocol/{reflex}` | Returns step-by-step redirect instructions |
+| `GET /fg-card/{id}` | Returns FG card metadata |
+| `POST /publish-legacy` | Converts memory entries into formatted doctrine page |
+| `POST /activate-role` | Assigns streams and assets based on role |
+
+**Use Cases:**
+
+- Embed in court support apps
+- Power AI agents for reflex detection
+- Enable public-facing redirect tools
+- Automate legacy publishing
+
+---
+
+## 🧪 Redirect Reflex Simulator App Concept
+
+**Purpose:** Let users practice redirecting fictional filings in real time.
+
+### 🔧 App Flow
+
+1. **Scenario Prompt:**
+    
+    “Your motion was denied without explanation.”
+    
+2. **User Response:**
+    
+    “I detect JC-Denial. I activate FG-021. I refile with caption, TOA, certificate.”
+    
+3. **Copilot Feedback:**
+    
+    “Redirect successful. Memory archived in LCA. You’ve encoded cognition.”
+    
+
+**Modes:**
+
+- Crisis Simulation
+- Second Opinion Audit
+- Education Roleplay
+- Ops Buddy Field Training
+
+---
+
+## 📜 Coalition Commons Manifesto
+
+**Purpose:** Define the movement’s values, tactics, and legacy.
+
+### 🔧 Manifesto Sections
+
+- **Why We Exist:**
+    
+    > “We are survivors of procedural denial. We build doctrine from memory. We format resistance.”
+    > 
+- **What We Do:**
+    
+    > “We detect reflexes. We activate FG cards. We redirect filings. We archive cognition.”
+    > 
+- **How We Teach:**
+    
+    > “Through cards, templates, voice, and coalition. Every redirect is a lesson. Every memory is infrastructure.”
+    > 
+- **Who We Invite:**
+    
+    > “Ops buddies, educators, survivors, orgs. Anyone who formats truth and archives resistance.”
+    > 
+- **What We Leave Behind:**
+    
+    > “A living doctrine. A teachable system. A legacy encoded in public infrastructure.”
+    > 
+
+---
+
+## 🧠 Procedural Memory Journal Template Pack
+
+**Purpose:** Help survivors encode their journey offline, in clinics, or on mobile.
+
+### 🔧 Template Sections
+
+- **Reflex Encountered**
+- **FG Card Activated**
+- **Redirect Protocol**
+- **Asset Used**
+- **Date + Notes**
+- **Archived In**
+- **Legacy Status** (Draft, Published)
+
+**Deployment:**
+
+- Printable journal pages
+- Notion template button
+- Voice-to-text integration
+- QR-linked legacy converter
+
+---
+
+Let’s deploy the **Coalition Deployment Expansion Pack: Phase II**—a full suite of mobile-ready, voice-activated, and printable tools that make Legal Calculus teachable, navigable, and deployable in the field, across platforms, and into legacy.

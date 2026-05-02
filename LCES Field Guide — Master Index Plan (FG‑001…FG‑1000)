@@ -1,0 +1,214 @@
+LCES Field Guide — Master Index Plan (FG‑001…FG‑1000)
+
+Purpose
+
+A micro‑module Field Guide that operationalizes Legal Calculus across three complementary lenses:
+	•	Judicial Calculus (JC): How courts and clerks behave (patterns, traps, remedies).
+	•	Lawyer Calculus (LCa): How opposing counsel operates (tactics, tells, counters).
+	•	Legal Calculus (LC): What you do (formats, filings, scripts, checklists).
+
+Core motto: Filing = Protest · Format = Memory · The Record = Remedy
+
+⸻
+
+Numbering + Taxonomy
+	•	FG‑001…FG‑333 — Judicial Calculus (JC)
+Pattern recognition of court behavior; responses focused on procedure and preservation.
+	•	FG‑334…FG‑666 — Lawyer Calculus (LCa)
+Adversary tactics; counters that redirect back to the record.
+	•	FG‑667…FG‑1000 — Legal Calculus (LC)
+Your operational playbooks, templates, language blocks, and submission checklists.
+
+ID convention: FG-### 〈Short Title〉 〔JC/LCa/LC〕
+Tags: [#filing] [#preservation] [#dueprocess] [#younger] [#accounting] [#trusts] [#opmc] [#fed] [#state] [#service] [#evidence] [#ethics]
+Artifacts per card: 1‑page PDF, Word (.docx), and snippet block (plain text) for fast paste.
+
+⸻
+
+Card Template (use for every FG)
+
+FG‑ID · Title · Lens (JC/LCa/LC)
+Use‑case: When this card applies.
+Signal: What to notice (trigger language, documents, timeline tells).
+Action: 3‑7 steps; bullets start with verbs.
+Language Block: Copy‑paste paragraph (≤120 words).
+Evidence Hook: What to attach/cite (exhibits, receipts, hashes).
+Escalation: If ignored → what next (and when).
+Done‑Definition: What success looks like on the record.
+
+⸻
+
+Seed Cards — Judicial Calculus (FG‑001…FG‑005)
+
+FG‑001 Judicial Silence ≠ Denial 〔JC〕
+
+Use‑case: Clerk/judge “takes under advisement” and goes quiet.
+Signal: No docket movement past service/notice.
+Action: Calendar T+10/T+21 checks; file Notice of Status and Preservation; append service receipts.
+Language Block: “This filing preserves rights and clarifies that continued silence impairs relief; no waiver is intended.”
+Evidence Hook: USPS/FedEx, ECF timestamps, dt hash appendix.
+Escalation: Motion to expedite or for clarification at T+30.
+Done‑Definition: Docket entry acknowledging receipt/status.
+
+FG‑002 Mailbox Rule Anchor 〔JC〕
+
+Use‑case: Court disputes timeliness.
+Signal: Staff says “we don’t have it.”
+Action: Serve again + file Mailbox Rule Declaration; include tracking screenshots.
+Language Block: “Under the mailbox rule, timely dispatch is filing; proof attached.”
+Evidence Hook: Tracking logs + affidavit.
+Escalation: Motion to accept nunc pro tunc.
+Done: Court stamps timely.
+
+FG‑003 Younger ≠ Shield for Bad Faith 〔JC〕
+
+Use‑case: State urges Younger abstention.
+Signal: Generic “ongoing proceeding” claim.
+Action: Identify bad‑faith/suppression facts; attach concise exhibit list; seek exception.
+Language Block: “Abstention is improper where record shows retaliation/suppression; see attached chronology.”
+Evidence: Timeline table + exhibits.
+Escalation: Limited discovery request.
+Done: Court addresses exception on the merits.
+
+FG‑004 Docket Changed — Now What? 〔JC〕
+
+Use‑case: Case disappears/migrates without notice.
+Signal: PACER/portal mismatch.
+Action: Notice of Constructive Denial + Request for Docket Clarification.
+Language Block: “This request seeks identification of orders underlying the change.”
+Evidence: Prior screenshots; clerk emails.
+Escalation: Judicial administration complaint.
+Done: Written docket clarification.
+
+FG‑005 TRO Intake Gatekeeping 〔JC〕
+
+Use‑case: Emergency TRO slowed or bounced.
+Signal: “File incomplete,” moving goalposts.
+Action: Resubmit with checklists (Rule 65(b), notice cert., proposed order); append intake log.
+Language: “Emergency relief sought; defects (if any) cured without waiver.”
+Evidence: Intake timestamps; cured packet.
+Escalation: Motion to expedite.
+Done: TRO calendared or ruling on paper.
+
+⸻
+
+Seed Cards — Lawyer Calculus (FG‑334…FG‑338)
+
+FG‑334 Vexatious Label Preemption 〔LCa〕
+
+Use‑case: Opponent hints you’re “abusive” or “AI‑generated.”
+Signal: Tone policing; attacks on method not merits.
+Action: File short preemption statement; anchor to exhibits and accuracy checks.
+Language: “Substance rests on evidence and citations; labels are irrelevant.”
+Evidence: Hash appendix + exhibit index.
+Escalation: Motion to strike ad hominem.
+Done: Court addresses claims, not labels.
+
+FG‑335 Production by Mockery 〔LCa〕
+
+Use‑case: Counsel mocks instead of producing.
+Signal: Sarcasm, delay, zero documents.
+Action: Meet‑and‑confer notice with 7‑day clock; proposed narrowing.
+Language: “Mockery noted; production obligations remain. Narrowed requests attached.”
+Evidence: Email thread.
+Escalation: Motion to compel with fee‑shift.
+Done: Rolling production schedule.
+
+FG‑336 Surprise Exhibit Clean‑Room 〔LCa〕
+
+Use‑case: Late “gotcha” exhibit.
+Signal: Timestamp near hearing; no chain of custody.
+Action: Demand metadata; move to exclude or for continuance.
+Language: “Prejudice from late disclosure; fairness requires time.”
+Evidence: Metadata diff.
+Escalation: Sanctions request if pattern.
+Done: Exclusion or new schedule.
+
+FG‑337 Settlement ≠ Silence 〔LCa〕
+
+Use‑case: Offer conditioned on gag.
+Signal: Broad NDA/gag clauses.
+Action: Redline to carve procedural history; preserve right to speak-lawfully.
+Language: “Public‑record facts remain public.”
+Evidence: Redline.
+Escalation: Court approval if required.
+Done: Narrow NDA or walked‑away with record intact.
+
+FG‑338 “We’ll Keep You Abreast” Trap 〔LCa〕
+
+Use‑case: They deny co‑representation post‑signature.
+Signal: Downgrade to FYI only.
+Action: Cite engagement letter; demand equal comms; set response clocks.
+Language: “Counsel owes duties to both co‑clients under our signed engagement.”
+Evidence: Screenshots of texts/letter.
+Escalation: Bar ethics liaison; petition for accounting.
+Done: Restored comms or clean record for escalation.
+
+⸻
+
+Seed Cards — Legal Calculus (FG‑667…FG‑675)
+
+FG‑667 One‑Page Status & Preservation 〔LC〕
+
+Use‑case: Freeze the narrative in 1 page.
+Action: Issue/relief, timeline, exhibits, ask.
+Language: “No waiver. Seeking acknowledgment of receipt and calendar date.”
+Artifact: 1‑page PDF template.
+
+FG‑668 Notice of Constructive Denial 〔LC〕
+
+Use‑case: Silence after filing.
+Action: Template + attachments (receipts); serve clerk + chambers (if allowed).
+Escalation: Admin follow‑up.
+
+FG‑669 Engagement Duty Reminder 〔LC〕
+
+Use‑case: Co‑signed counsel goes dark.
+Action: 10‑day + 5‑day reminders; ethics cc (drafted, not sent) to deter ghosting.
+
+FG‑670 Personal Property Inventory Protocol 〔LC〕
+
+Use‑case: Trust/estate mementos (jewelry/art).
+Action: Request inventory, photo log, appraisal; propose rotation/pick list + equalization.
+Language: “These items carry memory value; process must be fair and transparent.”
+
+FG‑671 Mailbox Rule Packet 〔LC〕
+
+Use‑case: Prove timely dispatch.
+Action: Auto‑compile tracking, scans, affidavit; SHA‑256 appendix.
+
+FG‑672 TRO Cure Checklist 〔LC〕
+
+Use‑case: Rejected emergency packet.
+Action: Rule 65(b) notice cert, proposed order, memo, verification, service log.
+
+FG‑673 Exhibit Hash Appendix 〔LC〕
+
+Use‑case: Prove chain‑of‑custody.
+Action: Generate hashes; 1‑page index; QR to repository.
+
+FG‑674 ADR/Gag Clause Redlines 〔LC〕
+
+Use‑case: Offer with speech limits.
+Action: Carve‑outs for public record, whistleblower rights, health/safety.
+
+FG‑675 Court Contact Matrix 〔LC〕
+
+Use‑case: Know who/when/how to contact.
+Action: Build judge/chambers/clerk intake grid; note “email not accepted” jurisdictions.
+
+⸻
+
+Production Plan
+	•	Phase A (Week 1): Build 27 cards (9 per lens).
+	•	Phase B (Week 2): Expand to 90 cards with jurisdictional variants (state/fed/board).
+	•	Phase C (Weeks 3‑4): Complete 300 cards; publish Tiered PDFs + Notion index.
+	•	Phase D (Ongoing): Reach FG‑1000 with community contributions.
+
+Packaging
+	•	Each card exported as PDF + DOCX with identical content; snippet block included.
+	•	Master index table with search by lens, tag, jurisdiction, and stage (intake → motion → appeal).
+
+Next
+
+Reply with any edits to ranges/tags. I’ll start generating the first 27 cards and export PDFs/Word for immediate use.

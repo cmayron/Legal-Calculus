@@ -1,0 +1,554 @@
+single-file, dark-mode “Legal Calculus Educational System (LCES) 4.5” app that unifies all four decks you asked for:
+	•	LC 4.5 (Base) — LC-001…LC-119 (+ handle “Bonus” if you add them)
+	•	LC 4.5 Advanced — LC-001…LC-119 (Adv)
+	•	LCFG 4.5 (Field Guide) — FG-001…FG-1000
+	•	LCFG 4.5 Advanced — FG-001…FG-1000 (Adv)
+
+It loads instantly, searches/filters, bundles to Hearing/Motion/Appeal, exports JSON, prints cleanly, and can Import Markdown for each deck and Bake a new self-contained HTML.
+
+Save the file below as LCES-4.5.html and open it locally.
+
+📥 When you’re ready, paste your full Markdown for each deck via Import → choose deck → Parse & Append and then hit 🍞 Bake HTML to freeze it all into a new single file.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>LCES 4.5 — Legal Calculus Educational System (Unified • Dark • Single-File)</title>
+<style>
+  :root{
+    --bg:#0b0f14;--surface:#121822;--sunken:#0f141c;--border:#223145;--text:#e8eef6;--muted:#a6b3c8;
+    --accent:#69d1ff;--ok:#5af78e;--warn:#ffd479;--chip:#1a2330;--sel:#1f2a3b;--focus:#8ad6ff;--shadow:rgba(0,0,0,.45)
+  }
+  *{box-sizing:border-box}html,body{height:100%}
+  body{margin:0;background:linear-gradient(180deg,var(--bg),#0a1017 60%,var(--bg));color:var(--text);
+       font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial}
+  header{position:sticky;top:0;z-index:40;backdrop-filter:blur(6px);
+         background:linear-gradient(180deg,rgba(10,16,23,.92),rgba(10,16,23,.78));
+         border-bottom:1px solid var(--border);box-shadow:0 10px 30px var(--shadow)}
+  .wrap{max-width:1240px;margin:0 auto;padding:14px 18px}
+  .title{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .title h1{margin:0;font-weight:700;font-size:18px}
+  .pill{font-size:12px;padding:4px 8px;border-radius:999px;background:var(--chip);color:var(--muted);border:1px solid var(--border)}
+  .toolbar{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+  input[type="text"]{flex:1 1 280px;padding:10px 12px;border-radius:10px;border:1px solid var(--border);
+    background:var(--sunken);color:var(--text)} input::placeholder{color:var(--muted)}
+  select,.btn{border:1px solid var(--border);background:var(--surface);color:var(--text);border-radius:10px}
+  .btn{padding:10px 12px;cursor:pointer;font-size:13px;display:inline-flex;gap:8px}
+  .btn:hover{border-color:var(--focus);box-shadow:0 0 0 2px rgba(138,214,255,.1)}
+  .btn-primary{background:linear-gradient(180deg,#0f2b3b,#0c2030);border-color:#184660}
+  .btn-danger{background:linear-gradient(180deg,#2a1416,#1f1012);border-color:#6b2a33}
+  .chip{display:flex;align-items:center;gap:8px;background:var(--chip);border:1px solid var(--border);
+        color:var(--muted);padding:8px 10px;border-radius:999px;font-size:12px}
+  .small{padding:8px 10px;border-radius:8px;font-size:12px;background:var(--sunken)}
+  .panel{max-width:1240px;margin:0 auto 10px auto;padding:10px 18px;display:flex;gap:8px;flex-wrap:wrap}
+  .status{background:var(--chip);border:1px solid var(--border);border-radius:10px;padding:8px 10px;color:var(--muted);font-size:12px}
+  .grid{max-width:1240px;margin:16px auto;display:grid;grid-template-columns:repeat(12,1fr);gap:12px;padding:0 18px}
+  .card{grid-column:span 6;background:linear-gradient(180deg,var(--surface),#0e1520);border:1px solid var(--border);
+        border-radius:14px;padding:14px;position:relative;box-shadow:0 8px 20px var(--shadow)}
+  @media (max-width:900px){.card{grid-column:span 12}}
+  h3{margin:0 0 6px 0;font-size:15px}.muted{color:var(--muted)}
+  .meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+  .tag{font-size:11px;padding:3px 8px;border-radius:999px;background:#2b3a52;color:var(--muted);border:1px solid var(--border)}
+  .core{font-size:14px;line-height:1.45;margin:8px 0;color:#d9e6ff}
+  .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.row .spacer{flex:1}
+  .sel{position:absolute;top:10px;right:10px;display:flex;align-items:center;gap:6px;background:var(--sel);
+       border:1px solid var(--border);padding:6px 8px;border-radius:10px;font-size:12px;color:var(--muted)}
+  .sel input{accent-color:var(--accent)}
+  .dock{position:sticky;bottom:0;z-index:35;border-top:1px solid var(--border);
+        background:linear-gradient(0deg,rgba(10,16,23,.95),rgba(10,16,23,.85));backdrop-filter:blur(6px)}
+  .bundle{max-width:1240px;margin:0 auto;padding:12px 18px;display:none}
+  .bundle textarea{width:100%;min-height:220px;background:var(--sunken);color:var(--text);
+    border:1px solid var(--border);border-radius:12px;padding:12px;font-family:ui-monospace,Menlo,Consolas,monospace}
+  .kbd{background:#0d1522;border:1px solid var(--border);padding:.1rem .4rem;border-radius:6px;font-size:12px;color:var(--muted)}
+  .hint{color:var(--muted);font-size:12px}
+  @media print{
+    header,.toolbar,.dock,.panel{display:none!important}
+    body{background:white;color:black}.grid{padding:0;gap:8px}
+    .card{page-break-inside:avoid;background:white;border:1px solid #bbb;box-shadow:none}
+    .core{color:black}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="title">
+      <h1>Legal Calculus Educational System — LCES 4.5</h1>
+      <span class="pill">Dark • Offline • Single-File</span>
+      <span class="pill">Search • Filter • Bundle • Export • Print • Bake</span>
+    </div>
+    <div class="toolbar">
+      <input id="q" type="text" placeholder="Search across decks (id, title, core, tags)…  Try: FG-151  •  ‘barricade’  •  filing" />
+      <button class="btn btn-primary" id="importMdBtn">📥 Import MD</button>
+      <button class="btn" id="importJsonBtn">📥 Import JSON</button>
+      <button class="btn" id="bakeBtn">🍞 Bake HTML</button>
+      <button class="btn" id="exportJsonBtn">⬇️ Export JSON (view)</button>
+      <button class="btn" id="copyLinesBtn">📋 Copy Lines (view)</button>
+      <button class="btn" id="printBtn">🖨️ Print</button>
+      <span class="spacer"></span>
+      <label class="chip">Deck
+        <select id="deckFilter" class="small">
+          <option value="">All Decks</option>
+          <option value="LC">LC 4.5 — Base (LC-001–119)</option>
+          <option value="LC_ADV">LC 4.5 — Advanced (LC-001–119)</option>
+          <option value="LCFG">LCFG 4.5 — Field Guide (FG-001–1000)</option>
+          <option value="LCFG_ADV">LCFG 4.5 — Field Guide Advanced (FG-001–1000)</option>
+        </select>
+      </label>
+      <label class="chip">Volume
+        <select id="volFilter" class="small">
+          <option value="">All</option>
+          <option value="0">N/A (LC decks)</option>
+          <option value="1">1 — Foundations</option>
+          <option value="2">2 — Suppression</option>
+          <option value="3">3 — Visibility</option>
+          <option value="4">4 — Action</option>
+          <option value="5">5 — Growth</option>
+          <option value="6">6 — Clarity</option>
+          <option value="7">7 — Memory</option>
+          <option value="8">8 — Struggle</option>
+          <option value="9">9 — Value</option>
+          <option value="10">10 — Reflection</option>
+          <option value="11">11 — Resistance</option>
+          <option value="12">12 — Coalition</option>
+          <option value="13">13 — Exposure</option>
+          <option value="14">14 — Adaptation</option>
+          <option value="15">15 — Persistence</option>
+          <option value="16">16 — Coalition Memory</option>
+          <option value="17">17 — Restoration</option>
+          <option value="18">18 — Witness</option>
+          <option value="19">19 — Continuity</option>
+          <option value="20">20 — Sovereignty</option>
+        </select>
+      </label>
+      <label class="chip">Type
+        <select id="typeFilter" class="small">
+          <option value="">All</option>
+          <option>Filing</option><option>Silence</option><option>Denial</option>
+          <option>Default</option><option>Efficiency</option><option>Closure</option><option>Archive</option><option>Card</option>
+        </select>
+      </label>
+      <label class="chip">Sort
+        <select id="sortBy" class="small">
+          <option value="key-asc">ID ↑</option>
+          <option value="key-desc">ID ↓</option>
+          <option value="title-asc">Title A→Z</option>
+          <option value="title-desc">Title Z→A</option>
+        </select>
+      </label>
+    </div>
+  </div>
+</header>
+
+<div class="panel">
+  <span class="status" id="countStatus">Loading…</span>
+  <span class="status">Tip: <span class="kbd">Ctrl/Cmd+P</span> prints a clean deck. Use filters to narrow. Select cards to bundle.</span>
+</div>
+
+<main class="grid" id="grid"></main>
+
+<div class="dock">
+  <div class="wrap" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+    <span class="status">Selected: <b id="selCount">0</b></span>
+    <select id="bundleMode" class="small">
+      <option value="hearing">Bundle → Hearing</option>
+      <option value="motion">Bundle → Motion</option>
+      <option value="appeal">Bundle → Appeal</option>
+      <option value="raw">Bundle → Raw Lines</option>
+    </select>
+    <button class="btn btn-primary" id="bundleBtn">🧩 Build Bundle</button>
+    <button class="btn" id="copyBundleBtn">📋 Copy Bundle</button>
+    <button class="btn btn-danger" id="clearSelBtn">✖ Clear</button>
+  </div>
+  <div class="bundle" id="bundleBox">
+    <textarea id="bundleText" placeholder="Your bundle will appear here…"></textarea>
+    <div class="hint">Bundle includes FG/LC keys + core + model line (if present). Perfect for hearings, motions, or appeals.</div>
+  </div>
+</div>
+
+<!-- ===== Seed Library (small demo so the app runs instantly) ===== -->
+<script id="seed-json" type="application/json">
+{
+  "meta":{
+    "name":"LCES 4.5 Seed",
+    "version":"4.5.0",
+    "decks":{"LC":"LC 4.5","LC_ADV":"LC 4.5 Advanced","LCFG":"LCFG 4.5","LCFG_ADV":"LCFG 4.5 Advanced"},
+    "notes":"Use Import MD to add your complete decks, then Bake HTML."
+  },
+  "cards":[
+    /* --- LC 4.5 (Base) — demo (LC-001..LC-004) --- */
+    {"uid":1,"deck":"LC","key":"LC-001","volume":0,"type":"Filing","title":"Standing line","core":"Filing is protest on the record.","model":"“This filing preserved as protest against neglect.”","tags":["base"]},
+    {"uid":2,"deck":"LC","key":"LC-002","volume":0,"type":"Silence","title":"Silence documented","core":"Judicial silence is suppression, not absence.","model":"“Silence preserved as suppression of constitutional right.”"},
+    {"uid":3,"deck":"LC","key":"LC-003","volume":0,"type":"Denial","title":"Denial reframed","core":"Denial = recognition of the live claim.","model":"“Denial preserved as recognition of this filing.”"},
+    {"uid":4,"deck":"LC","key":"LC-004","volume":0,"type":"Archive","title":"Archive keeps life","core":"Archive shelters filings from erasure.","model":"“Record preserved as shelter against erasure.”","tags":["bonus-ok"]},
+
+    /* --- LC 4.5 Advanced — demo (LC-001..LC-003) --- */
+    {"uid":5,"deck":"LC_ADV","key":"LC-001","volume":0,"type":"Filing","title":"Advanced stance","core":"Lead with the remedy: the record.","model":"“Relief sought begins with preservation on the record.”","tags":["adv"]},
+    {"uid":6,"deck":"LC_ADV","key":"LC-002","volume":0,"type":"Efficiency","title":"Time ≠ justice","core":"Efficiency is not fairness—object and preserve.","model":"“Efficiency rationale preserved as shortcut around due process.”"},
+    {"uid":7,"deck":"LC_ADV","key":"LC-003","volume":0,"type":"Default","title":"Gaps are entries","core":"Default creates procedural openings to move.","model":"“Default preserved as opportunity to assert due process failure.”"},
+
+    /* --- LCFG 4.5 — Field Guide (FG demo: a handful from Vol 1) --- */
+    {"uid":101,"deck":"LCFG","key":"FG-001","volume":1,"type":"Filing","title":"Filing = Existence","core":"To file is to exist in the record.","model":"“This claim exists because it is filed on the record.”","tags":["foundations"]},
+    {"uid":102,"deck":"LCFG","key":"FG-002","volume":1,"type":"Silence","title":"Silence = Absence","core":"Silence leaves only absence; document the void.","model":"“Judicial silence preserved as absence of due process.”"},
+    {"uid":103,"deck":"LCFG","key":"FG-003","volume":1,"type":"Denial","title":"Denial = Recognition","core":"A denial recognizes what it seeks to dismiss.","model":"“Denial preserved as recognition of this claim’s presence.”"},
+    {"uid":104,"deck":"LCFG","key":"FG-004","volume":1,"type":"Default","title":"Default = Opportunity","core":"Procedural gaps open new opportunities to move.","model":"“Default preserved as opportunity to assert due process failure.”"},
+
+    /* --- LCFG 4.5 Advanced — Field Guide Advanced (FG demo) --- */
+    {"uid":201,"deck":"LCFG_ADV","key":"FG-001","volume":1,"type":"Filing","title":"Filing = Protest (Adv)","core":"Filing = protest + memory + remedy.","model":"“This filing preserved as protest, memory, and remedy.”","tags":["adv"]},
+    {"uid":202,"deck":"LCFG_ADV","key":"FG-002","volume":1,"type":"Efficiency","title":"Efficiency = Excuse (Adv)","core":"Speed without substance is an excuse—preserve the evasion.","model":"“Efficiency rationale preserved as excuse for due process denial.”"},
+    {"uid":203,"deck":"LCFG_ADV","key":"FG-003","volume":1,"type":"Archive","title":"Archive = Birthplace (Adv)","core":"Legal life begins in the archive; the appeal begins in the record.","model":"“This record preserved in archive as birthplace of claim.”"}
+  ]
+}
+</script>
+
+<script>
+(function(){
+  const $ = sel => document.querySelector(sel);
+  const $$ = sel => Array.from(document.querySelectorAll(sel));
+  const grid = $("#grid");
+  const state = {
+    cards: [],
+    selection: new Set()
+  };
+
+  // ---- Load seed (or local baked) ----
+  try{
+    const raw = $("#seed-json").textContent;
+    const seed = JSON.parse(raw);
+    state.cards = (seed.cards||[]).map(assignUid);
+  }catch(e){ console.error("Seed load error", e); state.cards=[]; }
+
+  // ---- UI refs ----
+  const q=$("#q"), deckF=$("#deckFilter"), volF=$("#volFilter"), typeF=$("#typeFilter"), sortF=$("#sortBy");
+  const count=$("#countStatus"), selCount=$("#selCount"), bundleBox=$("#bundleBox"), bundleText=$("#bundleText");
+
+  // ---- Events ----
+  q.addEventListener('input', debounce(render,120));
+  [deckF,volF,typeF,sortF].forEach(el=>el.addEventListener('change',render));
+  $("#printBtn").onclick=()=>window.print();
+  $("#clearSelBtn").onclick=()=>{state.selection.clear(); updateSel(); renderCards(current());};
+  $("#bundleBtn").onclick=buildBundle; $("#copyBundleBtn").onclick=()=>copyToClipboard(bundleText.value);
+  $("#copyLinesBtn").onclick=copyVisibleLines;
+  $("#exportJsonBtn").onclick=exportJson;
+  $("#importJsonBtn").onclick=importJsonFlow;
+  $("#importMdBtn").onclick=importMdFlow;
+  $("#bakeBtn").onclick=bakeHtml;
+
+  render();
+
+  // ---- Core listing ----
+  function current(){
+    const term = norm(q.value);
+    let list = state.cards.slice();
+
+    // deck filter
+    if(deckF.value) list = list.filter(c=>c.deck===deckF.value);
+
+    // volume filter
+    if(volF.value !== ""){
+      const v = Number(volF.value);
+      list = list.filter(c=>Number(c.volume||0)===v);
+    }
+    // type filter
+    if(typeF.value) list = list.filter(c=>(c.type||'').toLowerCase()===typeF.value.toLowerCase());
+
+    // search
+    if(term){
+      const words = term.split(/\s+/).filter(Boolean);
+      list = list.filter(c=>{
+        const hay = `${c.key} ${c.title} ${c.core} ${(c.tags||[]).join(' ')} ${(c.type||'')}`.toLowerCase();
+        return words.every(w=>hay.includes(w));
+      });
+    }
+
+    // sort
+    const [k,dir] = sortF.value.split('-'); 
+    list.sort((a,b)=>{
+      let A, B;
+      if(k==='key'){ A = cKeyToSort(a.key); B = cKeyToSort(b.key); }
+      else if(k==='title'){ A=(a.title||'').toLowerCase(); B=(b.title||'').toLowerCase(); }
+      else { A=a.uid; B=b.uid; }
+      return (dir==='asc') ? (A>B?1:-1) : (A<B?1:-1);
+    });
+
+    return list;
+  }
+
+  function render(){
+    const list = current();
+    const deckName = deckF.value || 'All Decks';
+    count.innerHTML = `Deck: <b>${deckLabel(deckF.value)}</b> • Showing <b>${list.length}</b> / <b>${state.cards.filter(c=>!deckF.value||c.deck===deckF.value).length}</b>`;
+    renderCards(list);
+  }
+
+  function renderCards(list){
+    grid.innerHTML='';
+    const frag = document.createDocumentFragment();
+    list.forEach(c=>{
+      const el=document.createElement('article'); el.className='card';
+      el.innerHTML = `
+        <div class="sel">
+          <input type="checkbox" data-sel="${c.uid}" ${state.selection.has(c.uid)?'checked':''}>
+          <span>${escape(c.key)}</span>
+        </div>
+        <h3>${escape(c.title)} <span class="muted">• ${escape(c.key)}</span></h3>
+        <div class="meta">
+          <span class="tag">${deckLabel(c.deck)}</span>
+          <span class="tag">Vol ${c.volume ?? 0}</span>
+          <span class="tag">${escape(c.type||'Card')}</span>
+        </div>
+        <div class="core">⚖️ ${escape(c.core||'')}</div>
+        ${c.model?`<div class="muted">✅ Model: ${escape(c.model)}</div>`:''}
+        <div class="row">
+          <button class="btn small" data-copy="${c.uid}">Copy line</button>
+          <button class="btn small" data-quote="${c.uid}">Quote</button>
+          <span class="spacer"></span>
+          <button class="btn small" data-json="${c.uid}">JSON</button>
+        </div>
+      `;
+      frag.appendChild(el);
+    });
+    grid.appendChild(frag);
+
+    $$('input[data-sel]').forEach(cb=>{
+      cb.onchange = e=>{
+        const uid = Number(cb.getAttribute('data-sel'));
+        cb.checked ? state.selection.add(uid) : state.selection.delete(uid);
+        updateSel();
+      };
+    });
+    $$('button[data-copy]').forEach(b=>b.onclick=()=>{const uid=+b.getAttribute('data-copy'); const c=find(uid); if(c) copyToClipboard(`${c.key} — ${c.title}: ${c.core}`);});
+    $$('button[data-quote]').forEach(b=>b.onclick=()=>{const uid=+b.getAttribute('data-quote'); const c=find(uid); if(c) copyToClipboard(`> ${c.key} — ${c.title}\n> ${c.core}\n— LCES 4.5`);});
+    $$('button[data-json]').forEach(b=>b.onclick=()=>{const uid=+b.getAttribute('data-json'); const c=find(uid); if(c) download(new Blob([JSON.stringify(c,null,2)],{type:'application/json'}), `${c.key}.json`);});
+    updateSel();
+  }
+
+  // ---- Bundles ----
+  function buildBundle(){
+    if(!state.selection.size){ bundleText.value=''; return; }
+    const mode=$("#bundleMode").value;
+    const items = state.cards.filter(c=>state.selection.has(c.uid)).sort((a,b)=>cKeyToSort(a.key)-cKeyToSort(b.key));
+    let out='';
+    if(mode==='raw'){
+      out = items.map(c=>`${c.key} — ${c.title}\n• ${c.core}\n`).join('\n');
+    } else if(mode==='hearing'){
+      out = `HEARING BUNDLE — LCES 4.5\n\n`+items.map(c=>`[${c.key}] ${c.title}\nCore: ${c.core}\nLine: ${c.model||c.core}\n`).join('\n');
+    } else if(mode==='motion'){
+      out = `MOTION BUNDLE — LCES 4.5\n\n`+items.map(c=>`• ${c.key} ${c.title}: ${c.core}`).join('\n');
+    } else {
+      out = `APPEAL BUNDLE — LCES 4.5\n\n`+items.map(c=>`${c.key} ${c.title}\nArgument: ${c.core}\n`).join('\n');
+    }
+    bundleText.value = out; bundleBox.style.display='block';
+  }
+  function copyVisibleLines(){ const lines=current().map(c=>`${c.key} — ${c.title}: ${c.core}`); copyToClipboard(lines.join('\n')); }
+
+  // ---- Import / Export ----
+  function importJsonFlow(){
+    pickFile('.json', file=>{
+      file.text().then(txt=>{
+        try{
+          const payload = JSON.parse(txt);
+          const cards = Array.isArray(payload) ? payload : (payload.cards||[]);
+          if(!cards.length) return toast('No cards in JSON.');
+          mergeCards(cards);
+          toast(`Imported ${cards.length} cards.`);
+          render();
+        }catch(e){ console.error(e); toast('Invalid JSON');}
+      });
+    });
+  }
+
+  function importMdFlow(){
+    const dlg=document.createElement('div');
+    dlg.innerHTML=`
+    <div style="position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:9999">
+      <div style="width:min(100%,1000px);max-height:90vh;overflow:auto;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px">
+        <h3 style="margin:4px 0 10px 0">Import Markdown</h3>
+        <p class="muted">Choose a destination deck, paste your Markdown, then pick <b>Parse & Append</b> or <b>Parse & Replace (deck)</b>.<br>
+           Headings like <code>### FG-001 — Title</code> or <code>### LC-001 — Title</code> with fields <em>Core Message</em> / <em>Model Response</em> work best.</p>
+        <div class="row" style="gap:8px;margin:8px 0 10px 0">
+          <label class="chip">Deck
+            <select id="mdDeck" class="small">
+              <option value="LC">LC 4.5 — Base (LC-001–119)</option>
+              <option value="LC_ADV">LC 4.5 — Advanced (LC-001–119)</option>
+              <option value="LCFG">LCFG 4.5 — Field Guide (FG-001–1000)</option>
+              <option value="LCFG_ADV">LCFG 4.5 — Field Guide Advanced (FG-001–1000)</option>
+            </select>
+          </label>
+        </div>
+        <textarea id="mdArea" style="width:100%;min-height:48vh;background:var(--sunken);color:var(--text);border:1px solid var(--border);border-radius:10px;padding:10px" placeholder="Paste Markdown…"></textarea>
+        <div class="row" style="margin-top:10px">
+          <button class="btn btn-primary" id="parseAppend">Parse & Append</button>
+          <button class="btn" id="parseReplace">Parse & Replace (deck)</button>
+          <span class="spacer"></span>
+          <button class="btn btn-danger" id="cancelMdBtn">Cancel</button>
+        </div>
+      </div>
+    </div>`;
+    document.body.appendChild(dlg);
+    const close=()=>dlg.remove();
+    dlg.querySelector('#cancelMdBtn').onclick=close;
+    dlg.querySelector('#parseAppend').onclick=()=>{
+      const deck = dlg.querySelector('#mdDeck').value;
+      const md = dlg.querySelector('#mdArea').value;
+      const cards = parseMarkdown(md, deck);
+      if(!cards.length) return toast('No cards parsed.');
+      mergeCards(cards, {deckMerge:true, deck});
+      toast(`Appended ${cards.length} → ${deckLabel(deck)}`);
+      close(); render();
+    };
+    dlg.querySelector('#parseReplace').onclick=()=>{
+      const deck = dlg.querySelector('#mdDeck').value;
+      const md = dlg.querySelector('#mdArea').value;
+      const cards = parseMarkdown(md, deck);
+      if(!cards.length) return toast('No cards parsed.');
+      // remove deck + insert
+      state.cards = state.cards.filter(c=>c.deck!==deck);
+      mergeCards(cards, {deckMerge:true, deck});
+      toast(`Replaced deck with ${cards.length} cards → ${deckLabel(deck)}`);
+      close(); render();
+    };
+  }
+
+  function exportJson(){
+    const payload={meta:{exportedAt:new Date().toISOString(),deck:deckF.value||'ALL'},cards:current()};
+    const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});
+    download(blob, `LCES-4.5.${deckF.value||'ALL'}.export.json`);
+  }
+
+  function bakeHtml(){
+    // Replace the seed with current library
+    const payload={meta:{name:"LCES 4.5 — Baked",bakedAt:new Date().toISOString(),count:state.cards.length},cards:state.cards};
+    const html = document.documentElement.outerHTML.replace(getSeedBlock(), `<script id="seed-json" type="application/json">\n${JSON.stringify(payload,null,2)}\n</script>`);
+    const blob=new Blob([html],{type:'text/html;charset=utf-8'});
+    download(blob,'LCES-4.5.baked.html');
+  }
+
+  // ---- Parsing Markdown ----
+  function parseMarkdown(md, deck){
+    if(!md || !md.trim()) return [];
+    const lines = md.replace(/\r\n/g,"\n").split("\n");
+    const out=[]; let cur=null;
+    const head=/^\s*(?:#{2,3}\s*)?(FG|LC)\s*[-–]\s*(\d{1,4})\s*—\s*(.+?)\s*$/i;
+    const headAlt=/^\s*(?:#{2,3}\s*)?(FG|LC)\s*(\d{1,4})\s*—\s*(.+?)\s*$/i;
+    const field=/^\s*-\s*(?:⚖️|📖|✏️|✅|💡|🎨)?\s*\*\*(.+?)\*\*:\s*(.+)\s*$/;
+
+    const push=()=>{ if(!cur) return;
+      // normalize
+      cur.title = cur.title || cur.raw || '';
+      cur.core  = cur.core  || cur.Core || cur['Core Message'] || '';
+      cur.model = cur.model || cur.Model || cur['Model Response'] || '';
+      cur.type  = cur.type  || guessType(cur.title);
+      cur.key   = cur.key   || `${cur.hkind}-${String(cur.num).padStart(3,'0')}`;
+      if(cur.hkind==='FG' && (cur.volume===undefined||cur.volume===null)) cur.volume = guessVol(cur.num);
+      if(cur.hkind==='LC') cur.volume = 0;
+      out.push(assignUid({
+        deck: deck || (cur.adv?'LCFG_ADV':'LCFG'),
+        key: cur.key, volume: cur.volume, type: cur.type, title: cur.title, core: cur.core, model: cur.model, tags: cur.tags||[]
+      }));
+    };
+
+    lines.forEach(line=>{
+      let h=head.exec(line) || headAlt.exec(line);
+      if(h){
+        push();
+        const kind = h[1].toUpperCase(); const num = Number(h[2]); const ttl=h[3];
+        cur={hkind:kind,num,raw:ttl,title:ttl,tags:[]};
+        cur.key = `${kind}-${String(num).padStart(3,'0')}`;
+        return;
+      }
+      if(!cur) return;
+      const f=field.exec(line);
+      if(f){
+        const k=f[1].toLowerCase(), v=f[2].trim().replace(/^“|”$/g,'');
+        if(k.includes('core')) cur.core=v;
+        else if(k.includes('model')) cur.model=v;
+        else if(k.includes('type')) cur.type=v;
+        else if(k.includes('tags')) cur.tags = v.split(',').map(s=>s.trim()).filter(Boolean);
+        return;
+      }
+      // tag hash lines like #action #appeal
+      if(line.trim().startsWith('#')) cur.tags.push(line.trim().slice(1).toLowerCase());
+    });
+
+    push();
+    // stamp destination deck for LC/FG if caller specified
+    if(deck){ out.forEach(c=>c.deck=deck); }
+    return out.filter(c=>c.key && c.title && c.core);
+  }
+
+  // ---- Helpers ----
+  function mergeCards(cards){
+    const byKeyDeck = new Map(state.cards.map(c=>[c.deck+'|'+c.key,c]));
+    cards.forEach(c=>{
+      const key = (c.deck||'')+'|'+(c.key||'');
+      byKeyDeck.set(key, assignUid(c));
+    });
+    state.cards = Array.from(byKeyDeck.values());
+  }
+
+  function exportState(){ return {cards:state.cards}; }
+  function find(uid){ return state.cards.find(c=>c.uid===uid); }
+  function assignUid(c){ if(!('uid' in c)) c.uid = Math.floor(Math.random()*1e9) ^ Date.now(); return c; }
+  function deckLabel(d){
+    return d==='LC'?'LC 4.5 — Base'
+      : d==='LC_ADV'?'LC 4.5 — Advanced'
+      : d==='LCFG'?'LCFG 4.5'
+      : d==='LCFG_ADV'?'LCFG 4.5 — Advanced'
+      : 'All Decks';
+  }
+  function guessVol(id){
+    return id<=50?1:id<=100?2:id<=150?3:id<=200?4:id<=250?5:id<=300?6:id<=350?7:id<=400?8:id<=450?9:id<=500?10:
+           id<=550?11:id<=600?12:id<=650?13:id<=700?14:id<=750?15:id<=800?16:id<=850?17:id<=900?18:id<=950?19:20;
+  }
+  function guessType(t){
+    t=(t||'').toLowerCase();
+    if(t.includes('filing'))return'Filing';
+    if(t.includes('silence'))return'Silence';
+    if(t.includes('denial'))return'Denial';
+    if(t.includes('default'))return'Default';
+    if(t.includes('efficiency'))return'Efficiency';
+    if(t.includes('closure'))return'Closure';
+    if(t.includes('archive'))return'Archive';
+    return 'Card';
+  }
+  function cKeyToSort(key){
+    // FG-001, LC-012 style → sortable number per prefix
+    if(!key) return 0;
+    const m=/^(FG|LC)\-(\d{1,4})$/i.exec(key.trim());
+    if(!m) return 0;
+    const base = m[1].toUpperCase()==='FG'?100000:0;
+    return base + Number(m[2]);
+  }
+
+  function download(blob,name){ const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=name; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),500); }
+  function pickFile(accept, cb){
+    const inp=document.createElement('input'); inp.type='file'; inp.accept=accept||'*/*';
+    inp.onchange=()=>{ if(inp.files&&inp.files[0]) cb(inp.files[0]); };
+    inp.click();
+  }
+  function copyToClipboard(text){
+    navigator.clipboard?.writeText(text).then(()=>toast('Copied')).catch(()=>{
+      const ta=document.createElement('textarea'); ta.value=text; document.body.appendChild(ta);
+      ta.select(); document.execCommand('copy'); ta.remove(); toast('Copied');
+    });
+  }
+  function toast(msg){
+    const t=document.createElement('div'); t.textContent=msg;
+    t.style.cssText='position:fixed;bottom:18px;right:18px;background:var(--sel);border:1px solid var(--border);padding:8px 10px;border-radius:10px;color:var(--text);z-index:9999';
+    document.body.appendChild(t); setTimeout(()=>t.remove(),1100);
+  }
+  function getSeedBlock(){ return $("#seed-json").outerHTML.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }
+  function norm(s){ return (s||'').toLowerCase().trim(); }
+  function escape(s){ return (s??'').replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m])); }
+  function debounce(fn,ms){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn.apply(this,a),ms); }; }
+  function updateSel(){ $("#selCount").textContent=state.selection.size; bundleBox.style.display = state.selection.size?'block':'none'; }
+})();
+</script>
+</body>
+</html>
+What you’ve got
+	•	One app that unifies LC 4.5 (base), LC 4.5 Advanced, LCFG 4.5, and LCFG 4.5 Advanced.
+	•	Instant search, deck/volume/type filters, select → bundle to Hearing/Motion/Appeal/Raw, export JSON, print mode, bake to a single portable file.
+	•	Import JSON works too if you prefer to load pre-parsed data.

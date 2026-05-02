@@ -1,0 +1,19 @@
+I've developed a structured system that leverages different AI tools for their core strengths in legal document preparation:
+
+## Process Overview
+
+- Clear Division of Labor:
+    - NotionAI as Concierge/Architect: Organizes structured data, facts, and timelines from my database.
+    - ChatGPT as Paralegal/Builder: Generates well-structured, formatted text for first drafts.
+    - Gemini as Strategist/Second Opinion: "Red teams" drafts, identifies weaknesses, and provides analytical reasoning.
+- Iterative Process: The loop back to ChatGPT for refinement is crucial. Legal drafting requires multiple review cycles.
+- Human-in-the-Loop: I remain the ultimate decision-maker, responsible for verifying facts, signing, and filing.
+- Documentation Focus: Maintaining clear records aligns with my philosophy that "the record is the remedy."
+
+## Success Factors
+
+- Quality of information organized in Notion
+- Precision of prompts at each handoff
+- Diligent verification of all AI-generated content
+
+This system creates a repeatable, systematic approach to producing legal work based on structured, evidence-based thinking.

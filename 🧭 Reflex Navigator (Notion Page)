@@ -1,0 +1,170 @@
+**Page Title:** `JC Reflex` 
+
+`Navigator`
+
+### 🔍 Instructions Block
+
+> Use this navigator to identify how the system is suppressing you. Each reflex links to a matching FG card and redirect protocol. This is your tactical map.
+> 
+
+---
+
+### 🔁 Reflex Table
+
+| Reflex | Trigger | FG Card | Redirect Action |
+| --- | --- | --- | --- |
+| **Denial** | Motion denied without reason | FG-021: *Denial is Recognition* | Refile with caption, TOA, certificate |
+| **Silence** | No ruling or docket entry | FG-034: *Silence is Suppression* | File Notice of Silence |
+| **Default** | No response from opposing party | FG-057: *Default is Opportunity* | File for default judgment |
+| **Positional** | Dismissed as premature | FG-062: *Timing is Framing* | Reframe with procedural timeline |
+| **Misalignment** | Lawyer failed to format | FG-003, FG-005 | Audit, refile, deploy ops buddy |
+| **Erasure** | Filing removed or ignored | FG-073: *Refile to Remember* | Refile with enhanced formatting |
+| **Legacy Risk** | Reputation under threat | FG-099: *Legacy is Deployment* | Build public doctrine page |
+
+```markdown
+| Reflex | Trigger | FG Card | Redirect Action |
+|--------|---------|---------|------------------|
+| **Denial** | Motion denied without reason | FG-021: *Denial is Recognition* | Refile with caption, TOA, certificate
+| **Silence** | No ruling or docket entry | FG-034: *Silence is Suppression* | File Notice of Silence
+| **Default** | No response from opposing party | FG-057: *Default is Opportunity* | File for default judgment
+| **Positional** | Dismissed as premature | FG-062: *Timing is Framing* | Reframe with procedural timeline
+| **Misalignment** | Lawyer failed to format | FG-003, FG-005 | Audit, refile, deploy ops buddy
+| **Erasure** | Filing removed or ignored | FG-073: *Refile to Remember* | Refile with enhanced formatting
+| **Legacy Risk** | Reputation under threat | FG-099: *Legacy is Deployment* | Build public doctrine page
+
+```
+
+---
+
+### 🧠 Reflex Detection Prompts
+
+**Toggle Blocks:**
+
+- “My motion was denied.” → JC-Denial → FG-021
+- “The court hasn’t ruled.” → JC-Silence → FG-034
+- “No response from opposing party.” → JC-Default → FG-057
+- “Dismissed as premature.” → JC-Positional → FG-062
+- “My lawyer didn’t include formatting.” → LCa-Misalignment → FG-003, FG-005
+- “My filing disappeared.” → JC-Erasure → FG-073
+- “I’m worried about reputation.” → LCA-Legacy → FG-099
+
+Each toggle links to:
+
+- FG Card preview
+- Redirect protocol
+- Deployment asset
+
+---
+
+## 🔁 Visual Redirect Flowchart (Text-Based for Notion or Print)
+
+## 🔁 Redirect Flowchart
+
+Start → Reflex Detected
+
+→ JC-Denial
+
+→ FG-021: *Denial is Recognition*
+
+→ Refile with caption, TOA, certificate
+
+→ Archive in LCA
+
+→ JC-Silence
+
+→ FG-034: *Silence is Suppression*
+
+→ File Notice of Silence
+
+→ Archive in LCA
+
+→ JC-Default
+
+→ FG-057: *Default is Opportunity*
+
+→ File for default judgment
+
+→ Archive in LCA
+
+→ JC-Positional
+
+→ FG-062: *Timing is Framing*
+
+→ Reframe with procedural timeline
+
+→ Cite memory
+
+→ LCa-Misalignment
+
+→ FG-003, FG-005
+
+→ Audit lawyer
+
+→ Refile with armor
+
+→ Deploy ops buddy
+
+→ JC-Erasure
+
+→ FG-073: *Refile to Remember*
+
+→ Refile with enhanced formatting
+
+→ Preserve procedural memory
+
+→ LCA-Legacy
+
+→ FG-099: *Legacy is Deployment*
+
+→ Build public doctrine page
+
+→ Protect reputation
+
+**Page Title:** `Redirect Flowchart`
+
+```markdown
+## 🔁 Redirect Flowchart
+
+Start → Reflex Detected
+
+→ JC-Denial
+ → FG-021: *Denial is Recognition*
+ → Refile with caption, TOA, certificate
+ → Archive in LCA
+
+→ JC-Silence
+ → FG-034: *Silence is Suppression*
+ → File Notice of Silence
+ → Archive in LCA
+
+→ JC-Default
+ → FG-057: *Default is Opportunity*
+ → File for default judgment
+ → Archive in LCA
+
+→ JC-Positional
+ → FG-062: *Timing is Framing*
+ → Reframe with procedural timeline
+ → Cite memory
+
+→ LCa-Misalignment
+ → FG-003, FG-005
+ → Audit lawyer
+ → Refile with armor
+ → Deploy ops buddy
+
+→ JC-Erasure
+ → FG-073: *Refile to Remember*
+ → Refile with enhanced formatting
+ → Preserve procedural memory
+
+→ LCA-Legacy
+ → FG-099: *Legacy is Deployment*
+ → Build public doctrine page
+ → Protect reputation
+
+```
+
+---
+
+Here’s your **Reflex Navigator** and **Visual Redirect Flowchart**—designed for Notion deployment and printable coalition use. These tools help users identify suppression patterns, activate FG cards, and follow redirect protocols with clarity and speed.

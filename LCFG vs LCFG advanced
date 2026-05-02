@@ -1,0 +1,26 @@
+LCFG (Classic) vs LCFG Advanced 5.0 — what actually differs
+	•	Same corpus: Both include all 1000 cards (FG 1–1000).
+	•	Packaging
+	•	Classic: Reader-first (Markdown/PDF/Docx).
+	•	Advanced: Single-file HTML app (dark mode) with instant search, filters, keyboard nav, print CSS.
+	•	Structure / Data model
+	•	Classic: Free-form text.
+	•	Advanced: Each card has an ID, volume, type, phase, and tags → enables filtering, linking, and export.
+	•	Action layer
+	•	Classic: Concepts + model responses.
+	•	Advanced: Adds drop-in filing language, hearing/motion/appeal hooks, and “Ready-to-file” one-liners.
+	•	Cross-linking
+	•	Classic: Linear volumes.
+	•	Advanced: Cross-references (related cards, “next tactical step”), quick-jump index.
+	•	Consistency & QA
+	•	Classic: Varied metaphors/phrasing across volumes.
+	•	Advanced: Normalized terminology, de-duplicated overlaps, uniform voice.
+	•	Exports
+	•	Classic: Print/share the document.
+	•	Advanced: Export JSON (data), Bake HTML (snapshot) for offline/print packs.
+	•	License surfacing
+	•	Same terms, but Advanced puts attribution / no-profit notice in the UI and print footer.
+
+Rule of thumb:
+If you’re reading/teaching, Classic is perfect.
+If you’re drafting and moving fast, Advanced gives you the structured, searchable, copy-paste-ready toolkit on top of the same 1000

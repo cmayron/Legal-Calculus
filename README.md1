@@ -1,0 +1,16 @@
+# LCES — Legal Calculus Education System (iOS)
+
+Prebaked, offline school for procedural justice. 119 modules + 1,000 FG cards, with a prebuilt search index.
+
+## Build
+- Requires Xcode 15+, iOS 16+.
+- (Optional) Generate project with XcodeGen: `brew install xcodegen && xcodegen generate`.
+
+## Prebaked content (must be in app bundle)
+- `App/ResourcesPrebaked/payload/manifest.json`
+- `App/ResourcesPrebaked/payload/content.zip` (root: `content/`)
+- `App/ResourcesPrebaked/db/lces.sqlite`
+- Onboarding slides + licenses
+
+## Privacy
+Data Not Collected. No background networking. Manual, on-demand updates only (Settings → Check for Content Updates).

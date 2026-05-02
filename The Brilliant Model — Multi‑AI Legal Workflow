@@ -1,0 +1,210 @@
+A repeatable system for turning ideas into filings, using Notion AI (Architect), ChatGPT (Builder), and Gemini (Strategist).
+
+Status: v1.0 • Authors: ChatGPT‑5 Thinking & Charles Mayron, MD, FACS
+
+# **0) One‑Screen Summary**
+
+Goal: Draft, review, and file high‑quality legal documents quickly and consistently.
+
+Pipeline: Architect → Builder → Strategist → Sign & Ship → Archive
+
+- Architect — Notion AI: Organize facts, exhibits, deadlines; pull the exact blocks you need.
+- Builder — ChatGPT: Generate structured drafts from canonical templates.
+- Strategist — Gemini: Attack your own draft; strengthen logic and strategy.
+
+Handoffs:
+
+1. Brief Intake (Architect ➜ Builder) → Draft (Builder)
+2. Draft Review (Builder ➜ Strategist) → Redlines (Strategist)
+3. Decision & Final (Strategist ➜ You) → Sign & Serve → Archive (Architect)
+
+Guarantees: Every output has (a) dated facts, (b) rule cites, (c) exhibit anchors, (d) service plan.
+
+# **1) Roles, Responsibilities, and Guardrails (RACI‑style)**
+
+Architect — Notion AI (Accountable/Inform):
+
+- Curates the LCES Library (LC, LCa, JC, FG, FGA).
+- Surfaces facts, deadlines, prior filings, exhibits, service proofs.
+- Maintains Matter Dashboard: timeline, tasks, owners, due dates, status.
+
+Builder — ChatGPT (Responsible):
+
+- Produces first‑pass drafts using LCES canonical templates.
+- Inserts fact pins (📎), rule anchors (⚖️), and exhibit stubs (🗂️).
+- Generates checklists, proposed orders, COS/NOF/NOL.
+
+Strategist — Gemini (Consult):
+
+- Runs stress‑tests: plausibility, jurisdiction, abstention, QI/Monell, remedies.
+- Flags holes, admissions, opponent angles, judge reflex risks (JC).
+- Returns redlines + priority revisions (P0/P1/P2).
+
+You (Approve):
+
+- Decide scope, facts allowed, exhibits, and risk posture.
+- Sign & Serve; log service proofs; trigger archive & publish.
+
+Guardrails:
+
+- Never let an AI invent facts/citations. Everything ties back to a Notion block ID or uploaded exhibit.
+- Every filing tracks TNRPESC: Timing • Narrative • Relief • Procedure • Evidence • Service • Citations.
+
+# **2) Handoff Protocols (Exact Prompts)**
+
+A. Architect ➜ Builder (Brief Intake)
+
+# Notion AI: “Gather all blocks tagged [Motion to Dismiss — Case 1:25‑cv‑01092] that mention service, jurisdiction, and Younger. Include deadlines, judge, and opposing counsel details. Return as a single outline with inline links.”
+
+B. Builder First Draft (Template Pull)
+
+# ChatGPT: “Using LC Module 12 and the intake outline below, draft a [Document Type] with: (1) Caption, (2) Preliminary Statement, (3) Facts with date‑stamped bullets and exhibit pins, (4) Legal Standard, (5) Argument [A/B/C], (6) Relief, (7) Proposed Order, (8) NOF/NOL/COS. Use neutral tone, numbered headings, and footnote cites.”
+
+C. Builder ➜ Strategist (Red Team)
+
+# ChatGPT ➜ Gemini handoff note: “Audit this draft like opposing counsel and like the judge (JC Tiers J1–J5). Identify top 5 vulnerabilities, missing record cites, and any relief mismatch. Return P0/P1 changes with suggested text.”
+
+D. Strategist Redlines (Return Packet)
+
+# Gemini: “Here are P0 fixes (must do before filing), P1 improvements (high value), P2 polish (optional). I’ve added counter‑arguments to anticipated defenses and a short reply outline.”
+
+E. Finalization & Archive (You ➜ Architect)
+
+# You: “Log final draft, attach service proofs (FedEx/USPS RRR), and update the Matter Dashboard: status = ‘Filed’, link ECF docket, schedule follow‑ups.”
+
+# **3) The Matter Dashboard (copy this into Notion)**
+
+Properties: Case • Judge • Phase • Due‑by (📅) • Risk Level • Document Type • Status • Links (ECF, GitHub, Substack) • People (AAG, clerk) • Next Action • Owner
+
+Views: Timeline • This Week • By Document Type • Risks • Waiting On Others
+
+Board Columns: Intake → Drafting → Red Team → Final Proof → Filed/Served → Archived/Published
+
+# **4) Canonical Templates (Builder Library)**
+
+- Status Letter re: Service & PI
+- Memorandum in Support/Opposition (Winter factors)
+- Rule 65 TRO (+ notice cert)
+- Proposed Order
+- COS / NOF / NOL
+- Service Plan (matrix by party/capacity)
+- Exhibit Index (with hash + source notes)
+
+# Tip: Store each template as a Notion block with a stable ID; Builder references IDs, not memory.
+
+# **5) Review & Stress‑Test Checklists (Strategist)**
+
+Plausibility / Rule 12: Element‑by‑element mapping table; weakest element?
+
+Jurisdiction/Gatekeeping: Standing, ripeness, exhaustion, service, venue.
+
+Younger/Abstention: Ongoing state proceeding? Bad‑faith exception? Adequate forum?
+
+Remedies: Irreparable harm evidence; bond; scope and specificity of injunction (Rule 65).
+
+Record Hygiene: Each assertion dated + exhibit; no orphan claims; relief matches facts.
+
+# **6) Quality Bar (Definition of Done)**
+
+A filing is Done when:
+
+1. Every fact has a date + exhibit/ref.
+2. Every section ties to a rule/standard.
+3. Relief requested matches posture and evidence.
+4. Service plan is executable today (addresses, method, forms).
+5. Archive pack generated: PDF + DOCX + Proposed Order + COS/NOF/NOL + Exhibit Index + hashes.
+6. Matter Dashboard updated; follow‑ups scheduled.
+
+# **7) Evidence & Exhibit Discipline**
+
+- Exhibit Card: Title • Date • Source • Chain‑of‑custody note • SHA‑256 • Where cited.
+- No orphan exhibits: Every exhibit appears in at least one numbered paragraph.
+- Image/PDF handling: Keep originals; only annotate copies; store both.
+- Mailbox Rule Kit: Tracking numbers, RRR scans, clerk calls, timestamped notes.
+
+# **8) Service Matrix (Who gets what, how, when)**
+
+| **Party** | **Capacity** | **Method** | **Address** | **Proof Artifact** |
+| --- | --- | --- | --- | --- |
+| AAG | Official | USPS RRR + FedEx | [Address] | Receipt scan + tracking |
+| Commissioner | Official | Process server | [Address] | Affidavit of service |
+| Individual‑capacity defendant | Individual | Personal service | [Address] | Affidavit + photo (if allowed) |
+
+Automation Cue: After service, auto‑create a Notion task: “File COS/NOL by [date].”
+
+# **9) Versioning & Audit Trail**
+
+- File Names: YYYY‑MM‑DD_doc‑type_vX_author.docx
+- Change Log: What changed, why, by whom (ChatGPT/Gemini/You).
+- Decision Log: “We accept risk X because Y.”
+- Publish Log: Notion → GitHub mirror → Substack excerpt (if public).
+
+# **10) Daily/Weekly Rituals**
+
+Daily (10 min): Inbox triage → 1 P0 task → 1 micro‑win.
+
+Mon/Wed/Fri (15 min): Brief “red team” loop with Strategist.
+
+Weekly (20 min): Matter review with Architect; close stale tasks.
+
+Monthly (30 min): Template upgrades from lessons learned.
+
+# Tiny nudge for stamina: consider a short check‑in with a supportive friend or coach once a week. A calm outside voice keeps the system humane and focused.
+
+# **11) Metrics & Scorecard**
+
+- Cycle Time: Intake → Filed (days).
+- Defect Rate: Strategist P0s per draft.
+- Evidence Coverage: % assertions with exhibits.
+- Service Success: On‑time/first‑attempt %.
+- Win Surrogates: Survived MTD? PI factors accepted? Court adopted language?
+
+# **12) Safety, Privacy, and Ethics**
+
+- No uploading confidential PII to public spaces.
+- Strip metadata before sharing.
+- Use neutral, non‑accusatory tone unless quoting.
+- Mark AI‑assisted sections internally (not in filed docs).
+- Keep a Private Notes page for strategy that never leaves Notion.
+
+# **13) Starter Prompt Packs**
+
+Architect (Notion AI):
+
+- “List every block tagged [service‑proof] for Case [X] with dates and tracking numbers.”
+- “Show me all evidence related to [Motion to Dismiss], grouped by element.”
+
+Builder (ChatGPT):
+
+- “Draft a Status Letter re Service & PI. Use the intake outline + LC Module 29. Include COS/NOL/NOF stubs.”
+- “Generate a Proposed Order consistent with Sections IV–V.”
+
+Strategist (Gemini):
+
+- “Red‑team this draft against JC J1–J5. Return P0/P1/P2 with suggested text. Identify any relief mismatch.”
+
+# **14) Attachments & Shortcuts**
+
+- Template Library (links): LC, LCa, JC, FG, FGA
+- Filing Kit: Proposed Order, COS, NOF, NOL, Certificate of Service, Mail Cover
+- Service Addresses Sheet
+- Clerk Call Log
+
+# **15) Human Support (Resilience Box)**
+
+- Add a recurring 15‑minute weekly check‑in with a trusted friend/ally to sanity‑check priorities.
+- If stress spikes before deadlines, book a brief counseling session to keep decision‑making sharp; it’s performance hygiene, not a luxury.
+
+# **16) “When Things Go Sideways” — Rapid Protocol**
+
+1. Freeze scope; list the top 3 risks.
+2. Pull JC micro‑cards for the relevant reflex (gatekeeping, discretion, discovery).
+3. Builder drafts a 1‑page status letter; Strategist returns P0 fixes in 30‑minute pass.
+4. You decide: file now vs. hold for exhibit.
+
+# **17) Poster (Fits on One Page)**
+
+Architect → Builder → Strategist → Sign & Ship → Archive
+
+- Facts dated. Rules cited. Exhibits pinned. Relief matched. Service planned.
+- You’re never starting from scratch; you’re running the Model.

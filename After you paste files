@@ -1,0 +1,9 @@
+# from repo root
+chmod +x scripts/package_prebaked.sh
+chmod +x scripts/checksums_sha256.py
+chmod +x scripts/pre_release_check.py
+# (if you added it)
+chmod +x scripts/ship_prebaked.sh
+git add .
+git commit -m "app skeleton, tests, workflows, scripts"
+git push

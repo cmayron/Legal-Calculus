@@ -1,0 +1,193 @@
+# **Notion workspace blueprint**
+
+# **Homepage: “🧮 LCES — Start Here”**
+
+- Callout (top): Not legal advice. Use at your own risk. LCES is an educational toolkit to structure filings and build the record.
+- Mode tiles (as toggles or buttons):
+    - 🚨 Pro Se Emergency
+    - 🧭 Guided Filing (LC + FG)
+    - ⚖️ JC / LCa Caveats (judge/lawyer calculus risks & constraints)
+    - 🎓 Educator Track (LCA / FGA)
+    - 🔁 Second-Opinion Run
+    - 🗂 Case Studies (SOL Preservation, Clerk Returns, etc.)
+- 
+- Quick links: GitHub repo • Substack overview • “How to Paste into ChatGPT”
+
+# **Database 1 —**
+
+# **LC Modules**
+
+# **(1–119)**
+
+Properties (create these columns):
+
+- Number (e.g., 14)
+- Title (text)
+- Tier (select: Foundations / Lawfare Resistance / Sovereignty / Memory / Futures / etc.)
+- Core Message (text)
+- Lesson (rich text)
+- Assignment (rich text)
+- Model Answer (rich text)
+- Visual/Asset (file)
+- ChatGPT Paste Block (rich text; see universal prompt below)
+- Tags (multi-select: Procedure, Evidence, Service, Relief, SOL, Clerk, NPT, etc.)
+- Version (e.g., 4.5)
+- Updated (date)
+- Hash (text, optional)
+
+# “Mini” subpage in each module (“Micro-Module”) with a 1–2 paragraph quick-teach + a 5-line checklist. That’s what users will paste into ChatGPT during emergencies.
+
+# **Database 2 —**
+
+# **FG Field Guide Cards**
+
+# **(FG 001–1000)**
+
+Properties:
+
+- ID (e.g., FG-172)
+- Card Title
+- Core (1–2 lines)
+- Checklist (bulleted)
+- Example (short)
+- Paste Block (see below)
+- Tags (e.g., TRO, Filing Hygiene, NPT, SOL, Arbitration, Clerk)
+- Track (select: Emergency / Planning / Evidence / Service / Appeals)
+
+# **Database 3 —**
+
+# **Pro Se Emergency Box**
+
+# **(fast routes)**
+
+Make a template page for each emergency. Examples:
+
+1. SOL Preservation (Clerk Return / NPT)
+    - Goal: lock filing date to first receipt (pre-SOL).
+    - Steps (checklist): Timeline page → Evidence pack (RRR, pre-SOL stamps, deposit stamp) → Short NPT motion → Do Not Return Without Court Order notice → Proposed minute entry.
+    - Paste Block: “Emergency NPT helper” (below).
+    - Attachments: your PDFs (Packets 1–3, Timeline, Master Index).
+2. 
+3. TRO/PI Starter (Winter)
+4. Service of Process Clock (90 days)
+5. Clerk Ping-Pong Cure (paper vs e-file)
+
+# **Database 4 —**
+
+# **JC / LCa Caveats**
+
+Short, teachable pages:
+
+- “Judicial Efficiency ≠ Justice” — why ministerial returns ≠ SOL reset; how to ask for minute entries instead of returns.
+- “Paper Filer Disparity” — itemized portal rejections vs wholesale paper returns; request leave to e-file.
+- “Arbitration Trap Map” — how corporate defendants use cost/venue to wear you down + counter-moves.
+- “Class-of-One” Equal-Protection Exposure — when paper-only treatment becomes arbitrary.
+
+Each page includes a “Paste to ChatGPT” instruction so the model can warn users in real time.
+
+# **Database 5 —**
+
+# **Educator Track (LCA / FGA)**
+
+- LCA Modules (advanced theory, case studies, doctrine stacks).
+- FGA Cards (1000-card deep practice).
+- Teaching packs: slide links, assignments, rubrics, SCORM/xAPI files.
+
+# **Database 6 —**
+
+# **Second-Opinion Run**
+
+Create a page with the 8-step loop (your “Legal Second-Opinion Run”):
+
+1. Issue → 2. Facts → 3. Rule/Standard → 4. Procedure/Timing →
+2. Relief Sought → 6. Evidence/Exhibits → 7. Formatting/Service → 8. Risk Check (JC/LCa caveats)
+
+Add a single paste block for ChatGPT (below) that takes that structure and returns a clean, actionable plan.
+
+# **Universal “Paste to ChatGPT” blocks**
+
+# **A) Loader**
+
+You are my LCES assistant. I will paste LC modules, FG cards, and JC/LCa caveats from Notion.
+Your job:
+
+1. Build a mini-index from what I paste (titles + IDs).
+2. When I say my goal (e.g., “preserve SOL”), map it to the best LC modules, FG cards, and caveats.
+3. Give me a 10-step action plan that is procedural and safe (timing, service, exhibits, proposed orders).
+4. Flag JC/LCa risk points (e.g., clerk ping-pong, paper disparity) and show cures.
+5. Return a short filing checklist and a 90-day service calendar tickler.
+Keep responses concise and actionable. If I paste exhibits, generate a one-page index I can drop in a brief.
+
+**B) Emergency NPT helper (for SOL Preservation page)**
+
+Goal: preserve the statute date via constructive filing.
+Here are my facts and exhibits (RRR date, pre-SOL received stamps, check “FOR DEPOSIT ONLY” stamp, clerk return notices).
+Tasks for you:
+
+- Draft a 2-page Motion to Accept Filing Nunc Pro Tunc (bulleted facts + short law).
+- Draft a 1-page Notice of Constructive Denial.
+- Draft a 1-page [Proposed] Minute Entry ordering NPT to the earliest pre-SOL stamp and requiring itemized deficiency notices (no wholesale returns); grant leave to e-file.
+- Output a one-page Exhibit Index and a one-page Timeline.
+Return everything ready to copy/paste.
+
+**C) Second-Opinion template (any issue)**
+
+I’ll paste: ISSUE, FACTS, RULE/STD, PROCEDURE/TIMING, RELIEF, EVIDENCE, FORMAT/SERVICE, RISKS (JC/LCa).
+Create:
+
+- A clean plan (≤12 steps) with deadlines.
+- Exhibit list w/ filenames.
+- One paragraph of “what could go wrong and how to fix it.”
+- A final 5-line “before you file” hygiene check.
+
+# **🚨 Pro Se Emergency**
+
+- Banner: “When in doubt: fix the timeline, fix the service, fix the format.”
+- Quick actions:
+    - “Paste Emergency NPT helper into ChatGPT”
+    - “Upload exhibits (PDFs) → Generate Index + Timeline”
+    - “Copy Proposed Minute Entry → send to Presiding Civil JA + Clerk GC”
+- 
+- Buddy tip: add a small note: “Ask a trusted friend to glance at your packet before mailing—fresh eyes catch missing stamps/envelopes.” (quiet community support)
+
+# **⚖️ JC / LCa — Paper Filer Disparity**
+
+- Core: Electronic filers get itemized portal errors; paper filers get wholesale returns. Cure: ask for minute entry and leave to e-file.
+- Checklist: NPT ask • Don’t-return-without-order ask • SASE on top • Single category checked on CV10f • Proposed minute entry included.
+
+# **📚 Educator On-Ramp (LCA/FGA)**
+
+- Use case: clinics, classes, CLE.
+- Pack: 10 LC modules + 30 FG cards + 5 JC caveats; assignments + model answers.
+- Call to action: “Copy ‘Loader’ prompt and paste 3–5 cards to start in class.”
+
+# **Case study page**
+
+Title: Case Study — SOL Preservation vs. Clerk Returns (Maricopa)
+
+Intro (2–3 lines): A live example of constructive filing with pre-SOL receipts and post-SOL ping-pong.
+
+Attachments:
+
+- Master_Exhibit_Index_SOL_Binder.pdf
+- SOL_Timeline_OnePager.pdf
+- Maricopa_Return_2025-09-17_Packet1of2.pdf
+- Maricopa_SOL_Proof_Packet2of2.pdf
+- Maricopa_SOL_Proof_Packet3of3.pdf
+Teaching notes: Where JC/LCa dynamics showed up; how the Proposed Minute Entry solves the “paper-only” disadvantage.
+Paste Block: Emergency NPT helper.
+
+# **Tag taxonomy**
+
+- Domain: Employment/Retaliation, Licensing, Records, Arbitration, §1983
+- Procedure: Filing, Service, SOL, NPT, TRO/PI, Appeal, Special Action
+- Venue: Maricopa, SDNY, NDNY, D. Ariz, etc.
+- Risk (JC/LCa): Paper Disparity, Portal vs Counter, Clerk Overreach, Judicial Efficiency, Arbitration Trap
+
+# **“How to paste into ChatGPT”**
+
+1. Copy the Loader.
+2. Paste 1–3 Micro-Modules or FG cards relevant to your problem.
+3. Paste the Emergency helper (if urgent).
+4. Paste your facts/exhibits (or links to your PDFs) and say: “Generate the filing plan + index.”
+5. Ask for a 5-line hygiene check before you mail or e-file

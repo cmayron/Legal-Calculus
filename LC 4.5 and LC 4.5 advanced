@@ -1,0 +1,31 @@
+Here’s the crisp diff between LC 4.5 and LC 4.5 Advanced:
+
+TL;DR
+	•	Same corpus & doctrine (FG 1–1000, license, tone).
+	•	Advanced = LC 4.5 + structure + action tooling + searchable single-file app.
+
+What’s identical
+	•	Content set: all 1000 Field Guide cards (messages, lessons, assignments, model lines).
+	•	Organizing volumes/themes.
+	•	Non-profit, attribution-required license.
+
+What Advanced adds (on top of LC 4.5)
+	1.	Packaging/UI
+	•	Single-file HTML app (dark mode) with instant search, volume jump, and keyboard nav.
+	•	Copy buttons for “ready-to-file” lines; print-optimized CSS.
+	2.	Structure
+	•	Each card carries IDs, tags, and phases → filter by topic (e.g., suppression, appeal posture).
+	•	Cross-links: related cards / “next tactical step.”
+	3.	Action Layer
+	•	Ready-to-file one-liners and hooks for motions, hearings, appeals.
+	•	Small bundlers (hearing pack / appeal pack) from selected cards.
+	4.	Quality & Consistency
+	•	Normalized terminology, reduced duplication, tighter model-response voice.
+	5.	Exports
+	•	JSON export (data model) + baked HTML snapshot for offline/print kits.
+	6.	Guardrails
+	•	Inline license banner, footer imprint, and version note across exports.
+
+When to choose which
+	•	LC 4.5 (classic): Reading, teaching, simple reference (MD/PDF/Docx).
+	•	LC 4.5 Advanced: Fast drafting, workshops, courtroom prep—when you need search, filters, bundles, and copy-ready language.

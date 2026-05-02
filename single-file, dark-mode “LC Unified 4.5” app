@@ -1,0 +1,728 @@
+single-file, dark-mode “LC Unified 4.5” app that bundles the whole toolkit in one HTML:
+Field Guide (import/search/bundle/print/JSON), Case Journal, Clause Bank, Mock Hearing, and Settings — all offline, no dependencies. It also ships with an embedded Markdown preload block so you can bake in FG 1–1000.
+Save as LC-Unified-4.5.html, open locally.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>LC Unified 4.5 — Field Guide • Journal • Clause Bank • Hearing</title>
+<meta name="color-scheme" content="dark light" />
+<style>
+:root{
+  --bg:#0c0f14; --panel:#121724; --ink:#e8edf6; --muted:#aab3c2; --line:#232a39;
+  --accent:#66f0c6; --accent2:#87a3ff; --danger:#ff6b6b; --warn:#ffd166; --ok:#66f0c6;
+  --chip:#1a2030; --chip-ink:#cbd5e1; --focus:#27314a;
+  --card:#0e1420; --cardBorder:#20293a; --shadow:0 10px 30px rgba(0,0,0,.35), 0 2px 10px rgba(0,0,0,.25);
+  --radius:14px; --ff: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans";
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:linear-gradient(180deg,#0b0e13 0%,#0a0d12 100%);color:var(--ink);font:14px/1.45 var(--ff)}
+a{color:var(--accent)} a:hover{filter:brightness(1.1)}
+button,input,select,textarea{font:inherit;color:inherit}
+kbd{background:#18202e;color:#dbe6ff;padding:.1rem .35rem;border-radius:6px;border:1px solid #243049}
+hr{border:0;border-top:1px solid var(--line);margin:12px 0}
+.container{max-width:1280px;margin:0 auto}
+.topbar{
+  position:sticky;top:0;z-index:10;background:linear-gradient(180deg,#0f1420,#0b0f16);
+  border-bottom:1px solid var(--line);box-shadow:var(--shadow);padding:10px 14px;
+  display:flex;gap:.8rem;align-items:center
+}
+.brand{display:flex;align-items:center;gap:.6rem;font-weight:800;letter-spacing:.2px}
+.brand .dot{width:10px;height:10px;border-radius:2px;background:linear-gradient(120deg,var(--accent),#8af5ff)}
+.nav{display:flex;gap:.35rem;flex-wrap:wrap;margin-left:8px}
+.tab{
+  border:1px solid var(--line);background:var(--panel);padding:8px 10px;border-radius:10px;cursor:pointer
+}
+.tab.active{outline:2px solid var(--accent2);outline-offset:1px}
+.mode-toggle{margin-left:auto;display:flex;gap:.3rem}
+.mode-toggle button{border:1px solid var(--line);background:var(--panel);padding:6px 10px;border-radius:999px}
+.mode-toggle button.active{background:var(--focus)}
+.main{padding:12px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.panel-head{padding:12px 14px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:.6rem}
+.panel-body{padding:12px 14px}
+.row{display:flex;gap:12px;flex-wrap:wrap}
+.col{flex:1 1 0}
+.input,.select,.textarea{background:#0f1522;border:1px solid #283149;border-radius:10px;padding:9px 12px;color:var(--ink)}
+.textarea{min-height:120px;resize:vertical}
+.btn{border:1px solid var(--line);background:#0f1522;border-radius:10px;padding:8px 12px;cursor:pointer}
+.btn.primary{border-color:#2b3551;background:linear-gradient(180deg,#1a2030,#121826);color:#eaf3ff}
+.btn.ok{border-color:#24483a;background:linear-gradient(180deg,#103126,#10251f)}
+.btn.warn{border-color:#4b3c12;background:linear-gradient(180deg,#2c2210,#221c0f)}
+.btn.danger{border-color:#552529;background:linear-gradient(180deg,#2b0f11,#200c0d)}
+.chips{display:flex;gap:.35rem;flex-wrap:wrap}
+.chip{background:var(--chip);color:var(--chip-ink);border:1px solid var(--line);padding:6px 10px;border-radius:999px;cursor:pointer}
+.chip.active{background:#273043;color:#eaf2ff;border-color:#3a4660}
+.sep{width:1px;height:26px;border-left:1px solid var(--line)}
+/* GRID */
+.grid{display:grid;grid-template-columns:2fr 1fr;gap:12px}
+.grid-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--cardBorder);border-radius:16px;display:flex;flex-direction:column}
+.card header{padding:10px 12px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:.6rem}
+.badge{font-weight:700;color:#b7c6ff;background:#1d2440;border:1px solid #35406b;padding:2px 8px;border-radius:999px}
+.card h3{margin:0;font-size:15px;line-height:1.3}
+.label{color:#90a2c3;font-weight:600;font-size:.9em}
+.block{background:#0f131c;border:1px solid #1f2736;border-radius:12px;padding:8px 10px}
+.meta{display:flex;gap:.5rem;flex-wrap:wrap;color:var(--muted);font-size:.9em}
+.meta .tag{background:#1a2232;border:1px solid #25304a;color:#c7d2f1;border-radius:8px;padding:2px 8px}
+.card footer{padding:10px 12px;border-top:1px solid var(--line);display:flex;gap:.5rem;align-items:center}
+/* JOURNAL / CLAUSES LIST */
+.list{display:grid;gap:10px}
+.item{border:1px dashed #33415f;border-radius:12px;padding:8px 10px;background:#0f141c}
+.item h4{margin:0 0 4px 0}
+/* TOAST */
+.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#111826;border:1px solid #263149;border-radius:10px;padding:8px 12px;box-shadow:var(--shadow);z-index:9999}
+/* PRINT */
+@media print{
+  body{background:white;color:black}
+  .topbar,.mode-toggle,.nav{display:none!important}
+  .grid{grid-template-columns:1fr}
+  .panel{border:0;box-shadow:none}
+  .card{break-inside:avoid;border:1px solid #ddd}
+  .block{border:1px solid #eee}
+}
+</style>
+</head>
+<body>
+<div class="topbar container">
+  <div class="brand"><span class="dot"></span> LC Unified <span style="opacity:.75">4.5</span></div>
+  <div class="nav" id="tabs">
+    <button class="tab active" data-route="fg">Field Guide</button>
+    <button class="tab" data-route="journal">Journal</button>
+    <button class="tab" data-route="clauses">Clause Bank</button>
+    <button class="tab" data-route="hearing">Mock Hearing</button>
+    <button class="tab" data-route="settings">Settings</button>
+  </div>
+  <div class="mode-toggle">
+    <button id="btnBasic" class="active">Basic</button>
+    <button id="btnAdvanced">Advanced</button>
+  </div>
+</div>
+
+<div class="main container">
+
+  <!-- ========== FIELD GUIDE ========== -->
+  <section id="route-fg">
+    <div class="panel">
+      <div class="panel-head row" style="align-items:center">
+        <button class="btn primary" id="fgImport">📥 Import MD</button>
+        <button class="btn" id="fgEmbedded">📦 Use Embedded</button>
+        <button class="btn" id="fgSaveAll">💾 Save All JSON</button>
+        <span class="sep"></span>
+        <input id="fgQ" class="input" placeholder="Search title, core, model…" />
+        <select id="fgVol" class="select"><option value="">All Volumes</option></select>
+        <select id="fgTopic" class="select">
+          <option value="">All Topics</option>
+          <option>Filing</option><option>Silence</option><option>Denial</option><option>Default</option>
+          <option>Efficiency</option><option>Closure</option><option>Archive</option>
+        </select>
+        <div class="chips" id="fgChips">
+          <div class="chip" data-chip="core">Core</div>
+          <div class="chip" data-chip="assignment">Assignment</div>
+          <div class="chip" data-chip="model">Model</div>
+          <div class="chip" data-chip="reflection">Reflection</div>
+        </div>
+        <span class="sep"></span>
+        <button class="btn ok" id="fgCopyModels">📋 Copy Models</button>
+        <button class="btn warn" id="fgCopyAssignments">✏️ Copy Assignments</button>
+        <button class="btn" id="fgPrint">🖨️ Print</button>
+        <div style="margin-left:auto;color:var(--muted)" id="fgCount"></div>
+      </div>
+
+      <div class="panel-body">
+        <div class="grid">
+          <div>
+            <div class="grid-cards" id="fgGrid"></div>
+          </div>
+          <div>
+            <div class="panel">
+              <div class="panel-head"><strong>Bundle</strong><span style="margin-left:auto;color:var(--muted)" id="bundleCount"></span></div>
+              <div class="panel-body">
+                <div class="row" style="align-items:center">
+                  <select class="select" id="bundleProfile">
+                    <option>Hearing</option><option>Appeal</option><option>Motion</option>
+                  </select>
+                  <input class="input" id="bundleTitle" placeholder="Bundle title (optional)" />
+                </div>
+                <div class="list" id="bundleList" style="margin-top:10px"></div>
+                <div class="row" style="margin-top:10px">
+                  <button class="btn ok" id="bundleCopyModels">Copy Models</button>
+                  <button class="btn warn" id="bundleCopyAssignments">Copy Assignments</button>
+                  <button class="btn" id="bundleExport">Export Bundle JSON</button>
+                  <button class="btn" id="bundlePrint">Print Bundle</button>
+                  <button class="btn danger" id="bundleClear">Clear</button>
+                </div>
+              </div>
+            </div>
+            <div class="panel" style="margin-top:12px">
+              <div class="panel-head"><strong>Import Markdown</strong></div>
+              <div class="panel-body">
+                <textarea id="fgMD" class="textarea" placeholder="# Paste your full FG 1–1000 Markdown here…"></textarea>
+                <div class="row" style="margin-top:8px">
+                  <button class="btn primary" id="fgParse">Parse & Replace</button>
+                  <button class="btn" id="fgMDLoad">Load last paste</button>
+                </div>
+                <div style="color:var(--muted);margin-top:8px">
+                  Parser expects headings like <code>### FG-001 — Filing = Existence</code> and bullet lines for Core/Lesson/Assignment/Model/Reflection/Visual.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- grid -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== JOURNAL ========== -->
+  <section id="route-journal" style="display:none">
+    <div class="panel">
+      <div class="panel-head"><strong>Case Journal</strong><span style="margin-left:auto;color:var(--muted)" id="jCount"></span></div>
+      <div class="panel-body">
+        <div class="row">
+          <div class="col">
+            <h4 style="margin:0 0 8px 0">New Entry</h4>
+            <div class="row">
+              <input id="jTitle" class="input" placeholder="Title"/>
+              <input id="jCase" class="input" placeholder="Case/Docket #"/>
+              <input id="jWhen" class="input" type="date"/>
+            </div>
+            <input id="jTags" class="input" style="margin-top:8px" placeholder="Tags (comma separated)"/>
+            <textarea id="jBody" class="textarea" placeholder="Notes… Attach excerpts from cards with ⌘/Ctrl+V."></textarea>
+            <div class="row" style="margin-top:8px">
+              <button class="btn primary" id="jSave">Save Entry</button>
+              <button class="btn" id="jExport">Export JSON</button>
+              <button class="btn" id="jPrint">Print</button>
+              <button class="btn danger" id="jClearAll">Clear All</button>
+            </div>
+          </div>
+          <div class="col">
+            <h4 style="margin:0 0 8px 0">Search</h4>
+            <input id="jQ" class="input" placeholder="Find in title/body/tags…">
+            <div class="list" id="jList" style="margin-top:10px"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CLAUSE BANK ========== -->
+  <section id="route-clauses" style="display:none">
+    <div class="panel">
+      <div class="panel-head"><strong>Clause Bank</strong><span style="margin-left:auto;color:var(--muted)" id="cCount"></span></div>
+      <div class="panel-body">
+        <div class="row">
+          <div class="col">
+            <h4 style="margin:0 0 8px 0">Add Clause</h4>
+            <input id="cTitle" class="input" placeholder="Clause title"/>
+            <input id="cTags" class="input" style="margin-top:8px" placeholder="Tags (e.g., due process, standing)"/>
+            <textarea id="cText" class="textarea" placeholder="Clause text…"></textarea>
+            <div class="row" style="margin-top:8px">
+              <button class="btn primary" id="cSave">Save Clause</button>
+              <button class="btn" id="cExport">Export JSON</button>
+              <button class="btn danger" id="cClearAll">Clear All</button>
+            </div>
+          </div>
+          <div class="col">
+            <h4 style="margin:0 0 8px 0">Search</h4>
+            <input id="cQ" class="input" placeholder="Find by title/text/tags…"/>
+            <div class="list" id="cList" style="margin-top:10px"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MOCK HEARING ========== -->
+  <section id="route-hearing" style="display:none">
+    <div class="panel">
+      <div class="panel-head"><strong>Mock Hearing</strong></div>
+      <div class="panel-body">
+        <div class="row">
+          <div class="col">
+            <h4 style="margin:0 0 8px 0">Timer & Checklist</h4>
+            <div class="row">
+              <input id="hMin" class="input" type="number" value="5" min="1" style="width:110px" />
+              <button class="btn primary" id="hStart">Start</button>
+              <button class="btn" id="hStop">Stop</button>
+              <div id="hClock" style="margin-left:auto;font-weight:800">05:00</div>
+            </div>
+            <div class="list" style="margin-top:10px" id="hChecklist">
+              <label class="item"><input type="checkbox"> Opening: jurisdiction & relief sought</label>
+              <label class="item"><input type="checkbox"> Record cites ready (FG codes)</label>
+              <label class="item"><input type="checkbox"> Preserve objections (silence/efficiency)</label>
+              <label class="item"><input type="checkbox"> Requested remedy & fallback</label>
+            </div>
+          </div>
+          <div class="col">
+            <h4 style="margin:0 0 8px 0">Scratchpad</h4>
+            <textarea id="hPad" class="textarea" placeholder="Draft lines. Use “Pull bundle models” to inject selected Model Responses."></textarea>
+            <div class="row" style="margin-top:8px">
+              <button class="btn" id="hPull">Pull bundle models</button>
+              <button class="btn" id="hCopy">Copy pad</button>
+              <button class="btn" id="hPrint">Print</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SETTINGS ========== -->
+  <section id="route-settings" style="display:none">
+    <div class="panel">
+      <div class="panel-head"><strong>Settings & Backup</strong></div>
+      <div class="panel-body">
+        <div class="row">
+          <div class="col">
+            <h4 style="margin:0 0 8px 0">Backup Everything</h4>
+            <button class="btn" id="xAll">Download full backup JSON</button>
+          </div>
+          <div class="col">
+            <h4 style="margin:0 0 8px 0">Danger Zone</h4>
+            <button class="btn danger" id="wipe">Wipe all local data</button>
+          </div>
+        </div>
+        <hr/>
+        <div style="color:var(--muted)">
+          Tip: switch <kbd>Basic</kbd>/<kbd>Advanced</kbd> to hide/show depth (lesson/reflection & UI chrome).
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ========= SCRIPTS ========= -->
+<script>
+const $ = (id)=>document.getElementById(id);
+const escapeHTML = s => (s??'').replace(/[&<>"']/g, m=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m]));
+const toast = (m)=>{ const t=document.createElement('div'); t.className='toast'; t.textContent=m; document.body.appendChild(t); setTimeout(()=>t.remove(),1300); };
+const saveJSON = (name, data)=>{ const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'})); a.download=name; a.click(); URL.revokeObjectURL(a.href); };
+
+const state = {
+  cards:[], view:[], bundle:[],
+  filters:{q:'', vol:'', topic:'', chips:new Set()},
+  basic:true,
+  journal:[],
+  clauses:[]
+};
+const VOLUME = n => Math.max(1, Math.ceil(n/50));
+const LTOP = title => (title.split('=')[0]||'').trim();
+const RTOP = title => (title.split('=')[1]||'').trim();
+const fgGrid = $('fgGrid'); const fgCount=$('fgCount'); const bundleList=$('bundleList'); const bundleCount=$('bundleCount');
+
+/* ---------- Markdown Parser ---------- */
+function parseMarkdown(md){
+  const lines = md.replace(/\r/g,'').split('\n'); const out=[]; let cur=null;
+  const header = /^(?:#{2,3}\s*)?FG-?(\d{1,4})\s+—\s+(.+)$/i;
+  const kv = /^\s*-\s*[^*]*\*\*(.+?)\*\*\s*:\s*(.+)$/;
+  const flush=()=>{ if(cur){ cur.volume=VOLUME(cur.id); cur.left=LTOP(cur.title); cur.right=RTOP(cur.title); cur.tags=[cur.left,cur.right].filter(Boolean); out.push(cur); cur=null; } };
+  for(const raw of lines){
+    const L = raw.trim(); const h = L.match(header);
+    if(h){ flush(); cur={ id:+h[1], code:`FG-${String(h[1]).padStart(3,'0')}`, title:h[2].trim(),
+      core:'',lesson:'',assignment:'',model:'',reflection:'',visual:'' }; continue; }
+    const m=L.match(kv); if(cur && m){
+      const key=m[1].toLowerCase(), val=m[2].trim().replace(/^"|"$/g,'');
+      if(key.startsWith('core')) cur.core=val;
+      else if(key.startsWith('lesson')) cur.lesson=val;
+      else if(key.startsWith('assignment')) cur.assignment=val;
+      else if(key.startsWith('model')) cur.model=val;
+      else if(key.startsWith('reflection')) cur.reflection=val;
+      else if(key.startsWith('visual')) cur.visual=val;
+    }
+  }
+  flush(); return out.sort((a,b)=>a.id-b.id);
+}
+
+/* ---------- Field Guide UI ---------- */
+function cardHTML(c){
+  return `
+  <article class="card">
+    <header><span class="badge">${c.code}</span><h3>${escapeHTML(c.title)}</h3></header>
+    <div class="panel-body" style="display:grid;gap:8px">
+      <div><div class="label">Core</div><div class="block">${escapeHTML(c.core)}</div></div>
+      <div class="${state.basic?'':'show'}" style="${state.basic?'display:none':''}">
+        <div class="label">Lesson</div><div class="block">${escapeHTML(c.lesson)}</div>
+      </div>
+      <div><div class="label">Assignment</div><div class="block">${escapeHTML(c.assignment)}</div></div>
+      <div><div class="label">Model</div><div class="block">${escapeHTML(c.model)}</div></div>
+      <div class="${state.basic?'':'show'}" style="${state.basic?'display:none':''}">
+        <div class="label">Reflection</div><div class="block">${escapeHTML(c.reflection)}</div>
+      </div>
+      <div class="meta">
+        <span class="tag">Vol ${c.volume}</span>
+        <span class="tag">${escapeHTML(c.left)}</span>
+        ${c.right?`<span class="tag">${escapeHTML(c.right)}`:''}
+      </div>
+    </div>
+    <footer>
+      <button class="btn" onclick="toggleBundle(${c.id})">➕ Add</button>
+      <button class="btn" onclick="copyLine(${c.id},'model')">📋 Model</button>
+      <button class="btn" onclick="copyLine(${c.id},'assignment')">✏️ Assignment</button>
+      <span style="margin-left:auto;color:var(--muted)">#${c.id}</span>
+    </footer>
+  </article>`;
+}
+
+function renderFG(){
+  fgGrid.innerHTML = state.view.map(cardHTML).join('') || `<div style="opacity:.8;padding:18px;border:1px dashed var(--line);border-radius:12px;background:#0e121a">No cards match your filters.</div>`;
+  fgCount.textContent = `${state.view.length} shown • ${state.cards.length} total`;
+  const bundleCards = state.bundle.map(id=>state.cards.find(c=>c.id===id)).filter(Boolean);
+  bundleList.innerHTML = bundleCards.map(b=>`
+    <div class="item">
+      <div>
+        <h4>${b.code} — ${escapeHTML(b.title)}</h4>
+        <div style="color:var(--muted);font-size:.9em">Vol ${b.volume} • ${escapeHTML(b.left)}${b.right?(' • '+escapeHTML(b.right)) : ''}</div>
+      </div>
+      <div style="display:flex;gap:.4rem">
+        <button class="btn" onclick="copyLine(${b.id},'model')">📋</button>
+        <button class="btn danger" onclick="removeFromBundle(${b.id})">✖</button>
+      </div>
+    </div>`).join('') || `<div style="opacity:.8;padding:12px;border:1px dashed var(--line);border-radius:12px">Bundle empty</div>`;
+  bundleCount.textContent = `${bundleCards.length} selected`;
+}
+function applyFilters(){
+  const {q, vol, topic, chips} = state.filters; const qx=q.trim().toLowerCase();
+  const chipOk = c => chips.size===0 || (
+    (!chips.has('core') || c.core) &&
+    (!chips.has('assignment') || c.assignment) &&
+    (!chips.has('model') || c.model) &&
+    (!chips.has('reflection') || c.reflection)
+  );
+  state.view = state.cards.filter(c=>{
+    if(vol && String(c.volume)!==vol) return false;
+    if(topic && c.left!==topic && c.right!==topic) return false;
+    if(!chipOk(c)) return false;
+    if(qx){
+      const hay=(c.title+' '+c.core+' '+c.assignment+' '+c.model+' '+c.reflection).toLowerCase();
+      if(!hay.includes(qx)) return false;
+    }
+    return true;
+  });
+  renderFG();
+}
+function toggleBundle(id){ const i=state.bundle.indexOf(id); if(i>=0) state.bundle.splice(i,1); else state.bundle.push(id); saveLocal(); renderFG(); }
+function removeFromBundle(id){ const i=state.bundle.indexOf(id); if(i>=0) state.bundle.splice(i,1); saveLocal(); renderFG(); }
+function clearBundle(){ state.bundle=[]; saveLocal(); renderFG(); }
+function copyLine(id,kind){ const c=state.cards.find(x=>x.id===id); if(!c) return; const s=(kind==='model'?c.model:kind==='assignment'?c.assignment:c.core)||''; navigator.clipboard.writeText(s).then(()=>toast('Copied')); }
+function copyMany(kind, subset){
+  const list=(subset||state.bundle.map(id=>state.cards.find(c=>c.id===id))).filter(Boolean).map(c=> kind==='model'?c.model:kind==='assignment'?c.assignment:c.core).join('\n');
+  navigator.clipboard.writeText(list).then(()=>toast('Copied '+(subset?'filtered ':'')+kind+' lines'));
+}
+
+/* ---------- Journal ---------- */
+function renderJournal(){
+  const q = $('jQ').value.trim().toLowerCase();
+  const items = state.journal.filter(j=>{
+    const hay=(j.title+' '+j.case+' '+j.tags.join(',')+' '+j.body).toLowerCase();
+    return !q || hay.includes(q);
+  });
+  $('jCount').textContent = `${state.journal.length} saved`;
+  $('jList').innerHTML = items.map((j,idx)=>`
+    <div class="item">
+      <h4>${escapeHTML(j.title)} <small style="color:var(--muted)">(${j.when||'—'})</small></h4>
+      <div style="color:var(--muted);font-size:.9em">${escapeHTML(j.case||'')}</div>
+      <div style="white-space:pre-wrap;margin:6px 0">${escapeHTML(j.body||'')}</div>
+      <div class="chips">${j.tags.map(t=>`<span class="chip">${escapeHTML(t)}</span>`).join('')}</div>
+      <div class="row" style="margin-top:8px">
+        <button class="btn" onclick="navigator.clipboard.writeText(${JSON.stringify('').slice(0,0)} (function(){return \`${(j.body||'').replace(/`/g,'\\`')}\`})() )">Copy</button>
+        <button class="btn danger" onclick="delJournal(${idx})">Delete</button>
+      </div>
+    </div>`).join('') || `<div style="opacity:.8;padding:12px;border:1px dashed var(--line);border-radius:12px">No entries</div>`;
+}
+function delJournal(i){ state.journal.splice(i,1); saveLocal(); renderJournal(); }
+
+/* ---------- Clauses ---------- */
+function renderClauses(){
+  const q=$('cQ').value.trim().toLowerCase();
+  const items=state.clauses.filter(c=>{
+    const hay=(c.title+' '+c.text+' '+c.tags.join(',')).toLowerCase();
+    return !q || hay.includes(q);
+  });
+  $('cCount').textContent = `${state.clauses.length} saved`;
+  $('cList').innerHTML = items.map((c,idx)=>`
+    <div class="item">
+      <h4>${escapeHTML(c.title)}</h4>
+      <div class="chips">${c.tags.map(t=>`<span class="chip">${escapeHTML(t)}</span>`).join('')}</div>
+      <div style="white-space:pre-wrap;margin:6px 0">${escapeHTML(c.text||'')}</div>
+      <div class="row">
+        <button class="btn" onclick="navigator.clipboard.writeText(${JSON.stringify('').slice(0,0)} (function(){return \`${(c.text||'').replace(/`/g,'\\`')}\`})() )">Copy</button>
+        <button class="btn danger" onclick="delClause(${idx})">Delete</button>
+      </div>
+    </div>`).join('') || `<div style="opacity:.8;padding:12px;border:1px dashed var(--line);border-radius:12px">No clauses</div>`;
+}
+function delClause(i){ state.clauses.splice(i,1); saveLocal(); renderClauses(); }
+
+/* ---------- Hearing ---------- */
+let timer=null, remain=0;
+function tick(){ if(remain<=0){ clearInterval(timer); timer=null; $('hClock').textContent='00:00'; toast('Time!'); return; } remain--; $('hClock').textContent = new Date(remain*1000).toISOString().substring(14,19); }
+
+/* ---------- Storage ---------- */
+function saveLocal(){
+  localStorage.setItem('lcu.cards', JSON.stringify(state.cards));
+  localStorage.setItem('lcu.bundle', JSON.stringify(state.bundle));
+  localStorage.setItem('lcu.journal', JSON.stringify(state.journal));
+  localStorage.setItem('lcu.clauses', JSON.stringify(state.clauses));
+  localStorage.setItem('lcu.profile', JSON.stringify({ title:$('bundleTitle').value||'', profile:$('bundleProfile').value||'Hearing' }));
+}
+function loadLocal(){
+  try{
+    state.cards = JSON.parse(localStorage.getItem('lcu.cards')||'[]');
+    state.bundle = JSON.parse(localStorage.getItem('lcu.bundle')||'[]');
+    state.journal = JSON.parse(localStorage.getItem('lcu.journal')||'[]');
+    state.clauses = JSON.parse(localStorage.getItem('lcu.clauses')||'[]');
+    const prof = JSON.parse(localStorage.getItem('lcu.profile')||'{}');
+    $('bundleTitle').value = prof.title||''; $('bundleProfile').value = prof.profile||'Hearing';
+  }catch{}
+}
+
+/* ---------- Embedded preload ---------- */
+function getEmbeddedMD(){
+  const tag=document.getElementById('preload-md'); return tag? (tag.textContent||tag.innerText||'').trim() : '';
+}
+function useEmbedded(){
+  const md=getEmbeddedMD(); if(!md){ toast('No embedded Markdown found'); return; }
+  const cards=parseMarkdown(md); if(!cards.length){ alert('Embedded block found but no cards parsed. Check headings.'); return; }
+  state.cards=cards; state.bundle=[]; saveLocal(); resetFG(); toast('Loaded embedded set: '+cards.length+' cards');
+}
+
+/* ---------- FG helpers ---------- */
+function resetFG(){
+  $('fgQ').value=''; $('fgTopic').value='';
+  const v=$('fgVol'); let opts='<option value="">All Volumes</option>'; for(let i=1;i<=20;i++){opts+=`<option value="${i}">Vol ${i} (${(i-1)*50+1}-${i*50})</option>`}
+  v.innerHTML=opts;
+  state.filters={q:'',vol:'',topic:'',chips:new Set()};
+  document.querySelectorAll('#fgChips .chip').forEach(ch=>ch.classList.remove('active'));
+  state.view = state.cards.slice(); renderFG();
+}
+
+/* ---------- Boot & Events ---------- */
+function boot(){
+  loadLocal();
+  if(!state.cards.length){
+    const md=getEmbeddedMD();
+    if(md){ const cards=parseMarkdown(md); if(cards.length) state.cards=cards; }
+    if(!state.cards.length){ state.cards = parseMarkdown(seedMD); }
+  }
+  resetFG();
+
+  /* Tabs */
+  document.querySelectorAll('#tabs .tab').forEach(b=>b.onclick=()=>{
+    document.querySelectorAll('#tabs .tab').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    const route=b.dataset.route;
+    ['fg','journal','clauses','hearing','settings'].forEach(r=>{ document.getElementById('route-'+r).style.display = (r===route)?'block':'none'; });
+    if(route==='journal') renderJournal();
+    if(route==='clauses') renderClauses();
+  });
+
+  /* Mode */
+  $('btnBasic').onclick=()=>{ state.basic=true; document.body.classList.add('basic'); $('btnBasic').classList.add('active'); $('btnAdvanced').classList.remove('active'); renderFG(); };
+  $('btnAdvanced').onclick=()=>{ state.basic=false; document.body.classList.remove('basic'); $('btnAdvanced').classList.add('active'); $('btnBasic').classList.remove('active'); renderFG(); };
+
+  /* FG events */
+  $('fgQ').oninput=(e)=>{ state.filters.q=e.target.value; applyFilters(); };
+  $('fgVol').onchange=(e)=>{ state.filters.vol=e.target.value; applyFilters(); };
+  $('fgTopic').onchange=(e)=>{ state.filters.topic=e.target.value; applyFilters(); };
+  document.querySelectorAll('#fgChips .chip').forEach(ch=>ch.onclick=()=>{
+    const k=ch.dataset.chip; if(state.filters.chips.has(k)) state.filters.chips.delete(k); else state.filters.chips.add(k);
+    ch.classList.toggle('active'); applyFilters();
+  });
+  $('fgPrint').onclick=()=>window.print();
+  $('bundlePrint').onclick=()=>{
+    const ids=new Set(state.bundle); const keep=state.view.slice(); state.view=state.cards.filter(c=>ids.has(c.id)); renderFG(); window.print(); state.view=keep; renderFG();
+  };
+  $('fgCopyModels').onclick=()=>copyMany('model', state.view);
+  $('fgCopyAssignments').onclick=()=>copyMany('assignment', state.view);
+  $('bundleCopyModels').onclick=()=>copyMany('model');
+  $('bundleCopyAssignments').onclick=()=>copyMany('assignment');
+  $('bundleExport').onclick=()=> saveJSON('LC-Bundle.json', state.bundle.map(id=>state.cards.find(c=>c.id===id)).filter(Boolean));
+  $('bundleClear').onclick=clearBundle;
+  $('fgSaveAll').onclick=()=> saveJSON('LC-FG-ALL.json', state.cards);
+
+  $('fgParse').onclick=()=>{
+    const md=$('fgMD').value.trim(); if(!md) return;
+    localStorage.setItem('lcu.lastPaste', md);
+    const cards=parseMarkdown(md);
+    if(!cards.length){ alert('No cards found. Ensure headings look like "### FG-001 — Filing = …"'); return; }
+    state.cards=cards; state.bundle=[]; saveLocal(); resetFG(); toast('Imported '+cards.length+' cards');
+  };
+  $('fgMDLoad').onclick=()=>{ $('fgMD').value = localStorage.getItem('lcu.lastPaste')||''; toast($('fgMD').value?'Loaded last paste':'Nothing saved yet'); };
+  $('fgImport').onclick=()=>{ document.getElementById('route-fg').scrollIntoView({behavior:'smooth'}); $('fgMD').focus(); };
+  $('fgEmbedded').onclick=useEmbedded;
+
+  /* Journal events */
+  $('jSave').onclick=()=>{
+    state.journal.unshift({
+      title:$('jTitle').value||'(untitled)', case:$('jCase').value||'', when:$('jWhen').value||'',
+      tags: ($('jTags').value||'').split(',').map(s=>s.trim()).filter(Boolean),
+      body:$('jBody').value||'', at: Date.now()
+    }); ['jTitle','jCase','jWhen','jTags','jBody'].forEach(id=>$(id).value=''); saveLocal(); renderJournal(); toast('Saved');
+  };
+  $('jExport').onclick=()=> saveJSON('LC-Journal.json', state.journal);
+  $('jPrint').onclick=()=> window.print();
+  $('jClearAll').onclick=()=>{ if(confirm('Delete all journal entries?')){ state.journal=[]; saveLocal(); renderJournal(); } };
+  $('jQ').oninput=renderJournal;
+
+  /* Clause events */
+  $('cSave').onclick=()=>{
+    state.clauses.unshift({
+      title:$('cTitle').value||'(untitled)', tags: ($('cTags').value||'').split(',').map(s=>s.trim()).filter(Boolean),
+      text:$('cText').value||'', at: Date.now()
+    }); ['cTitle','cTags','cText'].forEach(id=>$(id).value=''); saveLocal(); renderClauses(); toast('Saved');
+  };
+  $('cExport').onclick=()=> saveJSON('LC-Clauses.json', state.clauses);
+  $('cClearAll').onclick=()=>{ if(confirm('Delete all clauses?')){ state.clauses=[]; saveLocal(); renderClauses(); } };
+  $('cQ').oninput=renderClauses;
+
+  /* Hearing events */
+  $('hStart').onclick=()=>{
+    const m=Math.max(1, parseInt($('hMin').value||'5',10)); remain=m*60; $('hClock').textContent = new Date(remain*1000).toISOString().substring(14,19);
+    if(timer) clearInterval(timer); timer=setInterval(tick,1000);
+  };
+  $('hStop').onclick=()=>{ if(timer) clearInterval(timer); timer=null; };
+  $('hPull').onclick=()=>{
+    const lines = state.bundle.map(id=>state.cards.find(c=>c.id===id)).filter(Boolean).map(c=>`• ${c.code}: ${c.model}`).join('\n');
+    $('hPad').value = ( $('hPad').value? ($('hPad').value+'\n') : '' ) + lines; toast('Pulled bundle models');
+  };
+  $('hCopy').onclick=()=> navigator.clipboard.writeText($('hPad').value||'').then(()=>toast('Copied'));
+  $('hPrint').onclick=()=> window.print();
+
+  // Basic mode default
+  document.body.classList.add('basic');
+}
+window.toggleBundle=toggleBundle; window.removeFromBundle=removeFromBundle; window.copyLine=copyLine;
+const seedMD = `### FG-001 — Filing = Existence
+- ⚖️ **Core Message:** To file is to exist in the record.
+- 📖 **Lesson Content:** No filing, no case. Filing transforms grievance into memory.
+- ✏️ **Assignment:** Draft one line asserting your claim exists because it is filed.
+- ✅ **Model Response:** "This claim exists because it is filed on the record."
+- 💡 **Reflection Summary:** Filing is the act of breathing life into protest.
+- 🎨 **Visual Concept:** A glowing brief on an empty courtroom desk.
+
+### FG-002 — Silence = Absence
+- ⚖️ **Core Message:** Silence leaves only absence.
+- 📖 **Lesson Content:** Courts may ignore, but silence proves avoidance.
+- ✏️ **Assignment:** Draft one line preserving silence as part of record.
+- ✅ **Model Response:** "Judicial silence preserved as absence of due process."
+- 💡 **Reflection Summary:** Absence itself is evidence.
+- 🎨 **Visual Concept:** Empty judge’s chair with filing glowing beneath.
+
+### FG-003 — Denial = Recognition
+- ⚖️ **Core Message:** Denial recognizes what it seeks to dismiss.
+- 📖 **Lesson Content:** A denial means your claim was seen.
+- ✏️ **Assignment:** Draft one line reframing denial as acknowledgement.
+- ✅ **Model Response:** "Denial preserved as recognition of this claim’s presence."
+- 💡 **Reflection Summary:** Rejection is proof of visibility.
+- 🎨 **Visual Concept:** “Denied” stamp as spotlight.
+
+### FG-004 — Default = Opportunity
+- ⚖️ **Core Message:** Default creates new openings.
+- 📖 **Lesson Content:** Defaults signal procedural cracks that can be preserved for later motion.
+- ✏️ **Assignment:** Draft one objection line turning default into opportunity.
+- ✅ **Model Response:** "Default preserved as opportunity to assert due process failure."
+- 💡 **Reflection Summary:** What’s missing can become entry.
+- 🎨 **Visual Concept:** Empty docket line glowing as open doorway.
+
+### FG-005 — Efficiency = Excuse
+- ⚖️ **Core Message:** Efficiency is the excuse for neglect.
+- 📖 **Lesson Content:** Courts substitute speed for substance. Preserve this evasion.
+- ✏️ **Assignment:** Draft one objection line to efficiency as avoidance.
+- ✅ **Model Response:** "Efficiency rationale preserved as excuse for due process denial."
+- 💡 **Reflection Summary:** Speed ≠ justice.
+- 🎨 **Visual Concept:** Stopwatch glowing, filings piling beneath.
+
+### FG-006 — Closure = Illusion
+- ⚖️ **Core Message:** Closure is theater, not truth.
+- 📖 **Lesson Content:** Courts stage endings for convenience. The record preserves ongoing reality.
+- ✏️ **Assignment:** Draft one closure-preservation line.
+- ✅ **Model Response:** "Closure preserved as illusion masking unresolved claim."
+- 💡 **Reflection Summary:** Curtain falls, story continues.
+- 🎨 **Visual Concept:** Courtroom door closing; papers still moving inside.
+
+### FG-007 — Filing = Presence
+- ⚖️ **Core Message:** Filing makes you present in the court’s memory.
+- 📖 **Lesson Content:** Without filing, your voice is absent. With it, you exist.
+- ✏️ **Assignment:** Draft one presence-preservation line.
+- ✅ **Model Response:** "This filing preserved as proof of my presence in the record."
+- 💡 **Reflection Summary:** Filing is embodiment.
+- 🎨 **Visual Concept:** A glowing outline of a person formed entirely from briefs.
+
+### FG-008 — Silence = Blank Page
+- ⚖️ **Core Message:** Silence is the blank page that testifies by omission.
+- 📖 **Lesson Content:** Courts pretend blankness is neutrality. Archive reveals absence.
+- ✏️ **Assignment:** Draft one silence-preservation line.
+- ✅ **Model Response:** "Silence preserved as blank page in constitutional record."
+- 💡 **Reflection Summary:** Omission speaks louder than words.
+- 🎨 **Visual Concept:** Empty docket page glowing.
+
+### FG-009 — Denial = Proof
+- ⚖️ **Core Message:** Denial proves the system had to respond.
+- 📖 **Lesson Content:** Every denial is a footprint — proof of claim’s existence.
+- ✏️ **Assignment:** Draft one denial-preservation line.
+- ✅ **Model Response:** "Denial preserved as proof this filing was received."
+- 💡 **Reflection Summary:** Opposition is recognition.
+- 🎨 **Visual Concept:** “Denied” stamp leaving permanent imprint.
+
+### FG-010 — Archive = Birthplace
+- ⚖️ **Core Message:** Archive is where legal life begins.
+- 📖 **Lesson Content:** The filing becomes memory as soon as it enters archive.
+- ✏️ **Assignment:** Draft one archive-preservation line.
+- ✅ **Model Response:** "This record preserved in archive as birthplace of claim."
+- 💡 **Reflection Summary:** Archive = origin of memory.
+- 🎨 **Visual Concept:** Filing cabinet glowing like a cradle.
+
+### FG-011 — Filing = Voice
+- ⚖️ **Core Message:** Filing gives you a voice the court cannot mute.
+- 📖 **Lesson Content:** Even ignored, your voice is in the record.
+- ✏️ **Assignment:** Draft one line asserting voice through filing.
+- ✅ **Model Response:** "This filing preserved as voice against silence."
+- 💡 **Reflection Summary:** Filing = speech of protest.
+- 🎨 **Visual Concept:** Brief glowing like sound waves.
+
+### FG-012 — Silence = Static
+- ⚖️ **Core Message:** Silence creates noise that interrupts truth.
+- 📖 **Lesson Content:** Preserve silence as static interference in due process.
+- ✏️ **Assignment:** Draft one silence-preservation line.
+- ✅ **Model Response:** "Silence preserved as static blocking review."
+- 💡 **Reflection Summary:** Static ≠ clarity.
+- 🎨 **Visual Concept:** Old radio hissing; paper sends a clear signal.
+`;
+boot();
+</script>
+
+<!-- 🔽 Embedded preloader: replace with FULL FG 1–1000 Markdown to ship preloaded -->
+<script type="text/markdown" id="preload-md">
+### FG-001 — Filing = Existence
+- ⚖️ **Core Message:** To file is to exist in the record.
+- 📖 **Lesson Content:** No filing, no case. Filing transforms grievance into memory.
+- ✏️ **Assignment:** Draft one line asserting your claim exists because it is filed.
+- ✅ **Model Response:** "This claim exists because it is filed on the record."
+- 💡 **Reflection Summary:** Filing is the act of breathing life into protest.
+- 🎨 **Visual Concept:** A glowing brief on an empty courtroom desk.
+
+### FG-002 — Silence = Absence
+- ⚖️ **Core Message:** Silence leaves only absence.
+- 📖 **Lesson Content:** Courts may ignore, but silence proves avoidance.
+- ✏️ **Assignment:** Draft one line preserving silence as part of record.
+- ✅ **Model Response:** "Judicial silence preserved as absence of due process."
+- 💡 **Reflection Summary:** Absence itself is evidence.
+- 🎨 **Visual Concept:** Empty judge’s chair with filing glowing beneath.
+
+### FG-003 — Denial = Recognition
+- ⚖️ **Core Message:** Denial recognizes what it seeks to dismiss.
+- 📖 **Lesson Content:** A denial means your claim was seen.
+- ✏️ **Assignment:** Draft one line reframing denial as acknowledgement.
+- ✅ **Model Response:** "Denial preserved as recognition of this claim’s presence."
+- 💡 **Reflection Summary:** Rejection is proof of visibility.
+- 🎨 **Visual Concept:** “Denied” stamp as spotlight.
+</script>
+</body>
+</html>
+Quick start
+	•	Open LC-Unified-4.5.html → Field Guide → either Use Embedded (preload) or Import MD and paste your full FG 1–1000.
+	•	Filter/search, Add to bundle, then Copy/Export/Print as needed.
+	•	Use Journal for dated case notes; Clause Bank to save reusable paragraphs; Mock Hearing for a countdown + scratchpad that can pull your bundle’s model lines.
+	•	Settings → Backup exports everything as JSON; Danger Zone wipes local data.

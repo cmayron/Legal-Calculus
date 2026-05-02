@@ -1,0 +1,97 @@
+FG-431 — “Raised • Reached • Relief” Grid (Post-Grant Cert)
+	•	⚖️ Core Message: After grant, show which issues were raised, which the court reached, and what relief remains.
+	•	📖 Lesson Content: Table: Issue • Raised (pin) • Reached? (Y/N) • Relief. Use neutral phrasing; attach to merits brief.
+	•	📝 Assignment: Draft a 4-row raised/reached/relief table for your case.
+	•	✅ Model Response: “Harm — Dkt 14:3 — Not reached (Dkt 18:2) — Relief: remand 21d.”
+	•	💡 Reflection Summary: Gaps remain doors for relief.
+	•	🎨 Visual Concept: A 4-row table with one “Not reached” in red.
+
+⸻
+
+FG-432 — Cert Appendix Metadata Log
+	•	⚖️ Core Message: Log metadata so appendix volumes can’t be challenged.
+	•	📖 Lesson Content: For each volume: File name • Date exported • SHA-256 • Pages • PDF/A ✓. File log as Tab A.
+	•	📝 Assignment: Draft a 3-row metadata log for your appendix.
+	•	✅ Model Response: “Appx_V1.pdf — 09/01 — SHA-256 … — 200 pp — PDF/A ✓.”
+	•	💡 Reflection Summary: Metadata is memory.
+	•	🎨 Visual Concept: A table with file rows ending in fingerprint icons.
+
+⸻
+
+FG-433 — Cert Oral Argument Prep Timeline
+	•	⚖️ Core Message: Work backward from OA date to prep milestones.
+	•	📖 Lesson Content: Timeline: T-30 (script draft); T-21 (moot #1); T-14 (bench cards); T-7 (moot #2); T-1 (final pack). Post as prep log.
+	•	📝 Assignment: Draft your OA prep timeline with today’s dates.
+	•	✅ Model Response: “T-30 09/15 draft; T-21 09/24 moot #1; T-14 10/01 bench cards; T-7 10/08 moot #2; T-1 10/14 final pack.”
+	•	💡 Reflection Summary: Backward clocks create readiness.
+	•	🎨 Visual Concept: A timeline strip counting down to OA.
+
+⸻
+
+FG-434 — Cert Bench Card Duo (Question • Relief)
+	•	⚖️ Core Message: Simplify: one card with QP, one card with relief ladder.
+	•	📖 Lesson Content: Card 1: QP (≤15 words). Card 2: Relief (grant/GVR/hold + scope). Hash both; file notice if allowed.
+	•	📝 Assignment: Draft and hash your bench duo.
+	•	✅ Model Response: “QP: Must courts reach findings? Relief: Grant; GVR; Hold pending Doe.”
+	•	💡 Reflection Summary: Two cards cover the room.
+	•	🎨 Visual Concept: Two palm cards with hash tags.
+
+⸻
+
+FG-435 — Cert Oral Argument Signal Tracker
+	•	⚖️ Core Message: Track judge questions live; adjust your close accordingly.
+	•	📖 Lesson Content: Columns: Justice • Topic • Minutes • Pin cited • Ask. Update in real time; use to select final close.
+	•	📝 Assignment: Build a 9-row tracker sheet for OA.
+	•	✅ Model Response: “J2 — 6m on ‘not reached’ (Dkt 18:2) — Close with remand 21d.”
+	•	💡 Reflection Summary: The bench shows you the door.
+	•	🎨 Visual Concept: A heat bar beside one Justice row.
+
+⸻
+
+FG-436 — Cert OA Script (10 Lines, Memorized)
+	•	⚖️ Core Message: Cert arguments win on cadence.
+	•	📖 Lesson Content: 10 lines: QP; Std; Pin 1; Pin 2; Relief (ladder); Scope; Close. Memorize rhythm.
+	•	📝 Assignment: Draft your 10-line OA script today.
+	•	✅ Model Response: “QP: Must courts make findings? Std: abuse. Pin 1: Winter, 555 U.S. 7. Pin 2: ‘Not reached’ (Dkt 18:2). Relief: grant/GVR/hold. Scope: ¶3 only. Close: remand 21d.”
+	•	💡 Reflection Summary: Rhythm beats nerves.
+	•	🎨 Visual Concept: Ten numbered lines glowing in order.
+
+⸻
+
+FG-437 — Cert OA Demonstrative Protocol
+	•	⚖️ Core Message: If demonstratives are allowed, keep them one page, neutral, hashed.
+	•	📖 Lesson Content: Title “Demonstrative A”; show one record line; add capture/hash footer; request 90s window. File notice with view copy.
+	•	📝 Assignment: Draft a demonstrative script for one pin.
+	•	✅ Model Response: “Showing Dkt 18:2 (‘not reached’). Relief: remand 21d. View copy hash ….”
+	•	💡 Reflection Summary: One demonstrative = one order.
+	•	🎨 Visual Concept: A single highlighted line on screen with a clock chip.
+
+⸻
+
+FG-438 — Cert Findings Gap Heatmap
+	•	⚖️ Core Message: Show visually what the lower court skipped.
+	•	📖 Lesson Content: 2×2 matrix (success/harm/equities/public); shade reached/not reached; pin skipped factors. Attach to reply appendix.
+	•	📝 Assignment: Build your 4-cell heatmap today.
+	•	✅ Model Response: “Harm — not reached (Dkt 18:2).”
+	•	💡 Reflection Summary: Gaps draw signatures.
+	•	🎨 Visual Concept: Four boxes; one shaded grey “not reached.”
+
+⸻
+
+FG-439 — Cert Oral Argument “Relief Ladder” Close
+	•	⚖️ Core Message: Always close with a relief ladder: grant → GVR → hold.
+	•	📖 Lesson Content: Write three doors in one sentence; add scope line; repeat in rebuttal.
+	•	📝 Assignment: Draft your relief ladder close.
+	•	✅ Model Response: “Grant cert; or GVR in light of Winter; or hold pending Doe; scope ¶3 only.”
+	•	💡 Reflection Summary: Three doors leave no excuses.
+	•	🎨 Visual Concept: Three arrows merging at a gavel.
+
+⸻
+
+FG-440 — Cert Phase Closeout Bundle
+	•	⚖️ Core Message: Archive the cert phase before merits.
+	•	📖 Lesson Content: ZIP root: Petition.pdf; Appendix.pdf; Amicus briefs; Reply.pdf; CHECKSUMS.txt; ReleaseNote.md. Hash; mirrors; update Master Index.
+	•	📝 Assignment: Build your closeout bundle and 120-word note.
+	•	✅ Model Response: “Release v4—Cert closeout kit posted: Petition (sha …), Appendix (sha …), Amici (sha …). Mirrors aligned.”
+	•	💡 Reflection Summary: Closure protects memory.
+	•	🎨 Visual Concept: A ribboned ZIP with four doc icons and a fingerprint

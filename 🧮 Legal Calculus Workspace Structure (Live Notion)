@@ -1,0 +1,70 @@
+## 🧮 Legal Calculus Workspace Structure (Live Notion)
+
+### 🏠 **Homepage (Public Landing Page)**
+
+Use a clean, visual layout with toggles or tiles for each mode.
+
+**Header:**
+
+> Not legal advice. This is a public educational toolkit. Use it to structure filings, spot issues, and build the record.
+> 
+
+**Sections:**
+
+- ✅ Quickstart Bundle (Checklist + Templates)
+- 🧭 Choose Your Mode (Crisis • Educator • Second-Opinion)
+- 🧩 System Map (LC • LCA • FG • FGA • JC • LCa)
+- 🧼 Filing Hygiene (AI-era)
+- 💡 Why It Matters
+- 🪪 License & Credits
+
+**Call to Action:**
+
+> “Start with Quickstart → run FG checklist → read LC module → save final to /packets.”
+> 
+
+---
+
+### 📁 **Databases & Pages to Create**
+
+| Page / DB | Type | Purpose |
+| --- | --- | --- |
+| **FG Index** | Database | FG-1 to FG-1000 micro-modules (tags: task type, urgency, audience) |
+| **LC Modules** | Database | LC 1–119 teaching modules (tags: doctrine, format, strategy) |
+| **Templates Folder** | Page | Upload .zip or embed links to template packs |
+| **Packets Archive** | Database | Final PDFs tagged by date, purpose, and module |
+| **JC Modules** | Page or DB | Judicial behavior patterns (deflection, discretion, denial) |
+| **LCa Modules** | Page or DB | Practitioner workflows, citation validation, risk controls |
+| **Crisis Mode** | Page | Step-by-step FG + template + TOA + filing plan |
+| **Educator Mode** | Page | Syllabus builder, teaching blocks, case studies |
+| **Second-Opinion Mode** | Page | 8-step sanity check + FG + LC/LCA + archive flow |
+
+---
+
+### 🧠 Semantic Enhancements
+
+- Use **linked databases** to cross-reference FG cards with LC modules.
+- Add **status tags**: Draft, Ready, Deprecated, Legacy.
+- Embed **versioning logic**: v4.5, tagged PDFs, template pack links.
+- Include **disclaimer blocks** on every page: “Not legal advice. Public educational tool.”
+
+---
+
+### 🎨 Visual & UX Tips
+
+- Use **emoji headers** for clarity and speed (✅ 🧭 🧩 🧼 🪪).
+- Add **toggle blocks** for long explanations (e.g., Filing Hygiene, Known Pitfalls).
+- Use **gallery view** for FG cards—each tile = one tactic.
+- Include **“Start Here” button** linking to Quickstart.
+
+---
+
+### 🔗 Sharing & Permissions
+
+- Set workspace to **public view** with selected pages editable by coalition members.
+- Add **comment-only access** for sensitive modules (JC, LCa).
+- Use **Notion Forms** or embedded Typeform for coalition onboarding.
+
+---
+
+If you’d like, I can help write the “Start Here” onboarding flow, design FG card templates, or script the Coalition Portal intro. Just say the word and we’ll build it together.

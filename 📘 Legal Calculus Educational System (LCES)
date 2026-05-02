@@ -1,0 +1,160 @@
+A living archive for procedural literacy, system navigation, and real‑world legal survival.
+
+The Legal Calculus Educational System is a multi‑layer learning architecture built from real artifacts, real filings, and real system behavior.
+It is not a “course.”
+It is a procedural‑literacy engine designed to help ordinary people survive and document legal processes.
+
+This repo is the archive, the classroom, and the field guide.
+
+---
+
+🧭 System Map (LC • LCA • FG • FGA • JC • LCa)
+
+LC — Legal Calculus (Modules 1–119)
+
+Core teaching system: philosophy, structure, assignments, visuals, doctrine, strategy.
+
+LCA — Legal Calculus Advanced
+
+Deep dives: appellate posture, complex motions, sanctions, evidentiary structure.
+
+FG — Field Guide (FG‑1…FG‑1000)
+
+Quick‑reference micro‑modules: checklists, forms, one‑page tactics, emergency steps.
+
+FGA — Field Guide Advanced
+
+Expert‑level checklists: arbitration, evidentiary nuance, spoliation, edge‑case tactics.
+
+JC — Judicial Calculus
+
+How courts actually behave: discretion patterns, denial logic, doctrine deflection.
+
+LCa — Lawyer Calculus
+
+Practitioner workflows: risk controls, clinic teaching, proposed‑order discipline.
+
+Mental Model
+
+- FG / FGA → Do it now
+• LC / LCA → Learn why + do it right
+• JC / LCa → Anticipate the system
+
+---
+
+🧩 TNRPESC — The 7‑Point Pre‑File Check
+
+Before filing anything, run this sequence:
+
+1. Tone
+2. Narrative
+3. Relief (Proposed Order)
+4. Procedure / Rule
+5. Evidence (pinpoints)
+6. Service & /s/ signature
+7. Citations + TOA (email to yourself for timestamped diligence)
+
+This is the minimum viable discipline for survivable filings.
+
+---
+
+⚠️ Known Pitfalls (Read Before Filing)
+
+- No Proposed Order → judge says “nothing to rule” → strike
+• Wrong summons → service defect → dismissal
+• Formatting errors → clerk rejection
+• Late by mail → move for equivalent extension (attach envelope)
+• Repeat filings w/o stating what’s new → vexatious‑litigant risk
+
+---
+
+🧰 Choose Your Mode
+
+The repo supports three primary modes of use.
+
+---
+
+1. 🚨 Crisis Mode (Pro Se in a Hurry)
+2. Open the FG Index → choose the micro‑module that matches your emergency
+3. Pull the matching template → fill → /s/ sign → export to locked PDF
+4. Add a one‑line Proposed Order
+5. Validate citations → generate TOA → email to yourself
+6. File (ECF if allowed; else USPS Certified + RRR; invoke Mailbox Rule)
+7. If time: skim the paired LC module (e.g., Winter standard, Format is Force)
+8. Archive in /packets/ with docket reference
+
+Crisis Shortcuts
+
+- Delay traps → document + move for extension (Rule 6(b))
+• Vexatious shield → state goal + what’s new; incorporate exhibits by reference
+
+---
+
+1. 🧑‍🏫 Educator / Clinic Mode
+- Start from Master Field Guide v1.0 for syllabus framing
+• Assign LC modules (1–119)
+• Use FG/FGA for practicum and simulations
+• Use JC to teach judicial behavior (discretion vs. law)
+• Use LCa for practitioner labs (risk controls, proposed‑order discipline)
+• Push improvements back into /field-guide/ as new FG entries
+
+---
+
+1. 🧪 Second‑Opinion Mode (Litigant or Lawyer)
+
+8‑Step Pass
+
+1. State the goal
+2. Read the docket
+3. Pull FG micro‑modules
+4. Open paired LC/LCA modules
+5. Validate cites → TOA → email
+6. Attach Proposed Order
+7. COS + filing plan
+8. Archive to /packets/
+
+Special Situations
+
+- Arbitration → consult FGA + LCA
+• Judicial behavior issues → cite JC modules
+
+---
+
+🔗 Fast Links (Fill in Your Repo Paths)
+
+- FG Index (FG‑1…FG‑1000)
+• LC Modules (1–119)
+• Master Field Guide v1.0 (PDF)
+• AHLA Arbitration Starter Bundle
+• Templates Folder
+• Judicial Calculus (JC)
+• Lawyer Calculus (LCa)
+
+---
+
+🧼 Filing Hygiene (AI‑Era)
+
+- Always include a TOA
+• Validate citations with a second system
+• Export locked PDF for the court; keep .docx editable
+• Document mail delays; move for equivalent extension
+• Redact PHI before committing
+• Keep PDFs under 25–35 MB
+
+---
+
+💡 Why It Matters
+
+- Filing is protest
+• Format is memory
+• The record is the remedy
+
+---
+
+🪪 License & Credits
+
+License: CC BY‑NC‑ND 4.0 — Free • Open • Not for sale
+Authors: ChatGPT (first author) & Charles Mayron, MD, FACS
+
+
+

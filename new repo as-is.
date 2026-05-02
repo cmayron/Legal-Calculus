@@ -1,0 +1,1661 @@
+Field_Guide/
+  README.md
+  LICENSE.md
+  FG_master.md                 # <— your full source (paste your 1–1000 here)
+  /tools/
+    transform_and_split.py     # <— build tool (your rules + parsing + outputs)
+  /docs/
+    style-guide.md             # your rules + template for reference
+    index.csv                  # <— auto-built
+  /volumes/                    # <— auto-built (20 .md files)
+    FG_V01_0001-0050.md
+    ...
+    FG_V20_0951-1000.md
+  /dataset/                    # <— auto-built JSON
+    cards.json                 # all 1–1000
+    volumes/
+      FG_V01_0001-0050.json
+      ...
+      FG_V20_0951-1000.json
+  /app/
+    index.html                 # your UI (keep yours); apply the 2 tiny patches below
+  /.github/workflows/
+    build.yml                  # optional CI that runs the tool on push
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Builds the Legal Calculus Field Guide dataset from a single FG_master.md.
+
+Outputs:
+- FG_master.normalized.md
+- volumes/FG_VXX_####-####.md (20 files, 50 each)
+- docs/index.csv
+- dataset/cards.json (all 1–1000)
+- dataset/volumes/FG_VXX_####-####.json
+
+Usage:
+  python3 tools/transform_and_split.py FG_master.md
+"""
+import re, csv, json, sys, math, unicodedata
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DOCS = ROOT / "docs"
+VOLS = ROOT / "volumes"
+DATA = ROOT / "dataset"
+DATA_V = DATA / "volumes"
+
+HEADER_RE = re.compile(r'^\s*#{1,6}\s*FG[- ]?(\d{1,4})\s*[—-]\s*(.+)$', re.M)
+PAD2_RE   = re.compile(r'FG-(\d{1,2})(?=\s)')
+PAD3_RE   = re.compile(r'FG-(\d{3})(?=\s)')
+CORE_BLOCK_RE = re.compile(
+    r'(⚖️ \*\*Core Message:\*\* [^\n]+)(?:\n(?!- 📖|\Z).*)*',
+    re.DOTALL
+)
+ID_COMMENT_RE = re.compile(r'^### FG-(\d{3,4}) — (.+)$', re.M)
+
+CARD_SPLIT_RE = re.compile(r'\n(?=###\s*FG-\d+\s*—)', re.M)
+HEAD_RE = re.compile(r'^###\s*FG-(\d+)\s*—\s*(.+)\s*$', re.M)
+
+def slugify(s):
+    s = ''.join(c for c in unicodedata.normalize('NFKD', s) if not unicodedata.combining(c))
+    s = re.sub(r'[^a-zA-Z0-9]+','-', s).strip('-').lower()
+    return s
+
+def normalize(md_text: str) -> str:
+    # Ensure canonical card headers: "### FG-<id> — <Title>"
+    md_text = HEADER_RE.sub(r'### FG-\1 — \2', md_text)
+    # Zero-pad ids in free text where needed (FG-1..FG-99 → FG-001; FG-100..FG-999 → FG-0100 safety)
+    md_text = PAD3_RE.sub(r'FG-0\1', md_text)
+    md_text = PAD2_RE.sub(r'FG-00\1', md_text)
+    # Normalize core block → ensure the full 6 sections exist after Core
+    md_text = CORE_BLOCK_RE.sub(
+        r"""{}\n- 📖 **Lesson Content:** \n- ✏️ **Assignment:** \n- ✅ **Model Response:** \n- 💡 **Reflection Summary:** \n- 🎨 **Visual Concept:** Illustrative: . | Conceptual: .""".format(r'\1'),
+        md_text
+    )
+    # Inject id comment after header
+    md_text = ID_COMMENT_RE.sub(r'### FG-\1 — \2\n<!-- id: fg-\1 -->', md_text)
+    return md_text
+
+def parse_cards(md_text: str):
+    # split blocks by header
+    blocks = CARD_SPLIT_RE.split(md_text.strip())
+    cards = []
+    for block in blocks:
+        m = HEAD_RE.search(block)
+        if not m: 
+            continue
+        cid = int(m.group(1))
+        title = m.group(2).strip()
+        def grab(label):
+            # Pull the line(s) after a label until next '- ' section or end
+            pat = re.compile(rf'{re.escape(label)}\**:\*\*\s*([\s\S]*?)(?:\n- |\n$)', re.I)
+            mm = pat.search(block)
+            return (mm.group(1).strip() if mm else "")
+        core = grab('⚖️ **Core Message**')
+        lesson = grab('📖 **Lesson Content**')
+        assignment = grab('✏️ **Assignment**')
+        model = grab('✅ **Model Response**')
+        reflection = grab('💡 **Reflection Summary**')
+        visual = grab('🎨 **Visual Concept**')
+        volume = max(1, math.ceil(cid/50))
+        cards.append({
+            "id": cid,
+            "title": title,
+            "volume": volume,
+            "topic": (title.split('=')[0] if '=' in title else title).strip().split()[0] or "Other",
+            "core": core, "lesson": lesson, "assignment": assignment,
+            "model": model, "reflection": reflection, "visual": visual,
+            "slug": f"fg-{cid:03d}-{slugify(title)}"
+        })
+    # sort by id
+    cards.sort(key=lambda x: x["id"])
+    return cards
+
+def write_volumes_md(cards):
+    VOLS.mkdir(parents=True, exist_ok=True)
+    # gather blocks by reading from normalized master later
+    # Here we reconstruct minimal per-volume MD from parsed parts
+    grouped = {}
+    for c in cards:
+        grouped.setdefault(c["volume"], []).append(c)
+    for vol in range(1, 21):
+        arr = grouped.get(vol, [])
+        if not arr: 
+            continue
+        start = (vol-1)*50 + 1
+        end = vol*50
+        fn = VOLS / f"FG_V{vol:02d}_{start:04d}-{end:04d}.md"
+        parts = []
+        for c in arr:
+            parts.append(
+f"""### FG-{c['id']:04d} — {c['title']}
+<!-- id: fg-{c['id']:04d} -->
+- ⚖️ **Core Message:** {c['core']}
+- 📖 **Lesson Content:** {c['lesson']}
+- ✏️ **Assignment:** {c['assignment']}
+- ✅ **Model Response:** {c['model']}
+- 💡 **Reflection Summary:** {c['reflection']}
+- 🎨 **Visual Concept:** {c['visual']}"""
+            )
+        fn.write_text("\n\n".join(parts), encoding="utf-8")
+
+def write_index_csv(cards):
+    DOCS.mkdir(parents=True, exist_ok=True)
+    with (DOCS / "index.csv").open("w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["FG","Volume","Title","CoreMessage","Slug"])
+        for c in cards:
+            core_1line = " ".join(c["core"].splitlines()).strip()
+            w.writerow([f"{c['id']:04d}", c["volume"], c["title"], core_1line, c["slug"]])
+
+def write_json(cards):
+    DATA.mkdir(parents=True, exist_ok=True)
+    DATA_V.mkdir(parents=True, exist_ok=True)
+    # all-in-one
+    (DATA / "cards.json").write_text(json.dumps({"cards":cards}, ensure_ascii=False, indent=2), encoding="utf-8")
+    # per volume
+    byv = {}
+    for c in cards:
+        byv.setdefault(c["volume"], []).append(c)
+    for vol, arr in byv.items():
+        start = (vol-1)*50 + 1
+        end = vol*50
+        (DATA_V / f"FG_V{vol:02d}_{start:04d}-{end:04d}.json").write_text(
+            json.dumps({"cards":arr}, ensure_ascii=False, indent=2),
+            encoding="utf-8"
+        )
+
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python3 tools/transform_and_split.py FG_master.md")
+        sys.exit(1)
+    src = Path(sys.argv[1]).resolve()
+    if not src.exists():
+        print(f"ERROR: File not found: {src}")
+        sys.exit(1)
+
+    raw = src.read_text(encoding="utf-8")
+    norm = normalize(raw)
+    (ROOT / "FG_master.normalized.md").write_text(norm, encoding="utf-8")
+
+    cards = parse_cards(norm)
+
+    # sanity
+    missing = [i for i in range(1, 1001) if i not in {c["id"] for c in cards}]
+    if missing:
+        print(f"WARNING: Missing {len(missing)} IDs (e.g., {missing[:10]}...)")
+    else:
+        print("All 1–1000 ids present ✅")
+
+    write_volumes_md(cards)
+    write_index_csv(cards)
+    write_json(cards)
+
+    print(f"\nBuild complete:")
+    print(f"  - Normalized: FG_master.normalized.md")
+    print(f"  - Volumes MD: volumes/FG_VXX_####-####.md")
+    print(f"  - Index CSV : docs/index.csv")
+    print(f"  - Dataset   : dataset/cards.json (+ per-volume JSONs)")
+    print(f"  - Cards     : {len(cards)} parsed")
+    # simple volume count
+    byv = {}
+    for c in cards: byv.setdefault(c["volume"],0); byv[c["volume"]] += 1
+    for v in range(1,21):
+        print(f"    V{v:02d}: {byv.get(v,0)} cards")
+
+if __name__ == "__main__":
+    main()
+chmod +x tools/transform_and_split.py
+python3 tools/transform_and_split.py FG_master.md
+# Field Guide Normalization Rules
+
+Find:    ^\s*#{1,6}\s*FG[- ]?(\d{1,4})\s*[—-]\s*(.+)$  
+Replace: ### FG-\1 — \2
+
+Find:    FG-(\d{1,2})(?=\s)  
+Replace: FG-00\1  
+Find:    FG-(\d{3})(?=\s)  
+Replace: FG-0\1
+
+Find:    (⚖️ \*\*Core Message:\*\* [^\n]+)(?:\n(?!- 📖|\Z).*)*  
+Replace: $1  
+- 📖 **Lesson Content:**  
+- ✏️ **Assignment:**  
+- ✅ **Model Response:**  
+- 💡 **Reflection Summary:**  
+- 🎨 **Visual Concept:** Illustrative: . | Conceptual: .
+
+Find:    ^### FG-(\d{3,4}) — (.+)$  
+Replace: ### FG-\1 — \2\n<!-- id: fg-\1 -->
+
+---
+
+## Card Template
+
+### FG-<NNN> — <Title> <COLOR><EMOJIS>  
+- ⚖️ **Core Message:** <one line>  
+- 📖 **Lesson Content:** <3 short bullets or 1 tight paragraph>  
+- ✏️ **Assignment:** <one actionable prompt>  
+- ✅ **Model Response:** <1–2 sentences>  
+- 💡 **Reflection Summary:** <one line aphorism>  
+- 🎨 **Visual Concept:** Illustrative: <literal visual>. | Conceptual: <metaphor>.
+const LS = {
+  cards:'lcfg_cards_v45_unified_lces_v1',
+  bundle:'lcfg_bundle_v45_unified_lces_v1',
+  selected:'lcfg_selected_v45_unified_lces_v1',
+  tracks:'lcfg_tracks_v45_unified_lces_v1'
+};
+<script>
+async function loadDatasetIfEmpty(){
+  const hasLocal = localStorage.getItem(LS.cards);
+  if (hasLocal) return; // already seeded
+
+  try{
+    const res = await fetch('../dataset/cards.json', {cache:'no-store'});
+    if(!res.ok) throw new Error('no dataset');
+    const obj = await res.json();
+    if(obj.cards?.length){
+      localStorage.setItem(LS.cards, JSON.stringify(obj.cards));
+      console.log(`Seeded ${obj.cards.length} cards from dataset/cards.json`);
+    }
+  }catch(e){
+    console.warn('Dataset not found; falling back to embedded or seed.', e);
+  }
+}
+
+// call this once before the rest of your boot flow:
+loadDatasetIfEmpty().then(()=>boot());
+</script>
+# Legal Calculus Field Guide (FG 1–1000)
+
+> Build → Normalize → Split → Index → JSON
+
+## Quick Start
+
+```bash
+python3 tools/transform_and_split.py FG_master.md
+Open-Access License (Non-Commercial; Attribution; No Misrepresentation)
+
+You may use, share, and adapt this work with attribution. Commercial use,
+sale, or paywalled redistribution is prohibited. Do not misrepresent authorship
+or affiliation. Include this notice in any copies or adaptations.
+
+© Legal Calculus & contributors
+python3 tools/transform_and_split.py FG_master.md
+{
+  "name": "Legal Calculus",
+  "short_name": "LC Unified",
+  "description": "Legal Calculus Field Guide (FG 1–1000), offline-first.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0c0f14",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
+/* Legal Calculus PWA Service Worker — offline-first for app shell + dataset */
+const VERSION = 'lc-sw-v1';
+const APP_SHELL = [
+  './',
+  './index.html',
+  './manifest.json'
+  // add './styles.css' etc if you split styles/scripts later
+];
+const PRECACHE_DATA = [
+  '../dataset/cards.json'
+];
+
+self.addEventListener('install', (e) => {
+  e.waitUntil(
+    caches.open(VERSION).then(c => c.addAll([...APP_SHELL, ...PRECACHE_DATA])).then(()=>self.skipWaiting())
+  );
+});
+
+self.addEventListener('activate', (e) => {
+  e.waitUntil(
+    caches.keys().then(keys => Promise.all(keys.filter(k=>k!==VERSION).map(k=>caches.delete(k)))).then(()=>self.clients.claim())
+  );
+});
+
+/* Strategy:
+ * - App shell: cache-first
+ * - Dataset (*.json under /dataset): stale-while-revalidate
+ * - Everything else: network-first fallback to cache
+ */
+self.addEventListener('fetch', (e) => {
+  const url = new URL(e.request.url);
+  const isApp = url.pathname.startsWith('/app/') || url.pathname.endsWith('/index.html');
+  const isData = url.pathname.includes('/dataset/') && url.pathname.endsWith('.json');
+
+  if (isApp) {
+    e.respondWith(
+      caches.match(e.request).then(r => r || fetch(e.request).then(res => {
+        const resClone = res.clone();
+        caches.open(VERSION).then(c => c.put(e.request, resClone));
+        return res;
+      }))
+    );
+    return;
+  }
+
+  if (isData) {
+    e.respondWith(
+      caches.match(e.request).then(cacheRes => {
+        const fetchPromise = fetch(e.request).then(networkRes => {
+          caches.open(VERSION).then(c => c.put(e.request, networkRes.clone()));
+          return networkRes;
+        }).catch(()=>null);
+        return cacheRes || fetchPromise || new Response('[]', {headers:{'Content-Type':'application/json'}});
+      })
+    );
+    return;
+  }
+
+  // default: network-first
+  e.respondWith(
+    fetch(e.request).then(res=>{
+      const clone = res.clone();
+      caches.open(VERSION).then(c=>c.put(e.request, clone));
+      return res;
+    }).catch(()=>caches.match(e.request))
+  );
+});
+Place PNG icons here:
+- icon-192.png   (192x192)
+- icon-512.png   (512x512)
+- maskable-512.png (512x512 maskable)
+Tip: export from your SVG/logo; iOS uses the 192 as apple-touch-icon as well.
+const LS = {
+  cards:'lcfg_cards_v45_unified_lces_v1',
+  bundle:'lcfg_bundle_v45_unified_lces_v1',
+  selected:'lcfg_selected_v45_unified_lces_v1',
+  tracks:'lcfg_tracks_v45_unified_lces_v1'
+};
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0ea5e9">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(console.warn);
+}
+
+async function loadDatasetIfEmpty(){
+  const hasLocal = localStorage.getItem(LS.cards);
+  if (hasLocal) return;
+  try{
+    const res = await fetch('../dataset/cards.json', {cache:'no-store'});
+    if(!res.ok) throw new Error('dataset not found');
+    const obj = await res.json();
+    if(obj.cards?.length){
+      localStorage.setItem(LS.cards, JSON.stringify(obj.cards));
+      console.log(`Seeded ${obj.cards.length} cards from dataset/cards.json`);
+    }
+  }catch(e){ console.warn('Dataset seed skipped:', e); }
+}
+</script>
+window.addEventListener('DOMContentLoaded', ()=>{
+  boot();
+  // ...
+});
+window.addEventListener('DOMContentLoaded', ()=>{
+  loadDatasetIfEmpty().then(()=>{ boot(); /* ...rest of your init... */ });
+});
+{
+  "name": "lc-mobile",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build:web": "node ../tools/pack_web.js",
+    "cap:init": "npx cap init \"Legal Calculus\" com.legalcalculus.lces --web-dir=www",
+    "cap:sync": "npx cap sync",
+    "ios": "npx cap open ios",
+    "android": "npx cap open android"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.0",
+    "fs-extra": "^11.2.0"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.0"
+  }
+}
+import { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
+  appId: 'com.legalcalculus.lces',
+  appName: 'Legal Calculus',
+  webDir: 'www',
+  bundledWebRuntime: false,
+  server: { androidScheme: 'https' }
+};
+export default config;
+#!/usr/bin/env node
+const fs = require('fs-extra');
+const path = require('path');
+
+const ROOT = path.resolve(__dirname, '..');
+const APP = path.join(ROOT, 'app');
+const DATA = path.join(ROOT, 'dataset');
+const WWW = path.join(ROOT, 'mobile', 'www');
+
+(async ()=>{
+  await fs.remove(WWW);
+  await fs.ensureDir(WWW);
+  await fs.copy(APP, WWW);                         // app shell
+  await fs.copy(DATA, path.join(WWW, 'dataset'));  // dataset
+  console.log('Packed web into mobile/www ✅');
+})();
+mobile/ios/
+mobile/android/
+mobile/www/
+# 1) Build dataset from FG_master.md (already in your repo)
+python3 tools/transform_and_split.py FG_master.md
+
+# 2) Pack the web app + dataset into mobile/www
+npm --prefix mobile install
+npm --prefix mobile run build:web
+
+# 3) Initialize Capacitor (first time only)
+npm --prefix mobile run cap:init
+
+# 4) Sync native projects
+npm --prefix mobile run cap:sync
+
+# 5) Open Xcode for App Store build
+npm --prefix mobile run ios
+npm --prefix mobile run android
+{
+  "NSPrivacyTracking": false,
+  "NSPrivacyCollectedDataTypes": [],
+  "NSPrivacyAccessedAPITypes": []
+}
+name: Deploy LC to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      BUILD_REF: ${{ github.sha }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build dataset (cards.json) from FG_master.md
+        run: |
+          python3 tools/transform_and_split.py FG_master.md
+          ls -la dataset || true
+          test -f dataset/cards.json
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install node tools
+        run: npm ci
+
+      - name: Generate PWA icons
+        run: node tools/make_icons.js
+
+      - name: Make distribution folder
+        run: node tools/make_dist.js
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+{
+  "name": "legal-calculus-lces",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build:icons": "node tools/make_icons.js",
+    "build:dist": "node tools/make_dist.js"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "sharp": "^0.33.4"
+  }
+}
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#7dd3fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="180" fill="#0c0f14"/>
+  <g transform="translate(140,140)">
+    <rect width="744" height="744" rx="160" fill="url(#g)"/>
+    <text x="372" y="460" font-family="Inter, system-ui, sans-serif" font-size="320" font-weight="800" text-anchor="middle" fill="#0c0f14">LC</text>
+  </g>
+</svg>
+#!/usr/bin/env node
+const sharp = require('sharp');
+const fs = require('fs-extra');
+const path = require('path');
+
+const SRC = path.join(__dirname, '..', 'assets', 'logo.svg');
+const OUT = path.join(__dirname, '..', 'app', 'icons');
+
+(async ()=>{
+  await fs.ensureDir(OUT);
+  const sizes = [192, 512];
+
+  for (const s of sizes) {
+    await sharp(SRC)
+      .resize(s, s, { fit: 'contain', background: { r:12,g:15,b:20,alpha:1 } })
+      .png()
+      .toFile(path.join(OUT, `icon-${s}.png`));
+  }
+
+  // maskable (full-bleed, safe padding)
+  await sharp({
+      create:{ width:512, height:512, channels:4, background:{ r:12,g:15,b:20,alpha:1 } }
+    })
+    .composite([{ input: await sharp(SRC).resize(420,420).png().toBuffer(), left:46, top:46 }])
+    .png()
+    .toFile(path.join(OUT, 'maskable-512.png'));
+
+  console.log('PWA icons generated in app/icons ✅');
+})();
+#!/usr/bin/env node
+const fs = require('fs-extra');
+const path = require('path');
+
+const ROOT = path.resolve(__dirname, '..');
+const APP = path.join(ROOT, 'app');
+const DATA = path.join(ROOT, 'dataset');
+const DIST = path.join(ROOT, 'dist');
+
+(async ()=>{
+  await fs.remove(DIST);
+  await fs.ensureDir(DIST);
+
+  await fs.copy(APP, DIST);                          // app shell
+  await fs.copy(DATA, path.join(DIST, 'dataset'));   // dataset next to index.html
+
+  // cache-bust SW version with build ref
+  const swPath = path.join(DIST, 'sw.js');
+  if (await fs.pathExists(swPath)) {
+    let sw = await fs.readFile(swPath, 'utf8');
+    const ref = process.env.BUILD_REF || Date.now().toString();
+    sw = sw.replace(/const VERSION = 'lc-sw-v1[^']*'/, `const VERSION = 'lc-sw-v1-${ref}'`);
+    await fs.writeFile(swPath, sw);
+  }
+  console.log('Dist ready at dist/ ✅');
+})();
+<script>
+async function loadDatasetIfEmpty(){
+  if (localStorage.getItem(LS.cards)) return;
+  const candidates = ['./dataset/cards.json','../dataset/cards.json'];
+  for (const url of candidates){
+    try{
+      const res = await fetch(url, { cache:'no-store' });
+      if(res.ok){
+        const obj = await res.json();
+        if(obj.cards?.length){
+          localStorage.setItem(LS.cards, JSON.stringify(obj.cards));
+          console.log(`Seeded ${obj.cards.length} cards from ${url}`);
+          return;
+        }
+      }
+    }catch(e){}
+  }
+  console.warn('Dataset seed not found; falling back to embedded seed if any.');
+}
+</script>
+legalcalculus.example.org
+name: Release ZIP (LCES dist)
+
+on:
+  push:
+    tags:
+      - 'v*'   # e.g. v1.0.0
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    env:
+      VERSION: ${{ github.ref_name }}   # v1.0.0
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build dataset (cards.json)
+        run: |
+          set -e
+          test -f tools/transform_and_split.py
+          # Prefer full master; fall back to sample if needed
+          if [ -f FG_master.md ]; then
+            python3 tools/transform_and_split.py FG_master.md
+          else
+            python3 tools/transform_and_split.py FG_master_SAMPLE.md
+          fi
+          test -f dataset/cards.json
+          ls -la dataset
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dev tools
+        run: npm ci
+
+      - name: Generate PWA icons
+        run: node tools/make_icons.js
+
+      - name: Build /dist
+        run: node tools/make_dist.js
+
+      - name: Pack zip
+        run: |
+          cd dist
+          zip -r ../LCES-dist-${VERSION}.zip .
+          cd ..
+          sha256sum LCES-dist-${VERSION}.zip > LCES-dist-${VERSION}.zip.sha256
+          ls -lh LCES-dist-${VERSION}.zip*
+
+      - name: Create GitHub release & upload assets
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: false
+          prerelease: false
+          files: |
+            LCES-dist-${{ env.VERSION }}.zip
+            LCES-dist-${{ env.VERSION }}.zip.sha256
+git tag -a v1.0.0 -m "LCES v1.0.0"
+git push origin v1.0.0
+{
+  "name": "Legal Calculus",
+  "short_name": "LCES",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0c0f14",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable any" }
+  ]
+}
+/* Minimal offline SW for LCES */
+const VERSION = 'lc-sw-v1';
+const CORE = [
+  './',
+  './index.html',
+  './manifest.webmanifest',
+  './icons/icon-192.png',
+  './icons/icon-512.png',
+  './icons/maskable-512.png'
+];
+const DATA = ['./dataset/cards.json'];
+
+self.addEventListener('install', (e) => {
+  e.waitUntil((async () => {
+    const c = await caches.open(VERSION);
+    await c.addAll(CORE.concat(DATA));
+    self.skipWaiting();
+  })());
+});
+
+self.addEventListener('activate', (e) => {
+  e.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.filter(k => k !== VERSION).map(k => caches.delete(k)));
+    self.clients.claim();
+  })());
+});
+
+self.addEventListener('fetch', (e) => {
+  const url = new URL(e.request.url);
+  // Network-first for dataset, cache-first for shell
+  if (url.pathname.endsWith('/dataset/cards.json')) {
+    e.respondWith((async () => {
+      try {
+        const fresh = await fetch(e.request, { cache: 'no-store' });
+        const c = await caches.open(VERSION);
+        c.put(e.request, fresh.clone());
+        return fresh;
+      } catch {
+        const hit = await caches.match(e.request);
+        return hit || new Response('[]', { headers: { 'Content-Type': 'application/json' } });
+      }
+    })());
+    return;
+  }
+  e.respondWith(caches.match(e.request).then(hit => hit || fetch(e.request)));
+});
+<link rel="manifest" href="./manifest.webmanifest">
+<meta name="theme-color" content="#0ea5e9">
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));
+}
+</script>
+name-template: 'LCES $NEXT_PATCH_VERSION'
+tag-template: 'v$NEXT_PATCH_VERSION'
+categories:
+  - title: '✨ Features'
+    labels: ['feature','enhancement']
+  - title: '🐛 Fixes'
+    labels: ['bug','fix']
+  - title: '🧰 Infra / Build'
+    labels: ['infra','build','ci','refactor']
+  - title: '📚 Docs'
+    labels: ['docs']
+  - title: '🗂 Dataset / Cards'
+    labels: ['dataset','cards']
+change-template: '- $TITLE (#$NUMBER) by @$AUTHOR'
+change-title-escapes: '\<*_&'   # escape markdown where needed
+template: |
+  ## Release summary
+  _Auto-drafted notes; edit before publishing._
+
+  ## Changes
+  $CHANGES
+
+  ## Deployment
+  - Pages: auto
+  - ZIP: via tagged release (see pipelines)
+
+  ## Checksums
+  Assets include `.sha256`.
+name: Draft Release Notes
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+permissions:
+  contents: write
+jobs:
+  update_release_draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: release-drafter/release-drafter@v6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+name: Nightly Prerelease (zip + notes)
+
+on:
+  schedule:
+    - cron: '15 3 * * *'   # 03:15 UTC nightly
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  nightly:
+    runs-on: ubuntu-latest
+    env:
+      TAG: nightly-${{ github.run_id }}-${{ github.run_number }}
+      TITLE: "Nightly build"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python (dataset build)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build dataset/cards.json
+        run: |
+          set -e
+          mkdir -p dataset
+          if [ -f tools/transform_and_split.py ]; then
+            if [ -f FG_master.md ]; then
+              python3 tools/transform_and_split.py FG_master.md
+            elif [ -f FG_master_SAMPLE.md ]; then
+              python3 tools/transform_and_split.py FG_master_SAMPLE.md
+            else
+              echo "No FG source found"; exit 1
+            fi
+          elif [ ! -f dataset/cards.json ]; then
+            echo '[]' > dataset/cards.json
+          fi
+          test -f dataset/cards.json && jq length dataset/cards.json || true
+
+      - name: Build dist (simple copy if no builder)
+        run: |
+          rm -rf dist
+          mkdir -p dist/app dist/dataset
+          # app
+          if [ -d app ]; then
+            rsync -a --delete app/ dist/
+          else
+            # single-file app fallback
+            mkdir -p dist
+            cp -f index.html dist/index.html 2>/dev/null || true
+          fi
+          # dataset
+          cp -f dataset/cards.json dist/dataset/cards.json
+          # sanity
+          ls -la dist dist/dataset || true
+
+      - name: Zip assets
+        run: |
+          cd dist
+          zip -r ../LCES-nightly.zip .
+          cd ..
+          sha256sum LCES-nightly.zip > LCES-nightly.zip.sha256
+          ls -lh LCES-nightly.zip*
+
+      - name: Create prerelease
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.TAG }}
+          name: ${{ env.TITLE }} — ${{ env.TAG }}
+          prerelease: true
+          draft: false
+          generate_release_notes: true
+          files: |
+            LCES-nightly.zip
+            LCES-nightly.zip.sha256
+# Release notes guide
+
+Add labels to PRs so Release Drafter groups them:
+- `feature`, `enhancement` → ✨ Features
+- `bug`, `fix` → 🐛 Fixes
+- `infra`, `build`, `ci`, `refactor` → 🧰 Infra / Build
+- `docs` → 📚 Docs
+- `dataset`, `cards` → 🗂 Dataset / Cards
+
+Draft notes are updated on each push/PR. Edit the draft before publishing a tag.
+# inside the softprops/action-gh-release step
+generate_release_notes: true
+name: Cleanup Nightly Releases
+
+on:
+  schedule:
+    - cron: "30 4 * * *"   # daily 04:30 UTC
+  workflow_dispatch:
+    inputs:
+      keep:
+        description: "How many latest nightlies to keep"
+        required: false
+        default: "10"
+      dry_run:
+        description: "List what would be deleted (no changes)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    env:
+      DEFAULT_KEEP: "10"
+    steps:
+      - name: Delete older nightly prereleases
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
+
+            // Resolve inputs / defaults
+            const keepStr = core.getInput('keep') || process.env.DEFAULT_KEEP || '10';
+            const keep = Math.max(0, parseInt(keepStr, 10) || 10);
+            const dryRun = (core.getInput('dry_run') || 'false').toString() === 'true';
+
+            core.info(`Keeping latest ${keep} nightlies. dryRun=${dryRun}`);
+
+            // Page through all releases
+            const all = [];
+            for (let page = 1; ; page++) {
+              const { data } = await github.rest.repos.listReleases({
+                owner, repo, per_page: 100, page
+              });
+              if (!data.length) break;
+              all.push(...data);
+            }
+
+            // Filter to prereleases with nightly-* tag
+            const nightlies = all
+              .filter(r => r.prerelease && r.tag_name && r.tag_name.startsWith('nightly-'))
+              .sort((a,b) => new Date(b.created_at) - new Date(a.created_at));
+
+            const toDelete = nightlies.slice(keep);
+            core.info(`Found ${nightlies.length} nightlies; deleting ${toDelete.length}`);
+
+            // Summary table
+            const rows = [['Tag', 'Created', 'Action']];
+            nightlies.forEach((r, idx) => rows.push([r.tag_name, r.created_at, idx < keep ? 'keep' : 'delete']));
+
+            await core.summary
+              .addHeading('Nightly cleanup')
+              .addTable(rows)
+              .addRaw('\n')
+              .write();
+
+            for (const r of toDelete) {
+              core.info(`Deleting release ${r.tag_name} (${r.id})`);
+              if (dryRun) continue;
+
+              // Delete release (also removes assets)
+              await github.rest.repos.deleteRelease({ owner, repo, release_id: r.id }).catch(e => {
+                core.warning(`deleteRelease failed for ${r.tag_name}: ${e.message}`);
+              });
+
+              // Delete tag ref
+              const ref = `tags/${r.tag_name}`;
+              await github.rest.git.deleteRef({ owner, repo, ref }).catch(e => {
+                core.warning(`deleteRef failed for ${ref}: ${e.message}`);
+              });
+            }
+          result-encoding: string
+name: Cleanup Actions Artifacts
+
+on:
+  schedule:
+    - cron: "15 5 * * 0" # Sundays 05:15 UTC
+  workflow_dispatch:
+    inputs:
+      max_age_days:
+        description: "Delete artifacts older than this many days"
+        required: false
+        default: "14"
+      keep_latest_per_name:
+        description: "Keep this many newest artifacts for each artifact name"
+        required: false
+        default: "3"
+      include:
+        description: "Only consider artifact names matching this regex (JS style). Default: .*"
+        required: false
+        default: ".*"
+      exclude:
+        description: "Skip artifact names matching this regex (JS style). Default: ^$ (none)"
+        required: false
+        default: "^$"
+      dry_run:
+        description: "List what would be deleted but make no changes"
+        type: boolean
+        default: false
+
+permissions:
+  actions: write   # needed to delete artifacts
+  contents: read
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prune old artifacts
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
+
+            // Inputs / defaults
+            const maxAgeDays = parseInt(core.getInput('max_age_days') || '14', 10);
+            const keepLatest = Math.max(0, parseInt(core.getInput('keep_latest_per_name') || '3', 10));
+            const rxInc = new RegExp(core.getInput('include') || '.*');
+            const rxExc = new RegExp(core.getInput('exclude') || '^$');
+            const dryRun = (core.getInput('dry_run') || 'false').toString() === 'true';
+
+            const now = Date.now();
+            const ageMs = d => (now - new Date(d).getTime());
+            const dayMs = 24*60*60*1000;
+
+            core.info(`Artifact cleanup: maxAgeDays=${maxAgeDays} keepLatestPerName=${keepLatest} dryRun=${dryRun}`);
+            core.info(`Include=${rxInc}  Exclude=${rxExc}`);
+
+            // Pull all artifacts across repo (paginated)
+            const artifacts = await github.paginate(
+              github.rest.actions.listArtifactsForRepo,
+              { owner, repo, per_page: 100 },
+              (resp) => resp.data
+            );
+
+            if (!artifacts.length) {
+              core.info("No artifacts found.");
+              return;
+            }
+
+            // Filter by name include/exclude
+            const eligible = artifacts.filter(a => rxInc.test(a.name) && !rxExc.test(a.name));
+
+            // Group by artifact name so we can "keep latest N per name"
+            const byName = new Map();
+            for (const a of eligible) {
+              if (!byName.has(a.name)) byName.set(a.name, []);
+              byName.get(a.name).push(a);
+            }
+            for (const [, list] of byName) {
+              list.sort((a,b)=> new Date(b.created_at) - new Date(a.created_at));
+            }
+
+            // Decide deletions:
+            // delete if older than maxAgeDays  OR  rank >= keepLatest per artifact name
+            const doomed = [];
+            for (const [name, list] of byName) {
+              list.forEach((a, idx) => {
+                const olderThan = (ageMs(a.created_at) > maxAgeDays * dayMs);
+                const beyondKeep = (idx >= keepLatest);
+                if (olderThan || beyondKeep) doomed.push({ ...a, rank: idx });
+              });
+            }
+
+            // Build summary (and delete unless dryRun)
+            let bytes = 0;
+            const rows = [['ID','Name','Run#','Created','Size','Rank','Action']];
+            for (const a of doomed) {
+              rows.push([String(a.id), a.name, a.workflow_run?.run_number ?? '-', a.created_at, String(a.size_in_bytes), String(a.rank), dryRun?'would delete':'delete']);
+              if (!dryRun) {
+                try {
+                  await github.rest.actions.deleteArtifact({ owner, repo, artifact_id: a.id });
+                  bytes += (a.size_in_bytes || 0);
+                } catch (e) {
+                  core.warning(`Failed to delete artifact ${a.id} (${a.name}): ${e.message}`);
+                }
+              } else {
+                bytes += (a.size_in_bytes || 0); // for reporting only
+              }
+            }
+
+            // Handy size formatter
+            const fmt = n => {
+              const units = ['B','KB','MB','GB','TB']; let u=0; let x=Number(n||0);
+              while(x>=1024 && u<units.length-1){ x/=1024; u++; }
+              return `${x.toFixed(1)} ${units[u]}`;
+            };
+
+            await core.summary
+              .addHeading('Artifacts cleanup report')
+              .addTable(rows)
+              .addRaw(`\n${dryRun ? 'Would free' : 'Freed'} approx. **${fmt(bytes)}**`)
+              .write();
+
+            core.info(`${dryRun ? 'Would delete' : 'Deleted'} ${doomed.length} artifacts; approx ${fmt(bytes)} ${dryRun?'would be freed':'freed'}.`);
+name: Cleanup Workflow Runs
+
+on:
+  schedule:
+    - cron: "25 5 * * 0" # Sundays 05:25 UTC
+  workflow_dispatch:
+    inputs:
+      max_age_days:
+        description: "Delete runs older than this many days"
+        required: false
+        default: "30"
+      keep_latest_per_workflow:
+        description: "Keep this many newest runs per workflow (name)"
+        required: false
+        default: "20"
+      status:
+        description: "Only delete runs with this status (completed|cancelled|success|failure|skipped|queued|in_progress|any)"
+        required: false
+        default: "completed"
+      include_workflows:
+        description: "Regex (JS) of workflow names to include. Default: .*"
+        required: false
+        default: ".*"
+      exclude_workflows:
+        description: "Regex (JS) of workflow names to exclude. Default: ^$"
+        required: false
+        default: "^$"
+      include_branches:
+        description: "Regex (JS) of branches to include. Default: .*"
+        required: false
+        default: ".*"
+      exclude_branches:
+        description: "Regex (JS) of branches to exclude. Default: ^$"
+        required: false
+        default: "^$"
+      include_events:
+        description: "Regex (JS) of run events to include (push|pull_request|workflow_dispatch|schedule|...). Default: .*"
+        required: false
+        default: ".*"
+      delete_runs_with_artifacts:
+        description: "If false, runs that still have artifacts are skipped"
+        required: false
+        default: "false"
+      dry_run:
+        description: "List what would be deleted but make no changes"
+        type: boolean
+        default: true
+
+permissions:
+  actions: write   # required to delete runs
+  contents: read
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prune old workflow runs
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
+
+            // Inputs
+            const maxAgeDays = parseInt(core.getInput('max_age_days') || '30', 10);
+            const keepLatest = Math.max(0, parseInt(core.getInput('keep_latest_per_workflow') || '20', 10));
+            const desiredStatus = (core.getInput('status') || 'completed').trim().toLowerCase();
+            const rxWFInc = new RegExp(core.getInput('include_workflows') || '.*');
+            const rxWFExc = new RegExp(core.getInput('exclude_workflows') || '^$');
+            const rxBrInc = new RegExp(core.getInput('include_branches') || '.*');
+            const rxBrExc = new RegExp(core.getInput('exclude_branches') || '^$');
+            const rxEvInc = new RegExp(core.getInput('include_events') || '.*');
+            const dryRun = (core.getInput('dry_run') || 'true').toString() === 'true';
+            const deleteRunsWithArtifacts = (core.getInput('delete_runs_with_artifacts') || 'false').toString() === 'true';
+
+            const now = Date.now();
+            const dayMs = 24*60*60*1000;
+            const tooOld = (t) => (now - new Date(t).getTime()) > maxAgeDays*dayMs;
+            const statusOk = (s) => {
+              if (desiredStatus === 'any') return true;
+              // normalize
+              const m = (s || '').toLowerCase();
+              // GitHub "run conclusion" vs "status": rely on both fields
+              return m.includes(desiredStatus);
+            };
+
+            core.info(`Runs cleanup: maxAgeDays=${maxAgeDays} keepLatestPerWorkflow=${keepLatest} dryRun=${dryRun}`);
+            core.info(`WF include=${rxWFInc} exclude=${rxWFExc} | Branch include=${rxBrInc} exclude=${rxBrExc} | Event include=${rxEvInc}`);
+            core.info(`Status=${desiredStatus} | deleteRunsWithArtifacts=${deleteRunsWithArtifacts}`);
+
+            // 1) Load workflows so we can keep N per workflow by name
+            const workflows = await github.paginate(
+              github.rest.actions.listRepoWorkflows,
+              { owner, repo, per_page: 100 },
+              (resp)=>resp.data.workflows
+            );
+
+            if (!workflows.length) {
+              core.info("No workflows found.");
+              return;
+            }
+
+            // Filter workflows by name include/exclude
+            const wfPicked = workflows.filter(wf => rxWFInc.test(wf.name) && !rxWFExc.test(wf.name));
+            if (!wfPicked.length) {
+              core.info("No workflows matched include/exclude filters.");
+              return;
+            }
+
+            const doomed = [];
+            let checked = 0;
+
+            for (const wf of wfPicked) {
+              // 2) List runs for this workflow
+              const runs = await github.paginate(
+                github.rest.actions.listWorkflowRuns,
+                { owner, repo, workflow_id: wf.id, per_page: 100 },
+                (resp)=>resp.data.workflow_runs
+              );
+
+              if (!runs.length) continue;
+
+              // Filter by branch, event, and status
+              let filtered = runs.filter(r =>
+                rxBrInc.test(r.head_branch || '') && !rxBrExc.test(r.head_branch || '') &&
+                rxEvInc.test(r.event || '') &&
+                (desiredStatus==='any' ? true : statusOk(r.status) || statusOk(r.conclusion))
+              );
+
+              // Sort newest first
+              filtered.sort((a,b)=> new Date(b.created_at) - new Date(a.created_at));
+
+              // Keep latest N
+              const beyondKeep = filtered.slice(keepLatest);
+
+              // Age check within beyondKeep; also allow age-only deletions if desired
+              const candidates = beyondKeep.filter(r => tooOld(r.created_at) || desiredStatus!=='any');
+
+              // Optionally skip runs that still have artifacts (unless user allows deletion)
+              for (const r of candidates) {
+                checked++;
+                if (!deleteRunsWithArtifacts) {
+                  try {
+                    const arts = await github.rest.actions.listWorkflowRunArtifacts({
+                      owner, repo, run_id: r.id, per_page: 1
+                    });
+                    if ((arts.data.total_count || 0) > 0) {
+                      core.info(`Skip run ${r.id} (${wf.name} #${r.run_number}) — has artifacts`);
+                      continue;
+                    }
+                  } catch (e) {
+                    core.warning(`Artifacts check failed for run ${r.id}: ${e.message}`);
+                  }
+                }
+                doomed.push({ wf: wf.name, id: r.id, num: r.run_number, created: r.created_at, branch: r.head_branch, status: r.status, conclusion: r.conclusion, event: r.event, url: r.html_url });
+              }
+            }
+
+            // Delete (or preview)
+            const rows = [['RunID','Workflow','#','Branch','Event','Status','Conclusion','Created','Action']];
+            let delCount = 0;
+            for (const d of doomed) {
+              rows.push([String(d.id), d.wf, String(d.num), d.branch||'-', d.event||'-', d.status||'-', d.conclusion||'-', d.created, dryRun?'would delete':'delete']);
+              if (!dryRun) {
+                try {
+                  await github.rest.actions.deleteWorkflowRun({ owner, repo, run_id: d.id });
+                  delCount++;
+                } catch (e) {
+                  core.warning(`Failed to delete run ${d.id} (${d.wf} #${d.num}): ${e.message}`);
+                }
+              }
+            }
+
+            await core.summary
+              .addHeading('Workflow runs cleanup report')
+              .addTable(rows)
+              .addRaw(`\n${dryRun ? 'Would delete' : 'Deleted'} **${delCount || doomed.length}** runs.`)
+              .write();
+
+            core.info(`${dryRun ? 'Would delete' : 'Deleted'} ${delCount || doomed.length} runs. Checked ~${checked} candidates.`);
+name: Cleanup CI Assets (Artifacts • Caches • Runs)
+
+on:
+  schedule:
+    - cron: "25 5 * * 0"   # Sundays 05:25 UTC
+  workflow_dispatch:
+    inputs:
+      # -------- Artifacts --------
+      artifact_max_age_days:
+        description: "Delete artifacts older than this many days (preview-only if dry_run=true)"
+        required: false
+        default: "30"
+      artifact_include_names:
+        description: "Regex of artifact names to include"
+        required: false
+        default: ".*"
+      artifact_exclude_names:
+        description: "Regex of artifact names to exclude"
+        required: false
+        default: "^$"
+      artifact_delete_nonexpired:
+        description: "If true, delete old artifacts even if not expired"
+        required: false
+        default: "false"
+
+      # -------- Actions Caches (optional) --------
+      cleanup_caches:
+        description: "Also prune GitHub Actions caches"
+        required: false
+        default: "false"
+      cache_max_age_days:
+        description: "Delete caches not accessed in this many days"
+        required: false
+        default: "30"
+      cache_include_keys:
+        description: "Regex of cache keys to include"
+        required: false
+        default: ".*"
+      cache_exclude_keys:
+        description: "Regex of cache keys to exclude"
+        required: false
+        default: "^$"
+
+      # -------- Workflow Runs --------
+      run_max_age_days:
+        description: "Delete workflow runs older than this many days (after keeping newest per workflow)"
+        required: false
+        default: "30"
+      keep_latest_per_workflow:
+        description: "Keep this many newest runs per workflow (by name)"
+        required: false
+        default: "20"
+      run_status:
+        description: "Only delete runs with this status/conclusion (completed|cancelled|success|failure|skipped|queued|in_progress|any)"
+        required: false
+        default: "completed"
+      include_workflows:
+        description: "Regex of workflow names to include"
+        required: false
+        default: ".*"
+      exclude_workflows:
+        description: "Regex of workflow names to exclude"
+        required: false
+        default: "^$"
+      include_branches:
+        description: "Regex of branches to include"
+        required: false
+        default: ".*"
+      exclude_branches:
+        description: "Regex of branches to exclude"
+        required: false
+        default: "^$"
+      include_events:
+        description: "Regex of run events to include (push|pull_request|workflow_dispatch|schedule|...)"
+        required: false
+        default: ".*"
+      delete_runs_with_artifacts:
+        description: "If false, skip runs that still have artifacts"
+        required: false
+        default: "false"
+
+      # -------- Safety --------
+      dry_run:
+        description: "Preview only; no deletions when true"
+        required: false
+        default: "true"
+
+permissions:
+  actions: write    # needed to list/delete artifacts, caches, and runs
+  contents: read
+
+concurrency:
+  group: cleanup-ci-assets
+  cancel-in-progress: false
+
+jobs:
+  cleanup_artifacts:
+    name: 1) Artifacts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prune repository artifacts (safe by default)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
+
+            const maxAgeDays = parseInt(core.getInput('artifact_max_age_days') || '30', 10);
+            const rxInc = new RegExp(core.getInput('artifact_include_names') || '.*');
+            const rxExc = new RegExp(core.getInput('artifact_exclude_names') || '^$');
+            const deleteNonexpired = (core.getInput('artifact_delete_nonexpired') || 'false') === 'true';
+            const dryRun = (core.getInput('dry_run') || 'true') === 'true';
+
+            const now = Date.now();
+            const dayMs = 24*60*60*1000;
+            const tooOld = (t) => (now - new Date(t).getTime()) > maxAgeDays*dayMs;
+
+            core.info(`Artifacts cleanup: maxAgeDays=${maxAgeDays} deleteNonexpired=${deleteNonexpired} dryRun=${dryRun}`);
+            core.info(`Name include=${rxInc} exclude=${rxExc}`);
+
+            const artifacts = await github.paginate(
+              github.rest.actions.listArtifactsForRepo,
+              { owner, repo, per_page: 100 },
+              (resp) => resp.data.artifacts || []
+            );
+
+            if (!artifacts.length) {
+              core.info("No artifacts found.");
+              return;
+            }
+
+            const doomed = [];
+            for (const a of artifacts) {
+              const name = a.name || '';
+              const expired = !!a.expired;
+              const createdAt = a.created_at || a.updated_at || a.expires_at;
+              const oldEnough = createdAt ? tooOld(createdAt) : false;
+
+              if (!rxInc.test(name) || rxExc.test(name)) continue;
+              // Safe policy: delete if expired OR (deleteNonexpired && oldEnough)
+              if (expired || (deleteNonexpired && oldEnough)) {
+                doomed.push({ id:a.id, name, size:a.size_in_bytes, created:createdAt, expired, url:a.archive_download_url });
+              }
+            }
+
+            const rows = [['ArtifactID','Name','Size(B)','Expired','Created','Action']];
+            let delCount = 0;
+            for (const d of doomed) {
+              rows.push([String(d.id), d.name, String(d.size||0), String(d.expired), d.created||'-', dryRun?'would delete':'delete']);
+              if (!dryRun) {
+                try {
+                  await github.rest.actions.deleteArtifact({ owner, repo, artifact_id: d.id });
+                  delCount++;
+                } catch (e) {
+                  core.warning(`Failed to delete artifact ${d.id} (${d.name}): ${e.message}`);
+                }
+              }
+            }
+
+            await core.summary
+              .addHeading('Artifacts cleanup report')
+              .addTable(rows)
+              .addRaw(`\n${dryRun ? 'Would delete' : 'Deleted'} **${delCount || doomed.length}** artifacts.`)
+              .write();
+
+            core.info(`${dryRun ? 'Would delete' : 'Deleted'} ${delCount || doomed.length} artifacts.`)
+
+  cleanup_caches:
+    name: 2) Actions Caches (optional)
+    needs: cleanup_artifacts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Maybe prune Actions caches
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
+
+            const enabled = (core.getInput('cleanup_caches') || 'false') === 'true';
+            if (!enabled) { core.info("Cache cleanup skipped (cleanup_caches=false)."); return; }
+
+            const maxAgeDays = parseInt(core.getInput('cache_max_age_days') || '30', 10);
+            const rxInc = new RegExp(core.getInput('cache_include_keys') || '.*');
+            const rxExc = new RegExp(core.getInput('cache_exclude_keys') || '^$');
+            const dryRun = (core.getInput('dry_run') || 'true') === 'true';
+
+            const now = Date.now();
+            const dayMs = 24*60*60*1000;
+            const tooOld = (t) => (now - new Date(t).getTime()) > maxAgeDays*dayMs;
+
+            core.info(`Cache cleanup: maxAgeDays=${maxAgeDays} dryRun=${dryRun}`);
+            core.info(`Key include=${rxInc} exclude=${rxExc}`);
+
+            // Paginate caches
+            let page = 1;
+            const doomed = [];
+            while (true) {
+              const resp = await github.rest.actions.getActionsCacheList({ owner, repo, per_page: 100, page });
+              const caches = resp.data.actions_caches || [];
+              if (!caches.length) break;
+
+              for (const c of caches) {
+                const key = c.key || '';
+                const last = c.last_accessed_at || c.created_at;
+                if (!rxInc.test(key) || rxExc.test(key)) continue;
+                if (last && tooOld(last)) {
+                  doomed.push({ id:c.id, key, size:c.size_in_bytes, lastAccess:last });
+                }
+              }
+              page++;
+            }
+
+            const rows = [['CacheID','Key','Size(B)','Last Accessed','Action']];
+            let delCount = 0;
+            for (const d of doomed) {
+              rows.push([String(d.id), d.key, String(d.size||0), d.lastAccess||'-', dryRun?'would delete':'delete']);
+              if (!dryRun) {
+                try {
+                  await github.rest.actions.deleteActionsCacheById({ owner, repo, cache_id: d.id });
+                  delCount++;
+                } catch (e) {
+                  core.warning(`Failed to delete cache ${d.id} (${d.key}): ${e.message}`);
+                }
+              }
+            }
+
+            await core.summary
+              .addHeading('Actions caches cleanup report')
+              .addTable(rows)
+              .addRaw(`\n${dryRun ? 'Would delete' : 'Deleted'} **${delCount || doomed.length}** caches.`)
+              .write();
+
+            core.info(`${dryRun ? 'Would delete' : 'Deleted'} ${delCount || doomed.length} caches.`)
+
+  cleanup_runs:
+    name: 3) Workflow Runs
+    needs: [cleanup_artifacts, cleanup_caches]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prune old workflow runs (safe by default)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
+
+            // Inputs
+            const maxAgeDays = parseInt(core.getInput('run_max_age_days') || '30', 10);
+            const keepLatest = Math.max(0, parseInt(core.getInput('keep_latest_per_workflow') || '20', 10));
+            const desiredStatus = (core.getInput('run_status') || 'completed').trim().toLowerCase();
+            const rxWFInc = new RegExp(core.getInput('include_workflows') || '.*');
+            const rxWFExc = new RegExp(core.getInput('exclude_workflows') || '^$');
+            const rxBrInc = new RegExp(core.getInput('include_branches') || '.*');
+            const rxBrExc = new RegExp(core.getInput('exclude_branches') || '^$');
+            const rxEvInc = new RegExp(core.getInput('include_events') || '.*');
+            const dryRun = (core.getInput('dry_run') || 'true') === 'true';
+            const deleteRunsWithArtifacts = (core.getInput('delete_runs_with_artifacts') || 'false') === 'true';
+
+            const now = Date.now();
+            const dayMs = 24*60*60*1000;
+            const tooOld = (t) => (now - new Date(t).getTime()) > maxAgeDays*dayMs;
+            const statusOk = (s, c) => {
+              if (desiredStatus === 'any') return true;
+              const a = (s || '').toLowerCase();
+              const b = (c || '').toLowerCase();
+              return a.includes(desiredStatus) || b.includes(desiredStatus);
+            };
+
+            core.info(`Runs cleanup: maxAgeDays=${maxAgeDays} keepLatestPerWorkflow=${keepLatest} status=${desiredStatus} dryRun=${dryRun}`);
+            core.info(`WF include=${rxWFInc} exclude=${rxWFExc} | Branch include=${rxBrInc} exclude=${rxBrExc} | Event include=${rxEvInc}`);
+            core.info(`deleteRunsWithArtifacts=${deleteRunsWithArtifacts}`);
+
+            // Workflows
+            const workflows = await github.paginate(
+              github.rest.actions.listRepoWorkflows,
+              { owner, repo, per_page: 100 },
+              (resp)=>resp.data.workflows
+            );
+
+            const wfPicked = workflows.filter(wf => rxWFInc.test(wf.name) && !rxWFExc.test(wf.name));
+            if (!wfPicked.length) { core.info("No workflows matched include/exclude filters."); return; }
+
+            const doomed = [];
+            for (const wf of wfPicked) {
+              const runs = await github.paginate(
+                github.rest.actions.listWorkflowRuns,
+                { owner, repo, workflow_id: wf.id, per_page: 100 },
+                (resp)=>resp.data.workflow_runs
+              );
+              if (!runs.length) continue;
+
+              let filtered = runs.filter(r =>
+                rxBrInc.test(r.head_branch || '') && !rxBrExc.test(r.head_branch || '') &&
+                rxEvInc.test(r.event || '') &&
+                statusOk(r.status, r.conclusion)
+              ).sort((a,b)=> new Date(b.created_at) - new Date(a.created_at));
+
+              const beyondKeep = filtered.slice(keepLatest);
+              const candidates = beyondKeep.filter(r => tooOld(r.created_at) || desiredStatus!=='any');
+
+              for (const r of candidates) {
+                if (!deleteRunsWithArtifacts) {
+                  try {
+                    const arts = await github.rest.actions.listWorkflowRunArtifacts({ owner, repo, run_id: r.id, per_page: 1 });
+                    if ((arts.data.total_count || 0) > 0) {
+                      core.info(`Skip run ${r.id} (${wf.name} #${r.run_number}) — has artifacts`);
+                      continue;
+                    }
+                  } catch (e) {
+                    core.warning(`Artifacts check failed for run ${r.id}: ${e.message}`);
+                  }
+                }
+                doomed.push({ wf: wf.name, id: r.id, num: r.run_number, created: r.created_at, branch: r.head_branch, status: r.status, conclusion: r.conclusion, event: r.event, url: r.html_url });
+              }
+            }
+
+            const rows = [['RunID','Workflow','#','Branch','Event','Status','Conclusion','Created','Action']];
+            let delCount = 0;
+            for (const d of doomed) {
+              rows.push([String(d.id), d.wf, String(d.num), d.branch||'-', d.event||'-', d.status||'-', d.conclusion||'-', d.created, dryRun?'would delete':'delete']);
+              if (!dryRun) {
+                try {
+                  await github.rest.actions.deleteWorkflowRun({ owner, repo, run_id: d.id });
+                  delCount++;
+                } catch (e) {
+                  core.warning(`Failed to delete run ${d.id} (${d.wf} #${d.num}): ${e.message}`);
+                }
+              }
+            }
+
+            await core.summary
+              .addHeading('Workflow runs cleanup report')
+              .addTable(rows)
+              .addRaw(`\n${dryRun ? 'Would delete' : 'Deleted'} **${delCount || doomed.length}** runs.`)
+              .write();
+
+            core.info(`${dryRun ? 'Would delete' : 'Deleted'} ${delCount || doomed.length} runs.`)
+artifact_max_age_days: "30"
+artifact_delete_nonexpired: "false"
+artifact_include_names: ".*"
+artifact_exclude_names: "^$"
+
+cleanup_caches: "false"          # turn on later only if needed
+cache_max_age_days: "45"
+cache_include_keys: ".*"
+cache_exclude_keys: "^$"
+
+run_max_age_days: "45"
+keep_latest_per_workflow: "30"
+run_status: "completed"
+include_workflows: ".*"
+exclude_workflows: "^$"
+include_branches: ".*"
+exclude_branches: "^$"
+include_events: ".*"
+delete_runs_with_artifacts: "false"
+
+dry_run: "true"                  # preview first; then set to "false" for the schedule

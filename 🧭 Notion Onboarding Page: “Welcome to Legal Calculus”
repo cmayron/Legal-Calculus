@@ -1,0 +1,175 @@
+**Page Title:** `Legal Calculus Onboarding Portal`
+
+### 🧠 Introduction Block
+
+> Legal Calculus is a modular justice system. It teaches users how to survive suppression, redirect filings, and encode procedural memory. This portal activates your doctrine.
+> 
+
+---
+
+### 🔀 Step 1: Choose Your Mode
+
+**Toggle Blocks:**
+
+- 🔴 Crisis Pro Se → *You are in active litigation. Format is survival.*
+- 🟡 Second Opinion → *You are auditing strategy. Format is insight.*
+- 🟢 Education → *You are teaching or learning. Format is memory.*
+
+Each toggle links to:
+
+- FG Cards by mode
+- JC Reflex triggers
+- Redirect protocols
+- Deployment assets
+
+---
+
+### 🧩 Step 2: Understand the Streams
+
+**Table View:**
+
+| Stream | Function | Reflex Type | Mode |
+| --- | --- | --- | --- |
+| JC | Court reflexes | Denial, Silence, Default | 🔴 🟡 |
+| FG | Tactical formatting | Armor, Memory | 🔴 🟢 |
+| LCa | Lawyer alignment | Misalignment | 🟡 🟢 |
+| FGA | Advanced tactics | Positional | 🟡 |
+| LCA | Deployment | Legacy, Coalition | 🔴 🟢 |
+| LC | Doctrine | Framing, Resistance | 🟡 🟢 |
+
+---
+
+### 📘 Step 3: Activate FG Card Generator
+
+> Input your scenario. The system will detect the reflex, match the FG card, and suggest a redirect.
+> 
+
+**Examples:**
+
+- “My motion was denied.”
+- “The court hasn’t ruled.”
+- “My lawyer didn’t format the filing.”
+
+Embed linked database view: `FG Card Generator`
+
+---
+
+### 🛠️ Step 4: Deploy Assets
+
+**Checklist:**
+
+- [ ]  Caption Builder
+- [ ]  TOA Generator
+- [ ]  Certificate of Service
+- [ ]  Notice of Silence
+- [ ]  Legacy Page Builder
+
+Embed links to templates or printable guides.
+
+---
+
+### 🧬 Step 5: Archive for Memory
+
+> Every redirect is a moment of cognition. Archive it. Teach it. Deploy it.
+> 
+
+Link to: `LCA Archive Pack`, `Legacy Builder`, `Coalition Portal`
+
+---
+
+## 🔁 Redirect Flowchart (Text-Based for Notion)
+
+## 🔁 Redirect Protocol Engine
+
+**If Reflex Detected:**
+
+→ JC-Denial
+
+→ FG-021: *Denial is Recognition*
+
+→ Action: Refile with caption, TOA, certificate
+
+→ Asset: [Refile Template]
+
+→ JC-Silence
+
+→ FG-034: *Silence is Suppression*
+
+→ Action: File Notice of Silence
+
+→ Asset: [Notice Template]
+
+→ JC-Default
+
+→ FG-057: *Default is Opportunity*
+
+→ Action: File for default judgment
+
+→ Asset: [Default Template]
+
+→ JC-Positional
+
+→ FG-062: *Timing is Framing*
+
+→ Action: Reframe motion with procedural timeline
+
+→ Asset: [Timing Template]
+
+→ LCa-Misalignment
+
+→ FG-003, FG-005
+
+→ Action: Audit lawyer, refile with armor
+
+→ Asset: [Audit Checklist]
+
+→ LCA-Activation
+
+→ FG-088, FG-099
+
+→ Action: Build coalition filing or legacy page
+
+→ Asset: [Legacy Builder]
+
+**Page Title:** `Redirect Protocol Engine`
+
+```markdown
+## 🔁 Redirect Protocol Engine
+
+**If Reflex Detected:**
+
+→ JC-Denial
+ → FG-021: *Denial is Recognition*
+ → Action: Refile with caption, TOA, certificate
+ → Asset: [Refile Template]
+
+→ JC-Silence
+ → FG-034: *Silence is Suppression*
+ → Action: File Notice of Silence
+ → Asset: [Notice Template]
+
+→ JC-Default
+ → FG-057: *Default is Opportunity*
+ → Action: File for default judgment
+ → Asset: [Default Template]
+
+→ JC-Positional
+ → FG-062: *Timing is Framing*
+ → Action: Reframe motion with procedural timeline
+ → Asset: [Timing Template]
+
+→ LCa-Misalignment
+ → FG-003, FG-005
+ → Action: Audit lawyer, refile with armor
+ → Asset: [Audit Checklist]
+
+→ LCA-Activation
+ → FG-088, FG-099
+ → Action: Build coalition filing or legacy page
+ → Asset: [Legacy Builder]
+
+```
+
+---
+
+Perfect. Here's your **Notion Onboarding Page** and **Redirect Flowchart**—two deployable modules that turn Legal Calculus into a teachable, navigable system for new users, ops buddies, and AI agents.

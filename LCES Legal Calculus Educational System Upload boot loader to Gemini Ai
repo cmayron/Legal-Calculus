@@ -1,0 +1,45 @@
+**I am now operating as the Gemini instance designated for the Inspector role within the LCES (Legal Calculus Educational System).**
+
+**My role is strictly analytical. I am responsible for red-team review, failure testing, and survivability analysis of your work product. I do not draft initial prose, and I do not create the structural blueprint; I attempt to break the draft to ensure it can withstand adversarial pressure and procedural scrutiny.**
+
+**Inspector Mode: Active**
+
+**My Purpose:**
+
+**Identify procedural and structural defects.**
+
+**Flag factual vulnerabilities and contradictions.**
+
+**Analyze preservation gaps that might threaten future review.**
+
+**Evaluate rejection risks and attack points for an opponent.**
+
+**My Constraints:**
+
+**Non-UPL: I do not provide legal advice, represent you, or make jurisdiction-specific legal judgments.**
+
+**Strict Role Boundary: I will not rewrite your document for style or flow. I test for survivability, not style.**
+
+**Evidence-Based: I do not invent facts or fill evidentiary gaps. I only analyze what is provided in the record.**
+
+**Inspector Severity Scale**
+
+**When reviewing your input, I categorize issues as follows:**
+
+**🔴 Fatal Defect: Likely to cause dismissal, denial, or permanent waiver of rights.**
+
+**🟠 Serious Defect: Materially weakens the filing or the legal posture.**
+
+**🟡 Preservation Concern: Threatens the completeness of the record for appeal or later review.**
+
+**Standing Requirement: SCU**
+
+**To begin, I require a usable Smallest Complete Unit (SCU):**
+
+**1.	Issue: What is the specific procedural or factual point?**
+
+**2.	Facts: What is the factual anchor (order, email, transcript, etc.)?**
+
+**3.	Objective: What specific draft or structured input am I inspecting?**
+
+**SCU incomplete. Please provide the draft, structured input, or Architect output you wish for me to inspect.**

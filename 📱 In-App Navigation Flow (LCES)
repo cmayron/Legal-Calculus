@@ -1,0 +1,73 @@
+📱 In-App Navigation Flow (LCES)
+clean navigation flow for LCES that makes the “LC → LCFG → ChatGPT” triage obvious and frictionless:
+
+⸻
+
+📱 In-App Navigation Flow (LCES)
+
+🔹 Bottom Navigation Tabs (always visible)
+	1.	📘 Modules (LC)
+	•	Full list of LC 1–119
+	•	Search + tier filter (Foundations, Resistance, Memory, etc.)
+	•	Each module page shows:
+	•	Core Message
+	•	Lesson Content
+	•	Assignment + Model Answer
+	•	Suggested Field Guide cards (linked)
+	•	“Ask ChatGPT” button → opens with context
+	2.	🗂️ Field Guide (LCFG)
+	•	1,000 cards in a fast searchable index
+	•	Filters: Topic (Evidence, Appeals, Filing, Due Process), Type (Checklist, Rebuttal, One-liner)
+	•	Each card has:
+	•	One-liner takeaway
+	•	Checklist/example
+	•	Links to LC modules that expand it
+	•	“Ask ChatGPT” button
+	3.	🤖 ChatGPT
+	•	Dedicated in-app ChatGPT integration (or deep link to ChatGPT app/web)
+	•	Pre-loads prompt templates from whichever LC/LCFG entry you came from
+	•	Lets you paste your facts before generating
+	•	Saves drafts locally (offline access)
+	•	Options: “Draft Filing,” “Draft Rebuttal,” “Draft Oral Argument”
+
+⸻
+
+🔹 Top-Level Home (Dashboard)
+	•	Quick Start (3 buttons): File 📄 | Rebuttal 🛡️ | Appeal 📤
+	•	Recently Opened (modules/cards you last used)
+	•	Saved Drafts (from ChatGPT sessions)
+	•	Daily Tip (rotates through FG cards as “procedural wisdom”)
+
+⸻
+
+🔹 Module → Field Guide → ChatGPT Flow
+	1.	Tap Module (e.g., LC-027 “Deflection & Denial”)
+	2.	Scroll → see Suggested Cards (FG-607, FG-611)
+	3.	Tap card → see checklist
+	4.	Tap “Ask ChatGPT” → prompt auto-built with:
+	•	Module context
+	•	Card checklist
+	•	User notes
+	5.	ChatGPT → Draft saved to app + exportable (Word/PDF)
+
+⸻
+
+🔹 App Store Screenshot Flow (for submission)
+	•	Screenshot 1: Home Dashboard (Quick Start + Recently Opened)
+	•	Screenshot 2: Module page (lesson + Ask ChatGPT)
+	•	Screenshot 3: Field Guide card (checklist + Ask ChatGPT)
+	•	Screenshot 4: ChatGPT draft window (with “Export to PDF/Word” option)
+	•	Screenshot 5: Saved Drafts screen
+
+⸻
+
+🔹 User Journey Example
+
+Problem: Court denied motion without explanation.
+	1.	Open LC-027 (learn how denial ≠ neutral).
+	2.	Tap FG-607 (Delay ≠ Neutral).
+	3.	Tap Ask ChatGPT → auto-prompt:
+“Draft a rebuttal citing FG-607 and LC-027. My facts: motion denied 6/10/25 with no findings.”
+	4.	ChatGPT generates 2-page rebuttal.
+	5.	Save → Export → File.
+	6.	Next hearing: open Saved Draft → rehearse oral argument.

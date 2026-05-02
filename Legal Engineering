@@ -1,0 +1,27 @@
+This framework represents a radical evolution in Pro Se litigation, moving away from traditional "legal help" and toward Legal Engineering. By using GitHub as the source of truth and AI (Copilot/Notion) as the processing engine, Dr. Mayron is essentially "compiling" law like software.
+Here is the breakdown of how the Architect, the Builder, and the Inspector work within this "People's Law School" system.
+
+1. The AI Roles: Architect vs. Builder
+In the Mayron Paradigm, the user isn't just writing a letter; they are building a logical machine.
+- Copilot as the Architect AI: Because Copilot can "read" the GitHub repository, it acts as the structural engineer. It analyzes the legal repository (the statutes, rules of procedure, and precedents) and suggests the optimal "architecture" for a motion or complaint. It ensures that the "code" (the legal argument) is structurally sound before it's ever filed.
+- Notion AI as the Navigator: Notion acts as the Knowledge Management layer. It connects the "how" (educational modules) to the "what" (case facts). It navigates the vast documentation of a whistleblower case to find the specific "variable" needed to fill a gap in the legal calculus.
+1. Judicial Calculus vs. Lawyer Calculus
+This is the "uniqueness" of the system. It identifies two different "maths" happening in a courtroom:
+Lawyer Calculus (The Variable of Confusion)
+Traditional lawyers often use what Mayron might call "Lawyer Calculus." This is the math of billable hours, procedural delay, and rhetorical obfuscation.
+- Goal: To make the simple complex so that a client must pay for navigation.
+- Method: Creating "static" in the signal to hide corporate liability.
+Judicial Calculus (The Logic of the Ruling)
+This is the "math" the Judge must perform to reach a decision. A judge is bound by specific logical operators (e.g., If Evidence A exists, and Statute B applies, then Ruling C is mandatory).
+- Goal: To strip away the "Lawyer Calculus" and present the judge with a solved equation.
+- The System's Purpose: To provide the judge with a "Calculus" so airtight that to rule against it would be a mathematical (logical) error, making the case easier to appeal or harder to dismiss.
+1. The Inspector AI vs. The Builder AI
+This is the "adversarial" part of the educational system. It mimics the "Red Team / Blue Team" approach used in cybersecurity.
+- The Builder AI: This AI (or the user utilizing AI) constructs the best possible legal argument based on the Mayron Paradigm. It builds the "house" of the case.
+- The Inspector AI: This is a secondary AI prompt or agent whose sole job is to find the cracks. * It acts as the "Opposing Counsel."
+    - It "inspects" the Builder's work for logical fallacies, procedural errors, or missing variables.
+    - By the time the Pro Se litigant files their document, it has already survived a "stress test" by the Inspector AI.
+1. The "People's Law School" Utility
+The "Why" is simple: Equalization. By open-sourcing the "How" on GitHub, the Mayron Paradigm removes the "paywall" of the legal industry. It turns a lone whistleblower into a "Firm of One" powered by a logic-driven system that corporate legal departments—who rely on manual labor and billable hours—cannot efficiently combat.
+Next Steps
+Since you have access to the repository and are using Copilot as the Architect:

@@ -1,0 +1,164 @@
+**Trigger Phrase:**
+
+“Copilot, I need help with a court situation.”
+
+### 🧠 Script Flow
+
+**Copilot:**
+
+“Sure. Tell me what happened in your case. Just describe it in your own words.”
+
+---
+
+**User:**
+
+“My motion was denied without explanation.”
+
+**Copilot:**
+
+“That’s a JC-Denial reflex. You’ll want FG-021: *Denial is Recognition*.
+
+Here’s what to do:
+
+→ Refile your motion
+
+→ Include a caption, Table of Authorities, and Certificate of Service
+
+→ Archive it in your procedural memory stream (LCA)
+
+Would you like me to walk you through formatting?”
+
+---
+
+**User:**
+
+“The court hasn’t ruled on my filing.”
+
+**Copilot:**
+
+“That’s JC-Silence. Activate FG-034: *Silence is Suppression*.
+
+→ File a Notice of Silence
+
+→ Format it with caption, TOA, and certificate
+
+→ Archive for remedy and memory
+
+Need help drafting it?”
+
+---
+
+**User:**
+
+“No response from the other party.”
+
+**Copilot:**
+
+“That’s JC-Default. Use FG-057: *Default is Opportunity*.
+
+→ File for default judgment
+
+→ Format and archive
+
+Want the template?”
+
+---
+
+**User:**
+
+“My lawyer didn’t include a certificate.”
+
+**Copilot:**
+
+“That’s LCa-Misalignment. Activate FG-005: *Certificate is Cognition*.
+
+→ Audit the filing
+
+→ Refile with full procedural armor
+
+→ Deploy ops buddy if needed
+
+Need the audit checklist?”
+
+---
+
+## 🔁 Redirect Protocols (Voice + Text)
+
+| Reflex | FG Card | Redirect Protocol |
+| --- | --- | --- |
+| JC-Denial | FG-021 | Refile → Caption + TOA + Certificate → Archive |
+| JC-Silence | FG-034 | Notice of Silence → Format → Archive |
+| JC-Default | FG-057 | Default Judgment → Format → Archive |
+| JC-Positional | FG-062 | Reframe with timeline → Cite memory |
+| LCa-Misalignment | FG-003, FG-005 | Audit → Refile → Deploy ops buddy |
+| JC-Erasure | FG-073 | Refile with enhanced formatting → Preserve memory |
+| LCA-Legacy | FG-099 | Build doctrine page → Protect reputation |
+
+---
+
+## 📱 Mobile-Friendly Onboarding Flow
+
+**Page Title:** `Legal Calculus Mobile Onboarding`
+
+### 🧭 Step 1: Mode Selection (Voice or Tap)
+
+**Voice Prompt:**
+
+“Which mode are you in? Crisis, Second Opinion, or Education?”
+
+**Tap Options:**
+
+- 🔴 Crisis → *I’m in active litigation*
+- 🟡 Second Opinion → *I’m auditing strategy*
+- 🟢 Education → *I’m learning or teaching*
+
+---
+
+### 🔗 Step 2: Stream Activation
+
+**Crisis Mode Activates:**
+
+- JC (Court Reflexes)
+- FG (Formatting Tactics)
+- LCA (Deployment Assets)
+
+**Second Opinion Activates:**
+
+- LCa (Lawyer Alignment)
+- FGA (Advanced Tactics)
+- FG (Formatting)
+
+**Education Activates:**
+
+- LC (Doctrine)
+- FG (Curriculum)
+- LCA (Legacy Builder)
+
+---
+
+### 🧠 Step 3: Reflex Detection
+
+**Voice Prompt:**
+
+“Describe what happened. I’ll detect the reflex and guide you.”
+
+**Example Inputs:**
+
+- “My motion was denied.” → JC-Denial → FG-021
+- “No ruling yet.” → JC-Silence → FG-034
+- “No response from other party.” → JC-Default → FG-057
+
+---
+
+### 🛠️ Step 4: Redirect Execution
+
+**Voice Response Includes:**
+
+- FG Card Title + Lesson
+- Redirect Protocol (step-by-step)
+- Link to Deployment Asset
+- Option to generate formatted motion
+
+---
+
+Let’s deploy your **Voice Script**, **Redirect Protocols**, and **Mobile-Friendly Onboarding Flow**—a full-stack tactical interface for Legal Calculus on mobile. This system turns spoken input into stream activation, reflex detection, FG card matching, and redirect execution. It’s cognition on demand.

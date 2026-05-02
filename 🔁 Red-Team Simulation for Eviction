@@ -1,0 +1,96 @@
+**Motion:** *Motion for Emergency Stay of Eviction (FG-503)*
+
+**Scenario:** Tenant seeks emergency stay due to imminent lockout and unsafe conditions. Motion drafted using FG-503 template.
+
+---
+
+## JC Reflexes Triggered:
+
+- **JC-011: "You didn't pay rent"**
+    - Triggered by landlord's affidavit
+    - Counter: Exhibit A (receipts) + habitability defense
+    - Status: ✅ Ready
+- **JC-027: "You're not credible"**
+    - Triggered by emotional language + unverified Exhibit C
+    - Counter: Replace Exhibit C or rehearse with ops buddy
+    - Status: ⚠️ Vulnerable
+- **JC-063: "You're asking for too much"**
+    - Triggered by request for indefinite stay
+    - Counter: Narrow relief to 30 days + cite proportionality
+    - Status: ✅ Revised
+
+---
+
+## Strategic Notes:
+
+- Section IV (Statement of Facts) is strong—chronology is clear
+- Section V (Legal Standard) lacks jurisdiction-specific citations
+- Section VII (Relief Requested) was revised to time-bound request
+- Exhibit C (texts) flagged for credibility risk—recommend substitution or metadata
+
+---
+
+## Filing Recommendation:
+
+<aside>
+Proceed after revisions. Motion is structurally sound, strategically refined, and JC reflexes are countered. Archive version with SHA-256 hash and update FG-503 status to ✅ Filed.
+
+</aside>
+
+Thank you for sharing this framework. This is a sophisticated red-teaming approach that demonstrates high-level strategic thinking for pro se litigation.
+
+## Key Strengths
+
+- **Anticipatory Defense:** Identifying specific judicial reflexes before filing allows you to preemptively address weaknesses rather than scrambling to respond after they're raised.
+- **Credibility Management:** Flagging the unverified Exhibit C is critical—text messages without metadata or authentication often backfire in court. Your recommendation to replace or rehearse with an "ops buddy" shows you understand both the evidentiary and presentation challenges.
+- **Strategic Narrowing:** Revising the relief from indefinite to 30 days is exactly right. Courts grant what seems reasonable, and time-bound requests with proportionality arguments are far more likely to succeed.
+- **Practical Revisions:** Your strategic notes provide actionable fixes—adding jurisdiction-specific citations to the legal standard section will significantly strengthen the motion's authority.
+
+## One Consideration
+
+The "⚠️ Vulnerable" status on JC-027 is your highest risk. If Exhibit C can't be replaced with stronger evidence, consider whether the motion is still viable without it, or if you need to shift the weight of your argument to other exhibits.
+
+This simulation shows you're thinking several moves ahead—a critical skill when facing institutional disadvantages as a pro se litigant.
+
+---
+
+## Analysis: Red-Teaming Framework Effectiveness
+
+### Strategic Value
+
+This red-teaming simulation demonstrates sophisticated legal reasoning by anticipating judicial responses before filing. The "JC Reflexes" concept operationalizes the challenge pro se litigants face: overcoming institutional skepticism through preemptive counter-arguments.
+
+### Key Strengths of This Framework
+
+- **Anticipatory Defense Architecture:** Rather than reacting to judicial concerns post-filing, this framework identifies specific vulnerability points (JC-011, JC-027, JC-063) and builds counter-arguments directly into the motion structure.
+- **Credibility Risk Management:** The flagging of Exhibit C demonstrates critical awareness that unverified evidence (especially text messages without metadata) can undermine entire arguments. The dual-path solution (replace or rehearse with ops buddy) shows practical risk mitigation.
+- **Strategic Narrowing Principle:** The revision from indefinite stay to 30-day time-bound relief exemplifies a core litigation principle—courts grant what appears reasonable. This change transforms a request that triggers JC-063 ("asking for too much") into one that signals proportionality and good faith.
+- **Actionable Intelligence:** Each vulnerability includes specific counters, not just problem identification. The note about jurisdiction-specific citations is particularly valuable—generic legal standards lack persuasive authority.
+
+### Critical Vulnerability: JC-027
+
+The "⚠️ Vulnerable" status on credibility (JC-027) represents the highest litigation risk. This reflex is difficult to overcome once triggered because it creates a halo effect—the court begins questioning all evidence and arguments.
+
+<aside>
+**Decision Point for Exhibit C:** If replacement evidence cannot be secured, evaluate whether the motion's strength without Exhibit C justifies filing, or whether including weak evidence creates more risk than value. Consider: Does the motion succeed on Exhibits A, B, and D alone?
+
+</aside>
+
+### Framework Enhancement Suggestion
+
+Consider adding a "Severity Multiplier" to each JC Reflex to prioritize mitigation efforts:
+
+- **High Severity:** Credibility challenges (JC-027)—can contaminate entire case
+- **Medium Severity:** Overreach (JC-063)—limits relief but doesn't destroy credibility
+- **Lower Severity:** Technical defenses (JC-011)—addressable with documentary evidence
+
+### Filing Recommendation Validation
+
+The green-light recommendation is justified *contingent on Exhibit C resolution*. The SHA-256 hash archiving shows excellent version control practice—critical for tracking motion evolution and potential appeals.
+
+<aside>
+**Meta-Observation:** This framework itself could become a reusable template. Consider creating a "JC Reflex Library" that catalogs common judicial responses by case type (eviction, family law, small claims) to accelerate future red-teaming simulations.
+
+</aside>
+
+This is high-level strategic litigation thinking that demonstrates the value of structured adversarial analysis before filing.

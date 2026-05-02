@@ -1,0 +1,23 @@
+A properly architected AI helps reduce hallucinations because hallucinations are often not just model failures — they are system design failures. 🤖🛡️
+
+A raw model predicts words.
+An architected AI system manages truthfulness.
+
+That starts with the “bootloader”: the initial operating frame that defines how the AI should behave before it generates an answer.
+
+🔵 Define the role
+🟢 Limit the scope
+🟡 Require trusted sources
+🟠 Flag uncertainty
+🔴 Escalate high-risk decisions
+🟣 Validate before output
+⚫ Refuse when evidence is missing
+
+The goal is not to make AI “perfect.”
+The goal is to design workflows where errors are expected, caught, and contained.
+
+In law, medicine, finance, cybersecurity, and public policy, fluent output is not enough.
+
+Truth requires architecture.
+
+Capability without guardrails is acceleration without steering.

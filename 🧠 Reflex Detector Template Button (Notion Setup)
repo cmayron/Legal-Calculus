@@ -1,0 +1,192 @@
+**Location:** Inside your `Reflex Detector` database or onboarding page
+
+### 🔧 Template Button Title: `New Reflex Detection`
+
+## 🔍 Reflex Detection Entry
+
+**Scenario Prompt:**
+
+[User describes situation in plain language]
+
+e.g., “My motion was denied without explanation.”
+
+**Detected Reflex:**
+
+[Select: JC-Denial, JC-Silence, JC-Default, JC-Positional, LCa-Misalignment, JC-Erasure, LCA-Legacy]
+
+**Matching FG Card:**
+
+[Relation to FG Cards database]
+
+e.g., FG-021: *Denial is Recognition*
+
+**Redirect Protocol:**
+
+[Auto-filled from FG card]
+
+e.g., Refile with caption, TOA, certificate. Archive in LCA.
+
+**Deployment Asset:**
+
+[Link to template or checklist]
+
+e.g., [Refile Template]
+
+**Mode Activated:**
+
+[Select: Crisis, Second Opinion, Education]
+
+**Stream Activated:**
+
+[Select: JC, FG, LCa, LCA, etc.]
+
+**Status:**
+
+Active
+
+**Creates a new page with:**
+
+```markdown
+## 🔍 Reflex Detection Entry
+
+**Scenario Prompt:**
+[User describes situation in plain language]
+e.g., “My motion was denied without explanation.”
+
+**Detected Reflex:**
+[Select: JC-Denial, JC-Silence, JC-Default, JC-Positional, LCa-Misalignment, JC-Erasure, LCA-Legacy]
+
+**Matching FG Card:**
+[Relation to FG Cards database]
+e.g., FG-021: *Denial is Recognition*
+
+**Redirect Protocol:**
+[Auto-filled from FG card]
+e.g., Refile with caption, TOA, certificate. Archive in LCA.
+
+**Deployment Asset:**
+[Link to template or checklist]
+e.g., [Refile Template]
+
+**Mode Activated:**
+[Select: Crisis, Second Opinion, Education]
+
+**Stream Activated:**
+[Select: JC, FG, LCa, LCA, etc.]
+
+**Status:**
+Active
+
+```
+
+You can pre-fill dropdowns with reflex types and link directly to FG cards and assets.
+
+---
+
+## 🔁 Visual Redirect Flowchart (Printable or Notion Embed)
+
+🎯 Reflex → FG Card → Redirect → Asset
+
+🔴 JC-Denial
+
+→ FG-021: *Denial is Recognition*
+
+→ Refile with caption, TOA, certificate
+
+→ [Refile Template]
+
+🟡 JC-Silence
+
+→ FG-034: *Silence is Suppression*
+
+→ File Notice of Silence
+
+→ [Notice Template]
+
+🔴 JC-Default
+
+→ FG-057: *Default is Opportunity*
+
+→ File for default judgment
+
+→ [Default Template]
+
+🟡 JC-Positional
+
+→ FG-062: *Timing is Framing*
+
+→ Reframe with procedural timeline
+
+→ [Timing Template]
+
+🟡 LCa-Misalignment
+
+→ FG-003, FG-005
+
+→ Audit lawyer, refile with armor
+
+→ [Audit Checklist]
+
+🔴 JC-Erasure
+
+→ FG-073: *Refile to Remember*
+
+→ Refile with enhanced formatting
+
+→ [Refile Template]
+
+🟢 LCA-Legacy
+
+→ FG-099: *Legacy is Deployment*
+
+→ Build public doctrine page
+
+→ [Legacy Builder]
+
+**Page Title:** `Redirect Flowchart (Visual)`
+
+```markdown
+🎯 Reflex → FG Card → Redirect → Asset
+
+🔴 JC-Denial
+ → FG-021: *Denial is Recognition*
+ → Refile with caption, TOA, certificate
+ → [Refile Template]
+
+🟡 JC-Silence
+ → FG-034: *Silence is Suppression*
+ → File Notice of Silence
+ → [Notice Template]
+
+🔴 JC-Default
+ → FG-057: *Default is Opportunity*
+ → File for default judgment
+ → [Default Template]
+
+🟡 JC-Positional
+ → FG-062: *Timing is Framing*
+ → Reframe with procedural timeline
+ → [Timing Template]
+
+🟡 LCa-Misalignment
+ → FG-003, FG-005
+ → Audit lawyer, refile with armor
+ → [Audit Checklist]
+
+🔴 JC-Erasure
+ → FG-073: *Refile to Remember*
+ → Refile with enhanced formatting
+ → [Refile Template]
+
+🟢 LCA-Legacy
+ → FG-099: *Legacy is Deployment*
+ → Build public doctrine page
+ → [Legacy Builder]
+
+```
+
+You can format this as a **Notion board view**, **toggle list**, or export as a **printable coalition card**.
+
+---
+
+Here’s your **Reflex Detector Template Button** and a **Visual Redirect Flowchart** formatted for Notion and printable deployment. These tools let users input a scenario, detect the JC reflex, activate the matching FG card, and follow a redirect protocol—all with clarity and tactical precision.

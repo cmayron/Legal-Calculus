@@ -1,0 +1,140 @@
+Create a top-level Notion page with these linked databases:
+
+### 📚 FG Card Registry
+
+| FG Code | Title | Trigger | Status | Linked Modules | Draft Attached |
+| --- | --- | --- | --- | --- | --- |
+| FG-301 | File Answer to Eviction | Received summons | ✅ Done | LC-Answer, JC-011 | [Link] |
+| FG-402 | Assert Habitability Defense | Unsafe conditions | ⏳ In Progress | LC-Habitability | [Link] |
+| FG-503 | Request Stay of Eviction | Imminent lockout | ❌ Not Started | LC-Relief, JC-063 | [Link] |
+
+**Tags:** Eviction, Housing, Emergency Relief, Pro Se
+
+---
+
+### 🧠 JC Reflex Log
+
+| JC Code | Reflex | Counter Strategy | Linked FG | Status | Notes |
+| --- | --- | --- | --- | --- | --- |
+| JC-011 | “You didn’t pay rent” | Show receipts, assert habitability | FG-301, FG-402 | ✅ Ready | Judge tends to push hard here |
+| JC-018 | “Landlord owns this property” | Cite tenant rights, housing code | FG-402 | ⏳ Drafting | Use lease clause 4.2 |
+| JC-027 | “You’re not credible” | Present clean evidence, stay calm | FG-503 | ❌ Not Started | Prep with ops buddy |
+
+---
+
+### 📁 Exhibit Registry (Optional)
+
+| Exhibit Code | Title | Date | SHA-256 Hash | Linked FG | Status |
+| --- | --- | --- | --- | --- | --- |
+| Exh-A | Mold photos | 2025-09-12 | [Hash] | FG-402 | ✅ Indexed |
+| Exh-B | Lease agreement | 2023-06-01 | [Hash] | FG-301 | ✅ Indexed |
+
+---
+
+## 🧩 2. FG Card Content (Paste into Notion)
+
+### **FG-301: File Answer to Eviction**
+
+- **Trigger:** Received eviction summons
+- **Steps:**
+    1. Draft Answer with defenses (habitability, retaliation, payment)
+    2. Format caption and signature block
+    3. Attach proposed order (optional)
+    4. Serve landlord or attorney
+    5. File with proof of service
+
+---
+
+### **FG-402: Assert Habitability Defense**
+
+- **Trigger:** Unsafe or unhealthy living conditions
+- **Steps:**
+    1. Gather evidence (photos, texts, complaints)
+    2. Draft defense citing housing code violations
+    3. Attach exhibits and Exhibit Index
+    4. File with Answer or motion
+    5. Archive for appeal posture
+
+---
+
+### **FG-503: Request Stay of Eviction**
+
+- **Trigger:** Imminent lockout or hardship
+- **Steps:**
+    1. Draft motion for stay
+    2. Attach declaration of hardship
+    3. Request expedited hearing
+    4. Serve opposing party
+    5. Archive all filings
+
+---
+
+## 🧠 3. JC Reflex Entries (Paste into Notion)
+
+### **JC-011: “You Didn’t Pay Rent”**
+
+- **Reflex:** Judge focuses on payment history
+- **Counter:** Present receipts, assert habitability defense
+- **Prep:** FG-301 + FG-402
+
+---
+
+### **JC-018: “Landlord Owns This Property”**
+
+- **Reflex:** Judge defers to landlord’s authority
+- **Counter:** Cite tenant protections, lease terms, housing code
+- **Prep:** FG-402 + LC jurisdiction module
+
+---
+
+### **JC-027: “You’re Not Credible”**
+
+- **Reflex:** Judge questions your truthfulness or demeanor
+- **Counter:** Present clean, dated evidence; stay calm; rehearse with ops buddy
+- **Prep:** FG-503 + Hearing Kit
+
+---
+
+## 📣 4. Coalition Onboarding Flow (Paste into Notion or Slide Deck)
+
+> Welcome to LCES: Tenant Defense Edition
+> 
+> 
+> You’re not alone. This system helps you respond to eviction with clarity, confidence, and support.
+> 
+
+**Step 1: Intake Sheet**
+
+Write down your court, deadlines, and a short summary of what happened.
+
+**Step 2: Module Map**
+
+We’ll match your case to FG cards, JC reflexes, and LC lessons.
+
+**Step 3: Draft Pack**
+
+Use the AI to generate clean, formatted documents ready to file.
+
+**Step 4: Evidence Pack**
+
+Organize your proof with clear labels and dates.
+
+**Step 5: Service & Docket-Watch**
+
+Learn how to serve correctly and monitor your case.
+
+**Step 6: Hearing Kit**
+
+Prepare your opening statement and rehearse counter-moves.
+
+**Step 7: Archive & Appeal Posture**
+
+Save everything. Your archive is your shield—and your story.
+
+**Step 8: Reflect & Improve**
+
+With your ops buddy and AI, you’ll learn from each round and help others do the same.
+
+---
+
+Let’s activate everything: a full **Notion dashboard template**, complete **FG card and JC reflex entries**, and a starter **coalition onboarding flow**—all tailored for your LCES deployment.

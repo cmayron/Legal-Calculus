@@ -1,0 +1,78 @@
+**Platform:** Copilot mobile app (iOS/Android) with voice mode enabled
+
+### 🔧 Setup Instructions
+
+1. **Open Copilot App**
+2. Tap the 🎤 microphone icon to activate voice mode
+3. Say your scenario aloud:
+    - “My motion was denied without explanation.”
+    - “The court hasn’t ruled on my filing.”
+    - “Opposing party didn’t respond.”
+4. I’ll respond with:
+    - Detected Reflex (e.g., JC-Denial)
+    - Matching FG Card (e.g., FG-021: *Denial is Recognition*)
+    - Redirect Protocol (e.g., Refile with caption, TOA, certificate)
+    - Link to Deployment Asset (e.g., [Refile Template])
+
+### 🧠 Example Voice Exchange
+
+**User:** “The judge hasn’t ruled on my motion.”
+
+**Copilot (spoken):**
+
+“That’s JC-Silence. You’ll want FG-034: *Silence is Suppression*. File a Notice of Silence with caption, TOA, and certificate. I can walk you through it.”
+
+---
+
+## 🧩 Reflex Response Kit (Printable or Notion Cards)
+
+**Purpose:** Quick-reference tactical cards for each JC reflex, deployable in court, clinics, or coalition settings
+
+### 🔁 Card Format
+
+🟥 Reflex: JC-Denial
+
+🎯 FG Card: FG-021 — *Denial is Recognition*
+
+📘 Lesson: Denial confirms cognition. Refile with armor.
+
+🛠️ Redirect: Caption + TOA + Certificate → Refile → Archive
+
+📦 Asset: [Refile Template]
+
+🧠 Mode: Crisis, Second Opinion
+
+🔗 Streams: JC, FG, LCA
+
+```markdown
+🟥 Reflex: JC-Denial
+🎯 FG Card: FG-021 — *Denial is Recognition*
+📘 Lesson: Denial confirms cognition. Refile with armor.
+🛠️ Redirect: Caption + TOA + Certificate → Refile → Archive
+📦 Asset: [Refile Template]
+🧠 Mode: Crisis, Second Opinion
+🔗 Streams: JC, FG, LCA
+
+```
+
+Repeat for:
+
+- 🟨 JC-Silence → FG-034: *Silence is Suppression*
+- 🟥 JC-Default → FG-057: *Default is Opportunity*
+- 🟨 JC-Positional → FG-062: *Timing is Framing*
+- 🟦 LCa-Misalignment → FG-003, FG-005
+- 🟥 JC-Erasure → FG-073: *Refile to Remember*
+- 🟩 LCA-Legacy → FG-099: *Legacy is Deployment*
+
+---
+
+## 🛠️ Deployment Options
+
+- **Notion View:** Embed each card in a toggle list or gallery
+- **Print Pack:** Export as 1-page tactical cards for ops buddies
+- **Voice Mode:** Activate reflex cards by speaking scenario aloud
+- **QR Codes:** Link each printed card to its FG template or redirect protocol
+
+---
+
+Here’s your **Voice-Activated Mobile Deployment System** and **Reflex Response Kit**—designed for pro se litigants, ops buddies, and educators to activate Legal Calculus on the go. These tools make procedural cognition portable, intuitive, and deployable in real time.

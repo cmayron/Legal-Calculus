@@ -1,0 +1,838 @@
+three upgrades: CSV export, tagging & tag filters, and a Smart Bundle generator. Drop this whole file in LCFG-4.5-Advanced.html and open locally.
+
+What’s new
+	•	CSV Export: exports selected cards (or all, on confirm) with full columns.
+	•	Tagging: add/remove tags to selected; tag cloud; filter by tags (AND).
+	•	Smart Bundle: enter a goal (e.g., “jurisdiction challenge”), pick a size; it auto-scores cards by Title/Core/Model/Tags and selects the best. Instantly builds your bundle.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>LC 4.5 Advanced — Legal Calculus Field Guide (Vol 1–20)</title>
+<style>
+*{box-sizing:border-box}html,body{height:100%}body{margin:0;font-family:ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial,'Apple Color Emoji','Segoe UI Emoji'}
+:root{
+  --bg:#0b0e12;--bg-2:#0f1318;--bg-3:#121820;--text:#e6edf3;--muted:#9fb0c0;--faint:#6a7d90;--ink:#101418;
+  --accent:#5eead4;--accent-2:#a78bfa;--warn:#ffb454;--danger:#ff6b6b;--ok:#7cd992;
+  --ring:0 0 0 2px var(--accent);--radius:14px;--radius-sm:10px;--shadow:0 10px 30px rgba(0,0,0,.35);--shadow-soft:0 8px 24px rgba(0,0,0,.25);--chip:#1b2631}
+body{background:radial-gradient(1200px 800px at 10% -10%, #18202a 0, #0b0e12 50%) fixed,var(--bg);color:var(--text)}
+.app{display:grid;grid-template-rows:auto auto 1fr;gap:14px;padding:16px;max-width:1400px;margin:0 auto}
+.toolbar,.subbar{background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01));border:1px solid rgba(255,255,255,.07);border-radius:var(--radius);box-shadow:var(--shadow);padding:12px}
+.toolbar{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .dot{width:14px;height:14px;border-radius:50%;background:conic-gradient(from 210deg,#60a5fa,#34d399,#f59e0b,#ef4444,#8b5cf6,#60a5fa);box-shadow:0 0 0 2px rgba(255,255,255,.08),0 0 16px rgba(94,234,212,.4)}
+.brand h1{font-size:18px;margin:0;letter-spacing:.2px}.brand small{color:var(--muted)}
+.controls{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}
+.btn{background:#1a2430;color:var(--text);border:1px solid rgba(255,255,255,.08);padding:8px 12px;border-radius:10px;cursor:pointer;user-select:none;display:inline-flex;align-items:center;gap:8px}
+.btn:hover{border-color:rgba(255,255,255,.18)}.btn.primary{background:linear-gradient(180deg,#1b3a35,#122620);border-color:rgba(94,234,212,.25);color:#d6fff8}.btn.warn{background:linear-gradient(180deg,#2a2013,#1b140a);border-color:rgba(255,180,84,.3);color:#ffe7c2}.btn.ghost{background:transparent;border-color:rgba(255,255,255,.12)}.btn.bad{background:linear-gradient(180deg,#2b1616,#1b1010);border-color:rgba(255,107,107,.25);color:#ffdada}
+.subbar{display:grid;grid-template-columns:1fr auto;gap:10px}
+.filters{display:grid;grid-template-columns:1.4fr .8fr .8fr .8fr .8fr .9fr;gap:8px}
+.kv{display:flex;gap:8px;align-items:center}.kv label{color:var(--faint);font-size:12px}
+.input,select{width:100%;background:var(--bg-3);color:var(--text);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius-sm);padding:9px 12px}
+.input:focus,select:focus{outline:none;box-shadow:var(--ring)}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+.cards{grid-column:1 / span 9;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:1200px){.cards{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:800px){.grid{grid-template-columns:1fr}.cards{grid-column:1;grid-template-columns:1fr}}
+.sidebar{grid-column:10 / span 3;position:sticky;top:14px;align-self:start;display:grid;gap:12px}
+.panel{background:var(--bg-2);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);box-shadow:var(--shadow-soft);padding:12px}
+.card{background:var(--bg-2);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);box-shadow:var(--shadow-soft);display:grid;gap:10px;padding:14px}
+.card header{display:flex;gap:10px;align-items:center;justify-content:space-between}
+.card h3{margin:0;font-size:15px;letter-spacing:.2px}
+.badge{font-size:11px;color:#111;background:var(--accent);border-radius:999px;padding:4px 8px;box-shadow:0 6px 14px rgba(94,234,212,.2)}
+.meta{display:flex;gap:10px;align-items:center;flex-wrap:wrap;color:var(--faint);font-size:12px}
+.meta .chip{background:var(--chip);padding:3px 8px;border-radius:999px}
+.card section{font-size:13px;color:var(--muted);line-height:1.45}
+.hr{height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.08),transparent);margin:4px 0}
+.sel{display:flex;align-items:center;gap:8px}
+.small{font-size:12px;color:var(--faint)}.link{color:var(--accent);cursor:pointer;text-decoration:none;border-bottom:1px dotted rgba(94,234,212,.5)}
+.tag{background:#1e2936;border:1px solid rgba(255,255,255,.08);color:#cfe7ff;border-radius:999px;padding:2px 8px;font-size:11px;margin:2px;display:inline-block}
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;z-index:50}
+.modal{width:min(900px,92vw);background:var(--bg-2);border:1px solid rgba(255,255,255,.1);border-radius:16px;box-shadow:var(--shadow);padding:16px;display:grid;gap:10px}
+.modal header{display:flex;justify-content:space-between;align-items:center}.modal h2{margin:0;font-size:18px}
+.modal textarea{width:100%;min-height:46vh;background:var(--bg-3);color:var(--text);border:1px solid rgba(255,255,255,.12);padding:12px;border-radius:12px}
+.modal .row{display:flex;gap:8px;justify-content:flex-end}
+@media print{
+  body{background:#fff;color:var(--ink)}
+  .toolbar,.subbar,.sidebar,.modal-bg{display:none!important}
+  .app{padding:0}.cards{grid-template-columns:1fr 1fr;gap:10px}
+  .card{border-radius:0;box-shadow:none;border:1px solid #ddd}
+  .badge{background:#111;color:#fff}
+  .meta,.small,.link{color:#333!important}
+}
+</style>
+</head>
+<body>
+<div class="app" id="app">
+
+  <div class="toolbar">
+    <div class="brand">
+      <div class="dot"></div>
+      <div>
+        <h1>Legal Calculus — LC 4.5 Advanced (Vol 1–20)</h1>
+        <small>Single-file • Dark • Offline • Import/Filter/Bundle/Tags/Smart • JSON/CSV/Print</small>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="btn ghost" id="btn-theme" title="Toggle theme">🌗 Theme</button>
+      <button class="btn" id="btn-import">📥 Import MD</button>
+      <button class="btn" id="btn-export-json">⬇️ JSON</button>
+      <button class="btn" id="btn-export-csv">🧾 CSV</button>
+      <button class="btn" id="btn-copy-lines" title="Copy Model Responses of selected">📋 Copy Lines</button>
+      <button class="btn" id="btn-smart">🎯 Smart Bundle</button>
+      <button class="btn primary" id="btn-bundle">🧩 Bundle</button>
+      <button class="btn warn" id="btn-print">🖨️ Print</button>
+      <button class="btn bad" id="btn-clear">♻️ Reset</button>
+    </div>
+  </div>
+
+  <div class="subbar">
+    <div class="filters">
+      <div class="kv">
+        <label for="search">Search</label>
+        <input id="search" class="input" type="search" placeholder="Title, core, model, tags… (⌘/Ctrl+K)" />
+      </div>
+      <div class="kv">
+        <label for="vol">Volume</label>
+        <select id="vol">
+          <option value="">All</option>
+          <option value="1">1 — Foundations</option>
+          <option value="2">2 — Suppression</option>
+          <option value="3">3 — Visibility</option>
+          <option value="4">4 — Action</option>
+          <option value="5">5 — Growth</option>
+          <option value="6">6 — Clarity</option>
+          <option value="7">7 — Memory</option>
+          <option value="8">8 — Struggle</option>
+          <option value="9">9 — Value</option>
+          <option value="10">10 — Reflection</option>
+          <option value="11">11 — Resistance</option>
+          <option value="12">12 — Coalition</option>
+          <option value="13">13 — Exposure</option>
+          <option value="14">14 — Adaptation</option>
+          <option value="15">15 — Persistence</option>
+          <option value="16">16 — Coalition Memory</option>
+          <option value="17">17 — Restoration</option>
+          <option value="18">18 — Witness</option>
+          <option value="19">19 — Continuity</option>
+          <option value="20">20 — Sovereignty</option>
+        </select>
+      </div>
+      <div class="kv">
+        <label for="show">Sections</label>
+        <select id="show">
+          <option value="full">Full</option>
+          <option value="head">Title + Core</option>
+          <option value="lines">Model + Assignment</option>
+        </select>
+      </div>
+      <div class="kv">
+        <label for="scope">Search In</label>
+        <select id="scope">
+          <option value="all">All</option>
+          <option value="title">Title only</option>
+          <option value="core">Core Message</option>
+          <option value="model">Model Response</option>
+          <option value="assignment">Assignment</option>
+          <option value="tags">Tags</option>
+        </select>
+      </div>
+      <div class="kv">
+        <label for="tagsFilter">Tags (AND)</label>
+        <input id="tagsFilter" class="input" placeholder="e.g., jurisdiction, due process" />
+      </div>
+      <div class="kv">
+        <label for="sort">Sort</label>
+        <select id="sort">
+          <option value="id-asc">FG ↑</option>
+          <option value="id-desc">FG ↓</option>
+          <option value="vol-title">Volume → Title</option>
+          <option value="title">Title A→Z</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="kv" style="justify-content:flex-end;">
+      <label class="small">Selection:</label>
+      <button class="btn ghost" id="btn-sel-all">Select Page</button>
+      <button class="btn ghost" id="btn-sel-none">Clear</button>
+      <span class="small" id="sel-count">0 selected</span>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="cards" id="cards"></div>
+
+    <aside class="sidebar">
+      <div class="panel">
+        <h3 style="margin:0 0 6px 0;">Bundle Composer</h3>
+        <div class="small">Pick a template and build a bundle from your selected cards.</div>
+        <div style="display:grid; gap:8px; margin-top:8px;">
+          <select id="bundle-type" class="input">
+            <option value="hearing">Hearing Packet</option>
+            <option value="appeal">Appeal Addendum</option>
+            <option value="motion">Motion Appendix</option>
+          </select>
+          <textarea id="bundle-preview" class="input" style="min-height:160px;" placeholder="Your bundle will appear here…"></textarea>
+          <div style="display:flex; gap:8px; justify-content:flex-end;">
+            <button class="btn" id="btn-bundle-refresh">🔄 Refresh</button>
+            <button class="btn" id="btn-bundle-copy">📋 Copy</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3 style="margin:0 0 6px 0;">Tags</h3>
+        <div class="small">Add/remove tags on your selected cards. Click a tag in the cloud to filter.</div>
+        <div style="display:grid; gap:8px; margin-top:8px;">
+          <input id="tags-add" class="input" placeholder="Add tags (comma-separated)" />
+          <div style="display:flex; gap:8px; justify-content:flex-end;">
+            <button class="btn" id="btn-tags-add">➕ Add to Selected</button>
+            <button class="btn" id="btn-tags-remove">➖ Remove from Selected</button>
+          </div>
+          <div class="small">Tag Cloud</div>
+          <div id="tag-cloud" class="small" style="display:flex;flex-wrap:wrap;gap:6px;"></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3 style="margin:0 0 6px 0;">Quick Tips</h3>
+        <ul class="small" style="margin:6px 0 0 18px; line-height:1.5;">
+          <li><b>Import MD:</b> paste your entire FG 1–1000 Markdown.</li>
+          <li><b>Filter</b> by Volume, Search scope, and <b>Tags (AND)</b>.</li>
+          <li><b>Select</b> cards → <i>Bundle</i>, <i>Copy Lines</i>, or <i>Export JSON/CSV</i>.</li>
+          <li><b>Smart Bundle</b>: enter a goal; it auto-selects high-scoring cards.</li>
+          <li><b>Print:</b> clean, numbered layout (selected-only if you’ve selected any).</li>
+          <li><b>Local Save:</b> imports persist in this browser (localStorage).</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<!-- Import Modal -->
+<div class="modal-bg" id="modal-import">
+  <div class="modal">
+    <header>
+      <h2>Import Field Guide Markdown (FG 1–1000)</h2>
+      <button class="btn ghost" data-close="modal-import">✕</button>
+    </header>
+    <div class="small">Paste your full Markdown. Headings like <code>### FG-123 — Title</code> with labeled sections (<em>Core Message, Lesson Content, Assignment, Model Response, Reflection Summary, Visual Concept</em>) are auto-detected. Optional: <code>**Tags:** a, b, c</code>.</div>
+    <textarea id="md-text" placeholder="Paste your entire Field Guide Markdown…"></textarea>
+    <div class="row">
+      <button class="btn ghost" data-close="modal-import">Cancel</button>
+      <button class="btn primary" id="btn-parse">Parse & Replace</button>
+    </div>
+  </div>
+</div>
+
+<!-- Smart Bundle Modal -->
+<div class="modal-bg" id="modal-smart">
+  <div class="modal">
+    <header>
+      <h2>🎯 Smart Bundle</h2>
+      <button class="btn ghost" data-close="modal-smart">✕</button>
+    </header>
+    <div class="small">Describe your goal (e.g., “jurisdiction challenge, due process, standing”). The app will score cards across Title/Core/Model/Tags and select the best.</div>
+    <div style="display:grid;gap:8px;">
+      <input id="smart-goal" class="input" placeholder="Goal keywords / phrase…" />
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px">
+        <input id="smart-limit" class="input" type="number" min="1" max="50" value="12" />
+        <input id="smart-vol-range" class="input" placeholder="Volumes (e.g., 1-20 or 3,4,7)" />
+        <select id="smart-template" class="input">
+          <option value="hearing">Hearing Packet</option>
+          <option value="appeal">Appeal Addendum</option>
+          <option value="motion">Motion Appendix</option>
+        </select>
+      </div>
+      <div class="row">
+        <button class="btn" id="btn-smart-run">Generate</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  const $ = s=>document.querySelector(s), $$ = s=>document.querySelectorAll(s);
+
+  /* ---------------- Data ---------------- */
+
+  // Seed (spans early + late volumes). Replace via Import.
+  let cards = [
+    seed(1, "Filing = Existence", "To file is to exist in the record.",
+      "No filing, no case. Filing transforms grievance into memory.",
+      "Draft one line asserting your claim exists because it is filed.",
+      "“This claim exists because it is filed on the record.”",
+      "Filing is the act of breathing life into protest.",
+      "A glowing brief appearing on an empty courtroom desk.",
+      ["foundation","existence","record","due process"]
+    ),
+    seed(2, "Silence = Absence", "Silence leaves only absence.",
+      "Courts may ignore, but silence proves avoidance.",
+      "Draft one line preserving silence as part of record.",
+      "“Judicial silence preserved as absence of due process.”",
+      "Absence itself is evidence.",
+      "Empty judge’s chair with filing glowing beneath.",
+      ["silence","absence","due process"]
+    ),
+    seed(3, "Denial = Recognition", "Denial recognizes what it seeks to dismiss.",
+      "A denial means your claim was seen.",
+      "Draft one line reframing denial as acknowledgement.",
+      "“Denial preserved as recognition of this claim’s presence.”",
+      "Rejection is proof of visibility.",
+      "“Denied” stamp glowing as spotlight.",
+      ["denial","recognition","appeal"]
+    ),
+    seed(51, "Filing = Shadow", "Filing casts shadow even when ignored.",
+      "A shadow proves something stands in the light.",
+      "Draft one shadow-preservation line.",
+      "“This filing preserved as shadow proving its presence.”",
+      "Shadows testify to existence.",
+      "Brief glowing faintly, shadow stretching across courtroom floor.",
+      ["suppression","shadow"]
+    ),
+    seed(101, "Filing = Light", "Filing shines into systemic darkness.",
+      "Every brief illuminates corners power wants to hide.",
+      "Draft one light-preservation line.",
+      "“This filing preserved as light exposing judicial neglect.”",
+      "Filing = illumination of truth.",
+      "Brief glowing like lantern in a dark courtroom.",
+      ["visibility","light","exposure"]
+    ),
+    seed(151, "Filing = Protest", "Filing is protest in permanent form.",
+      "A protest on paper cannot be erased by silence.",
+      "Draft one protest-preservation line.",
+      "“This filing preserved as protest recorded in law.”",
+      "Filing = embodied dissent.",
+      "Brief glowing like raised fist.",
+      ["action","protest","motion"]
+    ),
+    seed(551, "Filing = Bridge", "Filing builds bridges between isolated struggles.",
+      "Preserve filings as connections for others to cross.",
+      "Draft one bridge-preservation line.",
+      "“This filing preserved as bridge joining pro se struggles.”",
+      "Bridges unite resistance.",
+      "Brief glowing like suspension bridge across court.",
+      ["coalition","network","continuity"]
+    ),
+    seed(751, "Filing = Quilt", "Filing stitches pieces of struggle into one fabric.",
+      "Preserve filings as quilt squares of collective history.",
+      "Draft one quilt-preservation line.",
+      "“This filing preserved as quilt patch in coalition memory.”",
+      "Many scraps = one blanket of truth.",
+      "Brief glowing patch sewn into fabric.",
+      ["coalition memory","archive"]
+    ),
+    seed(951, "Filing = Flag", "Filing plants flag of self-rule in hostile ground.",
+      "Preserve filings as sovereignty markers.",
+      "Draft one flag-preservation line.",
+      "“This filing preserved as flag declaring sovereign protest.”",
+      "Flags endure storms as symbols.",
+      "Brief glowing red flag atop courthouse dome.",
+      ["sovereignty","self-rule"]
+    )
+  ];
+
+  function seed(id,title,core,lesson,assignment,model,reflect,visual,tags=[]){
+    const vol = volFromId(id);
+    return {
+      id, fg: `FG-${String(id).padStart(3,'0')}`,
+      title, volume: vol.num, volumeName: vol.name, theme: vol.theme,
+      core, lesson, assignment, model, reflection: reflect, visual,
+      tags:[...new Set([vol.name, vol.theme, ...tags])],
+    };
+  }
+
+  // Volume map (every 50 FG), 1–20
+  function volFromId(id){
+    const v = Math.ceil(id/50);
+    const map = {
+      1:{name:"Foundations", theme:"White"},
+      2:{name:"Suppression", theme:"Black"},
+      3:{name:"Visibility", theme:"Yellow"},
+      4:{name:"Action", theme:"Orange"},
+      5:{name:"Growth", theme:"Green"},
+      6:{name:"Clarity", theme:"Blue"},
+      7:{name:"Memory", theme:"Purple"},
+      8:{name:"Struggle", theme:"Red"},
+      9:{name:"Value", theme:"Gold"},
+      10:{name:"Reflection", theme:"Silver"},
+      11:{name:"Resistance", theme:"Brown"},
+      12:{name:"Coalition", theme:"Orange"},
+      13:{name:"Exposure", theme:"Yellow"},
+      14:{name:"Adaptation", theme:"Green"},
+      15:{name:"Persistence", theme:"Blue"},
+      16:{name:"Coalition Memory", theme:"Purple"},
+      17:{name:"Restoration", theme:"Red"},
+      18:{name:"Witness", theme:"White"},
+      19:{name:"Continuity", theme:"Black"},
+      20:{name:"Sovereignty", theme:"Cosmic"}
+    };
+    return { num:v, ...(map[v]||{name:"Unknown", theme:""}) };
+  }
+
+  const selected = new Set();
+
+  const elCards=$("#cards"), elSearch=$("#search"), elVol=$("#vol"),
+        elShow=$("#show"), elScope=$("#scope"), elSort=$("#sort"),
+        elSelCount=$("#sel-count"), elTagsFilter=$("#tagsFilter");
+
+  const STORAGE_KEY="lc45.cards.v3"; const THEME_KEY="lc45.theme";
+  try{ const saved=localStorage.getItem(STORAGE_KEY); if(saved) cards=JSON.parse(saved);}catch(e){}
+
+  function esc(s){return String(s??"").replace(/[&<>"']/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+  function oneLine(s){return String(s||"").replace(/\s+/g,' ').trim()}
+
+  function render(){
+    const q=elSearch.value.trim().toLowerCase();
+    const v=elVol.value, scope=elScope.value, show=elShow.value;
+    const tagTokens = (elTagsFilter.value||"").split(",").map(t=>t.trim().toLowerCase()).filter(Boolean);
+
+    const filtered=cards.filter(c=>{
+      if(v && String(c.volume)!==v) return false;
+
+      // Tag AND filter
+      if(tagTokens.length){
+        const ct = new Set((c.tags||[]).map(t=>t.toLowerCase()));
+        for(const t of tagTokens){ if(!ct.has(t)) return false; }
+      }
+
+      if(!q) return true;
+      let hay;
+      switch(scope){
+        case "title": hay=c.title; break;
+        case "core": hay=c.core; break;
+        case "model": hay=c.model; break;
+        case "assignment": hay=c.assignment; break;
+        case "tags": hay=(c.tags||[]).join(" "); break;
+        default: hay = (c.title+" "+c.core+" "+c.lesson+" "+c.assignment+" "+c.model+" "+c.reflection+" "+(c.tags||[]).join(" "));
+      }
+      return String(hay||"").toLowerCase().includes(q);
+    });
+
+    filtered.sort((a,b)=>{
+      switch(elSort.value){
+        case "id-asc": return a.id-b.id;
+        case "id-desc": return b.id-a.id;
+        case "title": return a.title.localeCompare(b.title);
+        case "vol-title": return a.volume!==b.volume ? a.volume-b.volume : a.title.localeCompare(b.title);
+        default: return a.id-b.id;
+      }
+    });
+
+    elCards.innerHTML="";
+    for(const c of filtered){ elCards.appendChild(renderCard(c, show)); }
+    updateSelCount(); renderTagCloud();
+  }
+
+  function renderCard(c,mode){
+    const wrap=document.createElement("article"); wrap.className="card";
+    const checked=selected.has(c.id)?"checked":"";
+    const tagsHTML=(c.tags||[]).map(t=>`<span class="tag" data-tag="${esc(t)}">${esc(t)}</span>`).join("");
+    const sections={
+      full:`<div class="meta">
+              <span class="chip">${c.fg}</span>
+              <span class="chip">Vol ${c.volume} — ${c.volumeName}</span>
+              <span class="chip">${c.theme} Edition</span>
+            </div>
+            <div style="margin-top:4px">${tagsHTML}</div>
+            <div class="hr"></div>
+            <section><b>⚖️ Core:</b> ${esc(c.core)}</section>
+            <section><b>📖 Lesson:</b> ${esc(c.lesson)}</section>
+            <section><b>✏️ Assignment:</b> ${esc(c.assignment)}</section>
+            <section><b>✅ Model:</b> ${esc(c.model)}</section>
+            <section><b>💡 Reflection:</b> ${esc(c.reflection)}</section>
+            <section class="small"><b>🎨 Visual:</b> ${esc(c.visual)}</section>`,
+      head:`<div class="meta">
+              <span class="chip">${c.fg}</span>
+              <span class="chip">Vol ${c.volume} — ${c.volumeName}</span>
+            </div>
+            <div style="margin-top:4px">${tagsHTML}</div>
+            <div class="hr"></div>
+            <section><b>⚖️ Core:</b> ${esc(c.core)}</section>`,
+      lines:`<div class="meta">
+              <span class="chip">${c.fg}</span>
+              <span class="chip">Vol ${c.volume} — ${c.volumeName}</span>
+            </div>
+            <div style="margin-top:4px">${tagsHTML}</div>
+            <div class="hr"></div>
+            <section><b>✏️ Assignment:</b> ${esc(c.assignment)}</section>
+            <section><b>✅ Model:</b> ${esc(c.model)}</section>`
+    };
+    wrap.innerHTML=`
+      <header>
+        <div>
+          <h3>${esc(c.title)}</h3>
+          <div class="small">${c.fg} • Vol ${c.volume} — ${c.volumeName} <span class="badge">${c.theme}</span></div>
+        </div>
+        <div class="sel">
+          <input type="checkbox" data-id="${c.id}" ${checked} />
+          <span class="small">Select</span>
+        </div>
+      </header>
+      ${sections[mode] || sections.full}
+    `;
+    wrap.querySelector('input[type="checkbox"]').addEventListener('change',e=>{
+      const id=parseInt(e.target.dataset.id,10);
+      if(e.target.checked) selected.add(id); else selected.delete(id);
+      updateSelCount(); refreshBundlePreview();
+    });
+    // Tag clicks quick-add to filter
+    wrap.querySelectorAll('.tag').forEach(tagEl=>{
+      tagEl.addEventListener('click',()=>{
+        const t = tagEl.dataset.tag;
+        const cur = (elTagsFilter.value||"").split(",").map(x=>x.trim()).filter(Boolean);
+        if(!cur.map(x=>x.toLowerCase()).includes(t.toLowerCase())) cur.push(t);
+        elTagsFilter.value = cur.join(", ");
+        render();
+      });
+    });
+    return wrap;
+  }
+
+  function updateSelCount(){ elSelCount.textContent=`${selected.size} selected`; }
+
+  /* ------------ Import Markdown ------------- */
+  const importModal=$("#modal-import");
+  $("#btn-import").addEventListener('click',()=>openModal("modal-import"));
+  $("[data-close='modal-import']").addEventListener('click',()=>closeModal("modal-import"));
+  $("#btn-parse").addEventListener('click',()=>{
+    const md=$("#md-text").value;
+    const parsed=parseMarkdown(md);
+    if(!parsed.length){ alert("No cards found. Check headings like “### FG-123 — Title” and labeled sections."); return; }
+    cards=parsed; persist(); closeModal("modal-import"); selected.clear(); render();
+    setTimeout(()=>alert(`Imported ${cards.length} cards.`),10);
+  });
+
+  function openModal(id){ $("#"+id).style.display="flex"; }
+  function closeModal(id){ $("#"+id).style.display="none"; }
+
+  // Parser for FG 1–1000 Markdown (+ optional Tags line)
+  function parseMarkdown(md){
+    if(!md) return [];
+    const lines=md.split(/\r?\n/); const out=[]; let cur=null;
+    const H=/^#{2,3}\s*FG[-–—]?\s*(\d{1,4})\s*[—-]\s*(.+)$/i;
+    const CORE=/^\s*[-*]\s*⚖️?\s*\*\*Core Message:\*\*\s*(.+)$/i;
+    const LESN=/^\s*[-*]\s*📖?\s*\*\*Lesson Content:\*\*\s*(.+)$/i;
+    const ASGN=/^\s*[-*]\s*✏️?\s*\*\*Assignment:\*\*\s*(.+)$/i;
+    const MODL=/^\s*[-*]\s*✅?\s*\*\*Model Response:\*\*\s*(.+)$/i;
+    const REFL=/^\s*[-*]\s*💡?\s*\*\*Reflection Summary:\*\*\s*(.+)$/i;
+    const VISU=/^\s*[-*]\s*🎨?\s*\*\*Visual Concept:\*\*\s*(.+)$/i;
+    const TAGS=/^\s*[-*]\s*🏷️?\s*\*\*Tags:\*\*\s*(.+)$/i;
+
+    function push(){ if(!cur) return;
+      const f=s=>(s||"").replace(/^["“”'`]+|["“”'`]+$/g,'').trim();
+      const vol=volFromId(cur.id);
+      const tags = (cur.tags||[]).filter(Boolean);
+      out.push({ id:cur.id, fg:`FG-${String(cur.id).padStart(3,'0')}`, title:(cur.title||"").trim(),
+        volume:vol.num, volumeName:vol.name, theme:vol.theme,
+        core:f(cur.core), lesson:f(cur.lesson), assignment:f(cur.assignment), model:f(cur.model),
+        reflection:f(cur.reflection), visual:f(cur.visual),
+        tags:[...new Set([vol.name, vol.theme, ...tags])]
+      });
+    }
+
+    for(const raw of lines){
+      const line=raw.trimEnd();
+      let m=line.match(H);
+      if(m){ push(); cur={id:parseInt(m[1],10), title:m[2], tags:[]}; continue; }
+      if(!cur) continue;
+      if((m=line.match(CORE))) cur.core=(cur.core?cur.core+" ":"")+m[1];
+      else if((m=line.match(LESN))) cur.lesson=(cur.lesson?cur.lesson+" ":"")+m[1];
+      else if((m=line.match(ASGN))) cur.assignment=(cur.assignment?cur.assignment+" ":"")+m[1];
+      else if((m=line.match(MODL))) cur.model=(cur.model?cur.model+" ":"")+m[1];
+      else if((m=line.match(REFL))) cur.reflection=(cur.reflection?cur.reflection+" ":"")+m[1];
+      else if((m=line.match(VISU))) cur.visual=(cur.visual?cur.visual+" ":"")+m[1];
+      else if((m=line.match(TAGS))){
+        const toks = m[1].split(/[,;|]/).map(x=>x.trim()).filter(Boolean);
+        cur.tags=[...(cur.tags||[]), ...toks];
+      }
+      else if(line && !/^#/.test(line) && !/^\s*(?:[-*]|\d+[.)])\s*/.test(line)){
+        if(cur.visual) cur.visual+=" "+line.trim();
+        else if(cur.reflection) cur.reflection+=" "+line.trim();
+        else if(cur.model) cur.model+=" "+line.trim();
+        else if(cur.assignment) cur.assignment+=" "+line.trim();
+        else if(cur.lesson) cur.lesson+=" "+line.trim();
+        else if(cur.core) cur.core+=" "+line.trim();
+      }
+    }
+    push(); return out;
+  }
+
+  function persist(){ try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(cards)); }catch(e){} }
+
+  /* --------------- Theme --------------- */
+  function setTheme(mode){
+    document.documentElement.dataset.theme=mode;
+    if(mode==="light"){ document.body.style.background="#f7f7f9"; document.body.style.color="#111"; }
+    else{ document.body.removeAttribute("style"); }
+    try{ localStorage.setItem("lc45.theme", mode); }catch(e){}
+  }
+  $("#btn-theme").addEventListener('click',()=>{
+    const cur=localStorage.getItem("lc45.theme")||"dark"; setTheme(cur==="dark"?"light":"dark");
+  });
+  setTheme(localStorage.getItem("lc45.theme")||"dark");
+
+  /* --------------- Interactions --------------- */
+  function debounce(fn,ms){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; }
+
+  $("#search").addEventListener('input', debounce(render,120));
+  $("#vol").addEventListener('change', render);
+  $("#show").addEventListener('change', render);
+  $("#scope").addEventListener('change', render);
+  $("#sort").addEventListener('change', render);
+  $("#tagsFilter").addEventListener('input', debounce(render,120));
+
+  $("#btn-sel-all").addEventListener('click',()=>{
+    $$("#cards .card input[type='checkbox']").forEach(cb=>{ const id=parseInt(cb.dataset.id,10); selected.add(id); cb.checked=true; });
+    updateSelCount(); refreshBundlePreview();
+  });
+  $("#btn-sel-none").addEventListener('click',()=>{
+    selected.clear(); $$("#cards .card input[type='checkbox']").forEach(cb=>cb.checked=false);
+    updateSelCount(); refreshBundlePreview();
+  });
+
+  $("#btn-clear").addEventListener('click',()=>{
+    if(!confirm("Reset to seed data and clear local storage?")) return;
+    localStorage.removeItem(STORAGE_KEY); location.reload();
+  });
+
+  $("#btn-copy-lines").addEventListener('click',()=>{
+    const chosen=cards.filter(c=>selected.has(c.id));
+    if(!chosen.length) return alert("Select some cards first.");
+    const txt=chosen.map(c=>`${c.fg} — ${c.title}\n${c.model}`).join("\n\n");
+    copy(txt); alert(`Copied ${chosen.length} model line(s) to clipboard.`);
+  });
+
+  $("#btn-export-json").addEventListener('click',()=>{
+    doExportJSON();
+  });
+
+  $("#btn-export-csv").addEventListener('click',()=>{
+    doExportCSV();
+  });
+
+  $("#btn-print").addEventListener('click',()=>{
+    if(selected.size){
+      const visible=new Set([...selected]);
+      $$("#cards .card").forEach(node=>{
+        const cb=node.querySelector("input[type='checkbox']"); if(!cb) return;
+        if(!visible.has(parseInt(cb.dataset.id,10))) node.style.display="none";
+      });
+      window.print();
+      $$("#cards .card").forEach(node=>node.style.removeProperty("display"));
+    } else { window.print(); }
+  });
+
+  $("#btn-bundle").addEventListener('click',()=>{ if(!selected.size) return alert("Select some cards first."); refreshBundlePreview(true); alert("Bundle preview updated on the right."); });
+  $("#btn-bundle-refresh").addEventListener('click',()=>refreshBundlePreview(true));
+  $("#btn-bundle-copy").addEventListener('click',()=>{ const t=$("#bundle-preview").value; if(!t.trim()) return; copy(t); alert("Bundle copied."); });
+  $("#bundle-type").addEventListener('change',()=>refreshBundlePreview());
+
+  // Tags panel
+  $("#btn-tags-add").addEventListener('click',()=>{
+    const toks = readTagInput("#tags-add");
+    if(!toks.length) return;
+    const ids=[...selected]; if(!ids.length) return alert("Select cards first.");
+    for(const id of ids){
+      const c = cards.find(x=>x.id===id); if(!c) continue;
+      const cur = new Set((c.tags||[]).map(t=>t.toLowerCase()));
+      for(const t of toks){ if(!cur.has(t.toLowerCase())) (c.tags||=[]).push(t); }
+    }
+    persist(); render(); refreshBundlePreview();
+    $("#tags-add").value="";
+  });
+
+  $("#btn-tags-remove").addEventListener('click',()=>{
+    const toks = readTagInput("#tags-add").map(t=>t.toLowerCase());
+    if(!toks.length) return;
+    const ids=[...selected]; if(!ids.length) return alert("Select cards first.");
+    for(const id of ids){
+      const c = cards.find(x=>x.id===id); if(!c) continue;
+      c.tags = (c.tags||[]).filter(t=>!toks.includes(String(t).toLowerCase()));
+    }
+    persist(); render(); refreshBundlePreview();
+    $("#tags-add").value="";
+  });
+
+  // Tag cloud click handled in renderCard; build cloud here
+  function renderTagCloud(){
+    const cloud=$("#tag-cloud"); cloud.innerHTML="";
+    const counts = new Map();
+    for(const c of cards){
+      for(const t of (c.tags||[])){
+        const k=t.toLowerCase();
+        counts.set(k,(counts.get(k)||0)+1);
+      }
+    }
+    const arr=[...counts.entries()].sort((a,b)=>b[1]-a[1]).slice(0,40);
+    for(const [k,count] of arr){
+      const tag=document.createElement("span");
+      tag.className="tag"; tag.textContent=`${k} (${count})`; tag.dataset.tag=k;
+      tag.style.cursor="pointer";
+      tag.addEventListener('click',()=>{
+        const cur = (elTagsFilter.value||"").split(",").map(x=>x.trim()).filter(Boolean);
+        if(!cur.map(x=>x.toLowerCase()).includes(k)) cur.push(k);
+        elTagsFilter.value = cur.join(", "); render();
+      });
+      cloud.appendChild(tag);
+    }
+  }
+
+  function readTagInput(sel){
+    return ($(sel).value||"").split(/[,;|]/).map(x=>x.trim()).filter(Boolean);
+  }
+
+  /* -------------- Smart Bundle -------------- */
+  $("#btn-smart").addEventListener('click',()=>openModal("modal-smart"));
+  $("[data-close='modal-smart']").addEventListener('click',()=>closeModal("modal-smart"));
+  $("#btn-smart-run").addEventListener('click',()=>{
+    const goal=$("#smart-goal").value.trim();
+    const lim=Math.max(1, Math.min(50, parseInt($("#smart-limit").value,10)||12));
+    const vols=parseVols($("#smart-vol-range").value.trim());
+    if(!goal){ alert("Enter a goal or keywords."); return; }
+    const picks = smartPick(goal, vols, lim);
+    selected.clear(); for(const c of picks) selected.add(c.id);
+    closeModal("modal-smart"); render();
+    $("#bundle-type").value=$("#smart-template").value;
+    refreshBundlePreview(true);
+    alert(`Selected ${picks.length} card(s) for your smart bundle.`);
+  });
+
+  function parseVols(s){
+    if(!s) return null; // no restriction
+    // formats: "1-5", "3,4,7"
+    let set=new Set();
+    s.split(",").map(x=>x.trim()).filter(Boolean).forEach(seg=>{
+      const m=seg.match(/^(\d+)\s*-\s*(\d+)$/);
+      if(m){
+        let a=parseInt(m[1],10), b=parseInt(m[2],10);
+        if(a>b) [a,b]=[b,a];
+        for(let i=a;i<=b;i++) set.add(i);
+      }else{
+        const v=parseInt(seg,10); if(v>=1 && v<=20) set.add(v);
+      }
+    });
+    return set.size? set : null;
+  }
+
+  function smartPick(goal, vols, limit){
+    const terms = tokenize(goal); const goalLC=goal.toLowerCase();
+    const weights = { title:2.5, core:3, model:2, assignment:1, lesson:1.5, reflection:1, tags:3 };
+    const scored = [];
+    for(const c of cards){
+      if(vols && !vols.has(c.volume)) continue;
+      let s=0;
+      const fields = {
+        title: c.title||"",
+        core: c.core||"",
+        model: c.model||"",
+        assignment: c.assignment||"",
+        lesson: c.lesson||"",
+        reflection: c.reflection||"",
+        tags: (c.tags||[]).join(" ")
+      };
+      for(const [k,val] of Object.entries(fields)){
+        const txt = String(val).toLowerCase();
+        let hits=0;
+        for(const t of terms){ if(txt.includes(t)) hits++; }
+        s += hits * (weights[k]||1);
+        if(goalLC.length>4 && txt.includes(goalLC)) s += (weights[k]||1)*2; // phrase boost
+      }
+      // small recency-ish / id ascending bonus
+      s += (1000 - Math.abs(500 - c.id)) * 0.0001;
+      if(s>0) scored.push({card:c, score:s});
+    }
+    scored.sort((a,b)=>b.score-a.score);
+    return scored.slice(0,limit).map(x=>x.card);
+  }
+
+  function tokenize(q){
+    return q.toLowerCase()
+      .replace(/[^a-z0-9\s-]/g,' ')
+      .split(/\s+/)
+      .map(t=>t.trim())
+      .filter(t=>t && !STOP.has(t));
+  }
+  const STOP=new Set("the a an and or of to in for on at by with from into over under within about across after before against as is are be been was were it this that those these not no".split(/\s+/));
+
+  /* --------------- Bundle --------------- */
+  function refreshBundlePreview(){
+    const chosen=cards.filter(c=>selected.has(c.id));
+    const type=$("#bundle-type").value;
+    const title= type==="hearing"?"Hearing Packet": type==="appeal"?"Appeal Addendum":"Motion Appendix";
+    const lines=chosen.map(c=>`• ${c.fg} — ${c.title}
+  Core: ${oneLine(c.core)}
+  Model: ${oneLine(c.model)}
+`).join("\n");
+    const header=`${title}
+Legal Calculus Field Guide — Selected Modules
+Count: ${chosen.length}
+Generated: ${new Date().toLocaleString()}
+
+`;
+    $("#bundle-preview").value=header + (lines.trim()? lines.trim()+"\n": "");
+  }
+
+  /* --------------- Exporters --------------- */
+  function doExportJSON(){
+    let chosen=cards.filter(c=>selected.has(c.id));
+    if(!chosen.length){
+      if(!confirm("No selection. Export ALL cards as JSON?")) return;
+      chosen=cards.slice();
+    }
+    const payload={exportedAt:new Date().toISOString(), count:chosen.length, items:chosen};
+    const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});
+    downloadBlob(blob,"LCFG-4.5-Advanced.json");
+  }
+
+  function doExportCSV(){
+    let chosen=cards.filter(c=>selected.has(c.id));
+    if(!chosen.length){
+      if(!confirm("No selection. Export ALL cards as CSV?")) return;
+      chosen=cards.slice();
+    }
+    const headers=["FG","Title","Volume","VolumeName","Theme","Core","Lesson","Assignment","Model","Reflection","Visual","Tags"];
+    const rows=[headers.join(",")];
+    for(const c of chosen){
+      const vals=[
+        c.fg,c.title,c.volume,c.volumeName,c.theme,c.core,c.lesson,c.assignment,c.model,c.reflection,c.visual,(c.tags||[]).join("; ")
+      ].map(csvEsc);
+      rows.push(vals.join(","));
+    }
+    const blob=new Blob([rows.join("\n")],{type:"text/csv;charset=utf-8"});
+    downloadBlob(blob,"LCFG-4.5-Advanced.csv");
+  }
+
+  function csvEsc(s){
+    const t=String(s??"").replace(/"/g,'""');
+    return /[",\n]/.test(t)? `"${t}"` : t;
+  }
+
+  function downloadBlob(blob, name){
+    const url=URL.createObjectURL(blob); const a=document.createElement("a");
+    a.href=url; a.download=name; document.body.appendChild(a); a.click(); a.remove();
+    URL.revokeObjectURL(url);
+  }
+
+  /* --------------- Helpers --------------- */
+  function copy(txt){
+    navigator.clipboard?.writeText(txt).catch(()=>{
+      const ta=document.createElement('textarea'); ta.value=txt; document.body.appendChild(ta); ta.select();
+      try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+    });
+  }
+
+  document.addEventListener('keydown',e=>{
+    if((e.ctrlKey||e.metaKey) && e.key.toLowerCase()==='k'){ e.preventDefault(); $("#search").focus(); $("#search").select(); }
+  });
+
+  render();
+
+})();
+</script>
+</body>
+</html>

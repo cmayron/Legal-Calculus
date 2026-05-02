@@ -1,0 +1,56 @@
+📘 Legal Calculus 4.5
+Tier 2 — Lawfare Resistance
+Module 32 – Coalition Through Memory — Archiving as Collective Resistance 🤝🗂️
+⚖️ Core Message
+Power isolates; archives connect. When a single litigant is dismissed or delayed, a shared, structured archive turns one case into many voices. Coalition is built by **interoperable memory**: common formats, portable links, and repeatable proofs.
+
+📖 Lesson Content
+• Stakeholders 🎯 — Map who benefits from your archive: legal aid clinics, journalists, watchdogs, academic labs, policy groups, profession associations, patient-safety advocates, and allied litigants.
+• Interoperability 🔁 — Use open, portable formats: PDF/A (with OCR), CSV/JSON for indices, plain‑text READMEs, and stable permalinks. Mirror to 2–3 platforms (e.g., GitHub/Drive/Notion) and keep a change‑log.
+• Standard Metadata 🧾 — For each exhibit: Title, Date, Source, Docket/ECF, Exhibit Tag, SHA‑256 hash, License/Permissions, Privacy Level (Public/Restricted). Add a manifest file at the root.
+• Permissioning & Safety 🛡️ — Separate 'Public' vs 'Restricted' folders. Redact PII/PHI; add a redaction log. Use neutral, verifiable captions; avoid commentary in evidence folders. Track consent for interviews/photos.
+• Legal Hygiene ⚖️ — Prefer primary documents, certify authenticity where possible, and include provenance. Know basics of defamation (truth/privilege), anti‑SLAPP posture, and fair‑use thumbnails for press kits. When unsure: summarize and link.
+• Reproducibility 🧪 — Provide 'how to verify' steps: docket URLs/ECF numbers, transcript ordering info, FOIA request IDs, and exact search terms. A coalition can replicate the record and extend it.
+• Calls‑to‑Action 📣 — Pair every archive drop with a specific ask: amicus interest, data analysis, expert declaration, policy letter, clinic adoption, or media review. Embed contact info and a one‑paragraph pitch.
+📝 Assignment
+Build a **Coalition Kit v1**:
+1) **Stakeholder Map (1 page)** — columns: Org, Contact, Why They Care, What You’re Asking, Status/Next Step.
+2) **Memory Drop (ZIP or folder)** — '/Public', '/Restricted', '/Press_Kit'. Include Exhibit Index (CSV), 10 top exhibits (PDF/A), hash manifest, and a two‑page summary.
+3) **Outreach Pack** — (a) 150‑word email pitch; (b) 5‑slide overview; (c) amicus/expert invitation paragraph.
+4) **Verification Script** — written steps to independently verify 3 critical facts from your archive.
+
+✅ Model Answer (Templates)
+TEMPLATE A — STAKEHOLDER MAP (TABLE HEADERS)
+Org | Contact | Role/Angle | Why They Care | Ask | Materials to Send | Status | Next Step | Deadline
+
+TEMPLATE B — EMAIL PITCH (≤150 words)
+Subject: Public record documenting procedural suppression — materials for your review
+
+Hello [Name],
+I’m sharing a structured public record (“Legal Calculus — Archive Pack v1”) that documents [one‑sentence issue]. It includes primary exhibits (PDF/A), a verified index with hashes, and a two‑page summary with citations.
+
+We’re seeking: [amicus review / clinic adoption / investigative interest / expert declaration]. Link: [permalink]. One‑pager attached. I’m available for a 15‑minute call next week.
+
+— [Your Name], [Role], [Contact]
+
+TEMPLATE C — PRESS KIT CONTENTS
+1) 1‑pager summary (problem → evidence → public interest). 2) Timeline PNG. 3) Top‑10 exhibits (thumbnails + captions). 4) FAQ (5 questions). 5) Contact + permissions statement.
+
+TEMPLATE D — MEMORY DROP STRUCTURE
+/Public
+ /Exhibits (PDF-A, Bates, hashes)
+ /Index (CSV + JSON)
+ /Summaries (2‑pager, FAQ)
+/Restricted
+ /Unredacted (access‑controlled)
+ /Legal_Work_Product
+/Press_Kit
+ /OnePager.pdf
+ /Timeline.png
+ /Top10_Exhibits.pdf
+
+💡 Reflection
+A coalition needs clarity and credibility. When your archive is portable, verifiable, and paired with a concrete ask, people can plug in fast — and stay aligned to the evidence.
+
+🎨 Visual Pairing
+Image Concept: Interlocking folders labeled 'Clinics / Journalists / Watchdogs / Academics' connected by a spine titled 'Archive Pack v1'. Caption: 'Interoperable Memory → Durable Coalition.'

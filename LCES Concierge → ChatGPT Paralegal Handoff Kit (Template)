@@ -1,0 +1,210 @@
+A reusable page you can paste into Notion for the LCES AI Concierge and then hand directly to ChatGPT (Paralegal). Copy this whole page into a new Notion note, fill the blanks, let Notion AI populate LC/FG/JC, then paste the result into ChatGPT with the intake prompt below.
+
+# **1) Notion AI Concierge — Page Template**
+
+Title: LC/FG/JC Concierge — [Issue short name]
+
+Facts (dated & exhibit‑pinned):
+
+- [YYYY‑MM‑DD hh:mm TZ] [event] → Ex. [A‑1]
+- [YYYY‑MM‑DD] [who/what/where] → Ex. [B‑2]
+
+Issues:
+
+- [e.g., Clerk refusal to docket; tender‑date recognition]
+
+LC Modules to apply:
+
+- [LC‑01 Filing is Protest; LC‑10 Default ≠ Consent; LC‑29 Post‑Denial Strategy; …]
+
+FG Cards (how‑to blocks):
+
+- [Service checklist; Tender‑date log; Proposed‑Order mirror rule; …]
+
+JC Reflexes (what the court may do):
+
+- [Form rejection; minute‑order ambiguity; deny without prejudice; …]
+
+Rules / Cites to use:
+
+- [FRCP 5(d)(4); FRCP 79(a); Local Rule __; Statute __]
+
+Relief sought (copy EXACT words for Proposed Order):
+
+- “Docket as of [DATE FIRST TENDERED]; all deadlines run from that date; [7]‑day cure for formatting.”
+
+Deadlines & risks:
+
+- [Reply due YYYY‑MM‑DD; risk of strike/waiver; …]
+
+Deliverables needed:
+
+- Notice of Refusal to Docket
+- Motion to Direct Docketing + Proposed Order
+- Declaration + Exhibits Index
+- Certificate of Service (COS)
+- (Optional) Clerk cover letter
+- One‑file Word + PDF packet
+
+Service plan:
+
+- Serve: [AAG / counsel name, address, email]
+- Method: [USPS RRR #; FedEx #; ECF]
+
+Attachments / Links:
+
+- [Screenshots, receipts, tracking, emails]
+
+Data Block (pasteable JSON for ChatGPT):
+
+{
+"case": "[Case caption]",
+"court": "[Court / Division]",
+"deadline": "YYYY-MM-DD",
+"relief": "Docket as of YYYY-MM-DD; deadlines run from that date; 7-day cure",
+"service": {"party": "[Name]", "address": "[Address]", "method": ["USPS RRR", "ECF"]},
+"exhibits": ["ECF receipt", "RRR", "screenshots"]
+}
+
+{
+
+"case": "[Case caption]",
+
+"court": "[Court / Division]",
+
+"deadline": "YYYY-MM-DD",
+
+"relief": "Docket as of YYYY-MM-DD; deadlines run from that date; 7-day cure",
+
+"service": {"party": "[Name]", "address": "[Address]", "method": ["USPS RRR", "ECF"]},
+
+"exhibits": ["ECF receipt", "RRR", "screenshots"]
+
+}
+
+# **2) ChatGPT Paralegal — Intake Prompt (paste with the Notion page)**
+
+{
+"case": "[Case caption]",
+"court": "[Court / Division]",
+"deadline": "YYYY-MM-DD",
+"relief": "Docket as of YYYY-MM-DD; deadlines run from that date; 7-day cure",
+"service": {"party": "[Name]", "address": "[Address]", "method": ["USPS RRR", "ECF"]},
+"exhibits": ["ECF receipt", "RRR", "screenshots"]
+}
+
+# Use the LC/FG/JC concierge page below. Draft all items under Deliverables needed, tailored to [court/jurisdiction]. Mirror the Relief sought verbatim in the Proposed Order. Include tender‑date language in both Notice and Motion, a COS, and a running Delay Log. Output a single Word + PDF packet with blanks for names/dates/exhibits. Keep captions formal, paragraphs numbered, tone respectful.
+
+# **3) Quality Gates before Filing (TNRPESC)**
+
+- Timing: every deadline stated; tender‑date recognized.
+- Narrative: short, numbered facts; no orphan facts.
+- Relief: Proposed Order mirrors “Relief sought” word‑for‑word.
+- Procedure: correct caption, motion vs. letter, local rules cited.
+- Evidence: each fact tied to a dated exhibit (Ex. A‑1, B‑2…).
+- Service: COS present; names/addresses/methods correct.
+- Citations: core rules/statutes included.
+
+# Tip: grab one trusted friend to skim captions/dates (2‑minute buddy check). If the clerk games are spiking stress, a short counseling check‑in can keep your focus sharp while you ship.
+
+# **4) Exhibit Index (drop into your Declaration)**
+
+Exhibit A‑1  ECF submission receipt (YYYY‑MM‑DD hh:mm TZ)
+Exhibit A‑2  Screenshot: “Processing” page (timestamped)
+Exhibit B‑1  USPS RRR label and tracking printout (No. ______)
+Exhibit B‑2  FedEx receipt / signature confirmation
+Exhibit C‑1  Clerk call log (date/time, who said what)
+
+Exhibit A‑1  ECF submission receipt (YYYY‑MM‑DD hh:mm TZ)
+
+Exhibit A‑2  Screenshot: “Processing” page (timestamped)
+
+Exhibit B‑1  USPS RRR label and tracking printout (No. ______)
+
+Exhibit B‑2  FedEx receipt / signature confirmation
+
+Exhibit C‑1  Clerk call log (date/time, who said what)
+
+# **5) COS & Clerk Cover — Skeletons**
+
+Certificate of Service
+
+I certify that on [date] I served the foregoing [title] on [Name, Esq.], [Address], via [USPS RRR / ECF / courier].
+
+---
+
+[Your Name], pro se
+
+I certify that on [date] I served the foregoing [title] on [Name, Esq.], [Address], via [USPS RRR / ECF / courier].
+
+______________________________
+
+[Your Name], pro se
+
+Clerk Cover Letter (optional)
+
+[Date]
+Clerk of Court, [Address]
+Re: Immediate Docketing Request — [Case or “In re Intended Filing of …”]
+
+Enclosed: Notice, Motion to Direct Docketing (w/ Proposed Order), Declaration + Exhibits, and duplicate copies for stamping/return. If any ministerial issue remains, please time‑stamp “received” and advise in writing of the specific authority. Thank you.
+
+Respectfully,
+[Your Name], pro se | [Contact]
+
+[Date]
+
+Clerk of Court, [Address]
+
+Re: Immediate Docketing Request — [Case or “In re Intended Filing of …”]
+
+Enclosed: Notice, Motion to Direct Docketing (w/ Proposed Order), Declaration + Exhibits, and duplicate copies for stamping/return. If any ministerial issue remains, please time‑stamp “received” and advise in writing of the specific authority. Thank you.
+
+Respectfully,
+
+[Your Name], pro se | [Contact]
+
+# **6) Example (filled short form — Clerk refusal to docket)**
+
+Issue: Clerk refused to docket PI filings tendered 2025‑09‑29.
+
+Relief sought (exact words): “Docket as of 2025‑09‑29; deadlines run from that date; 7‑day cure for formatting.”
+
+Rules: FRCP 5(d)(4); FRCP 79(a); Local Rule 5.1.
+
+Deliverables: Notice; Motion + Proposed Order; Declaration + Exhibits index; COS; one‑file Word+PDF.
+
+Service Plan: AAG Erin Mead, 28 Liberty St, NY, NY — USPS RRR + ECF.
+
+Data Block:
+
+{
+"case": "Mayron v. Silverman, et al.",
+"court": "NDNY",
+"deadline": "2025-09-30",
+"relief": "Docket as of 2025-09-29; deadlines run from that date; 7-day cure",
+"service": {"party": "AAG Erin Mead", "address": "28 Liberty St, New York, NY", "method": ["USPS RRR", "ECF"]},
+"exhibits": ["ECF receipt", "RRR", "screenshots"]
+}
+
+{
+
+"case": "Mayron v. Silverman, et al.",
+
+"court": "NDNY",
+
+"deadline": "2025-09-30",
+
+"relief": "Docket as of 2025-09-29; deadlines run from that date; 7-day cure",
+
+"service": {"party": "AAG Erin Mead", "address": "28 Liberty St, New York, NY", "method": ["USPS RRR", "ECF"]},
+
+"exhibits": ["ECF receipt", "RRR", "screenshots"]
+
+}
+
+How to use
+
+1. Paste this whole page into Notion → fill blanks → run Notion AI for LC/FG/JC expansions.
+2. Copy the result + Data Block into ChatGPT with the Intake Prompt.
+3. Do a quick buddy check on captions/dates, then file & serve.

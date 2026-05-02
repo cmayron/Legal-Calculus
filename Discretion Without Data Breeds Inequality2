@@ -1,0 +1,71 @@
+Discretion Without Data Breeds Inequality
+By Charles Mayron, MD
+
+We comfort ourselves that “justice is mostly just.” Then we look at the first chart.
+
+On the left: cases with pro se litigants. On the right: cases with represented parties. Each bar is stacked by how those cases ended—merits at the top of the pyramid, and the procedural trapdoors below: default, service, format, jurisdiction. Even before you read the legend, the story is obvious. Pro se bars swell at default and service. Represented bars climb toward merits.
+
+That single picture explains why people lose faith. Most losses aren’t about right and wrong. They’re about process—deadlines, paperwork, postage, portals. When outcomes sort by representation rather than facts, we’re not measuring fairness; we’re measuring who can navigate us.
+
+The second chart is quieter but just as revealing: Days to Docket. It’s the clock between when a filing is tendered and when the clerk posts it. If you’re seeking emergency relief, those days matter more than the law professor’s footnotes. A petition that sits in the in-box isn’t in court. A TRO that arrives after the harm is simply a history lesson.
+
+These two pictures—Outcome Mix by Representation and Days to Docket—are the front door to a justice system that’s been operating without a dashboard. And dashboards, far from being technocratic window dressing, are the only way to tell the public whether people can reach a decision at all.
+
+⸻
+
+What the numbers actually measure
+	•	Outcome Mix by Representation: For every closed civil case, we label the endpoint—merits (a reasoned decision) or procedural (default, service, format, jurisdiction). Then we split the results by whether someone had a lawyer. If the default share for pro se litigants towers over the represented share, we flag an Equity Alert. That gap isn’t about who’s right; it’s about who could get heard.
+	•	Days to Docket: For cases with both a “tendered” and “docketed” timestamp, we compute the lag in days and plot the distribution. We also post a simple compliance rate against a target (e.g., docket ≤ 7 days). That’s not micromanagement; it’s a service-level agreement with the public.
+
+These aren’t exotic metrics. They’re the equivalents of infection rates, time-to-antibiotics, and readmission curves in medicine. Surgeons still exercise discretion. But we also count. Counting didn’t kill judgment; it saved patients.
+
+⸻
+
+What the data means in human terms
+	•	A default is not a ruling on truth. It’s evidence the system lost someone—because of money, language, time, or format. When defaults cluster around the people least able to hire help, it’s not a mystery; it’s a maintenance problem.
+	•	Delays don’t look like injustice—until you’re the one waiting on a TRO. When urgent filings miss the window, the law can be technically correct and practically useless.
+	•	Merits decisions are the goal line. If too few cases get there, the court becomes a sorting machine for paperwork, not a forum for facts and law.
+
+⸻
+
+“But justice is discretionary—judges are kings.”
+
+Discretion is not the villain. Opacity is. No one proposes telling judges what to decide. We propose telling the public whether they can get a decision—by publishing the pipeline people actually experience:
+	1.	Timeliness: Days to Docket; Days to TRO; monthly compliance to a public target.
+	2.	Outcome Mix by Representation: merits vs. defaults and other procedural endpoints, pro se vs. represented.
+	3.	Interpreter Coverage & IFP: the share of hearings that needed interpreters and had them; in-forma-pauperis approval rates by county.
+	4.	Arbitration Compulsion & Cost: who’s compelled, who pays, and how outcomes change.
+	5.	Remote Access: whether remote options exist, how often they’re used, and whether no-shows drop when they’re available.
+
+Then make it comparable: normalize per-100k population, adopt shared definitions, and publish a composite State Justice Index (Access • Timeliness • Equity) alongside a case-level Injustice Score that audits where people fall off. The weights can vary by state. The fields must be public.
+
+⸻
+
+Anticipating the critiques
+	•	“Different case mixes.” Good. Publish the mix. Break out by category (housing, consumer, family, employment). If the gap survives stratification, it’s real. If it doesn’t, we’ve learned something useful.
+	•	“Data entry isn’t perfect.” Neither is memory. Post the known error bars and keep counting. The cure for imperfect data is not no data; it’s better data.
+	•	“This will shame courts.” It will help courts. You can’t fix what you can’t see. The first jurisdiction to publish will take heat—for a week. The next will get credit for leadership.
+
+⸻
+
+What your dashboard should show next month
+
+Right beside the stacked bars, print two numbers anyone can grasp:
+	•	Default Gap (pp): the percentage-point difference in default rates between pro se and represented parties. (Set an alert threshold; I recommend ≥ 10 pp.)
+	•	Docket Compliance (%): percent of filings docketed within the public target (e.g., 7 days).
+
+Add a third tile for Interpreter Coverage (%). If people can’t speak through the system, the system cannot hear them. That’s not politics; it’s physics.
+
+⸻
+
+Why this matters
+
+Most Americans will never read a law review article. They will read a bar that shows whether people like them ever make it to a merits decision—and whether urgent filings move before the harm arrives. They will understand, in one glance, whether we run a court of record or a court of attrition.
+
+We can keep believing justice is “mostly just.” Or we can publish the pipeline. Count the defaults. Track interpreter coverage. Split outcomes by representation. Measure arbitration’s real-world effects. If the numbers prove justice is working, all the better. If not, we will finally know where to start.
+
+What gets measured gets managed. Justice is worthy of that humility—and the public is owed nothing less.
+
+⸻
+
+Method note: Charts were generated from case-level CSVs (outcomes and events) using transparent formulas. The same script that produced the figures is posted with the dataset so any reader can reproduce, critique, or improve the results.

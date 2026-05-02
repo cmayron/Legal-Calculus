@@ -1,0 +1,51 @@
+Legal Calculus 4.5 — Tier 7: Procedural Memory & Public Archive — Module 87
+
+📘 Legal Calculus — Module 87
+
+Chain‑of‑Custody for Evidence — Bates + Hash
+
+⚖️ Core Message
+
+Chain‑of‑custody isn’t just for crimes. Bates + hash + declaration keep your exhibits reliable across tribunals and time.
+
+📖 Lesson Content
+
+1. Bates — Every page stamped; reference by Bates range in briefs.
+
+2. Hash — SHA‑256 per file; store in an 'Evidence_Hashes.csv'.
+
+3. Declaration — A one‑page authentication ties the set to a human.
+
+4. Export — PDF/A when possible; avoid re-saving that changes hashes.
+
+📝 Assignment
+
+Create 'Evidence_Hashes.csv' with three example exhibits; draft a one‑paragraph 'Declaration of Custody'.
+
+✅ Model Response
+
+Evidence_Hashes.csv:
+
+Filename,Bates,Hash_SHA256
+
+Ex_A_USPS.pdf,0001-0003,9f2a7c…
+
+Ex_B_ClerkEmail.pdf,0004-0006,41be22…
+
+ 
+
+Declaration of Custody (excerpt):
+
+I, Charles Mayron, maintain custody of Exhibits A–C, each Bates‑stamped and hashed as listed; they are true and correct copies.
+
+ 
+
+💡 Reflection Summary
+
+Integrity is a format choice. Make your evidence tamper‑evident.
+
+🎨 Visual Concept
+
+Paper pages with Bates stamps linked to a digital fingerprint icon.
+
+Page

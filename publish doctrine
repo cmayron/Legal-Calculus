@@ -1,0 +1,44 @@
+name: Publish Doctrine
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run formatting checks
+        run: npm run format
+
+      - name: Run tests
+        run: npm test
+
+      - name: Publish artifacts
+        if: github.ref == 'refs/heads/main'
+        run: |
+          mkdir -p public
+          cp -r doctrine/* public/
+          echo "Doctrine published at $(date)" > public/README.md
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: doctrine
+          path: public

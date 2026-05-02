@@ -1,0 +1,127 @@
+# Step 1: Create Core Folders
+
+- [ ]  Create: `/briefs`
+- [ ]  Create: `/orders`
+- [ ]  Create: `/kits`
+- [ ]  Create: `/release`
+- [ ]  Create: `/archive`
+
+# Step 2: Create Kit Subfolders
+
+- [ ]  Create: `/kits/FG_Cards`
+- [ ]  Create: `/kits/FGA_Cards`
+- [ ]  Create: `/kits/Templates`
+- [ ]  Create: `/kits/Checklists`
+
+# Step 3: Create Archive Subfolders
+
+- [ ]  Create: `/archive/Public`
+- [ ]  Create: `/archive/Press_Kit`
+- [ ]  Create: `/archive/Case_Archive`
+
+---
+
+# Step 4: Move FG/FGA Cards → /kits
+
+- [ ]  Move: FG-101 (Motion to Dismiss) → `/kits/FG_Cards/`
+- [ ]  Move: FG-202 (Serve Complaint) → `/kits/FG_Cards/`
+- [ ]  Move: FG-501 (Civil Rights Complaint) → `/kits/FG_Cards/`
+- [ ]  Move: FG-676 (Filing Packet Checklist) → `/kits/FG_Cards/`
+- [ ]  Move: FG-703 (Emergency Relief) → `/kits/FG_Cards/`
+- [ ]  Move: All other FG cards (001-1000) → `/kits/FG_Cards/`
+- [ ]  Move: All FGA (Advanced) cards → `/kits/FGA_Cards/`
+
+# Step 5: Move Templates → /kits/Templates
+
+- [ ]  Move: Case Workspace Template → `/kits/Templates/`
+- [ ]  Move: Intake Sheet → `/kits/Templates/`
+- [ ]  Move: Draft Pack template → `/kits/Templates/`
+- [ ]  Move: Evidence Pack template → `/kits/Templates/`
+- [ ]  Move: Hearing Kit template → `/kits/Templates/`
+- [ ]  Move: Certificate of Service (COS) mini-template → `/kits/Templates/`
+- [ ]  Move: Proposed Order shells → `/kits/Templates/`
+
+# Step 6: Move Checklists → /kits/Checklists
+
+- [ ]  Move: Legal Action Loop checklist → `/kits/Checklists/`
+- [ ]  Move: Roadmap_Kit.pdf → `/kits/`
+
+---
+
+# Step 7: Move Files → /briefs
+
+- [ ]  Move: Bench Brief templates → `/briefs/`
+- [ ]  Move: Jurisdiction & Authority Addendum → `/briefs/`
+- [ ]  Move: Complaint/Motion/Memo shells → `/briefs/`
+- [ ]  Move: Notice of Filing & Docket Clarification → `/briefs/`
+- [ ]  Move: Status letter templates → `/briefs/`
+
+# Step 8: Move Files → /orders
+
+- [ ]  Move: Anti-gamesmanship order → `/orders/`
+- [ ]  Move: Delay log templates → `/orders/`
+- [ ]  Move: Relief Palette tick-box orders → `/orders/`
+- [ ]  Move: Clerk 3-Click templates → `/orders/`
+
+---
+
+# Step 9: Move Files → /release
+
+- [ ]  Move: LCES_About_OnePager_DARK.pdf → `/release/`
+- [ ]  Move: LCES_About_Slide_DARK.pptx → `/release/`
+- [ ]  Move: Coalition onboarding slide deck → `/release/`
+- [ ]  Move: Coalition invite letter → `/release/`
+
+# Step 10: Move Files → /archive
+
+- [ ]  Move: Site_Bundle_v4.zip → `/archive/Public/`
+- [ ]  Move: Site_Bundle_v7.zip → `/archive/Public/`
+- [ ]  Move: Visual_Archive_2-5.zip → `/archive/Public/`
+- [ ]  Move: Archive bundles with proofs → `/archive/Public/`
+- [ ]  Move: Press kit materials → `/archive/Press_Kit/`
+
+---
+
+# Step 11: Create Root Files
+
+- [ ]  Create: `Start_Here.html` using "Choose Your Mode" content
+- [ ]  Create: `Master_Index.csv` from Legal_Calculus_4_Module_Index
+- [ ]  Create: `CHECKSUMS.txt` with these lines:
+6d2ac88a67f50c93bd0f07892265807dddfb10fc797818619615c2927b597c3c Site_Bundle_v4.zip
+7b2a4086c19bb8777ce60259eba4004c5f813a0cc9448357d7ce07859f5c3cf7 Site_Bundle_v7.zip
+- [ ]  Create: `CHANGELOG.md` — "2025-10-12 — Initial LCES workspace structure"
+- [ ]  Create: `index.html` with links to all major folders
+
+---
+
+# Step 12: Keep in Notion (Do NOT Move)
+
+<aside>
+**These stay in Notion as databases/pages:**
+
+</aside>
+
+- LC Modules 1-119 (Legal Calculus foundation)
+- LCA Advanced Modules
+- JC Reflexes: JC-001, JC-027, JC-045, JC-063
+- LCa (Lawyer Calculus)
+- Module Crosswalk Table
+- "Welcome to LCES" landing page
+- "🧠 What Legal Calculus Actually Is" page
+
+---
+
+# Step 13: Final Verification
+
+- [ ]  Verify all FG cards are in `/kits/FG_Cards/`
+- [ ]  Verify templates are in `/kits/Templates/`
+- [ ]  Verify all root files exist and contain correct content
+- [ ]  Test navigation from `index.html`
+- [ ]  Confirm CHECKSUMS.txt hashes match archives
+- [ ]  Create backup of entire structure
+- [ ]  Link Notion workspace to `index.html`
+
+<aside>
+**✅ Focused Migration Complete** — Your LCES files are now organized for scalability and portability.
+
+</aside>

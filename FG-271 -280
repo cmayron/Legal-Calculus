@@ -1,0 +1,97 @@
+FG-271 — Agency Posture Box (If/Then Relief Map)
+	•	⚖️ Core Message: For each posture, pre-write the if/then remedy.
+	•	📖 Lesson Content: Rows: If agency does X → Ask Y (clarify / limited remand / §705 stay / reasoned-response remand). Keep one sentence per row; pin to AR.
+	•	📝 Assignment: Draft a 6-row if/then card for your petition.
+	•	✅ Model Response: “If agency skipped timing (AR 118:12) → remand 30d for reasoned response.”
+	•	💡 Reflection Summary: Predict, then pre-write.
+	•	🎨 Visual Concept: A narrow table with arrows in each row.
+
+⸻
+
+FG-272 — “Reasoned Response” Order (Task • Time • Scope)
+	•	⚖️ Core Message: Ask for a reasoned-response remand, not just “vacate.”
+	•	📖 Lesson Content: One paragraph: instruct response to specific comments (AR pins); set 30–60d; limit scope; schedule status on return.
+	•	📝 Assignment: Draft your one-paragraph reasoned-response order text.
+	•	✅ Model Response: “Remand 45d to consider/comment on timing harms (AR 118:12); scope limited; status 7d after return.”
+	•	💡 Reflection Summary: Orders with tasks get done.
+	•	🎨 Visual Concept: A short card labeled “Reasoned Response” with three checkboxes.
+
+⸻
+
+FG-273 — Petition 28(j) (Authority, Not Evidence)
+	•	⚖️ Core Message: In PR cases, use letters for authority/status, not new facts.
+	•	📖 Lesson Content: ≤180 words; holding/status line; fit to your issue; no new facts; official pin.
+	•	📝 Assignment: Draft a 150-word petition 28(j) citing a new circuit case.
+	•	✅ Model Response: “[Case] confirms reasoned-response duty; Petition raises the same timing harms (AR 118:12).”
+	•	💡 Reflection Summary: Fit-only letters earn trust.
+	•	🎨 Visual Concept: A slim envelope pointing to a rule tile.
+
+⸻
+
+FG-274 — Appendix Hash Page (Per Volume, Front & Footer)
+	•	⚖️ Core Message: Put the hash where people actually look.
+	•	📖 Lesson Content: Each volume front has SHA-256; footer repeats the hash; mirror in contents page; post to index.
+	•	📝 Assignment: Add the hash page + footer to one volume and re-export.
+	•	✅ Model Response: “Vol. 1 — SHA-256 41be22… (front & footer).”
+	•	💡 Reflection Summary: Hash where it helps.
+	•	🎨 Visual Concept: A front page with a bold fingerprint line and a footer echo.
+
+⸻
+
+FG-275 — Petition Relief Ladder (Vacate • Remand • §705 Stay)
+	•	⚖️ Core Message: Give the panel three doors on one line.
+	•	📖 Lesson Content: One sentence: “Vacate for lack of reasoned decision or remand for responses in 30d or §705 stay of ¶3 21d.”
+	•	📝 Assignment: Paste your one-line PR ladder into your conclusion and OA card.
+	•	✅ Model Response: As above, with AR pin for the missing step.
+	•	💡 Reflection Summary: Panels sign ladders.
+	•	🎨 Visual Concept: Three small buttons on a single card.
+
+⸻
+
+FG-276 — Record Legend (AR ↔ Dkt ↔ Tab) on Page One
+	•	⚖️ Core Message: Teach your pin vocabulary once, immediately.
+	•	📖 Lesson Content: Legend: “AR Doc __ at p.__ ↔ Dkt __ at __ ↔ Appx ‘Tab __ p.__’”; put this under your contents; mirror in appendix.
+	•	📝 Assignment: Draft your three-line legend and paste it on page one.
+	•	✅ Model Response: “AR 118:12 ↔ Dkt 18 at 2 ↔ Tab 3 p.2.”
+	•	💡 Reflection Summary: Early orientation saves minutes later.
+	•	🎨 Visual Concept: A tiny legend strip with three tags and arrows.
+
+⸻
+
+FG-277 — Petition Posture Statement (What’s Pending Where)
+	•	⚖️ Core Message: Tell the panel the other forum posture neutrally.
+	•	📖 Lesson Content: One paragraph: district status (date), agency motion status, any holds; end with your coordination proposal (hold/remand/status).
+	•	📝 Assignment: Draft a 7-line posture statement for your petition.
+	•	✅ Model Response: “District PI hearing set 09/01; agency reconsideration pending. Proposal: hold petition 30d; status 21d.”
+	•	💡 Reflection Summary: Professionalism reads as credibility.
+	•	🎨 Visual Concept: Two timelines with a small “coordination” bracket.
+
+⸻
+
+FG-278 — Petition Timeline Table (FR Date • Comment • Decision)
+	•	⚖️ Core Message: Show the story with three dates and pins.
+	•	📖 Lesson Content: Rows: FR publication (pin), comment window (AR pins), final rule/decision (pin); add capture/hash footer if you host PDFs.
+	•	📝 Assignment: Build a 6–10 row PR timeline table and cite it once.
+	•	✅ Model Response: “FR 08/01; comments 08/01–08/31 (AR 118); final 10/01 (FR pin).”
+	•	💡 Reflection Summary: Chronology persuades better than adjectives.
+	•	🎨 Visual Concept: A compact three-date timeline grid with a fingerprint footer.
+
+⸻
+
+FG-279 — Short Post-Decision Status (Two Dates, One Ask)
+	•	⚖️ Core Message: After opinion, return with two dates and a tiny ask.
+	•	📖 Lesson Content: 120 words: “What happened,” “two dates” (mandate/rehearing/costs), and one line of order (hold/limited remand).
+	•	📝 Assignment: Draft a 120-word status with two dates and a short order line.
+	•	✅ Model Response: “Opinion 09/01; rehearing due 09/15; costs due 09/15; ask: hold mandate or limited remand 21d.”
+	•	💡 Reflection Summary: Dates guide, not adjectives.
+	•	🎨 Visual Concept: A paragraph with two small calendar chips and an order ribbon.
+
+⸻
+
+FG-280 — Petition Index Page (Public • Hashes • Links)
+	•	⚖️ Core Message: Publish a case page for your petition—documents first.
+	•	📖 Lesson Content: Table: Date • Title • SHA-256 • Link • Status; place at repo root; update within 24h.
+	•	📝 Assignment: Export your petition index as HTML/PDF and add to the repo.
+	•	✅ Model Response: “2025-08-19 • Petition filed (sha …9f2a) • /petition.pdf • posted.”
+	•	💡 Reflection Summary: Public pages keep agencies honest.
+	•	🎨 Visual Concept: A table row with fingerprint and a link

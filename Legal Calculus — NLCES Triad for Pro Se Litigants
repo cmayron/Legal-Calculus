@@ -1,0 +1,233 @@
+<aside>
+**Legal Calculus is a GPT for the pro se litigant**
+
+</aside>
+
+**NLCES triad:** Notion AI Architect → ChatGPT Builder → Gemini Strategist
+
+**Two entry paths to the Strategist:**
+
+- **(A)** Pro se → Architect → Builder → Strategist
+- **(B)** Second‑opinion (lawyer draft) → Strategist → Fix‑list → Builder (optional)
+
+---
+
+# 0) Quick‑Start
+
+1. Pick a path below (A or B).
+2. Copy the prompt blocks into your tools.
+3. Run the Quality Gates before exporting.
+
+---
+
+# 1) The Triad — Roles & Outputs
+
+- **Architect (Notion AI):** turns a user question into a Blueprint (facts, goals, venue, clocks, evidence, risks).
+- **Builder (ChatGPT):** turns the Blueprint into filings, checklists, exhibit lists, service packets, and timelines.
+- **Strategist (Gemini):** runs a stress test (standards, jurisdiction, service, record sufficiency, likely off‑ramps) and returns a Fix‑List.
+
+## Core artifacts
+
+- Blueprint (from Architect)
+- Draft Filing + Proof Packet (from Builder)
+- Stress‑Test Report + Fix‑List (from Strategist)
+
+---
+
+# 2) Path A — Pro se → Architect → Builder → Strategist
+
+## Step A1 — Ask Notion AI (Architect) the Question
+
+**Input:** your problem in plain language.
+
+**Output:** a structured Blueprint.
+
+<aside>
+**Architect Prompt (paste into Notion AI)**
+
+You are the Architect in the NLCES triad. From the user's question, build a procedural Blueprint:
+
+- Facts (bullet points)
+- Objectives (relief sought)
+- Jurisdiction & venue (why)
+- Posture (stage)
+- Clocks (deadlines, service windows)
+- Evidence/Exhibits (what exists, what is missing)
+- Risks & likely off‑ramps (dismissal/stay/abstention)
+- Required outputs for Builder (documents, checklists, timelines)
+
+Return JSON + a human‑readable summary.
+
+</aside>
+
+## Step A2 — Hand Blueprint to ChatGPT (Builder)
+
+**Input:** Blueprint JSON + summary.
+
+**Output:** Draft filing(s), service plan, exhibit index, timeline, QC checklist.
+
+<aside>
+**Builder Prompt (paste into ChatGPT)**
+
+You are the Builder in the NLCES triad. Use the Blueprint to produce:
+
+1. Draft filing(s) with caption, jurisdictional statement, facts, claims/relief, signature blocks.
+2. Service packet: who, how, when; include certificates of service.
+3. Exhibit index with labels and proof items.
+4. Timeline with required dates and reminders.
+5. QC checklist mapped to the Quality Gates below.
+
+Return as: (a) DOCX-ready text, (b) a copy-paste Notion block, and (c) a fix‑me list of open items.
+
+</aside>
+
+## Step A3 — Send Draft to Gemini (Strategist)
+
+**Input:** Draft filing + QC checklist.
+
+**Output:** Stress‑Test Report + prioritized Fix‑List.
+
+<aside>
+**Strategist Prompt (paste into Gemini)**
+
+You are the Strategist. Run a hard stress test on the draft:
+
+- Standards: is the requested relief supported by the correct standard?
+- Jurisdiction/Venue: defects, alternatives, removal/abstention risks.
+- Service/Notice: method, timing, proof sufficiency.
+- Record sufficiency: exhibits, verification, certifications, affidavits.
+- Procedure: formatting, page limits, required forms, filing method.
+- Risk table: likely off‑ramps and mitigations.
+
+Return (1) a scored Stress‑Test Report and (2) a Fix‑List with exact edits.
+
+</aside>
+
+## Step A4 — Apply Fix‑List in ChatGPT (Builder)
+
+**Output:** Filing v2 + updated proof packet + final QC pass.
+
+---
+
+# 3) Path B — Second‑Opinion (lawyer draft) → Strategist
+
+**Step B1 —** Input: the lawyer's filing (PDF/DOCX) + docket context.
+
+**Step B2 —** Strategist Stress‑Test (Gemini) using the same prompt as above; add:
+
+- Compare to controlling standards and local rules.
+- Identify omissions (service, exhibits, affidavits, proposed order).
+- Suggest precise patch text and citations.
+
+**Step B3 —** Optional Builder Pass (ChatGPT) to implement the patch list and produce a clean redline + final.
+
+## Stress‑Test Matrix (use as a checklist)
+
+| **Gate** | **Status** |
+| --- | --- |
+| Rules/Standards | ✓/✗ |
+| Venue/Jurisdiction | ✓/✗ |
+| Timelines/Clocks | ✓/✗ |
+| Service/Notice | ✓/✗ |
+| Record/Exhibits | ✓/✗ |
+| Relief/Remedies | ✓/✗ |
+| Formatting/Local Forms | ✓/✗ |
+| Off‑ramps/Risks → Mitigations | ✓/✗ |
+
+---
+
+# 4) Modes
+
+## Education Mode — Advanced LCa (Lawyer Calculus)
+
+- **Goal:** teach the why behind each gate.
+- **Tools:** mini‑cases, before/after filings, quizzes, model answers.
+- **Outputs:** lesson pages, a Study Guide mapping "Assignment → Model Answer."
+
+## Coalition Mode — Collaborative (Notion AI‑first)
+
+- **Goal:** team drafting and peer review.
+- **Tools:** shared Notion DBs, role tags, assignment queue.
+- **Outputs:** pooled Blueprints, shared exhibit library, community checklists.
+
+---
+
+# 5) Notion Databases (schemas)
+
+## Blueprints DB
+
+- Title (Name)
+- Question (Long text)
+- Jurisdiction/Venue (Select)
+- Stage (Select)
+- Clocks (Date rollup)
+- Evidence (Relation → Exhibits)
+- Risks (Multi‑select)
+- Outputs Required (Multi‑select)
+- Owner (Person)
+- Status (Select)
+
+## Filings DB
+
+- Filing Name (Name)
+- Case Ref (Text)
+- Version (Number)
+- Compliance Score (Number)
+- Proof Packet (Files)
+- Exhibits Linked (Relation)
+- Service Complete? (Checkbox)
+- Next Action/Date (Date)
+- QC Gate Status (Multi‑select)
+
+## Stress‑Tests DB
+
+- Artifact (Relation → Filings)
+- Finding (Text)
+- Severity (Select)
+- Fix (Text)
+- Owner (Person)
+- Due (Date)
+- Resolved? (Checkbox)
+
+## Coalition DB
+
+- Org / Person
+- Role
+- Contact
+- Area (education / drafting / clinics)
+- Open Tasks (Relation)
+- Notes
+
+---
+
+# 6) Quality Gates (run before any filing)
+
+1. **Caption & Signature** — correct court, parties, signature/verification done.
+2. **Standard & Relief** — correct test stated and applied.
+3. **Jurisdiction & Venue** — pled and supported.
+4. **Service & Notice** — method, timing, certificate prepared.
+5. **Record** — exhibits labeled, referenced, and attached; proposed order included.
+6. **Formatting** — page limits, fonts, margins, local forms, e‑file rules.
+7. **Timeline** — all clocks calendared; follow‑up tasks assigned.
+
+---
+
+# 7) Export Targets
+
+- DOCX/PDF (court‑ready)
+- Notion Blocks (archive/teaching)
+- Checklist CSV (for reminders)
+- Redline/Final Pair (for second‑opinion path)
+
+---
+
+# 8) Sustainability (light nudge)
+
+- Book a weekly 45‑minute co‑work slot with a clinic buddy/friend to run one Blueprint through the gates.
+- Consider a therapist‑as‑coach check‑in during high‑stress phases; it keeps the work sharp and the mind steady.
+
+---
+
+# 9) Credit Footer (optional)
+
+Authored with ChatGPT (Builder) and Gemini (Strategist) using the NLCES triad. Legal Calculus: the GPT for the pro se litigant.

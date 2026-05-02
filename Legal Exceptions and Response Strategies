@@ -1,0 +1,43 @@
+and Response Strategies
+
+| **Exception Type** | **Opposition Argument** | **Response Strategy** | **Required Documentation** | **Case Code** |
+| --- | --- | --- | --- | --- |
+| Bad-faith + inadequate forum | Timeline, transcripts | Credibility attack | Inconsistent exhibits/AI fear | JC-027 |
+| No standing/ripeness | Speculative harm | Concrete injury + immediate harm | Declarations, timestamps | JC-041 |
+| Mootness | Changed facts post-filing | Capable of repetition; ongoing harm | Updated logs | JC-045 |
+| Failure to exhaust | Skipped grievance/appeal step | Show exhaustion or futility | Grievance logs | JC-052 |
+| Record incomplete | Missing exhibits or citations | Exhibit registry; pinpoint cites | Index + hashes | JC-063 |
+| Overbroad relief | Too sweeping order | Narrow, time-limited relief; mirror order | Proposed Order v1-page | JC-081 |
+| Fact disputes block TRO/SJ | 'Needs a trial' argument | Irreparable harm + likelihood; confine to law | Affidavits | JC-092 |
+| AI-generated = unreliable | Bias against AI drafts | Human verification + evidence anchors | Signed declarations | JC-101 |
+| Insufficient evidence | Conclusions w/o support | Attach authenticated exhibits | Custodian statements | JC-115 |
+| Procedural default/waiver | Missed step/objection | Good cause; cure promptly; no prejudice | Timeline | JC-120 |
+| Improper venue | Venue challenge | Convenience factors; transfer not dismissal | Affidavits on location | JC-120 |
+
+## Implementation Guidelines
+
+### Preparation Checklist
+
+- Review all case codes to identify potential opposition strategies
+- Prepare relevant documentation in advance for each anticipated exception
+- Ensure all declarations are properly sworn and notarized when required
+- Create comprehensive documentation indexes with proper authentication
+
+### Documentation Best Practices
+
+- All exhibits should include timestamps, certification of authenticity, and chain of custody
+- For AI-involved documentation, include human verification statements
+- Maintain organized logs of all procedural steps taken, including grievance processes
+- Prepare narrow, specific proposed orders that mirror statutory language
+
+### Response Timing
+
+- Address procedural objections immediately upon notification
+- Submit supplemental documentation promptly when record deficiencies are identified
+- Prepare for emergency hearings when irreparable harm is claimed
+- File updated logs and declarations when facts change post-filing
+
+<aside>
+Note: This reference chart is designed to help anticipate and respond to common procedural and substantive exceptions in legal proceedings. Each response strategy should be tailored to the specific circumstances of the case.
+
+</aside>

@@ -1,0 +1,94 @@
+### 🧠 1. **By Reflex Trigger**
+
+**View Name:** `Reflex Trigger Map`
+
+**Filter:** `Reflex Trigger` is not empty
+
+**Group By:** `Reflex Trigger`
+
+**Purpose:** Show which FG cards respond to specific JC reflexes (e.g., Denial, Silence, Default)
+
+---
+
+### 🎯 2. **By Mode Activated**
+
+**View Name:** `Mode Activation Grid`
+
+**Filter:** `Mode Activated` contains any
+
+**Group By:** `Mode Activated`
+
+**Purpose:** Help users in Crisis, Second Opinion, or Education mode find relevant cards
+
+---
+
+### 🔗 3. **By Stream Activated**
+
+**View Name:** `Stream Alignment View`
+
+**Filter:** `Stream Activated` contains any
+
+**Group By:** `Stream Activated`
+
+**Purpose:** Show how each FG card connects to JC, FG, LCa, LCA, etc.
+
+---
+
+### 🧩 4. **Redirect Protocols**
+
+**View Name:** `Redirect Engine`
+
+**Filter:** `Redirect Protocol` is not empty
+
+**Sort By:** `Reflex Trigger` ascending
+
+**Purpose:** Display tactical instructions for each card when activated
+
+---
+
+### 📦 5. **Deployment Assets**
+
+**View Name:** `Asset Library`
+
+**Filter:** `Deployment Asset` is not empty
+
+**Group By:** `Mode Activated`
+
+**Purpose:** Quickly access templates, checklists, and printable tools linked to each card
+
+---
+
+### 🧪 6. **Card Generator View**
+
+**View Name:** `FG Card Generator`
+
+**Filter:** `Status` is `Active`
+
+**Sort By:** `Card ID` ascending
+
+**Purpose:** Power your generator interface—users input a scenario, receive matching card
+
+---
+
+### 🧬 7. **Curriculum View**
+
+**View Name:** `FG Curriculum Pack`
+
+**Filter:** `Mode Activated` contains `Education`
+
+**Group By:** `Volume` (optional property)
+
+**Purpose:** Organize cards into teachable volumes for law school or onboarding
+
+---
+
+## 🛠️ Setup Tips
+
+- Use **linked databases** to connect FG Cards to LCES Streams, Reflexes, and Assets
+- Add **template buttons** for new cards with pre-filled fields
+- Embed views in your **Semantic Dashboard**, **Mode Selector**, and **Card Generator Interface**
+- Create **printable exports** for coalition packets or offline deployment
+
+---
+
+Here’s your **Notion View Pack** for the FG Cards Database—designed to make Legal Calculus modular, navigable, and AI-readable. These views let users filter by reflex, mode, stream, and deployment status, turning your workspace into a living tactical engine.

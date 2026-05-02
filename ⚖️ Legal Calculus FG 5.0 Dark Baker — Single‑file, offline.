@@ -1,0 +1,39 @@
+⚖️ Legal Calculus FG 5.0
+Dark Baker — Single‑file, offline.
+
+Search cards (title/core/lesson)…
+
+Volume
+            All volumes
+          
+Sort
+            ID (FG‑001 →)
+            Title
+            Volume
+          
+
+📥 Import
+Load File
+Paste
+Fetch Clipboard
+Supported formats
+	•	JSON: array of cards with fields (id, vol, title, core, lesson, assignment, model, reflection, visual, edition, icons).
+	•	Markdown: your FG master doc (the parser looks for “FG‑###” headings and known fields).
+
+💾 Save / Export
+Export JSON
+Bake Self‑Contained HTML
+Print / PDF
+Reset Filter
+Tips: / search, F focus search, Esc clear.
+
+About
+This reader works fully offline. Import your master FG (Markdown or JSON), then Bake Self‑Contained HTML to download a new one‑file build with your data embedded.
+0
+ cards Loaded:
+seed
+Theme: Dark
+
+Expand All
+Collapse All
+© Legal Calculus Field Guide 5.0 — Single‑file Dark Baker. No network required.

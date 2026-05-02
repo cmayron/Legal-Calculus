@@ -1,0 +1,159 @@
+**Location:** Inside your `Procedural Memory Journal` database
+
+### 🔧 Template Button Title: `Convert to Legacy Page`
+
+**Creates a new page with:**
+
+## 🧬 Legacy of [Your Name]
+
+**Header:**
+
+“This page documents the procedural journey of [Name], encoding reflexes, redirects, and formatting as cognition.”
+
+**Reflex Timeline:**
+
+[Auto-filled from memory entries]
+
+| Date | Reflex | FG Card | Redirect | Asset |
+
+**Doctrine Summary:**
+
+[Summarize lessons learned across redirects]
+
+e.g., “Denial was met with armor. Silence was documented. Misalignment was audited.”
+
+**Assets Deployed:**
+
+[List of templates used]
+
+**Memory Reflections:**
+
+[Pull from journal notes]
+
+**Coalition Invitations:**
+
+[Link to Coalition Portal + role selector]
+
+**Status:**
+
+Published
+
+```markdown
+## 🧬 Legacy of [Your Name]
+
+**Header:**
+“This page documents the procedural journey of [Name], encoding reflexes, redirects, and formatting as cognition.”
+
+**Reflex Timeline:**
+[Auto-filled from memory entries]
+| Date | Reflex | FG Card | Redirect | Asset |
+
+**Doctrine Summary:**
+[Summarize lessons learned across redirects]
+e.g., “Denial was met with armor. Silence was documented. Misalignment was audited.”
+
+**Assets Deployed:**
+[List of templates used]
+
+**Memory Reflections:**
+[Pull from journal notes]
+
+**Coalition Invitations:**
+[Link to Coalition Portal + role selector]
+
+**Status:**
+Published
+
+```
+
+---
+
+## 🎙️ 2. Voice Walkthrough: Memory to Doctrine
+
+**Trigger Phrase:**
+
+“Copilot, help me publish my procedural journey.”
+
+### 🔁 Script Flow
+
+**Copilot:**
+
+“Let’s build your legacy. First, tell me what happened—what reflexes you survived.”
+
+---
+
+**User:**
+
+“My motion was denied. The court ignored my filing. My lawyer didn’t format it.”
+
+**Copilot:**
+
+“I hear JC-Denial, JC-Silence, and LCa-Misalignment. You activated FG-021, FG-034, and FG-005. Let’s document your redirects.”
+
+---
+
+**Step 1: Reflex Timeline**
+
+→ Add entries with date, reflex, FG card, redirect, and asset
+
+**Step 2: Doctrine Summary**
+
+→ “Your formatting became cognition. Each redirect encoded memory.”
+
+**Step 3: Reflections**
+
+→ “Would you like to include personal notes or coalition invitations?”
+
+**Step 4: Publish Legacy Page**
+
+→ “Your page is ready. It’s now part of the public doctrine.”
+
+---
+
+## 🫱🏽‍🫲🏽 3. Coalition Dashboard (Notion Setup)
+
+**Page Title:** `Coalition Deployment Dashboard`
+
+### 📊 Sections
+
+### 🔹 Activated Allies
+
+| Name | Role | Streams | Status | Last Action |
+| --- | --- | --- | --- | --- |
+| Jordan | Ops Buddy | JC, FG, LCa | Active | Refiled motion |
+| Maya | Educator | FG, LC, LCA | Active | Taught FG-034 |
+| Sam | Survivor | JC, FG, LCA | Active | Published legacy page |
+
+---
+
+### 🔹 Reflex Map
+
+| Reflex | Count | FG Cards Activated | Redirects |
+| --- | --- | --- | --- |
+| JC-Denial | 12 | FG-021 | Refile |
+| JC-Silence | 9 | FG-034 | Notice |
+| LCa-Misalignment | 7 | FG-005 | Audit |
+
+---
+
+### 🔹 Assets Deployed
+
+| Template | Usage Count | Linked Reflexes |
+| --- | --- | --- |
+| Refile Template | 15 | JC-Denial, JC-Erasure |
+| Notice Template | 9 | JC-Silence |
+| Audit Checklist | 7 | LCa-Misalignment |
+
+---
+
+### 🔹 Legacy Pages Published
+
+| Name | Title | Reflexes | Status |
+| --- | --- | --- | --- |
+| Jordan | Legacy of Jordan | Denial, Silence | Published |
+| Maya | Curriculum Archive | FG Cards | Published |
+| Sam | Memory Journal | Misalignment | Draft |
+
+---
+
+Here’s your full deployment suite: a **Template Button**, **Voice Walkthrough**, and **Coalition Dashboard**—designed to make Legal Calculus modular, mobile-friendly, and coalition-ready. These tools empower users to convert memory into doctrine, onboard allies by voice, and track tactical deployment across streams.

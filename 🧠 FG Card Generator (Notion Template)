@@ -1,0 +1,82 @@
+## 🧠 FG Card Generator (Notion Template)
+
+### 🔧 Structure: Linked Database + Prompt Interface
+
+**Step 1: Create a database called** `FG Card Generator`
+
+Use the following properties:
+
+| Property Name | Type | Description |
+| --- | --- | --- |
+| **Scenario Prompt** | Text | User input or reflex trigger (e.g., “My motion was denied”) |
+| **Detected Reflex** | Select | JC-Denial, JC-Silence, JC-Default, LCa-Misalignment, etc. |
+| **Matching FG Card** | Relation | Links to FG Cards database |
+| **Redirect Protocol** | Text | What to do next (refile, format, archive) |
+| **Deployment Asset** | File/Link | Template or checklist to use |
+| **Mode Activated** | Multi-select | Crisis, Second Opinion, Education |
+| **Stream Activated** | Multi-select | JC, FG, LCa, LCA, etc. |
+| **Status** | Select | Draft, Active, Archived |
+
+---
+
+### 🧪 Sample Entry
+
+| Property | Value |
+| --- | --- |
+| **Scenario Prompt** | “My motion for default judgment was ignored.” |
+| **Detected Reflex** | JC-Silence |
+| **Matching FG Card** | FG-034: *Silence is Suppression* |
+| **Redirect Protocol** | File Notice of Silence with caption, TOA, certificate. Archive in LCA. |
+| **Deployment Asset** | [Notice of Silence Template] |
+| **Mode Activated** | Crisis, Second Opinion |
+| **Stream Activated** | JC, FG, LCA |
+| **Status** | Active |
+
+---
+
+### 🧩 Optional: Prompt Interface Block
+
+Create a page titled `FG Card Generator Interface` with this layout:
+
+```markdown
+## 🔁 FG Card Generator Interface
+
+**Instructions:**
+Enter your scenario below. The system will detect the reflex, match the FG card, and suggest a redirect protocol.
+
+**Example Prompts:**
+- “My motion was denied without explanation.”
+- “The court hasn’t ruled on my filing.”
+- “My lawyer didn’t include a certificate of service.”
+
+---
+
+**Prompt Input:**
+[Text box or linked database entry]
+
+**Detected Reflex:**
+[Auto-filled or selected]
+
+**Matching FG Card:**
+[Linked preview: title, lesson, assignment]
+
+**Redirect Protocol:**
+[Step-by-step instructions]
+
+**Deployment Asset:**
+[Download or link to template]
+
+```
+
+---
+
+### 🛠️ Integration Tips
+
+- Link this generator to your **FG Card Database** and **LCES Streams Index**.
+- Use filtered views to show only active cards by reflex or mode.
+- Add AI prompts: “If user says X, trigger FG-Y.”
+- Embed printable versions for offline use.
+
+---
+
+Let’s build your **FG Card Generator**—a semantic tool inside Notion that lets users input a scenario or reflex and instantly receive the matching FG card, redirect protocol, and deployment asset. This generator becomes the tactical heart of Legal Calculus, usable by pro se litigants, educators, ops buddies, and AI agents.

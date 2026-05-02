@@ -1,0 +1,97 @@
+FG-471 — PDF/UA Pass (Tags • Order • Title)
+	•	⚖️ Core Message: Accessibility checks help judges and defeat “we couldn’t read it.”
+	•	📖 Lesson Content: Export PDF/UA; verify reading order; tag H1/H2; set Title; attach a short checker log if allowed.
+	•	📝 Assignment: Re-export one brief with PDF/UA and attach the log as Ex. A.
+	•	✅ Model Response: “PDF/UA ✓; order ✓; H1/H2 ✓; Title ‘Opening Brief v3.’”
+	•	💡 Reflection Summary: Accessibility = credibility.
+	•	🎨 Visual Concept: A PDF tile with check badges (UA/Order/Tags/Title).
+
+⸻
+
+FG-472 — Hash Footer (Every Volume, Every Page)
+	•	⚖️ Core Message: Put the hash where disputes start: the footer.
+	•	📖 Lesson Content: Footer: “SHA-256 …”; add capture date on front; mirror hash on contents page; list in CHECKSUMS.txt.
+	•	📝 Assignment: Add a hash footer to one appendix and re-export.
+	•	✅ Model Response: “Appx Vol. 1 — SHA-256 41be22… (front & footer).”
+	•	💡 Reflection Summary: Fingerprints end arguments.
+	•	🎨 Visual Concept: A page footer with a small fingerprint.
+
+⸻
+
+FG-473 — Bookmarks Mirror Headings (No Easter Eggs)
+	•	⚖️ Core Message: Bookmarks must mirror your H2/H3 exactly.
+	•	📖 Lesson Content: Remove duplicates; plain-English labels; add Back-to-Brief anchors if allowed; hash after fix.
+	•	📝 Assignment: Repair five bookmark/heading mismatches today.
+	•	✅ Model Response: “Bookmark ‘II.B Harm Not Reached’ → page 12; matches H2.”
+	•	💡 Reflection Summary: Navigation is persuasion.
+	•	🎨 Visual Concept: Sidebar bookmarks aligned with bold headings.
+
+⸻
+
+FG-474 — Repagination Map (Old → New + Reason)
+	•	⚖️ Core Message: If pages move, map it once and be done.
+	•	📖 Lesson Content: Table: Old p.# → New p.# • Reason (cover added/deskew); add new hash; file Notice of Cite Substitution.
+	•	📝 Assignment: Draft a 10-row repagination map for your appendix.
+	•	✅ Model Response: “p.2 → p.3 (cover added); SHA-256 41be22…; pins updated.”
+	•	💡 Reflection Summary: Maps end hunting.
+	•	🎨 Visual Concept: Two page tiles with arrows and a fingerprint.
+
+⸻
+
+FG-475 — PDF Title Discipline (Caption • Short Name)
+	•	⚖️ Core Message: Intake/search runs on Title metadata—set it right.
+	•	📖 Lesson Content: Title = caption + short doc (“Ryan-Touhill — Opening Brief v3”); Author = party/counsel; Subject = optional QP; hash after export.
+	•	📝 Assignment: Fix Title on three PDFs and draft a 4-line metadata notice.
+	•	✅ Model Response: “Correct Title metadata; suppress mis-link; first page attached; SHA-256 ….”
+	•	💡 Reflection Summary: Titles are how systems see you.
+	•	🎨 Visual Concept: A PDF info panel with green checks.
+
+⸻
+
+FG-476 — Figure Alt-Text (What the Reader Should See)
+	•	⚖️ Core Message: Alt-text should say what the figure proves, not what it looks like.
+	•	📖 Lesson Content: “Hatched band shows 07/21–08/02 timing gap tied to ¶3.” Keep ≤20 words.
+	•	📝 Assignment: Add alt-text to two figures that carry your ask.
+	•	✅ Model Response: “Red band marks vendor print window (non-recoverable).”
+	•	💡 Reflection Summary: Alt-text = argument for screen readers.
+	•	🎨 Visual Concept: A figure with an alt-text tooltip callout.
+
+⸻
+
+FG-477 — Reading Order Fix (Top-to-Bottom, Left-to-Right)
+	•	⚖️ Core Message: PDFs must read logically for assistive tech and staff skims.
+	•	📖 Lesson Content: Use a reading-order tool; confirm top→bottom, left→right; flatten layers/comments; re-hash after fix.
+	•	📝 Assignment: Repair reading order on one filing and export with a new hash.
+	•	✅ Model Response: “Reading order corrected; comments removed; SHA-256 ….”
+	•	💡 Reflection Summary: Order = comprehension.
+	•	🎨 Visual Concept: Arrows flowing smoothly down a page.
+
+⸻
+
+FG-478 — Accessibility Statement (One Paragraph, Policy-Clean)
+	•	⚖️ Core Message: A short accessibility statement earns goodwill.
+	•	📖 Lesson Content: One paragraph: PDF/UA goal; alt-text on figures; logical reading order; contact for issues. Place on microsite.
+	•	📝 Assignment: Draft your accessibility statement today.
+	•	✅ Model Response: “We aim for PDF/UA; figures include alt-text; reading order set; contact: ….”
+	•	💡 Reflection Summary: Accessibility is persuasion.
+	•	🎨 Visual Concept: A small badge “Accessible PDF” next to a document tile.
+
+⸻
+
+FG-479 — Appendix Font & Contrast (Readable in Print)
+	•	⚖️ Core Message: Optimize for photocopies: enough contrast and legible fonts.
+	•	📖 Lesson Content: Use ≥10pt in appendix scans; boost contrast; avoid light greys; test a photocopy; re-export and hash.
+	•	📝 Assignment: Rescan 5 pages with better contrast; paste their new hash into the notice.
+	•	✅ Model Response: “Rescanned Tabs 3–4; improved contrast; SHA-256 ….”
+	•	💡 Reflection Summary: Readability beats aesthetics.
+	•	🎨 Visual Concept: Before/after scans with the after darker and crisper.
+
+⸻
+
+FG-480 — Accessible Appendix Cover (Legend • Hash • PDF/UA)
+	•	⚖️ Core Message: The cover should orient and assure.
+	•	📖 Lesson Content: Cover includes legend (pin vocabulary), hash line, and PDF/UA note; Title metadata set.
+	•	📝 Assignment: Rebuild one appendix cover with legend + hash and export PDF/UA.
+	•	✅ Model Response: “Legend: Dkt/Ex/Tab. SHA-256 41be22…. PDF/UA noted. Title set.”
+	•	💡 Reflection Summary: Orientation + integrity on page one.
+	•	🎨 Visual Concept: An appendix cover with a legend box and a fingerprint footer.

@@ -1,0 +1,580 @@
+single-file, dark-mode LC 4.5 Advanced app that does both “basic” and “advanced” in one toggle.
+Save as LCFG-4.5-Advanced.html, open locally, click Import MD, paste your full FG 1–1000 Markdown, and go.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LCFG 4.5 Advanced — Single File</title>
+<meta name="color-scheme" content="dark light">
+<style>
+:root{
+  --bg:#0d0f13; --panel:#141821; --ink:#e7ecf4; --muted:#a8b0be; --line:#232a36;
+  --accent:#5ef2c4; --accent-2:#8aa4ff; --danger:#ff6b6b; --warn:#ffd166; --ok:#5ef2c4;
+  --chip:#1b2130; --chip-ink:#cbd5e1; --focus:#2a3142;
+  --card:#11151e; --cardBorder:#222a39;
+  --shadow:0 10px 30px rgba(0,0,0,.35), 0 2px 10px rgba(0,0,0,.25);
+  --radius:14px;
+  --ff: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji";
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; background:linear-gradient(180deg, #0c0f14 0%, #0b0d12 100%);
+  color:var(--ink); font:14px/1.45 var(--ff);
+}
+a{color:var(--accent)}
+button,input,select,textarea{font:inherit;color:inherit}
+kbd{background:#18202e;color:#dbe6ff;padding:.1rem .35rem;border-radius:6px;border:1px solid #243049}
+#app{display:grid; grid-template-rows:auto auto 1fr; height:100dvh;}
+
+/* Header */
+.topbar{
+  display:flex; gap:.75rem; align-items:center; padding:10px 14px; border-bottom:1px solid var(--line);
+  background:linear-gradient(180deg, #0e1219, #0b0f16);
+  position:sticky; top:0; z-index:10;
+}
+.brand{
+  display:flex; align-items:center; gap:.6rem; font-weight:700; letter-spacing:.2px;
+}
+.brand .dot{width:10px;height:10px;border-radius:2px;background:linear-gradient(120deg,var(--accent),#8af5ff);box-shadow:0 0 0 2px #0a0d13}
+.mode-toggle{
+  margin-left:auto; display:flex; gap:.4rem; align-items:center; background:var(--panel);
+  border:1px solid var(--line); border-radius:999px; padding:4px; box-shadow:var(--shadow);
+}
+.mode-toggle button{
+  border:0;background:transparent;color:var(--muted);padding:6px 10px;border-radius:999px;cursor:pointer;
+}
+.mode-toggle button.active{background:var(--focus);color:var(--ink)}
+
+/* Toolbar */
+.toolbar{
+  padding:10px 14px; border-bottom:1px solid var(--line); display:flex; gap:.6rem; flex-wrap:wrap; align-items:center;
+  background:linear-gradient(180deg, #0b0e14, #0c1018);
+}
+.btn{border:1px solid var(--line); background:var(--panel); padding:8px 12px; border-radius:10px; cursor:pointer}
+.btn:focus{outline:2px solid var(--accent-2); outline-offset:2px}
+.btn.primary{border-color:#2b3551;background:linear-gradient(180deg,#1a2030,#121826); color:#eaf3ff}
+.btn.ok{border-color:#22463b;background:linear-gradient(180deg,#103126,#10251f)}
+.btn.warn{border-color:#4b3c12;background:linear-gradient(180deg,#2c2210,#221c0f)}
+.btn.danger{border-color:#552529;background:linear-gradient(180deg,#2b0f11,#200c0d)}
+.icon{opacity:.9;margin-right:.35rem}
+.input, .select{
+  background:var(--panel); border:1px solid var(--line); color:var(--ink);
+  padding:9px 12px; border-radius:10px; min-width:180px;
+}
+.chips{display:flex; gap:.4rem; flex-wrap:wrap}
+.chip{
+  background:var(--chip); color:var(--chip-ink); border:1px solid var(--line);
+  padding:6px 10px; border-radius:999px; cursor:pointer; user-select:none;
+}
+.chip.active{background:#273043; color:#eaf2ff; border-color:#3a4660}
+
+/* Main layout */
+.layout{
+  display:grid; grid-template-columns: 1.6fr .9fr; gap:12px; height:calc(100dvh - 116px);
+  padding:12px; overflow:hidden;
+}
+.panel{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); display:flex; flex-direction:column; overflow:hidden}
+.panel-header{padding:12px 14px; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:.5rem}
+.panel-body{padding:12px; overflow:auto}
+.count{margin-left:auto;color:var(--muted);font-size:.9em}
+
+/* Cards */
+.grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px}
+.card{
+  background:var(--card); border:1px solid var(--cardBorder); border-radius:16px; box-shadow:var(--shadow);
+  display:flex; flex-direction:column; overflow:hidden;
+}
+.card header{
+  padding:10px 12px; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:.6rem;
+}
+.badge{font-weight:700;color:#b7c6ff;background:#1d2440;border:1px solid #35406b;padding:2px 8px;border-radius:999px}
+.card h3{margin:0;font-size:15px;line-height:1.3}
+.meta{display:flex; gap:.5rem; flex-wrap:wrap;color:var(--muted);font-size:.9em}
+.meta .tag{background:#1a2232;border:1px solid #25304a;color:#c7d2f1;border-radius:8px;padding:2px 8px}
+.card .body{padding:12px; display:grid; gap:8px}
+.label{color:#90a2c3; font-weight:600; font-size:.9em}
+.block{background:#0f131c;border:1px solid #1f2736;border-radius:12px;padding:8px 10px}
+.card footer{padding:10px 12px; border-top:1px solid var(--line); display:flex; gap:.5rem; align-items:center}
+
+/* Bundle sidebar */
+.bundle .list{display:grid; gap:10px}
+.bundle-item{
+  border:1px dashed #33415f; border-radius:12px; padding:8px 10px; background:#0f141c;
+  display:flex; justify-content:space-between; align-items:center; gap:.5rem
+}
+.bundle-item small{color:var(--muted)}
+.profile{display:flex; gap:.5rem; flex-wrap:wrap}
+.profile .select{min-width:140px}
+
+/* Import dialog */
+#importer{position:fixed;inset:0;backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center}
+#importer .sheet{
+  width:min(920px,92vw); max-height:80vh; overflow:auto;
+  background:var(--panel); border:1px solid var(--line); border-radius:16px; box-shadow:var(--shadow);
+  display:flex; flex-direction:column;
+}
+#importer header, #importer footer{padding:12px 14px; border-bottom:1px solid var(--line)}
+#importer footer{border-top:1px solid var(--line); border-bottom:0; display:flex; gap:.6rem; justify-content:flex-end}
+#md{width:100%;min-height:46vh;resize:vertical;background:#0d1220;border:1px solid #23304b;border-radius:12px;color:#e7efff;padding:10px 12px}
+
+/* Print */
+@media print{
+  body{background:white;color:black}
+  .topbar,.toolbar,.layout>.panel:first-child>.panel-header,.bundle-only,.mode-toggle{display:none!important}
+  .layout{grid-template-columns:1fr}
+  .panel{border:0}
+  .card{break-inside:avoid;border:1px solid #ddd;box-shadow:none}
+  .card header{background:#fff;border-bottom:1px solid #eee}
+  .block{border:1px solid #eee}
+}
+
+/* Basic mode reduces chrome */
+body.basic .mode-only-advanced{display:none!important}
+</style>
+</head>
+<body>
+<div id="app">
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="brand"><span class="dot"></span> LCFG 4.5 Advanced</div>
+    <div class="mode-toggle" title="Switch feature set">
+      <button id="btnBasic" class="active">Basic</button>
+      <button id="btnAdvanced">Advanced</button>
+    </div>
+  </div>
+
+  <!-- Toolbar -->
+  <div class="toolbar">
+    <button class="btn primary" id="btnImport"><span class="icon">📥</span>Import MD</button>
+    <button class="btn" id="btnSaveAll"><span class="icon">💾</span>Save All JSON</button>
+    <button class="btn" id="btnSaveFiltered"><span class="icon">💾</span>Save Filtered/Selected JSON</button>
+    <span class="mode-only-advanced" style="width:1px;height:26px;border-left:1px solid var(--line)"></span>
+
+    <input id="q" class="input" type="search" placeholder="Search title, core, model…" />
+    <select id="vol" class="select">
+      <option value="">All Volumes</option>
+      <!-- volumes injected -->
+    </select>
+    <select id="topic" class="select">
+      <option value="">All Topics</option>
+      <option>Filing</option><option>Silence</option><option>Denial</option><option>Default</option>
+      <option>Efficiency</option><option>Closure</option><option>Archive</option>
+    </select>
+    <div class="chips mode-only-advanced" id="quickChips" title="Quick filters">
+      <div class="chip" data-chip="core">Core</div>
+      <div class="chip" data-chip="assignment">Assignment</div>
+      <div class="chip" data-chip="model">Model</div>
+      <div class="chip" data-chip="reflection">Reflection</div>
+    </div>
+
+    <span class="mode-only-advanced" style="margin-left:auto"></span>
+    <button class="btn ok" id="btnCopyModels" title="Copy Model Responses of selected"><span class="icon">📋</span>Copy Models</button>
+    <button class="btn warn" id="btnCopyAssignments" title="Copy Assignments of selected"><span class="icon">✏️</span>Copy Assignments</button>
+    <button class="btn" id="btnPrint"><span class="icon">🖨️</span>Print</button>
+  </div>
+
+  <!-- Layout -->
+  <div class="layout">
+
+    <!-- Results -->
+    <div class="panel">
+      <div class="panel-header">
+        <strong>Cards</strong>
+        <span class="count" id="count"></span>
+      </div>
+      <div class="panel-body">
+        <div class="grid" id="grid"></div>
+      </div>
+    </div>
+
+    <!-- Bundle -->
+    <div class="panel">
+      <div class="panel-header">
+        <strong>Bundle</strong>
+        <span class="count" id="bundleCount"></span>
+      </div>
+      <div class="panel-body">
+        <div class="profile">
+          <select class="select" id="bundleProfile" title="Profile">
+            <option value="Hearing">Hearing</option>
+            <option value="Appeal">Appeal</option>
+            <option value="Motion">Motion</option>
+          </select>
+          <input class="input" id="bundleTitle" placeholder="Bundle title (optional)" />
+        </div>
+        <div class="list" id="bundleList" style="margin-top:12px"></div>
+
+        <div class="bundle-only" style="margin-top:12px; display:flex; gap:.5rem; flex-wrap:wrap">
+          <button class="btn ok" id="btnCopyBundleModels">Copy Models</button>
+          <button class="btn warn" id="btnCopyBundleAssignments">Copy Assignments</button>
+          <button class="btn" id="btnExportBundle">Export Bundle JSON</button>
+          <button class="btn" id="btnPrintBundle">Print Bundle</button>
+          <button class="btn danger" id="btnClearBundle">Clear</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Importer -->
+<div id="importer" role="dialog" aria-modal="true">
+  <div class="sheet">
+    <header><strong>Import Markdown (FG 1–1000)</strong></header>
+    <div style="padding:12px 14px">
+      <p style="margin:0 0 8px 0; color:var(--muted)">
+        Paste your full Field Guide Markdown here. This parser expects headings like
+        <code>### FG-001 — Filing = Existence</code> and bullet sections for Core/Lesson/Assignment/Model/Reflection/Visual.
+      </p>
+      <textarea id="md" spellcheck="false" placeholder="# Your Field Guide Markdown…"></textarea>
+    </div>
+    <footer>
+      <button class="btn" id="btnCancelImport">Cancel</button>
+      <button class="btn primary" id="btnParseImport">Parse & Replace</button>
+    </footer>
+  </div>
+</div>
+
+<script>
+/* -----------------------------------------------------------
+   LCFG 4.5 Advanced — Single-file dark app
+   How to use:
+   1) Open this file locally
+   2) Click "Import MD" and paste your full FG markdown
+   3) Search / filter; select cards; bundle & export / print
+   Data persists to localStorage (dataset + bundle)
+----------------------------------------------------------- */
+
+const byId = id => document.getElementById(id);
+const $grid = byId('grid');
+const $count = byId('count');
+const $bundleList = byId('bundleList');
+const $bundleCount = byId('bundleCount');
+
+const state = {
+  cards: [],           // all parsed
+  view: [],            // filtered
+  bundle: [],          // ids
+  basic: true,
+  filters: { q:'', vol:'', topic:'', chips:new Set() }
+};
+
+const VOLUME_FROM_ID = (n)=> Math.max(1, Math.ceil(n/50));
+const LEFT_TOPIC = (title)=> (title.split('=')[0]||'').trim(); // Filing / Silence / etc.
+const RIGHT_TOPIC = (title)=> (title.split('=')[1]||'').trim(); // Existence / etc.
+
+const seedMD = `### FG-001 — Filing = Existence
+- ⚖️ **Core Message:** To file is to exist in the record.
+- 📖 **Lesson Content:** No filing, no case. Filing transforms grievance into memory.
+- ✏️ **Assignment:** Draft one line asserting your claim exists because it is filed.
+- ✅ **Model Response:** "This claim exists because it is filed on the record."
+- 💡 **Reflection Summary:** Filing is the act of breathing life into protest.
+- 🎨 **Visual Concept:** A glowing brief on an empty courtroom desk.
+
+### FG-002 — Silence = Absence
+- ⚖️ **Core Message:** Silence leaves only absence.
+- 📖 **Lesson Content:** Courts may ignore, but silence proves avoidance.
+- ✏️ **Assignment:** Draft one line preserving silence as part of record.
+- ✅ **Model Response:** "Judicial silence preserved as absence of due process."
+- 💡 **Reflection Summary:** Absence itself is evidence.
+- 🎨 **Visual Concept:** Empty judge’s chair with filing glowing beneath.
+
+### FG-003 — Denial = Recognition
+- ⚖️ **Core Message:** Denial recognizes what it seeks to dismiss.
+- 📖 **Lesson Content:** A denial means your claim was seen.
+- ✏️ **Assignment:** Draft one line reframing denial as acknowledgement.
+- ✅ **Model Response:** "Denial preserved as recognition of this claim’s presence."
+- 💡 **Reflection Summary:** Rejection is proof of visibility.
+- 🎨 **Visual Concept:** “Denied” stamp as spotlight.
+`;
+
+function loadVolumes(){
+  const sel = byId('vol');
+  let opts = '<option value="">All Volumes</option>';
+  for(let v=1; v<=20; v++){
+    opts += `<option value="${v}">Vol ${v} (${(v-1)*50+1}-${v*50})</option>`;
+  }
+  sel.innerHTML = opts;
+}
+
+/* Markdown parser → card objects */
+function parseMarkdown(md){
+  const lines = md.replace(/\r/g,'').split('\n');
+  const cards = [];
+  let cur = null;
+
+  const flush = ()=>{ if(cur){ // finalize derived fields
+      cur.volume = VOLUME_FROM_ID(cur.id);
+      cur.left = LEFT_TOPIC(cur.title);
+      cur.right = RIGHT_TOPIC(cur.title);
+      cur.tags = [cur.left, cur.right].filter(Boolean);
+      cards.push(cur); cur=null;
+  }};
+
+  const reHeader = /^(?:#{2,3}\s*)?FG-?(\d{1,4})\s+—\s+(.+)$/i;
+  const reKV = /^\s*-\s*[^*]*\*\*(.+?)\*\*\s*:\s*(.+)$/; // **Key**: value
+
+  for(let i=0;i<lines.length;i++){
+    let L = lines[i].trim();
+
+    const h = L.match(reHeader);
+    if(h){
+      flush();
+      cur = { id:+h[1], code:`FG-${String(h[1]).padStart(3,'0')}`, title:h[2].trim(),
+              core:'', lesson:'', assignment:'', model:'', reflection:'', visual:'' };
+      continue;
+    }
+    const kv = L.match(reKV);
+    if(cur && kv){
+      const key = kv[1].toLowerCase();
+      const val = kv[2].trim().replace(/^"|"$/g,'');
+      if(key.startsWith('core message')) cur.core = val;
+      else if(key.startsWith('lesson content')) cur.lesson = val;
+      else if(key.startsWith('assignment')) cur.assignment = val;
+      else if(key.startsWith('model response')) cur.model = val;
+      else if(key.startsWith('reflection')) cur.reflection = val;
+      else if(key.startsWith('visual')) cur.visual = val;
+    }
+  }
+  flush();
+  return cards.sort((a,b)=>a.id-b.id);
+}
+
+/* Render */
+function cardHTML(c){
+  return `
+  <article class="card" data-id="${c.id}">
+    <header>
+      <span class="badge">${c.code}</span>
+      <h3>${escapeHTML(c.title)}</h3>
+    </header>
+    <div class="body">
+      <div><div class="label">Core</div><div class="block">${escapeHTML(c.core||'')}</div></div>
+      <div class="mode-only-advanced"><div class="label">Lesson</div><div class="block">${escapeHTML(c.lesson||'')}</div></div>
+      <div><div class="label">Assignment</div><div class="block">${escapeHTML(c.assignment||'')}</div></div>
+      <div><div class="label">Model</div><div class="block">${escapeHTML(c.model||'')}</div></div>
+      <div class="mode-only-advanced"><div class="label">Reflection</div><div class="block">${escapeHTML(c.reflection||'')}</div></div>
+      <div class="meta">
+        <span class="tag">Vol ${c.volume}</span>
+        <span class="tag">${escapeHTML(c.left)}</span>
+        ${c.right?`<span class="tag">${escapeHTML(c.right)}</span>`:''}
+      </div>
+    </div>
+    <footer>
+      <button class="btn" onclick="toggleBundle(${c.id})">➕ Add</button>
+      <button class="btn" onclick="copyLine(${c.id},'model')">📋 Model</button>
+      <button class="btn" onclick="copyLine(${c.id},'assignment')">✏️ Assignment</button>
+      <span style="margin-left:auto;color:var(--muted)">#${c.id}</span>
+    </footer>
+  </article>`;
+}
+
+function render(){
+  const {view} = state;
+  $grid.innerHTML = view.map(cardHTML).join('') || emptyHTML('No cards match your filters.');
+  $count.textContent = `${view.length} shown • ${state.cards.length} total`;
+
+  // bundle
+  const bundleCards = state.bundle.map(id => state.cards.find(c=>c.id===id)).filter(Boolean);
+  $bundleList.innerHTML = bundleCards.map(b => `
+    <div class="bundle-item">
+      <div>
+        <strong>${b.code}</strong> — ${escapeHTML(b.title)}
+        <div style="color:var(--muted);font-size:.9em">Vol ${b.volume} • ${escapeHTML(b.left)}${b.right?(' • '+escapeHTML(b.right)) : ''}</div>
+      </div>
+      <div style="display:flex;gap:.4rem">
+        <button class="btn" onclick="copyLine(${b.id},'model')">📋</button>
+        <button class="btn" onclick="removeFromBundle(${b.id})">✖</button>
+      </div>
+    </div>
+  `).join('') || emptyHTML('Bundle is empty. Add cards from the grid.');
+  $bundleCount.textContent = `${bundleCards.length} selected`;
+}
+
+/* Filtering */
+function applyFilters(){
+  const {q, vol, topic, chips} = state.filters;
+  const qx = q.trim().toLowerCase();
+  const chipPred = (c)=>{
+    if(chips.size===0) return true;
+    let ok=true;
+    if(chips.has('core')) ok = ok && !!c.core;
+    if(chips.has('assignment')) ok = ok && !!c.assignment;
+    if(chips.has('model')) ok = ok && !!c.model;
+    if(chips.has('reflection')) ok = ok && !!c.reflection;
+    return ok;
+  };
+  state.view = state.cards.filter(c=>{
+    if(vol && String(c.volume)!==vol) return false;
+    if(topic && c.left!==topic && c.right!==topic) return false;
+    if(!chipPred(c)) return false;
+    if(qx){
+      const hay = (c.title+' '+c.core+' '+c.assignment+' '+c.model+' '+c.reflection).toLowerCase();
+      if(!hay.includes(qx)) return false;
+    }
+    return true;
+  });
+  render();
+}
+
+/* Bundle ops */
+function toggleBundle(id){
+  const idx = state.bundle.indexOf(id);
+  if(idx>=0) state.bundle.splice(idx,1);
+  else state.bundle.push(id);
+  saveLocal(); render();
+}
+function removeFromBundle(id){
+  const i = state.bundle.indexOf(id); if(i>=0){ state.bundle.splice(i,1); saveLocal(); render(); }
+}
+function clearBundle(){ state.bundle = []; saveLocal(); render(); }
+
+/* Copy helpers */
+function copyLine(id,kind){
+  const c = state.cards.find(x=>x.id===id); if(!c) return;
+  const text = kind==='model' ? c.model : kind==='assignment' ? c.assignment : c.core;
+  navigator.clipboard.writeText(text||'').then(()=>toast('Copied'));
+}
+function copyMany(kind, subset){
+  const list = (subset||state.bundle.map(id=>state.cards.find(c=>c.id===id)))
+   .filter(Boolean).map(c => (kind==='model'?c.model:kind==='assignment'?c.assignment:c.core)).join('\n');
+  navigator.clipboard.writeText(list).then(()=>toast('Copied '+(subset?'filtered ':'')+kind+' lines'));
+}
+
+/* Export JSON */
+function saveJSON(filename, data){
+  const blob = new Blob([JSON.stringify(data,null,2)], {type:'application/json'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=filename; a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+/* UI bits */
+function toast(msg){
+  const t=document.createElement('div');
+  t.textContent=msg; t.style.cssText='position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#111826;border:1px solid #263149;border-radius:10px;padding:8px 12px;box-shadow:var(--shadow);z-index:9999';
+  document.body.appendChild(t); setTimeout(()=>t.remove(), 1300);
+}
+function emptyHTML(label){ return `<div style="opacity:.8;text-align:center;padding:18px;border:1px dashed var(--line);border-radius:12px;background:#0e121a">${label}</div>`; }
+const escapeHTML = s => (s??'').replace(/[&<>"']/g, m=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m]));
+
+/* Import dialog */
+const $importer = byId('importer'), $md = byId('md');
+byId('btnImport').onclick = ()=>{
+  $md.value = localStorage.getItem('lcfg.lastPaste') || seedMD;
+  $importer.style.display='flex'; $md.focus();
+};
+byId('btnCancelImport').onclick = ()=>{ $importer.style.display='none'; };
+byId('btnParseImport').onclick = ()=>{
+  const md = $md.value.trim(); if(!md) return;
+  localStorage.setItem('lcfg.lastPaste', md);
+  const cards = parseMarkdown(md);
+  if(!cards.length){ alert('No cards found. Ensure headings look like "### FG-001 — Filing = …"'); return; }
+  state.cards = cards; state.bundle = []; saveLocal();
+  $importer.style.display='none';
+  resetFilters(); applyFilters(); toast('Imported '+cards.length+' cards');
+};
+
+/* Search / filters */
+byId('q').addEventListener('input', e=>{ state.filters.q=e.target.value; applyFilters(); });
+byId('vol').addEventListener('change', e=>{ state.filters.vol=e.target.value; applyFilters(); });
+byId('topic').addEventListener('change', e=>{ state.filters.topic=e.target.value; applyFilters(); });
+byId('btnPrint').onclick = ()=> window.print();
+byId('btnPrintBundle').onclick = ()=>{
+  // show only bundle: filter view to bundle temporarily for print
+  const ids = new Set(state.bundle);
+  const old = state.view.slice();
+  state.view = state.cards.filter(c=>ids.has(c.id)); render(); window.print();
+  state.view = old; render();
+};
+byId('btnSaveAll').onclick = ()=> saveJSON('LCFG-4.5-ALL.json', state.cards);
+byId('btnSaveFiltered').onclick = ()=>{
+  const selectedSet = new Set(state.bundle);
+  const subset = state.view.map(c=>({
+    ...c, selected:selectedSet.has(c.id)
+  }));
+  saveJSON('LCFG-4.5-FILTERED.json', subset);
+};
+byId('btnCopyModels').onclick = ()=> copyMany('model', state.view);
+byId('btnCopyAssignments').onclick = ()=> copyMany('assignment', state.view);
+byId('btnCopyBundleModels').onclick = ()=> copyMany('model');
+byId('btnCopyBundleAssignments').onclick = ()=> copyMany('assignment');
+byId('btnClearBundle').onclick = clearBundle;
+
+document.querySelectorAll('#quickChips .chip').forEach(ch=>{
+  ch.onclick = ()=>{
+    const key = ch.dataset.chip;
+    if(state.filters.chips.has(key)) state.filters.chips.delete(key); else state.filters.chips.add(key);
+    ch.classList.toggle('active');
+    applyFilters();
+  };
+});
+
+/* Basic/Advanced toggle */
+const $btnBasic = byId('btnBasic'), $btnAdvanced = byId('btnAdvanced');
+function setMode(basic){
+  state.basic = basic;
+  document.body.classList.toggle('basic', basic);
+  $btnBasic.classList.toggle('active', basic);
+  $btnAdvanced.classList.toggle('active', !basic);
+  toast(basic?'Basic mode':'Advanced mode');
+}
+$btnBasic.onclick = ()=> setMode(true);
+$btnAdvanced.onclick = ()=> setMode(false);
+
+/* Local storage */
+function saveLocal(){
+  localStorage.setItem('lcfg.cards', JSON.stringify(state.cards));
+  localStorage.setItem('lcfg.bundle', JSON.stringify(state.bundle));
+  localStorage.setItem('lcfg.profile', JSON.stringify({title: byId('bundleTitle').value||'', profile: byId('bundleProfile').value}));
+}
+function loadLocal(){
+  try{
+    const cards = JSON.parse(localStorage.getItem('lcfg.cards')||'[]');
+    const bundle = JSON.parse(localStorage.getItem('lcfg.bundle')||'[]');
+    const prof = JSON.parse(localStorage.getItem('lcfg.profile')||'{}');
+    if(cards.length){ state.cards = cards; }
+    state.bundle = Array.isArray(bundle)?bundle:[];
+    if(prof){ byId('bundleTitle').value = prof.title||''; byId('bundleProfile').value = prof.profile||'Hearing'; }
+  }catch{}
+}
+
+/* Bundle profile change persists */
+byId('bundleTitle').addEventListener('input', saveLocal);
+byId('bundleProfile').addEventListener('change', saveLocal);
+
+/* Init */
+function resetFilters(){
+  state.filters = { q:'', vol:'', topic:'', chips:new Set() };
+  byId('q').value=''; byId('vol').value=''; byId('topic').value='';
+  document.querySelectorAll('#quickChips .chip').forEach(ch=>ch.classList.remove('active'));
+}
+function boot(){
+  loadVolumes();
+  loadLocal();
+  if(!state.cards.length){
+    state.cards = parseMarkdown(seedMD);
+  }
+  setMode(true); // default basic
+  resetFilters();
+  state.view = state.cards.slice();
+  render();
+}
+window.toggleBundle = toggleBundle;
+window.copyLine = copyLine;
+window.removeFromBundle = removeFromBundle;
+
+boot();
+</script>
+</body>
+</html>
+Quick use
+	•	Save as LCFG-4.5-Advanced.html → open it.
+	•	Click Import MD → paste your full Field Guide (FG 1–1000) Markdown.
+	•	Filter by search, Volume, or Topic (Filing / Silence / Denial / Default / Efficiency / Closure / Archive).
+	•	Click ➕ Add to bundle → choose Hearing / Appeal / Motion → export JSON, copy lines, or Print.
+	•	Basic/Advanced toggle trims the UI for speed or opens the full toolkit.
+	•	Your dataset + bundle persist in localStorage (offline).

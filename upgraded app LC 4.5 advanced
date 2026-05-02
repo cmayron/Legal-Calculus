@@ -1,0 +1,671 @@
+upgraded single-file app (dark mode) with your requested extras:
+	•	Inline editing of cards (✏️ Edit) with local persistence
+	•	Smart Templates editor for bundles (supports {{field}}, {{first: a, b}}, and {{?field}}…{{/?field}})
+	•	CSV export (choose All / Visible / Selected)
+	•	Scope-aware JSON export
+	•	Everything still loads instantly, no libraries
+
+Save as: LCFG-4.5-Advanced.html and open locally.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>LC 4.5 Advanced — Field Guide (FG 1–1000)</title>
+<style>
+  :root{
+    --bg:#0b0f14; --panel:#0e141b; --card:#111924; --muted:#8aa0b6; --text:#e8eef6;
+    --accent:#6ee7ff; --accent-2:#8b5cf6; --danger:#ff6b6b; --ok:#35e0a1;
+    --chip:#1a2431; --border:#1c2634; --mark:#3f4f64; --shadow:0 8px 24px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial}
+  a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+  header{position:sticky;top:0;z-index:10;background:linear-gradient(180deg,var(--bg),rgba(11,15,20,.8) 60%,transparent);backdrop-filter:saturate(1.2) blur(8px)}
+  .bar{display:flex;gap:.75rem;align-items:center;flex-wrap:wrap;padding:.8rem 1rem .6rem;border-bottom:1px solid var(--border)}
+  .brand{display:flex;gap:.6rem;align-items:center;font-weight:700;letter-spacing:.2px}
+  .pill{padding:.25rem .5rem;background:var(--chip);border:1px solid var(--border);border-radius:999px;color:var(--muted)}
+  .grow{flex:1}
+  input[type="search"],select{background:var(--panel);color:var(--text);border:1px solid var(--border);border-radius:.5rem;padding:.5rem .6rem;outline:none;min-width:10rem}
+  input[type="search"]::placeholder{color:#98a4b3}
+  button{background:var(--panel);color:var(--text);border:1px solid var(--border);border-radius:.5rem;padding:.5rem .7rem;cursor:pointer}
+  button:hover{border-color:#2a394d}
+  button.primary{background:linear-gradient(180deg,#0f1b26,#0f1e2b);border-color:#2a3b51}
+  button.accent{background:linear-gradient(180deg,#0c2430,#0e2737);border-color:#234b5a;color:#c7f6ff}
+  button.success{border-color:#265b4c;color:#c9ffe8}
+  button.danger{border-color:#61303b;color:#ffccd2}
+  .wrap{display:grid;grid-template-columns:320px 1fr;gap:1rem;max-width:1600px;margin:0 auto;padding:1rem}
+  aside{position:sticky;top:64px;align-self:start;background:var(--panel);border:1px solid var(--border);
+        border-radius:.75rem;box-shadow:var(--shadow);padding:1rem;display:flex;flex-direction:column;gap:.8rem}
+  .stat{display:flex;justify-content:space-between;color:var(--muted);border-top:1px dashed var(--border);padding-top:.6rem;margin-top:.2rem}
+  .chips{display:flex;flex-wrap:wrap;gap:.4rem}
+  .chip{background:var(--chip);border:1px solid var(--border);padding:.2rem .5rem;border-radius:999px;color:#c8d6e5}
+  main{min-height:60vh}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.8rem}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:.75rem;padding:.85rem;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:.5rem}
+  .card h3{margin:.1rem 0 .2rem;font-size:1rem;line-height:1.25}
+  .meta{display:flex;gap:.4rem;flex-wrap:wrap}
+  .badge{font-size:.75rem;background:var(--chip);border:1px solid var(--border);color:var(--muted);padding:.1rem .45rem;border-radius:.35rem}
+  .num{color:#a1ecff;font-variant-numeric:tabular-nums}
+  .k{color:#c9ced6}
+  .body{color:#cfdae8}
+  .body p{margin:.25rem 0}
+  mark{background:var(--mark);padding:0 .15rem;border-radius:.25rem}
+  .sel{display:flex;align-items:center;gap:.5rem;margin-top:.2rem;border-top:1px dashed var(--border);padding-top:.4rem}
+  .sel input{transform:scale(1.1)}
+  .row{display:flex;gap:.5rem;flex-wrap:wrap}
+  .edit{margin-left:auto}
+  .edit button{font-size:.85rem;padding:.25rem .5rem}
+  footer{position:sticky;bottom:0;z-index:9;background:linear-gradient(0deg,var(--bg),rgba(11,15,20,.85) 60%,transparent);border-top:1px solid var(--border)}
+  .tray{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;padding:.6rem 1rem}
+  .tray .count{color:var(--muted)}
+  .right{margin-left:auto}
+  .toast{position:fixed;right:16px;bottom:16px;background:#0f1c28;border:1px solid #2a3a4e;color:#d8f7ff;padding:.55rem .7rem;border-radius:.6rem;box-shadow:var(--shadow);opacity:0;transform:translateY(6px);transition:all .25s ease;pointer-events:none;max-width:70ch}
+  .toast.show{opacity:1;transform:translateY(0)}
+  dialog{border:none;border-radius:.8rem;background:var(--panel);color:var(--text);padding:0;box-shadow:var(--shadow);max-width:min(980px,90vw)}
+  .dlg-head{padding:.8rem 1rem;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+  .dlg-body{padding:1rem;max-height:70vh;overflow:auto}
+  .dlg-foot{padding:.8rem 1rem;border-top:1px solid var(--border);display:flex;gap:.6rem;justify-content:flex-end}
+  textarea{width:100%;min-height:320px;background:var(--card);color:var(--text);border:1px solid var(--border);border-radius:.6rem;padding:.8rem;resize:vertical}
+  input[type="text"], .wide{width:100%;background:var(--card);color:var(--text);border:1px solid var(--border);border-radius:.5rem;padding:.45rem .6rem}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+  .note{color:var(--muted);font-size:.92rem}
+  .kbd{border:1px solid var(--border);background:var(--chip);padding:.05rem .35rem;border-radius:.35rem}
+  .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.6rem}
+  /* Print */
+  @media print{
+    header,aside,footer{display:none !important}
+    body{background:#fff;color:#000}
+    .wrap{grid-template-columns:1fr}
+    .grid{grid-template-columns:repeat(2,1fr)}
+    .card{background:#fff;border:1px solid #bbb;box-shadow:none;break-inside:avoid}
+    .card h3{color:#000}
+    .badge,.chip{border-color:#bbb;color:#333}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <div class="brand">
+      <span style="width:10px;height:10px;border-radius:50%;background:var(--accent)"></span>
+      LC 4.5 Advanced <span class="pill mono">FG 1–1000</span>
+    </div>
+    <input id="q" type="search" placeholder="Search ( / ) — title, core, lesson, assignment, model…" />
+    <select id="vol"><option value="">All Volumes</option></select>
+    <select id="type">
+      <option value="">All Types</option>
+      <option>Filing</option><option>Silence</option><option>Denial</option>
+      <option>Default</option><option>Efficiency</option><option>Closure</option><option>Archive</option>
+    </select>
+    <span class="grow"></span>
+    <button id="btnImport" class="accent">Import MD</button>
+    <button id="btnTpl">Templates</button>
+    <button id="btnReset">Reset</button>
+    <span class="pill note">Tips: <span class="kbd">/</span> focus • <span class="kbd">A</span> select visible • <span class="kbd">X</span> clear</span>
+  </div>
+</header>
+
+<div class="wrap">
+  <aside>
+    <div class="row">
+      <select id="exportScope">
+        <option value="all">All</option>
+        <option value="visible">Visible</option>
+        <option value="selected">Selected</option>
+      </select>
+      <button id="btnExportJSON" class="primary">Export JSON</button>
+      <button id="btnExportCSV" class="primary">Export CSV</button>
+      <button id="btnPrint">Print</button>
+    </div>
+    <div class="chips" id="tagBar"></div>
+    <div class="stat"><span>Total cards</span><strong id="statTotal">0</strong></div>
+    <div class="stat"><span>Visible</span><strong id="statVisible">0</strong></div>
+    <div class="stat"><span>Selected</span><strong id="statSelected">0</strong></div>
+    <div style="border-top:1px dashed var(--border);padding-top:.6rem">
+      <label class="note">Bundle as</label>
+      <div class="row" style="margin:.3rem 0 .5rem">
+        <select id="bundleMode">
+          <option value="hearing">Hearing</option>
+          <option value="appeal">Appeal</option>
+          <option value="motion">Motion</option>
+        </select>
+        <button id="btnBundle" class="success">Generate Bundle</button>
+        <button id="btnCopyBundle">Copy</button>
+      </div>
+      <textarea id="bundleOut" class="mono" style="min-height:120px" placeholder="Bundle output will appear here…"></textarea>
+      <div class="note">Templates: use <code class="mono">{{head}}</code>, <code class="mono">{{subtitle}}</code>, <code class="mono">{{core}}</code>, <code class="mono">{{model}}</code>, <code class="mono">{{assignment}}</code>, <code class="mono">{{?model}}…{{/?model}}</code>, <code class="mono">{{first: model, core}}</code>.</div>
+    </div>
+    <div class="note">
+      <strong>How to use</strong><br>
+      1) Import full Markdown (FG 1–1000). 2) Search / filter. 3) Select cards. 4) Bundle / Export. <br>
+      Print for a clean deck.
+    </div>
+  </aside>
+
+  <main>
+    <div class="grid" id="grid"></div>
+  </main>
+</div>
+
+<footer>
+  <div class="tray">
+    <span class="count" id="trayMsg">Ready.</span>
+    <span class="right">
+      <button id="btnSelectAll">Select Visible</button>
+      <button id="btnClearSel" class="danger">Clear Selection</button>
+    </span>
+  </div>
+</footer>
+
+<!-- Import Markdown -->
+<dialog id="dlg">
+  <div class="dlg-head">
+    <strong>Import Field Guide (Markdown)</strong>
+    <button onclick="dlg.close()">Close</button>
+  </div>
+  <div class="dlg-body">
+    <p class="note">Paste your complete **FG 1–1000** Markdown. Headings like
+      <code class="mono">### FG-123 — Filing = Example</code> with bullets:
+      <em>Core Message, Lesson Content, Assignment, Model Response, Reflection Summary, Visual Concept</em>.</p>
+    <textarea id="mdIn" class="mono" placeholder="Paste your full Markdown here…"></textarea>
+  </div>
+  <div class="dlg-foot">
+    <button onclick="dlg.close()">Cancel</button>
+    <button id="dlgDo" class="accent">Import</button>
+  </div>
+</dialog>
+
+<!-- Edit Card -->
+<dialog id="dlgEdit">
+  <div class="dlg-head">
+    <strong>Edit Card</strong>
+    <button onclick="dlgEdit.close()">Close</button>
+  </div>
+  <div class="dlg-body">
+    <div class="grid2">
+      <div>
+        <label class="note">FG #</label>
+        <input id="e_n" type="text" class="wide mono" disabled />
+      </div>
+      <div>
+        <label class="note">Volume</label>
+        <input id="e_vol" type="text" class="wide mono" disabled />
+      </div>
+      <div>
+        <label class="note">Type (left)</label>
+        <select id="e_left" class="wide">
+          <option>Filing</option><option>Silence</option><option>Denial</option>
+          <option>Default</option><option>Efficiency</option><option>Closure</option><option>Archive</option>
+        </select>
+      </div>
+      <div>
+        <label class="note">Right (e.g., Existence)</label>
+        <input id="e_right" type="text" class="wide" />
+      </div>
+    </div>
+    <div style="margin-top:.6rem" class="grid2">
+      <div><label class="note">Core</label><textarea id="e_core" class="mono" style="min-height:90px"></textarea></div>
+      <div><label class="note">Lesson</label><textarea id="e_lesson" class="mono" style="min-height:90px"></textarea></div>
+      <div><label class="note">Assignment</label><textarea id="e_assignment" class="mono" style="min-height:90px"></textarea></div>
+      <div><label class="note">Model</label><textarea id="e_model" class="mono" style="min-height:90px"></textarea></div>
+      <div><label class="note">Reflection</label><textarea id="e_reflection" class="mono" style="min-height:90px"></textarea></div>
+      <div><label class="note">Visual</label><textarea id="e_visual" class="mono" style="min-height:90px"></textarea></div>
+    </div>
+  </div>
+  <div class="dlg-foot">
+    <button onclick="dlgEdit.close()">Cancel</button>
+    <button id="e_save" class="success">Save</button>
+  </div>
+</dialog>
+
+<!-- Templates -->
+<dialog id="dlgTpl">
+  <div class="dlg-head">
+    <strong>Bundle Templates</strong>
+    <button onclick="dlgTpl.close()">Close</button>
+  </div>
+  <div class="dlg-body">
+    <p class="note">Placeholders: <code class="mono">{{head}}</code>, <code class="mono">{{subtitle}}</code>, <code class="mono">{{core}}</code>, <code class="mono">{{lesson}}</code>, <code class="mono">{{assignment}}</code>, <code class="mono">{{model}}</code>, <code class="mono">{{reflection}}</code>, <code class="mono">{{visual}}</code>, <code class="mono">{{first: model, core}}</code>, conditionals <code class="mono">{{?model}}…{{/?model}}</code>.</p>
+    <div class="grid2">
+      <div>
+        <label class="note">Hearing</label>
+        <textarea id="tpl_hearing" class="mono" style="min-height:120px"></textarea>
+      </div>
+      <div>
+        <label class="note">Appeal</label>
+        <textarea id="tpl_appeal" class="mono" style="min-height:120px"></textarea>
+      </div>
+      <div>
+        <label class="note">Motion</label>
+        <textarea id="tpl_motion" class="mono" style="min-height:120px"></textarea>
+      </div>
+    </div>
+  </div>
+  <div class="dlg-foot">
+    <button id="tpl_reset">Restore Defaults</button>
+    <span class="grow"></span>
+    <button onclick="dlgTpl.close()">Close</button>
+    <button id="tpl_save" class="accent">Save Templates</button>
+  </div>
+</dialog>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(() => {
+  // ---------- Config & constants ----------
+  const VOLUME_NAMES = [
+    'Foundations','Suppression','Visibility','Action','Growth','Clarity','Memory','Struggle','Value','Reflection',
+    'Resistance','Coalition','Exposure','Adaptation','Persistence','Coalition Memory','Restoration','Witness','Continuity','Sovereignty'
+  ];
+  const leftTypes = ['Filing','Silence','Denial','Default','Efficiency','Closure','Archive'];
+
+  const LS_DATA = 'lcfg45a_data_v2';
+  const LS_TPL  = 'lcfg45a_tpl_v1';
+
+  const DEFAULT_TPL = {
+    hearing: "{{head}}: {{first: model, core, assignment}}",
+    appeal:  "{{head}}: {{first: assignment, core}}",
+    motion:  "{{head}}: {{core}}{{?model}} — {{model}}{{/?model}}"
+  };
+
+  // ---------- Data ----------
+  let DATA = [];
+  let FILTERED = [];
+  let SELECTED = new Set();
+  let TPL = { ...DEFAULT_TPL };
+
+  // ---------- Elements ----------
+  const grid = qs('#grid');
+  const q = qs('#q'); const vol = qs('#vol'); const typeSel = qs('#type');
+  const statTotal = qs('#statTotal'); const statVisible = qs('#statVisible'); const statSelected = qs('#statSelected');
+  const btnImport = qs('#btnImport'); const btnReset = qs('#btnReset'); const btnPrint = qs('#btnPrint');
+  const btnExportJSON = qs('#btnExportJSON'); const btnExportCSV = qs('#btnExportCSV'); const exportScope = qs('#exportScope');
+  const btnSelectAll = qs('#btnSelectAll'); const btnClearSel = qs('#btnClearSel');
+  const bundleMode = qs('#bundleMode'); const btnBundle = qs('#btnBundle'); const btnCopyBundle = qs('#btnCopyBundle'); const bundleOut = qs('#bundleOut');
+  const tagBar = qs('#tagBar'); const trayMsg = qs('#trayMsg'); const toast = qs('#toast');
+  const dlg = qs('#dlg'); const mdIn = qs('#mdIn'); const dlgDo = qs('#dlgDo');
+  const dlgEdit = qs('#dlgEdit');
+  const e_n = qs('#e_n'); const e_vol = qs('#e_vol'); const e_left = qs('#e_left'); const e_right = qs('#e_right');
+  const e_core = qs('#e_core'); const e_lesson = qs('#e_lesson'); const e_assignment = qs('#e_assignment');
+  const e_model = qs('#e_model'); const e_reflection = qs('#e_reflection'); const e_visual = qs('#e_visual');
+  const e_save = qs('#e_save');
+  const dlgTpl = qs('#dlgTpl'); const btnTpl = qs('#btnTpl');
+  const tpl_hearing = qs('#tpl_hearing'); const tpl_appeal = qs('#tpl_appeal'); const tpl_motion = qs('#tpl_motion');
+  const tpl_save = qs('#tpl_save'); const tpl_reset = qs('#tpl_reset');
+
+  // ---------- Utilities ----------
+  function qs(s, el=document){ return el.querySelector(s) }
+  function qsa(s, el=document){ return [...el.querySelectorAll(s)] }
+  const debounce = (fn,ms=200)=>{ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a),ms) } }
+  const clamp = (n,min,max)=>Math.max(min,Math.min(max,n));
+  const escapeHTML = (s)=> String(s??'').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  const highlight = (text, query) => {
+    text = String(text??'');
+    if(!query) return escapeHTML(text);
+    const rx = new RegExp('('+query.replace(/[.*+?^${}()|[\\]\\\\]/g,'\\$&')+')','ig');
+    return escapeHTML(text).replace(rx,'<mark>$1</mark>');
+  };
+  const volName = n => VOLUME_NAMES[clamp(Math.ceil(n/50),1,20)-1];
+  function toastMsg(msg, ms=1600){ toast.textContent=msg; toast.classList.add('show'); setTimeout(()=>toast.classList.remove('show'),ms) }
+  function unique(arr){ return [...new Set(arr)] }
+
+  // ---------- Seed (tiny set for play) ----------
+  const SEED = [
+    {n:1,  title:'Filing = Existence', left:'Filing', right:'Existence', core:'To file is to exist in the record.', lesson:'No filing, no case. Filing transforms grievance into memory.', assignment:'Draft one line asserting your claim exists because it is filed.', model:'“This claim exists because it is filed on the record.”', reflection:'Filing breathes life into protest.', visual:'Glowing brief on courtroom desk.'},
+    {n:2,  title:'Silence = Absence', left:'Silence', right:'Absence', core:'Silence leaves only absence.', lesson:'Courts may ignore, but silence proves avoidance.', assignment:'Preserve silence as part of the record.', model:'“Judicial silence preserved as absence of due process.”', reflection:'Absence itself is evidence.', visual:'Empty judge’s chair with filing glowing beneath.'},
+    {n:3,  title:'Denial = Recognition', left:'Denial', right:'Recognition', core:'Denial recognizes what it seeks to dismiss.', lesson:'A denial means your claim was seen.', assignment:'Reframe denial as acknowledgment.', model:'“Denial preserved as recognition of this claim’s presence.”', reflection:'Rejection is proof of visibility.', visual:'“Denied” stamp as spotlight.'},
+    {n:4,  title:'Default = Opportunity', left:'Default', right:'Opportunity', core:'Default creates new openings.', lesson:'Defaults signal cracks you can preserve for later motion.', assignment:'Turn default into opportunity.', model:'“Default preserved as opportunity to assert due process failure.”', reflection:'What’s missing can become entry.', visual:'Open doorway.'},
+    {n:5,  title:'Efficiency = Excuse', left:'Efficiency', right:'Excuse', core:'Efficiency is the excuse for neglect.', lesson:'Speed is substituted for substance; preserve this evasion.', assignment:'Object to efficiency as avoidance.', model:'“Efficiency rationale preserved as excuse for due process denial.”', reflection:'Speed ≠ justice.', visual:'Stopwatch above filings.'},
+    {n:10, title:'Archive = Birthplace', left:'Archive', right:'Birthplace', core:'Archive is where legal life begins.', lesson:'A filing becomes memory as soon as it enters the archive.', assignment:'Draft one archive-preservation line.', model:'“This record preserved in archive as birthplace of claim.”', reflection:'Archive = origin of memory.', visual:'Cradle-like cabinet.'},
+    {n:151,title:'Filing = Protest', left:'Filing', right:'Protest', core:'Filing is protest in permanent form.', lesson:'A protest on paper cannot be erased by silence.', assignment:'Write a protest-preservation line.', model:'“This filing preserved as protest recorded in law.”', reflection:'Filing = embodied dissent.', visual:'Raised fist.'}
+  ].map(x => seedCard(x));
+
+  function seedCard(x){
+    const n = x.n, id = `FG-${String(n).padStart(3,'0')}`;
+    const volume = clamp(Math.ceil(n/50),1,20);
+    const type = leftTypes.includes(x.left) ? x.left : x.left || 'Filing';
+    return {
+      id, n, volume, volumeName: volName(n), title: x.title,
+      left: x.left||'Filing', right: x.right||'', type,
+      core:x.core||'', lesson:x.lesson||'', assignment:x.assignment||'',
+      model:x.model||'', reflection:x.reflection||'', visual:x.visual||'',
+      tags: unique([x.left, x.right, volName(n)].filter(Boolean))
+    };
+  }
+
+  // ---------- Markdown Parser ----------
+  function parseMarkdown(md){
+    md = md.replace(/\r\n?/g,'\n');
+    const blocks = md.split(/\n(?=###\s*FG-\d+\s*—\s*)/g).filter(b=>/###\s*FG-\d+/.test(b));
+    const out = [];
+    for(const block of blocks){
+      const m = block.match(/###\s*FG-(\d+)\s*—\s*(.+?)\s*$/m);
+      if(!m) continue;
+      const n = parseInt(m[1],10);
+      const rawTitle = m[2].trim();
+      const [left, right] = rawTitle.split('=').map(s=> (s||'').trim());
+      const card = {
+        id:`FG-${String(n).padStart(3,'0')}`,
+        n, volume: clamp(Math.ceil(n/50),1,20), volumeName: volName(n),
+        title: rawTitle, left:left||'Filing', right:right||'',
+        type: leftTypes.includes((left||'').trim()) ? left.trim() : (left||'Filing'),
+        core: grab(block,'Core Message'),
+        lesson: grab(block,'Lesson Content'),
+        assignment: grab(block,'Assignment'),
+        model: grab(block,'Model Response'),
+        reflection: grab(block,'Reflection Summary'),
+        visual: grab(block,'Visual Concept'),
+        tags: []
+      };
+      card.tags = unique([card.left, card.right, card.volumeName].filter(Boolean));
+      out.push(card);
+    }
+    return out;
+  }
+  function grab(block,label){
+    const rx = new RegExp(`-\\s.*?\\*\\*${escapeRx(label)}\\*\\*:\\s*([\\s\\S]*?)(?:\\n-\\s|$)`,'i');
+    const m = block.match(rx);
+    return m ? m[1].trim() : '';
+  }
+  function escapeRx(s){ return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') }
+
+  // ---------- Rendering ----------
+  function renderVolumes(){
+    vol.innerHTML = '<option value="">All Volumes</option>'+
+      VOLUME_NAMES.map((v,i)=>`<option value="${i+1}">Vol ${i+1} — ${v}</option>`).join('');
+  }
+
+  function applyFilters(){
+    const text = q.value.trim(); const v = vol.value; const t = typeSel.value;
+    const activeTags = qsa('.chip.active', tagBar).map(el=>el.dataset.tag);
+    let items = DATA.slice();
+    if(v) items = items.filter(c => String(c.volume)===String(v));
+    if(t) items = items.filter(c => c.type===t);
+    if(activeTags.length) items = items.filter(c => activeTags.every(tag => c.tags.includes(tag)));
+    if(text){
+      const rx = new RegExp(text.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'i');
+      items = items.filter(c => rx.test(c.title) || rx.test(c.core) || rx.test(c.lesson) || rx.test(c.assignment) || rx.test(c.model));
+    }
+    items.sort((a,b)=>a.n-b.n);
+    FILTERED = items;
+    renderGrid();
+    statVisible.textContent = FILTERED.length;
+    statSelected.textContent = SELECTED.size;
+  }
+
+  function cardHTML(c){
+    const text = q.value.trim();
+    const head = `FG-${String(c.n).padStart(3,'0')}`;
+    const subtitle = `${c.left}${c.right? ' = '+c.right:''}`;
+    return `
+    <article class="card" data-id="${c.id}">
+      <div class="meta">
+        <span class="badge num">${head}</span>
+        <span class="badge">Vol ${c.volume} — ${c.volumeName}</span>
+        <span class="badge">${c.type}</span>
+        ${c.right?`<span class="badge">${escapeHTML(c.right)}</span>`:''}
+        <span class="edit"><button class="btnEdit">✏️ Edit</button></span>
+      </div>
+      <h3 title="${escapeHTML(c.title)}">${highlight(subtitle, text)}</h3>
+      <div class="body">
+        ${c.core? `<p><span class="k">Core:</span> ${highlight(c.core, text)}</p>`:''}
+        ${c.model? `<p><span class="k">Model:</span> ${highlight(c.model, text)}</p>`:''}
+        ${c.assignment? `<p class="note"><span class="k">Assignment:</span> ${highlight(c.assignment, text)}</p>`:''}
+      </div>
+      <div class="sel">
+        <label><input type="checkbox" data-id="${c.id}"> Select</label>
+        <span class="chips">${c.tags.map(t=>`<span class="chip" data-tag="${escapeHTML(t)}">${escapeHTML(t)}</span>`).join('')}</span>
+      </div>
+    </article>`;
+  }
+
+  function renderGrid(){
+    grid.innerHTML = FILTERED.map(c=>cardHTML(c)).join('') || `<div class="note" style="padding:.8rem">No cards match your filters.</div>`;
+    qsa('.sel input', grid).forEach(cb=>{
+      cb.addEventListener('change', e=>{
+        const id = e.target.dataset.id;
+        if(e.target.checked) SELECTED.add(id); else SELECTED.delete(id);
+        statSelected.textContent = SELECTED.size;
+      });
+      cb.checked = SELECTED.has(cb.dataset.id);
+    });
+  }
+
+  function renderTags(){
+    const counts = new Map();
+    DATA.forEach(c=> c.tags.forEach(t=> counts.set(t,(counts.get(t)||0)+1)));
+    const top = [...counts.entries()].sort((a,b)=>b[1]-a[1]).slice(0,14);
+    tagBar.innerHTML = top.map(([t,n])=>`<button class="chip" data-tag="${escapeHTML(t)}" title="${n} cards">${escapeHTML(t)}</button>`).join('');
+    qsa('.chip', tagBar).forEach(ch=>{
+      ch.addEventListener('click', ()=>{ ch.classList.toggle('active'); applyFilters(); });
+    });
+  }
+
+  // ---------- Bundling (with templates) ----------
+  function headFor(c){ return `FG-${String(c.n).padStart(3,'0')} ${c.left}${c.right?' = '+c.right:''}` }
+  function subtitleFor(c){ return `${c.left}${c.right?' = '+c.right:''}` }
+
+  function fillTemplate(tpl, c){
+    // conditionals: {{?field}}...{{/?field}}
+    tpl = tpl.replace(/{{\?(\w+)}}([\s\S]*?){{\/\?\1}}/g, (_,f,inner) => (c[f] ? inner : ''));
+    // first: {{first: a, b, c}}
+    tpl = tpl.replace(/{{\s*first:\s*([^}]+)\s*}}/g, (_,list)=>{
+      const fields = list.split(',').map(s=>s.trim());
+      const v = fields.map(f=>c[f]).find(x=>x && String(x).trim());
+      return v? String(v) : '';
+    });
+    // basics
+    const map = {
+      head: headFor(c), subtitle: subtitleFor(c),
+      core:c.core||'', lesson:c.lesson||'', assignment:c.assignment||'',
+      model:c.model||'', reflection:c.reflection||'', visual:c.visual||''
+    };
+    tpl = tpl.replace(/{{\s*(\w+)\s*}}/g, (_,k)=> map[k] ?? '');
+    return tpl.replace(/[ \t]+$/gm,'').trim();
+  }
+
+  function bundle(mode, list){
+    const tpl = TPL[mode] || DEFAULT_TPL[mode];
+    return list.map(c=> fillTemplate(tpl, c)).filter(Boolean).join('\n');
+  }
+
+  // ---------- Export helpers ----------
+  function scopeItems(){
+    if(exportScope.value==='visible') return FILTERED.slice();
+    if(exportScope.value==='selected') return DATA.filter(c=>SELECTED.has(c.id));
+    return DATA.slice();
+  }
+
+  function downloadJSON(obj, filename){
+    const blob = new Blob([JSON.stringify(obj,null,2)], {type:'application/json'});
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = filename; a.click(); URL.revokeObjectURL(a.href);
+  }
+  function toCSV(rows){
+    const esc = v => {
+      v = (v===undefined||v===null) ? '' : String(v);
+      return `"${v.replace(/"/g,'""').replace(/\r?\n/g,'\\n')}"`;
+    };
+    const header = ['id','n','volume','volumeName','left','right','title','core','lesson','assignment','model','reflection','visual','tags'];
+    const lines = [header.map(esc).join(',')];
+    for(const r of rows){
+      const row = {
+        ...r,
+        tags: (r.tags||[]).join('|')
+      };
+      lines.push(header.map(h=>esc(row[h])).join(','));
+    }
+    return lines.join('\n');
+  }
+  function downloadCSV(rows, filename){
+    const blob = new Blob([toCSV(rows)], {type:'text/csv;charset=utf-8;'});
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = filename; a.click(); URL.revokeObjectURL(a.href);
+  }
+
+  // ---------- Editing ----------
+  let editingId = null;
+  function openEdit(card){
+    editingId = card.id;
+    e_n.value = `FG-${String(card.n).padStart(3,'0')}`;
+    e_vol.value = `Vol ${card.volume} — ${card.volumeName}`;
+    e_left.value = card.left;
+    e_right.value = card.right;
+    e_core.value = card.core||'';
+    e_lesson.value = card.lesson||'';
+    e_assignment.value = card.assignment||'';
+    e_model.value = card.model||'';
+    e_reflection.value = card.reflection||'';
+    e_visual.value = card.visual||'';
+    dlgEdit.showModal();
+  }
+  function saveEdit(){
+    const idx = DATA.findIndex(c=>c.id===editingId); if(idx<0) return;
+    const c = DATA[idx];
+    c.left = e_left.value.trim() || 'Filing';
+    c.type = leftTypes.includes(c.left)? c.left : 'Filing';
+    c.right = e_right.value.trim();
+    c.title = c.right ? `${c.left} = ${c.right}` : c.left;
+    c.core = e_core.value.trim(); c.lesson = e_lesson.value.trim(); c.assignment = e_assignment.value.trim();
+    c.model = e_model.value.trim(); c.reflection = e_reflection.value.trim(); c.visual = e_visual.value.trim();
+    c.tags = unique([c.left, c.right, c.volumeName].filter(Boolean));
+    persist();
+    applyFilters();
+    dlgEdit.close();
+    toastMsg('Card updated.');
+  }
+
+  // ---------- Events ----------
+  q.addEventListener('input', debounce(applyFilters, 160));
+  vol.addEventListener('change', applyFilters);
+  typeSel.addEventListener('change', applyFilters);
+
+  btnImport.addEventListener('click', ()=> { mdIn.value=''; dlg.showModal(); mdIn.focus(); });
+  dlgDo.addEventListener('click', ()=>{
+    const md = mdIn.value.trim();
+    if(!md){ toastMsg('Nothing to import.'); return; }
+    const parsed = parseMarkdown(md);
+    if(parsed.length===0){ toastMsg('No cards found. Ensure headings like "### FG-123 — …"'); return; }
+    DATA = parsed; SELECTED.clear(); persist(); afterDataChange('Imported '+parsed.length+' cards.');
+    dlg.close();
+  });
+
+  btnReset.addEventListener('click', ()=>{
+    localStorage.removeItem(LS_DATA);
+    DATA = SEED.slice(); SELECTED.clear(); persist(); afterDataChange('Reset to seed set.');
+  });
+
+  btnPrint.addEventListener('click', ()=> window.print());
+
+  btnExportJSON.addEventListener('click', ()=>{
+    const items = scopeItems();
+    downloadJSON({name:'LC 4.5 Advanced — Field Guide',version:'4.5-advanced',exportedAt:new Date().toISOString(),total: items.length, items}, 'LCFG-4.5-Advanced.json');
+    toastMsg(`Exported JSON (${items.length})`);
+  });
+  btnExportCSV.addEventListener('click', ()=>{
+    const items = scopeItems();
+    downloadCSV(items, 'LCFG-4.5-Advanced.csv');
+    toastMsg(`Exported CSV (${items.length})`);
+  });
+
+  btnSelectAll.addEventListener('click', ()=>{
+    FILTERED.forEach(c=> SELECTED.add(c.id));
+    renderGrid();
+    statSelected.textContent = SELECTED.size;
+    toastMsg('Selected all visible.');
+  });
+  btnClearSel.addEventListener('click', ()=>{
+    SELECTED.clear(); renderGrid(); statSelected.textContent = 0;
+  });
+
+  btnBundle.addEventListener('click', ()=>{
+    const list = DATA.filter(c=> SELECTED.has(c.id));
+    if(!list.length){ bundleOut.value=''; toastMsg('No cards selected.'); return; }
+    bundleOut.value = bundle(bundleMode.value, list);
+    bundleOut.focus(); bundleOut.select();
+  });
+  btnCopyBundle.addEventListener('click', ()=>{
+    const txt = bundleOut.value.trim(); if(!txt){ toastMsg('Nothing to copy.'); return; }
+    navigator.clipboard.writeText(txt).then(()=>toastMsg('Bundle copied.'));
+  });
+
+  // grid interactions: tags + edit
+  grid.addEventListener('click', (e)=>{
+    const chip = e.target.closest('.chip');
+    if(chip && grid.contains(chip)){
+      const tag = chip.dataset.tag;
+      const btn = qsa('.chip', tagBar).find(b=> b.dataset.tag===tag);
+      if(btn){ btn.classList.toggle('active'); applyFilters(); }
+      return;
+    }
+    const editBtn = e.target.closest('.btnEdit');
+    if(editBtn){
+      const cardEl = e.target.closest('.card'); const id = cardEl?.dataset.id;
+      const card = DATA.find(c=>c.id===id); if(card) openEdit(card);
+    }
+  });
+  e_save.addEventListener('click', saveEdit);
+
+  // Templates dialog
+  btnTpl.addEventListener('click', ()=>{
+    tpl_hearing.value = TPL.hearing; tpl_appeal.value = TPL.appeal; tpl_motion.value = TPL.motion;
+    dlgTpl.showModal();
+  });
+  tpl_save.addEventListener('click', ()=>{
+    TPL.hearing = tpl_hearing.value.trim() || DEFAULT_TPL.hearing;
+    TPL.appeal  = tpl_appeal.value.trim()  || DEFAULT_TPL.appeal;
+    TPL.motion  = tpl_motion.value.trim()  || DEFAULT_TPL.motion;
+    localStorage.setItem(LS_TPL, JSON.stringify(TPL));
+    dlgTpl.close(); toastMsg('Templates saved.');
+  });
+  tpl_reset.addEventListener('click', ()=>{
+    tpl_hearing.value = DEFAULT_TPL.hearing;
+    tpl_appeal.value  = DEFAULT_TPL.appeal;
+    tpl_motion.value  = DEFAULT_TPL.motion;
+  });
+
+  // Keyboard shortcuts
+  window.addEventListener('keydown', (e)=>{
+    if (e.key==='/'){ e.preventDefault(); q.focus(); q.select(); }
+    if (e.key==='a' || e.key==='A'){ e.preventDefault(); btnSelectAll.click(); }
+    if (e.key==='x' || e.key==='X'){ e.preventDefault(); btnClearSel.click(); }
+  });
+
+  // ---------- Persistence ----------
+  function persist(){
+    localStorage.setItem(LS_DATA, JSON.stringify(DATA));
+  }
+  function afterDataChange(msg=''){
+    renderTags(); applyFilters();
+    statTotal.textContent = DATA.length; statSelected.textContent = SELECTED.size;
+    if(msg) trayMsg.textContent = msg;
+  }
+
+  // ---------- Init ----------
+  renderVolumes();
+
+  const saved = localStorage.getItem(LS_DATA);
+  DATA = saved ? JSON.parse(saved) : SEED.slice();
+  // normalize schema
+  DATA.forEach(c=>{
+    c.id ||= `FG-${String(c.n).padStart(3,'0')}`;
+    c.volume ||= clamp(Math.ceil(c.n/50),1,20);
+    c.volumeName ||= volName(c.n);
+    c.type ||= (leftTypes.includes(c.left) ? c.left : 'Filing');
+    c.tags ||= unique([c.left,c.right,c.volumeName].filter(Boolean));
+  });
+
+  try{
+    const savedTpl = JSON.parse(localStorage.getItem(LS_TPL)||'null');
+    if(savedTpl && typeof savedTpl==='object') TPL = {...DEFAULT_TPL, ...savedTpl};
+  }catch{}
+
+  renderTags(); afterDataChange('Loaded '+DATA.length+' cards.');
+
+})();
+</script>
+</body>
+</html>

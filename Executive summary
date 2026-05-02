@@ -1,0 +1,83 @@
+Procedural complexity functions as a wealth filter: when courts resolve cases on form rather than substance, access to justice becomes a function of who can afford procedural competence. The justice gap is structural, representation materially shifts outcomes, and procedural gatekeeping (early dismissals, calendar traps, evidentiary form) produces predictable, measurable wealth-based disparities. Legal Calculus operationalizes format parity, docket discipline, record hygiene, merits forcing, and outcome telemetry to flip adjudication back toward merits and away from procedural attrition.
+
+---
+
+### Core thesis
+
+Procedural rules and courtroom practice, when applied unevenly, operate as a filter that systematically disadvantages low‑resource parties. Fixing this requires tooling that produces the same baseline of procedural competence routinely available to represented litigants, plus metrics that measure whether cases reach substantive adjudication rather than exit on technicalities.
+
+---
+
+### Five empirical claims (concise evidence notes)
+
+1. **The justice gap is structural, not anecdotal.** Most low‑income Americans with serious civil legal problems receive inadequate or no legal help; the leading national study quantifies this as an overwhelming majority (Legal Services Corporation, The Justice Gap, 2022).
+2. **Representation massively shifts outcomes.** Syntheses and reviews of representation impact find unrepresented parties lose at far higher rates—meta‑analysis estimates cluster around a multi‑fold disadvantage for the unrepresented (Sandefur 2010; Quintanilla et al. 2017).
+3. **Pro se plaintiffs rarely prevail on the merits in federal court.** Longitudinal administrative data analyses show extremely low plaintiff win rates for pro se plaintiffs over multi‑decade periods (Levy’s AO analysis, 1998–2017).
+4. **Invisible dismissal concentrates early procedural exits.** District‑level studies document high attrition at motion‑to‑dismiss and early‑case stages for self‑represented litigants (e.g., ND Cal. MTD survival analyses).
+5. **Prisoner and civil‑rights dockets amplify power asymmetries.** Those dockets are heavily populated by pro se filers and show the same pattern of procedural attrition and asymmetrical rulings (U.S. Courts statistical overviews).
+
+---
+
+### Operational capabilities Legal Calculus must deliver
+
+- **Format parity (pre‑flight validation):** Rule 8/9/12 sufficiency checks; jurisdiction, venue, and service sanity checks; automatic flagging of pleading defects before filing.
+- **Docket discipline:** Automated deadline generation, proof‑of‑service kits, renewal/objection timers, and templated extension/relief motions to eliminate “gotcha” dismissals.
+- **Record hygiene:** Exhibit‑stamping engine, standardized page‑line citations, machine‑validated declaration formats to reduce evidentiary objections and burdens on clerks and judges.
+- **Merits forcing templates:** Fact → legal element → controlling precedent mapping embedded in every claim and opposition so orders must engage substantive legal questions to dispose.
+- **Motion defense and attack suites:** Rule 12(b)(6) and Rule 56 response frameworks that align facts to the correct standard of review and preempt common procedural bases for dismissal.
+- **Discovery navigator:** Guided requests and objections with auto‑trace of admissibility and linkage to existing record to prevent discovery being used to weaponize delay or sanctions.
+- **Outcome telemetry tagging:** Granular labels for disposition path (e.g., dismissed 12(b)(6) pre‑answer; survived MTD; reached MSJ; merits trial/decision) and machine‑readable event logs.
+- **Educational annotations:** Inline, concise explanations showing why each procedural element matters and how it protects substantive rights, converting usage into procedural literacy.
+
+---
+
+### Metrics framework (beyond win rates)
+
+- **Procedural survival rate:** Percent of cases surviving Rule 12(b)(6) to reach discovery.
+- **Discovery access rate:** Percent reaching fact discovery and completing document/exam processes.
+- **Summary‑judgment pipeline rate:** Percent reaching and surviving summary‑judgment briefing.
+- **Time‑to‑merits:** Median days from filing to first substantive merits ruling.
+- **Sanctions and fee‑threat incidence:** Rate of Rule 11 and fee‑shifting threats against pro se filers.
+- **Substantive citation density:** Frequency of controlling precedent cited in court orders relative to procedural language, measured per case.
+- **Judge/venue procedural variance:** Outcome and survival variance mapped to individual judges and venues to identify gatekeeping hotspots.
+- **User outcome trajectories:** Case‑level traces from intake to final disposition with coded branching (procedural exit vs. merits resolution).
+
+---
+
+### Addressing anticipated institutional resistance
+
+- **“Floodgates / quality control” objection:** Embed merit‑screening. Legal Calculus includes early merit assessments and triage so only claims meeting basic legal plausibility proceed to the full filing package, improving docket quality while ensuring sufficient cases are adjudicated on substance.
+- **“We can’t be everyone’s lawyer” objection:** The ask is neutrality and baseline procedural parity, not counsel provision. When filings meet the same formal standards routinely expected of counsel, courts can and should address substantive issues rather than apply asymmetric procedural strictures.
+- **“We lack resources” objection:** Measure instead of assume. Time‑to‑merits and Rule 12 survival metrics show where procedural flexibility is used selectively as a dismissal lever; if resource pressure is genuine, the data will show uniform triage burdens, not skewed pro se attrition. Data directs targeted resource deployment where it will change outcomes.
+- **Judicial economy framing:** Convert “economy” into a measurable hypothesis: if early procedural dismissal actually saves court time without material cost to justice, metrics will show reduced downstream hearings and appeals; if it functions as a gatekeeping shortcut, metrics will show suppressed merits adjudication and greater long‑term workload (motions to reopen, appeals, collateral consequences).
+
+---
+
+### Implementation roll‑out (practical pilot design)
+
+1. **Pilot sites:** Select 3 venues with heavy pro se caseloads (one urban federal district clinic, one law‑school clinic partner, one court self‑help center).
+2. **Scope:** Offer Legal Calculus as a white‑labeled intake + pleading package for a defined docket slice (e.g., civil rights and pro se contract/tort claims).
+3. **Duration:** 6 months tracked cohort with matched control group drawn from prior year filings.
+4. **Data collection:** Granular telemetry at each procedural milepost; judge/venue tagging; anonymized user demographics.
+5. **Evaluation metrics:** Procedural survival rate, discovery access rate, time‑to‑merits, sanction incidence, and judge variance.
+6. **Iteration:** Rapid cycle updates to templates and pre‑flight checks driven by pilot data and judicial feedback.
+
+---
+
+### Call to action
+
+Partner with legal aid clinics, law‑school clinics, and court self‑help centers to launch coordinated pilots that combine Legal Calculus tooling with a rigorous measurement protocol. Prioritize venues where pro se filings are concentrated and where stakeholders are open to data‑driven workflow change. Publish pilot methodology, anonymized metrics, and template artifacts to allow replication and judicial review.
+
+---
+
+### Publication structure (ready‑to‑edit outline)
+
+1. Title + one‑sentence thesis.
+2. Executive summary (300–400 words).
+3. Five empirical claims with short evidence notes and citations.
+4. Detailed description of Legal Calculus capabilities (6–8 items).
+5. Metrics framework and rationale.
+6. Anticipated objections with evidence‑based responses.
+7. Pilot design and rollout plan.
+8. Call to action and next steps.
+9. Appendix: sample template screenshots, telemetry schema, and data dictionary.

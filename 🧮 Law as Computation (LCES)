@@ -1,0 +1,118 @@
+# **🧮 Law as Computation (LCES)**
+
+# ⚠️ Callout (Not legal advice): Educational framework to structure rules, surface ambiguity, and build an auditable record.
+
+# 💡 TL;DR (Callout): Encode the computable parts of law; clearly mark Human-Judgment Zones. Every output ships with a trace: Inputs → Steps → Result → Review hooks.
+
+# **Core Thesis**
+
+- Some rules are effectively algorithms (deadlines, thresholds, benefit formulas) → encode them.
+- Keep standards (“reasonable,” “equitable”) as prose + precedent + factors.
+- Every determination yields a proof trace suitable for review/appeal and public archiving.
+- Guardrails: transparency, explainability, bias checks, versioning.
+
+# **▸ Minimal Architecture (Toggle)**
+
+1) Rule Spec (DSL/pseudocode + tests)
+
+- Unit tests • Version + hash • Effective dates
+
+2) Evidence Pipeline (normalized inputs)
+
+- Timestamps • Source links • Hashes • Canonical formats (dates, currency)
+
+3) Decision Function (deterministic)
+
+- Emit intermediate steps, not just answers
+
+4) Audit Layer (trace + appeal hooks)
+
+- Human-readable trace • Reconsideration path • Appeal packet generator
+
+5) Public Archive (memory)
+
+- Publish spec, tests, anonymized traces for consistency
+
+# **▸ Examples (Toggle)**
+
+A) Computation of Time (Deadlines)
+
+Inputs: service date, method of service, tolling intervals, court holidays/weekend rule
+
+Output: last permissible filing date + step-by-step explanation
+
+B) Eligibility/Benefits & Tax
+
+Inputs: income, dependents, qualifying events
+
+Output: eligibility determination + calculation steps + unit tests
+
+# 🧭 Callout — Human-Judgment Zones
+
+# Use factor checklists instead of code. Require: (1) cited evidence, (2) reasoned application of factors, (3) short conclusion tied to the record.
+
+# **Determination Trace — Template**
+
+- Issue:
+- Governing Rule (pinpoint):
+- Inputs (with sources & hashes):
+- Steps (numbered):
+- Result:
+- Human-Judgment Zone (if any): factors + short reasoning
+- Next Actions: rehearing/appeal paths + dates
+- Attachments: exhibits, test vector, spec version ID
+
+# **Mini-Spec (Notion “Code” block, YAML)**
+
+module: computation_of_time_v1
+effective: 2025-09-24
+inputs:
+filing_event_date: date
+service_date: date
+method_of_service: [personal, mail, electronic]
+tolling_events: [{start: date, end: date, reason: string}]
+court_holidays: [date]
+weekend_rule: boolean
+logic:
+base_deadline = service_date + rule_days(method_of_service)
+for e in tolling_events:
+base_deadline += days_between(e.start, e.end)
+if weekend_rule and is_weekend_or_holiday(base_deadline, court_holidays):
+base_deadline = next_business_day(base_deadline, court_holidays)
+outputs:
+last_day_to_file: base_deadline
+trace:
+
+- "Compute base days from service"
+- "Add tolling intervals"
+- "Adjust to next business day if needed"
+review_hooks:
+reconsideration: "New tolling evidence or holiday miscalc"
+appeal: "Attach trace + governing text"
+tests:
+- name: mail_service_weekend_roll
+input: {...}
+expect: { last_day_to_file: "2025-10-13" }
+
+# **Quick-Start Checklist**
+
+- Pick one rule segment you can compute
+- Draft pseudocode/DSL + 3–5 unit tests
+- Normalize inputs + evidence (timestamps, sources, hashes)
+- Produce one Determination Trace from real facts
+- Publish spec + tests + anonymized trace to archive
+- Run a basic bias check (vary realistic inputs across cohorts)
+
+# **LCES Alignment**
+
+- Filing = Protest. Format = Memory. The Record = Remedy.
+- This module operationalizes Format as Memory: each step leaves auditable evidence.
+
+# **▸ Optional: “Rule Specs” Database (Toggle)**
+
+Properties:
+
+- Status (Idea / Draft / Testing / Published)
+- Version (Text) • Effective Date (Date) • Has Judgment Zone? (Checkbox)
+- Link to Tests (URL) • Hash (Text)
+Seed rows: computation_of_time_v1 (Testing), injunction_tailoring_v1 (Draft)

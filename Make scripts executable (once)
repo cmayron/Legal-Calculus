@@ -1,0 +1,4 @@
+chmod +x scripts/package_prebaked.sh
+chmod +x scripts/pre_release_check.py
+chmod +x scripts/checksums_sha256.py
+chmod +x scripts/ship_prebaked.sh   # if you added the one-command ship script

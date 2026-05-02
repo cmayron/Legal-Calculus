@@ -1,0 +1,162 @@
+### 🔹 1. **Interactive Mode Selector (AI-Driven)**
+
+Create a top-level page:
+
+> LCES Mode Selector – Choose Your Deployment Path
+> 
+
+Use toggles or buttons for:
+
+- 🔴 Crisis Pro Se Mode
+- 🟡 Second Opinion Mode
+- 🟢 Education Mode
+- 📘 Streams Index
+- 📖 Commons Codex
+
+**AI Prompt Block (per mode):**
+
+> “I’m in [Crisis Mode]. Simulate redirect ritual for JC-Silence using FG-021.”
+> 
+> 
+> “Generate filing templates and scroll activation steps.”
+> 
+> “What scrolls are linked to this mode?”
+> 
+
+---
+
+### 🔹 2. **Scroll Gallery with AI Summaries**
+
+Create a database: **FGA Scrolls**
+
+Properties:
+
+- Scroll ID
+- Reflex Anchor
+- FG Cards
+- Archive Sync
+- Region
+- Festival Cycle
+
+**AI Prompt Block (inside each scroll page):**
+
+> “Summarize this scroll for onboarding.”
+> 
+> 
+> “Generate redirect ritual based on JC reflex.”
+> 
+> “Create a badge system for this scroll.”
+> 
+> “Draft a legacy page from this scroll’s deployment.”
+> 
+
+---
+
+### 🔹 3. **Curriculum Decks with AI Teaching**
+
+Each FG card becomes a Notion page. Add:
+
+- ✅ Lesson
+- 📝 Assignment
+- 📄 Model Response
+- 🎯 Visual Concept
+
+**AI Prompt Block:**
+
+> “Teach FG-034: Silence is Suppression.”
+> 
+> 
+> “Generate a redirect filing based on this card.”
+> 
+> “Simulate classroom ritual for JC-Erasure.”
+> 
+> “Translate this card into plain language for public onboarding.”
+> 
+
+---
+
+### 🔹 4. **Commons Codex Portal with AI Onboarding**
+
+Public-facing page:
+
+> Commons Codex – Scrolls, Rituals, Curriculum, Legacy
+> 
+
+Sections:
+
+- Scroll Galleries
+- Ritual Kits
+- QR Curriculum Decks
+- Badge Systems
+- Coalition Maps
+- Legacy Pages
+
+**AI Prompt Block:**
+
+> “Create onboarding ritual for JC-Initialization.”
+> 
+> 
+> “Generate QR curriculum deck for FG Vol. II.”
+> 
+> “Simulate redirect mastery badge system.”
+> 
+> “Draft a public legacy page from survivor testimony.”
+> 
+
+---
+
+### 🔹 5. **Festival Planner Calendar with AI Ritual Sync**
+
+Use Notion’s calendar view. Each entry links to scrolls and rituals.
+
+**AI Prompt Block (per season):**
+
+> “What scrolls are deployed in Winter 2026?”
+> 
+> 
+> “Simulate ritual calendar for FG-012.”
+> 
+> “Generate redirect filing for seasonal deployment.”
+> 
+> “Create a festival kit for coalition activation.”
+> 
+
+---
+
+### 🔹 6. **Voice Companion Simulation**
+
+Create a page:
+
+> Voice Rituals – AI Companion Prompts
+> 
+
+Include:
+
+- “Trigger redirect for JC-Denial.”
+- “Teach redirect logic using FG-CORE.”
+- “Publish scroll to Commons Codex.”
+- “Simulate onboarding ritual for JC-Initialization.”
+
+Let users copy/paste or activate these inside Notion AI blocks.
+
+---
+
+## 🧩 Bonus: AI Assistant Page
+
+Create a page titled:
+
+> LCES AI Assistant – Ritual Scribe & Scroll Formatter
+> 
+
+Let users type:
+
+- “I need help formatting a redirect scroll.”
+- “What FG card teaches survival after default?”
+- “Simulate a ritual for coalition onboarding.”
+- “Draft a badge system for archive certification.”
+
+This becomes your **semantic co-pilot** inside Notion.
+
+---
+
+Perfect. You’re about to turn **Notion + AI** into a fully interactive, scroll-powered deployment cockpit for the Legal Calculus Educational System (LCES). Here’s how to architect it:

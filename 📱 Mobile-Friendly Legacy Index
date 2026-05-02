@@ -1,0 +1,181 @@
+**Purpose:** A tap-through or voice-navigable interface to explore doctrine by stream, reflex, FG card, and asset.
+
+### 🔧 Format: Notion Page + Voice Mode
+
+**Page Title:** `Legacy Index — Legal Calculus Doctrine`
+
+### 🧭 Sections (Tap or Say)
+
+- **“Show me the streams”** → JC, FG, LCa, FGA, LCA, LC
+- **“Show me the reflexes”** → JC-Denial, JC-Silence, JC-Default, etc.
+- **“Show me FG cards for denial”** → FG-021, FG-073
+- **“Show me redirect protocols”** → Refile, Notice, Audit
+- **“Show me templates”** → Caption, TOA, Certificate, Notice
+- **“Show me legacy pages”** → Published procedural journeys
+- **“Show me coalition roles”** → Ops Buddy, Educator, Survivor, Org Partner
+
+---
+
+### 📘 Example Voice Exchange
+
+**User:** “Show me FG cards for silence.”
+
+**Copilot:** “You’ll want FG-034: *Silence is Suppression*. It teaches you to file a Notice of Silence with full formatting.”
+
+**User:** “Show me redirect protocols for misalignment.”
+
+**Copilot:** “That’s LCa-Misalignment. Use FG-003 and FG-005. Audit the lawyer’s formatting, refile with armor, and deploy an ops buddy.”
+
+---
+
+### 🧩 Deployment Tips
+
+- Embed toggle lists for each stream
+- Link FG cards to redirect protocols and assets
+- Include voice cues for each section
+- Add QR codes to printed coalition packets
+
+---
+
+## 🔁 Redirect Engine Map
+
+**Purpose:** Visual or voice-navigable flowchart connecting reflex → FG card → redirect → asset → archive.
+
+### 🔧 Format: Text-Based Flow + Voice Prompts
+
+**Page Title:** `Redirect Engine Map`
+
+🎯 Reflex → FG Card → Redirect → Asset → Archive
+
+🟥 JC-Denial
+
+→ FG-021: *Denial is Recognition*
+
+→ Refile with caption, TOA, certificate
+
+→ [Refile Template]
+
+→ Archive in LCA
+
+🟨 JC-Silence
+
+→ FG-034: *Silence is Suppression*
+
+→ File Notice of Silence
+
+→ [Notice Template]
+
+→ Archive in LCA
+
+🟥 JC-Default
+
+→ FG-057: *Default is Opportunity*
+
+→ File for default judgment
+
+→ [Default Template]
+
+→ Archive in LCA
+
+🟨 JC-Positional
+
+→ FG-062: *Timing is Framing*
+
+→ Reframe with procedural timeline
+
+→ [Timeline Template]
+
+→ Archive in LCA
+
+🟦 LCa-Misalignment
+
+→ FG-003, FG-005
+
+→ Audit lawyer, refile with armor
+
+→ [Audit Checklist]
+
+→ Archive in LCA
+
+🟥 JC-Erasure
+
+→ FG-073: *Refile to Remember*
+
+→ Refile with enhanced formatting
+
+→ [Refile Template]
+
+→ Archive in LCA
+
+🟩 LCA-Legacy
+
+→ FG-099: *Legacy is Deployment*
+
+→ Build public doctrine page
+
+→ [Legacy Builder]
+
+→ Archive in LC
+
+```markdown
+🎯 Reflex → FG Card → Redirect → Asset → Archive
+
+🟥 JC-Denial
+ → FG-021: *Denial is Recognition*
+ → Refile with caption, TOA, certificate
+ → [Refile Template]
+ → Archive in LCA
+
+🟨 JC-Silence
+ → FG-034: *Silence is Suppression*
+ → File Notice of Silence
+ → [Notice Template]
+ → Archive in LCA
+
+🟥 JC-Default
+ → FG-057: *Default is Opportunity*
+ → File for default judgment
+ → [Default Template]
+ → Archive in LCA
+
+🟨 JC-Positional
+ → FG-062: *Timing is Framing*
+ → Reframe with procedural timeline
+ → [Timeline Template]
+ → Archive in LCA
+
+🟦 LCa-Misalignment
+ → FG-003, FG-005
+ → Audit lawyer, refile with armor
+ → [Audit Checklist]
+ → Archive in LCA
+
+🟥 JC-Erasure
+ → FG-073: *Refile to Remember*
+ → Refile with enhanced formatting
+ → [Refile Template]
+ → Archive in LCA
+
+🟩 LCA-Legacy
+ → FG-099: *Legacy is Deployment*
+ → Build public doctrine page
+ → [Legacy Builder]
+ → Archive in LC
+
+```
+
+---
+
+### 🎙️ Voice Activation
+
+**User:** “What do I do if my motion was denied?”
+
+**Copilot:** “That’s JC-Denial. Use FG-021. Refile with caption, TOA, and certificate. I can guide you through it.”
+
+**User:** “What’s the redirect for silence?”
+
+**Copilot:** “File a Notice of Silence using FG-034. Format it fully and archive in LCA.”
+
+---
+
+**Redirect Card Pack**
