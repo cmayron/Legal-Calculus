@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>LCFG 4.5 Kiosk — Legal Calculus Field Guide</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --bg:#0b0d10; --panel:#12151a; --text:#e5eef7; --muted:#8aa0b3; --border:#1e2632;
+  --chip:#1a1f27; --accent:#4cc2ff; --ok:#66e39a;
+}
+*{box-sizing:border-box}
+body{margin:0; font:14px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif; color:var(--text); background:#0b0d10}
+.wrap{max-width:1100px; margin:0 auto; padding:16px}
+h1{margin:0 0 8px; font-size:20px}
+.small{color:var(--muted)}
+.toolbar{
+  display:flex; gap:8px; flex-wrap:wrap; align-items:center; background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:10px;
+}
+.btn{appearance:none; border:1px solid var(--border); background:#0f1319; color:var(--text); padding:8px 12px; border-radius:10px; cursor:pointer}
+input[type="text"], select{background:#0f1319; color:var(--text); border:1px solid var(--border); border-radius:10px; padding:8px 10px}
+.grid{display:grid; grid-template-columns:1fr; gap:12px; margin-top:12px}
+#list{display:grid; grid-template-columns: repeat(auto-fill, minmax(300px,1fr)); gap:10px}
+.card{background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:10px; display:flex; flex-direction:column; gap:8px}
+.badge{font:600 11px/1 monospace; padding:4px 6px; border-radius:8px; background:#0c1822; color:#a0d7ff; border:1px solid #213646}
+h3{margin:0; font-size:14px}
+.block{background:#0e1218; border:1px solid var(--border); border-radius:8px; padding:8px}
+.meta{display:flex; gap:6px; flex-wrap:wrap; color:#9fb2c1}
+.tag{font:600 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; background:#0d1820; border:1px solid #1b2a36; padding:4px 6px; border-radius:8px}
+footer{display:flex; gap:6px}
+.toast{position:fixed; inset:auto 0 20px; margin:auto; width:max-content; padding:8px 12px; background:#0e2b3d; border:1px solid #234156; color:#d6ecff; border-radius:10px; opacity:0; transform:translateY(8px); transition:.25s; z-index:999}
+.toast.show{opacity:1; transform:translateY(0)}
+.modal{position:fixed; inset:0; display:none; place-items:center; background:rgb(0 0 0 / 65%)}
+.modal.open{display:grid}
+.sheet{width:min(900px,92vw); background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:12px}
+textarea{width:100%; min-height:40vh; background:#0f1319; color:var(--text); border:1px solid var(--border); border-radius:10px; padding:10px; resize:vertical}
+@media print{
+  body{background:#fff; color:#000}
+  .toolbar, .modal, .toast{display:none !important}
+  .wrap{max-width:900px}
+  #list{grid-template-columns:1fr}
+  .card{border:1px solid #ddd; background:#fff; color:#000}
+  .block{background:#fff; border-color:#eee; color:#000}
+  .badge{background:#eef5ff; color:#003366; border-color:#cfe1ff}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>LCFG 4.5 Kiosk — Legal Calculus Field Guide</h1>
+    <div class="small">Paste/Import FG 1–1000 Markdown • Search • Filter • Copy lines • Clean print</div>
+  </header>
+
+  <div class="toolbar">
+    <button class="btn" id="btnImport">📥 Import MD</button>
+    <button class="btn" id="btnOpen">📂 Open</button><input type="file" id="file" accept=".md,.markdown,.json" style="display:none">
+    <input type="text" id="q" placeholder="Search… (title, core, model, assignment)">
+    <select id="vol"><option value="">All Volumes</option></select>
+    <button class="btn" id="btnPrint">🖨️ Print</button>
+    <button class="btn" id="btnTheme">🌓 Theme</button>
+    <span class="small" id="stat" style="margin-left:auto">—</span>
+  </div>
+
+  <div class="grid">
+    <main id="list"></main>
+  </div>
+</div>
+
+<!-- Import modal -->
+<div class="modal" id="mdModal">
+  <div class="sheet">
+    <div style="display:flex; gap:8px; align-items:center">
+      <h3 style="margin:0">📥 Import Field Guide Markdown</h3>
+      <button class="btn" id="mdClose" style="margin-left:auto">✖</button>
+    </div>
+    <div class="small">Paste your FG 1–1000 Markdown. Parser expects the standard card format.</div>
+    <textarea id="mdText" placeholder="Paste Field Guide Markdown here…"></textarea>
+    <div style="display:flex; gap:8px; margin-top:8px">
+      <button class="btn" id="mdGo">Import</button>
+      <button class="btn" id="mdSeed">Load Seed</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const $=id=>document.getElementById(id);
+const $$=(s,root=document)=>[...root.querySelectorAll(s)];
+const toast=(m,t=1400)=>{ const el=$('toast'); el.textContent=m; el.classList.add('show'); clearTimeout(el._t); el._t=setTimeout(()=>el.classList.remove('show'),t); };
+const escapeHTML=s=>(s??'').toString().replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+
+const state={cards:[], view:[], theme:(localStorage.getItem('kiosk.theme')||'dark')};
+const seed=[{id:1,code:'FG-001',title:'Filing = Existence',core:'To file is to exist in the record.',lesson:'No filing, no case.',assignment:'Draft one line asserting your claim exists because it is filed.',model:'“This claim exists because it is filed on the record.”',reflection:'Filing breathes life.',volume:1,topic:'Foundations'}];
+
+function deriveVolume(n){ return Math.max(1, Math.ceil(n/50)); }
+function topicFromVolume(v){ const t=['Foundations','Suppression','Visibility','Action','Growth','Clarity','Memory','Struggle','Value','Reflection']; return t[(v-1)]||('Volume '+v); }
+
+function parseMarkdown(md){
+  const out=[]; const lines=md.replace(/\r/g,'').split('\n');
+  for(let i=0;i<lines.length;i++){
+    const m=lines[i].match(/^###\s+(FG-(\d{3,4}))\s+—\s+(.*)$/);
+    if(!m) continue;
+    const code=m[1], num=parseInt(m[2],10), title=m[3].trim();
+    const block=[]; for(let k=i+1;k<lines.length;k++){ if(/^###\s+FG-\d+/.test(lines[k])) break; block.push(lines[k]); }
+    const B=block.join('\n');
+    const pick=(label)=>{ const r=new RegExp(`[-*]\\s*${label}\\s*[:：]\\s*([\\s\\S]*?)(?:\\n\\s*[-*]\\s*|$)`,'i'); const x=B.match(r); return x?x[1].trim():''; };
+    const core = pick('(?:⚖️\\s*\\*\\*Core Message\\*\\*|Core Message|Core)');
+    const lesson = pick('(?:📖\\s*\\*\\*Lesson Content\\*\\*|Lesson Content|Lesson)');
+    const assignment = pick('(?:✏️\\s*\\*\\*Assignment\\*\\*|Assignment)');
+    const model = pick('(?:✅\\s*\\*\\*Model Response\\*\\*|Model Response|Model)');
+    const reflection = pick('(?:💡\\s*\\*\\*Reflection Summary\\*\\*|Reflection Summary|Reflection)');
+    out.push({id:num, code, title, core, lesson, assignment, model, reflection, volume:deriveVolume(num), topic:topicFromVolume(deriveVolume(num))});
+  }
+  // dedupe by id
+  const seen=new Set(); return out.filter(c=> seen.has(c.id)?false:(seen.add(c.id),true));
+}
+function seedToMarkdown(cards){ return cards.map(c=>`### ${c.code} — ${c.title}
+- ⚖️ **Core Message:** ${c.core}
+- 📖 **Lesson Content:** ${c.lesson}
+- ✏️ **Assignment:** ${c.assignment}
+- ✅ **Model Response:** ${c.model}
+- 💡 **Reflection Summary:** ${c.reflection}
+`).join('\n'); }
+
+function volumesFromCards(cards){
+  const v=[...new Set(cards.map(c=>c.volume).filter(Boolean))].sort((a,b)=>a-b);
+  $('vol').innerHTML='<option value="">All Volumes</option>'+v.map(x=>`<option value="${x}">Vol ${x}</option>`).join('');
+}
+function apply(){
+  const q=$('q').value.trim().toLowerCase(); const vol=$('vol').value;
+  const terms=q.split(/\s+/).filter(Boolean);
+  state.view = state.cards.filter(c=>{
+    if(vol && String(c.volume)!==String(vol)) return false;
+    if(!terms.length) return true;
+    const hay=(c.title+' '+c.core+' '+c.assignment+' '+c.model+' '+c.reflection).toLowerCase();
+    return terms.every(t=>hay.includes(t));
+  });
+  render();
+  $('stat').textContent = `${state.view.length} shown • ${state.cards.length} total`;
+}
+function cardHTML(c){
+  return `<article class="card">
+    <header><span class="badge">${c.code}</span> <h3>${escapeHTML(c.title)}</h3></header>
+    <div><div class="block">${escapeHTML(c.core)}</div></div>
+    <div class="small" style="opacity:.85">Model</div>
+    <div class="block">${escapeHTML(c.model)}</div>
+    <div class="meta"><span class="tag">Vol ${c.volume}</span><span class="tag">${escapeHTML(c.topic||'')}</span></div>
+    <footer>
+      <button class="btn" onclick="copyCard(${c.id})">📋 Copy</button>
+      <button class="btn" onclick="copyModel(${c.id})">📋 Model</button>
+    </footer>
+  </article>`;
+}
+function render(){ $('list').innerHTML = state.view.map(cardHTML).join('') || `<div class="small">No results. Try clearing filters.</div>`; }
+
+function copyCard(id){
+  const c=state.cards.find(x=>x.id===id); if(!c) return;
+  const out = `${c.code} — ${c.title}\n• Core: ${c.core}\n• Model: ${c.model}\n• Assignment: ${c.assignment}`;
+  navigator.clipboard.writeText(out).then(()=>toast('Copied'));
+}
+function copyModel(id){
+  const c=state.cards.find(x=>x.id===id); if(!c) return;
+  navigator.clipboard.writeText(c.model||'').then(()=>toast('Model copied'));
+}
+
+/* theme */
+function setTheme(t){ document.body.dataset.theme=t; localStorage.setItem('kiosk.theme',t); }
+$('btnTheme').onclick=()=> setTheme( (document.body.dataset.theme==='light')?'dark':'light' );
+/* light palette overrides via data-theme (reuse from main app if desired) */
+const style=document.createElement('style');
+style.textContent=`body[data-theme="light"]{--bg:#f6f8fb;--panel:#ffffff;--text:#0a1620;--muted:#49606f;--border:#dbe3ea;--chip:#f0f3f7;--accent:#0e7ad1;}
+body[data-theme="light"] .card,.toolbar{box-shadow:0 4px 16px rgba(0,0,0,.06)}`;
+document.head.appendChild(style);
+
+/* import */
+$('btnImport').onclick=()=> $('mdModal').classList.add('open');
+$('mdClose').onclick=()=> $('mdModal').classList.remove('open');
+$('mdSeed').onclick=()=> $('mdText').value = seedToMarkdown(seed);
+$('mdGo').onclick=()=>{
+  const txt=$('mdText').value.trim(); if(!txt) return toast('Nothing to import');
+  const cards = parseMarkdown(txt);
+  if(!cards.length) return toast('No cards found');
+  state.cards=cards; localStorage.setItem('kiosk.cards', JSON.stringify(cards));
+  volumesFromCards(cards); apply(); $('mdModal').classList.remove('open'); toast('Imported '+cards.length+' cards');
+};
+$('btnOpen').onclick=()=> $('file').click();
+$('file').onchange=e=>{
+  const f=e.target.files?.[0]; if(!f) return;
+  const r=new FileReader(); r.onload=ev=> importText(f.name, ev.target.result||''); r.readAsText(f,'utf-8'); e.target.value='';
+};
+window.addEventListener('dragover', e=>{ e.preventDefault(); e.dataTransfer.dropEffect='copy'; });
+window.addEventListener('drop', e=>{
+  e.preventDefault(); const f=e.dataTransfer.files?.[0]; if(!f) return;
+  const r=new FileReader(); r.onload=ev=> importText(f.name, ev.target.result||''); r.readAsText(f,'utf-8');
+});
+function importText(name, text){
+  if(/\.(json)$/i.test(name)){
+    try{
+      const data=JSON.parse(text); if(Array.isArray(data) && data[0]?.code){ state.cards=data; }
+      else if(data.cards){ state.cards=data.cards; }
+      else return toast('Unrecognized JSON');
+      localStorage.setItem('kiosk.cards', JSON.stringify(state.cards)); volumesFromCards(state.cards); apply(); toast('Loaded JSON');
+    }catch{ toast('Invalid JSON'); }
+    return;
+  }
+  const cards=parseMarkdown(text); if(cards.length){ state.cards=cards; localStorage.setItem('kiosk.cards', JSON.stringify(cards)); volumesFromCards(cards); apply(); toast('Imported '+cards.length); }
+  else toast('No cards found in Markdown');
+}
+
+/* search & filter */
+$('q').addEventListener('input', apply);
+$('vol').addEventListener('change', apply);
+$('btnPrint').onclick=()=> window.print();
+
+/* boot */
+(function boot(){
+  setTheme(state.theme);
+  try{
+    const cached=JSON.parse(localStorage.getItem('kiosk.cards')||'null');
+    state.cards = (Array.isArray(cached) && cached.length) ? cached : seed.slice();
+  }catch{ state.cards = seed.slice(); }
+  volumesFromCards(state.cards);
+  $('q').focus();
+  apply();
+  document.addEventListener('keydown', e=>{
+    if(e.target.matches('input,textarea')){ if(e.key==='Escape') e.target.blur(); return; }
+    if(e.key==='/'){ e.preventDefault(); $('q').focus(); }
+    if(e.key==='p'){ e.preventDefault(); window.print(); }
+  });
+})();
+</script>
+</body>
+</html>

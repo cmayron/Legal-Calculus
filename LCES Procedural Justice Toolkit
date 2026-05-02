@@ -1,0 +1,77 @@
+# Legal Case Expansion Suite (LCES) Deployment
+
+## 1. Family Law Edition – LCES Printable Packet
+
+<aside>
+
+### Cover Page
+
+**LCES: Procedural Justice Toolkit**
+*Family Law Edition – Custody, Divorce, Support*
+
+</aside>
+
+- Legal Action Loop Checklist
+    - Intake Sheet: court, parties, relief sought
+    - FG Cards: file petition, respond to motion, request hearing
+    - JC Reflexes: "You're emotional," "This is hearsay," "You're alienating the child"
+    - Evidence Pack: texts, calendars, school records
+    - Archive & Appeal posture
+- Sample FG Cards
+    - FG-801: File Custody Petition
+    - FG-802: Respond to Motion for Support
+    - FG-803: Request Emergency Hearing
+- JC Reflexes
+    - JC-081: "You're not credible" → Counter with clean records
+    - JC-087: "This is hearsay" → Counter with exceptions and declarations
+    - JC-093: "You're alienating the child" → Counter with parenting logs
+
+---
+
+## 2. Appellate Posture Edition – LCES Printable Packet
+
+<aside>
+
+### Cover Page
+
+**LCES: Procedural Justice Toolkit**
+*Appellate Edition – Preserve, Challenge, Publish*
+
+</aside>
+
+- Legal Action Loop Checklist
+    - Intake Sheet: lower court, ruling challenged, deadlines
+    - FG Cards: file notice of appeal, draft appellate brief, request oral argument
+    - JC Reflexes: "You waived this," "This isn't preserved," "This is harmless error"
+    - Evidence Pack: transcripts, rulings, exhibits
+    - Archive & Legacy posture
+- Sample FG Cards
+    - FG-901: File Notice of Appeal
+    - FG-902: Draft Appellate Brief
+    - FG-903: Request Oral Argument
+- JC Reflexes
+    - JC-091: "You waived this" → Counter with record citations
+    - JC-095: "This isn't preserved" → Counter with procedural timeline
+    - JC-099: "This is harmless error" → Counter with prejudice analysis
+
+---
+
+## 3. Starter Prompt Packs for AI Roles
+
+- Notion AI → ChatGPT (Builder Prompt)
+    
+    ```
+    "Pull Intake Sheet, Exhibit Index, and Governing Standard. Generate Draft Pack using FG-802 and FG-902. Format per jurisdictional rules and include citations."
+    ```
+    
+- ChatGPT → Gemini (Strategist Prompt)
+    
+    ```
+    "Here's the draft motion and proposed order. Stress-test for waiver, preservation, and credibility. Simulate JC reflexes and suggest refinements."
+    ```
+    
+- Gemini → Notion AI (Archivist Prompt)
+    
+    ```
+    "Flag Exhibit C as weak. Recommend narrowing relief. Update JC reflex log and archive commentary. Tag FG-902 as revised."
+    ```

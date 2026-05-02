@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Legal Calculus — LC 4.5 Advanced (Unified, Pre-Seeded)</title>
+<style>
+  :root{
+    --bg:#0c0f14; --bg-2:#121620; --bg-3:#171c27;
+    --text:#e7ecf3; --muted:#9fb0c8; --faint:#7e8aa1; --accent:#7dd3fc;
+    --good:#86efac; --warn:#fde68a; --bad:#fda4af; --ink:#a5b4fc;
+    --chip:#1f2634; --chip-br:#2a3242; --card:#111826; --card-br:#1b2232;
+    --hl:#0ea5e9; --link:#93c5fd; --sel:#1d4ed8;
+    --btn:#1b2332; --btn-br:#2c3547; --btn-h:#232d40;
+    --focus:#60a5fa; --shadow:0 8px 24px rgba(0,0,0,.35);
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    --sans: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji","Segoe UI Emoji";
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.45}
+  a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
+  .app{display:grid;grid-template-rows:auto 1fr auto;min-height:100dvh;grid-template-columns:280px 1fr;grid-template-areas:"top top" "side main" "foot foot";}
+  header{grid-area:top;position:sticky;top:0;z-index:5;background:linear-gradient(180deg,var(--bg-2),var(--bg));border-bottom:1px solid var(--card-br);padding:10px 14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  header .brand{display:flex;gap:10px;align-items:center;font-weight:800;letter-spacing:.2px}
+  header .brand .dot{width:10px;height:10px;border-radius:50%;background:var(--hl);box-shadow:0 0 14px var(--hl)}
+  .pill{background:var(--btn);border:1px solid var(--btn-br);border-radius:999px;padding:7px 10px;display:flex;align-items:center;gap:8px;color:var(--text)}
+  .pill input[type="search"]{background:transparent;border:none;outline:none;color:var(--text);width:240px;font-size:14px}
+  .ghost{opacity:.75}
+  .btn{background:var(--btn);border:1px solid var(--btn-br);padding:8px 12px;border-radius:10px;color:var(--text);cursor:pointer;transition:.15s background}
+  .btn:hover{background:var(--btn-h)} .btn.primary{background:#0b3b66;border-color:#124a7d}
+  .btn.primary:hover{background:#0e4a81} .btn.good{background:#0d3a1d;border-color:#18522c}
+  .btn.warn{background:#4a3b10;border-color:#6b5215} .btn.bad{background:#4a1a1f;border-color:#6b232a}
+  .btn.inline{padding:4px 8px;border-radius:8px;font-size:12px}
+  aside{grid-area:side;border-right:1px solid var(--card-br);background:var(--bg-2);padding:14px;overflow:auto}
+  .group{margin-bottom:16px} .group h3{margin:0 0 8px;font-size:13px;color:var(--muted);letter-spacing:.4px;text-transform:uppercase}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{background:var(--chip);border:1px solid var(--chip-br);padding:6px 8px;border-radius:999px;font-size:12px;cursor:pointer;user-select:none}
+  .chip.active{border-color:var(--accent);box-shadow:0 0 0 2px #0ea5e92e}
+  .small{font-size:12px;color:var(--muted)} .sep{height:1px;background:var(--card-br);margin:12px 0}
+  main{grid-area:main;padding:16px;overflow:auto;background:radial-gradient(1200px 600px at 60% -50%, #0b1220 0, transparent 60%)}
+  .toolbar{display:flex;gap:8px;align-items:center;margin-bottom:12px;flex-wrap:wrap}
+  .count{color:var(--muted);font-size:13px}
+  .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(310px,1fr))}
+  .card{background:var(--card);border:1px solid var(--card-br);border-radius:12px;padding:12px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:8px}
+  .card h4{margin:0;font-size:15px} .meta{display:flex;gap:8px;align-items:center;color:var(--faint);font-size:12px}
+  .badges{display:flex;gap:6px;flex-wrap:wrap}
+  .badge{font-size:11px;background:#0f172a;border:1px solid #1e293b;padding:3px 6px;border-radius:999px;color:#b6c8e6}
+  .sections{display:flex;flex-direction:column;gap:6px} .sect{font-size:13px;color:#c7d1e3} .sect b{color:#9db4d8}
+  .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px} .muted{color:var(--muted)}
+  .bundle{background:var(--bg-3);border:1px dashed var(--chip-br);padding:10px;border-radius:12px}
+  .bundle h4{margin:0 0 6px 0;font-size:14px} .btnrow{display:flex;gap:8px;flex-wrap:wrap}
+  .list{display:flex;flex-direction:column;gap:6px;margin:8px 0;max-height:160px;overflow:auto}
+  .row{display:flex;gap:6px;align-items:center;font-size:13px;padding:6px 8px;border:1px solid var(--chip-br);border-radius:8px}
+  .row:hover{background:#0f1420}
+  footer{grid-area:foot;padding:10px 14px;border-top:1px solid var(--card-br);background:linear-gradient(180deg,var(--bg),var(--bg-2));color:var(--muted);display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+  dialog{border:none;padding:0;border-radius:14px;overflow:hidden;color:var(--text);background:var(--bg-2);border:1px solid var(--card-br);max-width:min(900px,96vw);box-shadow:0 24px 60px rgba(0,0,0,.55)}
+  .dlg{padding:14px} .dlg h2{margin:0 0 8px 0}
+  textarea,select,input[type="text"],input[type="number"]{width:100%;background:#0f1420;color:var(--text);border:1px solid var(--chip-br);border-radius:10px;padding:10px;font-family:var(--mono)}
+  textarea{min-height:220px;resize:vertical}
+  .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+  .tab{padding:8px 10px;border:1px solid var(--chip-br);background:var(--chip);border-radius:10px;cursor:pointer}
+  .tab.active{border-color:var(--accent)} .pane{display:none} .pane.active{display:block}
+  @media print {
+    body{background:white;color:black}
+    header,aside,footer,.toolbar{display:none!important}
+    main{padding:0} #printable{display:block!important;color:black}
+    .p-card{page-break-inside:avoid;border:1px solid #222;margin:8px;padding:10px;border-radius:8px}
+    .p-card h4{margin:0 0 6px 0} .p-sect{font-size:12px}
+  }
+</style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="brand"><div class="dot"></div><div>Legal Calculus — <b>LC 4.5 Advanced (Unified)</b></div></div>
+      <div class="pill">🔎 <input id="q" type="search" placeholder="Search cards — ⌘/Ctrl+K" /></div>
+      <button class="btn" id="importMdBtn">Import MD</button>
+      <button class="btn" id="importJsonBtn">Import JSON</button>
+      <button class="btn" id="exportJsonBtn">Export JSON</button>
+      <button class="btn" id="copyLinesBtn">Copy Lines</button>
+      <button class="btn" id="printBtn">Print</button>
+      <span class="count" id="countLabel">0 cards</span>
+      <span class="small ghost">Tracks:</span>
+      <button class="btn inline" id="saveTrackBtn">Save Track</button>
+      <select id="tracksSelect" class="pill" title="Load Track"></select>
+      <span class="small ghost">Study:</span>
+      <button class="btn inline" id="studyBtn">Study Mode</button>
+      <span class="small ghost">Composer:</span>
+      <button class="btn inline" id="composeBtn">Case Composer</button>
+    </header>
+
+    <aside>
+      <div class="group"><h3>Volume</h3><div class="chips" id="volumes"></div></div>
+      <div class="group"><h3>Topic</h3><div class="chips" id="topics"></div></div>
+      <div class="group"><h3>Show Sections</h3><div class="chips" id="types"></div></div>
+      <div class="sep"></div>
+      <div class="group bundle">
+        <h4>Bundle (hearing / motion / appeal)</h4>
+        <div class="btnrow">
+          <button class="btn good" id="bundleFromSel">Add Selected</button>
+          <button class="btn bad" id="bundleClear">Clear</button>
+        </div>
+        <div class="list" id="bundleList"></div>
+        <div class="btnrow">
+          <button class="btn warn" id="bundleCopy">Copy Bundle</button>
+          <button class="btn primary" id="bundleExport">Export JSON</button>
+        </div>
+      </div>
+      <div class="group">
+        <h3>Help</h3>
+        <div class="small">
+          1) Paste full FG in <b>embedded-md</b> below or use <b>Import MD</b>.<br>
+          2) Filter & select → <b>Bundle</b> → Copy/Export/Print.<br>
+          3) Save <b>Tracks</b> for quick re-use. <b>⌘/Ctrl+K</b> jumps to search.
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="toolbar">
+        <span class="small">Sort:</span>
+        <select id="sort" class="pill">
+          <option value="id-asc">FG# ↑</option>
+          <option value="id-desc">FG# ↓</option>
+          <option value="title-asc">Title A–Z</option>
+          <option value="title-desc">Title Z–A</option>
+        </select>
+        <label class="pill"><input type="checkbox" id="onlySelected" /> Only selected</label>
+        <label class="pill"><input type="checkbox" id="liveFilter" checked /> Live filter</label>
+      </div>
+      <div id="cards" class="grid"></div>
+      <div id="printable" style="display:none"></div>
+    </main>
+
+    <footer>
+      <div class="small">LC Unified 4.5 Advanced — Offline, single-file. Local storage keeps your data.</div>
+      <div class="small">© Legal Calculus (open-access). No profit / no misrepresentation.</div>
+    </footer>
+  </div>
+
+  <!-- Import MD -->
+  <dialog id="mdDlg">
+    <div class="dlg">
+      <h2>Import Field Guide (Markdown FG 1–1000)</h2>
+      <p class="small">Paste your full Markdown. Parser finds each <b>FG-###</b> with sections.</p>
+      <textarea id="mdText" placeholder="Paste full Field Guide Markdown here…"></textarea>
+      <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:10px">
+        <button class="btn" onclick="mdDlg.close()">Cancel</button>
+        <button class="btn primary" id="mdParseBtn">Parse & Load</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Import JSON -->
+  <dialog id="jsonDlg">
+    <div class="dlg">
+      <h2>Import JSON</h2>
+      <textarea id="jsonText" placeholder='{"cards":[…]}'></textarea>
+      <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:10px">
+        <button class="btn" onclick="jsonDlg.close()">Cancel</button>
+        <button class="btn primary" id="jsonLoadBtn">Load JSON</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Study Mode -->
+  <dialog id="studyDlg">
+    <div class="dlg" style="min-width:min(900px,96vw);">
+      <h2>Study Mode</h2>
+      <div class="tabs">
+        <div class="tab active" data-pane="studyQueue">Queue</div>
+        <div class="tab" data-pane="studyOne">Card</div>
+        <div class="tab" data-pane="studyPrefs">Prefs</div>
+      </div>
+      <div class="pane active" id="studyQueue">
+        <div class="small">Queue uses current filter or “Only selected”.</div>
+        <div class="btnrow" style="margin:8px 0;">
+          <button class="btn good" id="studyStart">Start</button>
+          <button class="btn" id="studyShuffle">Shuffle</button>
+          <button class="btn bad" id="studyClear">Clear Progress</button>
+        </div>
+        <div class="small" id="studyStatus">0 / 0</div>
+      </div>
+      <div class="pane" id="studyOne">
+        <div id="studyCard"></div>
+        <div class="btnrow" style="margin-top:10px">
+          <button class="btn inline" id="studyShowAll">Show Sections</button>
+          <button class="btn good" id="studyEasy">Easy</button>
+          <button class="btn warn" id="studyAgain">Again</button>
+          <button class="btn" id="studyNext">Next →</button>
+        </div>
+      </div>
+      <div class="pane" id="studyPrefs"><div class="small">Light SM-lite scheduling (session-only).</div></div>
+      <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:10px">
+        <button class="btn" onclick="studyDlg.close()">Close</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Case Composer -->
+  <dialog id="composeDlg">
+    <div class="dlg" style="min-width:min(980px,96vw);">
+      <h2>Case Composer</h2>
+      <div class="tabs">
+        <div class="tab active" data-pane="cmpPick">Pick Template</div>
+        <div class="tab" data-pane="cmpBuild">Build</div>
+        <div class="tab" data-pane="cmpExport">Export</div>
+      </div>
+      <div class="pane active" id="cmpPick">
+        <div class="chips">
+          <div class="chip" data-tpl="hearing">Hearing Outline</div>
+          <div class="chip" data-tpl="motion">Motion Outline</div>
+          <div class="chip" data-tpl="appeal">Appeal Outline</div>
+        </div>
+        <p class="small">Templates pull Core/Assignment/Model/Reflection from your bundle/selection.</p>
+        <div class="btnrow"><button class="btn primary" id="cmpMake">Create From Bundle</button></div>
+      </div>
+      <div class="pane" id="cmpBuild">
+        <textarea id="cmpDoc" style="min-height:340px" placeholder="# Title…&#10;## Intro…"></textarea>
+        <div class="btnrow" style="margin-top:8px">
+          <button class="btn" id="cmpInsertSel">Insert Selected Cards</button>
+          <button class="btn" id="cmpInsertBundle">Insert Bundle</button>
+        </div>
+      </div>
+      <div class="pane" id="cmpExport">
+        <div class="btnrow">
+          <button class="btn" id="cmpCopyMd">Copy Markdown</button>
+          <button class="btn" id="cmpDownloadMd">Download Markdown</button>
+        </div>
+        <div class="small">Paste into your word processor / e-filing editor. Print decks from main app.</div>
+      </div>
+      <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:10px">
+        <button class="btn" onclick="composeDlg.close()">Close</button>
+      </div>
+    </div>
+  </dialog>
+
+<script>
+/* ---------------------- Utilities & State ---------------------- */
+const $ = sel => document.querySelector(sel);
+const $$ = sel => Array.from(document.querySelectorAll(sel));
+const byId = id => document.getElementById(id);
+
+const state = {
+  cards: [],
+  filtered: [],
+  selected: new Set(),
+  bundle: [],
+  filters: {
+    q: '', volume: 0, topics: new Set(),
+    showTypes: new Set(['core','lesson','assignment','model','reflection','visual']),
+    onlySelected:false, sort:'id-asc'
+  },
+  tracks: {},
+  study: { queue:[], idx:0, showAll:false }
+};
+
+const TOPIC_SET = ['Filing','Silence','Denial','Default','Efficiency','Closure','Archive'];
+const TYPES = [
+  { key:'core',label:'⚖️ Core'},{ key:'lesson',label:'📖 Lesson'},
+  { key:'assignment',label:'✏️ Assignment'},{ key:'model',label:'✅ Model'},
+  { key:'reflection',label:'💡 Reflection'},{ key:'visual',label:'🎨 Visual'},
+];
+const VOLUMES = Array.from({length:20},(_,i)=>i+1);
+
+/* ---------------------- Storage ---------------------- */
+const LS = {
+  cards:'lcfg_cards_v45_unified',
+  bundle:'lcfg_bundle_v45_unified',
+  selected:'lcfg_selected_v45_unified',
+  tracks:'lcfg_tracks_v45_unified'
+};
+function saveAll(){
+  localStorage.setItem(LS.cards, JSON.stringify(state.cards));
+  localStorage.setItem(LS.bundle, JSON.stringify(state.bundle));
+  localStorage.setItem(LS.selected, JSON.stringify([...state.selected]));
+  localStorage.setItem(LS.tracks, JSON.stringify(state.tracks));
+}
+function loadAll(){
+  const c = localStorage.getItem(LS.cards);
+  const b = localStorage.getItem(LS.bundle);
+  const s = localStorage.getItem(LS.selected);
+  const t = localStorage.getItem(LS.tracks);
+  state.cards = c? JSON.parse(c): [];
+  state.bundle = b? JSON.parse(b): [];
+  state.selected = new Set(s? JSON.parse(s): []);
+  state.tracks = t? JSON.parse(t): {};
+}
+
+/* ---------------------- Markdown Parser ---------------------- */
+function parseMarkdown(md){
+  const blocks = md.split(/\n(?=###\s*FG-?\d+\s*—)/g);
+  const out = [];
+  for(const block of blocks){
+    const head = block.match(/###\s*FG-?(\d+)\s*—\s*(.+)/);
+    if(!head) continue;
+    const id = +head[1]; const title = head[2].trim();
+    const volume = Math.max(1, Math.ceil(id/50));
+    const topic = (title.split('=').shift()||'').trim().replace(/[^A-Za-z]/g,'') || 'Other';
+    const sec = (re)=> (block.match(re)?.[1]||'').trim();
+
+    out.push({
+      id, title, volume, topic,
+      core: sec(/Core Message:\**\s*([\s\S]*?)(?:\n-|\n$)/i),
+      lesson: sec(/Lesson Content:\**\s*([\s\S]*?)(?:\n-|\n$)/i),
+      assignment: sec(/Assignment:\**\s*([\s\S]*?)(?:\n-|\n$)/i),
+      model: sec(/Model Response:\**\s*([\s\S]*?)(?:\n-|\n$)/i),
+      reflection: sec(/Reflection Summary:\**\s*([\s\S]*?)(?:\n-|\n$)/i),
+      visual: sec(/Visual Concept:\**\s*([\s\S]*?)(?:\n-|\n$)/i),
+      tags:[]
+    });
+  }
+  return out;
+}
+function normalizeCards(arr){
+  return arr.map(c=>{
+    const id = Number(c.id);
+    return {
+      id,
+      title: c.title||`FG-${id}`,
+      volume: c.volume || Math.max(1, Math.ceil(id/50)),
+      topic: c.topic || (c.title?.split('=')[0]||'Other').trim(),
+      core: c.core||'', lesson: c.lesson||'', assignment: c.assignment||'',
+      model: c.model||'', reflection: c.reflection||'', visual: c.visual||'',
+      tags: c.tags||[]
+    };
+  }).sort((a,b)=>a.id-b.id);
+}
+
+/* ---------------------- Filters & Render ---------------------- */
+function volumeChip(v){ const el=document.createElement('div'); el.className='chip'; el.textContent=v===0?'All':`V${v}`; el.dataset.v=v;
+  if(state.filters.volume===v) el.classList.add('active');
+  el.onclick=()=>{ state.filters.volume=v; renderFilters(); applyFilters(); }; return el; }
+function topicChip(name){ const el=document.createElement('div'); el.className='chip'; el.textContent=name;
+  if(state.filters.topics.has(name)) el.classList.add('active');
+  el.onclick=()=>{ state.filters.topics.has(name)? state.filters.topics.delete(name): state.filters.topics.add(name); renderFilters(); applyFilters(); }; return el; }
+function typeChip(t){ const el=document.createElement('div'); el.className='chip'; el.textContent=t.label; el.dataset.key=t.key;
+  if(state.filters.showTypes.has(t.key)) el.classList.add('active');
+  el.onclick=()=>{ state.filters.showTypes.has(t.key)? state.filters.showTypes.delete(t.key): state.filters.showTypes.add(t.key); renderFilters(); applyFilters(); }; return el; }
+
+function renderFilters(){
+  const v = byId('volumes'); v.innerHTML=''; v.appendChild(volumeChip(0)); VOLUMES.forEach(x=>v.appendChild(volumeChip(x)));
+  const t = byId('topics'); t.innerHTML=''; TOPIC_SET.forEach(n=>t.appendChild(topicChip(n)));
+  const y = byId('types'); y.innerHTML=''; TYPES.forEach(k=>y.appendChild(typeChip(k)));
+}
+
+function applyFilters(){
+  const f = state.filters; const qx = f.q.trim().toLowerCase();
+  let rows = state.cards.slice();
+  if(f.volume>0) rows = rows.filter(c=>c.volume===f.volume);
+  if(f.topics.size>0) rows = rows.filter(c=>f.topics.has(c.topic) || f.topics.has(c.topic?.split(/\s+/)[0]));
+  if(f.onlySelected) rows = rows.filter(c=>state.selected.has(c.id));
+  if(qx){
+    rows = rows.filter(c=>{
+      const hay = [
+        c.title,
+        f.showTypes.has('core')?c.core:'',
+        f.showTypes.has('lesson')?c.lesson:'',
+        f.showTypes.has('assignment')?c.assignment:'',
+        f.showTypes.has('model')?c.model:'',
+        f.showTypes.has('reflection')?c.reflection:'',
+        f.showTypes.has('visual')?c.visual:''
+      ].join(' | ').toLowerCase();
+      return hay.includes(qx);
+    });
+  }
+  if(f.sort==='id-asc') rows.sort((a,b)=>a.id-b.id);
+  if(f.sort==='id-desc') rows.sort((a,b)=>b.id-a.id);
+  if(f.sort==='title-asc') rows.sort((a,b)=>a.title.localeCompare(b.title));
+  if(f.sort==='title-desc') rows.sort((a,b)=>b.title.localeCompare(a.title));
+  state.filtered = rows;
+  renderCards(); updateCounts();
+}
+function badge(text){ const s=document.createElement('span'); s.className='badge'; s.textContent=text; return s; }
+function escapeHtml(s){ return String(s||'').replace(/[&<>]/g,c=>({ '&':'&amp;','<':'&lt;','>':'&gt;' }[c])) }
+
+function renderCards(){
+  const host = byId('cards'); host.innerHTML='';
+  for(const c of state.filtered){
+    const card = document.createElement('div'); card.className='card';
+    const h4 = document.createElement('h4'); h4.innerHTML = `<span class="muted">FG-${String(c.id).padStart(3,'0')}</span> — ${escapeHtml(c.title)}`;
+    card.appendChild(h4);
+    const meta = document.createElement('div'); meta.className='meta'; meta.innerHTML = `V${c.volume} • <span class="muted">${escapeHtml(c.topic)}</span>`;
+    card.appendChild(meta);
+
+    const b = document.createElement('div'); b.className='badges';
+    if(state.selected.has(c.id)) b.appendChild(badge('Selected'));
+    if(state.bundle.includes(c.id)) b.appendChild(badge('In Bundle'));
+    (c.tags||[]).slice(0,4).forEach(t=>b.appendChild(badge('#'+t)));
+    card.appendChild(b);
+
+    const secs = document.createElement('div'); secs.className='sections';
+    const sec = (k,l,v)=>{ if(!state.filters.showTypes.has(k)) return; const d=document.createElement('div'); d.className='sect'; d.innerHTML=`<b>${l}:</b> ${escapeHtml(v||'')}`; secs.appendChild(d); };
+    sec('core','⚖️ Core',c.core); sec('lesson','📖 Lesson',c.lesson); sec('assignment','✏️ Assignment',c.assignment);
+    sec('model','✅ Model',c.model); sec('reflection','💡 Reflection',c.reflection); sec('visual','🎨 Visual',c.visual);
+    card.appendChild(secs);
+
+    const actions = document.createElement('div'); actions.className='actions';
+    const mkBtn=(t,fn,cl='')=>{const b=document.createElement('button'); b.className='btn inline '+cl; b.textContent=t; b.onclick=fn; return b;};
+    actions.appendChild(mkBtn(state.selected.has(c.id)?'Deselect':'Select',()=>{ state.selected.has(c.id)?state.selected.delete(c.id):state.selected.add(c.id); saveAll(); applyFilters(); }));
+    actions.appendChild(mkBtn('Add to Bundle',()=>{ if(!state.bundle.includes(c.id)) state.bundle.push(c.id); saveAll(); renderBundle(); applyFilters(); }));
+    actions.appendChild(mkBtn('Copy Lines',()=>copyCardLines(c)));
+    card.appendChild(actions);
+
+    host.appendChild(card);
+  }
+}
+function updateCounts(){ byId('countLabel').textContent = `${state.filtered.length} cards • selected ${state.selected.size} • bundle ${state.bundle.length}`; }
+
+/* ---------------------- Bundle ---------------------- */
+function renderBundle(){
+  const list = byId('bundleList'); list.innerHTML='';
+  for(const id of state.bundle){
+    const c = state.cards.find(x=>x.id===id); if(!c) continue;
+    const row = document.createElement('div'); row.className='row';
+    row.innerHTML = `<span class="small">FG-${String(id).padStart(3,'0')}</span> — ${escapeHtml(c.title)}`;
+    const del = document.createElement('button'); del.className='btn inline bad'; del.textContent='✕';
+    del.onclick=()=>{ state.bundle = state.bundle.filter(x=>x!==id); saveAll(); renderBundle(); applyFilters(); };
+    row.appendChild(del); list.appendChild(row);
+  }
+}
+function bundleText(cards){
+  return cards.map(c => [
+    `FG-${String(c.id).padStart(3,'0')} — ${c.title}`,
+    c.core?`• Core: ${c.core}`:'', c.assignment?`• Assignment: ${c.assignment}`:'',
+    c.model?`• Model: ${c.model}`:'', c.reflection?`• Reflection: ${c.reflection}`:''
+  ].filter(Boolean).join('\n')).join('\n\n');
+}
+function copyBundle(){
+  const cards = state.bundle.map(id=>state.cards.find(x=>x.id===id)).filter(Boolean);
+  navigator.clipboard.writeText(bundleText(cards)); toast('Bundle copied');
+}
+function exportBundleJSON(){
+  const payload = { kind:'LCFG.bundle.v1', createdAt:new Date().toISOString(), ids:state.bundle.slice(),
+    cards: state.bundle.map(id=>state.cards.find(x=>x.id===id)).filter(Boolean) };
+  download('LCFG-bundle.json', JSON.stringify(payload,null,2));
+}
+
+/* ---------------------- Study ---------------------- */
+function studyBuildQueue(){
+  const pool = state.filters.onlySelected? state.cards.filter(c=>state.selected.has(c.id)) : state.filtered.slice();
+  state.study.queue = pool.map(c=>c.id); state.study.idx=0; state.study.showAll=false;
+  byId('studyStatus').textContent = `${state.study.idx} / ${state.study.queue.length}`;
+}
+function studyShowCurrent(){
+  const host=byId('studyCard'); host.innerHTML='';
+  const id = state.study.queue[state.study.idx];
+  if(id==null){ host.innerHTML='<div class="small">No more cards.</div>'; return; }
+  const c = state.cards.find(x=>x.id===id); if(!c){ host.textContent='Missing card'; return; }
+  const wrap=document.createElement('div'); wrap.className='card';
+  wrap.innerHTML = `<h4>FG-${String(c.id).padStart(3,'0')} — ${escapeHtml(c.title)}</h4><div class="small muted">V${c.volume} • ${escapeHtml(c.topic)}</div>`;
+  const sec=(l,v)=>`<div class="sect"><b>${l}:</b> ${escapeHtml(v||'')}</div>`;
+  wrap.innerHTML += state.study.showAll
+    ? `<div class="sections">${sec('⚖️ Core',c.core)}${sec('📖 Lesson',c.lesson)}${sec('✏️ Assignment',c.assignment)}${sec('✅ Model',c.model)}${sec('💡 Reflection',c.reflection)}</div>`
+    : `<div class="sections">${sec('⚖️ Core',c.core)}</div><div class="small muted">Click “Show Sections”.</div>`;
+  host.appendChild(wrap);
+  byId('studyStatus').textContent = `${state.study.idx+1} / ${state.study.queue.length}`;
+}
+
+/* ---------------------- Composer ---------------------- */
+function composeFromBundle(tpl='hearing'){
+  const cards = state.bundle.map(id=>state.cards.find(x=>x.id===id)).filter(Boolean);
+  const block = cards.map(c=>`### FG-${String(c.id).padStart(3,'0')} — ${c.title}
+- Core: ${c.core||''}
+- Assignment: ${c.assignment||''}
+- Model: ${c.model||''}
+- Reflection: ${c.reflection||''}`).join('\n\n');
+  const heads = {
+    hearing:'# Hearing Outline\n\n## Issues Presented\n\n## Record Cites\n\n## Argument\n\n',
+    motion:'# Motion Outline\n\n## Introduction\n\n## Background / Record\n\n## Standard\n\n## Argument\n\n## Relief Requested\n\n',
+    appeal:'# Appeal Outline\n\n## Jurisdiction\n\n## Questions Presented\n\n## Statement of the Case\n\n## Summary of Argument\n\n## Argument\n\n## Conclusion\n\n',
+    none:'# Document\n\n'
+  };
+  byId('cmpDoc').value = (heads[tpl]||heads.none) + block + '\n'; switchPane('cmpBuild');
+}
+function insertSelectedIntoComposer(){
+  const picks = [...state.selected].map(id=>state.cards.find(x=>x.id===id)).filter(Boolean);
+  byId('cmpDoc').value += '\n' + picks.map(c=>`### FG-${String(c.id).padStart(3,'0')} — ${c.title}\n- Core: ${c.core||''}\n- Model: ${c.model||''}`).join('\n\n') + '\n';
+}
+function insertBundleIntoComposer(){ composeFromBundle('none'); }
+
+/* ---------------------- Import/Export ---------------------- */
+function copyCardLines(c){
+  const text = [`FG-${String(c.id).padStart(3,'0')} — ${c.title}`, c.core?`Core: ${c.core}`:'', c.assignment?`Assignment: ${c.assignment}`:'', c.model?`Model: ${c.model}`:'', c.reflection?`Reflection: ${c.reflection}`:''].filter(Boolean).join('\n');
+  navigator.clipboard.writeText(text); toast('Lines copied');
+}
+function exportAllJSON(){
+  const payload = { kind:'LCFG.dataset.v1', exportedAt:new Date().toISOString(), cards:state.cards, tracks:state.tracks };
+  download('LCFG-dataset.json', JSON.stringify(payload,null,2));
+}
+function importJSON(text){
+  try{
+    const obj = JSON.parse(text);
+    if(obj.cards?.length){
+      state.cards = normalizeCards(obj.cards);
+      saveAll(); mdDlg.close?.(); applyFilters(); renderBundle(); renderTracks(); toast(`Loaded ${state.cards.length} cards`);
+    } else if (obj.ids && obj.cards){
+      state.bundle = obj.ids;
+      const present = new Set(state.cards.map(c=>c.id));
+      obj.cards.forEach(c=>{ if(!present.has(c.id)) state.cards.push(c) });
+      state.cards = normalizeCards(state.cards);
+      saveAll(); applyFilters(); renderBundle(); renderTracks(); toast(`Loaded bundle of ${state.bundle.length}`);
+    } else { toast('JSON not recognized', true); }
+  } catch(e){ toast('Invalid JSON', true); }
+}
+
+/* ---------------------- Tracks ---------------------- */
+function renderTracks(){
+  const sel=byId('tracksSelect'); sel.innerHTML='';
+  const def=document.createElement('option'); def.value=''; def.textContent='— Load Track —'; sel.appendChild(def);
+  Object.keys(state.tracks).sort().forEach(name=>{ const o=document.createElement('option'); o.value=name; o.textContent=name; sel.appendChild(o); });
+}
+
+/* ---------------------- UI Helpers ---------------------- */
+function download(filename, text){ const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([text],{type:'application/json'})); a.download=filename; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),1500); }
+function toast(msg,bad=false){ const t=document.createElement('div'); t.textContent=msg; t.style.position='fixed'; t.style.bottom='14px'; t.style.right='14px'; t.style.background=bad?'#4a1a1f':'#0b3b66'; t.style.border='1px solid #124a7d'; t.style.padding='8px 10px'; t.style.borderRadius='10px'; t.style.zIndex=9999; t.style.boxShadow='var(--shadow)'; document.body.appendChild(t); setTimeout(()=>t.remove(),2200); }
+function switchPane(id){ $$('#composeDlg .pane, #studyDlg .pane').forEach(p=>p.classList.remove('active')); byId(id).classList.add('active'); $$('#composeDlg .tab, #studyDlg .tab').forEach(t=>t.classList.remove('active')); $(`.tab[data-pane="${id}"]`)?.classList.add('active'); }
+function buildPrintable(){
+  const host=byId('printable'); host.innerHTML='';
+  const picks = state.filters.onlySelected? state.cards.filter(c=>state.selected.has(c.id))
+              : (state.bundle.length? state.bundle.map(id=>state.cards.find(x=>x.id===id)).filter(Boolean) : state.filtered);
+  picks.forEach(c=>{
+    const d=document.createElement('div'); d.className='p-card';
+    d.innerHTML = `<h4>FG-${String(c.id).padStart(3,'0')} — ${escapeHtml(c.title)} <span style="float:right;font-weight:600">V${c.volume}</span></h4>
+    <div class="p-sect"><b>Core:</b> ${escapeHtml(c.core||'')}</div>
+    <div class="p-sect"><b>Lesson:</b> ${escapeHtml(c.lesson||'')}</div>
+    <div class="p-sect"><b>Assignment:</b> ${escapeHtml(c.assignment||'')}</div>
+    <div class="p-sect"><b>Model:</b> ${escapeHtml(c.model||'')}</div>
+    <div class="p-sect"><b>Reflection:</b> ${escapeHtml(c.reflection||'')}</div>`;
+    host.appendChild(d);
+  });
+}
+
+/* ---------------------- Boot ---------------------- */
+function boot(){
+  loadAll();
+  // 1) If nothing in storage, try embedded JSON, then embedded MD, else minimal seed.
+  if(state.cards.length===0){
+    const ej = document.getElementById('embedded-json')?.textContent.trim();
+    if(ej){
+      try{
+        const obj = JSON.parse(ej);
+        if(obj.cards?.length){ state.cards = normalizeCards(obj.cards); toast(`Loaded ${state.cards.length} embedded cards`); }
+      }catch{}
+    }
+    if(state.cards.length===0){
+      const emd = document.getElementById('embedded-md')?.textContent.trim();
+      if(emd){
+        const parsed = parseMarkdown(emd);
+        if(parsed.length){ state.cards = normalizeCards(parsed); toast(`Parsed ${state.cards.length} embedded MD cards`); }
+      }
+    }
+    if(state.cards.length===0){
+      // final fallback seed (mini)
+      state.cards = normalizeCards([
+        { id:1,  title:'Filing = Existence', volume:1, topic:'Filing',
+          core:'To file is to exist in the record.',
+          lesson:'No filing, no case. Filing transforms grievance into memory.',
+          assignment:'Draft one line asserting your claim exists because it is filed.',
+          model:'“This claim exists because it is filed on the record.”',
+          reflection:'Filing is the act of breathing life into protest.',
+          visual:'A glowing brief appearing on an empty courtroom desk.',
+          tags:['foundations','presence']
+        },
+        { id:2,  title:'Silence = Absence', volume:1, topic:'Silence',
+          core:'Silence leaves only absence.',
+          lesson:'Courts may ignore, but silence proves avoidance.',
+          assignment:'Draft one line preserving silence as part of record.',
+          model:'“Judicial silence preserved as absence of due process.”',
+          reflection:'Absence itself is evidence.',
+          visual:'Empty judge’s chair with filing glowing beneath.',
+          tags:['foundations','suppression']
+        },
+        { id:13, title:'Denial = Step', volume:1, topic:'Denial',
+          core:'Denial is one step higher on the ladder to appeal.',
+          lesson:'Preserve denials as rungs, not rejections.',
+          assignment:'Draft one denial-preservation line.',
+          model:'“Denial preserved as step toward appellate review.”',
+          reflection:'Denial builds path upward.',
+          visual:'Staircase made of stamped “Denied” papers leading upward.',
+          tags:['appeals','motion']
+        },
+        { id:151, title:'Filing = Protest', volume:4, topic:'Filing',
+          core:'Filing is protest in permanent form.',
+          lesson:'A protest on paper cannot be erased by silence.',
+          assignment:'Draft one protest-preservation line.',
+          model:'“This filing preserved as protest recorded in law.”',
+          reflection:'Filing = embodied dissent.',
+          visual:'Brief glowing like raised fist.',
+          tags:['action','hearing']
+        },
+        { id:251, title:'Filing = River', volume:6, topic:'Filing',
+          core:'Filing flows forward, carving a path through resistance.',
+          lesson:'Like water, filings shape the record over time.',
+          assignment:'Draft one river-preservation line.',
+          model:'“This filing preserved as river cutting through silence.”',
+          reflection:'Filing = unstoppable current.',
+          visual:'Brief glowing like river winding through courthouse.',
+          tags:['clarity','flow']
+        }
+      ]);
+      toast('Loaded mini seed');
+    }
+    saveAll();
+  }
+
+  renderFilters(); renderBundle(); renderTracks(); applyFilters();
+
+  // hotkey
+  document.addEventListener('keydown',e=>{ if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){ e.preventDefault(); byId('q').focus(); } });
+}
+
+/* ---------------------- Wire UI ---------------------- */
+window.addEventListener('DOMContentLoaded', ()=>{
+  boot();
+
+  byId('q').addEventListener('input', e=>{ state.filters.q=e.target.value; if(byId('liveFilter').checked) applyFilters(); });
+  byId('sort').onchange = e=>{ state.filters.sort=e.target.value; applyFilters(); };
+  byId('onlySelected').onchange = e=>{ state.filters.onlySelected=e.target.checked; applyFilters(); };
+  byId('liveFilter').onchange = ()=> applyFilters();
+
+  byId('importMdBtn').onclick = ()=> mdDlg.showModal();
+  byId('mdParseBtn').onclick = ()=>{
+    const md = byId('mdText').value;
+    const cards = parseMarkdown(md);
+    if(cards.length===0){ toast('No cards found. Headers like "### FG-001 — Title".', true); return; }
+   

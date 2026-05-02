@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+import csv, os, datetime, sys
+CSV = sys.argv[1] if len(sys.argv) > 1 else "Master_Index.csv"
+OUT_HTML = sys.argv[2] if len(sys.argv) > 2 else "Start_Here.html"
+OUT_MD = sys.argv[3] if len(sys.argv) > 3 else "HASH_BADGES.md"
+rows = []
+with open(CSV, newline='') as f:
+    r = csv.DictReader(f)
+    for row in r:
+        rows.append(row)
+now = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+with open(OUT_MD, "w") as f:
+    f.write("# Legal Calculus - Hash Badges\n\nGenerated: **%s**\n\n" % now)
+    f.write("| Date | Title | File | SHA-256 | Status |\n|---|---|---|---|---|\n")
+    for r in rows:
+        f.write("| %s | %s | %s | `%s` | %s |\n" % (r.get('Date',''), r.get('Title',''), r.get('File',''), r.get('SHA-256',''), r.get('Status','posted')))
+items = ""
+for r in rows:
+    items += '    <li><a href="%s">%s</a> - <span class="badge">%s</span> <span class="small">(posted %s)</span></li>\n' % (r.get("File",""), r.get("Title",""), r.get("SHA-256",""), r.get("Date",""))
+html = """<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Start Here - Legal Calculus</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body { font-family: Arial, sans-serif; line-height: 1.5; margin: 2rem; }
+.badge { font-family: monospace; background:#f6f8fa; border:1px solid #e5e7eb; padding:6px 8px; border-radius:6px; }
+.small { color:#6b7280; font-size:0.85em; }
+</style>
+</head>
+<body>
+<h1>Start Here - 10 Minute Workflow</h1>
+<ol>
+  <li><strong>Open the Roadmap Kit</strong> - <a href="Roadmap_Kit.pdf">Roadmap_Kit.pdf</a></li>
+  <li><strong>Relief Palette + tick-box order</strong> - <a href="Clerk_3_Click_Packet_LINKED.pdf">Clerk 3-Click (linked)</a></li>
+  <li><strong>Map pins</strong> (Pin Atlas / Crosswalk). Spot-check 5 pins.</li>
+  <li><strong>Run QC Gate</strong>; compute SHA-256; file; update index.</li>
+</ol>
+<h2>Downloads</h2>
+<ul>
+%s
+</ul>
+<p class="small">Generated %s</p>
+</body></html>""" % (items, now)
+with open(OUT_HTML, "w", encoding="utf-8") as f:
+    f.write(html)
+print("Wrote %s and %s from %s" % (OUT_MD, OUT_HTML, CSV))

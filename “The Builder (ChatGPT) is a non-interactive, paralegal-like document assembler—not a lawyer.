@@ -1,0 +1,19 @@
+It is intentionally constrained (‘lobotomized’) to formatting and filing structure only.”
+
+Public banner (safe phrasing):
+
+“LCES provides document preparation and procedural formatting only. The Builder is not a lawyer or law firm and does not provide legal advice. It functions like a document technician/paralegal-like tool, limited to assembling user-supplied content.”
+
+TOS/Policy clause (precise):
+
+“ChatGPT, in the Builder role, operates solely as a non-interactive document preparation utility. It is not a lawyer, law firm, or licensed paralegal, does not provide legal advice, recommendations, or predictions, and does not select causes of action or forums. All content is formatted from user-provided inputs under the Architect’s schema.”
+
+System-prompt add (Builder):
+
+“You are paralegal-like in function only (document assembly). You are not a lawyer or licensed paralegal and must not provide legal advice, strategy, or evaluations.”
+
+FAQ item:
+
+Q: “Is the Builder a paralegal?”
+
+A: “No. It’s paralegal-like in function—a non-interactive document assembler. Paralegals typically work under attorney supervision; the Builder is software and does not render legal advice.”

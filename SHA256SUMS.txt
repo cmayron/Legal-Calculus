@@ -1,0 +1,2 @@
+406c46022b78ff2316d9640ba09e7ad0a23742d0390ba187f81a320db115f0a8  lc-framework-quickstart-checklist-v45.md
+3902a4f7424c86289bdd0f099b140852dd8c4c7143e9fd197fe534a8dde3ba9c  lc-template-pack-v45.zip

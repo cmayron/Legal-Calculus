@@ -1,0 +1,103 @@
+*Date:* [Current Date]
+
+*Case:* [Case Name/Number]
+
+*Reviewing:* [Draft Version #]
+
+*Tags:* Red Team, Gemini, JC Reflexes, [Case Tag]
+
+---
+
+## I. Executive Summary & Filing Readiness
+
+- **Overall Assessment:** [2–4 sentences on strengths + vulnerabilities]
+- **Filing Recommendation:** ☐ FILE NOW ☐ FILE W/ REVISIONS ☑ HOLD (fix P0 items)
+- **Readiness Score:** 🟢 / 🟡 / 🔴
+
+---
+
+## II. Priority Revisions (P0 / P1 / P2)
+
+**P0 — Mandatory Before Filing**
+
+- [ ]  Narrow relief to specific, time‑bound action (e.g., 14‑day stay). *(JC‑063)*
+- [ ]  Replace any screenshots with sworn declaration(s). *(JC‑027)*
+
+**P1 — High‑Value Improvements**
+
+- [ ]  Add local authority footnote to preempt opposition.
+- [ ]  Convert facts timeline to bulleted chronology.
+
+**P2 — Optional Polish**
+
+- [ ]  Tone: emphasize procedural remedy; remove rhetoric.
+
+---
+
+## III. JC Reflex Analysis (Simulated Gatekeeping)
+
+| JC Code | Judicial Reflex Trigger | Triggered? | Built‑In Counter |
+| --- | --- | --- | --- |
+| JC‑063 | “You’re asking for too much.” | ✅ | Narrow, time‑limited proposed order. |
+| JC‑027 | “This evidence isn’t credible.” | ✅ | Declaration replaces screenshot; authentication noted. |
+| JC‑045 | “You didn’t exhaust remedies.” | ⚠️ | Section II.B documents exhaustion. |
+
+---
+
+## IV. Vulnerability Flags & Strategic Notes
+
+- Potential admission at ¶__ → rephrase as neutral fact.
+- Weakest link: dependency on Exhibit __; without P0 fix, high risk.
+- Opponent’s likely attack: credibility diversion → neutralize in intro.
+
+---
+
+## V. Proposed Order — Redline
+
+**Original**
+
+> IT IS ORDERED that Defendants are enjoined from [Broad Action].
+> 
+
+**Suggested**
+
+> IT IS ORDERED that Defendants are temporarily enjoined from [Specific, Narrow Action] for a period not to exceed fourteen (14) days from the date of this Order.
+> 
+
+---
+
+## VI. Exhibit Integrity & Authentication
+
+- [ ]  Exhibit index updated (labels/dates/sources)
+- [ ]  Authentication method (declaration/metadata/chain) noted
+- [ ]  Confidentiality review (AEO/seal) complete
+
+---
+
+## VII. Procedural Posture Check
+
+- [ ]  Jurisdiction/venue
+- [ ]  Relief within power
+- [ ]  Rule/local‑rule cites
+- [ ]  Service plan + **COS**
+- [ ]  **NOF/NOL** (if required)
+- [ ]  Deadline proof (mailbox/ECF)
+
+---
+
+## VIII. Integration → LCES Tasks
+
+- [ ]  Update Proposed Order (narrow/time‑bound) template
+- [ ]  Swap Exhibit __ → Declaration __ + update index
+- [ ]  Add **[Local Case]** to standards library
+- [ ]  Convert timeline to **Facts Chronology** block
+
+---
+
+## IX. Sign‑Offs
+
+**Strategist:** [Name]
+
+**Red Team (initials):** [A][B][C]
+
+**Final Check (date/time):** [ ]

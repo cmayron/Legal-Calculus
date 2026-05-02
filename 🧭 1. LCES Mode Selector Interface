@@ -1,0 +1,129 @@
+**Page Title:** `LCES Mode Selector`
+
+**Sections:**
+
+- 🔴 Crisis Pro Se → toggles to FG cards, JC reflex map, emergency templates
+- 🟡 Second Opinion → lawyer audit checklist, semantic feedback loop
+- 🟢 Education → FG curriculum, coalition portal, legacy builder
+
+**Instructions Block:**
+
+“Choose your mode. Each activates a different set of Legal Calculus streams. AI will respond based on your selection.”
+
+---
+
+## 📘 2. **FG Card Database**
+
+**Database Title:** `FG Cards`
+
+**Properties:**
+
+- Card ID (e.g., FG-034)
+- Title (e.g., *Silence is Suppression*)
+- Lesson Summary
+- Assignment Prompt
+- Model Response
+- Linked Streams (multi-select)
+- Activated In Mode (multi-select)
+- Reflex Trigger
+- Redirect Protocol
+- Deployment Asset (file/link)
+- Status (Draft, Active, Archived)
+
+**Views:**
+
+- By Mode (Crisis, Second Opinion, Education)
+- By Reflex (Denial, Silence, Default)
+- By Stream (JC, FG, LCa, etc.)
+
+---
+
+## 🧩 3. **LCES Streams Index**
+
+**Database Title:** `LCES Streams`
+
+**Properties:**
+
+- Stream Name (LC, FG, LCa, JC, FGA, LCA)
+- Function
+- Activated In Mode
+- Core Reflexes
+- Linked FG Cards (relation to FG Cards)
+- Linked Modules
+- Redirect Triggers
+- Deployment Assets
+
+**Views:**
+
+- Stream Overview
+- Mode Activation Map
+- Reflex Trigger Map
+
+---
+
+## 🧮 4. **Lawyer Alignment Audit (LCa)**
+
+**Page Title:** `Lawyer Audit Checklist`
+
+**Checklist:**
+
+- [ ]  Caption, TOA, Certificate included?
+- [ ]  JC reflexes acknowledged?
+- [ ]  Refiled after suppression?
+- [ ]  LC framing used?
+- [ ]  Archive protocol followed?
+
+**Redirect Logic:**
+
+If “No” to any → link to FG card + template + LCA archive
+
+---
+
+## 📚 5. **FG Curriculum Pack**
+
+**Page Title:** `FG Curriculum`
+
+**Volumes:**
+
+- Vol. I: Foundations → FG-001, FG-002
+- Vol. II: Suppression → FG-021, FG-034
+- Vol. III: Memory → FG-057, FG-073
+- Vol. IV: Growth → FG-088, FG-099
+
+Each card includes:
+
+- ✅ Lesson
+- 📝 Assignment
+- 📄 Model Response
+- 🎯 Visual Concept
+
+---
+
+## 🏛️ 6. **Coalition Portal (LCA)**
+
+**Page Title:** `Coalition Deployment Pack`
+
+**Sections:**
+
+- Templates: onboarding, disclaimers, legacy pages
+- Checklists: ops buddy, educator, pro se
+- Printable FG Cards
+- Legacy Builder: encode story, modules, reflexes, assets
+
+---
+
+## 🧠 7. **Redirect Protocols**
+
+**Page Title:** `Redirect Logic Map`
+
+**Table Format:**
+
+| Reflex | Trigger | FG Card | Redirect Action |
+| --- | --- | --- | --- |
+| Denial | Motion denied | FG-021 | Refile with caption, TOA, certificate |
+| Silence | No ruling | FG-034 | File notice of silence |
+| Default | No response | FG-057 | File for default judgment |
+
+---
+
+Here’s a full **Notion Template Pack** for Legal Calculus deployment—modular, semantic, and ready to activate AI-powered procedural memory across modes, streams, and reflexes. You can copy these into your Notion workspace and customize them for coalition onboarding, law school curriculum, or pro se survival.

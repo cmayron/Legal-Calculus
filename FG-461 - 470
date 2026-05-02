@@ -1,0 +1,97 @@
+FG-461 — Roadmap Page (Q • Std • Pins • Relief)
+	•	⚖️ Core Message: Put your case on one page that a judge can sign from.
+	•	📖 Lesson Content: Four blocks: Question(s) (≤2, neutral), Standards (one line each), Pins (best 2–3), Relief (two lines + scope). Hash it; reuse in OA and status.
+	•	📝 Assignment: Draft a one-page roadmap for your live issue and export as PDF.
+	•	✅ Model Response: “Q: Must court reach harm? Std: abuse. Pins: Dkt 18:2; Tab 3 p.2. Relief: remand 21d (a–d). Scope: ¶3 only.”
+	•	💡 Reflection Summary: Maps decide cases.
+	•	🎨 Visual Concept: Four stacked tiles with a fingerprint footer.
+
+⸻
+
+FG-462 — Relief Bank (Decide • Remand • Clarify • Scope)
+	•	⚖️ Core Message: Maintain paste-ready relief text the court can sign today.
+	•	📖 Lesson Content: Bank entries: Primary (decide now), Alternate (limited remand), Minimal (clarify), Scope (who/what/when). Version/date; store in Relief_Bank.md.
+	•	📝 Assignment: Write four relief snippets and paste them into your conclusion.
+	•	✅ Model Response: “Vacate & remand 21 days for (a)–(d); scope ¶3 only; status 14d.”
+	•	💡 Reflection Summary: Orders beat adjectives.
+	•	🎨 Visual Concept: A drawer of short slips labeled Decide/Remand/Clarify/Scope.
+
+⸻
+
+FG-463 — Source Table (Doc • Where • Hash)
+	•	⚖️ Core Message: Prove where every page came from in one table.
+	•	📖 Lesson Content: Columns: Doc title • Source (ECF/agency) • PageID/URL • SHA-256; place at appendix front; cite once in the brief.
+	•	📝 Assignment: Build a 10-row source table and export to PDF.
+	•	✅ Model Response: “Order (Dkt 88) — ECF — PageID 1234 — SHA-256 ….”
+	•	💡 Reflection Summary: Source tables end authenticity fights.
+	•	🎨 Visual Concept: A ledger with a fingerprint column.
+
+⸻
+
+FG-464 — Crosswalk Card (Issue → Tab → Relief)
+	•	⚖️ Core Message: The crosswalk shows how the page becomes an order.
+	•	📖 Lesson Content: Three columns: Issue • Appx Tab p.# • Relief line; include your anchor page and gap page.
+	•	📝 Assignment: Draft a 6-row crosswalk and put it on OA p.2.
+	•	✅ Model Response: “Harm gap — Tab 3 p.2 — remand 21d (a–d).”
+	•	💡 Reflection Summary: Navigation is half the win.
+	•	🎨 Visual Concept: A subway map: Issue stop → Tab stop → Order stop.
+
+⸻
+
+FG-465 — Mandate-Return Packet (Findings Grid • Status • Order)
+	•	⚖️ Core Message: Return from remand with findings grid + status + short order.
+	•	📖 Lesson Content: Packet: Findings grid (a–d lines), 2-page status (what changed, pins), tick-box order; file within 48h of return.
+	•	📝 Assignment: Assemble the packet for your case and add a hash line.
+	•	✅ Model Response: “Findings at Dkt 101:2–3; order attached; status: schedule below; SHA-256 ….”
+	•	💡 Reflection Summary: Clean returns get decided.
+	•	🎨 Visual Concept: Three pages clipped with a fingerprint ribbon.
+
+⸻
+
+FG-466 — Pin Deck (Ten Anchors You Can Point To)
+	•	⚖️ Core Message: Keep 10 anchor pages ready to flash and cite.
+	•	📖 Lesson Content: Build a mini-deck: cover with legend + hashes, then 10 anchor pages (one sentence each: what the page proves).
+	•	📝 Assignment: Export a 12-page Pin Deck PDF and file a same-day notice if used at OA.
+	•	✅ Model Response: “Deck hash SHA-256 …; Page 3 shows ‘not reached’ (Dkt 18:2).”
+	•	💡 Reflection Summary: Anchors beat wandering tours.
+	•	🎨 Visual Concept: A small deck of page thumbnails with pin tags.
+
+⸻
+
+FG-467 — Status-with-Order (Stop Writing, Start Signing)
+	•	⚖️ Core Message: Every status should carry the order you want signed.
+	•	📖 Lesson Content: 120 words of facts (pins) + tick-box order (two lines + scope/sunset/status).
+	•	📝 Assignment: Draft a status-with-order you can file tomorrow.
+	•	✅ Model Response: “Harm not reached (Dkt 18:2). Order: remand 21d for (a–d); scope ¶3; status 14d.”
+	•	💡 Reflection Summary: Status is not commentary—it’s actuation.
+	•	🎨 Visual Concept: A paragraph page clipped to a tiny order card.
+
+⸻
+
+FG-468 — OA Pocket Trio (Roadmap • Relief • Posture)
+	•	⚖️ Core Message: Carry three palm cards; memorize them.
+	•	📖 Lesson Content: Roadmap (Q/Std/2 pins/Ask), Relief (ladder + scope), Posture (triangle). Hash; same labels as packet.
+	•	📝 Assignment: Print your trio and bring two sets to OA.
+	•	✅ Model Response: “Card 1—Ask/Std/2 pins/Ask; Card 2—Remand 21d; Card 3—§1291; Rule 58 08/15; NOA 08/19.”
+	•	💡 Reflection Summary: Pocket discipline wins rooms.
+	•	🎨 Visual Concept: Three pocket cards with a tiny fingerprint footer.
+
+⸻
+
+FG-469 — Relief Ladder Figure (2×2 Grid in the Brief)
+	•	⚖️ Core Message: Draw the order choices so the panel can see them.
+	•	📖 Lesson Content: 2×2: Primary/Alternate on row 1; Minimal/Scope on row 2; label two pins in the margin; caption neutral.
+	•	📝 Assignment: Add a small 2×2 relief figure to your draft.
+	•	✅ Model Response: “Primary: reverse (Dkt 18:2; Tab 3 p.2). Alt: remand 21d. Minimal: clarify n.3. Scope: ¶3 parties only.”
+	•	💡 Reflection Summary: Visuals shorten thinking time.
+	•	🎨 Visual Concept: A 2×2 box labeled with four short lines.
+
+⸻
+
+FG-470 — “Start Here” Case Page (One Screen, Docs-First)
+	•	⚖️ Core Message: Put a Start Here page in every significant matter.
+	•	📖 Lesson Content: One screen: What happened • Where to verify (two hashed links) • What’s next (date) • Download table (CSV-driven).
+	•	📝 Assignment: Export your case Start Here page as HTML/PDF and link it at the top of your repo.
+	•	✅ Model Response: “Outcome: remand for findings; Docs: Opinion (sha …), Mandate (sha …); Next: findings due 09/15.”
+	•	💡 Reflection Summary: Orientation invites help.
+	•	🎨 Visual Concept: A clean web card with two fingerprint links and a small calendar chip.

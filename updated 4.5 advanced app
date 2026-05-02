@@ -1,0 +1,201 @@
+single-file app you have with 4 handy pro features — without changing its design:
+
+1. ★ Favorites (star cards + “Starred only” filter)
+2. 📂 Drag-and-drop / file-picker import (.md or .json)
+3. 🔗 Shareable URL state (search/filters/bundle/mode in the hash)
+4. #️⃣ Numbered bundle copy (hearing/appeal/motion ready)
+
+Below are small, copy-paste patches. They’re safe to add to your existing LC-Unified-4.5.html.
+
+**A) UI additions (Field Guide toolbar)**
+
+Find the Field Guide toolbar buttons and add these (right after “📦 Use Embedded”):
+
+<button class="btn" id="fgOpenFile">📂 Open</button>
+<input type="file" id="fgFile" accept=".md,.markdown,.json" style="display:none" />
+<button class="btn" id="fgShare">🔗 Share</button>
+
+Inside the chips container (id="fgChips"), add a “Starred” chip:
+
+<div class="chip" data-chip="star">★ Starred</div>
+
+In the Bundle panel controls, add a numbered copy button:
+
+<button class="btn" id="bundleCopyNumbered">#️⃣ Copy Numbered</button>
+
+# **B) Replace**
+
+# **cardHTML**
+
+# **(adds star button)**
+
+Replace your whole function cardHTML(c){…} with:
+
+function cardHTML(c){
+const starred = state.stars.has([c.id](http://c.id/));
+return    `<article class="card">     <header><span class="badge">${c.code}</span><h3>${escapeHTML(c.title)}</h3></header>     <div class="panel-body" style="display:grid;gap:8px">       <div><div class="label">Core</div><div class="block">${escapeHTML(c.core)}</div></div>       <div class="${state.basic?'':'show'}" style="${state.basic?'display:none':''}">         <div class="label">Lesson</div><div class="block">${escapeHTML(c.lesson)}</div>       </div>       <div><div class="label">Assignment</div><div class="block">${escapeHTML(c.assignment)}</div></div>       <div><div class="label">Model</div><div class="block">${escapeHTML(c.model)}</div></div>       <div class="${state.basic?'':'show'}" style="${state.basic?'display:none':''}">         <div class="label">Reflection</div><div class="block">${escapeHTML(c.reflection)}</div>       </div>       <div class="meta">         <span class="tag">Vol ${c.volume}</span>         <span class="tag">${escapeHTML(c.left)}</span>         ${c.right?`<span class="tag">${escapeHTML(c.right)}`:''}         ${starred?`<span class="tag">★</span>`:''}       </div>     </div>     <footer>       <button class="btn" onclick="toggleBundle(${c.id})">➕ Add</button>       <button class="btn" onclick="copyLine(${c.id},'model')">📋 Model</button>       <button class="btn" onclick="copyLine(${c.id},'assignment')">✏️ Assignment</button>       <button class="btn" onclick="toggleStar(${c.id})">${starred?'★':'☆'}</button>       <span style="margin-left:auto;color:var(--muted)">#${c.id}</span>     </footer>   </article>`;
+}
+
+**C) Extend state + storage**
+
+In the state = { … } object, add a stars set:
+
+const state = {
+cards:[], view:[], bundle:[],
+filters:{q:'', vol:'', topic:'', chips:new Set()},
+basic:true,
+journal:[],
+clauses:[],
+stars:new Set()
+};
+
+In saveLocal() add:
+
+localStorage.setItem('lcu.stars', JSON.stringify([...state.stars]));
+
+In loadLocal() after loading other keys, add:
+
+try{
+const s = JSON.parse(localStorage.getItem('lcu.stars')||'[]');
+state.stars = new Set(s);
+}catch{}
+
+**D) Filter by ★ and keep counts correct**
+
+In applyFilters() add star logic (right after const {q, vol, topic, chips} = state.filters;):
+
+const wantStar = chips.has('star');
+
+Inside the filter body, before the final return true;, add:
+
+if(wantStar && !state.stars.has([c.id](http://c.id/))) return false;
+
+**E) New helpers (paste once, anywhere with the other functions)**
+
+/* ---------- Stars ---------- */
+function toggleStar(id){
+if(state.stars.has(id)) state.stars.delete(id); else state.stars.add(id);
+saveLocal(); renderFG();
+}
+
+/* ---------- File open + drag & drop ---------- */
+function importText(name, text){
+if(/\.(json)$/i.test(name.trim())){
+try{
+const data = JSON.parse(text);
+if(Array.isArray(data) && data.length && data[0].code){ // cards array
+state.cards = data; state.bundle=[]; saveLocal(); resetFG(); toast('Loaded cards JSON: '+data.length);
+}else if(data && (data.cards||data.bundle||data.journal||data.clauses)){ // full backup
+state.cards = data.cards||state.cards;
+state.bundle = data.bundle||[];
+state.journal = data.journal||[];
+state.clauses = data.clauses||[];
+state.stars = new Set(data.stars||[]);
+saveLocal(); resetFG(); toast('Loaded backup');
+}else{
+alert('JSON not recognized (cards array or backup).');
+}
+}catch(e){ alert('Invalid JSON'); }
+return;
+}
+// Markdown
+const cards = parseMarkdown(text);
+if(cards.length){ state.cards=cards; state.bundle=[]; saveLocal(); resetFG(); toast('Imported '+cards.length+' cards'); }
+else alert('No cards found in Markdown.');
+}
+
+function handleFile(f){
+const reader = new FileReader();
+reader.onload = e=> importText([f.name](http://f.name/), e.target.result||'');
+reader.readAsText(f, 'utf-8');
+}
+
+/* Drag over the whole window */
+window.addEventListener('dragover', e=>{ e.preventDefault(); e.dataTransfer.dropEffect='copy'; });
+window.addEventListener('drop', e=>{
+e.preventDefault();
+const f = e.dataTransfer.files && e.dataTransfer.files[0];
+if(f) handleFile(f);
+});
+
+/* ---------- Shareable URL state (#hash) ---------- */
+function writeHash(){
+const params = new URLSearchParams();
+if(state.filters.q) params.set('q', state.filters.q);
+if(state.filters.vol) params.set('vol', state.filters.vol);
+if(state.filters.topic) params.set('topic', state.filters.topic);
+if(state.filters.chips.size) params.set('chips', [...state.filters.chips].join(','));
+params.set('mode', state.basic?'basic':'adv');
+if(state.bundle.length) params.set('bundle', state.bundle.join(','));
+location.hash = params.toString();
+}
+
+function readHash(){
+if(!location.hash) return;
+const params = new URLSearchParams(location.hash.slice(1));
+const q = params.get('q')||''; const vol=params.get('vol')||''; const topic=params.get('topic')||'';
+const chips=(params.get('chips')||'').split(',').map(s=>s.trim()).filter(Boolean);
+const mode=(params.get('mode')||'basic');
+const bundle=(params.get('bundle')||'').split(',').map(x=>parseInt(x,10)).filter(n=>!isNaN(n));
+$('fgQ').value = q; $('fgVol').value = vol; $('fgTopic').value = topic;
+state.filters.q=q; state.filters.vol=vol; state.filters.topic=topic; state.filters.chips=new Set(chips);
+document.querySelectorAll('#fgChips .chip').forEach(ch=> ch.classList.toggle('active', state.filters.chips.has(ch.dataset.chip)));
+if(mode==='adv'){ $('btnAdvanced').click(); } else { $('btnBasic').click(); }
+if(bundle.length){ state.bundle = bundle; }
+applyFilters();
+}
+
+/* ---------- Numbered bundle copy ---------- */
+function copyBundleNumbered(){
+const prof = ($('bundleProfile').value||'Hearing').toUpperCase();
+const set = state.bundle.map(id=>state.cards.find(c=>c.id===id)).filter(Boolean);
+if(!set.length){ toast('Bundle is empty'); return; }
+const lines = set.map((c,i)=>`${i+1}. ${c.code} — ${c.title}\\n   • Core: ${c.core}\\n   • Model: ${c.model}\\n   • Assignment: ${c.assignment}`);
+const header = `=== ${prof} Bundle${$('bundleTitle').value?(' — '+$('bundleTitle').value):''} (${set.length} items) ===\\n`;
+const out = header + lines.join('\n\n');
+navigator.clipboard.writeText(out).then(()=>toast('Numbered bundle copied'));
+}
+
+**F) Wire up the new buttons + hash sync + keyboard**
+
+Inside boot() add these listeners (after other FG events):
+
+// Open file button
+$('fgOpenFile').onclick=()=> $('fgFile').click();
+$('fgFile').onchange=(e)=>{ const f=e.target.files?.[0]; if(f) handleFile(f); e.target.value=''; };
+
+// Share button writes #hash (and we also auto-update on filter changes)
+$('fgShare').onclick=writeHash;
+window.addEventListener('hashchange', readHash);
+
+// Re-write hash whenever key filters change
+['fgQ','fgVol','fgTopic'].forEach(id=> $(id).addEventListener('input', ()=> setTimeout(writeHash, 50)));
+document.querySelectorAll('#fgChips .chip').forEach(ch=> ch.addEventListener('click', ()=> setTimeout(writeHash, 50)));
+$('bundleCopyNumbered').onclick=copyBundleNumbered;
+
+// Quick shortcuts
+document.addEventListener('keydown', (e)=>{
+if(e.target.matches('input,textarea')) return;
+if(e.key==='/'){ e.preventDefault(); $('fgQ').focus(); }
+if(e.key==='b'){ e.preventDefault(); (state.basic?$('btnAdvanced'):$('btnBasic')).click(); }
+if(e.key==='p'){ e.preventDefault(); window.print(); }
+});
+
+**G) Optional: include stars in full backup**
+
+In Settings → backup handler (xAll click), if your code directly dumps pieces, switch to:
+
+$('xAll').onclick=()=> saveJSON('LC-Backup.json', {
+cards: state.cards, bundle: state.bundle, journal: state.journal,
+clauses: state.clauses, stars: [...state.stars],
+profile: { title:$('bundleTitle').value||'', profile:$('bundleProfile').value||'Hearing' }
+});
+
+**Done**
+
+- Drag a .md or .json file anywhere on the window to import, or click 📂 Open.
+- Click the ☆ on any card to star it, then toggle ★ Starred in the chips.
+- Click 🔗 Share to put the current search/filters/bundle/mode in the URL hash; copy the address.
+- Use #️⃣ Copy Numbered for a hearing/appeal/motion packet with numbering and headings.
+
+If you’d rather have me ship a fully merged file with these baked in (no patching), say the word and I’ll drop a complete LC-Unified-4.5-Plus.html.

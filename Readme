@@ -1,0 +1,168 @@
+Legal Calculus Educational System README — Polished Version
+
+---
+
+### Overview
+
+**Legal Calculus Educational System (LCES)**
+
+**Open‑source legal literacy for pro se litigants. Not legal advice — a public educational toolkit.**
+
+**Legal Calculus** reframes litigation as **information organization**. It pairs structured curriculum, court‑ready templates, and a multi‑AI quality control pipeline so people can build, preserve, and present the legal record with confidence. The system equals **human persistence + AI scaffolding = procedural empowerment**.
+
+---
+
+### Quick Start
+
+**Get started in five steps**
+
+1. **Clone the repo**`git clone <https://github.com/cmayron/Legal-Calculus`>
+2. **Read the Quickstart Checklist**`lc-framework-quickstart-checklist-v45.md`
+3. **Download templates**`lc-template-pack-v45.zip`
+4. **Use Field Guides for urgent filings** and Study Guides for deeper learning
+5. **Validate drafts** against local court rules before filing
+
+**Crisis Mode** — jump to the Crisis Mode section for emergency filing guidance.
+
+---
+
+### Three‑AI Architecture
+
+**Division of labor for safer automation**
+
+- **Architect AI** — encodes strategy, maps legal elements, and produces machine‑readable policy artifacts.
+- **Builder AI** — drafts documents, populates templates, organizes exhibits, and formats filings.
+- **Inspector AI** — validates citations, enforces formatting, checks deadlines, and surfaces risks.
+
+**Human strategist** sets thresholds, resolves disputes, and signs off on high‑risk filings. This pipeline creates a one‑person law‑firm workflow with built‑in quality control.
+
+---
+
+### What’s Included
+
+**Core curriculum and practical tools**
+
+- **Modules**: 119+ modules covering Court Basics, Pleadings, Evidence, E‑Filing, Hearing Prep, Appeals, and Enforcement.
+- **Field Guides**: quick checklists for immediate filings.
+- **Templates**: court‑ready motions, declarations, and exhibit logs.
+- **Element Mappers**: legal requirement checklists for common causes of action.
+- **Evidence Ledgers**: contemporaneous fact‑tracking systems.
+- **Motion Scaffolding**: stepwise drafting templates.
+- **Study Guides**: progressive learning paths for procedural literacy.
+
+---
+
+### People’s Law School Approach
+
+**Principles that guide every module**
+
+- **Procedural literacy first** — know how courts work before you litigate.
+- **Format as survival** — correct formatting prevents dismissals.
+- **The record is the remedy** — a clean record preserves rights and remedies.
+- **Learning by doing** — templates and checklists enable immediate action while teaching principles.
+
+---
+
+### Why Legal Calculus Is Unique
+
+**Designed for public access, governance, and court readiness**
+
+- **Open and free** — CC0 public domain license.
+- **Procedural focus** — full system for building the record, not just legal research.
+- **Three‑AI governance** — Architect, Builder, Inspector plus human strategist for auditability.
+- **Scalable and localizable** — forks and modules let communities adapt to local rules.
+- **Educational depth** — a full curriculum, not a single tool.
+
+---
+
+### How to Use the Repository
+
+**Immediate filing workflow**
+
+1. Open `/Field-Guides/` and select your document type.
+2. Follow the checklist step‑by‑step.
+3. Use Builder AI to draft and Inspector AI to validate.
+4. Confirm local court rules and file with proof of service.
+5. Save validated drafts to `/packets/`.
+
+**Learning workflow**
+
+1. Start with `/Modules/Foundations/`.
+2. Progress through Study Guides 1–5 for basics.
+3. Practice with sample scenarios and build your Element Mapper.
+4. Maintain an Evidence Ledger from day one.
+
+**AI‑assisted drafting workflow**
+
+1. Use an Architect model for strategy and element mapping.
+2. Provide facts and elements to Builder AI for drafting.
+3. Run Inspector AI’s 8‑step validation pass.
+4. Human strategist reviews flagged items and signs off.
+
+---
+
+### Governance and Safety
+
+**Provenance, thresholds, and community norms**
+
+- **Machine‑readable calculi** — lawyer calculus and judicial calculus encoded as JSON/YAML with versioning.
+- **Forkwatch ledger** — public provenance logs for forks, intent declarations, and model decisions.
+- **Validation thresholds** — disagreement scores and risk bands that trigger human review.
+- **Local stewardship** — community maintainers curate jurisdictional modules.
+- **Safety nets** — strategist sign‑off required for high‑risk filings and public audit trails for overrides.
+
+---
+
+### Contribution Guide
+
+**How to help build the commons**
+
+- Fork the repository and create a branch for your changes.
+- Submit PRs with clear documentation and tests.
+- Contribute jurisdiction templates, anonymized case studies, translations, accessibility improvements, and new modules.
+- Join discussions in Issues and help curate the Forkwatch ledger.
+
+---
+
+### Crisis Mode
+
+**If you must file immediately**
+
+1. Go to `/Field-Guides/` and find the matching document type.
+2. Run the 8‑step Inspector validation checklist.
+3. Confirm formatting and deadlines with local court rules.
+4. File with proof of service and keep copies.
+5. Follow up with supplemental filings if needed.
+
+**Remember**: a timely, imperfect filing is often better than a perfect, late one.
+
+---
+
+### Impact Metrics and Pilot Plan
+
+**Track what matters**
+
+- **Adoption**: active forks and local deployments.
+- **Trust**: percentage of filings passing Inspector checks without human override.
+- **Impact**: cases where procedural compliance preserved rights or avoided dismissal.
+- **Sustainability**: funding covering core infrastructure.
+
+**Pilot plan** (suggested): run a 6‑week pilot in one jurisdiction to measure format compliance, citation accuracy, human‑override rate, and court acceptance.
+
+---
+
+### Contact and License
+
+**Author**: Dr. Charles Mayron, MD, FACS
+
+**Contact**: [cmayron@aol.com](mailto:cmayron@aol.com)
+
+**GitHub**: https://github.com/cmayron/Legal-Calculus
+
+**License**: **CC0 — Public Domain**. Use it. Break it. Extend it.
+
+---
+
+### Closing Call to Action
+
+**Join the movement** — star the repo, share with others, contribute templates, and document anonymized outcomes. Legal Calculus turns procedural literacy into civic power. **You are not asking for justice. You are formatting it.**

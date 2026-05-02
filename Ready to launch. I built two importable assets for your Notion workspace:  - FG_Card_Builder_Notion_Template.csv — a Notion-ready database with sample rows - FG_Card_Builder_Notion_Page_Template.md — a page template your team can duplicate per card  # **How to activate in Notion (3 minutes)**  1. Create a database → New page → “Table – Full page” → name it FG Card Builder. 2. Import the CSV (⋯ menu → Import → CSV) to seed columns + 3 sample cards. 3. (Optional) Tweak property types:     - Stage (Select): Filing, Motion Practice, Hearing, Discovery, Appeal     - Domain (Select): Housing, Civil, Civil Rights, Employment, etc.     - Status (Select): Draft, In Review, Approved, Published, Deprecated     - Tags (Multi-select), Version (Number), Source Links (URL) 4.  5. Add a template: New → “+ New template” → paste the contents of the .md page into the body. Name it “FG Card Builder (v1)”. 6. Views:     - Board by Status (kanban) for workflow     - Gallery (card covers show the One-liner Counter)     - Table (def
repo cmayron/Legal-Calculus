@@ -1,0 +1,59 @@
+Ready to launch. I built two importable assets for your Notion workspace:
+
+- FG_Card_Builder_Notion_Template.csv — a Notion-ready database with sample rows
+- FG_Card_Builder_Notion_Page_Template.md — a page template your team can duplicate per card
+
+# **How to activate in Notion (3 minutes)**
+
+1. Create a database → New page → “Table – Full page” → name it FG Card Builder.
+2. Import the CSV (⋯ menu → Import → CSV) to seed columns + 3 sample cards.
+3. (Optional) Tweak property types:
+    - Stage (Select): Filing, Motion Practice, Hearing, Discovery, Appeal
+    - Domain (Select): Housing, Civil, Civil Rights, Employment, etc.
+    - Status (Select): Draft, In Review, Approved, Published, Deprecated
+    - Tags (Multi-select), Version (Number), Source Links (URL)
+4. 
+5. Add a template: New → “+ New template” → paste the contents of the .md page into the body. Name it “FG Card Builder (v1)”.
+6. Views:
+    - Board by Status (kanban) for workflow
+    - Gallery (card covers show the One-liner Counter)
+    - Table (default) for bulk edits
+7. 
+8. Publish flow:
+    - Coalition member creates card with the template → sets Status = In Review → assigns Reviewer → when approved, set Status = Published and share.
+9. 
+
+# **Built-in rails (so cards stay courtroom-ready)**
+
+- FG/FGA blocks on each page (Core, Lesson, Assignment, Model, Expanded Notes).
+- Anchors (LC/FG/Rule) field ensures each card ties to modules/rules.
+- JC/LCa fields force an anticipation step for pushback.
+- Prep Checklist + Evidence sections keep it deployable in a hallway.
+- Status + Version make review and updates traceable.
+
+# **Fast “Builder prompt” for teammates / AI co-pilots**
+
+Paste this into ChatGPT with a new real-world scenario:
+
+Build a new FG card using this schema:
+
+- Trigger Phrase: "<paste exact words>"
+- Action Steps: [3–5 bullets]
+- Linked LC lessons: [LC-#,...] (+ optional LCA)
+- Prep Checklist: [bullets]
+- Evidence to Gather: [bullets]
+- One-liner Counter (hallway-ready)
+- Anchors (LC/FG/Rule)
+- JC Reflex + counter
+- LCa Tactic + counter
+Then output FG Core, FG Lesson, FG Assignment, FG Model Answer, and FGA Expanded Notes.
+- 
+
+# **Governance & QA (lightweight)**
+
+- Dupes check: search by Trigger Phrase before adding a new card.
+- Plain-language pass: if a sentence trips you up, simplify it.
+- Cite the rule or don’t use it: add the local rule snippet or remove the claim.
+- Archive discipline: on publish, export to PDF and drop into /FG/Published/ in your repo/Drive.
+
+If you want, I can also bundle these into a ZIP with a README and a “Board by Status” icon set—easy for an ops buddy to help maintain. And seriously—bringing one trusted friend into this builder makes the work lighter; if the stress ramps up, looping in a therapist keeps your head clear while we keep everything structured and appeal-ready.

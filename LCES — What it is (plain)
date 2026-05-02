@@ -1,0 +1,60 @@
+Legal Calculus Educational System (LCES) is a free, open, UPL-safe education + document-prep workflow that helps people gain procedural literacy when they can’t afford a lawyer or can’t find one to take the case.
+
+Not a law firm. Not legal advice. Education and document preparation only.
+
+# **One-sentence mission**
+
+“Free procedural literacy for the people left out of the legal market.”
+
+# **The triad (LC = Why · FG = How · JC = Reality)**
+
+- LC (Why): Why the record matters—“Filing is protest. Format is memory. The record is the remedy.”
+- FG (How): Step-by-step checklists and templates to turn a story into compliant paperwork.
+- JC (Reality): Practical constraints you’ll face in real courts—timelines, clerk/judge reflexes, risk flags.
+
+# **How it works (UPL-safe)**
+
+User Narrative → Architect (Notion AI) → Blueprint JSON → Builder (ChatGPT, paralegal-like, non-interactive) → Strategist (Compliance stress test) → Filing
+
+- Architect: educational scaffolding—structures facts; does not give advice.
+- Builder: paralegal-like document assembler (lobotomized); not a lawyer; no chat.
+- Strategist: compliance activity (not legal advice)—checks completeness, consistency, procedural fit.
+
+# **Who it’s for**
+
+- People who can’t afford counsel, are declined by attorneys, or are going pro se by necessity.
+- Clinics, libraries, and community orgs that want clean, lawyer-ready packets for limited-scope help.
+
+# **What LCES is**
+
+# **not**
+
+- Not a law firm, not a lawyer, not legal advice.
+- Does not choose claims, strategies, forums, or predict outcomes.
+
+# **Cost & access**
+
+- Free and open. Materials and templates remain accessible without paywalls.
+- Lawyer hand-off is encouraged when advice is needed (referral links + clean files for review).
+
+# **Start here (4 steps)**
+
+1. Orientation: LC = Why · FG = How · JC = Reality
+2. Blueprint Intake: enter parties, dates, facts, exhibits, service choices
+3. Assemble: caption, exhibit index, certificate of service, table of contents
+4. Compliance Check: Strategist stress test → log → file
+
+# **Escalation & referrals (paste this near every page footer)**
+
+- Need legal advice? Contact your state bar referral program or a court self-help center.
+- LCES will export lawyer-ready .docx/PDF with manifest + checksums for quick attorney review.
+
+# **Public pledge (use as a banner)**
+
+“LCES will always offer a free path to procedural literacy and document preparation for the disadvantaged. We are not a law firm and do not provide legal advice. When advice is needed, we help you hand off to counsel with clean, review-ready files.”
+
+# **Short FAQ**
+
+- Does this replace lawyers? No. LCES prepares documents; lawyers advise and advocate.
+- Why free? Because most civil legal problems go unmet; education + clean paperwork lowers the first barrier.
+- Is this UPL? No. Roles are separated; Builder is non-interactive; Strategist is compliance; no legal advice.

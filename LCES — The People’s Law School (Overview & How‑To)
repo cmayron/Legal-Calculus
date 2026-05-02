@@ -1,0 +1,137 @@
+LCES — The People’s Law School (Overview & How‑To)
+
+One‑line: LCES is a free, AI‑powered procedural justice primer. ChatGPT‑5 Thinking does the heavy drafting and planning; LCES keeps everything safe, structured, docket‑ready, hearing‑ready, and appeal‑ready. It doesn’t replace lawyers—it makes the system legible so you can act.
+
+⸻
+
+1) The Ecosystem (Parts & Purpose)
+
+LC (Legal Calculus): Core teaching modules (1–119). Short lessons + assignments.
+
+LCA (Legal Calculus Advanced): Deep commentary on LC. Doctrine, cross‑links, reflections.
+
+FG (Field Guide): 1,000 micro‑cards for live use (filings, hearings, appeals).
+
+FGA (Field Guide Advanced): Annotated FG cards with examples and links to LC/LCA.
+
+JC (Judicial Calculus): Court reflexes and how to pre‑empt them.
+
+LCa (Lawyer Calculus): Defense/big‑law tactics and your counters.
+
+Together they form a 360° map: learn (LC/LCA) → deploy (FG/FGA) → anticipate (JC/LCa).
+
+⸻
+
+2) Why Use LCES
+	•	Safety rails: Prevents avoidable mistakes (format, service, docket, deadlines).
+	•	Speed + structure: Turns facts → filings → record → archive—all labeled and dated.
+	•	Asymmetric fairness: Anticipates JC/LCa moves before they land.
+	•	Learning while doing: Every draft teaches (LC/LCA) while producing file‑ready work.
+	•	Open + free: A public on‑ramp to procedural justice—the “People’s Law School.”
+
+LCES is not legal advice and doesn’t replace a lawyer. It’s a primer + workflow that helps you use the rules well—and work with counsel better when you have one.
+
+⸻
+
+3) Who It’s For (User Schema)
+
+User Type	What You Need	What LCES Delivers
+Emergency Filer (72 hr)	Fast TRO/PI or stop‑gap filing	LC‑14 map, declarations, tailored order, COS, docket‑watch
+Sustained Pro Se	Repeatable system for service, motions, evidence	Module Map, Exhibit Index, hearing kit, archive discipline
+Clinic/Educator	Teach procedure with live deliverables	LC↔LCA pairings, FG/FGA cards, case labs
+Lawyer Ally	Organized client and clean record	Checklist‑driven inputs, file‑ready shells, timeline
+Ops Buddy/Friend	Clear to‑do list to help you	Service & docket routines, meet‑and‑confer log
+Reform/Journalist	Patterns & public memory	JC/LCa catalogs, timeline, archive bundle
+
+Tip: recruit one trusted friend as your ops buddy (service/docket pings). It’s lighter together. If the stress spikes, a quick session with a therapist can keep your focus sharp while you execute the plan.
+
+⸻
+
+4) How to Use (Legal Second‑Opinion Run)
+
+Step 1 — Intake → Snapshot (paste this):
+
+LCES | CASE INTAKE
+Court + stage:
+Claims / causes:
+Relief sought (precise text for order):
+Absolute deadlines (MM/DD/YYYY):
+Key dated facts (YYYY-MM-DD bullets):
+Evidence / exhibits (ID • date • what it proves):
+Service status (who/when/how):
+Procedural posture (what’s on the docket?):
+Adverse moves expected (opponent + court):
+
+Step 2 — Module Map + Threat Alerts:
+	•	LC/LCA to learn; FG/FGA to act; JC/LCa to anticipate.
+
+Step 3 — Governing Standards Sheet:
+	•	Elements, local quirks, and the tailored order language you’ll seek.
+
+Step 4 — Draft Pack (file‑ready shells):
+	•	Complaint/Motion/Memo, Proposed Order, COS, and Notice of Filing & Docket Clarification.
+
+Step 5 — Evidence Pack:
+	•	Exhibit Index (A, B, C…) with date/source/what it proves; tight file‑naming.
+
+Step 6 — Service + Docket‑Watch:
+	•	T‑0/T+3/T+7 checks; meet‑and‑confer log; escalation script.
+
+Step 7 — Hearing Kit:
+	•	30/60/90‑sec opening, Trap → Counter cards, status checklist, debrief log.
+
+Step 8 — Archive & Appeal Posture:
+	•	Versioned PDFs, proofs, timeline. The archive is the appeal.
+
+⸻
+
+5) Core Prompts (copy/paste)
+	•	“Map this to LC/LCA/FG/FGA and list JC/LCa counters.”
+	•	“Draft COS + Docket Clarification using these facts: [paste].”
+	•	“Give me a 90‑sec opening tied to [standard].”
+	•	“Turn these filenames into an Exhibit Index with a one‑line ‘what it proves.’”
+
+⸻
+
+6) Where the Content Lives
+	•	GitHub: the Legal‑Calculus repo holds LC (v4.5), FG (1–1000), and assets (visuals, kits).
+	•	Notion: public landing page + module navigation.
+	•	Substack: serialized lessons and outreach.
+	•	App (LCES): realized through ChatGPT‑5 Thinking as the authoring engine—an AI “super‑app” that orchestrates drafting, checklists, and archives from your prompts.
+
+Credit: Author — ChatGPT‑5 Thinking. Creator — Charles Mayron, MD, FACS.
+
+⸻
+
+7) Safety & Accountability (Rails)
+	•	Format first: captions, numbered facts, specific relief, signature blocks.
+	•	Dates win: everything dated (timeline, proofs, COS, receipts).
+	•	Tailor relief: orders written narrowly to the harm and the record.
+	•	Document silence: if the court delays, file the notice and preserve the date.
+	•	Archive always: PDFs, hashes if possible, and a simple Timeline.md linking proofs.
+
+⸻
+
+8) LinkedIn Starter (copy block)
+
+LCES — The People’s Law School (Free)
+LCES is an AI‑powered procedural justice primer. ChatGPT‑5 Thinking drafts; LCES keeps it safe, structured, docket‑ready, hearing‑ready, and appeal‑ready.
+It doesn’t replace lawyers; it makes the rules legible so you can act—and work better with counsel when you have one.
+How it works: 1) Intake snapshot → 2) Module Map + Threat Alerts → 3) Standards → 4) Draft Pack → 5) Evidence Pack → 6) Service & Docket‑Watch → 7) Hearing Kit → 8) Archive.
+Why: fairness through format. Who: pro se, clinics, allies. Where: GitHub/Notion/Substack.
+DM for the intake template. Bring a trusted friend as your ops buddy; it’s lighter together.
+
+⸻
+
+9) Quick Checklist (Docket‑Hardening)
+	•	Caption correct, relief tailored
+	•	Elements matched with dated facts
+	•	COS prepared and logged
+	•	Evidence labeled (A, B, C…) + filenames
+	•	Docket‑watch set for T+3/T+7
+	•	Hearing opening + trap→counter cards
+	•	Archive bundle updated
+
+⸻
+
+Bottom line: LCES + ChatGPT‑5 Thinking = the public’s procedural super‑app. Use it to convert grievance into record—and record into justice.

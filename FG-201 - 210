@@ -1,0 +1,100 @@
+
+⸻
+
+FG-201 — Evidence Ladder Card (Auth → Content → Factor)
+	•	⚖️ Core Message: Every exhibit gets three rungs: authentication, what, why (factor).
+	•	📖 Lesson Content: Cite the auth page (902(11)/stamp/EXIF) before content; end with the factor (harm/equities/public).
+	•	📝 Assignment: Build a 5-row ladder table (Exhibit • Auth pin • Content pin • Factor).
+	•	✅ Model Response: “Ex A — Decl ¶4 (Tab S-1 p.1) → invoice (Tab 3 p.2) → harm (cost).”
+	•	💡 Reflection Summary: Provenance first; purpose last.
+	•	🎨 Visual Concept: Three-rung ladder icon beside a page stack.
+
+⸻
+
+FG-202 — Source of Truth (Official • Capture • Hash)
+	•	⚖️ Core Message: Quote official sources; prove capture; publish the hash.
+	•	📖 Lesson Content: For rules/statutes/dockets: cite the official page, add capture date, and list SHA-256 if you host a copy.
+	•	📝 Assignment: Add capture lines + hashes to two rule pages in your addendum.
+	•	✅ Model Response: “Official rule page; captured 08/19; SHA-256 9f2a….”
+	•	💡 Reflection Summary: Authenticity survives disputes.
+	•	🎨 Visual Concept: A law-book tile with a fingerprint footer.
+
+⸻
+
+FG-203 — One-Sentence Holding (What You Want Quoted)
+	•	⚖️ Core Message: Draft the neutral line the court can lift verbatim.
+	•	📖 Lesson Content: ≤18 words; state the rule, not the story; place above your relief menu and in OA notes.
+	•	📝 Assignment: Write your holding line with a cite placeholder.
+	•	✅ Model Response: “Courts must make factor-tied findings before denying preliminary relief. (cite).”
+	•	💡 Reflection Summary: Copy-ready text gets copied.
+	•	🎨 Visual Concept: A highlighted sentence sliding into a slip opinion.
+
+⸻
+
+FG-204 — Minimal OA Packet (Roadmap • Best Page • Order)
+	•	⚖️ Core Message: If policy is tight, hand only three pages.
+	•	📖 Lesson Content: Roadmap (Q/Std/Pins/Relief), anchor page (the gap), and a one-page order; hash; file same-day notice.
+	•	📝 Assignment: Assemble the 3-page mini-packet with a hash line.
+	•	✅ Model Response: “OA mini-packet (3 pp.); SHA-256 41be22…; pins to Dkt 18:2 / Tab 3 p.2.”
+	•	💡 Reflection Summary: Less paper, more signature.
+	•	🎨 Visual Concept: Three thin cards clipped together with a fingerprint tag.
+
+⸻
+
+FG-205 — Fact Table Instead of Paragraph (Pin Every Row)
+	•	⚖️ Core Message: Replace prose with a four-column table: Date • Event • Pin • Effect.
+	•	📖 Lesson Content: Right-align dates; keep effect ≤6 words; put the table in addendum if long.
+	•	📝 Assignment: Convert a 150-word story into a 10-row table.
+	•	✅ Model Response: “07/31 — USPS receipt — Ex A:1 — timely.”
+	•	💡 Reflection Summary: Tables persuade faster than paragraphs.
+	•	🎨 Visual Concept: A crisp table with short cells and a pin column.
+
+⸻
+
+FG-206 — Relief Snippets by Posture (Stay • Clarify • Remand)
+	•	⚖️ Core Message: Keep forum/posture-specific snippets you can paste.
+	•	📖 Lesson Content: Tag each entry: forum (state/fed/agency), posture (stay/clarify/remand), version/date; maintain a small bank.
+	•	📝 Assignment: Draft five snippets and store in Relief_Bank.md.
+	•	✅ Model Response: “Clarify p.12 n.3 to ‘not reached’; no schedule impact.”
+	•	💡 Reflection Summary: Prepared text = speed on the clock.
+	•	🎨 Visual Concept: A clipboard with labeled slips.
+
+⸻
+
+FG-207 — “No New Facts” Footer (Stamp the Supplement)
+	•	⚖️ Core Message: Stamp supplements with a no-new-facts line to preserve trust.
+	•	📖 Lesson Content: Put it in the first sentence and on the footer; use in 28(j), notices, status.
+	•	📝 Assignment: Add a footer macro: “No new facts; pins only.”
+	•	✅ Model Response: “This letter adds no new facts; it cites Dkt 18:2; Ex A:1.”
+	•	💡 Reflection Summary: Constraint is credibility.
+	•	🎨 Visual Concept: A small ribbon on the page bottom: “No new facts.”
+
+⸻
+
+FG-208 — Tick-Box Order (Make Signing Easy)
+	•	⚖️ Core Message: Hand a one-page order with checkboxes, not prose.
+	•	📖 Lesson Content: Boxes: Grant/Deny, Scope line, Sunset, Status date; include the limited-remand block (task/time/scope/fallback).
+	•	📝 Assignment: Draft a tick-box order for your live ask.
+	•	✅ Model Response: “□ Grant □ Deny; stay ¶3; sunset 21d; status day 14.”
+	•	💡 Reflection Summary: Checkboxes beat paragraphs.
+	•	🎨 Visual Concept: A simple order with four small boxes and a signature line.
+
+⸻
+
+FG-209 — Two-Track Posture (Appeal + Writ, Aligned Relief)
+	•	⚖️ Core Message: When you must run appeal and writ together, align the ask.
+	•	📖 Lesson Content: Same relief text; shared exhibits; no conflicting clocks; status note if one moots the other.
+	•	📝 Assignment: Write two relief lines (appeal/writ) using the same pins.
+	•	✅ Model Response: “Appeal: remand for findings 21d. Writ: direct limited findings or 20-min hearing; same exhibits.”
+	•	💡 Reflection Summary: Two lanes, one destination.
+	•	🎨 Visual Concept: Split road merging into one order card.
+
+⸻
+
+FG-210 — Friday Integrity Ritual (Scan • Update • Post)
+	•	⚖️ Core Message: Protect trust with a weekly three-step cadence.
+	•	📖 Lesson Content: Scan for authority; update Master_Index.csv; post hashes + small release note. Keep a recurring calendar block.
+	•	📝 Assignment: Write this Friday’s 60-word release note and commit the CSV.
+	•	✅ Model Response: “Added FG-1→50 Expanded; SHA-256 …; downloads table updated.”
+	•	💡 Reflection Summary: Rhythm builds reliability.
+	•	🎨 Visual Concept: A weekly calendar tile with a fingerprint badge

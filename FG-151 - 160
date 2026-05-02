@@ -1,0 +1,97 @@
+FG-151 — Clerk Contact Log (Date • Time • Channel • Outcome)
+	•	⚖️ Core Message: A neutral contact log turns “we never heard” into evidence.
+	•	📖 Lesson Content: Columns: Date • Time (local) • Person • Channel (phone/email) • Topic • Outcome • Pin; attach as Ex. A when escalation is needed.
+	•	📝 Assignment: Build a 10-row contact log template; fill three recent touches.
+	•	✅ Model Response: “08/19 14:03 — Ms. R — phone — docketing delay — ‘checking’ — Ex A:1.”
+	•	💡 Reflection Summary: Process notes become proof.
+	•	🎨 Visual Concept: A neat call sheet with check marks down the margin.
+
+⸻
+
+FG-152 — Docket Screenshot Protocol (Hash • Filename • Capture)
+	•	⚖️ Core Message: Screenshots persuade when the capture is reproducible.
+	•	📖 Lesson Content: Save PNG/PDF with YYYY-MM-DD_Docket_pg#.pdf; footer capture date + SHA-256; cite “Ex. B at 1 (captured …).”
+	•	📝 Assignment: Re-export two docket pages with capture/hash footers.
+	•	✅ Model Response: “Ex. B at 1 (captured 08/19; SHA-256 41be22…).”
+	•	💡 Reflection Summary: Verified images end “that page changed” fights.
+	•	🎨 Visual Concept: A screenshot with a tiny fingerprint footer ribbon.
+
+⸻
+
+FG-153 — Word Economy (One Thought • One Sentence • One Pin)
+	•	⚖️ Core Message: Cut until only thought + pin survives.
+	•	📖 Lesson Content: Remove adjectives; keep SoR + verb + page; shift detail to crosswalk/appendix.
+	•	📝 Assignment: Reduce a 120-word block to ≤40 with one anchor pin.
+	•	✅ Model Response: “Abuse—wrong test; court did not reach harm (Dkt 18 at 2).”
+	•	💡 Reflection Summary: Fewer words = clearer asks.
+	•	🎨 Visual Concept: Scissors trimming a paragraph into a single line.
+
+⸻
+
+FG-154 — Volume-Level Hash Footer (Per Appendix PDF)
+	•	⚖️ Core Message: Hash each volume, not just tabs.
+	•	📖 Lesson Content: Contents page lists SHA-256 for the file; front “Index & Hashes” tab; replicate on cover letter.
+	•	📝 Assignment: Add a hash footer to one appendix volume and re-export.
+	•	✅ Model Response: “Appx Vol. 1 — SHA-256 9f2a… (re-exported 08/19).”
+	•	💡 Reflection Summary: Integrity begins before page one.
+	•	🎨 Visual Concept: Appendix cover with a bold fingerprint line.
+
+⸻
+
+FG-155 — Subsequent-History Note (Status-Only 28(j))
+	•	⚖️ Core Message: When a cited case changes, file status-only—no re-argument.
+	•	📖 Lesson Content: ≤120 words: “Since filing, [Case] is [granted/denied/stayed]; fit unchanged; no new facts”; pin to official docket.
+	•	📝 Assignment: Draft a status-only note with a docket pin.
+	•	✅ Model Response: “[Case] rehearing denied 09/01 (official docket). Relief unchanged.”
+	•	💡 Reflection Summary: Inform without inflating.
+	•	🎨 Visual Concept: A tiny “update” flag attached to a case card.
+
+⸻
+
+FG-156 — Cite-Substitution Table (Before → After Page)
+	•	⚖️ Core Message: When pagination moves, map old to new once.
+	•	📖 Lesson Content: Table: Old pin → New pin • Reason (cover added/redactions); add new file hash; file a Notice of Cite Substitution.
+	•	📝 Assignment: Build a 6-row before/after cite table; paste into a one-page notice.
+	•	✅ Model Response: “Tab 3 p.2 → p.3 (added cover) — SHA-256 41be22….”
+	•	💡 Reflection Summary: Maps prevent hunting and mistrust.
+	•	🎨 Visual Concept: Two columns “Old/New” with arrows and a fingerprint tag.
+
+⸻
+
+FG-157 — “Clarify, Not Strike” Text Bank
+	•	⚖️ Core Message: Panels sign narrow corrections faster than deletions.
+	•	📖 Lesson Content: Stock one-liners: “Clarify p.__ n.__ to ‘not reached’”; “Replace ‘harmless’ with ‘unaddressed’”; minimal scope, no schedule change.
+	•	📝 Assignment: Write three clarify lines you could paste today.
+	•	✅ Model Response: “Clarify p.12 n.3 to ‘harm not reached’; no schedule impact.”
+	•	💡 Reflection Summary: Fix the sentence, save the case.
+	•	🎨 Visual Concept: A tiny pencil icon over one footnote.
+
+⸻
+
+FG-158 — Mandate-Execution Status (Task • Owner • Proof • Date)
+	•	⚖️ Core Message: Status letters should mirror a mandate dashboard.
+	•	📖 Lesson Content: Rows: Task • Owner • Due • Proof (Dkt/Appx) • Status; attach as Ex. A; ask for a short compliance order if slipping.
+	•	📝 Assignment: Draft a 6-row dashboard and a 7-line status letter.
+	•	✅ Model Response: “Task: harm findings by 09/15 — Proof: Dkt 101 pp.2–3 — Status: queued.”
+	•	💡 Reflection Summary: Execution is persuasion’s last mile.
+	•	🎨 Visual Concept: A checklist with one yellow “due soon” tag.
+
+⸻
+
+FG-159 — Pin Glossary (Your Brief’s Legend on One Card)
+	•	⚖️ Core Message: Put your pin vocabulary on a card the court can keep.
+	•	📖 Lesson Content: “Dkt = PDF page; Ex = exhibit page; Tab = Appx p.#; PageID = ECF; Bates = overlay”; include one example line.
+	•	📝 Assignment: Draft a 6-line pin glossary and add to your brief’s front matter.
+	•	✅ Model Response: “Example: ‘Dkt 18 at 2; Appx Tab 3 p.2.’”
+	•	💡 Reflection Summary: Shared vocabulary saves time.
+	•	🎨 Visual Concept: A small legend card with four pin tags.
+
+⸻
+
+FG-160 — Release Note Discipline (Date • What • Where)
+	•	⚖️ Core Message: Each public update gets a short release note with links and hashes.
+	•	📖 Lesson Content: Date • What changed • Where to verify (Master Index row + file); ≤120 words; neutral voice.
+	•	📝 Assignment: Write a release note for your latest filing and add to your repo.
+	•	✅ Model Response: “2025-08-20 — Added FG-1→50 Expanded (ZIP); see Master_Index.csv (SHA-256 …) and downloads table.”
+	•	💡 Reflection Summary: Public memory scales trust.
+	•	🎨 Visual Concept: A pinned note card with a fingerprint icon.

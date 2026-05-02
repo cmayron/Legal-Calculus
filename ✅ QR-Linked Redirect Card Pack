@@ -1,0 +1,131 @@
+**Purpose:** Pocket-sized tactical cards for each reflex, with embedded QR codes linking to templates, FG cards, and redirect protocols.
+
+### 🔧 Card Format
+
+🟥 Reflex: JC-Denial
+
+🎯 FG Card: FG-021 — *Denial is Recognition*
+
+🛠️ Redirect: Refile with caption, TOA, certificate
+
+📦 Asset: [QR code → Refile Template]
+
+🗂️ Archive: LCA
+
+🎙️ Voice Cue: “My motion was denied.”
+
+```markdown
+🟥 Reflex: JC-Denial
+🎯 FG Card: FG-021 — *Denial is Recognition*
+🛠️ Redirect: Refile with caption, TOA, certificate
+📦 Asset: [QR code → Refile Template]
+🗂️ Archive: LCA
+🎙️ Voice Cue: “My motion was denied.”
+
+```
+
+Repeat for all reflexes. Print as coalition-ready deck or embed in Notion gallery.
+
+---
+
+## 🎙️ Voice-Activated Coalition Role Selector
+
+**Purpose:** Let users onboard by voice, activating streams and receiving deployment packets.
+
+### 🔧 Script Flow
+
+**User:** “Copilot, I want to join the coalition.”
+
+**Copilot:**
+
+“Welcome. What role will you play? You can say:
+
+- ‘I’m an ops buddy’
+- ‘I’m an educator’
+- ‘I’m a survivor’
+- ‘I’m with an organization’”
+
+**Response per role:**
+
+- **Ops Buddy:** JC, FG, LCa → Redirect Engine + Audit Tools
+- **Educator:** FG, LC, LCA → Curriculum Pack + FG Cards
+- **Survivor:** JC, FG, LCA → Memory Journal + Legacy Builder
+- **Org Partner:** LCA, LC → Doctrine Publishing + Coalition Portal
+
+**Copilot:**
+
+“I’ve activated your streams and sent your deployment packet. You’re now part of the doctrine.”
+
+---
+
+## 📱 Legacy Index Navigator
+
+**Purpose:** Tap-through or voice-navigable interface to explore Legal Calculus by stream, reflex, FG card, and asset.
+
+### 🔧 Sections
+
+- “Show me the streams” → JC, FG, LCa, FGA, LCA, LC
+- “Show me FG cards for denial” → FG-021, FG-073
+- “Show me redirect protocols” → Refile, Notice, Audit
+- “Show me templates” → Caption, TOA, Certificate
+- “Show me legacy pages” → Published procedural journeys
+- “Show me coalition roles” → Ops Buddy, Educator, Survivor, Org Partner
+
+**Deployment:**
+
+- Embed in Notion
+- Link to Redirect Engine Map
+- Add voice cues and QR codes
+
+---
+
+## 🔁 Redirect Engine Map (Visual)
+
+**Purpose:** A visual flowchart connecting reflex → FG card → redirect → asset → archive.
+
+### 🔧 Format (Text-Based for Notion or Print)
+
+🎯 Reflex → FG Card → Redirect → Asset → Archive
+
+🟥 JC-Denial → FG-021 → Refile → [Refile Template] → LCA
+
+🟨 JC-Silence → FG-034 → Notice → [Notice Template] → LCA
+
+🟥 JC-Default → FG-057 → Default Judgment → [Default Template] → LCA
+
+🟨 JC-Positional → FG-062 → Timeline Reframe → [Timeline Template] → LCA
+
+🟦 LCa-Misalignment → FG-003, FG-005 → Audit + Refile → [Audit Checklist] → LCA
+
+🟥 JC-Erasure → FG-073 → Refile Enhanced → [Refile Template] → LCA
+
+🟩 LCA-Legacy → FG-099 → Doctrine Page → [Legacy Builder] → LC
+
+```markdown
+🎯 Reflex → FG Card → Redirect → Asset → Archive
+
+🟥 JC-Denial → FG-021 → Refile → [Refile Template] → LCA
+🟨 JC-Silence → FG-034 → Notice → [Notice Template] → LCA
+🟥 JC-Default → FG-057 → Default Judgment → [Default Template] → LCA
+🟨 JC-Positional → FG-062 → Timeline Reframe → [Timeline Template] → LCA
+🟦 LCa-Misalignment → FG-003, FG-005 → Audit + Refile → [Audit Checklist] → LCA
+🟥 JC-Erasure → FG-073 → Refile Enhanced → [Refile Template] → LCA
+🟩 LCA-Legacy → FG-099 → Doctrine Page → [Legacy Builder] → LC
+
+```
+
+**Deployment:**
+
+- Embed in Notion
+- Print for coalition packets
+- Link each node to FG card and template
+- Add voice cues for mobile walkthrough
+
+---
+
+Here’s your **Coalition Deployment Expansion Pack**—a full suite of mobile-friendly, voice-activated, and printable tools that make Legal Calculus teachable, navigable, and alive. This includes:
+
+- ✅ **QR-linked Redirect Card Pack**
+- 🎙️ **Voice-Activated Coalition Role Selector**
+- 📱 **Legacy Index Navigator**
+- 🔁 **Redirect Engine Map (Visual)**

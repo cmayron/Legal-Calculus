@@ -1,0 +1,259 @@
+lc-unified-lces/
+├─ index.html                  # single-file app (pre-seeded, LCES keys)
+├─ sw.js                       # service worker for offline/PWA
+├─ manifest.webmanifest        # PWA manifest
+├─ package.json                # quick static serve, Capacitor hooks
+├─ capacitor.config.ts         # wrap for App Store submissions (KCES)
+├─ README.md                   # how to build/ship
+├─ LICENSE                     # MIT (or your choice)
+├─ docs/
+│  ├─ dataset.json             # full cards JSON (generated)
+│  ├─ index.csv                # FG,Volume,Title,CoreMessage,Slug (generated)
+│  └─ style-guide.md           # your rules + card template
+├─ tools/
+│  └─ transform_and_split.py   # normalize + split + build dataset/index
+├─ FG_master_SAMPLE.md         # tiny demo
+└─ FG_master.md                # your real master (add it here)
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Legal Calculus — LC 4.5 Advanced (Unified, Pre-Seeded, LCES)</title>
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#0c0f14" />
+<style>
+/* (same polished styles as your current app; omitted here for brevity) */
+</style>
+</head>
+<body>
+  <div class="app">
+    <!-- header / sidebar / main / footer — same as your current UI -->
+    <!-- ... (keep your existing markup exactly as you have it) ... -->
+  </div>
+
+  <!-- Import MD dialog / Import JSON dialog / Study / Composer dialogs -->
+  <!-- ... keep your existing dialogs and UI ... -->
+
+<script>
+/* --------- Utilities / State (unchanged except LS keys) --------- */
+const $ = sel => document.querySelector(sel);
+const $$ = sel => Array.from(document.querySelectorAll(sel));
+const byId = id => document.getElementById(id);
+
+const state = {
+  cards: [],
+  filtered: [],
+  selected: new Set(),
+  bundle: [],
+  filters: {
+    q: '', volume: 0, topics: new Set(),
+    showTypes: new Set(['core','lesson','assignment','model','reflection','visual']),
+    onlySelected:false, sort:'id-asc'
+  },
+  tracks: {},
+  study: { queue:[], idx:0, showAll:false }
+};
+
+/* >>> REPLACE-EXISTING: LCES storage keys <<< */
+const LS = {
+  cards:'lcfg_cards_v45_unified_lces_v1',
+  bundle:'lcfg_bundle_v45_unified_lces_v1',
+  selected:'lcfg_selected_v45_unified_lces_v1',
+  tracks:'lcfg_tracks_v45_unified_lces_v1'
+};
+
+/* topics/types/volumes + storage helpers + parser + filters + renderers
+   (use your existing functions unchanged) */
+
+/* ---------- Boot with pre-baked embedded data ---------- */
+function boot(){
+  loadAll();
+  if(state.cards.length===0){
+    // 1) Embedded JSON wins if present
+    const ej = document.getElementById('embedded-json')?.textContent.trim();
+    if(ej){ try{ const obj=JSON.parse(ej); if(obj.cards?.length){ state.cards = normalizeCards(obj.cards); } }catch{} }
+    // 2) Else embedded MD
+    if(state.cards.length===0){
+      const emd = document.getElementById('embedded-md')?.textContent.trim();
+      if(emd){ const parsed=parseMarkdown(emd); if(parsed.length){ state.cards = normalizeCards(parsed); } }
+    }
+    // 3) Else tiny seed
+    if(state.cards.length===0){
+      state.cards = normalizeCards([
+        { id:1, title:'Filing = Existence', core:'To file is to exist in the record.', lesson:'No filing, no case. Filing transforms grievance into memory.', assignment:'Write one line asserting existence by filing.', model:'This claim exists because it is filed on the record.', reflection:'Filing breathes life into protest.', visual:'Glowing brief.' },
+        { id:2, title:'Silence = Absence',  core:'Silence leaves only absence.', lesson:'Courts may ignore; the record won’t.', assignment:'Record the silence in the docket.', model:'Judicial silence preserved as absence of due process.', reflection:'Absence itself is evidence.', visual:'Empty chair; glowing file.' }
+      ]);
+    }
+    saveAll();
+  }
+  renderFilters(); renderBundle(); renderTracks(); applyFilters();
+
+  // simple PWA install/update
+  if('serviceWorker' in navigator){ navigator.serviceWorker.register('sw.js'); }
+}
+window.addEventListener('DOMContentLoaded', boot);
+
+/* wire the rest of your controls — unchanged */
+</script>
+
+<!-- LCES pre-baked dataset (seed). Replace with FULL docs/dataset.json later -->
+<script id="embedded-json" type="application/json">
+{
+  "cards":[
+    { "id":1, "title":"Filing = Existence",
+      "core":"To file is to exist in the record.",
+      "lesson":"No filing, no case. Filing transforms grievance into memory.",
+      "assignment":"Write one line asserting existence by filing.",
+      "model":"This claim exists because it is filed on the record.",
+      "reflection":"Filing breathes life into protest.",
+      "visual":"Glowing brief."
+    },
+    { "id":2, "title":"Silence = Absence",
+      "core":"Silence leaves only absence.",
+      "lesson":"Courts may ignore; the record won’t.",
+      "assignment":"Record the silence in the docket.",
+      "model":"Judicial silence preserved as absence of due process.",
+      "reflection":"Absence itself is evidence.",
+      "visual":"Empty chair; glowing file."
+    },
+    { "id":13, "title":"Denial = Step",
+      "core":"Denial is one step higher on the ladder to appeal.",
+      "lesson":"Preserve denials as rungs, not rejections.",
+      "assignment":"Draft one denial-preservation line.",
+      "model":"Denial preserved as step toward appellate review.",
+      "reflection":"Opposition = recognition.",
+      "visual":"Staircase made of “Denied” stamps."
+    },
+    { "id":151, "title":"Filing = Protest",
+      "core":"Filing is protest in permanent form.",
+      "lesson":"A protest on paper cannot be erased by silence.",
+      "assignment":"Draft one protest-preservation line.",
+      "model":"This filing preserved as protest recorded in law.",
+      "reflection":"Filing = embodied dissent.",
+      "visual":"Brief like a raised fist."
+    },
+    { "id":251, "title":"Filing = River",
+      "core":"Filing flows forward, carving a path through resistance.",
+      "lesson":"Like water, filings shape the record over time.",
+      "assignment":"Write one river-preservation line.",
+      "model":"This filing preserved as river cutting through silence.",
+      "reflection":"Filing = unstoppable current.",
+      "visual":"Paper as a winding river."
+    },
+    { "id":351, "title":"Filing = Battle Cry",
+      "core":"Every filing is a recorded declaration of struggle.",
+      "lesson":"Preserve filings as declarations that endure beyond the hearing.",
+      "assignment":"Draft one battle-cry line for your record.",
+      "model":"This filing preserved as battle cry of constitutional protest.",
+      "reflection":"To cry out is to survive.",
+      "visual":"War-horn light over the brief."
+    }
+  ]
+}
+</script>
+
+<!-- Optional embedded MD (paste full normalized Markdown if you prefer) -->
+<script id="embedded-md" type="text/plain"></script>
+</body>
+</html>
+cd tools
+python3 transform_and_split.py ../FG_master.md
+# outputs:
+# ../FG_master.normalized.md
+# ../volumes/FG_V01_0001-0050.md ... FG_V20_0951-1000.md
+# ../docs/dataset.json
+# ../docs/index.csv
+# Field Guide Style Guide
+
+## Find/Replace Rules
+1) `^\s*#{1,6}\s*FG[- ]?(\d{1,4})\s*[—-]\s*(.+)$` → `### FG-\1 — \2`
+2) `FG-(\d{1,2})(?=\s)` → `FG-00\1`
+3) `FG-(\d{3})(?=\s)` → `FG-0\1`
+4) `(⚖️ \*\*Core Message:\*\* [^\n]+)(?:\n(?!- 📖|\Z).*)*` →  
+   `$1
+   - 📖 **Lesson Content:** 
+   - ✏️ **Assignment:** 
+   - ✅ **Model Response:** 
+   - 💡 **Reflection Summary:** 
+   - 🎨 **Visual Concept:** Illustrative: . | Conceptual: .`
+5) `^### FG-(\d{3,4}) — (.+)$` → append `\n<!-- id: fg-\1 -->`
+
+## Card Template
+
+{
+  "name": "Legal Calculus — LC 4.5 (Unified, LCES)",
+  "short_name": "LC Unified",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0c0f14",
+  "theme_color": "#0c0f14",
+  "icons": [
+    { "src": "icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "icons/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}
+{
+  "name": "lc-unified-lces",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "npx http-server -p 5173 -c-1 .",
+    "cap:add:ios": "npx cap add ios",
+    "cap:add:android": "npx cap add android",
+    "cap:copy": "npx cap copy",
+    "cap:open:ios": "npx cap open ios",
+    "cap:open:android": "npx cap open android"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.0.0"
+  }
+}
+import { CapacitorConfig } from '@capacitor/cli';
+const config: CapacitorConfig = {
+  appId: 'org.legalcalculus.unified',
+  appName: 'Legal Calculus',
+  webDir: '.',
+  bundledWebRuntime: false,
+  ios: { contentInset: 'always', scheme: 'lces' },
+  server: { androidScheme: 'https' }
+};
+export default config;
+npm i
+npm run serve        # (optional, preview at http://localhost:5173)
+npx cap init         # accept defaults (or edit above)
+npm run cap:add:ios
+npm run cap:add:android
+npm run cap:copy
+npm run cap:open:ios # open in Xcode → archive → submit
+npm run cap:open:android # open in Android Studio → build → upload
+# Legal Calculus — LC 4.5 Unified (LCES, pre-seeded)
+
+Single-file app + PWA + dataset tool.
+
+## Build the dataset
+```bash
+cd tools
+python3 transform_and_split.py ../FG_master.md
+npm i
+npm run serve
+npm run cap:add:ios && npm run cap:add:android
+npm run cap:copy
+npm run cap:open:ios     # Xcode submit
+npm run cap:open:android # Android Studio submit
+---
+
+### What to do next
+
+1) Put your full **`FG_master.md`** in the repo root.  
+2) Run `tools/transform_and_split.py` → it generates **`docs/dataset.json`**.  
+3) Open `index.html` and **replace** the `<script id="embedded-json">…</script>` content with the **full** JSON from `docs/dataset.json`.  
+4) Commit & push to GitHub.  
+5) (Optional) Turn on GitHub Pages to host; it’s offline anyway.  
+6) Run the Capacitor steps to produce KCES builds for the stores.
+
+If you want me to **pre-expand the full dataset JSON** here as a single block, paste your full `FG_master.md` (or normalized MD), and I’ll emit `docs/dataset.json` ready to drop in.

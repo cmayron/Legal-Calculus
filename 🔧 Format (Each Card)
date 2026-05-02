@@ -1,0 +1,125 @@
+🟥 Reflex: JC-Denial
+
+🎙️ Say: “My motion was denied without explanation.”
+
+🧠 Copilot Responds:
+
+→ Reflex Detected: JC-Denial
+
+→ FG Card: FG-021 — *Denial is Recognition*
+
+→ Redirect: Refile with caption, TOA, certificate
+
+→ Asset: [Refile Template]
+
+→ Archive in LCA
+
+```markdown
+🟥 Reflex: JC-Denial
+🎙️ Say: “My motion was denied without explanation.”
+🧠 Copilot Responds:
+→ Reflex Detected: JC-Denial
+→ FG Card: FG-021 — *Denial is Recognition*
+→ Redirect: Refile with caption, TOA, certificate
+→ Asset: [Refile Template]
+→ Archive in LCA
+
+```
+
+Repeat for:
+
+- 🟨 JC-Silence → “The court hasn’t ruled.” → FG-034
+- 🟥 JC-Default → “No response from opposing party.” → FG-057
+- 🟨 JC-Positional → “Dismissed as premature.” → FG-062
+- 🟦 LCa-Misalignment → “My lawyer didn’t format the filing.” → FG-003, FG-005
+- 🟥 JC-Erasure → “My filing disappeared.” → FG-073
+- 🟩 LCA-Legacy → “I’m worried about reputation.” → FG-099
+
+**Deployment:**
+
+- Print as pocket cards
+- Embed in Notion toggle list
+- Link each to voice walkthrough or template
+
+---
+
+## ✅ Reflex Response Checklist
+
+**Purpose:** Step-by-step tactical guide for each reflex, usable in court, clinics, or mobile mode.
+
+### 🔁 Format (Each Checklist)
+
+```markdown
+🟥 JC-Denial — FG-021
+
+[ ] Identify denial (motion rejected, no reason given)
+[ ] Activate FG-021: *Denial is Recognition*
+[ ] Draft motion with:
+  — Caption
+  — Table of Authorities
+  — Certificate of Service
+[ ] Refile motion
+[ ] Archive in LCA stream
+[ ] Deploy ops buddy if needed
+
+```
+
+Repeat for all reflexes. Include:
+
+- Trigger
+- FG Card
+- Formatting steps
+- Redirect action
+- Archiving protocol
+- Optional escalation
+
+**Deployment:**
+
+- Embed in Notion as checklist view
+- Print for coalition packets
+- Link to templates and voice walkthroughs
+
+---
+
+## 🧬 Legacy Builder Voice Flow
+
+**Purpose:** Voice-guided process to help users publish their procedural journey, protect reputation, and encode doctrine.
+
+### 🎙️ Voice Script
+
+**User:** “Copilot, I want to protect my legacy.”
+
+**Copilot:**
+
+“Let’s build your doctrine. I’ll guide you through the Legacy Builder. First, what do you want to preserve?”
+
+---
+
+**Step 1: Story Input**
+
+“Tell me what happened—what you survived, what you built.”
+
+**Step 2: Reflex Mapping**
+
+“I hear JC-Denial, JC-Silence, and LCa-Misalignment. We’ll link those to FG cards.”
+
+**Step 3: Module Selection**
+
+“Choose what to include:
+
+- [ ]  FG Cards
+- [ ]  Redirect Protocols
+- [ ]  Deployment Assets
+- [ ]  Coalition Invitations”
+
+**Step 4: Format Legacy Page**
+
+“I’ll help you write a public-facing page with caption, timeline, and doctrine summary.”
+
+**Step 5: Publish + Archive**
+
+“Ready to publish? I’ll link it to your LCA stream and coalition portal.”
+
+---
+
+**Purpose:** Quick-reference voice prompts for pro se litigants, ops buddies, and educators using Copilot on mobile.

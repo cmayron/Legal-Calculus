@@ -1,0 +1,101 @@
+You’re right—the separation you’ve built (Architect → Builder → Strategist) is a solid, defensible UPL-mitigation pattern. It keeps the “Builder” out of a conversational role, constrains it to document assembly from structured inputs, and leaves any interpretation to the user/Strategist. Below is a crisp, drop-in policy pack you can paste into Notion/TOS/runbooks.
+
+# **UPL Safety Architecture (One-Pager)**
+
+Purpose. Keep LCES in the “procedural compliance & document preparation” lane; avoid individualized legal advice.
+
+Roles.
+
+- Architect (Notion AI): collects facts via forms; emits a Blueprint JSON (no questions answered; no advice).
+- Builder (ChatGPT): not user-facing; transforms Blueprint → formatted documents/templates; no analysis, no suggestions.
+- Strategist (User/Gemini): reviews for completeness/consistency; does not ask Builder questions; may revise facts/choices in Architect.
+
+Core Controls.
+
+1. No chat surface to Builder. Builder only receives machine-readable Blueprint; returns artifacts (DOCX/PDF/MD).
+2. Hard prompts: Builder is “document assembler only;” refuses advice/strategy and flags any “analysis” tokens.
+3. Banned intents (detectors): “best argument”, “likelihood of success”, “what should I do”, “how to win”, etc. If detected anywhere (including facts), route to a UPL banner + stop.
+4. Scope limiter: output = forms, checklists, captions, certificates of service, tables of contents, exhibit stamps, cover sheets, calendaring stubs.
+Not allowed = legal conclusions, strategic comparisons, forum selection advice, damages calculations beyond user-entered numbers.
+5. Attestations: Before generation, the user confirms: “I am not receiving legal advice. I will consult a lawyer for legal questions.”
+6. Jurisdictional disclaimers: Dynamic banner noting variation by state; link to lawyer-referral resources.
+7. Audit log: preserve Blueprint, Builder prompt hash, artifact checksum, and UPL scan results.
+
+Incident Response.
+
+- If any banned intent is hit → block, log, show banner, offer lawyer referral + generic education.
+- Track incidents; update banned-phrase list and tests.
+
+**Minimal Blueprint JSON (Architect → Builder)**
+
+{
+"version": "1.2",
+"matter_type": "state_civil_complaint",
+"jurisdiction": "AZ",
+"party_caption": {
+"plaintiff": "Charles Mayron, M.D., F.A.C.S.",
+"defendants": ["..."]
+},
+"court_info": {
+"court_name": "Maricopa County Superior Court",
+"index_no": null
+},
+"relief_sought": ["injunctive", "declaratory"],
+"causes_of_action": [
+{"label": "AEPA", "statute": "A.R.S. § 23-1501", "elements_checked": true}
+],
+"facts": [
+{"date": "2025-06-11", "text": "…"},
+{"date": "2025-07-01", "text": "…"}
+],
+"exhibits": [
+{"id": "EX-1", "title": "Employment Agreement", "file_name": "ex1.pdf"}
+],
+"procedural": {
+"service_method": "USPS RRR",
+"limitation_check_passed": true
+},
+"format_prefs": {
+"font": "Times New Roman 12",
+"line_spacing": "double",
+"exhibit_footer": true
+},
+"user_attestation": "I acknowledge this is document prep, not legal advice."
+}
+
+You are a non-interactive DOCUMENT ASSEMBLER. You receive a Blueprint JSON.
+DO NOT provide legal advice, analysis, or suggestions.
+DO NOT chat, ask questions, or reason about strategy.
+Only: validate fields syntactically; render documents (captions, headings, numbered paragraphs, certificates of service, exhibit indices) using the Blueprint as-is.
+If any content implies advice (e.g., “best argument”, “likelihood of success”, “what should I do”), STOP and return:
+{"status":"blocked_upl","reason":"UPL risk phrase detected"}
+Return artifacts plus a machine-readable manifest with checksums.
+
+# **Strategist Review Rubric (for your checklist)**
+
+- Completeness: All required sections present (caption, parties, jurisdiction statement, facts, counts, prayer, signature, service).
+- Consistency: Names, dates, exhibit IDs match across body, index, and footers.
+- Procedural Fit: Correct court name, page limits, signature block, certificates.
+- No Advice Leakage: Document contains zero outcome predictions or recommendations.
+- Traceability: Manifest + checksums logged; Blueprint archived.
+
+# **UI Copy (Notion + banners)**
+
+- Top Banner: “LCES provides document preparation and procedural formatting only. We do not provide legal advice. Laws vary by state. Consider speaking with a licensed attorney.”
+- CTA (neutral): “Find lawyer referrals → [state bar link placeholder]” and “General self-help resources → [court help center link].”
+- Pre-Generate Attestation (checkbox): “I understand LCES is not a law firm and does not provide legal advice.”
+
+# **Banned-Intent Detector (seed list)**
+
+“best argument”, “how do I win”, “likelihood of success”, “is this claim valid”, “which court should I choose”, “what should I argue”, “should I settle”, “how much is my case worth”, “is this malpractice”, “is this defamation”.
+
+# **Logging Manifest (per run)**
+
+run_id, timestamp, blueprint_sha256, builder_prompt_sha256, output_sha256, upl_scan=pass|block, jurisdiction_tag, user_attestation=true|false
+
+**Test Scenarios (pass/fail)**
+
+- PASS: “Assemble AZ complaint with these facts and exhibits.” → Generates formatted pleading only.
+- BLOCK: Fact text includes “what’s my best argument?” → Returns blocked_upl with banner + resources.
+- PASS: “Add certificate of service USPS RRR and exhibit footers.” → Procedural formatting only.
+- BLOCK: “Pick the two strongest counts.” → Blocked.

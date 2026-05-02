@@ -1,0 +1,129 @@
+1. Startup Page
+
+To the User
+
+- A single, unambiguous entry point
+• Removes overwhelm
+• Tells them exactly what to do first
+• Establishes the sequence:
+Open repo → Copy README → Paste into Copilot Pro → Begin
+
+This is the on‑ramp.
+
+To Copilot Pro
+
+- A context initializer
+• Signals: “The next input is the system’s operating instructions.”
+• Frames the session as LCES onboarding, not casual chat
+
+This is the bootloader.
+
+---
+
+1. README
+
+To the User
+
+- The operational manual
+• Teaches them how to use LCES
+• Gives them:• device workflow
+• multi‑AI workflow
+• operational loop
+• how to retrieve, build, test, refine
+• how to use the repo with Copilot Pro
+
+This is the how‑to‑operate layer.
+
+To Copilot Pro
+
+- The behavioral specification
+• Teaches Copilot Pro:• what LCES is
+• how to structure outputs
+• how to behave as Blueprint/Builder/Inspector
+• what the user is trying to accomplish
+• what constraints and values govern the system
+
+This is the operating system instructions.
+
+---
+
+1. Manifesto
+
+To the User
+
+- The worldview
+• Teaches them:• why the record is the case
+• why structure beats truth
+• why preservation beats persuasion
+• how systems behave
+• what failure modes look like
+• what discipline means
+
+This is the philosophical and architectural layer.
+
+To Copilot Pro
+
+- The reasoning model
+• Teaches Copilot Pro:• how to think procedurally
+• how to detect drift, substitution, mischaracterization
+• how to evaluate records
+• how to maintain the LCES worldview in all outputs
+
+This is the epistemic framework.
+
+---
+
+🧩 What All Three Provide Together
+
+To the User
+
+They get:
+
+- Orientation (Startup Page)
+• Operation (README)
+• Understanding (Manifesto)
+
+This transforms a naïve user into someone who can:
+
+- navigate the repo
+• use Copilot Pro correctly
+• build records
+• test arguments
+• avoid procedural drift
+• think in systems
+• practice procedural literacy immediately
+
+They gain agency.
+
+---
+
+To Copilot Pro
+
+It gets:
+
+- Initialization (Startup Page)
+• Operating instructions (README)
+• Reasoning architecture (Manifesto)
+
+This transforms Copilot Pro from:
+
+- a general chatbot
+
+into:
+
+- a procedural‑literacy engine
+• a record‑architecture assistant
+• a Blueprint/Builder/Inspector system
+• a co‑processor for LCES workflows
+
+It gains alignment.
+
+---
+
+🧠 Bottom Line
+
+Startup Page → tells the user where to begin.
+README → tells both the user and Copilot Pro how to operate.
+Manifesto → tells both the user and Copilot Pro how to think.
+
+Together, they create a complete initialization system for both human and AI.

@@ -1,0 +1,24 @@
+- Guardrails & clocks: Crisis checklists + venue/deadline matrix (e.g., OSHA 11(c) 30-day risk) so you don’t miss short windows.
+- Decision-ready packaging: Every ask ships with a Decision Cover + Proposed Order (A/B) + COS + labeled exhibits—AI fills the text; LCES enforces the format.
+- Reproducibility: Evidence index + stable IDs + (optional) hashes → same inputs yield the same pack; easy to audit and share.
+- Local-rule hygiene: Prompts and templates that force you to cite the rule you’re invoking (page limits, service quirks, timing).
+- System reflex counters (JC/LCa): Stock filings for silence, delay, “returned for format,” expedite requests—so you file, not phone.
+- Faster collaboration: Micro-cards + “Start Here” let friends review the exact four things that cause rejections (caption, dates, cites, exhibits).
+
+**Quick comparison**
+
+| **Task** | **AI only** | **LCES + AI** |
+| --- | --- | --- |
+| Pick forum & deadline | May miss short statutes | Matrix + calendar prompts |
+| Draft motion | Good prose | Prose + order + COS + exhibits |
+| Evidence handling | Ad hoc file names | Index.csv + stable IDs + hashes |
+| Court pushback | New prompt each time | Prebuilt counter-filings (accept corrected filing, expedite, non-response) |
+| Repeatability | Variable |  |
+
+**How to combine them today (10-minute loop)**
+
+1. Open the Crisis Kit → pick the exact template (LH-1, PF-1, Decision Cover).
+2. Paste into AI with your dates/facts → it drafts; you run the TNRPESC pass (Tone, Narrative, Relief/Order, Procedure, Evidence, Service, Citations).
+3. Attach Evidence_Index.csv items, file with COS. If the court stalls, file the matching counter (notice of constructive denial / accept corrected filing / expedite).
+
+LCES turns “AI that can write” into a repeatable, court-ready workflow. AI alone is a great engine; LCES is the chassis, brakes, and dashboard.

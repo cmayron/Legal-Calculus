@@ -1,0 +1,655 @@
+pre-baked, single-file, dark-mode LCFG 4.5 Advanced app with FG-001–FG-119 embedded (condensed Core Messages + quick Model lines).
+
+Save as LCFG-4.5-Advanced.html and open it locally.
+
+# Import your full Markdown anytime (FG 1–1000) via Import MD → Parse & Replace → Bake HTML to create a new self-contained file.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LCFG 4.5 Advanced — FG 001–119 (Dark, Single-File)</title>
+<style>
+:root{
+--bg:#0b0f14; --surface:#121822; --sunken:#0f141c; --border:#223145;
+--text:#e8eef6; --muted:#a6b3c8; --accent:#69d1ff; --accent-2:#9fff8e;
+--warn:#ffb86b; --danger:#ff6b6b; --ok:#5af78e; --tag:#2b3a52;
+--chip:#1a2330; --sel:#1f2a3b; --focus:#8ad6ff; --shadow: rgba(0,0,0,.45);
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+margin:0; background:linear-gradient(180deg,var(--bg),#0a1017 60%,var(--bg));
+color:var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Apple Color Emoji","Segoe UI Emoji";
+-webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+}
+header{
+position:sticky; top:0; z-index:50; backdrop-filter: blur(6px);
+background:linear-gradient(180deg,rgba(10,16,23,.9),rgba(10,16,23,.7));
+border-bottom:1px solid var(--border); box-shadow:0 10px 30px var(--shadow);
+}
+.wrap{max-width:1200px;margin:0 auto;padding:14px 18px}
+.title{display:flex;align-items:center;gap:10px}
+.title h1{margin:0;font-weight:700;font-size:18px;letter-spacing:.2px}
+.title .pill{font-size:12px;padding:4px 8px;border-radius:999px;background:var(--chip);color:var(--muted);border:1px solid var(--border)}
+.toolbar{
+display:flex;flex-wrap:wrap;gap:8px;margin-top:10px
+}
+.toolbar input[type="text"]{
+flex:1 1 280px; padding:10px 12px; border-radius:10px; border:1px solid var(--border);
+background:var(--sunken); color:var(--text); outline:none
+}
+.toolbar input[type="text"]::placeholder{color:var(--muted)}
+.btn{
+appearance:none; border:1px solid var(--border); background:var(--surface); color:var(--text);
+padding:10px 12px; border-radius:10px; cursor:pointer; font-size:13px; letter-spacing:.2px;
+display:inline-flex; align-items:center; gap:8px; transition:all .15s ease;
+}
+.btn:hover{border-color:var(--focus); box-shadow:0 0 0 2px rgba(138,214,255,.1)}
+.btn-primary{background:linear-gradient(180deg,#0f2b3b,#0c2030); border-color:#184660}
+.btn-accent{background:linear-gradient(180deg,#0d2f22,#0b231a); border-color:#1b6a49}
+.btn-danger{background:linear-gradient(180deg,#2a1416,#1f1012); border-color:#6b2a33}
+.filters{display:flex;flex-wrap:wrap;gap:8px}
+.chip{
+background:var(--chip); border:1px solid var(--border); color:var(--muted);
+padding:8px 10px; border-radius:999px; font-size:12px; display:flex; align-items:center; gap:8px
+}
+select, .small{
+background:var(--sunken); color:var(--text); border:1px solid var(--border);
+padding:8px 10px; border-radius:8px; font-size:12px
+}
+.grid{max-width:1200px;margin:16px auto;display:grid;grid-template-columns:repeat(12,1fr);gap:12px;padding:0 18px}
+.card{
+grid-column: span 6;
+background:linear-gradient(180deg,var(--surface),#0e1520);
+border:1px solid var(--border); border-radius:14px; padding:14px; position:relative;
+box-shadow: 0 8px 20px var(--shadow);
+}
+@media (max-width:900px){ .card{grid-column: span 12;} }
+.card h3{margin:0 0 6px 0;font-size:15px}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.tag{font-size:11px;padding:3px 8px;border-radius:999px;background:var(--tag);color:var(--muted);border:1px solid var(--border)}
+.core{font-size:14px;line-height:1.45;margin:8px 0;color:#d9e6ff}
+.muted{color:var(--muted)}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.row .spacer{flex:1}
+.sel{
+position:absolute; top:10px; right:10px; display:flex; align-items:center; gap:6px;
+background:var(--sel); border:1px solid var(--border); padding:6px 8px; border-radius:10px; font-size:12px; color:var(--muted);
+}
+.sel input{accent-color:var(--accent)}
+.panel{
+max-width:1200px;margin:0 auto 10px auto; padding:10px 18px; display:flex; gap:8px; flex-wrap:wrap
+}
+.panel .status{background:var(--chip);border:1px solid var(--border);border-radius:10px;padding:8px 10px;color:var(--muted);font-size:12px}
+.dock{
+position:sticky; bottom:0; z-index:40; border-top:1px solid var(--border);
+background:linear-gradient(0deg,rgba(10,16,23,.95),rgba(10,16,23,.85)); backdrop-filter: blur(6px);
+}
+.bundle{
+max-width:1200px; margin:0 auto; padding:12px 18px; display:none
+}
+.bundle textarea{
+width:100%; min-height:200px; background:var(--sunken); color:var(--text);
+border:1px solid var(--border); border-radius:12px; padding:12px; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace
+}
+.hidden{display:none !important}
+.kbd{background:#0d1522;border:1px solid var(--border);padding:.1rem .4rem;border-radius:6px;font-size:12px;color:var(--muted)}
+/* Print */
+@media print{
+header,.toolbar,.dock,.panel{display:none !important}
+body{background:white;color:black}
+.grid{padding:0;gap:8px}
+.card{page-break-inside:avoid;background:white;border:1px solid #bbb;box-shadow:none}
+.core{color:black}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="title">
+<h1>Legal Calculus Field Guide (LCFG) 4.5 Advanced — <span class="muted">FG 001–119</span></h1>
+<span class="pill">Dark • Offline • Single-File</span>
+<span class="pill">Search • Filter • Bundle • Export • Print</span>
+</div>
+<div class="toolbar">
+<input id="q" type="text" placeholder="Search (id, title, core, tags)…  Try: FG-001  •  ‘eclipse’  •  filing" />
+<button class="btn btn-primary" id="importMdBtn">📥 Import MD</button>
+<button class="btn" id="bakeBtn">🍞 Bake HTML</button>
+<button class="btn" id="exportJsonBtn">⬇️ Export JSON</button>
+<button class="btn btn-accent" id="copyLinesBtn">📋 Copy Lines</button>
+<button class="btn" id="printBtn">🖨️ Print</button>
+<span class="spacer"></span>
+<div class="filters">
+<label class="chip">Volume
+<select id="volFilter" class="small">
+<option value="">All</option>
+<option value="1">1 — Foundations</option>
+<option value="2">2 — Suppression</option>
+<option value="3">3 — Visibility</option>
+</select>
+</label>
+<label class="chip">Type
+<select id="typeFilter" class="small">
+<option value="">All</option>
+<option value="Filing">Filing</option>
+<option value="Silence">Silence</option>
+<option value="Denial">Denial</option>
+<option value="Default">Default</option>
+<option value="Efficiency">Efficiency</option>
+<option value="Closure">Closure</option>
+<option value="Archive">Archive</option>
+</select>
+</label>
+<label class="chip">Sort
+<select id="sortBy" class="small">
+<option value="id-asc">FG ID ↑</option>
+<option value="id-desc">FG ID ↓</option>
+<option value="title-asc">Title A→Z</option>
+<option value="title-desc">Title Z→A</option>
+</select>
+</label>
+</div>
+</div>
+</div>
+</header>
+
+<div class="panel">
+<span class="status" id="countStatus">Loading…</span>
+<span class="status">Tip: <span class="kbd">Ctrl/Cmd+F</span> works too. Use filters to narrow. Select cards to bundle.</span>
+</div>
+
+<main class="grid" id="grid"></main>
+
+<div class="dock">
+<div class="wrap" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+<span class="status">Selected: <b id="selCount">0</b></span>
+<select id="bundleMode" class="small">
+<option value="hearing">Bundle → Hearing</option>
+<option value="motion">Bundle → Motion</option>
+<option value="appeal">Bundle → Appeal</option>
+<option value="raw">Bundle → Raw Lines</option>
+</select>
+<button class="btn btn-primary" id="bundleBtn">🧩 Build Bundle</button>
+<button class="btn" id="copyBundleBtn">📋 Copy Bundle</button>
+<button class="btn btn-danger" id="clearSelBtn">✖ Clear</button>
+</div>
+<div class="bundle" id="bundleBox">
+<textarea id="bundleText" placeholder="Your bundle will appear here…"></textarea>
+</div>
+</div>
+
+<!-- Seed JSON for FG-001–FG-119 (condensed) -->
+<script id="seed-json" type="application/json">
+{
+"meta":{
+"name":"LCFG 4.5 Advanced — Seed 001–119 (Condensed)",
+"version":"4.5.0",
+"volumes":{"1":"Foundations","2":"Suppression","3":"Visibility"},
+"fields":["id","fg","volume","type","title","core","model","tags"]
+},
+"cards":[
+{"id":1,"fg":"FG-001","volume":1,"type":"Filing","title":"Filing = Existence","core":"To file is to exist in the record.","model":"“This claim exists because it is filed on the record.”","tags":["filing","existence"]},
+{"id":2,"fg":"FG-002","volume":1,"type":"Silence","title":"Silence = Absence","core":"Silence leaves only absence; document the void.","model":"“Judicial silence preserved as absence of due process.”","tags":["silence","absence"]},
+{"id":3,"fg":"FG-003","volume":1,"type":"Denial","title":"Denial = Recognition","core":"A denial recognizes what it seeks to dismiss.","model":"“Denial preserved as recognition of this claim’s presence.”","tags":["denial","recognition"]},
+{"id":4,"fg":"FG-004","volume":1,"type":"Default","title":"Default = Opportunity","core":"Procedural gaps open new opportunities to move.","model":"“Default preserved as opportunity to assert due process failure.”","tags":["default","opportunity"]},
+{"id":5,"fg":"FG-005","volume":1,"type":"Efficiency","title":"Efficiency = Excuse","core":"Speed is not substance; call out the excuse.","model":"“Efficiency rationale preserved as excuse for due process denial.”","tags":["efficiency","excuse"]},
+{"id":6,"fg":"FG-006","volume":1,"type":"Closure","title":"Closure = Illusion","core":"Staged endings are not truth; preserve the illusion.","model":"“Closure preserved as illusion masking unresolved claim.”","tags":["closure","illusion"]},
+{"id":7,"fg":"FG-007","volume":1,"type":"Filing","title":"Filing = Presence","core":"Filing makes you present in the court’s memory.","model":"“This filing preserved as proof of my presence in the record.”","tags":["filing","presence"]},
+{"id":8,"fg":"FG-008","volume":1,"type":"Silence","title":"Silence = Blank Page","core":"Blankness testifies by omission; archive the page.","model":"“Silence preserved as blank page in constitutional record.”","tags":["silence","blank"]},
+{"id":9,"fg":"FG-009","volume":1,"type":"Denial","title":"Denial = Proof","core":"Opposition itself proves receipt and visibility.","model":"“Denial preserved as proof this filing was received.”","tags":["denial","proof"]},
+{"id":10,"fg":"FG-010","volume":1,"type":"Archive","title":"Archive = Birthplace","core":"Legal life begins in the archive; file to begin.","model":"“This record preserved in archive as birthplace of claim.”","tags":["archive","origin"]},
+{"id":11,"fg":"FG-011","volume":1,"type":"Filing","title":"Filing = Voice","core":"Once filed, your voice cannot be muted.","model":"“This filing preserved as voice against silence.”","tags":["filing","voice"]},
+{"id":12,"fg":"FG-012","volume":1,"type":"Silence","title":"Silence = Static","core":"Silence is distortion, not clarity.","model":"“Silence preserved as static blocking review.”","tags":["silence","static"]},
+{"id":13,"fg":"FG-013","volume":1,"type":"Denial","title":"Denial = Step","core":"Each denial is a rung toward appeal.","model":"“Denial preserved as step toward appellate review.”","tags":["denial","step"]},
+{"id":14,"fg":"FG-014","volume":1,"type":"Default","title":"Default = Gap","core":"Gaps are entries for later argument; preserve them.","model":"“Default preserved as gap demonstrating systemic neglect.”","tags":["default","gap"]},
+{"id":15,"fg":"FG-015","volume":1,"type":"Efficiency","title":"Efficiency = Shortcut","core":"Shortcuts bypass fairness; object on the record.","model":"“Efficiency rationale preserved as shortcut around due process.”","tags":["efficiency","shortcut"]},
+{"id":16,"fg":"FG-016","volume":1,"type":"Closure","title":"Closure = False Ending","core":"Finality is often theater; the archive continues.","model":"“Closure preserved as false ending, archive continues.”","tags":["closure","false-ending"]},
+{"id":17,"fg":"FG-017","volume":1,"type":"Filing","title":"Filing = Anchor","core":"Your filing anchors the claim against drift.","model":"“This filing preserved as anchor holding claim in place.”","tags":["filing","anchor"]},
+{"id":18,"fg":"FG-018","volume":1,"type":"Silence","title":"Silence = Void","core":"A void where due process should be is evidence.","model":"“Silence preserved as void where due process should be.”","tags":["silence","void"]},
+{"id":19,"fg":"FG-019","volume":1,"type":"Denial","title":"Denial = Acknowledgment","core":"Refusal still acknowledges the claim’s presence.","model":"“Denial preserved as acknowledgment of contested truth.”","tags":["denial","acknowledgment"]},
+{"id":20,"fg":"FG-020","volume":1,"type":"Archive","title":"Archive = Shelter","core":"The archive shelters filings from erasure.","model":"“This record preserved in archive sheltering claim from erasure.”","tags":["archive","shelter"]},
+{"id":21,"fg":"FG-021","volume":1,"type":"Filing","title":"Filing = Root","core":"Roots feed future appeals; plant them now.","model":"“This filing preserved as root feeding appellate growth.”","tags":["filing","root"]},
+{"id":22,"fg":"FG-022","volume":1,"type":"Silence","title":"Silence = Erosion","core":"What wears away reveals what remains; record it.","model":"“Silence preserved as erosion exposing claim beneath.”","tags":["silence","erosion"]},
+{"id":23,"fg":"FG-023","volume":1,"type":"Denial","title":"Denial = Scar","core":"Scars testify; keep the refusal in the record.","model":"“Denial preserved as scar in judicial record.”","tags":["denial","scar"]},
+{"id":24,"fg":"FG-024","volume":1,"type":"Default","title":"Default = Silence Echo","core":"Neglect reverberates; capture the echo.","model":"“Default preserved as echo proving absence of review.”","tags":["default","echo"]},
+{"id":25,"fg":"FG-025","volume":1,"type":"Efficiency","title":"Efficiency = Mask","core":"A fairness mask over neglect; unmask it.","model":"“Efficiency rationale preserved as mask over due process failure.”","tags":["efficiency","mask"]},
+{"id":26,"fg":"FG-026","volume":1,"type":"Closure","title":"Closure = Pause","core":"A pause, not an end; resume via archive.","model":"“Closure preserved as pause, not end.”","tags":["closure","pause"]},
+{"id":27,"fg":"FG-027","volume":1,"type":"Filing","title":"Filing = Seed","core":"Seeds sprout later; file and preserve.","model":"“This filing preserved as seed for appellate growth.”","tags":["filing","seed"]},
+{"id":28,"fg":"FG-028","volume":1,"type":"Silence","title":"Silence = Withholding","core":"Refusal to respond is itself actionable context.","model":"“Silence preserved as withholding of constitutional duty.”","tags":["silence","withholding"]},
+{"id":29,"fg":"FG-029","volume":1,"type":"Denial","title":"Denial = Path","core":"Denial redirects you upward; note the path.","model":"“Denial preserved as path to higher court.”","tags":["denial","path"]},
+{"id":30,"fg":"FG-030","volume":1,"type":"Archive","title":"Archive = Bedrock","core":"Archive is the unshakable ground beneath claims.","model":"“This record preserved in archive as bedrock of claim.”","tags":["archive","bedrock"]},
+{"id":31,"fg":"FG-031","volume":1,"type":"Filing","title":"Filing = Step","core":"Each filing is a step in the climb.","model":"“This filing preserved as step in the climb for justice.”","tags":["filing","step"]},
+{"id":32,"fg":"FG-032","volume":1,"type":"Silence","title":"Silence = Blindfold","core":"Silence hides sight; say so plainly.","model":"“Silence preserved as blindfold blocking truth.”","tags":["silence","blindfold"]},
+{"id":33,"fg":"FG-033","volume":1,"type":"Denial","title":"Denial = Pressure","core":"Pressure strengthens claims—archive it.","model":"“Denial preserved as pressure proving endurance.”","tags":["denial","pressure"]},
+{"id":34,"fg":"FG-034","volume":1,"type":"Default","title":"Default = Silence Record","core":"A written absence is still a record.","model":"“Default preserved as silence written in the record.”","tags":["default","record"]},
+{"id":35,"fg":"FG-035","volume":1,"type":"Efficiency","title":"Efficiency = Evasion","core":"Evasion dressed as progress; object.","model":"“Efficiency rationale preserved as evasion of constitutional review.”","tags":["efficiency","evasion"]},
+{"id":36,"fg":"FG-036","volume":1,"type":"Closure","title":"Closure = Curtain","core":"Curtains hide live claims; memorialize that.","model":"“Closure preserved as curtain over unresolved claim.”","tags":["closure","curtain"]},
+{"id":37,"fg":"FG-037","volume":1,"type":"Filing","title":"Filing = Rooted Presence","core":"Filing roots you into judicial history.","model":"“This filing preserved as rooted presence in judicial history.”","tags":["filing","rooted"]},
+{"id":38,"fg":"FG-038","volume":1,"type":"Silence","title":"Silence = Shadow","core":"Shadow proves light exists; record the shadow.","model":"“Silence preserved as shadow of due process denied.”","tags":["silence","shadow"]},
+{"id":39,"fg":"FG-039","volume":1,"type":"Denial","title":"Denial = Friction","core":"Friction sparks appeal; name the spark.","model":"“Denial preserved as friction sparking appellate fire.”","tags":["denial","friction"]},
+{"id":40,"fg":"FG-040","volume":1,"type":"Archive","title":"Archive = Root Cellar","core":"Hidden storage sustains future arguments.","model":"“This record preserved in archive root cellar of justice.”","tags":["archive","storage"]},
+{"id":41,"fg":"FG-041","volume":1,"type":"Filing","title":"Filing = Light","core":"Filing shines into the dark corners.","model":"“This filing preserved as light against silence.”","tags":["filing","light"]},
+{"id":42,"fg":"FG-042","volume":1,"type":"Silence","title":"Silence = Dark Space","core":"Dark space is evidence of neglect.","model":"“Silence preserved as dark space showing neglect.”","tags":["silence","dark"]},
+{"id":43,"fg":"FG-043","volume":1,"type":"Denial","title":"Denial = Threshold","core":"A doorway to the next forum; capture it.","model":"“Denial preserved as threshold to appellate court.”","tags":["denial","threshold"]},
+{"id":44,"fg":"FG-044","volume":1,"type":"Default","title":"Default = Silence Stone","core":"Heavy silence is still evidence.","model":"“Default preserved as stone of silence unmoved by court.”","tags":["default","stone"]},
+{"id":45,"fg":"FG-045","volume":1,"type":"Efficiency","title":"Efficiency = Mirage","core":"Illusion of justice; say so; move to correct.","model":"“Efficiency rationale preserved as mirage of fairness.”","tags":["efficiency","mirage"]},
+{"id":46,"fg":"FG-046","volume":1,"type":"Closure","title":"Closure = Gate","core":"The key is the archive; mark the lock.","model":"“Closure preserved as gate locked, archive key intact.”","tags":["closure","gate"]},
+{"id":47,"fg":"FG-047","volume":1,"type":"Filing","title":"Filing = First Breath","core":"Filing breathes life into protest.","model":"“This filing preserved as first breath of claim.”","tags":["filing","breath"]},
+{"id":48,"fg":"FG-048","volume":1,"type":"Silence","title":"Silence = Stillness","core":"Stillness ≠ resolution; record the inaction.","model":"“Silence preserved as stillness, not resolution.”","tags":["silence","stillness"]},
+{"id":49,"fg":"FG-049","volume":1,"type":"Denial","title":"Denial = Acknowledged Strike","core":"Violent recognition; stump still stands.","model":"“Denial preserved as axe strike, record remains rooted.”","tags":["denial","strike"]},
+{"id":50,"fg":"FG-050","volume":1,"type":"Archive","title":"Archive = Foundation","core":"Foundation stone beneath all claims.","model":"“This record preserved in archive as foundation stone of justice.”","tags":["archive","foundation"]},
+
+```
+/* Volume 2 — Suppression 51–100 */
+{"id":51,"fg":"FG-051","volume":2,"type":"Filing","title":"Filing = Shadow","core":"Even ignored, filings cast a shadow of presence.","model":"“This filing preserved as shadow proving its presence.”","tags":["filing","shadow"]},
+{"id":52,"fg":"FG-052","volume":2,"type":"Silence","title":"Silence = Blackout","core":"Blackout of review is suppression, not neutrality.","model":"“Silence preserved as blackout of constitutional review.”","tags":["silence","blackout"]},
+{"id":53,"fg":"FG-053","volume":2,"type":"Denial","title":"Denial = Gatekeeper","core":"Refusal confirms there was something to block.","model":"“Denial preserved as gatekeeper confirming the claim knocked.”","tags":["denial","gatekeeper"]},
+{"id":54,"fg":"FG-054","volume":2,"type":"Default","title":"Default = Abandonment","core":"Dereliction of duty; memorialize the desertion.","model":"“Default preserved as abandonment of duty.”","tags":["default","abandonment"]},
+{"id":55,"fg":"FG-055","volume":2,"type":"Efficiency","title":"Efficiency = Shortcut to Silence","core":"Acceleration that erases substance; object.","model":"“Efficiency rationale preserved as shortcut into suppression.”","tags":["efficiency","shortcut"]},
+{"id":56,"fg":"FG-056","volume":2,"type":"Closure","title":"Closure = Darkness","core":"Darkness covers living record; note the cover.","model":"“Closure preserved as darkness covering living record.”","tags":["closure","darkness"]},
+{"id":57,"fg":"FG-057","volume":2,"type":"Filing","title":"Filing = Graffiti","core":"Write on the walls of power; marks remain.","model":"“This filing preserved as graffiti across judicial walls.”","tags":["filing","graffiti"]},
+{"id":58,"fg":"FG-058","volume":2,"type":"Silence","title":"Silence = Void Mark","core":"A black mark of neglect; archive it.","model":"“Silence preserved as black mark of neglect.”","tags":["silence","void-mark"]},
+{"id":59,"fg":"FG-059","volume":2,"type":"Denial","title":"Denial = Wall","core":"Walls reveal fear; preserve the barrier.","model":"“Denial preserved as wall blocking review.”","tags":["denial","wall"]},
+{"id":60,"fg":"FG-060","volume":2,"type":"Archive","title":"Archive = Black Ledger","core":"The archive writes what courts erase.","model":"“This record preserved in archive black ledger of neglect.”","tags":["archive","ledger"]},
+{"id":61,"fg":"FG-061","volume":2,"type":"Filing","title":"Filing = Footprint","core":"Tracks through systemic silence; they show passage.","model":"“This filing preserved as footprint through systemic silence.”","tags":["filing","footprint"]},
+{"id":62,"fg":"FG-062","volume":2,"type":"Silence","title":"Silence = Stone","core":"Heavy, cold, and undeniably present.","model":"“Silence preserved as stone against constitutional duty.”","tags":["silence","stone"]},
+{"id":63,"fg":"FG-063","volume":2,"type":"Denial","title":"Denial = Black Flag","core":"A banner of retreat; record the flag.","model":"“Denial preserved as black flag of judicial retreat.”","tags":["denial","flag"]},
+{"id":64,"fg":"FG-064","volume":2,"type":"Default","title":"Default = Empty Chair","core":"The vacant seat speaks loudly; preserve it.","model":"“Default preserved as empty chair of due process.”","tags":["default","empty-chair"]},
+{"id":65,"fg":"FG-065","volume":2,"type":"Efficiency","title":"Efficiency = Conveyor Belt","core":"Mechanical throughput dehumanizes justice; object.","model":"“Efficiency rationale preserved as conveyor belt stripping substance.”","tags":["efficiency","conveyor"]},
+{"id":66,"fg":"FG-066","volume":2,"type":"Closure","title":"Closure = Black Curtain","core":"Theater of finality, not truth; note it.","model":"“Closure preserved as black curtain masking living claim.”","tags":["closure","curtain"]},
+{"id":67,"fg":"FG-067","volume":2,"type":"Filing","title":"Filing = Grail","core":"A vessel carrying truth through darkness.","model":"“This filing preserved as grail of constitutional truth.”","tags":["filing","grail"]},
+{"id":68,"fg":"FG-068","volume":2,"type":"Silence","title":"Silence = Static","core":"Distortion that jams the channel; record it.","model":"“Silence preserved as static interfering with constitutional review.”","tags":["silence","static"]},
+{"id":69,"fg":"FG-069","volume":2,"type":"Denial","title":"Denial = Black Stamp","core":"A refusal branded into the record.","model":"“Denial preserved as black stamp of systemic refusal.”","tags":["denial","stamp"]},
+{"id":70,"fg":"FG-070","volume":2,"type":"Archive","title":"Archive = Dark Room","core":"Hidden images develop over time in memory.","model":"“This record preserved in archive dark room of memory.”","tags":["archive","darkroom"]},
+{"id":71,"fg":"FG-071","volume":2,"type":"Filing","title":"Filing = Resistance","core":"To write is to refuse erasure.","model":"“This filing preserved as resistance against silence.”","tags":["filing","resistance"]},
+{"id":72,"fg":"FG-072","volume":2,"type":"Silence","title":"Silence = Censorship","core":"Neutrality costume over suppression.","model":"“Silence preserved as censorship of constitutional right.”","tags":["silence","censorship"]},
+{"id":73,"fg":"FG-073","volume":2,"type":"Denial","title":"Denial = Black Ink","core":"A stain proving the text existed.","model":"“Denial preserved as black ink blot across record.”","tags":["denial","ink"]},
+{"id":74,"fg":"FG-074","volume":2,"type":"Default","title":"Default = Vacancy","core":"Visible absence in process; preserve it.","model":"“Default preserved as vacancy of judicial duty.”","tags":["default","vacancy"]},
+{"id":75,"fg":"FG-075","volume":2,"type":"Efficiency","title":"Efficiency = Black Mask","core":"Covering systemic failure; unmask it.","model":"“Efficiency rationale preserved as black mask covering systemic failure.”","tags":["efficiency","mask"]},
+{"id":76,"fg":"FG-076","volume":2,"type":"Closure","title":"Closure = Sealed Coffin","core":"Claims buried alive—record the burial.","model":"“Closure preserved as sealed coffin of unresolved claims.”","tags":["closure","coffin"]},
+{"id":77,"fg":"FG-077","volume":2,"type":"Filing","title":"Filing = Smoke Signal","core":"Signals rise even in suppression.","model":"“This filing preserved as smoke signal of protest.”","tags":["filing","signal"]},
+{"id":78,"fg":"FG-078","volume":2,"type":"Silence","title":"Silence = Black Hole","core":"Gravitational void consuming review.","model":"“Silence preserved as black hole consuming review.”","tags":["silence","void"]},
+{"id":79,"fg":"FG-079","volume":2,"type":"Denial","title":"Denial = Iron Gate","core":"Locks reveal what is feared inside.","model":"“Denial preserved as iron gate marking resistance.”","tags":["denial","gate"]},
+{"id":80,"fg":"FG-080","volume":2,"type":"Archive","title":"Archive = Black Vault","core":"Hidden wealth of preserved truth.","model":"“This record preserved in archive black vault of protest.”","tags":["archive","vault"]},
+{"id":81,"fg":"FG-081","volume":2,"type":"Filing","title":"Filing = Outcry","core":"A documented protest that cannot be erased.","model":"“This filing preserved as outcry in systemic darkness.”","tags":["filing","outcry"]},
+{"id":82,"fg":"FG-082","volume":2,"type":"Silence","title":"Silence = Shackles","core":"Chains of suppression; record each link.","model":"“Silence preserved as shackles restraining claim.”","tags":["silence","shackles"]},
+{"id":83,"fg":"FG-083","volume":2,"type":"Denial","title":"Denial = Blindfold","core":"Deliberate blindness; preserve the act.","model":"“Denial preserved as blindfold over judicial duty.”","tags":["denial","blindfold"]},
+{"id":84,"fg":"FG-084","volume":2,"type":"Default","title":"Default = Hollow Record","core":"Shell remains; absence is visible.","model":"“Default preserved as hollow record, claim still present.”","tags":["default","hollow"]},
+{"id":85,"fg":"FG-085","volume":2,"type":"Efficiency","title":"Efficiency = Eraser","core":"Rubs away detail; object on the record.","model":"“Efficiency rationale preserved as eraser of due process.”","tags":["efficiency","eraser"]},
+{"id":86,"fg":"FG-086","volume":2,"type":"Closure","title":"Closure = Darkness Seal","core":"Seals conceal but cannot destroy.","model":"“Closure preserved as darkness seal over unresolved claim.”","tags":["closure","seal"]},
+{"id":87,"fg":"FG-087","volume":2,"type":"Filing","title":"Filing = Protest Note","core":"A pinned note the system can’t ignore.","model":"“This filing preserved as protest note against suppression.”","tags":["filing","note"]},
+{"id":88,"fg":"FG-088","volume":2,"type":"Silence","title":"Silence = Black Shroud","core":"Funereal cover over live claims.","model":"“Silence preserved as black shroud of constitutional neglect.”","tags":["silence","shroud"]},
+{"id":89,"fg":"FG-089","volume":2,"type":"Denial","title":"Denial = Guillotine","core":"Sharp strike leaving trace; archive it.","model":"“Denial preserved as guillotine strike in record.”","tags":["denial","guillotine"]},
+{"id":90,"fg":"FG-090","volume":2,"type":"Archive","title":"Archive = Silent Library","core":"Catalog of refusals and neglect.","model":"“This record preserved in archive silent library of suppression.”","tags":["archive","library"]},
+{"id":91,"fg":"FG-091","volume":2,"type":"Filing","title":"Filing = Survival Trace","core":"A fossil of lived struggle; keep it.","model":"“This filing preserved as survival trace in legal fossil bed.”","tags":["filing","survival"]},
+{"id":92,"fg":"FG-092","volume":2,"type":"Silence","title":"Silence = Withheld Breath","core":"Suffocation shows lungs existed; note it.","model":"“Silence preserved as withheld breath of justice.”","tags":["silence","breath"]},
+{"id":93,"fg":"FG-093","volume":2,"type":"Denial","title":"Denial = Dark Stamp","core":"Refusal marked across a living claim.","model":"“Denial preserved as dark stamp across living claim.”","tags":["denial","stamp"]},
+{"id":94,"fg":"FG-094","volume":2,"type":"Default","title":"Default = Shadow Docket","core":"Hidden drawer where claims persist.","model":"“Default preserved as shadow docket of unresolved claim.”","tags":["default","shadow"]},
+{"id":95,"fg":"FG-095","volume":2,"type":"Efficiency","title":"Efficiency = Disguise","core":"Progress costume over silence; reveal it.","model":"“Efficiency rationale preserved as disguise concealing silence.”","tags":["efficiency","disguise"]},
+{"id":96,"fg":"FG-096","volume":2,"type":"Closure","title":"Closure = Dead End","core":"Cul-de-sac on the map; keep the map.","model":"“Closure preserved as dead end concealing ongoing claim.”","tags":["closure","dead-end"]},
+{"id":97,"fg":"FG-097","volume":2,"type":"Filing","title":"Filing = Scarred Mark","core":"A scar carved into the record; it remains.","model":"“This filing preserved as scar carved in judicial record.”","tags":["filing","scar"]},
+{"id":98,"fg":"FG-098","volume":2,"type":"Silence","title":"Silence = Grave","core":"Burial site that testifies life once was.","model":"“Silence preserved as grave marking constitutional neglect.”","tags":["silence","grave"]},
+{"id":99,"fg":"FG-099","volume":2,"type":"Denial","title":"Denial = Branding Iron","core":"Burned refusal; scarred into memory.","model":"“Denial preserved as branding iron mark on due process.”","tags":["denial","branding"]},
+{"id":100,"fg":"FG-100","volume":2,"type":"Archive","title":"Archive = Black Box","core":"Flight recorder of the system; it hears all.","model":"“This record preserved in archive black box of resistance.”","tags":["archive","black-box"]},
+
+/* Volume 3 — Visibility 101–119 */
+{"id":101,"fg":"FG-101","volume":3,"type":"Filing","title":"Filing = Light","core":"Briefs illuminate corners power hides.","model":"“This filing preserved as light exposing judicial neglect.”","tags":["filing","light"]},
+{"id":102,"fg":"FG-102","volume":3,"type":"Silence","title":"Silence = Eclipse","core":"Shadow that proves the sun; record it.","model":"“Silence preserved as eclipse marking the presence of light.”","tags":["silence","eclipse"]},
+{"id":103,"fg":"FG-103","volume":3,"type":"Denial","title":"Denial = Spotlight","core":"Blocking attempts shine a light on truth.","model":"“Denial preserved as spotlight confirming claim exists.”","tags":["denial","spotlight"]},
+{"id":104,"fg":"FG-104","volume":3,"type":"Default","title":"Default = Flicker","core":"Dimming shows power remains; preserve it.","model":"“Default preserved as flicker of due process neglect.”","tags":["default","flicker"]},
+{"id":105,"fg":"FG-105","volume":3,"type":"Efficiency","title":"Efficiency = Glare","core":"Harsh brightness that hides detail; object.","model":"“Efficiency rationale preserved as glare concealing substance.”","tags":["efficiency","glare"]},
+{"id":106,"fg":"FG-106","volume":3,"type":"Closure","title":"Closure = Sunset","core":"Cycles continue after the set; archive them.","model":"“Closure preserved as sunset, not disappearance.”","tags":["closure","sunset"]},
+{"id":107,"fg":"FG-107","volume":3,"type":"Filing","title":"Filing = Candle","core":"One candle defeats complete darkness.","model":"“This filing preserved as candle of protest in systemic dark.”","tags":["filing","candle"]},
+{"id":108,"fg":"FG-108","volume":3,"type":"Silence","title":"Silence = Dimmer Switch","core":"Dimming, not erasing; preserve the turn.","model":"“Silence preserved as dimmer switch on constitutional claim.”","tags":["silence","dimmer"]},
+{"id":109,"fg":"FG-109","volume":3,"type":"Denial","title":"Denial = Flashlight","core":"Narrow beam still reveals the target.","model":"“Denial preserved as flashlight on contested claim.”","tags":["denial","flashlight"]},
+{"id":110,"fg":"FG-110","volume":3,"type":"Archive","title":"Archive = Beacon","core":"Guiding light for future litigants.","model":"“This record preserved in archive as beacon of resistance.”","tags":["archive","beacon"]},
+{"id":111,"fg":"FG-111","volume":3,"type":"Filing","title":"Filing = Torch","core":"A flame that lights the path for others.","model":"“This filing preserved as torch in record of protest.”","tags":["filing","torch"]},
+{"id":112,"fg":"FG-112","volume":3,"type":"Silence","title":"Silence = Fog","core":"Fog hides, it does not erase; note it.","model":"“Silence preserved as fog over constitutional claim.”","tags":["silence","fog"]},
+{"id":113,"fg":"FG-113","volume":3,"type":"Denial","title":"Denial = Searchlight","core":"Sweeping beam proves something is there.","model":"“Denial preserved as searchlight proving claim’s existence.”","tags":["denial","searchlight"]},
+{"id":114,"fg":"FG-114","volume":3,"type":"Default","title":"Default = Flicked Switch","core":"Power source remains; capture the click.","model":"“Default preserved as flicked switch leaving claim intact.”","tags":["default","switch"]},
+{"id":115,"fg":"FG-115","volume":3,"type":"Efficiency","title":"Efficiency = Headlight Glare","core":"Stunning glare hides the road; object.","model":"“Efficiency rationale preserved as headlight glare hiding detail.”","tags":["efficiency","headlight"]},
+{"id":116,"fg":"FG-116","volume":3,"type":"Closure","title":"Closure = Eclipse Shadow","core":"Shadow admits a burning sun behind.","model":"“Closure preserved as eclipse shadow, claim still glowing.”","tags":["closure","eclipse"]},
+{"id":117,"fg":"FG-117","volume":3,"type":"Filing","title":"Filing = Spotlight","core":"Throw a public beam on misconduct.","model":"“This filing preserved as spotlight on judicial neglect.”","tags":["filing","spotlight"]},
+{"id":118,"fg":"FG-118","volume":3,"type":"Silence","title":"Silence = Dim Room","core":"Low light proves a lamp exists; say so.","model":"“Silence preserved as dim room concealing claim.”","tags":["silence","dim"]},
+{"id":119,"fg":"FG-119","volume":3,"type":"Denial","title":"Denial = Neon Sign","core":"Loud refusals draw attention to the issue.","model":"“Denial preserved as neon sign flashing refusal.”","tags":["denial","neon"]}
+
+```
+
+]
+}
+</script>
+
+<script>
+(function(){
+const $ = sel => document.querySelector(sel);
+const $$ = sel => Array.from(document.querySelectorAll(sel));
+
+let DATA = loadSeed();
+let selection = new Set();
+
+const grid = $("#grid");
+const q = $("#q");
+const volFilter = $("#volFilter");
+const typeFilter = $("#typeFilter");
+const sortBy = $("#sortBy");
+const selCount = $("#selCount");
+const countStatus = $("#countStatus");
+const bundleBox = $("#bundleBox");
+const bundleText = $("#bundleText");
+
+render();
+
+/* Events */
+q.addEventListener('input', debounce(render, 120));
+volFilter.addEventListener('change', render);
+typeFilter.addEventListener('change', render);
+sortBy.addEventListener('change', render);
+$("#printBtn").addEventListener('click', () => window.print());
+$("#clearSelBtn").addEventListener('click', () => { selection.clear(); updateSel(); renderCards(current()); });
+$("#bundleBtn").addEventListener('click', buildBundle);
+$("#copyBundleBtn").addEventListener('click', () => copyToClipboard(bundleText.value));
+$("#copyLinesBtn").addEventListener('click', copyVisibleLines);
+$("#exportJsonBtn").addEventListener('click', exportJson);
+$("#importMdBtn").addEventListener('click', importMdFlow);
+$("#bakeBtn").addEventListener('click', bakeHtml);
+
+function loadSeed(){
+try{
+const raw = $("#seed-json").textContent.trim();
+const parsed = JSON.parse(raw);
+return parsed.cards || [];
+}catch(e){
+console.error(e);
+return [];
+}
+}
+
+function normalize(str){ return (str||"").toLowerCase(); }
+
+function current(){
+const term = normalize(q.value);
+const vol = volFilter.value;
+const typ = typeFilter.value;
+
+```
+let list = DATA.slice();
+
+if (term){
+  list = list.filter(c=>{
+    const hay = `${c.fg} ${c.title} ${c.core} ${(c.tags||[]).join(' ')}`.toLowerCase();
+    return term.split(/\\s+/).every(t => hay.includes(t));
+  });
+}
+if (vol) list = list.filter(c=> String(c.volume)===String(vol));
+if (typ) list = list.filter(c=> String(c.type)===String(typ));
+
+const [k,dir] = sortBy.value.split('-'); // id|title asc|desc
+list.sort((a,b)=>{
+  let va = (k==='id'?a.id:a.title||'');
+  let vb = (k==='id'?b.id:b.title||'');
+  if (typeof va === 'string') va = va.toLowerCase();
+  if (typeof vb === 'string') vb = vb.toLowerCase();
+  return dir==='asc' ? (va>vb?1:-1) : (va<vb?1:-1);
+});
+
+return list;
+
+```
+
+}
+
+function render(){
+const list = current();
+countStatus.innerHTML = `Showing <b>${list.length}</b> / ${DATA.length} cards`;
+renderCards(list);
+}
+
+function renderCards(list){
+grid.innerHTML = '';
+const frag = document.createDocumentFragment();
+list.forEach(c=>{
+const card = document.createElement('article');
+card.className = 'card';
+card.innerHTML =          `<div class="sel"><input type="checkbox" ${selection.has(c.id)?'checked':''} data-sel="${c.id}"><span>${c.fg}</span></div>         <h3>${escapeHtml(c.title)} <span class="muted">• ${c.fg}</span></h3>         <div class="meta">           <span class="tag">Vol ${c.volume}</span>           <span class="tag">${escapeHtml(c.type)}</span>           ${(c.tags||[]).slice(0,4).map(t=>`<span class="tag">#${escapeHtml(t)}</span>`).join('')}         </div>         <div class="core">⚖️ ${escapeHtml(c.core)}</div>         ${c.model ?` <div class="muted">✅ Model: ${escapeHtml(c.model)}</div>`:''}         <div class="row">           <button class="btn small" data-copy="${c.id}">Copy line</button>           <button class="btn small" data-quote="${c.id}">Quote</button>           <span class="spacer"></span>           <button class="btn small" data-json="${c.id}">JSON</button>         </div>`       ;
+frag.appendChild(card);
+});
+grid.appendChild(frag);
+
+```
+// Wire up checkboxes & buttons
+$$('input[data-sel]').forEach(cb=>{
+  cb.addEventListener('change', (e)=>{
+    const id = Number(e.target.getAttribute('data-sel'));
+    e.target.checked ? selection.add(id) : selection.delete(id);
+    updateSel();
+  });
+});
+$$('button[data-copy]').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const id = Number(btn.getAttribute('data-copy'));
+    const c = DATA.find(x=>x.id===id);
+    if(!c) return;
+    copyToClipboard(`${c.fg} — ${c.title}: ${c.core}`);
+  });
+});
+$$('button[data-quote]').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const id = Number(btn.getAttribute('data-quote'));
+    const c = DATA.find(x=>x.id===id);
+    if(!c) return;
+    copyToClipboard(`> ${c.fg} — ${c.title}\\n> ${c.core}\\n— LCFG 4.5 Advanced`);
+  });
+});
+$$('button[data-json]').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const id = Number(btn.getAttribute('data-json'));
+    const c = DATA.find(x=>x.id===id);
+    if(!c) return;
+    const blob = new Blob([JSON.stringify(c,null,2)], {type:'application/json'});
+    download(blob, `${c.fg.replace(' ','_')}.json`);
+  });
+});
+
+updateSel();
+
+```
+
+}
+
+function updateSel(){
+selCount.textContent = selection.size;
+bundleBox.style.display = selection.size ? 'block' : 'none';
+}
+
+function buildBundle(){
+if(!selection.size){ bundleText.value=''; return; }
+const mode = $("#bundleMode").value;
+const items = DATA.filter(c=>selection.has([c.id](http://c.id/)))
+.sort((a,b)=>[a.id-b.id](http://a.id-b.id/));
+let out = '';
+if(mode==='raw'){
+out = items.map(c=>`${c.fg} — ${c.title}\\n• ${c.core}\\n`).join('\n');
+} else if(mode==='hearing'){
+out = `HEARING BUNDLE — LCFG 4.5\\n\\n` +
+items.map(c=>`[${c.fg}] ${c.title}\\nCore: ${c.core}\\nLine: ${c.model||c.core}\\n`).join('\n');
+} else if(mode==='motion'){
+out = `MOTION BUNDLE — LCFG 4.5\\n\\n` +
+items.map(c=>`• ${c.fg} ${c.title}: ${c.core}`).join('\n');
+} else { // appeal
+out = `APPEAL BUNDLE — LCFG 4.5\\n\\n` +
+items.map(c=>`${c.fg} ${c.title}\\nArgument: ${c.core}\\n`).join('\n');
+}
+bundleText.value = out;
+}
+
+function copyVisibleLines(){
+const lines = current().map(c=>`${c.fg} — ${c.title}: ${c.core}`);
+copyToClipboard(lines.join('\n'));
+}
+
+function exportJson(){
+const payload = {
+meta: { exportedAt: new Date().toISOString(), count: current().length },
+cards: current()
+};
+const blob = new Blob([JSON.stringify(payload,null,2)], {type:'application/json'});
+download(blob, 'LCFG-4.5-Advanced.export.json');
+}
+
+function importMdFlow(){
+const dlg = document.createElement('div');
+dlg.innerHTML =        `<div style="position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:9999">        <div style="width:min(100%,900px);max-height:90vh;overflow:auto;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px">         <h3 style="margin:4px 0 10px 0">Import Markdown (FG 1–1000)</h3>         <p class="muted">Paste your full Field Guide Markdown. The parser expects sections like <code>### FG-001 — Title</code> followed by bullet lines with <b>Core</b>, <b>Lesson</b>, <b>Assignment</b>, <b>Model</b>, <b>Reflection</b>, <b>Visual</b>.</p>         <textarea id="mdArea" style="width:100%;min-height:45vh;background:var(--sunken);color:var(--text);border:1px solid var(--border);border-radius:10px;padding:10px" placeholder="Paste Markdown…"></textarea>         <div class="row" style="margin-top:10px">           <button class="btn btn-primary" id="parseMdBtn">Parse & Replace</button>           <button class="btn" id="appendMdBtn">Parse & Append</button>           <span class="spacer"></span>           <button class="btn btn-danger" id="cancelMdBtn">Cancel</button>         </div>        </div>       </div>`;
+document.body.appendChild(dlg);
+dlg.querySelector('#cancelMdBtn').onclick = ()=> dlg.remove();
+dlg.querySelector('#parseMdBtn').onclick = ()=>{
+const text = dlg.querySelector('#mdArea').value;
+const parsed = parseMarkdown(text);
+if(parsed.length){ DATA = parsed; selection.clear(); render(); }
+dlg.remove();
+};
+dlg.querySelector('#appendMdBtn').onclick = ()=>{
+const text = dlg.querySelector('#mdArea').value;
+const parsed = parseMarkdown(text);
+if(parsed.length){
+// merge by FG id (replace duplicates)
+const map = new Map(DATA.map(x=>[x.fg,x]));
+parsed.forEach(x=>map.set(x.fg,x));
+DATA = Array.from(map.values()).sort((a,b)=>[a.id-b.id](http://a.id-b.id/));
+selection.clear(); render();
+}
+dlg.remove();
+};
+}
+
+function parseMarkdown(md){
+if(!md || !md.trim()) return [];
+const lines = md.replace(/\r\n/g,"\n").split("\n");
+const cards = [];
+let cur = null;
+const headRe = /^\s*#{2,3}\s*FG-(\d+)\s*—\s*(.+?)\s*$/i;
+const fieldRe = /^\s*-\s*(?:⚖️|📖|✏️|✅|💡|🎨)\s*\*\*(.+?)\*\*:\s*(.+)\s*$/;
+
+```
+function pushCur(){
+  if(!cur) return;
+  cur.title = cur.title || cur.rawTitle || '';
+  cur.core = cur.core || cur.Core || cur['Core Message'] || cur['Core'] || '';
+  cur.model = cur.model || cur.Model || cur['Model Response'] || '';
+  cur.type = inferType(cur.title);
+  cur.volume = cur.volume || inferVolume(cur.id);
+  if(!cur.fg) cur.fg = `FG-${String(cur.id).padStart(3,'0')}`;
+  cards.push({
+    id: cur.id, fg: cur.fg, volume: cur.volume, type: cur.type, title: cur.title,
+    core: cur.core, model: cur.model, tags: cur.tags||[]
+  });
+}
+
+lines.forEach(line=>{
+  const h = headRe.exec(line);
+  if(h){
+    pushCur();
+    cur = { id: Number(h[1]), rawTitle: h[2], title: h[2], tags: [] };
+    return;
+  }
+  if(!cur) return;
+  const f = fieldRe.exec(line);
+  if(f){
+    const key = f[1].trim();
+    const val = f[2].trim();
+    if(/Core/i.test(key)) cur.core = strip(val);
+    if(/Model/i.test(key)) cur.model = strip(val);
+    if(/Lesson|Assignment|Reflection|Visual/i.test(key)){ /* ignored in condensed import */ }
+    return;
+  }
+  // tags heuristic
+  if(line.trim().startsWith('#')) cur.tags.push(line.trim().slice(1).toLowerCase());
+});
+pushCur();
+
+return cards.filter(x=>x.id && x.title && x.core);
+
+```
+
+}
+
+function inferVolume(id){
+if(id<=50) return 1;
+if(id<=100) return 2;
+return 3;
+}
+function inferType(title){
+const t = (title||'').toLowerCase();
+if(t.includes('filing')) return 'Filing';
+if(t.includes('silence')) return 'Silence';
+if(t.includes('denial')) return 'Denial';
+if(t.includes('default')) return 'Default';
+if(t.includes('efficiency')) return 'Efficiency';
+if(t.includes('closure')) return 'Closure';
+if(t.includes('archive')) return 'Archive';
+return 'Card';
+}
+function strip(s){ return s.replace(/^“|”$/g,'').trim(); }
+
+function download(blob, filename){
+const a = document.createElement('a');
+a.href = URL.createObjectURL(blob);
+a.download = filename;
+a.click();
+URL.revokeObjectURL(a.href);
+}
+function copyToClipboard(text){
+navigator.clipboard?.writeText(text).then(()=>{
+toast('Copied');
+}).catch(()=>{
+// fallback
+const ta = document.createElement('textarea');
+ta.value = text; document.body.appendChild(ta); ta.select();
+try{ document.execCommand('copy'); toast('Copied'); } finally{ ta.remove(); }
+});
+}
+function toast(msg){
+const t = document.createElement('div');
+t.textContent = msg;
+t.style.cssText = 'position:fixed;bottom:18px;right:18px;background:var(--sel);border:1px solid var(--border);padding:8px 10px;border-radius:10px;color:var(--text);z-index:9999';
+document.body.appendChild(t);
+setTimeout(()=>t.remove(),1100);
+}
+function escapeHtml(s){ return (s??'').replace(/[&<>"']/g,m=>({ "&":"&","<":"<",">":">","\"":""","'":"'" }[m])); }
+
+function bakeHtml(){
+// produce a fresh single-file HTML containing current DATA
+const tpl = document.documentElement.outerHTML;
+const payload = {
+meta:{ name:"LCFG 4.5 Advanced (Baked)", bakedAt:new Date().toISOString(), count: DATA.length },
+cards: DATA
+};
+const baked = tpl.replace(getSeedBlock(), `<script id="seed-json" type="application/json">\\n${JSON.stringify(payload,null,2)}\\n</script>`);
+const blob = new Blob([baked], {type:'text/html;charset=utf-8'});
+download(blob, 'LCFG-4.5-Advanced.baked.html');
+}
+function getSeedBlock(){
+const seed = $("#seed-json").outerHTML;
+return seed.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // escape for replace
+}
+
+function debounce(fn,ms){
+let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn.apply(this,a),ms); };
+}
+})();
+</script>
+</body>
+</html>
+
+**What’s inside (now)**
+
+- FG-001 → FG-119 preloaded (Volumes 1–3) with Core Messages and quick Model lines so you can search, filter, select, bundle, copy, export, and print immediately.
+
+**Power-user moves (when you have the full text)**
+
+1. Import your full Markdown (FG 1–1000) → Parse & Replace
+2. Bake HTML to save a new, self-contained file with your full dataset embedded.
+3. Use Bundle → Hearing / Motion / Appeal / Raw to generate copy-ready text.
+4. Export JSON for downstream tooling; Print for a clean numbered

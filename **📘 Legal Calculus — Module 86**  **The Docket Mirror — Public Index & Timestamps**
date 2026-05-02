@@ -1,0 +1,47 @@
+Legal Calculus 4.5 — Tier 7: Procedural Memory & Public Archive — Module 86
+
+📘 Legal Calculus — Module 86
+
+The Docket Mirror — Public Index & Timestamps
+
+⚖️ Core Message
+
+A clean, public index lets anyone reconstruct the case and see suppression patterns at a glance.
+
+📖 Lesson Content
+
+1. Fields — Date, Docket #, Title, Link, Status, Notes, Public Copy (yes/no).
+
+2. Proof — Include SHA‑256 hash for public PDFs to prove integrity.
+
+3. Updates — Post new entries within 24 hours of filing or receipt.
+
+4. Access — Mirror to Notion/Substack/GitHub Pages; keep an 'Index.md' at root.
+
+📝 Assignment
+
+Create Index.md with 5 sample entries and hashes; export two filings as PDF and compute SHA‑256 to include in the index.
+
+✅ Model Response
+
+# Public Docket Mirror (Index)
+
+| Date | Dkt | Title | SHA256 | Public | Link |
+
+|------|-----|-------|--------|--------|------|
+
+| 2025-07-21 | 12 | Emergency TRO | 9f2a… | yes | /01_Pleadings/TRO.pdf |
+
+| 2025-08-02 | 18 | Notice of Timely Mailing | 1b7e… | yes | /04_Notices/Notice_Timely_Mailing.pdf |
+
+ 
+
+💡 Reflection Summary
+
+An honest index makes erasure obvious—and reversible in the court of public memory.
+
+🎨 Visual Concept
+
+A ledger page with hashes (fingerprints) beside each line.
+
+Page

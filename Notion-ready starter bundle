@@ -1,0 +1,18 @@
+- 00_Homepage.md — your Start Here.
+- 01_Paste_Blocks/ — Loader, Emergency NPT helper, and Second-Opinion template.
+- 02_Pro_Se_Emergency/ — SOL Preservation, TRO/PI, Service Clock, Clerk Ping-Pong Cure.
+- 03_JC_LCa_Caveats/ — Paper Filer Disparity, Judicial Efficiency ≠ Justice, Arbitration Trap Map, Class-of-One.
+- 04_Educator_Track/ — On-Ramp.
+- 05_Second_Opinion_Run.md — the 8-step loop.
+- 06_Databases/ — CSV seeds for LC Modules and FG Cards (import CSV → tweak property types).
+- 07_Case_Study/ — Maricopa SOL Preservation page + Attachments folder with your three exhibit packs, master index, and timeline.
+- 08_Templates/ — paste-ready Motion NPT, Notice of Constructive Denial, Proposed Minute Entry, Exhibit Index, Timeline.
+- README.md — quick import steps.
+
+How to use:
+
+1. In Notion, create a new page → type /import → upload the ZIP.
+2. Pin LCES — Start Here.
+3. Open 01_Paste_Blocks/Loader.md, copy it into ChatGPT.
+4. For emergencies, open SOL Preservation and paste the Emergency NPT helper into ChatGPT; drop in facts/exhibits for auto-drafts.
+5. Import the CSVs to spin up your LC/FG databases and start filling modules/micro-modules.

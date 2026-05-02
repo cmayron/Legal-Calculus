@@ -1,0 +1,36 @@
+Legal Calculus 4.5 — Enhanced Modules — Module 31
+📘 Legal Calculus — Module 31
+
+The Archive Is the Appeal
+
+⚖️ Core Message
+
+When formal review is blocked, the public archive becomes the path to accountability. Build an archive that any appellate clerk, reporter, or clinic can navigate in minutes.
+📖 Lesson Content
+
+1. Mirror Core: Docket index, exhibits (Bates + hash), orders, timeline, outreach.
+2. Traceability: Every claim ties to a document and a date; every document has a hash.
+3. Teaching Mode: Each folder has a README with 'what this proves' in two lines.
+4. Continuity: Export PDFs; keep a CHANGELOG; never overwrite—append.
+📝 Assignment
+
+Draft a 'Public Archive README' (300 words) that explains structure, verification (hashes), and how to reproduce key facts.
+✅ Model Response
+
+PUBLIC ARCHIVE — README (excerpt)
+
+Structure: /Timeline, /Pleadings, /Exhibits (Bates), /Orders, /Notices, /Media, /FOIA.
+
+Verification: Each PDF has a SHA‑256 in Index.md; recompute to confirm integrity.
+
+Reproduction: To verify 'timely mailing,' open Ex. A (USPS) and Dkt 18.
+
+ 
+
+💡 Reflection Summary
+
+If courts close the door, the archive opens a window.
+🎨 Visual Concept
+
+A courthouse silhouette next to a glowing public folder tree.
+Page

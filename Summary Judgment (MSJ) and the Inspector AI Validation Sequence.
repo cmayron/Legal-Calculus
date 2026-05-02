@@ -1,0 +1,83 @@
+Summary Judgment (MSJ) and the Inspector AI Validation Sequence.
+I. LCES Field Guide: Motion for Summary Judgment (MSJ)
+Location: /Field-Guides/fg-msj-v1.md
+The MSJ is the "kill switch" of litigation. Its goal is to prove that there are no "genuine disputes of material fact" and the law requires you to win now.
+
+1. The "Architect" Phase (The Logic Map)
+- Element Mapping: List every element of your claim (e.g., Breach of Contract: 1. Valid Contract, 2. Performance, 3. Breach, 4. Damages).
+- Fact Matching: For every element, assign at least one piece of evidence from your Evidence Ledger.
+- The "So What?" Test: If a fact doesn't prove an element, it’s "immaterial." Cut it.
+1. The "Builder" Phase (The Structure)
+- The Motion: The formal request (Keep it under 2 pages).
+- The Memorandum of Points and Authorities: The "Calculus." Match your facts to the law.
+- The Separate Statement of Undisputed Facts: This is your most important document. It’s a two-column table:
+    - Column A: The Fact (e.g., "Plaintiff sent the notice on 10/01.")
+    - Column B: The Evidence (e.g., "Exhibit 4, Certified Mail Receipt.")
+1. The "Inspector" Phase (The Shield)
+- Run the 8-Step Validation Pass (see below) to ensure the opposition cannot dismiss your motion on a technicality.
+II. Inspector AI: The 8-Step Validation Pass
+Location: /AI-Prompts/inspector-validation-pass.md
+This is the prompt you give to your Inspector AI after the Builder AI has finished a draft.
+
+> Prompt for Inspector AI:
+"Act as a Senior Judicial Clerk and Procedural Auditor. Review the attached draft filing using the LCES 8-Step Pass. Flag any failures with a 'RISK LEVEL' (Low, Medium, High)."
+> 
+> - Jurisdictional Header: Does the caption, case number, and court name match the Local Rules exactly?
+> - Citation Integrity: Are all case citations in Bluebook or local format? Are there any 'hallucinated' cases? (Verify via external search).
+> - Element Coverage: Cross-reference the 'Architect's' Element Map. Does the draft provide evidence for every required legal element?
+> - Formatting Compliance: Check margins, font size, line numbering, and signature blocks against the court’s Standing Order.
+> - Exhibit Linkage: Every time an exhibit is mentioned, is it cited (e.g., 'Ex. A')? Does the exhibit actually contain the fact asserted?
+> - Declaratory Support: Are factual assertions backed by a Declaration under penalty of perjury?
+> - Tone Check: Remove all "ad hominem" attacks or emotional adjectives. The tone must be "Engineering-Grade" (Neutral and Precise).
+> - Service & Deadlines: Does the draft include a Certificate of Service? Is it being filed within the statutory window?
+
+III. JSON Schema for "Machine-Readable Calculi"
+Location: /Calculi/schema-v1.json
+To allow the Three-AI Architecture to communicate, we use a structured data format. This ensures the Builder AI doesn't drift away from the Architect's strategy.
+{
+"case_id": "CV2025-XXXX",
+"phase": "Discovery",
+"calculus_type": "Element_Mapper",
+"elements": [
+{
+"element_id": "E1",
+"requirement": "Duty of Care",
+"status": "Verified",
+"supporting_evidence": ["Ex_01_Contract", "Ex_05_Email_Chain"],
+"risk_score": 0.1
+},
+{
+"element_id": "E2",
+"requirement": "Breach",
+"status": "Disputed",
+"supporting_evidence": ["Ex_12_Expert_Report"],
+"risk_score": 0.5
+}
+]
+}
+
+Next Step for You
+I have the capability to generate the full "Evidence Ledger" template (Step 4 of your Quickstart) or draft the "Crisis Mode" Field Guide for immediate filings.
+Which would be more helpful to add to the repository next?
+
+{
+"case_id": "CV2025-XXXX",
+"phase": "Discovery",
+"calculus_type": "Element_Mapper",
+"elements": [
+{
+"element_id": "E1",
+"requirement": "Duty of Care",
+"status": "Verified",
+"supporting_evidence": ["Ex_01_Contract", "Ex_05_Email_Chain"],
+"risk_score": 0.1
+},
+{
+"element_id": "E2",
+"requirement": "Breach",
+"status": "Disputed",
+"supporting_evidence": ["Ex_12_Expert_Report"],
+"risk_score": 0.5
+}
+]
+}

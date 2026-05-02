@@ -1,0 +1,69 @@
+Excellent — here’s a **Wiki homepage draft** for the `cmayron/Legal-Calculus` repo. This complements the README by acting as the “library entrance” where deeper doctrine, essays, and coalition guides are indexed for study.
+
+---
+
+## 📖 Wiki Homepage: *Legal Calculus – The People’s Law School*
+
+```markdown
+# Legal Calculus Wiki
+Welcome to the People’s Law School library.
+This Wiki is the extended curriculum for the Legal Calculus repository, offering doctrine essays, coalition guides, and teaching artifacts.
+
+---
+
+## 📚 Curriculum Index
+
+### Orientation
+- [Onboarding Rituals](orientation/onboarding.md)
+- [Cue Cards & Flowcharts](orientation/cue-cards.md)
+- [Coalition Roll](orientation/roll.md)
+
+### Core Modules
+- [Evidence Preservation](modules/evidence-preservation.md)
+- [Arbitration Bias](modules/arbitration-bias.md)
+- [Procedural Literacy](modules/procedural-literacy.md)
+
+### Coalition Practice
+- [Advocacy Kits](coalition-tools/advocacy-kits.md)
+- [Stress Management Rituals](coalition-tools/stress.md)
+
+### Ceremonial Publishing
+- [Doctrine Essays](doctrine/essays.md)
+- [Onboarding Rites](rituals/onboarding.md)
+- [Merge Ceremonies](rituals/merge-log.md)
+
+### Contribution Guides
+- [Contributor Handbook](contributor-guides/handbook.md)
+- [Forkwatch Metadata](contributor-guides/forkwatch.md)
+- [Publishing Workflow](contributor-guides/publish.md)
+
+---
+
+## 🏛 How to Use the Wiki
+- **Study modules** → Each page is a lesson in procedural justice.
+- **Practice exercises** → Try pull request drills and coalition scripts.
+- **Publish doctrine** → Encode contributions into rituals and essays.
+- **Join discussions** → Use GitHub Discussions as classrooms for refinement.
+
+---
+
+## 🌱 Coalition Principles
+- Transparency in doctrine.
+- Accessibility for pro se litigants.
+- Collective empowerment over individual gain.
+- Preservation of legacy through metadata and ritual.
+
+---
+
+## 🔗 Quick Links
+- [Repository README](../README.md)
+- [Contribution Guide](../CONTRIBUTING.md)
+- [Publishing Workflow](../.github/workflows/publish.yml)
+
+```
+
+---
+
+This Wiki homepage makes the repo feel like a **library entrance**: clear curriculum index, coalition principles, and quick links to core files.
+
+Would you like me to also **draft a sample doctrine essay** (e.g., “Evidence Preservation as Ritual”) to seed the Wiki with substantive content right away?

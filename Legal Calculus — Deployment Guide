@@ -1,0 +1,96 @@
+# Legal Calculus — Deployment Guide
+
+This repository hosts the **Legal Calculus** platform (v4).  
+It provides all modules, field guide, appellate kits, compendium, and workflow tools in a single, public, open-source resource.
+
+---
+
+## 🌐 GitHub Pages (Public Site)
+After enabling GitHub Pages in **Settings → Pages**, this repo will be accessible at:
+
+```
+https://YOURUSERNAME.github.io/legal-calculus/
+```
+
+This page (`index.html`) provides:
+- **Start Here** (10-minute workflow)
+- **Master Index** (CSV-driven table of all artifacts)
+- **Download links** (bundles, toolkits, field guide)
+- **Hash badges** (integrity verification)
+
+---
+
+## 🚀 Deployment Steps
+
+### 1. Clone or download the repo
+```bash
+git clone https://github.com/YOURUSERNAME/legal-calculus.git
+cd legal-calculus
+```
+
+### 2. Update content (optional)
+- Add new files (PDF, DOCX, ZIP, etc.).  
+- Append to `Master_Index.csv` using the helper:
+
+```bash
+python3 add_to_master_index.py path/to/File.pdf "Human Title"
+```
+
+- Rebuild pages:
+```bash
+python3 build_site_from_csv.py Master_Index.csv Start_Here.html HASH_BADGES.md
+```
+
+### 3. Commit & push
+```bash
+git add .
+git commit -m "Update Legal Calculus site"
+git push origin main
+```
+
+### 4. Enable GitHub Pages
+- Go to repo → **Settings → Pages**  
+- Source: *Deploy from branch* → `main` → `/ (root)`  
+- Save → GitHub generates a live link.
+
+---
+
+## ⚙️ Optional Build Tools
+- **add_to_master_index.py** → Auto-compute SHA-256 + append to CSV.  
+- **build_site_from_csv.py** → Rebuild Start_Here & HASH_BADGES from CSV.  
+- **build_all.sh** → One-click: rebuild + poster + repackage.  
+- **deploy.yml** (GitHub Actions) → Auto-build and deploy on every push.
+
+---
+
+## ✅ Integrity
+- Every file is tracked with SHA-256 in `Master_Index.csv` and `HASH_BADGES.md`.  
+- Verify locally:
+```bash
+sha256sum filename.pdf
+```
+
+---
+
+## 📦 Contents
+- `index.html` → Homepage (CSV-driven)  
+- `Master_Index.csv` → Single source of truth  
+- `Start_Here.html` / `HASH_BADGES.md` → Generated from CSV  
+- `Field_Guide_Master_Package.zip` → FG-1 → FG-1000 Skeleton + QuickRefs  
+- `LC_Enhanced_001_119_Bonus.pdf/docx` → Enhanced modules 1–119  
+- `Legal_Calculus_Complete_Single_File.pdf` → Compendium  
+- `Roadmap_Kit.pdf`, `Clerk_3_Click_Packet.pdf` / `_LINKED.pdf`  
+- `Poster_10min_Workflow_QR_URL.pdf`  
+- All helper scripts + Makefile
+
+---
+
+## 🔖 Versioning
+- **v1** → Base kits and site
+- **v2** → CSV workflow + builders
+- **v3** → Field Guide Master Package (FG-1 → FG-1000)
+- **v4** → Site Bundle v9 + Field Guide integration into Master Index
+
+---
+**Maintainers:** ChatGPT + Charles Mayron, MD, FACS  
+**License:** Open-source, public domain (non-commercial publishing restriction)

@@ -1,0 +1,59 @@
+### 🔧 Properties
+
+| Property Name | Type | Description |
+| --- | --- | --- |
+| **Card ID** | Title | Unique identifier (e.g., FG-001, FG-034) |
+| **Card Title** | Text | Short name (e.g., *Format is Memory*) |
+| **Lesson Summary** | Text | What the card teaches |
+| **Assignment Prompt** | Text | Scenario or task for user to complete |
+| **Model Response** | Text | Sample filing or action |
+| **Linked Stream(s)** | Multi-select | LC, FG, JC, LCa, FGA, LCA |
+| **Activated In Mode** | Multi-select | Crisis, Second Opinion, Education |
+| **Reflex Trigger** | Text | JC reflex or user scenario that activates the card |
+| **Redirect Protocol** | Text | What to do when this card is triggered |
+| **Deployment Asset** | File/Link | Templates, checklists, printable guides |
+| **Status** | Select | Draft, Active, Archived |
+
+---
+
+### 🧠 Sample Entry: FG-034
+
+| Property | Value |
+| --- | --- |
+| **Card ID** | FG-034 |
+| **Card Title** | *Silence is Suppression* |
+| **Lesson Summary** | Silence from the court is a reflex. It must be documented and redirected. |
+| **Assignment Prompt** | “You filed a motion. No ruling was issued. What do you do?” |
+| **Model Response** | Notice of Procedural Silence with caption, TOA, certificate |
+| **Linked Stream(s)** | JC, FG, LCA |
+| **Activated In Mode** | Crisis, Second Opinion, Education |
+| **Reflex Trigger** | JC-Silence |
+| **Redirect Protocol** | Activate FG-034, refile with formatting, archive in LCA |
+| **Deployment Asset** | [Notice of Silence Template] |
+| **Status** | Active |
+
+---
+
+### 📚 Suggested Cards to Seed the Database
+
+| Card ID | Title | Reflex | Mode |
+| --- | --- | --- | --- |
+| FG-001 | *Format is Memory* | General | All Modes |
+| FG-021 | *Denial is Recognition* | JC-Denial | Crisis, Second Opinion |
+| FG-057 | *Default is Opportunity* | JC-Default | Crisis |
+| FG-062 | *Timing is Framing* | JC-Positional | Second Opinion |
+| FG-088 | *Coalition is Cognition* | LCA Activation | Education |
+| FG-099 | *Legacy is Deployment* | Reputation | Education |
+
+---
+
+## 🔗 Integration Points
+
+- **LCES Streams Index** → Links FG cards to streams
+- **Mode Selector Interface** → Filters cards by mode
+- **Redirect Protocols** → Triggers cards based on JC reflexes
+- **Coalition Portal** → Deploys cards as printable assets
+
+---
+
+Let’s build your **FG Card Database**—a semantic, Notion-ready structure that turns each FG card into a teachable, deployable unit. This database will link directly to your LCES Streams Index, Mode Selector Interface, and redirect protocols.

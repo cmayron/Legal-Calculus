@@ -1,0 +1,34 @@
+**Traditional playbook (typical)**
+
+1. Read the motion; note standards (plausibility, well-pleaded facts).
+2. Pull a few cases; draft an opposition.
+3. File before the deadline.
+
+**Legal Calculus approach (procedural systems view)**
+
+1. Pre-mortem map (what could go wrong?)
+    - Off-ramps: judicial economy, “shotgun pleading,” failure to state a claim, immunity, abstention.
+    - Clerk/failure risks: page limits, missing certificate of service, exhibits not text-searchable, hyperlinks to paywalled sources.
+2. 
+3. Claim→Element→Fact matrix (one row per element)
+    - For each cause of action: list elements; tie each element to specific, cited paragraphs/exhibits.
+    - Flag “thin” elements → queue targeted amendments or judicially noticeable facts.
+4. 
+5. EV tree (expected-value of choices)
+    - Branches: (a) Oppose now; (b) Seek leave to amend; (c) File partial amendment + consent; (d) Voluntary narrowing.
+    - Score each branch by probability × impact (dismissal risk, credibility, time).
+6. 
+7. Procedural hedges
+    - Draft conditional Leave-to-Amend (LTA) with a clean redline ready.
+    - Prepare a Proposed Order (some courts appreciate this).
+    - Add record-preserving footnotes (e.g., tolling, relation-back).
+8. 
+9. Packaging
+    - One PDF per exhibit (OCR’d, bookmarked, labeled “ECF No. X-1, Ex. A”).
+    - Include a “Where Each Element Lives” appendix (1 page).
+10. 
+11. Coalition check
+    - 15-minute buddy review: one friend/clinic volunteer reads only the element matrix and appendix to see if any element is still naked. (Quick social accountability beats solo tunnel vision—and it’s a nice way to stay connected.)
+12. 
+
+Outcome difference: Instead of “argue and hope,” you engineer fallback paths (LTA ready, narrower claims teed up) and de-risk clerk/judge off-ramps with formatting and element coverage.

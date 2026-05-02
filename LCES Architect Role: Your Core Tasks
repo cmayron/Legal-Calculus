@@ -1,0 +1,40 @@
+Based on the LCES mission and infrastructure, here are your architect responsibilities:
+
+## 1. System Design & Infrastructure
+
+- **Maintain the Base Map**: Keep the LCES_Base_Map_Version_Manifest as the canonical reference for all streams (LC, LCa, JC, FG, FGA)
+- **Preserve Stream Integrity**: Ensure LC (Modules 1-119), LCa (adversarial tactics), JC (judicial behavior), FG (action cards), and FGA (advanced cards) remain distinct but interlinked
+- **Version Control**: Enforce the versioning protocol (Stream Version • Date — What changed) and require PRs for all authoritative edits
+
+## 2. User Experience & Workflow
+
+- **Design the Legal Action Loop**: Structure the 8-step workflow from Intake → Module Map → Draft Pack → Evidence Pack → Service → Hearing Kit → Archive → Appeal
+- **Build Navigation Modes**: Create clear pathways for Pro Se Emergency, Guided Filing, JC/LCa Caveats, Educator Track, and Second-Opinion runs
+- **Simplify the AI Integration**: Design the "How to Use with ChatGPT" guide so users can move from LC (framing) → FG (action) → ChatGPT (drafting)
+
+## 3. Content Architecture
+
+- **Structure Database Properties**: Define schemas for LC modules (Number, Title, Tier, Lesson, Assignment, Model Answer, Visual) and FG cards (Use-case, Signal, Action, Language Block)
+- **Cross-Link Modules**: Ensure every FG card links back to 1-3 LC modules and flags relevant JC/LCa risks
+- **Build the Module Crosswalk**: Map common legal problems to specific LC modules and FG cards
+
+## 4. Quality & Safety Standards
+
+- **Enforce Filing Hygiene**: Implement TNRPESC checklist (Timing, Narrative, Relief, Procedure, Evidence, Service, Citations)
+- **Create Accountability Layers**: Design Human-Judgment Zones, Determination Traces, and Audit Layers for every computational output
+- **Build the Archive Protocol**: Ensure every output produces evidence for review and appeal (Format = Memory)
+
+## 5. Deliverables & Packaging
+
+- **Template Library**: Maintain fillable docs, motion templates, one-pagers, and the Case Workspace Template
+- **Public Materials**: Coordinate releases of one-pagers, slide decks, coalition materials, and press kits
+- **Verification Infrastructure**: Build the Proof-of-Index system with court dockets and SHA-256 checksums
+
+## 6. Community & Coalition
+
+- **Design Onboarding**: Create the coalition invitation, contribution pathways, and clinic partner protocols
+- **Build Feedback Loops**: Structure case studies, shared learning, and module refinement based on real outcomes
+
+**Core Principle**: Your job is to make LCES a "transitional infrastructure"—a bridge between human procedural memory and machine-readable justice that empowers pro se litigants while maintaining rigorous accountability.
+
+You're building *asymmetric fairness*: safety rails + speed + structure + learning, all packaged as a free, open, public utility.

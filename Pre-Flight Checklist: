@@ -1,0 +1,30 @@
+Pre-Flight Checklist: The Final "Inspector" Pass
+Before you move from Step 8 (Finalize) to Step 9 (File and Serve), run your document through this high-stakes checklist. This is designed to catch the "invisible" errors that often lead to motions to strike or summary rejections.
+
+1. Procedural & Jurisdictional Integrity
+- Caption Accuracy: Does the header match the exact formatting required by the local rules? (Case number, department/division, and party designations).
+- Signature Block: Is the "S/" electronic signature or physical signature present as required by the specific court's e-filing rules?
+- Certificate of Service: Is the "Proof of Service" attached to the end of the document, or is it ready to be filed as a separate standalone document?
+1. Evidence & Linkage
+- Exhibit ID Verification: Does every mention of an exhibit in the text (e.g., "See Exhibit A") match the actual label on the PDF attachment?
+- The "Dead Link" Check: If you are filing electronically with hyperlinks, do they all resolve to the correct page in your evidence ledger?
+- Authentication: Does the text briefly state the foundation for each piece of evidence? (e.g., "This email was sent from [Person] on [Date]").
+1. The "Inspector" AI Logic Audit
+- Negative Elements: Did the Inspector check for what is missing? (e.g., "You alleged a breach, but did you state the specific damages incurred?").
+- Citation Formatting: Are the citations in the correct format for your jurisdiction (Bluebook vs. Local Style)?
+- Word/Page Count: Does the document fall within the page limits set by the local or judge’s standing orders?
+The Final Validation Table
+| Component | Status | Inspector Note |
+|---|---|---|
+| Pleading Header | | Verified against local rule 2.1 |
+| Table of Authorities | | Automatically generated and verified |
+| Redactions | | Social Security numbers/Private info removed |
+| Footer Info | | Case name/number on every page |
+The "Provenance" Stamp
+To close out Step 8, ensure your Provenance Note in Notion includes this final metadata:
+
+> Document Hash/ID: [Unique ID]
+Final Review Date: [YYYY-MM-DD]
+Inspector Version: [v2.4 - Procedural Pass]
+Outcome: Pass - No critical errors detected.
+>

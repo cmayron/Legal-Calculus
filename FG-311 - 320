@@ -1,0 +1,97 @@
+FG-311 — Limited-Remand Return Letter (≤3 Pages, Pins Only)
+	•	⚖️ Core Message: After a limited remand, file a short return letter that answers the mandate—not the whole case.
+	•	📖 Lesson Content: Structure: (1) Quote mandate line; (2) List the pages with findings (two pins); (3) State what remains unresolved (one sentence); (4) Relief (decide/clarify/short remand). No new facts.
+	•	📝 Assignment: Draft a two-paragraph return letter with two pins and a one-line order.
+	•	✅ Model Response: “Mandate sought harm findings. Court entered findings at Dkt 101:2–3; Appx Tab 3 p.2. Relief: decide or clarify p.12 n.3 (‘not reached’).”
+	•	💡 Reflection Summary: Answer the instruction; hand the order.
+	•	🎨 Visual Concept: A short letter with a margin bracket around “mandate → findings → relief.”
+
+⸻
+
+FG-312 — Docket Hygiene Notice (Title • Metadata • Link)
+	•	⚖️ Core Message: Fix intake errors with one neutral notice—title, metadata, and link in one shot.
+	•	📖 Lesson Content: Headings: Incorrect (as docketed) → Correct (should read) → Why it matters (service/search) → Attachment (corrected first page) → Ask (suppress mis-link). No rhetoric.
+	•	📝 Assignment: Write a 7-line docket hygiene notice for a mis-titled filing.
+	•	✅ Model Response: “Correct ‘Letter’ → ‘Motion for Preliminary Injunction’; title/metadata aligned; first page attached; please suppress prior link.”
+	•	💡 Reflection Summary: Small clerical fixes prevent big calendar burns.
+	•	🎨 Visual Concept: A “before/after” header strip with a green “corrected” tag.
+
+⸻
+
+FG-313 — Exhibit Storyboard (Sequence → Remedy)
+	•	⚖️ Core Message: Sequence exhibits to tell the remedy path in four beats.
+	•	📖 Lesson Content: Four tiles: Trigger page → Gap page (“not reached”) → Harm proof (invoice/timeline) → Order text (two lines). Put the storyboard in OA/appendix front.
+	•	📝 Assignment: Build a 4-tile storyboard for your live ask.
+	•	✅ Model Response: “Dkt 95:1 (Rule 58) → Dkt 18:2 (gap) → Ex A:1 (cost) → order: remand 21d (a–d).”
+	•	💡 Reflection Summary: Sequence converts pages to signatures.
+	•	🎨 Visual Concept: Four cards chained with arrows ending at a gavel.
+
+⸻
+
+FG-314 — OA Pivot Script (If Q → Then Close)
+	•	⚖️ Core Message: Pre-write If-Then pivots: each tough question funnels to the same two-pin close.
+	•	📖 Lesson Content: Rows: Q Signal → Standard → Two pins → One-line ask. Memorize cadence; use the same close each time.
+	•	📝 Assignment: Draft 6 pivot lines covering your likely Qs.
+	•	✅ Model Response: “If harmless-error: abuse; pins Dkt 18:2; Tab 3 p.2; ask: remand 21d for findings.”
+	•	💡 Reflection Summary: Repetition is direction.
+	•	🎨 Visual Concept: A switchboard routing questions to one order strip.
+
+⸻
+
+FG-315 — Calendar Cadence Table (Task • Owner • Due • Proof)
+	•	⚖️ Core Message: Convert promises into dated tasks with proof lines.
+	•	📖 Lesson Content: Five rows: Task • Owner • Due • Proof pin • Status; attach to status letters; add a sunset and OA window.
+	•	📝 Assignment: Build a 5-row cadence table for your remand.
+	•	✅ Model Response: “Harm findings—Court—09/15—Dkt 101:2–3—queued; OA window Tue/Wed 2–4 PM.”
+	•	💡 Reflection Summary: Schedules persuade more than adjectives.
+	•	🎨 Visual Concept: A checklist grid with a bright “Due” chip.
+
+⸻
+
+FG-316 — Auth-First Cite Habit (Key → Page → Factor)
+	•	⚖️ Core Message: Cite the auth page before the content page—every time.
+	•	📖 Lesson Content: Ladder: Auth (902(11)/stamp/EXIF) → Content (invoice/email) → Factor (harm/equities/public); duplicate auth at tab front if needed.
+	•	📝 Assignment: Rewrite three cites in auth-first format.
+	•	✅ Model Response: “Auth: Decl ¶4 (S-1 p.1) → Content: invoice (Tab 3 p.2) → Factor: harm cost.”
+	•	💡 Reflection Summary: Provenance before payload wins trust.
+	•	🎨 Visual Concept: A key icon preceding a document icon with a “harm” tag.
+
+⸻
+
+FG-317 — Release Tag & Checksums (v# • CSV • Note)
+	•	⚖️ Core Message: Version your packets like software—tag + hash + note.
+	•	📖 Lesson Content: On release: tag (v5), append row to Master_Index.csv (SHA-256), update Start_Here/HASH_BADGES, post a 90-word note. Mirrors must show same hash.
+	•	📝 Assignment: Add a v-tag and checksum to your latest packet; write the note.
+	•	✅ Model Response: “Release v5—FG-1→50 Expanded; SHA-256 …; downloads table updated.”
+	•	💡 Reflection Summary: Versions turn work into lineage.
+	•	🎨 Visual Concept: A “v5” badge next to a fingerprint tile.
+
+⸻
+
+FG-318 — One-Line Scope Guard (Who • What • When)
+	•	⚖️ Core Message: End your ask with scope: parties only, which ¶, sunset.
+	•	📖 Lesson Content: Template: “Scope: ¶__ as to parties only; sunset __ days; status at day __; vendors carved out.”
+	•	📝 Assignment: Paste a scope guard under your relief menu.
+	•	✅ Model Response: “Scope: ¶3; parties only; sunset 21d; status day 14; vendors carved out.”
+	•	💡 Reflection Summary: Narrow wins live longest.
+	•	🎨 Visual Concept: A bracket around one paragraph line with a small “vendors” badge.
+
+⸻
+
+FG-319 — Mislink/Misfile Triage (Replace • Suppress • Equivalence)
+	•	⚖️ Core Message: Cure mislinks by replace + suppress + hash—not re-filing from scratch.
+	•	📖 Lesson Content: Notice: (1) what changed; (2) suppress old link; (3) equivalence statement; (4) new SHA-256; (5) cite-sub table if pages moved; (6) no schedule impact.
+	•	📝 Assignment: Draft a 6-line mislink fix with a new hash line.
+	•	✅ Model Response: “Replace OA_6pp (proper title); no argument change; new SHA-256 41be22…; please suppress prior link.”
+	•	💡 Reflection Summary: Hygiene restores credibility fast.
+	•	🎨 Visual Concept: A broken link icon replaced by a clean tile with a fingerprint.
+
+⸻
+
+FG-320 — Bench Card Trio (Roadmap • Relief • Posture)
+	•	⚖️ Core Message: Bring three cards to OA; each fits on a palm.
+	•	📖 Lesson Content: Roadmap (Q/Std/2 pins/Ask); Relief (primary + limited-remand block + scope); Posture (statute/clock/copies). Hash the PDF; file same-day notice if allowed.
+	•	📝 Assignment: Export a 3-card bench set and print two copies.
+	•	✅ Model Response: “Card 1—Ask/Std/2 pins/Ask; Card 2—Vacate & remand 21d (a–d); Card 3—§1291; Rule 58 08/15; NOA 08/19.”
+	•	💡 Reflection Summary: Pocket maps guide live decisions.
+	•	🎨 Visual Concept: Three palm-sized cards clipped with a tiny fingerprint footer.

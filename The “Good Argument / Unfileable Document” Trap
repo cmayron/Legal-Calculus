@@ -1,0 +1,26 @@
+AI can generate strong legal arguments fast. But courts don’t accept “good arguments” in the abstract — they accept properly structured filings.
+
+A common error is relying on a single AI draft and assuming:
+
+- the argument is the best available version, and
+- the document is fileable as written.
+
+In practice, AI drafts often fail for procedural reasons even when the substance is strong:
+
+- incorrect caption / parties / judge line
+- missing rule posture (“what is this filing?”)
+- missing Certificate of Service (or wrong service method)
+- missing signature block, address block, date, or verification
+- missing required attachments/exhibits or exhibit labeling
+- wrong terminology (e.g., “affirmation” vs “affidavit” depending on the court)
+
+Legal Calculus rule: Every AI draft must pass a Fileability Checklist before it ever touches the docket.
+
+**The LCES Workflow Standard (AI-to-AI)**
+
+1. Draft AI: generate substance
+2. Structure AI: convert into court format (caption, rule posture, relief, COS)
+3. Red-Team AI: attempt to break it (service timing, rule compliance, missing components)
+4. Final pass: “Would a clerk accept this today?”
+
+This is how you turn AI into a practical tool rather than a procedural liability.

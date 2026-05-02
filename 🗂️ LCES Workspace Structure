@@ -1,0 +1,118 @@
+# Root Directory
+
+## 📁 Core Folders
+
+- 📄 /briefs
+    
+    All legal briefs, complaints, motions, and memoranda
+    
+    Naming: YYYY-MM-DD_Document-Type_v#.pdf
+    
+- 📎 /appendix
+    
+    Supporting appendices and supplemental materials
+    
+- ➕ /addendum
+    
+    Additional materials and amendments
+    
+- 🎤 /oa
+    
+    Opening arguments and oral argument materials
+    
+- ⚖️ /orders
+    
+    Court orders and proposed orders
+    
+    Draft orders ready for signature
+    
+- 🧰 /kits
+    
+    Reusable templates and relief banks
+    
+    Filing checklists and quick-reference cards
+    
+- 📢 /release
+    
+    Public release materials
+    
+    Press kits and public-facing documents
+    
+- 🗄️ /archive
+    
+    Complete case archive with subfolders (see below)
+    
+
+## 📄 Root Files
+
+- **index.html** — Main navigation page
+- **Master_Index.csv** — Complete document index
+- **Start_Here.html** — Quick-start guide
+- **CHECKSUMS.txt** — SHA-256 hashes for verification
+- **CHANGELOG.md** — Version history and updates
+
+---
+
+# Archive Folder Structure
+
+Location: `/archive/`
+
+## Public Folder
+
+- **/Public/Exhibits** — PDF-A format with Bates numbering
+- **/Public/Index** — CSV and JSON indexes
+- **/Public/Summaries** — 2-pagers and FAQs
+
+## Restricted Folder
+
+- **/Restricted/Unredacted** — Access-controlled sensitive materials
+- **/Restricted/Legal_Work_Product** — Attorney work product
+
+## Press Kit Folder
+
+- **/Press_Kit/OnePager.pdf** — 1-page case summary
+- **/Press_Kit/Timeline.png** — Visual timeline
+- **/Press_Kit/Top10_Exhibits.pdf** — Key evidence highlights
+
+---
+
+# Case Archive Subfolders
+
+Location: `/archive/Case_Archive/`
+
+- **00_Timeline/** — Timeline.csv with key dates
+- **01_Pleadings/** — All filed pleadings
+- **02_Exhibits/** — Bates-numbered exhibits (Bates_0001-000N)
+- **03_Orders/** — Court orders and judgments
+- **04_Notices/** — Notices of filing and service
+- **05_FOIA/** — FOIA requests and responses
+
+---
+
+# File Naming Conventions
+
+<aside>
+**Best Practices:**
+Date-stamp all files: YYYY-MM-DD_Document-Name_v#.pdf
+Keep consistent slugs for easy searching
+Include version numbers for drafts
+Export final versions as PDF-A for permanence
+
+</aside>
+
+---
+
+# Quick Setup Checklist
+
+- [ ]  Create root folders: briefs, appendix, addendum, oa, orders, kits, release, archive
+- [ ]  Create root files: index.html, Master_Index.csv, Start_Here.html, CHECKSUMS.txt, [CHANGELOG.md](http://CHANGELOG.md)
+- [ ]  Set up /archive/ with Public, Restricted, Press_Kit subfolders
+- [ ]  Create Case_Archive with 00–05 numbered folders
+- [ ]  Seed Timeline.csv with 5 key dates
+- [ ]  Add initial [CHANGELOG.md](http://CHANGELOG.md) entry
+- [ ]  Set permissions: Public = read-only, Restricted = access-controlled
+
+<aside>
+**Purpose:** This structure makes collaboration scalable, ensures portability, and maintains verifiability across all filings and appeals.
+
+</aside>

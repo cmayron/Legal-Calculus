@@ -1,0 +1,72 @@
+# **Simple, Tight, Iterative**
+
+**1️⃣**
+
+**Pro Se Mode (Build & Assert)**
+
+- Purpose: You create the full filing — complaint, motion, TRO, or memo — in your authentic voice, as a self-advocating litigant.
+- Goal: clarity, completeness, procedural compliance, factual truth.
+- Output: a clean, chronological, captioned, exhibit-linked draft ready for external review.
+- Mindset: You’re presenting what should be heard, unfiltered.
+
+**2️⃣**
+
+**Second-Opinion Mode (Gemini / Dual-Analysis)**
+
+- Purpose: Gemini engages your filing as both reviewer and adversary.
+It plays two roles at once:
+    - Legal Advisor Lens: strengthens reasoning, law, and procedural grounding.
+    - Red-Team Lens: stress-tests your logic, anticipates opposition, exposes weak points.
+- 
+- Goal: merge refinement and challenge in one pass — instead of separate Red-Team sessions.
+- Output: a single annotated “Gemini Report” with:
+    - Suggested improvements (citations, structure, factual clarity)
+    - Embedded counterarguments and judge-risk notes
+    - Severity flags (Fatal / Major / Minor)
+    - Recommended language patches
+- 
+
+**3️⃣**
+
+**You (Re-builder Pass)**
+
+- Review Gemini’s dual-mode output.
+- Patch weaknesses, clarify strengths.
+- Log changes in the Fix List (only one table needed).
+- Re-submit the updated draft for a short verification check (Gemini’s quick confirmation pass).
+
+Then you file → archive → teach.
+
+# **🧭 Process Summary**
+
+Pro Se Mode  →  Second-Opinion Mode (Gemini = Advisor + Red Team)
+↘                         ↙
+Patch & Rebuild  →  Finalize → Archive
+
+This creates a two-engine loop — your lived perspective + AI’s analytical mirror.
+
+Every round strengthens structure and predictive awareness without fragmenting the workflow.
+
+**📂 Updated Package (v1.1)**
+
+Your new .zip will reflect this simpler logic:
+
+ProSe_Cycle_Workflow_Kit_v1.1/
+│
+├── 0_README/
+│   ├── How_to_Use_TwoMode_Workflow.md
+│   └── Quick_Start_Checklist.pdf
+│
+├── 1_ProSe_Mode/
+│   ├── ProSe_Builder_Template.md
+│   ├── Exhibit_Index_Template.csv
+│
+├── 2_SecondOpinion_Mode/
+│   ├── Gemini_DualReport_Template.md
+│   ├── Fix_List_Template.xlsx
+│   └── Verification_Pass_Prompt.md
+│
+└── 3_Final_Archive/
+├── Final_Packet_Checklist.md
+├── Archive_Template.md
+└── CaseStudy_Sample_Module29.md

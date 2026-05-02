@@ -1,0 +1,83 @@
+**Page Title:** `Reflex Detector: Semantic Interface`
+
+---
+
+### 🔍 Instructions Block
+
+> Describe your situation in plain language. The system will detect the JC reflex, match the FG card, and suggest a redirect protocol. This is how formatting becomes cognition.
+> 
+
+---
+
+### 📝 Prompt Input
+
+**Text Box:**
+
+“Enter your scenario here…”
+
+*(e.g., “My motion was denied without explanation.”)*
+
+---
+
+### 🔁 Reflex Detection Logic (Toggle View)
+
+**Toggle: “My motion was denied.”**
+
+- Reflex Detected: JC-Denial
+- FG Card: FG-021: *Denial is Recognition*
+- Redirect Protocol: Refile with caption, TOA, certificate
+- Deployment Asset: [Refile Template]
+
+**Toggle: “The court hasn’t ruled.”**
+
+- Reflex Detected: JC-Silence
+- FG Card: FG-034: *Silence is Suppression*
+- Redirect Protocol: File Notice of Silence
+- Deployment Asset: [Notice Template]
+
+**Toggle: “No response from opposing party.”**
+
+- Reflex Detected: JC-Default
+- FG Card: FG-057: *Default is Opportunity*
+- Redirect Protocol: File for default judgment
+- Deployment Asset: [Default Template]
+
+**Toggle: “Dismissed as premature.”**
+
+- Reflex Detected: JC-Positional
+- FG Card: FG-062: *Timing is Framing*
+- Redirect Protocol: Reframe with procedural timeline
+- Deployment Asset: [Timing Template]
+
+**Toggle: “My lawyer didn’t format the filing.”**
+
+- Reflex Detected: LCa-Misalignment
+- FG Card: FG-003, FG-005
+- Redirect Protocol: Audit lawyer, refile with armor
+- Deployment Asset: [Audit Checklist]
+
+**Toggle: “My filing disappeared.”**
+
+- Reflex Detected: JC-Erasure
+- FG Card: FG-073: *Refile to Remember*
+- Redirect Protocol: Refile with enhanced formatting
+- Deployment Asset: [Refile Template]
+
+**Toggle: “I’m worried about reputation.”**
+
+- Reflex Detected: LCA-Legacy
+- FG Card: FG-099: *Legacy is Deployment*
+- Redirect Protocol: Build public doctrine page
+- Deployment Asset: [Legacy Builder]
+
+---
+
+### 🧩 Optional Enhancements
+
+- Add a **template button**: `New Reflex Detection Entry` → auto-generates a page with detected reflex, FG card, redirect, and asset
+- Embed **linked database view**: `FG Card Generator` → shows matching cards based on reflex
+- Include **semantic tags**: Crisis, Education, Second Opinion → filters redirect logic by user mode
+
+---
+
+Here’s your **Semantic Prompt Block**—a Notion-ready interface that lets users input natural language scenarios and receive reflex detection, FG card activation, and redirect protocols. This block turns Legal Calculus into a conversational, teachable engine of procedural cognition.

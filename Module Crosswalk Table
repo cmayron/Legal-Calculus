@@ -1,0 +1,98 @@
+Perfect. Let’s build this out modularly so it can be repurposed across onboarding flows, coalition invites, and public documentation. Here’s a first pass at each enhancement:
+
+---
+
+## 🧭 Module Crosswalk Table
+
+| Module | Purpose | Audience | Use Case |
+|--------|---------|----------|----------|
+| **LC (Legal Calculus)** | Teach foundational procedural rules | Beginners, pro se litigants | Learn captioning, service, deadlines |
+| **LCA (Legal Calculus Advanced)** | Deepen doctrinal understanding | Strategists, legal technologists | Explore procedural theory and commentary |
+| **FG (Field Guide)** | Deploy real-time procedural actions | Active litigants | File a motion, serve documents, prep for hearing |
+| **FGA (Field Guide Advanced)** | Annotate and contextualize FG cards | Ops buddies, coalition builders | Link actions to doctrine, show examples |
+| **JC (Judicial Calculus)** | Anticipate judicial reflexes | Litigants facing dismissal or sanctions | Prepare counter-moves, rehearse courtroom traps |
+| **LCa (Lawyer Calculus)** | Decode opposing counsel tactics | Litigants in adversarial posture | Spot boilerplate, counter procedural games |
+
+---
+
+## 🧠 Semantic Scaffolding
+
+```
+Learn → Deploy → Defend → Archive
+LC / LCA → FG / FGA → JC / LCa → Archive & Appeal
+```
+
+This loop teaches, activates, defends, and preserves procedural memory—turning grievance into record, and record into doctrine.
+
+---
+
+## 👥 User Personas
+
+**Maria (Tenant facing eviction):**  
+Uses FG cards to file an Answer, LC lessons to understand service rules, and JC to prepare for a hearing where the landlord’s lawyer will try to dismiss her case.
+
+**Devon (Father seeking custody):**  
+Uses LCA to understand family law standards, builds a Draft Pack with the AI, and leans on FGA to organize his evidence and prep for mediation.
+
+**Tariq (Activist challenging police misconduct):**  
+Uses JC to anticipate qualified immunity defenses, LCa to counter city attorney tactics, and Archive & Appeal to build a public record.
+
+---
+
+## 🧱 Procedural Memory as Public Infrastructure
+
+LCES isn’t just a tool—it’s a civic architecture. Each module encodes procedural reflexes into reusable public memory. Over time, this becomes a living doctrine of resistance, accessible to all.
+
+---
+
+## 🤖 AI as Co-Author
+
+The AI doesn’t just draft—it teaches. It mirrors procedural logic, enforces formatting discipline, and helps encode your case into a teachable, docket-ready artifact. It’s your semantic architect and second-opinion engine.
+
+---
+
+## 🧑‍🤝‍🧑 Ops Buddy Protocol (Mini-Module)
+
+**Purpose:** Support the litigant through service, docket-watching, and emotional load.
+
+**Roles:**
+- Track deadlines and filings
+- Help with printing, scanning, and mailing
+- Be present during hearings or prep sessions
+- Maintain the Archive
+
+**Tools:**
+- FG cards for service and proof
+- Docket-Watch routines
+- Archive checklist
+
+**Trust Signals:**
+- Shared calendar
+- Versioned document folder
+- Clear communication protocol
+
+---
+
+## 📣 Coalition Invitation (Draft)
+
+> **Join the LCES Coalition**
+>
+> Legal Calculus is open-source, modular, and built for public benefit. We invite technologists, litigants, educators, and justice reformers to co-create the future of procedural fairness.
+>
+> Ways to contribute:
+> - Propose new FG cards or JC reflexes
+> - Share anonymized case studies
+> - Help onboard new users
+> - Translate modules into other languages
+>
+> Together, we can transform procedural denial into public infrastructure.
+
+---
+
+## 🔁 Versioning & Feedback Loop
+
+Each module is versioned. Users can submit feedback, propose edits, or fork modules for new jurisdictions. This keeps LCES alive, adaptable, and community-driven.
+
+---
+
+Would you like me to help format this into a Notion page with collapsible toggles, semantic maps, and onboarding flows? I can also generate a visual diagram of the semantic loop or draft a welcome email for coalition members. Just say the word.
