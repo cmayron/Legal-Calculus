@@ -1,1 +1,0 @@
-Legal Calculus Field Guide — Advanced 5.0 • FG 001–1000 • DARK 3.md
