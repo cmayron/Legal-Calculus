@@ -35,6 +35,56 @@ Architect → Builder → Inspector → Human Strategist
 **6. Tagline:**  
 Blueprint. Research. Draft. Stress‑test. Decide.
 
+                         ┌──────────────────────────────┐
+                         │        START HERE             │
+                         │  Entry point into LCES        │
+                         └──────────────┬───────────────┘
+                                        │
+                                        ▼
+                         ┌──────────────────────────────┐
+                         │     Quick‑Start Command       │
+                         │ “Activate LCES… Architect…”   │
+                         └──────────────┬───────────────┘
+                                        │
+                                        ▼
+                         ┌──────────────────────────────┐
+                         │        Architect Mode         │
+                         │  Structure • Sequence • SCU   │
+                         └──────────────┬───────────────┘
+                                        │
+                                        ▼
+                         ┌──────────────────────────────┐
+                         │         Builder Mode          │
+                         │   Draft • Transform • Format  │
+                         └──────────────┬───────────────┘
+                                        │
+                                        ▼
+                         ┌──────────────────────────────┐
+                         │        Inspector Mode         │
+                         │  Stress‑test • Weaknesses     │
+                         │  Omissions • Risks            │
+                         └──────────────┬───────────────┘
+                                        │
+                                        ▼
+                         ┌──────────────────────────────┐
+                         │      Human Strategist         │
+                         │  Judgment • Decisions • File  │
+                         └──────────────┬───────────────┘
+                                        │
+                                        ▼
+                         ┌──────────────────────────────┐
+                         │        Record Updated         │
+                         │  Preservation • Versioning    │
+                         └──────────────┬───────────────┘
+                                        │
+                                        ▼
+                         ┌──────────────────────────────┐
+                         │     LCES Operating Loop       │
+                         │ Retrieve → Frame → Transform  │
+                         │     → Evaluate → Commit       │
+                         └──────────────────────────────┘
+
+
 ---
 
 **LCES Legal Calculus Educational System™** is a procedural‑literacy and workflow system for structuring facts, preserving the record, and producing reviewable draft work product.
