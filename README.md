@@ -153,7 +153,8 @@ This is the fastest way to get oriented.
 
 ---
 
-## 2. Then Read the README  
+## 2. Then Read the README  (compressed version to follow)
+
 **What LCES is, how it works, and how to use it.**
 
 You will learn:
@@ -274,7 +275,6 @@ It is a cognitive exoskeleton — not an authority.
 
 ---
 
-If you want, I can also generate a **BOOTLOADER.md (V4)** or a **visual GitHub plate** in the same style.
 
 ---
 
