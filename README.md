@@ -17,7 +17,7 @@
 
 ## 🚀 LCES Quick‑Start Card
 **1. Paste into Copilot:**  
-“Activate LCES. Read the repository and identify the current task. Begin in Architect mode.”
+“Activate LCES. Readme in the repository and identify the current task. Begin in Architect mode.”
 
 **2. Follow the loop:**  
 Structure → Draft → Review → Decide
