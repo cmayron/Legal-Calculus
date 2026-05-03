@@ -1,16 +1,22 @@
-# **LCES Legal Calculus Educational System™ is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.**
+<p align="center">
+  <strong>
 
-[Status](https://camo.githubusercontent.com/3c973817d3a2c020582c1dafeb76de664232b561cb4cb19cf46c8c7a9b3783e8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7374617475732d6163746976652d626c7565)
+**LCES Legal Calculus Educational System™** is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.</strong>
+</p>
 
-[Framework](https://camo.githubusercontent.com/1e23df4beabf2deb13821ee8b6671e26ffc5db7ab56a8e7249d5a2449f8d2b4b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f747970652d70726f6365647572616c2d2d6c697465726163792532306672616d65776f726b2d626c61636b)
 
-[Workflow](https://camo.githubusercontent.com/c79f9c8b69cb6c9769dac59f8cafff6daf6adf3014967c8ff2d1bd454b71c877/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f776f726b666c6f772d4172636869746563742532302545322538362539322532304275696c646572253230254532253836253932253230496e73706563746f722d677265656e)
 
-[License](https://camo.githubusercontent.com/4e651249bcd5e4a919f8b85221435dc46c5f70de051ec49d4ebe0f61bfd7f72a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d434325323042592d2d4e432d2d5341253230342e302d6c6967687467726579)
+<p align="center">
+  <img alt="Status" src="https://img.shields.io/badge/status-active-blue">
+  <img alt="Framework" src="https://img.shields.io/badge/type-procedural--literacy%20framework-black">
+  <img alt="Workflow" src="https://img.shields.io/badge/workflow-Architect%20%E2%86%92%20Builder%20%E2%86%92%20Inspector-green">
+  <img alt="License" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey">
+</p>
 
 ---
 
-**START HERE** — Your entry point into the framework
+**START HERE** —
+Your entry point into the framework
 
 **LCES Legal Calculus Educational System™** is a procedural‑literacy and workflow system for structuring facts, preserving the record, and producing reviewable draft work product.
 
