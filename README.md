@@ -38,7 +38,7 @@
 Structure → Draft → Review → Decide
 
 **3. Roles:**  
-Architect = structure • Builder = prose • Inspector = stress‑test • Human = decision
+Architect = structure with deep research • Builder = prose • Inspector = stress‑test • Human = decision
 
 **4. Start with SCU:**  
 issue • facts • objective
