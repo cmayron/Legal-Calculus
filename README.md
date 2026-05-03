@@ -13,7 +13,7 @@
 </p>
 
 ---
-# START HERE — Your entry point into the framework
+
 
 ## 🚀 LCES Quick‑Start Card
 **1. Paste into Copilot:**  
