@@ -47,7 +47,7 @@ issue • facts • objective
 Architect → Builder → Inspector → Human Strategist
 
 **6. Tagline:**  
-Blueprint. Research. Draft. Stress‑test. Decide.
+Blueprint. **Deep Research**. Draft. Stress‑test. Decide.
 
 ---
 ---
@@ -177,7 +177,7 @@ Here is the **pure, clean, copy‑and‑paste block** — no commentary, no extr
 ---
 
 # **LCES — Legal Calculus Educational System (V4)**  
-**Blueprint → Draft → Stress‑test → Decide.**
+**Blueprint followed by deep research → Draft → Stress‑test → Decide.**
 
 ---
 
