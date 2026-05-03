@@ -16,6 +16,21 @@
 
 
 ## 🚀 LCES Quick‑Start Card for crisis mode 
+
+🚨 60-Second Start
+1. Write:
+   Issue:
+   Facts:
+   Objective:
+
+2. Paste:
+   “Activate LCES. Begin in Architect mode.”
+
+3. Run:
+   Architect → Builder → Inspector
+
+4. You decide.
+
 **1. Paste into Copilot:**  
 “Activate LCES. Readme in the repository and identify the current task. Begin in Architect mode.”
 
