@@ -15,7 +15,7 @@
 ---
 
 
-## 🚀 LCES Quick‑Start Card for crisis mode 
+## 🚀 LCES Quick‑Start Card for **CRISIS MODE**
 
 🚨 60-Second Start
 1. Write:
@@ -49,6 +49,8 @@ Architect → Builder → Inspector → Human Strategist
 **6. Tagline:**  
 Blueprint. Research. Draft. Stress‑test. Decide.
 
+---
+---
                          ┌──────────────────────────────┐
                          │        START HERE             │
                          │  Entry point into LCES        │
@@ -106,7 +108,7 @@ Blueprint. Research. Draft. Stress‑test. Decide.
 ---
 
 
-# START HERE — Your entry point into the framework for pro se, second opinion and education modes 
+# START HERE — Your entry point into the framework for **PRO SE, SECOND OPINION and EDUCATION MODES**
 
 Mode Use When
 **Crisis**
