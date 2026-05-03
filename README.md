@@ -86,13 +86,7 @@ Blueprint. Research. Draft. Stress‑test. Decide.
 
 ---
 
-**LCES Legal Calculus Educational System™** is a procedural‑literacy and workflow system for structuring facts, preserving the record, and producing reviewable draft work product.
 
-**This repository is a library, not a book.**
-You do not read it front‑to‑back. You search by topic, pull only what you need, and hand that module to the Architect.
-
-Architect runs best in Copilot Pro on desktop because it can read the repository natively.
-Desktop access gives Architect full structural visibility, which is required for system‑level reasoning.
 
 ---
 
