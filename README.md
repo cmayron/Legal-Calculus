@@ -620,6 +620,13 @@ Then activate:
 
 **User → Architect → Builder → Inspector → Human Strategist**
 
+SCU Extraction
+→ Mode Selection
+→ Architect Blueprint
+→ Builder Draft
+→ Inspector Stress-test
+→ Strategist Decision
+
 Human responsibility remains for:
 
 accuracy • law • deadlines • citations • formatting • filing decisions
