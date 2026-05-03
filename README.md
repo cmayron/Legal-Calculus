@@ -207,7 +207,7 @@ Extracts SCU.
 Frames issues.  
 Designs the blueprint.  
 No drafting.
-
+must query deep research 
 ---
 
 ## **2. Builder AI**  
