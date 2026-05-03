@@ -756,6 +756,40 @@ LCES is a public procedural‑literacy framework, not a legal‑services engine.
 
 ---
 
+## Governance & Branch Integrity
+## 🔒 MAIN BRANCH PROTECTION PROTOCOL  
+**Status:** ACTIVE  
+**Scope:** `main` (canonical branch)
+
+The `main` branch is protected under the LCES Branch Integrity Standard.  
+All collaborators, automations, and AI agents must operate within the following constraints:
+
+### 1. Structural Protections
+- **Branch Deletion:** Disabled  
+- **Force Pushes:** Disabled  
+- **Direct Commits:** Disabled (PR‑only workflow)  
+- **Merge Commits:** Disabled (linear history enforced)
+
+### 2. Update Requirements
+- **Pull Requests Required:** All changes must originate from a non‑main branch  
+- **Status Checks Required:** All configured checks must pass before merge  
+- **Up‑to‑Date Requirement:** PR branches must be current with `main` before merging  
+- **Conversation Resolution:** All PR discussions must be resolved prior to merge
+
+### 3. Integrity & Provenance
+- **Commit Authenticity:** Signed commits recommended  
+- **Automated Review:** Copilot‑assisted review permitted within PR workflow  
+- **Auditability:** All merges are traceable, review‑gated, and logged
+
+### 4. Operational Doctrine
+The `main` branch serves as the **canonical, indexable, AI‑readable source of truth** for the  
+LCES Legal Calculus Educational System.  
+No module, asset, or procedural artifact may bypass this protection layer.
+
+**All system evolution must proceed through structured, reviewable, and reversible change.**
+
+---
+
 ## XVI. Disclaimer
 LCES is an educational and procedural‑literacy system.  
 It is not legal advice, representation, or a substitute for licensed counsel.
