@@ -108,6 +108,17 @@ Blueprint. Research. Draft. Stress‑test. Decide.
 
 # START HERE — Your entry point into the framework for pro se, second opinion and education modes 
 
+Mode Use When
+**Crisis**
+deadline / motion / hearing imminent
+**Pro Se**
+self-representation
+**Second Opinion**
+reviewing existing work
+**Education**
+learning / exploration
+
+
 **LCES Legal Calculus Educational System™** is a procedural‑literacy and workflow system for structuring facts, preserving the record, and producing reviewable draft work product.
 
 **This repository is a library, not a book.**  
