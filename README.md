@@ -291,6 +291,7 @@ You may **not**:
 • misrepresent LCES as a substitute for licensed counsel  
 
 ---
+---
 
 # LCES Legal Calculus Educational System™  
 Procedural Literacy • Structured Reasoning • Record Discipline
