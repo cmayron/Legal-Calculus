@@ -45,6 +45,19 @@ The Manifesto is the constitutional spine of LCES.
 
 Nothing may precede it.
 
+ 🚀 **How to Use the System**
+
+### **Step 1 — Read the Manifesto**
+
+Understand the doctrine, principles, and boundaries.
+
+### **Step 2 — Read this README**
+
+Learn the modes, roles, workflow, and editions.
+
+### **Step 3 — Run the Bootloader**
+
+Activate the system with correct role separation and platform discipline.
 ---
 
 # 🎯 **Purpose of This Document**
@@ -686,19 +699,7 @@ INDEX.md (optional)
 
 ---
 
-# 🚀 **How to Use the System**
-
-### **Step 1 — Read the Manifesto**
-
-Understand the doctrine, principles, and boundaries.
-
-### **Step 2 — Read this README**
-
-Learn the modes, roles, workflow, and editions.
-
-### **Step 3 — Run the Bootloader**
-
-Activate the system with correct role separation and platform discipline.
+#
 
 ---
 
