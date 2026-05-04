@@ -20,36 +20,13 @@
 </div>
 
 # 🧭 **Document Hierarchy**
-
-1. **Manifesto** — doctrine and principles
-2. **README** — orientation and editions
-3. **Bootloader** — activation and execution
+🚀 **How to Use the System**
+1. **Manifesto** — Understand the doctrine, principles,and boundaries.
+2. **README** — Learn the modes, roles, workflow, and editions.
+3. **Bootloader** — Activate the system with correct role separation and platform discipline.
 
 # **LCES MANIFESTO — Canonical Edition (V4.5)**
 
-**Doctrine → Principles → Boundaries → Identity**
-
----
-
-
-
-The Manifesto is the constitutional spine of LCES.
-
-Nothing may precede it.
-
- 🚀 **How to Use the System**
-
-### **Step 1 — Read the Manifesto**
-
-Understand the doctrine, principles, and boundaries.
-
-### **Step 2 — Read this README**
-
-Learn the modes, roles, workflow, and editions.
-
-### **Step 3 — Run the Bootloader**
-
-Activate the system with correct role separation and platform discipline.
 ---
 
 # 🎯 **Purpose of This Document**
