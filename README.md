@@ -109,7 +109,7 @@ Blueprint. **Deep Research**. Draft. Stress‑test. Decide.
 
 # START HERE — Your entry point into the educational framework 
 
-Pro Se self represented litigant 
+PRO SE (self represented litigant) 
 
 SECOND OPINION 
 
@@ -206,7 +206,7 @@ Frames issues.
 Designs the blueprint.  
 No drafting.
 Must query deep research 
-Copilot Pro on desktop best
+GitHub Copilot Pro on desktop best for repository access to help getting the best blueprint 
 ---
 
 ## **2. Builder AI**  
@@ -214,7 +214,7 @@ Fills the blueprint.
 Drafts cleanly.  
 No structural improvisation.  
 No new issues.
-ChatGPT 
+ChatGPT remembers the chatlogs 
 ---
 
 ## **3. Inspector AI**  
@@ -222,7 +222,7 @@ Stress‑tests the draft.
 Challenges logic, clarity, and risk.  
 Flags weaknesses.  
 No rewriting unless asked.
-Gemini
+Gemini 
 ---
 
 ## **4. Human Strategist (You)**  
@@ -251,7 +251,7 @@ Return to: **Record → Clarify → Anchor → Reassess.**
 5. **Inspector Stress‑test**  
 6. **Strategist Decision**
 
-**Blueprint → Draft → Stress‑test → Decide.**
+**Blueprint(deep research) → Draft → Stress‑test → Decide.**
 
 ---
 
