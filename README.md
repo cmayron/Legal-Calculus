@@ -29,17 +29,19 @@
 
 </div>
 
+# 🧭 **Document Hierarchy**
+
+1. **Manifesto** — doctrine and principles
+2. **README** — orientation and editions
+3. **Bootloader** — activation and execution
+
 # **LCES MANIFESTO — Canonical Edition (V4.5)**
 
 **Doctrine → Principles → Boundaries → Identity**
 
 ---
 
-# 🧭 **Document Hierarchy**
 
-1. **Manifesto** — doctrine and principles
-2. **README** — orientation and editions
-3. **Bootloader** — activation and execution
 
 The Manifesto is the constitutional spine of LCES.
 
