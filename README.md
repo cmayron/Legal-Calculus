@@ -28,14 +28,6 @@
 
 ---
 
-### **Platform–Role Doctrine**
-
-| **Role** | **Platform** | **Function** |
-| --- | --- | --- |
-| **Architect AI** | **GitHub Copilot Pro (Desktop)** | SCU • Blueprint • Deep Research |
-| **Builder AI** | **ChatGPT** | Drafting |
-| **Inspector AI** | **Adversarial Model** | Stress‑Testing |
-| **Human Strategist** | **You** | Judgment |
 
 ---
 
