@@ -73,7 +73,7 @@
 
 ---
 
-## 🚀 LCES Quick‑Start Card for **CRISIS MODE**
+## 🚀 LCES Quick‑Start Card for **CRISIS MODE** limited time 
 
 1. Write:
    Issue:
@@ -108,7 +108,7 @@ Blueprint. **Deep Research**. Draft. Stress‑test. Decide.
 
 
 
-# START HERE — Your entry point into the educational framework 
+# START HERE — Your entry point into the educational framework is not under time pressure 
 
 PRO SE (self represented litigant) 
 
