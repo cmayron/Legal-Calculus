@@ -191,11 +191,16 @@ Move from disorder to one defensible step quickly.
 # **VI. The Six Calculi**
 
 - **LC — Legal Calculus:** Why outcomes happen
+
 - **JC — Judicial Calculus:** How judges manage burden and risk
+
 - **LCa — Lawyer Calculus:** How lawyers manage leverage and exposure
-- **LCA — Legal Calculus Advanced:**Deep forces and long‑range consequences
+
+- **LCA — Legal Calculus Advanced:** Deep forces and long‑range consequences
+
 - **FG — Field Guide:** What to do now
-- **FGA — Field Guide Advanced:**Action under pressure
+
+- **FGA — Field Guide Advanced:** Action under pressure
 
 These modules explain **legal behavior**, not just legal theory.
 
