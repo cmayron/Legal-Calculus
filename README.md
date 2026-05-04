@@ -6,7 +6,6 @@
 
 # **LCES — Legal Calculus Educational System™**
 
-### **AI‑Driven Procedural‑Literacy Framework**
 **LCES Legal Calculus Educational System™** is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.</strong>
 </p>
 
