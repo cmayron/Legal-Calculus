@@ -49,43 +49,6 @@ It is a **control system**.
 
 ---
 
-# II. **Governing Principles**
-
-## **1. Structure Before Content**
-
-No drafting may occur until structure is complete and validated.
-
-## **2. SCU as the Atomic Unit**
-
-Every action begins with the Single Controlling Unit.
-
-## **3. Deep Research Before Drafting**
-
-Blueprints must be interrogated and verified before drafting.
-
-## **4. Role Separation**
-
-Each AI performs one role only.
-
-No blending.
-
-No improvisation.
-
-## **5. Human Primacy**
-
-The Human Strategist is the final authority.
-
-AI outputs are inputs — not decisions.
-
-## **6. Platform Discipline**
-
-Architect = GitHub Copilot Pro (desktop)
-
-Builder = ChatGPT
-
-Inspector = adversarial model
-
-These assignments are doctrinal and may not be altered.
 
 ---
 
@@ -127,6 +90,45 @@ Most failures occur because the record is:
 - procedurally vulnerable
 
 LCES exists to reduce that failure mode.
+
+# II. **Governing Principles**
+
+## **1. Structure Before Content**
+
+No drafting may occur until structure is complete and validated.
+
+## **2. SCU as the Atomic Unit**
+
+Every action begins with the Single Controlling Unit.
+
+## **3. Deep Research Before Drafting**
+
+Blueprints must be interrogated and verified before drafting.
+
+## **4. Role Separation**
+
+Each AI performs one role only.
+
+No blending.
+
+No improvisation.
+
+## **5. Human Primacy**
+
+The Human Strategist is the final authority.
+
+AI outputs are inputs — not decisions.
+
+## **6. Platform Discipline**
+
+Architect = GitHub Copilot Pro (desktop)
+
+Builder = ChatGPT
+
+Inspector = adversarial model
+
+These assignments are doctrinal and may not be altered.
+
 
 ---
 
