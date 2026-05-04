@@ -488,38 +488,6 @@ You — the human strategist — are solely responsible for:
 
 LCES does **not** perform these functions.
 
-**System Boundaries**
-
-LCES:
-
-- does **not** practice law
-- does **not** represent anyone
-- does **not** provide legal advice
-- does **not** automate legal services
-- does **not** make strategic or interpretive decisions
-- does **not** replace attorneys or licensed professionals
-
-LCES is a **public procedural‑literacy framework**, not a legal‑services engine.
-
-**Prohibited Uses**
-
-You may **not**:
-
-- use LCES to provide legal advice to others
-- use LCES to represent another person
-- deploy LCES as a commercial or automated legal‑service tool
-- remove attribution, edition lineage, or doctrinal boundaries
-- misrepresent LCES as a substitute for licensed counsel
-
-**Purpose of This Shield**
-
-This boundary protects:
-
-- the **public‑education mission**
-- the **non‑commercial doctrine**
-- the **coalition governance model**
-- the **integrity of the Calculi**
-- the **user**, the **maintainers**, and the **public**
 
 LCES is a **public good**, not a product.
 ---
