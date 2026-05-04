@@ -24,6 +24,7 @@
 1. **Manifesto** — Understand the doctrine, principles,and boundaries.
 2. **README** — Learn the modes, roles, workflow, and editions.
 3. **Bootloader** — Activate the system with correct role separation and platform discipline.
+
 Everything else derives from these three.
 
 # **LCES MANIFESTO — Canonical Edition (V4.5)**
