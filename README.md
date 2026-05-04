@@ -24,6 +24,7 @@
 1. **Manifesto** — Understand the doctrine, principles,and boundaries.
 2. **README** — Learn the modes, roles, workflow, and editions.
 3. **Bootloader** — Activate the system with correct role separation and platform discipline.
+Everything else derives from these three.
 
 # **LCES MANIFESTO — Canonical Edition (V4.5)**
 
@@ -554,15 +555,8 @@ See [**LICENSE.md**](http://license.md/) and [**TRADEMARK.md**](http://trademark
 - TRADEMARK
 - NOTICE
 
-# 🧭 **Document Hierarchy**
 
-This is the constitutional order of the LCES system:
 
-1. **Manifesto** — doctrine and principles
-2. **README** — orientation and editions
-3. **Bootloader** — activation and execution
-
-Everything else derives from these three.
 
 ---
 
