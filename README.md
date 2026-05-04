@@ -15,39 +15,6 @@
 ---
 
 
-## 🚀 LCES Quick‑Start Card for **CRISIS MODE**
-
-1. Write:
-   Issue:
-   Facts:
-   Objective:
-
-2. Paste:
-   “Activate LCES. Begin in Architect mode.”
-
-3. Run:
-   Architect → Builder → Inspector
-
-4. You decide. Not the LCES
-
-**1. Paste into Copilot:**  
-“Activate LCES. Readme in the repository and identify the current task. Begin in Architect mode.”
-
-**2. Follow the loop:**  
-Structure → Draft → Review → Decide
-
-**3. Roles:**  
-Architect = structure with deep research • Builder = prose • Inspector = stress‑test • Human = decision
-
-**4. Start with SCU:**  
-issue • facts • objective
-
-**5. Load Bootloader:**  
-Architect → Builder → Inspector → Human Strategist
-
-**6. Tagline:**  
-Blueprint. **Deep Research**. Draft. Stress‑test. Decide.
-
 ---
 ---
                          ┌──────────────────────────────┐
@@ -105,6 +72,40 @@ Blueprint. **Deep Research**. Draft. Stress‑test. Decide.
 
 
 ---
+
+## 🚀 LCES Quick‑Start Card for **CRISIS MODE**
+
+1. Write:
+   Issue:
+   Facts:
+   Objective:
+
+2. Paste:
+   “Activate LCES. Begin in Architect mode.”
+
+3. Run:
+   Architect → Builder → Inspector
+
+4. You decide. Not the LCES
+
+**1. Paste into Copilot:**  
+“Activate LCES. Readme in the repository and identify the current task. Begin in Architect mode.”
+
+**2. Follow the loop:**  
+Structure → Draft → Review → Decide
+
+**3. Roles:**  
+Architect = structure with deep research • Builder = prose • Inspector = stress‑test • Human = decision
+
+**4. Start with SCU:**  
+issue • facts • objective
+
+**5. Load Bootloader:**  
+Architect → Builder → Inspector → Human Strategist
+
+**6. Tagline:**  
+Blueprint. **Deep Research**. Draft. Stress‑test. Decide.
+
 
 
 # START HERE — Your entry point into the educational framework 
