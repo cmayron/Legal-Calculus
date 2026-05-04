@@ -37,7 +37,7 @@ It establishes the identity, discipline, and philosophical foundation from which
 
 ---
 
-# I. **Purpose of LCES**
+**Purpose of LCES**
 
 LCES is a procedural‑literacy framework built from real‑world failures and how AI interpreted and reacted to them.
 
