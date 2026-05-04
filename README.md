@@ -48,11 +48,6 @@ LCES is not a tool.
 It is a **control system**.
 
 ---
-
-
----
-
-
 ---
 
 # **I. What is LCES Legal Calculus Educational System™?**
@@ -78,7 +73,7 @@ All outputs require **human verification**.
 
 ---
 
-# **II. Governing Principle**
+# II. **Governing Principles**
 
 ## **The record is the case. The record is the remedy.**
 
@@ -90,8 +85,6 @@ Most failures occur because the record is:
 - procedurally vulnerable
 
 LCES exists to reduce that failure mode.
-
-# II. **Governing Principles**
 
 ## **1. Structure Before Content**
 
