@@ -266,10 +266,6 @@ Return to: **Record → Clarify → Anchor → Reassess.**
 
 ---
 
-# **FIRST CASE (Coming Soon)**  
-A complete start‑to‑finish walkthrough showing:  
-SCU → Mode → Blueprint → Draft → Inspector → Strategist.
-
 ---
 
 # **LICENSE & SAFETY**  
