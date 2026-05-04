@@ -106,6 +106,406 @@ Inspector = adversarial model
 These assignments are doctrinal and may not be altered.
 
 ---
+# **⚠️ UPL SHIELD: HUMAN‑CONTROL & LEGAL‑USE BOUNDARY**
+
+**This repository provides a procedural‑literacy system, not legal advice.**
+
+All outputs generated through LCES are **educational**, **structural**, and **procedural**.
+
+LCES does **not** interpret law, provide legal advice, or replace licensed counsel.
+
+All legal decisions remain **human decisions**.
+
+**Human Strategist Responsibilities**
+
+You — the human strategist — are solely responsible for:
+
+- verifying facts
+- checking deadlines
+- confirming citations
+- ensuring jurisdictional compliance
+- selecting strategy, arguments, and filings
+- deciding what to file, when, and why
+
+**System Boundaries**
+
+LCES:
+
+- does **not** practice law
+- does **not** represent anyone
+- does **not** provide legal advice
+- does **not** automate legal services
+- does **not** make strategic or interpretive decisions
+- does **not** replace attorneys or licensed professionals
+
+**Prohibited Uses**
+
+You may **not**:
+
+- use LCES to provide legal advice to others
+- use LCES to represent another person
+- deploy LCES as a commercial or automated legal‑service tool
+- remove attribution, edition lineage, or doctrinal boundaries
+- misrepresent LCES as a substitute for licensed counsel
+
+---
+
+# **I. What is LCES Legal Calculus Educational System™?**
+
+LCES is a **procedural‑literacy and workflow system** for:
+
+- organizing facts
+- structuring legal work
+- preserving the record
+- producing reviewable draft work product
+
+It is built for real legal environments where outcomes depend on:
+
+**sequence • preservation • clarity • incentives • procedural posture • the record**
+
+LCES converts:
+
+**disorder → structure → draft → preservation → reviewable record**
+
+LCES is **not** legal advice, not a law firm, and not a substitute for licensed counsel.
+
+All outputs require **human verification**.
+
+---
+
+# **II. Governing Principle**
+
+## **The record is the case. The record is the remedy.**
+
+Most failures occur because the record is:
+
+- weak
+- unclear
+- incomplete
+- procedurally vulnerable
+
+LCES exists to reduce that failure mode.
+
+---
+
+# **III. Core Method: The Smallest Complete Unit (SCU)**
+
+LCES operates on the **SCU** — the smallest amount of information needed to perform one coherent task.
+
+A complete SCU contains:
+
+- **issue**
+- **facts**
+- **objective**
+
+If any are missing, the system responds:
+
+> **SCU incomplete. Specify issue, facts, objective.**
+> 
+
+SCU discipline prevents drift and keeps work reviewable.
+
+---
+
+**LCES Legal Calculus Educational System™**
+
+# **IV. The Operating Loop**
+
+**Retrieve → Frame → Transform → Evaluate → Commit**
+
+- **Retrieve** — gather facts, excerpts, dates, objectives
+- **Frame** — identify issue, posture, sequence, constraint
+- **Transform** — produce the required draft
+- **Evaluate** — test for weakness, omission, drift
+- **Commit** — save, label, version, preserve
+
+This loop creates **usable work product**, not just text.
+
+---
+
+# **V. Entry Modes**
+
+**1. Pro Se Mode**
+
+Minimum viable procedural step.
+
+**Success:** one clean, reviewable action.
+
+**2. Second‑Opinion Mode**
+
+Review an existing draft for structure, sequence, preservation.
+
+**Success:** identify flaws and risks before filing.
+
+**3. Education Mode**
+
+Learn legal process through structured reasoning.
+
+**Success:** improved procedural literacy.
+
+**4. Crisis Mode**
+
+Move from disorder to one defensible step quickly.
+
+**Success:** preserve the issue and avoid avoidable error.
+
+---
+
+# **VI. The Six Calculi**
+
+- **LC — Legal Calculus:** Why outcomes happen
+- **JC — Judicial Calculus:** How judges manage burden and risk
+- **LCa — Lawyer Calculus:** How lawyers manage leverage and exposure
+- **LCA — Legal Calculus Advanced:**Deep forces and long‑range consequences
+- **FG — Field Guide:** What to do now
+- **FGA — Field Guide Advanced:**Action under pressure
+
+These modules explain **legal behavior**, not just legal theory.
+
+---
+
+# **VII. Heuristic Guardrail: No Motive‑Reading**
+
+LCES analyzes:
+
+- incentives
+- posture
+- filings
+- conduct
+- rules
+- record
+
+It does **not** guess hidden motives or secret intentions.
+
+All analysis must remain **record‑anchored**.
+
+---
+
+# **VIII. Role Model (Three‑AI Workflow)**
+
+LCES works best when roles remain distinct:
+
+- **Architect** — structure, sequence, workflow
+- **Builder** — drafting, transformation, formatting
+- **Inspector** — red‑team review, weaknesses, omissions, risks
+- **Human Strategist** — judgment, decisions, preservation
+
+Default sequence:
+
+**Architect → Builder → Inspector → Human Strategist**
+
+Each role produces only its assigned output.
+
+---
+
+# **IX. Chief Complaint + Factual Anchor**
+
+LCES begins with:
+
+- **a chief complaint**
+- **a factual anchor**
+
+The factual anchor is the concrete item giving the issue legal significance.
+
+Without an anchor, analysis drifts.
+
+With one, the record begins.
+
+---
+
+# **X. Recommended Workflow**
+
+Start with:
+
+- **issue**
+- **facts**
+- **objective**
+
+Then activate:
+
+**User → Architect → Builder → Inspector → Human Strategist**
+
+Human responsibility remains for:
+
+- accuracy
+- law
+- deadlines
+- citations
+- formatting
+- filing decisions
+
+The AI assists.
+
+The Human Strategist decides.
+
+---
+
+# **XI. Safety & Review Notice**
+
+- Verify all law, rules, deadlines, citations, and formatting independently.
+- Treat all AI output as draft.
+- Do not upload confidential or privileged material into cloud AI tools.
+- Redact personal identifiers before use.
+- Cloud AI environments are not privileged evidence repositories.
+
+---
+
+# **XII. LCES Mode Lock — Bootloader Overview**
+
+**Platform Assignment**
+
+- **Architect = Copilot Pro (desktop)**— required for repository access
+- **Builder = ChatGPT**
+- **Inspector = Gemini**
+- **Human Strategist = human role**
+
+**Core Rule**
+
+Keep roles **separate**.
+
+Do **not** merge functions.
+
+**Architect Mode**
+
+Structure only.
+
+Standard: **Build the blueprint.**
+
+Requires desktop Copilot Pro for native repo visibility.
+
+**Builder Mode**
+
+Drafting only.
+
+Standard: **Execute the blueprint.**
+
+**Inspector Mode**
+
+Analysis only.
+
+Standard: **Test survivability.**
+
+**Execution Order**
+
+**Architect → Builder → Inspector → Human review**
+
+**Reset Rule**
+
+Return to the correct role when drift occurs.
+
+**Master Formula**
+
+**Architect = structure • Builder = prose • Inspector = stress test**
+
+**Tagline**
+
+**Blueprint. Draft. Stress‑test. Decide.**
+
+---
+
+# **XIII. Adoption & Ethical Guardrails**
+
+**Neutrality Firewall**
+
+LCES provides structure; the user provides local law.
+
+**Instrumentality & Convergence Protocol**
+
+AI is a tool, not an agent.
+
+A step is “stable” only when multiple models converge.
+
+**Tiered Entry**
+
+- **The Book** — active toolset
+- **The Library** — research archive
+
+---
+
+# **XIV. Cost & Usage Considerations**
+
+LCES is an **open‑access procedural‑literacy framework**.
+
+The system itself is free, but AI platforms may have their own costs.
+
+**Architect (Copilot Pro desktop)**
+
+Long‑context analysis, multi‑file reasoning, blueprint generation.
+
+**Builder (ChatGPT Plus)**
+
+Drafting, expansion, formatting.
+
+**Inspector (Gemini 3 Flash)**
+
+Stress‑testing and adversarial review.
+
+**Human Strategist**
+
+Final authority.
+
+---
+
+# **⚠️ UPL SHIELD: HUMAN‑CONTROL & LEGAL‑USE BOUNDARY**
+
+**This repository provides a procedural‑literacy system, not legal advice.**
+
+All outputs generated through LCES are **educational**, **structural**, and **procedural**.
+
+**LCES Legal Calculus Educational System™** are **educational**, **structural**, and **procedural**.
+
+LCES does **not** interpret law, provide legal advice, or replace licensed counsel.
+
+All legal decisions remain **human decisions**.
+
+**Human Strategist Responsibilities**
+
+You — the human strategist — are solely responsible for:
+
+- verifying all facts
+- checking all deadlines
+- confirming all citations
+- ensuring jurisdictional compliance
+- selecting strategy, arguments, and filings
+- deciding what to file, when, and why
+
+LCES does **not** perform these functions.
+
+**System Boundaries**
+
+LCES:
+
+- does **not** practice law
+- does **not** represent anyone
+- does **not** provide legal advice
+- does **not** automate legal services
+- does **not** make strategic or interpretive decisions
+- does **not** replace attorneys or licensed professionals
+
+LCES is a **public procedural‑literacy framework**, not a legal‑services engine.
+
+**Prohibited Uses**
+
+You may **not**:
+
+- use LCES to provide legal advice to others
+- use LCES to represent another person
+- deploy LCES as a commercial or automated legal‑service tool
+- remove attribution, edition lineage, or doctrinal boundaries
+- misrepresent LCES as a substitute for licensed counsel
+
+**Purpose of This Shield**
+
+This boundary protects:
+
+- the **public‑education mission**
+- the **non‑commercial doctrine**
+- the **coalition governance model**
+- the **integrity of the Calculi**
+- the **user**, the **maintainers**, and the **public**
+
+LCES is a **public good**, not a product.
+---
 
 # III. **Platform–Role Assignment**
 
