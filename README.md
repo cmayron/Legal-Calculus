@@ -24,16 +24,6 @@
 
 # ════════════════════════════════════════════════
 
-**Manifesto → README → Bootloader → Editions → SCU → Calculi**
-
----
-
-
----
-
-### **Execution Loop**
-
-**SCU → Mode → Architect → Research → Builder → Inspector → Strategist**
 
 # ════════════════════════════════════════════════
 
