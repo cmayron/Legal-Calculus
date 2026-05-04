@@ -146,8 +146,6 @@ SCU discipline prevents drift and keeps work reviewable.
 
 ---
 
-**LCES Legal Calculus Educational System™**
-
 # **IV. The Operating Loop**
 
 **Retrieve → Frame → Transform → Evaluate → Commit**
