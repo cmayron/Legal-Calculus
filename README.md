@@ -111,6 +111,7 @@ Blueprint. **Deep Research**. Draft. Stress‑test. Decide.
 # START HERE — Your entry point into the framework for **PRO SE, SECOND OPINION and EDUCATION MODES**
 
 
+
 **LCES Legal Calculus Educational System™** is a procedural‑literacy and workflow system for structuring facts, preserving the record, and producing reviewable draft work product.
 
 **This repository is a library, not a book.**  
