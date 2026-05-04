@@ -107,7 +107,11 @@ Blueprint. **Deep Research**. Draft. Stress‑test. Decide.
 ---
 
 
-# START HERE — Your entry point into the framework for **PRO SE, SECOND OPINION and EDUCATION MODES**
+# START HERE — Your entry point into the educational framework 
+Pro Se self represented litigant 
+SECOND OPINION 
+EDUCATION 
+MODES
 
 
 
