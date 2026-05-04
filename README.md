@@ -121,47 +121,7 @@ Inspector = adversarial model
 These assignments are doctrinal and may not be altered.
 
 ---
-# **⚠️ UPL SHIELD: HUMAN‑CONTROL & LEGAL‑USE BOUNDARY**
 
-**This repository provides a procedural‑literacy system, not legal advice.**
-
-All outputs generated through LCES are **educational**, **structural**, and **procedural**.
-
-LCES does **not** interpret law, provide legal advice, or replace licensed counsel.
-
-All legal decisions remain **human decisions**.
-
-**Human Strategist Responsibilities**
-
-You — the human strategist — are solely responsible for:
-
-- verifying facts
-- checking deadlines
-- confirming citations
-- ensuring jurisdictional compliance
-- selecting strategy, arguments, and filings
-- deciding what to file, when, and why
-
-**System Boundaries**
-
-LCES:
-
-- does **not** practice law
-- does **not** represent anyone
-- does **not** provide legal advice
-- does **not** automate legal services
-- does **not** make strategic or interpretive decisions
-- does **not** replace attorneys or licensed professionals
-
-**Prohibited Uses**
-
-You may **not**:
-
-- use LCES to provide legal advice to others
-- use LCES to represent another person
-- deploy LCES as a commercial or automated legal‑service tool
-- remove attribution, edition lineage, or doctrinal boundaries
-- misrepresent LCES as a substitute for licensed counsel
 
 ---
 
@@ -460,6 +420,48 @@ Stress‑testing and adversarial review.
 Final authority.
 
 ---
+
+# **⚠️ UPL SHIELD: HUMAN‑CONTROL & LEGAL‑USE BOUNDARY**
+
+**This repository provides a procedural‑literacy system, not legal advice.**
+
+All outputs generated through LCES are **educational**, **structural**, and **procedural**.
+
+LCES does **not** interpret law, provide legal advice, or replace licensed counsel.
+
+All legal decisions remain **human decisions**.
+
+**Human Strategist Responsibilities**
+
+You — the human strategist — are solely responsible for:
+
+- verifying facts
+- checking deadlines
+- confirming citations
+- ensuring jurisdictional compliance
+- selecting strategy, arguments, and filings
+- deciding what to file, when, and why
+
+**System Boundaries**
+
+LCES:
+
+- does **not** practice law
+- does **not** represent anyone
+- does **not** provide legal advice
+- does **not** automate legal services
+- does **not** make strategic or interpretive decisions
+- does **not** replace attorneys or licensed professionals
+
+**Prohibited Uses**
+
+You may **not**:
+
+- use LCES to provide legal advice to others
+- use LCES to represent another person
+- deploy LCES as a commercial or automated legal‑service tool
+- remove attribution, edition lineage, or doctrinal boundaries
+- misrepresent LCES as a substitute for licensed counsel
 
 # **⚠️ UPL SHIELD: HUMAN‑CONTROL & LEGAL‑USE BOUNDARY**
 
