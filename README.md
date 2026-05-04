@@ -425,28 +425,6 @@ You may **not**:
 - remove attribution, edition lineage, or doctrinal boundaries
 - misrepresent LCES as a substitute for licensed counsel
 
-# **⚠️ UPL SHIELD: HUMAN‑CONTROL & LEGAL‑USE BOUNDARY**
-
-**This repository provides a procedural‑literacy system, not legal advice.**
-
-All outputs generated through LCES are **educational**, **structural**, and **procedural**.
-
-**LCES Legal Calculus Educational System™** are **educational**, **structural**, and **procedural**.
-
-LCES does **not** interpret law, provide legal advice, or replace licensed counsel.
-
-All legal decisions remain **human decisions**.
-
-**Human Strategist Responsibilities**
-
-You — the human strategist — are solely responsible for:
-
-- verifying all facts
-- checking all deadlines
-- confirming all citations
-- ensuring jurisdictional compliance
-- selecting strategy, arguments, and filings
-- deciding what to file, when, and why
 
 LCES does **not** perform these functions.
 
