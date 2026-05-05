@@ -10,7 +10,7 @@ LCES runs on a **Layered Inheritance Model**. Every session requires the simulta
 **(1) the General Bootloader (The Kernel)** and **(2) the Edition Bootloader (The Profile)**.  
 Together, they form the “Full Stack” that governs both *how* the AI behaves and *what* environment it must operate within.
 
-🧭 3. Your repo is a “Library + Operating System” hybrid
+It's a unique use of GitHub as Library + Operating System” hybrid model 
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-active-blue">
