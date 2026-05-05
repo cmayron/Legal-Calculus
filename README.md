@@ -31,7 +31,11 @@ Everything else derives from these three.
 
 ---
 
-# **LCES MANIFESTO — Canonical Edition (V4.5)**
+# LCES MANIFESTO — Canonical Edition (V4.5)
+Status: Canonical doctrinal document
+Scope: System identity, role boundaries, and non‑negotiable rules
+
+
 
 ---
 
