@@ -27,6 +27,10 @@
 
 Everything else derives from these three.
 
+---
+
+---
+
 # **LCES MANIFESTO — Canonical Edition (V4.5)**
 
 ---
