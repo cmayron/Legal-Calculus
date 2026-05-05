@@ -2527,7 +2527,7 @@ See [**LICENSE.md**](http://license.md/) and [**TRADEMARK.md**](http://trademark
 
 ---
 ---
-# **Bootloader**
+**General Bootloader (The Kernel)**
 
 # **LCES Legal Calculus Educational System™**
 
