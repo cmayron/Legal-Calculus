@@ -545,6 +545,11 @@ LCES™ is a protected trademark.
 
 See [**LICENSE.md**](http://license.md/) and [**TRADEMARK.md**](http://trademark.md/) for full terms.
 
+---
+
+---
+
+
 # **LCES — Legal Calculus Educational System™ (README V4.5)**
 
 **Orientation → Navigation → Editions → Workflow → Activation Prep**
