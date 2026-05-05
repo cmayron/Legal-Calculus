@@ -27,6 +27,40 @@
 
 Everything else derives from these three.
 
+LCES/
+│
+├── Manifesto.md
+├── README.md
+├── Bootloader.md
+│
+├── LICENSE.md
+├── TRADEMARK.md
+├── NOTICE
+│
+├── /Calculi/
+│   ├── LC.md
+│   ├── JC.md
+│   ├── LCa.md
+│   ├── LCA.md
+│   ├── FG.md
+│   └── FGA.md
+│
+├── /Editions/
+│   ├── SC-LCES.md
+│   ├── FC-LCES.md
+│   └── TE-LCES.md
+│
+├── /SCU/
+│   ├── SCU-Method.md
+│   ├── SCU-Template.md
+│   └── SCU-Examples.md
+│
+└── /Diagrams/
+    ├── LCES-System-Map.png
+    ├── Workflow-Loop.png
+    └── Role-Model.png
+
+
 ---
 
 ---
