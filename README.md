@@ -663,7 +663,50 @@ INDEX.md (optional)
 
 ---
 
-#
+# 🏗️ **System Architecture: The Kernel & The Profile**
+
+LCES runs on a **Layered Inheritance Model**. Every session requires the simultaneous activation of two distinct layers:  
+**(1) the General Bootloader (The Kernel)** and **(2) the Edition Bootloader (The Profile)**.  
+Together, they form the “Full Stack” that governs both *how* the AI behaves and *what* environment it must operate within.
+
+---
+
+## 1. **The General Bootloader (The Kernel)**  
+**Role:** The *Constitutional Layer*  
+**Function:** Defines **HOW** the AI must behave.  
+**Enforcement:**  
+- Locks the Architect → Builder → Inspector role sequence  
+- Enforces the STOP RULE  
+- Activates the No‑Motive‑Reading Firewall  
+- Prevents cross‑role contamination and unauthorized reasoning modes  
+
+**Necessity:**  
+Without the Kernel, the AI becomes a “specialized tool without a brain.”  
+This layer prevents **hallucination‑by‑helpfulness** and ensures the system remains a **discipline engine**, not a drafting engine.
+
+---
+
+## 2. **The Edition Bootloader (The Profile)**  
+**Role:** The *Environmental Layer*  
+**Function:** Defines **WHAT** the AI must look for.  
+**Enforcement:**  
+- Sets jurisdictional “physics”  
+- Establishes venue‑specific constraints (e.g., Small Claims dollar limits, Family Court safety posture, Trust & Estate sequencing)  
+- Controls the scope of permissible facts and procedural expectations  
+
+**Necessity:**  
+Without the Profile, the AI has a “brain without a body.”  
+This layer ensures the system fits the **actual legal environment** in which the user is operating.
+
+---
+
+# ⚖️ **The LCES Logic Stack**
+
+**Why Both Layers Are Mandatory**  
+- **Edition Alone → Role Drift**  
+  The AI tries to be strategist, drafter, and analyst simultaneously.  
+- **Kernel Alone → Logic Drift**  
+  The AI produces structure that does not match the venue’s 
 
 ---
 
