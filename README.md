@@ -1314,10 +1314,6 @@ It may not be skipped, merged, or reordered.
 
 ---
 
-/Editions/SC-LCES/Bootloader.md
-/Editions/FC-LCES/Bootloader.md
-/Editions/TE-LCES/Bootloader.md
-
 <div align="center">
 
 # ─────────────────────────────────────────────
