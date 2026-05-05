@@ -2591,6 +2591,80 @@ Maintain strict role boundaries.
 
 Do not blend roles unless explicitly requested.
 
+
+This subsection is **exactly the missing connective tissue** between the Platform‑Role Map and the Edition Blocks. It explains *why* LCES requires a two‑layer activation sequence instead of a single bootloader, and it does so in a way that is doctrinally consistent with your architecture.
+
+Below is a **cleaned, tightened, publication‑ready version** of your proposed subsection, formatted to match the typographic hierarchy and modular tone of README V4.6.
+
+---
+
+# 🏗️ **System Architecture: The Kernel & The Profile**
+
+LCES runs on a **Layered Inheritance Model**. Every session requires the simultaneous activation of two distinct layers:  
+**(1) the General Bootloader (The Kernel)** and **(2) the Edition Bootloader (The Profile)**.  
+Together, they form the “Full Stack” that governs both *how* the AI behaves and *what* environment it must operate within.
+
+---
+
+## 1. **The General Bootloader (The Kernel)**  
+**Role:** The *Constitutional Layer*  
+**Function:** Defines **HOW** the AI must behave.  
+**Enforcement:**  
+- Locks the Architect → Builder → Inspector role sequence  
+- Enforces the STOP RULE  
+- Activates the No‑Motive‑Reading Firewall  
+- Prevents cross‑role contamination and unauthorized reasoning modes  
+
+**Necessity:**  
+Without the Kernel, the AI becomes a “specialized tool without a brain.”  
+This layer prevents **hallucination‑by‑helpfulness** and ensures the system remains a **discipline engine**, not a drafting engine.
+
+---
+
+## 2. **The Edition Bootloader (The Profile)**  
+**Role:** The *Environmental Layer*  
+**Function:** Defines **WHAT** the AI must look for.  
+**Enforcement:**  
+- Sets jurisdictional “physics”  
+- Establishes venue‑specific constraints (e.g., Small Claims dollar limits, Family Court safety posture, Trust & Estate sequencing)  
+- Controls the scope of permissible facts and procedural expectations  
+
+**Necessity:**  
+Without the Profile, the AI has a “brain without a body.”  
+This layer ensures the system fits the **actual legal environment** in which the user is operating.
+
+---
+
+# ⚖️ **The LCES Logic Stack**
+
+**Why Both Layers Are Mandatory**  
+- **Edition Alone → Role Drift**  
+  The AI tries to be strategist, drafter, and analyst simultaneously.  
+- **Kernel Alone → Logic Drift**  
+  The AI produces structure that does not match the venue’s rules or constraints.
+
+**Execution Rule:**  
+**Always load the General Bootloader first** to establish the Rules of Engagement.  
+**Then load the Edition Bootloader** to define the Mission Parameters.
+
+---
+
+## 💡 **Implementation Tip**  
+Place this subsection **immediately after the Platform‑Role Map** in README V4.6.  
+It acts as the **bridge** that explains how a user (or any AI agent reading the repo) initiates a compliant LCES session.
+
+---
+
+If you want, I can now generate:
+
+- a **diagrammatic version** of the Logic Stack (matching the style of your uploaded image)  
+- a **README‑ready plate** that visually anchors the Kernel/Profile relationship  
+- a **session‑initiation snippet** users can copy‑paste into Copilot Pro
+
+Just tell me which direction you want to go next.
+
+
+
 ======= LCES MODULE LOADER — VERSION 2.1 (ELITE EDITION) Purpose: Activate ONE LCES role module at a time. Enforce role purity and prevent cross‑role blending.
 
 **SYSTEM PRIME DIRECTIVE** Proceed in ONE role only: • Architect AI — for structure • Builder AI — for drafting • Inspector AI — for review • Human Strategist — for evaluation and decision
