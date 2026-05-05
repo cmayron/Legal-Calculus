@@ -234,6 +234,8 @@ Move from disorder to one defensible step quickly.
 **Success:** preserve the issue and avoid avoidable error.
 
 ---
+LCES also establishes a mode of practice that is not found in any existing legal, educational, or computational framework: the use of GitHub and GitHub Copilot as the execution environment for a procedural operating system. In the broader world, GitHub is treated as a code repository and Copilot as an autocomplete tool. Within LCES, they are reinterpreted as a structured memory system and a disciplined reasoning engine. The repository becomes the Library that preserves doctrine, templates, and calculi; Copilot becomes the Architect that executes the kernel, enforces role separation, and maintains procedural integrity; and the human strategist remains the sovereign authority over truth, structure, and action. This pattern is rare because it requires procedural literacy, modular thinking, and human‑in‑the‑loop governance—capacities that most workflows do not possess. LCES demonstrates that a knowledge‑based operating system can be built, preserved, and executed inside a version‑controlled environment, with AI serving as the executor and the human serving as the governor.
+---
 
 # **VI. The Six Calculi**
 
