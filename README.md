@@ -20,6 +20,8 @@
 </div>
 
 # 🧭 **Document Hierarchy**
+
+
 🚀 **How to Use the System**
 1. **Manifesto** — Understand the doctrine, principles,and boundaries.
 2. **README** — Learn the modes, roles, workflow, and editions.
@@ -59,6 +61,8 @@ LCES/
     ├── LCES-System-Map.png
     ├── Workflow-Loop.png
     └── Role-Model.png
+
+🧭 3. Your repo is a “Library + Operating System” hybrid
 
 
 ---
