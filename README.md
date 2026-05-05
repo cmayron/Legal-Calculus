@@ -39,15 +39,6 @@ It establishes the identity, discipline, and philosophical foundation from which
 
 ---
 
-**Purpose of LCES**
-
-LCES is a procedural‑literacy framework built from real‑world failures and how AI interpreted and reacted to them.
-
-It exists to enforce discipline, structure, and clarity before any drafting occurs.
-
-LCES is not a tool.
-
-It is a **control system**.
 
 ---
 ---
@@ -62,6 +53,15 @@ LCES is a **procedural‑literacy and workflow system** for:
 - producing reviewable draft work product
 
 It is built for real legal environments where outcomes depend on:
+framework built from real‑world failures and how AI interpreted and reacted to them.
+It exists to enforce discipline, structure, and clarity before any drafting occurs.
+
+LCES is not a tool.
+
+It is a **control system**.
+
+
+All outputs require **human verification**.
 
 **sequence • preservation • clarity • incentives • procedural posture • the record**
 
@@ -71,7 +71,8 @@ LCES converts:
 
 LCES is **not** legal advice, not a law firm, and not a substitute for licensed counsel.
 
-All outputs require **human verification**.
+
+
 
 ---
 
