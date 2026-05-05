@@ -1,10 +1,10 @@
 
 # **LCES — Legal Calculus Educational System™**
 
-**LCES Legal Calculus Educational System™** is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way.</strong>
+**LCES Legal Calculus Educational System™** is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way .</strong>
 </p>
 
-
+System Architecture: The Kernel & The Profile
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-active-blue">
