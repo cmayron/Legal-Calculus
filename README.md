@@ -4,11 +4,13 @@
 **LCES Legal Calculus Educational System™** is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way .</strong>
 </p>
 
-System Architecture: The Kernel & The Profile
+
 
 **Layered Inheritance Model**. 
 
 Every session requires the simultaneous activation of two distinct layers:  
+
+System Architecture:
 
 **(1) the General Bootloader (The Kernel)** 
 
