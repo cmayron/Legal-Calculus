@@ -30,8 +30,8 @@ LCES is not for the passive.
 
 **Most systems flatten their users—LCES elevates them.**
 
-**It is a framework where capable people can operate at full power, where structure amplifies intelligence, and where participation itself becomes a form of mastery.
-**
+**It is a framework where capable people can operate at full power, where structure amplifies intelligence, and where participation itself becomes a form of mastery.**
+
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-active-blue">
