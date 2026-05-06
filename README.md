@@ -6,11 +6,14 @@
 
 System Architecture: The Kernel & The Profile
 
-LCES runs on a **Layered Inheritance Model**. Every session requires the simultaneous activation of two distinct layers:  
-**(1) the General Bootloader (The Kernel)** and **(2) the Edition Bootloader (The Profile)**.  
-Together, they form the “Full Stack” that governs both *how* the AI behaves and *what* environment it must operate within.
+**Layered Inheritance Model**. 
 
-It's a unique use of GitHub as Library + Operating System” hybrid model 
+Every session requires the simultaneous activation of two distinct layers:  
+**(1) the General Bootloader (The Kernel)** 
+**(2) the Edition Bootloader (The Profile)**.  
+"Full Stack” that governs both *how* the AI behaves and *what* environment it must operate within.
+
+unique use of GitHub as Library + Operating System” hybrid model 
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-active-blue">
