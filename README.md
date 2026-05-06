@@ -601,6 +601,12 @@ See [**LICENSE.md**](http://license.md/) and [**TRADEMARK.md**](http://trademark
 
 # **LCES — Legal Calculus Educational System™ (README V4.5)**
 
+LCES Execution Environment
+
+LCES runs inside a version‑controlled environment using GitHub as the Library and GitHub Copilot as the execution engine. The repository provides the structured memory that preserves modules, templates, and calculi; Copilot provides the disciplined reasoning layer that executes the kernel and maintains role separation. The human strategist remains the governing authority over structure, truth, and action.
+
+For the full doctrine behind this model, see the Manifesto.
+
 **Orientation → Navigation → Editions → Workflow → Activation Prep**
 
 ---
