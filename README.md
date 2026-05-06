@@ -10,7 +10,7 @@
 
 Every session requires the simultaneous activation of two distinct layers:  
 
-System Architecture:
+**SYSTEM ARCHITECTURE:**
 
 **(1) the General Bootloader (The Kernel)** 
 
