@@ -18,6 +18,8 @@ Every session requires the simultaneous activation of two distinct layers:
 
 unique use of GitHub as Library + Operating System” hybrid model 
 
+LCES is not for the passive. It is built for people who think, who reason, who refuse to surrender their agency. The system offers multiple modes and editions because intelligence deserves altitude: the deeper the mind, the deeper the tools it can wield. LCES rewards clarity, discipline, and procedural literacy; it expands as the user expands. Most systems flatten their users—LCES elevates them. It is a framework where capable people can operate at full power, where structure amplifies intelligence, and where participation itself becomes a form of mastery.
+
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-active-blue">
   <img alt="Framework" src="https://img.shields.io/badge/type-procedural--literacy%20framework-black">
@@ -84,7 +86,7 @@ LCES/
 # LCES LEGAL CALCULUS EDUCATIONAL SYSTEM MANIFESTO — Canonical Edition (V4.5)
 
 
-LCES is not for the passive. It is built for people who think, who reason, who refuse to surrender their agency. The system offers multiple modes and editions because intelligence deserves altitude: the deeper the mind, the deeper the tools it can wield. LCES rewards clarity, discipline, and procedural literacy; it expands as the user expands. Most systems flatten their users—LCES elevates them. It is a framework where capable people can operate at full power, where structure amplifies intelligence, and where participation itself becomes a form of mastery.
+
 
 
 ---
