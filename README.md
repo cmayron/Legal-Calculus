@@ -1,3 +1,6 @@
+🚫 THIS IS A LEGACY VERSION  
+The current and authoritative version of LCES is here:  
+https://github.com/cmayron/LCES-Legal-Calculus-Educational-System-TM-V2
 
 
 <p align="center">
