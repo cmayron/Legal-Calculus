@@ -76,9 +76,9 @@ LCES/
 ---
 
 # LCES MANIFESTO — Canonical Edition (V4.5)
-Status: Canonical doctrinal document
-Scope: System identity, role boundaries, and non‑negotiable rules
 
+
+LCES is not for the passive. It is built for people who think, who reason, who refuse to surrender their agency. The system offers multiple modes and editions because intelligence deserves altitude: the deeper the mind, the deeper the tools it can wield. LCES rewards clarity, discipline, and procedural literacy; it expands as the user expands. Most systems flatten their users—LCES elevates them. It is a framework where capable people can operate at full power, where structure amplifies intelligence, and where participation itself becomes a form of mastery.
 
 
 ---
