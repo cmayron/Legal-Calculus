@@ -1,7 +1,7 @@
 🚫 THIS IS A LEGACY VERSION  
 The current and authoritative version of LCES is here:  
 https://github.com/cmayron/LCES-Legal-Calculus-Educational-System-TM-V2
-
+LCES‑Legacy‑V1 (Archived – Do Not Use)
 
 <p align="center">
   <strong>
