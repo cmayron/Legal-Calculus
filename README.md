@@ -1332,16 +1332,54 @@ You are ready to file in Trust & Estate ONLY if:
 □ I understand the fiduciary duties involved
 □ I know whether the matter belongs in probate or trust court
 ```
+Arbitration Calculus Edition — Readiness Summary (AC-LCES)
+
+You are ready to proceed in Arbitration ONLY if:
+
+□ I have identified the arbitration forum and governing rules
+□ I know whether the arbitration is voluntary, contractual, mandatory, or court-compelled
+□ I can define the scope of arbitration clearly
+□ I understand the procedural posture and current deadlines
+□ I know the hearing type: desk, hybrid, evidentiary, or status conference
+□ My chronology is complete, neutral, and evidence-supported
+□ My preservation issues are specific, timely, and procedurally framed
+□ I have reviewed confidentiality, privilege, and protective-order boundaries
+□ I am not uploading confidential arbitration materials, protected discovery, or privileged communications into public AI systems
+□ I understand that arbitration review is limited and requires a review-ready record
 
 ---
 
 # 3. **Unified Readiness Table (All Editions)**
 
-| Edition | Minimum Readiness Requirement | Filing Stability Depends On |
-| --- | --- | --- |
-| **SC‑LCES** | Evidence + Amount + Defendant | Documentation + Jurisdiction |
-| **FC‑LCES** | Orders + Safety + Neutrality | Narrative Stability + Compliance |
-| **TE‑LCES** | Instruments + Sequence + Roles | Document Integrity + Fiduciary Clarity |
+Edition
+
+Minimum Readiness Requirement
+
+Filing Stability Depends On
+
+SC-LCES
+
+Evidence + Amount + Defendant
+
+Documentation + Jurisdiction
+
+FC-LCES
+
+Orders + Safety + Neutrality
+
+Narrative Stability + Compliance
+
+TE-LCES
+
+Instruments + Sequence + Roles
+
+Document Integrity + Fiduciary Clarity
+
+AC-LCES
+
+Forum Rules + Scope + Preservation
+
+Record Integrity + Confidentiality + Reviewability
 
 ---
 
