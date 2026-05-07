@@ -784,6 +784,54 @@ LCES runs best on:
 - **ChatGPT** → Builder AI
 - **Any adversarial model** → Inspector AI
 
+LCES • USER QUICK‑START CARD
+──────────────────────────────────────────────
+PURPOSE:
+Enable full-system access to the LCES repository
+using Copilot Pro with role, stage, and bootloader
+activation fully operational.
+
+REQUIRED:
+• GitHub account
+• Copilot Pro subscription
+• VS Code (desktop)
+• GitHub Desktop (recommended)
+
+STEP 1 — CLONE THE REPO LOCALLY
+GitHub Desktop → Clone Repository →
+cmayron/LCES-Legal-Calculus-Educational-System
+
+STEP 2 — OPEN IN VS CODE
+GitHub Desktop → “Open in Visual Studio Code”
+(Do NOT use the web editor.)
+
+STEP 3 — SIGN INTO VS CODE WITH COPILOT PRO
+VS Code → Account → Sign in with the same
+Microsoft account that holds Copilot Pro.
+
+STEP 4 — OPERATE INSIDE THE REPO
+Ask Copilot:
+“Load the LCES architecture and identify active
+bootloaders, roles, and modules.”
+
+You are now in:
+FULL ARCHITECTURE MODE
+• Bootloaders active
+• Role separation enforced
+• Stage 0→3 lifecycle enabled
+• Repo‑wide reasoning unlocked
+
+FALLBACK (iPad / No Local Clone):
+Search‑Only Mode
+• Browse repo
+• Open files individually
+• Copy/paste into Copilot Pro
+(No bootloaders, no roles, no stages.)
+
+ONE‑SENTENCE SUMMARY:
+Clone locally → open in VS Code → sign in with Copilot Pro → operate inside the repo.
+──────────────────────────────────────────────
+
 ---
 
 # 📂 **Repository Structure (V4.5)**
