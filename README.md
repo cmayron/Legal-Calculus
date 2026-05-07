@@ -2772,7 +2772,494 @@ Chronological clarity
 
 Human governance
 
+🚫 DO NOT FILE IF — Arbitration Calculus™ (AC-LCES V1.0)
 
+Do not proceed until resolved if:
+
+□ You do not know the governing arbitration rules
+
+□ You cannot identify the claims/issues within arbitral scope
+
+□ Your chronology contains gaps or contradictions
+
+□ Your requested relief is unclear or unsupported
+
+□ You do not understand whether the arbitration is desk, hybrid, or evidentiary
+
+□ Your filing depends on emotional escalation rather than procedural structure
+
+□ You are relying on confidential materials that cannot properly be disclosed
+
+□ You intend to upload protected or privileged material into public AI systems
+
+□ You have not verified confidentiality obligations or protective orders
+
+□ Your preservation objections are vague, emotional, or unsupported
+
+⸻
+
+🚩 RED FLAGS — Arbitration Calculus™ (AC-LCES V1.0)
+
+These conditions indicate structural instability or procedural risk.
+
+□ Scope of arbitration is unclear
+
+□ Governing rules have not been verified
+
+□ Multiple communication channels create record confusion
+
+□ Discovery expectations exceed forum authority
+
+□ Hearing type has changed or remains ambiguous
+
+□ Preservation objections are untimely or nonspecific
+
+□ Timeline gaps prevent coherent procedural sequencing
+
+□ Protected or confidential materials are improperly referenced
+
+□ Filings contain accusations without procedural grounding
+
+□ Emotional escalation is replacing structured preservation
+
+⸻
+
+Procedural-First • Preservation-Focused • Confidentiality-Aware
+
+SCU → Forum Rules → Scope → Chronology → Blueprint → Draft → Review
+
+⸻
+
+Calculi Adaptation — Arbitration Calculus™ (AC-LCES V1.0)
+
+Procedural Calculus
+
+Forum rules and contractual authority govern structure.
+
+Preservation Calculus
+
+Clarity and timing determine reviewability.
+
+Discovery Calculus
+
+Discovery is limited, discretionary, and proportional.
+
+Structural Calculus
+
+Chronology and record architecture shape outcomes.
+
+Confidentiality Calculus
+
+Protected information requires strict governance.
+
+Review Calculus
+
+Not every unfavorable ruling is structurally reviewable.
+
+Human Governance Calculus
+
+AI assists structure.
+Humans retain responsibility.
+
+⸻
+
+SCU Template — Arbitration Calculus™ (AC-LCES V1.0)
+
+1. Arbitration Forum
+
+AAA, JAMS, AHLA, FINRA, employment, healthcare, consumer, etc.
+
+2. Governing Rules
+
+Identify procedural and discovery rules.
+
+3. Procedural Posture
+
+Preliminary, discovery, desk arbitration, hearing, post-award, review.
+
+4. Scope of Arbitration
+
+What claims/issues were referred?
+
+5. Hearing Type
+
+Desk, hybrid, evidentiary, status conference.
+
+6. Chronology
+
+Date → Event → Filing → Procedural significance.
+
+7. Preservation Issues
+
+Identify objections, threshold concerns, or procedural disputes.
+
+8. Confidentiality Review
+
+Identify protected materials and disclosure boundaries.
+
+9. Relief Requested
+
+What procedural or substantive relief is requested?
+
+⸻
+
+AC-LCES Evidence Pack (V1.0)
+
+Procedural orders
+
+Scheduling notices
+
+Filed submissions
+
+Rule excerpts
+
+Chronologies
+
+Hearing notices
+
+Exhibit indexes
+
+Publicly disclosable materials only
+
+⸻
+
+AC-LCES SCU Extraction Wizard (V1.0)
+
+What arbitration forum governs?
+
+What rules apply?
+
+What issues are within scope?
+
+What hearing type exists?
+
+What procedural posture exists now?
+
+What filings or orders matter?
+
+What preservation issues exist?
+
+What confidentiality boundaries apply?
+
+What relief is requested?
+
+⸻
+
+AC-LCES Filing Checklist (V1.0)
+
+1. Forum Verification
+
+Correct arbitration forum
+
+Correct governing rules
+
+Correct procedural posture
+
+2. Scope Verification
+
+Claims identified
+
+Threshold issues identified
+
+Authority boundaries identified
+
+3. Chronology
+
+Chronological
+
+Procedurally coherent
+
+Evidence-supported
+
+4. Confidentiality
+
+Protected materials excluded
+
+Privilege reviewed
+
+AI safety verified
+
+5. Preservation
+
+Specific
+
+Timely
+
+Structurally framed
+
+6. Filing
+
+Submit
+
+Preserve
+
+Calendar deadlines
+
+Monitor procedural orders
+
+⸻
+
+First Case Walkthrough — AC-LCES (V1.0)
+
+Scenario
+
+Court-compelled employment arbitration with limited discovery and desk briefing.
+
+⸻
+
+Step 1 — SCU
+
+Forum → arbitration administrator
+
+Rules → forum discovery rules
+
+Scope → referred employment claims
+
+Chronology → orders + filings
+
+Preservation → threshold procedural concerns
+
+⸻
+
+Step 2 — Architect
+
+Blueprint:
+
+Forum
+
+Rules
+
+Scope
+
+Timeline
+
+Discovery posture
+
+Preservation map
+
+Relief requested
+
+⸻
+
+Step 3 — Research
+
+Verify:
+
+* governing rules,
+* confidentiality requirements,
+* procedural posture,
+* chronology stability.
+
+⸻
+
+Step 4 — Builder
+
+Draft:
+
+* procedural notices,
+* structured chronology,
+* preservation-focused filings.
+
+No escalation.
+
+⸻
+
+Step 5 — Inspector
+
+Stress-test:
+
+* clarity,
+* chronology,
+* preservation sufficiency,
+* confidentiality compliance.
+
+⸻
+
+Step 6 — Strategist
+
+Review.
+
+Decide.
+
+File.
+
+⸻
+
+✅ READINESS TEST — Arbitration Calculus™ (AC-LCES V1.0)
+
+You are ready to proceed ONLY if:
+
+□ I know the arbitration forum and governing rules
+
+□ I understand the procedural posture
+
+□ I can define the scope of arbitration clearly
+
+□ My chronology is complete and procedurally coherent
+
+□ My filings are neutral and preservation-focused
+
+□ I understand the hearing type
+
+□ My preservation issues are specific and timely
+
+□ I have reviewed confidentiality and privilege boundaries
+
+□ I am not uploading protected materials into AI systems
+
+□ I understand that arbitration review is limited
+
+⸻
+
+BOOTLOADER — Arbitration Calculus™ (AC-LCES V1.0)
+
+Activation → Structure → Preservation → Review
+
+⸻
+
+🎯 Purpose
+
+This Bootloader adapts the LCES operating system to:
+
+* arbitration environments,
+* procedural compression,
+* confidentiality governance,
+* and limited review systems.
+
+⸻
+
+⚖️ Platform–Role Declaration (Mandatory)
+
+Architect AI → GitHub Copilot Pro (desktop)
+
+Builder AI → ChatGPT
+
+Inspector AI → adversarial model
+
+Human Strategist → You
+
+⸻
+
+🔒 Non-Negotiables (AC-LCES)
+
+• Architect must control structure
+
+• Governing rules must be identified before drafting
+
+• Chronology controls procedural clarity
+
+• Preservation must remain specific and neutral
+
+• Protected materials must never enter public AI systems
+
+• Builder may not add allegations or procedural theories
+
+• Inspector flags structural weakness, not emotional disagreement
+
+• Human Strategist remains final authority
+
+⸻
+
+🧱 ARCHITECT AI — ACTIVATE (AC-LCES)
+
+Extract SCU.
+
+Identify:
+
+* forum,
+* rules,
+* scope,
+* hearing type,
+* chronology,
+* preservation issues.
+
+Build procedural blueprint.
+
+No drafting.
+
+⸻
+
+🔍 DEEP RESEARCH — ACTIVATE (AC-LCES)
+
+Verify:
+
+* procedural rules,
+* deadlines,
+* chronology,
+* confidentiality obligations,
+* preservation posture.
+
+No drafting until stable.
+
+⸻
+
+🏗 BUILDER AI — ACTIVATE (AC-LCES)
+
+Draft:
+
+* structured procedural filings,
+* chronologies,
+* preservation notices,
+* hearing preparation documents.
+
+No procedural expansion.
+
+No emotional escalation.
+
+⸻
+
+🛡 INSPECTOR AI — ACTIVATE (AC-LCES)
+
+Stress-test:
+
+* chronology,
+* preservation,
+* scope clarity,
+* confidentiality compliance,
+* procedural coherence.
+
+⸻
+
+🧠 HUMAN STRATEGIST — ACTIVATE
+
+Review.
+
+Verify.
+
+Decide.
+
+File.
+
+⸻
+
+🔄 Execution Order
+
+SCU → Architect → Research → Builder → Inspector → Strategist
+
+⸻
+
+NOTICE — AC-LCES (V1.0)
+
+This Edition is part of the LCES Legal Calculus Educational System™.
+
+It is an educational procedural-literacy framework focused on arbitration structure, preservation, and reviewability.
+
+No confidential arbitration materials, protected discovery, privileged communications, or sealed records may be uploaded into public AI systems.
+
+⸻
+
+DISCLAIMER — AC-LCES (V1.0)
+
+This Edition provides a procedural-literacy framework for arbitration environments.
+
+It does not provide legal advice, predict outcomes, or replace professional counsel.
+
+Users remain responsible for:
+
+* confidentiality compliance,
+* privilege review,
+* procedural verification,
+* and forum-specific rule compliance.
 
 
 # 🗺 **System Identity**
