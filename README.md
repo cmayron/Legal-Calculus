@@ -8,8 +8,6 @@
 
 **Layered Inheritance Model**. 
 
-Every session requires the simultaneous activation of two distinct layers:  
-
 **SYSTEM ARCHITECTURE:**
 
 **(1) the General Bootloader (The Kernel)** 
@@ -17,6 +15,8 @@ Every session requires the simultaneous activation of two distinct layers:
 **(2) the Edition Bootloader (The Profile)**.  
 
 **Full Stack** that governs both *how* the AI behaves and *what* environment it must operate within.
+
+Every session requires the simultaneous activation of two distinct layers:  
 
 unique use of **GitHub as Library + Operating System” hybrid model**
 
