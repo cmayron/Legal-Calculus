@@ -988,18 +988,48 @@ Return to: **Record → Clarify → Anchor → Reassess.**
 
 ---
 
-# 🎛 **Edition Selector (V4.6)**
+🎛 Edition Selector (V4.7)
+Choose the Edition based on your procedural environment:
 
 Choose the Edition based on your environment:
 
-| Edition | Use When | Core Priority |
-| --- | --- | --- |
-| **SC‑LCES** | Small Claims Court | Evidence → Timeline → Clarity |
-| **FC‑LCES** | Family Court | Safety → Stability → Neutrality |
-| **TE‑LCES** | Trust & Estate | Documents → Chain‑of‑Title → Fiduciary Duty |
+Edition
 
-Each Edition has its own Bootloader, SCU template, and Calculi adaptation.
+Use When
 
+Core Priority
+
+SC-LCES
+
+Small Claims Court
+
+Evidence → Timeline → Clarity
+
+FC-LCES
+
+Family Court
+
+Safety → Stability → Neutrality
+
+TE-LCES
+
+Trust & Estate
+
+Documents → Chain-of-Title → Fiduciary Duty
+
+AC-LCES
+
+Arbitration / Private Adjudication
+
+Forum Rules → Scope → Preservation → Reviewability
+
+Each Edition has its own:
+
+* Bootloader
+* SCU template
+* Calculi adaptation
+* safety rules
+* readiness test
 🗂 LCES Editions
 
 Small Claims Edition (SC-LCES)
