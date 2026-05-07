@@ -523,6 +523,72 @@ LCES is a **public good**, not a product.
 
 This mapping is mandatory.
 
+Here is the **README‑ready Markdown section**, fully structured, publication‑grade, and aligned with your LCES doctrinal style.  
+Copy‑paste directly into your README.
+
+---
+
+# ## **📱 iPad Access Protocol (Fallback Mode)**
+
+Users operating LCES from an iPad can still access the repository, but **only in a reduced‑capability mode**. This mode provides **visibility**, not **activation**.
+
+### **What iPad Users *Can* Do**
+- Search the LCES repository using GitHub Mobile  
+- Open files individually  
+- Read modules, bootloaders, and documentation  
+- Copy text into Copilot Pro for analysis  
+- Perform manual, file‑by‑file operations  
+
+This is known as **Search‑Only Mode**.
+
+---
+
+### **What iPad Users *Cannot* Do**
+iPads cannot provide the full LCES experience because they cannot host a local clone or run VS Code. As a result, users cannot:
+
+- Activate role‑specific bootloaders  
+- Trigger Stage 0→3 lifecycle logic  
+- Use repo‑wide reasoning  
+- Navigate modules through Copilot Pro  
+- Maintain long‑context architectural analysis  
+- Commit with AI co‑author tagging  
+- Operate LCES as a unified system  
+
+This is a **degraded operational environment**.
+
+---
+
+### **Why This Limitation Exists**
+LCES requires:
+
+- A **local filesystem clone**  
+- **VS Code desktop environment**  
+- **Copilot Pro with repo‑wide context**  
+
+iPads cannot provide these conditions.  
+Therefore, the system falls back to **search + manual copy** workflows.
+
+---
+
+### **Recommended Path for Full Functionality**
+To unlock the complete LCES architecture:
+
+1. **Clone the repository locally**  
+2. **Open it in VS Code**  
+3. **Sign in with the Copilot Pro account**  
+4. **Operate inside the repo, not the web interface**
+
+This is the only configuration that enables **bootloaders, roles, stages, and system‑level reasoning**.
+
+---
+
+### **One‑Sentence Summary**
+**iPads can browse the repo, but only a local clone in VS Code unlocks the full LCES architecture.**
+
+---
+
+If you want, I can generate a **capabilities comparison table** or a **visual flowchart** to place directly under this section.
+
 ---
 
 # IV. **Roles + Research Phase**
