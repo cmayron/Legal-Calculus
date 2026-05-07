@@ -1000,20 +1000,23 @@ Choose the Edition based on your environment:
 
 Each Edition has its own Bootloader, SCU template, and Calculi adaptation.
 
-# 🗂 **LCES Editions**
+🗂 LCES Editions
 
-### **Small Claims Edition (SC‑LCES)**
+Small Claims Edition (SC-LCES)
 
-Simplified SCU extraction, compressed timelines, evidence‑first structure.
+Simplified SCU extraction, compressed timelines, evidence-first structure, plain-language procedural clarity.
 
-### **Family Court Edition (FC‑LCES)**
+Family Court Edition (FC-LCES)
 
-High‑emotion environments, narrative control, safety‑first framing.
+High-emotion environments, narrative stabilization, safety-first framing, child-impact awareness, and de-escalation structure.
 
-### **Trust & Estate Edition (TE‑LCES)**
+Trust & Estate Edition (TE-LCES)
 
-Document‑heavy, chain‑of‑title logic, fiduciary duties, multi‑party clarity.
+Document-heavy workflows, chain-of-title logic, fiduciary duties, beneficiary structure, and multi-party procedural clarity.
 
+Arbitration Calculus Edition (AC-LCES)
+
+Private adjudication systems, forum-specific rules, court-compelled arbitration structure, preservation calculus, confidentiality governance, procedural compression, and limited-review architecture.
 ---
 
 # 📚 **Micro‑Glossary**
