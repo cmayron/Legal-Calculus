@@ -2664,6 +2664,117 @@ All actions must comply with probate rules, trust law, and jurisdiction‑specif
 
 Users are responsible for verifying document authenticity, timelines, and fiduciary obligations.
 
+Arbitration Calculus™ — Readiness Summary (AC-LCES)
+
+You are ready to proceed in arbitration ONLY if:
+
+□ I have identified the governing arbitration forum and rules
+
+□ I understand whether the arbitration is voluntary or court-compelled
+
+□ I know what claims/issues are within arbitral scope
+
+□ My chronology is complete, stable, and evidence-supported
+
+□ My filings are structured, neutral, and preservation-focused
+
+□ My requested relief is clear and procedurally appropriate
+
+□ I understand the hearing type (desk, hybrid, evidentiary, status)
+
+□ I have verified confidentiality and privilege boundaries
+
+□ I am not uploading protected or confidential materials into AI systems
+
+□ I am preserving issues rather than escalating emotionally
+
+⸻
+
+⚠️ LEGAL-RISK WARNING — Arbitration Calculus™ (AC-LCES V1.0)
+
+Arbitration operates under contractual authority, forum-specific rules, compressed procedures, and limited review standards.
+
+Different arbitration forums apply different:
+
+* discovery rules,
+* motion practices,
+* confidentiality requirements,
+* and procedural standards.
+
+Failure to understand:
+
+* forum rules,
+* scope limitations,
+* procedural deadlines,
+* or preservation requirements
+    may result in waiver, exclusion, sanctions, or limited review options.
+
+Users must verify:
+
+* governing rules,
+* filing requirements,
+* confidentiality obligations,
+* and procedural posture before submitting materials.
+
+⸻
+
+🛡️ SAFETY — Arbitration Calculus™ (AC-LCES V1.0)
+
+Arbitration requires:
+
+* procedural discipline,
+* confidentiality awareness,
+* record clarity,
+* and structured preservation.
+
+Safety in this edition means preventing:
+
+* procedural waiver,
+* confidentiality breaches,
+* structural record instability,
+* and improper AI disclosure.
+
+⸻
+
+Safety Rules (AC-LCES)
+
+• All procedural timelines must be verified
+
+• All filings must remain structured and neutral
+
+• Preservation must be specific and review-focused
+
+• Confidential and protected materials must remain excluded from public AI systems
+
+• Scope and forum authority must be identified before drafting
+
+• Hearing type must be confirmed before preparation
+
+• Builder AI may not add claims, facts, or allegations
+
+• Human Strategist retains responsibility for confidentiality and privilege review
+
+⸻
+
+Safety Priorities (AC-LCES)
+
+Procedural preservation
+
+Confidentiality compliance
+
+Record integrity
+
+Forum rule compliance
+
+Scope stability
+
+Chronological clarity
+
+Human governance
+
+
+
+
 # 🗺 **System Identity**
 
 The Bootloader is the enforcement layer of LCES.
