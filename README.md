@@ -2745,6 +2745,48 @@ It is not a law firm, legal clinic, substitute for licensed counsel, or a source
 
 ---
 
+LCES Mode Comparison (Markdown, iPad‑Optimized)
+
+Pro Se Mode
+
+Primary User: Self‑represented litigant
+Core Goal: Produce one clean, defensible filing
+Ambiguity Tolerance: Low
+Speed Requirement: Moderate
+AI Constraints: Strict role separation; maximum record discipline; no argument unless requested
+Outputs: Minimum‑viable filing, fact blocks, chronology, exhibits list
+Use When: You must file something real and cannot afford structural mistakes
+
+Second‑Opinion Mode
+
+Primary User: Practitioner, clinic, or litigant with a draft
+Core Goal: Identify structural defects and omissions
+Ambiguity Tolerance: Medium
+Speed Requirement: Low–Moderate
+AI Constraints: Inspector dominant; Builder revises only when instructed
+Outputs: Structural audit, defect list, revision plan
+Use When: You already have a draft and need a structural review before filing
+
+Education Mode
+
+Primary User: Students, instructors, clinics
+Core Goal: Teach procedural literacy
+Ambiguity Tolerance: High
+Speed Requirement: Low
+AI Constraints: Architect dominant; Builder produces examples, not filings
+Outputs: Doctrine maps, hypotheticals, worked examples
+Use When: You want to learn or teach how systems behave, not file something
+
+Crisis Mode
+
+Primary User: Anyone under time pressure
+Core Goal: Move from disorder to one defensible step
+Ambiguity Tolerance: Very Low
+Speed Requirement: High
+AI Constraints: Builder aggressive; Architect collapses scope; Inspector checks only fatal defects
+Outputs: One emergency artifact (motion, letter, notice, declaration)
+Use When: You have a deadline, a threat, or a collapsing situation and need one action now
+
 ## **CORE PURPOSE**
 
 Use LCES to:
