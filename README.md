@@ -589,6 +589,52 @@ This is the only configuration that enables **bootloaders, roles, stages, and sy
 
 If you want, I can generate a **capabilities comparison table** or a **visual flowchart** to place directly under this section.
 
+┌──────────────────────────────┐
+                 │   How Are You Accessing LCES? │
+                 └──────────────────────────────┘
+                               │
+               ┌───────────────┴───────────────┐
+               │                               │
+     ┌──────────────────┐             ┌──────────────────┐
+     │   Desktop / PC   │             │      iPad        │
+     └──────────────────┘             └──────────────────┘
+               │                               │
+               │                               ▼
+               │                 ┌──────────────────────────┐
+               │                 │  GitHub Mobile App Only  │
+               │                 └──────────────────────────┘
+               │                               │
+               ▼                               ▼
+ ┌──────────────────────────────┐   ┌──────────────────────────────┐
+ │ Do you have a local clone of │   │   You are in SEARCH-ONLY     │
+ │        the LCES repo?        │   │            MODE              │
+ └──────────────────────────────┘   └──────────────────────────────┘
+               │                               │
+       ┌───────┴────────┐                      │
+       │                │                      │
+       ▼                ▼                      │
+┌────────────────┐   ┌────────────────┐        │
+│      Yes       │   │       No       │        │
+└────────────────┘   └────────────────┘        │
+       │                │                      │
+       ▼                ▼                      │
+┌──────────────────────────────┐   ┌──────────────────────────────┐
+│ Open the repo in VS Code     │   │ You must SEARCH the repo and │
+│ (not the web editor)         │   │ manually copy content into    │
+└──────────────────────────────┘   │ Copilot Pro                   │
+       │                           └──────────────────────────────┘
+       ▼
+┌──────────────────────────────┐
+│ Sign into VS Code with your  │
+│ Copilot Pro account          │
+└──────────────────────────────┘
+       │
+       ▼
+┌──────────────────────────────┐
+│   FULL ARCHITECTURE MODE     │
+│ Bootloaders • Roles • Stages │
+│ Repo‑wide reasoning enabled   │
+└──────────────────────────────┘
 ---
 
 # IV. **Roles + Research Phase**
