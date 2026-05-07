@@ -110,6 +110,8 @@ The Manifesto defines the doctrine, principles, and non‑negotiable boundaries 
 
 It establishes the identity, discipline, and philosophical foundation from which all other documents derive.
 
+LCES expands because the world demands it. Mode expresses how a human must engage the system — not as a preference, but as a survival posture. Kernel expresses how the machine must behave — not as a suggestion, but as a governance layer that binds the AI to human authority. Edition Bootloader expresses the legal terrain — the parameters, constraints, and permissible transformations of the issue at hand. These three layers exist because no single configuration can serve every human, every skill level, every jurisdiction, every crisis, or every cognitive load. The complexity of LCES is not ornamental; it is structural. It is the only way to build a system that can remain safe, deterministic, and human‑controlled while still adapting to radically diverse needs.
+
 ---
 
 
