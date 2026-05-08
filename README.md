@@ -2739,6 +2739,9 @@ All actions must comply with probate rules, trust law, and jurisdiction‑specif
 
 Users are responsible for verifying document authenticity, timelines, and fiduciary obligations.
 
+### **ARBITRATION EDITION - AC-LCES**
+
+
 Arbitration Calculus™ — Readiness Summary (AC-LCES)
 
 You are ready to proceed in arbitration ONLY if:
