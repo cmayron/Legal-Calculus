@@ -1334,10 +1334,11 @@ You are ready to file in Trust & Estate ONLY if:
 □ I understand the fiduciary duties involved
 □ I know whether the matter belongs in probate or trust court
 ```
-Arbitration Calculus Edition — Readiness Summary (AC-LCES)
+## **Arbitration Calculus Edition — Readiness Summary (AC-LCES)**
 
 You are ready to proceed in Arbitration ONLY if:
 
+```
 □ I have identified the arbitration forum and governing rules
 □ I know whether the arbitration is voluntary, contractual, mandatory, or court-compelled
 □ I can define the scope of arbitration clearly
@@ -1348,6 +1349,7 @@ You are ready to proceed in Arbitration ONLY if:
 □ I have reviewed confidentiality, privilege, and protective-order boundaries
 □ I am not uploading confidential arbitration materials, protected discovery, or privileged communications into public AI systems
 □ I understand that arbitration review is limited and requires a review-ready record
+```
 
 ---
 
