@@ -1150,6 +1150,8 @@ These rules protect the integrity of the system:
 
 These are **constitutional** inside LCES.
 
+UPL DISCLOSURE — This system includes AI components that generate legal information but do not provide legal advice. Under U.S. Unauthorized Practice of Law (UPL) rules, AI is treated as a non‑lawyer and cannot apply law to specific facts, recommend legal actions, interpret statutes for individuals, or make legal decisions. All AI-generated material must be reviewed, interpreted, and approved by a human, who remains the final authority and responsible actor. Human-in-the-loop oversight ensures that AI functions only as a drafting and decision-support tool, while legal judgment, ethical duties, and client-specific reasoning remain exclusively human responsibilities.
+
 ---
 
 ## **3. Cognitive Safety (AI Interaction Layer)**
