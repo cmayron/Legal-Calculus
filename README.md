@@ -1010,13 +1010,57 @@ This layer ensures the system fits the **actual legal environment** in which the
 
 ---
 
-# ⚖️ **The LCES Logic Stack**
+# # **⚖️ The LCES Logic Stack**
 
-**Why Both Layers Are Mandatory**  
-- **Edition Alone → Role Drift**  
-  The AI tries to be strategist, drafter, and analyst simultaneously.  
-- **Kernel Alone → Logic Drift**  
-  The AI produces structure that does not match the venue’s
+### **Why All Three Layers Are Mandatory**
+
+### **Profile Alone → Role Drift**
+
+The AI tries to be strategist, drafter, and analyst simultaneously because nothing is constraining *how* it must behave.
+
+The system becomes venue‑aware but **behavior‑undisciplined**.
+
+### **Kernel Alone → Logic Drift**
+
+The AI produces structure that does not match the venue’s rules, deadlines, or local practice.
+
+The system becomes disciplined but **environment‑blind**.
+
+### **Mode Alone → Context Drift**
+
+The AI assumes the wrong knowledge baseline (lawyer vs. pro se vs. crisis).
+
+The system becomes procedurally active but **user‑misaligned**.
+
+---
+
+# **Only the Full Trilayer Stack Prevents Drift**
+
+### **Kernel → Behavioral Discipline**
+
+Prevents hallucination, role collapse, and unauthorized reasoning.
+
+### **Profile → Environmental Alignment**
+
+Prevents venue drift, jurisdictional errors, and local‑rule violations.
+
+### **Mode → Procedural Correctness**
+
+Prevents context drift and ensures the system meets the user where they are.
+
+---
+
+# **Canonical Principle**
+
+> **Kernel = HOW
+> 
+> 
+> Profile = WHERE
+> 
+> Mode = WHAT
+> 
+> All three must be active, or the system drifts.**
+>
 
 ┌──────────────────────────────────────────┐
                    │        LCES FULL‑STACK ARCHITECTURE       │
