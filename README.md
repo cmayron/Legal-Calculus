@@ -1141,7 +1141,7 @@ This mapping is doctrinal and may not be altered.
 
 ---
 
-# 🔍 **Mode Selector**
+# 🔍 **Entry Mode Selector**
 
 | **Mode** | **Trigger** | **Use When** |
 | --- | --- | --- |
