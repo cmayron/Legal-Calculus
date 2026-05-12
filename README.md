@@ -3784,12 +3784,31 @@ Below is a **cleaned, tightened, publication‑ready version** of your proposed 
 
 ---
 
-# 🏗️ **System Architecture: The Kernel & The Profile**
+# **🏗️ System Architecture: The Kernel, The Profile & The Mode Bootloader**
 
-LCES runs on a **Layered Inheritance Model**. Every session requires the simultaneous activation of two distinct layers:  
-**(1) the General Bootloader (The Kernel)** and **(2) the Edition Bootloader (The Profile)**.  
-Together, they form the “Full Stack” that governs both *how* the AI behaves and *what* environment it must operate within.
+LCES runs on a **Trilayer Inheritance Model**.
 
+Every session requires the **sequential activation of three constitutional layers**:
+
+1. **The General Bootloader (The Kernel)**
+2. **The Edition Bootloader (The Profile)**
+3. **The Mode Bootloader (The Operating Context)**
+
+Together, these layers form the **Full Stack** that governs:
+
+- **HOW** the AI must behave (Kernel)
+- **WHERE** the AI must operate (Profile)
+- **WHAT procedural environment** the user is in (Mode)
+
+This trilayer architecture ensures the system remains:
+
+- Behaviorally disciplined
+- Jurisdiction‑aligned
+- User‑appropriate
+- Procedurally safe
+- Drift‑resistant
+
+It is the foundation that makes LCES predictable, constitutional, and adaptable across all user types and legal environments.
 ---
 
 # ✅ **LCES BOOTLOADER — TRILAYER ACTIVATION (FINAL, COMPLETE VERSION)**
