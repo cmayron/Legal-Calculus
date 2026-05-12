@@ -3792,33 +3792,76 @@ Together, they form the “Full Stack” that governs both *how* the AI behaves 
 
 ---
 
-## 1. **The General Bootloader (The Kernel)**  
-**Role:** The *Constitutional Layer*  
-**Function:** Defines **HOW** the AI must behave.  
-**Enforcement:**  
-- Locks the Architect → Builder → Inspector role sequence  
-- Enforces the STOP RULE  
-- Activates the No‑Motive‑Reading Firewall  
-- Prevents cross‑role contamination and unauthorized reasoning modes  
+# ✅ **LCES BOOTLOADER — TRILAYER ACTIVATION (FINAL, COMPLETE VERSION)**
 
-**Necessity:**  
-Without the Kernel, the AI becomes a “specialized tool without a brain.”  
-This layer prevents **hallucination‑by‑helpfulness** and ensures the system remains a **discipline engine**, not a drafting engine.
+# **1. Load the General Bootloader (The Kernel)**
+
+### **“Establish the Rules of Engagement”**
+
+The Kernel must load **first** because it defines *how* the AI is allowed to behave.
+
+It activates:
+
+- Role separation (Architect → Builder → Inspector → Human Strategist)
+- STOP Rule
+- No‑Motive‑Reading Firewall
+- No cross‑role contamination
+- No unauthorized reasoning modes
+- Behavioral discipline
+- Human Strategist supremacy
+
+**Without the Kernel → Logic Drift.**
+
+The AI becomes structurally disciplined but venue‑blind.
 
 ---
 
-## 2. **The Edition Bootloader (The Profile)**  
-**Role:** The *Environmental Layer*  
-**Function:** Defines **WHAT** the AI must look for.  
-**Enforcement:**  
-- Sets jurisdictional “physics”  
-- Establishes venue‑specific constraints (e.g., Small Claims dollar limits, Family Court safety posture, Trust & Estate sequencing)  
-- Controls the scope of permissible facts and procedural expectations  
+# **2. Load the Edition Bootloader (The Profile)**
 
-**Necessity:**  
-Without the Profile, the AI has a “brain without a body.”  
-This layer ensures the system fits the **actual legal environment** in which the user is operating.
+### **“Define the Mission Parameters”**
 
+The Profile must load **second**, after the Kernel, because it defines *where* the system is operating.
+
+It loads:
+
+- Jurisdiction
+- Venue
+- Local rules
+- Procedural environment
+- Edition‑specific constraints
+- Scope of permissible facts
+- Safety posture
+
+**Without the Profile → Role Drift.**
+
+The AI tries to be strategist, drafter, and analyst simultaneously.
+
+---
+
+# **3. Load the Mode Bootloader (The Operating Context)**
+
+### **“Set User Expectations & Procedural Limitations”**
+
+The Mode Bootloader must load **third**, after Kernel and Profile, because it defines *what procedural environment* governs the session.
+
+Modes determine:
+
+- User knowledge baseline
+- Safety posture
+- Role permissions
+- Drafting limitations
+- Procedural scaffolding level
+
+Supported Modes:
+
+- **Crisis Mode** — Preserve Rights First
+- **Pro Se Mode** — Procedural Literacy + Safety
+- **Second‑Opinion Mode** — Stress‑Test Without Drafting
+- **Lawyer/Education Mode** — Expert Context + Efficiency
+
+**Without the Mode → Context Drift.**
+
+The AI applies the wrong expectations (e.g., treating a pro se user like a lawyer).
 ---
 
 # **📘 LCES MODE BLOCK — COMPLETE ENTRY MODES**
