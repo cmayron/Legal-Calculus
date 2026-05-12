@@ -4025,14 +4025,34 @@ A crisis needs speed.
 A second opinion needs discipline.**
 >
 
-# ⚖️ **The LCES Logic Stack**
+# **⚖️ The LCES Logic Stack — Why All 3 Layers Are Mandatory**
 
-**Why 3 Layers Are Mandatory**  
-- **Edition Alone → Role Drift**  
-  The AI tries to be strategist, drafter, and analyst simultaneously.  
-- **Kernel Alone → Logic Drift**  
-  The AI produces structure that does not match the venue’s rules or constraints.
-- ** Mode Bootloader sets expectations and limitations 
+### **Profile Alone → Role Drift**
+
+The AI behaves without discipline and collapses roles.
+
+### **Kernel Alone → Logic Drift**
+
+The AI produces structure that does not match venue rules or constraints.
+
+### **Mode Alone → Context Drift**
+
+The AI misjudges the user’s literacy level and procedural needs.
+
+---
+
+# **Canonical Principle**
+
+> **Kernel = HOW
+> 
+> 
+> Profile = WHERE
+> 
+> Mode = WHAT
+> 
+> All three must load, in order, or the system drifts.**
+>
+
 **Execution Rule:**  
 **Always load the General Bootloader first** to establish the Rules of Engagement.  
 **Then load the Edition Bootloader** to define the Mission Parameters.
