@@ -8,16 +8,24 @@
 
 **Layered Inheritance Model**. 
 
-**SYSTEM ARCHITECTURE:**
+# **FULL STACK ACTIVATION**
 
-**(1) the General Bootloader (The Kernel)** 
+Every LCES session requires the **simultaneous activation** of:
 
-**(2) the Edition Bootloader (The Profile)**.  
+1. **The General Bootloader (Kernel)**
+2. **The Edition Bootloader (Profile)**
+3. **The Mode Bootloader (Operating Context)**
 
-**Full Stack** that governs both *how* the AI behaves and *what* environment it must operate within.
+Together, these layers ensure:
 
-Every session requires the simultaneous activation of two distinct layers:  
+- No role drift
+- No logic drift
+- No jurisdictional drift
+- No mode contamination
+- No unauthorized reasoning
+- No deviation from human‑defined boundaries
 
+This is the **LCES Full Stack** — the only architecture that keeps AI disciplined, predictable, and constitutionally constrained.
 unique use of **GitHub as Library + Operating System” hybrid model**
 
 LCES is not for the passive. 
