@@ -1016,7 +1016,71 @@ This layer ensures the system fits the **actual legal environment** in which the
 - **Edition Alone → Role Drift**  
   The AI tries to be strategist, drafter, and analyst simultaneously.  
 - **Kernel Alone → Logic Drift**  
-  The AI produces structure that does not match the venue’s 
+  The AI produces structure that does not match the venue’s
+
+┌──────────────────────────────────────────┐
+                   │        LCES FULL‑STACK ARCHITECTURE       │
+                   └──────────────────────────────────────────┘
+
+┌─────────────────────────────── SYSTEM LAYER ────────────────────────────────┐
+│                           (1) GENERAL BOOTLOADER                            │
+│                                   “THE KERNEL”                               │
+│                                                                              │
+│  • Defines HOW the AI must behave                                            │
+│  • Role separation (Architect → Builder → Inspector)                         │
+│  • STOP RULE enforcement                                                     │
+│  • No‑Motive‑Reading Firewall                                                │
+│  • Prevents cross‑role contamination                                         │
+│  • Prevents unauthorized reasoning modes                                     │
+│  • Human Strategist supremacy                                                │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+┌────────────────────────────── ENVIRONMENT LAYER ─────────────────────────────┐
+│                           (2) EDITION BOOTLOADER                             │
+│                                   “THE PROFILE”                              │
+│                                                                              │
+│  • Defines WHAT environment the AI must operate within                       │
+│  • Jurisdictional physics                                                    │
+│  • Venue‑specific constraints (Family, Small Claims, T&E, etc.)              │
+│  • Procedural expectations                                                   │
+│  • Controls permissible facts and scope                                      │
+│  • Ensures environmental alignment                                           │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+┌────────────────────────────── CONTEXT LAYER ─────────────────────────────────┐
+│                           (3) MODE BOOTLOADER                                │
+│                           “THE OPERATING CONTEXT”                            │
+│                                                                              │
+│  • Defines WHICH procedural environment governs the session                  │
+│  • Loads knowledge baseline + safety posture                                 │
+│  • Activates role permissions per mode                                       │
+│                                                                              │
+│  ENTRY MODES:                                                                │
+│    • Crisis Mode — Preserve Rights First                                     │
+│    • Pro Se Mode — Procedural Literacy + Safety                              │
+│    • Second‑Opinion Mode — Stress‑Test Without Drafting                      │
+│    • Lawyer/Education Mode — Expert Context + Efficiency                     │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+┌────────────────────────────── EXECUTION LAYER ───────────────────────────────┐
+│                         ROLE SEQUENCE (ALWAYS ACTIVE)                        │
+│                                                                              │
+│    ARCHITECT  →  BUILDER  →  INSPECTOR  →  HUMAN STRATEGIST                 │
+│                                                                              │
+│  • Architect: structure, sequencing, issue‑spotting                          │
+│  • Builder: drafting from approved structure                                 │
+│  • Inspector: stress‑testing, risk‑flagging                                  │
+│  • Human Strategist: judgment, context, final authority                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+┌────────────────────────────── OUTPUT LAYER ──────────────────────────────────┐
+│  • Packets, filings, drafts, maps, checklists, exhibits, orders, etc.        │
+│  • All outputs subordinate to Human Strategist approval                      │
+└──────────────────────────────────────────────────────────────────────────────┘
 
 ---
 
