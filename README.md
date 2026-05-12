@@ -865,37 +865,145 @@ INDEX.md (optional)
 
 ---
 
-# 🏗️ **System Architecture: The Kernel & The Profile**
+# # **🏗️ System Architecture: The Kernel, The Profile & The Mode Bootloader**
 
-LCES runs on a **Layered Inheritance Model**. Every session requires the simultaneous activation of two distinct layers:  
-**(1) the General Bootloader (The Kernel)** and **(2) the Edition Bootloader (The Profile)**.  
-Together, they form the “Full Stack” that governs both *how* the AI behaves and *what* environment it must operate within.
+LCES runs on a **Layered Inheritance Model**.
 
----
+Every session requires the **simultaneous activation of three distinct constitutional layers**:
 
-## 1. **The General Bootloader (The Kernel)**  
-**Role:** The *Constitutional Layer*  
-**Function:** Defines **HOW** the AI must behave.  
-**Enforcement:**  
-- Locks the Architect → Builder → Inspector role sequence  
-- Enforces the STOP RULE  
-- Activates the No‑Motive‑Reading Firewall  
-- Prevents cross‑role contamination and unauthorized reasoning modes  
+1. **The General Bootloader (The Kernel)**
+2. **The Edition Bootloader (The Profile)**
+3. **The Mode Bootloader (The Operating Context)**
 
-**Necessity:**  
-Without the Kernel, the AI becomes a “specialized tool without a brain.”  
-This layer prevents **hallucination‑by‑helpfulness** and ensures the system remains a **discipline engine**, not a drafting engine.
+Together, these layers form the **Full Stack** that governs:
+
+- **HOW** the AI must behave
+- **WHAT** environment it must operate within
+- **WHICH** procedural mode governs the session
+
+This is the foundation of LCES discipline, safety, and predictability.
 
 ---
 
-## 2. **The Edition Bootloader (The Profile)**  
-**Role:** The *Environmental Layer*  
-**Function:** Defines **WHAT** the AI must look for.  
-**Enforcement:**  
-- Sets jurisdictional “physics”  
-- Establishes venue‑specific constraints (e.g., Small Claims dollar limits, Family Court safety posture, Trust & Estate sequencing)  
-- Controls the scope of permissible facts and procedural expectations  
+# **1. The General Bootloader (The Kernel)**
 
+### **Role:** The Constitutional Layer
+
+### **Function:** Defines **HOW** the AI must behave.
+
+### **Enforcement**
+
+- Locks the **Architect → Builder → Inspector** role sequence
+- Enforces the **STOP RULE**
+- Activates the **No‑Motive‑Reading Firewall**
+- Prevents cross‑role contamination
+- Prevents unauthorized reasoning modes
+- Ensures the AI remains subordinate to the **Human Strategist**
+
+### **Necessity**
+
+Without the Kernel, the AI becomes a **specialized tool without a brain**.
+
+This layer prevents hallucination‑by‑helpfulness and ensures the system remains a **discipline engine**, not a drafting engine.
+
+---
+
+# **2. The Edition Bootloader (The Profile)**
+
+### **Role:** The Environmental Layer
+
+### **Function:** Defines **WHAT** the AI must look for.
+
+### **Enforcement**
+
+- Sets jurisdictional “physics”
+- Establishes venue‑specific constraints
+    - Small Claims dollar limits
+    - Family Court safety posture
+    - Trust & Estate sequencing
+- Controls the scope of permissible facts
+- Controls procedural expectations
+- Ensures environmental alignment with the user’s actual venue
+
+### **Necessity**
+
+Without the Profile, the AI has a **brain without a body**.
+
+This layer ensures the system fits the **actual legal environment** in which the user is operating.
+
+---
+
+# **3. The Mode Bootloader (The Operating Context)**
+
+### **Role:** The Procedural Layer
+
+### **Function:** Defines **WHICH procedural environment** governs the session.
+
+Each Mode loads a different **knowledge baseline**, **safety posture**, and **role‑permission set**.
+
+LCES supports four constitutional entry modes:
+
+### **Crisis Mode — “Preserve Rights First”**
+
+Fast, minimal, directive.
+
+Minimum viable next step.
+
+No exploration.
+
+### **Pro Se Mode — “Procedural Literacy + Safety”**
+
+Assume no procedural knowledge.
+
+Reveal invisible rules.
+
+Clerk‑relationship required.
+
+### **Second‑Opinion Mode — “Stress‑Test Without Drafting”**
+
+Issue‑spotting only.
+
+No drafting.
+
+No fixing.
+
+### **Lawyer / Education Mode — “Expert Context + Efficiency”**
+
+High‑context.
+
+High‑density.
+
+No remedial explanations.
+
+### **Necessity**
+
+Without the Mode Bootloader, the AI cannot adapt to the user’s **knowledge level**, **risk profile**, or **procedural posture**.
+
+Modes prevent the system from treating a pro se litigant like a lawyer — or a lawyer like a novice.
+
+---
+
+# **⚖️ The LCES Logic Stack — Why All Three Layers Are Mandatory**
+
+### **Edition Alone → Role Drift**
+
+The AI tries to be strategist, drafter, and analyst simultaneously.
+
+### **Kernel Alone → Logic Drift**
+
+The AI produces structure that does not match the venue’s rules.
+
+### **Mode Alone → Context Drift**
+
+The AI assumes the wrong knowledge baseline and exposes the user to risk.
+
+### **Only the Full Stack Prevents Drift**
+
+- **Kernel** → behavioral discipline
+- **Profile** → environmental alignment
+- **Mode** → procedural correctness
+
+Together, they create the **LCES Full Stack** — the only architecture that keeps AI safe, predictable, and constitutionally constrained.
 **Necessity:**  
 Without the Profile, the AI has a “brain without a body.”  
 This layer ensures the system fits the **actual legal environment** in which the user is operating.
