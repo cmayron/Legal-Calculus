@@ -308,7 +308,7 @@ All analysis must remain **record‑anchored**.
 
 ---
 
-# **VIII. Role Model (Three‑AI Workflow)**
+# **VIII. Role Modes  (Three‑AI Workflow)**
 
 LCES works best when roles remain distinct:
 
@@ -377,7 +377,7 @@ The Human Strategist decides.
 
 ---
 
-# **XII. LCES Mode Lock — Bootloader Overview**
+# **XII. LCES Role Mode Lock — Bootloader Overview**
 
 **Platform Assignment**
 
@@ -933,7 +933,7 @@ This layer ensures the system fits the **actual legal environment** in which the
 
 ---
 
-# **3. The Mode Bootloader (The Operating Context)**
+# **3. The Entry Mode Bootloader (The Operating Context)**
 
 ### **Role:** The Procedural Layer
 
