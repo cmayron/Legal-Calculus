@@ -2122,6 +2122,297 @@ The goal is stable, reviewable, child-centered procedural cla
 
 # ─────────────────────────────────────────────
 
+# **TE‑LCES — Trust & Estate Edition (V4.7)**
+
+### **Chain‑of‑Title • Document Control • Fiduciary Clarity**
+
+---
+
+# **I. Edition Preamble — Trust & Estate Environment**
+
+Trust & Estate matters are **document‑dense**, **timeline‑dependent**, and **fiduciary‑driven**.
+
+Every action depends on:
+
+- The authenticity of instruments
+- The sequence of amendments
+- The clarity of fiduciary duties
+- The stability of chain‑of‑title
+
+Errors in any of these create **legal exposure**, **fiduciary liability**, or **rejected filings**.
+
+### **Core Principle — Chain‑of‑Title Controls Everything**
+
+---
+
+# **II. Bootloader — TE‑LCES (V4.7)**
+
+### **Activation → Document Control → Fiduciary Clarity**
+
+## **Platform–Role Declaration (Mandatory)**
+
+- **Architect AI → GitHub Copilot Pro**
+- **Builder AI → ChatGPT**
+- **Inspector AI → Adversarial model**
+- **Human Strategist → You**
+
+## **Non‑Negotiables (TE‑LCES)**
+
+- Architect must run on GitHub Copilot Pro
+- Chain‑of‑title must be verified before drafting
+- No assumptions about intent or capacity
+- Builder may not alter fiduciary framing
+- Inspector flags ambiguity; does not rewrite
+- No drafting under missing‑document conditions
+- Human Strategist is final authority
+
+---
+
+# **III. LEGAL‑RISK WARNING — TE‑LCES**
+
+Trust & Estate matters rely on **document authenticity**, **chain‑of‑title accuracy**, and **fiduciary compliance**.
+
+Misinterpreting instruments, relying on incomplete records, or misstating fiduciary duties may create legal exposure.
+
+Courts may reject filings or impose fiduciary penalties if documents are missing, contradictory, or improperly sequenced.
+
+Users must verify all instruments, amendments, and timelines before taking action.
+
+---
+
+# **IV. SAFETY — Trust & Estate Edition**
+
+## **Safety Rules (Tier 1 — Always True)**
+
+- All instruments must be verified
+- Document sequence must be confirmed
+- No speculation about intent, capacity, or meaning
+- No drafting until chain‑of‑title is complete
+- No assumptions about fiduciary duties
+- No contradictions between instruments
+- No missing amendments or codicils
+
+## **Safety Priorities**
+
+1. Document authenticity
+2. Chain‑of‑title accuracy
+3. Fiduciary compliance
+4. Correct identification of parties
+5. Alignment with probate/trust procedures
+
+---
+
+# **V. DO NOT FILE IF — Trust & Estate Edition**
+
+### **Tier 2 — Absolute Prohibitions**
+
+Do **not** file if:
+
+□ Any instrument (will, trust, amendment, codicil) is missing
+
+□ Document sequence is unclear or contradictory
+
+□ Chain‑of‑title cannot be confirmed
+
+□ Fiduciary duties are uncertain or undocumented
+
+□ Beneficiaries or fiduciaries are misidentified
+
+□ Asset inventory is incomplete or unverified
+
+□ You are relying on assumptions about intent or capacity
+
+□ Jurisdiction (probate vs trust court) is not confirmed
+
+---
+
+# **VI. RED FLAGS — Trust & Estate Edition**
+
+### **Tier 3 — Instability Indicators**
+
+□ Missing instruments
+
+□ Conflicting dates or signatures
+
+□ Chain‑of‑title gaps
+
+□ Disputed beneficiaries or fiduciaries
+
+□ Incomplete or unverified asset inventory
+
+□ Contradictory amendments
+
+□ Missing or inconsistent accounting
+
+□ Unclear fiduciary compliance
+
+□ Uncertain jurisdiction
+
+---
+
+# **VII. Calculi Adaptation — TE‑LCES**
+
+### **Procedural Calculus**
+
+Probate rules, trust law, fiduciary duties.
+
+### **Narrative Calculus**
+
+Document‑driven, not story‑driven.
+
+### **Evidentiary Calculus**
+
+Instruments > testimony.
+
+### **Structural Calculus**
+
+Chain‑of‑title logic.
+
+### **Temporal Calculus**
+
+Sequence controls.
+
+### **Risk Calculus**
+
+High fiduciary risk, high ambiguity risk.
+
+---
+
+# **VIII. SCU Extraction Wizard — TE‑LCES**
+
+1. What instruments exist?
+2. What is the document sequence?
+3. What conflicts exist?
+4. What fiduciary duties apply?
+5. What relief do you want?
+
+---
+
+# **IX. Evidence Pack — TE‑LCES**
+
+- Wills
+- Trusts
+- Amendments
+- Codicils
+- Deeds
+- Account statements
+- Trustee/executor correspondence
+
+---
+
+# **X. Filing Checklist — TE‑LCES**
+
+### **1. Instruments**
+
+Will, trust, amendments, codicils, deeds
+
+### **2. Chain‑of‑Title**
+
+Sequence confirmed, conflicts identified, gaps flagged
+
+### **3. Fiduciary Duties**
+
+Trustee/executor actions, accounting status
+
+### **4. Forms**
+
+Petition, exhibits, proposed orders
+
+### **5. Filing**
+
+Submit → Serve → Calendar hearing
+
+---
+
+# **XI. First Case Walkthrough — TE‑LCES**
+
+### **Scenario:** Conflicting trust amendments
+
+### **Step 1 — SCU**
+
+Documents → trust + amendments
+
+Parties → trustee + beneficiaries
+
+Conflict → amendment sequence
+
+### **Step 2 — Architect**
+
+Blueprint:
+
+- Instruments
+- Timeline
+- Conflicts
+- Fiduciary duties
+- Relief
+
+### **Step 3 — Research**
+
+Verify authenticity + dates.
+
+### **Step 4 — Builder**
+
+Draft fiduciary‑focused petition.
+
+### **Step 5 — Inspector**
+
+Check chain‑of‑title logic.
+
+### **Step 6 — Strategist**
+
+File.
+
+---
+
+# **XII. Execution Order — TE‑LCES**
+
+**SCU → Architect → Research → Builder → Inspector → Strategist**
+
+---
+
+# **XIII. Readiness Test — TE‑LCES**
+
+You are ready to file ONLY if all are TRUE:
+
+□ All instruments exist
+
+□ Sequence + authenticity verified
+
+□ Chain‑of‑title complete
+
+□ Fiduciaries + beneficiaries identified
+
+□ Asset inventory complete
+
+□ Fiduciary duties understood
+
+□ Relief clearly stated
+
+□ Jurisdiction confirmed
+
+□ No assumptions about intent/capacity
+
+□ All forms + exhibits ready
+
+---
+
+# **XIV. NOTICE — TE‑LCES (V4.7)**
+
+This Edition is part of the **LCES Legal Calculus Educational System™**, licensed under **CC BY‑NC‑SA 4.0**.
+
+The names **LCES™**, **LCES Legal Calculus Educational System™**, and **TE‑LCES™** are protected trademarks.
+
+No commercial use is permitted.
+
+---
+
+# **XV. DISCLAIMER — TE‑LCES (V4.7)**
+
+This Edition provides a **procedural‑literacy framework** for Trust & Estate matters.
+
+It does **not** provide legal advice, interpret instruments, or replace professional fiduciary/legal guidance.
+
+Users must verify all documents, timelines, and fiduciary obligations.
 
 ### **ARBITRATION EDITION - AC-LCES**
 
