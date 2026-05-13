@@ -261,54 +261,6 @@ LCES/
 
 </div>
 
-# 🧭 **Document Hierarchy**
-
-
-🚀 **How to Use the System**
-1. **Manifesto** — Understand the doctrine, principles,and boundaries.
-2. **README** — Learn the modes, roles, workflow, and editions.
-3. **Bootloader** — Activate the system with correct role separation and platform discipline.
-
-Everything else derives from these three.
-
-LCES/
-│
-├── Manifesto.md
-├── README.md
-├── Bootloader.md
-│
-├── LICENSE.md
-├── TRADEMARK.md
-├── NOTICE
-│
-├── /Calculi/
-│   ├── LC.md
-│   ├── JC.md
-│   ├── LCa.md
-│   ├── LCA.md
-│   ├── FG.md
-│   └── FGA.md
-│
-├── /Editions/
-│   ├── SC-LCES.md
-│   ├── FC-LCES.md
-│   └── TE-LCES.md
-│
-├── /SCU/
-│   ├── SCU-Method.md
-│   ├── SCU-Template.md
-│   └── SCU-Examples.md
-│
-└── /Diagrams/
-    ├── LCES-System-Map.png
-    ├── Workflow-Loop.png
-    └── Role-Model.png
-
-
-
-
----
-
 ---
 
 # LCES LEGAL CALCULUS EDUCATIONAL SYSTEM™  
