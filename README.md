@@ -246,15 +246,7 @@ LCES/
 
 ---
 
-If you want, I can now generate:
 
-- **A Bootloader Activation Sequence Diagram**  
-- **A Mode Selector Table (Allowed / Forbidden Actions)**  
-- **A ceremonial header for the Manifesto**  
-- **A public‑facing vs operator‑facing version of this section**  
-- **A GitHub‑optimized system map (Mermaid.js)**  
-
-Tell me which artifact you want elevated next.```
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-active-blue">
