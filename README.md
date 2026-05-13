@@ -1,4 +1,4 @@
-
+u
 # **LCES Legal Calculus Educational System™**
 
 
@@ -411,16 +411,7 @@ for full terms.
 
 ---
 
-# XVI. CONSTITUTIONAL PRINCIPLE
 
-Architect structures.  
-Builder drafts.  
-Inspector verifies.  
-Human Strategist governs.
-
-The AI assists.
-
-Human judgment decides.
 
 # ======= END MANIFESTO =======
 
