@@ -6390,3 +6390,5 @@ No single AI is trusted to do everything.
 The future of legal AI is not uncontrolled automation.
 
 It is governed execution.
+
+4.Hallucinations aren’t the crisis — the absence of governance is. LCES Legal Calculus Educational System treats AI not as a research assistant but as a subordinate role inside a structured, auditable workflow. Architect → Builder → Inspector → Strategist. Every output is anchored, verified, and procedurally aligned before it ever reaches a court. The duty of competence becomes a system, not a hope. LCES turns AI from a liability into a governed instrument.”**
