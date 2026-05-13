@@ -716,7 +716,8 @@ Human judgment decides.
 # ======= END MANIFESTO =======
 
 # LCES — Legal Calculus Educational System™  
-# README — Orientation & Activation Layer (V5.1)
+# LCES — Legal Calculus Educational System™
+## README — Orientation & Activation Layer (V5.2)
 
 ---
 
@@ -730,18 +731,19 @@ The repository functions as structured procedural memory.
 The Human Strategist remains the governing authority over truth, judgment, and action.
 
 LCES transforms:
+
 - repositories into procedural memory systems,
 - AI into role-constrained execution engines,
 - workflows into governed constitutional sequences.
 
-> GitHub becomes the Library.  
-> Copilot becomes the Architect.  
-> The repository becomes procedural memory.  
-> The Human Strategist remains sovereign.
+GitHub becomes the Library.  
+Copilot becomes the Architect.  
+The repository becomes procedural memory.  
+The Human Strategist remains sovereign.
 
 For constitutional doctrine and governing philosophy, see:
 
-> Manifesto.md
+- `Manifesto.md`
 
 ---
 
@@ -750,6 +752,7 @@ For constitutional doctrine and governing philosophy, see:
 The README prepares the user for activation.
 
 It explains:
+
 - repository structure,
 - navigation,
 - platform roles,
@@ -768,16 +771,16 @@ The Bootloader is the execution layer.
 
 | Document | Constitutional Function |
 |---|---|
-| Manifesto.md | Doctrine & governing philosophy |
-| README.md | Orientation & navigation |
-| Bootloader.md | Activation & execution governance |
-| /Modules/ | Role-specific runtime behavior |
-| /Editions/ | Procedural environments |
-| /Calculi/ | Interpretive reasoning frameworks |
-| /SCU/ | Smallest Complete Unit doctrine |
-| /Readiness/ | Readiness & filing stability |
-| /Diagrams/ | Visual architecture & workflow maps |
-| /Risk-Safety.md | Safety & procedural safeguards |
+| `Manifesto.md` | Doctrine & governing philosophy |
+| `README.md` | Orientation & navigation |
+| `Bootloader.md` | Activation & execution governance |
+| `/Modules/` | Role-specific runtime behavior |
+| `/Editions/` | Procedural environments |
+| `/Calculi/` | Interpretive reasoning frameworks |
+| `/SCU/` | Smallest Complete Unit doctrine |
+| `/Governance/Readiness/` | Readiness & filing stability |
+| `/Diagrams/` | Visual architecture & workflow maps |
+| `/Governance/Risk-Safety.md` | Safety & procedural safeguards |
 
 ---
 
@@ -786,6 +789,7 @@ The Bootloader is the execution layer.
 ## What LCES Is
 
 LCES is a procedural-literacy and workflow-governance framework designed to:
+
 - organize facts,
 - structure procedural work,
 - preserve the record,
@@ -793,6 +797,7 @@ LCES is a procedural-literacy and workflow-governance framework designed to:
 - and produce reviewable work product.
 
 LCES is designed for environments where outcomes depend upon:
+
 - sequence,
 - procedural posture,
 - preservation,
@@ -802,6 +807,7 @@ LCES is designed for environments where outcomes depend upon:
 - and record integrity.
 
 LCES enforces:
+
 - structure before drafting,
 - verification before execution,
 - role separation before workflow,
@@ -812,6 +818,7 @@ LCES enforces:
 # ⚠️ What LCES Is NOT
 
 LCES is not:
+
 - legal advice,
 - a law firm,
 - legal representation,
@@ -829,9 +836,9 @@ All outputs require independent human verification.
 
 # 🧭 Recommended Reading Order
 
-1. Manifesto.md
-2. README.md
-3. Bootloader.md
+1. `Manifesto.md`
+2. `README.md`
+3. `Bootloader.md`
 4. Select Edition
 5. Select Entry Mode
 6. Activate Architect AI
@@ -840,365 +847,22 @@ All outputs require independent human verification.
 
 # 📂 Repository Structure
 
-text id="7r4m1p" /Manifesto.md        ← doctrinal spine /README.md           ← orientation layer /Bootloader.md       ← activation engine  /Modules/            ← Architect / Builder / Inspector / Strategist /Editions/           ← SC / FC / TE / AC /Calculi/            ← Six Calculi /SCU/                ← Smallest Complete Unit doctrine /Readiness/          ← readiness layers /Diagrams/           ← architecture maps & visual workflows  /Risk-Safety.md /LICENSE.md /TRADEMARK.md /NOTICE 
-
----
-
-# 🏗️ LCES Full-Stack Architecture
-
-LCES operates through a constitutional trilayer inheritance model.
-
-Every session requires three simultaneous governance layers:
-
-| Layer | Constitutional Function |
-|---|---|
-| Kernel | HOW the AI behaves |
-| Profile / Edition | WHERE the AI operates |
-| Mode | WHAT procedural environment governs the session |
-
-Together, these layers prevent:
-- logic drift,
-- role drift,
-- context drift,
-- and unauthorized reasoning.
-
----
-
-# ⚖️ The LCES Logic Stack
-
-## Kernel Alone → Logic Drift
-
-The AI becomes disciplined but environment-blind.
-
----
-
-## Profile Alone → Role Drift
-
-The AI becomes venue-aware but behaviorally unstable.
-
----
-
-## Mode Alone → Context Drift
-
-The AI applies the wrong procedural expectations to the user.
-
----
-
-# Canonical Principle
-
-> Kernel = HOW  
-> Profile = WHERE  
-> Mode = WHAT  
->
-> All three must be active, or the system drifts.
-
----
-
-# 🧩 Platform–Role Assignment
-
-| Role | Platform | Constitutional Function |
-|---|---|---|
-| Architect AI | GitHub Copilot Pro (Desktop) | Structure + blueprinting |
-| Builder AI | ChatGPT | Drafting + transformation |
-| Inspector AI | Verification / integrity-review model | Survivability + contradiction review |
-| Human Strategist | Human | Judgment + governance |
-
-This mapping is constitutional and may not be altered.
-
----
-
-# 🧠 The Four Roles
-
-## Architect AI
-
-Purpose:
-- structure,
-- sequencing,
-- issue framing,
-- blueprint generation,
-- dependency mapping.
-
-Architect defines structure only.
-
-No drafting.
-
----
-
-## Builder AI
-
-Purpose:
-- drafting,
-- synthesis,
-- formatting,
-- prose construction.
-
-Builder executes validated structure.
-
-No redesign.
-
----
-
-## Inspector AI
-
-Purpose:
-- verification,
-- contradiction detection,
-- survivability review,
-- omission detection,
-- integrity checking.
-
-Inspector verifies.
-
-Inspector does not autonomously rewrite.
-
----
-
-## Human Strategist
-
-Purpose:
-- judgment,
-- interpretation,
-- factual authority,
-- procedural decisions,
-- risk evaluation,
-- final approval.
-
-The Human Strategist remains sovereign.
-
----
-
-# 🔍 Deep Research Doctrine
-
-LCES prohibits drafting from unverified structure.
-
-Deep Research is the constitutional gate between architecture and drafting.
-
-Its purpose is to:
-- interrogate the blueprint,
-- verify chronology,
-- identify contradictions,
-- resolve missing dependencies,
-- validate procedural assumptions,
-- stabilize the record before prose exists.
-
-No drafting may occur until Deep Research is complete.
-
----
-
-# 📚 The Six Calculi
-
-LCES organizes procedural reasoning through six interpretive calculi.
-
-| Calculus | Purpose |
-|---|---|
-| LC — Legal Calculus | Why procedural outcomes occur |
-| JC — Judicial Calculus | How adjudicators manage burden, workflow, and risk |
-| LCa — Lawyer Calculus | How lawyers manage leverage, exposure, and record construction |
-| LCA — Legal Calculus Advanced | Long-range procedural and systemic forces |
-| FG — Field Guide | Immediate operational action |
-| FGA — Field Guide Advanced | Action under pressure or instability |
-
-The calculi model procedural behavior and institutional dynamics rather than merely abstract legal doctrine.
-
----
-
-# 🎛 Entry Modes
-
-| Mode | Purpose |
-|---|---|
-| Crisis Mode | Immediate stabilization under pressure |
-| Pro Se Mode | Procedural scaffolding + safety |
-| Second-Opinion Mode | Structural verification without drafting |
-| Education Mode | Procedural literacy + doctrinal learning |
-
-Modes are procedural environments, not personalities.
-
----
-
-# 🗂 Editions
-
-| Edition | Environment | Core Priority |
-|---|---|---|
-| SC-LCES | Small Claims | Evidence → Timeline → Clarity |
-| FC-LCES | Family Court | Safety → Stability → Neutrality |
-| TE-LCES | Trust & Estate | Documents → Sequence → Fiduciary Clarity |
-| AC-LCES | Arbitration | Scope → Preservation → Reviewability |
-
-Each Edition contains:
-- its own bootloader,
-- procedural constraints,
-- readiness layer,
-- safety rules,
-- and calculus adaptation.
-
----
-
-# 📱 iPad Access Protocol (Fallback Mode)
-
-iPad users may access the repository in reduced-capability mode.
-
-This provides:
-- visibility,
-- search,
-- manual review,
-- and copy workflows.
-
-This does NOT provide:
-- repo-wide reasoning,
-- local clone execution,
-- role activation,
-- or full bootloader orchestration.
-
----
-
-## iPad Users CAN:
-
-- browse the repository,
-- open files,
-- read doctrine,
-- manually copy content,
-- perform search workflows.
-
----
-
-## iPad Users CANNOT:
-
-- run repo-wide reasoning,
-- operate local VS Code workflows,
-- activate full architectural mode,
-- maintain long-context structural execution.
-
----
-
-# 💻 Recommended Full Architecture Setup
-
-1. Clone the repository locally  
-2. Open inside VS Code  
-3. Sign into Copilot Pro  
-4. Operate inside the local repository
-
-This enables:
-- bootloaders,
-- long-context reasoning,
-- role orchestration,
-- and constitutional execution.
-
----
-
-# 🛑 STOP RULE (Mandatory)
-
-If:
-- SCU is incomplete,
-- facts are unclear,
-- chronology is unstable,
-- documents are missing,
-- jurisdiction is uncertain,
-- or emotional escalation contaminates reasoning,
-
-the system must halt.
-
-Return to:
-
-> Record → Clarify → Anchor → Reassess
-
-No drafting under unresolved ambiguity.
-
----
-
-# 🔄 Constitutional Workflow Sequence
-
-text id="0kxnfw" SCU → Mode → Architect → Deep Research → Builder → Inspector → Human Strategist 
-
-This sequence may not be:
-- skipped,
-- merged,
-- silently reordered,
-- or autonomously collapsed.
-
----
-
-# 📚 Micro-Glossary
-
-| Term | Meaning |
-|---|---|
-| SCU | Smallest Complete Unit |
-| Blueprint | Structural procedural plan |
-| Deep Research | Verification phase between structure and drafting |
-| Kernel | System governance layer |
-| Profile | Edition-specific environment layer |
-| Mode | Procedural operating context |
-| Inspector | Integrity-review & survivability layer |
-
----
-
-# 🧪 Cognitive & Procedural Safety
-
-LCES enforces:
-- role separation,
-- anti-hallucination discipline,
-- chronology verification,
-- procedural sequencing,
-- and human oversight.
-
-AI may not:
-- invent facts,
-- infer missing evidence,
-- silently switch roles,
-- autonomously apply law,
-- or override human judgment.
-
-For full safeguards and readiness doctrine, see:
-- /Risk-Safety.md
-- /Readiness/
-
----
-
-# ⚠️ UPL Boundary
-
-LCES is a procedural-literacy framework.
-
-It does not:
-- practice law,
-- represent users,
-- provide legal advice,
-- or autonomously interpret law for specific individuals.
-
-All legal decisions remain human decisions.
-
-Human review is mandatory.
-
----
-
-# 🗺️ System Map
-
-text id="tt4y7r" MANIFESTO     ↓ README     ↓ BOOTLOADER     ↓ MODULES / EDITIONS / CALCULI     ↓ WORKFLOW EXECUTION 
-
----
-
-# 📘 Governance
-
-Licensed under CC BY-NC-SA 4.0.
-
-LCES™ is a protected trademark.
-
-See:
-- LICENSE.md
-- TRADEMARK.md
-- NOTICE
-
-for governance terms.
-
----
-
-# 🚀 Activation
-
-Proceed to:
-
-> Bootloader.md
-
-to activate the constitutional execution layer.
-
-======= END README ==
+```text
+/Manifesto.md                  ← doctrinal spine
+/README.md                     ← orientation layer
+/Bootloader.md                 ← activation engine
+
+/Modules/                      ← Architect / Builder / Inspector / Strategist
+/Editions/                     ← SC / FC / TE / AC
+/Calculi/                      ← Six Calculi
+/SCU/                          ← Smallest Complete Unit doctrine
+/Governance/Readiness/         ← readiness layers
+/Diagrams/                     ← architecture maps & workflow diagrams
+
+/Governance/Risk-Safety.md
+/Governance/LICENSE.md
+/Governance/TRADEMARK.md
+/Governance/NOTICE.md
 # **Canonical Principle**
 
 > **Kernel = HOW
