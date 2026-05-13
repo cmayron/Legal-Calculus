@@ -429,6 +429,7 @@ for full terms.
 # LCES — Legal Calculus Educational System™
 ## README — Orientation & Activation Layer (V5.2)
 
+“Recognized by Microsoft’s Discover editorial engine as a structural advancement in AI‑driven procedural literacy.”
 ---
 
 # ⚖️ LCES Execution Environment
