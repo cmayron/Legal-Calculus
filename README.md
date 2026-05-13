@@ -1,121 +1,223 @@
 
 # **LCES Legal Calculus Educational System™**
 
-### **Full‑Stack Procedural Literacy Framework**
+Absolutely — and now that you’ve restated the Full‑Stack Doctrine block, I can elevate it into the **next canonical artifact** you’re implicitly pointing toward:
 
-LCES is a **procedural‑literacy system** for understanding *why* legal outcomes happen, *how* legal actors behave, and *how to respond with structure, discipline, and reviewability*.
+👉 **A unified, ceremonial, GitHub‑ready Full‑Stack Section** that *includes* the four human‑situation Entry Modes (Pro Se, Crisis, Second‑Opinion, Educational) and integrates them into the architecture you’ve already established.
 
-It is not a passive tool. It is a **full‑power operating environment for human intelligence**.
+Below is the **fully integrated, publication‑ready canonical Full‑Stack section** — the one that belongs directly in your README as the authoritative definition of the LCES Full Stack.
 
----
-
-## **Layered Inheritance Model — Full Stack Activation**
-
-Every LCES session requires the simultaneous activation of three bootloaders:
-
-### **1. General Bootloader (Kernel)**
-
-The constitutional core.
-
-Defines the boundaries, the doctrine, the non‑negotiables.
-
-### **2. Edition Bootloader (Profile)**
-
-The jurisdictional and domain‑specific layer.
-
-Small Claims, Family Court, Trust & Estate, etc.
-
-### **3. Entry Mode Bootloader (Operating Context)**
-
-The situational mode:
-
-- Structure
-- Draft
-- Review
-- SCU (Single‑Claim Unit)
-- Chronology
-- Issue Mapping
-
-**Only when all three are active does the system reach Full Stack.**
+This is not a repeat.  
+This is the **elevated, merged, doctrinally complete version**.
 
 ---
 
-## **Why Full Stack Matters**
+# **🏛️ LCES FULL‑STACK ARCHITECTURE**  
+### **The Constitutional Structure of Procedural Literacy**
+
+LCES is a **procedural‑literacy operating system** for understanding *why* legal outcomes happen, *how* legal actors behave, and *how to respond with structure, discipline, and reviewability*.  
+It is not a passive tool.  
+It is a **full‑power environment for human intelligence**.
+
+The Full Stack is the system’s constitutional architecture.  
+It governs every session, every output, every interaction.
+
+---
+
+# **I. Layered Inheritance Model — Full Stack Activation**
+
+Every LCES session requires the simultaneous activation of **three bootloaders**:
+
+---
+
+## **1. General Bootloader (Kernel)**  
+The constitutional core.  
+It defines:
+
+- Doctrine  
+- Boundaries  
+- Non‑negotiables  
+- Authorized reasoning surface  
+- STOP rules and firewalls  
+
+Nothing in LCES is permitted to run without the Kernel.
+
+---
+
+## **2. Edition Bootloader (Profile)**  
+The jurisdictional and domain‑specific layer:
+
+- Small Claims  
+- Family Court  
+- Trust & Estate  
+- (and future editions)
+
+The Profile prevents **jurisdictional drift** and ensures all reasoning is bound to the correct legal context.
+
+---
+
+## **3. Entry Mode Bootloader (Operating Context)**  
+The situational layer — the one that defines **your need and your situation**.
+
+The Entry Mode determines:
+
+- Your urgency  
+- Your cognitive posture  
+- Your operational goal  
+- What the system may do  
+- What the system must not do  
+
+The Mode is the user’s declaration of purpose.  
+**The system obeys the Mode.**
+
+---
+
+# **II. The Four Canonical Entry Modes**
+
+These are the **human‑situation operating systems** of LCES.
+
+---
+
+## **A. PRO SE MODE — “I must carry the case myself.”**  
+For self‑represented users who need:
+
+- Structure  
+- Clarity  
+- Procedural literacy  
+- Error‑avoidance  
+- Clean, reviewable reasoning  
+
+This mode emphasizes survival, order, and disciplined thinking.
+
+---
+
+## **B. CRISIS MODE — “Something is happening now.”**  
+The emergency operating system.
+
+Activated when:
+
+- A deadline is imminent  
+- A right is at risk  
+- A filing must be produced immediately  
+
+Crisis Mode provides **minimum viable stabilization** and prohibits:
+
+- Strategy  
+- Narrative exploration  
+- Long analysis  
+
+It is for **procedural survival under pressure**.
+
+---
+
+## **C. SECOND‑OPINION MODE — “I have counsel, but I need clarity.”**  
+For users who want:
+
+- Issue spotting  
+- Weak‑point detection  
+- Procedural risk analysis  
+- A skeptical judge’s perspective  
+- Opposing counsel’s attack surface  
+
+This mode is for **verification, not creation**.
+
+---
+
+## **D. EDUCATIONAL MODE — “Teach me the system.”**  
+For users who want to learn:
+
+- Doctrine  
+- Structure  
+- Calculi  
+- System maps  
+- Worked examples  
+
+No urgency.  
+No filings.  
+Just **procedural literacy**.
+
+---
+
+# **III. Why Full Stack Matters**
 
 Full Stack activation prevents:
 
-- **Role drift**
-- **Logic drift**
-- **Jurisdictional drift**
-- **Mode contamination**
-- **Unauthorized reasoning**
-- **AI‑initiated inference**
+- **Role drift**  
+- **Logic drift**  
+- **Jurisdictional drift**  
+- **Mode contamination**  
+- **Unauthorized reasoning**  
+- **AI‑initiated inference**  
 - **Deviation from human‑defined boundaries**
 
-This is the **LCES Full Stack** — the only architecture that keeps AI **disciplined, predictable, and constitutionally constrained**.
+It keeps AI:
+
+- Disciplined  
+- Predictable  
+- Auditable  
+- Constitutionally constrained  
+
+This is the LCES difference.
 
 ---
 
-## **The GitHub Hybrid Model**
-
+# **IV. The GitHub Hybrid Model**  
 ### **Library + Operating System**
 
-LCES uses GitHub in a way no other system does:
+LCES uses GitHub in a way no other system does.
 
-- **As a Library:**
-    
-    A structured, versioned, canonical repository of doctrine, workflow, and calculi.
-    
-- **As an Operating System:**
-    
-    A platform for activating modes, running bootloaders, and maintaining role separation.
-    
+### **As a Library:**  
+A canonical, version‑controlled repository of:
 
-This hybrid model ensures **predictability, auditability, and reproducibility** — the three pillars of procedural literacy.
+- Doctrine  
+- Workflow  
+- Calculi  
+- Editions  
+- Templates  
+- Diagrams  
+
+### **As an Operating System:**  
+A platform that:
+
+- Activates bootloaders  
+- Enforces role separation  
+- Maintains procedural discipline  
+- Guarantees reproducibility and auditability  
+
+This hybrid model is essential to the system’s reliability.
 
 ---
 
-## **LCES Is Not for the Passive**
+# **V. LCES Is Not for the Passive**
 
 LCES is built for people who:
 
-- Think
-- Reason
-- Preserve agency
-- Refuse to outsource judgment
-- Operate with discipline under pressure
+- Think  
+- Reason  
+- Preserve agency  
+- Refuse to outsource judgment  
+- Operate with discipline under pressure  
 
-Most systems flatten their users.
-
+Most systems flatten their users.  
 **LCES elevates them.**
 
-It expands as the user expands.
-
-It rewards clarity, structure, and procedural mastery.
-
-It is a framework where capable people can operate at **full power**.
-
-Participation itself becomes a form of mastery.
+Participation becomes a form of mastery.
 
 ---
 
-# **System Status — Framework Workflow License**
-
-## **🧭 Document Hierarchy**
+# **VI. Document Hierarchy — Framework Workflow License**
 
 Everything in LCES derives from three root documents:
 
-1. **Manifesto** — Doctrine, principles, constitutional boundaries
-2. **README** — Modes, roles, workflow, editions
-3. **Bootloader** — Activation, role separation, platform discipline
-
-These three define the system.
+1. **Manifesto** — Doctrine, principles, constitutional boundaries  
+2. **README** — Modes, roles, workflow, editions  
+3. **Bootloader** — Activation, role separation, platform discipline  
 
 Everything else is inheritance.
 
 ---
 
-# **LCES Repository Structure**
+# **VII. Repository Structure (Canonical)**
 
 ```
 LCES/
@@ -151,6 +253,18 @@ LCES/
     ├── Workflow-Loop.png
     └── Role-Model.png
 ```
+
+---
+
+If you want, I can now generate:
+
+- **A Bootloader Activation Sequence Diagram**  
+- **A Mode Selector Table (Allowed / Forbidden Actions)**  
+- **A ceremonial header for the Manifesto**  
+- **A public‑facing vs operator‑facing version of this section**  
+- **A GitHub‑optimized system map (Mermaid.js)**  
+
+Tell me which artifact you want elevated next.```
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-active-blue">
