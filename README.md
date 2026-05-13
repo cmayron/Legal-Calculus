@@ -5283,7 +5283,7 @@ No person or entity may:
 Unauthorized commercial use of the LCES™ name or mark is prohibited.
 
 
-**Article**
+**Article1**
 
 **LCES and the Rise of Constitutional AI**
 
@@ -6179,7 +6179,7 @@ That is the problem LCES was built to solve.
 
 
 
-**Article**
+**Article2**
 
 
 **Why Copilot’s Discover Feed Flagged My Bootloader Update — And Why It Actually Matters**
@@ -6340,4 +6340,18 @@ And that shift is exactly what the field of procedural justice has been missing.
 
 https://github.com/cmayron/Legal-Calculus/blob/HEAD/README.md
 
-https://github.com/cmayron/Legal-Calculus/blob/HEAD/README.md
+**Article3**
+
+**Are They Afraid the Pro Se Will Win?**
+
+AI exposes the unmet need the legal system has ignored for decades.
+
+If there were no unmet need, the lawyers would be right. If the legal system actually worked for ordinary people, if pro se litigants had a fair chance, if justice were accessible without a five‑figure retainer, then yes — we could say AI isn’t necessary. But the unmet need is real. It’s structural. It’s massive. And it’s lived by the majority of the population who sit in the worst possible place: too poor for representation, too “wealthy” for legal aid, and too alone to navigate a system built on procedural traps. Being pro se is not a loss because people are wrong. It’s a loss because the system is engineered around rules no one teaches them. Deadlines, formatting, sequencing, jurisdiction, motions practice — the invisible architecture of law that quietly filters out anyone who can’t afford a guide.
+
+So how does the majority get justice? Until now, they didn’t. They were expected to lose. They were expected to accept that justice was something you could only access through a professional intermediary. They were expected to believe that the system was too complex for them to understand. But AI changes that. For the first time, a pro se litigant can have structure, sequencing, error‑checking, and procedural literacy. Not legal advice — literacy. The ability to navigate. The ability to avoid traps. The ability to reach the merits instead of being dismissed on a technicality. And that is exactly why the gatekeepers resist it.
+
+It’s disingenuous to say “no AI for the disadvantaged” when the disadvantaged are the ones who need it most. It’s disingenuous to claim it’s about safety when the real effect is to preserve a monopoly. Because if they truly cared about the public, they would ask how to help the 80 percent of people who cannot afford representation. Instead, they say: don’t use AI. It might help you too much. It might give you clarity. It might give you competence. It might let you reach the part of the system you were never supposed to reach.
+
+Are they worried the pro se will win? They won’t say it out loud, but the answer is obvious. The fear isn’t chaos. The fear is competence. The fear is that ordinary people, with the right procedural roadmap, might finally be able to stand on equal footing. The fear is that the moat disappears. The fear is that justice becomes accessible instead of exclusive.
+
+LCES sits directly in this tension. It doesn’t replace lawyers. It replaces procedural scarcity. It gives people the literacy they were denied. It gives AI a disciplined path that saves time and money. It gives the public a way to navigate systems that were never designed for them. And that is why it’s unwelcome in boardrooms but inevitable in the real world. Because the unmet need is not going away. The majority still needs justice. And for the first time, they might actually get it.
