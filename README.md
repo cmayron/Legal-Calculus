@@ -413,9 +413,7 @@ for full terms.
 
 
 
-# ======= END MANIFESTO =======
 
-# LCES — Legal Calculus Educational System™  
 # LCES — Legal Calculus Educational System™
 ## README — Orientation & Activation Layer (V5.2)
 
