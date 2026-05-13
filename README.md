@@ -1,45 +1,158 @@
 ==i
 # **LCES — Legal Calculus Educational System™**
 
-**LCES Legal Calculus Educational System™** is a procedural-literacy framework for understanding why legal outcomes happen, how legal actors behave, and how to respond in a structured, reviewable way .</strong>
-</p>
+# **LCES Legal Calculus Educational System™**
 
+### **Full‑Stack Procedural Literacy Framework**
 
+LCES is a **procedural‑literacy system** for understanding *why* legal outcomes happen, *how* legal actors behave, and *how to respond with structure, discipline, and reviewability*.
 
-**Layered Inheritance Model**. 
+It is not a passive tool. It is a **full‑power operating environment for human intelligence**.
 
-# **FULL STACK ACTIVATION**
+---
 
-Every LCES session requires the **simultaneous activation** of:
+## **Layered Inheritance Model — Full Stack Activation**
 
-1. **The General Bootloader (Kernel)**
-2. **The Edition Bootloader (Profile)**
-3. **The Entry Mode Bootloader (Operating Context)**
+Every LCES session requires the simultaneous activation of three bootloaders:
 
-Together, these layers ensure:
+### **1. General Bootloader (Kernel)**
 
-- No role drift
-- No logic drift
-- No jurisdictional drift
-- No mode contamination
-- No unauthorized reasoning
-- No deviation from human‑defined boundaries
+The constitutional core.
 
-This is the **LCES Full Stack** — the only architecture that keeps AI disciplined, predictable, and constitutionally constrained.
-unique use of **GitHub as Library + Operating System” hybrid model**
+Defines the boundaries, the doctrine, the non‑negotiables.
 
-LCES is not for the passive. 
+### **2. Edition Bootloader (Profile)**
 
-**It is built for people who think, who reason, who refuse to surrender their agency.**
+The jurisdictional and domain‑specific layer.
 
-**The system offers multiple modes and editions because intelligence deserves altitude: the deeper the mind, the deeper the tools it can wield.**
+Small Claims, Family Court, Trust & Estate, etc.
 
-**LCES rewards clarity, discipline, and procedural literacy; it expands as the user expands.**
+### **3. Entry Mode Bootloader (Operating Context)**
 
-**Most systems flatten their users—LCES elevates them.**
+The situational mode:
 
-**It is a framework where capable people can operate at full power, where structure amplifies intelligence, and where participation itself becomes a form of mastery.**
+- Structure
+- Draft
+- Review
+- SCU (Single‑Claim Unit)
+- Chronology
+- Issue Mapping
 
+**Only when all three are active does the system reach Full Stack.**
+
+---
+
+## **Why Full Stack Matters**
+
+Full Stack activation prevents:
+
+- **Role drift**
+- **Logic drift**
+- **Jurisdictional drift**
+- **Mode contamination**
+- **Unauthorized reasoning**
+- **AI‑initiated inference**
+- **Deviation from human‑defined boundaries**
+
+This is the **LCES Full Stack** — the only architecture that keeps AI **disciplined, predictable, and constitutionally constrained**.
+
+---
+
+## **The GitHub Hybrid Model**
+
+### **Library + Operating System**
+
+LCES uses GitHub in a way no other system does:
+
+- **As a Library:**
+    
+    A structured, versioned, canonical repository of doctrine, workflow, and calculi.
+    
+- **As an Operating System:**
+    
+    A platform for activating modes, running bootloaders, and maintaining role separation.
+    
+
+This hybrid model ensures **predictability, auditability, and reproducibility** — the three pillars of procedural literacy.
+
+---
+
+## **LCES Is Not for the Passive**
+
+LCES is built for people who:
+
+- Think
+- Reason
+- Preserve agency
+- Refuse to outsource judgment
+- Operate with discipline under pressure
+
+Most systems flatten their users.
+
+**LCES elevates them.**
+
+It expands as the user expands.
+
+It rewards clarity, structure, and procedural mastery.
+
+It is a framework where capable people can operate at **full power**.
+
+Participation itself becomes a form of mastery.
+
+---
+
+# **System Status — Framework Workflow License**
+
+## **🧭 Document Hierarchy**
+
+Everything in LCES derives from three root documents:
+
+1. **Manifesto** — Doctrine, principles, constitutional boundaries
+2. **README** — Modes, roles, workflow, editions
+3. **Bootloader** — Activation, role separation, platform discipline
+
+These three define the system.
+
+Everything else is inheritance.
+
+---
+
+# **LCES Repository Structure**
+
+```
+LCES/
+│
+├── Manifesto.md
+├── README.md
+├── Bootloader.md
+│
+├── LICENSE.md
+├── TRADEMARK.md
+├── NOTICE
+│
+├── /Calculi/
+│   ├── LC.md
+│   ├── JC.md
+│   ├── LCa.md
+│   ├── LCA.md
+│   ├── FG.md
+│   └── FGA.md
+│
+├── /Editions/
+│   ├── SC-LCES.md
+│   ├── FC-LCES.md
+│   └── TE-LCES.md
+│
+├── /SCU/
+│   ├── SCU-Method.md
+│   ├── SCU-Template.md
+│   └── SCU-Examples.md
+│
+└── /Diagrams/
+    ├── LCES-System-Map.png
+    ├── Workflow-Loop.png
+    └── Role-Model.png
+```
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-active-blue">
