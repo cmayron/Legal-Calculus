@@ -232,6 +232,30 @@ Most procedural failure originates from records that are:
 
 LCES exists to reduce those failure modes.
 
+# The Six Calculi
+
+LCES organizes procedural reasoning through six interlocking calculi.
+
+LC — Legal Calculus  
+Why procedural outcomes occur.
+
+JC — Judicial Calculus  
+How adjudicators manage burden, risk, workflow, and procedural pressure.
+
+LCa — Lawyer Calculus  
+How lawyers manage leverage, exposure, incentives, and record construction.
+
+LCA — Legal Calculus Advanced  
+Long-range procedural forces, structural asymmetries, and systemic consequences.
+
+FG — Field Guide  
+Immediate operational action under ordinary conditions.
+
+FGA — Field Guide Advanced  
+Operational action under pressure, instability, or constrained environments.
+
+Together, these calculi model legal behavior, procedural dynamics, and institutional decision architecture rather than merely abstract legal doctrine.
+
 ---
 
 # IV. GOVERNING PRINCIPLES
