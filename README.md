@@ -14,7 +14,7 @@ Every LCES session requires the **simultaneous activation** of:
 
 1. **The General Bootloader (Kernel)**
 2. **The Edition Bootloader (Profile)**
-3. **The Mode Bootloader (Operating Context)**
+3. **The Entry Mode Bootloader (Operating Context)**
 
 Together, these layers ensure:
 
