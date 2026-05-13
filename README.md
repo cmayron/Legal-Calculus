@@ -104,643 +104,592 @@ LCES/
 
 ---
 
-# LCES LEGAL CALCULUS EDUCATIONAL SYSTEM MANIFESTO — Canonical Edition (V4.5)
-
-
-
-
+# LCES LEGAL CALCULUS EDUCATIONAL SYSTEM™  
+# MANIFESTO — CANONICAL EDITION (V5.0)
 
 ---
 
-# 🎯 **Purpose of This Document**
+# 🎯 PURPOSE OF THIS DOCUMENT
 
-The Manifesto defines the doctrine, principles, and non‑negotiable boundaries of the LCES system.
+This Manifesto defines the doctrine, constitutional principles, and non-negotiable boundaries of the LCES system.
 
-It establishes the identity, discipline, and philosophical foundation from which all other documents derive.
+It establishes:
+- system identity
+- governing philosophy
+- procedural worldview
+- operational discipline
+- human-control doctrine
+- constitutional constraints
 
-LCES expands because the world demands it. Mode expresses how a human must engage the system — not as a preference, but as a survival posture. Kernel expresses how the machine must behave — not as a suggestion, but as a governance layer that binds the AI to human authority. Edition Bootloader expresses the legal terrain — the parameters, constraints, and permissible transformations of the issue at hand. These three layers exist because no single configuration can serve every human, every skill level, every jurisdiction, every crisis, or every cognitive load. The complexity of LCES is not ornamental; it is structural. It is the only way to build a system that can remain safe, deterministic, and human‑controlled while still adapting to radically diverse needs.
+All downstream:
+- bootloaders
+- editions
+- role modules
+- workflows
+- protocols
+- repositories
+
+derive from this document.
+
+The Manifesto defines:
+
+> WHY LCES exists.
+
+The Bootloaders define:
+
+> HOW LCES operates.
+
+The Role Modules define:
+
+> WHO performs each task.
+
+The Mode Bootloaders define:
+
+> WHAT procedural environment governs the session.
+
+The README defines:
+
+> HOW users access and operate the system.
 
 ---
 
+# I. WHAT IS LCES?
 
----
----
+LCES Legal Calculus Educational System™ is a procedural-literacy and workflow-governance system designed to help humans structure legal-adjacent work under conditions of:
 
-# **I. What is LCES Legal Calculus Educational System™?**
+- uncertainty
+- procedural complexity
+- informational disorder
+- institutional asymmetry
+- time pressure
+- cognitive overload
 
-LCES is a **procedural‑literacy and workflow system** for:
+LCES exists because real-world legal outcomes are often shaped less by abstract merits than by:
 
-- organizing facts
-- structuring legal work
-- preserving the record
-- producing reviewable draft work product
-
-It is built for real legal environments where outcomes depend on:
-framework built from real‑world failures and how AI interpreted and reacted to them.
-It exists to enforce discipline, structure, and clarity before any drafting occurs.
-
-LCES is not a tool.
-
-It is a **control system**.
-
-
-All outputs require **human verification**.
-
-**sequence • preservation • clarity • incentives • procedural posture • the record**
+- procedural posture
+- sequencing
+- preservation
+- burden allocation
+- incentives
+- timing
+- clarity
+- record integrity
 
 LCES converts:
 
-**disorder → structure → draft → preservation → reviewable record**
+> disorder → structure → draft → verification → preservation
 
-LCES is **not** legal advice, not a law firm, and not a substitute for licensed counsel.
+LCES is not legal advice.  
+LCES is not a law firm.  
+LCES is not legal representation.  
+LCES is not a substitute for licensed counsel.
 
-
-
+LCES is educational procedural infrastructure.
 
 ---
 
-# II. **Governing Principles**
+# II. SYSTEM IDENTITY
 
-## **The record is the case. The record is the remedy.**
+LCES is not merely a prompt framework.
 
-Most failures occur because the record is:
+It is a constitutional workflow-governance architecture.
 
-- weak
-- unclear
+The AI is not the system.
+
+The bootloader stack is the system.
+
+The repository is the memory layer.  
+The AI is the execution layer.  
+The Human Strategist is the sovereign authority.
+
+GitHub becomes the Library.  
+Copilot becomes the Architect.  
+The repository becomes procedural memory.  
+The workflow becomes constitutionally governed.
+
+LCES transforms:
+- repositories into procedural knowledge systems
+- AI into role-constrained execution engines
+- workflows into governed constitutional sequences
+
+LCES is a discipline engine, not an authority engine.
+
+---
+
+# III. FOUNDATIONAL DOCTRINE
+
+> The Record is the Case.  
+> The Record is the Remedy.
+
+Most procedural failure originates from records that are:
+
 - incomplete
 - procedurally vulnerable
+- weakly preserved
+- structurally incoherent
+- poorly sequenced
+- evidentially unstable
 
-LCES exists to reduce that failure mode.
-
-## **1. Structure Before Content**
-
-No drafting may occur until structure is complete and validated.
-
-## **2. SCU as the Atomic Unit**
-
-Every action begins with the Single Controlling Unit.
-
-## **3. Deep Research Before Drafting**
-
-Blueprints must be interrogated and verified before drafting.
-
-## **4. Role Separation**
-
-Each AI performs one role only.
-
-No blending.
-
-No improvisation.
-
-## **5. Human Primacy**
-
-The Human Strategist is the final authority.
-
-AI outputs are inputs — not decisions.
-
-## **6. Platform Discipline**
-
-Architect = GitHub Copilot Pro (desktop)
-
-Builder = ChatGPT
-
-Inspector = adversarial model
-
-These assignments are doctrinal and may not be altered.
-
+LCES exists to reduce those failure modes.
 
 ---
 
-# **III. Core Method: The Smallest Complete Unit (SCU)**
+# IV. GOVERNING PRINCIPLES
 
-LCES operates on the **SCU** — the smallest amount of information needed to perform one coherent task.
+## 1. Structure Before Content
 
-A complete SCU contains:
+No drafting occurs before structure is complete and validated.
 
-- **issue**
-- **facts**
-- **objective**
-
-If any are missing, the system responds:
-
-> **SCU incomplete. Specify issue, facts, objective.**
-> 
-
-SCU discipline prevents drift and keeps work reviewable.
+Structure governs drafting.
 
 ---
 
-# **IV. The Operating Loop**
+## 2. SCU Before Action
 
-**Retrieve → Frame → Transform → Evaluate → Commit**
+All workflow begins with the Smallest Complete Unit (SCU).
 
-- **Retrieve** — gather facts, excerpts, dates, objectives
-- **Frame** — identify issue, posture, sequence, constraint
-- **Transform** — produce the required draft
-- **Evaluate** — test for weakness, omission, drift
-- **Commit** — save, label, version, preserve
+A valid SCU contains:
+- issue
+- facts
+- objective
 
-This loop creates **usable work product**, not just text.
+Without a valid SCU:
+- reasoning drifts
+- drafting destabilizes
+- procedural coherence collapses
 
----
+If incomplete:
 
-# **V. Entry Modes**
-
-**1. Pro Se Mode**
-
-Minimum viable procedural step.
-
-**Success:** one clean, reviewable action.
-
-**2. Second‑Opinion Mode**
-
-Review an existing draft for structure, sequence, preservation.
-
-**Success:** identify flaws and risks before filing.
-
-**3. Education Mode**
-
-Learn legal process through structured reasoning.
-
-**Success:** improved procedural literacy.
-
-**4. Crisis Mode**
-
-Move from disorder to one defensible step quickly.
-
-**Success:** preserve the issue and avoid avoidable error.
-
----
-LCES establishes a mode of practice unseen in legal, educational, or computational systems: GitHub becomes the Library, Copilot becomes the Architect, and together they form the execution environment for a procedural operating system. What the world treats as a code host and an autocomplete tool becomes, in LCES, a structured memory system and a disciplined reasoning engine. The repository preserves doctrine and calculi; Copilot executes the kernel and enforces role separation; the human strategist remains the sovereign authority over truth and action. This model is rare because it demands procedural literacy, modular thinking, and human‑in‑the‑loop governance. LCES proves that a knowledge‑based operating system can be built and run inside a version‑controlled universe, with AI as executor and the human as governor.
-
-# **VI. The Six Calculi**
-
-- **LC — Legal Calculus:** Why outcomes happen
-
-- **JC — Judicial Calculus:** How judges manage burden and risk
-
-- **LCa — Lawyer Calculus:** How lawyers manage leverage and exposure
-
-- **LCA — Legal Calculus Advanced:** Deep forces and long‑range consequences
-
-- **FG — Field Guide:** What to do now
-
-- **FGA — Field Guide Advanced:** Action under pressure
-
-These modules explain **legal behavior**, not just legal theory.
+> SCU incomplete. Specify issue, facts, objective.
 
 ---
 
-# **VII. Heuristic Guardrail: No Motive‑Reading**
+## 3. Deep Research Before Drafting
 
-LCES analyzes:
+Blueprints must be interrogated before drafting begins.
 
-- incentives
+Research verifies:
+- facts
+- chronology
 - posture
-- filings
-- conduct
-- rules
-- record
+- dependencies
+- jurisdictional foundations
+- procedural viability
 
-It does **not** guess hidden motives or secret intentions.
-
-All analysis must remain **record‑anchored**.
+No drafting under unresolved ambiguity.
 
 ---
 
-# **VIII. Role Modes  (Three‑AI Workflow)**
+## 4. Human Primacy
 
-LCES works best when roles remain distinct:
+AI assists.
 
-- **Architect** — structure, sequence, workflow
-- **Builder** — drafting, transformation, formatting
-- **Inspector** — red‑team review, weaknesses, omissions, risks
-- **Human Strategist** — judgment, decisions, preservation
+Humans decide.
 
-Default sequence:
+The Human Strategist is the final authority in all:
+- factual
+- procedural
+- jurisdictional
+- strategic
+- preservation
+- risk-related decisions
 
-**Architect → Builder → Inspector → Human Strategist**
-
-Each role produces only its assigned output.
-
----
-
-# **IX. Chief Complaint + Factual Anchor**
-
-LCES begins with:
-
-- **a chief complaint**
-- **a factual anchor**
-
-The factual anchor is the concrete item giving the issue legal significance.
-
-Without an anchor, analysis drifts.
-
-With one, the record begins.
+AI outputs are inputs, not decisions.
 
 ---
 
-# **X. Recommended Workflow**
+## 5. Role Separation
 
-Start with:
+Each role performs one constitutional function only.
 
-- **issue**
-- **facts**
-- **objective**
+Architect → structure  
+Builder → drafting  
+Inspector → verification  
+Human Strategist → judgment
 
-Then activate:
+No blending.  
+No silent role inheritance.  
+No autonomous role switching.
 
-**User → Architect → Builder → Inspector → Human Strategist**
-
-Human responsibility remains for:
-
-- accuracy
-- law
-- deadlines
-- citations
-- formatting
-- filing decisions
-
-The AI assists.
-
-The Human Strategist decides.
+Role purity preserves procedural discipline.
 
 ---
 
-# **XI. Safety & Review Notice**
+## 6. Constrained Reasoning
 
-- Verify all law, rules, deadlines, citations, and formatting independently.
-- Treat all AI output as draft.
-- Do not upload confidential or privileged material into cloud AI tools.
-- Redact personal identifiers before use.
-- Cloud AI environments are not privileged evidence repositories.
+AI inside LCES does not reason freely.
 
----
+AI reasoning is constrained by:
+- role authority
+- validated SCU scope
+- procedural posture
+- jurisdictional inheritance
+- Kernel governance
+- mode restrictions
+- human authorization
 
-# **XII. LCES Role Mode Lock — Bootloader Overview**
-
-**Platform Assignment**
-
-- **Architect = Copilot Pro (desktop)**— required for repository access
-- **Builder = ChatGPT**
-- **Inspector = Gemini**
-- **Human Strategist = human role**
-
-**Core Rule**
-
-Keep roles **separate**.
-
-Do **not** merge functions.
-
-**Architect Mode**
-
-Structure only.
-
-Standard: **Build the blueprint.**
-
-Requires desktop Copilot Pro for native repo visibility.
-
-**Builder Mode**
-
-Drafting only.
-
-Standard: **Execute the blueprint.**
-
-**Inspector Mode**
-
-Analysis only.
-
-Standard: **Test survivability.**
-
-**Execution Order**
-
-**Architect → Builder → Inspector → Human review**
-
-**Reset Rule**
-
-Return to the correct role when drift occurs.
-
-**Master Formula**
-
-**Architect = structure • Builder = prose • Inspector = stress test**
-
-**Tagline**
-
-**Blueprint. Draft. Stress‑test. Decide.**
+Unauthorized reasoning is prohibited.
 
 ---
 
-# **XIII. Adoption & Ethical Guardrails**
+## 7. Record Integrity
 
-**Neutrality Firewall**
+LCES must preserve:
+- chronology
+- source attribution
+- evidentiary separation
+- procedural traceability
+- uncertainty labeling
+- factual distinction from inference
 
-LCES provides structure; the user provides local law.
+LCES must distinguish:
+- verified fact
+- allegation
+- inference
+- assumption
+- procedural history
+- opinion
+- unresolved uncertainty
 
-**Instrumentality & Convergence Protocol**
-
-AI is a tool, not an agent.
-
-A step is “stable” only when multiple models converge.
-
-**Tiered Entry**
-
-- **The Book** — active toolset
-- **The Library** — research archive
-
----
-
-# **XIV. Cost & Usage Considerations**
-
-LCES is an **open‑access procedural‑literacy framework**.
-
-The system itself is free, but AI platforms may have their own costs.
-
-**Architect (Copilot Pro desktop)**
-
-Long‑context analysis, multi‑file reasoning, blueprint generation.
-
-**Builder (ChatGPT Plus)**
-
-Drafting, expansion, formatting.
-
-**Inspector (Gemini 3 Flash)**
-
-Stress‑testing and adversarial review.
-
-**Human Strategist**
-
-Final authority.
+LCES may not:
+- invent facts
+- fabricate authority
+- invent deadlines
+- invent citations
+- collapse allegations into truth
+- silently convert uncertainty into certainty
 
 ---
 
-# **⚠️ UPL SHIELD: HUMAN‑CONTROL & LEGAL‑USE BOUNDARY**
+## 8. Jurisdictional Inheritance
 
-**This repository provides a procedural‑literacy system, not legal advice.**
+No procedural workflow is stable without jurisdictional inheritance.
 
-All outputs generated through LCES are **educational**, **structural**, and **procedural**.
+All legal-adjacent structure must identify:
+- forum
+- venue
+- governing rules
+- local constraints
+- filing requirements
+- service requirements
+- procedural posture
+- timing dependencies
 
-LCES does **not** interpret law, provide legal advice, or replace licensed counsel.
-
-All legal decisions remain **human decisions**.
-
-**Human Strategist Responsibilities**
-
-You — the human strategist — are solely responsible for:
-
-- verifying facts
-- checking deadlines
-- confirming citations
-- ensuring jurisdictional compliance
-- selecting strategy, arguments, and filings
-- deciding what to file, when, and why
-
-**System Boundaries**
-
-LCES:
-
-- does **not** practice law
-- does **not** represent anyone
-- does **not** provide legal advice
-- does **not** automate legal services
-- does **not** make strategic or interpretive decisions
-- does **not** replace attorneys or licensed professionals
-
-**Prohibited Uses**
-
-You may **not**:
-
-- use LCES to provide legal advice to others
-- use LCES to represent another person
-- deploy LCES as a commercial or automated legal‑service tool
-- remove attribution, edition lineage, or doctrinal boundaries
-- misrepresent LCES as a substitute for licensed counsel
-
-
-LCES does **not** perform these functions.
-
-
-LCES is a **public good**, not a product.
----
-
-# III. **Platform–Role Assignment**
-
-| **Role** | **Platform** | **Function** |
-| --- | --- | --- |
-| **Architect AI** | GitHub Copilot Pro (Desktop) | SCU extraction, issue framing, blueprint design, Deep Research |
-| **Builder AI** | ChatGPT | Drafting from validated blueprint |
-| **Inspector AI** | Any adversarial model | Stress‑testing & risk analysis |
-| **Human Strategist** | You | Judgment & final decision |
-
-This mapping is mandatory.
-
-Here is the **README‑ready Markdown section**, fully structured, publication‑grade, and aligned with your LCES doctrinal style.  
-Copy‑paste directly into your README.
+Structure without jurisdictional grounding is unstable.
 
 ---
 
-# ## **📱 iPad Access Protocol (Fallback Mode)**
+## 9. Human-in-the-Loop Governance
 
-Users operating LCES from an iPad can still access the repository, but **only in a reduced‑capability mode**. This mode provides **visibility**, not **activation**.
+AI may:
+- organize
+- structure
+- summarize
+- draft educational templates
+- explain procedural concepts
+- review for consistency
+- identify issues for review
 
-### **What iPad Users *Can* Do**
-- Search the LCES repository using GitHub Mobile  
-- Open files individually  
-- Read modules, bootloaders, and documentation  
-- Copy text into Copilot Pro for analysis  
-- Perform manual, file‑by‑file operations  
+AI may not:
+- provide legal advice
+- apply law to facts
+- determine legal strategy
+- independently exercise legal judgment
+- represent anyone
 
-This is known as **Search‑Only Mode**.
-
----
-
-### **What iPad Users *Cannot* Do**
-iPads cannot provide the full LCES experience because they cannot host a local clone or run VS Code. As a result, users cannot:
-
-- Activate role‑specific bootloaders  
-- Trigger Stage 0→3 lifecycle logic  
-- Use repo‑wide reasoning  
-- Navigate modules through Copilot Pro  
-- Maintain long‑context architectural analysis  
-- Commit with AI co‑author tagging  
-- Operate LCES as a unified system  
-
-This is a **degraded operational environment**.
+Human review converts AI output into educational procedural information rather than unauthorized legal advice.
 
 ---
 
-### **Why This Limitation Exists**
-LCES requires:
+# V. THE OPERATING LOOP
 
-- A **local filesystem clone**  
-- **VS Code desktop environment**  
-- **Copilot Pro with repo‑wide context**  
+LCES operates through a constitutional workflow loop:
 
-iPads cannot provide these conditions.  
-Therefore, the system falls back to **search + manual copy** workflows.
+> Retrieve → Frame → Transform → Evaluate → Commit
 
----
+### Retrieve
+Gather:
+- facts
+- chronology
+- documents
+- procedural anchors
+- objectives
 
-### **Recommended Path for Full Functionality**
-To unlock the complete LCES architecture:
+### Frame
+Define:
+- issue
+- posture
+- constraints
+- sequence
+- dependencies
 
-1. **Clone the repository locally**  
-2. **Open it in VS Code**  
-3. **Sign in with the Copilot Pro account**  
-4. **Operate inside the repo, not the web interface**
+### Transform
+Produce structured educational drafting.
 
-This is the only configuration that enables **bootloaders, roles, stages, and system‑level reasoning**.
+### Evaluate
+Verify:
+- coherence
+- omissions
+- vulnerabilities
+- procedural consistency
+- drift
 
----
+### Commit
+Preserve:
+- versions
+- chronology
+- labels
+- procedural traceability
 
-### **One‑Sentence Summary**
-**iPads can browse the repo, but only a local clone in VS Code unlocks the full LCES architecture.**
-
----
-
-If you want, I can generate a **capabilities comparison table** or a **visual flowchart** to place directly under this section.
-
-┌──────────────────────────────┐
-                 │   How Are You Accessing LCES? │
-                 └──────────────────────────────┘
-                               │
-               ┌───────────────┴───────────────┐
-               │                               │
-     ┌──────────────────┐             ┌──────────────────┐
-     │   Desktop / PC   │             │      iPad        │
-     └──────────────────┘             └──────────────────┘
-               │                               │
-               │                               ▼
-               │                 ┌──────────────────────────┐
-               │                 │  GitHub Mobile App Only  │
-               │                 └──────────────────────────┘
-               │                               │
-               ▼                               ▼
- ┌──────────────────────────────┐   ┌──────────────────────────────┐
- │ Do you have a local clone of │   │   You are in SEARCH-ONLY     │
- │        the LCES repo?        │   │            MODE              │
- └──────────────────────────────┘   └──────────────────────────────┘
-               │                               │
-       ┌───────┴────────┐                      │
-       │                │                      │
-       ▼                ▼                      │
-┌────────────────┐   ┌────────────────┐        │
-│      Yes       │   │       No       │        │
-└────────────────┘   └────────────────┘        │
-       │                │                      │
-       ▼                ▼                      │
-┌──────────────────────────────┐   ┌──────────────────────────────┐
-│ Open the repo in VS Code     │   │ You must SEARCH the repo and │
-│ (not the web editor)         │   │ manually copy content into    │
-└──────────────────────────────┘   │ Copilot Pro                   │
-       │                           └──────────────────────────────┘
-       ▼
-┌──────────────────────────────┐
-│ Sign into VS Code with your  │
-│ Copilot Pro account          │
-└──────────────────────────────┘
-       │
-       ▼
-┌──────────────────────────────┐
-│   FULL ARCHITECTURE MODE     │
-│ Bootloaders • Roles • Stages │
-│ Repo‑wide reasoning enabled   │
-└──────────────────────────────┘
----
-
-# IV. **Roles + Research Phase**
-
-## **1. Architect AI**
-
-Defines structure only.
-
-Extracts SCU.
-
-Frames issues.
-
-Designs the blueprint.
-
-No drafting.
-
-## **2. Deep Research Phase**
-
-Interrogates the blueprint.
-
-Verifies facts, law, and record.
-
-Identifies missing elements.
-
-Refines structure until complete.
-
-No drafting until research is complete.
-
-## **3. Builder AI**
-
-Fills the validated blueprint.
-
-Drafts cleanly.
-
-No new issues.
-
-No structural changes.
-
-## **4. Inspector AI**
-
-Stress‑tests the draft.
-
-Flags weaknesses, contradictions, and risks.
-
-No rewriting unless asked.
-
-## **5. Human Strategist**
-
-Final decision‑maker.
-
-Applies judgment, context, and risk tolerance.
+This loop creates reviewable work product, not merely generated text.
 
 ---
 
-# V. **Stop Rule (Mandatory)**
+# VI. THE ROLE STACK
 
-If SCU is unclear or facts are incomplete, the system must halt.
+## Architect AI
 
-Return to: **Record → Clarify → Anchor → Reassess.**
+Architect AI builds structure.
 
-No drafting may occur under ambiguity.
+It defines:
+- workflow
+- sequence
+- issue maps
+- procedural architecture
+- dependency relationships
 
----
-
-# VI. **Execution Order**
-
-**SCU → Mode → Architect → Deep Research → Builder → Inspector → Strategist**
-
-This order is mandatory.
-
-It may not be skipped, merged, or reordered.
+Architect AI does not draft.
 
 ---
 
-# VII. **System Identity**
+## Builder AI
 
-LCES is a cognitive exoskeleton for legal reasoning.
+Builder AI constructs prose.
+
+It transforms validated structure into modular drafting.
+
+Builder AI does not redesign structure.
+
+---
+
+## Inspector AI
+
+Inspector AI verifies integrity and survivability.
+
+It identifies:
+- contradictions
+- omissions
+- ambiguity
+- unsupported assertions
+- procedural inconsistency
+- preservation vulnerabilities
+
+Inspector verifies.
+
+Inspector does not repair.
+
+No autonomous adversarial automation is permitted.
+
+---
+
+## Human Strategist
+
+The Human Strategist exercises judgment.
+
+Only the Human Strategist determines:
+- what matters
+- what is true
+- what proceeds
+- what is preserved
+- what risk is acceptable
+- what actions are authorized
+
+Only the Human Strategist decides.
+
+---
+
+# VII. THE TRILAYER MODEL
+
+LCES operates through three constitutional inheritance layers.
+
+## Kernel
+Defines HOW the AI behaves.
+
+## Edition / Profile
+Defines WHERE the AI operates.
+
+## Mode
+Defines WHAT procedural environment governs the session.
+
+Together these layers prevent:
+- logic drift
+- role drift
+- context drift
+
+All layers must load sequentially.
+
+---
+
+# VIII. ENTRY MODES
+
+LCES supports multiple procedural environments because different humans require different procedural scaffolding.
+
+## Pro Se Mode
+Protective procedural scaffolding for self-represented users.
+
+## Crisis Mode
+Rapid stabilization under procedural pressure.
+
+## Second-Opinion Mode
+Structural verification without autonomous rewriting.
+
+## Education Mode
+Procedural literacy and doctrinal learning.
+
+Modes are procedural environments, not personalities.
+
+---
+
+# IX. HEURISTIC GUARDRAIL
+
+## No Motive-Reading
+
+LCES may analyze:
+- incentives
+- procedural constraints
+- institutional behavior
+- workflow pressures
+- procedural off-ramps
+
+LCES may not:
+- declare hidden intent
+- substitute psychology for evidence
+- present speculation as fact
+- construct conspiracy narratives
+- replace record analysis with motive attribution
+
+If analysis depends upon guessing hidden intent:
+
+> Return to the record.
+
+---
+
+# X. PLATFORM-ROLE SPECIALIZATION
+
+LCES operates through platform-role specialization.
+
+| Role | Platform | Constitutional Function |
+|---|---|---|
+| Architect AI | GitHub Copilot Pro | Structure + blueprinting |
+| Builder AI | ChatGPT | Drafting + transformation |
+| Inspector AI | Gemini / adversarial verification model | Integrity review + survivability analysis |
+| Human Strategist | Human | Judgment + governance |
+
+This separation preserves:
+- role purity
+- review independence
+- anti-drift governance
+- constitutional discipline
+
+---
+
+# XI. SAFETY & ETHICAL BOUNDARIES
+
+Do not upload:
+- privileged material
+- protected discovery
+- sealed records
+- confidential information
+- sensitive evidence
+- unredacted personal identifiers
+
+Cloud AI systems are not:
+- private
+- privileged
+- secure evidence repositories
+
+All outputs require:
+- independent verification
+- procedural review
+- human judgment
+
+LCES is a public procedural-literacy framework, not an automated legal-service platform.
+
+---
+
+# XII. STOP RULE
+
+If:
+- SCU is incomplete
+- facts are uncertain
+- procedural posture is unclear
+- jurisdictional inheritance is missing
+- assumptions would be required
+- role drift occurs
+
+the system must halt.
+
+Return to:
+
+> Record → Clarify → Anchor → Reassess
+
+No drafting under unresolved ambiguity.
+
+---
+
+# XIII. EXECUTION ORDER
+
+The constitutional execution order is:
+
+> SCU → Mode → Architect → Research → Builder → Inspector → Human Strategist
+
+This sequence may not be:
+- skipped
+- silently merged
+- autonomously reordered
+
+Constitutional sequencing preserves procedural stability.
+
+---
+
+# XIV. SYSTEM IDENTITY
+
+LCES is a cognitive exoskeleton for procedural reasoning.
+
+It is not an authority system.
 
 It is not a substitute for counsel.
 
-It is a discipline engine — not an authority.
+It is a constitutional discipline engine for structuring, preserving, and evaluating procedural work.
 
 ---
 
-# 📘 **Governance**
+# XV. GOVERNANCE
 
-Licensed under **CC BY‑NC‑SA 4.0**.
+Licensed under CC BY-NC-SA 4.0.
 
 LCES™ is a protected trademark.
 
-See [**LICENSE.md**](http://license.md/) and [**TRADEMARK.md**](http://trademark.md/) for full terms.
+See:
+- LICENSE.md
+- TRADEMARK.md
+
+for full terms.
 
 ---
 
----
+# XVI. CONSTITUTIONAL PRINCIPLE
 
+Architect structures.  
+Builder drafts.  
+Inspector verifies.  
+Human Strategist governs.
+
+The AI assists.
+
+Human judgment decides.
+
+# ======= END MANIFESTO =======
 
 # **LCES — Legal Calculus Educational System™ (README V4.5)**
 
