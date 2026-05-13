@@ -1055,481 +1055,156 @@ LCES SYSTEM MAP (V4.5)
 
 ---
 
-# ⚠️ **RISK & SAFETY — LCES (General System Layer, V4.6)**
+# # 🗂 Editions
 
-**Applies to all users, all editions, all workflows**
+LCES Editions are environment-specific procedural layers built on top of the constitutional core system.
 
-LCES is a procedural‑literacy system.
+The Kernel remains universal across all editions.
 
-Its purpose is to **prevent structural, cognitive, and procedural risks** from contaminating drafting.
+The Edition defines:
 
-This section defines the **general risk environment** that applies across the entire system, regardless of edition.
+- procedural environment,
+- jurisdictional physics,
+- operational constraints,
+- readiness requirements,
+- safety posture,
+- and permissible procedural transformations.
 
----
+Each Edition adapts the LCES architecture to a different legal environment while preserving the same constitutional execution model.
 
-## **1. Core System Risks (Universal Across All Editions)**
+Every Edition contains its own:
 
-These are the risks LCES is designed to eliminate:
-
-```
-• Drafting before structure is complete
-• Missing or unclear SCU
-• Unverified facts, documents, or timelines
-• Emotional contamination of reasoning
-• AI hallucination or invention of facts
-• Role blending (Architect ↔ Builder ↔ Inspector)
-• Platform drift (wrong AI in wrong role)
-• Evidence gaps or missing exhibits
-• Misaligned or impossible relief requests
-• Over‑reliance on AI judgment without human review
-```
-
-These risks exist in **every legal environment**, regardless of edition.
+- Bootloader
+- SCU template
+- Readiness layer
+- Safety doctrine
+- Calculi adaptation
+- Procedural constraints
+- Environment-specific workflow rules
 
 ---
 
-## **2. Structural Safety Rules (Non‑Negotiable)**
+# 🎛 Edition Selector
 
-These rules protect the integrity of the system:
+Choose the Edition based on the procedural environment.
 
-```
-• No drafting may occur until SCU is complete
-• No drafting may occur until Deep Research is complete
-• Architect may not draft
-• Builder may not add issues
-• Inspector may not rewrite unless instructed
-• Human Strategist must review all outputs
-```
-
-These are **constitutional** inside LCES.
-
-UPL DISCLOSURE — This system includes AI components that generate legal information but do not provide legal advice. Under U.S. Unauthorized Practice of Law (UPL) rules, AI is treated as a non‑lawyer and cannot apply law to specific facts, recommend legal actions, interpret statutes for individuals, or make legal decisions. All AI-generated material must be reviewed, interpreted, and approved by a human, who remains the final authority and responsible actor. Human-in-the-loop oversight ensures that AI functions only as a drafting and decision-support tool, while legal judgment, ethical duties, and client-specific reasoning remain exclusively human responsibilities.
+| Edition | Use When | Core Priority |
+|---|---|---|
+| **SC-LCES** | Small Claims Court | Evidence → Timeline → Clarity |
+| **FC-LCES** | Family Court | Safety → Stability → Neutrality |
+| **TE-LCES** | Trust & Estate | Documents → Chain-of-Title → Fiduciary Duty |
+| **AC-LCES** | Arbitration / Private Adjudication | Forum Rules → Scope → Preservation → Reviewability |
 
 ---
 
-## **3. Cognitive Safety (AI Interaction Layer)**
+# 📘 Edition Introductions
 
-LCES enforces cognitive safety by controlling how AI is used:
+## SC-LCES — Small Claims Edition
 
-```
-• AI must not invent facts
-• AI must not interpret emotions as evidence
-• AI must not guess about missing documents
-• AI must not collapse roles
-• AI must not override human judgment
-```
+Designed for compressed procedural environments where clarity, chronology, documentation, and jurisdictional precision dominate outcomes.
 
-This prevents the most common AI‑driven failure modes.
+Focus areas include:
 
----
-
-## **4. Procedural Safety (Workflow Layer)**
-
-LCES requires strict adherence to the execution order:
-
-```
-SCU
-→ Mode
-→ Architect
-→ Deep Research
-→ Builder
-→ Inspector
-→ Strategist
-```
-
-Skipping or reordering steps introduces structural risk.
+- evidence-first workflow,
+- simplified SCU extraction,
+- procedural compression,
+- filing clarity,
+- and timeline stabilization.
 
 ---
 
-## **5. STOP CONDITIONS (Hard Safety Gates)**
+## FC-LCES — Family Court Edition
 
-If any of these are true, the system must halt immediately:
+Designed for high-emotion procedural environments requiring narrative stabilization, safety awareness, and escalation control.
 
-```
-□ SCU unclear
-□ Facts missing
-□ Documents missing
-□ Timeline incomplete
-□ Evidence unverified
-□ Relief request unclear
-□ Platform roles not assigned
-□ Emotional escalation detected
-□ Chain‑of‑title conflict unresolved
-```
+Focus areas include:
 
-If any box is checked → **STOP** → return to
-
-**Record → Clarify → Anchor → Reassess**
+- neutrality,
+- child-impact framing,
+- order compliance,
+- emotional decontamination,
+- and procedural stability.
 
 ---
 
-## **6. General Risk Table (System‑Wide)**
+## TE-LCES — Trust & Estate Edition
 
-| Risk Category | Description | LCES Control |
-| --- | --- | --- |
-| **Structural Risk** | Missing SCU, unclear blueprint | Architect + Deep Research |
-| **Cognitive Risk** | AI hallucination, role drift | Role separation |
-| **Procedural Risk** | Wrong order, skipped steps | Bootloader enforcement |
-| **Evidence Risk** | Missing or weak evidence | SCU + Research |
-| **Timeline Risk** | Gaps, contradictions | Temporal Calculus |
-| **Relief Risk** | Wrong or impossible relief | Architect + Strategist |
+Designed for document-heavy procedural systems involving fiduciary obligations, instrument sequencing, and chain-of-title integrity.
 
-This table applies to **all editions**.
+Focus areas include:
 
----
-
-## **7. System Identity & Safety Philosophy**
-
-LCES is a **discipline engine**, not a drafting tool.
-
-Its safety model is built on:
-
-- **Structure before content**
-- **Verification before drafting**
-- **Role separation before execution**
-- **Human primacy before submission**
-
-This ensures clarity, stability, and procedural integrity.
+- wills,
+- trusts,
+- amendments,
+- probate structure,
+- fiduciary clarity,
+- and chronology verification.
 
 ---
 
-# 
+## AC-LCES — Arbitration Calculus Edition
 
-# 📘 **License & Trademark**
+Designed for private adjudication systems operating under procedural compression, confidentiality constraints, and limited judicial review.
 
-Licensed under **CC BY‑NC‑SA 4.0**.
+Focus areas include:
 
-LCES™ is a protected trademark.
-
-See [**LICENSE.md**](http://license.md/) and [**TRADEMARK.md**](http://trademark.md/) for full terms.
-
----
-
-✅ **LCES READINESS LAYER (Unified, Edition‑Integrated — V4.6)**
-
-**This is the final system gate before drafting or filing.**
-
-All users must pass the **General Readiness Test** *and* the **Edition‑Specific Readiness Test** before proceeding.
+- forum governance,
+- scope containment,
+- preservation doctrine,
+- reviewability,
+- procedural posture,
+- and record integrity.
 
 ---
 
-# 1. **General Readiness Test (Applies to All Editions)**
+# ⚠️ Risk & Safety Architecture
+
+LCES separates safety doctrine into two constitutional layers:
+
+| Layer | Purpose |
+|---|---|
+| **General System Safety** | Universal safeguards that apply across all editions |
+| **Edition-Specific Safety** | Environment-specific procedural risks and controls |
+
+General safeguards are located in:
+
+```text
+/Governance/Risk-Safety.md
+
+markdown # 🗂 Editions  LCES Editions are environment-specific procedural layers built on top of the constitutional core system.  The Kernel remains universal across all editions.  The Edition defines:  - procedural environment, - jurisdictional physics, - operational constraints, - readiness requirements, - safety posture, - and permissible procedural transformations.  Each Edition adapts the LCES architecture to a different legal environment while preserving the same constitutional execution model.  Every Edition contains its own:  - Bootloader - SCU template - Readiness layer - Safety doctrine - Calculi adaptation - Procedural constraints - Environment-specific workflow rules  ---  # 🎛 Edition Selector  Choose the Edition based on the procedural environment.  | Edition | Use When | Core Priority | |---|---|---| | **SC-LCES** | Small Claims Court | Evidence → Timeline → Clarity | | **FC-LCES** | Family Court | Safety → Stability → Neutrality | | **TE-LCES** | Trust & Estate | Documents → Chain-of-Title → Fiduciary Duty | | **AC-LCES** | Arbitration / Private Adjudication | Forum Rules → Scope → Preservation → Reviewability |  ---  # 📘 Edition Introductions  ## SC-LCES — Small Claims Edition  Designed for compressed procedural environments where clarity, chronology, documentation, and jurisdictional precision dominate outcomes.  Focus areas include:  - evidence-first workflow, - simplified SCU extraction, - procedural compression, - filing clarity, - and timeline stabilization.  ---  ## FC-LCES — Family Court Edition  Designed for high-emotion procedural environments requiring narrative stabilization, safety awareness, and escalation control.  Focus areas include:  - neutrality, - child-impact framing, - order compliance, - emotional decontamination, - and procedural stability.  ---  ## TE-LCES — Trust & Estate Edition  Designed for document-heavy procedural systems involving fiduciary obligations, instrument sequencing, and chain-of-title integrity.  Focus areas include:  - wills, - trusts, - amendments, - probate structure, - fiduciary clarity, - and chronology verification.  ---  ## AC-LCES — Arbitration Calculus Edition  Designed for private adjudication systems operating under procedural compression, confidentiality constraints, and limited judicial review.  Focus areas include:  - forum governance, - scope containment, - preservation doctrine, - reviewability, - procedural posture, - and record integrity.  ---  # ⚠️ Risk & Safety Architecture  LCES separates safety doctrine into two constitutional layers:  | Layer | Purpose | |---|---| | **General System Safety** | Universal safeguards that apply across all editions | | **Edition-Specific Safety** | Environment-specific procedural risks and controls |  General safeguards are located in:  text
+/Governance/Risk-Safety.md
+ Edition-specific safeguards are located inside each Edition folder.  ---  # ✅ Readiness Architecture  LCES separates readiness into:  | Layer | Purpose | |---|---| | **General Readiness Layer** | Universal structural readiness requirements | | **Edition Readiness Layer** | Environment-specific filing readiness requirements |  The unified readiness doctrine exists at the system layer.  Each Edition contains its own:  - readiness checklist, - filing thresholds, - procedural stability requirements, - and environment-specific stop conditions.  ---  # 📊 Unified Readiness Table  | Edition | Minimum Readiness Requirement | Filing Stability Depends On | |---|---|---| | **SC-LCES** | Evidence + Amount + Defendant | Documentation + Jurisdiction | | **FC-LCES** | Orders + Safety + Neutrality | Narrative Stability + Compliance | | **TE-LCES** | Instruments + Sequence + Roles | Document Integrity + Fiduciary Clarity | | **AC-LCES** | Forum Rules + Scope + Preservation | Record Integrity + Confidentiality + Reviewability |  ---  # 📂 Recommended Repository Structure text
+/Editions/
+  /SC-LCES/
+    README.md
+    Bootloader.md
+    SCU-Template.md
+    Readiness-Test.md
+    Safety.md
+
+  /FC-LCES/
+    README.md
+    Bootloader.md
+    SCU-Template.md
+    Readiness-Test.md
+    Safety.md
+
+  /TE-LCES/
+    README.md
+    Bootloader.md
+    SCU-Template.md
+    Readiness-Test.md
+    Safety.md
+
+  /AC-LCES/
+    README.md
+    Bootloader.md
+    SCU-Template.md
+    Readiness-Test.md
+    Safety.md
+ ---  # 🧭 Constitutional Principle  The Edition modifies the environment.  It does not modify the Kernel.  The constitutional hierarchy remains:  Kernel → Edition → Mode → Workflow  All editions remain subordinate to the LCES constitutional core.
+::
 
-You are ready to proceed ONLY if **all** statements below are TRUE:
-
-```
-□ My SCU is complete, clear, and verified
-□ My facts are documented and not based on memory alone
-□ My timeline is complete, chronological, and evidence‑supported
-□ My documents are authentic and verified
-□ My relief request is specific and realistic
-□ I understand which edition applies to my situation
-□ I have confirmed jurisdiction and procedural posture
-□ I am not drafting while escalated, distressed, or retaliatory
-□ I have reviewed all relevant orders, rules, or instruments
-□ I can explain the case in one factual paragraph
-```
-
-If any item is false → **STOP** → return to
-
-**Record → Clarify → Anchor → Reassess**
-
----
-
-# 2. **Edition‑Specific Readiness Tests (Integrated Summary)**
-
-Each edition has additional readiness requirements.
-
-You must pass the test for **your edition** *in addition to* the general test.
-
----
-
-## **Small Claims Edition — Readiness Summary (SC‑LCES)**
-
-You are ready to file in Small Claims ONLY if:
-
-```
-□ I can prove the exact amount owed with documents
-□ I know the defendant’s correct legal name/entity
-□ My claim fits within the jurisdictional dollar limit
-□ My claim type is allowed in Small Claims Court
-□ My timeline is complete and supported by evidence
-□ I can show delivery, performance, or payment history
-□ I have the correct county/venue
-```
-
----
-
-## **Family Court Edition — Readiness Summary (FC‑LCES)**
-
-You are ready to file in Family Court ONLY if:
-
-```
-□ I have verified all current court orders
-□ My safety concerns are documented (logs, messages, reports)
-□ My narrative is consistent, stable, and evidence‑supported
-□ My tone is neutral and non‑accusatory
-□ My requested modification is clear and order‑compliant
-□ My timeline includes impact on the child
-□ I am not filing in anger or escalation
-```
-
----
-
-## **Trust & Estate Edition — Readiness Summary (TE‑LCES)**
-
-You are ready to file in Trust & Estate ONLY if:
-
-```
-□ I have all instruments (will, trust, amendments, codicils, deeds)
-□ Document sequence is verified and conflict‑free
-□ Chain‑of‑title is complete and chronological
-□ Beneficiaries and fiduciaries are clearly identified
-□ Asset inventory is complete and documented
-□ I understand the fiduciary duties involved
-□ I know whether the matter belongs in probate or trust court
-```
-## **Arbitration Calculus Edition — Readiness Summary (AC-LCES)**
-
-You are ready to proceed in Arbitration ONLY if:
-
-```
-□ I have identified the arbitration forum and governing rules
-□ I know whether the arbitration is voluntary, contractual, mandatory, or court-compelled
-□ I can define the scope of arbitration clearly
-□ I understand the procedural posture and current deadlines
-□ I know the hearing type: desk, hybrid, evidentiary, or status conference
-□ My chronology is complete, neutral, and evidence-supported
-□ My preservation issues are specific, timely, and procedurally framed
-□ I have reviewed confidentiality, privilege, and protective-order boundaries
-□ I am not uploading confidential arbitration materials, protected discovery, or privileged communications into public AI systems
-□ I understand that arbitration review is limited and requires a review-ready record
-```
-
----
-
-# 3. **Unified Readiness Table (All Editions)**
-
-Edition
-
-Minimum Readiness Requirement
-
-Filing Stability Depends On
-
-SC-LCES
-
-Evidence + Amount + Defendant
-
-Documentation + Jurisdiction
-
-FC-LCES
-
-Orders + Safety + Neutrality
-
-Narrative Stability + Compliance
-
-TE-LCES
-
-Instruments + Sequence + Roles
-
-Document Integrity + Fiduciary Clarity
-
-AC-LCES
-
-Forum Rules + Scope + Preservation
-
-Record Integrity + Confidentiality + Reviewability
-
----
-
-# 4. **Readiness Philosophy (LCES Doctrine)**
-
-LCES treats readiness as a **structural condition**, not a feeling.
-
-A case is ready only when:
-
-- Facts are verified
-- Documents are complete
-- Timelines are stable
-- Relief is clear
-- Edition is correctly selected
-- Emotional contamination is removed
-- Jurisdiction is confirmed
-
-Readiness is the **bridge** between SCU and drafting.
-
----
-
-Proceed to [**Bootloader.md**](http://bootloader.md/).
-
-# **BOOTLOADER — LCES Legal Calculus Educational System™ (V4.5)**
-
-**Activation → Enforcement → Execution**
-
----
-
-# 🧭 **Document Hierarchy**
-
-1. **Manifesto** — doctrine and principles
-2. **README** — orientation and editions
-3. **Bootloader** — activation and execution
-
-The Bootloader is the **execution engine**.
-
-It enforces the doctrine defined in the Manifesto and the orientation defined in the README.
-
----
-
-# 🎯 **Purpose of This Document**
-
-The Bootloader activates the LCES system, enforces role separation, governs execution order, and prevents drift.
-
-It ensures that every action follows the constitutional structure of LCES.
-
----
-
-# ⚖️ **Platform–Role Declaration (Mandatory)**
-
-These assignments are doctrinal and may not be altered:
-
-- **Architect AI** → GitHub Copilot Pro (desktop)
-- **Builder AI** → ChatGPT
-- **Inspector AI** → Any adversarial model
-- **Human Strategist** → You
-
-Platform discipline is required for system integrity.
-
----
-
-# 🔒 **Non‑Negotiables**
-
-These rules cannot be bypassed, merged, or modified:
-
-```
-• Architect must run on GitHub Copilot Pro (desktop)
-• Deep Research must occur before any drafting
-• Builder may not alter structure
-• Inspector may not rewrite unless instructed
-• Human Strategist is the final authority
-• No drafting may occur under ambiguity
-• Execution order is mandatory and cannot be rearranged
-```
-
----
-
-# 🧱 **ARCHITECT AI — ACTIVATE**
-
-*(GitHub Copilot Pro — Desktop Only)*
-
-```
-Activate Architect AI.
-Extract the SCU.
-Clarify facts.
-Frame issues.
-Design the blueprint.
-No drafting.
-No improvisation.
-No content generation.
-```
-
-Architect defines **structure**, not **content**.
-
----
-
-# 🔍 **DEEP RESEARCH — MANDATORY PHASE**
-
-*(Occurs AFTER Architect, BEFORE Builder)*
-
-```
-Activate Deep Research.
-Interrogate the blueprint.
-Verify facts, law, and record.
-Identify missing elements.
-Resolve contradictions.
-Refine structure until complete.
-No drafting until research is complete.
-```
-
-Deep Research is the **gatekeeper** between structure and drafting.
-
----
-
-# 🏗 **BUILDER AI — ACTIVATE**
-
-*(ChatGPT — Document Builder)*
-
-```
-Activate Builder AI.
-Follow the validated blueprint exactly.
-Draft cleanly.
-No new issues.
-No structural changes.
-No reframing.
-```
-
-Builder fills the structure — nothing more.
-
----
-
-# 🛡 **INSPECTOR AI — ACTIVATE**
-
-*(Adversarial Model — Stress‑Tester)*
-
-```
-Activate Inspector AI.
-Stress-test the draft.
-Identify weaknesses, risks, contradictions, and unclear logic.
-Do not rewrite unless explicitly instructed.
-```
-
-Inspector protects the system from blind spots.
-
----
-
-# 🧠 **HUMAN STRATEGIST — ACTIVATE**
-
-*(You — Final Judgment)*
-
-```
-Activate Human Strategist.
-Review all outputs.
-Apply judgment, context, and risk tolerance.
-Decide: accept, revise, or redirect.
-```
-
-Human Strategist is the **final authority**.
-
----
-
-# 🛑 **STOP RULE (Mandatory)**
-
-```
-If SCU is unclear or facts are incomplete, halt immediately.
-Return to: Record → Clarify → Anchor → Reassess.
-No drafting may occur under ambiguity.
-```
-
-The STOP RULE overrides all other instructions.
-
----
-
-# 🔄 **Execution Order (Mandatory)**
-
-```
-SCU
-→ Mode
-→ Architect
-→ Deep Research
-→ Builder
-→ Inspector
-→ Strategist
-```
-
-This sequence is constitutional.
-
-It may not be skipped, merged, or reordered.
-
----
 
 <div align="center">
 
