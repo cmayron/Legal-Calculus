@@ -836,6 +836,9 @@ markdown # 🗂 Editions  LCES Editions are environment-specific procedural laye
 
 # ─────────────────────────────────────────────
 
+
+---
+
 # **SC‑LCES — Small Claims Edition**
 
 ---
@@ -1464,8 +1467,12 @@ text confusion → structure claims → evidence emotion → chronology dispute 
 
 The goal is not rhetorical persuasion.
 
-The goal is procedural clarity supported by verifiable evid
+The goal is procedural clarity supported by verifiable evidence    
 # ─────────────────────────────────────────────
+---
+
+
+
 
 # FC-LCES — Family Court Edition™ (V4.6)
 
