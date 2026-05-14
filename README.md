@@ -461,7 +461,9 @@ Environment‑specific risks (e.g., Family Court safety posture, Small Claims ev
 **Human chooses Entry Mode → Entry Mode configures Kernel → Kernel governs AI roles → Edition defines legal parameters → Execution Layer produces governed work product.**
 
 
-*This is the final version — drop directly into `/Editions/README.md`)*
+*(This is the final version — drop directly into `/Editions/README.md`)*
+
+---
 
 # **🗂 LCES EDITIONS (V6.3 — Publication Edition)**
 
@@ -560,6 +562,56 @@ This ensures reasoning remains **venue‑appropriate**.
 
 ---
 
+# **🔄 Edition ↔ Mode Interaction Rule**
+
+### *How Editions modify Entry Modes*
+
+Each Edition modifies Mode behavior:
+
+- **SC‑LCES**
+    - Crisis Mode becomes timeline‑first
+    - Pro Se Mode emphasizes evidence packets
+    - Second‑Opinion Mode emphasizes jurisdictional defects
+- **FC‑LCES**
+    - Crisis Mode elevates safety above all else
+    - Pro Se Mode restricts emotional‑content drafting
+    - Second‑Opinion Mode emphasizes stability and neutrality
+- **TE‑LCES**
+    - Crisis Mode focuses on document preservation
+    - Pro Se Mode emphasizes chain‑of‑title clarity
+    - Second‑Opinion Mode emphasizes fiduciary‑duty risk
+- **AC‑LCES**
+    - Crisis Mode focuses on scope preservation
+    - Pro Se Mode is rarely appropriate
+    - Second‑Opinion Mode emphasizes forum‑rule compliance
+
+This rule ensures **Mode behavior remains venue‑aligned**.
+
+---
+
+# **🧱 Edition ↔ Role Model Constraints**
+
+### *How Editions modify the Architect → Builder → Inspector sequence*
+
+Each Edition applies constraints to the role sequence:
+
+- **SC‑LCES**
+    - Architect must stabilize timeline before structure
+    - Inspector must flag jurisdictional defects early
+- **FC‑LCES**
+    - Architect must apply safety filters before structure
+    - Inspector must apply neutrality and stability checks
+- **TE‑LCES**
+    - Architect must map documents before issues
+    - Inspector must verify chain‑of‑title integrity
+- **AC‑LCES**
+    - Architect must map scope before structure
+    - Inspector must enforce forum‑rule compliance
+
+These constraints ensure the **role model behaves differently in each Edition**.
+
+---
+
 # **🎛 Edition Selector**
 
 Choose the Edition based on the **procedural environment**, not the facts of the case.
@@ -593,10 +645,10 @@ drive outcomes.
 - procedural compression
 - filing clarity
 - timeline stabilization
+
 ---
 
-
-
+#
 # 📘 Edition Introductions
 
 ## SC-LCES — Small Claims Edition
