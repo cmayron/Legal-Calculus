@@ -4400,635 +4400,473 @@ The AI executes within limits.
 
 ---
 
-# **SC‑LCES — Small Claims Edition**
+# **SMALL CLAIMS CALCULUS — LEGAL CALCULUS EDUCATIONAL SYSTEM (SC‑LCES)**
+
+### **VERSION 1.1 — SMALL CLAIMS EDITION**
+
+**Jurisdiction‑Driven • Evidence‑Focused • Procedural Integrity**
+
+**LCES Legal Calculus Educational System™ — CC BY‑NC‑SA 4.0**
 
 ---
 
-# SC-LCES — Small Claims Edition™ (V4.6)
+# **I. Edition Preamble — Small Claims Environment**
 
-## Small Claims Calculus Edition of the LCES Legal Calculus Educational System™
+Small Claims is a **fast, form‑driven, jurisdiction‑specific** environment with:
 
-Evidence-First • Compressed Timelines • Plain Language • Procedural Stability
+- simplified procedures
+- strict filing requirements
+- limited remedies
+- compressed timelines
+- judge‑driven outcomes
 
----
+SC‑LCES prevents:
 
-# ⚖️ Constitutional Position
+- jurisdictional errors
+- filing rejection
+- evidentiary gaps
+- procedural drift
+- narrative confusion
 
-SC-LCES is an environment-specific edition of the LCES Legal Calculus Educational System™.
-
-It adapts the constitutional LCES framework to the simplified but procedurally unforgiving environment of Small Claims Court.
-
-SC-LCES prioritizes:
-
-- evidence integrity,
-- procedural clarity,
-- chronological stability,
-- and filing readiness.
-
-The Edition modifies the procedural environment.
-
-It does not modify the constitutional LCES core.
+**Core Principle — Jurisdiction Controls Everything**
 
 ---
 
-# 🎯 Purpose
+# **II. Bootloader — SC‑LCES (V1.1)**
 
-SC-LCES exists to help users:
+### Activation → Jurisdiction → Evidence → Filing
 
-- organize claims,
-- stabilize timelines,
-- structure evidence,
-- reduce procedural drift,
-- and produce reviewable Small Claims work product.
+## **Platform–Role Declaration**
 
-The system is designed for environments where outcomes depend less on complex legal doctrine and more on:
+- **Architect AI** → GitHub Copilot Pro
+- **Builder AI** → ChatGPT
+- **Inspector AI** → adversarial model
+- **Human Strategist** → You
 
-- documentary evidence,
-- chronology,
-- procedural compliance,
-- and factual clarity.
+## **Non‑Negotiables (SC‑LCES)**
 
----
-
-# ⚠️ LEGAL-RISK WARNING — SC-LCES
-
-Small Claims Court is procedurally simplified, but procedurally unforgiving.
-
-Courts enforce strict limits on:
-
-- claim type,
-- claim amount,
-- venue,
-- timelines,
-- service,
-- and available remedies.
-
-A claim may fail if:
-
-- the wrong defendant is named,
-- the amount cannot be proven,
-- jurisdiction is incorrect,
-- evidence is incomplete,
-- or required procedures are not followed precisely.
-
-SC-LCES is designed to reduce structural filing errors through evidence-first procedural discipline.
-
-Users remain responsible for verifying:
-
-- jurisdiction,
-- filing requirements,
-- deadlines,
-- service rules,
-- and evidence sufficiency.
+- Architect must confirm jurisdiction before drafting
+- Builder may not add allegations or facts
+- Inspector flags gaps in evidence, not emotion
+- Human Strategist controls narrative and evidence
+- No confidential materials may enter public AI systems
+- No drafting under missing‑document conditions
 
 ---
 
-# 🛡 SAFETY — SC-LCES
+# **III. STOP RULE — Small Claims Calculus™**
 
-Small Claims Court prioritizes:
+No drafting may begin unless **ALL** conditions are satisfied:
 
-- clarity,
-- chronology,
-- documentation,
-- and procedural simplicity.
+□ Correct court identified
 
-Safety in SC-LCES means preventing structural instability before filing occurs.
+□ Claim type allowed in Small Claims
 
-The primary failure mode in Small Claims is not complexity.
+□ Monetary limit confirmed
 
-It is unsupported claims presented without stable evidence or procedural alignment.
+□ Defendant’s address known
 
----
+□ Evidence available and admissible
 
-# ⚖️ Safety Priorities
+□ Timeline complete and coherent
 
-1. Evidence integrity  
-2. Correct defendant identification  
-3. Jurisdictional compliance  
-4. Chronological stability  
-5. Procedural clarity  
-6. Plain-language factual drafting  
+□ Service‑of‑process method identified
+
+□ Filing fee known
+
+□ Relief requested is Small‑Claims‑eligible
+
+**If any condition fails → Architect STOP → Builder STOP → Inspector STOP**
 
 ---
 
-# 🔒 Constitutional Safety Rules
+# **IV. LEGAL‑RISK WARNING — Small Claims Calculus™**
 
-- All evidence must be verified before drafting
-- All damages must be documented
-- All timelines must be chronological and evidence-supported
-- Drafting must remain factual and plain-language
-- No unsupported legal arguments or speculative claims
-- No assumptions regarding motive, intent, or legal interpretation
-- No drafting before jurisdiction is confirmed
-- No filing before evidence stability is verified
+Small Claims courts vary by:
 
----
-
-# 🚫 DO NOT FILE IF
-
-Do not proceed in Small Claims Court if any condition below is true:
-
-□ The claim exceeds jurisdictional limits
-
-□ The amount cannot be proven with documents
-
-□ The defendant’s legal identity is uncertain
-
-□ The timeline is incomplete or contradictory
-
-□ The claim depends primarily on verbal statements
-
-□ The requested remedy requires complex legal analysis
-
-□ The dispute involves defamation, professional malpractice, or specialized litigation
-
-□ The claim requires extensive legal briefing or case-law interpretation
-
-□ Venue or county has not been confirmed
-
-□ Evidence exists primarily as memory, opinion, or emotional belief
-
----
-
-# 🚩 Structural Red Flags
-
-These conditions indicate instability, incompleteness, or elevated procedural risk.
-
-□ Missing receipts, invoices, or payment records
-
-□ Unclear business entity or defendant structure
-
-□ Gaps in chronology
-
-□ Contradictory communications or timelines
-
-□ No written agreement or objective proof of obligation
-
-□ Reliance on emotional narrative instead of documentary evidence
-
-□ Estimated damages without supporting calculation
-
-□ Missing delivery, performance, or payment history
-
-□ Claims dependent on proving motive or intent
-
-□ Excessive legal complexity for Small Claims procedure
-
----
-
-# ⚙️ SC-LCES Operating Principles
-
-## Evidence-First • Compressed Timelines • Plain Language
-
-text SCU → Evidence → Timeline → Blueprint → Draft → Review 
-
-SC-LCES prioritizes:
-
-- procedural simplicity,
-- documentary stability,
-- and fast factual comprehension.
-
----
-
-# 📚 Calculi Adaptation — SC-LCES
-
-## Procedural Calculus
-
-Compressed deadlines.  
-Simplified procedure.  
-Strict filing requirements.
-
----
-
-## Narrative Calculus
-
-Plain language.  
-No legal inflation.  
-No unnecessary complexity.
-
----
-
-## Evidentiary Calculus
-
-Documents outweigh narrative.
-
-Receipts > assertions.
-
-Screenshots > speculation.
-
-Chronology > emotion.
-
----
-
-## Structural Calculus
-
-Short.  
-Direct.  
-Chronological.  
-Evidence-anchored.
-
----
-
-## Temporal Calculus
-
-Fast procedural movement.  
-Short response windows.  
-Immediate evidentiary relevance.
-
----
-
-## Risk Calculus
-
-Low doctrinal complexity.  
-High procedural-clarity risk.
-
-The greatest Small Claims risk is structural instability, not advanced legal doctrine.
-
----
-
-# 🧩 SCU Template — SC-LCES
-
-## 1. Claim Type
-
-Examples:
-
-- breach of contract
-- unpaid invoice
-- security deposit dispute
-- property damage
-
----
-
-## 2. Amount in Controversy
-
-Exact dollar amount only.
-
-Attach supporting documentation.
-
----
-
-## 3. Evidence List
-
-- receipts
-- invoices
-- contracts
-- screenshots
-- messages
-- photos
-- payment records
-
----
-
-## 4. Timeline
-
-text Date → Event → Supporting Evidence 
-
-Chronology must remain complete and contradiction-free.
-
----
-
-## 5. Relief Requested
-
-State precisely what the court is being asked to order.
-
----
-
-## 6. Jurisdiction Verification
-
-Confirm:
-
-- claim amount,
-- county,
-- venue,
-- and claim eligibility.
-
----
-
-# 📦 SC-LCES Evidence Pack
-
-Recommended evidence categories:
-
-- receipts
-- invoices
-- contracts
-- screenshots
-- payment records
-- photos
-- delivery confirmations
-- written communications
-
----
-
-# 🧠 SC-LCES SCU Extraction Wizard
-
-1. What is the claim type?
-
-2. What is the exact amount?
-
-3. What documents prove the amount?
-
-4. What dates establish the timeline?
-
-5. What specific relief is requested?
-
-6. Why is this venue correct?
-
----
-
-# 📋 SC-LCES Filing Checklist
-
-## Jurisdiction
-
-- Claim amount within limit
-- Correct venue
-- Correct defendant identity
-
----
-
-## Evidence
-
-- Receipts
-- Screenshots
-- Contracts
-- Messages
-- Photos
-- Payment history
-
----
-
-## Timeline
-
-- Chronological
-- Evidence-supported
-- No contradictions
-- No missing events
-
----
-
-## Forms & Procedure
-
-- Correct claim forms
-- Verified filing instructions
-- Service requirements confirmed
-- Fee waiver completed if applicable
-
----
-
-## Filing Execution
-
-- File
-- Serve
-- Preserve proof of service
-- Calendar deadlines and hearing dates
-
----
-
-# 🧪 First Case Walkthrough — SC-LCES
-
-## Scenario
-
-Unpaid invoice for $1,200.
-
----
-
-## Step 1 — SCU Extraction
-
-Claim type:  
-Breach of contract
-
-Amount:  
-$1,200
-
-Evidence:  
-Invoice, payment history, text messages
-
----
-
-## Step 2 — Architect Phase
-
-Blueprint:
-
-- parties
-- agreement
-- breach
-- evidence
-- damages
-- requested relief
-
-No drafting.
-
----
-
-## Step 3 — Deep Research
-
-Verify:
-
-- invoice accuracy
-- communications
-- payment records
 - jurisdiction
-- venue
+- monetary limits
+- filing procedures
+- service requirements
+- evidence rules
+- hearing format
+
+Failure to verify:
+
+- jurisdiction
+- claim eligibility
+- service rules
+- deadlines
+- evidence requirements
+
+may result in:
+
+- dismissal
+- refiling delays
+- loss of claim
+- default judgment
+
+Users must confirm **local rules** before filing.
 
 ---
 
-## Step 4 — Builder Phase
+# **V. SAFETY — Small Claims Calculus™**
 
-Draft clear factual narrative in plain language.
+Small Claims requires:
 
-No legal complexity inflation.
+- jurisdictional accuracy
+- evidence clarity
+- neutral narrative
+- procedural discipline
 
----
+Safety means preventing:
 
-## Step 5 — Inspector Phase
+- filing rejection
+- jurisdictional dismissal
+- evidentiary exclusion
+- service‑of‑process failure
 
-Stress-test:
+## **Safety Rules (Tier 1 — Always True)**
 
-- clarity,
-- chronology,
-- contradictions,
-- and evidentiary sufficiency.
+- Jurisdiction must be confirmed
 
----
+• Claim must be Small‑Claims‑eligible
 
-## Step 6 — Human Strategist
+• Evidence must be admissible and organized
 
-Review.  
-Approve.  
-File.
+• Timeline must be complete
 
----
+• Builder AI may not add facts or allegations
 
-# ✅ READINESS TEST — SC-LCES
+• Human Strategist reviews all evidence
 
-You are ready to file ONLY if all statements below are TRUE:
+• No confidential materials may be uploaded
 
-□ I can prove the exact amount with documents
+## **Safety Priorities**
 
-□ I possess receipts, invoices, screenshots, contracts, or written communications
-
-□ I know the defendant’s correct legal identity
-
-□ My timeline is complete and evidence-supported
-
-□ My claim fits within jurisdictional limits
-
-□ My claim type is permitted in Small Claims Court
-
-□ Venue and county are confirmed
-
-□ My requested relief is specific and realistic
-
-□ I have verified filing procedures and required forms
-
-□ I can prove delivery, performance, payment, or damages
-
-If any item is false:
-
-text STOP → Record → Clarify → Anchor → Reassess 
+1. Jurisdiction
+2. Claim eligibility
+3. Evidence sufficiency
+4. Service‑of‑process compliance
+5. Chronology clarity
+6. Neutral narrative
+7. Human governance
 
 ---
 
-# 🧱 BOOTLOADER — SC-LCES
+# **VI. Jurisdiction Module — SC‑LCES (Required)**
 
-## Activation → Compression → Evidence-First Execution
+Small Claims jurisdiction depends on:
 
----
+- **Monetary limits** (varies by state)
+- **Geographic limits** (county or district)
+- **Subject‑matter limits** (some claims excluded)
+- **Defendant location** (service + venue)
+- **Business vs. individual rules**
 
-# 🎯 Purpose
+### **Jurisdiction Checklist**
 
-This Bootloader adapts the constitutional LCES execution model to the compressed procedural environment of Small Claims Court.
+□ Claim amount within limit
 
----
+□ Court has geographic authority
 
-# ⚖️ Platform–Role Declaration
+□ Claim type allowed (no probate, family, eviction, etc.)
 
-- Architect AI → GitHub Copilot Pro (desktop)
-- Builder AI → ChatGPT
-- Inspector AI → adversarial review model
-- Human Strategist → You
+□ Defendant resides or does business in jurisdiction
 
----
-
-# 🔒 Non-Negotiables
-
-- Architect must operate before Builder
-- Deep Research must occur before drafting
-- Evidence controls structure
-- No complexity inflation
-- Builder may not redesign structure
-- Inspector verifies clarity, not doctrine
-- Human Strategist remains final authority
+□ Venue rules satisfied
 
 ---
 
-# 🧱 ARCHITECT AI — ACTIVATE
+# **VII. Service‑of‑Process Module — SC‑LCES (Required)**
 
-text Extract SCU. Identify claim type. Identify damages. Identify evidence. Identify timeline. Design a compressed blueprint. No drafting. 
+Service is **jurisdictional**.
 
-Architect defines structure — not prose.
+If service fails → the case collapses.
 
----
+### **Service Methods (vary by state)**
 
-# 🔍 DEEP RESEARCH — ACTIVATE
+- Personal service
+- Certified mail
+- Sheriff/constable service
+- Process server
+- Substituted service (if allowed)
 
-text Verify receipts, contracts, screenshots, and messages. Confirm jurisdiction and claim limits. Identify missing evidence. Stabilize chronology. Refine blueprint. No drafting until complete. 
+### **Service Checklist**
 
-Deep Research stabilizes the record before prose exists.
+□ Method allowed by local rules
 
----
+□ Deadline satisfied
 
-# 🏗 BUILDER AI — ACTIVATE
+□ Proof of service completed
 
-text Draft in plain language. Follow blueprint exactly. No legal citations. No structural redesign. 
+□ Defendant address verified
 
-Builder executes the validated structure.
-
----
-
-# 🛡 INSPECTOR AI — ACTIVATE
-
-text Stress-test clarity. Identify contradictions. Flag missing evidence. Check chronology. Do not rewrite unless instructed. 
-
-Inspector protects against procedural instability.
+□ Substituted service rules followed (if used)
 
 ---
 
-# 🧠 HUMAN STRATEGIST — ACTIVATE
+# **VIII. Damages‑Calculus Module — SC‑LCES (Required)**
 
-text Review. Decide. Approve. File. 
+Small Claims courts require **provable, documented damages**.
 
-The Human Strategist remains sovereign.
+### **Allowed Damages (typical)**
 
----
+- Direct financial loss
+- Repair costs
+- Replacement value
+- Refunds
+- Contract amounts owed
 
-# 🔄 Constitutional Workflow Sequence
+### **Often Not Allowed**
 
-text SCU → Architect → Deep Research → Builder → Inspector → Strategist 
+- Emotional distress
+- Punitive damages
+- Speculative losses
+- Future damages
 
-This sequence may not be skipped, merged, or reordered.
+### **Damages Checklist**
 
----
+□ Each damage item documented
 
-# ⚠️ UPL Boundary
+□ Receipts, invoices, or estimates included
 
-SC-LCES is a procedural-literacy framework.
+□ No speculative amounts
 
-It does not:
-
-- practice law,
-- provide legal advice,
-- represent users,
-- predict outcomes,
-- or replace licensed counsel.
-
-All legal decisions remain human decisions.
-
-Human verification is mandatory.
+□ Total within monetary limit
 
 ---
 
-# 📘 NOTICE — SC-LCES
+# **IX. RED FLAGS — Small Claims Calculus™**
+
+### **Tier 3 — Instability Indicators**
+
+□ Multiple jurisdictions possible
+
+□ Defendant cannot be located
+
+□ Evidence is mostly verbal
+
+□ Timeline has gaps
+
+□ Claim involves complex law
+
+□ Damages unclear or speculative
+
+□ Service attempts failed
+
+□ Filing deadlines uncertain
+
+□ Narrative contains accusations without proof
+
+---
+
+# **X. Calculi Adaptation — SC‑LCES**
+
+## **Jurisdiction Calculus**
+
+Correct court + monetary limit = eligibility.
+
+## **Evidence Calculus**
+
+Documents > screenshots > testimony.
+
+## **Service Calculus**
+
+Proper service = court authority.
+
+## **Chronology Calculus**
+
+Sequence controls credibility.
+
+## **Damages Calculus**
+
+Only provable, documented losses qualify.
+
+## **Human Governance Calculus**
+
+AI structures; humans verify.
+
+---
+
+# **XI. SCU Template — SC‑LCES**
+
+- Court
+- Monetary limit
+- Claim type
+- Defendant identity + address
+- Timeline
+- Evidence
+- Damages
+- Service method
+- Relief requested
+
+---
+
+# **XII. Evidence Pack — SC‑LCES**
+
+- Contracts / agreements
+- Invoices / receipts
+- Messages / emails
+- Photos / screenshots
+- Payment records
+- Repair estimates
+- Witness statements (if allowed)
+- Publicly disclosable materials only
+
+---
+
+# **XIII. SCU Extraction Wizard — SC‑LCES**
+
+1. What court has jurisdiction?
+2. Is the claim Small‑Claims‑eligible?
+3. What is the monetary limit?
+4. Who is the defendant and where are they located?
+5. What is the timeline?
+6. What evidence supports each event?
+7. What damages are provable?
+8. What service method applies?
+9. What relief is requested?
+
+---
+
+# **XIV. Filing Checklist — SC‑LCES**
+
+## **1. Jurisdiction**
+
+Correct court + monetary limit
+
+## **2. Eligibility**
+
+Claim type allowed
+
+## **3. Evidence**
+
+Organized, admissible, complete
+
+## **4. Chronology**
+
+Clear, documented, neutral
+
+## **5. Service**
+
+Method identified + rules verified
+
+## **6. Filing**
+
+Submit → Serve → Calendar hearing → Prepare evidence
+
+---
+
+# **XV. First Case Walkthrough — SC‑LCES**
+
+### **Scenario**
+
+Unpaid invoice for services rendered.
+
+**Step 1 — SCU**
+
+Court → monetary limit → claim type → defendant address → timeline → evidence → damages
+
+**Step 2 — Architect**
+
+Blueprint: jurisdiction, eligibility, timeline, evidence, damages, service
+
+**Step 3 — Research**
+
+Verify local rules, service methods, filing fees
+
+**Step 4 — Builder**
+
+Draft claim form, timeline, evidence list
+
+**Step 5 — Inspector**
+
+Stress‑test jurisdiction, evidence, damages, service
+
+**Step 6 — Strategist**
+
+Review → Decide → File
+
+---
+
+# **XVI. Readiness Test — SC‑LCES**
+
+You are ready ONLY if:
+
+□ Court + monetary limit confirmed
+
+□ Claim type eligible
+
+□ Defendant address known
+
+□ Evidence complete
+
+□ Timeline coherent
+
+□ Damages provable
+
+□ Service method identified
+
+□ Filing fee known
+
+□ No confidential materials uploaded
+
+---
+
+# **XVII. Pipeline Diagram — SC‑LCES (V1.1)**
+
+```
+STOP RULE
+   ↓
+Jurisdiction → Eligibility → Evidence → Service
+   ↓
+Architect (Structure)
+   ↓
+Research (Local Rules)
+   ↓
+Builder (Drafting)
+   ↓
+Inspector (Attack)
+   ↓
+Strategist (Decision)
+   ↓
+New Information → Restart Architect
+```
+
+---
+
+# **XVIII. Runtime Enforcement — SC‑LCES (V1.1)**
+
+```
+If jurisdiction unclear → STOP.
+If claim ineligible → STOP.
+If damages unprovable → STOP.
+If evidence missing → STOP.
+If service rules unknown → STOP.
+If timeline incomplete → STOP.
+If waiver risk detected → FLAG.
+
+No drafting may occur until all STOP conditions are cleared.
+```
+
+---
+
+# **XIX. NOTICE — SC‑LCES (V1.1)**
 
 This Edition is part of the LCES Legal Calculus Educational System™.
 
-Licensed under:
-
-CC BY-NC-SA 4.0
-
-for non-commercial use with attribution and ShareAlike requirements.
-
-Protected marks include:
-
-- LCES™
-- SC-LCES™
-- Legal Calculus Educational System™
-
-See:
-
-- LICENSE.md
-- TRADEMARK.md
-- NOTICE
-
-for full governance terms.
+No confidential, privileged, or protected materials may be uploaded into public AI systems.
 
 ---
 
-# 🧭 SC-LCES Philosophy
+# **XX. DISCLAIMER — SC‑LCES (V1.1)**
 
-Small Claims success usually depends less on legal sophistication and more on:
+This Edition provides a procedural‑literacy framework for Small Claims.
 
-- clarity,
-- chronology,
-- evidence,
-- and procedural stability.
+It does not provide legal advice or predict outcomes.
 
-SC-LCES exists to convert:
-
-text confusion → structure claims → evidence emotion → chronology dispute → reviewable record 
-
-The goal is not rhetorical persuasion.
-
-The goal is procedural clarity supported by verifiable evidence    
+Users remain responsible for evidence review, jurisdiction verification, and compliance with local rules.
 # ─────────────────────────────────────────────
 ---
 
