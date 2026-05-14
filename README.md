@@ -1042,6 +1042,43 @@ Architect AI builds the blueprint, not the document.
 
 Load Architect AI ONLY when performing:
 
+FUNDAMENTAL CASE‑EXISTENCE GATE (MANDATORY)
+Before SCU extraction, before Module Enhancement, before Deep Research,
+the system must determine whether a case exists at all.
+
+This gate asks one question:
+"Is there an actionable case, or is this a negotiable situation with no viable claim?"
+
+If the answer is NO:
+- All AIs must STOP.
+- No Blueprint may be created.
+- No SCU may be extracted.
+- No modules may activate.
+- No research may begin.
+
+Architect AI must issue the warning:
+"No actionable case. This matter is negotiable only. Blueprint generation is halted."
+
+If the answer is UNCERTAIN:
+- Architect AI must interrogate the Human Strategist.
+- Architect AI must request clarifying facts.
+- Builder AI must remain inactive.
+- Inspector AI must not engage.
+
+If the answer is YES:
+- Architect AI may proceed to SCU extraction.
+- Builder AI remains locked until Deep Research is complete.
+- Inspector AI remains dormant until a draft exists.
+
+This gate prevents:
+- Contaminated builds
+- Premature drafting
+- Wasted Deep Research cycles
+- False‑positive Blueprint generation
+- Lawfare‑unsafe artifacts
+
+This rule supersedes all downstream processes.
+
 - structural reasoning
 - procedural mapping
 - issue framing
