@@ -513,6 +513,101 @@ Entry Mode sets:
 - procedural scaffolding
 
 ---
+## **MODE DOCTRINE —  SUBSECTION**
+
+### **Constitutional Environments of LCES**
+
+LCES recognizes **four sovereign cognitive environments**.
+
+Each mode defines its own risks, permissions, and AI role activations.
+
+Modes must never be blended.
+
+Mode confusion contaminates the build.
+
+---
+
+### **1. CRISIS MODE — Preservation Doctrine**
+
+Purpose: **Preserve rights, prevent default, issue notice.**
+
+Not analysis. Not strategy. Not research.
+
+- Emergency filings
+- Notices
+- Timestamp creation
+- Prevent‑default actions
+- No SCU extraction
+- No module activation
+- No Blueprint building
+
+**Crisis Mode ends when the emergency ends.**
+
+---
+
+### **2. EDUCATIONAL MODE — Growth Doctrine**
+
+Purpose: **Build the Strategist.**
+
+Environment: **Desktop + Repo Clone + Git Window + VS Code**
+
+- No deadlines
+- No adversaries
+- No litigation pressure
+- Architect AI primary
+- Builder AI dormant
+- Inspector AI dormant
+
+**Educational Mode is the safe environment for doctrinal mastery.**
+
+---
+
+### **3. SECOND‑OPINION MODE — Verification Doctrine**
+
+Purpose: **Test counsel’s position against reality.**
+
+- Deep Research mandatory
+- Architect reconstructs SCU + modules
+- Inspector attacks with:
+    - **JC** (dismissal logic)
+    - **LCa** (mischaracterization logic)
+- Builder drafts only after Architect approval
+- No un‑architected facts allowed
+
+**Second‑Opinion Mode validates or invalidates professional legal theories.**
+
+---
+
+### **4. PRO SE MODE — Survival Doctrine**
+
+Purpose: **Navigate litigation without counsel.**
+
+Dynamic, rule‑driven, and event‑triggered.
+
+- Trial posture
+- Appellate posture
+- Local rules
+- Clerk behavior
+- Service rules
+- Filing windows
+- Procedural traps
+
+Every docket event triggers the **Live‑Docket Feedback Loop**:
+
+**Architect → Builder → Inspector → Strategist → Docket Event → Restart**
+
+**Pro Se Mode is the battlefield.**
+
+---
+
+### **5. Mode Separation Rule (Mandatory)**
+
+```
+Crisis Mode ≠ Educational Mode ≠ Second-Opinion Mode ≠ Pro Se Mode.
+Each mode is a sovereign cognitive environment.
+Blending modes contaminates the build and destroys doctrinal purity.
+```
+---
 
 # **2. Kernel Bootloader — HOW the AI must behave**
 
