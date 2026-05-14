@@ -4873,656 +4873,606 @@ Users remain responsible for evidence review, jurisdiction verification, and com
 
 
 
-# FC-LCES — Family Court Edition™ (V4.6)
 
-## Family Court Calculus Edition of the LCES Legal Calculus Educational System™
 
-Safety-First • Narrative Stability • De-Escalation • Procedural Integrity
 
----
 
-# ⚖️ Constitutional Position
-
-FC-LCES is an environment-specific edition of the LCES Legal Calculus Educational System™.
-
-It adapts the constitutional LCES framework to the emotionally volatile and safety-critical environment of Family Court.
-
-FC-LCES prioritizes:
-
-- child safety,
-- order compliance,
-- narrative stability,
-- procedural restraint,
-- and evidence-supported filings.
-
-The Edition modifies the procedural environment.
-
-It does not modify the constitutional LCES core.
 
 ---
 
-# 🎯 Purpose
-
-FC-LCES exists to help users:
-
-- organize family-court issues,
-- stabilize narratives,
-- structure evidence,
-- reduce emotional escalation,
-- preserve procedural integrity,
-- and produce reviewable work product.
-
-The system is designed for environments where outcomes depend heavily upon:
-
-- safety,
-- chronology,
-- judicial credibility,
-- compliance with existing orders,
-- and emotional stability under scrutiny.
 
 ---
 
-# ⚠️ LEGAL-RISK WARNING — FC-LCES
-
-Family Court is a safety-critical legal environment involving:
-
-- children,
-- custody,
-- visitation,
-- support,
-- protection orders,
-- and long-term judicial supervision.
-
-Incorrect framing, unsupported allegations, emotional escalation, or procedural noncompliance may negatively affect:
-
-- custody,
-- parenting time,
-- credibility,
-- protective-order requests,
-- or future modification proceedings.
-
-Courts may impose sanctions, deny relief, or modify orders if filings appear:
-
-- retaliatory,
-- unsupported,
-- emotionally unstable,
-- or inconsistent with existing court directives.
-
-Users remain responsible for verifying:
-
-- all current orders,
-- filing requirements,
-- timelines,
-- jurisdiction,
-- and supporting evidence.
 
 ---
 
-# 🛡 SAFETY — FC-LCES
 
-Family Court prioritizes:
 
-- child welfare,
-- stability,
-- safety,
-- credibility,
-- and procedural compliance.
 
-Safety in FC-LCES means preventing emotional escalation and procedural instability before drafting occurs.
 
-The primary failure mode in Family Court is not legal complexity.
-
-It is emotionally unstable narrative construction unsupported by objective evidence.
 
 ---
 
-# ⚖️ Safety Priorities
+# ⭐ **FC‑LCES (Family Court Calculus) — LEGAL CALCULUS EDUCATIONAL SYSTEM™**
 
-1. Safety of children and parties  
-2. Compliance with all active orders  
-3. Narrative stability  
-4. Emotional neutrality  
-5. Evidence-supported statements only  
-6. Procedural consistency  
+### **VERSION 1.1 — FAMILY COURT EDITION**
 
----
+**Jurisdiction‑Driven • Child‑Focused • Procedural Integrity**
 
-# 🔒 Constitutional Safety Rules
-
-- All safety concerns must be documented
-- All existing orders must be verified before drafting
-- All timelines must be chronological and evidence-supported
-- Drafting must remain neutral, factual, and non-accusatory
-- No unsupported allegations
-- No speculative claims regarding intent or motive
-- No drafting before procedural posture is verified
-- No statements that contradict active court orders
-- No filing during emotional escalation
+**LCES Legal Calculus Educational System™ — CC BY‑NC‑SA 4.0**
 
 ---
 
-# 🚫 DO NOT FILE IF
+# **I. Edition Preamble — Family Court Environment**
 
-Do not proceed in Family Court if any condition below is true:
+Family Court is a **high‑stakes, emotionally charged, evidence‑dependent** environment with:
 
-□ Existing court orders have not been verified
+- strict procedural rules
+- jurisdictional limits
+- child‑focused standards
+- mandatory disclosures
+- judge‑driven outcomes
 
-□ Safety concerns are based primarily on assumptions or emotion
+FC‑LCES prevents:
 
-□ The narrative is inconsistent, unstable, or contradictory
+- jurisdictional errors
+- narrative escalation
+- evidentiary gaps
+- procedural drift
+- safety‑related confusion
 
-□ Logs, reports, or supporting communications are missing
-
-□ The requested relief conflicts with an active order
-
-□ The filing is motivated primarily by retaliation or emotional escalation
-
-□ The requested modification cannot be clearly articulated
-
-□ Jurisdiction or procedural posture is uncertain
-
-□ The filing depends primarily on “he said / she said” allegations
-
-□ The factual chronology cannot be stabilized
+**Core Principle — Best Interest of the Child Controls Everything**
 
 ---
 
-# 🚩 Structural Red Flags
+# **II. Bootloader — FC‑LCES (V1.1)**
 
-These conditions indicate emotional, procedural, or narrative instability.
+### Activation → Jurisdiction → Evidence → Parenting Structure
 
-□ Statements rely primarily on emotional characterization
+## **Platform–Role Declaration**
 
-□ Safety concerns are undocumented
+- **Architect AI** → GitHub Copilot Pro
+- **Builder AI** → ChatGPT
+- **Inspector AI** → adversarial model
+- **Human Strategist** → You
 
-□ The narrative changes depending on audience or context
+## **Non‑Negotiables (FC‑LCES)**
 
-□ Contradictory timelines exist
-
-□ Existing orders are unclear or misunderstood
-
-□ Requested relief conflicts with current custody structure
-
-□ The filing contains accusations without objective evidence
-
-□ Communications contain escalation, threats, or retaliatory language
-
-□ The procedural posture is uncertain
-
-□ The filing lacks a clear child-centered rationale
+- Architect must confirm jurisdiction + venue before drafting
+- Builder may not add allegations or facts
+- Inspector flags structural gaps, not emotional disagreements
+- Human Strategist controls narrative, evidence, and safety decisions
+- No confidential materials may enter public AI systems
+- No drafting under missing‑document conditions
 
 ---
 
-# ⚙️ FC-LCES Operating Principles
+# **III. STOP RULE — Family Court Calculus™**
 
-## Safety-First • Narrative Stability • De-Escalation
+No drafting may begin unless **ALL** conditions are satisfied:
 
-text id="m9w2fk" SCU → Safety → Narrative → Blueprint → Draft → Review 
+□ Correct court + venue identified
 
-FC-LCES prioritizes:
+□ Case type confirmed
 
-- safety,
-- emotional restraint,
-- chronology,
-- procedural stability,
-- and credibility under judicial scrutiny.
+□ Parties + parental status known
 
----
+□ Child information complete
 
-# 📚 Calculi Adaptation — FC-LCES
+□ Evidence available and admissible
 
-## Procedural Calculus
+□ Timeline complete and coherent
 
-Orders control procedural movement.
+□ Safety concerns identified (if any)
 
-Existing orders define the operational baseline.
+□ Relief requested is Family‑Court‑eligible
+
+**If any condition fails → Architect STOP → Builder STOP → Inspector STOP**
 
 ---
 
-## Narrative Calculus
+# **IV. LEGAL‑RISK WARNING — Family Court Calculus™**
 
-Stability outweighs persuasion.
+Family Court varies by:
 
-Neutrality outweighs emotional intensity.
+- state statutes
+- local rules
+- judge preferences
+- parenting‑plan requirements
+- support guidelines
 
----
+Failure to verify:
 
-## Evidentiary Calculus
+- jurisdiction
+- venue
+- service rules
+- disclosure requirements
+- evidence admissibility
+- parenting‑plan standards
 
-Logs > accusations.
+may result in:
 
-Messages > speculation.
+- dismissal
+- delays
+- adverse findings
+- loss of parenting time
+- sanctions
 
-Reports > assumptions.
-
----
-
-## Structural Calculus
-
-Safety-first structure.
-
-Chronology before interpretation.
-
----
-
-## Temporal Calculus
-
-Family Court operates on:
-
-- emotional timelines,
-- procedural timelines,
-- and child-impact timelines simultaneously.
+Users must confirm **local rules** before filing.
 
 ---
 
-## Risk Calculus
+# **V. SAFETY & CONFIDENTIALITY — Family Court Calculus™**
 
-High emotional risk.
+Family Court requires:
 
-High narrative-instability risk.
+- child‑focused reasoning
+- safety awareness
+- confidentiality discipline
+- neutral narrative
+- procedural clarity
 
-High judicial credibility sensitivity.
+Safety means preventing:
 
-The greatest Family Court risk is unstable narrative construction.
+- harm to children
+- exposure of confidential information
+- escalation of conflict
+- misuse of evidence
 
----
+## **Safety Rules (Tier 1 — Always True)**
 
-# 🧩 SCU Template — FC-LCES
+- Child safety overrides all other considerations
 
-## 1. Relationship Map
+• Evidence must be admissible and child‑appropriate
 
-Identify:
+• Builder AI may not add allegations
 
-- parties,
-- children,
-- custodial structure,
-- and legal relationships.
+• Human Strategist reviews all safety‑related content
 
----
+• No confidential or identifying materials may be uploaded
 
-## 2. Safety Concerns
-
-Identify:
-
-- incidents,
-- risks,
-- orders,
-- and documented concerns.
+• **Criminal issues require a lawyer — LCES does not do criminal law**
 
 ---
 
-## 3. Narrative Stability
+# **VI. Case Type Matrix — FC‑LCES (Required)**
 
-Separate:
+Family Court case types determine the procedural track:
 
-- uncontested facts,
-- disputed facts,
-- and unsupported assumptions.
+### **Custody**
+
+- Parenting plan
+- Best‑interest analysis
+
+### **Visitation / Parenting Time**
+
+- Schedule
+- Exchanges
+- Communication rules
+
+### **Child Support**
+
+- Guideline worksheet
+- Income verification
+
+### **Spousal Support (if applicable)**
+
+- Income
+- Duration
+- Need vs. ability to pay
+
+### **Modification**
+
+- Material + substantial change
+- New evidence
+
+### **Enforcement**
+
+- Noncompliance
+- Proof of violation
+
+### **Paternity**
+
+- Parentage establishment
+- DNA testing rules
+
+### **Relocation**
+
+- Distance
+- Notice
+- Best‑interest factors
 
 ---
 
-## 4. Timeline
+# **VII. Jurisdiction & Venue Module — FC‑LCES**
 
-text id="v3mdf8" Date → Event → Impact → Supporting Evidence 
+Family Court jurisdiction depends on:
 
-Chronology must remain stable and contradiction-free.
+- **child residence** (home‑state rule)
+- **parental residence**
+- **UCCJEA** (custody jurisdiction)
+- **UIFSA** (support jurisdiction)
+- **venue rules** (county/district)
 
----
+### **Jurisdiction Checklist**
 
-## 5. Current Orders
+□ Child lived in state for required period
 
-Identify:
+□ Court has authority over custody/support
 
-- custody orders,
-- visitation schedules,
-- support orders,
-- restrictions,
-- and prior modifications.
+□ Venue correct for child’s residence
 
----
+□ No competing jurisdiction
 
-## 6. Relief Requested
-
-State precisely:
-
-- what modification,
-- enforcement,
-- clarification,
-- or protection is being requested.
+□ No pending case in another state
 
 ---
 
-# 📦 FC-LCES Evidence Pack
+# **VIII. Custody & Visitation Module — FC‑LCES**
 
-Recommended evidence categories:
+Custody determinations require:
 
-- safety logs
-- text messages
-- emails
+- child’s best interest
+- stability
+- parental involvement
+- safety
+- schooling
+- health
+- continuity
+
+### **Custody Components**
+
+- Legal custody (decision‑making)
+- Physical custody (where child lives)
+- Parenting time / visitation
+- Holiday schedule
+- Transportation
+- Communication rules
+
+### **Custody Checklist**
+
+□ Parenting plan structured
+
+□ Exchanges defined
+
+□ Holidays allocated
+
+□ Communication rules clear
+
+□ Safety concerns addressed (if any)
+
+---
+
+# **IX. Support‑Calculus Module — FC‑LCES**
+
+Support depends on:
+
+- state guidelines
+- income
+- overnights
+- childcare costs
+- medical insurance
+- extraordinary expenses
+
+### **Support Checklist**
+
+□ Income verified
+
+□ Guideline worksheet completed
+
+□ Childcare + medical costs documented
+
+□ Overnights calculated
+
+□ Deviations justified
+
+---
+
+# **X. Disclosure Module — FC‑LCES (Required)**
+
+Family Court requires **mandatory disclosures**:
+
+### **Financial Disclosures**
+
+- Income
+- Expenses
+- Assets
+- Debts
+
+### **Parenting Disclosures**
+
+- Parenting history
+- Childcare responsibilities
+- School involvement
+
+### **Mandatory Document Exchange**
+
+- Tax returns
+- Pay stubs
+- Medical insurance info
+- Childcare invoices
+
+### **Mediation Requirements**
+
+Some jurisdictions require mediation before hearings.
+
+### **Disclosure Checklist**
+
+□ Financial disclosures complete
+
+□ Parenting disclosures complete
+
+□ Mandatory documents exchanged
+
+□ Mediation completed (if required)
+
+---
+
+# **XI. Hearing Types Module — FC‑LCES (Required)**
+
+Family Court has multiple hearing types:
+
+### **Status Conference**
+
+- Scheduling
+- Disclosures
+- Deadlines
+
+### **Temporary Orders Hearing**
+
+- Limited evidence
+- Safety
+- Stability
+
+### **Mediation**
+
+- Negotiation
+- Parenting plan
+
+### **Evidentiary Hearing**
+
+- Witnesses
+- Exhibits
+- Cross‑examination
+
+### **Final Trial**
+
+- Full record
+- Findings of fact
+- Final orders
+
+---
+
+# **XII. Optional Safety Track — FC‑LCES**
+
+### **User‑Selectable Module**
+
+### **(Criminal issues require a lawyer — LCES does not do criminal law)**
+
+The Safety Track is **optional** and activated only if the user chooses it.
+
+### **Safety Track Covers:**
+
+- supervised visitation
+- safety‑centered parenting plans
+- communication restrictions
+- exchange‑location modifications
+- civil protective‑order coordination
+
+### **Safety Track Does NOT Cover:**
+
+- criminal charges
+- criminal defense
+- criminal protective orders
 - police reports
-- medical records
-- school records
-- prior orders
-- visitation logs
-- photographs
-- witness statements
+- evidence for criminal prosecution
+
+**LCES will not generate criminal‑law strategy, filings, or defenses.**
 
 ---
 
-# 🧠 FC-LCES SCU Extraction Wizard
+# **XIII. Evidence Pack — FC‑LCES**
 
-1. Who are the parties and children?
-
-2. What current orders control the case?
-
-3. What safety concerns exist?
-
-4. What documented events matter?
-
-5. What modification or enforcement is requested?
-
-6. What evidence supports each factual claim?
+- School records
+- Medical records
+- Parenting logs
+- Communication logs
+- Photos / screenshots
+- Financial records
+- Childcare invoices
+- Publicly disclosable materials only
 
 ---
 
-# 📋 FC-LCES Filing Checklist
+# **XIV. Chronology Module — FC‑LCES**
 
-## Orders
+Chronology controls:
 
-- Current custody orders
-- Prior modifications
-- Protection orders
-- Existing restrictions
+- credibility
+- stability
+- best‑interest analysis
+- modification standards
 
----
+### **Chronology Checklist**
 
-## Safety Documentation
+□ Major events documented
 
-- Incident logs
-- Messages
-- Reports
-- Witness documentation
-- School or medical records
+□ Parenting patterns clear
 
----
+□ Safety concerns dated
 
-## Narrative Stability
-
-- Chronological consistency
-- Uncontested facts identified
-- Disputed facts identified
-- Supporting evidence attached
+□ No gaps or contradictions
 
 ---
 
-## Forms & Procedure
+# **XV. SCU Template — FC‑LCES**
 
-- Correct petition or motion
-- Proposed order if required
-- Service requirements verified
-- Filing instructions confirmed
-
----
-
-## Filing Execution
-
-- File
-- Serve
-- Preserve service proof
-- Calendar deadlines and hearings
+- Court + venue
+- Case type
+- Parties + parental status
+- Child information
+- Timeline
+- Evidence
+- Custody/visitation structure
+- Support calculation
+- Safety concerns (optional)
+- Relief requested
 
 ---
 
-# 🧪 First Case Walkthrough — FC-LCES
+# **XVI. SCU Extraction Wizard — FC‑LCES**
 
-## Scenario
-
-Request to modify visitation based on documented safety concerns.
-
----
-
-## Step 1 — SCU Extraction
-
-Parties:  
-Parents + child
-
-Orders:  
-Existing visitation schedule
-
-Safety concerns:  
-Incident logs + documented communications
+1. What court has jurisdiction?
+2. What case type is this?
+3. Who are the parties?
+4. What are the children’s ages and residence?
+5. What is the timeline?
+6. What evidence supports each event?
+7. What custody/visitation structure is requested?
+8. What support calculation applies?
+9. Are there safety concerns?
+10. What relief is requested?
 
 ---
 
-## Step 2 — Architect Phase
+# **XVII. Filing Checklist — FC‑LCES**
 
-Blueprint:
+## **1. Jurisdiction & Venue**
 
-- parties
-- orders
-- timeline
-- safety events
-- supporting evidence
-- requested modification
+Correct court + home‑state rule satisfied
 
-No drafting.
+## **2. Case Type**
 
----
+Custody, visitation, support, modification, etc.
 
-## Step 3 — Deep Research
+## **3. Evidence**
 
-Verify:
+Organized, admissible, child‑appropriate
 
-- logs,
-- communications,
-- reports,
-- chronology,
-- and procedural posture.
+## **4. Parenting Plan**
 
----
+Clear, structured, stable
 
-## Step 4 — Builder Phase
+## **5. Support**
 
-Draft neutral factual narrative.
+Guideline worksheet + documentation
 
-No emotional escalation.
+## **6. Filing**
 
-No speculation.
+Submit → Serve → Calendar hearing → Prepare evidence
 
 ---
 
-## Step 5 — Inspector Phase
+# **XVIII. First Case Walkthrough — FC‑LCES**
 
-Stress-test:
+### **Scenario**
 
-- emotional tone,
-- narrative consistency,
-- chronology,
-- and procedural risk.
+Custody + visitation dispute after separation.
 
----
+**Step 1 — SCU**
 
-## Step 6 — Human Strategist
+Court → case type → parties → children → timeline → evidence → parenting plan → support
 
-Review.  
-Stabilize tone.  
-Approve.  
-File.
+**Step 2 — Architect**
 
----
+Blueprint: jurisdiction, custody structure, timeline, evidence, support
 
-# ✅ READINESS TEST — FC-LCES
+**Step 3 — Research**
 
-You are ready to file ONLY if all statements below are TRUE:
+Verify local rules, parenting‑plan requirements, support guidelines
 
-□ All current court orders have been verified
+**Step 4 — Builder**
 
-□ Safety concerns are documented with logs, reports, or communications
+Draft petition, parenting plan, support worksheet
 
-□ The narrative is consistent, stable, and evidence-supported
+**Step 5 — Inspector**
 
-□ Tone remains neutral, factual, and non-accusatory
+Stress‑test jurisdiction, evidence, parenting plan, support
 
-□ Requested relief is specific and procedurally clear
+**Step 6 — Strategist**
 
-□ The timeline is complete and child-impact aware
-
-□ The filing does not contradict active orders
-
-□ Jurisdiction and procedural posture are confirmed
-
-□ The filing is not motivated by retaliation or escalation
-
-□ All required forms and supporting documents are prepared
-
-If any item is false:
-
-text id="5pce7n" STOP → Record → Clarify → Anchor → Reassess 
+Review → Decide → File
 
 ---
 
-# 🧱 BOOTLOADER — FC-LCES
+# **XIX. Readiness Test — FC‑LCES**
 
-## Activation → Narrative Control → Safety-First Execution
+You are ready ONLY if:
 
----
+□ Court + venue confirmed
 
-# 🎯 Purpose
+□ Case type identified
 
-This Bootloader adapts the constitutional LCES execution framework to the emotionally volatile and safety-sensitive environment of Family Court.
+□ Child information complete
 
----
+□ Evidence organized
 
-# ⚖️ Platform–Role Declaration
+□ Parenting plan structured
 
-- Architect AI → GitHub Copilot Pro
-- Builder AI → ChatGPT
-- Inspector AI → adversarial review model
-- Human Strategist → You
+□ Support calculation complete
 
----
+□ Safety concerns addressed
 
-# 🔒 Non-Negotiables
-
-- Architect must operate before Builder
-- Safety-first framing is mandatory
-- No unsupported allegations
-- Builder may not escalate tone
-- Inspector flags emotional instability
-- No drafting during emotional ambiguity
-- Human Strategist remains final authority
+□ No confidential materials uploaded
 
 ---
 
-# 🧱 ARCHITECT AI — ACTIVATE
+# **XX. Pipeline Diagram — FC‑LCES (V1.1)**
 
-text id="4y3qnj" Extract SCU. Identify parties and relationships. Identify current orders. Identify safety concerns. Identify timelines. Design a narrative-stable blueprint. No drafting. 
-
-Architect defines structure — not prose.
-
----
-
-# 🔍 DEEP RESEARCH — ACTIVATE
-
-text id="ukw2mh" Verify messages, reports, logs, and orders. Identify contradictions. Stabilize chronology. Identify missing evidence. Refine blueprint. No drafting until complete. 
-
-Deep Research stabilizes the narrative before prose exists.
-
----
-
-# 🏗 BUILDER AI — ACTIVATE
-
-text id="5fdr7x" Draft in neutral factual tone. Follow blueprint exactly. No emotional language. No speculation. No structural redesign. 
-
-Builder executes validated structure only.
+```
+STOP RULE
+   ↓
+Jurisdiction → Case Type → Evidence → Parenting Plan
+   ↓
+Architect (Structure)
+   ↓
+Research (Local Rules)
+   ↓
+Builder (Drafting)
+   ↓
+Inspector (Attack)
+   ↓
+Strategist (Decision)
+   ↓
+New Information → Restart Architect
+```
 
 ---
 
-# 🛡 INSPECTOR AI — ACTIVATE
+# **XXI. Runtime Enforcement — FC‑LCES (V1.1)**
 
-text id="n3qz7e" Stress-test emotional risk. Identify escalation triggers. Flag contradictions and instability. Do not rewrite unless instructed. 
+```
+If jurisdiction unclear → STOP.
+If case type unclear → STOP.
+If child information incomplete → STOP.
+If evidence missing → STOP.
+If parenting plan unclear → STOP.
+If support calculation missing → STOP.
+If safety concerns present → Safety Track or STOP.
+If criminal issues appear → STOP + Lawyer Required.
 
-Inspector protects against emotional and procedural instability.
-
----
-
-# 🧠 HUMAN STRATEGIST — ACTIVATE
-
-text id="h92xrm" Review. Adjust tone. Decide. Approve. File. 
-
-The Human Strategist remains sovereign.
-
----
-
-# 🔄 Constitutional Workflow Sequence
-
-text id="fj38am" SCU → Architect → Deep Research → Builder → Inspector → Strategist 
-
-This sequence may not be skipped, merged, or reordered.
+No drafting may occur until all STOP conditions are cleared.
+```
 
 ---
 
-# ⚠️ UPL Boundary
-
-FC-LCES is a procedural-literacy framework.
-
-It does not:
-
-- practice law,
-- provide legal advice,
-- assess legal custody standards,
-- replace therapists, evaluators, or counsel,
-- or autonomously determine safety outcomes.
-
-All legal and safety decisions remain human decisions.
-
-Human verification is mandatory.
-
----
-
-# 📘 NOTICE — FC-LCES
+# **XXII. NOTICE — FC‑LCES (V1.1)**
 
 This Edition is part of the LCES Legal Calculus Educational System™.
 
-Licensed under:
-
-CC BY-NC-SA 4.0
-
-for non-commercial use with attribution and ShareAlike requirements.
-
-Protected marks include:
-
-- LCES™
-- FC-LCES™
-- Legal Calculus Educational System™
-
-See:
-
-- LICENSE.md
-- TRADEMARK.md
-- NOTICE
-
-for full governance terms.
+No confidential, privileged, or protected materials may be uploaded into public AI systems.
 
 ---
 
-# 🧭 FC-LCES Philosophy
+# **XXIII. DISCLAIMER — FC‑LCES (V1.1)**
 
-Family Court outcomes frequently depend less on rhetorical intensity and more on:
+This Edition provides a procedural‑literacy framework for Family Court.
 
-- stability,
-- credibility,
-- chronology,
-- safety,
-- and procedural consistency.
+It does not provide legal advice or predict outcomes.
 
-FC-LCES exists to convert:
+Users remain responsible for evidence review, jurisdiction verification, and compliance with local rules.
 
-text id="qv6f2w" emotion → structure conflict → chronology allegation → evidence instability → reviewable record 
-
-The goal is not emotional persuasion.
-
-The goal is stable, reviewable, child-centered procedural cla
+**Criminal issues require a lawyer — LCES does not do criminal law.**
 
 <div align="center">
 
