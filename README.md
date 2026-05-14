@@ -24,7 +24,7 @@ u
 
 # **LCES MANIFESTO — New User Edition (V1.0)**
 
-### *The Doctrine of Full‑Stack Procedural Literacy (Simplified)*
+### *The Doctrine of Full‑Stack Procedural Literacy*
 
 LCES exists for one purpose:
 
@@ -232,7 +232,7 @@ This boundary rule prevents drift, role confusion, and document misuse.
 
 ---
 
-# **📘 START HERE — Quick Orientation**
+# **📘 START HERE —**
 
 ## **What LCES Is**
 
