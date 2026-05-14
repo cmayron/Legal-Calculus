@@ -275,72 +275,82 @@ LCES/
 
 ---
 
-# **LCES MANIFESTO (README Edition)**
+# **LCES MANIFESTO — New User Edition (V1.0)**
 
-### **The Doctrine of Full‑Stack Procedural Literacy**
+### *The Doctrine of Full‑Stack Procedural Literacy (Simplified)*
 
-LCES exists to restore **structure, discipline, and human sovereignty** to legal reasoning.
+LCES exists for one purpose:
+
+> **To restore structure, discipline, and human sovereignty to procedural reasoning.**
+> 
 
 Most systems flatten their users.
 
-They blur roles, obscure causality, and encourage passive dependence.
+They blur roles, hide the sequence, and encourage passive dependence.
 
 LCES rejects this.
 
 LCES is built for people who think —
 
-people who reason, who demand clarity, who refuse to surrender their agency.
+people who want clarity, structure, and control over their own process.
 
 ---
 
-## **I. Human Sovereignty**
+# **I. Human Sovereignty (The First Principle)**
 
-LCES is a human‑defined, human‑bounded, human‑controlled system.
+LCES is a **human‑defined, human‑bounded, human‑controlled** system.
 
 - The system does not initiate.
-- The system does not infer beyond its mandate.
+- The system does not assume facts.
+- The system does not infer posture.
 - The system does not drift.
 
-The human defines the boundaries.
+**The human defines the boundaries.
+The system obeys them.**
 
-The system obeys them.
-
-This is the first principle of LCES.
+This is the foundation of LCES.
 
 ---
 
-## **II. The Full‑Stack Doctrine**
+# **II. The Full‑Stack Doctrine (The Three Layers)**
 
-Every LCES session activates three constitutional layers:
+Every LCES session activates **three constitutional layers**:
 
-### **1. General Bootloader (Kernel)**
+### **1. Entry Mode — WHAT the user needs**
 
-The doctrinal core.
+Your posture, your urgency, your situation.
 
-Defines boundaries, non‑negotiables, and the authorized reasoning surface.
+- Crisis Mode
+- Pro Se Mode
+- Second‑Opinion Mode
+- Educational Mode
 
-### **2. Edition Bootloader (Profile)**
+### **2. Kernel — HOW the AI must behave**
 
-The jurisdictional layer.
+The behavioral constitution.
 
-Prevents drift by binding the system to the correct legal domain.
+- Role separation
+- STOP Rule
+- No‑Motive‑Reading Firewall
+- No cross‑role contamination
 
-### **3. Entry Mode Bootloader (Operating Context)**
+### **3. Edition — WHERE the system is operating**
 
-The human‑situation layer.
+The legal or procedural environment.
 
-Defines your need, your urgency, and your operational posture.
+- Small Claims
+- Family Court
+- Trust & Estate
+- Arbitration
 
-Only when all three are active does the system reach **Full Stack**.
+**Only when all three are active does the system reach Full Stack.**
 
 Full Stack prevents:
 
-- Role drift
-- Logic drift
-- Jurisdictional drift
-- Mode contamination
-- Unauthorized reasoning
-- AI‑initiated inference
+- role drift
+- logic drift
+- venue drift
+- unauthorized reasoning
 
 Full Stack is not a feature.
 
@@ -348,58 +358,62 @@ Full Stack is not a feature.
 
 ---
 
-## **III. GitHub as Library + Operating System**
+# **III. GitHub as Library + Operating System**
 
 LCES uses GitHub in a dual role:
 
 ### **As a Library**
 
-It preserves doctrine, workflow, calculi, and canonical structure.
+It preserves:
+
+- doctrine
+- workflow
+- calculi
+- structure
 
 ### **As an Operating System**
 
-It enforces role separation, version control, reproducibility, and procedural discipline.
+It enforces:
 
-This hybrid model ensures:
+- version control
+- reproducibility
+- procedural discipline
+- role separation
 
-- Predictability
-- Auditability
-- Structured reasoning
-- Procedural literacy
+LCES is not a chat thread.
 
-LCES is not a chat tool.
-
-It is a **structured operating environment**.
+**It is a structured procedural environment.**
 
 ---
 
-## **IV. The Discipline**
+# **IV. The Discipline**
 
-LCES is not for the passive.
+LCES rewards:
 
-It rewards:
+- clarity
+- structure
+- procedural mastery
+- cognitive discipline
 
-- Clarity
-- Structure
-- Procedural mastery
-- Cognitive discipline
+LCES teaches:
 
-It expands as the user expands.
-
-It strengthens the mind that engages with it.
+- **structure before drafting**
+- **verification before execution**
+- **role separation before workflow**
+- **human judgment before submission**
 
 Participation becomes a form of mastery.
 
 ---
 
-## **V. The Purpose**
+# **V. The Purpose**
 
-LCES exists because legal systems demand:
+LCES exists because procedural systems demand:
 
-- Precision
-- Structure
-- Accountability
-- Reviewability
+- precision
+- structure
+- accountability
+- reviewability
 
 LCES provides these not as conveniences, but as **principles**.
 
@@ -409,18 +423,7 @@ This is the architecture.
 
 This is the discipline.
 
-**This is LCES.** GOVERNANCE
-
-Licensed under CC BY-NC-SA 4.0.
-
-LCES™ is a protected trademark.
-
-See:
-- LICENSE.md
-- TRADEMARK.md
-
-for full terms.
-
+**This is LCES.**
 ---
 
 
