@@ -1358,7 +1358,49 @@ Result:
     • Edition-bounded
     • UPL-aware, auditable, and deterministic.
 
+# 🧩 How It Fits Into the Full Stack
 
+### **Entry Mode Bootloader**
+
+Defines the **user’s procedural posture**
+
+(what the user needs)
+
+### **Kernel Bootloader**
+
+Defines the **roles and behavioral constitution**
+
+(how the AI must behave)
+
+### **Edition Bootloader**
+
+Defines the **legal landscape**
+
+(where the system is operating)
+
+### **Role Layer**
+
+Executes the work
+
+(what each AI does)
+
+Together, these form the **LCES Full Stack**.
+
+---
+
+# 🚀 Why This Matters for Copilot Desktop + Repo Access
+
+Because the Kernel governs:
+
+- Role discipline
+- Behavioral safety
+- Constitutional constraints
+- No drift
+- No improvisation
+
+…it ensures that **every time Copilot Desktop accesses your repo**, the system boots cleanly, predictably, and constitutionally.
+
+This is why LCES works so efficiently in your environment.
 
 <div align="center">
 
