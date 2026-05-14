@@ -72,6 +72,191 @@ Your posture, your urgency, your situation.
 - Second‑Opinion Mode
 - Educational Mode
 
+### **THE MODE DOCTRINE**
+
+### **The Four Cognitive Environments of LCES**
+
+Modern systems collapse modes.
+
+They blur urgency with analysis, learning with litigation, reflection with action.
+
+LCES rejects this collapse.
+
+LCES declares that **every human situation exists inside one of four modes**,
+
+and each mode demands a different discipline, a different posture,
+
+a different relationship between the Human Strategist and the AIs.
+
+Modes are not preferences.
+
+Modes are **constitutional environments**.
+
+---
+
+## **I. CRISIS MODE — The Doctrine of Preservation**
+
+Crisis Mode is not analysis.
+
+Crisis Mode is not strategy.
+
+Crisis Mode is not deep research.
+
+Crisis Mode exists for one purpose:
+
+**to preserve the human’s position long enough for thinking to begin.**
+
+In Crisis Mode:
+
+- Rights must be preserved.
+- Defaults must be prevented.
+- Notice must be given.
+- Presence must be established.
+- Time must be bought.
+
+Crisis Mode is the shield that protects the human long enough for the system to activate.
+
+Crisis Mode ends the moment the emergency ends.
+
+---
+
+## **II. EDUCATIONAL MODE — The Doctrine of Growth**
+
+Educational Mode is the highest cognitive environment.
+
+It is the only mode where the human can grow without consequence.
+
+Educational Mode is:
+
+- Desktop
+- Repo clone
+- Git window
+- VS Code
+- No deadlines
+- No adversaries
+- No pressure
+
+Educational Mode is where the Human Strategist becomes sovereign.
+
+It is where doctrine becomes literacy.
+
+It is where literacy becomes mastery.
+
+Architect AI is primary.
+
+Builder and Inspector remain silent.
+
+Educational Mode is the forge.
+
+---
+
+## **III. SECOND‑OPINION MODE — The Doctrine of Verification**
+
+Second‑Opinion Mode exists for one purpose:
+
+**to test the claims of professionals against reality.**
+
+In this mode:
+
+- Deep Research is mandatory.
+- Architect reconstructs the SCU and modules.
+- Inspector attacks the structure with:
+    - JC (dismissal logic)
+    - LCa (mischaracterization logic)
+- Builder acts only after Architect authorizes.
+
+Second‑Opinion Mode is adversarial.
+
+It is rigorous.
+
+It is unforgiving.
+
+It reveals whether counsel’s position survives contact with the world.
+
+---
+
+## **IV. PRO SE MODE — The Doctrine of Survival**
+
+Pro Se Mode is the battlefield.
+
+It is dynamic, unstable, and governed by local rules.
+
+In Pro Se Mode:
+
+- Every docket event is new information.
+- Every new information restarts the Architect.
+- Every restart may change the SCU.
+- Every change may alter the Blueprint.
+- Every alteration must be re‑attacked by Inspector.
+- Builder may act only after Architect and Inspector both allow.
+
+Pro Se Mode is governed by:
+
+- Trial posture
+- Appellate posture
+- Local rules
+- Clerk behavior
+- Service rules
+- Filing windows
+- Procedural traps
+
+Pro Se Mode is not static.
+
+It is a living environment.
+
+The Strategist must adapt or perish.
+
+---
+
+## **V. The Separation of Modes**
+
+LCES declares:
+
+**Crisis Mode is not Educational Mode.**
+
+**Educational Mode is not Second‑Opinion Mode.**
+
+**Second‑Opinion Mode is not Pro Se Mode.**
+
+**Pro Se Mode is not Crisis Mode.**
+
+Each mode is a sovereign cognitive environment.
+
+Each mode demands a different discipline.
+
+Each mode activates different AIs.
+
+Each mode carries different risks.
+
+Blending modes contaminates the build.
+
+Contamination destroys doctrine.
+
+Doctrine is the system.
+
+---
+
+## **VI. The Human Strategist**
+
+The Human Strategist moves between modes.
+
+The system does not move the human.
+
+The human moves the system.
+
+The Strategist must know:
+
+- When to preserve
+- When to learn
+- When to verify
+- When to fight
+
+This is the discipline.
+
+This is the sovereignty.
+
+This is the doctrine.
+
 ### **2. Kernel — HOW the AI must behave**
 
 The behavioral constitution.
