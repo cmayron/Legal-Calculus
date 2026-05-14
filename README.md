@@ -3740,6 +3740,155 @@ LCES/
 │   ├── LCA.md
 ```
 
+# **🗺 LCES SYSTEM MAP (V6.3)**
+
+### *The Full‑Stack Architecture in One View*
+
+**Human chooses Entry Mode → Entry Mode configures Kernel → Kernel governs AI roles → Edition defines legal parameters → Execution Layer produces governed work product.**
+
+---
+
+# **🏛️ LCES FULL‑STACK ARCHITECTURE**
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│                  LCES FULL‑STACK ARCHITECTURE                │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# **1. KERNEL BOOTLOADER — SYSTEM LAYER (HOW)**
+
+**The Behavioral Constitution**
+
+- Defines **HOW** the AI must behave
+- Enforces **role separation**
+    - Architect → Builder → Inspector → Human Strategist
+- Enforces **STOP Rule**
+- Enforces **No‑Motive‑Reading Firewall**
+- Prevents **cross‑role contamination**
+- Prevents **unauthorized reasoning modes**
+- Ensures **Human Strategist supremacy**
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│ (1) KERNEL BOOTLOADER — SYSTEM LAYER                         │
+│  • Behavioral constitution                                   │
+│  • Role separation                                           │
+│  • STOP Rule                                                 │
+│  • No‑Motive‑Reading Firewall                                │
+│  • Prevents unauthorized reasoning                           │
+│  • Human Strategist supremacy                                │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# **2. EDITION BOOTLOADER — ENVIRONMENT LAYER (WHERE)**
+
+**The Jurisdictional Profile**
+
+- Defines **WHERE** the system operates
+- Loads **jurisdictional physics**
+- Loads **venue‑specific constraints**
+- Loads **procedural expectations**
+- Controls **permissible facts & scope**
+- Ensures **environmental alignment**
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│ (2) EDITION BOOTLOADER — ENVIRONMENT LAYER                   │
+│  • Defines WHERE the system operates                          │
+│  • Jurisdictional physics                                     │
+│  • Venue‑specific constraints                                 │
+│  • Procedural expectations                                    │
+│  • Controls permissible facts                                 │
+│  • Ensures environmental alignment                            │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# **3. ENTRY MODE BOOTLOADER — CONTEXT LAYER (WHAT)**
+
+**The Operating Context**
+
+- Defines **WHAT** governs the session
+- Loads **knowledge baseline**
+- Loads **safety posture**
+- Activates **role permissions per mode**
+
+### **Entry Modes**
+
+- **Crisis Mode** — Preserve Rights First
+- **Pro Se Mode** — Procedural Literacy + Safety
+- **Second‑Opinion Mode** — Stress‑Test Without Drafting
+- **Educational Mode** — Teach the System
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│ (3) ENTRY MODE BOOTLOADER — CONTEXT LAYER                    │
+│  • Defines WHAT governs the session                           │
+│  • Loads baseline + safety posture                            │
+│  • Activates role permissions                                 │
+│  ENTRY MODES:                                                 │
+│    • Crisis Mode                                              │
+│    • Pro Se Mode                                              │
+│    • Second‑Opinion Mode                                      │
+│    • Educational Mode                                         │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# **4. EXECUTION LAYER — ROLE SEQUENCE (ALWAYS ACTIVE)**
+
+**Architect → Builder → Inspector → Human Strategist**
+
+- **Architect** — structure, sequencing, issue‑spotting
+- **Builder** — drafting from approved structure
+- **Inspector** — stress‑testing, risk‑flagging
+- **Human Strategist** — judgment, context, final authority
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│ EXECUTION LAYER — ROLE SEQUENCE                              │
+│  ARCHITECT → BUILDER → INSPECTOR → HUMAN STRATEGIST          │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# **5. OUTPUT LAYER — HUMAN‑SUPERVISED WORK PRODUCT**
+
+- Packets
+- Drafts
+- Filings
+- Maps
+- Checklists
+- Exhibits
+- Orders
+
+All outputs remain **subordinate to the Human Strategist**.
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│ OUTPUT LAYER                                                  │
+│  • Packets, drafts, filings, maps, checklists, exhibits       │
+│  • All outputs subordinate to Human Strategist                │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+
+
+```
+/Architecture/System-Map.md
+```
+
+
 ---
 **General Bootloader (The Kernel)**
 
