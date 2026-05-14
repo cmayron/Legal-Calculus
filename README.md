@@ -692,7 +692,210 @@ LCES SYSTEM MAP (V4.5)
 
 ---
 
+# **📘 [README.md](http://readme.md/) — Orientation Layer**
 
+### **Legal Calculus Educational System (LCES)**
+
+### **Trilayer Architecture • Role Governance • Procedural Literacy Engine**
+
+The Legal Calculus Educational System (LCES) is a **constitutional, role‑governed, venue‑aligned procedural literacy framework**.
+
+It is designed to operate safely across jurisdictions, user types, and procedural environments.
+
+This README provides the **orientation layer**:
+
+- What LCES *is*
+- How it *boots*
+- How the system *thinks*
+- How the repo is *organized*
+- How the user should *navigate* the system
+
+The doctrinal spine lives in **`/Manifesto.md`**.
+
+The activation engine lives in **`/Bootloader.md`**.
+
+---
+
+# **🏗️ LCES System Architecture**
+
+### **The Trilayer Stack (Final, Canonical)**
+
+LCES operates on a **Trilayer Inheritance Model**.
+
+Every session must load **three constitutional layers**, in order:
+
+---
+
+## **1. Entry Mode Bootloader — “WHAT the user needs”**
+
+Defines the user’s procedural posture:
+
+- Crisis Mode — Preserve Rights First
+- Pro Se Mode — Procedural Literacy + Safety
+- Second‑Opinion Mode — Stress‑Test Without Drafting
+- Lawyer/Education Mode — Expert Context + Efficiency
+
+Entry Mode ensures the system meets the user at the correct literacy level and safety posture.
+
+---
+
+## **2. Kernel Bootloader — “HOW the AI must behave”**
+
+The Kernel is the **behavioral constitution** of LCES.
+
+It activates:
+
+- **Role Layer** (Architect → Builder → Inspector → Human Strategist)
+- STOP Rule
+- No‑Motive‑Reading Firewall
+- No cross‑role contamination
+- No unauthorized reasoning modes
+- Behavioral discipline
+- Human Strategist supremacy
+
+**The Role Layer lives inside the Kernel.**
+
+It is not a separate bootloader.
+
+---
+
+## **3. Edition Bootloader — “WHERE the system is operating”**
+
+The Edition Bootloader loads the **legal landscape**:
+
+- Jurisdiction
+- Venue
+- Local rules
+- Procedural expectations
+- Edition‑specific constraints
+- Scope of permissible facts
+- Safety posture
+
+This ensures the system is aligned with the user’s actual legal environment.
+
+---
+
+# **⚙️ Execution Layer (Always Active)**
+
+### **Architect → Builder → Inspector → Human Strategist**
+
+This sequence is **locked by the Kernel**.
+
+- **Architect** — structure, sequencing, issue‑spotting
+- **Builder** — drafting from approved structure
+- **Inspector** — stress‑testing, risk‑flagging
+- **Human Strategist** — judgment, context, final authority
+
+The Execution Layer is **not** a bootloader.
+
+It is the **operational engine** governed by the Kernel.
+
+---
+
+# **📤 Output Layer**
+
+All outputs — packets, drafts, filings, maps, checklists, exhibits, orders —
+
+are **subordinate to the Human Strategist**.
+
+---
+
+# **📚 Repository Structure**
+
+```
+/Manifesto.md                  ← doctrinal spine
+/README.md                     ← orientation layer
+/Bootloader.md                 ← activation engine
+
+/Modules/                      ← Architect / Builder / Inspector / Strategist
+/Editions/                     ← SC / FC / TE / AC
+/Calculi/                      ← Six Calculi
+/SCU/                          ← Smallest Complete Unit doctrine
+/Governance/Readiness/         ← readiness layers
+/Diagrams/                     ← architecture maps & workflow diagrams
+
+/Governance/Risk-Safety.md
+/Governance/LICENSE.md
+/Governance/TRADEMARK.md
+/Governance/NOTICE.md
+```
+
+This structure mirrors the **Trilayer Stack → Execution Layer → Output Layer** architecture.
+
+---
+
+# **⚖️ Canonical Principle**
+
+> **Kernel = HOW
+> 
+> 
+> Profile = WHERE
+> 
+> Mode = WHAT
+> 
+> All three must be active, or the system drifts.**
+> 
+
+---
+
+# **🗺 Visual Hierarchy Diagram**
+
+```
+                   ┌──────────────────────────────────────────┐
+                   │        LCES FULL‑STACK ARCHITECTURE       │
+                   └──────────────────────────────────────────┘
+
+┌─────────────────────────────── SYSTEM LAYER ────────────────────────────────┐
+│                           (1) GENERAL BOOTLOADER — THE KERNEL               │
+│  • Defines HOW the AI must behave                                            │
+│  • Role separation (Architect → Builder → Inspector → Human Strategist)      │
+│  • STOP RULE enforcement                                                     │
+│  • No‑Motive‑Reading Firewall                                                │
+│  • Prevents cross‑role contamination                                         │
+│  • Prevents unauthorized reasoning modes                                     │
+│  • Human Strategist supremacy                                                │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────── ENVIRONMENT LAYER ─────────────────────────────┐
+│                           (2) EDITION BOOTLOADER — THE PROFILE               │
+│  • Defines WHERE the AI must operate                                         │
+│  • Jurisdictional physics                                                    │
+│  • Venue‑specific constraints                                                │
+│  • Procedural expectations                                                   │
+│  • Controls permissible facts and scope                                      │
+│  • Ensures environmental alignment                                           │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────── CONTEXT LAYER ─────────────────────────────────┐
+│                           (3) MODE BOOTLOADER — OPERATING CONTEXT            │
+│  • Defines WHAT procedural environment governs the session                   │
+│  • Loads knowledge baseline + safety posture                                 │
+│  • Activates role permissions per mode                                       │
+│  ENTRY MODES:                                                                │
+│    • Crisis Mode                                                             │
+│    • Pro Se Mode                                                             │
+│    • Second‑Opinion Mode                                                     │
+│    • Lawyer/Education Mode                                                   │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────── EXECUTION LAYER ───────────────────────────────┐
+│    ARCHITECT  →  BUILDER  →  INSPECTOR  →  HUMAN STRATEGIST                 │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────── OUTPUT LAYER ──────────────────────────────────┐
+│  • Packets, filings, drafts, maps, checklists, exhibits, orders, etc.        │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+If you want, I can now:
+
+- Generate a **matching [Manifesto.md](http://manifesto.md/)**
+- Produce a **ceremonial plate** for the repo root
+- Create a **diagram SVG** for `/Diagrams/`
+
+Just tell me the next move.
 
 ---
 
