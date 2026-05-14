@@ -692,10 +692,7 @@ LCES SYSTEM MAP (V4.5)
 
 ---
 
-Absolutely — I’ll fix the README **cleanly, precisely, and without introducing a phantom “4th layer.”**  
-Below is the **corrected, final, canonical Trilayer Stack section**, ready to paste directly into your README.
 
-It removes the mistaken “fourth layer,” places the Role Layer *inside* the Kernel where it belongs, and restores the architecture to its proper constitutional form.
 
 ---
 
