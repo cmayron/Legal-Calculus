@@ -461,8 +461,6 @@ Environment‑specific risks (e.g., Family Court safety posture, Small Claims ev
 **Human chooses Entry Mode → Entry Mode configures Kernel → Kernel governs AI roles → Edition defines legal parameters → Execution Layer produces governed work product.**
 
 
-
-
 # # 🗂 Editions
 
 LCES Editions are environment-specific procedural layers built on top of the constitutional core system.
@@ -504,6 +502,8 @@ Choose the Edition based on the procedural environment.
 | **AC-LCES** | Arbitration / Private Adjudication | Forum Rules → Scope → Preservation → Reviewability |
 
 ---
+
+
 
 # 📘 Edition Introductions
 
