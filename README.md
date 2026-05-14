@@ -376,6 +376,33 @@ The Edition Bootloader loads the **legal landscape**:
 - **Inspector** — stress‑testing, risk‑flagging
 - **Human Strategist** — judgment, context, final authority
 
+**Blueprint Viability Sequence (Mandatory Doctrine Block)**
+
+A Blueprint is **not viable for lawfare** until it completes the full three‑layer sequence:
+
+### **1. SCU Extraction (Irreducible Core)**
+
+- Identify the smallest coherent procedural unit
+- Strip all assumptions
+- Define only: objective, actors, filings, triggers
+
+### **2. Module Enhancement (Repo‑Aligned Architecture)**
+
+- Attach structural modules without jurisdictional assumptions
+- Integrate filing architecture, service pathways, evidentiary posture
+- Activate Edition Blocks as needed (T&E, Family Court, Small Claims, etc.)
+
+### **3. Deep Research Embellishment (Jurisdictional Reality Layer)**
+
+- Jurisdiction‑specific rules
+- Proper service requirements
+- Local court etiquette and clerk behavior
+- Filing windows, idiosyncrasies, and forbidden assumptions
+
+**Only after SCU → Modules → Deep Research is a Blueprint structurally safe for lawfare‑grade deployment.**
+
+---
+
 This sequence is **locked by the Kernel**.
 
 ---
