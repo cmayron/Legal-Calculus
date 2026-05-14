@@ -3860,182 +3860,7 @@ The Bootloader enforces.
 The AI executes within limits.
 
 
-                           LCES HIGH-LEVEL SYSTEM MAP
-                           ==========================
-
-HUMAN LAYER (INITIATION + CONTROL)
-----------------------------------
-    • Human initiates session
-    • Human selects Entry Mode
-    • Human confirms any Mode change
-
-                 ┌───────────────────────────────┐
-                 │     ENTRY MODE SELECTOR       │
-                 │  “Which situation fits you?”  │
-                 └──────────────┬────────────────┘
-                                │
-        ┌───────────────────────┼───────────────────────────────┐
-        │                       │                               │
-        ▼                       ▼                               ▼
-┌────────────────┐     ┌────────────────┐              ┌────────────────────┐
-│  PRO SE MODE   │     │  CRISIS MODE   │              │ SECOND-OPINION MODE│
-│ “I’m on my own”│     │ “Emergency”    │              │ “I have a lawyer”  │
-└────────────────┘     └────────────────┘              └────────────────────┘
-        │                       │                               │
-        └───────────────────────┴───────────────────────────────┘
-                                │
-                                ▼
-                        ┌────────────────┐
-                        │ EDUCATIONAL    │
-                        │ MODE “Teach me”│
-                        └────────────────┘
-
-Each Mode → loads its own MODE BOOTLOADER:
-    • Confirms preconditions (role, urgency, counsel, etc.)
-    • Sets behavioral constraints (explain vs triage vs critique vs teach)
-    • Hands control to the Kernel under that Mode’s rules
-
-
-KERNEL LAYER (AI GOVERNANCE)
-----------------------------
-The Kernel is the procedural operating system that governs all AI behavior.
-
-                 ┌───────────────────────────────┐
-                 │            KERNEL             │
-                 │  • Role separation            │
-                 │  • SCU discipline             │
-                 │  • No UPL / no auto-inference │
-                 │  • Deterministic workflows    │
-                 │  • Logging & audit trail      │
-                 └──────────────┬────────────────┘
-                                │
-                                ▼
-                AI ROLES (Architect / Builder / Inspector)
-                • Retrieve → Think → Transform → Evaluate → Commit
-                • Always constrained by:
-                    – Selected Mode
-                    – Selected Edition
-                    – Human confirmations
-
-
-EDITION LAYER (LEGAL ISSUE PARAMETERS)
---------------------------------------
-Editions define the legal terrain and permissible tools.
-
-                 ┌───────────────────────────────┐
-                 │       EDITION BOOTLOADER      │
-                 │  • Jurisdictional frame       │
-                 │  • Matter type (e.g. civil,   │
-                 │    criminal, admin, appellate)│
-                 │  • Required inputs            │
-                 │  • Available calculi & maps   │
-                 │  • Assumption boundaries      │
-                 └──────────────┬────────────────┘
-                                │
-        ┌───────────────────────┼───────────────────────────────┐
-        │                       │                               │
-        ▼                       ▼                               ▼
-┌────────────────┐     ┌────────────────┐              ┌────────────────┐
-│ PUBLIC EDITION │     │ ADVANCED ED.   │              │  JUDICIAL ED.  │
-│ (general use)  │     │ (expert tools) │              │ (judge lens)   │
-└────────────────┘     └────────────────┘              └────────────────┘
-        │                       │                               │
-        └───────────────────────┴───────────────────────────────┘
-                                │
-                                ▼
-                      OTHER SPECIALIZED EDITIONS
-                      (Developer, Research, etc.)
-
-
-MODE CHANGE PATH (HUMAN-CONTROLLED)
------------------------------------
-1) User says something that suggests a different Mode might fit better.
-2) Kernel/Bootloader MAY suggest a Mode change, but never acts alone:
-
-   “You mentioned a filing is due tomorrow.
-    Crisis Mode is designed for imminent deadlines.
-    Do you want to switch to Crisis Mode?  [Yes] [No]”
-
-3) On [Yes]:
-    • Log: Mode_Change(Current → New, timestamp, reason)
-    • Run New Mode Bootloader (reconfirm preconditions)
-    • Continue under same Kernel + same Edition, but new Mode constraints
-
-4) On [No]:
-    • Log: Mode_Change_Declined
-    • Stay in current Mode, no silent override
-
-
-FULL STACK VIEW
----------------
-HUMAN → chooses MODE
-MODE → configures how the KERNEL behaves for this human situation
-EDITION → configures what legal terrain and tools are in-bounds
-KERNEL → governs all AI roles under those constraints
-
-    HUMAN
-      │
-      ▼
-    MODE  ────────────────┐
-      │                   │
-      ▼                   │
-   KERNEL  ───────────────┼──→ AI ROLES (Architect / Builder / Inspector)
-      │                   │
-      ▼                   │
-   EDITION ───────────────┘
-
-Result:
-    • Human-initiated
-    • Mode-constrained
-    • Kernel-governed
-    • Edition-bounded
-    • UPL-aware, auditable, and deterministic.
-
-# 🧩 How It Fits Into the Full Stack
-
-### **Entry Mode Bootloader**
-
-Defines the **user’s procedural posture**
-
-(what the user needs)
-
-### **Kernel Bootloader**
-
-Defines the **roles and behavioral constitution**
-
-(how the AI must behave)
-
-### **Edition Bootloader**
-
-Defines the **legal landscape**
-
-(where the system is operating)
-
-### **Role Layer**
-
-Executes the work
-
-(what each AI does)
-
-Together, these form the **LCES Full Stack**.
-
----
-
-# 🚀 Why This Matters for Copilot Desktop + Repo Access
-
-Because the Kernel governs:
-
-- Role discipline
-- Behavioral safety
-- Constitutional constraints
-- No drift
-- No improvisation
-
-…it ensures that **every time Copilot Desktop accesses your repo**, the system boots cleanly, predictably, and constitutionally.
-
-This is why LCES works so efficiently in your environment.
-
-<div align="center">
+                    <div align="center">
 
 # ─────────────────────────────────────────────
 
@@ -6310,6 +6135,181 @@ LCES/
 
 # **🗺 LCES SYSTEM MAP (V6.3)**
 
+
+       LCES HIGH-LEVEL SYSTEM MAP
+                           ==========================
+
+HUMAN LAYER (INITIATION + CONTROL)
+----------------------------------
+    • Human initiates session
+    • Human selects Entry Mode
+    • Human confirms any Mode change
+
+                 ┌───────────────────────────────┐
+                 │     ENTRY MODE SELECTOR       │
+                 │  “Which situation fits you?”  │
+                 └──────────────┬────────────────┘
+                                │
+        ┌───────────────────────┼───────────────────────────────┐
+        │                       │                               │
+        ▼                       ▼                               ▼
+┌────────────────┐     ┌────────────────┐              ┌────────────────────┐
+│  PRO SE MODE   │     │  CRISIS MODE   │              │ SECOND-OPINION MODE│
+│ “I’m on my own”│     │ “Emergency”    │              │ “I have a lawyer”  │
+└────────────────┘     └────────────────┘              └────────────────────┘
+        │                       │                               │
+        └───────────────────────┴───────────────────────────────┘
+                                │
+                                ▼
+                        ┌────────────────┐
+                        │ EDUCATIONAL    │
+                        │ MODE “Teach me”│
+                        └────────────────┘
+
+Each Mode → loads its own MODE BOOTLOADER:
+    • Confirms preconditions (role, urgency, counsel, etc.)
+    • Sets behavioral constraints (explain vs triage vs critique vs teach)
+    • Hands control to the Kernel under that Mode’s rules
+
+
+KERNEL LAYER (AI GOVERNANCE)
+----------------------------
+The Kernel is the procedural operating system that governs all AI behavior.
+
+                 ┌───────────────────────────────┐
+                 │            KERNEL             │
+                 │  • Role separation            │
+                 │  • SCU discipline             │
+                 │  • No UPL / no auto-inference │
+                 │  • Deterministic workflows    │
+                 │  • Logging & audit trail      │
+                 └──────────────┬────────────────┘
+                                │
+                                ▼
+                AI ROLES (Architect / Builder / Inspector)
+                • Retrieve → Think → Transform → Evaluate → Commit
+                • Always constrained by:
+                    – Selected Mode
+                    – Selected Edition
+                    – Human confirmations
+
+
+EDITION LAYER (LEGAL ISSUE PARAMETERS)
+--------------------------------------
+Editions define the legal terrain and permissible tools.
+
+                 ┌───────────────────────────────┐
+                 │       EDITION BOOTLOADER      │
+                 │  • Jurisdictional frame       │
+                 │  • Matter type (e.g. civil,   │
+                 │    criminal, admin, appellate)│
+                 │  • Required inputs            │
+                 │  • Available calculi & maps   │
+                 │  • Assumption boundaries      │
+                 └──────────────┬────────────────┘
+                                │
+        ┌───────────────────────┼───────────────────────────────┐
+        │                       │                               │
+        ▼                       ▼                               ▼
+┌────────────────┐     ┌────────────────┐              ┌────────────────┐
+│ PUBLIC EDITION │     │ ADVANCED ED.   │              │  JUDICIAL ED.  │
+│ (general use)  │     │ (expert tools) │              │ (judge lens)   │
+└────────────────┘     └────────────────┘              └────────────────┘
+        │                       │                               │
+        └───────────────────────┴───────────────────────────────┘
+                                │
+                                ▼
+                      OTHER SPECIALIZED EDITIONS
+                      (Developer, Research, etc.)
+
+
+MODE CHANGE PATH (HUMAN-CONTROLLED)
+-----------------------------------
+1) User says something that suggests a different Mode might fit better.
+2) Kernel/Bootloader MAY suggest a Mode change, but never acts alone:
+
+   “You mentioned a filing is due tomorrow.
+    Crisis Mode is designed for imminent deadlines.
+    Do you want to switch to Crisis Mode?  [Yes] [No]”
+
+3) On [Yes]:
+    • Log: Mode_Change(Current → New, timestamp, reason)
+    • Run New Mode Bootloader (reconfirm preconditions)
+    • Continue under same Kernel + same Edition, but new Mode constraints
+
+4) On [No]:
+    • Log: Mode_Change_Declined
+    • Stay in current Mode, no silent override
+
+
+FULL STACK VIEW
+---------------
+HUMAN → chooses MODE
+MODE → configures how the KERNEL behaves for this human situation
+EDITION → configures what legal terrain and tools are in-bounds
+KERNEL → governs all AI roles under those constraints
+
+    HUMAN
+      │
+      ▼
+    MODE  ────────────────┐
+      │                   │
+      ▼                   │
+   KERNEL  ───────────────┼──→ AI ROLES (Architect / Builder / Inspector)
+      │                   │
+      ▼                   │
+   EDITION ───────────────┘
+
+Result:
+    • Human-initiated
+    • Mode-constrained
+    • Kernel-governed
+    • Edition-bounded
+    • UPL-aware, auditable, and deterministic.
+
+# 🧩 How It Fits Into the Full Stack
+
+### **Entry Mode Bootloader**
+
+Defines the **user’s procedural posture**
+
+(what the user needs)
+
+### **Kernel Bootloader**
+
+Defines the **roles and behavioral constitution**
+
+(how the AI must behave)
+
+### **Edition Bootloader**
+
+Defines the **legal landscape**
+
+(where the system is operating)
+
+### **Role Layer**
+
+Executes the work
+
+(what each AI does)
+
+Together, these form the **LCES Full Stack**.
+
+---
+
+# 🚀 Why This Matters for Copilot Desktop + Repo Access
+
+Because the Kernel governs:
+
+- Role discipline
+- Behavioral safety
+- Constitutional constraints
+- No drift
+- No improvisation
+
+…it ensures that **every time Copilot Desktop accesses your repo**, the system boots cleanly, predictably, and constitutionally.
+
+This is why LCES works so efficiently in your environment.
 
 
 
