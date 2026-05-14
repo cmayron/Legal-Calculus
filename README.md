@@ -709,23 +709,65 @@ Focus areas include:
 
 ---
 
-# ⚠️ Risk & Safety Architecture
+# **⚠️ Risk & Safety Architecture**
 
-LCES separates safety doctrine into two constitutional layers:
+LCES separates safety doctrine into **two constitutional layers**:
 
-| Layer | Purpose |
-|---|---|
-| **General System Safety** | Universal safeguards that apply across all editions |
-| **Edition-Specific Safety** | Environment-specific procedural risks and controls |
+| **Layer** | **Purpose** |
+| --- | --- |
+| **General System Safety** | Universal safeguards that apply across all Editions |
+| **Edition‑Specific Safety** | Environment‑specific procedural risks and controls |
 
 General safeguards are located in:
 
-```text
+```
 /Governance/Risk-Safety.md
+```
 
-markdown # 🗂 Editions  LCES Editions are environment-specific procedural layers built on top of the constitutional core system.  The Kernel remains universal across all editions.  The Edition defines:  - procedural environment, - jurisdictional physics, - operational constraints, - readiness requirements, - safety posture, - and permissible procedural transformations.  Each Edition adapts the LCES architecture to a different legal environment while preserving the same constitutional execution model.  Every Edition contains its own:  - Bootloader - SCU template - Readiness layer - Safety doctrine - Calculi adaptation - Procedural constraints - Environment-specific workflow rules  ---  # 🎛 Edition Selector  Choose the Edition based on the procedural environment.  | Edition | Use When | Core Priority | |---|---|---| | **SC-LCES** | Small Claims Court | Evidence → Timeline → Clarity | | **FC-LCES** | Family Court | Safety → Stability → Neutrality | | **TE-LCES** | Trust & Estate | Documents → Chain-of-Title → Fiduciary Duty | | **AC-LCES** | Arbitration / Private Adjudication | Forum Rules → Scope → Preservation → Reviewability |  ---  # 📘 Edition Introductions  ## SC-LCES — Small Claims Edition  Designed for compressed procedural environments where clarity, chronology, documentation, and jurisdictional precision dominate outcomes.  Focus areas include:  - evidence-first workflow, - simplified SCU extraction, - procedural compression, - filing clarity, - and timeline stabilization.  ---  ## FC-LCES — Family Court Edition  Designed for high-emotion procedural environments requiring narrative stabilization, safety awareness, and escalation control.  Focus areas include:  - neutrality, - child-impact framing, - order compliance, - emotional decontamination, - and procedural stability.  ---  ## TE-LCES — Trust & Estate Edition  Designed for document-heavy procedural systems involving fiduciary obligations, instrument sequencing, and chain-of-title integrity.  Focus areas include:  - wills, - trusts, - amendments, - probate structure, - fiduciary clarity, - and chronology verification.  ---  ## AC-LCES — Arbitration Calculus Edition  Designed for private adjudication systems operating under procedural compression, confidentiality constraints, and limited judicial review.  Focus areas include:  - forum governance, - scope containment, - preservation doctrine, - reviewability, - procedural posture, - and record integrity.  ---  # ⚠️ Risk & Safety Architecture  LCES separates safety doctrine into two constitutional layers:  | Layer | Purpose | |---|---| | **General System Safety** | Universal safeguards that apply across all editions | | **Edition-Specific Safety** | Environment-specific procedural risks and controls |  General safeguards are located in:  text
-/Governance/Risk-Safety.md
- Edition-specific safeguards are located inside each Edition folder.  ---  # ✅ Readiness Architecture  LCES separates readiness into:  | Layer | Purpose | |---|---| | **General Readiness Layer** | Universal structural readiness requirements | | **Edition Readiness Layer** | Environment-specific filing readiness requirements |  The unified readiness doctrine exists at the system layer.  Each Edition contains its own:  - readiness checklist, - filing thresholds, - procedural stability requirements, - and environment-specific stop conditions.  ---  # 📊 Unified Readiness Table  | Edition | Minimum Readiness Requirement | Filing Stability Depends On | |---|---|---| | **SC-LCES** | Evidence + Amount + Defendant | Documentation + Jurisdiction | | **FC-LCES** | Orders + Safety + Neutrality | Narrative Stability + Compliance | | **TE-LCES** | Instruments + Sequence + Roles | Document Integrity + Fiduciary Clarity | | **AC-LCES** | Forum Rules + Scope + Preservation | Record Integrity + Confidentiality + Reviewability |  ---  # 📂 Recommended Repository Structure text
+Edition‑specific safeguards are located **inside each Edition folder**.
+
+Edition safety doctrine prevents:
+
+- cross‑venue contamination
+- misapplied procedural assumptions
+- unsafe reasoning in sensitive environments
+
+---
+
+# **✅ Readiness Architecture**
+
+LCES separates readiness into two layers:
+
+| **Layer** | **Purpose** |
+| --- | --- |
+| **General Readiness Layer** | Universal structural readiness requirements |
+| **Edition Readiness Layer** | Environment‑specific filing readiness requirements |
+
+The unified readiness doctrine exists at the **system layer**.
+
+Each Edition contains its own:
+
+- readiness checklist
+- filing thresholds
+- procedural stability requirements
+- environment‑specific stop conditions
+
+---
+
+# **📊 Unified Readiness Table**
+
+| **Edition** | **Minimum Readiness Requirement** | **Filing Stability Depends On** |
+| --- | --- | --- |
+| **SC‑LCES** | Evidence + Amount + Defendant | Documentation + Jurisdiction |
+| **FC‑LCES** | Orders + Safety + Neutrality | Narrative Stability + Compliance |
+| **TE‑LCES** | Instruments + Sequence + Roles | Document Integrity + Fiduciary Clarity |
+| **AC‑LCES** | Forum Rules + Scope + Preservation | Record Integrity + Confidentiality + Reviewability |
+
+---
+
+# **📂 Recommended Repository Structure**
+
+```
 /Editions/
   /SC-LCES/
     README.md
@@ -754,6 +796,27 @@ markdown # 🗂 Editions  LCES Editions are environment-specific procedural laye
     SCU-Template.md
     Readiness-Test.md
     Safety.md
+```
+
+---
+
+# **🧭 Constitutional Principle**
+
+> **The Edition modifies the environment.
+It does not modify the Kernel.**
+> 
+
+The constitutional hierarchy remains:
+
+```
+Kernel → Edition → Mode → Workflow
+```
+
+All Editions remain **subordinate to the LCES constitutional core**.
+
+---
+
+#
  ---  # 🧭 Constitutional Principle  The Edition modifies the environment.  It does not modify the Kernel.  The constitutional hierarchy remains:  Kernel → Edition → Mode → Workflow  All editions remain subordinate to the LCES constitutional core.
 ::
 
