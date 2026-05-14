@@ -692,6 +692,117 @@ LCES SYSTEM MAP (V4.5)
 
 ---
 
+Absolutely — I’ll fix the README **cleanly, precisely, and without introducing a phantom “4th layer.”**  
+Below is the **corrected, final, canonical Trilayer Stack section**, ready to paste directly into your README.
+
+It removes the mistaken “fourth layer,” places the Role Layer *inside* the Kernel where it belongs, and restores the architecture to its proper constitutional form.
+
+---
+
+# **🏗️ System Architecture: The Entry Mode, The Kernel & The Edition Bootloader**  
+### **The LCES Trilayer Stack (Final, Corrected Version)**
+
+LCES runs on a **Trilayer Inheritance Model**.  
+Every session requires the **sequential activation of three constitutional layers**:
+
+---
+
+## **1. Entry Mode Bootloader**  
+### **“Define the User’s Procedural Posture”**
+
+The Entry Mode Bootloader determines **what the user needs right now**, selecting the correct procedural environment:
+
+- **Crisis Mode** — Preserve Rights First  
+- **Pro Se Mode** — Procedural Literacy + Safety  
+- **Second‑Opinion Mode** — Stress‑Test Without Drafting  
+- **Lawyer/Education Mode** — Expert Context + Efficiency  
+
+Entry Mode ensures the system meets the user at the correct literacy level and safety posture.
+
+---
+
+## **2. Kernel Bootloader (The Behavioral Constitution)**  
+### **“Define How the AI Must Behave”**
+
+The Kernel enforces the **behavioral and constitutional rules** of LCES.
+
+It activates:
+
+- **Role Layer** (Architect → Builder → Inspector → Human Strategist)  
+- STOP Rule  
+- No‑Motive‑Reading Firewall  
+- No cross‑role contamination  
+- No unauthorized reasoning modes  
+- Behavioral discipline  
+- Human Strategist supremacy  
+
+**The Role Layer lives *inside* the Kernel.**  
+It is not a separate bootloader.
+
+The Kernel ensures the system remains disciplined, predictable, and constitutionally constrained.
+
+---
+
+## **3. Edition Bootloader (The Environmental Constitution)**  
+### **“Define Where the System Is Operating”**
+
+The Edition Bootloader loads the **legal landscape**:
+
+- Jurisdiction  
+- Venue  
+- Local rules  
+- Procedural environment  
+- Edition‑specific constraints  
+- Scope of permissible facts  
+- Safety posture  
+
+The Edition ensures the system is aligned with the **actual legal environment** of the user.
+
+---
+
+# **🧩 Why This Matters — The Full Stack**
+
+When all three layers load in order:
+
+- **Entry Mode** → user‑appropriate  
+- **Kernel** → behaviorally disciplined  
+- **Edition** → jurisdiction‑aligned  
+
+LCES becomes a **governed, predictable, drift‑resistant system**.
+
+This is why LCES works so efficiently when run through:
+
+### **Copilot Desktop + direct access to the LCES repo**
+
+You get:
+
+- Instant bootloader activation  
+- Zero drift across sessions  
+- Fast role switching  
+- Local file access  
+- Efficient Architect → Builder → Inspector loops  
+
+This is the intended deployment environment for LCES.
+
+---
+
+# **Canonical Principle**  
+> **Entry Mode defines the user.  
+> Kernel defines the behavior.  
+> Edition defines the environment.  
+>  
+> Together, they form the LCES Trilayer Stack.**
+
+---
+
+If you want, I can now:
+
+- Insert this directly into your README in the correct location  
+- Generate a **Trilayer Architecture Diagram**  
+- Produce a **ceremonial plate** for the top of the Bootloader section  
+
+Just tell me which one you want next.
+
 LCES README — Entry Modes and UPL-Safe Operation
 
 LCES is a structured educational and organizational system for legal reasoning, procedural literacy, and disciplined thinking. It does not provide legal advice, does not replace a lawyer, and does not create an attorney-client relationship. All system behavior is initiated and controlled by the human user. LCES never infers legal posture, never selects a Mode automatically, and never changes Modes without explicit human confirmation.
