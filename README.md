@@ -5690,41 +5690,44 @@ The goal is stable, reviewable, child-centered procedural cla
 
 # ─────────────────────────────────────────────
 
-# **TE‑LCES — Trust & Estate Edition (V4.7)**
+**TE‑LCES — Trust & Estate Edition (V4.7)**
 
-### **Chain‑of‑Title • Document Control • Fiduciary Clarity**
+### **Document‑Driven • Chain‑of‑Title Controlled • Fiduciary‑First**
 
----
+```
+TRUST & ESTATE — LEGAL CALCULUS EDUCATIONAL SYSTEM (TE‑LCES)
+VERSION 4.7 — FIDUCIARY EDITION
+Document‑Driven • Chain‑of‑Title Controlled • Procedural Integrity
+LCES Legal Calculus Educational System™ — CC BY‑NC‑SA 4.0
+```
 
 # **I. Edition Preamble — Trust & Estate Environment**
 
-Trust & Estate matters are **document‑dense**, **timeline‑dependent**, and **fiduciary‑driven**.
+Trust & Estate matters are document‑dense, timeline‑dependent, and fiduciary‑driven.
 
 Every action depends on:
 
-- The authenticity of instruments
-- The sequence of amendments
-- The clarity of fiduciary duties
-- The stability of chain‑of‑title
+- Authenticity of instruments
+- Sequence of amendments
+- Clarity of fiduciary duties
+- Stability of chain‑of‑title
 
-Errors in any of these create **legal exposure**, **fiduciary liability**, or **rejected filings**.
+Errors create legal exposure, fiduciary liability, or rejected filings.
 
-### **Core Principle — Chain‑of‑Title Controls Everything**
-
----
+**Core Principle — Chain‑of‑Title Controls Everything**
 
 # **II. Bootloader — TE‑LCES (V4.7)**
 
-### **Activation → Document Control → Fiduciary Clarity**
+### Activation → Document Control → Fiduciary Clarity
 
-## **Platform–Role Declaration (Mandatory)**
+## Platform–Role Declaration (Mandatory)
 
-- **Architect AI → GitHub Copilot Pro**
-- **Builder AI → ChatGPT**
-- **Inspector AI → Adversarial model**
-- **Human Strategist → You**
+- Architect AI → GitHub Copilot Pro
+- Builder AI → ChatGPT
+- Inspector AI → Adversarial Model
+- Human Strategist → You
 
-## **Non‑Negotiables (TE‑LCES)**
+## Non‑Negotiables
 
 - Architect must run on GitHub Copilot Pro
 - Chain‑of‑title must be verified before drafting
@@ -5734,119 +5737,160 @@ Errors in any of these create **legal exposure**, **fiduciary liability**, or **
 - No drafting under missing‑document conditions
 - Human Strategist is final authority
 
----
+# **III. STOP RULE — TE‑LCES (V4.7)**
 
-# **III. LEGAL‑RISK WARNING — TE‑LCES**
+### Documents + State Law + Fiduciary Safety (Mandatory)
 
-Trust & Estate matters rely on **document authenticity**, **chain‑of‑title accuracy**, and **fiduciary compliance**.
+No TE‑LCES activity may begin unless **ALL** conditions are satisfied:
 
-Misinterpreting instruments, relying on incomplete records, or misstating fiduciary duties may create legal exposure.
+- Will present
+- Trust documents present
+- Amendments/codicils present
+- Deeds/title instruments present
+- State probate law identified
+- Jurisdiction confirmed
+- Asset preservation confirmed
+- No‑waiver posture declared
+- Appraisal status known
+- Asset freeze (if needed) in place
+- Accounting status known
 
-Courts may reject filings or impose fiduciary penalties if documents are missing, contradictory, or improperly sequenced.
+**If any condition fails → Architect STOP → Builder STOP → Inspector STOP**
 
-Users must verify all instruments, amendments, and timelines before taking action.
+# **IV. Fiduciary‑Safety Modules — TE‑LCES (V4.7)**
 
----
+## IV‑A. Asset Preservation Module
 
-# **IV. SAFETY — Trust & Estate Edition**
+- Identify all estate/trust assets
+- Confirm preservation of current state
+- Block dissipation, concealment, transfer, or encumbrance
+- Document breaches for surcharge/removal
+- Preservation failure → STOP RULE triggers
 
-## **Safety Rules (Tier 1 — Always True)**
+## IV‑B. No‑Waiver Module
 
-- All instruments must be verified
-- Document sequence must be confirmed
-- No speculation about intent, capacity, or meaning
-- No drafting until chain‑of‑title is complete
+- No waiver unless explicit and written
+- Silence ≠ waiver
+- Meet‑and‑confer ≠ waiver
+- Negotiation ≠ waiver
+- Failure to respond ≠ waiver
+- Waiver pressure → Inspector flags
+
+## IV‑C. Appraisal Module
+
+- Identify assets requiring valuation
+- Require qualified professional appraisal
+- Appraisal must precede negotiation/distribution
+- Appraisal must be state‑law compliant
+- Missing appraisal → STOP RULE triggers
+
+## IV‑D. Asset Freeze Module
+
+- Freeze assets at risk of dissipation
+- Prohibit transfers, sales, encumbrances
+- Maintain status quo
+- Violations → fiduciary breach documentation
+- Freeze failure → STOP RULE triggers
+
+# **V. Meet‑and‑Confer Module — TE‑LCES (V4.7)**
+
+- Track all meet‑and‑confer attempts
+- Document requests for accounting, appraisal, chain‑of‑title
+- Every event = NEW INFORMATION → Architect first
+- Builder cannot act until Architect approves
+- Inspector re‑attacks after each update
+
+# **VI. Legal‑Risk Warning — TE‑LCES**
+
+Trust & Estate matters rely on:
+
+- Document authenticity
+- Chain‑of‑title accuracy
+- Fiduciary compliance
+
+Courts may reject filings or impose fiduciary penalties if:
+
+- Instruments are missing
+- Amendments conflict
+- Chain‑of‑title is unclear
+- Duties are misstated
+
+Users must verify all instruments before acting.
+
+# **VII. Safety — Trust & Estate Edition**
+
+## Tier 1 — Always True
+
+- All instruments verified
+- Document sequence confirmed
+- No speculation about intent/capacity
+- No drafting until chain‑of‑title complete
 - No assumptions about fiduciary duties
 - No contradictions between instruments
-- No missing amendments or codicils
+- No missing amendments/codicils
 
-## **Safety Priorities**
+## Safety Priorities
 
 1. Document authenticity
 2. Chain‑of‑title accuracy
 3. Fiduciary compliance
-4. Correct identification of parties
+4. Correct party identification
 5. Alignment with probate/trust procedures
 
----
+# **VIII. DO NOT FILE IF — Trust & Estate Edition**
 
-# **V. DO NOT FILE IF — Trust & Estate Edition**
-
-### **Tier 2 — Absolute Prohibitions**
+### Tier 2 — Absolute Prohibitions
 
 Do **not** file if:
 
-□ Any instrument (will, trust, amendment, codicil) is missing
+□ Any instrument missing
 
-□ Document sequence is unclear or contradictory
+□ Sequence unclear
 
-□ Chain‑of‑title cannot be confirmed
+□ Chain‑of‑title incomplete
 
-□ Fiduciary duties are uncertain or undocumented
+□ Fiduciary duties uncertain
 
-□ Beneficiaries or fiduciaries are misidentified
+□ Beneficiaries/fiduciaries misidentified
 
-□ Asset inventory is incomplete or unverified
+□ Asset inventory incomplete
 
-□ You are relying on assumptions about intent or capacity
+□ Relying on assumptions
 
-□ Jurisdiction (probate vs trust court) is not confirmed
+□ Jurisdiction not confirmed
 
----
+# **IX. RED FLAGS — Trust & Estate Edition**
 
-# **VI. RED FLAGS — Trust & Estate Edition**
-
-### **Tier 3 — Instability Indicators**
+### Tier 3 — Instability Indicators
 
 □ Missing instruments
 
-□ Conflicting dates or signatures
+□ Conflicting dates/signatures
 
 □ Chain‑of‑title gaps
 
-□ Disputed beneficiaries or fiduciaries
+□ Disputed beneficiaries/fiduciaries
 
-□ Incomplete or unverified asset inventory
+□ Incomplete asset inventory
 
 □ Contradictory amendments
 
-□ Missing or inconsistent accounting
+□ Missing/inconsistent accounting
 
 □ Unclear fiduciary compliance
 
 □ Uncertain jurisdiction
 
----
+# **X. Calculi Adaptation — TE‑LCES**
 
-# **VII. Calculi Adaptation — TE‑LCES**
+- Procedural Calculus — probate rules, trust law, fiduciary duties
+- Narrative Calculus — document‑driven
+- Evidentiary Calculus — instruments > testimony
+- Structural Calculus — chain‑of‑title logic
+- Temporal Calculus — sequence controls
+- Risk Calculus — high fiduciary + ambiguity risk
 
-### **Procedural Calculus**
-
-Probate rules, trust law, fiduciary duties.
-
-### **Narrative Calculus**
-
-Document‑driven, not story‑driven.
-
-### **Evidentiary Calculus**
-
-Instruments > testimony.
-
-### **Structural Calculus**
-
-Chain‑of‑title logic.
-
-### **Temporal Calculus**
-
-Sequence controls.
-
-### **Risk Calculus**
-
-High fiduciary risk, high ambiguity risk.
-
----
-
-# **VIII. SCU Extraction Wizard — TE‑LCES**
+# **XI. SCU Extraction Wizard — TE‑LCES**
 
 1. What instruments exist?
 2. What is the document sequence?
@@ -5854,9 +5898,7 @@ High fiduciary risk, high ambiguity risk.
 4. What fiduciary duties apply?
 5. What relief do you want?
 
----
-
-# **IX. Evidence Pack — TE‑LCES**
+# **XII. Evidence Pack — TE‑LCES**
 
 - Wills
 - Trusts
@@ -5866,37 +5908,33 @@ High fiduciary risk, high ambiguity risk.
 - Account statements
 - Trustee/executor correspondence
 
----
+# **XIII. Filing Checklist — TE‑LCES**
 
-# **X. Filing Checklist — TE‑LCES**
-
-### **1. Instruments**
+### 1. Instruments
 
 Will, trust, amendments, codicils, deeds
 
-### **2. Chain‑of‑Title**
+### 2. Chain‑of‑Title
 
-Sequence confirmed, conflicts identified, gaps flagged
+Sequence confirmed, conflicts flagged
 
-### **3. Fiduciary Duties**
+### 3. Fiduciary Duties
 
-Trustee/executor actions, accounting status
+Accounting + actions
 
-### **4. Forms**
+### 4. Forms
 
 Petition, exhibits, proposed orders
 
-### **5. Filing**
+### 5. Filing
 
 Submit → Serve → Calendar hearing
 
----
+# **XIV. First Case Walkthrough — TE‑LCES**
 
-# **XI. First Case Walkthrough — TE‑LCES**
+### Scenario: Conflicting trust amendments
 
-### **Scenario:** Conflicting trust amendments
-
-### **Step 1 — SCU**
+**Step 1 — SCU**
 
 Documents → trust + amendments
 
@@ -5904,41 +5942,31 @@ Parties → trustee + beneficiaries
 
 Conflict → amendment sequence
 
-### **Step 2 — Architect**
+**Step 2 — Architect**
 
-Blueprint:
+Blueprint: instruments, timeline, conflicts, duties, relief
 
-- Instruments
-- Timeline
-- Conflicts
-- Fiduciary duties
-- Relief
+**Step 3 — Research**
 
-### **Step 3 — Research**
+Verify authenticity + dates
 
-Verify authenticity + dates.
+**Step 4 — Builder**
 
-### **Step 4 — Builder**
+Draft fiduciary‑focused petition
 
-Draft fiduciary‑focused petition.
+**Step 5 — Inspector**
 
-### **Step 5 — Inspector**
+Attack chain‑of‑title logic
 
-Check chain‑of‑title logic.
+**Step 6 — Strategist**
 
-### **Step 6 — Strategist**
+File
 
-File.
-
----
-
-# **XII. Execution Order — TE‑LCES**
+# **XV. Execution Order — TE‑LCES**
 
 **SCU → Architect → Research → Builder → Inspector → Strategist**
 
----
-
-# **XIII. Readiness Test — TE‑LCES**
+# **XVI. Readiness Test — TE‑LCES**
 
 You are ready to file ONLY if all are TRUE:
 
@@ -5962,29 +5990,87 @@ You are ready to file ONLY if all are TRUE:
 
 □ All forms + exhibits ready
 
----
+# **XVII. Pipeline Diagram — TE‑LCES (V4.7)**
 
-# **XIV. NOTICE — TE‑LCES (V4.7)**
+```
+STOP RULE
+   ↓
+Asset Preservation → Appraisal → Freeze (if needed)
+   ↓
+Architect (Thinking)
+   ↓
+Research (Verification)
+   ↓
+Builder (Action)
+   ↓
+Inspector (Attack)
+   ↓
+Strategist (Decision)
+   ↓
+Meet-and-Confer
+   ↓
+New Information → Restart Architect
+```
 
-This Edition is part of the **LCES Legal Calculus Educational System™**, licensed under **CC BY‑NC‑SA 4.0**.
+# **XVIII. Runtime Enforcement Block — TE‑LCES (V4.7)**
 
-The names **LCES™**, **LCES Legal Calculus Educational System™**, and **TE‑LCES™** are protected trademarks.
+```
+RUNTIME ENFORCEMENT — TE-LCES (V4.7)
 
-No commercial use is permitted.
+If Builder receives un-architected data → HALT.
+If Architect detects missing documents → STOP.
+If Inspector detects fiduciary ambiguity → FLAG.
+If preservation/appraisal/freeze missing → STOP.
+If chain-of-title unclear → STOP.
+If waiver pressure detected → FLAG.
+If jurisdiction uncertain → STOP.
 
----
+No drafting may occur until all STOP conditions are cleared.
+```
 
-# **XV. DISCLAIMER — TE‑LCES (V4.7)**
+# **XIX. Mode‑Integrated Version — TE‑LCES (V4.7)**
 
-This Edition provides a **procedural‑literacy framework** for Trust & Estate matters.
+### Crisis Mode
 
-It does **not** provide legal advice, interpret instruments, or replace professional fiduciary/legal guidance.
+Preservation, notice, prevent default.
+
+No drafting. No analysis.
+
+### Educational Mode
+
+Desktop + repo clone + VS Code.
+
+Architect primary. Builder/Inspector dormant.
+
+### Second‑Opinion Mode
+
+Deep Research + JC + LCa.
+
+Test lawyer’s position.
+
+### Pro Se Mode
+
+Live‑Docket Feedback Loop.
+
+Every event restarts Architect.
+
+# **XX. NOTICE — TE‑LCES (V4.7)**
+
+This Edition is part of the LCES Legal Calculus Educational System™
+
+Licensed under CC BY‑NC‑SA 4.0
+
+LCES™, LCES Legal Calculus Educational System™, and TE‑LCES™ are protected trademarks.
+
+No commercial use permitted.
+
+# **XXI. DISCLAIMER — TE‑LCES (V4.7)**
+
+This Edition provides a procedural‑literacy framework.
+
+It does not interpret instruments or replace legal counsel.
 
 Users must verify all documents, timelines, and fiduciary obligations.
-
-**AC‑LCES — Arbitration Calculus™ (V1.1)**
-
-### **Procedural‑First • Preservation‑Focused • Confidentiality‑Aware**
 
 ---
 
