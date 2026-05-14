@@ -461,46 +461,138 @@ Environment‑specific risks (e.g., Family Court safety posture, Small Claims ev
 **Human chooses Entry Mode → Entry Mode configures Kernel → Kernel governs AI roles → Edition defines legal parameters → Execution Layer produces governed work product.**
 
 
-# # 🗂 Editions
+*This is the final version — drop directly into `/Editions/README.md`)*
 
-LCES Editions are environment-specific procedural layers built on top of the constitutional core system.
+# **🗂 LCES EDITIONS (V6.3 — Publication Edition)**
 
-The Kernel remains universal across all editions.
+### *Environment‑Specific Procedural Layers Built on the Constitutional Core*
 
-The Edition defines:
+LCES Editions are **environment‑specific procedural layers** that sit on top of the universal Kernel.
 
-- procedural environment,
-- jurisdictional physics,
-- operational constraints,
-- readiness requirements,
-- safety posture,
-- and permissible procedural transformations.
+The Kernel remains constant across all Editions; the Edition defines the **procedural physics** of the environment.
 
-Each Edition adapts the LCES architecture to a different legal environment while preserving the same constitutional execution model.
+Each Edition governs:
 
-Every Edition contains its own:
+- procedural environment
+- jurisdictional physics
+- operational constraints
+- readiness requirements
+- safety posture
+- permissible procedural transformations
 
-- Bootloader
-- SCU template
-- Readiness layer
-- Safety doctrine
-- Calculi adaptation
-- Procedural constraints
-- Environment-specific workflow rules
+Each Edition adapts LCES to a different legal environment **without altering the constitutional execution model**.
 
 ---
 
-# 🎛 Edition Selector
+# **📦 What Every Edition Contains**
 
-Choose the Edition based on the procedural environment.
+Every Edition includes its own:
 
-| Edition | Use When | Core Priority |
-|---|---|---|
-| **SC-LCES** | Small Claims Court | Evidence → Timeline → Clarity |
-| **FC-LCES** | Family Court | Safety → Stability → Neutrality |
-| **TE-LCES** | Trust & Estate | Documents → Chain-of-Title → Fiduciary Duty |
-| **AC-LCES** | Arbitration / Private Adjudication | Forum Rules → Scope → Preservation → Reviewability |
+- **Edition Bootloader**
+- **SCU template**
+- **Readiness layer**
+- **Safety doctrine**
+- **Calculi adaptation**
+- **Procedural constraints**
+- **Environment‑specific workflow rules**
 
+This ensures each Edition is **self‑contained**, **venue‑aligned**, and **constitutionally governed**.
+
+---
+
+# **⚙️ Edition Bootloader — Activation Rules**
+
+The Edition Bootloader:
+
+- loads the jurisdictional physics
+- binds the system to the correct procedural environment
+- enforces Edition‑specific constraints
+- governs permissible transformations
+- prevents jurisdictional drift
+- ensures environmental alignment
+
+The Edition Bootloader **never activates automatically**.
+
+It activates **only when the user selects an Edition**.
+
+---
+
+# **🛡️ Edition Safety Doctrine**
+
+Each Edition has its own safety posture:
+
+- **SC‑LCES** — evidence integrity + procedural compression
+- **FC‑LCES** — safety, neutrality, and emotional‑content firewalling
+- **TE‑LCES** — document integrity + fiduciary‑duty constraints
+- **AC‑LCES** — forum‑rule compliance + scope containment
+
+Edition safety doctrine prevents:
+
+- cross‑venue contamination
+- misapplied procedural assumptions
+- unsafe reasoning in sensitive environments
+
+---
+
+# **📘 Edition Readiness Layer**
+
+Each Edition defines its own readiness requirements:
+
+- **SC‑LCES** — timeline clarity + evidence packets
+- **FC‑LCES** — safety posture + stability mapping
+- **TE‑LCES** — chain‑of‑title + document hierarchy
+- **AC‑LCES** — scope definition + forum‑rule alignment
+
+Readiness ensures the system operates with **procedural stability**.
+
+---
+
+# **🧮 Edition Calculi Adaptation**
+
+Each Edition adapts the Six Calculi to its environment:
+
+- **SC‑LCES** — LC + JC dominate (facts + jurisdiction)
+- **FC‑LCES** — FG + FGA dominate (safety + stability)
+- **TE‑LCES** — LCa + LCA dominate (documents + authority)
+- **AC‑LCES** — JC + LCA dominate (forum + scope)
+
+This ensures reasoning remains **venue‑appropriate**.
+
+---
+
+# **🎛 Edition Selector**
+
+Choose the Edition based on the **procedural environment**, not the facts of the case.
+
+| **Edition** | **Use When** | **Core Priority** |
+| --- | --- | --- |
+| **SC‑LCES** | Small Claims Court | Evidence → Timeline → Clarity |
+| **FC‑LCES** | Family Court | Safety → Stability → Neutrality |
+| **TE‑LCES** | Trust & Estate | Documents → Chain‑of‑Title → Fiduciary Duty |
+| **AC‑LCES** | Arbitration / Private Adjudication | Forum Rules → Scope → Preservation → Reviewability |
+
+---
+
+# **📘 Edition Introductions**
+
+## **SC‑LCES — Small Claims Edition**
+
+Designed for **compressed procedural environments** where:
+
+- clarity
+- chronology
+- documentation
+- jurisdictional precision
+
+drive outcomes.
+
+**Focus Areas:**
+
+- evidence‑first workflow
+- simplified SCU extraction
+- procedural compression
+- filing clarity
+- timeline stabilization
 ---
 
 
