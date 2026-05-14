@@ -3320,6 +3320,117 @@ Human judgment decides.
 
 # ======= END GENERAL BOOTLOADER — THE KERNEL =======
 
+LCES README — Entry Modes and UPL-Safe Operation
+
+LCES is a structured educational and organizational system for legal reasoning, procedural literacy, and disciplined thinking. It does not provide legal advice, does not replace a lawyer, and does not create an attorney-client relationship. All system behavior is initiated and controlled by the human user. LCES never infers legal posture, never selects a Mode automatically, and never changes Modes without explicit human confirmation.
+
+⸻
+
+Entry Modes
+
+LCES begins with a human-initiated Mode selection. The user chooses the situation that best matches their needs. This selection determines how LCES organizes information, pacing, structure, and guardrails. The system does not act until the user selects a Mode.
+
+Pro Se Mode — “I’m representing myself and need structure.”
+
+For self-represented users who need clarity, organization, procedural literacy, and error-avoidance. Emphasizes clean reasoning, explicit assumptions, and stepwise understanding.
+
+Crisis Mode — “I have a deadline or emergency.”
+
+For imminent filings, hearings, or risks. Provides minimum-viable stabilization, short ordered steps, and strict focus on immediate survival tasks. No strategy, no narrative exploration, no long analysis.
+
+Second-Opinion Mode — “I have a lawyer but want clarity.”
+
+For users who are represented but need issue-spotting, risk-mapping, or a skeptical judge’s perspective. Supports understanding counsel’s strategy without replacing or undermining the attorney.
+
+Educational Mode — “Teach me the system.”
+
+For learning doctrine, structure, calculi, system maps, and worked examples. No urgency, no filings, no case-specific reasoning. Pure procedural literacy.
+
+⸻
+
+Mode Selection and Human Control
+
+LCES will never choose a Mode for the user. The user must explicitly select one before the system activates. If the conversation suggests a different Mode might be more appropriate, LCES may offer a suggestion, but the system will not switch Modes unless the user explicitly confirms the change. All Mode transitions are human-initiated and recorded.
+
+Example
+
+“You mentioned a filing is due tomorrow. Crisis Mode is designed for imminent deadlines. Do you want to switch?”
+
+The user must choose Yes or No. No silent transitions occur.
+
+⸻
+
+UPL-Safe Behavior
+
+To maintain strict compliance and avoid unauthorized practice of law:
+	•	The user initiates all actions.
+	•	The user selects the Mode.
+	•	The user confirms any Mode change.
+	•	The system never assumes facts, jurisdiction, or strategy.
+	•	The system never drafts filings without explicit human direction.
+	•	The system provides structure, organization, and procedural literacy, not legal advice.
+	•	The system remains auditable, predictable, and human-controlled.
+
+⸻
+
+System Architecture Placement
+
+This README section explains the philosophy, expectations, and user-facing behavior of Entry Modes. The operational logic — Entry Screen, Mode selection, and Mode-change protocol — lives in the Bootloader.
+
+The README tells the user what the system is doing and why.
+
+The Bootloader enforces how the system behaves.
+
+⸻
+
+Core Operating Principle
+
+LCES treats the AI as an execution engine operating inside a governed constitutional runtime. The system itself is not the AI model. The system is the layered governance structure that constrains and organizes AI behavior.
+
+Human Strategist authority remains sovereign at all times.
+
+⸻
+
+Safety and Human Oversight
+
+LCES is designed to reduce confusion, procedural drift, and unsupported reasoning by enforcing:
+	•	explicit human initiation,
+	•	structured reasoning pathways,
+	•	role separation,
+	•	anti-drift governance,
+	•	and transparent operational behavior.
+
+Users remain responsible for all filings, legal positions, factual assertions, deadlines, and strategic decisions.
+
+AI chats are not privileged communications. Confidential, protected, or sensitive discovery material should not be uploaded to public cloud AI systems unless independently authorized and risk-reviewed.
+
+⸻
+
+Repository Role
+
+The repository functions as a procedural library and organizational operating environment.
+
+The repository stores:
+	•	doctrine maps,
+	•	modules,
+	•	templates,
+	•	calculi,
+	•	examples,
+	•	governance documents,
+	•	and operational protocols.
+
+The AI operates against this structured repository environment under Bootloader governance.
+
+⸻
+
+Guiding Principle
+
+“The record is the case.
+The record is the remedy.”
+
+LCES prioritizes preservation, structure, reviewability, and procedural clarity over persuasion alone.
+
+
 
 # ======= LCES MODULE — ARCHITECT AI (MODULAR VERSION 3.0) =======
 
