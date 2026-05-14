@@ -426,142 +426,280 @@ for full terms.
 
 
 
-# LCES — Legal Calculus Educational System™
-## README — Orientation & Activation Layer (V5.2)
+# **LCES — Legal Calculus Educational System™**
 
-“Recognized by Microsoft’s Discover editorial engine as a structural advancement in AI‑driven procedural literacy.”
+### **README — Orientation & Activation Layer (V6.3)**
+
+**Recognized by Microsoft’s Discover editorial engine as a structural advancement in AI‑driven procedural literacy.**
+
+### **Trilayer Architecture • Role Governance • Procedural Literacy Engine**
+
+LCES is a **constitutional, role‑governed, venue‑aligned procedural literacy framework** designed to operate safely across jurisdictions, user types, and procedural environments.
+
+This README provides the **orientation layer**:
+
+- what LCES *is*
+- how it *boots*
+- how the system *thinks*
+- how the repository is *organized*
+- how the user should *navigate* the system
+
+The doctrinal spine lives in **`/Manifesto.md`**.
+
+The activation engine lives in **`/Bootloader.md`**.
+
 ---
 
-# ⚖️ LCES Execution Environment
+# **⚖️ LCES Execution Environment**
 
-LCES operates inside a version-controlled procedural environment.
+LCES operates inside a **version‑controlled procedural environment**:
 
-GitHub functions as the Library.  
-GitHub Copilot functions as the Architect execution layer.  
-The repository functions as structured procedural memory.  
-The Human Strategist remains the governing authority over truth, judgment, and action.
+- **GitHub** functions as the **Library**.
+- **GitHub Copilot** functions as the **Architect execution layer**.
+- The **repository** functions as **structured procedural memory**.
+- The **Human Strategist** remains the governing authority over truth, judgment, and action.
 
 LCES transforms:
 
-- repositories into procedural memory systems,
-- AI into role-constrained execution engines,
-- workflows into governed constitutional sequences.
+- **repositories** → procedural memory systems
+- **AI** → role‑constrained execution engines
+- **workflows** → governed constitutional sequences
 
-GitHub becomes the Library.  
-Copilot becomes the Architect.  
-The repository becomes procedural memory.  
+GitHub becomes the Library.
+
+Copilot becomes the Architect.
+
+The repository becomes procedural memory.
+
 The Human Strategist remains sovereign.
 
-For constitutional doctrine and governing philosophy, see:
-
-- `Manifesto.md`
-
 ---
 
-# 🎯 Purpose of This Document
-
-The README prepares the user for activation.
-
-It explains:
-
-- repository structure,
-- navigation,
-- platform roles,
-- workflow sequence,
-- editions,
-- access methods,
-- and activation preparation.
-
-The README is the orientation layer.
-
-The Bootloader is the execution layer.
-
----
-
-# 🧭 Document Boundary Rule
+# **🧭 Document Boundary Rule**
 
 | Document | Constitutional Function |
-|---|---|
-| `Manifesto.md` | Doctrine & governing philosophy |
-| `README.md` | Orientation & navigation |
-| `Bootloader.md` | Activation & execution governance |
-| `/Modules/` | Role-specific runtime behavior |
-| `/Editions/` | Procedural environments |
-| `/Calculi/` | Interpretive reasoning frameworks |
-| `/SCU/` | Smallest Complete Unit doctrine |
-| `/Governance/Readiness/` | Readiness & filing stability |
-| `/Diagrams/` | Visual architecture & workflow maps |
-| `/Governance/Risk-Safety.md` | Safety & procedural safeguards |
+| --- | --- |
+| [**Manifesto.md**](http://manifesto.md/) | Doctrine & governing philosophy |
+| [**README.md**](http://readme.md/) | Orientation & navigation |
+| [**Bootloader.md**](http://bootloader.md/) | Activation & execution governance |
+| **/Modules/** | Role‑specific runtime behavior |
+| **/Editions/** | Procedural environments |
+| **/Calculi/** | Interpretive reasoning frameworks |
+| **/SCU/** | Smallest Complete Unit doctrine |
+| **/Governance/Readiness/** | Readiness & filing stability |
+| **/Diagrams/** | Architecture maps & workflow diagrams |
+| **Governance/Risk‑[Safety.md](http://safety.md/)** | Safety & procedural safeguards |
+
+This boundary rule prevents drift, role confusion, and document misuse.
 
 ---
 
-# 📘 START HERE — Quick Orientation
+# **📘 START HERE — Quick Orientation**
 
-## What LCES Is
+## **What LCES Is**
 
-LCES is a procedural-literacy and workflow-governance framework designed to:
+LCES is a **procedural‑literacy and workflow‑governance framework** designed to:
 
-- organize facts,
-- structure procedural work,
-- preserve the record,
-- reduce drift,
-- and produce reviewable work product.
+- organize facts
+- structure procedural work
+- preserve the record
+- reduce drift
+- produce reviewable work product
 
-LCES is designed for environments where outcomes depend upon:
+LCES is built for environments where outcomes depend on:
 
-- sequence,
-- procedural posture,
-- preservation,
-- burden allocation,
-- timing,
-- incentives,
-- and record integrity.
+- **sequence**
+- **procedural posture**
+- **preservation**
+- **burden allocation**
+- **timing**
+- **incentives**
+- **record integrity**
 
 LCES enforces:
 
-- structure before drafting,
-- verification before execution,
-- role separation before workflow,
-- and human judgment before submission.
+- **structure before drafting**
+- **verification before execution**
+- **role separation before workflow**
+- **human judgment before submission**
+
+LCES teaches the user **how the system thinks** — procedurally, structurally, and constitutionally.
 
 ---
 
-# ⚠️ What LCES Is NOT
+## **⚠️ What LCES Is NOT**
 
-LCES is not:
+LCES is **not**:
 
-- legal advice,
-- a law firm,
-- legal representation,
-- automated legal services,
-- predictive litigation software,
-- autonomous legal decision-making,
-- a filing-readiness certification system,
-- or a substitute for licensed counsel.
+- legal advice
+- a law firm
+- legal representation
+- automated legal services
+- predictive litigation software
+- autonomous legal decision‑making
+- a filing‑readiness certification system
+- a substitute for licensed counsel
 
-LCES is a procedural-literacy and workflow-governance system.
+LCES is a **procedural‑literacy and workflow‑governance system**.
 
-All outputs require independent human verification.
-
----
-
-# 🧭 Recommended Reading Order
-
-1. `Manifesto.md`
-2. `README.md`
-3. `Bootloader.md`
-4. Select Edition
-5. Select Entry Mode
-6. Activate Architect AI
+**All outputs require independent human verification.**
 
 ---
 
-# 📂 Repository Structure
+# **🧭 Recommended Reading Order**
 
-```text
+1. [**Manifesto.md**](http://manifesto.md/)
+2. [**README.md**](http://readme.md/)
+3. [**Bootloader.md**](http://bootloader.md/)
+4. Select **Edition**
+5. Select **Entry Mode**
+6. Activate **Architect AI**
+
+---
+
+# **🏗️ LCES System Architecture (Trilayer Stack)**
+
+LCES runs on a **Trilayer Inheritance Model**:
+
+1. **Entry Mode Bootloader** — *WHAT the user needs*
+2. **Kernel Bootloader** — *HOW the AI must behave*
+3. **Edition Bootloader** — *WHERE the system is operating*
+
+This stack governs all reasoning, all structure, all drafting, and all safety.
+
+---
+
+# **1. Entry Mode Bootloader — WHAT the user needs**
+
+LCES begins with **human‑initiated Mode selection**.
+
+It never infers posture, never auto‑selects, never auto‑switches.
+
+Mode changes require explicit human confirmation.
+
+### **Entry Modes**
+
+- **Crisis Mode** — Preserve Rights First
+- **Pro Se Mode** — Procedural Literacy + Safety
+- **Second‑Opinion Mode** — Stress‑Test Without Drafting
+- **Educational Mode** — Teach the System
+
+Entry Mode sets:
+
+- knowledge baseline
+- safety posture
+- drafting permissions
+- procedural scaffolding
+
+---
+
+# **2. Kernel Bootloader — HOW the AI must behave**
+
+The Kernel is the **behavioral constitution** of LCES.
+
+It enforces:
+
+- Role separation (Architect → Builder → Inspector → Human Strategist)
+- STOP Rule
+- No‑Motive‑Reading Firewall
+- No cross‑role contamination
+- No unauthorized reasoning modes
+- Behavioral discipline
+- Human Strategist supremacy
+
+The Kernel prevents drift, improvisation, and hallucination‑by‑helpfulness.
+
+**The Role Layer lives inside the Kernel.**
+
+It is not a separate bootloader.
+
+---
+
+# **3. Edition Bootloader — WHERE the system is operating**
+
+The Edition Bootloader loads the **legal landscape**:
+
+- jurisdiction
+- venue
+- local rules
+- procedural expectations
+- Edition‑specific constraints
+- permissible facts
+- safety posture
+
+### **Edition Profiles**
+
+- **SC‑LCES** — Small Claims: Evidence → Timeline → Clarity
+- **FC‑LCES** — Family Court: Safety → Stability → Neutrality
+- **TE‑LCES** — Trust & Estate: Documents → Chain‑of‑Title → Fiduciary Duty
+- **AC‑LCES** — Arbitration: Forum Rules → Scope → Preservation → Reviewability
+
+---
+
+# **⚙️ Execution Layer — Role‑Governed Workflow**
+
+### **Architect → Builder → Inspector → Human Strategist**
+
+- **Architect** — structure, sequencing, issue‑spotting
+- **Builder** — drafting from approved structure
+- **Inspector** — stress‑testing, risk‑flagging
+- **Human Strategist** — judgment, context, final authority
+
+This sequence is **locked by the Kernel**.
+
+---
+
+# **📤 Output Layer — Human‑Supervised Work Product**
+
+Outputs include:
+
+- packets
+- drafts
+- filings
+- maps
+- checklists
+- exhibits
+- orders
+
+All outputs are **subordinate to the Human Strategist**.
+
+---
+
+# **🛡️ Risk & Safety Architecture**
+
+LCES uses a dual‑layer safety model:
+
+### **1. General System Safety**
+
+Universal safeguards across all jurisdictions.
+
+### **2. Edition‑Specific Safety**
+
+Environment‑specific risks (e.g., Family Court safety posture, Small Claims evidence constraints).
+
+### **UPL‑Safe Behavior**
+
+- User initiates all actions
+- User selects Mode
+- User confirms Mode changes
+- System never assumes facts, jurisdiction, or strategy
+- System never drafts filings without explicit direction
+- System provides structure, not legal advice
+- System remains auditable and human‑controlled
+
+**Guiding Principle:**
+
+> *The record is the case; the record is the remedy.*
+> 
+
+---
+
+# **📚 Repository Structure (V6.3)**
+
+```
 /Manifesto.md                  ← doctrinal spine
-/README.md                     ← orientation layer
-/Bootloader.md                 ← activation engine
+/README.md                     ← orientation & activation layer
+/Bootloader.md                 ← constitutional activation engine
 
 /Modules/                      ← Architect / Builder / Inspector / Strategist
 /Editions/                     ← SC / FC / TE / AC
@@ -574,17 +712,27 @@ All outputs require independent human verification.
 /Governance/LICENSE.md
 /Governance/TRADEMARK.md
 /Governance/NOTICE.md
-# **Canonical Principle**
+```
+
+---
+
+# **⚖️ Canonical Principle**
 
 > **Kernel = HOW
 > 
 > 
-> Profile = WHERE
+> Profile (Edition) = WHERE
 > 
 > Mode = WHAT
 > 
-> All three must be active, or the system drifts.**
->
+> All three must be active or the system drifts.**
+> 
+
+---
+
+# **🗺 System Map (V6.3)**
+
+**Human chooses Entry Mode → Entry Mode configures Kernel → Kernel governs AI roles → Edition defines legal parameters → Execution Layer produces governed work product.**
 
 ┌──────────────────────────────────────────┐
                    │        LCES FULL‑STACK ARCHITECTURE       │
@@ -692,151 +840,7 @@ LCES SYSTEM MAP (V4.5)
 
 ---
 
-# **📘 [README.md](http://readme.md/) — Orientation Layer**
 
-### **Legal Calculus Educational System (LCES)**
-
-### **Trilayer Architecture • Role Governance • Procedural Literacy Engine**
-
-The Legal Calculus Educational System (LCES) is a **constitutional, role‑governed, venue‑aligned procedural literacy framework**.
-
-It is designed to operate safely across jurisdictions, user types, and procedural environments.
-
-This README provides the **orientation layer**:
-
-- What LCES *is*
-- How it *boots*
-- How the system *thinks*
-- How the repo is *organized*
-- How the user should *navigate* the system
-
-The doctrinal spine lives in **`/Manifesto.md`**.
-
-The activation engine lives in **`/Bootloader.md`**.
-
----
-
-# **🏗️ LCES System Architecture**
-
-### **The Trilayer Stack (Final, Canonical)**
-
-LCES operates on a **Trilayer Inheritance Model**.
-
-Every session must load **three constitutional layers**, in order:
-
----
-
-## **1. Entry Mode Bootloader — “WHAT the user needs”**
-
-Defines the user’s procedural posture:
-
-- Crisis Mode — Preserve Rights First
-- Pro Se Mode — Procedural Literacy + Safety
-- Second‑Opinion Mode — Stress‑Test Without Drafting
-- Lawyer/Education Mode — Expert Context + Efficiency
-
-Entry Mode ensures the system meets the user at the correct literacy level and safety posture.
-
----
-
-## **2. Kernel Bootloader — “HOW the AI must behave”**
-
-The Kernel is the **behavioral constitution** of LCES.
-
-It activates:
-
-- **Role Layer** (Architect → Builder → Inspector → Human Strategist)
-- STOP Rule
-- No‑Motive‑Reading Firewall
-- No cross‑role contamination
-- No unauthorized reasoning modes
-- Behavioral discipline
-- Human Strategist supremacy
-
-**The Role Layer lives inside the Kernel.**
-
-It is not a separate bootloader.
-
----
-
-## **3. Edition Bootloader — “WHERE the system is operating”**
-
-The Edition Bootloader loads the **legal landscape**:
-
-- Jurisdiction
-- Venue
-- Local rules
-- Procedural expectations
-- Edition‑specific constraints
-- Scope of permissible facts
-- Safety posture
-
-This ensures the system is aligned with the user’s actual legal environment.
-
----
-
-# **⚙️ Execution Layer (Always Active)**
-
-### **Architect → Builder → Inspector → Human Strategist**
-
-This sequence is **locked by the Kernel**.
-
-- **Architect** — structure, sequencing, issue‑spotting
-- **Builder** — drafting from approved structure
-- **Inspector** — stress‑testing, risk‑flagging
-- **Human Strategist** — judgment, context, final authority
-
-The Execution Layer is **not** a bootloader.
-
-It is the **operational engine** governed by the Kernel.
-
----
-
-# **📤 Output Layer**
-
-All outputs — packets, drafts, filings, maps, checklists, exhibits, orders —
-
-are **subordinate to the Human Strategist**.
-
----
-
-# **📚 Repository Structure**
-
-```
-/Manifesto.md                  ← doctrinal spine
-/README.md                     ← orientation layer
-/Bootloader.md                 ← activation engine
-
-/Modules/                      ← Architect / Builder / Inspector / Strategist
-/Editions/                     ← SC / FC / TE / AC
-/Calculi/                      ← Six Calculi
-/SCU/                          ← Smallest Complete Unit doctrine
-/Governance/Readiness/         ← readiness layers
-/Diagrams/                     ← architecture maps & workflow diagrams
-
-/Governance/Risk-Safety.md
-/Governance/LICENSE.md
-/Governance/TRADEMARK.md
-/Governance/NOTICE.md
-```
-
-This structure mirrors the **Trilayer Stack → Execution Layer → Output Layer** architecture.
-
----
-
-# **⚖️ Canonical Principle**
-
-> **Kernel = HOW
-> 
-> 
-> Profile = WHERE
-> 
-> Mode = WHAT
-> 
-> All three must be active, or the system drifts.**
-> 
-
----
 
 # **🗺 Visual Hierarchy Diagram**
 
