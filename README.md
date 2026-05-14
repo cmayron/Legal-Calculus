@@ -173,30 +173,25 @@ This is the discipline.
 **This is LCES.**
 ---
 
-
-
-
 # **LCES — Legal Calculus Educational System™**
 
 ### **README — Orientation & Activation Layer (V6.3)**
 
-**Recognized by Microsoft’s Discover editorial engine as a structural advancement in AI‑driven procedural literacy.**
+### *Trilayer Architecture • Role Governance • Procedural Literacy Engine*
 
-### **Trilayer Architecture • Role Governance • Procedural Literacy Engine**
-
-LCES is a **constitutional, role‑governed, venue‑aligned procedural literacy framework** designed to operate safely across jurisdictions, user types, and procedural environments.
+LCES is a **constitutional, role‑governed, venue‑aligned procedural‑literacy framework** designed to operate safely across jurisdictions, user types, and procedural environments.
 
 This README provides the **orientation layer**:
 
 - what LCES *is*
-- how it *boots*
+- how the system *boots*
 - how the system *thinks*
 - how the repository is *organized*
 - how the user should *navigate* the system
 
-The doctrinal spine lives in **`/Manifesto.md`**.
+The doctrinal spine lives in **`Manifesto.md`**.
 
-The activation engine lives in **`/Bootloader.md`**.
+The activation engine lives in **`Bootloader.md`**.
 
 ---
 
@@ -211,17 +206,9 @@ LCES operates inside a **version‑controlled procedural environment**:
 
 LCES transforms:
 
-- **repositories** → procedural memory systems
-- **AI** → role‑constrained execution engines
-- **workflows** → governed constitutional sequences
-
-GitHub becomes the Library.
-
-Copilot becomes the Architect.
-
-The repository becomes procedural memory.
-
-The Human Strategist remains sovereign.
+- repositories → procedural memory
+- AI → role‑constrained execution engines
+- workflows → governed constitutional sequences
 
 ---
 
@@ -232,12 +219,13 @@ The Human Strategist remains sovereign.
 | [**Manifesto.md**](http://manifesto.md/) | Doctrine & governing philosophy |
 | [**README.md**](http://readme.md/) | Orientation & navigation |
 | [**Bootloader.md**](http://bootloader.md/) | Activation & execution governance |
+| **/Architecture/** | System maps & deep architecture |
 | **/Modules/** | Role‑specific runtime behavior |
 | **/Editions/** | Procedural environments |
 | **/Calculi/** | Interpretive reasoning frameworks |
 | **/SCU/** | Smallest Complete Unit doctrine |
 | **/Governance/Readiness/** | Readiness & filing stability |
-| **/Diagrams/** | Architecture maps & workflow diagrams |
+| **/Diagrams/** | Visual maps & workflow diagrams |
 | **Governance/Risk‑[Safety.md](http://safety.md/)** | Safety & procedural safeguards |
 
 This boundary rule prevents drift, role confusion, and document misuse.
@@ -248,7 +236,7 @@ This boundary rule prevents drift, role confusion, and document misuse.
 
 ## **What LCES Is**
 
-LCES is a **procedural‑literacy and workflow‑governance framework** designed to:
+LCES is a **procedural‑literacy and workflow‑governance system** designed to:
 
 - organize facts
 - structure procedural work
@@ -292,7 +280,7 @@ LCES is **not**:
 
 LCES is a **procedural‑literacy and workflow‑governance system**.
 
-**All outputs require independent human verification.**
+All outputs require independent human verification.
 
 ---
 
@@ -325,8 +313,6 @@ LCES begins with **human‑initiated Mode selection**.
 
 It never infers posture, never auto‑selects, never auto‑switches.
 
-Mode changes require explicit human confirmation.
-
 ### **Entry Modes**
 
 - **Crisis Mode** — Preserve Rights First
@@ -349,19 +335,14 @@ The Kernel is the **behavioral constitution** of LCES.
 
 It enforces:
 
-- Role separation (Architect → Builder → Inspector → Human Strategist)
+- Role separation
 - STOP Rule
 - No‑Motive‑Reading Firewall
 - No cross‑role contamination
 - No unauthorized reasoning modes
-- Behavioral discipline
 - Human Strategist supremacy
 
 The Kernel prevents drift, improvisation, and hallucination‑by‑helpfulness.
-
-**The Role Layer lives inside the Kernel.**
-
-It is not a separate bootloader.
 
 ---
 
@@ -379,10 +360,10 @@ The Edition Bootloader loads the **legal landscape**:
 
 ### **Edition Profiles**
 
-- **SC‑LCES** — Small Claims: Evidence → Timeline → Clarity
-- **FC‑LCES** — Family Court: Safety → Stability → Neutrality
-- **TE‑LCES** — Trust & Estate: Documents → Chain‑of‑Title → Fiduciary Duty
-- **AC‑LCES** — Arbitration: Forum Rules → Scope → Preservation → Reviewability
+- **SC‑LCES** — Small Claims
+- **FC‑LCES** — Family Court
+- **TE‑LCES** — Trust & Estate
+- **AC‑LCES** — Arbitration
 
 ---
 
@@ -432,9 +413,8 @@ Environment‑specific risks (e.g., Family Court safety posture, Small Claims ev
 - User initiates all actions
 - User selects Mode
 - User confirms Mode changes
-- System never assumes facts, jurisdiction, or strategy
+- System never assumes facts or strategy
 - System never drafts filings without explicit direction
-- System provides structure, not legal advice
 - System remains auditable and human‑controlled
 
 **Guiding Principle:**
@@ -447,21 +427,17 @@ Environment‑specific risks (e.g., Family Court safety posture, Small Claims ev
 # **📚 Repository Structure (V6.3)**
 
 ```
-/Manifesto.md                  ← doctrinal spine
-/README.md                     ← orientation & activation layer
-/Bootloader.md                 ← constitutional activation engine
+/Manifesto.md
+/README.md
+/Bootloader.md
 
-/Modules/                      ← Architect / Builder / Inspector / Strategist
-/Editions/                     ← SC / FC / TE / AC
-/Calculi/                      ← Six Calculi
-/SCU/                          ← Smallest Complete Unit doctrine
-/Governance/Readiness/         ← readiness layers
-/Diagrams/                     ← architecture maps & workflow diagrams
-
-/Governance/Risk-Safety.md
-/Governance/LICENSE.md
-/Governance/TRADEMARK.md
-/Governance/NOTICE.md
+/Architecture/
+/Modules/
+/Editions/
+/Calculi/
+/SCU/
+/Governance/
+/Diagrams/
 ```
 
 ---
@@ -471,7 +447,7 @@ Environment‑specific risks (e.g., Family Court safety posture, Small Claims ev
 > **Kernel = HOW
 > 
 > 
-> Profile (Edition) = WHERE
+> Edition = WHERE
 > 
 > Mode = WHAT
 > 
@@ -480,223 +456,12 @@ Environment‑specific risks (e.g., Family Court safety posture, Small Claims ev
 
 ---
 
+# **🗺 System Map (V6.3)**
 
+**Human chooses Entry Mode → Entry Mode configures Kernel → Kernel governs AI roles → Edition defines legal parameters → Execution Layer produces governed work product.**
 
-# **🏗️ System Architecture: The Entry Mode, The Kernel & The Edition Bootloader**  
-### **The LCES Trilayer Stack (Final, Corrected Version)**
 
-LCES runs on a **Trilayer Inheritance Model**.  
-Every session requires the **sequential activation of three constitutional layers**:
 
----
-
-## **1. Entry Mode Bootloader**  
-### **“Define the User’s Procedural Posture”**
-
-The Entry Mode Bootloader determines **what the user needs right now**, selecting the correct procedural environment:
-
-- **Crisis Mode** — Preserve Rights First  
-- **Pro Se Mode** — Procedural Literacy + Safety  
-- **Second‑Opinion Mode** — Stress‑Test Without Drafting  
-- **Lawyer/Education Mode** — Expert Context + Efficiency  
-
-Entry Mode ensures the system meets the user at the correct literacy level and safety posture.
-
----
-
-## **2. Kernel Bootloader (The Behavioral Constitution)**  
-### **“Define How the AI Must Behave”**
-
-The Kernel enforces the **behavioral and constitutional rules** of LCES.
-
-It activates:
-
-- **Role Layer** (Architect → Builder → Inspector → Human Strategist)  
-- STOP Rule  
-- No‑Motive‑Reading Firewall  
-- No cross‑role contamination  
-- No unauthorized reasoning modes  
-- Behavioral discipline  
-- Human Strategist supremacy  
-
-**The Role Layer lives *inside* the Kernel.**  
-It is not a separate bootloader.
-
-The Kernel ensures the system remains disciplined, predictable, and constitutionally constrained.
-
----
-
-## **3. Edition Bootloader (The Environmental Constitution)**  
-### **“Define Where the System Is Operating”**
-
-The Edition Bootloader loads the **legal landscape**:
-
-- Jurisdiction  
-- Venue  
-- Local rules  
-- Procedural environment  
-- Edition‑specific constraints  
-- Scope of permissible facts  
-- Safety posture  
-
-The Edition ensures the system is aligned with the **actual legal environment** of the user.
-
----
-
-# **🧩 Why This Matters — The Full Stack**
-
-When all three layers load in order:
-
-- **Entry Mode** → user‑appropriate  
-- **Kernel** → behaviorally disciplined  
-- **Edition** → jurisdiction‑aligned  
-
-LCES becomes a **governed, predictable, drift‑resistant system**.
-
-This is why LCES works so efficiently when run through:
-
-### **Copilot Desktop + direct access to the LCES repo**
-
-You get:
-
-- Instant bootloader activation  
-- Zero drift across sessions  
-- Fast role switching  
-- Local file access  
-- Efficient Architect → Builder → Inspector loops  
-
-This is the intended deployment environment for LCES.
-
----
-
-# **Canonical Principle**  
-> **Entry Mode defines the user.  
-> Kernel defines the behavior.  
-> Edition defines the environment.  
->  
-> Together, they form the LCES Trilayer Stack.**
-
----
-
-If you want, I can now:
-
-- Insert this directly into your README in the correct location  
-- Generate a **Trilayer Architecture Diagram**  
-- Produce a **ceremonial plate** for the top of the Bootloader section  
-
-Just tell me which one you want next.
-
-LCES README — Entry Modes and UPL-Safe Operation
-
-LCES is a structured educational and organizational system for legal reasoning, procedural literacy, and disciplined thinking. It does not provide legal advice, does not replace a lawyer, and does not create an attorney-client relationship. All system behavior is initiated and controlled by the human user. LCES never infers legal posture, never selects a Mode automatically, and never changes Modes without explicit human confirmation.
-
-⸻
-
-Entry Modes
-
-LCES begins with a human-initiated Mode selection. The user chooses the situation that best matches their needs. This selection determines how LCES organizes information, pacing, structure, and guardrails. The system does not act until the user selects a Mode.
-
-Pro Se Mode — “I’m representing myself and need structure.”
-
-For self-represented users who need clarity, organization, procedural literacy, and error-avoidance. Emphasizes clean reasoning, explicit assumptions, and stepwise understanding.
-
-Crisis Mode — “I have a deadline or emergency.”
-
-For imminent filings, hearings, or risks. Provides minimum-viable stabilization, short ordered steps, and strict focus on immediate survival tasks. No strategy, no narrative exploration, no long analysis.
-
-Second-Opinion Mode — “I have a lawyer but want clarity.”
-
-For users who are represented but need issue-spotting, risk-mapping, or a skeptical judge’s perspective. Supports understanding counsel’s strategy without replacing or undermining the attorney.
-
-Educational Mode — “Teach me the system.”
-
-For learning doctrine, structure, calculi, system maps, and worked examples. No urgency, no filings, no case-specific reasoning. Pure procedural literacy.
-
-⸻
-
-Mode Selection and Human Control
-
-LCES will never choose a Mode for the user. The user must explicitly select one before the system activates. If the conversation suggests a different Mode might be more appropriate, LCES may offer a suggestion, but the system will not switch Modes unless the user explicitly confirms the change. All Mode transitions are human-initiated and recorded.
-
-Example
-
-“You mentioned a filing is due tomorrow. Crisis Mode is designed for imminent deadlines. Do you want to switch?”
-
-The user must choose Yes or No. No silent transitions occur.
-
-⸻
-
-UPL-Safe Behavior
-
-To maintain strict compliance and avoid unauthorized practice of law:
-	•	The user initiates all actions.
-	•	The user selects the Mode.
-	•	The user confirms any Mode change.
-	•	The system never assumes facts, jurisdiction, or strategy.
-	•	The system never drafts filings without explicit human direction.
-	•	The system provides structure, organization, and procedural literacy, not legal advice.
-	•	The system remains auditable, predictable, and human-controlled.
-
-⸻
-
-System Architecture Placement
-
-This README section explains the philosophy, expectations, and user-facing behavior of Entry Modes. The operational logic — Entry Screen, Mode selection, and Mode-change protocol — lives in the Bootloader.
-
-The README tells the user what the system is doing and why.
-
-The Bootloader enforces how the system behaves.
-
-⸻
-
-Core Operating Principle
-
-LCES treats the AI as an execution engine operating inside a governed constitutional runtime. The system itself is not the AI model. The system is the layered governance structure that constrains and organizes AI behavior.
-
-Human Strategist authority remains sovereign at all times.
-
-⸻
-
-Safety and Human Oversight
-
-LCES is designed to reduce confusion, procedural drift, and unsupported reasoning by enforcing:
-	•	explicit human initiation,
-	•	structured reasoning pathways,
-	•	role separation,
-	•	anti-drift governance,
-	•	and transparent operational behavior.
-
-Users remain responsible for all filings, legal positions, factual assertions, deadlines, and strategic decisions.
-
-AI chats are not privileged communications. Confidential, protected, or sensitive discovery material should not be uploaded to public cloud AI systems unless independently authorized and risk-reviewed.
-
-⸻
-
-Repository Role
-
-The repository functions as a procedural library and organizational operating environment.
-
-The repository stores:
-	•	doctrine maps,
-	•	modules,
-	•	templates,
-	•	calculi,
-	•	examples,
-	•	governance documents,
-	•	and operational protocols.
-
-The AI operates against this structured repository environment under Bootloader governance.
-
-⸻
-
-Guiding Principle
-
-“The record is the case.
-The record is the remedy.”
-
-LCES prioritizes preservation, structure, reviewability, and procedural clarity over persuasion alone.
-
----
 
 # # 🗂 Editions
 
