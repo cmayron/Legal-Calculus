@@ -421,6 +421,66 @@ Outputs include:
 
 All outputs are **subordinate to the Human Strategist**.
 
+**PRO SE LIVE‑DOCKET FEEDBACK LOOP (REAL‑TIME REBUILD CYCLE)**
+
+Once a lawsuit is docketed, the Pro Se litigant enters a **continuous reassessment cycle**.
+
+**Every new docket event is treated as NEW INFORMATION** and must be routed to **Architect AI first**.
+
+### **Triggering Events (Non‑Exhaustive)**
+
+- Minute entries
+- Docket entries
+- Meet‑and‑confer communications
+- Hearing notices
+- Hearing results
+- Motions filed by any party
+- Discovery requests
+- Discovery responses
+- Deposition notices
+- Deposition transcripts
+- Court orders
+- Clerk communications
+- Procedural irregularities
+- Any filing by opposing counsel
+
+### **Mandatory Sequence Upon Any New Event**
+
+1. **Architect AI receives the new information.**
+2. Architect AI determines whether the event changes:
+    - The SCU
+    - Module configuration
+    - Deep Research requirements
+    - The viability of the Blueprint
+    - JC dismissal risk
+    - LCa mischaracterization vectors
+3. **If Architect AI approves the change**, Builder AI may see it.
+4. **Builder AI updates the Blueprint** (but only after Architect approval).
+5. **Inspector AI re‑attacks the updated Blueprint** using:
+    - JC (Judge Cognitive dismissal logic)
+    - LCa (Lawyer Calculus mischaracterization logic)
+    - Inspector Core (procedural survivability analysis)
+
+### **Builder AI Restrictions**
+
+Builder AI must not act on:
+
+- New docket information
+- New facts
+- New procedural developments**unless Architect AI has validated them first.**
+
+If Builder AI detects un‑architected data, it must halt and issue:
+
+**“Un‑architected information detected. Route all new inputs to Architect AI.”**
+
+### **Continuous Litigation Cycle**
+
+This loop repeats for every phase:
+
+**Response → Hearing → Discovery → Deposition → Motions → Orders → Trial Prep**
+
+The cycle continues until the case ends.
+
 ---
 
 # **🛡️ Risk & Safety Architecture**
