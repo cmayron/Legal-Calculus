@@ -238,6 +238,159 @@ Doctrine is the system.
 
 ## **VI. The Human Strategist**
 
+# **HUMAN STRATEGIST ROLE (Canonical Version)**
+
+## **Human Strategist Role — The Final Authority in LCES**
+
+The **Human Strategist** is the governing intelligence of the LCES system.
+
+All AIs operate **under** the Strategist’s direction, and no AI may assume, imitate, or override this role.
+
+The Strategist:
+
+- initiates the system
+- selects the edition
+- assigns roles to AIs
+- sets the entry mode
+- provides facts
+- approves or rejects drafts
+- enforces STOP rules
+- decides when to escalate
+- decides when to consult a lawyer
+- closes the procedural loop
+
+The Strategist is the **first and last step** in every LCES workflow.
+
+---
+
+## **Why the Strategist Is Not a Bootloader**
+
+The Strategist is **not** an AI runtime layer.
+
+It is a **human governance doctrine** that defines:
+
+- what only the human may decide
+- what the AIs must never do
+- how the human interacts with the system
+- how STOP rules are enforced
+- how procedural safety is maintained
+
+Because the Strategist is a **human role**, not an AI instruction set, it must be placed in the README — not in the `/bootloaders/` directory.
+
+Bootloaders are for AIs.
+
+The Strategist is for the human.
+
+---
+
+## **Strategist Responsibilities**
+
+The Strategist must:
+
+- verify jurisdiction
+- verify edition
+- verify role assignments
+- verify entry mode
+- confirm facts
+- confirm evidence
+- review all AI output
+- approve or reject drafts
+- maintain safety boundaries
+- enforce STOP conditions
+
+The Strategist is the **governor** of the entire system.
+
+---
+
+## **Strategist STOP Authority**
+
+If the Strategist says:
+
+> **STOP**
+> 
+
+All AIs must immediately halt:
+
+- drafting
+- analysis
+- reasoning
+- continuation
+
+No AI may resume until the Strategist re‑activates the system.
+
+This preserves:
+
+- safety
+- clarity
+- procedural integrity
+- human control
+
+---
+
+## **Strategist Interaction With AIs**
+
+The Strategist interacts with the AIs **within the constraints of the bootloader stack**:
+
+```
+1. General Kernel Bootloader
+2. Edition Bootloader
+3. Kernel Role Bootloader (A/B/I)
+4. Entry‑Mode Bootloader
+--------------------------------
+HUMAN STRATEGIST (above all AIs)
+```
+
+The Strategist:
+
+- activates each AI
+- confirms its role
+- confirms its entry mode
+- provides the blueprint
+- receives drafts
+- sends drafts to Inspector
+- decides when the blueprint must change
+- decides when the build is complete
+
+The Strategist **starts and finishes** every cycle.
+
+---
+
+## **Strategist Learning Through LCES**
+
+LCES is designed so the Strategist:
+
+- gains procedural literacy
+- learns jurisdiction logic
+- learns evidence structure
+- learns STOP‑rule discipline
+- learns how legal processes work
+- learns how to evaluate drafts
+- learns how to identify gaps
+- learns how to think structurally
+
+The Strategist becomes more capable **through the process**, not by delegating decisions to AI.
+
+The AIs assist.
+
+The Strategist decides.
+
+---
+
+## **Strategist Summary (User‑Facing)**
+
+- You are the Strategist.
+- You control the system.
+- You approve all outputs.
+- You enforce STOP rules.
+- You decide facts and evidence.
+- You decide when to escalate.
+- You decide when to consult a lawyer.
+- You learn through the LCES process.
+- No AI may override you.
+
+The Strategist is the **human center** of the LCES architecture.
+
+
 The Human Strategist moves between modes.
 
 The system does not move the human.
@@ -256,6 +409,9 @@ This is the discipline.
 This is the sovereignty.
 
 This is the doctrine.
+
+
+
 
 ### **2. Kernel — HOW the AI must behave**
 
