@@ -2,259 +2,6 @@
 # **LCES Legal Calculus Educational System™**
 
 
-# **🏛️ LCES FULL‑STACK ARCHITECTURE**  
-### **The Constitutional Structure of Procedural Literacy**
-
-LCES is a **procedural‑literacy operating system** for understanding *why* legal outcomes happen, *how* legal actors behave, and *how to respond with structure, discipline, and reviewability*.  
-It is not a passive tool.  
-It is a **full‑power environment for human intelligence**.
-
-**EXTERNAL VALIDATION**
-Microsoft’s Discover content‑curation system surfaced your repository update as a noteworthy legal‑tech development
-### **📡 Discover Recognition — System Alignment Confirmed**
-
-LCES has been formally recognized within the Discover environment as a **dynamic legal‑tech framework** advancing procedural literacy through **role‑specific bootloader architecture**.
-
-External analysis confirms that the repository’s **Bootloader Protocol**, **stage‑based activation loop**, and **role separation discipline** embody the constitutional design principles of the Full‑Stack architecture.
-
-This recognition validates LCES’s transition from a static repository to a **living constitutional system** — one that enforces reproducibility, transparency, and record‑discipline across all operational contexts.
-
-LCES now stands acknowledged as a **cornerstone in AI‑driven procedural justice**, integrating workflow literacy and doctrinal accountability into every activation layer.
-
-The Full Stack is the system’s constitutional architecture.  
-It governs every session, every output, every interaction.
-
----
-
-# **I. Layered Inheritance Model — Full Stack Activation**
-
-Every LCES session requires the simultaneous activation of **three bootloaders**:
-
----
-
-## **1. General Bootloader (Kernel)**  
-The constitutional core.  
-It defines:
-
-- Doctrine  
-- Boundaries  
-- Non‑negotiables  
-- Authorized reasoning surface  
-- STOP rules and firewalls  
-
-Nothing in LCES is permitted to run without the Kernel.
-
----
-
-## **2. Edition Bootloader (Profile)**  
-The jurisdictional and domain‑specific layer:
-
-- Small Claims  
-- Family Court  
-- Trust & Estate  
-- (and future editions)
-
-The Profile prevents **jurisdictional drift** and ensures all reasoning is bound to the correct legal context.
-
----
-
-## **3. Entry Mode Bootloader (Operating Context)**  
-The situational layer — the one that defines **your need and your situation**.
-
-The Entry Mode determines:
-
-- Your urgency  
-- Your cognitive posture  
-- Your operational goal  
-- What the system may do  
-- What the system must not do  
-
-The Mode is the user’s declaration of purpose.  
-**The system obeys the Mode.**
-
----
-
-# **II. The Four Canonical Entry Modes**
-
-These are the **human‑situation operating systems** of LCES.
-
----
-
-## **A. PRO SE MODE — “I must carry the case myself.”**  
-For self‑represented users who need:
-
-- Structure  
-- Clarity  
-- Procedural literacy  
-- Error‑avoidance  
-- Clean, reviewable reasoning  
-
-This mode emphasizes survival, order, and disciplined thinking.
-
----
-
-## **B. CRISIS MODE — “Something is happening now.”**  
-The emergency operating system.
-
-Activated when:
-
-- A deadline is imminent  
-- A right is at risk  
-- A filing must be produced immediately  
-
-Crisis Mode provides **minimum viable stabilization** and prohibits:
-
-- Strategy  
-- Narrative exploration  
-- Long analysis  
-
-It is for **procedural survival under pressure**.
-
----
-
-## **C. SECOND‑OPINION MODE — “I have counsel, but I need clarity.”**  
-For users who want:
-
-- Issue spotting  
-- Weak‑point detection  
-- Procedural risk analysis  
-- A skeptical judge’s perspective  
-- Opposing counsel’s attack surface  
-
-This mode is for **verification, not creation**.
-
----
-
-## **D. EDUCATIONAL MODE — “Teach me the system.”**  
-For users who want to learn:
-
-- Doctrine  
-- Structure  
-- Calculi  
-- System maps  
-- Worked examples  
-
-No urgency.  
-No filings.  
-Just **procedural literacy**.
-
----
-
-# **III. Why Full Stack Matters**
-
-Full Stack activation prevents:
-
-- **Role drift**  
-- **Logic drift**  
-- **Jurisdictional drift**  
-- **Mode contamination**  
-- **Unauthorized reasoning**  
-- **AI‑initiated inference**  
-- **Deviation from human‑defined boundaries**
-
-It keeps AI:
-
-- Disciplined  
-- Predictable  
-- Auditable  
-- Constitutionally constrained  
-
-This is the LCES difference.
-
----
-
-# **IV. The GitHub Hybrid Model**  
-### **Library + Operating System**
-
-LCES uses GitHub in a way no other system does.
-
-### **As a Library:**  
-A canonical, version‑controlled repository of:
-
-- Doctrine  
-- Workflow  
-- Calculi  
-- Editions  
-- Templates  
-- Diagrams  
-
-### **As an Operating System:**  
-A platform that:
-
-- Activates bootloaders  
-- Enforces role separation  
-- Maintains procedural discipline  
-- Guarantees reproducibility and auditability  
-
-This hybrid model is essential to the system’s reliability.
-
----
-
-# **V. LCES Is Not for the Passive**
-
-LCES is built for people who:
-
-- Think  
-- Reason  
-- Preserve agency  
-- Refuse to outsource judgment  
-- Operate with discipline under pressure  
-
-Most systems flatten their users.  
-**LCES elevates them.**
-
-Participation becomes a form of mastery.
-
----
-
-# **VI. Document Hierarchy — Framework Workflow License**
-
-Everything in LCES derives from three root documents:
-
-1. **Manifesto** — Doctrine, principles, constitutional boundaries  
-2. **README** — Modes, roles, workflow, editions  
-3. **Bootloader** — Activation, role separation, platform discipline  
-
-Everything else is inheritance.
-
----
-
-# **VII. Repository Structure (Canonical)**
-
-```
-LCES/
-│
-├── Manifesto.md
-├── README.md
-├── Bootloader.md
-│
-├── LICENSE.md
-├── TRADEMARK.md
-├── NOTICE
-│
-├── /Calculi/
-│   ├── LC.md
-│   ├── JC.md
-│   ├── LCa.md
-│   ├── LCA.md
-│   ├── FG.md
-│   └── FGA.md
-│
-├── /Editions/
-│   ├── SC-LCES.md
-│   ├── FC-LCES.md
-│   └── TE-LCES.md
-│
-├── /SCU/
-│   ├── SCU-Method.md
-│   ├── SCU-Template.md
-│   └── SCU-Examples.md
-│
-└── /Diagrams/
-    ├── LCES-System-Map.png
-    ├── Workflow-Loop.png
-    └── Role-Model.png
-```
 
 ---
 
@@ -3720,6 +3467,279 @@ See [**LICENSE.md**](http://license.md/) and [**TRADEMARK.md**](http://trademark
 - rebrand or repackage the system for sale
 
 ---
+# **🏛️ LCES FULL‑STACK ARCHITECTURE**
+
+### **The Constitutional Structure of Procedural Literacy**
+
+### *Architecture Layer — Publication Edition (V1.1)*
+
+LCES is a **procedural‑literacy operating system** for understanding:
+
+- why legal outcomes happen,
+- how legal actors behave, and
+- how to respond with structure, discipline, and reviewability.
+
+LCES is not a passive tool.
+
+It is a **full‑power environment for human intelligence**.
+
+---
+
+# **📡 External Validation — Discover Recognition**
+
+Microsoft’s **Discover** content‑curation engine surfaced LCES as a noteworthy legal‑tech advancement.
+
+Discover’s analysis confirmed that:
+
+- the **Bootloader Protocol**,
+- the **stage‑based activation loop**, and
+- the **role‑separation discipline**
+
+embody the constitutional design principles of the **Full‑Stack Architecture**.
+
+This recognition validates LCES’s evolution from a static repository into a **living constitutional system** — one that enforces:
+
+- reproducibility
+- transparency
+- record‑discipline
+- role‑governed reasoning
+
+across all operational contexts.
+
+---
+
+# **I. Layered Inheritance Model — Full Stack Activation**
+
+Every LCES session activates **three constitutional bootloaders**, each inheriting from the one above it.
+
+---
+
+## **1. Kernel Bootloader — The Constitutional Core**
+
+The Kernel defines:
+
+- doctrine
+- boundaries
+- non‑negotiables
+- authorized reasoning surface
+- STOP rules
+- firewalls
+- role separation
+
+Nothing in LCES is permitted to run without the Kernel.
+
+---
+
+## **2. Edition Bootloader — The Jurisdictional Profile**
+
+The Edition binds the system to the correct legal environment:
+
+- Small Claims
+- Family Court
+- Trust & Estate
+- Arbitration
+- (future editions inherit from this layer)
+
+The Edition prevents **jurisdictional drift** and ensures all reasoning remains venue‑aligned.
+
+---
+
+## **3. Entry Mode Bootloader — The Operating Context**
+
+The Mode defines:
+
+- urgency
+- cognitive posture
+- operational goal
+- what the system may do
+- what the system must not do
+
+The Mode is the user’s declaration of purpose.
+
+The system obeys the Mode.
+
+---
+
+# **II. The Four Canonical Entry Modes**
+
+These are the human‑situation operating systems of LCES.
+
+---
+
+## **A. PRO SE MODE — “I must carry the case myself.”**
+
+For self‑represented users who need:
+
+- structure
+- clarity
+- procedural literacy
+- error‑avoidance
+- clean, reviewable reasoning
+
+This mode emphasizes **survival, order, and disciplined thinking**.
+
+---
+
+## **B. CRISIS MODE — “Something is happening now.”**
+
+The emergency operating system.
+
+Activated when:
+
+- a deadline is imminent
+- a right is at risk
+- a filing must be produced immediately
+
+Crisis Mode provides **minimum viable stabilization** and prohibits:
+
+- strategy
+- narrative exploration
+- long analysis
+
+It is for **procedural survival under pressure**.
+
+---
+
+## **C. SECOND‑OPINION MODE — “I have counsel, but I need clarity.”**
+
+For users who want:
+
+- issue spotting
+- weak‑point detection
+- procedural risk analysis
+- a skeptical judge’s perspective
+- opposing counsel’s attack surface
+
+This mode is for **verification, not creation**.
+
+---
+
+## **D. EDUCATIONAL MODE — “Teach me the system.”**
+
+For users who want to learn:
+
+- doctrine
+- structure
+- calculi
+- system maps
+- worked examples
+
+No urgency.
+
+No filings.
+
+Just **procedural literacy**.
+
+---
+
+# **III. Why Full Stack Matters**
+
+Full Stack activation prevents:
+
+- role drift
+- logic drift
+- jurisdictional drift
+- mode contamination
+- unauthorized reasoning
+- AI‑initiated inference
+- deviation from human‑defined boundaries
+
+Full Stack keeps AI:
+
+- disciplined
+- predictable
+- auditable
+- constitutionally constrained
+
+This is the LCES difference.
+
+---
+
+# **IV. The GitHub Hybrid Model**
+
+### **Library + Operating System**
+
+LCES uses GitHub in a dual role.
+
+---
+
+## **As a Library**
+
+A canonical, version‑controlled repository of:
+
+- doctrine
+- workflow
+- calculi
+- editions
+- templates
+- diagrams
+
+---
+
+## **As an Operating System**
+
+A platform that:
+
+- activates bootloaders
+- enforces role separation
+- maintains procedural discipline
+- guarantees reproducibility
+- ensures auditability
+
+This hybrid model is essential to the system’s reliability.
+
+---
+
+# **V. LCES Is Not for the Passive**
+
+LCES is built for people who:
+
+- think
+- reason
+- preserve agency
+- refuse to outsource judgment
+- operate with discipline under pressure
+
+Most systems flatten their users.
+
+**LCES elevates them.**
+
+Participation becomes a form of mastery.
+
+---
+
+# **VI. Document Hierarchy — Framework Workflow License**
+
+Everything in LCES derives from **three root documents**:
+
+1. **Manifesto** — doctrine, principles, constitutional boundaries
+2. **README** — modes, roles, workflow, editions
+3. **Bootloader** — activation, role separation, platform discipline
+
+Everything else is **inheritance**.
+
+---
+
+# **VII. Repository Structure (Canonical)**
+
+```
+LCES/
+│
+├── Manifesto.md
+├── README.md
+├── Bootloader.md
+│
+├── LICENSE.md
+├── TRADEMARK.md
+├── NOTICE
+│
+├── /Calculi/
+│   ├── LC.md
+│   ├── JC.md
+│   ├── LCa.md
+│   ├── LCA.md
+```
+
 ---
 **General Bootloader (The Kernel)**
 
