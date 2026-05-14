@@ -6074,33 +6074,43 @@ Users must verify all documents, timelines, and fiduciary obligations.
 
 ---
 
-# **I. Edition Preamble — Arbitration Environment**
+**ARBITRATION CALCULUS — LEGAL CALCULUS EDUCATIONAL SYSTEM (AC‑LCES)**
 
-Arbitration is a **contract‑driven**, **rule‑bound**, **confidentiality‑restricted** environment with **compressed procedures** and **limited review**.
+### **VERSION 1.2 — ARBITRATION EDITION**
 
-Outcomes depend on:
+**Confidentiality‑Driven • Preservation‑Focused • Procedural Integrity**
 
-- procedural clarity,
-- scope discipline,
-- chronology stability,
-- and preservation sufficiency.
-
-AC‑LCES provides a structure that prevents **waiver**, **record instability**, **confidentiality breaches**, and **procedural drift**.
-
-### **Core Principle — Procedure Controls Reviewability**
+**LCES Legal Calculus Educational System™ — CC BY‑NC‑SA 4.0**
 
 ---
 
-# **II. Bootloader — AC‑LCES (V1.1)**
+# **I. Edition Preamble — Arbitration Environment**
 
-### **Activation → Structure → Preservation → Review**
+Arbitration is a **contract‑driven, rule‑bound, confidentiality‑restricted** environment with compressed procedures, limited discovery, and narrow reviewability.
+
+Outcomes depend on:
+
+- procedural clarity
+- scope discipline
+- chronology stability
+- preservation sufficiency
+
+AC‑LCES provides a structure that prevents waiver, record instability, confidentiality breaches, and procedural drift.
+
+**Core Principle — Procedure Controls Reviewability**
+
+---
+
+# **II. Bootloader — AC‑LCES (V1.2)**
+
+### Activation → Structure → Preservation → Review
 
 ## **Platform–Role Declaration (Mandatory)**
 
-- **Architect AI → GitHub Copilot Pro (desktop)**
-- **Builder AI → ChatGPT**
-- **Inspector AI → adversarial model**
-- **Human Strategist → You**
+- **Architect AI** → GitHub Copilot Pro (desktop)
+- **Builder AI** → ChatGPT
+- **Inspector AI** → adversarial model
+- **Human Strategist** → You
 
 ## **Non‑Negotiables (AC‑LCES)**
 
@@ -6115,9 +6125,40 @@ AC‑LCES provides a structure that prevents **waiver**, **record instability**,
 
 ---
 
-# **III. LEGAL‑RISK WARNING — Arbitration Calculus™**
+# **III. STOP RULE — Arbitration Calculus™ (Mandatory)**
 
-Arbitration operates under **contractual authority**, **forum‑specific rules**, **compressed procedures**, and **limited review standards**.
+No drafting may begin unless **ALL** conditions are satisfied:
+
+□ Arbitration agreement located
+
+□ Governing rules identified (AAA, JAMS, FINRA, AHLA, contract‑specific)
+
+□ Scope of arbitration confirmed
+
+□ Carve‑outs identified
+
+□ Procedural posture known
+
+□ Hearing type known (desk, hybrid, evidentiary)
+
+□ Chronology complete and coherent
+
+□ Confidentiality obligations verified
+
+□ Preservation posture declared
+
+**If any condition fails → Architect STOP → Builder STOP → Inspector STOP**
+
+---
+
+# **IV. LEGAL‑RISK WARNING — Arbitration Calculus™**
+
+Arbitration operates under:
+
+- contractual authority
+- forum‑specific rules
+- compressed procedures
+- limited review standards
 
 Different arbitration forums apply different:
 
@@ -6133,7 +6174,7 @@ Failure to understand:
 - procedural deadlines
 - preservation requirements
 
-may result in **waiver**, **exclusion**, **sanctions**, or **loss of review options**.
+may result in waiver, exclusion, sanctions, or loss of review options.
 
 Users must verify:
 
@@ -6146,7 +6187,7 @@ before submitting materials.
 
 ---
 
-# **IV. SAFETY — Arbitration Calculus™**
+# **V. SAFETY — Arbitration Calculus™**
 
 Arbitration requires:
 
@@ -6192,11 +6233,11 @@ Safety means preventing:
 
 ---
 
-# **V. DO NOT FILE IF — Arbitration Calculus™**
+# **VI. DO NOT FILE IF — Arbitration Calculus™**
 
 ### **Tier 2 — Absolute Prohibitions**
 
-Do **not** proceed if:
+Do not proceed if:
 
 □ Governing arbitration rules are unknown
 
@@ -6220,7 +6261,7 @@ Do **not** proceed if:
 
 ---
 
-# **VI. RED FLAGS — Arbitration Calculus™**
+# **VII. RED FLAGS — Arbitration Calculus™**
 
 ### **Tier 3 — Instability Indicators**
 
@@ -6246,53 +6287,53 @@ Do **not** proceed if:
 
 ---
 
-# **VII. Calculi Adaptation — AC‑LCES**
+# **VIII. Calculi Adaptation — AC‑LCES**
 
-### **Procedural Calculus**
+## **Procedural Calculus**
 
 Forum rules and contractual authority govern structure.
 
-### **Preservation Calculus**
+## **Preservation Calculus**
 
 Clarity and timing determine reviewability.
 
-### **Discovery Calculus**
+## **Discovery Calculus**
 
 Discovery is limited, discretionary, and proportional.
 
-### **Structural Calculus**
+## **Structural Calculus**
 
 Chronology and record architecture shape outcomes.
 
-### **Confidentiality Calculus**
+## **Confidentiality Calculus**
 
 Protected information requires strict governance.
 
-### **Review Calculus**
+## **Review Calculus**
 
 Not every unfavorable ruling is reviewable.
 
-### **Human Governance Calculus**
+## **Human Governance Calculus**
 
 AI assists structure; humans retain responsibility.
 
 ---
 
-# **VIII. SCU Template — AC‑LCES**
+# **IX. SCU Template — AC‑LCES**
 
-1. Arbitration forum
-2. Governing rules
-3. Procedural posture
-4. Scope of arbitration
-5. Hearing type
-6. Chronology
-7. Preservation issues
-8. Confidentiality review
-9. Relief requested
+- Arbitration forum
+- Governing rules
+- Procedural posture
+- Scope of arbitration
+- Hearing type
+- Chronology
+- Preservation issues
+- Confidentiality review
+- Relief requested
 
 ---
 
-# **IX. Evidence Pack — AC‑LCES**
+# **X. Evidence Pack — AC‑LCES**
 
 - Procedural orders
 - Scheduling notices
@@ -6305,55 +6346,55 @@ AI assists structure; humans retain responsibility.
 
 ---
 
-# **X. SCU Extraction Wizard — AC‑LCES**
+# **XI. SCU Extraction Wizard — AC‑LCES**
 
-- What arbitration forum governs?
-- What rules apply?
-- What issues are within scope?
-- What hearing type exists?
-- What is the procedural posture?
-- What filings or orders matter?
-- What preservation issues exist?
-- What confidentiality boundaries apply?
-- What relief is requested?
+1. What arbitration forum governs?
+2. What rules apply?
+3. What issues are within scope?
+4. What hearing type exists?
+5. What is the procedural posture?
+6. What filings or orders matter?
+7. What preservation issues exist?
+8. What confidentiality boundaries apply?
+9. What relief is requested?
 
 ---
 
-# **XI. Filing Checklist — AC‑LCES**
+# **XII. Filing Checklist — AC‑LCES**
 
-### **1. Forum Verification**
+## **1. Forum Verification**
 
 Correct forum, rules, posture
 
-### **2. Scope Verification**
+## **2. Scope Verification**
 
 Claims + authority boundaries identified
 
-### **3. Chronology**
+## **3. Chronology**
 
 Complete, coherent, evidence‑supported
 
-### **4. Confidentiality**
+## **4. Confidentiality**
 
 Protected materials excluded; privilege reviewed
 
-### **5. Preservation**
+## **5. Preservation**
 
 Specific, timely, structurally framed
 
-### **6. Filing**
+## **6. Filing**
 
 Submit → Preserve → Calendar deadlines → Monitor orders
 
 ---
 
-# **XII. First Case Walkthrough — AC‑LCES**
+# **XIII. First Case Walkthrough — AC‑LCES**
 
 ### **Scenario**
 
 Court‑compelled employment arbitration with limited discovery and desk briefing.
 
-### **Step 1 — SCU**
+**Step 1 — SCU**
 
 Forum → administrator
 
@@ -6365,29 +6406,29 @@ Chronology → orders + filings
 
 Preservation → threshold concerns
 
-### **Step 2 — Architect**
+**Step 2 — Architect**
 
 Blueprint: forum, rules, scope, timeline, discovery posture, preservation map, relief
 
-### **Step 3 — Research**
+**Step 3 — Research**
 
 Verify rules, confidentiality, posture, chronology
 
-### **Step 4 — Builder**
+**Step 4 — Builder**
 
 Draft procedural notices, chronology, preservation filings
 
-### **Step 5 — Inspector**
+**Step 5 — Inspector**
 
 Stress‑test clarity, chronology, preservation, confidentiality
 
-### **Step 6 — Strategist**
+**Step 6 — Strategist**
 
 Review → Decide → File
 
 ---
 
-# **XIII. Readiness Test — AC‑LCES**
+# **XIV. Readiness Test — AC‑LCES**
 
 You are ready ONLY if:
 
@@ -6413,21 +6454,64 @@ You are ready ONLY if:
 
 ---
 
-# **XIV. NOTICE — AC‑LCES (V1.1)**
+# **XV. Pipeline Diagram — AC‑LCES (V1.2)**
 
-This Edition is part of the **LCES Legal Calculus Educational System™**.
+```
+STOP RULE
+   ↓
+Confidentiality → Preservation → Scope → Hearing Type
+   ↓
+Architect (Structure)
+   ↓
+Research (Rules + Agreement)
+   ↓
+Builder (Drafting)
+   ↓
+Inspector (Attack)
+   ↓
+Strategist (Decision)
+   ↓
+New Information → Restart Architect
+```
+
+---
+
+# **XVI. Runtime Enforcement — AC‑LCES (V1.2)**
+
+```
+If agreement missing → STOP.
+If rules unknown → STOP.
+If scope unclear → STOP.
+If chronology incomplete → STOP.
+If confidentiality breached → STOP.
+If hearing type unknown → STOP.
+If waiver risk detected → FLAG.
+If protected materials appear → STOP.
+
+No drafting may occur until all STOP conditions are cleared.
+```
+
+---
+
+# **XVII. NOTICE — AC‑LCES (V1.2)**
+
+This Edition is part of the LCES Legal Calculus Educational System™.
 
 No confidential, privileged, or protected materials may be uploaded into public AI systems.
 
 ---
 
-# **XV. DISCLAIMER — AC‑LCES (V1.1)**
+# **XVIII. DISCLAIMER — AC‑LCES (V1.2)**
 
-This Edition provides a **procedural‑literacy framework** for arbitration.
+This Edition provides a procedural‑literacy framework for arbitration.
 
-It does **not** provide legal advice or predict outcomes.
+It does not provide legal advice or predict outcomes.
 
 Users remain responsible for confidentiality, privilege review, procedural verification, and forum‑specific compliance.
+- 
+
+
+
 
 # 🗺 **System Identity**
 
