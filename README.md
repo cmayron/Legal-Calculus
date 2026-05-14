@@ -5860,6 +5860,13 @@ See [**LICENSE.md**](http://license.md/) and [**TRADEMARK.md**](http://trademark
 - rebrand or repackage the system for sale
 
 ---
+
+---
+
+**SUPPLEMENTALS**
+Articles and Commrnts from
+lawyers and developers 
+
 # **🏛️ LCES FULL‑STACK ARCHITECTURE**
 
 ### **The Constitutional Structure of Procedural Literacy**
