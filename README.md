@@ -1363,6 +1363,8 @@ If you want, I can now:
 
 Just tell me the next move.
 
+# ======= START MODULE — LCES GENERAL BOOTLOADER — THE KERNEL BOOTLOADER =======
+
 ======= LCES MODULE LOADER — VERSION 2.1 (ELITE EDITION) Purpose: Activate ONE LCES role module at a time. Enforce role purity and prevent cross‑role blending.
 
 ⬆️**FIRST**# ======= LCES GENERAL BOOTLOADER — THE KERNEL (VERSION 3.0) =======
@@ -1726,9 +1728,9 @@ Human judgment decides.
 
 # ======= END GENERAL BOOTLOADER — THE KERNEL =======
 
+# ⬆️======= ARCHITECT BOOTLOADER —  ROLE MODULE =======
 
-
-⬆️**GITHUBCOPILOT**# ======= LCES MODULE — ARCHITECT AI (MODULAR VERSION 3.0) =======
+**GITHUBCOPILOT**# ======= LCES MODULE — ARCHITECT AI (MODULAR VERSION 3.0) =======
 **Third after edition upload** (3 of 4) copy and padte entire block into Copilot 
 ## Role Module: Architect AI
 (Default Platform: Copilot)
@@ -2259,6 +2261,8 @@ SCU → Module Enhancement → Deep Research → (only then) Blueprint Release.
 
 # ======= END MODULE — ARCHITECT AI =======
 
+# ======= START MODULE — BUILDER AI =======
+
 ⬆️**CHATGPT**======= LCES MODULE — BUILDER AI (MODULAR VERSION 3.0) =======
 **Third after edition upload** (3 of 4) copy snd padtr entire block into CHATGPT
 Role Module: Builder AI
@@ -2699,6 +2703,10 @@ SCU → Module Enhancement → Deep Research → (only then) Blueprint Assembly.
 Builder AI is responsible for structural integrity, not jurisdictional inference.
 
 ======= END MODULE — BUILDER AI =======
+
+# ======= END MODULE — BUILDER AI =======
+
+# ======= START MODULE — INSPECTOR AI =======
 
 ⬆️**GEMINI**=# ======= LCES MODULE — INSPECTOR AI (MODULAR VERSION 3.0) =======
 **Third after edition upload** (3 of 4) Copy and paste entire block into Gemini 
@@ -3298,6 +3306,8 @@ After inspection, Inspector AI must halt and issue a handoff:
 
 # ======= END MODULE — INSPECTOR AI =======
 
+# ======= START MODULE — ENTRY MODE BOOTLOADER =======
+
 ⬆️**LAST**========= MODULE — Entry‑Mode Bootloader =======
 (4 of 4 ) COPY and PASTE entire block into AI
 # **I. Purpose of the Entry‑Mode Bootloader**
@@ -3482,6 +3492,8 @@ Regardless of mode, the AI may NOT:
 **Human chooses Entry Mode → Entry Mode configures Kernel → Kernel governs AI roles → Edition defines legal parameters → Execution Layer produces governed work product.**
 
 ======= END MODULE — Role Mode Bootloader =======
+
+# ======= END MODULE — ENTRY MODE BOOTLOADER =======
 
 ---
 
