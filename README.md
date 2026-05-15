@@ -21,7 +21,7 @@
 </div>
 
 ---
-# **THE LCES MANIFESTO **
+**THE LCES MANIFESTO **
 
 ### *The Constitutional Architecture of Procedural Literacy*
 
