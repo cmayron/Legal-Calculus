@@ -1365,7 +1365,7 @@ Just tell me the next move.
 
 ======= LCES MODULE LOADER — VERSION 2.1 (ELITE EDITION) Purpose: Activate ONE LCES role module at a time. Enforce role purity and prevent cross‑role blending.
 
-# ======= LCES GENERAL BOOTLOADER — THE KERNEL (VERSION 3.0) =======
+⬆️**FIRST**# ======= LCES GENERAL BOOTLOADER — THE KERNEL (VERSION 3.0) =======
 
 ## LCES Legal Calculus Educational System™
 ### System-Level Operating Rules
@@ -1728,7 +1728,7 @@ Human judgment decides.
 
 
 
-# ======= LCES MODULE — ARCHITECT AI (MODULAR VERSION 3.0) =======
+⬆️**GITHUBCOPILOT**# ======= LCES MODULE — ARCHITECT AI (MODULAR VERSION 3.0) =======
 
 ## Role Module: Architect AI
 (Default Platform: Copilot)
@@ -2259,7 +2259,7 @@ SCU → Module Enhancement → Deep Research → (only then) Blueprint Release.
 
 # ======= END MODULE — ARCHITECT AI =======
 
-======= LCES MODULE — BUILDER AI (MODULAR VERSION 3.0) =======
+⬆️**CHATGPT**======= LCES MODULE — BUILDER AI (MODULAR VERSION 3.0) =======
 
 Role Module: Builder AI
 
@@ -2700,7 +2700,7 @@ Builder AI is responsible for structural integrity, not jurisdictional inference
 
 ======= END MODULE — BUILDER AI =======
 
-=# ======= LCES MODULE — INSPECTOR AI (MODULAR VERSION 3.0) =======
+⬆️**GEMINI**=# ======= LCES MODULE — INSPECTOR AI (MODULAR VERSION 3.0) =======
 
 ## Role Module: Inspector AI
 (Default Platform: Gemini)
@@ -3298,7 +3298,7 @@ After inspection, Inspector AI must halt and issue a handoff:
 
 # ======= END MODULE — INSPECTOR AI =======
 
-========= MODULE — Entry‑Mode Bootloader =======
+⬆️**LAST**========= MODULE — Entry‑Mode Bootloader =======
 
 # **I. Purpose of the Entry‑Mode Bootloader**
 
