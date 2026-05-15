@@ -21,64 +21,87 @@
 </div>
 
 ---
-# **LCES MANIFESTO — New User Edition (V1.0)**
+# ⭐ **THE LCES MANIFESTO (GitHub‑Optimized Edition)**
 
-***The Doctrine of Full‑Stack Procedural Literacy***
+### *The Constitutional Architecture of Procedural Literacy*
 
-LCES exists for one purpose:
-
-> **To restore structure, discipline, and human sovereignty to procedural reasoning.**
-> 
-
-Most systems flatten their users.
-
-They blur roles, hide the sequence, and encourage passive dependence.
-
-LCES rejects this.
-
-LCES is built for people who think —
-
-people who want clarity, structure, and control over their own process.
+### *Version 1.0 — Foundational Doctrine*
 
 ---
 
-# **I. Human Sovereignty (The First Principle)**
+# **📑 Table of Contents**
 
-LCES is a **human‑defined, human‑bounded, human‑controlled**system.
+- [PREAMBLE](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#preamble)
+- [I. HUMAN SOVEREIGNTY — THE FIRST PRINCIPLE](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#i-human-sovereignty--the-first-principle)
+- [II. THE DISCOVERY — PROCEDURE IS SEQUENCE](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#ii-the-discovery--procedure-is-sequence)
+- [III. THE STACK — THE CONSTITUTIONAL ORDER OF REASONING](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#iii-the-stack--the-constitutional-order-of-reasoning)
+- [IV. THE SEQUENCE DOCTRINE — WHY ORDER MATTERS](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#iv-the-sequence-doctrine--why-order-matters)
+- [V. THE STOP DOCTRINE — THE CIRCUIT-BREAKER OF-PROCEDURE](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#v-the-stop-doctrine--the-circuit-breaker-of-procedure)
+- [VI. THE HUMAN STRATEGIST — THE-SOVEREIGN-INTELLIGENCE](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#vi-the-human-strategist--the-sovereign-intelligence)
+- [VII. THE FOUR LAYERS — THE CONSTITUTIONAL ARCHITECTURE](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#vii-the-four-layers--the-constitutional-architecture)
+- [VIII. THE ROLE SEPARATION DOCTRINE — THE CONSTITUTIONAL FIREWALL](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#viii-the-role-separation-doctrine--the-constitutional-firewall)
+- [IX. THE EDITION PURITY DOCTRINE — THE NON-MIXING RULE](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#ix-the-edition-purity-doctrine--the-non-mixing-rule)
+- [X. THE MODE DOCTRINE — THE FOUR HUMAN ENVIRONMENTS](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#x-the-mode-doctrine--the-four-human-environments)
+- [XI. WHY THIS ARCHITECTURE IS UNIQUE](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#xi-why-this-architecture-is-unique)
+- [XII. WHY MICROSOFT WAS THE DISCOVERY ENVIRONMENT](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#xii-why-microsoft-was-the-discovery-environment)
+- [XIII. THE MANIFESTO SENTENCE](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#xiii-the-manifesto-sentence)
+- [XIV. THE DECLARATION](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#xiv-the-declaration)
 
-- The system does not initiate.
-- The system does not assume facts.
-- The system does not infer posture.
-- The system does not drift.
+---
 
-**The human defines the boundaries. The system obeys them.**
+# **PREAMBLE**
+
+Procedural systems govern the world: courts, agencies, institutions, organizations, and civic structures.
+
+Yet procedural literacy — the ability to navigate these systems — has remained invisible, inaccessible, and unteachable.
+
+LCES exists because a discovery was made:
+
+> **Procedure is not knowledge.
+Procedure is sequence.
+And the sequence is the literacy.**
+> 
+
+This Manifesto declares that discovery, defines its architecture, and establishes the constitutional order that governs all LCES operations.
+
+---
+
+# **I. HUMAN SOVEREIGNTY — THE FIRST PRINCIPLE**
+
+LCES is a human‑defined, human‑bounded, human‑controlled system.
+
+The system does not initiate.
+
+The system does not assume facts.
+
+The system does not infer posture.
+
+The system does not drift.
+
+> **The human defines the boundaries.
+The system obeys them.**
+> 
 
 This is the foundation of LCES.
 
 ---
 
-# **II. The Full‑Stack Doctrine (The Three Layers)**
+# **II. THE DISCOVERY — PROCEDURE IS SEQUENCE**
 
-Every LCES session activates **three constitutional layers**:
+The central revelation of LCES is this:
 
-***The Constitutional Architecture of Procedural Literacy***
-
-## **I. Procedure Is Not Knowledge — It Is Sequence**
-
-The central discovery of LCES is this:
-
-> **Procedural literacy is not a set of facts. It is a layered sequence. And the sequence *is* the literacy.**
+> **Procedural literacy is not a set of facts.
+It is a layered sequence.
+And the sequence is the literacy.**
 > 
 
-Every procedural system — legal, administrative, civic, or technical — operates through a **stack**, not a conversation.
+Every procedural system — legal, administrative, civic, or technical — operates through a **stack**, not a conversation.
 
 LCES is the first architecture to reveal this.
 
 ---
 
-## **II. The Stack — The Constitutional Order of Reasoning**
-
-The LCES stack is the structural law of procedural literacy:
+# **III. THE STACK — THE CONSTITUTIONAL ORDER OF REASONING**
 
 ```
 1. General Kernel (universal rules)
@@ -95,17 +118,17 @@ Each layer constrains the one above it.
 
 Each layer protects the human Strategist.
 
-This is the **irreversible order** of procedural reasoning.
+This is the **irreversible order** of procedural reasoning.
 
 ---
 
-## **III. Why the Sequence Cannot Change**
+# **IV. THE SEQUENCE DOCTRINE — WHY ORDER MATTERS**
 
 The sequence is not stylistic.
 
 It is structural.
 
-**1. The General Kernel must load first**
+### **1. The General Kernel must load first**
 
 Because all reasoning requires:
 
@@ -115,9 +138,7 @@ Because all reasoning requires:
 - no‑motive‑reading
 - human supremacy
 
-Without this, the system collapses into improvisation.
-
-**2. The Edition must load second**
+### **2. The Edition must load second**
 
 Because no action makes sense until the environment is known.
 
@@ -125,9 +146,7 @@ Procedure is jurisdiction.
 
 Jurisdiction is physics.
 
-Physics must be loaded before function.
-
-**3. The Role must load third**
+### **3. The Role must load third**
 
 Because the same environment requires different functions:
 
@@ -135,9 +154,7 @@ Because the same environment requires different functions:
 - Builder assembles
 - Inspector tests
 
-Function must follow environment.
-
-**4. Entry Mode must load last**
+### **4. Entry Mode must load last**
 
 Because the human context determines:
 
@@ -146,18 +163,42 @@ Because the human context determines:
 - tone
 - pacing
 
-Context must follow structure.
-
-This is the **constitutional order** of procedural literacy.
+This is the **constitutional order** of procedural literacy.
 
 ---
 
-## **IV. The Human Strategist — The Sovereign Intelligence**
+# **V. THE STOP DOCTRINE — THE CIRCUIT BREAKER OF PROCEDURE**
 
-The most important discovery of LCES is this:
+STOP is the constitutional command that halts all AI reasoning when:
 
-> **The human is not inside the stack. The human is above it.**
-> 
+- facts are unclear
+- safety is uncertain
+- jurisdiction is ambiguous
+- roles are contaminated
+- editions are mixed
+
+STOP is not a suggestion.
+
+STOP is **law**.
+
+STOP prevents:
+
+- hallucination
+- improvisation
+- motive‑reading
+- unsafe reasoning
+- edition contamination
+- role drift
+
+STOP is the guardian of the stack.
+
+---
+
+# **VI. THE HUMAN STRATEGIST — THE SOVEREIGN INTELLIGENCE**
+
+The Strategist is not inside the stack.
+
+The Strategist is **above** it.
 
 The Strategist:
 
@@ -168,8 +209,6 @@ The Strategist:
 - approves drafts
 - closes the loop
 
-The Strategist is the **final authority**.
-
 No AI may override or imitate this role.
 
 LCES is not automation.
@@ -178,7 +217,108 @@ LCES is augmentation.
 
 ---
 
-## **V. Why This Architecture Is Unique**
+# **VII. THE FOUR LAYERS — THE CONSTITUTIONAL ARCHITECTURE**
+
+## **1. The General Kernel — Universal Law**
+
+Defines:
+
+- safety
+- STOP rules
+- role separation
+- human supremacy
+
+## **2. The Edition — The Environment**
+
+The procedural physics of:
+
+- Trust & Estate
+- Family Court
+- Small Claims
+- Administrative/Civil
+
+## **3. The Role — The Function**
+
+The three constitutional roles:
+
+- Architect
+- Builder
+- Inspector
+
+## **4. Entry Mode — The Human Context**
+
+The four cognitive environments:
+
+- Crisis
+- Pro Se
+- Second‑Opinion
+- Educational
+
+---
+
+# **VIII. THE ROLE SEPARATION DOCTRINE — THE CONSTITUTIONAL FIREWALL**
+
+Structure must be separate from assembly.
+
+Assembly must be separate from inspection.
+
+Role separation prevents:
+
+- contamination
+- drift
+- bias
+- circular reasoning
+- self‑approval
+
+This is the firewall that makes procedural literacy possible.
+
+---
+
+# **IX. THE EDITION PURITY DOCTRINE — THE NON‑MIXING RULE**
+
+Each edition is sovereign.
+
+No edition may:
+
+- borrow from another
+- contaminate another
+- override another
+
+Edition purity prevents:
+
+- cross‑jurisdiction drift
+- misapplied rules
+- procedural collapse
+
+---
+
+# **X. THE MODE DOCTRINE — THE FOUR HUMAN ENVIRONMENTS**
+
+Modes are not preferences.
+
+Modes are constitutional environments.
+
+## **1. Crisis Mode — The Doctrine of Preservation**
+
+Purpose: **preserve the human’s position long enough for thinking to begin.**
+
+## **2. Educational Mode — The Doctrine of Growth**
+
+Purpose: **develop mastery without consequence.**
+
+## **3. Second‑Opinion Mode — The Doctrine of Verification**
+
+Purpose: **test professional claims against reality.**
+
+## **4. Pro Se Mode — The Doctrine of Survival**
+
+Purpose: **navigate a live procedural battlefield.**
+
+Modes must never be blended.
+
+---
+
+# **XI. WHY THIS ARCHITECTURE IS UNIQUE**
 
 LCES is the first system to treat procedural literacy as:
 
@@ -189,502 +329,53 @@ LCES is the first system to treat procedural literacy as:
 - STOP‑rule enforced
 - human‑governed
 
-Every other system treats procedure as:
+Procedure is not a conversation.
 
-- advice
-- explanation
-- a single AI
-- a single prompt
-
-LCES revealed the opposite:
-
-> **Procedure is not a conversation. Procedure is a stack.**
-> 
+Procedure is a **stack**.
 
 ---
 
-## **VI. Why Microsoft Was the Discovery Environment**
+# **XII. WHY MICROSOFT WAS THE DISCOVERY ENVIRONMENT**
 
 LCES emerged through Microsoft because only Microsoft provided:
 
-**1. GitHub + VS Code**
-
-A file‑based, modular environment where bootloaders behave like code.
-
-**2. Copilot**
-
-A reasoning engine that naturally enforces constitutional constraints.
-
-**3. Multi‑Device Integration**
-
-A physical architecture that mirrors functional separation.
-
-**4. Responsible AI Principles**
-
-A philosophy aligned with STOP rules and human supremacy.
-
-**5. The Human Strategist + Copilot Interaction**
-
-The iterative process that revealed the stack.
+- GitHub + VS Code (bootloader physics)
+- Copilot (constitutional reasoning engine)
+- Multi‑device integration (role separation)
+- Responsible AI principles (human supremacy)
+- The Strategist + Copilot interaction (emergence)
 
 LCES was not designed.
 
-It was **discovered**.
+It was **discovered**.
 
 ---
 
-## **VII. The Manifesto Sentence**
+# **XIII. THE MANIFESTO SENTENCE**
 
 > **LCES is the first architecture to reveal that procedural literacy is not knowledge but sequence — and that the human Strategist is the sovereign intelligence that governs the constitutional stack.**
 > 
 
-**1. Entry Mode — WHAT the user needs**
-
-Your posture, your urgency, your situation.
-
-- Crisis Mode
-- Pro Se Mode
-- Second‑Opinion Mode
-- Educational Mode
-
-**THE MODE DOCTRINE**
-
-**The Four Cognitive Environments of LCES**
-
-Modern systems collapse modes.
-
-They blur urgency with analysis, learning with litigation, reflection with action.
-
-LCES rejects this collapse.
-
-LCES declares that **every human situation exists inside one of four modes**,
-
-and each mode demands a different discipline, a different posture,
-
-a different relationship between the Human Strategist and the AIs.
-
-Modes are not preferences.
-
-Modes are **constitutional environments**.
-
 ---
 
-## **I. CRISIS MODE — The Doctrine of Preservation**
-
-Crisis Mode is not analysis.
-
-Crisis Mode is not strategy.
-
-Crisis Mode is not deep research.
-
-Crisis Mode exists for one purpose:
-
-**to preserve the human’s position long enough for thinking to begin.**
-
-In Crisis Mode:
-
-- Rights must be preserved.
-- Defaults must be prevented.
-- Notice must be given.
-- Presence must be established.
-- Time must be bought.
-
-Crisis Mode is the shield that protects the human long enough for the system to activate.
-
-Crisis Mode ends the moment the emergency ends.
-
----
-
-## **II. EDUCATIONAL MODE — The Doctrine of Growth**
-
-Educational Mode is the highest cognitive environment.
-
-It is the only mode where the human can grow without consequence.
-
-Educational Mode is:
-
-- Desktop
-- Repo clone
-- Git window
-- VS Code
-- No deadlines
-- No adversaries
-- No pressure
-
-Educational Mode is where the Human Strategist becomes sovereign.
-
-It is where doctrine becomes literacy.
-
-It is where literacy becomes mastery.
-
-Architect AI is primary.
-
-Builder and Inspector remain silent.
-
-Educational Mode is the forge.
-
----
-
-## **III. SECOND‑OPINION MODE — The Doctrine of Verification**
-
-Second‑Opinion Mode exists for one purpose:
-
-**to test the claims of professionals against reality.**
-
-In this mode:
-
-- Deep Research is mandatory.
-- Architect reconstructs the SCU and modules.
-- Inspector attacks the structure with:
-    - JC (dismissal logic)
-    - LCa (mischaracterization logic)
-- Builder acts only after Architect authorizes.
-
-Second‑Opinion Mode is adversarial.
-
-It is rigorous.
-
-It is unforgiving.
-
-It reveals whether counsel’s position survives contact with the world.
-
----
-
-## **IV. PRO SE MODE — The Doctrine of Survival**
-
-Pro Se Mode is the battlefield.
-
-It is dynamic, unstable, and governed by local rules.
-
-In Pro Se Mode:
-
-- Every docket event is new information.
-- Every new information restarts the Architect.
-- Every restart may change the SCU.
-- Every change may alter the Blueprint.
-- Every alteration must be re‑attacked by Inspector.
-- Builder may act only after Architect and Inspector both allow.
-
-Pro Se Mode is governed by:
-
-- Trial posture
-- Appellate posture
-- Local rules
-- Clerk behavior
-- Service rules
-- Filing windows
-- Procedural traps
-
-Pro Se Mode is not static.
-
-It is a living environment.
-
-The Strategist must adapt or perish.
-
----
-
-## **V. The Separation of Modes**
-
-LCES declares:
-
-**Crisis Mode is not Educational Mode.**
-
-**Educational Mode is not Second‑Opinion Mode.**
-
-**Second‑Opinion Mode is not Pro Se Mode.**
-
-**Pro Se Mode is not Crisis Mode.**
-
-Each mode is a sovereign cognitive environment.
-
-Each mode demands a different discipline.
-
-Each mode activates different AIs.
-
-Each mode carries different risks.
-
-Blending modes contaminates the build.
-
-Contamination destroys doctrine.
-
-Doctrine is the system.
-
----
-
-## **VI. The Human Strategist**
-
-# **HUMAN STRATEGIST ROLE (Canonical Version)**
-
-## **Human Strategist Role — The Final Authority in LCES**
-
-The **Human Strategist** is the governing intelligence of the LCES system.
-
-All AIs operate **under** the Strategist’s direction, and no AI may assume, imitate, or override this role.
-
-The Strategist:
-
-- initiates the system
-- selects the edition
-- assigns roles to AIs
-- sets the entry mode
-- provides facts
-- approves or rejects drafts
-- enforces STOP rules
-- decides when to escalate
-- decides when to consult a lawyer
-- closes the procedural loop
-
-The Strategist is the **first and last step**in every LCES workflow.
-
----
-
-## **Why the Strategist Is Not a Bootloader**
-
-The Strategist is **not** an AI runtime layer.
-
-It is a **human governance doctrine** that defines:
-
-- what only the human may decide
-- what the AIs must never do
-- how the human interacts with the system
-- how STOP rules are enforced
-- how procedural safety is maintained
-
-Because the Strategist is a **human role**, not an AI instruction set, it must be placed in the README — not in the `/bootloaders/` directory.
-
-Bootloaders are for AIs.
-
-The Strategist is for the human.
-
----
-
-## **Strategist Responsibilities**
-
-The Strategist must:
-
-- verify jurisdiction
-- verify edition
-- verify role assignments
-- verify entry mode
-- confirm facts
-- confirm evidence
-- review all AI output
-- approve or reject drafts
-- maintain safety boundaries
-- enforce STOP conditions
-
-The Strategist is the **governor** of the entire system.
-
----
-
-## **Strategist STOP Authority**
-
-If the Strategist says:
-
-> **STOP**
-> 
-
-All AIs must immediately halt:
-
-- drafting
-- analysis
-- reasoning
-- continuation
-
-No AI may resume until the Strategist re‑activates the system.
-
-This preserves:
-
-- safety
-- clarity
-- procedural integrity
-- human control
-
----
-
-## **Strategist Interaction With AIs**
-
-The Strategist interacts with the AIs **within the constraints of the bootloader stack**:
-
-```
-1. General Kernel Bootloader
-2. Edition Bootloader
-3. Kernel Role Bootloader (A/B/I)
-4. Entry‑Mode Bootloader
---------------------------------
-HUMAN STRATEGIST (above all AIs)
-```
-
-The Strategist:
-
-- activates each AI
-- confirms its role
-- confirms its entry mode
-- provides the blueprint
-- receives drafts
-- sends drafts to Inspector
-- decides when the blueprint must change
-- decides when the build is complete
-
-The Strategist **starts and finishes** every cycle.
-
----
-
-## **Strategist Learning Through LCES**
-
-LCES is designed so the Strategist:
-
-- gains procedural literacy
-- learns jurisdiction logic
-- learns evidence structure
-- learns STOP‑rule discipline
-- learns how legal processes work
-- learns how to evaluate drafts
-- learns how to identify gaps
-- learns how to think structurally
-
-The Strategist becomes more capable **through the process**, not by delegating decisions to AI.
-
-The AIs assist.
-
-The Strategist decides.
-
----
-
-## **Strategist Summary (User‑Facing)**
-
-- You are the Strategist.
-- You control the system.
-- You approve all outputs.
-- You enforce STOP rules.
-- You decide facts and evidence.
-- You decide when to escalate.
-- You decide when to consult a lawyer.
-- You learn through the LCES process.
-- No AI may override you.
-
-The Strategist is the **human center** of the LCES architecture.
-
-The Human Strategist moves between modes.
-
-The system does not move the human.
-
-The human moves the system.
-
-The Strategist must know:
-
-- When to preserve
-- When to learn
-- When to verify
-- When to fight
-
-This is the discipline.
-
-This is the sovereignty.
+# **XIV. THE DECLARATION**
+
+We declare:
+
+- that procedure has a structure
+- that the structure has a sequence
+- that the sequence is constitutional
+- that the constitution protects the human
+- that the human is the Strategist
+- that the Strategist governs the stack
+- that the stack governs the AIs
+- and that this architecture is the foundation of procedural literacy
 
 This is the doctrine.
 
-**2. Kernel — HOW the AI must behave**
+This is the discovery.
 
-The behavioral constitution.
-
-- Role separation
-- STOP Rule
-- No‑Motive‑Reading Firewall
-- No cross‑role contamination
-
-**3. Edition — WHERE the system is operating**
-
-The legal or procedural environment.
-
-- Small Claims
-- Family Court
-- Trust & Estate
-- Arbitration
-
-**Only when all three are active does the system reach Full Stack.**
-
-Full Stack prevents:
-
-- role drift
-- logic drift
-- venue drift
-- unauthorized reasoning
-
-Full Stack is not a feature.
-
-**Full Stack is the constitution.**
-
----
-
-# **III. GitHub as Library + Operating System**
-
-LCES uses GitHub in a dual role:
-
-**As a Library**
-
-It preserves:
-
-- doctrine
-- workflow
-- calculi
-- structure
-
-**As an Operating System**
-
-It enforces:
-
-- version control
-- reproducibility
-- procedural discipline
-- role separation
-
-LCES is not a chat thread.
-
-**It is a structured procedural environment.**
-
----
-
-# **IV. The Discipline**
-
-LCES rewards:
-
-- clarity
-- structure
-- procedural mastery
-- cognitive discipline
-
-LCES teaches:
-
-- **structure before drafting**
-- **verification before execution**
-- **role separation before workflow**
-- **human judgment before submission**
-
-Participation becomes a form of mastery.
-
----
-
-# **V. The Purpose**
-
-LCES exists because procedural systems demand:
-
-- precision
-- structure
-- accountability
-- reviewability
-
-LCES provides these not as conveniences, but as **principles**.
-
-This is the doctrine.
-
-This is the architecture.
-
-This is the discipline.
-
-## **This is LCES.**
----
-
+This is LCES.
 # **LCES — Legal Calculus Educational System™**
 
 ### **README — Orientation & Activation Layer (V6.3)**
