@@ -21,10 +21,9 @@
 </div>
 
 ---
-
 # **LCES MANIFESTO — New User Edition (V1.0)**
 
-### *The Doctrine of Full‑Stack Procedural Literacy*
+***The Doctrine of Full‑Stack Procedural Literacy***
 
 LCES exists for one purpose:
 
@@ -45,15 +44,14 @@ people who want clarity, structure, and control over their own process.
 
 # **I. Human Sovereignty (The First Principle)**
 
-LCES is a **human‑defined, human‑bounded, human‑controlled** system.
+LCES is a **human‑defined, human‑bounded, human‑controlled**system.
 
 - The system does not initiate.
 - The system does not assume facts.
 - The system does not infer posture.
 - The system does not drift.
 
-**The human defines the boundaries.
-The system obeys them.**
+**The human defines the boundaries. The system obeys them.**
 
 This is the foundation of LCES.
 
@@ -61,20 +59,18 @@ This is the foundation of LCES.
 
 # **II. The Full‑Stack Doctrine (The Three Layers)**
 
-Every LCES session activates **three constitutional layers**:
+Every LCES session activates **three constitutional layers**:
 
-### *The Constitutional Architecture of Procedural Literacy*
+***The Constitutional Architecture of Procedural Literacy***
 
 ## **I. Procedure Is Not Knowledge — It Is Sequence**
 
 The central discovery of LCES is this:
 
-> **Procedural literacy is not a set of facts.
-It is a layered sequence.
-And the sequence *is* the literacy.**
+> **Procedural literacy is not a set of facts. It is a layered sequence. And the sequence *is* the literacy.**
 > 
 
-Every procedural system — legal, administrative, civic, or technical — operates through a **stack**, not a conversation.
+Every procedural system — legal, administrative, civic, or technical — operates through a **stack**, not a conversation.
 
 LCES is the first architecture to reveal this.
 
@@ -99,7 +95,7 @@ Each layer constrains the one above it.
 
 Each layer protects the human Strategist.
 
-This is the **irreversible order** of procedural reasoning.
+This is the **irreversible order** of procedural reasoning.
 
 ---
 
@@ -109,7 +105,7 @@ The sequence is not stylistic.
 
 It is structural.
 
-### **1. The General Kernel must load first**
+**1. The General Kernel must load first**
 
 Because all reasoning requires:
 
@@ -121,7 +117,7 @@ Because all reasoning requires:
 
 Without this, the system collapses into improvisation.
 
-### **2. The Edition must load second**
+**2. The Edition must load second**
 
 Because no action makes sense until the environment is known.
 
@@ -131,7 +127,7 @@ Jurisdiction is physics.
 
 Physics must be loaded before function.
 
-### **3. The Role must load third**
+**3. The Role must load third**
 
 Because the same environment requires different functions:
 
@@ -141,7 +137,7 @@ Because the same environment requires different functions:
 
 Function must follow environment.
 
-### **4. Entry Mode must load last**
+**4. Entry Mode must load last**
 
 Because the human context determines:
 
@@ -152,7 +148,7 @@ Because the human context determines:
 
 Context must follow structure.
 
-This is the **constitutional order** of procedural literacy.
+This is the **constitutional order** of procedural literacy.
 
 ---
 
@@ -160,8 +156,7 @@ This is the **constitutional order** of procedural literacy.
 
 The most important discovery of LCES is this:
 
-> **The human is not inside the stack.
-The human is above it.**
+> **The human is not inside the stack. The human is above it.**
 > 
 
 The Strategist:
@@ -173,7 +168,7 @@ The Strategist:
 - approves drafts
 - closes the loop
 
-The Strategist is the **final authority**.
+The Strategist is the **final authority**.
 
 No AI may override or imitate this role.
 
@@ -203,8 +198,7 @@ Every other system treats procedure as:
 
 LCES revealed the opposite:
 
-> **Procedure is not a conversation.
-Procedure is a stack.**
+> **Procedure is not a conversation. Procedure is a stack.**
 > 
 
 ---
@@ -213,39 +207,38 @@ Procedure is a stack.**
 
 LCES emerged through Microsoft because only Microsoft provided:
 
-### **1. GitHub + VS Code**
+**1. GitHub + VS Code**
 
 A file‑based, modular environment where bootloaders behave like code.
 
-### **2. Copilot**
+**2. Copilot**
 
 A reasoning engine that naturally enforces constitutional constraints.
 
-### **3. Multi‑Device Integration**
+**3. Multi‑Device Integration**
 
 A physical architecture that mirrors functional separation.
 
-### **4. Responsible AI Principles**
+**4. Responsible AI Principles**
 
 A philosophy aligned with STOP rules and human supremacy.
 
-### **5. The Human Strategist + Copilot Interaction**
+**5. The Human Strategist + Copilot Interaction**
 
 The iterative process that revealed the stack.
 
 LCES was not designed.
 
-It was **discovered**.
+It was **discovered**.
 
 ---
 
 ## **VII. The Manifesto Sentence**
 
 > **LCES is the first architecture to reveal that procedural literacy is not knowledge but sequence — and that the human Strategist is the sovereign intelligence that governs the constitutional stack.**
->
+> 
 
-
-### **1. Entry Mode — WHAT the user needs**
+**1. Entry Mode — WHAT the user needs**
 
 Your posture, your urgency, your situation.
 
@@ -254,9 +247,9 @@ Your posture, your urgency, your situation.
 - Second‑Opinion Mode
 - Educational Mode
 
-### **THE MODE DOCTRINE**
+**THE MODE DOCTRINE**
 
-### **The Four Cognitive Environments of LCES**
+**The Four Cognitive Environments of LCES**
 
 Modern systems collapse modes.
 
@@ -264,7 +257,7 @@ They blur urgency with analysis, learning with litigation, reflection with actio
 
 LCES rejects this collapse.
 
-LCES declares that **every human situation exists inside one of four modes**,
+LCES declares that **every human situation exists inside one of four modes**,
 
 and each mode demands a different discipline, a different posture,
 
@@ -272,7 +265,7 @@ a different relationship between the Human Strategist and the AIs.
 
 Modes are not preferences.
 
-Modes are **constitutional environments**.
+Modes are **constitutional environments**.
 
 ---
 
@@ -424,9 +417,9 @@ Doctrine is the system.
 
 ## **Human Strategist Role — The Final Authority in LCES**
 
-The **Human Strategist** is the governing intelligence of the LCES system.
+The **Human Strategist** is the governing intelligence of the LCES system.
 
-All AIs operate **under** the Strategist’s direction, and no AI may assume, imitate, or override this role.
+All AIs operate **under** the Strategist’s direction, and no AI may assume, imitate, or override this role.
 
 The Strategist:
 
@@ -441,15 +434,15 @@ The Strategist:
 - decides when to consult a lawyer
 - closes the procedural loop
 
-The Strategist is the **first and last step** in every LCES workflow.
+The Strategist is the **first and last step**in every LCES workflow.
 
 ---
 
 ## **Why the Strategist Is Not a Bootloader**
 
-The Strategist is **not** an AI runtime layer.
+The Strategist is **not** an AI runtime layer.
 
-It is a **human governance doctrine** that defines:
+It is a **human governance doctrine** that defines:
 
 - what only the human may decide
 - what the AIs must never do
@@ -457,7 +450,7 @@ It is a **human governance doctrine** that defines:
 - how STOP rules are enforced
 - how procedural safety is maintained
 
-Because the Strategist is a **human role**, not an AI instruction set, it must be placed in the README — not in the `/bootloaders/` directory.
+Because the Strategist is a **human role**, not an AI instruction set, it must be placed in the README — not in the `/bootloaders/` directory.
 
 Bootloaders are for AIs.
 
@@ -480,7 +473,7 @@ The Strategist must:
 - maintain safety boundaries
 - enforce STOP conditions
 
-The Strategist is the **governor** of the entire system.
+The Strategist is the **governor** of the entire system.
 
 ---
 
@@ -511,7 +504,7 @@ This preserves:
 
 ## **Strategist Interaction With AIs**
 
-The Strategist interacts with the AIs **within the constraints of the bootloader stack**:
+The Strategist interacts with the AIs **within the constraints of the bootloader stack**:
 
 ```
 1. General Kernel Bootloader
@@ -533,7 +526,7 @@ The Strategist:
 - decides when the blueprint must change
 - decides when the build is complete
 
-The Strategist **starts and finishes** every cycle.
+The Strategist **starts and finishes** every cycle.
 
 ---
 
@@ -550,7 +543,7 @@ LCES is designed so the Strategist:
 - learns how to identify gaps
 - learns how to think structurally
 
-The Strategist becomes more capable **through the process**, not by delegating decisions to AI.
+The Strategist becomes more capable **through the process**, not by delegating decisions to AI.
 
 The AIs assist.
 
@@ -570,8 +563,7 @@ The Strategist decides.
 - You learn through the LCES process.
 - No AI may override you.
 
-The Strategist is the **human center** of the LCES architecture.
-
+The Strategist is the **human center** of the LCES architecture.
 
 The Human Strategist moves between modes.
 
@@ -592,10 +584,7 @@ This is the sovereignty.
 
 This is the doctrine.
 
-
-
-
-### **2. Kernel — HOW the AI must behave**
+**2. Kernel — HOW the AI must behave**
 
 The behavioral constitution.
 
@@ -604,7 +593,7 @@ The behavioral constitution.
 - No‑Motive‑Reading Firewall
 - No cross‑role contamination
 
-### **3. Edition — WHERE the system is operating**
+**3. Edition — WHERE the system is operating**
 
 The legal or procedural environment.
 
@@ -632,7 +621,7 @@ Full Stack is not a feature.
 
 LCES uses GitHub in a dual role:
 
-### **As a Library**
+**As a Library**
 
 It preserves:
 
@@ -641,7 +630,7 @@ It preserves:
 - calculi
 - structure
 
-### **As an Operating System**
+**As an Operating System**
 
 It enforces:
 
@@ -685,7 +674,7 @@ LCES exists because procedural systems demand:
 - accountability
 - reviewability
 
-LCES provides these not as conveniences, but as **principles**.
+LCES provides these not as conveniences, but as **principles**.
 
 This is the doctrine.
 
@@ -693,7 +682,7 @@ This is the architecture.
 
 This is the discipline.
 
-**This is LCES.**
+## **This is LCES.**
 ---
 
 # **LCES — Legal Calculus Educational System™**
