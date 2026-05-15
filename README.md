@@ -535,6 +535,213 @@ The doctrinal spine lives in **`Manifesto.md`**.
 The activation engine lives in **`Bootloader.md`**.
 
 ---
+⭐ **LCES AI Switching & Bootloader Activation — User Guide**
+
+---
+
+When you switch between AIs (Architect → Builder → Inspector),
+
+you must **load their bootloaders fresh** so each AI knows:
+
+- **its role**
+- **its edition**
+- **its entry mode**
+- **its boundaries**
+
+This keeps the system stable and prevents role drift.
+
+Here is the **correct, canonical sequence**.
+
+---
+
+# ⭐ **1. The General Kernel Bootloader (Loaded First, Always)**
+
+This is the “constitution” of LCES.
+
+It defines:
+
+- STOP rules
+- role separation
+- safety boundaries
+- no‑motive‑reading
+- human strategist control
+
+You **never modify it** and **never combine anything into it**.
+
+It is loaded **once per AI session**, before anything else.
+
+---
+
+# ⭐ **2. The Edition Bootloader (Loaded Second)**
+
+This is the bootloader you **copy and paste into the AI** depending on the legal environment:
+
+- TE‑LCES
+- FC‑LCES
+- SC‑LCES
+- AC‑LCES
+
+This tells the AI **where** it is operating.
+
+Each edition has its own:
+
+- jurisdiction rules
+- evidence rules
+- STOP conditions
+- safety posture
+- procedural physics
+
+You load **only one edition at a time**.
+
+---
+
+# ⭐ **3. The Kernel Role Bootloader (Loaded Third)**
+
+This is the bootloader that tells the AI **what job it is performing**:
+
+- **Architect Bootloader** → for GitHub Copilot
+- **Builder Bootloader** → for ChatGPT
+- **Inspector Bootloader** → for Gemini / Claude / adversarial model
+
+Each AI loads **exactly one** role.
+
+This ensures:
+
+- Architect = structure
+- Builder = drafting
+- Inspector = adversarial testing
+
+No role overlap.
+
+No improvisation.
+
+No drift.
+
+---
+
+# ⭐ **4. The Entry‑Mode Bootloader (Loaded Last)**
+
+This tells the AI **what environment the user is in**:
+
+- Crisis Mode
+- Pro Se Mode
+- Second‑Opinion Mode
+- Lawyer/Education Mode
+
+This is the **final layer** and adapts the system to the user’s needs.
+
+---
+
+# ⭐ **So the correct activation sequence is:**
+
+```
+1. General Kernel Bootloader
+2. Edition Bootloader (TE / FC / SC / AC)
+3. Kernel Role Bootloader (A / B / I)
+4. Entry‑Mode Bootloader
+```
+
+This order **never changes**.
+
+---
+
+# ⭐ **Switching Between AIs (User Instructions)**
+
+Whenever you switch AIs:
+
+### ✔️ You must reload all four layers
+
+(because each AI is a separate runtime)
+
+### ✔️ You must confirm the AI’s role
+
+(Architect, Builder, or Inspector)
+
+### ✔️ You must confirm the entry mode
+
+(Crisis, Pro Se, Second‑Opinion, Lawyer/Education)
+
+### ✔️ You must activate the AI
+
+(“Architect AI activated,” “Builder AI activated,” etc.)
+
+This ensures:
+
+- no role contamination
+- no edition drift
+- no STOP‑rule bypass
+- no unsafe behavior
+- no cross‑AI memory bleed
+
+---
+
+# ⭐ **Example: Switching to Builder AI (ChatGPT)**
+
+You paste:
+
+1. **General Kernel Bootloader**
+2. **Edition Bootloader** (e.g., FC‑LCES)
+3. **Builder Kernel Bootloader**
+4. **Entry‑Mode Bootloader**
+
+Then you say:
+
+> **“Builder AI activated. Confirm your role and entry mode.”**
+> 
+
+The AI responds:
+
+> **“Builder AI confirmed. Entry Mode: Pro Se Mode. Edition: FC‑LCES.”**
+> 
+
+Now it is safe to proceed.
+
+---
+
+# ⭐ **Example: Switching to Inspector AI**
+
+You paste:
+
+1. General Kernel
+2. Edition Bootloader
+3. Inspector Kernel
+4. Entry Mode
+
+Then you say:
+
+> **“Inspector AI activated. Confirm your role and entry mode.”**
+> 
+
+The AI responds:
+
+> **“Inspector AI confirmed. Entry Mode: Second‑Opinion Mode.”**
+> 
+
+Now it is safe to proceed.
+
+---
+
+# ⭐ **Why This Matters (User Explanation)**
+
+If you don’t reload the bootloaders:
+
+- the AI may use the wrong edition
+- STOP rules may not activate
+- safety boundaries may weaken
+- the AI may drift into the wrong role
+- the system becomes unpredictable
+
+Reloading ensures:
+
+- clarity
+- stability
+- procedural integrity
+- safety
+- correct role behavior
+
+This is why LCES uses a **strict activation ritual**.
+
+---
 
 # **⚖️ LCES Execution Environment**
 
