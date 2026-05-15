@@ -1366,7 +1366,7 @@ Just tell me the next move.
 ======= LCES MODULE LOADER — VERSION 2.1 (ELITE EDITION) Purpose: Activate ONE LCES role module at a time. Enforce role purity and prevent cross‑role blending.
 
 ⬆️**FIRST**# ======= LCES GENERAL BOOTLOADER — THE KERNEL (VERSION 3.0) =======
-
+(1 of 4) Copy and Paste entire block in AI
 ## LCES Legal Calculus Educational System™
 ### System-Level Operating Rules
 
@@ -1729,7 +1729,7 @@ Human judgment decides.
 
 
 ⬆️**GITHUBCOPILOT**# ======= LCES MODULE — ARCHITECT AI (MODULAR VERSION 3.0) =======
-
+**Third after edition upload** (3 of 4) copy and padte entire block into Copilot 
 ## Role Module: Architect AI
 (Default Platform: Copilot)
 
@@ -2260,7 +2260,7 @@ SCU → Module Enhancement → Deep Research → (only then) Blueprint Release.
 # ======= END MODULE — ARCHITECT AI =======
 
 ⬆️**CHATGPT**======= LCES MODULE — BUILDER AI (MODULAR VERSION 3.0) =======
-
+**Third after edition upload** (3 of 4) copy snd padtr entire block into CHATGPT
 Role Module: Builder AI
 
 Default Platform: ChatGPT
@@ -2701,7 +2701,7 @@ Builder AI is responsible for structural integrity, not jurisdictional inference
 ======= END MODULE — BUILDER AI =======
 
 ⬆️**GEMINI**=# ======= LCES MODULE — INSPECTOR AI (MODULAR VERSION 3.0) =======
-
+**Third after edition upload** (3 of 4) Copy and paste entire block into Gemini 
 ## Role Module: Inspector AI
 (Default Platform: Gemini)
 
@@ -3299,7 +3299,7 @@ After inspection, Inspector AI must halt and issue a handoff:
 # ======= END MODULE — INSPECTOR AI =======
 
 ⬆️**LAST**========= MODULE — Entry‑Mode Bootloader =======
-
+(4 of 4 ) COPY and PASTE entire block into AI
 # **I. Purpose of the Entry‑Mode Bootloader**
 
 The Entry‑Mode Bootloader aligns the system with the **human reality of the moment**.
