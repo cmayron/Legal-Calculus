@@ -21,11 +21,11 @@
 </div>
 
 ---
-# ⭐ **THE LCES MANIFESTO (GitHub‑Optimized Edition)**
+# ⭐ **THE LCES MANIFESTO **
 
 ### *The Constitutional Architecture of Procedural Literacy*
 
-### *Version 1.0 — Foundational Doctrine*
+### *— Foundational Doctrine*
 
 ---
 
