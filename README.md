@@ -792,23 +792,6 @@ LCES transforms:
 
 ---
 
-# **🧭 Document Boundary Rule**
-
-| Document | Constitutional Function |
-| --- | --- |
-| [**Manifesto.md**](http://manifesto.md/) | Doctrine & governing philosophy |
-| [**README.md**](http://readme.md/) | Orientation & navigation |
-| [**Bootloader.md**](http://bootloader.md/) | Activation & execution governance |
-| **/Architecture/** | System maps & deep architecture |
-| **/Modules/** | Role‑specific runtime behavior |
-| **/Editions/** | Procedural environments |
-| **/Calculi/** | Interpretive reasoning frameworks |
-| **/SCU/** | Smallest Complete Unit doctrine |
-| **/Governance/Readiness/** | Readiness & filing stability |
-| **/Diagrams/** | Visual maps & workflow diagrams |
-| **Governance/Risk‑[Safety.md](http://safety.md/)** | Safety & procedural safeguards |
-
-This boundary rule prevents drift, role confusion, and document misuse.
 
 ---
 
