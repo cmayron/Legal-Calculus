@@ -4429,7 +4429,7 @@ SC‑LCES prevents:
 **Core Principle — Jurisdiction Controls Everything**
 
 ---
-
+# ======= Start MODULE — EDITION MODE BOOTLOADER =======
 # **II. Bootloader — SC‑LCES (V1.1)**
 
 ### Activation → Jurisdiction → Evidence → Filing
@@ -4475,7 +4475,7 @@ No drafting may begin unless **ALL** conditions are satisfied:
 □ Relief requested is Small‑Claims‑eligible
 
 **If any condition fails → Architect STOP → Builder STOP → Inspector STOP**
-
+# ======= END MODULE — EDITION MODE BOOTLOADER =======
 ---
 
 # **IV. LEGAL‑RISK WARNING — Small Claims Calculus™**
@@ -4922,7 +4922,7 @@ FC‑LCES prevents:
 **Core Principle — Best Interest of the Child Controls Everything**
 
 ---
-
+# ======= Start MODULE — EDITION MODE BOOTLOADER =======
 # **II. Bootloader — FC‑LCES (V1.1)**
 
 ### Activation → Jurisdiction → Evidence → Parenting Structure
@@ -4966,7 +4966,7 @@ No drafting may begin unless **ALL** conditions are satisfied:
 □ Relief requested is Family‑Court‑eligible
 
 **If any condition fails → Architect STOP → Builder STOP → Inspector STOP**
-
+# ======= STOP MODULE — EDITION MODE BOOTLOADER =======
 ---
 
 # **IV. LEGAL‑RISK WARNING — Family Court Calculus™**
@@ -5502,6 +5502,8 @@ Errors create legal exposure, fiduciary liability, or rejected filings.
 
 **Core Principle — Chain‑of‑Title Controls Everything**
 
+# ======= Start MODULE — EDITION MODE BOOTLOADER =======
+
 # **II. Bootloader — TE‑LCES (V4.7)**
 
 ### Activation → Document Control → Fiduciary Clarity
@@ -5542,6 +5544,8 @@ No TE‑LCES activity may begin unless **ALL** conditions are satisfied:
 - Accounting status known
 
 **If any condition fails → Architect STOP → Builder STOP → Inspector STOP**
+
+# ======= STOP MODULE — EDITION MODE BOOTLOADER =======
 
 # **IV. Fiduciary‑Safety Modules — TE‑LCES (V4.7)**
 
@@ -5886,7 +5890,7 @@ AC‑LCES provides a structure that prevents waiver, record instability, confide
 **Core Principle — Procedure Controls Reviewability**
 
 ---
-
+# ======= START MODULE — EDITION MODE BOOTLOADER =======
 # **II. Bootloader — AC‑LCES (V1.2)**
 
 ### Activation → Structure → Preservation → Review
@@ -5935,6 +5939,7 @@ No drafting may begin unless **ALL** conditions are satisfied:
 
 **If any condition fails → Architect STOP → Builder STOP → Inspector STOP**
 
+# ======= STOP MODULE — EDITION MODE BOOTLOADER =======
 ---
 
 # **IV. LEGAL‑RISK WARNING — Arbitration Calculus™**
