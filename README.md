@@ -1002,6 +1002,78 @@ It enforces:
 
 The Kernel prevents drift, improvisation, and hallucination‑by‑helpfulness.
 
+## **WORKFLOW FIDELITY (KERNEL‑LEVEL REQUIREMENT)**
+
+LCES requires that all workflows executed within the system be **real, current, complete, and version‑controlled**.
+
+LCES does **not** operate on aspirational, idealized, outdated, or politically sanitized workflows.
+
+AI agents do not infer missing steps, repair drift, or substitute tacit human knowledge.
+
+They execute doctrine with perfect obedience and zero contextual improvisation.
+
+> **If the documentation is fiction, the system becomes fiction.
+If the workflow is unsafe, activation is forbidden.**
+> 
+
+This mandate binds the Kernel and governs all downstream layers.
+
+---
+
+## **THE FIDELITY GATE (MANDATORY BEFORE ACTIVATION)**
+
+A workflow must satisfy all five elements:
+
+1. **Reality Match**
+    
+    Documentation must reflect the lived operational sequence.
+    
+2. **Tacit Extraction**
+    
+    All unwritten operator steps must be surfaced and encoded.
+    
+3. **Authority Boundaries**
+    
+    Approval gates, escalation paths, and non‑automatable actions must be explicit.
+    
+4. **Exception Encoding**
+    
+    Real‑world deviations must be documented and routable.
+    
+5. **Version Discipline**
+    
+    Workflow changes must trigger immediate documentation updates and re‑validation.
+    
+
+Failure of any element halts activation.
+
+---
+
+## **PROCEDURAL MALPRACTICE PROHIBITION**
+
+LCES defines procedural malpractice as deploying an agent on a workflow that is:
+
+- inaccurate
+- incomplete
+- outdated
+- unbounded
+- missing tacit steps
+
+Such deployment triggers a **Kernel Halt Condition**.
+
+---
+
+## **EDITION‑LEVEL INHERITANCE**
+
+The Workflow Fidelity Mandate binds all LCES editions:
+
+- **SC‑LCES** (Small Claims)
+- **FC‑LCES** (Family Court)
+- **TE‑LCES** (Trust & Estate)
+- **AC‑LCES** (Arbitration & Contracts)
+
+No edition may weaken, override, or bypass the Fidelity Gate.
+
 ---
 
 # **3. Edition Bootloader — WHERE the system is operating**
