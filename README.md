@@ -1377,6 +1377,61 @@ The Edition Bootloader loads the **legal landscape** and **procedural environmen
 - Scope of permissible facts  
 - Safety posture  
 
+## **WORKFLOW FIDELITY (EDITION‑LEVEL REQUIREMENT)**
+
+This Edition loads under the authority of the **LCES‑D Workflow Fidelity Mandate**.
+
+No Edition may activate unless the workflow governing this Edition is:
+
+- real
+- current
+- complete
+- version‑controlled
+- jurisdiction‑accurate
+- venue‑correct
+
+The Edition Bootloader must not load fictional, aspirational, incomplete, or politically sanitized workflows.
+
+> **If the Edition’s workflow is not faithful to lived procedure, Edition activation is prohibited.**
+> 
+
+---
+
+## **EDITION‑SPECIFIC FIDELITY REQUIREMENTS**
+
+Before this Edition may load, the following must be encoded:
+
+- jurisdictional constraints
+- venue‑specific clerk‑gate behavior
+- local procedural expectations
+- edition‑specific tacit steps
+- exception paths and off‑ramps
+- authority boundaries
+- environmental safety posture
+
+No Edition may rely on assumed knowledge or unwritten practice.
+
+All procedural nuance must be explicit to satisfy the Fidelity Gate.
+
+---
+
+## **EDITION ACTIVATION UNDER THE FIDELITY MANDATE**
+
+This Edition may activate **only after**:
+
+1. The workflow passes all five elements of the Fidelity Gate.
+2. All tacit steps are surfaced and encoded.
+3. All exception paths are documented and routable.
+4. All jurisdictional and venue constraints are validated.
+5. The workflow is version‑aligned with current practice.
+
+If any element is incomplete:
+
+> **STOP — Edition activation prohibited. Kernel Halt Condition triggered.**
+> 
+
+This Addendum inherits the Kernel and binds the Edition without modification.
+
 ### **Purpose**
 
 The Edition ensures:
