@@ -1932,6 +1932,8 @@ Such deployment triggers a **Kernel Halt Condition**.
 
 LCES assumes an attested and non‑subvertible substrate; silicon‑level Technical Inaccessibility remains outside its scope but fully compatible with it, with hardware enforcing impossibility and LCES enforcing admissibility so that workflow fidelity, authority movement, and effect‑binding all operate strictly within constitutional limits.
 
+Governing outputs is insufficient; the defensible boundary is the governance of operational movement, authority jurisdiction, and consequence‑bearing execution, because as autonomy increases, procedural control becomes more decisive than prohibition.
+
 ## **EDITION INHERITANCE**---
 
 This Addendum binds all LCES editions:
