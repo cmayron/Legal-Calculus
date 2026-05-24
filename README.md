@@ -6609,6 +6609,8 @@ See [**LICENSE.md**](http://license.md/) and [**TRADEMARK.md**](http://trademark
 
 ### **The Constitutional Structure of Procedural Literacy**
 
+LCES governs actions, not outputs. It defines admissibility, authority boundaries, workflow fidelity, and execution constraints that determine what any actor may move, authorize, or bind. All consequential actions must pass through an execution point protected by jurisdictional verification and procedural preconditions. No role may collapse; Strategist, Architect, Builder, and Inspector remain distinct. The substrate enforces physical impossibility; LCES enforces admissibility above it. Output filtering is non‑binding and deprecated. All autonomy is bounded by procedure, jurisdiction, and consequence discipline.
+
 flowchart TD
 
     %% Top-level constitutional framing
