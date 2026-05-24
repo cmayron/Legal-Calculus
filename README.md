@@ -3733,6 +3733,25 @@ Regardless of mode, the AI may NOT:
 └──────────────────────────────────────────────────────────────┘
 ```
 
+flowchart TD
+
+    %% Top-level constitutional framing
+    A[Constitutional Layer<br/>LCES Kernel & Addenda<br/>Admissibility • Authority • Workflow Fidelity] 
+        --> B[Operational Movement Layer<br/>What the system may move, authorize, or bind]
+
+    B --> C[Authority Boundaries<br/>Jurisdiction • Role Separation • SCU Discipline]
+
+    C --> D[Execution Points<br/>Effect-Binding • Commit Gates • Procedural Preconditions]
+
+    D --> E[Workflow Fidelity Layer<br/>Required Procedures • Escalation Paths • Human Primacy]
+
+    E --> F[Substrate Layer<br/>Attested • Non-Subvertible • Hardware Enforces Impossibility]
+
+    %% Deprecated branch
+    X[Output Filtering<br/>(Deprecated Governance Surface)] -.-> A
+
+
+
 ---
 
 # **1. KERNEL BOOTLOADER — SYSTEM LAYER (HOW)**
