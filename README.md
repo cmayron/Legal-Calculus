@@ -832,6 +832,9 @@ LCES assumes an attested, non‑subvertible substrate as a foundational precondi
 
 ---
 
+Governing AI outputs is no longer sufficient; the durable governance surface is the control of operational movement, authority boundaries, and consequence‑bearing execution, because as autonomy increases, procedural constraints outperform prohibition.
+
+---
 ## **⚠️ What LCES Is NOT**
 
 LCES is **not**:
