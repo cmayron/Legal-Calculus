@@ -1930,7 +1930,9 @@ Such deployment triggers a **Kernel Halt Condition**.
 
 ---
 
-## **EDITION INHERITANCE**
+LCES assumes an attested and non‑subvertible substrate; silicon‑level Technical Inaccessibility remains outside its scope but fully compatible with it, with hardware enforcing impossibility and LCES enforcing admissibility so that workflow fidelity, authority movement, and effect‑binding all operate strictly within constitutional limits.
+
+## **EDITION INHERITANCE**---
 
 This Addendum binds all LCES editions:
 
