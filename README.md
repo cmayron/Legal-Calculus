@@ -3628,6 +3628,8 @@ Only **one** may be active at a time.
 
 ## **4. Lawyer/Education Mode**
 
+EducationalMode permits any Builder model to draft—Claude, Harvey, Lenora, or any successor—because Builder safety is not a prerequisite for system safety. LCES governs the substrate, not the model. Builder outputs are treated as proposals only; all proposals must pass through architectural and cryptographic execution points before any action becomes admissible. Creativity is unconstrained; authority is bounded. No Builder may self‑authorize, impersonate a role, escalate scope, or bypass provenance checks. Execution points enforce provenance, jurisdiction, and admissibility as root constraints. EducationalMode is therefore safe by construction: the Builder drafts, LCES decides. Explore: execution points, bounded autonomy, architectural governance.
+
 **User State:** wants deeper understanding, doctrine, structure
 
 **AI Behavior:**
