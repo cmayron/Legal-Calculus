@@ -936,9 +936,11 @@ Not analysis. Not strategy. Not research.
 
 ---
 
-### **2. EDUCATIONAL MODE — Growth Doctrine**
+### **2. EDUCATIONAL/LAWYER MODE — Growth Doctrine**
 
 Purpose: **Build the Strategist.**
+
+Educational Mode allows the lawyer to use any Builder model—Claude, Harvey, Lenora, or any future system—because LCES does not depend on the Builder being safe. It governs the environment the Builder operates in. The Builder may draft, propose, or generate anything, but its defects, hallucinations, or over‑broad optimizations are intercepted before any output is allowed to execute. This is the core LCES guarantee: creativity is unconstrained, authority is strictly bounded. All proposed actions must pass through architectural and cryptographic execution points where provenance, jurisdiction, and admissibility are verified. No Builder can self‑authorize, impersonate a role, or silently escalate. Educational Mode is therefore safe by construction: the Builder becomes a drafting engine, while LCES remains the constitutional substrate that determines what may actually occur. Explore: bounded autonomy, execution points, architectural governance.
 
 Environment: **Desktop + Repo Clone + Git Window + VS Code**
 
