@@ -828,6 +828,10 @@ LCES teaches the user **how the system thinks** — procedurally, structurally, 
 
 ---
 
+LCES assumes an attested, non‑subvertible substrate as a foundational precondition for constitutional governance. Silicon‑level Technical Inaccessibility, including hardware‑rooted cryptographic boundaries and enclave‑sealed secrets, is outside the scope of LCES but fully compatible with it. Hardware enforces impossibility; LCES enforces admissibility. This separation ensures that substrate integrity is guaranteed by the chip, while authority movement, jurisdiction, and consequence are governed by LCES. Together, they form a layered architecture in which no actor—human or machine—can cross a boundary they are not physically or constitutionally authorized to cross.
+
+---
+
 ## **⚠️ What LCES Is NOT**
 
 LCES is **not**:
