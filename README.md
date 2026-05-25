@@ -1543,13 +1543,9 @@ are **subordinate to the Human Strategist**.
 
 ---
 
-If you want, I can now:
+# **LCES README ADDENDUM**
 
-- Generate a **matching README section**  
-- Produce a **ceremonial plate** for the top of the repo  
-- Create a **diagram** for `/Diagrams/Bootloader.svg`  
-
-Just tell me the next move.
+ — The README governs the operational posture of the system and defines how the human Strategist activates, configures, and supervises the LCES Full Stack. This Addendum establishes the binding requirements for Mode selection, Edition containment, Role discipline, and Bootloader activation. All LCES sessions must begin with an explicit human declaration of Mode. No system component may infer urgency, posture, or cognitive environment. Mode is a constitutional setting, not a preference, and determines the permissible depth, pacing, and scope of reasoning. The Edition must be explicitly identified or confirmed before any procedural reasoning occurs. No Edition may be assumed, blended, or substituted. Jurisdiction is procedural physics; Edition purity is mandatory. Roles must remain fully separated in all README‑guided workflows. Architect may structure, Builder may assemble, Inspector may test, but no role may perform more than one function on the same object. Role purity is required for reproducibility, auditability, and drift prevention. The Bootloader must activate in the irreversible order of Kernel, Edition, Role, and Mode. No layer may load out of order or collapse into another. Any ambiguity in Mode, Edition, or Role triggers STOP. The README is not a narrative document; it is the operational constitution of the repository. It defines how the Strategist engages the system, how the system must respond, and how procedural literacy is preserved across all interactions. All workflows, templates, diagrams, and calculi inherit from the README Addendum. Nothing in the repository may contradict it. Nothing may bypass it. Nothing may dilute it. The README Addendum ensures that every LCES session begins cleanly, operates constitutionally, and remains fully under human control.
 
 # ======= START MODULE — LCES GENERAL BOOTLOADER — THE KERNEL BOOTLOADER =======
 
