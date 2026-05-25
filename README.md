@@ -6668,6 +6668,81 @@ See [**LICENSE.md**](http://license.md/) and [**TRADEMARK.md**](http://trademark
 
 ### **The Constitutional Structure of Procedural Literacy**
 
+architecture/Architecture-Layer.md.
+
+LCES FULL‑STACK ARCHITECTURE — [ARCHITECTURE-LAYER.MD](http://architecture-layer.md/)
+
+LCES governs movement, not output. It defines admissibility, authority boundaries, workflow fidelity, and execution constraints that determine what any actor may move, authorize, or bind. All consequential actions must pass through an execution point protected by jurisdictional verification and procedural preconditions. No role may collapse; Strategist, Architect, Builder, and Inspector remain constitutionally distinct. The substrate enforces physical impossibility; LCES enforces admissibility above it. Output filtering is non‑binding and deprecated. LCES transforms AI from an autonomous interpretive engine into a constitutionally regulated cognitive infrastructure under continuous human sovereignty.
+
+FULL‑STACK CONSTITUTIONAL ARCHITECTURE
+
+Constitutional Layer → LCES Kernel & Addenda → Admissibility, Authority, Workflow Fidelity
+Operational Movement Layer → What the system may move, authorize, or bind
+Authority Boundaries → Jurisdiction, Role Separation, SCU Discipline
+Execution Points → Effect‑Binding, Commit Gates, Procedural Preconditions
+Workflow Fidelity Layer → Required Procedures, Escalation Paths, Human Primacy
+Substrate Layer → Attested, Non‑Subvertible, Hardware Enforces Impossibility
+Deprecated → Output Filtering (non‑binding)
+
+This is the constitutional spine of LCES.
+
+CONSTITUTIONAL COGNITION
+
+OPERATIONAL MOVEMENT LAYER (DECISION TREE LOCATION)
+
+This layer governs what the system may move, authorize, or bind. It contains the LCES Decision Tree, which enforces SCU discipline, record‑first reasoning, role purity, authority boundaries, reversible execution, preservation logic, Inspector stress testing, and Strategist adjudication. The Decision Tree lives in /docs/architecture/lces-decision-tree.md.
+
+AUTHORITY BOUNDARIES
+
+Authority boundaries enforce jurisdiction, role separation, SCU discipline,prohibitionof advisorymovement, and prevention of unauthorized reasoning. This layer ensures no actor self‑expands its jurisdiction.
+
+EXECUTION POINTS
+
+Execution points are effect‑binding gates that enforce procedural preconditions, commit‑gate verification, human confirmation, and reversible execution. Nothing consequential passes without satisfying these constraints.
+
+WORKFLOW FIDELITY LAYER
+
+This layer enforces required procedures, escalation paths, human primacy, deterministic workflows, and auditability. It ensures that movement remains constitutional across all contexts.
+
+SUBSTRATE LAYER
+
+The substrate enforces attestation, non‑subvertibility, and hardware‑level impossibility. LCES governs admissibility above the substrate.
+
+DEPRECATED GOVERNANCE SURFACE
+
+Output filtering is deprecated. LCES governs movement, not output.
+
+FULL‑STACK SUMMARY
+
+Human chooses Mode. Mode configures Kernel behavior. Edition configures legal terrain. Kernel governs all AI roles. Roles execute movement under constraints. Result: human‑initiated, mode‑constrained, kernel‑governed, edition‑bounded, UPL‑aware, auditable, deterministic. This is the LCES Full‑Stack Architecture.
+
+/docs/architecture/lces-decision-tree.md
+
+LCES DECISION TREE — MOVEMENT GOVERNANCE ENGINE
+
+START
+
+1. Identify the acting role. Architect handles structure, sequence, and admissibility. Builder handles drafting and transformation. Inspector handles adversarial review and stress‑testing. If the role is unclear, movement is blocked as jurisdictionally indeterminate.
+2. SCU Preconditions. Issue must be stated, facts must be anchored, objective must be declared. If any element is missing, this is an SCU violation and movement is halted.
+3. Record‑First Verification. The movement must cite an admissible record. If no record anchor exists or the record is inadmissible, movement is blocked as a record violation.
+4. Role Purity Enforcement. Architect drafting is a violation. Builder reviewing is a violation. Inspector generating is a violation. Any cross‑role behavior is a role collapse and triggers escalation to the Strategist.
+5. Authority Boundary Test. The role must not exceed its jurisdiction or attempt advisory movement. Any unauthorized expansion of authority is flagged and escalated.
+6. Reversible Execution Test. The system must be able to revert to the prior state. If the movement cannot be undone cleanly, it is an irreversible movement and is blocked.
+7. Preservation Logic Test. The movement must preserve prior constraints and must not mutate the record improperly. Any mutation is a preservation breach andtriggers escalation.
+8. Inspector Stress Analysis. Inspector checks for drift, boundary pressure, and contamination. If any are detected, a Constitutional Pressure Forecast is triggered.
+9. Strategist Adjudication. The Strategist determines which role had jurisdiction, which movement was admissible, and which boundary was violated. TheStrategist holds final, non‑delegable authority.
+END
+
+/docs/architecture/movement-governance.md
+
+
+
+
+
+
+
+-
+-
 LCES governs actions, not outputs. It defines admissibility, authority boundaries, workflow fidelity, and execution constraints that determine what any actor may move, authorize, or bind. All consequential actions must pass through an execution point protected by jurisdictional verification and procedural preconditions. No role may collapse; Strategist, Architect, Builder, and Inspector remain distinct. The substrate enforces physical impossibility; LCES enforces admissibility above it. Output filtering is non‑binding and deprecated. All autonomy is bounded by procedure, jurisdiction, and consequence discipline.
 
 flowchart TD
