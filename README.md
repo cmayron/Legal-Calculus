@@ -6618,48 +6618,7 @@ It ensures discipline, prevents drift, and maintains doctrinal integrity.
 
 ---
 
-# 📘 **Governance**
 
-Licensed under **CC BY‑NC‑SA 4.0**.
-
-LCES™ is a protected trademark.
-
-See [**LICENSE.md**](http://license.md/) and [**TRADEMARK.md**](http://trademark.md/) for full terms.
-
-# 📘 **LICENSE — LCES Legal Calculus Educational System™ (V4.5)**
-
-**Creative Commons Attribution‑NonCommercial‑ShareAlike 4.0 International**
-
-(CC BY‑NC‑SA 4.0)
-
----
-
-## **You Are Free To**
-
-- **Share** — copy and redistribute the material in any medium or format
-- **Adapt** — remix, transform, and build upon the material
-
----
-
-## **Under the Following Terms**
-
-- **Attribution** — You must give appropriate credit.
-- **NonCommercial** — You may not use the material for commercial purposes.
-- **ShareAlike** — Derivatives must use the same license.
-- **No Additional Restrictions** — No DRM, paywalls, or legal barriers.
-
----
-
-## **You May NOT**
-
-- sell the material
-- use the material in any commercial product or service
-- enclose, privatize, or paywall the system
-- create proprietary forks
-- remove attribution
-- rebrand or repackage the system for sale
-
----
 
 
 
