@@ -7119,94 +7119,6 @@ LCES/
 │   ├── LCA.md
 ```
 
-# **🗺 LCES SYSTEM MAP (V6.3)**
-
-
-       LCES HIGH-LEVEL SYSTEM MAP
-                           ==========================
-
-HUMAN LAYER (INITIATION + CONTROL)
-----------------------------------
-    • Human initiates session
-    • Human selects Entry Mode
-    • Human confirms any Mode change
-
-                 ┌───────────────────────────────┐
-                 │     ENTRY MODE SELECTOR       │
-                 │  “Which situation fits you?”  │
-                 └──────────────┬────────────────┘
-                                │
-        ┌───────────────────────┼───────────────────────────────┐
-        │                       │                               │
-        ▼                       ▼                               ▼
-┌────────────────┐     ┌────────────────┐              ┌────────────────────┐
-│  PRO SE MODE   │     │  CRISIS MODE   │              │ SECOND-OPINION MODE│
-│ “I’m on my own”│     │ “Emergency”    │              │ “I have a lawyer”  │
-└────────────────┘     └────────────────┘              └────────────────────┘
-        │                       │                               │
-        └───────────────────────┴───────────────────────────────┘
-                                │
-                                ▼
-                        ┌────────────────┐
-                        │ EDUCATIONAL    │
-                        │ MODE “Teach me”│
-                        └────────────────┘
-
-Each Mode → loads its own MODE BOOTLOADER:
-    • Confirms preconditions (role, urgency, counsel, etc.)
-    • Sets behavioral constraints (explain vs triage vs critique vs teach)
-    • Hands control to the Kernel under that Mode’s rules
-
-
-KERNEL LAYER (AI GOVERNANCE)
-----------------------------
-The Kernel is the procedural operating system that governs all AI behavior.
-
-                 ┌───────────────────────────────┐
-                 │            KERNEL             │
-                 │  • Role separation            │
-                 │  • SCU discipline             │
-                 │  • No UPL / no auto-inference │
-                 │  • Deterministic workflows    │
-                 │  • Logging & audit trail      │
-                 └──────────────┬────────────────┘
-                                │
-                                ▼
-                AI ROLES (Architect / Builder / Inspector)
-                • Retrieve → Think → Transform → Evaluate → Commit
-                • Always constrained by:
-                    – Selected Mode
-                    – Selected Edition
-                    – Human confirmations
-
-
-EDITION LAYER (LEGAL ISSUE PARAMETERS)
---------------------------------------
-Editions define the legal terrain and permissible tools.
-
-                 ┌───────────────────────────────┐
-                 │       EDITION BOOTLOADER      │
-                 │  • Jurisdictional frame       │
-                 │  • Matter type (e.g. civil,   │
-                 │    criminal, admin, appellate)│
-                 │  • Required inputs            │
-                 │  • Available calculi & maps   │
-                 │  • Assumption boundaries      │
-                 └──────────────┬────────────────┘
-                                │
-        ┌───────────────────────┼───────────────────────────────┐
-        │                       │                               │
-        ▼                       ▼                               ▼
-┌────────────────┐     ┌────────────────┐              ┌────────────────┐
-│ PUBLIC EDITION │     │ ADVANCED ED.   │              │  JUDICIAL ED.  │
-│ (general use)  │     │ (expert tools) │              │ (judge lens)   │
-└────────────────┘     └────────────────┘              └────────────────┘
-        │                       │                               │
-        └───────────────────────┴───────────────────────────────┘
-                                │
-                                ▼
-                      OTHER SPECIALIZED EDITIONS
-                      (Developer, Research, etc.)
 
 
 MODE CHANGE PATH (HUMAN-CONTROLLED)
@@ -7302,11 +7214,21 @@ This is why LCES works so efficiently in your environment.
 
 -------
 
+## 📐 Architecture Layer — Publication Edition (V1.1)
+
+### 🗺 System Identity
+The Bootloader is the enforcement layer of LCES.
+It ensures discipline, prevents drift, and maintains doctrinal integrity.
+
+[Diagrams follow here…]
+
+
 🗺 LCES SYSTEM MAP (V6.3)
 
 High‑Level Constitutional System Map
 
 ==========================
+
 
 HUMAN LAYER (INITIATION + CONTROL)
 • Human initiates session
