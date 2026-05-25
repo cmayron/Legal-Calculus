@@ -6799,7 +6799,31 @@ Together, these form the LCES Full Stack.
 WHY THIS MATTERS FOR COPILOT DESKTOP AND REPO ACCESS
 Because the Kernel governs role discipline, behavioral safety, constitutional constraints, no drift, and no improvisation, it ensures that every time Copilot Desktop accesses the repo, the system boots cleanly, predictably, and constitutionally. This is why LCES operates reliably in your environment.
 
+/docs/architecture/Full-Stack-Integration.md
 
+LCES FULL‑STACK INTEGRATION — [FULL-STACK-INTEGRATION.MD](http://full-stack-integration.md/)
+
+Full Stack Integration explains how the Entry Mode Bootloader, Kernel Bootloader, Edition Bootloader, and Role Layer combine into a single constitutional runtime. Each layer inherits constraints from the one above it. No layer may override the one above it. No layer may silently expand its authority. Full Stack Integration is the operational expression of the LCES constitutional architecture.
+
+HUMAN → MODE
+The human selects the Entry Mode. This is the declaration of procedural posture. The Mode defines urgency, cognitive posture, operational goal, what the system may do, and what the system must not do. The Mode is the only layer that originates from the human. All other layers inherit from it.
+
+MODE → KERNEL
+The Mode Bootloader configures the Kernel. It sets behavioral constraints such as explain vs triage vs critique vs teach. It confirms preconditions such as urgency, counsel status, and required inputs. It hands control to the Kernel under the Mode’s rules. The Kernel cannot override the Mode. The Kernel cannot reinterpret the Mode. The Kernel must obey the Mode.
+
+EDITION → ROLES
+The Edition Bootloader hands control to the AI Roles: Architect, Builder, Inspector. These roles operate under Retrieve → Think → Transform → Evaluate → Commit. They are constrained by the Mode, constrained by the Kernel, constrained by the Edition, and constrained by human confirmations. Roles cannot override the Edition. Roles cannot override the Kernel. Roles cannot override the Mode. Roles cannot act without human initiation.
+
+ROLES → MOVEMENT
+Roles execute movement under constitutional discipline. Architect structures. Builder drafts. Inspector reviews. Strategist adjudicates. No role may collapse into another. No role may self‑expand its authority. No role may bypass SCU discipline. No role may bypass record‑first reasoning. No role may bypass reversible execution. No role may bypass the Strategist.
+
+MOVEMENT → DECISION TREE
+All movement is evaluated through the LCES Decision Tree. The Decision Tree enforces SCU discipline, record anchoring, role purity, authority boundaries, reversible execution, preservation logic, Inspector stress testing, and Strategist adjudication. If any condition fails, movement is blocked. If movement is blocked, escalation occurs. The Strategist holds final authority.
+
+FULL STACK SUMMARY
+Human chooses Mode. Mode configures Kernel behavior. Kernel activates Edition. Edition constrains Roles. Roles execute movement. Movement is evaluated by the Decision Tree. Strategist adjudicates. This produces a system that is human‑initiated, mode‑constrained, kernel‑governed, edition‑bounded, role‑separated, UPL‑aware, auditable, and deterministic.
+
+Full Stack Integration is the operational expression of the LCES constitutional architecture. It ensures that cognition remains partitioned, disciplined, reversible, and under continuous human sovereignty.
 
 -
 -
