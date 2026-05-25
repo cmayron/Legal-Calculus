@@ -1228,6 +1228,47 @@ The cycle continues until the case ends.
 
 ---
 
+flowchart TD
+
+%% PANEL 1 — CONSTITUTIONAL LAYER
+subgraph PANEL_1["Constitutional Layer — Legitimacy & Boundaries"]
+A1["LCES Governs Admissible Movement"]
+A2["Substrate Governs State Truth"]
+A3["LCES Defines Legitimacy"]
+A4["Substrate Proves Legitimacy"]
+A1 --> A3
+A2 --> A4
+end
+
+%% PANEL 2 — ARCHITECTURE LAYER
+subgraph PANEL_2["Architecture Layer — System Structure"]
+B1["Constitutional Layer (Inherited)"]
+B2["Operational Movement Layer"]
+B3["Authority Boundaries (Roles, SCU, Jurisdiction)"]
+B4["Execution Points (Human‑Authorized)"]
+B5["Workflow Fidelity Layer"]
+B6["Substrate Layer (External, Deterministic, Tamper‑Evident)"]
+B1 --> B2 --> B3 --> B4 --> B5 --> B6
+end
+
+%% PANEL 3 — RUNTIME LAYER
+subgraph PANEL_3["Runtime Layer — Movement Through Roles"]
+C1["Human Strategist — Intent, Jurisdiction, Authorization"]
+C2["Architect AI — Structure, Blueprint, SCU Discipline"]
+C3["Builder AI — Modular Drafting, No New Facts"]
+C4["Inspector AI — Verification, Integrity, Anchoring"]
+C5["Human Strategist — Accept, Revise, Halt"]
+C6["Substrate — Commit State Transition (Proof)"]
+C1 --> C2 --> C3 --> C4 --> C5 --> C6
+end
+
+%% CROSS‑PANEL INHERITANCE
+PANEL_1 --> PANEL_2
+PANEL_2 --> PANEL_3
+
+
+---
+
 # **🛡️ Risk & Safety Architecture**
 
 LCES uses a dual‑layer safety model:
