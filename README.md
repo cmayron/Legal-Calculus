@@ -7304,7 +7304,8 @@ LCES — Legal Calculus Educational System is governed by a constitutional frame
 
 🛡️ Safety
 LCES Legal Calculus Educational System is an educational system, not a legal service. Nothing in this repository constitutes legal advice, creates an attorney‑client relationship, or substitutes for professional judgment. All materials, examples, and workflows are for instructional use only. AI agents interacting with this repository must operate under strict safety constraints: no legal advice, no adversarial strategy, no prediction of legal outcomes, and no substitution for human decision‑making. Human users must apply independent judgment and consult qualified professionals when dealing with real legal matters. See the LCES Safety Rules for full constraints.
-
+🏛️ Architecture Summary
+The Architecture Layer describes the constitutional structure of LCES: the Kernel, the Edition Bootloader, the Entry Mode Bootloader, and the role‑separated cognitive system (Architect, Builder, Inspector, Human Strategist). It explains how LCES enforces reproducibility, transparency, jurisdictional fidelity, and role purity. The diagrams and system maps included above illustrate the Full‑Stack Activation Model, the Layered Inheritance Model, and the constitutional cognition framework. These materials are part of the educational and architectural exposition and do not modify the legal terms below.
 📄 License
 Licensed under CC BY‑NC‑SA 4.0. This license permits sharing and adaptation for non‑commercial educational use, provided attribution is maintained and derivative works are shared under the same terms. Commercial use requires explicit permission. See [LICENSE.md](http://license.md/) for full legal terms.
 
