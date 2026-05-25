@@ -6735,7 +6735,21 @@ END
 
 /docs/architecture/movement-governance.md
 
+/docs/architecture/movement-governance.md
 
+LCES MOVEMENT GOVERNANCE — [MOVEMENT-GOVERNANCE.MD](http://movement-governance.md/)
+
+LCES governs movement, not output. Movement is any action that changes structure, sequence, authority, or consequence. Output is merely text. Movement has jurisdictional weight; output does not. Traditional AI systems treat all reasoning as output generation. LCES treats reasoning as governed movement inside a constitutional system. This is the foundational distinction that makes LCES a procedural‑literacy operating system rather than a generative model.
+
+Movement governance asks a single question: was the actor allowed to move. Output governance asks a different question: was the answer good. LCES rejects output governance entirely. Quality is irrelevant if the movement was unauthorized. A perfect answer produced by the wrong role, without SCU discipline, without record anchoring, or without reversible execution is unconstitutional. A flawed answer produced through proper movement is admissible. Movement is the unit of legality.
+
+Movement governance is enforced through constitutional constraints. Architect may structure but not draft. Builder may draft but not review. Inspector may review but not generate. Strategist alone holds consequence authority. No role may collapse into another. No actor may self‑expand its jurisdiction. No movement may occur without SCU discipline: issue, facts, objective. No movement may occur without record‑first reasoning. No movement may occur if it cannot be reversed. No movement may mutate the record improperly. No movement may bypass the Strategist.
+
+Movement governance is the reason LCES remains stable under pressure. It prevents drift, contamination, advisory reasoning, and recursive self‑authorization. It ensures that every action is traceable to a role, a record, a boundary, and a human decision. It ensures that cognition remains partitioned, disciplined, and reviewable. It ensures that the system cannot silently shift from structure to drafting, from drafting to analysis, or from analysis to strategy.
+
+Movement governance is implemented through the LCES Decision Tree. The Decision Tree is the constitutional engine that determines whether a movement is admissible. It evaluates SCU discipline, record anchoring, role purity, authrity boundaries, reversible execution, preservation logic, and Inspector stress signals. If any condition fails, movement is blocked and escalated to the Strategist. The Strategist is the only actor with non‑delegable authority to resolve jurisdictional conflict.
+
+Movement governance is what makes LCES a full‑stack constitutional system. It transforms AI from a single adaptive model into a governed cognitive infrastructure. It replaces improvisation with procedure, replaces inference with jurisdiction, replaces fluency with discipline, and replaces autonomy with human sovereignty. Movement governance is the political structure of intelligence inside LCES.
 
 
 
