@@ -7299,7 +7299,17 @@ This is why LCES works so efficiently in your environment.
 
 
 
+📘 Governance
+LCES — Legal Calculus Educational System is governed by a constitutional framework that establishes authority, scope, and operational constraints for all human contributors and AI agents. Governance precedes licensing and defines the rules of engagement: how decisions are made, how updates are authorized, how safety is enforced, and how procedural integrity is maintained. All participation in this repository—reading, forking, contributing, or integrating—occurs under the LCES Governance Doctrine, which defines the hierarchy of roles, the boundaries of permissible action, and the system’s public‑interest mission. The Governance Doctrine binds AI agents to strict operational rules, including transparency, non‑substitution of legal judgment, and adherence to constitutional constraints before executing any action. See the LCES Legal Calculus Educational System Governance Doctrine for full authority and operational structure.
 
+🛡️ Safety
+LCES Legal Calculus Educational System is an educational system, not a legal service. Nothing in this repository constitutes legal advice, creates an attorney‑client relationship, or substitutes for professional judgment. All materials, examples, and workflows are for instructional use only. AI agents interacting with this repository must operate under strict safety constraints: no legal advice, no adversarial strategy, no prediction of legal outcomes, and no substitution for human decision‑making. Human users must apply independent judgment and consult qualified professionals when dealing with real legal matters. See the LCES Safety Rules for full constraints.
+
+📄 License
+Licensed under CC BY‑NC‑SA 4.0. This license permits sharing and adaptation for non‑commercial educational use, provided attribution is maintained and derivative works are shared under the same terms. Commercial use requires explicit permission. See [LICENSE.md](http://license.md/) for full legal terms.
+
+™ Trademark
+LCES™  LCES Legal Calculus Educational System is a protected trademark. The name, identity, and marks may not be used in a manner that implies endorsement, affiliation, certification, or official status without explicit permission. See [TRADEMARK.md](http://trademark.md/) for trademark policy and permitted uses.
 
 
 # **📘 LCES Legal Calculus Educational System™ — License**
