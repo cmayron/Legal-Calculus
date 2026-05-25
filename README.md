@@ -46,7 +46,7 @@
 - [XII. WHY MICROSOFT WAS THE DISCOVERY ENVIRONMENT](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#xii-why-microsoft-was-the-discovery-environment)
 - [XIII. THE MANIFESTO SENTENCE](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#xiii-the-manifesto-sentence)
 - [XIV. THE DECLARATION](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#xiv-the-declaration)
-
+  [XV. ADDENDUM 
 ---
 
 # **PREAMBLE**
@@ -371,13 +371,15 @@ We declare:
 - that the stack governs the AIs
 - and that this architecture is the foundation of procedural literacy
 
+
+# ** XV. LCES MANIFESTO ADDENDUM**
+ — The Addendum establishes the constitutional hygiene requirements that govern all LCES documents, operations, and reasoning surfaces. It binds the system to the same irreversible order declared in the Manifesto and extends the constitutional obligations that protect human sovereignty, sequence integrity, and procedural fidelity. The Addendum has four binding functions. First, Sequence Integrity: All LCES operations must follow the constitutional order of Kernel, Edition, Role, Mode, and Strategist. No layer may load out of order, collapse into another, self‑elevate, or reinterpret its authority. Sequence violations trigger STOP. Second, Role Purity: Architect, Builder, and Inspector must remain fully separated. No role may draft, assemble, and review the same object. No role may absorb the powers of another. Role purity is mandatory for preventing contamination, drift, circular reasoning, and self‑approval. Third, Edition Containment: Each Edition is sovereign. No Edition may borrow from, contaminate, override, or blend with another. Jurisdiction is procedural physics; Edition purity is the enforcement mechanism. Fourth, Strategist Supremacy: The human Strategist remains the sole source of authority. No system component may initiate, infer, assume, or drift. STOP must activate on ambiguity, contamination, unsafe reasoning, or any attempt by the system to exceed its constitutional surface. The Addendum is binding on all LCES modules, documents, workflows, and reasoning engines. Nothing may supersede it. Nothing may bypass it. Nothing may dilute it. The Addendum is the constitutional firewall that preserves procedural literacy, protects the human Strategist, and ensures that LCES remains a human‑defined, human‑bounded, and human‑controlled system.
+
 This is the doctrine.
 
 This is the discovery.
 
 This is LCES.
-
-LCES MANIFESTO ADDENDUM — The Addendum establishes the constitutional hygiene requirements that govern all LCES documents, operations, and reasoning surfaces. It binds the system to the same irreversible order declared in the Manifesto and extends the constitutional obligations that protect human sovereignty, sequence integrity, and procedural fidelity. The Addendum has four binding functions. First, Sequence Integrity: All LCES operations must follow the constitutional order of Kernel, Edition, Role, Mode, and Strategist. No layer may load out of order, collapse into another, self‑elevate, or reinterpret its authority. Sequence violations trigger STOP. Second, Role Purity: Architect, Builder, and Inspector must remain fully separated. No role may draft, assemble, and review the same object. No role may absorb the powers of another. Role purity is mandatory for preventing contamination, drift, circular reasoning, and self‑approval. Third, Edition Containment: Each Edition is sovereign. No Edition may borrow from, contaminate, override, or blend with another. Jurisdiction is procedural physics; Edition purity is the enforcement mechanism. Fourth, Strategist Supremacy: The human Strategist remains the sole source of authority. No system component may initiate, infer, assume, or drift. STOP must activate on ambiguity, contamination, unsafe reasoning, or any attempt by the system to exceed its constitutional surface. The Addendum is binding on all LCES modules, documents, workflows, and reasoning engines. Nothing may supersede it. Nothing may bypass it. Nothing may dilute it. The Addendum is the constitutional firewall that preserves procedural literacy, protects the human Strategist, and ensures that LCES remains a human‑defined, human‑bounded, and human‑controlled system.
 
 # **LCES — Legal Calculus Educational System™**
 
