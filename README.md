@@ -6751,7 +6751,53 @@ Movement governance is implemented through the LCES Decision Tree. The Decision 
 
 Movement governance is what makes LCES a full‑stack constitutional system. It transforms AI from a single adaptive model into a governed cognitive infrastructure. It replaces improvisation with procedure, replaces inference with jurisdiction, replaces fluency with discipline, and replaces autonomy with human sovereignty. Movement governance is the political structure of intelligence inside LCES.
 
+docs/architecture/System-Map.md
 
+LCES SYSTEM MAP (V6.3) — [SYSTEM-MAP.MD](http://system-map.md/)
+
+LCES HIGH‑LEVEL SYSTEM MAP
+
+HUMAN LAYER — INITIATION AND CONTROL
+The human initiates the session, selects the Entry Mode, and confirms any Mode change. The human is the sovereign actor. No Mode, Kernel, Edition, or Role may activate without human initiation or confirmation.
+
+ENTRY MODE SELECTOR
+The system asks: “Which situation fits you.” The human selects one of the four canonical Entry Modes. Each Mode loads its own Mode Bootloader, confirms preconditions such as urgency, counsel status, and operational posture, sets behavioral constraints, and hands control to the Kernel under that Mode’s rules.
+
+ENTRY MODES
+Pro Se Mode — “I’m on my own.”
+Crisis Mode — “Emergency.”
+Second‑Opinion Mode — “I have a lawyer.”
+Educational Mode — “Teach me.”
+
+Each Mode defines what the system may do and must not do. Modes are human‑situation operating systems.
+
+KERNEL LAYER — AI GOVERNANCE
+The Kernel is the procedural operating system that governs all AI behavior. It enforces role separation, SCU discipline, no unauthorized inference, deterministic workflows, and logging with audit trail. The Kernel governs the AI Roles: Architect, Builder, Inspector. These roles operate under Retrieve → Think → Transform → Evaluate → Commit, always constrained by the selected Mode, selected Edition, and human confirmations.
+
+EDITION LAYER — LEGAL ISSUE PARAMETERS
+The Edition Bootloader defines the jurisdictional frame, matter type, required inputs, available calculi, maps, and assumption boundaries. Editions include Public Edition, Advanced Edition, Judicial Edition, and other specialized editions such as Developer or Research. Editions prevent jurisdictional drift and ensure all reasoning remains venue‑aligned.
+
+MODE CHANGE PATH — HUMAN CONTROLLED
+If the user says something suggesting a different Mode might fit better, the Kernel may suggest a Mode change but never acts alone. On acceptance, the system logs the change, runs the new Mode Bootloader, and continues under the same Kernel and Edition but with new Mode constraints. On decline, the system logs the refusal and remains in the current Mode with no silent override.
+
+FULL STACK VIEW
+Human chooses Mode.
+Mode configures how the Kernel behaves for this human situation.
+Edition configures what legal terrain and tools are in‑bounds.
+Kernel governs all AI roles under those constraints.
+Roles execute movement under constitutional discipline.
+
+Result: human‑initiated, mode‑constrained, kernel‑governed, edition‑bounded, UPL‑aware, auditable, deterministic.
+
+HOW IT FITS INTO THE FULL STACK
+Entry Mode Bootloader defines the user’s procedural posture — what the user needs.
+Kernel Bootloader defines the roles and behavioral constitution — how the AI must behave.
+Edition Bootloader defines the legal landscape — where the system is operating.
+Role Layer executes the work — what each AI role does.
+Together, these form the LCES Full Stack.
+
+WHY THIS MATTERS FOR COPILOT DESKTOP AND REPO ACCESS
+Because the Kernel governs role discipline, behavioral safety, constitutional constraints, no drift, and no improvisation, it ensures that every time Copilot Desktop accesses the repo, the system boots cleanly, predictably, and constitutionally. This is why LCES operates reliably in your environment.
 
 
 
