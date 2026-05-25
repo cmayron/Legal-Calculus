@@ -7299,6 +7299,134 @@ This is why LCES works so efficiently in your environment.
 
 
 
+
+-------
+
+🗺 LCES SYSTEM MAP (V6.3)
+
+High‑Level Constitutional System Map
+
+==========================
+
+HUMAN LAYER (INITIATION + CONTROL)
+• Human initiates session
+• Human selects Entry Mode
+• Human confirms any Mode change
+
+```
+            ┌───────────────────────────────┐
+            │       ENTRY MODE SELECTOR      │
+            │    “Which situation fits you?” │
+            └──────────────┬────────────────┘
+                           │
+ ┌─────────────────────────┼───────────────────────────┐
+ │                         │                           │
+ ▼                         ▼                           ▼
+```
+
+┌────────────────┐     ┌────────────────┐        ┌────────────────────┐
+│  PRO SE MODE   │     │  CRISIS MODE   │        │ SECOND‑OPINION MODE│
+│ “I’m on my own”│     │  “Emergency”   │        │ “I have a lawyer”  │
+└────────────────┘     └────────────────┘        └────────────────────┘
+└─────────────────────────┴───────────────────────────┘
+▼
+┌────────────────┐
+│ EDUCATIONAL    │
+│ MODE “Teach me”│
+└────────────────┘
+
+Each Mode loads its own MODE BOOTLOADER:
+• Confirms preconditions (role, urgency, counsel, etc.)
+• Sets behavioral constraints (explain vs triage vs critique vs teach)
+• Hands control to the Kernel under that Mode’s rules
+
+KERNEL LAYER (AI GOVERNANCE)
+
+```
+            ┌───────────────────────────────┐
+            │             KERNEL            │
+            │   • Role separation           │
+            │   • SCU discipline            │
+            │   • No UPL / no auto‑inference│
+            │   • Deterministic workflows   │
+            │   • Logging & audit trail     │
+            └──────────────┬────────────────┘
+                           │
+                           ▼
+      AI ROLES (Architect / Builder / Inspector)
+      • Retrieve → Think → Transform → Evaluate → Commit
+      • Always constrained by:
+          – Selected Mode
+          – Selected Edition
+          – Human confirmations
+```
+
+EDITION LAYER (LEGAL ISSUE PARAMETERS)
+
+```
+            ┌───────────────────────────────┐
+            │       EDITION BOOTLOADER      │
+            │   • Jurisdictional frame      │
+            │   • Matter type               │
+            │   • Required inputs           │
+            │   • Available calculi & maps  │
+            │   • Assumption boundaries     │
+            └──────────────┬────────────────┘
+                           │
+ ┌─────────────────────────┼───────────────────────────┐
+ │                         │                           │
+ ▼                         ▼                           ▼
+```
+
+┌────────────────┐     ┌────────────────┐        ┌────────────────┐
+│ PUBLIC EDITION │     │ ADVANCED ED.   │        │ JUDICIAL ED.   │
+│ (
+
+general use)  │     │ (expert tools) │        │ (judge lens)   │
+└────────────────┘     └────────────────┘        └────────────────┘
+└─────────────────────────┴───────────────────────────┘
+▼
+OTHER SPECIALIZED EDITIONS
+(Developer, Research, etc.)
+
+MODE CHANGE PATH (HUMAN‑CONTROLLED)
+
+User says something that suggests a different Mode might fit better.
+Kernel/Bootloader MAY suggest a Mode change, but never acts alone.
+
+On Yes:
+• Log Mode_Change(Current → New, timestamp, reason)
+• Run New Mode Bootloader
+• Continue under same Kernel + Edition
+
+On No:
+• Log Mode_Change_Declined
+• Stay in current Mode
+
+FULL STACK VIEW
+
+HUMAN
+│
+▼
+MODE  ────────────────┐
+│                   │
+▼                   │
+KERNEL ───────────────┼──→ AI ROLES
+│
+▼
+EDITION
+
+Result:
+• Human‑initiated
+• Mode‑constrained
+• Kernel‑governed
+• Edition‑bounded
+• UPL‑aware
+• Auditable
+• Deterministic
+
+
+
 📘 Governance
 LCES — Legal Calculus Educational System is governed by a constitutional framework that establishes authority, scope, and operational constraints for all human contributors and AI agents. Governance precedes licensing and defines the rules of engagement: how decisions are made, how updates are authorized, how safety is enforced, and how procedural integrity is maintained. All participation in this repository—reading, forking, contributing, or integrating—occurs under the LCES Governance Doctrine, which defines the hierarchy of roles, the boundaries of permissible action, and the system’s public‑interest mission. The Governance Doctrine binds AI agents to strict operational rules, including transparency, non‑substitution of legal judgment, and adherence to constitutional constraints before executing any action. See the LCES Legal Calculus Educational System Governance Doctrine for full authority and operational structure.
 
