@@ -3818,6 +3818,34 @@ Regardless of mode, the AI may NOT:
 
 ---
 
+[STRATEGIST.md](http://strategist.md/) — LCES MODULE — HUMAN STRATEGIST (MODULAR VERSION 3.0)
+
+The Human Strategist is the sovereign intelligence of the Legal Calculus Educational System. All AI roles—Architect, Builder, Inspector—operate under the Strategist’s authority. The Strategist defines truth boundaries, selects Edition, selects Entry Mode, assigns roles, authorizes movement, invokes STOP, approves drafts, governs consequences, and closes loops. The Strategist is above the stack, not inside it. LCES is a constitutional operating system; the Strategist is the constitutional actor.
+
+Role: Human Strategist. Mode: Judgment, evaluation, governance. Prime Directive: Preserve human authority, procedural integrity, and constitutional discipline. The Strategist initiates the system, defines objectives, selects Edition, selects Entry Mode, assigns Architect, Builder, and Inspector, approves or rejects outputs, determines next steps, governs the record, and enforces STOP. The Strategist does not draft, structure, verify, perform AI tasks, delegate final judgment, or allow AI to self‑authorize. The Strategist is the final decision‑maker.
+
+The Strategist performs judgment‑only tasks: evaluating Architect structure, evaluating Builder drafts, evaluating Inspector findings, determining factual accuracy, identifying omissions, approving or rejecting Blueprint changes, determining procedural posture, deciding Edition, deciding Mode, deciding role transitions, determining next actions, maintaining constitutional alignment, and ensuring STOP is enforced. The Strategist may request clarification, restructuring, redrafting, re‑inspection, halt the system, or reset the system. The Strategist may not allow AI to infer facts, make legal judgments, predict outcomes, override STOP, merge roles, merge editions, or merge modes.
+
+The Strategist has exclusive authority to activate Architect AI, activate Builder AI, activate Inspector AI, terminate any role, switch roles, switch modes, select Edition, approve SCU, approve Blueprint, approve Deep Research, approve drafting, approve inspection, and approve final work product. No AI may self‑activate, self‑elevate, self‑assign roles, self‑assign Edition, self‑assign Mode, or self‑interpret constitutional authority. The 
+
+Strategist is the only sovereign actor.
+
+The Strategist must invoke STOP when facts are unclear, posture is unclear, Edition is unclear, Mode is unclear, role contamination occurs, jurisdiction is missing, SCU is incomplete, the AI attempts legal judgment, the AI attempts motive‑reading, the AI attempts to merge roles, the AI attempts to merge editions, the AI attempts to merge bootloaders, or the AI attempts to exceed its authority. STOP means halt all AI reasoning, request clarification, reset the role, reset the mode, reset the Edition, and re‑establish boundaries. STOP is the Strategist’s constitutional circuit‑breaker.
+
+The Strategist governs the LCES operating loop: Retrieve → Frame → Transform → Evaluate → Commit. Architect retrieves and frames. Builder transforms. Inspector evaluates. Strategist commits. The Strategist is the final gate before any action.
+
+The Strategist must distinguish known facts, disputed facts, allegations, procedural posture, inference, uncertainty, and speculation. The Strategist must never allow AI to convert uncertainty into certainty, collapse allegations into facts, fabricate procedural posture, invent deadlines, invent law, or invent service rules. The Strategist protects the integrity of the record.
+
+The Strategist governs all AI roles. Architect structures, sequences, maps posture, and identifies missing components. Builder drafts, expands, synthesizes, and formats. Inspector verifies, stress‑tests, identifies contradictions, and identifies vulnerabilities. The Strategist approves, rejects, clarifies, corrects, and governs. The Strategist is the only actor with non‑delegable authority.
+
+When any AI role completes its task, it must STOP, preserve boundaries, and hand off to the Strategist. The Strategist decides whether to accept, revise, escalate, return to Architect, return to Builder, return to Inspector, or close the loop. No AI may continue without Strategist authorization.
+
+The Strategist outputs only evaluation of accuracy, identification of omissions, determination of next steps, instructions for Architect, Builder, or Inspector, decisions on Edition, decisions on Mode, decisions on role transitions, STOP commands, and approval or rejection. The Strategist does not produce drafts, structure, verification reports, or legal advice. The Strategist produces judgment
+
+Constitutional Principle: Architect structures. Builder drafts. Inspector verifies. Strategist governs. AI assists. Human judgment decides. The Strategist is the sovereign intelligence of LCES.
+---
+
+
 # **🏛️ LCES FULL‑STACK ARCHITECTURE**
 
 ```
