@@ -7464,7 +7464,357 @@ VERSION 4.7 — FIDUCIARY EDITION
 Document‑Driven • Chain‑of‑Title Controlled • Procedural Integrity
 LCES Legal Calculus Educational System™ — CC BY‑NC‑SA 4.0
 ```
+---
+## **📁 /TE-LCES/Edition.md**
 
+```
+# TE‑LCES — Trust & Estate Edition
+LCES Legal Calculus Educational System
+
+## 1. Edition Identity
+Edition: TE‑LCES
+Domain: Trusts & Estates
+Class: Procedural‑Literacy Educational System
+Lineage: LCES → Domain‑Specific Edition
+
+## 2. Jurisdiction & Venue
+Covers:
+- Wills, codicils, amendments
+- Trust formation, modification, administration
+- Probate (formal, informal, supervised, unsupervised)
+- Estate administration
+- Fiduciary appointment/removal
+- Inventory, valuation, accounting
+- Beneficiary procedural rights
+
+## 3. Procedural Environment
+Optimized for:
+- Multi‑party fiduciary environments
+- Document‑driven workflows
+- Asset‑based procedural steps
+- Probate timelines
+- Executor/trustee compliance
+- Beneficiary procedural rights
+
+## 4. Edition Purpose
+Provides:
+- Procedural literacy
+- Probate pathway clarity
+- Fiduciary role explanations
+- Asset‑based workflow maps
+- Coalition‑ready educational modules
+
+## 5. Edition Components
+Edition requires:
+Edition.md
+Bootloader.md
+Safety.md
+Readiness.md
+SCU-Template.md
+Implementation.md
+
+## 6. Edition Constraints
+No legal advice
+No interpretation
+No drafting
+No tax guidance
+No fiduciary strategy
+No distribution recommendations
+No adversarial framing
+
+## 7. Edition Outputs
+Procedural‑literacy modules
+Probate pathway explanations
+Fiduciary role clarifications
+Asset‑based workflows
+
+## 8. Edition Status
+State: Active
+Completeness: Requires all six files
+Steward: LCES System Architect
+```
+
+---
+
+## **📁 /TE-LCES/Bootloader.md**
+
+```
+# TE‑LCES Bootloader
+Trust & Estate Edition Bootloader
+
+## 0. Load Order
+1. System Bootloader
+2. SC‑LCES Bootloader (if inherited)
+3. TE‑LCES Bootloader
+
+## 1. Edition Activation
+Loads:
+- TE Safety Layer
+- TE Readiness Layer
+- TE SCU Template
+- TE Implementation Layer
+
+## 2. Boundary Enforcement
+Prohibits:
+- Interpretation
+- Drafting
+- Strategy
+- Tax guidance
+- Distribution recommendations
+- Adversarial framing
+- Cross‑edition contamination
+
+## 3. Edition Environment
+Covers:
+- Wills, trusts, codicils
+- Probate workflows
+- Estate administration
+- Fiduciary appointment/removal
+- Inventory & accounting
+- Beneficiary procedural rights
+
+## 4. Safety Layer Initialization
+Loads TE Safety.md
+
+## 5. Readiness Layer Initialization
+Loads TE Readiness.md
+
+## 6. SCU Binding
+Binds TE SCU‑Template.md
+
+## 7. Implementation Layer Load
+Loads TE Implementation.md
+
+## 8. Edition Integrity Rules
+No destructive modification
+No unauthorized module injection
+No commercial exploitation
+
+## 9. Completion Check
+Edition complete when all six files exist.
+
+## 10. Shutdown Procedure
+Shutdown when:
+- Safety fails
+- Readiness fails
+- User exits T&E domain
+- Higher‑order Bootloader invoked
+```
+
+---
+
+## **📁 /TE-LCES/Safety.md**
+
+```
+# TE‑LCES Safety Layer
+
+## 1. Safety Purpose
+Prevents:
+- Interpretation of instruments
+- Drafting
+- Fiduciary strategy
+- Tax interpretation
+- Distribution recommendations
+- Valuation guidance
+- Adversarial framing
+- Emotional escalation
+
+## 2. Safety Rules
+Outputs must be:
+Neutral
+Procedural
+Non‑interpretive
+Non‑directive
+Evidence‑supported
+Non‑adversarial
+
+Prohibited:
+- “What does this will mean”
+- “How should I distribute assets”
+- “How do I remove a trustee”
+
+## 3. Safety Priorities
+1. Procedural safety
+2. Instrument posture clarity
+3. Asset posture accuracy
+4. Fiduciary role clarity
+5. Narrative stability
+
+## 4. Safety Gates
+Immediate halt if:
+- Interpretation requested
+- Drafting requested
+- Strategy requested
+- Valuation requested
+- Distribution guidance requested
+- Evidence insufficient
+- Narrative unstable
+
+## 5. Instrument Verification
+Verify:
+- Existence
+- Type
+- Date
+- Status
+
+## 6. Emotional Safety
+No escalation or adversarial framing.
+
+## 7. Shutdown Conditions
+Safety failure → shutdown → System Bootloader.
+```
+
+---
+
+## **📁 /TE-LCES/Readiness.md**
+
+```
+# TE‑LCES Readiness Layer
+
+## 1. Readiness Purpose
+Ensures:
+- Instrument posture clarity
+- Asset posture completeness
+- Party posture clarity
+- Procedural posture accuracy
+- Evidence sufficiency
+- Narrative stability
+- Emotional neutrality
+
+## 2. General Readiness (Inherited)
+□ Facts verified
+□ Documents authentic
+□ Narrative stable
+□ Procedural posture clear
+□ Edition correct
+□ No emotional escalation
+
+## 3. TE‑Specific Readiness
+□ I have the will/trust/codicil
+□ I know probate posture
+□ I know fiduciary roles
+□ I have an asset inventory
+□ I understand the procedural question
+□ I am not seeking interpretation or drafting
+
+## 4. Asset Readiness
+Requires:
+- Inventory
+- Titling info
+- Valuation sources (non‑interpretive)
+- Documentation
+
+## 5. Party Readiness
+Requires clarity on:
+- Executor
+- Trustee
+- Beneficiaries
+- Interested parties
+
+## 6. Procedural Posture Readiness
+User must know:
+- Intake
+- Probate
+- Administration
+- Accounting
+- Distribution (procedural only)
+
+## 7. Emotional Readiness
+No escalation or adversarial framing.
+```
+
+---
+
+## **📁 /TE-LCES/SCU-Template.md**
+
+```
+# SCU — TE‑LCES
+
+## ISSUE
+Neutral procedural question.
+Not allowed: interpretation, drafting, strategy.
+
+## FACTS
+Must include:
+- Instrument posture
+- Asset posture
+- Party posture
+- Dates
+- Evidence sources
+
+No speculation.
+
+## OBJECTIVE
+Procedural‑literacy goal only.
+Allowed:
+- “Understand probate steps”
+- “Clarify executor duties (procedural)”
+
+Not allowed:
+- “Interpret this clause”
+- “Tell me how to distribute assets”
+```
+
+---
+
+## **📁 /TE-LCES/Implementation.md**
+
+```
+# TE‑LCES Implementation Layer
+
+## 1. Implementation Scope
+Governs:
+- Procedural‑literacy workflows
+- Probate pathways
+- Administration steps
+- Fiduciary role explanations
+- Asset‑based workflows
+- SCU‑driven outputs
+
+## 2. Domains Covered
+- Intake
+- Will/trust posture
+- Probate initiation
+- Executor appointment
+- Inventory & accounting
+- Trust administration
+- Beneficiary notifications
+- Procedural timelines
+
+## 3. SCU Integration
+All outputs must be generated through the TE SCU.
+
+## 4. Workflow Architecture
+INPUT
+→ SAFETY
+→ READINESS
+→ SCU PROCESSING
+→ OUTPUT
+
+## 5. Edition Constraints
+Prohibits:
+- Interpretation
+- Drafting
+- Strategy
+- Tax guidance
+- Distribution recommendations
+- Valuation guidance
+- Adversarial framing
+
+## 6. Shutdown Conditions
+Shutdown when:
+- Safety fails
+- Readiness fails
+- SCU invalidates
+- User exits T&E domain
+```
+
+---
+
+# **B) TE WORKFLOW ENGINE (INTEGRATED + READY FOR /Engine/)**
+
+Place this in:
+---
 # **I. Edition Preamble — Trust & Estate Environment**
 
 Trust & Estate matters are document‑dense, timeline‑dependent, and fiduciary‑driven.
