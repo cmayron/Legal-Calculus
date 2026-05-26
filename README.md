@@ -9313,6 +9313,57 @@ The Bootloader is the enforcement layer of LCES.
 It ensures discipline, prevents drift, and maintains doctrinal integrity.
 
 [Diagrams follow here…]
+flowchart TD
+
+    %% HUMAN LAYER
+    HumanStrategist([HUMAN STRATEGIST<br>• Sovereign Intent<br>• Mode Selection<br>• Final Authority])
+
+    %% MODE BOOTLOADER
+    ModeBootloader([ENTRY MODE BOOTLOADER<br>Pro Se • Crisis • Second‑Opinion • Educational<br>Defines: urgency, posture, constraints])
+
+    %% KERNEL BOOTLOADER
+    Kernel([KERNEL BOOTLOADER<br>Constitutional Core<br>STOP Rules • Role Separation • Boundaries])
+
+    %% EDITION BOOTLOADER
+    Edition([EDITION BOOTLOADER<br>SC‑LCES • FC‑LCES • TE‑LCES • AC‑LCES<br>Jurisdictional Physics • Venue Constraints])
+
+    %% WORKFLOW ENGINE
+    WorkflowEngine([WORKFLOW ENGINE<br>STOP Engine • Readiness Engine • Posture Engine<br>SCU Router • Module Activator])
+
+    %% SCU LAYER
+    SCU([SCU LAYER<br>Issue • Facts • Objective<br>Edition‑Pure Structural Units])
+
+    %% MODULE LAYER
+    Modules([MODULE LAYER<br>Jurisdiction • Evidence • Service • Damages • Timeline<br>Procedural Architecture])
+
+    %% ROLE LAYER
+    subgraph Roles[AI ROLES — Constitutionally Separated]
+        Architect([ARCHITECT<br>Structure • Mapping • Blueprint])
+        Builder([BUILDER<br>Drafting • Plain‑Language Construction])
+        Inspector([INSPECTOR<br>Attack Surface • Stress Test • Gaps])
+    end
+
+    %% REPO LAYER
+    Repo([REPOSITORY LAYER<br>Manifesto • README • Bootloader • Editions • Calculi<br>Version‑Controlled Canon])
+
+    %% SUBSTRATE LAYER
+    Substrate([SUBSTRATE<br>External Deterministic Layer<br>Proof of State • Anti‑Tamper • Auditability])
+
+    %% CONNECTIONS
+    HumanStrategist --> ModeBootloader
+    ModeBootloader --> Kernel
+    Kernel --> Edition
+    Edition --> WorkflowEngine
+    WorkflowEngine --> SCU
+    SCU --> Modules
+    Modules --> Roles
+    Roles --> Repo
+    Repo --> Substrate
+
+    %% RETURN PATHS
+    Inspector -->|Finds Gaps| Architect
+    Architect -->|Rebuilds Structure| WorkflowEngine
+    HumanStrategist -->|Final Review| Repo
 
 
 🗺 LCES SYSTEM MAP (V6.3)
