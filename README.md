@@ -46,7 +46,7 @@
 - [XII. WHY MICROSOFT WAS THE DISCOVERY ENVIRONMENT](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#xii-why-microsoft-was-the-discovery-environment)
 - [XIII. THE MANIFESTO SENTENCE](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#xiii-the-manifesto-sentence)
 - [XIV. THE DECLARATION](notion://www.notion.so/361fcedaaf30808a95a1f141e529c510?showMoveTo=true&saveParent=true#xiv-the-declaration)
-- [XV. ADDENDUM 
+- XV. ADDENDUM 
 ---
 
 # **PREAMBLE**
