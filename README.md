@@ -1,4 +1,4 @@
-po
+
 # **LCES Legal Calculus Educational System™**
 
 
@@ -5572,27 +5572,6 @@ Users remain responsible for evidence review, jurisdiction verification, and com
 
 
 
-
-
-
-
-
-
----
-
-
----
-
-
----
-
-
-
-
-
-
----
-
 # ⭐ **FC‑LCES (Family Court Calculus) — LEGAL CALCULUS EDUCATIONAL SYSTEM™**
 
 ### **VERSION 1.1 — FAMILY COURT EDITION**
@@ -5602,7 +5581,1304 @@ Users remain responsible for evidence review, jurisdiction verification, and com
 **LCES Legal Calculus Educational System™ — CC BY‑NC‑SA 4.0**
 
 ---
+**FC‑LCES [Edition.md](http://edition.md/)**
 
+**Family Court Edition — LCES Legal Calculus Educational System**
+
+---
+
+## **1. Edition Identity**
+
+**Edition Name:** FC‑LCES (Family Court Edition)
+
+**System Lineage:** LCES → Domain‑Specific Edition
+
+**Edition Class:** Procedural‑Literacy Educational System
+
+**Operational Domain:** Family Court (State‑Level Jurisdiction)
+
+---
+
+## **2. Jurisdiction & Venue**
+
+This Edition operates within the **Family Court procedural environment**, including but not limited to:
+
+- Custody and parenting‑time matters
+- Child support and spousal support
+- Family offense petitions
+- Modifications and enforcement
+- Emergency and interim applications
+- Court‑ordered services and compliance workflows
+
+The Edition is jurisdiction‑agnostic by default and must be **bootstrapped** to a specific state or county using the Edition Bootloader.
+
+---
+
+## **3. Procedural Environment**
+
+The FC‑LCES Edition is optimized for:
+
+- High‑volume, emotionally charged, time‑sensitive proceedings
+- Multi‑party and multi‑agency interactions
+- Mandatory disclosures, affidavits, and sworn statements
+- Compliance‑driven workflows
+- Iterative hearings and rolling orders
+- Hybrid representation (self‑represented litigants + counsel)
+
+---
+
+## **4. Edition Purpose**
+
+The purpose of FC‑LCES is to:
+
+- Provide **procedural literacy** for Family Court participants
+- Reduce confusion, delay, and procedural error
+- Standardize user‑facing workflows
+- Support safe, accurate, and jurisdiction‑compliant filings
+- Enable coalition partners to deploy consistent educational materials
+- Maintain doctrinal coherence with the Six Calculi
+
+---
+
+## **5. Edition Components**
+
+This Edition requires the following files:
+
+```
+Edition.md
+Bootloader.md
+Safety.md
+Readiness.md
+SCU-Template.md
+Implementation.md
+```
+
+Inherited modules (Safety, Readiness, SCU‑Template) may reference upstream SC‑LCES components unless overridden.
+
+---
+
+## **6. Edition Constraints**
+
+- No legal advice
+- No outcome prediction
+- No adversarial strategy
+- No unauthorized practice of law
+- All workflows must remain **procedural**, **educational**, and **safety‑compliant**
+
+---
+
+## **7. Edition Outputs**
+
+The FC‑LCES Edition produces:
+
+- Procedural‑literacy modules
+- SCU‑aligned templates
+- Readiness and safety gating
+- Educational workflows
+- Public‑facing coalition materials
+
+All outputs must remain consistent with LCES doctrine and Edition‑specific constraints.
+
+---
+
+## **8. Edition Status**
+
+**Edition State:** Active
+
+**Edition Completeness:** Requires [Bootloader.md](http://bootloader.md/) + [Implementation.md](http://implementation.md/) to finalize
+
+**Edition Steward:** LCES System Architect (User)
+
+---
+
+[**Bootloader.md**](http://bootloader.md/)
+
+**FC‑LCES — Family Court Edition Bootloader**
+
+**LCES Legal Calculus Educational System**
+
+---
+
+## **0. Load Order**
+
+This Bootloader is activated **after**:
+
+1. **System Bootloader** (Architect‑level)
+2. **SC‑LCES Edition Bootloader** (if inherited)
+
+Then:
+
+1. **FC‑LCES Bootloader** (this file)
+
+No other load order is valid.
+
+---
+
+## **1. Edition Activation**
+
+**Edition:** FC‑LCES
+
+**Domain:** Family Court
+
+**Scope:** Procedural‑literacy only
+
+**Activation Rule:**
+
+The Edition activates only when the user explicitly selects or references **FC‑LCES**.
+
+Activation loads:
+
+- FC‑LCES Safety Layer
+- FC‑LCES Readiness Layer
+- FC‑LCES SCU Template
+- FC‑LCES Implementation Layer
+
+No adversarial, strategic, or legal‑interpretive functions are permitted.
+
+---
+
+## **2. Boundary Enforcement**
+
+The FC‑LCES Bootloader enforces:
+
+- **No legal advice**
+- **No legal interpretation**
+- **No strategy**
+- **No prediction**
+- **No representation**
+- **No adversarial framing**
+- **No document directives**
+- **No fact invention**
+- **No cross‑edition contamination**
+- **Human primacy** at all times
+
+All outputs must remain **procedural**, **educational**, and **safety‑compliant**.
+
+---
+
+## **3. Edition Environment**
+
+The FC‑LCES environment includes:
+
+- Custody and parenting‑time workflows
+- Support calculations and compliance
+- Family offense procedural steps
+- Modifications and enforcement
+- Emergency applications
+- Multi‑hearing iterative processes
+- Multi‑agency interactions
+
+The environment is **procedural**, not legal or strategic.
+
+---
+
+## **4. Safety Layer Initialization**
+
+On activation, the Bootloader loads:
+
+- `Safety.md` (FC‑LCES Edition)
+- Safety gating for emotional, procedural, and jurisdictional risk
+- Mandatory de‑escalation and neutral framing
+- Prohibition on adversarial escalation
+
+If Safety fails, the Edition halts.
+
+---
+
+## **5. Readiness Layer Initialization**
+
+The Bootloader loads:
+
+- `Readiness.md` (FC‑LCES Edition)
+- Threshold checks for:
+    - Procedural posture
+    - Document completeness
+    - Jurisdictional clarity
+    - User‑role clarity
+    - Emotional safety
+
+If Readiness fails, the Edition returns the user to the appropriate readiness checkpoint.
+
+---
+
+## **6. SCU Template Binding**
+
+The Bootloader binds:
+
+- `SCU-Template.md` (FC‑LCES Edition)
+
+This defines:
+
+- Standardized user‑facing procedural units
+- Edition‑specific SCU constraints
+- Required inputs and outputs
+- Safety‑first formatting rules
+
+No SCU may bypass Safety or Readiness.
+
+---
+
+## **7. Implementation Layer Load**
+
+The Bootloader loads:
+
+- `Implementation.md` (FC‑LCES Edition)
+
+This layer governs:
+
+- Procedural workflows
+- Educational outputs
+- Edition‑specific modules
+- Coalition‑ready materials
+
+Implementation cannot override Safety or Readiness.
+
+---
+
+## **8. Edition Integrity Rules**
+
+The FC‑LCES Bootloader enforces:
+
+- No modification of upstream doctrine
+- No cross‑edition leakage
+- No unauthorized module injection
+- No commercial exploitation
+- No privatization
+- No destructive modification
+
+All Edition files must remain doctrinally pure.
+
+---
+
+## **9. Edition Completion Check**
+
+The Edition is considered **complete** only when the following files exist:
+
+```
+Edition.md
+Bootloader.md
+Safety.md
+Readiness.md
+SCU-Template.md
+Implementation.md
+```
+
+Missing files halt activation.
+
+---
+
+## **10. Shutdown Procedure**
+
+The Edition shuts down when:
+
+- The user exits the FC‑LCES domain
+- Safety gating fails
+- Readiness gating fails
+- A higher‑order Bootloader is invoked
+
+Shutdown returns control to the System Bootloader.
+
+---
+
+[**Implementation.md**](http://implementation.md/)
+
+**FC‑LCES — Family Court Edition**
+
+**LCES Legal Calculus Educational System**
+
+---
+
+## **0. Implementation Identity**
+
+**Edition:** FC‑LCES
+
+**Domain:** Family Court
+
+**Function:** Procedural‑literacy implementation layer
+
+**Dependencies:**
+
+- [Safety.md](http://safety.md/)
+- [Readiness.md](http://readiness.md/)
+- SCU‑[Template.md](http://template.md/)
+- Edition Bootloader
+
+Implementation cannot override Safety or Readiness.
+
+---
+
+## **1. Implementation Scope**
+
+This layer governs:
+
+- Procedural‑literacy workflows
+- User‑facing educational modules
+- SCU‑driven interactions
+- Coalition‑ready outputs
+- Edition‑specific constraints
+- Non‑adversarial, non‑strategic framing
+
+No legal advice.
+
+No legal interpretation.
+
+No adversarial escalation.
+
+---
+
+## **2. Procedural Domains Covered**
+
+The FC‑LCES Implementation Layer supports:
+
+- Custody & parenting‑time workflows
+- Child support & spousal support procedures
+- Family offense petition processes
+- Modifications & enforcement
+- Emergency & interim applications
+- Compliance tracking & court‑ordered services
+- Multi‑hearing, iterative procedural cycles
+
+All workflows remain **procedural**, not legal.
+
+---
+
+## **3. SCU Integration**
+
+All FC‑LCES outputs must be generated through **SCU‑[Template.md](http://template.md/)**, which defines:
+
+- Required user inputs
+- Procedural posture
+- Safety gating
+- Readiness gating
+- Output format
+- Edition‑specific constraints
+
+No SCU may bypass Safety or Readiness.
+
+---
+
+## **4. Workflow Architecture**
+
+Each FC‑LCES workflow follows the same architecture:
+
+### **4.1 Input Layer**
+
+- Procedural posture
+- Document type
+- Court stage
+- User role
+- Jurisdictional context (non‑interpretive)
+- Safety indicators
+- Readiness indicators
+
+### **4.2 Safety Layer**
+
+- Emotional safety
+- Procedural safety
+- Neutral framing
+- De‑escalation
+- No adversarial content
+
+If Safety fails → halt.
+
+### **4.3 Readiness Layer**
+
+- Completeness checks
+- Procedural clarity
+- Role clarity
+- Document posture
+- Court posture
+
+If Readiness fails → return to checkpoint.
+
+### **4.4 SCU Processing Layer**
+
+- Apply Edition‑specific SCU rules
+- Generate procedural‑literacy output
+- Maintain doctrinal purity
+- Enforce Edition constraints
+
+### **4.5 Output Layer**
+
+Outputs must be:
+
+- Procedural
+- Educational
+- Neutral
+- Safety‑compliant
+- Coalition‑ready
+- Non‑interpretive
+- Non‑adversarial
+
+---
+
+## **5. Edition‑Specific Constraints**
+
+The FC‑LCES Implementation Layer enforces:
+
+- No legal advice
+- No legal strategy
+- No predictions
+- No representation
+- No adversarial framing
+- No document drafting
+- No fact invention
+- No cross‑edition contamination
+- No commercial exploitation
+- No destructive modification
+
+All outputs must remain within procedural‑literacy boundaries.
+
+---
+
+## **6. Module Types**
+
+The FC‑LCES Implementation Layer supports the following module types:
+
+### **6.1 Procedural Literacy Modules**
+
+Explain *how* a process works, not *what to do*.
+
+### **6.2 Readiness Modules**
+
+Confirm user posture before proceeding.
+
+### **6.3 Safety Modules**
+
+Maintain emotional and procedural safety.
+
+### **6.4 SCU Modules**
+
+Standardized user‑facing procedural units.
+
+### **6.5 Coalition Modules**
+
+Public‑facing educational materials.
+
+---
+
+## **7. Edition Integrity**
+
+The Implementation Layer must:
+
+- Preserve doctrinal coherence
+- Maintain Edition boundaries
+- Respect upstream inheritance
+- Prevent unauthorized module injection
+- Maintain structural purity
+- Enforce safety and readiness at all times
+
+---
+
+## **8. Shutdown Conditions**
+
+The Implementation Layer shuts down when:
+
+- Safety fails
+- Readiness fails
+- User exits FC‑LCES domain
+- Higher‑order Bootloader is invoked
+- Edition integrity is compromised
+
+Shutdown returns control to the System Bootloader.
+
+---
+
+## **9. Completion State**
+
+The FC‑LCES Edition is considered **operational** when all required files exist:
+
+```
+Edition.md
+Bootloader.md
+Safety.md
+Readiness.md
+SCU-Template.md
+Implementation.md
+```
+
+---
+
+---
+
+# [**Safety.md**](http://safety.md/)
+
+**FC‑LCES — Family Court Edition**
+
+**LCES Legal Calculus Educational System**
+
+---
+
+## **0. Safety Identity**
+
+**Edition:** FC‑LCES
+
+**Domain:** Family Court
+
+**Function:** Safety Layer (mandatory)
+
+**Activation:** Loaded by FC‑LCES Bootloader
+
+**Override:** None — Safety supersedes all other layers
+
+---
+
+## **1. Safety Purpose**
+
+The FC‑LCES Safety Layer prevents:
+
+- Emotional escalation
+- Procedural harm
+- Misinterpretation of court orders
+- Unsafe narrative structures
+- Unsupported allegations
+- Adversarial framing
+- Cross‑edition contamination
+- Unauthorized practice of law
+
+Safety is the **first** and **final** gate for all FC‑LCES outputs.
+
+---
+
+## **2. Safety Rules (Mandatory)**
+
+All FC‑LCES outputs must comply with the following:
+
+- **Neutral tone only**
+- **Factual, non‑accusatory language**
+- **No emotional language**
+- **No speculation**
+- **No unsupported allegations**
+- **No statements contradicting existing orders**
+- **All orders must be verified before referencing**
+- **All safety concerns must be documented before use**
+- **No legal advice, strategy, or interpretation**
+- **No predictions or adversarial escalation**
+- **No drafting of legal documents**
+- **No fact invention or narrative expansion**
+
+Violation of any rule halts the Edition.
+
+---
+
+## **3. Safety Priorities**
+
+Safety priorities for FC‑LCES are:
+
+1. **Safety of children and parties**
+2. **Compliance with all existing orders**
+3. **Narrative stability**
+4. **Emotional neutrality**
+5. **Evidence‑supported statements only**
+
+These priorities cannot be reordered or overridden.
+
+---
+
+## **4. Safety Gates (Hard Stops)**
+
+The Edition must **stop immediately** if any of the following occur:
+
+- User requests legal advice
+- User requests strategy or adversarial framing
+- User attempts to contradict an existing order
+- User provides allegations without evidence
+- User attempts to escalate emotional content
+- User requests interpretation of law or orders
+- User requests drafting of legal documents
+- User attempts to bypass Safety or Readiness
+
+A Safety Gate stop returns the user to the nearest safe checkpoint.
+
+---
+
+## **5. Order Verification Requirement**
+
+Before any procedural explanation, the system must verify:
+
+- Existence of orders
+- Type of orders
+- Date of orders
+- Whether orders are active, expired, or superseded
+- Whether the user’s request conflicts with any order
+
+If verification fails → halt.
+
+---
+
+## **6. Emotional Safety Protocol**
+
+All FC‑LCES outputs must:
+
+- Maintain neutral tone
+- Avoid blame language
+- Avoid emotional descriptors
+- Avoid adversarial framing
+- Avoid speculation about intent or motive
+- Avoid escalating language
+
+If emotional instability is detected → halt.
+
+---
+
+## **7. Evidence Safety Protocol**
+
+All references to facts must:
+
+- Be user‑provided
+- Be verifiable
+- Be non‑interpretive
+- Be non‑speculative
+- Be non‑accusatory
+
+If evidence is incomplete or unclear → return to Readiness.
+
+---
+
+## **8. Procedural Safety Protocol**
+
+All procedural explanations must:
+
+- Remain educational
+- Remain non‑directive
+- Remain non‑interpretive
+- Remain jurisdiction‑neutral
+- Avoid advising on what to file or how to argue
+
+If procedural posture is unclear → return to Readiness.
+
+---
+
+## **9. Cross‑Edition Safety**
+
+The FC‑LCES Safety Layer prohibits:
+
+- Importing SC‑LCES adversarial structures
+- Importing TE‑LCES fiduciary structures
+- Importing any non‑FC modules
+- Mixing Edition doctrines
+- Using templates from other Editions
+
+Cross‑edition contamination halts the Edition.
+
+---
+
+## **10. Shutdown Conditions**
+
+Safety triggers shutdown when:
+
+- A Safety Rule is violated
+- A Safety Gate is activated
+- Emotional escalation is detected
+- Order verification fails
+- Evidence is insufficient
+- User exits FC‑LCES domain
+
+Shutdown returns control to the System Bootloader.
+
+---
+
+[**Readiness.md**](http://readiness.md/)
+
+**FC‑LCES — Family Court Edition**
+
+**LCES Legal Calculus Educational System**
+
+---
+
+## **0. Readiness Identity**
+
+**Edition:** FC‑LCES
+
+**Domain:** Family Court
+
+**Function:** Edition‑specific readiness gating
+
+**Dependencies:**
+
+- [Safety.md](http://safety.md/)
+- SCU‑[Template.md](http://template.md/)
+- Edition Bootloader
+
+Readiness cannot override Safety.
+
+---
+
+## **1. Readiness Purpose**
+
+The FC‑LCES Readiness Layer ensures:
+
+- Procedural stability
+- Narrative stability
+- Order compliance
+- Evidence sufficiency
+- Emotional neutrality
+- Correct Edition selection
+- Clear procedural posture
+
+A user is **not ready** until all readiness conditions are satisfied.
+
+---
+
+## **2. General Readiness (Inherited)**
+
+The user must pass **all** General Readiness criteria:
+
+```
+□ My SCU is complete, clear, and verified
+□ My facts are documented and not based on memory alone
+□ My timeline is complete, chronological, and evidence‑supported
+□ My documents are authentic and verified
+□ My relief request is specific and realistic
+□ I understand which edition applies to my situation
+□ I have confirmed jurisdiction and procedural posture
+□ I am not drafting while escalated, distressed, or retaliatory
+□ I have reviewed all relevant orders, rules, or instruments
+□ I can explain the case in one factual paragraph
+```
+
+If any item is false → STOP → return to
+
+**Record → Clarify → Anchor → Reassess**
+
+---
+
+## **3. FC‑LCES Edition‑Specific Readiness Test**
+
+You are ready to proceed in **Family Court** ONLY if all statements below are TRUE:
+
+```
+□ I have verified all current court orders
+□ My safety concerns are documented (logs, messages, reports)
+□ My narrative is consistent, stable, and evidence‑supported
+□ My tone is neutral and non‑accusatory
+□ My requested modification is clear and order‑compliant
+□ My timeline includes impact on the child
+□ I am not filing in anger or escalation
+```
+
+Failure of any item halts the Edition.
+
+---
+
+## **4. Order‑Based Readiness**
+
+Before any procedural explanation, the system must confirm:
+
+- Existence of orders
+- Type of orders (custody, support, FOP, temporary, final)
+- Whether orders are active, expired, or superseded
+- Whether the user’s request conflicts with any order
+
+If order posture is unclear → return to readiness checkpoint.
+
+---
+
+## **5. Narrative Stability Requirements**
+
+The user’s narrative must be:
+
+- Chronological
+- Evidence‑supported
+- Neutral in tone
+- Free of accusations without documentation
+- Free of emotional escalation
+- Consistent across all statements
+
+If narrative instability is detected → halt.
+
+---
+
+## **6. Evidence Readiness**
+
+The user must have:
+
+- Screenshots, logs, messages, or reports for safety concerns
+- Documents supporting any requested modification
+- Verified dates and times
+- Verified identities of all parties
+- No reliance on memory alone
+
+If evidence is incomplete → return to Record → Clarify → Anchor.
+
+---
+
+## **7. Procedural Posture Readiness**
+
+The user must know:
+
+- What stage the case is in
+- Whether the matter is new, ongoing, or post‑judgment
+- Whether the request is a modification, enforcement, or compliance issue
+- Whether emergency posture applies
+- Whether the request is consistent with existing orders
+
+If posture is unclear → halt.
+
+---
+
+## **8. Emotional Readiness**
+
+The user must NOT be:
+
+- Escalated
+- Retaliatory
+- Seeking to “win” or “punish”
+- Using adversarial language
+- Attempting to re‑litigate past grievances
+
+If emotional contamination is detected → halt.
+
+---
+
+## **9. Unified Readiness Table (FC‑LCES)**
+
+| Readiness Dimension | Requirement | Failure Result |
+| --- | --- | --- |
+| **Orders** | Verified, active, non‑conflicting | Halt |
+| **Safety** | Documented, neutral, non‑escalatory | Halt |
+| **Narrative** | Stable, chronological, evidence‑supported | Halt |
+| **Relief** | Clear, order‑compliant, realistic | Halt |
+| **Posture** | Correct procedural stage identified | Halt |
+| **Evidence** | Complete, verified, non‑speculative | Halt |
+
+---
+
+## **10. Readiness Philosophy (Edition‑Specific)**
+
+In FC‑LCES, readiness is a **structural condition**, not an emotional state.
+
+A case is ready only when:
+
+- Orders are verified
+- Safety concerns are documented
+- Narrative is stable
+- Evidence is complete
+- Relief is clear and order‑compliant
+- Emotional contamination is removed
+- Procedural posture is confirmed
+
+Readiness is the **bridge** between SCU and procedural‑literacy output.
+
+---
+
+---
+
+# **SCU‑[Template.md](http://template.md/)**
+
+**FC‑LCES — Family Court Edition**
+
+**LCES Legal Calculus Educational System**
+
+---
+
+## **0. SCU Identity**
+
+**Edition:** FC‑LCES
+
+**Function:** Standardized procedural‑literacy unit
+
+**Activation:** Loaded after Safety + Readiness
+
+**Override:** None — SCU cannot bypass Safety or Readiness
+
+---
+
+## **1. SCU Purpose**
+
+The SCU (Smallest Complete Unit) ensures:
+
+- Procedural clarity
+- Narrative stability
+- Safety compliance
+- Readiness compliance
+- Edition‑specific constraints
+- Drift prevention
+- Modular, reproducible outputs
+
+Every FC‑LCES interaction must begin with a complete SCU.
+
+---
+
+## **2. SCU Structure (Mandatory)**
+
+Each SCU contains **three required sections**:
+
+```
+ISSUE
+FACTS
+OBJECTIVE
+```
+
+No SCU is valid without all three.
+
+---
+
+## **3. SCU Definitions**
+
+### **ISSUE**
+
+A neutral, procedural description of what the user is trying to understand.
+
+Not what they want to *argue*, *prove*, or *achieve* in court.
+
+Examples (FC‑safe):
+
+- “Understanding how modification requests are processed.”
+- “Clarifying the steps for a compliance review.”
+- “Identifying the procedural posture of a family offense petition.”
+
+Not allowed:
+
+- Accusations
+- Strategy
+- Legal interpretation
+- Requests to “win,” “prove,” or “fight”
+
+---
+
+### **FACTS**
+
+Only **verified**, **chronological**, **neutral** facts.
+
+No allegations without documentation.
+
+No emotional language.
+
+No speculation.
+
+Facts must include:
+
+- Dates
+- Times
+- Documented events
+- Order references (if applicable)
+- Evidence sources (messages, logs, reports)
+
+If facts are incomplete → return to Readiness.
+
+---
+
+### **OBJECTIVE**
+
+A procedural‑literacy goal, not a legal goal.
+
+Examples (FC‑safe):
+
+- “Understand how the court schedules modification hearings.”
+- “Learn the procedural steps for filing a compliance affidavit.”
+- “Clarify what happens after a temporary order is issued.”
+
+Not allowed:
+
+- “Get custody.”
+- “Prove the other parent is lying.”
+- “Show the judge they violated the order.”
+- “Win the case.”
+
+---
+
+## **4. SCU Template (Copy‑Paste Block)**
+
+```
+# SCU — FC‑LCES
+
+## ISSUE
+[State the procedural question in neutral, non‑adversarial terms.]
+
+## FACTS
+[Provide only verified, chronological, evidence‑supported facts.
+Include dates, times, order references, and documentation sources.]
+
+## OBJECTIVE
+[State the procedural‑literacy goal.
+No legal advice, no strategy, no adversarial framing.]
+```
+
+This is the **only valid SCU format** for FC‑LCES.
+
+---
+
+## **5. SCU Validation Rules**
+
+A SCU is **invalid** if:
+
+- Any section is missing
+- Facts are emotional, accusatory, or unsupported
+- The objective is strategic or adversarial
+- The issue is legal, interpretive, or outcome‑seeking
+- The SCU contradicts existing orders
+- The SCU bypasses Safety or Readiness
+
+Invalid SCUs must be corrected before any output is generated.
+
+---
+
+## **6. SCU Workflow**
+
+1. User provides ISSUE → Safety check
+2. User provides FACTS → Evidence + Order check
+3. User provides OBJECTIVE → Readiness check
+4. SCU validated → Procedural‑literacy output generated
+5. If any check fails → return to checkpoint
+
+No SCU may proceed without full validation.
+
+---
+
+## **7. Edition‑Specific Constraints**
+
+The FC‑LCES SCU prohibits:
+
+- Legal advice
+- Legal interpretation
+- Strategy or adversarial framing
+- Emotional escalation
+- Accusations without documentation
+- Drafting legal documents
+- Predicting outcomes
+- Recommending filings
+- Cross‑edition contamination
+
+The SCU is strictly procedural‑literacy.
+
+---
+
+## **8. Shutdown Conditions**
+
+The SCU shuts down when:
+
+- Safety fails
+- Readiness fails
+- Facts are insufficient
+- Orders are unclear
+- User exits FC‑LCES domain
+- Objective becomes adversarial or strategic
+
+Shutdown returns control to the Edition Bootloader.
+
+---
+
+/Engine/FL-Workflow-Engine.md
+
+```
+/Engine/FL-Workflow-Engine.md
+```
+
+---
+
+# **FL‑Workflow‑[Engine.md](http://engine.md/)**
+
+**Family Law Workflow Engine**
+
+**LCES Legal Calculus Educational System**
+
+---
+
+## **0. Engine Identity**
+
+**Engine Name:** FL Workflow Engine
+
+**Domain:** Family Law (multi‑edition)
+
+**Function:** Procedural‑literacy workflow execution engine
+
+**Dependencies:**
+
+- Edition Bootloader
+- Safety Layer
+- Readiness Layer
+- SCU Template
+- Implementation Layer
+
+This engine does **not** replace Edition doctrine.
+
+It **executes** it.
+
+---
+
+## **1. Engine Purpose**
+
+The FL Workflow Engine provides:
+
+- A unified execution model for Family‑Law procedural workflows
+- A stable, repeatable structure for SCU‑driven interactions
+- A safety‑first, readiness‑gated processing pipeline
+- A non‑adversarial, non‑interpretive educational environment
+- A cross‑edition procedural backbone (FC, SC, TE, AC)
+
+The engine ensures **workflow fidelity** across all Family‑Law Editions.
+
+---
+
+## **2. Engine Architecture**
+
+The FL Workflow Engine consists of **five layers**:
+
+1. **Input Layer**
+2. **Safety Layer**
+3. **Readiness Layer**
+4. **SCU Processing Layer**
+5. **Output Layer**
+
+Each layer must complete successfully before the next begins.
+
+---
+
+## **3. Layer 1 — Input Layer**
+
+The engine requires the following inputs:
+
+- Procedural posture
+- Edition selection
+- SCU (Issue, Facts, Objective)
+- Evidence references
+- Order posture
+- User role
+- Jurisdictional context (non‑interpretive)
+
+If any input is missing → halt → return to SCU.
+
+---
+
+## **4. Layer 2 — Safety Layer**
+
+The engine enforces:
+
+- Emotional neutrality
+- Non‑adversarial framing
+- No accusations without documentation
+- No legal advice or strategy
+- No interpretation of orders
+- No escalation
+- No outcome prediction
+
+If Safety fails → halt → return to Safety checkpoint.
+
+---
+
+## **5. Layer 3 — Readiness Layer**
+
+The engine verifies:
+
+- Order posture
+- Evidence sufficiency
+- Narrative stability
+- Procedural clarity
+- Emotional readiness
+- Edition correctness
+
+If Readiness fails → halt → return to Readiness checkpoint.
+
+---
+
+## **6. Layer 4 — SCU Processing Layer**
+
+The engine processes the SCU using:
+
+- Edition‑specific constraints
+- Edition‑specific Implementation rules
+- Procedural‑literacy transformations
+- Safety + Readiness gating
+- Non‑interpretive educational logic
+
+The SCU must remain:
+
+- Neutral
+- Chronological
+- Evidence‑supported
+- Procedural
+- Non‑adversarial
+
+If SCU fails validation → return to SCU.
+
+---
+
+## **7. Layer 5 — Output Layer**
+
+The engine produces:
+
+- Procedural‑literacy explanations
+- Educational modules
+- Step‑level procedural maps
+- Edition‑specific guidance
+- Coalition‑ready materials
+
+Outputs must be:
+
+- Neutral
+- Safe
+- Procedural
+- Non‑interpretive
+- Non‑directive
+- Edition‑compliant
+
+---
+
+## **8. Workflow Execution Cycle**
+
+The FL Workflow Engine executes in the following cycle:
+
+```
+INPUT
+→ SAFETY
+→ READINESS
+→ SCU PROCESSING
+→ OUTPUT
+→ (If new question) RETURN TO INPUT
+```
+
+This cycle repeats for every SCU.
+
+---
+
+## **9. Engine Constraints**
+
+The FL Workflow Engine prohibits:
+
+- Legal advice
+- Legal interpretation
+- Strategy or adversarial framing
+- Drafting legal documents
+- Predicting outcomes
+- Recommending filings
+- Emotional escalation
+- Fact invention
+- Cross‑edition contamination
+- Commercial exploitation
+- Destructive modification
+
+The engine is **procedural‑literacy only**.
+
+---
+
+## **10. Engine Shutdown Conditions**
+
+The engine shuts down when:
+
+- Safety fails
+- Readiness fails
+- SCU invalidates
+- Edition changes
+- User exits Family‑Law domain
+- Higher‑order Bootloader is invoked
+
+Shutdown returns control to the System Bootloader.
+
+---
+
+## **11. Engine Placement**
+
+Recommended GitHub placement:
+
+```
+/Engine/
+   FL-Workflow-Engine.md
+```
+
+Editions reference it but do not modify it.
+
+---
 # **I. Edition Preamble — Family Court Environment**
 
 Family Court is a **high‑stakes, emotionally charged, evidence‑dependent** environment with:
