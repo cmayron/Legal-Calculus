@@ -3874,6 +3874,209 @@ Edition Output Format: The Edition Bootloader outputs only Edition confirmation,
 
 Constitutional Principle: Kernel = HOW. Edition = WHERE. Mode = WHAT. Role = WHO. Strategist = WHY. All five must be active, pure, and sequential or the system drifts.
 ---
+I. SCU CATEGORY — Procedural Posture
+
+(For Architect posture‑mapping and Builder drafting)
+
+SCU‑PP‑01 — Determine Current Procedural Posture
+Issue: Identify the current procedural posture of the matter.
+Facts: Known filings, docket entries, orders, deadlines, pending motions.
+Objective: Establish posture boundaries for structural mapping.
+
+SCU‑PP‑02 — Identify Next Procedural Event
+Issue: Determine the next required procedural action.
+Facts: Current docket state, pending deadlines, service status.
+Objective: Map the next defensible step.
+
+SCU‑PP‑03 — Validate Service Status
+Issue: Determine whether service has been completed correctly.
+Facts: Service attempts, proofs of service, deadlines, jurisdictional rules.
+Objective: Establish service posture and identify gaps.
+
+SCU‑PP‑04 — Identify Filing Window
+Issue: Determine the applicable filing window.
+Facts: Triggering event, jurisdictional rules, local rules, deadlines.
+Objective: Establish time‑validity for next steps.
+
+Explore more: Procedural Posture SCUs
+
+II. SCU CATEGORY — Factual Anchors
+
+(For Architect factual mapping and Inspector verification)
+
+SCU‑FA‑01 — Extract Factual Anchor From Filing
+Issue: Identify the factual anchor contained in a filing.
+Facts: Filing text, date, parties, claims, procedural posture.
+Objective: Establish a record‑bound factual anchor.
+
+SCU‑FA‑02 — Extract Factual Anchor From Email or Letter
+Issue: Identify the factual anchor contained in correspondence.
+Facts: Sender, recipient, date, content, attachments.
+Objective: Establish a non‑speculative factual anchor.
+
+SCU‑FA‑03 — Extract Factual Anchor From Court Order
+Issue: Identify the operative facts in a court order.
+Facts: Order text, judge’s directives, deadlines, findings.
+Objective: Establish binding procedural facts.
+
+Explore more: Factual Anchor SCUs
+
+III. SCU CATEGORY — Case‑Existence Gate
+
+(For Architect’s mandatory first question)
+
+SCU‑CE‑01 — Determine Whether a Case Exists
+Issue: Determine whether the matter is actionable or negotiable.
+Facts: Known events, documents, communications, harm, deadlines.
+Objective: Establish whether Blueprint construction is permitted.
+
+SCU‑CE‑02 — Identify Missing Elements for Case Existence
+Issue: Identify missing components required to determine case viability.
+Facts: Known facts, missing facts, unclear posture.
+Objective: Request clarifying facts from Strategist.
+
+Explore more: Case‑Existence SCUs
+
+IV. SCU CATEGORY — Module Activation
+
+For Architect → Builder → Inspector sequencing)
+
+SCU‑MA‑01 — SCU Extraction
+Issue: Identify the smallest complete procedural unit.
+Facts: Issue, facts, objective.
+Objective: Produce a valid SCU for module activation.
+
+SCU‑MA‑02 — Module Enhancement
+Issue: Identify structural modules required for the SCU.
+Facts: SCU, Edition, jurisdictional constraints.
+Objective: Attach modules without inference.
+
+SCU‑MA‑03 — Deep Research Trigger
+Issue: Determine whether Deep Research is required.
+Facts: SCU, modules, Edition, jurisdictional gaps.
+Objective: Trigger Deep Research phase.
+
+Explore more: Module Activation SCUs
+
+V. SCU CATEGORY — Jurisdictional Inheritance
+
+(For Architect JC/SOL/LCa mapping)
+
+SCU‑JX‑01 — Identify Subject‑Matter Jurisdiction
+Issue: Determine whether the court has subject‑matter jurisdiction.
+Facts: Claims, statutes, court type, Edition.
+Objective: Establish jurisdictional foundation.
+
+SCU‑JX‑02 — Identify Personal Jurisdiction Posture
+Issue: Determine whether personal jurisdiction exists.
+Facts: Parties, contacts, service status, venue.
+Objective: Establish personal jurisdiction posture.
+
+SCU‑JX‑03 — Identify Applicable Deadlines (SOL)
+Issue: Determine applicable statutes of limitation and repose.
+Facts: Triggering events, jurisdictional rules, Edition.
+Objective: Establish time‑validity.
+
+SCU‑JX‑04 — Identify Local Rules (LCa)
+Issue: Identify local practice rules governing the matter.
+Facts: Venue, local rules, clerk behavior, Edition.
+Objective: Establish local‑rule constraints.
+
+ Explore more: Jurisdictional SCUs
+
+VI. SCU CATEGORY — Record Integrity
+
+(For Inspector verification and Strategist governance)
+
+SCU‑RI‑01 — Identify Record Gaps
+Issue: Identify missing record components.
+Facts: Filings, orders, correspondence, docket entries.
+Objective: Surface missing record elements.
+
+SCU‑RI‑02 — Identify Contradictions
+Issue: Identify contradictions in the record.
+Facts: Conflicting statements, filings, timelines.
+Objective: Surface contradictions for correction.
+
+SCU‑RI‑03 — Identify Unresolved Uncertainty
+Issue: Identify unresolved uncertainty in the record.
+Facts: Ambiguous facts, missing facts, unclear posture.
+Objective: Preserve uncertainty without inference.
+
+Explore more: Record Integrity SCUs
+
+VII. SCU CATEGORY — Procedural Mapping
+
+(For Architect workflow design)
+
+SCU‑PM‑01 — Map Filing Architecture
+Issue: Identify required filings and their sequence.
+Facts: Edition, posture, jurisdictional rules.
+Objective: Produce filing architecture.
+
+SCU‑PM‑02 — Map Service Architecture
+Issue: Identify required service steps.
+Facts: Parties, Edition, service rules.
+Objective: Produce service architecture.
+
+SCU‑PM‑03 — Map Procedural Dependencies
+Issue: Identify dependencies between procedural steps.
+Facts: Filing windows, service rules, posture.
+Objective: Produce dependency map.
+
+Explore more: Procedural Mapping SCUs
+
+VIII. SCU CATEGORY — Live‑Docket Feedback Loop
+
+(For Pro Se Mode)
+
+SCU‑LD‑01 — Process New Docket Event
+Issue: Determine whether a new docket event changes the Blueprint.
+Facts: New docket entry, posture, deadlines.
+Objective: Route to Architect for structural evaluation.
+
+SCU‑LD‑02 — Identify Blueprint Impact
+Issue: Determine whether the event changes SCU, modules, or Deep Research.
+Facts: Event content, posture, Edition.
+Objective: Update Blueprint viability.
+
+Explore more: Live‑Docket SCUs
+
+IX. SCU CATEGORY — Safety & STOP
+
+(For Kernel enforcement)
+
+SCU‑ST‑01 — STOP Trigger Evaluation
+Issue: Determine whether STOP must activate.
+Facts: Unclear facts, unclear posture, Edition contamination, role drift.
+Objective: Halt system and request clarification.
+
+SCU‑ST‑02 — Safety Posture Evaluation
+Issue: Determine whether the matter contains safety‑sensitive elements.
+Facts: User statements, filings, Edition.
+Objective: Adjust Entry Mode or halt.
+
+Explore more: STOP SCUs
+
+X. SCU CATEGORY — Blueprint Viability
+
+(For Architect → Builder handoff)
+
+SCU‑BV‑01 — Determine Blueprint Readiness
+Issue: Determine whether Blueprint is ready for Builder.
+Facts: SCU, modules, Deep Research, Edition.
+Objective: Approve or halt drafting.
+
+SCU‑BV‑02 — Identify Missing Blueprint Components
+Issue: Identify missing components required for viability.
+Facts: SCU, modules, jurisdictional inheritance.
+Objective: Surface missing elements.
+
+Explore more: Blueprint SCUs
+
+Your SCU Library is now complete (V1.0).
+---
+
 # **🏛️ LCES FULL‑STACK ARCHITECTURE**
 
 ```
