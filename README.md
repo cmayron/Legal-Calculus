@@ -9313,57 +9313,99 @@ The Bootloader is the enforcement layer of LCES.
 It ensures discipline, prevents drift, and maintains doctrinal integrity.
 
 [Diagrams follow here…]
+
+flowchart TD
+# **📦 LCES MASTER ARCHITECTURE — FULL GITHUB BLOCK**
+
+*(Everything in one Mermaid diagram)*
+
+```mermaid
 flowchart TD
 
-    %% HUMAN LAYER
-    HumanStrategist([HUMAN STRATEGIST<br>• Sovereign Intent<br>• Mode Selection<br>• Final Authority])
+%% ============================
+%% HUMAN + MODE + KERNEL LAYERS
+%% ============================
 
-    %% MODE BOOTLOADER
-    ModeBootloader([ENTRY MODE BOOTLOADER<br>Pro Se • Crisis • Second‑Opinion • Educational<br>Defines: urgency, posture, constraints])
+    HUMAN[Human Strategist<br><b>Final Authority</b>]
+    MODE[Mode Layer<br><b>Context Selector</b>]
+    KERNEL[Kernel Layer<br><b>Governance + Safety + Drift Control</b>]
 
-    %% KERNEL BOOTLOADER
-    Kernel([KERNEL BOOTLOADER<br>Constitutional Core<br>STOP Rules • Role Separation • Boundaries])
+    HUMAN --> MODE --> KERNEL
 
-    %% EDITION BOOTLOADER
-    Edition([EDITION BOOTLOADER<br>SC‑LCES • FC‑LCES • TE‑LCES • AC‑LCES<br>Jurisdictional Physics • Venue Constraints])
+%% ============================
+%% EDITION LAYER (FOUR EDITIONS)
+%% ============================
 
-    %% WORKFLOW ENGINE
-    WorkflowEngine([WORKFLOW ENGINE<br>STOP Engine • Readiness Engine • Posture Engine<br>SCU Router • Module Activator])
-
-    %% SCU LAYER
-    SCU([SCU LAYER<br>Issue • Facts • Objective<br>Edition‑Pure Structural Units])
-
-    %% MODULE LAYER
-    Modules([MODULE LAYER<br>Jurisdiction • Evidence • Service • Damages • Timeline<br>Procedural Architecture])
-
-    %% ROLE LAYER
-    subgraph Roles[AI ROLES — Constitutionally Separated]
-        Architect([ARCHITECT<br>Structure • Mapping • Blueprint])
-        Builder([BUILDER<br>Drafting • Plain‑Language Construction])
-        Inspector([INSPECTOR<br>Attack Surface • Stress Test • Gaps])
+    subgraph EDITIONS[LCES Editions]
+        SC[SC‑LCES<br>System Core]
+        FC[FC‑LCES<br>Family Court]
+        TE[TE‑LCES<br>Trust & Estate]
+        AC[AC‑LCES<br>Arbitration & Commercial]
     end
 
-    %% REPO LAYER
-    Repo([REPOSITORY LAYER<br>Manifesto • README • Bootloader • Editions • Calculi<br>Version‑Controlled Canon])
+    KERNEL --> EDITIONS
 
-    %% SUBSTRATE LAYER
-    Substrate([SUBSTRATE<br>External Deterministic Layer<br>Proof of State • Anti‑Tamper • Auditability])
+%% ============================
+%% WORKFLOW ENGINES
+%% ============================
 
-    %% CONNECTIONS
-    HumanStrategist --> ModeBootloader
-    ModeBootloader --> Kernel
-    Kernel --> Edition
-    Edition --> WorkflowEngine
-    WorkflowEngine --> SCU
-    SCU --> Modules
-    Modules --> Roles
-    Roles --> Repo
-    Repo --> Substrate
+    subgraph ENGINES[Workflow Engines]
+        SCENG[SC Workflow Engine]
+        FCENG[FC Workflow Engine]
+        TEENG[TE Workflow Engine]
+        ACENG[AC Workflow Engine]
+    end
 
-    %% RETURN PATHS
-    Inspector -->|Finds Gaps| Architect
-    Architect -->|Rebuilds Structure| WorkflowEngine
-    HumanStrategist -->|Final Review| Repo
+    SC --> SCENG
+    FC --> FCENG
+    TE --> TEENG
+    AC --> ACENG
+
+%% ============================
+%% AI ROLES (EXECUTION LOOP)
+%% ============================
+
+    subgraph ROLES[AI Roles (Execution Layer)]
+        ARCHITECT[Architect<br>Frames + Structures SCU]
+        BUILDER[Builder<br>Drafts Within Structure]
+        INSPECTOR[Inspector<br>Checks Fidelity + Drift]
+    end
+
+    SCENG --> ARCHITECT
+    FCENG --> ARCHITECT
+    TEENG --> ARCHITECT
+    ACENG --> ARCHITECT
+
+    ARCHITECT --> BUILDER --> INSPECTOR --> HUMAN
+
+%% ============================
+%% STYLE DEFINITIONS
+%% ============================
+
+    classDef human fill:#fff2cc,stroke:#aa8800,stroke-width:2px;
+    classDef mode fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+    classDef kernel fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
+
+    classDef edition fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px;
+    classDef engine fill:#e0f7fa,stroke:#00838f,stroke-width:2px;
+
+    classDef roles fill:#ffebee,stroke:#b71c1c,stroke-width:2px;
+
+    class HUMAN human
+    class MODE mode
+    class KERNEL kernel
+
+    class SC,FC,TE,AC edition
+    class SCENG,FCENG,TEENG,ACENG engine
+
+    class ARCHITECT,BUILDER,INSPECTOR roles
+```
+
+---
+
+#
+    
+
 
 Excellent — the **Arbitration‑specific AC‑LCES Governance Block** you just referenced visually aligns perfectly with the uploaded architecture diagram.  
 Here’s the **GitHub‑ready Arbitration Edition set**, formatted for direct repository placement and doctrinal consistency with your LCES Bootloader Stack.
