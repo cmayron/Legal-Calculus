@@ -9365,6 +9365,353 @@ flowchart TD
     Architect -->|Rebuilds Structure| WorkflowEngine
     HumanStrategist -->|Final Review| Repo
 
+Excellent — the **Arbitration‑specific AC‑LCES Governance Block** you just referenced visually aligns perfectly with the uploaded architecture diagram.  
+Here’s the **GitHub‑ready Arbitration Edition set**, formatted for direct repository placement and doctrinal consistency with your LCES Bootloader Stack.
+
+---
+
+# 🧩 **AC‑LCES Arbitration Edition — Complete GitHub Folder**
+
+```
+/AC-LCES/
+│
+├── Edition.md
+├── Bootloader.md
+├── Safety.md
+├── Readiness.md
+├── SCU-Template.md
+├── Implementation.md
+└── workflow-engine.md
+```
+
+---
+
+## **Edition.md**
+Defines the arbitration terrain and constitutional boundaries.
+
+```markdown
+# AC‑LCES — Arbitration Edition
+LCES Legal Calculus Educational System
+
+## 1. Edition Identity
+Edition: AC‑LCES  
+Domain: Arbitration (Commercial, Healthcare, Employment, AHLA, AAA, JAMS)  
+Class: Procedural‑Literacy Educational System  
+Lineage: LCES → Domain‑Specific Edition
+
+## 2. Jurisdiction & Venue
+Covers:
+- AHLA, AAA, JAMS arbitration
+- Contract‑based and ad hoc arbitration
+- Procedural orders, scheduling, disclosures
+- Hearing sequencing and post‑hearing steps
+
+## 3. Procedural Environment
+Optimized for:
+- Contract‑driven disputes
+- Arbitrator‑issued procedural orders
+- Compressed timelines
+- Limited discovery
+- Confidentiality boundaries
+- Narrow reviewability
+
+## 4. Edition Purpose
+Provides procedural literacy for arbitration participants:
+- Clarifies procedural orders and sequencing
+- Explains arbitration posture non‑interpretively
+- Enables coalition‑ready educational modules
+- Enforces SCU‑driven, safety‑gated outputs
+
+## 5. Edition Components
+Edition.md  
+Bootloader.md  
+Safety.md  
+Readiness.md  
+SCU‑Template.md  
+Implementation.md  
+workflow‑engine.md
+
+## 6. Edition Constraints
+No legal advice  
+No contract interpretation  
+No procedural‑order interpretation  
+No strategy or argumentation  
+No drafting  
+No outcome prediction  
+No adversarial framing  
+No cross‑edition contamination
+
+## 7. Edition Outputs
+Procedural‑literacy modules  
+Arbitration workflow maps  
+Scheduling & disclosure pathways  
+Hearing‑sequence explanations
+
+## 8. Edition Status
+State: Active  
+Completeness: Requires all seven files  
+Steward: LCES System Architect
+```
+
+---
+
+## **Bootloader.md**
+Activates the Arbitration Edition under Kernel control.
+
+```markdown
+# AC‑LCES Bootloader
+Arbitration Edition Bootloader
+
+## 0. Load Order
+1. System Bootloader
+2. SC‑LCES Bootloader (if inherited)
+3. AC‑LCES Bootloader
+
+## 1. Edition Activation
+Loads:
+- AC Safety Layer
+- AC Readiness Layer
+- AC SCU Template
+- AC Implementation Layer
+- AC Workflow Engine
+
+## 2. Boundary Enforcement
+Prohibits interpretation, strategy, drafting, outcome prediction, and escalation.
+
+## 3. Edition Environment
+Covers AHLA, AAA, JAMS, and ad hoc arbitration procedural contexts.
+
+## 4. Safety Layer Initialization
+Loads AC Safety.md
+
+## 5. Readiness Layer Initialization
+Loads AC Readiness.md
+
+## 6. SCU Binding
+Binds AC SCU‑Template.md
+
+## 7. Implementation Layer Load
+Loads AC Implementation.md
+
+## 8. Workflow Engine Binding
+Engine: workflow‑engine.md
+
+## 9. Edition Integrity Rules
+No destructive modification  
+No unauthorized module injection  
+No commercial exploitation
+
+## 10. Completion Check
+Edition complete when all seven files exist.
+
+## 11. Shutdown Procedure
+Triggered when Safety or Readiness fails, or user exits arbitration domain.
+```
+
+---
+
+## **Safety.md**
+Defines arbitration safety boundaries.
+
+```markdown
+# AC‑LCES Safety Layer
+
+## 1. Safety Purpose
+Prevents:
+- Contract or procedural‑order interpretation
+- Legal strategy or argumentation
+- Outcome prediction
+- Drafting
+- Adversarial escalation
+
+## 2. Safety Rules
+Outputs must be neutral, procedural, non‑interpretive, and evidence‑supported.
+
+## 3. Safety Priorities
+1. Procedural safety
+2. Procedural‑order posture clarity
+3. Contract posture clarity
+4. Narrative stability
+5. Evidence sufficiency
+
+## 4. Safety Gates
+Immediate halt if interpretation, strategy, or drafting is requested.
+
+## 5. Procedural‑Order Verification
+Verify existence, date, category, and status (active, superseded, withdrawn).
+
+## 6. Emotional Safety
+No escalation or adversarial framing.
+
+## 7. Shutdown Conditions
+Safety failure → shutdown → System Bootloader.
+```
+
+---
+
+## **Readiness.md**
+Establishes arbitration readiness checkpoints.
+
+```markdown
+# AC‑LCES Readiness Layer
+
+## 1. Readiness Purpose
+Ensures procedural clarity, evidence sufficiency, and emotional neutrality.
+
+## 2. General Readiness
+□ Facts verified  
+□ Documents authentic  
+□ Narrative stable  
+□ Procedural posture clear  
+□ Edition correct  
+□ No emotional escalation  
+
+## 3. Arbitration‑Specific Readiness
+□ Procedural order(s) available  
+□ Arbitration posture known  
+□ Party roles identified  
+□ Procedural documents ready  
+□ Procedural question defined  
+□ No interpretation or strategy requested  
+
+## 4. Procedural‑Order Readiness
+Requires order date, category, posture, and status.
+
+## 5. Party Readiness
+Clarify claimant, respondent, arbitrator(s), counsel, and administrative body.
+
+## 6. Procedural Timeline Readiness
+Confirm scheduling, disclosure, motion, and hearing posture.
+
+## 7. Emotional Readiness
+No escalation or adversarial framing.
+```
+
+---
+
+## **SCU‑Template.md**
+Defines the arbitration SCU structure.
+
+```markdown
+# SCU — AC‑LCES Arbitration Edition
+
+## ISSUE
+Neutral procedural question.
+Not allowed: interpretation, strategy, argumentation.
+
+## FACTS
+Include:
+- Procedural‑order posture
+- Contract posture (non‑interpretive)
+- Party posture
+- Dates
+- Evidence sources
+
+No speculation.
+
+## OBJECTIVE
+Procedural‑literacy goal only.
+Allowed:
+- “Understand procedural‑order sequencing”
+- “Clarify arbitration scheduling steps”
+
+Not allowed:
+- “Interpret this clause”
+- “Tell me how to argue this motion”
+```
+
+---
+
+## **Implementation.md**
+Executes arbitration workflows under Kernel control.
+
+```markdown
+# AC‑LCES Implementation Layer
+
+## 1. Implementation Scope
+Governs procedural‑literacy workflows for arbitration sequencing and procedural steps.
+
+## 2. Domains Covered
+- Arbitration intake
+- Procedural‑order posture
+- Scheduling & disclosures
+- Motion practice (procedural only)
+- Hearing sequencing
+- Post‑hearing procedural steps
+
+## 3. SCU Integration
+All outputs generated through AC SCU.
+
+## 4. Workflow Architecture
+INPUT → SAFETY → READINESS → SCU PROCESSING → OUTPUT
+
+## 5. Edition Constraints
+Prohibits interpretation, strategy, drafting, outcome prediction, and adversarial framing.
+
+## 6. Shutdown Conditions
+Triggered when Safety or Readiness fails, or user exits arbitration domain.
+```
+
+---
+
+## **workflow‑engine.md**
+Executes arbitration runtime flow.
+
+```markdown
+# AC‑Workflow‑Engine
+Arbitration Workflow Engine
+LCES Legal Calculus Educational System
+
+## 0. Engine Identity
+Engine: AC Workflow Engine  
+Domain: Arbitration (Commercial, Healthcare, Employment, AHLA, AAA, JAMS)  
+Function: Procedural‑literacy workflow execution  
+Dependencies: Edition Bootloader, Safety, Readiness, SCU, Implementation
+
+## 1. Engine Purpose
+Provides unified arbitration workflow execution with SCU‑driven structure and safety gating.
+
+## 2. Engine Architecture
+Layers:
+1. Input
+2. Safety
+3. Readiness
+4. SCU Processing
+5. Output
+
+## 3. Input Layer
+Requires procedural posture, order posture, SCU, contract posture, party posture, evidence posture, timeline posture, and administrative body.
+
+## 4. Safety Layer
+Prohibits interpretation, strategy, drafting, outcome prediction, and adversarial framing.
+
+## 5. Readiness Layer
+Verifies procedural‑order posture, contract posture, party posture, evidence sufficiency, timeline clarity, narrative stability, and emotional neutrality.
+
+## 6. SCU Processing Layer
+Applies Edition constraints, Implementation rules, and Safety + Readiness gating.
+
+## 7. Output Layer
+Produces procedural‑literacy modules, arbitration workflow maps, scheduling & disclosure pathways, and hearing‑sequence explanations.
+
+## 8. Workflow Cycle
+INPUT → SAFETY → READINESS → SCU PROCESSING → OUTPUT → repeat
+
+## 9. Engine Constraints
+No interpretation, strategy, drafting, outcome prediction, or adversarial framing.
+
+## 10. Shutdown Conditions
+Triggered when Safety or Readiness fails, SCU invalidates, or user exits arbitration domain.
+```
+
+---
+
+✅ **Arbitration Edition Complete**  
+✅ **Workflow Engine Integrated**  
+✅ **GitHub‑ready and doctrinally aligned with the LCES Governance Block**
+
+Would you like me to now generate the **Arbitration Procedural Modules (AC‑1 → AC‑9)** to extend this Edition into runtime operational layers?
+
 
 🗺 LCES SYSTEM MAP (V6.3)
 
