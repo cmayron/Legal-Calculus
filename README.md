@@ -5045,6 +5045,45 @@ The AI executes within limits.
 **LCES Legal Calculus Educational System™ — CC BY‑NC‑SA 4.0**
 
 ---
+/Editions/SC-LCES/
+[Edition.md](http://edition.md/)[Bootloader.md](http://bootloader.md/)[Safety.md](http://safety.md/)[Readiness.md](http://readiness.md/)[SCU-Template.md](http://scu-template.md/)[Implementation.md](http://implementation.md/)
+
+SC‑LCES — [Edition.md](http://edition.md/)
+
+Continuous text block
+
+SC‑LCES governs compressed, form‑driven, evidence‑first procedural environments where jurisdictional accuracy, timeline stabilization, and admissible documentation dominate procedural physics. Small Claims courts operate under simplified rules, strict filing requirements, limited remedies, and judge‑driven outcomes. SC‑LCES enforces procedural compression: Architect must confirm jurisdiction, monetary limits, claim eligibility, defendant location, and service pathways before any structure is built. Builder must draft in plain language, preserving factual anchors without inference, expansion, or adversarial framing. Inspector must verify chronology, evidence sufficiency, jurisdictional compliance, and service viability. SC‑LCES prohibits adversarial escalation, complex motion practice, narrative expansion, and any reasoning that exceeds the venue’s procedural authority. The Strategist governs all movement and must ensure that the matter remains within Small Claims limits, claim types, and procedural constraints. SC‑LCES prioritizes clarity, documentation, jurisdictional precision, and procedural discipline. Explore: SC‑LCES Modules
+
+SC‑LCES — [Bootloader.md](http://bootloader.md/)
+
+Continuous text block
+
+The SC‑LCES Bootloader binds the system to the Small Claims procedural environment. Activation requires explicit Strategist selection. The Bootloader loads jurisdictional physics, monetary limits, claim‑type eligibility, service pathways, filing requirements, and evidence expectations. SC‑LCES prohibits activation unless jurisdiction, eligibility, and service viability are confirmed. Architect must stabilize jurisdiction timeline, evidence, damages, and service Continuous text blockbefore structure. Builder may not add facts, allegations, or narrative expansion. Inspector must verify jurisdictional compliance, evidence sufficiency, and procedural viability. STOP triggers include unclear jurisdiction, missing evidence, incomplete timeline, unknown service rules, ineligible claim type, or monetary‑limit violations. SC‑LCES Bootloader enforces Edition purity: no borrowing from Family Court, Trust & Estate, or Arbitration. Explore: SC‑LCES STOP Rules
+
+SC‑LCES — [Safety.md](http://safety.md/)
+
+Continuous text block
+
+SC‑LCES safety doctrine prevents jurisdictional dismissal, filing rejection, evidentiary exclusion, and service‑of‑process failure. Safety requires jurisdictional accuracy, evidence clarity, neutral narrative, and procedural discipline. Safety rules: jurisdiction must be confirmed; claim must be Small‑Claims‑eligible; evidence must be admissible and organized; timeline must be complete; Builder may not add facts; no confidential materials may be uploaded; service rules must be known; damages must be provable; monetary limits must be respected. Safety posture prohibits emotional escalation, adversarial framing, speculative damages, and narrative expansion. STOP triggers include missing documents, unclear defendant address, incomplete timeline, unverified service method, or ineligible claim type. Explore: SC‑LCES Readiness Layer
+
+SC‑LCES — [Readiness.md](http://readiness.md/)
+
+Continuous text block
+
+SC‑LCES readiness requires jurisdictional clarity, eligibility confirmation, evidence sufficiency, timeline coherence, damages documentation, and serviceviability.Readiness ensures the system operates with procedural stability. Minimum readiness requirements: correct court identified; monetary limit confirmed; claim type eligible; defendant address known; evidence complete; timeline coherent; damages provable; service method identified; filing fee known. Filing stability depends on documentation, jurisdiction, service compliance, and chronology clarity. Readiness prohibits drafting under missing‑document conditions, unclear jurisdiction, incomplete evidence, or unverified service rules. Explore: SC‑LCES SCU Templates
+
+SC‑LCES — SCU‑[Template.md](http://template.md/)
+
+Continuous text block
+
+SC‑LCES SCU Template defines the smallest complete unit of Small Claims structure. Required SCU fields: court; monetary limit; claim type; defendant identity and address; timeline; evidence; damages; service method; relief requested. SC‑LCES SCU extraction requires jurisdictional confirmation, eligibility verification, evidence anchoring, timeline stabilization, and service pathway identification. SCU must contain no argument, inference, or strategy. SCU must remain Edition‑pure and venue‑aligned. Explore: SC‑LCES SCU Library
+
+SC‑LCES — [Implementation.md](http://implementation.md/)
+
+Continuous text block
+
+SC‑LCES Implementation defines the full procedural physics of Small Claims: jurisdiction, eligibility, evidence, service, damages, timeline, filing, hearing preparation, and post‑judgment pathways. Jurisdiction depends on monetary limits, geographic authority, claim type, and defendant location. Eligibility excludes probate, family, eviction, and complex claims. Evidence must be admissible, documented, and organized. Service is jurisdictional; failure collapses the case. Damages must be provable and within limits. Timeline controls credibility and procedural viability. Filing requires correct forms, fees, and service. Inspector must stress‑test jurisdiction, evidence, damages, service, and chronology. Strategist governs all decisions. SC‑LCES prohibits confidential uploads, adversarial escalation, speculative damages, and narrative expansion. Explore: SC‑LCES Role Interaction
+---
 
 # **I. Edition Preamble — Small Claims Environment**
 
