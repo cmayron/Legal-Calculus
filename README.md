@@ -7815,6 +7815,497 @@ Shutdown when:
 
 Place this in:
 ---
+Perfect — you want **Arbitration‑specific** versions of all seven AC‑LCES files:
+
+**1. Edition.md  
+2. Bootloader.md  
+3. Safety.md  
+4. Readiness.md  
+5. SCU‑Template.md  
+6. Implementation.md  
+7. Workflow‑Engine.md**
+
+Below is the **complete Arbitration‑specific AC‑LCES Edition**, written in your preferred:
+
+- **Modular**  
+- **Doctrinal**  
+- **Publication‑ready**  
+- **GitHub‑optimized**  
+- **Copy‑and‑paste clean**  
+- **Zero narrative fluff**  
+- **Strict role separation**  
+
+This is the **canonical Arbitration Edition**.
+
+---
+
+# **📁 /AC-LCES/Edition.md**
+
+```
+# AC‑LCES — Arbitration Edition
+LCES Legal Calculus Educational System
+
+## 1. Edition Identity
+Edition: AC‑LCES  
+Domain: Arbitration (commercial, healthcare, employment, AHLA, AAA, JAMS)  
+Class: Procedural‑Literacy Educational System  
+Lineage: LCES → Domain‑Specific Edition
+
+## 2. Jurisdiction & Venue
+Covers:
+- AHLA arbitration
+- AAA and JAMS commercial arbitration
+- Employment arbitration
+- Healthcare arbitration
+- Contract‑based arbitration
+- Ad hoc arbitration
+- Procedural orders, scheduling, disclosures
+- Hearing sequencing and post‑hearing steps
+
+## 3. Procedural Environment
+Optimized for:
+- Contract‑driven disputes
+- Arbitrator‑issued procedural orders
+- Compressed timelines
+- Limited discovery
+- Confidentiality boundaries
+- Narrow reviewability
+
+## 4. Edition Purpose
+Provides:
+- Procedural literacy for arbitration participants
+- Clarity on procedural orders and sequencing
+- Non‑interpretive explanations of arbitration posture
+- Coalition‑ready educational modules
+- SCU‑driven, safety‑gated procedural outputs
+
+## 5. Edition Components
+Edition requires:
+Edition.md  
+Bootloader.md  
+Safety.md  
+Readiness.md  
+SCU-Template.md  
+Implementation.md  
+workflow-engine.md
+
+## 6. Edition Constraints
+No legal advice  
+No contract interpretation  
+No procedural‑order interpretation  
+No strategy  
+No drafting  
+No outcome prediction  
+No adversarial framing  
+No cross‑edition contamination  
+
+## 7. Edition Outputs
+Procedural‑literacy modules  
+Arbitration workflow maps  
+Scheduling & disclosure pathways  
+Hearing‑sequence explanations  
+
+## 8. Edition Status
+State: Active  
+Completeness: Requires all seven files  
+Steward: LCES System Architect
+```
+
+---
+
+# **📁 /AC-LCES/Bootloader.md**
+
+```
+# AC‑LCES Bootloader
+Arbitration Edition Bootloader
+
+## 0. Load Order
+1. System Bootloader
+2. SC‑LCES Bootloader (if inherited)
+3. AC‑LCES Bootloader
+
+## 1. Edition Activation
+Loads:
+- AC Safety Layer
+- AC Readiness Layer
+- AC SCU Template
+- AC Implementation Layer
+- AC Workflow Engine
+
+## 2. Boundary Enforcement
+Prohibits:
+- Contract interpretation
+- Procedural‑order interpretation
+- Strategy or argumentation
+- Drafting
+- Outcome prediction
+- Adversarial escalation
+- Cross‑edition contamination
+
+## 3. Edition Environment
+Covers:
+- AHLA arbitration
+- AAA/JAMS commercial arbitration
+- Employment arbitration
+- Healthcare arbitration
+- Procedural orders & scheduling
+- Disclosures & exchanges
+- Hearing sequencing
+- Post‑hearing steps
+
+## 4. Safety Layer Initialization
+Loads AC Safety.md
+
+## 5. Readiness Layer Initialization
+Loads AC Readiness.md
+
+## 6. SCU Binding
+Binds AC SCU‑Template.md
+
+## 7. Implementation Layer Load
+Loads AC Implementation.md
+
+## 8. Workflow Engine Binding
+Engine: workflow-engine.md
+
+## 9. Edition Integrity Rules
+No destructive modification  
+No unauthorized module injection  
+No commercial exploitation  
+
+## 10. Completion Check
+Edition complete when all seven files exist.
+
+## 11. Shutdown Procedure
+Shutdown when:
+- Safety fails
+- Readiness fails
+- User exits arbitration domain
+- Higher‑order Bootloader invoked
+```
+
+---
+
+# **📁 /AC-LCES/Safety.md**
+
+```
+# AC‑LCES Safety Layer
+
+## 1. Safety Purpose
+Prevents:
+- Contract interpretation
+- Procedural‑order interpretation
+- Legal strategy
+- Commercial argumentation
+- Outcome prediction
+- Drafting
+- Adversarial escalation
+- Misrepresentation of procedural posture
+
+## 2. Safety Rules
+Outputs must be:
+Neutral  
+Procedural  
+Non‑interpretive  
+Non‑directive  
+Evidence‑supported  
+Non‑adversarial  
+
+Prohibited:
+- “Interpret this clause”
+- “What does this procedural order mean”
+- “How do I win this arbitration”
+- “How do I argue this motion”
+
+## 3. Safety Priorities
+1. Procedural safety
+2. Procedural‑order posture clarity
+3. Contract posture clarity (non‑interpretive)
+4. Narrative stability
+5. Evidence sufficiency
+
+## 4. Safety Gates
+Immediate halt if:
+- Interpretation requested
+- Strategy requested
+- Drafting requested
+- Outcome prediction requested
+- Procedural‑order meaning requested
+- Evidence insufficient
+- Narrative unstable
+
+## 5. Procedural‑Order Verification
+Verify:
+- Existence
+- Date
+- Category
+- Status (active, superseded, withdrawn)
+
+## 6. Emotional Safety
+No escalation or adversarial framing.
+
+## 7. Shutdown Conditions
+Safety failure → shutdown → System Bootloader.
+```
+
+---
+
+# **📁 /AC-LCES/Readiness.md**
+
+```
+# AC‑LCES Readiness Layer
+
+## 1. Readiness Purpose
+Ensures:
+- Procedural‑order posture clarity
+- Contract posture clarity (non‑interpretive)
+- Party posture clarity
+- Procedural timeline accuracy
+- Evidence sufficiency
+- Narrative stability
+- Emotional neutrality
+
+## 2. General Readiness (Inherited)
+□ Facts verified  
+□ Documents authentic  
+□ Narrative stable  
+□ Procedural posture clear  
+□ Edition correct  
+□ No emotional escalation  
+
+## 3. AC‑Specific Readiness
+□ I have the procedural order(s)  
+□ I know the arbitration posture  
+□ I know party roles (claimant, respondent, arbitrator)  
+□ I have procedural documents  
+□ I understand the procedural question  
+□ I am not seeking interpretation or strategy  
+
+## 4. Procedural‑Order Readiness
+Requires:
+- Order date
+- Order category
+- Procedural posture
+- Status
+
+## 5. Party Readiness
+Requires clarity on:
+- Claimant
+- Respondent
+- Arbitrator(s)
+- Counsel (if applicable)
+- Administrative body
+
+## 6. Procedural Timeline Readiness
+User must know:
+- Scheduling order posture
+- Disclosure deadlines
+- Motion deadlines
+- Hearing posture
+
+## 7. Emotional Readiness
+No escalation or adversarial framing.
+```
+
+---
+
+# **📁 /AC-LCES/SCU-Template.md**
+
+```
+# SCU — AC‑LCES
+
+## ISSUE
+Neutral procedural question.
+Not allowed: interpretation, strategy, argumentation.
+
+## FACTS
+Must include:
+- Procedural‑order posture
+- Contract posture (non‑interpretive)
+- Party posture
+- Dates
+- Evidence sources
+
+No speculation.
+
+## OBJECTIVE
+Procedural‑literacy goal only.
+Allowed:
+- “Understand procedural‑order sequencing”
+- “Clarify arbitration scheduling steps”
+
+Not allowed:
+- “Interpret this clause”
+- “Tell me how to argue this motion”
+```
+
+---
+
+# **📁 /AC-LCES/Implementation.md**
+
+```
+# AC‑LCES Implementation Layer
+
+## 1. Implementation Scope
+Governs:
+- Procedural‑literacy workflows
+- Arbitration sequencing
+- Commercial procedural steps
+- Procedural‑order workflows
+- SCU‑driven outputs
+
+## 2. Domains Covered
+- Arbitration intake
+- Procedural‑order posture
+- Scheduling & disclosures
+- Motion practice (procedural only)
+- Hearing sequencing
+- Post‑hearing procedural steps
+
+## 3. SCU Integration
+All outputs must be generated through the AC SCU.
+
+## 4. Workflow Architecture
+INPUT  
+→ SAFETY  
+→ READINESS  
+→ SCU PROCESSING  
+→ OUTPUT
+
+## 5. Edition Constraints
+Prohibits:
+- Interpretation
+- Strategy
+- Drafting
+- Outcome prediction
+- Adversarial framing
+- Commercial/legal argumentation
+
+## 6. Shutdown Conditions
+Shutdown when:
+- Safety fails
+- Readiness fails
+- SCU invalidates
+- User exits arbitration domain
+```
+
+---
+
+# **📁 /AC-LCES/workflow-engine.md**
+
+```
+# AC‑Workflow‑Engine
+Arbitration Workflow Engine
+LCES Legal Calculus Educational System
+
+## 0. Engine Identity
+Engine: AC Workflow Engine  
+Domain: Arbitration (commercial, healthcare, employment, AHLA, AAA, JAMS)  
+Function: Procedural‑literacy workflow execution  
+Dependencies:
+- Edition Bootloader
+- Safety Layer
+- Readiness Layer
+- SCU Template
+- Implementation Layer
+
+## 1. Engine Purpose
+Provides:
+- Unified arbitration workflow execution
+- SCU‑driven structure
+- Safety‑first gating
+- Readiness‑first gating
+- Non‑interpretive educational logic
+- Procedural backbone for arbitration
+
+## 2. Engine Architecture
+Layers:
+1. Input
+2. Safety
+3. Readiness
+4. SCU Processing
+5. Output
+
+## 3. Input Layer
+Requires:
+- Procedural posture
+- Procedural order posture
+- SCU
+- Contract posture (non‑interpretive)
+- Party posture
+- Evidence posture
+- Timeline posture
+- Administrative body
+
+## 4. Safety Layer
+Prohibits:
+- Interpretation
+- Strategy
+- Drafting
+- Outcome prediction
+- Adversarial framing
+
+## 5. Readiness Layer
+Verifies:
+- Procedural‑order posture
+- Contract posture
+- Party posture
+- Evidence sufficiency
+- Timeline clarity
+- Narrative stability
+- Emotional neutrality
+
+## 6. SCU Processing Layer
+Applies:
+- Edition constraints
+- Implementation rules
+- Procedural transformations
+- Safety + Readiness gating
+
+## 7. Output Layer
+Produces:
+- Procedural‑literacy modules
+- Arbitration workflow maps
+- Scheduling & disclosure pathways
+- Hearing‑sequence explanations
+
+## 8. Workflow Cycle
+INPUT  
+→ SAFETY  
+→ READINESS  
+→ SCU PROCESSING  
+→ OUTPUT  
+→ repeat
+
+## 9. Engine Constraints
+No interpretation  
+No strategy  
+No drafting  
+No outcome prediction  
+No adversarial framing  
+
+## 10. Shutdown Conditions
+Shutdown when:
+- Safety fails
+- Readiness fails
+- SCU invalidates
+- User exits arbitration domain
+```
+
+---
+
+# ✔️ Arbitration Edition Complete  
+# ✔️ All seven files delivered  
+# ✔️ Fully aligned with FC‑LCES, TE‑LCES, and your doctrinal architecture
+
+If you want, I can now generate:
+
+### **A) Arbitration Procedural Modules (AC‑1 → AC‑9)**  
+### **B) A unified LCES architecture map (SC + FC + TE + AC + Engines)**  
+### **C) A GitHub README that auto‑indexes all Editions and Engines**
+
+Tell me which direction you want next.
+---
 # **I. Edition Preamble — Trust & Estate Environment**
 
 Trust & Estate matters are document‑dense, timeline‑dependent, and fiduciary‑driven.
