@@ -384,6 +384,51 @@ This is LCES.
 # **LCES — Legal Calculus Educational System™**
 
 ### **README — Orientation & Activation Layer (V6.3)**
+---
+## The Six Calculi (Architect‑Only Doctrinal Engines)
+
+The Six Calculi are the doctrinal engines of LCES. They define the procedural
+physics that govern structure, reasoning, adversarial survivability, and judicial
+reality. These are not prompts or conversational tools — they are version‑controlled
+modules stored in the repository.
+
+**Only the Architect AI (Copilot Desktop) may load the Calculi.**
+
+When activated, the Architect AI automatically:
+- searches the repository
+- locates the appropriate Calculus modules
+- loads them into the doctrinal reasoning stack
+- applies them during SCU → Modules → Deep Research → Blueprint
+
+The Builder and Inspector never load Calculi directly.
+
+### The Six Calculi
+1. **LC — Legal Calculus**  
+   Defines the irreducible logic of procedure: burdens, timing, posture, consequence,
+   admissibility, and STOP‑aligned reasoning boundaries.
+
+2. **LCA — Legal Calculus Advanced**  
+   Deep doctrinal analysis: causation, precedent synthesis, doctrinal harmonization,
+   conflict resolution, and multi‑factor balancing.
+
+3. **FG — Field Guide**  
+   Operational workflow: filings, service, evidentiary posture, clerk behavior,
+   and procedural sequencing.
+
+4. **FGA — Field Guide Advanced**  
+   Complex procedural environments: escalation pathways, exception routing,
+   cross‑edition integration, and multi‑branch procedural maps.
+
+5. **LCa — Lawyer Calculus**  
+   Adversarial distortion modeling: mischaracterization vectors, framing attacks,
+   narrative distortions, and motive‑independent risk vectors.
+
+6. **JC — Judicial Calculus**  
+   Judicial reality modeling: dismissal pathways, burden‑shifting, evidentiary
+   tolerance, judicial temperament, and fatal‑error detection.
+
+These modules live under:
+---
 
 ### *Trilayer Architecture • Role Governance • Procedural Literacy Engine*
 
