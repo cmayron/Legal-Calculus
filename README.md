@@ -9808,6 +9808,190 @@ Edition purity is mandatory.
 **LCES Legal Calculus Educational System**
 
 ---
+**SCU-EI-01 — Validate Exhibit Authentication**
+
+Issue: Determine whether exhibit foundation exists.
+
+Facts: Source, metadata, witness, chain of custody.
+
+Objective: Establish admissibility posture.
+
+**SCU-EI-02 — Detect Evidentiary Contamination**
+
+Issue: Determine whether inadmissible material infected the record.
+
+Facts: Privileged material, excluded evidence, procedural orders.
+
+Objective: Preserve contamination objections.
+
+**SCU-EI-03 — Validate Bates Continuity**
+
+Issue: Determine whether exhibit numbering preserves record integrity.
+
+Facts: Bates ranges, missing pages, duplicates.
+
+Objective: Maintain audit continuity.
+
+# **XII. Arbitration Governance SCUs**
+
+(Extremely important for your AHLA work)
+
+This is likely a major innovation area because arbitration lacks transparent procedural governance.
+
+Examples:
+
+**SCU-AG-01 — Validate Arbitration Scope**
+
+Issue: Determine whether proceeding exceeds compelled scope.
+
+Facts: Arbitration order, pleadings, agreements.
+
+Objective: Establish scope boundary.
+
+**SCU-AG-02 — Detect Shadow Record Formation**
+
+Issue: Determine whether advocacy occurred outside authorized record channels.
+
+Facts: Emails, ECM restrictions, off-record communications.
+
+Objective: Preserve procedural-integrity objections.
+
+**SCU-AG-03 — Validate Desk-Arbitration Conformity**
+
+Issue: Determine whether procedure deviated from desk-arbitration structure.
+
+Facts: Scheduling orders, deposition requests, procedural rules.
+
+Objective: Detect procedural transformation.
+
+This category is particularly powerful because few systems model:
+
+procedural legitimacy drift inside arbitration.
+
+# **XIII. Judicial Calculus SCUs**
+
+(For judge/off-ramp modeling)
+
+Not predictive “mind reading.”
+
+Instead:
+
+- procedural pressure mapping
+- workload posture
+- off-ramp detection
+- threshold-avoidance structures
+
+Examples:
+
+**SCU-JC-01 — Identify Threshold Off-Ramp**
+
+Issue: Determine whether court may avoid merits review.
+
+Facts: Jurisdiction, standing, immunity, SOL, pleading posture.
+
+Objective: Surface procedural escape paths.
+
+**SCU-JC-02 — Detect Procedural Compression**
+
+Issue: Determine whether court is compressing factual analysis into pleading posture.
+
+Facts: Orders, hearing statements, dismissal language.
+
+Objective: Preserve reviewable distinctions.
+
+# **XIV. Lawyer Calculus SCUs**
+
+(For adversarial movement analysis)
+
+Examples:
+
+**SCU-LCa-01 — Identify Incentive Movement**
+
+Issue: Determine opposing counsel’s procedural incentive.
+
+Facts: Delay patterns, settlement posture, motion timing.
+
+Objective: Map adversarial leverage.
+
+**SCU-LCa-02 — Detect Narrative Reframing**
+
+Issue: Determine whether adversary reframed issue outside original posture.
+
+Facts: Pleadings, oral argument, briefing transitions.
+
+Objective: Preserve issue integrity.
+
+# **XV. Constitutional Governance SCUs**
+
+(For AI-runtime governance itself)
+
+This is where LCES becomes truly unique.
+
+Examples:
+
+**SCU-CG-01 — Detect Role Drift**
+
+Issue: Determine whether Builder exceeded authorized movement.
+
+Facts: Output scope, SCU authorization, Edition limits.
+
+Objective: Halt unauthorized execution.
+
+**SCU-CG-02 — Validate Human Authorization**
+
+Issue: Determine whether consequence-bearing movement received Strategist approval.
+
+Facts: Filing status, execution state, approval logs.
+
+Objective: Preserve human supremacy.
+
+**SCU-CG-03 — Detect Jurisdictional Contamination**
+
+Issue: Determine whether reasoning imported external legal standards.
+
+Facts: Citations, rules, Edition boundaries.
+
+Objective: Preserve jurisdictional purity.
+
+# **XVI. Appellate Preservation SCUs**
+
+This is another very strong area.
+
+Examples:
+
+**SCU-AP-01 — Preserve Objection Lineage**
+
+Issue: Determine whether objection was preserved across procedural stages.
+
+Facts: Filings, oral objections, orders.
+
+Objective: Preserve appellate review path.
+
+**SCU-AP-02 — Detect Reviewability Failure**
+
+Issue: Determine whether record lacks reviewable findings.
+
+Facts: Orders, minute entries, evidentiary rulings.
+
+Objective: Surface vacatur/reversal vulnerabilities.
+
+# **XVII. Deep Research Governance SCUs**
+
+**SCU-DR-01 — Trigger Authority Validation**
+
+Issue: Determine whether unresolved legal authority requires verification.
+
+Facts: Jurisdiction, novelty, conflict.
+
+Objective: Trigger research escalation.
+
+**SCU-DR-02 — Detect Citation Instability**
+
+Issue: Determine whether cited authority may be invalid, unpublished, or hallucinated.
+
+Facts: Citations, reporters, procedural posture.
+
+Objective: Prevent unsupported authority movement.
 
 ## **0. SCU Identity**
 
