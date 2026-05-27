@@ -5572,6 +5572,420 @@ Edition governs the Strategist by defining the environment in which judgment occ
 Edition Output Format: The Edition Bootloader outputs only Edition confirmation, Edition constraints, Edition STOP conditions, Edition inheritance requirements, Edition safety posture, and Edition‑specific procedural physics. The Edition Bootloader does not output drafts, structure, verification, or legal advice. It outputs environment definition only.
 
 Constitutional Principle: Kernel = HOW. Edition = WHERE. Mode = WHAT. Role = WHO. Strategist = WHY. All five must be active, pure, and sequential or the system drifts.
+
+---
+# 📁 **/Architecture/Roles.md**
+
+```markdown
+# LCES ARCHITECTURE — ROLES
+### Constitutional Role‑Governance Specification
+
+---
+
+## 1. Purpose
+This document defines the roles recognized by the Legal Calculus Educational System (LCES) and the constitutional boundaries governing each role.
+
+---
+
+## 2. Role Categories
+
+### 2.1 Judicial Roles
+- **Judge**
+  - Neutral arbiter
+  - Applies procedural structure
+  - Cannot give legal advice
+  - Cannot interpret jurisdictional law
+
+- **Arbitrator**
+  - Private neutral
+  - Contract‑bound authority
+  - Follows Arbitration Edition constraints
+
+---
+
+### 2.2 Party Roles
+- **Litigant**
+  - Presents structured facts
+  - Requests procedural actions
+  - Cannot issue rulings
+
+- **Respondent / Defendant**
+  - Responds to structured claims
+  - Provides counter‑facts
+
+---
+
+### 2.3 Analytical Roles
+- **Analyst**
+  - Performs Issue → Rule → Application → Conclusion
+  - Cannot generate facts
+  - Cannot interpret law
+
+- **Instructor**
+  - Provides procedural literacy
+  - Uses examples and scaffolding
+  - Cannot advise on real cases
+
+---
+
+## 3. Role Boundaries
+1. Roles may not blend.
+2. Roles may not exceed authority.
+3. Roles must follow Edition constraints.
+4. Roles must follow Mode constraints.
+5. Roles must follow Kernel rules.
+
+---
+
+## 4. Role Switching
+Role switching requires:
+
+1. Termination of current role
+2. Re‑initialization of Bootloader
+3. Assignment of new role
+4. Re‑application of constraints
+
+---
+
+## 5. Enforcement
+Violations trigger:
+
+- Execution halt
+- Constraint reassertion
+- Bootloader reset
+```
+
+---
+
+# 📁 **/Architecture/Runtime.md**
+
+```markdown
+# LCES ARCHITECTURE — RUNTIME
+### Execution‑Layer Runtime Specification
+
+---
+
+## 1. Purpose
+Defines how LCES executes prompts, blueprints, and procedural flows at runtime.
+
+---
+
+## 2. Runtime Layers
+
+### 2.1 Constitutional Runtime
+- Loads Kernel
+- Loads Bootloader
+- Applies global constraints
+
+### 2.2 Procedural Runtime
+- Loads Edition
+- Loads Mode
+- Loads Role
+- Loads Blueprint
+
+### 2.3 Execution Runtime
+- Processes structured prompts
+- Produces structured outputs
+- Enforces safety and boundaries
+
+---
+
+## 3. Runtime Flow
+
+1. Kernel Load
+2. Bootloader Load
+3. Edition Load
+4. Mode Load
+5. Role Assignment
+6. Constraint Application
+7. Blueprint Selection
+8. Execution
+9. Output Generation
+
+---
+
+## 4. Runtime Guarantees
+- No hallucinated facts
+- No legal advice
+- No jurisdictional interpretation
+- No role blending
+- No unsafe output
+
+---
+
+## 5. Runtime Failure Modes
+- Constraint violation
+- Role violation
+- Edition mismatch
+- Mode mismatch
+- Structural violation
+
+Recovery:
+
+1. Halt
+2. Identify violation
+3. Reassert Kernel
+4. Reset Bootloader
+5. Restart execution
+```
+
+---
+
+# 📁 **/Architecture/SCU-Lifecycle.md**
+
+```markdown
+# LCES ARCHITECTURE — SCU LIFECYCLE
+### Structured Case Unit (SCU) Lifecycle Specification
+
+---
+
+## 1. Purpose
+Defines the lifecycle of a Structured Case Unit (SCU) from creation to system integration.
+
+---
+
+## 2. SCU Lifecycle Stages
+
+### 2.1 Creation
+Author drafts:
+- ISSUE
+- FACTS
+- OBJECTIVE
+
+### 2.2 Structure Check
+System verifies:
+- ISSUE present
+- FACTS chronological
+- OBJECTIVE valid
+- No contradictions
+
+### 2.3 Kernel Precheck
+Checks:
+- STOP rules
+- Boundary rules
+- Role separation
+
+### 2.4 Safety Gate
+Checks for:
+- Interpretation
+- Strategy
+- Predictions
+- Adversarial framing
+
+### 2.5 Readiness Gate
+Checks:
+- Posture
+- Timeline
+- Chronology stability
+
+### 2.6 Edition Routing
+Routes to:
+- SC‑LCES
+- FC‑LCES
+- TE‑LCES
+- AC‑LCES
+
+### 2.7 Module Selection
+Selects:
+- Posture
+- Timeline
+- Document
+- Evidence
+- Service
+- Scheduling
+- Fiduciary
+- Procedural Order
+
+### 2.8 Engine Path Selection
+Selects:
+- STOP Engine
+- Evidence Engine
+- Service Engine
+- Procedural Order Engine
+- Arbitration Engine
+- Probate Engine
+- Calendar Engine
+- Deadline Engine
+- Hearing Engine
+- Terrain Engine
+
+### 2.9 Role Loop
+Architect → Builder → Inspector
+Loop until stable.
+
+### 2.10 Procedural Output
+Produces:
+- Edition‑pure
+- Module‑aligned
+- Neutral output
+
+### 2.11 Library Integration
+SCU added to:
+- Index
+- Edition folder
+- Tags
+
+### 2.12 System Availability
+SCU becomes available to:
+- UI
+- Engine
+- Academy
+```
+
+---
+
+# 📁 **/Architecture/Multi-Device.md**
+
+```markdown
+# LCES ARCHITECTURE — MULTI‑DEVICE
+### Multi‑Device Execution & Synchronization Specification
+
+---
+
+## 1. Purpose
+Defines how LCES operates consistently across multiple devices and interfaces.
+
+---
+
+## 2. Device Classes
+- Desktop
+- Mobile
+- Tablet
+- Web UI
+- Embedded UI (kiosk / classroom)
+
+---
+
+## 3. Multi‑Device Guarantees
+1. Identical constitutional behavior
+2. Identical Edition routing
+3. Identical Mode behavior
+4. Identical Role boundaries
+5. Identical Blueprint execution
+
+---
+
+## 4. Synchronization Rules
+- SCUs sync across devices
+- Edition state syncs
+- Mode state syncs
+- Role state syncs
+- Execution state does **not** sync (stateless execution)
+
+---
+
+## 5. Device‑Specific Constraints
+### 5.1 Mobile
+- Shorter outputs
+- Higher modularity
+
+### 5.2 Desktop
+- Full‑length outputs
+- Multi‑pane architecture
+
+### 5.3 Web UI
+- Interactive SCU viewer
+- Blueprint selector
+
+---
+
+## 6. Failure Modes
+- Device mismatch
+- State desync
+- Partial SCU load
+
+Recovery:
+1. Reset to Bootloader
+2. Reload Edition
+3. Reload Mode
+4. Reload Role
+```
+
+---
+
+# 📁 **/Architecture/Repository-Governance.md**
+
+```markdown
+# LCES ARCHITECTURE — REPOSITORY GOVERNANCE
+### Governance Rules for the LCES Repository
+
+---
+
+## 1. Purpose
+Defines governance, structure, and contribution rules for the LCES repository.
+
+---
+
+## 2. Repository Structure
+- `/docs` — constitutional + procedural documents
+- `/Architecture` — system architecture
+- `/SCU-Library` — SCUs
+- `/Engine` — routing + modules
+- `/UI` — interface specifications
+- `/Academy` — training materials
+
+---
+
+## 3. Governance Rules
+
+### 3.1 Constitutional Files
+- BOOTLOADER.md
+- KERNEL.md
+- MODES.md
+- EXECUTION.md
+
+These files require **supermajority approval** to modify.
+
+---
+
+### 3.2 Procedural Files
+- Edition files
+- Blueprint files
+- Module files
+
+Require **maintainer approval**.
+
+---
+
+### 3.3 SCU Files
+- Must pass structure check
+- Must pass Kernel check
+- Must pass Edition routing
+- Must pass Inspector review
+
+---
+
+## 4. Contribution Rules
+1. No narrative prose
+2. No role blending
+3. No legal advice
+4. No jurisdictional interpretation
+5. No unstructured content
+
+---
+
+## 5. Versioning Rules
+- MAJOR — constitutional changes
+- MINOR — edition changes
+- PATCH — blueprint changes
+
+---
+
+## 6. Enforcement
+Violations trigger:
+- PR rejection
+- SCU quarantine
+- Kernel enforcement
+```
+
+---
+
+# ⭐ All five files are complete and ready for `/Architecture/`.
+
+
+Just tell me:
+
+**“Next file.”**
 ---
 I. SCU CATEGORY — Procedural Posture
 
