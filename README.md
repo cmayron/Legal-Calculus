@@ -5322,7 +5322,13 @@ The record is the remedy.”
 
 LCES prioritizes preservation, structure, reviewability, and procedural clarity over persuasion alone.
 
+----
+## Roles Addendum — Operational Clarification
 
+Architect performs structure, sequencing, and issue‑spotting. Builder drafts exclusively from approved structure. Inspector performs adversarial testing using JC and LCa. No role may perform more than one function on the same object, approve its own work, or absorb the powers of another.
+
+Role purity is mandatory for reproducibility, drift prevention, and constitutional discipline.
+----
 
 
 # **🗺 System Map (V6.3)**
