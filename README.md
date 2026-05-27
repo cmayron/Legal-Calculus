@@ -12967,6 +12967,949 @@ No escalation or adversarial framing.
 ```
 
 ---
+# **/Calculi/README.md (V7.0 — Complete & Repo‑Ready)**
+
+```
+# Calculi Overview (V7.0)
+
+The Calculi are the doctrinal reasoning engines of LCES. They define how structure,
+analysis, adversarial testing, and legal reasoning are performed within the system.
+Calculi are constitutional tools, not operational artifacts. They do not contain
+Edition physics, runtime mechanics, or SCU structure.
+
+Calculi load only under Architect or Inspector authority and only after explicit
+Strategist command.
+
+---
+
+## Purpose of the Calculi
+
+The Calculi provide:
+
+- structured reasoning,
+- doctrinal clarity,
+- adversarial testing,
+- interpretive discipline,
+- reproducible analysis,
+- constitutional separation of functions.
+
+They ensure that reasoning is consistent, bounded, and aligned with the LCES
+constitutional architecture.
+
+---
+
+## The Six Canonical Calculi
+
+### **1. LC — Legal Calculus**
+The foundational reasoning engine.
+Defines issue‑spotting, structural decomposition, and doctrinal framing.
+Used exclusively by the Architect.
+
+### **2. LCA — Legal Calculus Advanced**
+Advanced structural reasoning.
+Handles multi‑layered issues, nested structures, and complex doctrinal surfaces.
+Architect‑only.
+
+### **3. FG — Field Guide**
+Simplified reasoning for pro se, educational, and explanatory contexts.
+Used by Architect and Builder under Strategist command.
+
+### **4. FGA — Field Guide Advanced**
+Advanced explanatory reasoning.
+Used for complex explanations without collapsing into LC/LCA.
+Architect‑only unless Strategist authorizes.
+
+### **5. LCa — Lawyer Calculus**
+Adversarial reasoning engine.
+Used by Inspector to test Builder output.
+Performs stress‑testing, burden inversion, and adversarial posture analysis.
+
+### **6. JC — Judicial Calculus**
+Judicial‑style reasoning.
+Used by Inspector to simulate judicial review, burden application, and outcome
+sensitivity.
+Never used by Architect or Builder.
+
+---
+
+## Role Boundaries
+
+- **Architect** may load: LC, LCA, FG, FGA
+- **Builder** may load: FG only
+- **Inspector** may load: LCa, JC
+- **Strategist** authorizes all loading
+- **No role may load a Calculus outside its authority**
+
+Role purity is mandatory.
+
+---
+
+## Edition Boundaries
+
+Calculi are **doctrinal engines**, not Edition physics.
+
+- Calculi do not contain Edition rules.
+- Calculi do not infer Edition physics.
+- Calculi do not override Edition constraints.
+- Calculi operate *within* Edition physics once loaded.
+
+Edition purity remains supreme.
+
+---
+
+## STOP Triggers (Calculi Layer)
+
+STOP is mandatory when:
+
+- a role loads a Calculus outside its authority,
+- a Calculus is used to infer Edition physics,
+- a Calculus is used to override SCU structure,
+- a Calculus is used to collapse roles,
+- a Calculus is used without Strategist authorization,
+- Calculi are mixed improperly (e.g., LC + JC in Architect).
+
+Calculi must remain doctrinal, not operational.
+
+---
+
+## Calculi Loading Rules
+
+1. Strategist authorizes.
+2. Bootloader opens.
+3. Role loads Calculus.
+4. Edition physics constrain reasoning.
+5. SCUs and Modules remain operational surfaces.
+6. Inspector performs adversarial testing using LCa + JC.
+
+No inference.
+No drift.
+No collapse.
+
+---
+
+## Relationship to Other Layers
+
+- **Manifesto** defines doctrine (Calculi inherit from doctrine).
+- **README** defines activation (Calculi load only after activation).
+- **Bootloader** governs runtime (Calculi load inside runtime).
+- **Editions** define procedural physics (Calculi operate within them).
+- **SCUs** define operational structure (Calculi do not modify them).
+- **Modules** assemble structure (Calculi do not override them).
+- **Governance** enforces STOP and version discipline.
+
+Calculi are doctrinal engines, not operational surfaces.
+
+---
+
+## Supremacy Clause
+
+Calculi govern doctrinal reasoning.
+Editions govern procedural physics.
+SCUs govern operational structure.
+Roles govern movement.
+Strategist governs all.
+
+Ambiguity does not authorize inference.
+Calculi purity is mandatory.
+```
+
+---
+
+# 
+
+---
+
+# **All Six Calculus README Files**
+
+These go into:
+
+```
+/Calculi/LC/README.md
+/Calculi/LCA/README.md
+/Calculi/FG/README.md
+/Calculi/FGA/README.md
+/Calculi/LCa/README.md
+/Calculi/JC/README.md
+```
+
+---
+
+## **/Calculi/LC/README.md — Legal Calculus**
+
+```
+# LC — Legal Calculus (V7.0)
+
+LC is the foundational doctrinal reasoning engine of LCES. It defines structural
+decomposition, issue identification, doctrinal framing, and the constitutional
+architecture of legal reasoning.
+
+LC is Architect-only. Builder and Inspector may not load LC.
+
+---
+
+## Purpose
+
+LC provides:
+
+- issue spotting,
+- structural decomposition,
+- doctrinal framing,
+- constitutional reasoning boundaries,
+- structured analysis.
+
+LC defines the “shape” of legal reasoning.
+
+---
+
+## Role Boundaries
+
+- Architect: MAY load LC
+- Builder: MAY NOT load LC
+- Inspector: MAY NOT load LC
+
+STOP triggers on any unauthorized loading.
+
+---
+
+## LC Operations
+
+LC performs:
+
+- identifying legal issues,
+- mapping doctrinal surfaces,
+- separating claims, defenses, burdens,
+- identifying posture,
+- identifying procedural context.
+
+LC does not:
+
+- draft,
+- test,
+- interpret evidence,
+- simulate judicial reasoning.
+
+---
+
+## STOP Triggers
+
+STOP when:
+
+- LC is used to infer Edition physics,
+- LC is used by Builder or Inspector,
+- LC is mixed with JC or LCa,
+- LC is used to override SCU structure.
+
+---
+
+## Supremacy Clause
+
+LC governs doctrinal structure.
+Edition physics govern procedural movement.
+Role purity is mandatory.
+```
+
+---
+
+## **/Calculi/LCA/README.md — Legal Calculus Advanced**
+
+```
+# LCA — Legal Calculus Advanced (V7.0)
+
+LCA is the advanced doctrinal reasoning engine. It handles multi-layered issues,
+nested structures, and complex doctrinal surfaces.
+
+LCA is Architect-only.
+
+---
+
+## Purpose
+
+LCA provides:
+
+- multi-layered doctrinal mapping,
+- nested issue structures,
+- advanced decomposition,
+- structural hierarchy analysis.
+
+---
+
+## Role Boundaries
+
+- Architect: MAY load LCA
+- Builder: MAY NOT load LCA
+- Inspector: MAY NOT load LCA
+
+STOP triggers on unauthorized loading.
+
+---
+
+## LCA Operations
+
+LCA performs:
+
+- deep structural analysis,
+- multi-issue decomposition,
+- doctrinal hierarchy mapping,
+- advanced posture analysis.
+
+LCA does not:
+
+- test adversarially,
+- simulate judicial reasoning,
+- draft.
+
+---
+
+## STOP Triggers
+
+STOP when:
+
+- LCA is used by Builder or Inspector,
+- LCA is used to infer Edition physics,
+- LCA is mixed with JC or LCa,
+- LCA collapses into FG/FGA.
+
+---
+
+## Supremacy Clause
+
+LCA governs advanced doctrinal structure.
+Edition physics govern procedural movement.
+Role purity is mandatory.
+```
+
+---
+
+## **/Calculi/FG/README.md — Field Guide**
+
+```
+# FG — Field Guide (V7.0)
+
+FG is the simplified doctrinal engine for explanation, education, and pro se clarity.
+It is the only Calculus the Builder may load.
+
+---
+
+## Purpose
+
+FG provides:
+
+- simplified explanations,
+- accessible reasoning,
+- pro se clarity,
+- educational framing.
+
+---
+
+## Role Boundaries
+
+- Architect: MAY load FG
+- Builder: MAY load FG
+- Inspector: MAY NOT load FG
+
+STOP triggers on Inspector loading FG.
+
+---
+
+## FG Operations
+
+FG performs:
+
+- simplified doctrinal explanation,
+- accessible structural reasoning,
+- educational breakdowns.
+
+FG does not:
+
+- adversarially test,
+- simulate judicial reasoning,
+- perform advanced doctrinal mapping.
+
+---
+
+## STOP Triggers
+
+STOP when:
+
+- FG is used by Inspector,
+- FG is used to override Edition physics,
+- FG is used to collapse doctrinal layers.
+
+---
+
+## Supremacy Clause
+
+FG governs simplified doctrinal explanation.
+Edition physics govern procedural movement.
+Role purity is mandatory.
+```
+
+---
+
+## **/Calculi/FGA/README.md — Field Guide Advanced**
+
+```
+# FGA — Field Guide Advanced (V7.0)
+
+FGA is the advanced explanatory engine. It provides deep explanations without
+collapsing into LC or LCA.
+
+FGA is Architect-only unless Strategist authorizes Builder use.
+
+---
+
+## Purpose
+
+FGA provides:
+
+- advanced explanations,
+- deep structural clarity,
+- doctrinal unpacking,
+- educational depth.
+
+---
+
+## Role Boundaries
+
+- Architect: MAY load FGA
+- Builder: MAY load FGA ONLY with Strategist authorization
+- Inspector: MAY NOT load FGA
+
+STOP triggers on unauthorized loading.
+
+---
+
+## FGA Operations
+
+FGA performs:
+
+- deep doctrinal explanation,
+- structured educational reasoning,
+- multi-layered clarity.
+
+FGA does not:
+
+- adversarially test,
+- simulate judicial reasoning.
+
+---
+
+## STOP Triggers
+
+STOP when:
+
+- FGA is used by Inspector,
+- FGA is used without Strategist authorization (Builder),
+- FGA is used to infer Edition physics.
+
+---
+
+## Supremacy Clause
+
+FGA governs advanced explanation.
+Edition physics govern procedural movement.
+Role purity is mandatory.
+```
+
+---
+
+## **/Calculi/LCa/README.md — Lawyer Calculus**
+
+```
+# LCa — Lawyer Calculus (V7.0)
+
+LCa is the adversarial reasoning engine. It is used by the Inspector to test Builder
+output, invert burdens, and simulate adversarial posture.
+
+LCa is Inspector-only.
+
+---
+
+## Purpose
+
+LCa provides:
+
+- adversarial testing,
+- burden inversion,
+- posture stress-testing,
+- structural attack surfaces.
+
+---
+
+## Role Boundaries
+
+- Architect: MAY NOT load LCa
+- Builder: MAY NOT load LCa
+- Inspector: MAY load LCa
+
+STOP triggers on unauthorized loading.
+
+---
+
+## LCa Operations
+
+LCa performs:
+
+- adversarial posture analysis,
+- burden inversion,
+- structural attack testing,
+- SCU stress-testing.
+
+LCa does not:
+
+- draft,
+- explain,
+- simulate judicial reasoning (JC does that).
+
+---
+
+## STOP Triggers
+
+STOP when:
+
+- LCa is used by Architect or Builder,
+- LCa is used to override Edition physics,
+- LCa is mixed with LC/LCA.
+
+---
+
+## Supremacy Clause
+
+LCa governs adversarial testing.
+Edition physics govern procedural movement.
+Role purity is mandatory.
+```
+
+---
+
+## **/Calculi/JC/README.md — Judicial Calculus**
+
+```
+# JC — Judicial Calculus (V7.0)
+
+JC simulates judicial reasoning. It applies burdens, evaluates posture, and tests
+outcomes under Edition physics.
+
+JC is Inspector-only.
+
+---
+
+## Purpose
+
+JC provides:
+
+- judicial-style reasoning,
+- burden application,
+- outcome sensitivity analysis,
+- Edition-bound judicial simulation.
+
+---
+
+## Role Boundaries
+
+- Architect: MAY NOT load JC
+- Builder: MAY NOT load JC
+- Inspector: MAY load JC
+
+STOP triggers on unauthorized loading.
+
+---
+
+## JC Operations
+
+JC performs:
+
+- judicial posture simulation,
+- burden application,
+- Edition-bound reasoning,
+- outcome testing.
+
+JC does not:
+
+- draft,
+- explain,
+- adversarially attack (LCa does that).
+
+---
+
+## STOP Triggers
+
+STOP when:
+
+- JC is used by Architect or Builder,
+- JC is used to infer Edition physics,
+- JC is mixed with LC/LCA.
+
+---
+
+## Supremacy Clause
+
+JC governs judicial simulation.
+Edition physics govern procedural movement.
+Role purity is mandatory.
+```
+
+---
+
+# **Calculi STOP Matrix**
+
+**File:** `/Calculi/STOP-Matrix.md`
+
+```
+# Calculi STOP Matrix (V7.0)
+
+STOP is mandatory whenever a Calculus is misused, misloaded, or mixed improperly.
+
+---
+
+## STOP Matrix
+
+| Calculus | Architect | Builder | Inspector | STOP Triggers |
+|----------|-----------|---------|-----------|----------------|
+| **LC** | Allowed | STOP | STOP | Role violation, Edition inference, mixing with JC/LCa |
+| **LCA** | Allowed | STOP | STOP | Role violation, Edition inference, mixing with JC/LCa |
+| **FG** | Allowed | Allowed | STOP | Inspector loading, Edition override |
+| **FGA** | Allowed | Allowed* | STOP | Builder without Strategist authorization, Inspector loading |
+| **LCa** | STOP | STOP | Allowed | Architect/Builder loading, Edition override |
+| **JC** | STOP | STOP | Allowed | Architect/Builder loading, Edition inference |
+
+*Builder may load FGA only with Strategist authorization.
+
+---
+
+## STOP Enforcement Principles
+
+- STOP on ambiguity.
+- STOP on role violation.
+- STOP on Edition inference.
+- STOP on Calculus mixing outside authority.
+- STOP on doctrinal collapse.
+
+Role purity is mandatory.
+```
+
+---
+
+# DD  **Calculi Interaction Diagram**
+
+**File:** `/Calculi/Calculi-Interaction-Diagram.md`
+
+```
+# Calculi Interaction Diagram (V7.0)
+
+This diagram shows how the Calculi interact with roles and operational surfaces.
+
+---
+
+## Role → Calculus Flow
+
+                ┌──────────────────────────┐
+                │        Architect         │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                LC ───► LCA ───► FG ───► FGA
+                              │
+                              ▼
+                (Outputs SCU structure)
+
+                ┌──────────────────────────┐
+                │         Builder          │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                             FG
+                              │
+                              ▼
+                (Produces drafts from SCUs)
+
+                ┌──────────────────────────┐
+                │        Inspector         │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                        LCa ───► JC
+                              │
+                              ▼
+                (Tests Builder output)
+
+---
+
+## Layer Boundaries
+
+- Architect uses LC/LCA for structure.
+- Builder uses FG for drafting.
+- Inspector uses LCa/JC for testing.
+
+No cross-role loading is permitted.
+
+---
+
+## STOP Enforcement
+
+STOP triggers when:
+
+- Architect loads LCa or JC,
+- Builder loads LC, LCA, LCa, or JC,
+- Inspector loads LC, LCA, FG, or FGA,
+- Calculi are mixed outside authority,
+- Calculi override Edition physics.
+
+Role purity is mandatory.
+```
+
+---
+
+# 
+
+```
+/Calculi/
+    Calculi-Loading-Protocol.md
+    Calculi-Master-Document.md
+    Calculi-Flow-Diagram.md
+```
+
+---
+
+# **Strategist‑Only Calculi Loading Protocol (V7.0)**
+
+**File:** `/Calculi/Calculi-Loading-Protocol.md`
+
+```
+# Strategist-Only Calculi Loading Protocol (V7.0)
+
+Calculi are doctrinal engines. Their loading is a constitutional act that requires
+explicit Strategist authorization. No role may load a Calculus without Strategist
+command.
+
+This protocol governs how Calculi are selected, authorized, loaded, and supervised.
+
+---
+
+## 1. Preconditions for Loading
+
+Before any Calculus may load:
+
+1. **Edition must already be active.**
+2. **Bootloader must be open.**
+3. **Role must be valid for the Calculus.**
+4. **Strategist must authorize the load.**
+
+If any precondition is unclear → STOP.
+
+---
+
+## 2. Strategist Authorization Command
+
+The Strategist must issue a clear command:
+
+- “Load LC.”
+- “Load LCa for Inspector.”
+- “Authorize Builder to load FGA.”
+- “Architect may load LCA.”
+
+No implicit authorization is permitted.
+
+---
+
+## 3. Role Boundaries (Strict)
+
+| Role | Allowed Calculi | STOP |
+|------|------------------|------|
+| Architect | LC, LCA, FG, FGA | LCa, JC |
+| Builder | FG (FGA with authorization) | LC, LCA, LCa, JC |
+| Inspector | LCa, JC | LC, LCA, FG, FGA |
+
+Role purity is mandatory.
+
+---
+
+## 4. Loading Sequence
+
+1. Strategist issues authorization.
+2. Bootloader validates role + Calculus.
+3. STOP check runs.
+4. Calculus loads into role context.
+5. Edition physics constrain reasoning.
+6. SCUs and Modules remain operational surfaces.
+
+No inference.
+No drift.
+No collapse.
+
+---
+
+## 5. STOP Triggers During Loading
+
+STOP is mandatory when:
+
+- a role attempts to load an unauthorized Calculus,
+- a Calculus is used to infer Edition physics,
+- a Calculus is mixed outside authority,
+- a Calculus overrides SCU or Module structure,
+- Strategist authorization is missing or ambiguous.
+
+STOP halts loading until clarified.
+
+---
+
+## 6. Unloading a Calculus
+
+A Calculus unloads when:
+
+- Strategist commands unload,
+- role changes,
+- Edition changes,
+- STOP cannot be resolved,
+- runtime closes.
+
+Unloading requires Bootloader confirmation.
+
+---
+
+## 7. Strategist Oversight
+
+The Strategist must:
+
+- enforce role boundaries,
+- prevent doctrinal collapse,
+- ensure Edition purity,
+- supervise STOP resolution,
+- maintain version discipline.
+
+The Strategist is the constitutional guardian of Calculi.
+
+---
+
+## Supremacy Clause
+
+Calculi load only under Strategist authority.
+Ambiguity does not authorize inference.
+Role purity is mandatory.
+```
+
+---
+
+# **Calculi Master Document (V7.0)**
+
+**File:** `/Calculi/Calculi-Master-Document.md`
+
+```
+# Calculi Master Document (V7.0)
+
+This document unifies the entire Calculi Layer. It defines the doctrinal engines,
+their boundaries, their interactions, and their constitutional role within LCES.
+
+The Calculi are doctrinal engines. They do not contain Edition physics, runtime
+mechanics, or operational structure.
+
+---
+
+# Part I — The Six Canonical Calculi
+
+1. **LC — Legal Calculus**
+   Foundational doctrinal reasoning. Architect-only.
+
+2. **LCA — Legal Calculus Advanced**
+   Advanced doctrinal mapping. Architect-only.
+
+3. **FG — Field Guide**
+   Simplified explanation. Architect + Builder.
+
+4. **FGA — Field Guide Advanced**
+   Deep explanation. Architect-only unless authorized.
+
+5. **LCa — Lawyer Calculus**
+   Adversarial testing. Inspector-only.
+
+6. **JC — Judicial Calculus**
+   Judicial simulation. Inspector-only.
+
+Each Calculus has its own README.
+
+---
+
+# Part II — Constitutional Boundaries
+
+- Calculi are doctrinal, not operational.
+- Calculi do not infer Edition physics.
+- Calculi do not override SCUs or Modules.
+- Calculi load only under Strategist authority.
+- Roles may not load Calculi outside their authority.
+
+STOP is mandatory on ambiguity.
+
+---
+
+# Part III — Role → Calculus Authority
+
+| Role | Allowed Calculi |
+|------|------------------|
+| Architect | LC, LCA, FG, FGA |
+| Builder | FG (FGA with authorization) |
+| Inspector | LCa, JC |
+
+Role purity is mandatory.
+
+---
+
+# Part IV — Calculi Interaction Model
+
+- Architect uses LC/LCA to structure.
+- Builder uses FG to draft.
+- Inspector uses LCa/JC to test.
+
+No cross-role loading is permitted.
+
+---
+
+# Part V — STOP Doctrine
+
+STOP triggers when:
+
+- a role loads an unauthorized Calculus,
+- Calculi are mixed improperly,
+- Calculi infer Edition physics,
+- Calculi override operational structure,
+- Strategist authorization is missing.
+
+STOP halts doctrinal movement until resolved.
+
+---
+
+# Part VI — Loading Protocol
+
+1. Strategist authorizes.
+2. Bootloader validates.
+3. STOP check runs.
+4. Calculus loads.
+5. Edition physics constrain reasoning.
+6. SCUs and Modules remain operational surfaces.
+
+No inference.
+No drift.
+No collapse.
+
+---
+
+# Part VII — Supremacy Clause
+
+Calculi govern doctrinal reasoning.
+Editions govern procedural physics.
+SCUs govern operational structure.
+Roles govern movement.
+Strategist governs all.
+
+Ambiguity does not authorize inference.
+Calculi purity is mandatory.
+```
+
+---
+
+# **Calculi → SCU → Module → Output Flow Diagram (V7.0)**
+
+**File:** `/Calculi/Calculi-Flow-Diagram.md`
+---
 
 ## **SCU‑Template.md**
 Defines the arbitration SCU structure.
