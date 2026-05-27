@@ -8597,7 +8597,125 @@ A case is ready only when:
 Readiness is the **bridge** between SCU and procedural‑literacy output.
 
 ---
+# Editions Overview (V7.0)
 
+Editions define the procedural physics of the environment in which LCES operates. 
+Each Edition is a sovereign procedural universe with its own incentives, timing rules, 
+burdens, posture constraints, and institutional behaviors. Editions must never mix, 
+infer from one another, or collapse into a shared reasoning surface.
+
+Edition selection is a Strategist-only action. No Edition may load without explicit 
+Strategist command.
+
+---
+
+## Purpose of Editions
+
+Editions ensure that LCES reasoning remains:
+- jurisdictionally accurate,
+- procedurally faithful,
+- context-specific,
+- contamination-resistant,
+- and aligned with the real-world forum.
+
+Editions encode the procedural physics that govern how Architect, Builder, and Inspector 
+must operate within that environment.
+
+---
+
+## Canonical Editions
+
+### **SC‑LCES — Small Claims Edition**
+Optimized for speed, simplicity, limited discovery, and high pro se participation. 
+Emphasizes preservation, clarity, and burden alignment in low-stakes, high-volume forums.
+
+### **FC‑LCES — Family Court Edition**
+Optimized for dynamic posture, emergency motions, custody frameworks, and multi-hearing 
+timelines. Emphasizes safety, preservation, and procedural sequencing.
+
+### **TE‑LCES — Trust & Estate Edition**
+Optimized for probate timelines, fiduciary duties, accounting structures, and document 
+lineage. Emphasizes record integrity and version discipline.
+
+### **AC‑LCES — Arbitration & Contracts Edition**
+Optimized for contract interpretation, arbitration rulesets, burden allocation, and 
+procedural autonomy. Emphasizes clause-level SCUs and structured reasoning.
+
+---
+
+## Edition Containment Doctrine
+
+Edition containment is mandatory.
+
+- No Edition may borrow from another.
+- No Edition may contaminate another.
+- No Edition may infer missing procedural physics.
+- Edition must match the real-world forum.
+- Edition must pass the Fidelity Gate before activation.
+
+Any ambiguity triggers STOP.
+
+---
+
+## Fidelity Gate (Edition Activation Requirements)
+
+Before an Edition may load, the system must pass the Fidelity Gate:
+
+1. **Reality Match** — Edition matches the real-world forum.
+2. **Tacit Extraction** — Implicit procedural physics are surfaced.
+3. **Authority Boundaries** — Edition does not exceed its jurisdiction.
+4. **Exception Encoding** — Forum-specific exceptions are recognized.
+5. **Version Discipline** — Edition version matches repo version.
+
+Failure to satisfy any element triggers STOP.
+
+---
+
+## Edition Runtime Behavior
+
+Once activated:
+
+- The Edition becomes the governing procedural physics.
+- All SCUs become Edition-bound.
+- Architect, Builder, and Inspector operate under Edition constraints.
+- STOP triggers on any cross-Edition inference.
+- Edition remains active until Strategist commands a reload.
+
+Edition cannot be changed mid‑workflow without a Hard Restart.
+
+---
+
+## Relationship to Other Layers
+
+- **Manifesto** defines doctrine (not Edition physics).
+- **README** governs activation (not Edition rules).
+- **Bootloader** governs runtime (not Edition content).
+- **SCU layer** provides operational structure (Edition-bound).
+- **Governance layer** enforces safety, recovery, and versioning.
+
+Editions are operational physics, not doctrine and not runtime mechanics.
+
+---
+
+## Edition File Structure
+
+Each Edition folder contains:
+
+- `README.md` — Edition physics, STOP triggers, Mode interactions.
+- `/SCU/` (optional) — Edition-specific SCUs.
+- `/Modules/` (optional) — Edition-specific modules.
+- `/Examples/` — Strategist-facing examples.
+
+All Edition content must remain self-contained.
+
+---
+
+## Supremacy Clause
+
+Edition physics govern all procedural movement within that Edition.  
+Ambiguity does not authorize inference.  
+Usefulness does not cure contamination.  
+Edition purity is mandatory.
 ---
 
 # **SCU‑[Template.md](http://template.md/)**
