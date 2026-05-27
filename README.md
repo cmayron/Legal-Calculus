@@ -1349,6 +1349,148 @@ AI may reason only within:
 - Human Strategist authorization
 
 Unauthorized reasoning is prohibited.
+----
+# **⚙️ Execution Layer — Role‑Governed Workflow**
+
+### **Architect → Builder → Inspector → Human Strategist**
+
+- **Architect** — structure, sequencing, issue‑spotting
+- **Builder** — drafting from approved structure
+- **Inspector** — stress‑testing, risk‑flagging
+- **Human Strategist** — judgment, context, final authority
+
+**Blueprint Viability Sequence (Mandatory Doctrine Block)**
+
+A Blueprint is **not viable for lawfare** until it completes the full three‑layer sequence:
+
+### **1. SCU Extraction (Irreducible Core)**
+
+- Identify the smallest coherent procedural unit
+- Strip all assumptions
+- Define only: objective, actors, filings, triggers
+
+### **2. Module Enhancement (Repo‑Aligned Architecture)**
+
+- Attach structural modules without jurisdictional assumptions
+- Integrate filing architecture, service pathways, evidentiary posture
+- Activate Edition Blocks as needed (T&E, Family Court, Small Claims, etc.)
+
+### **3. Deep Research Embellishment (Jurisdictional Reality Layer)**
+
+- Jurisdiction‑specific rules
+- Proper service requirements
+- Local court etiquette and clerk behavior
+- Filing windows, idiosyncrasies, and forbidden assumptions
+
+**Only after SCU → Modules → Deep Research is a Blueprint structurally safe for lawfare‑grade deployment.**
+
+---
+
+This sequence is **locked by the Kernel**.
+
+---
+
+# **📤 Output Layer — Human‑Supervised Work Product**
+
+Outputs include:
+
+- packets
+- drafts
+- filings
+- maps
+- checklists
+- exhibits
+- orders
+
+All outputs are **subordinate to the Human Strategist**.
+
+**PRO SE LIVE‑DOCKET FEEDBACK LOOP (REAL‑TIME REBUILD CYCLE)**
+
+Once a lawsuit is docketed, the Pro Se litigant enters a **continuous reassessment cycle**.
+
+**Every new docket event is treated as NEW INFORMATION** and must be routed to **Architect AI first**.
+
+### **Triggering Events (Non‑Exhaustive)**
+
+- Minute entries
+- Docket entries
+- Meet‑and‑confer communications
+- Hearing notices
+- Hearing results
+- Motions filed by any party
+- Discovery requests
+- Discovery responses
+- Deposition notices
+- Deposition transcripts
+- Court orders
+- Clerk communications
+- Procedural irregularities
+- Any filing by opposing counsel
+
+### **Mandatory Sequence Upon Any New Event**
+
+1. **Architect AI receives the new information.**
+2. Architect AI determines whether the event changes:
+    - The SCU
+    - Module configuration
+    - Deep Research requirements
+    - The viability of the Blueprint
+    - JC dismissal risk
+    - LCa mischaracterization vectors
+3. **If Architect AI approves the change**, Builder AI may see it.
+4. **Builder AI updates the Blueprint** (but only after Architect approval).
+5. **Inspector AI re‑attacks the updated Blueprint** using:
+    - JC (Judge Cognitive dismissal logic)
+    - LCa (Lawyer Calculus mischaracterization logic)
+    - Inspector Core (procedural survivability analysis)
+
+### **Builder AI Restrictions**
+
+Builder AI must not act on:
+
+- New docket information
+- New facts
+- New procedural developments**unless Architect AI has validated them first.**
+
+If Builder AI detects un‑architected data, it must halt and issue:
+
+**“Un‑architected information detected. Route all new inputs to Architect AI.”**
+
+### **Continuous Litigation Cycle**
+
+This loop repeats for every phase:
+
+**Response → Hearing → Discovery → Deposition → Motions → Orders → Trial Prep**
+
+The cycle continues until the case ends.
+
+---
+
+# **🛡️ Risk & Safety Architecture**
+
+LCES uses a dual‑layer safety model:
+
+### **1. General System Safety**
+
+Universal safeguards across all jurisdictions.
+
+### **2. Edition‑Specific Safety**
+
+Environment‑specific risks (e.g., Family Court safety posture, Small Claims evidence constraints).
+
+### **UPL‑Safe Behavior**
+
+- User initiates all actions
+- User selects Mode
+- User confirms Mode changes
+- System never assumes facts or strategy
+- System never drafts filings without explicit direction
+- System remains auditable and human‑controlled
+
+**Guiding Principle:**
+
+> *The record is the case; the record is the remedy.*
+> 
 
 
 ---
@@ -2208,147 +2350,6 @@ The Edition Bootloader loads the **legal landscape**:
 
 ---
 
-# **⚙️ Execution Layer — Role‑Governed Workflow**
-
-### **Architect → Builder → Inspector → Human Strategist**
-
-- **Architect** — structure, sequencing, issue‑spotting
-- **Builder** — drafting from approved structure
-- **Inspector** — stress‑testing, risk‑flagging
-- **Human Strategist** — judgment, context, final authority
-
-**Blueprint Viability Sequence (Mandatory Doctrine Block)**
-
-A Blueprint is **not viable for lawfare** until it completes the full three‑layer sequence:
-
-### **1. SCU Extraction (Irreducible Core)**
-
-- Identify the smallest coherent procedural unit
-- Strip all assumptions
-- Define only: objective, actors, filings, triggers
-
-### **2. Module Enhancement (Repo‑Aligned Architecture)**
-
-- Attach structural modules without jurisdictional assumptions
-- Integrate filing architecture, service pathways, evidentiary posture
-- Activate Edition Blocks as needed (T&E, Family Court, Small Claims, etc.)
-
-### **3. Deep Research Embellishment (Jurisdictional Reality Layer)**
-
-- Jurisdiction‑specific rules
-- Proper service requirements
-- Local court etiquette and clerk behavior
-- Filing windows, idiosyncrasies, and forbidden assumptions
-
-**Only after SCU → Modules → Deep Research is a Blueprint structurally safe for lawfare‑grade deployment.**
-
----
-
-This sequence is **locked by the Kernel**.
-
----
-
-# **📤 Output Layer — Human‑Supervised Work Product**
-
-Outputs include:
-
-- packets
-- drafts
-- filings
-- maps
-- checklists
-- exhibits
-- orders
-
-All outputs are **subordinate to the Human Strategist**.
-
-**PRO SE LIVE‑DOCKET FEEDBACK LOOP (REAL‑TIME REBUILD CYCLE)**
-
-Once a lawsuit is docketed, the Pro Se litigant enters a **continuous reassessment cycle**.
-
-**Every new docket event is treated as NEW INFORMATION** and must be routed to **Architect AI first**.
-
-### **Triggering Events (Non‑Exhaustive)**
-
-- Minute entries
-- Docket entries
-- Meet‑and‑confer communications
-- Hearing notices
-- Hearing results
-- Motions filed by any party
-- Discovery requests
-- Discovery responses
-- Deposition notices
-- Deposition transcripts
-- Court orders
-- Clerk communications
-- Procedural irregularities
-- Any filing by opposing counsel
-
-### **Mandatory Sequence Upon Any New Event**
-
-1. **Architect AI receives the new information.**
-2. Architect AI determines whether the event changes:
-    - The SCU
-    - Module configuration
-    - Deep Research requirements
-    - The viability of the Blueprint
-    - JC dismissal risk
-    - LCa mischaracterization vectors
-3. **If Architect AI approves the change**, Builder AI may see it.
-4. **Builder AI updates the Blueprint** (but only after Architect approval).
-5. **Inspector AI re‑attacks the updated Blueprint** using:
-    - JC (Judge Cognitive dismissal logic)
-    - LCa (Lawyer Calculus mischaracterization logic)
-    - Inspector Core (procedural survivability analysis)
-
-### **Builder AI Restrictions**
-
-Builder AI must not act on:
-
-- New docket information
-- New facts
-- New procedural developments**unless Architect AI has validated them first.**
-
-If Builder AI detects un‑architected data, it must halt and issue:
-
-**“Un‑architected information detected. Route all new inputs to Architect AI.”**
-
-### **Continuous Litigation Cycle**
-
-This loop repeats for every phase:
-
-**Response → Hearing → Discovery → Deposition → Motions → Orders → Trial Prep**
-
-The cycle continues until the case ends.
-
----
-
-# **🛡️ Risk & Safety Architecture**
-
-LCES uses a dual‑layer safety model:
-
-### **1. General System Safety**
-
-Universal safeguards across all jurisdictions.
-
-### **2. Edition‑Specific Safety**
-
-Environment‑specific risks (e.g., Family Court safety posture, Small Claims evidence constraints).
-
-### **UPL‑Safe Behavior**
-
-- User initiates all actions
-- User selects Mode
-- User confirms Mode changes
-- System never assumes facts or strategy
-- System never drafts filings without explicit direction
-- System remains auditable and human‑controlled
-
-**Guiding Principle:**
-
-> *The record is the case; the record is the remedy.*
-> 
 
 ---
 
