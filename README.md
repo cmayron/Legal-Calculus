@@ -562,7 +562,11 @@ This is the discovery.
 This is the complete LCES Constitution.**
 
 ---
+LCES doctrine governs the constitutional principles of procedural literacy, human authority, and structural reasoning. Operational artifacts such as SCUs, Edition physics, runtime movement rules, and Bootloader mechanics are not constitutional surfaces and therefore do not appear in the Manifesto.
 
+The Manifesto defines the purpose, philosophy, and constitutional inheritance of LCES. The README governs activation. The Bootloader governs runtime. The Editions govern procedural physics. The SCU layer governs operational structure. No operational layer may be inferred from doctrine, and no doctrinal surface may collapse into an operational one.
+
+Doctrine explains. Runtime authorizes. Execution performs. Preservation protects.
 ---
 
 # **README — Orientation & Activation Layer (V7.0, Maximum Completeness Edition)**
