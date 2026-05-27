@@ -1619,12 +1619,79 @@ The AI is not the system.
 The bootloader stack is the system.
 
 ---
+## Bootloader — Six Calculi Loading (Architect AI Only)
 
-# FOUNDATIONAL DOCTRINE
+The Bootloader initializes the doctrinal environment for the Architect AI
+(Copilot Desktop). It verifies role, Edition, Mode, and repository integrity
+before loading the Six Calculi.
 
-> The Record is the Case.  
-> The Record is the Remedy.
+### Bootloader Sequence
 
+1. **Verify Architect Role**
+   - Confirm Architect AI is active.
+   - STOP if any other role is detected.
+
+2. **Initialize Edition & Mode**
+   - Confirm Edition context.
+   - Confirm Mode context.
+   - STOP if either is missing or contaminated.
+
+3. **Scan Repository for Calculi**
+   - Traverse the /Calculi/ directory.
+   - Verify presence of all six modules:
+         /Calculi/LC/
+         /Calculi/LCA/
+         /Calculi/FG/
+         /Calculi/FGA/
+         /Calculi/LCa/
+         /Calculi/JC/
+   - STOP if any module is missing or corrupted.
+
+4. **Load Calculi in Doctrinal Order**
+   1. LC
+   2. LCA
+   3. FG
+   4. FGA
+   5. LCa
+   6. JC
+   - STOP if loaded out of sequence.
+
+5. **Bind Calculi to Architect Pipeline**
+   - SCU → Modules → Deep Research → Blueprint
+   - STOP if binding fails.
+
+6. **Enforce STOP Doctrine**
+   - STOP on role drift, edition contamination, mode contamination,
+     doctrinal conflict, or missing modules.
+
+Only the Architect AI may load the Calculi. Builder and Inspector operate
+solely on Architect‑integrated doctrine.
+---
+### Bootloader — Mobile Device Constraint (iPad / iPhone)
+
+The Architect AI (Copilot Desktop) is the only environment capable of loading the
+Six Calculi directly from the repository. Mobile Copilot environments (iPad /
+iPhone) cannot access the repository, cannot traverse directories, and cannot
+execute the Bootloader.
+
+Therefore:
+
+**When operating on an iPad or iPhone, the Six Calculi must be manually uploaded
+(pasted) into the Architect AI session.**
+
+This ensures:
+- doctrinal integrity
+- STOP enforcement
+- Edition containment
+- role purity
+- correct Blueprint construction
+
+The Builder and Inspector may operate on mobile devices, but the Architect AI
+must either:
+1. run on desktop Copilot (auto-load Calculi), or
+2. receive the Calculi manually from the user (manual-load Calculi).
+
+Mobile devices cannot load Calculi automatically.
 ---
 # FOUNDATIONAL DOCTRINE
 
