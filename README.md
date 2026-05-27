@@ -525,6 +525,12 @@ This surface defines:
 No layer may load without explicit Strategist command.
 
 ---
+## Manifesto Addendum — Procedural Literacy Operationalized
+
+LCES is built for environments where outcomes depend on sequence, posture, preservation, burden allocation, timing, incentives, and record integrity. The system enforces structure before drafting, verification before execution, role separation before workflow, and human judgment before submission.
+
+LCES does not replace legal strategy; it governs procedural movement. All outputs require independent human verification. The Strategist remains the sovereign authority, and the record remains the governing surface.
+---
 
 # **XX. THE NON‑DEROGATION CLAUSE — IMMUTABILITY OF THE CONSTITUTION**
 
