@@ -9820,7 +9820,1062 @@ Edition purity is mandatory.
 **Override:** None — SCU cannot bypass Safety or Readiness
 
 ---
+# **I. SCU CATEGORY — Procedural Posture**
 
+SCU-PP-01 — Determine Current Procedural Posture
+
+Issue: Identify the current procedural posture of the matter.
+
+Facts: Known filings, docket entries, orders, deadlines, pending motions.
+
+Objective: Establish posture boundaries for structural mapping.
+
+SCU-PP-02 — Identify Next Procedural Event
+
+Issue: Determine the next required procedural action.
+
+Facts: Current docket state, pending deadlines, service status.
+
+Objective: Map the next defensible step.
+
+SCU-PP-03 — Validate Service Status
+
+Issue: Determine whether service has been completed correctly.
+
+Facts: Service attempts, proofs of service, deadlines, jurisdictional rules.
+
+Objective: Establish service posture and identify gaps.
+
+SCU-PP-04 — Identify Filing Window
+
+Issue: Determine the applicable filing window.
+
+Facts: Triggering event, jurisdictional rules, local rules, deadlines.
+
+Objective: Establish time-validity for next steps.
+
+SCU-PP-05 — Identify Pending Motion Posture
+
+Issue: Determine whether a motion remains pending, moot, denied, granted, or unresolved.
+
+Facts: Motion, response, reply, order, minute entry, docket text.
+
+Objective: Prevent movement based on mistaken motion status.
+
+SCU-PP-06 — Identify Finality Posture
+
+Issue: Determine whether an order is final, appealable, interlocutory, or non-final.
+
+Facts: Order language, claims remaining, parties remaining, judgment entry.
+
+Objective: Establish appellate or post-order movement boundary.
+
+# **II. SCU CATEGORY — Factual Anchors**
+
+SCU-FA-01 — Extract Factual Anchor From Filing
+
+Issue: Identify the factual anchor contained in a filing.
+
+Facts: Filing text, date, parties, claims, procedural posture.
+
+Objective: Establish a record-bound factual anchor.
+
+SCU-FA-02 — Extract Factual Anchor From Email or Letter
+
+Issue: Identify the factual anchor contained in correspondence.
+
+Facts: Sender, recipient, date, content, attachments.
+
+Objective: Establish a non-speculative factual anchor.
+
+SCU-FA-03 — Extract Factual Anchor From Court Order
+
+Issue: Identify the operative facts in a court order.
+
+Facts: Order text, judge’s directives, deadlines, findings.
+
+Objective: Establish binding procedural facts.
+
+SCU-FA-04 — Extract Factual Anchor From Transcript
+
+Issue: Identify factual or procedural statements made on the record.
+
+Facts: Transcript text, speaker, date, hearing type.
+
+Objective: Preserve hearing-based record anchors.
+
+SCU-FA-05 — Extract Factual Anchor From Exhibit
+
+Issue: Identify the factual proposition supported by an exhibit.
+
+Facts: Exhibit text, metadata, Bates number, source, date.
+
+Objective: Tie factual movement to a specific record item.
+
+# **III. SCU CATEGORY — Case-Existence Gate**
+
+SCU-CE-01 — Determine Whether a Case Exists
+
+Issue: Determine whether the matter is actionable, negotiable, procedural, or informational only.
+
+Facts: Known events, documents, communications, harm, deadlines.
+
+Objective: Establish whether Blueprint construction is permitted.
+
+SCU-CE-02 — Identify Missing Elements for Case Existence
+
+Issue: Identify missing components required to determine case viability.
+
+Facts: Known facts, missing facts, unclear posture.
+
+Objective: Request clarifying facts from Strategist.
+
+SCU-CE-03 — Distinguish Legal Injury From Frustration
+
+Issue: Determine whether the matter contains a cognizable injury or only dissatisfaction.
+
+Facts: Harm, causation, rights affected, procedural consequence.
+
+Objective: Prevent unsupported case construction.
+
+SCU-CE-04 — Identify Remedy Availability
+
+Issue: Determine whether a procedural or substantive remedy may exist.
+
+Facts: Harm, posture, forum, deadlines, available relief.
+
+Objective: Establish remedy pathway before drafting.
+
+# **IV. SCU CATEGORY — Module Activation**
+
+SCU-MA-01 — SCU Extraction
+
+Issue: Identify the smallest complete procedural unit.
+
+Facts: Issue, facts, objective.
+
+Objective: Produce a valid SCU for module activation.
+
+SCU-MA-02 — Module Enhancement
+
+Issue: Identify structural modules required for the SCU.
+
+Facts: SCU, Edition, jurisdictional constraints.
+
+Objective: Attach modules without inference.
+
+SCU-MA-03 — Deep Research Trigger
+
+Issue: Determine whether Deep Research is required.
+
+Facts: SCU, modules, Edition, jurisdictional gaps.
+
+Objective: Trigger Deep Research phase.
+
+SCU-MA-04 — Edition Selection
+
+Issue: Determine which LCES Edition governs the matter.
+
+Facts: Forum, claim type, posture, relief sought.
+
+Objective: Select the correct procedural operating environment.
+
+SCU-MA-05 — Role Assignment
+
+Issue: Determine which AI role may act next.
+
+Facts: SCU, Blueprint status, output type, review status.
+
+Objective: Assign Architect, Builder, Inspector, or Strategist movement.
+
+# **V. SCU CATEGORY — Jurisdictional Inheritance**
+
+SCU-JX-01 — Identify Subject-Matter Jurisdiction
+
+Issue: Determine whether the court or forum has subject-matter jurisdiction.
+
+Facts: Claims, statutes, court type, Edition.
+
+Objective: Establish jurisdictional foundation.
+
+SCU-JX-02 — Identify Personal Jurisdiction Posture
+
+Issue: Determine whether personal jurisdiction exists.
+
+Facts: Parties, contacts, service status, venue.
+
+Objective: Establish personal jurisdiction posture.
+
+SCU-JX-03 — Identify Applicable Deadlines / SOL
+
+Issue: Determine applicable statutes of limitation and repose.
+
+Facts: Triggering events, jurisdictional rules, Edition.
+
+Objective: Establish time-validity.
+
+SCU-JX-04 — Identify Local Rules
+
+Issue: Identify local practice rules governing the matter.
+
+Facts: Venue, local rules, clerk behavior, Edition.
+
+Objective: Establish local-rule constraints.
+
+SCU-JX-05 — Identify Forum Authority
+
+Issue: Determine whether the selected forum has authority to grant the requested relief.
+
+Facts: Forum rules, claims, remedy requested, governing agreement.
+
+Objective: Prevent filing in the wrong forum.
+
+SCU-JX-06 — Identify Choice-of-Law Boundary
+
+Issue: Determine which law may govern the dispute.
+
+Facts: Contract, location, parties, events, forum rules.
+
+Objective: Prevent jurisdictional contamination.
+
+# **VI. SCU CATEGORY — Record Integrity**
+
+SCU-RI-01 — Identify Record Gaps
+
+Issue: Identify missing record components.
+
+Facts: Filings, orders, correspondence, docket entries.
+
+Objective: Surface missing record elements.
+
+SCU-RI-02 — Identify Contradictions
+
+Issue: Identify contradictions in the record.
+
+Facts: Conflicting statements, filings, timelines.
+
+Objective: Surface contradictions for correction.
+
+SCU-RI-03 — Identify Unresolved Uncertainty
+
+Issue: Identify unresolved uncertainty in the record.
+
+Facts: Ambiguous facts, missing facts, unclear posture.
+
+Objective: Preserve uncertainty without inference.
+
+SCU-RI-04 — Validate Record Completeness
+
+Issue: Determine whether the record is complete enough for the requested movement.
+
+Facts: Required documents, exhibits, orders, docket entries.
+
+Objective: Approve, defer, or halt movement.
+
+SCU-RI-05 — Identify Off-Record Movement
+
+Issue: Determine whether material activity occurred outside the authorized record.
+
+Facts: Emails, calls, side communications, missing docket entries.
+
+Objective: Preserve objection to non-record influence.
+
+# **VII. SCU CATEGORY — Procedural Mapping**
+
+SCU-PM-01 — Map Filing Architecture
+
+Issue: Identify required filings and their sequence.
+
+Facts: Edition, posture, jurisdictional rules.
+
+Objective: Produce filing architecture.
+
+SCU-PM-02 — Map Service Architecture
+
+Issue: Identify required service steps.
+
+Facts: Parties, Edition, service rules.
+
+Objective: Produce service architecture.
+
+SCU-PM-03 — Map Procedural Dependencies
+
+Issue: Identify dependencies between procedural steps.
+
+Facts: Filing windows, service rules, posture.
+
+Objective: Produce dependency map.
+
+SCU-PM-04 — Map Hearing Architecture
+
+Issue: Identify hearing type, purpose, and required preparation.
+
+Facts: Notice, motion, order, local rules.
+
+Objective: Establish hearing-preparation sequence.
+
+SCU-PM-05 — Map Post-Order Architecture
+
+Issue: Identify required action after an order is entered.
+
+Facts: Order, deadline, appealability, reconsideration rules.
+
+Objective: Produce post-order movement map.
+
+# **VIII. SCU CATEGORY — Live-Docket Feedback Loop**
+
+SCU-LD-01 — Process New Docket Event
+
+Issue: Determine whether a new docket event changes the Blueprint.
+
+Facts: New docket entry, posture, deadlines.
+
+Objective: Route to Architect for structural evaluation.
+
+SCU-LD-02 — Identify Blueprint Impact
+
+Issue: Determine whether the event changes SCU, modules, or Deep Research.
+
+Facts: Event content, posture, Edition.
+
+Objective: Update Blueprint viability.
+
+SCU-LD-03 — Detect Deadline Change
+
+Issue: Determine whether a new docket event changes a deadline.
+
+Facts: Order, notice, docket entry, rules.
+
+Objective: Update procedural calendar.
+
+SCU-LD-04 — Detect Motion Status Change
+
+Issue: Determine whether a new docket event changes motion posture.
+
+Facts: Minute entry, ruling, order, docket text.
+
+Objective: Update motion-status map.
+
+# **IX. SCU CATEGORY — Safety & STOP**
+
+SCU-ST-01 — STOP Trigger Evaluation
+
+Issue: Determine whether STOP must activate.
+
+Facts: Unclear facts, unclear posture, Edition contamination, role drift.
+
+Objective: Halt system and request clarification.
+
+SCU-ST-02 — Safety Posture Evaluation
+
+Issue: Determine whether the matter contains safety-sensitive elements.
+
+Facts: User statements, filings, Edition.
+
+Objective: Adjust Entry Mode or halt.
+
+SCU-ST-03 — Privilege STOP
+
+Issue: Determine whether privileged or protected material may be involved.
+
+Facts: Source, confidentiality status, protective orders, privilege claims.
+
+Objective: Halt unauthorized use or disclosure.
+
+SCU-ST-04 — Deadline STOP
+
+Issue: Determine whether imminent deadlines require immediate human verification.
+
+Facts: Deadline, triggering event, rule, docket state.
+
+Objective: Escalate to Strategist before delay harms rights.
+
+SCU-ST-05 — Consequence STOP
+
+Issue: Determine whether the requested output could create legal consequence.
+
+Facts: Filing intent, recipient, deadline, forum, relief sought.
+
+Objective: Require Strategist authorization.
+
+# **X. SCU CATEGORY — Blueprint Viability**
+
+SCU-BV-01 — Determine Blueprint Readiness
+
+Issue: Determine whether Blueprint is ready for Builder.
+
+Facts: SCU, modules, Deep Research, Edition.
+
+Objective: Approve or halt drafting.
+
+SCU-BV-02 — Identify Missing Blueprint Components
+
+Issue: Identify missing components required for viability.
+
+Facts: SCU, modules, jurisdictional inheritance.
+
+Objective: Surface missing elements.
+
+SCU-BV-03 — Validate Builder Handoff
+
+Issue: Determine whether Builder may draft from the Blueprint.
+
+Facts: Frozen structure, authorized scope, citations, record anchors.
+
+Objective: Permit bounded drafting only.
+
+SCU-BV-04 — Validate Inspector Handoff
+
+Issue: Determine whether Inspector may review the draft.
+
+Facts: Draft, Blueprint, record anchors, role boundaries.
+
+Objective: Permit adversarial review.
+
+# **XI. SCU CATEGORY — Evidence Integrity**
+
+SCU-EI-01 — Validate Exhibit Authentication
+
+Issue: Determine whether exhibit foundation exists.
+
+Facts: Source, metadata, witness, chain of custody.
+
+Objective: Establish admissibility posture.
+
+SCU-EI-02 — Detect Evidentiary Contamination
+
+Issue: Determine whether inadmissible material infected the record.
+
+Facts: Privileged material, excluded evidence, procedural orders.
+
+Objective: Preserve contamination objections.
+
+SCU-EI-03 — Validate Bates Continuity
+
+Issue: Determine whether exhibit numbering preserves record integrity.
+
+Facts: Bates ranges, missing pages, duplicates.
+
+Objective: Maintain audit continuity.
+
+SCU-EI-04 — Identify Exhibit Dependency
+
+Issue: Determine which argument depends on which exhibit.
+
+Facts: Draft argument, exhibit list, Bates references.
+
+Objective: Tie each assertion to a record source.
+
+SCU-EI-05 — Detect Unsupported Factual Assertion
+
+Issue: Determine whether a factual assertion lacks record support.
+
+Facts: Draft, record, exhibits, citations.
+
+Objective: Remove or flag unsupported assertions.
+
+# **XII. SCU CATEGORY — Arbitration Governance**
+
+SCU-AG-01 — Validate Arbitration Scope
+
+Issue: Determine whether the proceeding exceeds compelled or agreed scope.
+
+Facts: Arbitration agreement, court order, pleadings, forum rules.
+
+Objective: Establish arbitration-scope boundary.
+
+SCU-AG-02 — Detect Shadow Record Formation
+
+Issue: Determine whether advocacy occurred outside authorized record channels.
+
+Facts: Emails, platform restrictions, off-record communications.
+
+Objective: Preserve procedural-integrity objections.
+
+SCU-AG-03 — Validate Desk-Arbitration Conformity
+
+Issue: Determine whether procedure deviated from desk-arbitration structure.
+
+Facts: Scheduling orders, deposition requests, rules, party agreement.
+
+Objective: Detect procedural transformation.
+
+SCU-AG-04 — Identify Arbitrator Authority Boundary
+
+Issue: Determine whether arbitrator action stayed within delegated authority.
+
+Facts: Arbitration rules, court order, procedural orders, party submissions.
+
+Objective: Preserve excess-authority issue.
+
+SCU-AG-05 — Preserve Vacatur Pathway
+
+Issue: Determine whether an arbitration issue must be preserved for vacatur.
+
+Facts: Objection, order, ruling, forum rules, record.
+
+Objective: Maintain reviewable vacatur architecture.
+
+# **XIII. SCU CATEGORY — Judicial Calculus**
+
+SCU-JC-01 — Identify Threshold Off-Ramp
+
+Issue: Determine whether court may avoid merits review.
+
+Facts: Jurisdiction, standing, immunity, SOL, pleading posture.
+
+Objective: Surface procedural escape paths.
+
+SCU-JC-02 — Detect Procedural Compression
+
+Issue: Determine whether court compressed factual analysis into procedural posture.
+
+Facts: Order, transcript, briefing, pleading standard.
+
+Objective: Preserve reviewable distinction.
+
+SCU-JC-03 — Identify Discretion Zone
+
+Issue: Determine whether the issue falls inside judicial discretion.
+
+Facts: Standard of review, rule, order, factual record.
+
+Objective: Adjust argument to discretion-aware posture.
+
+SCU-JC-04 — Identify Reviewable Error Surface
+
+Issue: Determine whether the court created a reviewable legal or procedural issue.
+
+Facts: Order, transcript, objections, record.
+
+Objective: Preserve appellate framing.
+
+# **XIV. SCU CATEGORY — Lawyer Calculus**
+
+SCU-LCa-01 — Identify Adversarial Incentive Movement
+
+Issue: Determine opposing party’s procedural incentive.
+
+Facts: Motion timing, delay pattern, settlement posture, discovery posture.
+
+Objective: Map adversarial leverage without motive-reading.
+
+SCU-LCa-02 — Detect Narrative Reframing
+
+Issue: Determine whether adversary reframed issue outside original posture.
+
+Facts: Pleadings, briefing, oral argument, correspondence.
+
+Objective: Preserve issue integrity.
+
+SCU-LCa-03 — Identify Burden-Shifting Attempt
+
+Issue: Determine whether adversary shifted burden improperly.
+
+Facts: Claim elements, motion standard, argument structure.
+
+Objective: Restore correct burden architecture.
+
+SCU-LCa-04 — Detect Record Substitution
+
+Issue: Determine whether adversary substituted narrative for record evidence.
+
+Facts: Brief, exhibits, citations, factual assertions.
+
+Objective: Expose unsupported movement.
+
+# **XV. SCU CATEGORY — Constitutional AI Governance**
+
+SCU-CG-01 — Detect Role Drift
+
+Issue: Determine whether AI exceeded assigned role.
+
+Facts: Output, role assignment, SCU, Blueprint.
+
+Objective: Halt unauthorized execution.
+
+SCU-CG-02 — Validate Human Authorization
+
+Issue: Determine whether consequence-bearing movement received Strategist approval.
+
+Facts: Filing intent, final draft, authorization state.
+
+Objective: Preserve human supremacy.
+
+SCU-CG-03 — Detect Jurisdictional Contamination
+
+Issue: Determine whether AI imported external legal standards.
+
+Facts: Citations, rules, Edition boundaries.
+
+Objective: Preserve jurisdictional purity.
+
+SCU-CG-04 — Detect Unauthorized Inference
+
+Issue: Determine whether AI inferred facts not supplied by the record.
+
+Facts: Output, record anchors, missing facts.
+
+Objective: Remove speculative movement.
+
+SCU-CG-05 — Validate Output Reversibility
+
+Issue: Determine whether the output remains draft, reviewable, and reversible.
+
+Facts: Output type, recipient, filing status, authorization.
+
+Objective: Prevent accidental consequence.
+
+# **XVI. SCU CATEGORY — Appellate Preservation**
+
+SCU-AP-01 — Preserve Objection Lineage
+
+Issue: Determine whether objection was preserved across procedural stages.
+
+Facts: Filing, hearing, ruling, transcript, order.
+
+Objective: Preserve appellate review path.
+
+SCU-AP-02 — Detect Reviewability Failure
+
+Issue: Determine whether the record lacks reviewable findings.
+
+Facts: Order, minute entry, transcript, ruling.
+
+Objective: Surface reversal or vacatur vulnerabilities.
+
+SCU-AP-03 — Identify Standard of Review
+
+Issue: Determine the applicable standard of review.
+
+Facts: Issue type, ruling type, procedural posture.
+
+Objective: Frame appellate movement correctly.
+
+SCU-AP-04 — Identify Appealable Order
+
+Issue: Determine whether an order is appealable now.
+
+Facts: Order, judgment, rule, remaining claims.
+
+Objective: Prevent premature or late appellate movement.
+
+SCU-AP-05 — Preserve Futility Analysis
+
+Issue: Determine whether futility was legal, factual, procedural, or evidentiary.
+
+Facts: Ruling, briefing, hearing statements, pleadings.
+
+Objective: Create reviewable appellate issue.
+
+# **XVII. SCU CATEGORY — Deep Research Governance**
+
+SCU-DR-01 — Trigger Authority Validation
+
+Issue: Determine whether unresolved legal authority requires verification.
+
+Facts: Jurisdiction, novelty, conflict, rule dependency.
+
+Objective: Trigger research escalation.
+
+SCU-DR-02 — Detect Citation Instability
+
+Issue: Determine whether cited authority may be invalid, unpublished, outdated, or hallucinated.
+
+Facts: Citation, reporter, jurisdiction, date.
+
+Objective: Prevent unsupported authority movement.
+
+SCU-DR-03 — Validate Rule Currency
+
+Issue: Determine whether governing rule is current.
+
+Facts: Rule text, amendment date, jurisdiction, local rule version.
+
+Objective: Prevent outdated procedural movement.
+
+SCU-DR-04 — Identify Authority Hierarchy
+
+Issue: Determine whether authority is binding, persuasive, distinguishable, or non-authority.
+
+Facts: Citation, court level, jurisdiction, date.
+
+Objective: Rank authority correctly.
+
+# **XVIII. SCU CATEGORY — Draft Integrity**
+
+SCU-DI-01 — Validate Draft Against Blueprint
+
+Issue: Determine whether draft conforms to Architect Blueprint.
+
+Facts: Draft, Blueprint, SCU, authorized modules.
+
+Objective: Detect unauthorized expansion.
+
+SCU-DI-02 — Detect Argument Drift
+
+Issue: Determine whether draft moved beyond authorized issue.
+
+Facts: Draft, issue statement, SCU, record anchors.
+
+Objective: Confine argument to approved scope.
+
+SCU-DI-03 — Validate Citation-to-Proposition Match
+
+Issue: Determine whether each citation supports the proposition asserted.
+
+Facts: Draft, citation, quoted rule, proposition.
+
+Objective: Prevent false citation reliance.
+
+SCU-DI-04 — Validate Tone and Neutrality
+
+Issue: Determine whether draft uses disciplined, non-inflammatory tone.
+
+Facts: Draft, forum, posture, audience.
+
+Objective: Preserve credibility and reduce sanctions risk.
+
+# **XIX. SCU CATEGORY — Privilege & Confidentiality**
+
+SCU-PC-01 — Identify Privileged Material
+
+Issue: Determine whether material may be privileged or protected.
+
+Facts: Source, participants, purpose, confidentiality markers.
+
+Objective: Prevent improper disclosure.
+
+SCU-PC-02 — Identify Protective Order Boundary
+
+Issue: Determine whether material is governed by a protective order.
+
+Facts: Protective order, document source, filing status, designation.
+
+Objective: Prevent unauthorized use.
+
+SCU-PC-03 — Identify Confidential Investigation Boundary
+
+Issue: Determine whether material arose from confidential investigative process.
+
+Facts: Investigation status, statute, employer policy, source.
+
+Objective: Preserve confidentiality objections.
+
+SCU-PC-04 — Redaction Requirement Evaluation
+
+Issue: Determine whether filing or sharing requires redaction.
+
+Facts: PII, medical data, employment data, protected material.
+
+Objective: Protect sensitive information.
+
+# **XX. SCU CATEGORY — Remedy & Relief Mapping**
+
+SCU-RM-01 — Identify Requested Relief
+
+Issue: Determine what remedy is being requested.
+
+Facts: Harm, forum, procedural posture, available remedies.
+
+Objective: Map relief to forum authority.
+
+SCU-RM-02 — Validate Remedy-Fact Fit
+
+Issue: Determine whether facts support the requested remedy.
+
+Facts: Injury, causation, damages, procedural basis.
+
+Objective: Prevent unsupported relief requests.
+
+SCU-RM-03 — Identify Interim Relief Need
+
+Issue: Determine whether emergency, stay, injunction, or temporary relief is needed.
+
+Facts: Deadline, imminent harm, posture, available standard.
+
+Objective: Trigger urgent relief pathway.
+
+SCU-RM-04 — Identify Damages Architecture
+
+Issue: Determine whether damages require calculation, documentation, or expert support.
+
+Facts: Lost income, expenses, mitigation, causation evidence.
+
+Objective: Structure damages proof.
+---
+# **XXI. SCU CATEGORY — Settlement & Negotiation**
+
+SCU-SN-01 — Identify Negotiation Posture
+
+Issue: Determine whether matter is litigation, negotiation, or hybrid.
+
+Facts: Communications, offers, deadlines, litigation status.
+
+Objective: Establish negotiation boundary.
+
+SCU-SN-02 — Identify Settlement Leverage
+
+Issue: Determine procedural leverage points without speculation.
+
+Facts: Deadlines, risk, cost, exposure, record strength.
+
+Objective: Map settlement posture.
+
+SCU-SN-03 — Validate Settlement Terms
+
+Issue: Determine whether proposed terms are complete enough for review.
+
+Facts: Payment, release, confidentiality, non-disparagement, timing.
+
+Objective: Surface missing or risky terms.
+
+SCU-SN-04 — Identify Non-Monetary Relief
+
+Issue: Determine whether apology, correction, reinstatement, record amendment, or confidentiality relief is relevant.
+
+Facts: Harm, goals, forum, negotiation posture.
+
+Objective: Expand remedy map beyond money.
+
+# **XXII. SCU CATEGORY — Communication Governance**
+
+SCU-CM-01 — Determine Response Necessity
+
+Issue: Determine whether a response is required, optional, risky, or premature.
+
+Facts: Request, sender, deadline, protective order, posture.
+
+Objective: Decide whether communication should occur.
+
+SCU-CM-02 — Validate Response Scope
+
+Issue: Determine what may safely be said.
+
+Facts: Prior disclosures, confidentiality boundaries, litigation posture.
+
+Objective: Keep response narrow and non-waiving.
+
+SCU-CM-03 — Identify Audience Posture
+
+Issue: Determine who will receive and rely on the communication.
+
+Facts: Recipient, purpose, employment context, legal context.
+
+Objective: Adjust communication risk.
+
+SCU-CM-04 — Preserve Non-Admission Language
+
+Issue: Determine whether communication requires non-admission protection.
+
+Facts: Dispute status, request context, potential legal consequence.
+
+Objective: Prevent accidental admission.
+
+# **XXIII. SCU CATEGORY — Sanctions & Risk Control**
+
+SCU-SR-01 — Identify Sanctions Risk
+
+Issue: Determine whether proposed filing or argument risks sanctions.
+
+Facts: Legal support, factual support, tone, procedural posture.
+
+Objective: Reduce frivolity and credibility risk.
+
+SCU-SR-02 — Validate Good-Faith Basis
+
+Issue: Determine whether position has a good-faith factual and legal basis.
+
+Facts: Record, law, unresolved authority, procedural posture.
+
+Objective: Preserve defensibility.
+
+SCU-SR-03 — Detect Overclaiming
+
+Issue: Determine whether draft overstates fact, law, remedy, or certainty.
+
+Facts: Draft, record, citations, relief sought.
+
+Objective: Reduce vulnerability.
+
+SCU-SR-04 — Identify Safe Harbor Opportunity
+
+Issue: Determine whether correction, withdrawal, clarification, or narrowing can reduce risk.
+
+Facts: Filing status, rule, opposing notice, timing.
+
+Objective: Create risk-reduction pathway.
+
+# **XXIV. SCU CATEGORY — Timeline & Causation**
+
+SCU-TC-01 — Build Procedural Timeline
+
+Issue: Identify sequence of procedural events.
+
+Facts: Docket, orders, filings, notices.
+
+Objective: Establish procedural chronology.
+
+SCU-TC-02 — Build Factual Timeline
+
+Issue: Identify sequence of factual events.
+
+Facts: Communications, documents, witnesses, dates.
+
+Objective: Establish factual chronology.
+
+SCU-TC-03 — Identify Causation Link
+
+Issue: Determine whether event A plausibly caused event B.
+
+Facts: Timing, communications, intervening events, harm.
+
+Objective: Map causation without overclaiming.
+
+SCU-TC-04 — Identify Temporal Break
+
+Issue: Determine whether intervening events weaken causation.
+
+Facts: Timeline, alternative causes, gaps, later events.
+
+Objective: Preserve causation discipline.
+
+# **XXV. SCU CATEGORY — Inspector Review**
+
+SCU-IR-01 — Attack Factual Support
+
+Issue: Determine whether factual assertions withstand adversarial review.
+
+Facts: Draft, record, exhibits.
+
+Objective: Flag unsupported or weak assertions.
+
+SCU-IR-02 — Attack Legal Support
+
+Issue: Determine whether legal propositions withstand authority review.
+
+Facts: Draft, citations, governing rules.
+
+Objective: Flag weak or unsupported law.
+
+SCU-IR-03 — Attack Procedural Fit
+
+Issue: Determine whether draft fits procedural posture.
+
+Facts: Draft, posture, rules, order.
+
+Objective: Flag wrong-vehicle problems.
+
+SCU-IR-04 — Attack Remedy Fit
+
+Issue: Determine whether requested relief fits forum and facts.
+
+Facts: Relief requested, authority, damages, posture.
+
+Objective: Flag remedy mismatch.
+
+# **XXVI. SCU CATEGORY — Public / Media / Reputation Boundary**
+
+SCU-MR-01 — Identify Public-Statement Risk
+
+Issue: Determine whether public comment could affect litigation, employment, confidentiality, or reputation.
+
+Facts: Audience, pending matter, protective order, prior disclosures.
+
+Objective: Decide whether public comment should be narrowed or avoided.
+
+SCU-MR-02 — Validate Media Response Scope
+
+Issue: Determine what can be said without expanding dispute posture.
+
+Facts: Question asked, public record, protective order, prior statements.
+
+Objective: Produce narrow, safe response.
+
+SCU-MR-03 — Identify Reputation Repair Objective
+
+Issue: Determine whether communication aims to clarify, correct, explain, or persuade.
+
+Facts: Audience, harm, record, desired outcome.
+
+Objective: Align message with lawful objective.
+
+SCU-MR-04 — Detect Litigation Spillover
+
+Issue: Determine whether media or reputation response risks becoming legal evidence.
+
+Facts: Statement, timing, audience, pending proceeding.
+
+Objective: Preserve dispute boundaries.
+
+# **XXVII. SCU CATEGORY — Human Strategist Governance**
+
+SCU-HS-01 — Require Strategist Decision
+
+Issue: Determine whether human judgment is required before next movement.
+
+Facts: Consequence level, uncertainty, deadline, filing status.
+
+Objective: Route decision to Strategist.
+
+SCU-HS-02 — Identify Strategic Options
+
+Issue: Determine available options without recommending one as legal advice.
+
+Facts: Posture, risks, remedies, deadlines.
+
+Objective: Present bounded choices.
+
+SCU-HS-03 — Identify Strategic Tradeoffs
+
+Issue: Determine risks and benefits of each available path.
+
+Facts: Record, timing, cost, remedy, forum.
+
+Objective: Support human decision-making.
+
+SCU-HS-04 — Confirm Final Authorization
+
+Issue: Determine whether Strategist approved consequence-bearing action.
+
+Facts: Final draft, deadline, recipient, filing status.
+
+Objective: Permit final movement only after human authorization.
+
+# **XXVIII. SCU CATEGORY — System Audit & Logging**
+
+SCU-AL-01 — Log SCU Activation
+
+Issue: Determine which SCU was activated and why.
+
+Facts: User request, issue, facts, objective.
+
+Objective: Preserve audit trail.
+
+SCU-AL-02 — Log Role Transition
+
+Issue: Determine whether transition between roles was authorized.
+
+Facts: Architect output, Builder request, Inspector review.
+
+Objective: Preserve role-sequence integrity.
+
+SCU-AL-03 — Log STOP Event
+
+Issue: Determine why system halted.
+
+Facts: Missing facts, role drift, safety issue, jurisdictional uncertainty.
+
+Objective: Preserve halt rationale.
+
+SCU-AL-04 — Log Human Approval
+
+Issue: Determine whether Strategist authorized final movement.
+
+Facts: Approval statement, draft version, date, recipient.
+
+Objective: Preserve final authority trail.
+---
 ## **1. SCU Purpose**
 
 The SCU (Smallest Complete Unit) ensures:
