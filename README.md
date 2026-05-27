@@ -5048,6 +5048,12 @@ Module Output is always structural, educational, non‑advisory, and human‑rev
 
 Constitutional Principle: Modules are the structural atoms of LCES. SCU defines the unit. Architect builds the modules. Builder assembles the modules. Inspector verifies the modules. Strategist governs the modules. The system remains constitutional only when modules remain pure, sequential, Edition‑bound, role‑bound, and Strategist‑controlled.
 ---
+## SCU Addendum — Operational Lifecycle
+
+SCUs are the smallest safe procedural units. They must be extracted from the record, structured into constitutional form, validated adversarially, versioned, and only then deployed to Builder.
+
+SCUs are Edition‑bound, Role‑bound, and Mode‑dependent. Builder must halt on un‑architected information. SCUs must remain pure, traceable, and auditable.
+---
 
 # **🏛️ LCES FULL‑STACK ARCHITECTURE**
 
