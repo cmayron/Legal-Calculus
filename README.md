@@ -1633,36 +1633,7 @@ Semantic versioning:
 
 ---
 
-# **README — Orientation & Activation Layer (V7.0, Maximum Completeness Edition)**
 
-*Legal Calculus Educational System (LCES)*
-
-*Modernized, Deduplicated, Production‑Grade Edition*
-
----
-
-# **1. Purpose of This Document**
-
-This README is the **Orientation & Activation Layer** of LCES.
-
-It is the **operational constitution** of the repository.
-
-It defines:
-
-- what LCES is
-- how the system boots
-- how the system moves
-- how roles, editions, and modes interact
-- how SCUs are created, validated, and deployed
--
-
-
-
-
-
-
-
-### **README — Orientation & Activation Layer **
 ---
 
 ---
