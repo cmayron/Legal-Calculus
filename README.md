@@ -2648,6 +2648,37 @@ Architect AI must enforce the sequence:
 SCU → Module Enhancement → Deep Research → (only then) Blueprint Release.
 
 ---
+### Addendum: Mobile Device Constraint (iPad / iPhone)
+
+The Architect AI (Copilot Desktop) is the only environment capable of executing
+the full Bootloader sequence, including automatic repository traversal and
+module loading. Mobile Copilot environments (iPad / iPhone) cannot:
+
+- access the repository directly
+- traverse directories
+- load files from storage
+- execute the Bootloader’s module‑loading functions
+
+Therefore:
+
+**When operating on an iPad or iPhone, the Six Calculi must be manually uploaded
+(pasted) into the Architect AI session before Blueprint construction begins.**
+
+Manual upload is required to preserve:
+
+- doctrinal integrity
+- STOP enforcement
+- Edition containment
+- Mode purity
+- role separation
+- correct SCU → Modules → Deep Research → Blueprint behavior
+
+If the Calculi are not manually provided, the Architect AI must STOP and refuse
+to proceed.
+
+This addendum governs all mobile Architect sessions and overrides any automatic
+loading behavior when repository access is unavailable.
+---
 
 # ======= END MODULE — ARCHITECT AI =======
 
