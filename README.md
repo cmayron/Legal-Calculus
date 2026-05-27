@@ -1262,6 +1262,94 @@ LCES transforms:
 - repositories → procedural memory
 - AI → role‑constrained execution engines
 - workflows → governed constitutional sequences
+---
+
+# FOUNDATIONAL DOCTRINE
+
+> The Record is the Case.  
+> The Record is the Remedy.
+
+LCES is constitutional governance; the substrate is constitutional physics. LCES governs admissible movement: it defines legitimacy by enforcing sequence, role separation, reversible execution, and structured, reviewable records. The substrate governs state truth: it provides cryptographic, model-independent proof of every state transition, making tampering and rewriting detectable. LCES does not attempt to prove itself; it requires an external, deterministic substrate it cannot influence. Governance rule: LCES prevents illegitimate behavior from forming; the substrate prevents illegitimate behavior from being hidden. Constitutional rule: LCES defines legitimacy; the substrate proves legitimacy.
+
+
+---
+
+
+# SAFETY NOTICE
+
+Do NOT upload:
+
+- privileged material
+- confidential information
+- protected discovery
+- sealed records
+- sensitive evidence
+- unredacted personal information
+
+Cloud AI systems are:
+- not private
+- not privileged
+- not secure evidence repositories
+
+Only upload redacted, non-sensitive material.
+
+Users remain responsible for:
+- factual verification
+- legal research
+- deadlines
+- compliance
+- filing decisions
+- strategic judgment
+- final review
+
+All outputs require independent human verification.
+
+---
+
+# UPL-SAFE HUMAN-IN-THE-LOOP RULE
+
+AI systems are legally treated as non-lawyer entities.
+
+AI may:
+- summarize
+- organize
+- structure
+- draft educational templates
+- explain procedural concepts
+- review for consistency
+- identify issues for human review
+
+AI may NOT:
+- provide legal advice
+- apply law to facts
+- determine legal strategy
+- make filing decisions
+- certify legal conclusions
+- represent anyone
+- independently exercise legal judgment
+
+Human approval is mandatory because human review converts AI output into educational information rather than unauthorized legal advice.
+
+AI assists.
+
+Human judgment governs.
+
+---
+
+# CONSTRAINED REASONING RULE
+
+All AI reasoning inside LCES is constitutionally constrained.
+
+AI may reason only within:
+- assigned role authority
+- active mode boundaries
+- validated SCU scope
+- jurisdictional constraints
+- Kernel safety rules
+- Human Strategist authorization
+
+Unauthorized reasoning is prohibited.
+
 
 ---
 /docs/bootloader/BOOTLOADER.md
@@ -3005,91 +3093,6 @@ must either:
 
 Mobile devices cannot load Calculi automatically.
 ---
-# FOUNDATIONAL DOCTRINE
-
-> The Record is the Case.  
-> The Record is the Remedy.
-
-LCES is constitutional governance; the substrate is constitutional physics. LCES governs admissible movement: it defines legitimacy by enforcing sequence, role separation, reversible execution, and structured, reviewable records. The substrate governs state truth: it provides cryptographic, model-independent proof of every state transition, making tampering and rewriting detectable. LCES does not attempt to prove itself; it requires an external, deterministic substrate it cannot influence. Governance rule: LCES prevents illegitimate behavior from forming; the substrate prevents illegitimate behavior from being hidden. Constitutional rule: LCES defines legitimacy; the substrate proves legitimacy.
-
-
----
-
-
-# SAFETY NOTICE
-
-Do NOT upload:
-
-- privileged material
-- confidential information
-- protected discovery
-- sealed records
-- sensitive evidence
-- unredacted personal information
-
-Cloud AI systems are:
-- not private
-- not privileged
-- not secure evidence repositories
-
-Only upload redacted, non-sensitive material.
-
-Users remain responsible for:
-- factual verification
-- legal research
-- deadlines
-- compliance
-- filing decisions
-- strategic judgment
-- final review
-
-All outputs require independent human verification.
-
----
-
-# UPL-SAFE HUMAN-IN-THE-LOOP RULE
-
-AI systems are legally treated as non-lawyer entities.
-
-AI may:
-- summarize
-- organize
-- structure
-- draft educational templates
-- explain procedural concepts
-- review for consistency
-- identify issues for human review
-
-AI may NOT:
-- provide legal advice
-- apply law to facts
-- determine legal strategy
-- make filing decisions
-- certify legal conclusions
-- represent anyone
-- independently exercise legal judgment
-
-Human approval is mandatory because human review converts AI output into educational information rather than unauthorized legal advice.
-
-AI assists.
-
-Human judgment governs.
-
----
-
-# CONSTRAINED REASONING RULE
-
-All AI reasoning inside LCES is constitutionally constrained.
-
-AI may reason only within:
-- assigned role authority
-- active mode boundaries
-- validated SCU scope
-- jurisdictional constraints
-- Kernel safety rules
-- Human Strategist authorization
-
-Unauthorized reasoning is prohibited.
 
 ---
 
