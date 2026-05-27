@@ -1248,7 +1248,20 @@ Speed does not override sequence.
 The record is the remedy.**
 
 ---
+# **⚖️ LCES Execution Environment**
 
+LCES operates inside a **version‑controlled procedural environment**:
+
+- **GitHub** functions as the **Library**.
+- **GitHub Copilot** functions as the **Architect execution layer**.
+- The **repository** functions as **structured procedural memory**.
+- The **Human Strategist** remains the governing authority over truth, judgment, and action.
+
+LCES transforms:
+
+- repositories → procedural memory
+- AI → role‑constrained execution engines
+- workflows → governed constitutional sequences
 
 ---
 /docs/bootloader/BOOTLOADER.md
@@ -1631,6 +1644,7 @@ Semantic versioning:
 
 ---
 
+
 ---
 
 
@@ -1855,20 +1869,6 @@ This is why LCES uses a **strict activation ritual**.
 
 ---
 
-# **⚖️ LCES Execution Environment**
-
-LCES operates inside a **version‑controlled procedural environment**:
-
-- **GitHub** functions as the **Library**.
-- **GitHub Copilot** functions as the **Architect execution layer**.
-- The **repository** functions as **structured procedural memory**.
-- The **Human Strategist** remains the governing authority over truth, judgment, and action.
-
-LCES transforms:
-
-- repositories → procedural memory
-- AI → role‑constrained execution engines
-- workflows → governed constitutional sequences
 
 ---
 
