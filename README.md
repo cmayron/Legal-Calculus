@@ -1066,26 +1066,56 @@ UPL‑safe behavior requires:
 
 # **28. Repository Structure**
 
+
+---
 /Manifesto.md
-
 /README.md
-
 /Bootloader.md
 
 /Architecture/
-
-/Modules/
+    Roles.md
+    Runtime.md
+    SCU-Lifecycle.md
+    Multi-Device.md
+    Repository-Governance.md
 
 /Editions/
+    /SC-LCES/
+        README.md
+    /FC-LCES/
+        README.md
+    /TE-LCES/
+        README.md
+    /AC-LCES/
+        README.md
+    Overview.md
 
 /Calculi/
+    /LC/
+    /LCA/
+    /FG/
+    /FGA/
+    /LCa/
+    /JC/
+    README.md
 
 /SCU/
+    README.md
+    /Examples/
+
+/Modules/
+    README.md
 
 /Governance/
+    README.md
+    Threat-Model.md
+    Recovery-Doctrine.md
+    Version-Governance.md
 
 /Diagrams/
-
+    Architecture-Map.txt
+    SCU-Lifecycle.txt
+    Bootloader-Sequence.txt
 ---
 
 # **29. Repository Governance Rules (Complete)**
