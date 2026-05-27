@@ -1248,27 +1248,7 @@ Speed does not override sequence.
 The record is the remedy.**
 
 ---
-## README Addendum — Constitutional Layer Boundaries (V7.0 Alignment)
 
-This README defines the Orientation & Activation Layer of LCES. It governs activation, role purity, Edition containment, STOP doctrine, runtime authorization, and Strategist supremacy. It does not contain doctrinal philosophy (Manifesto), runtime mechanics (Bootloader), Edition physics (Editions), or operational artifacts (SCUs, Modules, Calculi).
-
-The Manifesto governs doctrine.  
-The README governs activation.  
-The Bootloader governs runtime.  
-The Editions govern procedural physics.  
-The SCU layer governs operational structure.  
-The Governance layer enforces safety, recovery, and version discipline.
-
-No layer may infer the contents of another.  
-No layer may collapse into another.  
-No layer may load without explicit Strategist command.
-
-Orientation authorizes activation.  
-Activation authorizes runtime.  
-Runtime authorizes execution.  
-Execution remains subordinate to human judgment.
-#
----
 
 ---
 /docs/bootloader/BOOTLOADER.md
