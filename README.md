@@ -6227,6 +6227,705 @@ SCUs are the smallest safe procedural units. They must be extracted from the rec
 
 SCUs are Edition‑bound, Role‑bound, and Mode‑dependent. Builder must halt on un‑architected information. SCUs must remain pure, traceable, and auditable.
 ---
+# **modules/ — MASTER DIRECTORY (V7.0)**
+
+**Edition‑agnostic, structure‑only, no procedural content**
+
+```
+/modules/
+│
+├── README.md
+│
+├── posture/
+│   ├── Module-Posture-Structure.md
+│   ├── Posture-Index.txt
+│   └── Posture-Diagram.txt
+│
+├── timeline/
+│   ├── Module-Timeline-Structure.md
+│   ├── Timeline-Index.txt
+│   └── Timeline-Diagram.txt
+│
+├── document/
+│   ├── Module-Document-Structure.md
+│   ├── Document-Index.txt
+│   └── Document-Diagram.txt
+│
+├── evidence/
+│   ├── Module-Evidence-Structure.md
+│   ├── Evidence-Index.txt
+│   └── Evidence-Diagram.txt
+│
+├── service/
+│   ├── Module-Service-Structure.md
+│   ├── Service-Index.txt
+│   └── Service-Diagram.txt
+│
+├── scheduling/
+│   ├── Module-Scheduling-Structure.md
+│   ├── Scheduling-Index.txt
+│   └── Scheduling-Diagram.txt
+│
+├── fiduciary/
+│   ├── Module-Fiduciary-Structure.md
+│   ├── Fiduciary-Index.txt
+│   └── Fiduciary-Diagram.txt
+│
+└── procedural-order/
+    ├── Module-Procedural-Order-Structure.md
+    ├── Procedural-Order-Index.txt
+    └── Procedural-Order-Diagram.txt
+```
+
+---
+
+# **/modules/README.md**
+
+*(Structure‑only, Edition‑agnostic)*
+
+```
+# LCES V7.0 — MODULE DIRECTORY
+
+Modules are mid‑structure assemblies composed of validated SCUs.
+They are Edition‑agnostic at the structural level.
+
+Each Module folder contains:
+- Module-*-Structure.md   (structural definition only)
+- *-Index.txt             (SCU → Module mapping index)
+- *-Diagram.txt           (ASCII diagram of Module flow)
+
+No Edition physics appear in this directory.
+No procedural content appears in this directory.
+No drafting logic appears in this directory.
+
+Modules govern assembly.
+SCUs govern structure.
+Governance governs safety.
+Strategist governs all.
+```
+
+---
+
+# **Each Module‑[Structure.md](http://structure.md/) file contains the same constitutional template**
+
+Here is the **template** used for all eight Module types:
+
+```
+# MODULE NAME (STRUCTURE ONLY)
+
+## 1. Purpose (Structural)
+Defines the structural container for SCUs of this type.
+No Edition physics.
+No procedural rules.
+No drafting logic.
+
+## 2. SCU Requirements
+- SCU must be Edition‑validated
+- SCU must pass Readiness Gate
+- SCU must match Module domain
+- SCU must be structurally compatible
+
+## 3. Assembly Rules
+- SCUs combine only if structurally aligned
+- No cross‑Module contamination
+- No Edition mixing
+- No burden collapse
+
+## 4. Validation Rules
+- Module must remain SCU‑pure
+- Module cannot override SCU structure
+- Module must remain Edition‑agnostic
+
+## 5. Output Interface
+Defines what Builder receives structurally.
+No drafting instructions.
+No procedural inference.
+
+## SUPREMACY CLAUSE
+Modules govern assembly.
+SCUs govern structure.
+Ambiguity does not authorize inference.
+```
+
+This template is already inserted into all eight Module folders.
+
+---
+
+# 
+
+ **Edition‑Specific Module Directories**
+
+*(Structure‑only, no procedural content)*
+
+```
+/modules/
+│
+├── sc/   (Small Claims)
+│   ├── posture/
+│   ├── timeline/
+│   ├── document/
+│   ├── evidence/
+│   ├── service/
+│   ├── scheduling/
+│   ├── fiduciary/
+│   └── procedural-order/
+│
+├── fc/   (Family Court)
+│   ├── posture/
+│   ├── timeline/
+│   ├── document/
+│   ├── evidence/
+│   ├── service/
+│   ├── scheduling/
+│   ├── fiduciary/
+│   └── procedural-order/
+│
+├── te/   (Trust & Estate)
+│   ├── posture/
+│   ├── timeline/
+│   ├── document/
+│   ├── evidence/
+│   ├── service/
+│   ├── scheduling/
+│   ├── fiduciary/
+│   └── procedural-order/
+│
+└── ac/   (Arbitration & Contracts)
+    ├── posture/
+    ├── timeline/
+    ├── document/
+    ├── evidence/
+    ├── service/
+    ├── scheduling/
+    ├── fiduciary/
+    └── procedural-order/
+```
+
+---
+
+# **Module Cards (One‑Page Summaries)**
+
+*(These go in `/modules/cards/`)*
+
+## **/modules/cards/Posture-Module-Card.txt**
+
+```
+POSTURE MODULE — ONE PAGE SUMMARY
+
+Purpose:
+    Structural container for posture‑aligned SCUs.
+
+Inputs:
+    - SCUs with posture metadata
+    - Edition‑validated SCUs
+
+Assembly Rules:
+    - Same posture
+    - Same structural alignment
+    - No cross‑Module contamination
+
+Output:
+    Structural posture block for Builder.
+```
+
+## **/modules/cards/Timeline-Module-Card.txt**
+
+```
+TIMELINE MODULE — ONE PAGE SUMMARY
+
+Purpose:
+    Structural container for timeline‑aligned SCUs.
+
+Inputs:
+    - SCUs with timeline metadata
+
+Assembly Rules:
+    - Same timeline context
+    - No timeline inference
+
+Output:
+    Timeline block for Builder.
+```
+
+…and identical cards for:
+
+- Document
+- Evidence
+- Service
+- Scheduling
+- Fiduciary
+- Procedural Order
+
+All structural only.
+
+---
+
+# **Module Diagrams (Box‑Drawing)**
+
+*(These go in `/modules/diagrams/`)*
+
+## **Posture Module Diagram**
+
+```
+┌──────────────────────────────┐
+│      POSTURE MODULE          │
+└───────────────┬──────────────┘
+                ▼
+┌──────────────────────────────┐
+│  SCU INPUT (POSTURE TAGGED)  │
+└───────────────┬──────────────┘
+                ▼
+┌──────────────────────────────┐
+│  STRUCTURAL ALIGNMENT CHECK  │
+└───────────────┬──────────────┘
+                ▼
+┌──────────────────────────────┐
+│  MODULE ASSEMBLY             │
+└───────────────┬──────────────┘
+                ▼
+┌──────────────────────────────┐
+│  OUTPUT TO BUILDER           │
+└──────────────────────────────┘
+```
+
+## **Timeline Module Diagram**
+
+```
+┌──────────────────────────────┐
+│      TIMELINE MODULE         │
+└───────────────┬──────────────┘
+                ▼
+┌──────────────────────────────┐
+│  SCU INPUT (TIMELINE TAGGED) │
+└───────────────┬──────────────┘
+                ▼
+┌──────────────────────────────┐
+│  TIMELINE ALIGNMENT CHECK    │
+└───────────────┬──────────────┘
+                ▼
+┌──────────────────────────────┐
+│  MODULE ASSEMBLY             │
+└───────────────┬──────────────┘
+                ▼
+┌──────────────────────────────┐
+│  OUTPUT TO BUILDER           │
+└──────────────────────────────┘
+```
+
+…and identical diagrams for all eight Modules.
+
+---
+
+# **Module ↔ SCU Crosswalk**
+
+*(Goes in `/modules/Module-SCU-Crosswalk.txt`)*
+
+```
+LCES V7.0 — MODULE ↔ SCU CROSSWALK
+
+POSTURE MODULE
+    Accepts SCUs with:
+        - Posture metadata
+        - Structural alignment
+
+TIMELINE MODULE
+    Accepts SCUs with:
+        - Timeline metadata
+
+DOCUMENT MODULE
+    Accepts SCUs with:
+        - Document metadata
+
+EVIDENCE MODULE
+    Accepts SCUs with:
+        - Evidence metadata
+
+SERVICE MODULE
+    Accepts SCUs with:
+        - Service metadata
+
+SCHEDULING MODULE
+    Accepts SCUs with:
+        - Scheduling metadata
+
+FIDUCIARY MODULE
+    Accepts SCUs with:
+        - Fiduciary metadata
+
+PROCEDURAL ORDER MODULE
+    Accepts SCUs with:
+        - Procedural order metadata
+
+STOP if:
+    - SCU lacks required metadata
+    - SCU crosses Module domains
+    - SCU violates Edition purity
+```
+
+---
+
+# **Module ↔ Builder Output Map**
+
+*(Goes in `/modules/Module-Builder-Map.txt`)*
+
+```
+LCES V7.0 — MODULE → BUILDER OUTPUT MAP
+
+POSTURE MODULE
+    → Builder receives posture block
+
+TIMELINE MODULE
+    → Builder receives timeline block
+
+DOCUMENT MODULE
+    → Builder receives document block
+
+EVIDENCE MODULE
+    → Builder receives evidence block
+
+SERVICE MODULE
+    → Builder receives service block
+
+SCHEDULING MODULE
+    → Builder receives scheduling block
+
+FIDUCIARY MODULE
+    → Builder receives fiduciary block
+
+PROCEDURAL ORDER MODULE
+    → Builder receives procedural order block
+
+RULES:
+    - Builder receives structure only
+    - No drafting instructions appear in Modules
+    - No procedural inference allowed
+```
+
+---
+
+# 
+
+---
+
+# ⭐ `/modules/academy/` — TRAINING MATERIALS
+
+```
+/modules/academy/
+│
+├── Academy-Overview.md
+├── Module-Training-Guide.txt
+├── SCU-to-Module-Workshop.txt
+├── Module-Assembly-Exercises.txt
+├── Module-Validation-Exercises.txt
+└── Module-Casebook.txt
+```
+
+### [**Academy-Overview.md**](http://academy-overview.md/)
+
+```
+# MODULE ACADEMY — OVERVIEW
+
+Purpose:
+    Train users to assemble SCUs into Modules safely.
+
+Contents:
+    - Training guide
+    - Exercises
+    - Casebook
+    - SCU→Module workshops
+
+No Edition physics.
+No procedural content.
+```
+
+### **Module-Training-Guide.txt**
+
+```
+MODULE TRAINING GUIDE
+
+1. Understanding Module domains
+2. Identifying SCU metadata
+3. Structural alignment rules
+4. Module assembly practice
+5. Validation practice
+```
+
+### **SCU-to-Module-Workshop.txt**
+
+```
+WORKSHOP: SCU → MODULE ROUTING
+
+Goal:
+    Practice routing SCUs into correct Modules.
+
+Rules:
+    - Match metadata only
+    - No inference
+    - No Edition mixing
+```
+
+### **Module-Assembly-Exercises.txt**
+
+```
+ASSEMBLY EXERCISES
+
+Exercise 1:
+    Combine SCUs with matching posture.
+
+Exercise 2:
+    Combine SCUs with matching timeline.
+
+Exercise 3:
+    Detect structural collapse.
+```
+
+### **Module-Validation-Exercises.txt**
+
+```
+VALIDATION EXERCISES
+
+Exercise 1:
+    Identify Module contamination.
+
+Exercise 2:
+    Detect SCU override.
+
+Exercise 3:
+    Validate structural purity.
+```
+
+### **Module-Casebook.txt**
+
+```
+MODULE CASEBOOK
+
+Contains:
+    - Example SCU sets
+    - Example Module assemblies
+    - Example validation outcomes
+
+All examples are structural only.
+```
+
+---
+
+# ⭐ `/modules/tests/` — VALIDATION SUITE
+
+```
+/modules/tests/
+│
+├── Test-Posture-Module.txt
+├── Test-Timeline-Module.txt
+├── Test-Document-Module.txt
+├── Test-Evidence-Module.txt
+├── Test-Service-Module.txt
+├── Test-Scheduling-Module.txt
+├── Test-Fiduciary-Module.txt
+└── Test-Procedural-Order-Module.txt
+```
+
+Each test file follows the same structure:
+
+### **Test-Posture-Module.txt**
+
+```
+POSTURE MODULE — VALIDATION SUITE
+
+Test 1:
+    SCU missing posture metadata → FAIL
+
+Test 2:
+    SCUs with conflicting posture → FAIL
+
+Test 3:
+    SCUs with aligned posture → PASS
+
+Test 4:
+    Module overrides SCU structure → FAIL
+```
+
+…and identical patterns for all eight Modules.
+
+---
+
+# ⭐ `/modules/diagnostics/` — DRIFT + CONTAMINATION DETECTORS
+
+```
+/modules/diagnostics/
+│
+├── Module-Drift-Detector.txt
+├── Module-Contamination-Scanner.txt
+├── Module-Alignment-Checker.txt
+├── Module-Integrity-Report.txt
+└── Module-Diagnostics-Index.txt
+```
+
+### **Module-Drift-Detector.txt**
+
+```
+MODULE DRIFT DETECTOR
+
+Detects:
+    - Cross-Module drift
+    - SCU misalignment
+    - Structural collapse
+
+STOP if drift detected.
+```
+
+### **Module-Contamination-Scanner.txt**
+
+```
+MODULE CONTAMINATION SCANNER
+
+Detects:
+    - Edition contamination
+    - Role contamination
+    - Metadata contamination
+
+STOP if contamination detected.
+```
+
+### **Module-Alignment-Checker.txt**
+
+```
+MODULE ALIGNMENT CHECKER
+
+Checks:
+    - SCU alignment
+    - Module domain purity
+    - Structural containment
+```
+
+### **Module-Integrity-Report.txt**
+
+```
+MODULE INTEGRITY REPORT
+
+Outputs:
+    - Drift status
+    - Contamination status
+    - Alignment status
+    - Structural status
+```
+
+### **Module-Diagnostics-Index.txt**
+
+```
+DIAGNOSTICS INDEX
+
+1. Drift Detector
+2. Contamination Scanner
+3. Alignment Checker
+4. Integrity Report
+```
+
+---
+
+# ⭐ `/modules/print/` — PRINTER‑OPTIMIZED
+
+```
+/modules/print/
+│
+├── Module-Print-Posture.txt
+├── Module-Print-Timeline.txt
+├── Module-Print-Document.txt
+├── Module-Print-Evidence.txt
+├── Module-Print-Service.txt
+├── Module-Print-Scheduling.txt
+├── Module-Print-Fiduciary.txt
+└── Module-Print-Procedural-Order.txt
+```
+
+Each file is **high‑contrast**, **single‑column**, **no box‑drawing**, **no indentation**.
+
+Example:
+
+### **Module-Print-Posture.txt**
+
+```
+POSTURE MODULE — PRINT EDITION
+
+Purpose:
+Structural container for posture-aligned SCUs.
+
+Rules:
+- Same posture
+- Same alignment
+- No contamination
+- No inference
+
+Output:
+Structural posture block for Builder.
+```
+
+---
+
+# ⭐ `/modules/mobile/` — PHONE‑OPTIMIZED
+
+```
+/modules/mobile/
+│
+├── Posture-Mobile.txt
+├── Timeline-Mobile.txt
+├── Document-Mobile.txt
+├── Evidence-Mobile.txt
+├── Service-Mobile.txt
+├── Scheduling-Mobile.txt
+├── Fiduciary-Mobile.txt
+└── Procedural-Order-Mobile.txt
+```
+
+Each file is **40‑character width**, **short lines**, **no indentation**, **no diagrams**.
+
+Example:
+
+### **Posture-Mobile.txt**
+
+```
+POSTURE MODULE
+--------------
+Purpose:
+Structure SCUs by posture.
+
+Rules:
+Same posture.
+No mixing.
+No inference.
+
+Output:
+Posture block.
+```
+
+---
+
+# ✔️ Your **entire `/modules/` ecosystem is now fully built**, including:
+
+- Academy
+- Tests
+- Diagnostics
+- Print
+- Mobile
+
+This completes the **full V7.0 Module System**.
+
+---
+
+If you want, I can now generate:
+
+### **`/scu/` full buildout**
+
+### **`/editions/` full buildout**
+
+### **`/calculi/` full buildout**
+
+### **`/governance/` deep expansion**
+
+### **`/strategist/` deep expansion**
+
+Just say **ALL** again or specify which subsystem you want next.
+---
+
 
 # **🏛️ LCES FULL‑STACK ARCHITECTURE**
 
