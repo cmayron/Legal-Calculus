@@ -6519,6 +6519,1089 @@ Role purity is mandatory for reproducibility, drift prevention, and constitution
 
 ---
 
+# ⭐ **/Editions/SC‑LCES/README.md (Small Claims Edition)**
+
+```
+# SC‑LCES — Small Claims Edition (V7.0)
+
+SC‑LCES defines the procedural physics of Small Claims environments. These forums are
+optimized for speed, simplicity, limited discovery, and high pro se participation.
+SC‑LCES emphasizes preservation, clarity, and burden alignment in low-stakes,
+high-volume contexts.
+
+Edition selection is a Strategist-only action. No Edition may load without explicit
+Strategist command.
+
+---
+
+## Procedural Physics — Small Claims
+
+Small Claims courts exhibit:
+
+- compressed timelines,
+- limited or no discovery,
+- simplified evidentiary expectations,
+- high pro se participation,
+- rapid docket turnover,
+- strong incentives for clarity and preservation.
+
+These constraints define the operational environment for Architect, Builder, and
+Inspector.
+
+---
+
+## Core Priorities
+
+SC‑LCES prioritizes:
+
+- preservation of facts,
+- clarity of claims and defenses,
+- burden alignment,
+- minimal procedural overhead,
+- rapid SCU deployment,
+- simplified adversarial testing.
+
+---
+
+## STOP Triggers (SC‑LCES)
+
+STOP is mandatory when:
+
+- discovery is assumed,
+- evidentiary rules are inferred from higher courts,
+- Builder drafts beyond the record,
+- Architect introduces non-SC procedural physics,
+- Inspector tests using non-SC burdens,
+- Edition mixing occurs.
+
+---
+
+## Mode Interactions
+
+### Crisis Mode
+Focus on immediate preservation and timeline triage.
+
+### Pro Se Mode
+Emphasizes clarity, simplicity, and survival sequencing.
+
+### Second‑Opinion Mode
+Verifies posture, burdens, and record sufficiency.
+
+### Educational Mode
+Explains procedural physics without altering them.
+
+---
+
+## SCU Behavior in SC‑LCES
+
+SCUs must be:
+
+- minimal,
+- record-grounded,
+- posture-specific,
+- contamination-free,
+- versioned.
+
+SCUs may not assume discovery or complex motion practice.
+
+---
+
+## Supremacy Clause
+
+SC‑LCES governs all procedural movement within Small Claims.
+Ambiguity does not authorize inference.
+Edition purity is mandatory.
+```
+
+---
+
+# ⭐ **/Editions/FC‑LCES/README.md (Family Court Edition)**
+
+```
+# FC‑LCES — Family Court Edition (V7.0)
+
+FC‑LCES defines the procedural physics of Family Court environments. These forums
+feature dynamic posture, emergency motions, custody frameworks, and multi-hearing
+timelines. FC‑LCES emphasizes safety, preservation, and procedural sequencing.
+
+Edition selection is a Strategist-only action. No Edition may load without explicit
+Strategist command.
+
+---
+
+## Procedural Physics — Family Court
+
+Family Court exhibits:
+
+- rapidly shifting posture,
+- emergency hearings,
+- safety considerations,
+- multi-stage timelines,
+- mixed evidentiary standards,
+- high emotional and factual volatility.
+
+These constraints define the operational environment.
+
+---
+
+## Core Priorities
+
+FC‑LCES prioritizes:
+
+- safety,
+- preservation,
+- timeline mapping,
+- posture sequencing,
+- burden clarity,
+- emergency triage.
+
+---
+
+## STOP Triggers (FC‑LCES)
+
+STOP is mandatory when:
+
+- civil or criminal burdens are imported,
+- custody frameworks are inferred incorrectly,
+- emergency posture is ignored,
+- Architect collapses multiple timelines,
+- Builder drafts without posture lock,
+- Inspector tests using non-FC burdens.
+
+---
+
+## Mode Interactions
+
+### Crisis Mode
+Safety and emergency posture dominate.
+
+### Pro Se Mode
+Survival sequencing and clarity of posture.
+
+### Second‑Opinion Mode
+Verification of posture, burdens, and timeline.
+
+### Educational Mode
+Explains procedural physics without altering them.
+
+---
+
+## SCU Behavior in FC‑LCES
+
+SCUs must encode:
+
+- posture,
+- timeline,
+- safety considerations,
+- burden alignment,
+- hearing type.
+
+SCUs may not collapse multiple postures into one.
+
+---
+
+## Supremacy Clause
+
+FC‑LCES governs all procedural movement within Family Court.
+Ambiguity does not authorize inference.
+Edition purity is mandatory.
+```
+
+---
+
+# ⭐ **/Editions/TE‑LCES/README.md (Trust & Estate Edition)**
+
+```
+# TE‑LCES — Trust & Estate Edition (V7.0)
+
+TE‑LCES defines the procedural physics of Trust & Estate environments. These forums
+feature probate timelines, fiduciary duties, accounting structures, and document
+lineage. TE‑LCES emphasizes record integrity and version discipline.
+
+Edition selection is a Strategist-only action. No Edition may load without explicit
+Strategist command.
+
+---
+
+## Procedural Physics — Trust & Estate
+
+Trust & Estate matters exhibit:
+
+- strict timelines,
+- fiduciary obligations,
+- accounting requirements,
+- document lineage,
+- multi-party interests,
+- formal notice rules.
+
+These constraints define the operational environment.
+
+---
+
+## Core Priorities
+
+TE‑LCES prioritizes:
+
+- record integrity,
+- document lineage,
+- fiduciary duty analysis,
+- timeline compliance,
+- version discipline,
+- structured accounting.
+
+---
+
+## STOP Triggers (TE‑LCES)
+
+STOP is mandatory when:
+
+- fiduciary duties are misapplied,
+- probate timelines are inferred incorrectly,
+- Builder drafts without lineage lock,
+- Architect collapses accounting structures,
+- Inspector tests using non-TE burdens,
+- Edition mixing occurs.
+
+---
+
+## Mode Interactions
+
+### Crisis Mode
+Focus on preservation and timeline triage.
+
+### Pro Se Mode
+Emphasizes clarity of duties and deadlines.
+
+### Second‑Opinion Mode
+Verifies lineage, timelines, and fiduciary posture.
+
+### Educational Mode
+Explains procedural physics without altering them.
+
+---
+
+## SCU Behavior in TE‑LCES
+
+SCUs must encode:
+
+- timeline,
+- lineage,
+- fiduciary posture,
+- accounting structure,
+- notice requirements.
+
+SCUs may not assume informal or flexible procedures.
+
+---
+
+## Supremacy Clause
+
+TE‑LCES governs all procedural movement within Trust & Estate.
+Ambiguity does not authorize inference.
+Edition purity is mandatory.
+```
+
+---
+
+# ⭐ **/Editions/AC‑LCES/README.md (Arbitration & Contracts Edition)**
+
+```
+# AC‑LCES — Arbitration & Contracts Edition (V7.0)
+
+AC‑LCES defines the procedural physics of Arbitration & Contracts environments. These
+forums feature contract interpretation, arbitration rulesets, burden allocation, and
+procedural autonomy. AC‑LCES emphasizes clause-level SCUs and structured reasoning.
+
+Edition selection is a Strategist-only action. No Edition may load without explicit
+Strategist command.
+
+---
+
+## Procedural Physics — Arbitration & Contracts
+
+Arbitration & Contracts matters exhibit:
+
+- ruleset-specific procedures,
+- clause-level interpretation,
+- burden allocation,
+- limited discovery,
+- procedural autonomy,
+- contract-governed timelines.
+
+These constraints define the operational environment.
+
+---
+
+## Core Priorities
+
+AC‑LCES prioritizes:
+
+- clause-level structure,
+- burden alignment,
+- ruleset fidelity,
+- procedural autonomy,
+- contract interpretation,
+- SCU modularity.
+
+---
+
+## STOP Triggers (AC‑LCES)
+
+STOP is mandatory when:
+
+- court-based burdens are imported,
+- Builder drafts beyond contract text,
+- Architect infers missing clauses,
+- Inspector tests using non-AC burdens,
+- arbitration rulesets are mixed,
+- Edition contamination occurs.
+
+---
+
+## Mode Interactions
+
+### Crisis Mode
+Focus on preservation and clause isolation.
+
+### Pro Se Mode
+Emphasizes clarity of obligations and timelines.
+
+### Second‑Opinion Mode
+Verifies clause interpretation and burden alignment.
+
+### Educational Mode
+Explains procedural physics without altering them.
+
+---
+
+## SCU Behavior in AC‑LCES
+
+SCUs must encode:
+
+- clause text,
+- clause function,
+- burden alignment,
+- ruleset constraints,
+- posture.
+
+SCUs may not assume court-like procedures.
+
+---
+
+## Supremacy Clause
+
+AC‑LCES governs all procedural movement within Arbitration & Contracts.
+Ambiguity does not authorize inference.
+Edition purity is mandatory.
+```
+
+---
+
+# 
+
+```
+/Editions/
+    STOP-Matrix.md
+    Fidelity-Gate-Diagram.md
+```
+
+---
+
+# **Edition STOP Trigger Matrix (V7.0)**
+
+**File:** `/Editions/STOP-Matrix.md`
+
+```
+# Edition STOP Trigger Matrix (V7.0)
+
+STOP is mandatory whenever Edition physics are violated, inferred, mixed, or
+contaminated. This matrix provides a cross‑Edition comparison of STOP triggers to
+ensure purity, containment, and procedural fidelity.
+
+Edition selection is a Strategist-only action. No Edition may load without explicit
+Strategist command.
+
+---
+
+## STOP Trigger Matrix
+
+| STOP Trigger Category | SC‑LCES (Small Claims) | FC‑LCES (Family Court) | TE‑LCES (Trust & Estate) | AC‑LCES (Arbitration & Contracts) |
+|----------------------|-------------------------|-------------------------|---------------------------|-----------------------------------|
+| **Edition Mixing** | STOP on any inference from FC/TE/AC | STOP on any inference from SC/TE/AC | STOP on any inference from SC/FC/AC | STOP on any inference from SC/FC/TE |
+| **Discovery Assumptions** | STOP (discovery limited/none) | STOP if civil discovery assumed | STOP if informal discovery assumed | STOP if court-like discovery assumed |
+| **Burden Misalignment** | STOP if higher-court burdens imported | STOP if civil/criminal burdens imported | STOP if fiduciary burdens misapplied | STOP if court burdens imported |
+| **Timeline Collapse** | STOP if complex timelines inferred | STOP if multiple postures collapsed | STOP if probate timelines ignored | STOP if contract timelines ignored |
+| **Posture Errors** | STOP if posture inferred | STOP if posture not locked | STOP if fiduciary posture misapplied | STOP if clause posture misapplied |
+| **Record Drift** | STOP if Builder drafts beyond record | STOP if emergency posture ignored | STOP if lineage not preserved | STOP if clause text exceeded |
+| **Ruleset Contamination** | STOP if non-SC rules imported | STOP if criminal/civil rules imported | STOP if non-probate rules imported | STOP if arbitration rulesets mixed |
+| **Exception Misuse** | STOP if exceptions inferred | STOP if emergency exceptions misapplied | STOP if notice exceptions misapplied | STOP if clause exceptions invented |
+| **Version Conflict** | STOP | STOP | STOP | STOP |
+| **Ambiguity** | STOP | STOP | STOP | STOP |
+
+---
+
+## STOP Enforcement Principles
+
+- STOP is mandatory, not advisory.
+- STOP triggers on ambiguity, not just error.
+- STOP protects Edition purity and procedural fidelity.
+- STOP prevents drift, contamination, and unsafe reasoning.
+- STOP requires Strategist clarification before resuming.
+
+Edition physics govern all procedural movement.
+Ambiguity does not authorize inference.
+```
+
+---
+
+# **Edition Fidelity Gate Diagram (V7.0)**
+
+**File:** `/Editions/Fidelity-Gate-Diagram.md`
+
+```
+# Edition Fidelity Gate Diagram (V7.0)
+
+The Fidelity Gate is the constitutional checkpoint that must be passed before any
+Edition may load. It ensures that Edition activation is jurisdictionally accurate,
+procedurally faithful, and contamination-free.
+
+Edition selection is a Strategist-only action. No Edition may load without explicit
+Strategist command.
+
+---
+
+## Fidelity Gate — Diagram
+
+                ┌──────────────────────────┐
+                │  Strategist Command      │
+                │  (Edition Selection)     │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │  1. Reality Match        │
+                │  Does the Edition match  │
+                │  the real-world forum?   │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │  2. Tacit Extraction     │
+                │  Are implicit procedural │
+                │  physics surfaced?       │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │  3. Authority Boundaries │
+                │  Does the Edition exceed │
+                │  its jurisdiction?       │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │  4. Exception Encoding   │
+                │  Are forum-specific      │
+                │  exceptions recognized?  │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │  5. Version Discipline   │
+                │  Does Edition version    │
+                │  match repo version?     │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │  Fidelity Gate PASSED    │
+                │  Edition may load        │
+                └──────────────────────────┘
+
+---
+
+## Fidelity Gate Failure → STOP
+
+If any element fails:
+
+- STOP is mandatory
+- Edition does not load
+- Bootloader remains closed
+- Strategist must clarify the mismatch
+
+No Edition may load under ambiguity.
+
+---
+
+## Fidelity Gate Principles
+
+- Prevents Edition contamination
+- Prevents jurisdictional drift
+- Prevents inference of procedural physics
+- Ensures version alignment
+- Protects Strategist authority
+
+Edition activation is a constitutional act.
+Fidelity Gate protects the boundary.
+```
+
+---
+
+# 
+
+```
+/Editions/
+    Runtime-Movement.md
+    Strategist-Edition-Guide.md
+    Edition-Architecture-Diagram.md
+```
+
+---
+
+# **Edition Runtime Movement Rules (V7.0)**
+
+**File:** `/Editions/Runtime-Movement.md`
+
+```
+# Edition Runtime Movement Rules (V7.0)
+
+Edition runtime governs how LCES moves once an Edition is activated. Runtime movement
+is Edition-bound, STOP-governed, and Strategist-authorized. No Edition may load,
+reload, or unload without explicit Strategist command.
+
+---
+
+## 1. Edition Lock
+
+Once an Edition loads:
+
+- Edition becomes the governing procedural physics.
+- All SCUs become Edition-bound.
+- Architect, Builder, and Inspector operate under Edition constraints.
+- STOP triggers on any cross-Edition inference.
+- Edition remains active until Strategist commands a Hard Restart.
+
+Edition cannot be changed mid-workflow.
+
+---
+
+## 2. Runtime Movement Sequence
+
+Runtime movement follows this sequence:
+
+1. **Strategist Command** — Edition selection.
+2. **Fidelity Gate** — Edition validation.
+3. **Edition Load** — Procedural physics activated.
+4. **Role Activation** — Architect → Builder → Inspector.
+5. **SCU Deployment** — Edition-bound SCUs.
+6. **STOP Enforcement** — Continuous monitoring.
+7. **Strategist Oversight** — Human authority governs all movement.
+
+No step may be skipped or inferred.
+
+---
+
+## 3. Runtime Prohibitions
+
+During runtime:
+
+- No Edition mixing.
+- No Edition inference.
+- No Edition substitution.
+- No Edition drift.
+- No Edition collapse.
+- No Edition override by role or system.
+
+Only the Strategist may authorize Edition changes.
+
+---
+
+## 4. Cross-Edition Movement Rules
+
+Cross-Edition movement is prohibited unless:
+
+- the workflow is complete,
+- the Strategist commands a Hard Restart,
+- the Bootloader reopens,
+- the Fidelity Gate is re-run.
+
+Cross-Edition movement without restart triggers STOP.
+
+---
+
+## 5. STOP During Runtime
+
+STOP is mandatory when:
+
+- Edition physics are violated,
+- Edition physics are inferred,
+- Edition physics are ambiguous,
+- Edition physics conflict with the record,
+- Edition physics conflict with SCU structure.
+
+STOP halts runtime until Strategist clarification.
+
+---
+
+## 6. Runtime Closure
+
+Runtime closes when:
+
+- Strategist commands shutdown,
+- Edition workflow completes,
+- STOP cannot be resolved,
+- Version conflict is detected.
+
+Runtime closure requires Bootloader reactivation for next workflow.
+
+---
+
+## Supremacy Clause
+
+Edition runtime governs all procedural movement once activated.
+Ambiguity does not authorize inference.
+Edition purity is mandatory.
+```
+
+---
+
+# **Strategist Quick‑Start Guide for Edition Selection (V7.0)**
+
+**File:** `/Editions/Strategist-Edition-Guide.md`
+
+```
+# Strategist Quick‑Start Guide for Edition Selection (V7.0)
+
+Edition selection is a constitutional act. Only the Strategist may select, load, or
+change Editions. This guide provides a rapid, reliable method for determining which
+Edition governs the environment.
+
+---
+
+## Step 1 — Identify the Forum
+
+Ask: **Where is the matter actually happening?**
+
+- Small Claims → SC‑LCES
+- Family Court → FC‑LCES
+- Probate / Trust / Estate → TE‑LCES
+- Arbitration / Contract Enforcement → AC‑LCES
+
+If the forum is unclear → STOP.
+
+---
+
+## Step 2 — Identify the Procedural Physics
+
+Ask: **What physics govern the environment?**
+
+- Speed, simplicity, no discovery → SC‑LCES
+- Emergency posture, custody, safety → FC‑LCES
+- Timelines, fiduciary duties, lineage → TE‑LCES
+- Clause interpretation, rulesets → AC‑LCES
+
+If physics conflict → STOP.
+
+---
+
+## Step 3 — Identify the Burdens
+
+Ask: **What burdens apply?**
+
+- Minimal burdens → SC‑LCES
+- Mixed burdens (best interest, safety) → FC‑LCES
+- Fiduciary burdens → TE‑LCES
+- Contractual burdens → AC‑LCES
+
+If burdens are ambiguous → STOP.
+
+---
+
+## Step 4 — Identify the Timeline Structure
+
+Ask: **What timeline governs?**
+
+- Single hearing → SC‑LCES
+- Multi-stage hearings → FC‑LCES
+- Probate timelines → TE‑LCES
+- Contract timelines → AC‑LCES
+
+If timeline is unclear → STOP.
+
+---
+
+## Step 5 — Run the Fidelity Gate
+
+Edition loads only if:
+
+1. Reality Match
+2. Tacit Extraction
+3. Authority Boundaries
+4. Exception Encoding
+5. Version Discipline
+
+If any element fails → STOP.
+
+---
+
+## Step 6 — Activate the Edition
+
+Once the Fidelity Gate passes:
+
+- Strategist commands Edition load.
+- Bootloader activates Edition physics.
+- Runtime begins.
+
+No Edition may load without Strategist command.
+
+---
+
+## Quick Reference Table
+
+| Forum | Edition | Key Physics |
+|-------|---------|-------------|
+| Small Claims | SC‑LCES | Speed, simplicity, no discovery |
+| Family Court | FC‑LCES | Safety, posture, emergency |
+| Probate / Estate | TE‑LCES | Timelines, fiduciary duties |
+| Arbitration / Contracts | AC‑LCES | Clause interpretation, rulesets |
+
+---
+
+## Supremacy Clause
+
+Edition selection is a Strategist-only action.
+Ambiguity does not authorize inference.
+Edition purity is mandatory.
+
+```
+
+---
+
+**Edition Architecture Diagram (V7.0)**
+
+**File:** `/Editions/Edition-Architecture-Diagram.md`
+
+```
+# Edition Architecture Diagram (V7.0)
+
+This diagram shows how Editions fit within the LCES constitutional architecture.
+Editions are operational physics — not doctrine, not runtime mechanics, and not
+activation surfaces.
+
+---
+
+## High-Level Architecture
+
+                ┌──────────────────────────┐
+                │        Manifesto         │
+                │  (Doctrine & Philosophy) │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │         README           │
+                │ (Orientation & Activation)│
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │        Bootloader        │
+                │     (Runtime Control)    │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │         Editions         │
+                │   (Procedural Physics)   │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │           SCUs           │
+                │ (Operational Structure)  │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │        Governance        │
+                │ (Safety, Recovery, Version)│
+                └──────────────────────────┘
+
+---
+
+## Edition Layer Detail
+
+                ┌──────────────────────────┐
+                │        Editions          │
+                │  SC | FC | TE | AC       │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │   Edition Physics        │
+                │  (burdens, timelines,    │
+                │   posture, rulesets)     │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │   Edition STOP Triggers  │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │   Edition Runtime Rules  │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │   Edition-Bound SCUs     │
+                └──────────────────────────┘
+
+---
+
+## Layer Boundaries
+
+- Doctrine does not contain Edition physics.
+- Activation does not contain Edition rules.
+- Runtime does not contain Edition content.
+- Editions do not contain doctrine or runtime mechanics.
+- SCUs are Edition-bound but not Edition-defining.
+- Governance enforces safety across all layers.
+
+Edition purity is mandatory.
+```
+
+---
+
+# 
+
+```
+/Editions/
+    Edition-Layer-README.md
+    Strategist-Edition-Training.md
+    Edition-Flow-Diagram.md
+```
+
+---
+
+# **Edition Layer README (Unified Edition Layer Overview)**
+
+**File:** `/Editions/Edition-Layer-README.md`
+
+```
+# Edition Layer README (V7.0)
+
+The Edition Layer defines the procedural physics of the environment in which LCES
+operates. Editions are sovereign procedural universes. They govern burdens, timelines,
+posture, incentives, rulesets, and institutional behavior.
+
+Edition selection is a Strategist-only action. No Edition may load without explicit
+Strategist command.
+
+---
+
+## What the Edition Layer Contains
+
+The Edition Layer includes:
+
+- **Overview.md** — high-level Edition architecture
+- **Edition READMEs** — SC‑LCES, FC‑LCES, TE‑LCES, AC‑LCES
+- **STOP-Matrix.md** — cross-Edition STOP triggers
+- **Fidelity-Gate-Diagram.md** — Edition activation requirements
+- **Runtime-Movement.md** — Edition runtime rules
+- **Strategist-Edition-Guide.md** — Strategist selection guide
+- **Edition-Flow-Diagram.md** — Edition architecture diagram
+
+Each file is Edition-pure and non-overlapping.
+
+---
+
+## Purpose of the Edition Layer
+
+The Edition Layer ensures:
+
+- jurisdictional accuracy,
+- procedural fidelity,
+- contamination resistance,
+- Edition purity,
+- correct burden alignment,
+- correct timeline structure,
+- correct posture sequencing.
+
+Editions encode the physics that govern Architect, Builder, and Inspector.
+
+---
+
+## Edition Sovereignty
+
+Each Edition is sovereign:
+
+- SC‑LCES — Small Claims
+- FC‑LCES — Family Court
+- TE‑LCES — Trust & Estate
+- AC‑LCES — Arbitration & Contracts
+
+No Edition may infer from another.
+No Edition may contaminate another.
+No Edition may collapse into another.
+
+---
+
+## Relationship to Other Layers
+
+- **Manifesto** — doctrine (not Edition physics)
+- **README** — activation (not Edition rules)
+- **Bootloader** — runtime control (not Edition content)
+- **SCU Layer** — operational structure (Edition-bound)
+- **Governance Layer** — safety, recovery, versioning
+
+Editions are operational physics, not doctrine and not runtime mechanics.
+
+---
+
+## Supremacy Clause
+
+Edition physics govern all procedural movement once activated.
+Ambiguity does not authorize inference.
+Edition purity is mandatory.
+```
+
+---
+
+# **Strategist Edition Training Module (V7.0)**
+
+**File:** `/Editions/Strategist-Edition-Training.md`
+
+```
+# Strategist Edition Training Module (V7.0)
+
+This module trains the Strategist to select, activate, and supervise Editions with
+precision and constitutional discipline. Edition selection is a constitutional act
+and cannot be delegated.
+
+---
+
+# Part I — The Strategist’s Role
+
+The Strategist:
+
+- selects the Edition,
+- authorizes activation,
+- supervises runtime,
+- resolves STOP,
+- commands Hard Restart,
+- ensures Edition purity.
+
+No other role may select or change Editions.
+
+---
+
+# Part II — The Four Questions
+
+Edition selection requires answering four questions:
+
+1. **Where is the matter happening?** (Forum)
+2. **What physics govern the environment?** (Procedural physics)
+3. **What burdens apply?** (Burden structure)
+4. **What timeline governs?** (Timeline structure)
+
+If any answer is unclear → STOP.
+
+---
+
+# Part III — Edition Identification Patterns
+
+### SC‑LCES (Small Claims)
+- Speed, simplicity, no discovery
+- Single hearing
+- High pro se participation
+
+### FC‑LCES (Family Court)
+- Emergency posture
+- Custody frameworks
+- Multi-hearing timelines
+
+### TE‑LCES (Trust & Estate)
+- Probate timelines
+- Fiduciary duties
+- Document lineage
+
+### AC‑LCES (Arbitration & Contracts)
+- Clause interpretation
+- Ruleset fidelity
+- Procedural autonomy
+
+---
+
+# Part IV — The Fidelity Gate
+
+Before activation, the Strategist must run:
+
+1. Reality Match
+2. Tacit Extraction
+3. Authority Boundaries
+4. Exception Encoding
+5. Version Discipline
+
+Failure → STOP.
+
+---
+
+# Part V — Activation Protocol
+
+1. Strategist selects Edition.
+2. Fidelity Gate runs.
+3. Bootloader loads Edition physics.
+4. Runtime begins.
+5. Architect → Builder → Inspector operate under Edition constraints.
+
+Edition cannot change mid-workflow.
+
+---
+
+# Part VI — STOP Resolution
+
+STOP requires:
+
+- identifying the violation,
+- clarifying the Edition physics,
+- correcting the mismatch,
+- re-running the Fidelity Gate,
+- resuming runtime.
+
+STOP is mandatory on ambiguity.
+
+---
+
+# Part VII — Strategist Mastery Checklist
+
+The Strategist must be able to:
+
+- identify Edition physics instantly,
+- detect contamination,
+- enforce Edition purity,
+- supervise runtime movement,
+- command Hard Restart,
+- maintain version discipline.
+
+Edition selection is a constitutional responsibility.
+
+---
+
+# Supremacy Clause
+
+The Strategist is the sovereign authority over Edition selection.
+Ambiguity does not authorize inference.
+Edition purity is mandatory.
+```
+
+---
+
+# ⭐ **M — Edition → SCU → Module Flow Diagram (V7.0)**
+
+**File:** `/Editions/Edition-Flow-Diagram.md`
+---
 # **🗂 LCES EDITIONS (V6.3 — Publication Edition)**
 
 ### *Environment‑Specific Procedural Layers Built on the Constitutional Core*
