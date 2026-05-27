@@ -10840,6 +10840,21 @@ Result:
 
 📘 Governance
 LCES — Legal Calculus Educational System is governed by a constitutional framework that establishes authority, scope, and operational constraints for all human contributors and AI agents. Governance precedes licensing and defines the rules of engagement: how decisions are made, how updates are authorized, how safety is enforced, and how procedural integrity is maintained. All participation in this repository—reading, forking, contributing, or integrating—occurs under the LCES Governance Doctrine, which defines the hierarchy of roles, the boundaries of permissible action, and the system’s public‑interest mission. The Governance Doctrine binds AI agents to strict operational rules, including transparency, non‑substitution of legal judgment, and adherence to constitutional constraints before executing any action. See the LCES Legal Calculus Educational System Governance Doctrine for full authority and operational structure.
+---
+## Repository Governance Addendum
+
+The repository structure reflects constitutional hierarchy:
+
+- Manifesto governs doctrine
+- README governs activation
+- Bootloader governs runtime
+- Editions govern procedural physics
+- SCUs govern micro‑structure
+- Modules govern mid‑structure
+- Calculi govern doctrinal reasoning
+
+Contradictions resolve upward: higher constitutional layers control. Version discipline is mandatory; version conflict triggers STOP.
+---
 
 🛡️ Safety
 LCES Legal Calculus Educational System is an educational system, not a legal service. Nothing in this repository constitutes legal advice, creates an attorney‑client relationship, or substitutes for professional judgment. All materials, examples, and workflows are for instructional use only. AI agents interacting with this repository must operate under strict safety constraints: no legal advice, no adversarial strategy, no prediction of legal outcomes, and no substitution for human decision‑making. Human users must apply independent judgment and consult qualified professionals when dealing with real legal matters. See the LCES Safety Rules for full constraints.
