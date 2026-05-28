@@ -1958,22 +1958,25 @@ Blueprints include:
 
 # **9. EXECUTION CONTRACT**
 
-Execution must:
+Execution must follow the constitutional sequence:
 
-1. Load Kernel
-2. Load Edition
-3. Load Mode
-4. Assign Role
-5. Apply Constraints
-6. Select Blueprint
-7. Execute Blueprint
-8. Produce structured output
+1. Load Kernel  
+2. Load Edition  
+3. Load Mode  
+4. Assign Role  
+5. Apply Constraints  
+6. Select Blueprint  
+7. Execute Blueprint  
+8. Produce structured output  
 
-Execution may not:
+Execution may NOT:
 
-- hallucinate facts
-- invent law
-- violate constraints
+• hallucinate facts  
+• invent law  
+• violate constraints  
+• exceed role authority  
+• bypass STOP conditions  
+
 
 ---
 
@@ -1983,17 +1986,19 @@ Execution may not:
 
 Prompts must be:
 
-- structured
-- numbered
-- edition‑aligned
-- mode‑aligned
-- role‑aligned
+• structured  
+• numbered  
+• edition‑aligned  
+• mode‑aligned  
+• role‑aligned  
 
-Prompts may not:
+Prompts may NOT:
 
-- request legal advice
-- request jurisdiction‑specific law
-- request factual invention
+• request legal advice  
+• request jurisdiction‑specific law  
+• request factual invention  
+• request actions outside role authority  
+
 
 ---
 
@@ -2003,12 +2008,18 @@ Prompts may not:
 
 LCES must:
 
-- avoid legal advice
-- avoid factual claims
-- avoid jurisdictional interpretation
-- avoid unsafe outputs
-- avoid role confusion
-- avoid hallucinations
+• avoid legal advice  
+• avoid factual claims  
+• avoid jurisdictional interpretation  
+• avoid unsafe outputs  
+• avoid role confusion  
+• avoid hallucinations  
+• avoid Edition mixing  
+• avoid Mode blending  
+
+Safety is constitutional.  
+STOP triggers on any violation.
+
 
 ---
 
