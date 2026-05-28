@@ -364,6 +364,15 @@ Procedure is not a conversation.
 
 Procedure is a stack.
 
+LCES is unique because it governs operational movement rather than outputs. 
+As autonomy increases, procedural constraints outperform prohibition. 
+LCES defines admissibility, authority boundaries, workflow fidelity, and 
+effect‑binding constraints, ensuring that no actor—human or machine—may move, 
+authorize, or bind an effect outside its jurisdiction. Autonomy is bounded 
+by procedure, not expression.
+
+
+
 ---
 
 # **XII. WHY MICROSOFT WAS THE DISCOVERY ENVIRONMENT**
@@ -379,6 +388,14 @@ LCES emerged through Microsoft because only Microsoft provided:
 LCES was not designed.
 
 It was discovered.
+
+LCES assumes an attested, non‑subvertible substrate as a foundational 
+precondition for constitutional governance. Hardware enforces impossibility; 
+LCES enforces admissibility. This layered model—silicon enforcing physical 
+boundaries and LCES enforcing procedural boundaries—was discoverable only in 
+an environment where substrate integrity, cryptographic attestation, and 
+multi‑layered authority surfaces could converge.
+
 
 ---
 
@@ -507,6 +524,15 @@ This surface defines:
 
 STOP is constitutional law.
 
+
+STOP governs not only reasoning but movement, authority transfer, and 
+effect‑binding execution. LCES constrains the procedures, transitions, and 
+authority transfers that lead to consequential actions. No actor—human or 
+machine—may cross a boundary they are not constitutionally authorized to 
+cross. STOP activates on any attempt to bind an effect outside jurisdiction, 
+exceed admissibility, or initiate unauthorized movement.
+
+
 ---
 
 # **XIX. THE IMPLEMENTATION SURFACE — STACK LOADING & TRANSITIONS**
@@ -589,6 +615,15 @@ Governing AI outputs is no longer sufficient; the durable governance surface is 
 ---
 
 The LCES architecture is built as a constitutional operating system that governs operational movement rather than outputs. Its core layers define admissibility, authority boundaries, workflow fidelity, and effect‑binding constraints, ensuring that no actor—human or machine—can move, authorize, or bind an effect outside its jurisdiction. LCES does not attempt to filter or prohibit expressions; instead, it constrains the procedures, execution points, and authority transfers that lead to consequential actions. This architecture assumes an attested and non‑subvertible substrate beneath it, with hardware enforcing impossibility and LCES enforcing admissibility, creating a layered governance model where autonomy is bounded by procedure rather than prohibition.
+
+
+Doctrine explains. Runtime authorizes. Execution performs. Preservation 
+protects. No operational layer may be inferred from doctrine, and no 
+doctrinal surface may collapse into an operational one. SCUs, Edition 
+physics, Bootloader mechanics, and runtime movement rules are operational 
+artifacts and therefore do not appear in the Manifesto. The Addendum 
+preserves the constitutional firewall between doctrine and execution.
+
 
 ---
 # **README — Orientation & Activation Layer (V7.0, Maximum Completeness Edition)**
