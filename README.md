@@ -576,6 +576,21 @@ The Manifesto defines the purpose, philosophy, and constitutional inheritance of
 
 Doctrine explains. Runtime authorizes. Execution performs. Preservation protects.
 ---
+LCES teaches the user **how the system thinks** — procedurally, structurally, and constitutionally.
+
+---
+
+LCES assumes an attested, non‑subvertible substrate as a foundational precondition for constitutional governance. Silicon‑level Technical Inaccessibility, including hardware‑rooted cryptographic boundaries and enclave‑sealed secrets, is outside the scope of LCES but fully compatible with it. Hardware enforces impossibility; LCES enforces admissibility. This separation ensures that substrate integrity is guaranteed by the chip, while authority movement, jurisdiction, and consequence are governed by LCES. Together, they form a layered architecture in which no actor—human or machine—can cross a boundary they are not physically or constitutionally authorized to cross.
+
+---
+
+Governing AI outputs is no longer sufficient; the durable governance surface is the control of operational movement, authority boundaries, and consequence‑bearing execution, because as autonomy increases, procedural constraints outperform prohibition.
+
+---
+
+The LCES architecture is built as a constitutional operating system that governs operational movement rather than outputs. Its core layers define admissibility, authority boundaries, workflow fidelity, and effect‑binding constraints, ensuring that no actor—human or machine—can move, authorize, or bind an effect outside its jurisdiction. LCES does not attempt to filter or prohibit expressions; instead, it constrains the procedures, execution points, and authority transfers that lead to consequential actions. This architecture assumes an attested and non‑subvertible substrate beneath it, with hardware enforcing impossibility and LCES enforcing admissibility, creating a layered governance model where autonomy is bounded by procedure rather than prohibition.
+
+---
 # **README — Orientation & Activation Layer (V7.0, Maximum Completeness Edition)**
 
 *Legal Calculus Educational System (LCES)*
