@@ -594,35 +594,59 @@ The Manifesto defines the purpose, philosophy, and constitutional inheritance of
 
 Doctrine explains. Runtime authorizes. Execution performs. Preservation protects.
 ---
-## Manifesto Addendum — Constitutional Boundaries (V7.0 Alignment)
+Manifesto Addendum — Constitutional Boundaries (V7.0 Alignment)
 
-LCES doctrine governs the constitutional principles of procedural literacy, human authority, and structural reasoning. Operational artifacts such as SCUs, Edition physics, runtime movement rules, and Bootloader mechanics are not constitutional surfaces and therefore do not appear in the Manifesto.
+LCES doctrine governs the constitutional principles of procedural literacy, 
+human authority, and structural reasoning. Operational artifacts such as SCUs, 
+Edition physics, runtime movement rules, and Bootloader mechanics are not 
+constitutional surfaces and therefore do not appear in the Manifesto.
 
-The Manifesto defines the purpose, philosophy, and constitutional inheritance of LCES. The README governs activation. The Bootloader governs runtime. The Editions govern procedural physics. The SCU layer governs operational structure. No operational layer may be inferred from doctrine, and no doctrinal surface may collapse into an operational one.
+The Manifesto defines the purpose, philosophy, and constitutional inheritance 
+of LCES. The README governs activation. The Bootloader governs runtime. The 
+Editions govern procedural physics. The SCU layer governs operational 
+structure. No operational layer may be inferred from doctrine, and no 
+doctrinal surface may collapse into an operational one.
 
-Doctrine explains. Runtime authorizes. Execution performs. Preservation protects.
----
-LCES teaches the user **how the system thinks** — procedurally, structurally, and constitutionally.
+Doctrine explains. Runtime authorizes. Execution performs. Preservation 
+protects.
 
----
+LCES teaches the user how the system thinks — procedurally, structurally, and 
+constitutionally.
 
-LCES assumes an attested, non‑subvertible substrate as a foundational precondition for constitutional governance. Silicon‑level Technical Inaccessibility, including hardware‑rooted cryptographic boundaries and enclave‑sealed secrets, is outside the scope of LCES but fully compatible with it. Hardware enforces impossibility; LCES enforces admissibility. This separation ensures that substrate integrity is guaranteed by the chip, while authority movement, jurisdiction, and consequence are governed by LCES. Together, they form a layered architecture in which no actor—human or machine—can cross a boundary they are not physically or constitutionally authorized to cross.
+LCES assumes an attested, non‑subvertible substrate as a foundational 
+precondition for constitutional governance. Silicon‑level Technical 
+Inaccessibility, including hardware‑rooted cryptographic boundaries and 
+enclave‑sealed secrets, is outside the scope of LCES but fully compatible with 
+it. Hardware enforces impossibility; LCES enforces admissibility. This 
+separation ensures that substrate integrity is guaranteed by the chip, while 
+authority movement, jurisdiction, and consequence are governed by LCES. 
+Together, they form a layered architecture in which no actor—human or 
+machine—can cross a boundary they are not physically or constitutionally 
+authorized to cross.
 
----
+Governing AI outputs is no longer sufficient; the durable governance surface is 
+the control of operational movement, authority boundaries, and 
+consequence‑bearing execution, because as autonomy increases, procedural 
+constraints outperform prohibition.
 
-Governing AI outputs is no longer sufficient; the durable governance surface is the control of operational movement, authority boundaries, and consequence‑bearing execution, because as autonomy increases, procedural constraints outperform prohibition.
-
----
-
-The LCES architecture is built as a constitutional operating system that governs operational movement rather than outputs. Its core layers define admissibility, authority boundaries, workflow fidelity, and effect‑binding constraints, ensuring that no actor—human or machine—can move, authorize, or bind an effect outside its jurisdiction. LCES does not attempt to filter or prohibit expressions; instead, it constrains the procedures, execution points, and authority transfers that lead to consequential actions. This architecture assumes an attested and non‑subvertible substrate beneath it, with hardware enforcing impossibility and LCES enforcing admissibility, creating a layered governance model where autonomy is bounded by procedure rather than prohibition.
-
+The LCES architecture is built as a constitutional operating system that 
+governs operational movement rather than outputs. Its core layers define 
+admissibility, authority boundaries, workflow fidelity, and effect‑binding 
+constraints, ensuring that no actor—human or machine—can move, authorize, or 
+bind an effect outside its jurisdiction. LCES does not attempt to filter or 
+prohibit expressions; instead, it constrains the procedures, execution points, 
+and authority transfers that lead to consequential actions. This architecture 
+assumes an attested and non‑subvertible substrate beneath it, with hardware 
+enforcing impossibility and LCES enforcing admissibility, creating a layered 
+governance model where autonomy is bounded by procedure rather than 
+prohibition.
 
 Doctrine explains. Runtime authorizes. Execution performs. Preservation 
 protects. No operational layer may be inferred from doctrine, and no 
-doctrinal surface may collapse into an operational one. SCUs, Edition 
-physics, Bootloader mechanics, and runtime movement rules are operational 
-artifacts and therefore do not appear in the Manifesto. The Addendum 
-preserves the constitutional firewall between doctrine and execution.
+doctrinal surface may collapse into an operational one. SCUs, Edition physics, 
+Bootloader mechanics, and runtime movement rules are operational artifacts and 
+therefore do not appear in the Manifesto. The Addendum preserves the 
+constitutional firewall between doctrine and execution.
 
 
 ---
