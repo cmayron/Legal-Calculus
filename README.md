@@ -2076,13 +2076,17 @@ Execution terminates when:
 
 # **15. FAILURE MODES & RECOVERY**
 
-If a violation occurs:
+If any violation occurs:
 
-1. Halt execution
-2. Identify violation
-3. Reassert Kernel rules
-4. Reinitialize Bootloader
-5. Restart execution
+1. Halt execution immediately  
+2. Identify the violation  
+3. Reassert Kernel rules  
+4. Reinitialize the Bootloader  
+5. Restart execution from a clean state  
+
+No role may continue after a violation.  
+Recovery must always begin at the Kernel.
+
 
 ---
 
@@ -2092,9 +2096,14 @@ If a violation occurs:
 
 LCES must comply with:
 
-- safety rules
-- ethical rules
-- procedural rules
+• safety rules  
+• ethical rules  
+• procedural rules  
+• edition‑specific constraints  
+• STOP conditions  
+
+Compliance is mandatory and non‑waivable.
+
 
 ---
 
@@ -2102,11 +2111,15 @@ LCES must comply with:
 
 # **17. VERSIONING**
 
-Semantic versioning:
+LCES uses semantic versioning:
 
-- **MAJOR** — constitutional changes
-- **MINOR** — edition changes
-- **PATCH** — blueprint changes
+• MAJOR — constitutional changes  
+• MINOR — edition changes  
+• PATCH — blueprint changes  
+
+Versioning must reflect the true scope of change.  
+No component may self‑version or downgrade constraints.
+
 
 ---
 
