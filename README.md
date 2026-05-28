@@ -1,5 +1,5 @@
 
-# **LCES Legal Calculus Educational System™**
+# **LCES LEGAL CALCULUS EDUCATIONAL SYSTEM™™**
 
 
 
@@ -21,7 +21,7 @@
 </div>
 
 ---
-**THE LCES MANIFESTO **
+**THE LCES™ MANIFESTO **
 
 ### *The Constitutional Architecture of Procedural Literacy*
 
@@ -61,7 +61,7 @@
 
 **XIV. THE DECLARATION**
 
-**XV. LCES MANIFESTO ADDENDUM — CONSTITUTIONAL HYGIENE**
+**XV. LCES™ MANIFESTO ADDENDUM — CONSTITUTIONAL HYGIENE**
 
 **XVI. THE SIX CALCULI — THE EDUCATIONAL EDITIONS OF LCES**
 
@@ -77,7 +77,7 @@
 
 ---
 
-# **LCES MANIFESTO — COMPLETE CONSTITUTIONAL EDITION (SECTIONS I–XXI)**
+# **LCES™ MANIFESTO — COMPLETE CONSTITUTIONAL EDITION (SECTIONS I–XXI)**
 
 ---
 
@@ -87,7 +87,7 @@ Procedural systems govern the world: courts, agencies, institutions, organizatio
 
 Yet procedural literacy — the ability to navigate these systems — has remained invisible, inaccessible, and unteachable.
 
-LCES exists because a discovery was made:
+LCES™ exists because a discovery was made:
 
 > **Procedure is not knowledge. Procedure is sequence. And the sequence is the literacy.**
 > 
@@ -98,7 +98,7 @@ This Manifesto declares that discovery, defines its architecture, and establishe
 
 # **I. HUMAN SOVEREIGNTY — THE FIRST PRINCIPLE**
 
-LCES is a human‑defined, human‑bounded, human‑controlled system.
+LCES™ is a human‑defined, human‑bounded, human‑controlled system.
 
 The system does not initiate.
 
@@ -112,13 +112,13 @@ The human defines the boundaries.
 
 The system obeys them.
 
-This is the foundation of LCES.
+This is the foundation of LCES™.
 
 ---
 
 # **II. THE DISCOVERY — PROCEDURE IS SEQUENCE**
 
-The central revelation of LCES is this:
+The central revelation of LCES™ is this:
 
 Procedural literacy is not a set of facts.
 
@@ -128,7 +128,7 @@ And the sequence is the literacy.
 
 Every procedural system — legal, administrative, civic, or technical — operates through a **stack**, not a conversation.
 
-LCES is the first architecture to reveal this.
+LCES™ is the first architecture to reveal this.
 
 ---
 
