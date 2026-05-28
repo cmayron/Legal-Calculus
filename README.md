@@ -629,8 +629,45 @@ preserves the constitutional firewall between doctrine and execution.
 # **README — Orientation & Activation Layer (V7.0, Maximum Completeness Edition)**
 
 *Legal Calculus Educational System (LCES)*
+# Operational Boundary Rules (Runtime Surface)
 
-*Modernized, Deduplicated, Production‑Grade Edition*
+The README governs activation, runtime behavior, Edition containment, SCU 
+lifecycle, and movement rules. It does not govern doctrine and must not be 
+interpreted as a constitutional text.
+
+Operational artifacts include:
+- SCUs
+- Edition physics
+- runtime movement rules
+- Bootloader mechanics
+- device‑level runtime discipline
+
+These artifacts define how LCES executes work, not why the system exists or 
+what its constitutional principles are.
+
+Runtime rules:
+- Doctrine is defined in the Manifesto.
+- Activation is defined in the README.
+- Runtime is governed by the Bootloader.
+- Procedural physics are governed by Editions.
+- Operational structure is governed by SCUs.
+
+No operational rule may be inferred from doctrine, and no doctrinal statement 
+may be restated in the README. The README enforces runtime boundaries and 
+ensures that execution remains role‑bounded, Edition‑bounded, and STOP‑governed.
+
+LCES runtime assumes a secure, version‑controlled environment. Hardware 
+enforces impossibility; LCES enforces admissibility. Runtime movement is 
+bounded by procedure, not by inference or assumption.
+
+Operational governance focuses on:
+- controlling movement
+- enforcing authority boundaries
+- preventing unauthorized execution
+- ensuring reversible, reviewable workflows
+
+The README preserves the firewall between doctrine and execution.
+
 
 ---
 
@@ -656,6 +693,8 @@ It defines:
 This document is **self‑contained**.
 
 No other file is required to activate or supervise LCES.
+
+---
 
 ---
 
