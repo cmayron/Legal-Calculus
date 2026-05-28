@@ -1495,12 +1495,6 @@ LCES transforms:
 - workflows → governed constitutional sequences
 ---
 
-# FOUNDATIONAL DOCTRINE
-
-> The Record is the Case.  
-> The Record is the Remedy.
-
-LCES is constitutional governance; the substrate is constitutional physics. LCES governs admissible movement: it defines legitimacy by enforcing sequence, role separation, reversible execution, and structured, reviewable records. The substrate governs state truth: it provides cryptographic, model-independent proof of every state transition, making tampering and rewriting detectable. LCES does not attempt to prove itself; it requires an external, deterministic substrate it cannot influence. Governance rule: LCES prevents illegitimate behavior from forming; the substrate prevents illegitimate behavior from being hidden. Constitutional rule: LCES defines legitimacy; the substrate proves legitimacy.
 
 
 ---
