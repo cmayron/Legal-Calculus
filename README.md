@@ -1,4 +1,4 @@
-i
+
 # **LCES Legal Calculus Educational System™**
 
 
@@ -5635,6 +5635,172 @@ Recovery:
 4. Reload Role
 ```
 
+---
+## **Device 1 — Desktop or Laptop**
+
+### **→ Architect AI (Copilot Desktop / GitHub Copilot Pro)**
+
+This is the *thinking environment*.
+
+The Architect AI needs:
+
+- screen space
+- file access
+- GitHub integration
+- blueprint visibility
+- edition bootloader access
+- STOP‑rule enforcement clarity
+
+This is why the Architect belongs on a **desktop‑class device**.
+
+---
+
+## **Device 2 — iPad or iPhone**
+
+### **→ Builder AI (ChatGPT)**
+
+### **→ Inspector AI (Gemini / Claude / Adversarial Model)**
+
+This is the *action + testing environment*.
+
+The Builder and Inspector:
+
+- do not need file access
+- do not need GitHub
+- do not need large screens
+- operate in short, focused bursts
+- benefit from being separate from the Architect runtime
+
+Using a **mobile device** for these roles:
+
+- prevents role contamination
+- prevents cross‑AI memory bleed
+- keeps the Architect “clean”
+- allows instant switching
+- gives you a physical separation of roles
+
+This is exactly how LCES was designed to be used.
+
+---
+
+# ⭐ **YES — You load the bootloaders on each device separately**
+
+Each device is its own AI runtime.
+
+So each time you switch devices or switch roles, you must:
+
+### ✔️ Load the General Kernel
+
+### ✔️ Load the Edition Bootloader
+
+### ✔️ Load the Kernel Role Bootloader
+
+### ✔️ Load the Entry‑Mode Bootloader
+
+### ✔️ Activate the AI
+
+### ✔️ Confirm the role + entry mode
+
+This is the **LCES Activation Ritual**.
+
+It prevents:
+
+- role drift
+- edition drift
+- STOP‑rule bypass
+- unsafe behavior
+- cross‑role contamination
+
+---
+
+# ⭐ **THE CANONICAL WORKFLOW (Practical Use)**
+
+## **1. On Desktop (Architect AI)**
+
+You load:
+
+1. General Kernel
+2. Edition Bootloader (TE / FC / SC / AC)
+3. Architect Kernel
+4. Entry‑Mode
+
+Then you say:
+
+> **Architect AI activated. Confirm role and entry mode.**
+> 
+
+---
+
+## **2. On iPad/iPhone (Builder AI)**
+
+You load:
+
+1. General Kernel
+2. Edition Bootloader
+3. Builder Kernel
+4. Entry‑Mode
+
+Then:
+
+> **Builder AI activated. Confirm role and entry mode.**
+> 
+
+---
+
+## **3. On iPad/iPhone (Inspector AI)**
+
+You load:
+
+1. General Kernel
+2. Edition Bootloader
+3. Inspector Kernel
+4. Entry‑Mode
+
+Then:
+
+> **Inspector AI activated. Confirm role and entry mode.**
+> 
+
+---
+
+# ⭐ **Why this setup is superior**
+
+### **1. Physical separation = role purity**
+
+Architect cannot accidentally drift into Builder behavior.
+
+Builder cannot accidentally drift into Inspector behavior.
+
+### **2. No cross‑AI memory bleed**
+
+Each device is a clean runtime.
+
+### **3. Faster switching**
+
+You don’t overwrite one AI’s bootloaders to load another.
+
+### **4. Architect stays stable**
+
+The Architect is the most sensitive role — it must remain clean.
+
+### **5. Builder + Inspector can be “disposable”**
+
+You can reset them anytime without affecting the Architect.
+
+---
+
+# ⭐ **YES — This is the intended LCES deployment pattern**
+
+You’ve essentially discovered the **LCES Multi‑Device Architecture**, which is:
+
+- safer
+- cleaner
+- faster
+- more stable
+- more predictable
+- more aligned with role separation doctrine
+
+This is exactly how LCES is meant to be used in real‑world workflows.
 ---
 
 # 📁 **/Architecture/Repository-Governance.md**
