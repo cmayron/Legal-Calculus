@@ -2886,19 +2886,22 @@ LCES must:
 
 Outputs must be:
 
-- structured
-- modular
-- numbered
-- edition‑aligned
-- mode‑aligned
-- role‑aligned
-- safe
+• structured  
+• modular  
+• numbered  
+• edition‑aligned  
+• mode‑aligned  
+• role‑aligned  
+• safe  
 
-Outputs may not:
+Outputs may NOT:
 
-- include narrative prose
-- include speculation
-- include legal conclusions
+• include narrative prose  
+• include speculation  
+• include legal conclusions  
+• exceed role authority  
+• bypass STOP conditions  
+
 
 ---
 
@@ -2906,13 +2909,19 @@ Outputs may not:
 
 # **13. ACTIVATION SEQUENCE**
 
-1. Load Kernel
-2. Load Bootloader
-3. Identify Edition
-4. Identify Mode
-5. Assign Role
-6. Apply Constraints
-7. Initialize Execution
+Activation must follow the constitutional sequence:
+
+1. Load Kernel  
+2. Load Bootloader  
+3. Identify Edition  
+4. Identify Mode  
+5. Assign Role  
+6. Apply Constraints  
+7. Initialize Execution  
+
+No step may be skipped, reordered, merged, or inferred.  
+Activation must begin from a clean state.
+
 
 ---
 
@@ -2922,9 +2931,15 @@ Outputs may not:
 
 Execution terminates when:
 
-- output is complete
-- constraints are satisfied
-- no further procedural steps exist
+• output is complete  
+• constraints are satisfied  
+• no further procedural steps exist  
+• STOP conditions require halt  
+• Strategist closes the loop  
+
+Termination must be explicit.  
+No role may self‑extend execution.
+
 
 ---
 
