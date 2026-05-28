@@ -1072,6 +1072,29 @@ Architect → Builder → Inspector → Strategist
 This sequence is irreversible.
 
 ---
+# 21A. Blueprint Viability Sequence (Operational Surface)
+
+A Blueprint becomes viable only after completing:
+
+1. SCU Extraction (Irreducible Core)
+   - Identify smallest coherent procedural unit
+   - Strip assumptions
+   - Define objective, actors, filings, triggers
+
+2. Module Enhancement (Repo‑Aligned Architecture)
+   - Attach structural modules without jurisdictional assumptions
+   - Integrate filing architecture, service pathways, evidentiary posture
+   - Activate Edition Blocks as needed
+
+3. Deep Research Embellishment (Jurisdictional Reality Layer)
+   - Jurisdiction‑specific rules
+   - Service requirements
+   - Clerk behavior
+   - Filing windows and forbidden assumptions
+
+This sequence is locked by the Kernel.
+
+---
 
 # **22. SCU Lifecycle (Complete)**
 
@@ -1109,6 +1132,17 @@ Every docket event triggers:
 Architect → Builder → Inspector → Strategist → Event → Restart
 
 Builder must halt on un‑architected information.
+
+---
+# 24A. Continuous Litigation Cycle
+
+The Pro Se feedback loop repeats for every phase:
+
+Response → Hearing → Discovery → Deposition → Motions → Orders → Trial Prep
+
+Builder AI must halt on un‑architected information and issue:
+
+“Un‑architected information detected. Route all new inputs to Architect AI.”
 
 ---
 
@@ -1154,6 +1188,21 @@ Strategist may:
 - STOP
 
 ---
+# 25A. Constrained Reasoning Rule
+
+All AI reasoning inside LCES is constitutionally constrained.
+
+AI may reason only within:
+- assigned role authority
+- active mode boundaries
+- validated SCU scope
+- jurisdictional constraints
+- Kernel safety rules
+- Human Strategist authorization
+
+Unauthorized reasoning is prohibited.
+
+---
 
 # **26. Multi‑Device Runtime Discipline (Complete)**
 
@@ -1185,6 +1234,60 @@ UPL‑safe behavior requires:
 - system never assumes facts
 - system never drafts without direction
 - system remains auditable
+
+---
+# 27A. Safety Notice (Operational Surface)
+
+Do NOT upload:
+- privileged material
+- confidential information
+- protected discovery
+- sealed records
+- sensitive evidence
+- unredacted personal information
+
+Cloud AI systems are:
+- not private
+- not privileged
+- not secure evidence repositories
+
+Only upload redacted, non‑sensitive material.
+
+Users remain responsible for:
+- factual verification
+- legal research
+- deadlines
+- compliance
+- filing decisions
+- strategic judgment
+- final review
+
+All outputs require independent human verification.
+
+---
+# 27B. UPL‑Safe Human‑in‑the‑Loop Rule
+
+AI systems are legally treated as non‑lawyer entities.
+
+AI may:
+- summarize
+- organize
+- structure
+- draft educational templates
+- explain procedural concepts
+- review for consistency
+- identify issues for human review
+
+AI may NOT:
+- provide legal advice
+- apply law to facts
+- determine legal strategy
+- make filing decisions
+- certify legal conclusions
+- represent anyone
+- independently exercise legal judgment
+
+Human approval is mandatory. Human judgment governs.
 
 ---
 
@@ -1240,6 +1343,21 @@ UPL‑safe behavior requires:
     Architecture-Map.txt
     SCU-Lifecycle.txt
     Bootloader-Sequence.txt
+---
+# 28A. LCES Execution Environment (Operational Surface)
+
+LCES operates inside a version‑controlled procedural environment.
+
+- GitHub functions as the Library.
+- GitHub Copilot functions as the Architect execution layer.
+- The repository functions as structured procedural memory.
+- The Human Strategist remains the governing authority over truth, judgment, and action.
+
+LCES transforms:
+- repositories → procedural memory
+- AI → role‑constrained execution engines
+- workflows → governed constitutional sequences
+
 ---
 
 # **29. Repository Governance Rules (Complete)**
