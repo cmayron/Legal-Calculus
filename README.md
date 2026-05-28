@@ -141,7 +141,7 @@ LCES is the first architecture to reveal this.
 
 ---
 
-**Human Strategist** (final authority)
+**Human Strategist** (**final authority**)
 
 Each layer depends on the one beneath it.
 
@@ -886,7 +886,7 @@ STOP is the **circuit breaker** of LCES.
 
 ---
 
-# **9. Role Purity Doctrine (Expanded)**
+# **9. Role Purity Doctrine**
 
 Roles must remain separate:
 
@@ -906,7 +906,7 @@ Role purity is mandatory for reproducibility.
 
 ---
 
-# **10. Edition Containment Doctrine (Expanded)**
+# **10. Edition Containment Doctrine**
 
 Editions define **where** the system is operating:
 
@@ -945,7 +945,8 @@ Only the Architect may load Calculi:
 - LCa
 - JC
 
-Builder and Inspector never load Calculi.
+Builder may never load Calculi.
+Inspector may load LCa and JC
 
 ---
 
@@ -1041,7 +1042,7 @@ After activation:
 
 ---
 
-# **19. README Addendum**
+# **19.  **Governs**
 
 This README governs:
 
@@ -1053,7 +1054,7 @@ This README governs:
 
 ---
 
-# **20. Bootloader Addendum (Consolidated)**
+# **20. Bootloader**
 
 Bootloader must:
 
@@ -1096,7 +1097,7 @@ This sequence is locked by the Kernel.
 
 ---
 
-# **22. SCU Lifecycle (Complete)**
+# **22. SCU Lifecycle**
 
 SCUs are the smallest safe procedural units.
 
@@ -1146,7 +1147,7 @@ Builder AI must halt on un‑architected information and issue:
 
 ---
 
-# **25. Runtime Movement Rules (Complete)**
+# **25. Runtime Movement Rules**
 
 Architect may:
 
@@ -1204,7 +1205,7 @@ Unauthorized reasoning is prohibited.
 
 ---
 
-# **26. Multi‑Device Runtime Discipline (Complete)**
+# **26. Multi‑Device Runtime Discipline**
 
 Device 1 — Architect
 
@@ -1360,7 +1361,7 @@ LCES transforms:
 
 ---
 
-# **29. Repository Governance Rules (Complete)**
+# **29. Repository Governance Rules**
 
 - Manifesto governs doctrine
 - README governs activation
@@ -1479,7 +1480,7 @@ Speed does not override sequence.
 The record is the remedy.**
 
 ---
-⚖️ LCES Execution Environment
+# **LCES Execution Environment**
 LCES operates inside a version‑controlled procedural environment:
 
 GitHub functions as the Library.
@@ -1574,7 +1575,7 @@ AI may reason only within:
 
 Unauthorized reasoning is prohibited.
 ----
-# **⚙️ Execution Layer — Role‑Governed Workflow**
+# **Execution Layer — Role‑Governed Workflow**
 
 ### **Architect → Builder → Inspector → Human Strategist**
 
@@ -1614,7 +1615,7 @@ This sequence is **locked by the Kernel**.
 
 ---
 
-# **📤 Output Layer — Human‑Supervised Work Product**
+# **Output Layer — Human‑Supervised Work Product**
 
 Outputs include:
 
@@ -1690,7 +1691,7 @@ The cycle continues until the case ends.
 
 ---
 
-# **🛡️ Risk & Safety Architecture**
+# **Risk & Safety Architecture**
 
 LCES uses a dual‑layer safety model:
 
