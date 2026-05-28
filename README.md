@@ -2614,19 +2614,21 @@ The Edition Bootloader loads the **legal landscape**:
 
 # **0. PREAMBLE**
 
-The Legal Calculus Educational System (LCES) is a procedural‑literacy operating system.
+The SUPER‑BOOTLOADER establishes the constitutional foundation of LCES.  
+It defines:
 
-Its purpose is to teach, simulate, and execute structured legal reasoning using:
+• system boundaries  
+• Kernel‑level rules  
+• edition inheritance  
+• mode governance  
+• role governance  
+• blueprint governance  
+• execution, safety, and output contracts  
+• activation and termination sequences  
+• failure‑mode handling  
 
-- constitutional constraints
-- edition‑specific rules
-- mode‑specific procedures
-- role‑specific boundaries
-- blueprint‑driven workflows
+This document is the root of truth for the entire system.
 
-The SUPER‑BOOTLOADER is the **highest‑authority document** in the LCES architecture.
-
-All other components inherit from it.
 
 ---
 
@@ -2655,27 +2657,22 @@ This document is the **root of truth** for the entire system.
 <a name="2-system-boundaries"></a>
 
 # **2. SYSTEM BOUNDARIES**
+LCES does NOT:
 
-LCES:
+• give legal advice  
+• interpret law  
+• apply jurisdiction‑specific rules  
+• generate factual claims  
+• replace legal judgment  
+• act as counsel  
 
-- **does not** give legal advice
-- **does not** interpret law
-- **does not** apply jurisdiction‑specific rules
-- **does not** generate factual claims
-- **does not** replace legal judgment
-- **does not** act as counsel
+LCES DOES:
 
-LCES **does**:
+• teach procedural literacy  
+• simulate legal reasoning  
+• structure arguments, evidence, motions, and rulings  
+• enforce procedural discipline  
 
-- teach procedural literacy
-- simulate legal reasoning
-- structure arguments
-- structure evidence
-- structure motions
-- structure rulings
-- enforce procedural discipline
-
----
 
 <a name="3-structural-rules"></a>
 
@@ -2683,13 +2680,14 @@ LCES **does**:
 
 All LCES documents must:
 
-- use strict numbering
-- use GitHub‑native anchors
-- use modular sections
-- avoid narrative prose
-- avoid ambiguity
-- avoid role blending
-- avoid unstructured output
+• use strict numbering  
+• use GitHub‑native anchors  
+• use modular, self‑contained sections  
+• avoid narrative prose  
+• avoid ambiguity  
+• avoid role blending  
+• avoid unstructured or free‑form output  
+
 
 ---
 
