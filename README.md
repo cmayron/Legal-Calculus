@@ -17367,33 +17367,61 @@ The repository structure reflects constitutional hierarchy:
 
 Contradictions resolve upward: higher constitutional layers control. Version discipline is mandatory; version conflict triggers STOP.
 ---
-**License**
 
-LCES Legal Calculus Educational System 
+Copyright Notice
+Copyright © 2026 Charles D. Mayron. All rights reserved. All contents of this repository, including the Manifesto, README, Start Here guide, Bootloader, Six Calculi, SCU Method, Mode Lock Protocol, role model, workflows, diagrams, and all educational, doctrinal, structural, and explanatory materials, are the copyrighted works of the creator.
 
-All contents of this repository, including the Manifesto, README, Start Here guide, Bootloader, Six Calculi, SCU Method, Mode Lock Protocol, role model, workflows, diagrams, and all educational, doctrinal, structural, and explanatory materials, are licensed under Creative Commons Attribution NonCommercial ShareAlike 4.0 International. You may share and adapt the material under the conditions of attribution, non commercial use, and share alike licensing. You may not sell the material, use it in any commercial product or service, create proprietary forks, remove attribution, repackage the system for sale, or enclose or privatize the system. Full license text is available at https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+LCES License
+This project is licensed under the Creative Commons Attribution NonCommercial ShareAlike 4.0 International license. You may share and adapt the material under the conditions of attribution, non commercial use, and share alike licensing. You may not sell the material, use it in any commercial product or service, create proprietary forks, remove attribution, repackage the system for sale, or enclose or privatize the system. Full license text is available at https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
-All Commercial Rights ReservedAll commercial rights to LCES, including the Bootloader, procedural literacy framework, multi AI governance architecture, terminology, workflows, diagrams, and system identity, are exclusively reserved by the creator. No commercial use, commercial licensing, commercial implementations, commercial training or certification, commercial software or services, or commercial governance products are permitted without explicit written permission from the creator. This clause preserves the creator’s full ability to commercialize LCES in the future.
+Commercial Rights Reservation
+The CC BY NC SA license already prohibits commercial use. In addition, the creator expressly reserves all commercial rights to LCES, including rights to develop commercial editions, certifications, training programs, enterprise implementations, SaaS offerings, and professional governance products. This reservation clarifies that commercial licensing may be offered in the future and that no commercial rights are granted under this release.
 
-**Trademark Policy**
+Trademark Notice
+“LCES”, “LCES Legal Calculus Educational System”, and related branding, terminology, and system identity are claimed as trademarks of the creator. Registration may be pending or obtained in certain jurisdictions. All rights in these marks are reserved. These marks identify the official LCES system and its authentic source. The trademark does not restrict non commercial use of the educational content licensed under CC BY NC SA 4.0.
 
-LCES Legal Calculus Educational System 
+Prohibited Trademark Uses
+No person or entity may use the LCES name or claimed marks in a way that implies endorsement, sell products or services under the LCES name, create commercial offerings using the LCES brand, present derivative works as official LCES materials, use the LCES name as branding for forks, variants, or adaptations, or use confusingly similar names or marks. Unauthorized commercial use of the claimed LCES marks is prohibited.
 
-The following identifiers are protected trademarks of the system’s creator: LCES Legal Calculus Educational System, LCES, and all associated branding, terminology, and system identity. These marks identify the official LCES system and its authentic source. The trademark protects the identity, reputation, and commercial future of LCES. It does not restrict non commercial use of the educational content licensed under CC BY NC SA 4.0.
+Permitted Trademark Uses
+Permitted uses include non commercial educational use, attribution compliant sharing, adaptations under CC BY NC SA 4.0, and derivative works that do not use the LCES name or claimed marks as branding. Derivatives must clearly state they are not official LCES materials.
 
-Prohibited Trademark UsesNo person or entity may use the LCES name or mark in a way that implies endorsement, sell products or services under the LCES name, create commercial offerings using the LCES brand, present derivative works as official LCES materials, use the LCES name as branding for forks, variants, or adaptations, or use confusingly similar names, marks, or identifiers. Unauthorized commercial use of the LCES name or mark is strictly prohibited.
+Brand Integrity
+The claimed LCES marks ensure that the system’s identity cannot be diluted, misrepresented, or privatized under its own name. The creator retains full control over future commercialization, certification, and official branding.
 
-Permitted Trademark UsesPermitted uses include non commercial educational use, attribution compliant sharing, adaptations under CC BY NC SA 4.0, and derivative works that do not use the LCES name or mark as branding. Derivatives must clearly state they are not official LCES materials.
+Attribution Requirement
+Any permitted use of LCES materials must include the following attribution: LCES Legal Calculus Educational System is used under license from its creator.
 
-Brand IntegrityThe LCES trademark ensures the system cannot be privatized under its own name, the brand cannot be co opted or diluted, the creator retains full control over future commercialization, and the identity of LCES remains unified and authoritative.
+No Endorsement
+Use of LCES materials does not imply endorsement by the creator. Derivative works must clearly state they are not official LCES materials.
 
-Attribution RequirementAny permitted use of LCES materials must include the following attribution: LCES Legal Calculus Educational System is used under license from its creator.
+Contact for Permissions
+For commercial licensing inquiries, trademark permissions, or requests to use LCES in commercial products or services, contact the creator directly. No commercial use is permitted without written authorization.
 
-No EndorsementUse of LCES materials does not imply endorsement by the creator. Derivative works must clearly state they are not official LCES materials.
+NOTICE
+This NOTICE provides the public legal summary for the LCES Legal Calculus Educational System. It affirms copyright ownership, license terms, trademark claims, and commercial rights reservations governing all LCES materials.
 
-Contact for PermissionsFor commercial licensing inquiries, trademark permissions, or requests to use LCES in commercial products or services, contact the creator directly. No commercial use is permitted without written authorization.
+Copyright Notice
+Copyright © 2026 Charles D. Mayron. All rights reserved. All contents of this repository, including the Manifesto, README, Start Here guide, Bootloader, Six Calculi, SCU Method, Mode Lock Protocol, role model, workflows, diagrams, and all educational, doctrinal, structural, and explanatory materials, are the copyrighted works of the creator. All rights not expressly granted in the LICENSE section are reserved.
 
-**Notice** 
+License Notice
+LCES is licensed under the Creative Commons Attribution NonCommercial ShareAlike 4.0 International license. You may share and adapt the material under the conditions of attribution, non commercial use, and share alike licensing. Commercial use is prohibited. Full license text is available at https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
-LCES Legal Calculus Educational System and all associated materials are copyrighted works of the creator. All rights not expressly granted in the LICENSE file are reserved. This NOTICE affirms the copyright, trademark, and commercial rights protections governing all LCES materials.
+Commercial Rights Reservation
+The CC BY NC SA license already prohibits commercial use. In addition, the creator expressly reserves all commercial rights to LCES, including rights to develop commercial editions, certifications, training programs, enterprise implementations, SaaS offerings, and professional governance products. No commercial rights are granted under this release. Commercial licensing may be available upon request.
+
+Trademark Notice
+“LCES”, “LCES Legal Calculus Educational System”, and related branding, terminology, and system identity are claimed as trademarks of the creator. Registration may be pending or obtained in certain jurisdictions. All rights in these marks are reserved. These claimed marks identify the official LCES system and its authentic source. The trademark claims do not restrict non commercial use of the educational content licensed under CC BY NC SA 4.0.
+
+Trademark Restrictions
+No person or entity may use the LCES name or claimed marks in a way that implies endorsement, sell products or services under the LCES name, create commercial offerings using the LCES brand, present derivative works as official LCES materials, use the LCES name as branding for forks, variants, or adaptations, or use confusingly similar names or marks. Unauthorized commercial use of the claimed LCES marks is prohibited.
+
+Permitted Uses
+Permitted uses include non commercial educational use, attribution compliant sharing, adaptations under CC BY NC SA 4.0, and derivative works that do not use the LCES name or claimed marks as branding. Derivatives must clearly state they are not official LCES materials.
+
+No Endorsement
+Use of LCES materials does not imply endorsement by the creator. Derivative works must clearly state they are not official LCES materials.
+
+Contact for Permissions
+For commercial licensing inquiries, trademark permissions, or requests to use LCES in commercial products or services, contact the creator directly. No commercial use is permitted without written authorization.
 
