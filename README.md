@@ -132,6 +132,8 @@ LCES™ is the first architecture to reveal this.
 
 LCES™ was discovered as a doctrine‑library and operating‑system hybrid forged from procedural failure and AI behavior under legal pressure. Its core mechanisms—including gate‑level governance and the Architect–Builder–Inspector workflow—emerged from this discovery and form part of the constitutional inheritance of the system. These mechanisms are architectural rather than domain‑specific and apply wherever movement, authority, and consequence must be governed.
 
+LCES™ was discovered as a doctrine‑library and operating‑system hybrid forged from procedural failure and AI behavior under legal pressure. Its core mechanisms—including gate‑level governance and the Architect–Builder–Inspector workflow—emerged from this discovery and form part of the constitutional inheritance of the system. These mechanisms are architectural rather than domain‑specific and apply wherever movement, authority, and consequence must be governed.
+
 ---
 
 # **III. THE STACK — THE CONSTITUTIONAL ORDER OF REASONING**
@@ -490,6 +492,8 @@ They are Strategist‑governed, STOP‑enforced, Edition‑pure, and Sequence‑
 LCES originated as a legal Edition, but its constitutional architecture, including gate‑level governance and the Architect–Builder–Inspector workflow, is domain‑agnostic and applies to any system where movement, authority, and consequence must be bounded. These mechanisms are part of the LCES constitutional inheritance and remain protected, non‑derogable, and non‑transferable across all present and future applications. The legal Editions are implementations of the architecture, not its limits, and no domain‑specific use constrains or diminishes the scope of the underlying system.
 
 Although the Six Calculi express the legal Edition of LCES™, the architecture itself is not confined to law. Gate‑level governance and the Architect–Builder–Inspector workflow are constitutional mechanisms that apply to any domain where movement, authority, and consequence must be governed. The legal Editions demonstrate the architecture; they do not limit its scope.
+
+The constitutional mechanisms of LCES™—including gate‑level governance, the Architect–Builder–Inspector workflow, and the doctrine‑library architecture—are non‑appropriable inheritance. They may not be separated, replicated, or re‑expressed as independent systems, nor used to construct derivative frameworks that claim equivalent governance over movement, authority, or consequence. These mechanisms remain integral to LCES™ across all present and future domains. 
 
 ---
 
