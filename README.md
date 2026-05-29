@@ -371,7 +371,7 @@ effect‑binding constraints, ensuring that no actor—human or machine—may mo
 authorize, or bind an effect outside its jurisdiction. Autonomy is bounded 
 by procedure, not expression.
 
-
+LCES is transformative because it governs the gate where reasoning becomes action, preventing unauthorized consequences from binding and making the thought‑to‑action transition a constitutional surface.
 
 ---
 
