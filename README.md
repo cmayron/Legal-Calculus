@@ -130,6 +130,8 @@ Every procedural system — legal, administrative, civic, or technical — opera
 
 LCES™ is the first architecture to reveal this.
 
+LCES™ was discovered as a doctrine‑library and operating‑system hybrid forged from procedural failure and AI behavior under legal pressure. Its core mechanisms—including gate‑level governance and the Architect–Builder–Inspector workflow—emerged from this discovery and form part of the constitutional inheritance of the system. These mechanisms are architectural rather than domain‑specific and apply wherever movement, authority, and consequence must be governed.
+
 ---
 
 # **III. THE STACK — THE CONSTITUTIONAL ORDER OF REASONING**
