@@ -17506,57 +17506,159 @@ The repository structure reflects constitutional hierarchy:
 
 Contradictions resolve upward: higher constitutional layers control. Version discipline is mandatory; version conflict triggers STOP.
 ---
-LCES LICENSE & NOTICE
+**LCES LICENSE & NOTICE (Final Integrated Version)**
 
-Copyright Notice
-Copyright © 2026 Charles D. Mayron. All rights reserved. All contents of this repository — including the Manifesto, README, Start Here guide, Bootloader, Six Calculi, SCU Method, Mode Lock Protocol, role model, workflows, diagrams, and all educational, doctrinal, structural, and explanatory materials — are the copyrighted works of the creator. All rights not expressly granted are reserved. See protected_authorship.
+---
 
-License (CC BY-NC-SA 4.0)
+## **Copyright Notice**
+
+Copyright © 2026 Charles D. Mayron. All rights reserved.
+
+All contents of this repository — including the Manifesto, README, Start Here guide, Bootloader, Six Calculi, SCU Method, Mode Lock Protocol, role model, workflows, diagrams, and all educational, doctrinal, structural, and explanatory materials — are the copyrighted works of the creator.
+
+All rights not expressly granted are reserved.
+
+See protected_authorship.
+
+---
+
+## **License (CC BY‑NC‑SA 4.0)**
+
 This project is licensed under the Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International license.
-Permitted: sharing, adapting, non-commercial educational use, derivatives under the same license.
-Prohibited: commercial use, proprietary forks, removal of attribution, repackaging or enclosure, use in commercial products or services.
+
+**Permitted:**
+
+sharing, adapting, non‑commercial educational use, derivatives under the same license.
+
+**Prohibited:**
+
+commercial use, proprietary forks, removal of attribution, repackaging or enclosure, use in commercial products or services.
+
 Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
-Governance Architecture Non‑Appropriation Clause
-The governance architecture of the Legal Calculus Educational System (LCES) — including but not limited to At‑the‑Gate governance, the Architect–Builder–Inspector workflow, Role Separation, STOP boundaries, Non‑Fusion Physics, governed execution loops, and all constitutional mechanisms — is an original, protected structure of authorship. No person, entity, vendor, platform, or automated system may reproduce, adapt, reimplement, or create derivative governance systems that appropriate, replicate, or materially imitate these mechanisms in any domain, industry, or application without written authorization from the creator. This protection applies to all present and future domains, including legal, medical, administrative, financial, educational, technical, operational, and AI‑governance contexts. The use of LCES governance architecture in any system, workflow, product, service, or automated process outside the scope of the CC BY‑NC‑SA 4.0 license is prohibited. Commercial use, enterprise integration, or domain‑specific adaptation of the governance architecture requires a separate commercial license. This clause protects the LCES idea, its constitutional identity, and its cross‑domain applicability from misappropriation, dilution, or unauthorized derivative creation. See governance_architecture.
+---
 
-Commercial Rights Reservation
-The creator expressly reserves all commercial rights to LCES, including rights to develop commercial editions, certifications, training programs, enterprise implementations, SaaS offerings, and professional governance products. No commercial rights are granted under this release. Commercial licensing may be available upon request.
+## **Governance Architecture Non‑Appropriation Clause**
 
-Trademark Notice
-“LCES”, “LCES Legal Calculus Educational System”, and related branding, terminology, and system identity are claimed as trademarks of the creator. All rights in these marks are reserved. These marks identify the official LCES system and its authentic source.
+The governance architecture of the Legal Calculus Educational System (LCES) — including but not limited to At‑the‑Gate governance, the Architect–Builder–Inspector workflow, Role Separation, STOP boundaries, Non‑Fusion Physics, governed execution loops, and all constitutional mechanisms — is an original, protected structure of authorship.
 
-Trademark Restrictions
-Unauthorized uses include: using the LCES name or marks in a way that implies endorsement; selling products or services under the LCES name; creating commercial offerings using the LCES brand; presenting derivatives as official LCES materials; using the LCES name as branding for forks, variants, or adaptations; using confusingly similar names or marks.
+No person, entity, vendor, platform, or automated system may reproduce, adapt, reimplement, or create derivative governance systems that appropriate, replicate, or materially imitate these mechanisms in any domain, industry, or application without written authorization from the creator.
 
-Permitted Trademark Uses
-Permitted uses include non-commercial educational use, attribution-compliant sharing, adaptations under CC BY-NC-SA 4.0, and derivative works that do not use the LCES name or claimed marks as branding. Derivatives must clearly state they are not official LCES materials.
+This protection applies to all present and future domains, including legal, medical, administrative, financial, educational, technical, operational, and AI‑governance contexts.
 
-### **License Addendum — Trademarks Excluded**
+The use of LCES governance architecture in any system, workflow, product, service, or automated process outside the scope of the CC BY‑NC‑SA 4.0 license is prohibited.
+
+Commercial use, enterprise integration, or domain‑specific adaptation of the governance architecture requires a separate commercial license.
+
+This clause protects the LCES idea, its constitutional identity, and its cross‑domain applicability from misappropriation, dilution, or unauthorized derivative creation.
+
+See governance_architecture.
+
+---
+
+## **Commercial Rights Reservation**
+
+The creator expressly reserves all commercial rights to LCES, including rights to develop commercial editions, certifications, training programs, enterprise implementations, SaaS offerings, and professional governance products.
+
+No commercial rights are granted under this release.
+
+Commercial licensing may be available upon request.
+
+---
+
+# **TRADEMARKS & GOVERNANCE IDENTITY**
+
+## **Trademark Notice**
+
+“LCES”, “LCES Legal Calculus Educational System”, and related branding, terminology, and system identity are claimed as trademarks of the creator.
+
+All rights in these marks are reserved.
+
+These marks identify the official LCES system and its authentic source.
+
+---
+
+## **Trademark Restrictions**
+
+Unauthorized uses include:
+
+- using the LCES name or marks in a way that implies endorsement
+- selling products or services under the LCES name
+- creating commercial offerings using the LCES brand
+- presenting derivatives as official LCES materials
+- using the LCES name as branding for forks, variants, or adaptations
+- using confusingly similar names or marks
+
+---
+
+## **Permitted Trademark Uses**
+
+Permitted uses include:
+
+- non‑commercial educational use
+- attribution‑compliant sharing
+- adaptations under CC BY‑NC‑SA 4.0
+- derivative works that do not use the LCES name or claimed marks as branding
+
+Derivatives must clearly state they are not official LCES materials.
+
+---
+
+# **License Addendum — Trademarks Excluded**
 
 This License governs the use of the written text of the LCES Manifesto.
 
-It does not grant permission to use any LCES trademarks, doctrinal names, architectural identifiers, or governance marks.
+It does **not** grant permission to use any LCES trademarks, doctrinal names, architectural identifiers, or governance marks.
 
 All trademarks are governed exclusively by the Trademark section.
 
-### **Protected Trademarks**
+---
+
+# **Protected Trademarks — Governance Identity Marks**
 
 The following terms are protected as trademarks of the Legal Calculus Educational System (LCES):
 
-- **LCES at the Gate™** — the doctrinal principle establishing that all AI actions must prove authority, admissibility, and human‑bounded intent at the moment of execution, before crossing into consequence.
-- **LCES™ GateZero** — the formal name of the LCES Governance Layer, designating the constitutional checkpoint that all AI systems must pass before any action, inference, continuation, or escalation is permitted.
+### **LCES at the Gate™**
 
-These marks identify the unique governance identity of LCES and may not be used in derivative systems, frameworks, or publications without explicit permission.
+The doctrinal principle establishing that all AI actions must prove authority, admissibility, and human‑bounded intent at the moment of execution, before crossing into consequence.
 
-### **Governance Identity Protection Clause**
+### **LCES™ GateZero**
 
-LCES at the Gate™ and LCES™ GateZero constitute the unique governance identity of the Legal Calculus Educational System.
+The formal name of the LCES Governance Layer, designating the constitutional checkpoint that all AI systems must pass before any action, inference, continuation, or escalation is permitted.
+
+These marks identify the **unique governance identity** of LCES and may not be used in derivative systems, frameworks, or publications without explicit permission.
+
+---
+
+# **Governance Identity Protection Clause**
+
+**LCES at the Gate™** and **LCES™ GateZero** constitute the unique governance identity of the Legal Calculus Educational System.
 
 They define the constitutional enforcement posture of LCES and may not be replicated, reinterpreted, or rebranded in competing systems.
 
-No Endorsement
-Use of LCES materials does not imply endorsement by the creator. Derivative works must clearly state they are not official LCES materials.
+---
 
-Purpose of This Combined LICENSE & NOTICE
-This combined document provides the authoritative legal summary and licensing terms for the LCES Legal Calculus Educational System. It affirms copyright ownership, license terms, trademark claims, commercial rights reservations, and governance architecture protections governing all LCES materials.
+## **No Endorsement**
+
+Use of LCES materials does not imply endorsement by the creator.
+
+Derivative works must clearly state they are not official LCES materials.
+
+---
+
+# **Purpose of This Combined LICENSE & NOTICE**
+
+This combined document provides the authoritative legal summary and licensing terms for the LCES Legal Calculus Educational System.
+
+It affirms copyright ownership, license terms, trademark claims, commercial rights reservations, and governance architecture protections governing all LCES materials.
+
+---
+
+If you want, I can now:
+
+- integrate this into your **full Manifesto** in final order
+- generate a **legal‑page version** for GitHub
+- produce a **public trademark announcement**
+- draft the **USPTO filing language** for both marks
+
+Just tell me what you want next.
