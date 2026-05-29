@@ -17532,6 +17532,14 @@ Unauthorized uses include: using the LCES name or marks in a way that implies en
 Permitted Trademark Uses
 Permitted uses include non-commercial educational use, attribution-compliant sharing, adaptations under CC BY-NC-SA 4.0, and derivative works that do not use the LCES name or claimed marks as branding. Derivatives must clearly state they are not official LCES materials.
 
+### **License Addendum — Trademarks Excluded**
+
+This License governs the use of the written text of the LCES Manifesto.
+
+It does not grant permission to use any LCES trademarks, doctrinal names, architectural identifiers, or governance marks.
+
+All trademarks are governed exclusively by the Trademark section.
+
 No Endorsement
 Use of LCES materials does not imply endorsement by the creator. Derivative works must clearly state they are not official LCES materials.
 
