@@ -551,7 +551,7 @@ machine—may cross a boundary they are not constitutionally authorized to
 cross. STOP activates on any attempt to bind an effect outside jurisdiction, 
 exceed admissibility, or initiate unauthorized movement.
 
-
+LCES™ acts as the constitutional supervisor of all AIs in the ecosystem, enforcing STOP, admissibility, and authority boundaries across multiple agents to prevent unauthorized movement or effect‑binding.
 ---
 
 # **XIX. THE IMPLEMENTATION SURFACE — STACK LOADING & TRANSITIONS**
