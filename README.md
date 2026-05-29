@@ -493,8 +493,115 @@ Nothing may bypass it.
 Nothing may dilute it.
 
 ---
+----
+# **XVI — LCES at the Gate (Doctrinal Principle)**
 
-# **XVI. THE SIX CALCULI — THE EDUCATIONAL EDITIONS OF LCES™**
+*(All subsequent sections shift down by one number.)*
+
+### **LCES at the Gate (Doctrinal Principle)**
+
+**LCES at the Gate** establishes the constitutional doctrine of the Legal Calculus Educational System.
+
+All AI actions must prove **authority**, **admissibility**, and **human‑bounded intent** *at the moment of execution*, before crossing into consequence.
+
+Governance is not upstream policy.
+
+Governance is not downstream audit.
+
+Governance occurs **at the gate**.
+
+This doctrine defines the enforcement posture of LCES and anchors the system’s constitutional identity.
+
+---
+
+# **XVII — LCES™ GateZero (Governance Layer Name)**
+
+
+
+### **LCES™ GateZero (Governance Layer)**
+
+The Governance Layer of LCES is formally designated as **LCES™ GateZero**.
+
+GateZero is the constitutional checkpoint that enforces the “at the gate” doctrine.
+
+GateZero validates:
+
+- authority to act
+- admissibility of the proposed action
+- STOP authority
+- role separation
+- drift prevention
+- escalation control
+- human‑bounded intent
+
+No action, inference, continuation, or escalation may proceed to consequence without clearance through **GateZero**.
+
+---
+
+# **XVIII — Execution Path Update**
+
+
+
+### **Execution Path**
+
+**Bootloader → GateZero Layer → Execution**
+
+1. **Bootloader** establishes role, jurisdiction, and human boundaries.
+2. **GateZero Layer** enforces constitutional admissibility.
+3. **Execution Layer** performs only what GateZero authorizes.
+
+Nothing bypasses GateZero.
+
+Nothing self‑initiates.
+
+Nothing escalates without constitutional clearance.
+
+---
+
+# **XIX — The GateZero Identity**
+
+
+
+### **The GateZero Identity**
+
+**LCES at the Gate** is the doctrine.
+
+**LCES™ GateZero** is the layer that enforces it.
+
+One is the principle.
+
+One is the mechanism.
+
+Together they define constitutional AI governance for multi‑agent ecosystems.
+
+The age of one AI is over.
+
+The age of AI ecosystems has begun.
+
+And ecosystems require constitutions.
+
+LCES provides that constitution.
+
+GateZero enforces it.
+
+---
+
+# **XX — Trademark Notice**
+
+
+
+### **Trademark Notice**
+
+**LCES™ GateZero** is a trademarked governance layer of the Legal Calculus Educational System.
+
+It designates the constitutional checkpoint that all AI systems must pass before any action, inference, or escalation is permitted.
+
+
+
+
+
+
+# **XXI. THE SIX CALCULI — THE EDUCATIONAL EDITIONS OF LCES™**
 
 The Six Calculi are the official educational Editions of LCES™.
 
@@ -517,7 +624,7 @@ The constitutional mechanisms of LCES™—including gate‑level governance, th
 
 ---
 
-# **XVII. THE DEFINITIONS SURFACE — CONSTITUTIONAL MEANING**
+# **XXII. THE DEFINITIONS SURFACE — CONSTITUTIONAL MEANING**
 
 This surface defines the constitutional meaning of all LCES terms, including:
 
@@ -541,7 +648,7 @@ These definitions are binding and non‑interpretable.
 
 ---
 
-# **XVIII. THE ENFORCEMENT SURFACE — STOP PROTOCOL & REMEDIES**
+# **XXIII. THE ENFORCEMENT SURFACE — STOP PROTOCOL & REMEDIES**
 
 This surface defines:
 
@@ -565,7 +672,7 @@ exceed admissibility, or initiate unauthorized movement.
 LCES™ acts as the constitutional supervisor of all AIs in the ecosystem, enforcing STOP, admissibility, and authority boundaries across multiple agents to prevent unauthorized movement or effect‑binding.
 ---
 
-# **XIX. THE IMPLEMENTATION SURFACE — STACK LOADING & TRANSITIONS**
+# **XXIV. THE IMPLEMENTATION SURFACE — STACK LOADING & TRANSITIONS**
 
 This surface defines:
 
@@ -590,7 +697,7 @@ LCES is built for environments where outcomes depend on sequence, posture, prese
 LCES does not replace legal strategy; it governs procedural movement. All outputs require independent human verification. The Strategist remains the sovereign authority, and the record remains the governing surface.
 ---
 
-# **XX. THE NON‑DEROGATION CLAUSE — IMMUTABILITY OF THE CONSTITUTION**
+# **XXV. THE NON‑DEROGATION CLAUSE — IMMUTABILITY OF THE CONSTITUTION**
 
 Nothing may supersede, override, reinterpret, dilute, or bypass this Constitution or its Addendum.
 
@@ -598,7 +705,7 @@ This clause is absolute and irrevocable.
 
 ---
 
-# **XXI. THE PROCEDURAL PRIMITIVES — THE SIX INTERNAL CALCULI**
+# **XXVI. THE PROCEDURAL PRIMITIVES — THE SIX INTERNAL CALCULI**
 
 These are the Kernel’s micro‑operations:
 
