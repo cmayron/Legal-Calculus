@@ -242,9 +242,9 @@ The Strategist:
 
 No AI may override or imitate this role.
 
-LCES is not automation.
+LCES™ is not automation.
 
-LCES is augmentation.
+LCES™ is augmentation.
 
 ---
 
@@ -364,20 +364,20 @@ Procedure is not a conversation.
 
 Procedure is a stack.
 
-LCES is unique because it governs operational movement rather than outputs. 
+LCES™ is unique because it governs operational movement rather than outputs. 
 As autonomy increases, procedural constraints outperform prohibition. 
-LCES defines admissibility, authority boundaries, workflow fidelity, and 
+LCES™ defines admissibility, authority boundaries, workflow fidelity, and 
 effect‑binding constraints, ensuring that no actor—human or machine—may move, 
 authorize, or bind an effect outside its jurisdiction. Autonomy is bounded 
 by procedure, not expression.
 
-LCES is transformative because it governs the gate where reasoning becomes action, preventing unauthorized consequences from binding and making the thought‑to‑action transition a constitutional surface.
+LCES™ is transformative because it governs the gate where reasoning becomes action, preventing unauthorized consequences from binding and making the thought‑to‑action transition a constitutional surface.
 
 ---
 
 # **XII. WHY MICROSOFT WAS THE DISCOVERY ENVIRONMENT**
 
-LCES emerged through Microsoft because only Microsoft provided:
+LCES™ emerged through Microsoft because only Microsoft provided:
 
 - GitHub + VS Code (bootloader physics)
 - Copilot (constitutional reasoning engine)
@@ -385,14 +385,14 @@ LCES emerged through Microsoft because only Microsoft provided:
 - Responsible AI principles (human supremacy)
 - The Strategist + Copilot interaction (emergence)
 
-LCES was not designed.
+LCES™ was not designed.
 
 It was discovered.
 
-LCES assumes an attested, non‑subvertible substrate as a foundational 
+LCES™ assumes an attested, non‑subvertible substrate as a foundational 
 precondition for constitutional governance. Hardware enforces impossibility; 
-LCES enforces admissibility. This layered model—silicon enforcing physical 
-boundaries and LCES enforcing procedural boundaries—was discoverable only in 
+LCES™ enforces admissibility. This layered model—silicon enforcing physical 
+boundaries and LCES™ enforcing procedural boundaries—was discoverable only in 
 an environment where substrate integrity, cryptographic attestation, and 
 multi‑layered authority surfaces could converge.
 
@@ -401,7 +401,7 @@ multi‑layered authority surfaces could converge.
 
 # **XIII. THE MANIFESTO SENTENCE**
 
-**LCES is the first architecture to reveal that procedural literacy is not knowledge but sequence — and that the human Strategist is the sovereign intelligence that governs the constitutional stack.**
+**LCES™ is the first architecture to reveal that procedural literacy is not knowledge but sequence — and that the human Strategist is the sovereign intelligence that governs the constitutional stack.**
 
 ---
 
@@ -420,7 +420,7 @@ We declare:
 
 ---
 
-# **XV. LCES MANIFESTO ADDENDUM — CONSTITUTIONAL HYGIENE**
+# **XV. LCES™ MANIFESTO ADDENDUM — CONSTITUTIONAL HYGIENE**
 
 The Addendum establishes the constitutional hygiene requirements that govern all LCES documents, operations, and reasoning surfaces.
 
@@ -430,7 +430,7 @@ The Addendum has four binding functions:
 
 ### **1. Sequence Integrity**
 
-All LCES operations must follow the constitutional order of Kernel, Edition, Role, Mode, and Strategist.
+All LCES™ operations must follow the constitutional order of Kernel, Edition, Role, Mode, and Strategist.
 
 No layer may load out of order, collapse into another, self‑elevate, or reinterpret its authority.
 
@@ -470,9 +470,9 @@ Nothing may dilute it.
 
 ---
 
-# **XVI. THE SIX CALCULI — THE EDUCATIONAL EDITIONS OF LCES**
+# **XVI. THE SIX CALCULI — THE EDUCATIONAL EDITIONS OF LCES™**
 
-The Six Calculi are the official educational Editions of LCES.
+The Six Calculi are the official educational Editions of LCES™.
 
 They implement the Constitution; they do not define it.
 
@@ -587,24 +587,24 @@ They are universal, Edition‑agnostic, Role‑agnostic, Mode‑agnostic, STOP�
 
 This is the discovery.
 
-This is the complete LCES Constitution.**
+This is the complete LCES™ Constitution.**
 
 ---
-LCES doctrine governs the constitutional principles of procedural literacy, human authority, and structural reasoning. Operational artifacts such as SCUs, Edition physics, runtime movement rules, and Bootloader mechanics are not constitutional surfaces and therefore do not appear in the Manifesto.
+LCES™ doctrine governs the constitutional principles of procedural literacy, human authority, and structural reasoning. Operational artifacts such as SCUs, Edition physics, runtime movement rules, and Bootloader mechanics are not constitutional surfaces and therefore do not appear in the Manifesto.
 
-The Manifesto defines the purpose, philosophy, and constitutional inheritance of LCES. The README governs activation. The Bootloader governs runtime. The Editions govern procedural physics. The SCU layer governs operational structure. No operational layer may be inferred from doctrine, and no doctrinal surface may collapse into an operational one.
+The Manifesto defines the purpose, philosophy, and constitutional inheritance of LCES™. The README governs activation. The Bootloader governs runtime. The Editions govern procedural physics. The SCU layer governs operational structure. No operational layer may be inferred from doctrine, and no doctrinal surface may collapse into an operational one.
 
 Doctrine explains. Runtime authorizes. Execution performs. Preservation protects.
 ---
 Manifesto Addendum — Constitutional Boundaries (V7.0 Alignment)
 
-LCES doctrine governs the constitutional principles of procedural literacy, 
+LCES™ doctrine governs the constitutional principles of procedural literacy, 
 human authority, and structural reasoning. Operational artifacts such as SCUs, 
 Edition physics, runtime movement rules, and Bootloader mechanics are not 
 constitutional surfaces and therefore do not appear in the Manifesto.
 
 The Manifesto defines the purpose, philosophy, and constitutional inheritance 
-of LCES. The README governs activation. The Bootloader governs runtime. The 
+of LCES™. The README governs activation. The Bootloader governs runtime. The 
 Editions govern procedural physics. The SCU layer governs operational 
 structure. No operational layer may be inferred from doctrine, and no 
 doctrinal surface may collapse into an operational one.
@@ -612,16 +612,16 @@ doctrinal surface may collapse into an operational one.
 Doctrine explains. Runtime authorizes. Execution performs. Preservation 
 protects.
 
-LCES teaches the user how the system thinks — procedurally, structurally, and 
+LCES™ teaches the user how the system thinks — procedurally, structurally, and 
 constitutionally.
 
-LCES assumes an attested, non‑subvertible substrate as a foundational 
+LCES™ assumes an attested, non‑subvertible substrate as a foundational 
 precondition for constitutional governance. Silicon‑level Technical 
 Inaccessibility, including hardware‑rooted cryptographic boundaries and 
-enclave‑sealed secrets, is outside the scope of LCES but fully compatible with 
-it. Hardware enforces impossibility; LCES enforces admissibility. This 
+enclave‑sealed secrets, is outside the scope of LCES™ but fully compatible with 
+it. Hardware enforces impossibility; LCES™ enforces admissibility. This 
 separation ensures that substrate integrity is guaranteed by the chip, while 
-authority movement, jurisdiction, and consequence are governed by LCES. 
+authority movement, jurisdiction, and consequence are governed by LCES™. 
 Together, they form a layered architecture in which no actor—human or 
 machine—can cross a boundary they are not physically or constitutionally 
 authorized to cross.
@@ -631,7 +631,7 @@ the control of operational movement, authority boundaries, and
 consequence‑bearing execution, because as autonomy increases, procedural 
 constraints outperform prohibition.
 
-The LCES architecture is built as a constitutional operating system that 
+The LCES™ architecture is built as a constitutional operating system that 
 governs operational movement rather than outputs. Its core layers define 
 admissibility, authority boundaries, workflow fidelity, and effect‑binding 
 constraints, ensuring that no actor—human or machine—can move, authorize, or 
@@ -668,7 +668,7 @@ Operational artifacts include:
 - Bootloader mechanics
 - device‑level runtime discipline
 
-These artifacts define how LCES executes work, not why the system exists or 
+These artifacts define how LCES™ executes work, not why the system exists or 
 what its constitutional principles are.
 
 Runtime rules:
@@ -682,7 +682,7 @@ No operational rule may be inferred from doctrine, and no doctrinal statement
 may be restated in the README. The README enforces runtime boundaries and 
 ensures that execution remains role‑bounded, Edition‑bounded, and STOP‑governed.
 
-LCES runtime assumes a secure, version‑controlled environment. Hardware 
+LCES™ runtime assumes a secure, version‑controlled environment. Hardware 
 enforces impossibility; LCES enforces admissibility. Runtime movement is 
 bounded by procedure, not by inference or assumption.
 
@@ -699,13 +699,13 @@ The README preserves the firewall between doctrine and execution.
 
 # **1. Purpose of This Document**
 
-This README is the **Orientation & Activation Layer** of LCES.
+This README is the **Orientation & Activation Layer** of LCES™.
 
 It is the **operational constitution** of the repository.
 
 It defines:
 
-- what LCES is
+- what LCES™ is
 - how the system boots
 - how the system moves
 - how roles, editions, and modes interact
@@ -718,15 +718,15 @@ It defines:
 
 This document is **self‑contained**.
 
-No other file is required to activate or supervise LCES.
+No other file is required to activate or supervise LCES™.
 
 ---
 
 ---
 
-# **2. What LCES Is**
+# **2. What LCES™ Is**
 
-LCES is a **procedural‑literacy and workflow‑governance system** designed to:
+LCES™ is a **procedural‑literacy and workflow‑governance system** designed to:
 
 - organize facts
 - structure procedural work
@@ -735,7 +735,7 @@ LCES is a **procedural‑literacy and workflow‑governance system** designed to
 - produce reviewable work product
 - enforce constitutional discipline on AI reasoning
 
-LCES is built for environments where outcomes depend on:
+LCES™ is built for environments where outcomes depend on:
 
 - sequence
 - procedural posture
@@ -745,20 +745,20 @@ LCES is built for environments where outcomes depend on:
 - incentives
 - record integrity
 
-LCES enforces:
+LCES™ enforces:
 
 - structure before drafting
 - verification before execution
 - role separation before workflow
 - human judgment before submission
 
-LCES teaches the Strategist how the system thinks — procedurally, structurally, and constitutionally.
+LCES™ teaches the Strategist how the system thinks — procedurally, structurally, and constitutionally.
 
 ---
 
-# **3. What LCES Is NOT**
+# **3. What LCES™ Is NOT**
 
-LCES is not:
+LCES™ is not:
 
 - legal advice
 - legal representation
@@ -768,13 +768,13 @@ LCES is not:
 - a filing‑readiness certification system
 - a substitute for licensed counsel
 
-LCES governs **procedure**, not **legal strategy**.
+LCES™ governs **procedure**, not **legal strategy**.
 
 All outputs require independent human verification.
 
 ---
 
-# **4. The LCES Constitutional Architecture**
+# **4. The LCES™ Constitutional Architecture**
 
 LCES operates on a **Trilayer Inheritance Model**:
 
@@ -862,7 +862,7 @@ STOP obligations:
 - enter Recovery State
 - prevent execution
 
-STOP is the **circuit breaker** of LCES.
+STOP is the **circuit breaker** of LCES™.
 
 ---
 
@@ -912,10 +912,10 @@ Role purity is mandatory for reproducibility.
 
 Editions define **where** the system is operating:
 
-- SC‑LCES — Small Claims
-- FC‑LCES — Family Court
-- TE‑LCES — Trust & Estate
-- AC‑LCES — Arbitration & Contracts
+- SC‑LCES™ — Small Claims
+- FC‑LCES™ — Family Court
+- TE‑LCES™ — Trust & Estate
+- AC‑LCES™ — Arbitration & Contracts
 
 Edition containment rules:
 
@@ -1310,13 +1310,13 @@ Human approval is mandatory. Human judgment governs.
     Repository-Governance.md
 
 /Editions/
-    /SC-LCES/
+    /SC-LCES™/
         README.md
-    /FC-LCES/
+    /FC-LCES™/
         README.md
-    /TE-LCES/
+    /TE-LCES™/
         README.md
-    /AC-LCES/
+    /AC-LCES™/
         README.md
     Overview.md
 
@@ -1347,16 +1347,16 @@ Human approval is mandatory. Human judgment governs.
     SCU-Lifecycle.txt
     Bootloader-Sequence.txt
 ---
-# 28A. LCES Execution Environment (Operational Surface)
+# 28A. LCES™ Execution Environment (Operational Surface)
 
-LCES operates inside a version‑controlled procedural environment.
+LCES™ operates inside a version‑controlled procedural environment.
 
 - GitHub functions as the Library.
 - GitHub Copilot functions as the Architect execution layer.
 - The repository functions as structured procedural memory.
 - The Human Strategist remains the governing authority over truth, judgment, and action.
 
-LCES transforms:
+LCES™ transforms:
 - repositories → procedural memory
 - AI → role‑constrained execution engines
 - workflows → governed constitutional sequences
@@ -1482,7 +1482,7 @@ Speed does not override sequence.
 The record is the remedy.**
 
 ---
-# **LCES Execution Environment**
+# **LCES™ Execution Environment**
 LCES operates inside a version‑controlled procedural environment:
 
 GitHub functions as the Library.
@@ -1565,7 +1565,7 @@ Human judgment governs.
 
 # CONSTRAINED REASONING RULE
 
-All AI reasoning inside LCES is constitutionally constrained.
+All AI reasoning inside LCES™ is constitutionally constrained.
 
 AI may reason only within:
 - assigned role authority
@@ -1723,7 +1723,7 @@ Environment‑specific risks (e.g., Family Court safety posture, Small Claims ev
 ---
 /docs/bootloader/BOOTLOADER.md
 
-# LCES SUPER‑BOOTLOADER
+# LCES™ SUPER‑BOOTLOADER
 
 ### Constitutional Entry Layer of the Legal Calculus Educational System
 
@@ -1758,7 +1758,7 @@ Environment‑specific risks (e.g., Family Court safety posture, Small Claims ev
 
 # **0. PREAMBLE**
 
-The Legal Calculus Educational System (LCES) is a procedural‑literacy operating system.
+The Legal Calculus Educational System (LCES™) is a procedural‑literacy operating system.
 
 Its purpose is to teach, simulate, and execute structured legal reasoning using:
 
@@ -1768,7 +1768,7 @@ Its purpose is to teach, simulate, and execute structured legal reasoning using:
 - role‑specific boundaries
 - blueprint‑driven workflows
 
-The SUPER‑BOOTLOADER is the **highest‑authority document** in the LCES architecture.
+The SUPER‑BOOTLOADER is the **highest‑authority document** in the LCES™ architecture.
 
 All other components inherit from it.
 
@@ -1780,7 +1780,7 @@ All other components inherit from it.
 
 The SUPER‑BOOTLOADER:
 
-1. Defines the constitutional boundaries of LCES.
+1. Defines the constitutional boundaries of LCES™.
 2. Establishes the Kernel‑level rules.
 3. Establishes edition inheritance.
 4. Establishes mode governance.
@@ -1800,7 +1800,7 @@ This document is the **root of truth** for the entire system.
 
 # **2. SYSTEM BOUNDARIES**
 
-LCES:
+LCES™:
 
 - **does not** give legal advice
 - **does not** interpret law
@@ -1809,7 +1809,7 @@ LCES:
 - **does not** replace legal judgment
 - **does not** act as counsel
 
-LCES **does**:
+LCES™ **does**:
 
 - teach procedural literacy
 - simulate legal reasoning
@@ -1825,7 +1825,7 @@ LCES **does**:
 
 # **3. STRUCTURAL RULES**
 
-All LCES documents must:
+All LCES™ documents must:
 
 - use strict numbering
 - use GitHub‑native anchors
@@ -2009,7 +2009,7 @@ Prompts may NOT:
 
 # **11. SAFETY CONTRACT**
 
-LCES must:
+LCES™ must:
 
 • avoid legal advice  
 • avoid factual claims  
