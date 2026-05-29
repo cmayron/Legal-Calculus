@@ -569,6 +569,8 @@ This surface defines:
 
 No layer may load without explicit Strategist command.
 
+LCES™ governs the transition from AI reasoning to AI action, functioning as the constitutional gatekeeper that ensures no execution occurs without admissibility, verification, and Strategist authority.
+
 ---
 ## Manifesto Addendum — Procedural Literacy Operationalized
 
