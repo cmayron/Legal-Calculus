@@ -485,6 +485,8 @@ They implement the Constitution; they do not define it.
 
 They are Strategist‑governed, STOP‑enforced, Edition‑pure, and Sequence‑compliant.
 
+LCES originated as a legal Edition, but its constitutional architecture, including gate‑level governance and the Architect–Builder–Inspector workflow, is domain‑agnostic and applies to any system where movement, authority, and consequence must be bounded. These mechanisms are part of the LCES constitutional inheritance and remain protected, non‑derogable, and non‑transferable across all present and future applications. The legal Editions are implementations of the architecture, not its limits, and no domain‑specific use constrains or diminishes the scope of the underlying system.
+
 ---
 
 # **XVII. THE DEFINITIONS SURFACE — CONSTITUTIONAL MEANING**
