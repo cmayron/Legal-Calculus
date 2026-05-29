@@ -379,6 +379,8 @@ LCES™ is transformative because it governs the gate where reasoning becomes ac
 
 LCES™ is the Multi‑AI Supervisor — the constitutional system that governs, coordinates, and constrains multiple AIs operating within a single ecosystem. It enforces role separation, gate‑level admissibility, STOP rules, and Strategist supremacy across all AIs, ensuring that no model may initiate, approve, or execute movement outside its jurisdiction.
 
+LCES™ is the Gatekeeper Engine — the constitutional mechanism that governs the transition from AI reasoning to AI action. It enforces admissibility, authority boundaries, STOP rules, and Strategist supremacy, ensuring that no AI may bind an effect outside the user’s jurisdiction or intent.
+
 ---
 
 # **XII. WHY MICROSOFT WAS THE DISCOVERY ENVIRONMENT**
