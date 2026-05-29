@@ -383,6 +383,7 @@ LCES™ is the Gatekeeper Engine — the constitutional mechanism that governs t
 
 LCES™ is the Personal AI Constitution Layer — the governance OS that sits above all AIs in a user’s ecosystem and controls what may enter, move, or execute. It enforces gate‑level admissibility, STOP rules, role separation, and Strategist supremacy, ensuring that no AI may bind an effect outside the user’s authority.
 
+LCES™ is a Governance Operating System — a constitutional layer that governs the movement, authority, and execution pathways of all AIs in a user’s ecosystem. It enforces gate‑level admissibility, role separation, STOP rules, and Strategist supremacy, ensuring that no AI may initiate, authorize, or bind an effect outside its jurisdiction.
 ---
 
 # **XII. WHY MICROSOFT WAS THE DISCOVERY ENVIRONMENT**
