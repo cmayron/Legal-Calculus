@@ -289,6 +289,8 @@ The four cognitive environments:
 - Second‑Opinion
 - Educational
 
+LCES™ functions as the constitutional layer above all AIs in the ecosystem, governing admissibility, authority, and execution across Architect, Builder, Inspector, and Actor roles.
+
 ---
 
 # **VIII. THE ROLE SEPARATION DOCTRINE — THE CONSTITUTIONAL FIREWALL**
