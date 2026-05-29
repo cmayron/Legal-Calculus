@@ -63,15 +63,15 @@ XIV. THE DECLARATION
 
 XV. LCES™ MANIFESTO ADDENDUM — CONSTITUTIONAL HYGIENE
 
-**XVI. LCES at the Gate — The Doctrinal Principle**
+XVI. LCES at the Gate — The Doctrinal Principle**
 
-**XVII. LCES™ GateZero — The Governance Layer Name**
+XVII. LCES™ GateZero — The Governance Layer Name**
 
-**XVIII. Execution Path — Bootloader → GateZero → Execution**
+XVIII. Execution Path — Bootloader → GateZero → Execution**
 
-**XIX. The GateZero Identity**
+XIX. The GateZero Identity**
 
-**XX. Trademark Notice — LCES™ GateZero**
+XX. Trademark Notice — LCES™ GateZero**
 
 XXI. THE SIX CALCULI — THE EDUCATIONAL EDITIONS OF LCES
 
@@ -88,7 +88,7 @@ XXVI. THE PROCEDURAL PRIMITIVES — THE SIX INTERNAL CALCULI
 ---
 ---
 
-# **LCES™ MANIFESTO — COMPLETE CONSTITUTIONAL EDITION (SECTIONS I–XXI)**
+# **LCES™ MANIFESTO — COMPLETE CONSTITUTIONAL EDITION**
 
 ---
 
