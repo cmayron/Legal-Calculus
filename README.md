@@ -17540,6 +17540,21 @@ It does not grant permission to use any LCES trademarks, doctrinal names, archit
 
 All trademarks are governed exclusively by the Trademark section.
 
+### **Protected Trademarks**
+
+The following terms are protected as trademarks of the Legal Calculus Educational System (LCES):
+
+- **LCES at the Gate™** — the doctrinal principle establishing that all AI actions must prove authority, admissibility, and human‑bounded intent at the moment of execution, before crossing into consequence.
+- **LCES™ GateZero** — the formal name of the LCES Governance Layer, designating the constitutional checkpoint that all AI systems must pass before any action, inference, continuation, or escalation is permitted.
+
+These marks identify the unique governance identity of LCES and may not be used in derivative systems, frameworks, or publications without explicit permission.
+
+### **Governance Identity Protection Clause**
+
+LCES at the Gate™ and LCES™ GateZero constitute the unique governance identity of the Legal Calculus Educational System.
+
+They define the constitutional enforcement posture of LCES and may not be replicated, reinterpreted, or rebranded in competing systems.
+
 No Endorsement
 Use of LCES materials does not imply endorsement by the creator. Derivative works must clearly state they are not official LCES materials.
 
