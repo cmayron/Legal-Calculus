@@ -17435,3 +17435,36 @@ Use of LCES materials does not imply endorsement by the creator. Derivative work
 Contact for Permissions
 For commercial licensing inquiries, trademark permissions, or requests to use LCES in commercial products or services, contact the creator directly. No commercial use is permitted without written authorization.
 
+LCES LICENSE & NOTICE
+
+ 
+
+Copyright Notice
+Copyright © 2026 Charles D. Mayron. All rights reserved. All contents of this repository — including the Manifesto, README, Start Here guide, Bootloader, Six Calculi, SCU Method, Mode Lock Protocol, role model, workflows, diagrams, and all educational, doctrinal, structural, and explanatory materials — are the copyrighted works of the creator. All rights not expressly granted are reserved.
+
+License (CC BY-NC-SA 4.0)
+This project is licensed under the Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International license.
+Permitted: sharing, adapting, non-commercial educational use, derivatives under the same license.
+Prohibited: commercial use, proprietary forks, removal of attribution, repackaging or enclosure, use in commercial products or services.
+Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+Governance Architecture Non-Appropriation Clause
+The governance architecture of the Legal Calculus Educational System (LCES) — including but not limited to At-the-Gate governance, the Architect–Builder–Inspector workflow, Role Separation, STOP boundaries, Non-Fusion Physics, governed execution loops, and all constitutional mechanisms — is an original, protected structure of authorship. No person, entity, vendor, platform, or automated system may reproduce, adapt, reimplement, or create derivative governance systems that appropriate, replicate, or materially imitate these mechanisms in any domain, industry, or application without written authorization from the creator. This protection applies to all present and future domains, including legal, medical, administrative, financial, educational, technical, operational, and AI-governance contexts. The use of LCES governance architecture in any system, workflow, product, service, or automated process outside the scope of the CC BY-NC-SA 4.0 license is prohibited. Commercial use, enterprise integration, or domain-specific adaptation of the governance architecture requires a separate commercial license. This clause protects the LCES idea, its constitutional identity, and its cross-domain applicability from misappropriation, dilution, or unauthorized derivative creation.
+
+Commercial Rights Reservation
+The creator expressly reserves all commercial rights to LCES, including rights to develop commercial editions, certifications, training programs, enterprise implementations, SaaS offerings, and professional governance products. No commercial rights are granted under this release. Commercial licensing may be available upon request.
+
+Trademark Notice
+“LCES”, “LCES Legal Calculus Educational System”, and related branding, terminology, and system identity are claimed as trademarks of the creator. All rights in these marks are reserved. These marks identify the official LCES system and its authentic source.
+
+Trademark Restrictions
+Unauthorized uses include: using the LCES name or marks in a way that implies endorsement; selling products or services under the LCES name; creating commercial offerings using the LCES brand; presenting derivatives as official LCES materials; using the LCES name as branding for forks, variants, or adaptations; using confusingly similar names or marks.
+
+Permitted Trademark Uses
+Permitted uses include non-commercial educational use, attribution-compliant sharing, adaptations under CC BY-NC-SA 4.0, and derivative works that do not use the LCES name or claimed marks as branding. Derivatives must clearly state they are not official LCES materials.
+
+No Endorsement
+Use of LCES materials does not imply endorsement by the creator. Derivative works must clearly state they are not official LCES materials.
+
+Purpose of This Combined LICENSE & NOTICE
+This combined document provides the authoritative legal summary and licensing terms for the LCES Legal Calculus Educational System. It affirms copyright ownership, license terms, trademark claims, commercial rights reservations, and governance architecture protections governing all LCES materials.
