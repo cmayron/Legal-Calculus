@@ -17546,7 +17546,9 @@ commercial use, proprietary forks, removal of attribution, repackaging or enclos
 
 Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
----
+The Legal Calculus Educational System (LCES™), including its architecture, semantics, structural relationships, operational mechanisms, governance surfaces, gate‑level controls, execution‑boundary doctrines, and all associated constructs, originates from a single act of authorship. All components of the system remain permanently bound to that origin. No reinterpretation, adaptation, translation, re‑expression, or derivative use may alter, obscure, or reassign the provenance, identity, or jurisdiction of the system. All permitted uses inherit the original authorship, jurisdiction, and temporal priority without exception.
+
+---No derivative work, adaptation, translation, or re‑expression may claim independent origin, competing authority, or separate jurisdictional identity. Re‑expression, renaming, reframing, synonym substitution, conceptual paraphrase, structural mimicry, domain translation, or recontextualization of any construct does not create a new origin and does not sever the relationship between the derivative expression and the source. Any construct equivalent in meaning, effect, operational physics, or governance function to those defined in the originating system is treated as derivative and remains subordinate to the original authorship and jurisdiction.
 
 ## **Governance Architecture Non‑Appropriation Clause**
 
@@ -17664,11 +17666,4 @@ It affirms copyright ownership, license terms, trademark claims, commercial righ
 
 ---
 
-If you want, I can now:
 
-- integrate this into your **full Manifesto** in final order
-- generate a **legal‑page version** for GitHub
-- produce a **public trademark announcement**
-- draft the **USPTO filing language** for both marks
-
-Just tell me what you want next.
