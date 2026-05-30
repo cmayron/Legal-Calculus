@@ -21,7 +21,7 @@
 </div>
 
 ---
-**THE LCES™ MANIFESTO **
+### *THE LCES™ MANIFESTO*
 
 ### *The Constitutional Architecture of Procedural Literacy*
 
@@ -29,7 +29,7 @@
 
 ---
 
-# 📑 **TABLE OF CONTENTS — LCES™ MANIFESTO**;
+#  **TABLE OF CONTENTS — LCES™ MANIFESTO**
 
 ## **PREAMBLE**
 
