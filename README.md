@@ -540,6 +540,9 @@ Governance occurs **at the gate**.
 This doctrine defines the enforcement posture of LCES and anchors the system’s constitutional identity.
 
 ---
+# GATEZERO IDENTITY INSERT
+
+GateZero is the constitutional gate where reasoning seeks authority to bind consequence. It enforces admissibility, STOP, role separation, Edition purity, and human‑bounded intent. GateZero does not reason; it governs reasoning. GateZero does not generate; it authorizes. GateZero is the enforcement surface of the constitutional stack and the final checkpoint before any action may proceed.
 
 # **XVIII — LCES™ GateZero (Governance Layer Name)**
 
@@ -564,6 +567,9 @@ GateZero validates:
 No action, inference, continuation, or escalation may proceed to consequence without clearance through **GateZero**.
 
 ---
+# EXECUTION PATH INSERT
+
+All computation follows the constitutional execution path: Bootloader loads the environment, GateZero enforces admissibility and STOP, and Execution performs only what the Strategist has explicitly authorized. No component may bypass GateZero. No action may bind consequence without passing through the constitutional gate.
 
 # **XIX — Execution Path Update**
 
@@ -761,6 +767,10 @@ LCES™ doctrine governs the constitutional principles of procedural literacy, h
 The Manifesto defines the purpose, philosophy, and constitutional inheritance of LCES™. The README governs activation. The Bootloader governs runtime. The Editions govern procedural physics. The SCU layer governs operational structure. No operational layer may be inferred from doctrine, and no doctrinal surface may collapse into an operational one.
 
 Doctrine explains. Runtime authorizes. Execution performs. Preservation protects.
+# ADDENDUM — CONSTITUTIONAL BOUNDARIES (V7.0 ALIGNMENT)
+
+This Addendum clarifies the constitutional boundaries of LCES™. The constitutional mechanics layer (12‑Section Constitution) governs movement, authority, and consequence. The doctrinal Manifesto governs meaning, identity, and provenance. No Edition, Mode, or Role may reinterpret or dilute these boundaries. All future expansions must remain subordinate to the constitutional architecture defined herein.
+
 ---
 Manifesto Addendum — Constitutional Boundaries (V7.0 Alignment)
 
