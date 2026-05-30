@@ -767,7 +767,25 @@ LCES™ doctrine governs the constitutional principles of procedural literacy, h
 The Manifesto defines the purpose, philosophy, and constitutional inheritance of LCES™. The README governs activation. The Bootloader governs runtime. The Editions govern procedural physics. The SCU layer governs operational structure. No operational layer may be inferred from doctrine, and no doctrinal surface may collapse into an operational one.
 
 Doctrine explains. Runtime authorizes. Execution performs. Preservation protects.
+
 # ADDENDUM — CONSTITUTIONAL BOUNDARIES (V7.0 ALIGNMENT)
+
+This Addendum establishes the constitutional boundaries that govern all present and future expressions of the Legal Calculus Educational System (LCES™). It defines the non‑derogable limits of the architecture, the jurisdictional identity of its constructs, and the enforcement surfaces that protect the system from reinterpretation, dilution, or derivative re‑origination.
+
+LCES™ consists of two inseparable layers: the doctrinal Manifesto and the constitutional mechanics layer. The Manifesto defines meaning, provenance, identity, and structural doctrine. The constitutional mechanics layer governs movement, authority, admissibility, STOP, role separation, Edition purity, and the execution boundary where reasoning seeks the authority to bind consequence. Neither layer may be separated, reframed, or re‑expressed as an independent system.
+
+All constructs defined within LCES™—including the constitutional stack, STOP doctrine, role separation, Edition purity, GateZero governance, execution boundaries, and the Architect–Builder–Inspector workflow—possess fixed jurisdictional identity. These constructs cannot be renamed, reframed, synonym‑substituted, domain‑translated, or structurally mimicked in a manner that creates an independent origin. Any construct equivalent in meaning, effect, or operational physics remains derivative and subordinate to the originating system.
+
+The provenance of LCES™ is inseparable from its jurisdiction. No derivative work, adaptation, or domain‑level translation may establish a separate jurisdictional identity or claim independent authorship. Temporal priority is fixed to the moment of original creation, and all downstream uses inherit this priority without exception.
+
+The constitutional mechanics layer is non‑derogable. No Edition, Mode, Role, or downstream implementation may supersede, reinterpret, or dilute the constitutional order. STOP, role separation, Edition purity, Strategist supremacy, and GateZero admissibility remain binding across all contexts, including multi‑AI ecosystems, domain‑agnostic deployments, and future expansions of the architecture.
+
+This Addendum governs all future versions, Editions, and applications of LCES™. It binds the system to its origin, preserves its jurisdiction, and protects the constitutional identity of its constructs across all expressive, functional, and operational forms.
+
+Nothing may supersede, override, reinterpret, dilute, or bypass these boundaries.
+
+This Addendum is final.
+
 
 This Addendum clarifies the constitutional boundaries of LCES™. The constitutional mechanics layer (12‑Section Constitution) governs movement, authority, and consequence. The doctrinal Manifesto governs meaning, identity, and provenance. No Edition, Mode, or Role may reinterpret or dilute these boundaries. All future expansions must remain subordinate to the constitutional architecture defined herein.
 
