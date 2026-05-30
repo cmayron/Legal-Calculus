@@ -496,7 +496,6 @@ Nothing may dilute it.
 ----
 # **XVI — LCES at the Gate (Doctrinal Principle)**
 
-*(All subsequent sections shift down by one number.)*
 
 ### **LCES at the Gate (Doctrinal Principle)**
 
