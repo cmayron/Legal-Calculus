@@ -555,6 +555,8 @@ Nothing self‑initiates.
 
 Nothing escalates without constitutional clearance.
 
+At the transition layer where reasoning acquires the authority to create consequence, governance becomes operational rather than procedural. LCES enforces explicit execution boundaries through layered control points and verified authority flow, ensuring that no movement may cross from possibility into effect without admissibility, jurisdictional alignment, and Strategist authorization. This constitutional control of the reasoning‑to‑action gate reduces drift, prevents unauthorized escalation, and stabilizes coordination across all agents operating within the ecosystem.
+
 ---
 
 # **XIX — The GateZero Identity**
