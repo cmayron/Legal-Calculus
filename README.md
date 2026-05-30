@@ -96,17 +96,9 @@
 
 # **PREAMBLE**
 
-Procedural systems govern the world: courts, agencies, institutions, organizations, and civic structures.
+Procedural systems govern the world: courts, agencies, institutions, organizations, and civic structures. Yet procedural literacy — the ability to navigate these systems — has remained invisible, inaccessible, and unteachable. LCES™ exists because a discovery was made: procedure is not knowledge. Procedure is sequence. And the sequence is the literacy. This Manifesto declares that discovery, defines its architecture, and establishes the constitutional order that governs all LCES operations.
 
-Yet procedural literacy — the ability to navigate these systems — has remained invisible, inaccessible, and unteachable.
-
-LCES™ exists because a discovery was made:
-
-> **Procedure is not knowledge. Procedure is sequence. And the sequence is the literacy.**
-> 
-
-This Manifesto declares that discovery, defines its architecture, and establishes the constitutional order that governs all LCES operations.
-
+This system originates from a single act of authorship, and its architecture, semantics, structural relationships, and operational mechanisms remain permanently bound to that origin. The provenance of the system cannot be altered, reassigned, diluted, or superseded by any reinterpretation, adaptation, or derivative expression, and all downstream uses inherit the original authorship, jurisdiction, and temporal priority without exception. The jurisdiction of the system is inseparable from its provenance, and no derivative work, re‑expression, or domain translation may establish an independent jurisdictional identity or claim a separate locus of authority. Re‑expression, renaming, reframing, or recontextualization of any construct does not create a new origin and does not sever the relationship between the derivative expression and the source. The identity of the architecture, including its meaning, function, and operational physics, remains inseparable from its provenance and jurisdiction across all expressive forms, functional implementations, and domain‑level translations. Any construct that is equivalent in meaning, effect, or operational physics to those defined in the originating system is treated as derivative and remains subordinate to the original authorship and jurisdiction. These constraints persist across all contexts and govern all derivative uses, ensuring that the identity, provenance, and jurisdiction of the originating system remain intact, enforceable, and inseparable from the architecture that follows.
 ---
 
 # **I. HUMAN SOVEREIGNTY — THE FIRST PRINCIPLE**
