@@ -493,6 +493,15 @@ Nothing may bypass it.
 Nothing may dilute it.
 
 ---
+LCES governs at the moment where reasoning seeks the authority to create consequence. This transition layer is the constitutional surface where governance becomes operative, because it is the only point at which internal possibility attempts to cross into external effect. Upstream, systems generate options. Downstream, they generate outcomes. The stability of any multi‑agent ecosystem depends on explicit enforcement at this boundary.
+
+This is the doctrine of LCES at the Gate: governance is neither upstream policy nor downstream audit, but the constitutional act of determining whether a proposed movement may lawfully bind consequence. GateZero is the layer that enforces this doctrine, validating authority, admissibility, STOP, role separation, and human‑bounded intent before any action may proceed.
+
+Together, the doctrine and the layer establish the execution path — Bootloader → GateZero → Action — and define LCES as the Personal AI Constitution Layer for multi‑agent ecosystems.
+… 
+
+XVI — LCES at the Gate (Doctrinal Principle)
+
 ----
 # **XVI — LCES at the Gate (Doctrinal Principle)**
 
