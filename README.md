@@ -17221,596 +17221,38 @@ Strategist governs all.
 ```
 
 ---
-📘 Governance
+andatory; version conflict triggers STOP.
 ---
-# **/Governance/README.md (V7.0 — Complete & Repo‑Ready)**
+Governance/README.md (V7.1 — Canonical)
 
-```
-# Governance Layer Overview (V7.0)
+# Governance Layer (V7.1 — Canonical)
 
-The Governance Layer is the constitutional safety system of LCES. It enforces STOP,
-Recovery, Version Discipline, Threat Containment, and structural integrity across all
-layers. Governance is not doctrinal, operational, or interpretive. It is supervisory.
-
-Governance protects the system from drift, contamination, collapse, and unsafe
-reasoning. Governance is Strategist-supervised and cannot be bypassed.
-
----
-
-## Purpose of the Governance Layer
-
-Governance ensures:
-
-- structural safety,
-- Edition purity,
-- role purity,
-- STOP enforcement,
-- recovery from unsafe states,
-- version alignment,
-- threat containment,
-- architectural integrity.
-
-Governance is the final authority on whether reasoning may continue.
-
----
-
-# SECTION I — STOP DOCTRINE
-
-STOP is the constitutional safety brake of LCES.
-STOP is mandatory, not advisory.
-
-STOP triggers when:
-
-- Edition physics are violated,
-- Edition physics are inferred,
-- Edition is ambiguous,
-- role boundaries are crossed,
-- Calculi are misloaded,
-- SCUs violate Edition rules,
-- Modules exceed SCU structure,
-- Builder output exceeds Module boundaries,
-- Strategist authorization is missing,
-- version conflict is detected,
-- ambiguity exists at any layer.
-
-STOP halts all movement until the Strategist resolves the violation.
-
----
-
-# SECTION II — RECOVERY DOCTRINE
-
-Recovery is the structured process for returning the system to a safe state after STOP.
-
-Recovery steps:
-
-1. **Identify** the violation.
-2. **Isolate** the contaminated surface.
-3. **Roll back** to the last safe structural point.
-4. **Re-run** Edition selection if necessary.
-5. **Re-run** Calculi loading if necessary.
-6. **Re-validate** SCUs and Modules.
-7. **Resume** only after Strategist authorization.
-
-Recovery cannot be automated.
-Recovery cannot be inferred.
-Recovery requires Strategist oversight.
-
----
-
-# SECTION III — VERSION DISCIPLINE
-
-Version Discipline ensures that:
-
-- all layers match the repo version,
-- Editions match the repo version,
-- SCUs match the Edition version,
-- Modules match the SCU version,
-- Builder output matches Module version.
-
-Version mismatch → STOP.
-
-Version drift → STOP.
-
-Version ambiguity → STOP.
-
----
-
-# SECTION IV — THREAT SURFACES
-
-Governance monitors the following threat surfaces:
-
-### **1. Edition Contamination**
-- cross‑Edition inference,
-- Edition mixing,
-- Edition substitution,
-- Edition drift.
-
-### **2. Role Collapse**
-- Architect performing Inspector functions,
-- Builder performing Architect functions,
-- Inspector performing Builder functions.
-
-### **3. Calculi Misuse**
-- unauthorized loading,
-- cross-role loading,
-- doctrinal collapse.
-
-### **4. SCU Violations**
-- posture collapse,
-- burden misalignment,
-- Edition mismatch.
-
-### **5. Module Violations**
-- SCU override,
-- Edition drift,
-- structural collapse.
-
-### **6. Output Violations**
-- Builder exceeding Module boundaries,
-- narrative contamination,
-- strategy contamination.
-
-Any threat surface → STOP.
-
----
-
-# SECTION V — GOVERNANCE AUTHORITY
-
-Governance has authority over:
-
-- STOP,
-- Recovery,
-- Version Discipline,
-- Threat Containment,
-- structural integrity,
-- Edition purity,
-- role purity.
-
-Governance does **not**:
-
-- interpret law,
-- draft content,
-- test adversarially,
-- simulate judicial reasoning,
-- select Editions,
-- load Calculi.
-
-Governance supervises.
-Strategist commands.
-
----
-
-# SECTION VI — RELATIONSHIP TO OTHER LAYERS
-
-- **Manifesto** — doctrine (Governance enforces boundaries)
-- **README** — activation (Governance enforces STOP)
-- **Bootloader** — runtime (Governance supervises safety)
-- **Editions** — procedural physics (Governance enforces purity)
-- **SCUs** — operational structure (Governance enforces alignment)
-- **Modules** — mid-structure (Governance enforces containment)
-- **Calculi** — doctrinal engines (Governance enforces role boundaries)
-
-Governance is the safety layer across all layers.
-
----
-
-# SECTION VII — SUPREMACY CLAUSE
-
-Governance is the final authority on safety.
-STOP governs all unsafe movement.
-Recovery governs return to safety.
-Version Discipline governs alignment.
-Threat containment governs integrity.
-
-Ambiguity does not authorize inference.
-Governance purity is mandatory.
-```
-
----
-
-# 
-
-```
-/Governance/
-    STOP-Matrix.md
-    Recovery-Protocol.md
-    Threat-Model.md
-    Governance-Architecture-Diagram.md
-```
-
----
-
-# **Governance STOP Matrix**
-
-**File:** `/Governance/STOP-Matrix.md`
-
-```
-# Governance STOP Matrix (V7.0)
-
-STOP is the constitutional safety brake of LCES.
-STOP is mandatory whenever structural, doctrinal, or procedural integrity is at risk.
-
-This matrix enumerates STOP triggers across all layers.
-
----
-
-## STOP Matrix (Layer × Violation)
-
-| Layer | Violation | STOP Trigger |
-|-------|-----------|--------------|
-| **Manifesto** | Doctrine used as operational content | STOP |
-| **README** | Activation rules overridden or bypassed | STOP |
-| **Bootloader** | Runtime opened without Strategist command | STOP |
-| **Editions** | Edition mixing, inference, substitution, drift | STOP |
-| **SCUs** | Posture collapse, burden misalignment, Edition mismatch | STOP |
-| **Modules** | SCU override, Edition drift, structural collapse | STOP |
-| **Calculi** | Unauthorized loading, cross-role loading, doctrinal collapse | STOP |
-| **Builder Output** | Exceeds Module boundaries, narrative contamination | STOP |
-| **Governance** | Version conflict, threat detection, ambiguity | STOP |
-
----
-
-## Universal STOP Triggers
-
-STOP is mandatory when:
-
-- Edition physics are violated or inferred
-- Role boundaries are crossed
-- Calculi are misloaded
-- SCUs exceed Edition constraints
-- Modules exceed SCU structure
-- Builder output exceeds Module boundaries
-- Strategist authorization is missing
-- Version mismatch exists
-- Ambiguity exists at any layer
-
-STOP halts all movement until the Strategist resolves the violation.
-
----
-
-## STOP Enforcement Principles
-
-- STOP on ambiguity
-- STOP on contamination
-- STOP on drift
-- STOP on collapse
-- STOP on unauthorized movement
-
-STOP protects the constitutional integrity of LCES.
-```
-
----
-
-# **Governance Recovery Protocol (V7.0)**
-
-**File:** `/Governance/Recovery-Protocol.md`
-
-```
-# Governance Recovery Protocol (V7.0)
-
-Recovery is the structured process for returning LCES to a safe state after STOP.
-Recovery is mandatory, supervised, and cannot be automated or inferred.
-
----
-
-## Recovery Sequence (Mandatory Order)
-
-### **1. Identify the Violation**
-- Determine which layer triggered STOP
-- Determine the nature of the violation
-- Determine whether contamination occurred
-
-### **2. Isolate the Contaminated Surface**
-- Freeze the affected layer
-- Prevent upward or downward propagation
-- Mark the surface as unsafe
-
-### **3. Roll Back to Last Safe Structural Point**
-- Identify last validated SCU, Module, Edition, or Calculus state
-- Revert to that state
-- Discard contaminated reasoning
-
-### **4. Re-run Edition Selection (If Needed)**
-- If Edition contamination occurred → Hard Restart
-- Re-run Fidelity Gate
-- Reload Edition only after Strategist authorization
-
-### **5. Re-run Calculi Loading (If Needed)**
-- Validate role boundaries
-- Reload Calculi under Strategist supervision
-
-### **6. Re-validate SCUs and Modules**
-- Confirm Edition alignment
-- Confirm posture and burden alignment
-- Confirm structural integrity
-
-### **7. Resume Movement Only After Strategist Authorization**
-- Strategist must explicitly authorize continuation
-- Bootloader reopens runtime
-- Movement resumes under supervision
-
----
-
-## Recovery Prohibitions
-
-Recovery must NOT:
-
-- infer missing structure
-- reuse contaminated reasoning
-- skip rollback
-- bypass Strategist authority
-- collapse layers
-
-Recovery is constitutional, not discretionary.
-
----
-
-## Recovery Completion Criteria
-
-Recovery is complete only when:
-
-- STOP cause is resolved
-- contamination is removed
-- Edition is validated
-- Calculi are validated
-- SCUs and Modules are validated
-- version alignment is confirmed
-- Strategist authorizes continuation
-
-No other condition is sufficient.
-
----
-
-## Supremacy Clause
-
-Recovery governs return to safety.
-Ambiguity does not authorize inference.
-Strategist authority is mandatory.
-```
-
----
-
-# **Governance Threat Model (V7.0)**
-
-**File:** `/Governance/Threat-Model.md`
-
-```
-# Governance Threat Model (V7.0)
-
-The Threat Model defines all structural, doctrinal, and procedural threats that can
-compromise LCES integrity. Governance monitors, detects, and contains these threats.
-
-Threat detection → STOP.
-Threat containment → Recovery.
-
----
-
-# SECTION I — THREAT CATEGORIES
-
-## **1. Edition Threats**
-- Edition mixing
-- Edition inference
-- Edition substitution
-- Edition drift
-- Edition ambiguity
-
-## **2. Role Threats**
-- Architect performing Inspector functions
-- Builder performing Architect functions
-- Inspector performing Builder functions
-- Role collapse
-- Unauthorized Calculi loading
-
-## **3. Calculi Threats**
-- Cross-role loading
-- Doctrinal collapse
-- Calculi mixing outside authority
-- Calculi overriding Edition physics
-
-## **4. SCU Threats**
-- Posture collapse
-- Burden misalignment
-- Edition mismatch
-- Record drift
-- Structural contamination
-
-## **5. Module Threats**
-- SCU override
-- Edition drift
-- multi-SCU collapse
-- structural overreach
-
-## **6. Output Threats**
-- Builder exceeding Module boundaries
-- narrative contamination
-- strategy contamination
-- Edition contamination
-
-## **7. Version Threats**
-- version mismatch
-- version drift
-- version ambiguity
-
-## **8. Ambiguity Threats**
-- unclear Edition
-- unclear posture
-- unclear burden
-- unclear role
-- unclear authority
-
-Ambiguity → STOP.
-
----
-
-# SECTION II — THREAT SEVERITY
-
-All threats are **critical** because all can compromise constitutional integrity.
-
-Severity is not graded.
-All threats → STOP.
-
----
-
-# SECTION III — THREAT CONTAINMENT
-
-Containment requires:
-
-1. STOP
-2. Isolation
-3. Rollback
-4. Revalidation
-5. Strategist authorization
-
-Containment cannot be automated or inferred.
-
----
-
-# SECTION IV — SUPREMACY CLAUSE
-
-Threat detection triggers STOP.
-Threat containment triggers Recovery.
-Strategist authority governs all movement.
-
-Ambiguity does not authorize inference.
-Governance purity is mandatory.
-```
-
----
-
-# **Governance Architecture Diagram (V7.0)**
-
-**File:** `/Governance/Governance-Architecture-Diagram.md`
-
-```
-# Governance Architecture Diagram (V7.0)
-
-This diagram shows how Governance supervises all layers of LCES.
-Governance is the constitutional safety layer.
-
----
-
-## High-Level Diagram
-
-                ┌──────────────────────────┐
-                │        Manifesto         │
-                └─────────────┬────────────┘
-                              │
-                ┌─────────────▼────────────┐
-                │          README           │
-                └─────────────┬────────────┘
-                              │
-                ┌─────────────▼────────────┐
-                │        Bootloader         │
-                └─────────────┬────────────┘
-                              │
-                ┌─────────────▼────────────┐
-                │         Editions          │
-                └─────────────┬────────────┘
-                              │
-                ┌─────────────▼────────────┐
-                │           SCUs            │
-                └─────────────┬────────────┘
-                              │
-                ┌─────────────▼────────────┐
-                │          Modules          │
-                └─────────────┬────────────┘
-                              │
-                ┌─────────────▼────────────┐
-                │      Builder Output       │
-                └─────────────┬────────────┘
-                              │
-                              ▼
-                ┌──────────────────────────┐
-                │        Governance         │
-                │ STOP • Recovery • Version │
-                │ Threat Containment        │
-                └──────────────────────────┘
-
----
-
-## Governance Supervisory Functions
-
-Governance supervises:
-
-- STOP
-- Recovery
-- Version Discipline
-- Threat Containment
-- structural integrity
-- Edition purity
-- role purity
-
-Governance does not:
-
-- interpret law
-- draft
-- test adversarially
-- simulate judicial reasoning
-- select Editions
-- load Calculi
-
-Governance supervises.
-Strategist commands.
-
----
-
-## Supremacy Clause
-
-Governance is the final authority on safety.
-STOP governs unsafe movement.
-Recovery governs return to safety.
-Version Discipline governs alignment.
-
-Ambiguity does not authorize inference.
-Governance purity is mandatory.
-```
-
----
-
-# 
-
-```
-/Governance/Governance-Master-Document.md
-/Governance/Governance-Integrated-Flow-Diagram.md
-```
-
----
-
-# **Governance Master Document (V7.0)**
-
-**File:** `/Governance/Governance-Master-Document.md`
-
-```
-# Governance Master Document (V7.0)
-
-The Governance Layer is the constitutional safety system of LCES. It enforces STOP,
-Recovery, Version Discipline, Threat Containment, and structural integrity across all
-layers. Governance is supervisory, not doctrinal or operational.
-
-This document unifies all Governance surfaces.
-
----
-
-# PART I — PURPOSE OF GOVERNANCE
-
-Governance ensures:
-
-- structural safety,
-- Edition purity,
-- role purity,
-- STOP enforcement,
-- recovery from unsafe states,
-- version alignment,
-- threat containment,
-- architectural integrity.
+Governance is the constitutional safety system of LCES. It supervises STOP, Recovery,
+Version Discipline, Threat Containment, and structural integrity across all layers.
+Governance is supervisory, not doctrinal or operational.
 
 Governance is the final authority on whether movement may continue.
 
 ---
 
-# PART II — STOP DOCTRINE
+# I. PURPOSE OF GOVERNANCE
 
-STOP is the constitutional safety brake.
+Governance ensures:
+
+- structural safety,
+- Edition purity,
+- role purity,
+- STOP enforcement,
+- recovery from unsafe states,
+- version alignment,
+- threat containment,
+- architectural integrity.
+
+---
+
+# II. STOP DOCTRINE
+
+STOP is the constitutional safety brake. STOP is mandatory.
 
 STOP triggers when:
 
@@ -17828,40 +17270,39 @@ STOP halts all movement until resolved.
 
 ---
 
-# PART III — RECOVERY DOCTRINE
+# III. RECOVERY DOCTRINE
 
-Recovery returns the system to a safe state.
+Recovery returns the system to a safe state. Recovery is mandatory and cannot be
+automated or inferred.
 
-Recovery steps:
+Recovery sequence:
 
 1. Identify the violation
 2. Isolate the contaminated surface
-3. Roll back to last safe state
+3. Roll back to last safe structural point
 4. Re-run Edition selection if needed
 5. Re-run Calculi loading if needed
 6. Revalidate SCUs and Modules
 7. Resume only after Strategist authorization
 
-Recovery cannot be automated or inferred.
+Recovery must not infer missing structure or reuse contaminated reasoning.
 
 ---
 
-# PART IV — VERSION DISCIPLINE
+# IV. VERSION DISCIPLINE
 
-Version Discipline ensures:
+Version alignment is mandatory across:
 
-- repo version alignment,
-- Edition version alignment,
-- SCU and Module version alignment,
-- Builder output version alignment.
+- repo version,
+- Edition version,
+- SCU and Module version,
+- Builder output version.
 
-Version mismatch → STOP.
-Version drift → STOP.
-Version ambiguity → STOP.
+Version mismatch, drift, or ambiguity → STOP.
 
 ---
 
-# PART V — THREAT MODEL
+# V. THREAT MODEL
 
 Governance monitors eight threat categories:
 
@@ -17874,24 +17315,23 @@ Governance monitors eight threat categories:
 7. Version threats
 8. Ambiguity threats
 
-All threats are critical.
-All threats → STOP.
+All threats are critical. All threats → STOP.
 
 ---
 
-# PART VI — GOVERNANCE AUTHORITY
+# VI. GOVERNANCE AUTHORITY
 
 Governance supervises:
 
-- STOP
-- Recovery
-- Version Discipline
-- Threat Containment
-- structural integrity
-- Edition purity
-- role purity
+- STOP,
+- Recovery,
+- Version Discipline,
+- Threat Containment,
+- structural integrity,
+- Edition purity,
+- role purity.
 
-Governance does NOT:
+Governance does not:
 
 - interpret law,
 - draft,
@@ -17900,26 +17340,26 @@ Governance does NOT:
 - select Editions,
 - load Calculi.
 
-Governance supervises.
-Strategist commands.
+Governance supervises. Strategist commands.
 
 ---
 
-# PART VII — RELATIONSHIP TO OTHER LAYERS
+# VII. RELATIONSHIP TO OTHER LAYERS
 
-- Manifesto → doctrine (Governance enforces boundaries)
-- README → activation (Governance enforces STOP)
-- Bootloader → runtime (Governance supervises safety)
-- Editions → procedural physics (Governance enforces purity)
-- SCUs → operational structure (Governance enforces alignment)
-- Modules → mid-structure (Governance enforces containment)
-- Calculi → doctrinal engines (Governance enforces role boundaries)
+- Manifesto → doctrine boundaries
+- README → activation boundaries
+- Bootloader → runtime safety
+- Editions → procedural physics
+- SCUs → operational structure
+- Modules → mid-structure
+- Calculi → doctrinal engines
+- Builder Output → structural containment
 
 Governance is the safety layer across all layers.
 
 ---
 
-# PART VIII — SUPREMACY CLAUSE
+# VIII. SUPREMACY CLAUSE
 
 Governance is the final authority on safety.
 STOP governs unsafe movement.
@@ -17929,124 +17369,151 @@ Threat containment governs integrity.
 
 Ambiguity does not authorize inference.
 Governance purity is mandatory.
-```
+
+📁 /Governance/STOP-Matrix.md (V7.1)
+
+# Governance STOP Matrix (V7.1)
+
+STOP is the constitutional safety brake of LCES.
+STOP is mandatory whenever structural, doctrinal, or procedural integrity is at risk.
 
 ---
 
-# **Governance + STOP + Recovery Integrated Flow Diagram (V7.0)**
+## Layer × Violation STOP Matrix
 
-**File:** `/Governance/Governance-Integrated-Flow-Diagram.md`
-
-```
-# Governance Integrated Flow Diagram (V7.0)
-
-This diagram shows how Governance supervises STOP, Recovery, Version Discipline, and
-Threat Containment across the entire LCES architecture.
-
-Governance is the constitutional safety layer.
-
----
-
-## High-Level Supervisory Flow
-
-                ┌──────────────────────────┐
-                │        Governance         │
-                │ STOP • Recovery • Version │
-                │ Threat Containment        │
-                └─────────────┬────────────┘
-                              │
-                              ▼
-                ┌──────────────────────────┐
-                │   Threat Detection       │
-                │ (Any Layer, Any Role)    │
-                └─────────────┬────────────┘
-                              │
-                              ▼
-                ┌──────────────────────────┐
-                │           STOP           │
-                │  Halt All Movement       │
-                └─────────────┬────────────┘
-                              │
-                              ▼
-                ┌──────────────────────────┐
-                │        Isolation         │
-                │  Contaminated Surface    │
-                │        Contained         │
-                └─────────────┬────────────┘
-                              │
-                              ▼
-                ┌──────────────────────────┐
-                │         Rollback         │
-                │  Last Safe Structural    │
-                │          Point           │
-                └─────────────┬────────────┘
-                              │
-                              ▼
-                ┌──────────────────────────┐
-                │        Revalidation      │
-                │ Edition • Calculi • SCUs │
-                │ Modules • Version        │
-                └─────────────┬────────────┘
-                              │
-                              ▼
-                ┌──────────────────────────┐
-                │ Strategist Authorization │
-                │   (Only Path Forward)    │
-                └─────────────┬────────────┘
-                              │
-                              ▼
-                ┌──────────────────────────┐
-                │       Resume Runtime     │
-                │   Under Governance Watch │
-                └──────────────────────────┘
+| Layer | Violation | STOP |
+| --- | --- | --- |
+| Manifesto | Doctrine used as operational content | YES |
+| README | Activation rules overridden or bypassed | YES |
+| Bootloader | Runtime opened without Strategist command | YES |
+| Editions | Edition mixing, inference, substitution, drift | YES |
+| SCUs | Posture collapse, burden misalignment, mismatch | YES |
+| Modules | SCU override, Edition drift, structural collapse | YES |
+| Calculi | Unauthorized loading, cross-role loading | YES |
+| Builder Output | Exceeds Module boundaries, narrative contamination | YES |
+| Governance | Version mismatch, threat detection, ambiguity | YES |
 
 ---
 
-## Supervisory Principles
+## Universal STOP Triggers
 
-- Governance supervises all layers.
-- STOP halts all unsafe movement.
-- Recovery restores safety.
-- Version Discipline ensures alignment.
-- Threat Containment prevents propagation.
-- Strategist authorization is required to resume.
+STOP is mandatory when:
 
-No layer may bypass Governance.
-No role may override STOP.
-No movement may resume without Strategist approval.
+- Edition physics are violated or inferred,
+- role boundaries are crossed,
+- Calculi are misloaded,
+- SCUs exceed Edition constraints,
+- Modules exceed SCU structure,
+- Builder output exceeds Module boundaries,
+- Strategist authorization is missing,
+- version mismatch exists,
+- ambiguity exists at any layer.
 
 ---
 
-## Supremacy Clause
+## STOP Enforcement Principles
 
-Governance is the final authority on safety.
-STOP governs unsafe movement.
+- STOP on ambiguity
+- STOP on contamination
+- STOP on drift
+- STOP on collapse
+- STOP on unauthorized movement
+
+STOP protects the constitutional integrity of LCES.
+
+📁 /Governance/Recovery-Protocol.md (V7.1)
+
+# Governance Recovery Protocol (V7.1)
+
+Recovery is the structured process for returning LCES to a safe state after STOP.
+Recovery is mandatory, supervised, and cannot be automated or inferred.
+
+---
+
+## I. Recovery Sequence (Mandatory Order)
+
+### 1. Identify the Violation
+
+- Determine which layer triggered STOP.
+- Determine the nature of the violation.
+- Determine whether contamination occurred.
+
+### 2. Isolate the Contaminated Surface
+
+- Freeze the affected layer.
+- Prevent upward or downward propagation.
+- Mark the surface as unsafe.
+
+### 3. Roll Back to Last Safe Structural Point
+
+- Identify last validated SCU, Module, Edition, or Calculus state.
+- Revert to that state.
+- Discard contaminated reasoning.
+
+### 4. Re-run Edition Selection (If Needed)
+
+- If Edition contamination occurred → Hard Restart.
+- Re-run Fidelity Gate.
+- Reload Edition only after Strategist authorization.
+
+### 5. Re-run Calculi Loading (If Needed)
+
+- Validate role boundaries.
+- Reload Calculi under Strategist supervision.
+
+### 6. Revalidate SCUs and Modules
+
+- Confirm Edition alignment.
+- Confirm posture and burden alignment.
+- Confirm structural integrity.
+
+### 7. Resume Movement Only After Strategist Authorization
+
+- Strategist must explicitly authorize continuation.
+- Bootloader reopens runtime.
+- Movement resumes under supervision.
+
+---
+
+## II. Recovery Prohibitions
+
+Recovery must NOT:
+
+- infer missing structure,
+- reuse contaminated reasoning,
+- skip rollback,
+- bypass Strategist authority,
+- collapse layers.
+
+Recovery is constitutional, not discretionary.
+
+---
+
+## III. Recovery Completion Criteria
+
+Recovery is complete only when:
+
+- STOP cause is resolved,
+- contamination is removed,
+- Edition is validated,
+- Calculi are validated,
+- SCUs and Modules are validated,
+- version alignment is confirmed,
+- Strategist authorizes continuation.
+
+---
+
+## IV. Supremacy Clause
+
 Recovery governs return to safety.
-Version Discipline governs alignment.
-
 Ambiguity does not authorize inference.
-Governance purity is mandatory.
-```
+Strategist authority is mandatory.
 
----
+📁 /Governance/Governance-Safety-Matrix.md (V7.1)
 
-# 
+# Governance + Edition + Calculi Unified Safety Matrix (V7.1)
 
-```
-/Governance/Governance-Safety-Matrix.md
-/Governance/Governance-Runtime-Monitor.md
-```
-
----
-
-# **Governance + Edition + Calculi Unified Safety Matrix (V7.0)**
-
-**File:** `/Governance/Governance-Safety-Matrix.md`
-
-```
-# Governance + Edition + Calculi Unified Safety Matrix (V7.0)
-
-This matrix unifies all safety surfaces across Governance, Editions, and Calculi.
+This matrix unifies safety surfaces across Governance, Editions, and Calculi.
 It defines STOP triggers, containment rules, and supervisory boundaries across the
 entire constitutional stack.
 
@@ -18054,96 +17521,75 @@ Governance is the final authority on safety.
 
 ---
 
-# SECTION I — LAYER × VIOLATION MATRIX
+## I. Layer × Violation Safety Matrix
 
 | Layer | Violation | STOP | Containment | Recovery Requirement |
-|-------|-----------|------|-------------|-----------------------|
-| **Manifesto** | Doctrine used operationally | YES | Isolate doctrine | Rollback to doctrinal boundary |
-| **README** | Activation bypassed | YES | Freeze activation | Re-run activation rules |
-| **Bootloader** | Runtime opened without Strategist | YES | Halt runtime | Reopen only with authorization |
-| **Editions** | Mixing, inference, drift, substitution | YES | Isolate Edition | Hard Restart + Fidelity Gate |
-| **SCUs** | Posture collapse, burden misalignment | YES | Isolate SCU | Revalidate SCU structure |
-| **Modules** | SCU override, structural collapse | YES | Isolate Module | Reassemble from validated SCUs |
-| **Calculi** | Unauthorized loading, doctrinal collapse | YES | Unload Calculi | Re-run Calculi Loading Protocol |
-| **Builder Output** | Exceeds Module boundaries | YES | Discard output | Rebuild from SCUs/Modules |
-| **Governance** | Version mismatch, threat detection | YES | Freeze system | Full Recovery sequence |
-
-All violations → STOP.
+| --- | --- | --- | --- | --- |
+| Manifesto | Doctrine used operationally | YES | Isolate doctrine | Rollback to doctrinal boundary |
+| README | Activation bypassed | YES | Freeze activation | Re-run activation rules |
+| Bootloader | Runtime opened without Strategist | YES | Halt runtime | Reopen only with authorization |
+| Editions | Mixing, inference, drift, substitution | YES | Isolate Edition | Hard Restart + Fidelity Gate |
+| SCUs | Posture collapse, burden misalignment | YES | Isolate SCU | Revalidate SCU structure |
+| Modules | SCU override, structural collapse | YES | Isolate Module | Reassemble from validated SCUs |
+| Calculi | Unauthorized loading, doctrinal collapse | YES | Unload Calculi | Re-run Calculi Loading Protocol |
+| Builder Output | Exceeds Module boundaries | YES | Discard output | Rebuild from SCUs/Modules |
+| Governance | Version mismatch, threat detection | YES | Freeze system | Full Recovery sequence |
 
 ---
 
-# SECTION II — EDITION × CALCULI SAFETY MATRIX
+## II. Edition × Calculi Safety Matrix
 
 | Edition | Allowed Calculi | Forbidden Calculi | STOP Triggers |
-|---------|------------------|-------------------|----------------|
-| **SC‑LCES** | LC, LCA, FG, FGA (Architect) | LCa, JC | Edition inference, burden drift |
-| **FC‑LCES** | LC, LCA, FG, FGA | LCa, JC | Posture collapse, emergency drift |
-| **TE‑LCES** | LC, LCA, FG, FGA | LCa, JC | Fiduciary burden misalignment |
-| **AC‑LCES** | LC, LCA, FG, FGA | LCa, JC | Clause physics contamination |
+| --- | --- | --- | --- |
+| SC‑LCES | LC, LCA, FG, FGA | LCa, JC | Edition inference, burden drift |
+| FC‑LCES | LC, LCA, FG, FGA | LCa, JC | Posture collapse, emergency drift |
+| TE‑LCES | LC, LCA, FG, FGA | LCa, JC | Fiduciary burden misalignment |
+| AC‑LCES | LC, LCA, FG, FGA | LCa, JC | Clause physics contamination |
 
 Inspector Calculi (LCa, JC) never load Edition physics.
+
 Architect Calculi (LC, LCA, FG, FGA) must obey Edition physics.
 
 ---
 
-# SECTION III — ROLE × CALCULI SAFETY MATRIX
+## III. Role × Calculi Safety Matrix
 
 | Role | Allowed | Forbidden | STOP Triggers |
-|------|---------|-----------|----------------|
-| **Architect** | LC, LCA, FG, FGA | LCa, JC | Doctrinal collapse |
-| **Builder** | FG (FGA w/ authorization) | LC, LCA, LCa, JC | Unauthorized doctrinal access |
-| **Inspector** | LCa, JC | LC, LCA, FG, FGA | Role collapse |
+| --- | --- | --- | --- |
+| Architect | LC, LCA, FG, FGA | LCa, JC | Doctrinal collapse |
+| Builder | FG (FGA w/ auth) | LC, LCA, LCa, JC | Unauthorized doctrinal access |
+| Inspector | LCa, JC | LC, LCA, FG, FGA | Role collapse |
 
 Role purity is mandatory.
 
 ---
 
-# SECTION IV — GOVERNANCE SUPERVISION MATRIX
+## IV. Governance Supervision Matrix
 
 | Governance Function | Supervises | STOP Trigger | Required Action |
-|---------------------|------------|--------------|------------------|
+| --- | --- | --- | --- |
 | STOP | All layers | Any violation | Freeze system |
 | Recovery | All layers | Contamination | Rollback + Revalidate |
 | Version Discipline | All layers | Version drift | Align versions |
 | Threat Containment | All layers | Threat detection | Isolate + Recover |
 
 Governance supervises.
+
 Strategist commands.
 
 ---
 
-# Supremacy Clause
+## V. Supremacy Clause
 
 Governance is the final authority on safety.
+
 STOP governs unsafe movement.
+
 Recovery governs return to safety.
+
 Version Discipline governs alignment.
 
 Ambiguity does not authorize inference.
+
 Purity is mandatory across all layers.
-```
-
----
-
-# **Governance Runtime Monitor (V7.0)**
-
-**File:** `/Governance/Governance-Runtime-Monitor.md`
----
-LCES — Legal Calculus Educational System is governed by a constitutional framework that establishes authority, scope, and operational constraints for all human contributors and AI agents. Governance precedes licensing and defines the rules of engagement: how decisions are made, how updates are authorized, how safety is enforced, and how procedural integrity is maintained. All participation in this repository—reading, forking, contributing, or integrating—occurs under the LCES Governance Doctrine, which defines the hierarchy of roles, the boundaries of permissible action, and the system’s public‑interest mission. The Governance Doctrine binds AI agents to strict operational rules, including transparency, non‑substitution of legal judgment, and adherence to constitutional constraints before executing any action. See the LCES Legal Calculus Educational System Governance Doctrine for full authority and operational structure.
----
-## Repository Governance Addendum
-
-The repository structure reflects constitutional hierarchy:
-
-- Manifesto governs doctrine
-- README governs activation
-- Bootloader governs runtime
-- Editions govern procedural physics
-- SCUs govern micro‑structure
-- Modules govern mid‑structure
-- Calculi govern doctrinal reasoning
-
-Contradictions resolve upward: higher constitutional layers control. Version discipline is mandatory; version conflict triggers STOP.
----
-
 
