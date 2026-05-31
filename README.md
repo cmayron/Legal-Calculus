@@ -2894,8 +2894,349 @@ This keeps the system stable and prevents role drift.
 Here is the **correct, canonical sequence**.
 
 ---
+Collapsible README v9.0
 
-#
+<details> <summary><strong>Quick‑Start (Pro Se Edition)</strong></summary>
+
+Purpose
+
+A simple, safe, plain‑language guide for non‑technical users.
+
+What LCES Does
+
+LCES keeps your AI interactions safe, clear, and under your control. It prevents confusion, mixing topics, or the AI running ahead.
+
+The Three Things You Must Remember
+
+STOP — reset before anything important
+
+Choose Edition — define the context
+
+Choose Role — define how the AI should behave
+
+Activation Ritual
+
+STOP.
+Activate Edition: <name>.
+Activate Role: <Architect / Builder / Inspector / Strategist>.
+I confirm activation.
+
+When to Use STOP
+
+Topic change
+
+Device change
+
+AI change
+
+Confusion
+
+Uncertainty
+
+Roles (Plain Language)
+
+Architect — helps you plan
+
+Builder — helps you create
+
+Inspector — checks for errors
+
+Strategist — helps you decide
+
+Rules You Cannot Break
+
+One Edition at a time
+
+One Role at a time
+
+STOP before switching
+
+No mixing topics
+
+No assuming memory
+
+Pro Se Loop
+
+STOP
+
+Activate
+
+Ask
+
+Check
+
+STOP again
+
+</details>
+
+<details> <summary><strong>Quick‑Start (Developer Edition)</strong></summary>
+
+System Model
+
+LCES is a four‑layer bootloader:
+
+STOP Layer
+
+Kernel Layer
+
+Edition Layer
+
+Role Layer
+
+Activation Sequence
+
+STOP
+Edition: <edition>
+Role: <role>
+Confirm
+
+Roles
+
+Architect — system design
+
+Builder — content generation
+
+Inspector — validation
+
+Strategist — decision support
+
+Edition Containment
+
+One Edition active
+
+Edition switch = full reboot
+
+No cross‑edition inference
+
+SCU Lifecycle
+
+Activation
+
+Operation
+
+Verification
+
+Closure
+
+Device Runtime
+
+Each device requires its own activation
+
+No cross‑device inference
+
+STOP on device switch
+
+Safety Rules
+
+STOP overrides everything
+
+No implicit activation
+
+No role blending
+
+No edition blending
+
+</details>
+
+<details> <summary><strong>Quick‑Start (Strategist Edition)</strong></summary>
+
+The Core
+
+LCES = STOP → Edition → Role → SCU
+
+Activation (Canonical Form)
+
+STOP.
+Edition: <X>.
+Role: <Y>.
+Confirm activation.
+
+The Four Absolutes
+
+No cross‑edition inference
+
+No cross‑role inference
+
+No implicit activation
+
+STOP on ambiguity
+
+Boot Sequence
+
+STOP
+
+Kernel
+
+Edition
+
+Role
+
+Entry Mode
+
+SCU Discipline
+
+One SCU per objective
+
+No SCU spans editions
+
+No SCU spans devices
+
+Closure required
+
+Device Model
+
+iPad = cognitive workspace
+
+Desktop = construction workspace
+
+iPhone = reference workspace Each requires independent activation.
+
+Drift Prevention
+
+STOP on topic change
+
+STOP on device change
+
+STOP on role change
+
+STOP on edition change
+
+Strategist Loop
+
+STOP
+
+Declare
+
+Direct
+
+Verify
+
+Close
+
+</details>
+
+<details> <summary><strong>STOP Doctrine</strong></summary>
+
+Purpose
+
+STOP is the universal reset mechanism that prevents drift, confusion, and cross‑context contamination.
+
+When to Use STOP
+
+Topic change
+
+Device change
+
+Role change
+
+Edition change
+
+Confusion or uncertainty
+
+Any sign of AI drift
+
+STOP Effect
+
+Clears context
+
+Resets the bootloader
+
+Prevents inference bleed
+
+Ensures safe reactivation
+
+</details>
+
+<details> <summary><strong>Edition Layer</strong></summary>
+
+Purpose
+
+Defines the operational frame for the interaction.
+
+Rules
+
+Only one Edition active at a time
+
+Switching Editions requires STOP
+
+No cross‑edition inference
+
+</details>
+
+<details> <summary><strong>Role Layer</strong></summary>
+
+Purpose
+
+Defines how the AI behaves.
+
+Roles
+
+Architect — planning
+
+Builder — creation
+
+Inspector — validation
+
+Strategist — decision support
+
+Rules
+
+Only one Role active at a time
+
+Switching Roles requires STOP
+
+No role blending
+
+</details>
+
+<details> <summary><strong>SCU Lifecycle</strong></summary>
+
+Stages
+
+Activation
+
+Operation
+
+Verification
+
+Closure
+
+Rules
+
+One SCU per objective
+
+No SCU spans devices
+
+No SCU spans Editions
+
+</details>
+
+<details> <summary><strong>Device Model</strong></summary>
+
+Devices
+
+iPad = cognitive workspace
+
+Desktop = construction workspace
+
+iPhone = reference workspace
+
+Rules
+
+Each device requires independent activation
+
+STOP on device switch
+
+</details>
+
+<details> <summary><strong>Appendix: Canonical Activation Script</strong></summary>
+
+STOP.
+Activate Edition: <name>.
+Activate Role: <Architect / Builder / Inspector / Strategist>.
+I confirm activation.
+
+</details>
 ---
 
 **LCES LICENSE & NOTICE (Final Integrated Version)**
