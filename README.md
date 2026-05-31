@@ -1067,11 +1067,9 @@ constitutional firewall between doctrine and execution.
 
 *Legal Calculus Educational System (LCES)*
 
-# Operational Boundary Rules (Runtime Surface)
+## **Operational Boundary Rules (Runtime Surface)**
 
-The README governs activation, runtime behavior, Edition containment, SCU
-lifecycle, and movement rules. It does not govern doctrine and must not be
-interpreted as a constitutional text.
+The README governs activation, runtime behavior, Edition containment, SCU lifecycle, and movement rules. It does not govern doctrine and must not be interpreted as a constitutional text.
 
 Operational artifacts include:
 
@@ -1081,10 +1079,11 @@ Operational artifacts include:
 - Bootloader mechanics
 - device‑level runtime discipline
 
-These artifacts define how LCES™ executes work, not why the system exists or
-what its constitutional principles are.
+These artifacts define how LCES™ executes work, not why the system exists or what its constitutional principles are.
 
-Runtime rules:
+---
+
+## **Runtime Rules**
 
 - Doctrine is defined in the Manifesto.
 - Activation is defined in the README.
@@ -1092,13 +1091,13 @@ Runtime rules:
 - Procedural physics are governed by Editions.
 - Operational structure is governed by SCUs.
 
-No operational rule may be inferred from doctrine, and no doctrinal statement
-may be restated in the README. The README enforces runtime boundaries and
-ensures that execution remains role‑bounded, Edition‑bounded, and STOP‑governed.
+No operational rule may be inferred from doctrine, and no doctrinal statement may be restated in the README. The README enforces runtime boundaries and ensures that execution remains role‑bounded, Edition‑bounded, and STOP‑governed.
 
-LCES™ runtime assumes a secure, version‑controlled environment. Hardware
-enforces impossibility; LCES enforces admissibility. Runtime movement is
-bounded by procedure, not by inference or assumption.
+LCES™ runtime assumes a secure, version‑controlled environment. Hardware enforces impossibility; LCES enforces admissibility. Runtime movement is bounded by procedure, not by inference or assumption.
+
+---
+
+## **Operational Governance**
 
 Operational governance focuses on:
 
@@ -1107,8 +1106,39 @@ Operational governance focuses on:
 - preventing unauthorized execution
 - ensuring reversible, reviewable workflows
 
-The README preserves the firewall between doctrine and execution.
 ---
+
+### **GateSigma™ — System‑of‑Systems Runtime Outcome Control**
+
+GateSigma™ extends operational governance beyond single‑system execution.
+
+While GateZero™ prevents unauthorized actions within a system, GateSigma™ prevents unauthorized **outcomes** across chains of systems.
+
+GateSigma™ ensures that individually valid steps do not combine into a composite outcome that violates:
+
+- Edition boundaries
+- authority limits
+- posture continuity
+- STOP conditions
+- runtime admissibility
+
+GateSigma™ enforces:
+
+- cross‑system consistency
+- cumulative authority limits
+- multi‑hop posture continuity
+- emergent‑risk amplification checks
+- continuation validity across the chain
+
+GateZero™ governs actions.
+
+GateSigma™ governs outcomes.
+
+Both operate at runtime and are enforced by the Bootloader.
+
+---
+
+The README preserves the firewall between doctrine and execution.
 
 # **1. Purpose of This Document**
 
