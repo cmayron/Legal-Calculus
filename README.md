@@ -42,7 +42,7 @@ This system originates from a single act of authorship, and its architecture, se
 ---
 ---
 
-# **CONSTITUTIONAL PREAMBLE (Tightened)**
+# **CONSTITUTIONAL PREAMBLE**
 
 This Constitutional Preamble establishes the governing mechanics of the Legal Calculus Educational System (LCES™). It defines the authority boundaries, admissibility rules, structural constraints, and enforcement mechanisms that govern all procedural reasoning within the system. It binds all computation to human sovereignty, prohibits autonomous movement, and enforces constitutional order through STOP, role separation, continuous gating, and Edition purity.
 
