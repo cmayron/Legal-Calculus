@@ -131,9 +131,113 @@ This Preamble governs all that follows.
 
 ---
 
-# **ARTICLE VIII — ADMISSIBILITY, GATEZERO™, AND GATESIGMA™**
+# ARTICLE VIII — ADMISSIBILITY, GATEZERO™, AND GATESIGMA™
 
-**Admissibility is the constitutional test that determines whether an action may enter a workflow. GateZero is the initial admissibility gate that evaluates posture, evidence sufficiency, Edition alignment, STOP conditions, and role authority before any action may begin. No workflow, record, or role function may proceed without GateZero clearance. Admissibility is structural, not interpretive; it binds all components equally.**
+## Section 1 — Admissibility
+All computation within LCES must be admissible.  
+Admissibility is the constitutional requirement that every step, transformation, and 
+continuation must remain within the authority, posture, and procedural boundaries 
+established by the Constitutional Kernel.
+
+No system may execute an action, produce an inference, or advance a continuation 
+unless admissibility is established at the boundary.
+
+Admissibility is non‑derogable.
+
+---
+
+## Section 2 — GateZero™ (System-Level Admissibility)
+GateZero™ governs the execution boundary of each individual system.  
+It ensures that:
+
+1. every action is admissible;  
+2. every transformation is authorized;  
+3. every posture transition is valid;  
+4. no system exceeds its authority envelope;  
+5. no system produces an inadmissible continuation.
+
+GateZero™ is the constitutional governor of **system‑level** behavior.
+
+No system may execute a step without passing GateZero™.
+
+---
+
+## Section 3 — GateSigma™ (System-of-Systems Admissibility)
+GateSigma™ governs the admissibility of chained outcomes produced by multiple 
+GateZero-governed systems.  
+It ensures that individually admissible steps do not combine into a collectively 
+inadmissible outcome.
+
+GateSigma™ enforces five composite admissibility domains:
+
+1. **Cross-System Consistency**  
+   The semantic, procedural, and authority trajectories across systems must remain 
+   coherent and non-contradictory.
+
+2. **Cumulative Authority**  
+   The total authority exercised across the chain must not exceed the chain’s 
+   constitutional authority envelope.
+
+3. **Emergent Risk Amplification**  
+   Multi-hop transformations must not accumulate risk beyond admissible bounds.
+
+4. **Cross-Boundary Procedural Posture**  
+   Posture transitions across systems must remain valid relative to the originating 
+   posture.
+
+5. **Continuation Validity**  
+   The final state of the chain must be constitutionally reachable from the initial 
+   state.
+
+GateSigma™ is the constitutional governor of **system‑of‑systems** behavior.
+
+No chain may finalize an outcome without passing GateSigma™.
+
+---
+
+## Section 4 — Dual Governance Mandate
+GateZero™ governs actions.  
+GateSigma™ governs outcomes.  
+LCES governs both.
+
+Together, GateZero™ and GateSigma™ form the LCES Governance Layer and ensure that 
+no system and no chain may produce an inadmissible state.
+
+GateSigma™ is a trademark of the Legal Calculus Educational System.
+
+---
+
+## Section 5 — Enforcement
+Admissibility is enforced through:
+
+- GateZero™ at the system boundary;  
+- GateSigma™ at the chain boundary;  
+- the Constitutional Kernel at the architectural boundary.
+
+No computation may bypass these governors.
+
+---
+
+## Section 6 — Auditability
+Every admissibility decision must be:
+
+- recorded,  
+- inspectable,  
+- reproducible,  
+- constitutionally justified.
+
+GateZero™ produces a system-level admissibility record.  
+GateSigma™ produces a chain-level admissibility record (Sigma Chain Ledger).
+
+Both records are part of the LCES Record under Article III.
+
+---
+
+## Section 7 — Non-Derogation
+No Edition, Mode, Role, Workflow, or Primitive may override, weaken, or bypass 
+GateZero™ or GateSigma™.
+
+Admissibility is absolute.
 
 ---
 
