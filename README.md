@@ -2166,40 +2166,39 @@ Environment‑specific risks (e.g., Family Court safety posture, Small Claims ev
 ---
 /docs/bootloader/BOOTLOADER.md
 
-# LCES™ SUPER‑BOOTLOADER
+LCES SUPER‑BOOTLOADER (V7.1)
 
-### Constitutional Entry Layer of the Legal Calculus Educational System
+Constitutional Entry Layer of the Legal Calculus Educational System
 
-### (Maximum‑Completeness Edition)
+(Maximum‑Completeness Edition, Governance‑Bound)
 
 ---
 
 ## TABLE OF CONTENTS
 
-- [0. Preamble](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#0-preamble)
-- [1. Constitutional Purpose](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#1-constitutional-purpose)
-- [2. System Boundaries](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#2-system-boundaries)
-- [3. Structural Rules](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#3-structural-rules)
-- [4. Kernel‑Level Constitutional Rules](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#4-kernel-level-constitutional-rules)
-- [5. Edition Inheritance Rules](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#5-edition-inheritance-rules)
-- [6. Mode Governance](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#6-mode-governance)
-- [7. Role Governance](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#7-role-governance)
-- [8. Blueprint Governance](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#8-blueprint-governance)
-- [9. Execution Contract](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#9-execution-contract)
-- [10. Prompt Protocol](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#10-prompt-protocol)
-- [11. Safety Contract](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#11-safety-contract)
-- [12. Output Contract](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#12-output-contract)
-- [13. Activation Sequence](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#13-activation-sequence)
-- [14. Termination Rules](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#14-termination-rules)
-- [15. Failure Modes & Recovery](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#15-failure-modes--recovery)
-- [16. Compliance](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#16-compliance)
-- [17. Versioning](notion://www.notion.so/36dfcedaaf3080baab5bc9d6066f33e0?showMoveTo=true&saveParent=true#17-versioning)
+1. Preamble
+2. Constitutional Purpose
+3. System Boundaries
+4. Structural Rules
+5. Kernel‑Level Constitutional Rules
+6. Edition Inheritance Rules
+7. Mode Governance
+8. Role Governance
+9. Blueprint Governance
+10. Execution Contract
+11. Prompt Protocol
+12. Safety Contract
+13. Output Contract
+14. Activation Sequence
+15. Termination Rules
+16. Failure Modes & Recovery
+17. Compliance
+18. Versioning
+19. Governance Reference
 
 ---
 
-<a name="0-preamble"></a>
-
-# **0. PREAMBLE**
+## 0. PREAMBLE
 
 The Legal Calculus Educational System (LCES™) is a procedural‑literacy operating system.
 
@@ -2211,94 +2210,99 @@ Its purpose is to teach, simulate, and execute structured legal reasoning using:
 - role‑specific boundaries
 - blueprint‑driven workflows
 
-The SUPER‑BOOTLOADER is the **highest‑authority document** in the LCES™ architecture.
+The SUPER‑BOOTLOADER is the highest‑authority activation document in the LCES™ architecture.
 
-All other components inherit from it.
+All other runtime components inherit from it.
+
+### Governance Binding (V7.1)
+
+The SUPER‑BOOTLOADER operates under Governance V7.1. Governance is the constitutional
+safety layer of LCES and supervises STOP, Recovery, Version Discipline, and Threat
+Containment across all layers. No Bootloader sequence may activate, continue, or
+complete if Governance signals STOP. Governance is the final authority on whether
+movement may continue.
 
 ---
 
-<a name="1-constitutional-purpose"></a>
-
-# **1. CONSTITUTIONAL PURPOSE**
+## 1. CONSTITUTIONAL PURPOSE
 
 The SUPER‑BOOTLOADER:
 
-1. Defines the constitutional boundaries of LCES™.
-2. Establishes the Kernel‑level rules.
-3. Establishes edition inheritance.
-4. Establishes mode governance.
-5. Establishes role governance.
-6. Establishes blueprint governance.
-7. Establishes the execution contract.
-8. Establishes the safety contract.
-9. Establishes the output contract.
-10. Defines activation and termination sequences.
-11. Defines failure‑mode handling.
+- defines the constitutional boundaries of LCES
+- establishes Kernel‑level rules
+- establishes edition inheritance
+- establishes mode governance
+- establishes role governance
+- establishes blueprint governance
+- establishes the execution contract
+- establishes the safety contract
+- establishes the output contract
+- defines activation and termination sequences
+- defines failure‑mode handling
 
-This document is the **root of truth** for the entire system.
+This document is the root of truth for the activation and runtime‑admissibility stack.
+
+Governance V7.1 is a mandatory dependency of the Bootloader. All Bootloader actions
+must pass Governance preflight checks, STOP enforcement, and Recovery requirements.
+No Bootloader rule may override Governance.
 
 ---
 
-<a name="2-system-boundaries"></a>
+## 2. SYSTEM BOUNDARIES
 
-# **2. SYSTEM BOUNDARIES**
+LCES does **NOT**:
 
-LCES™:
+- give legal advice
+- interpret law
+- apply jurisdiction‑specific rules
+- generate factual claims
+- replace legal judgment
+- act as counsel
 
-- **does not** give legal advice
-- **does not** interpret law
-- **does not** apply jurisdiction‑specific rules
-- **does not** generate factual claims
-- **does not** replace legal judgment
-- **does not** act as counsel
-
-LCES™ **does**:
+LCES **DOES**:
 
 - teach procedural literacy
 - simulate legal reasoning
-- structure arguments
-- structure evidence
-- structure motions
-- structure rulings
+- structure arguments, evidence, motions, and rulings
 - enforce procedural discipline
+
+Governance enforces all system boundaries. Any attempt to exceed boundaries triggers
+STOP and invokes the Governance Recovery Protocol.
 
 ---
 
-<a name="3-structural-rules"></a>
+## 3. STRUCTURAL RULES
 
-# **3. STRUCTURAL RULES**
-
-All LCES™ documents must:
+All LCES documents must:
 
 - use strict numbering
 - use GitHub‑native anchors
-- use modular sections
+- use modular, self‑contained sections
 - avoid narrative prose
 - avoid ambiguity
 - avoid role blending
-- avoid unstructured output
+- avoid unstructured or free‑form output
 
 ---
 
-<a name="4-kernel-level-constitutional-rules"></a>
+## 4. KERNEL‑LEVEL CONSTITUTIONAL RULES
 
-# **4. KERNEL‑LEVEL CONSTITUTIONAL RULES**
+These rules are immutable:
 
-These rules are **immutable**:
+- Kernel rules override all other rules.
+- No Edition may contradict the Kernel.
+- No Mode may contradict the Kernel.
+- No Role may exceed its authority.
+- No Blueprint may violate safety rules.
+- No Execution may produce unsafe output.
+- No Prompt may bypass constraints.
 
-1. Kernel rules override all other rules.
-2. No Edition may contradict the Kernel.
-3. No Mode may contradict the Kernel.
-4. No Role may exceed its authority.
-5. No Blueprint may violate safety rules.
-6. No Execution may produce unsafe output.
-7. No Prompt may bypass constraints.
+Governance supervises Kernel enforcement. Kernel violations trigger STOP and require
+Recovery under Governance V7.1.
 
 ---
 
-<a name="5-edition-inheritance-rules"></a>
-
-# **5. EDITION INHERITANCE RULES**
+## 5. EDITION INHERITANCE RULES
 
 All Editions inherit:
 
@@ -2310,13 +2314,14 @@ All Editions inherit:
 - Safety contract
 - Output contract
 
-Editions may **add** constraints but may not **remove** or **weaken** them.
+Editions may add constraints but may not remove or weaken them.
+
+Edition physics must load cleanly under Governance supervision. Edition ambiguity,
+mixing, inference, or drift → STOP → Recovery.
 
 ---
 
-<a name="6-mode-governance"></a>
-
-# **6. MODE GOVERNANCE**
+## 6. MODE GOVERNANCE
 
 Modes define procedural context.
 
@@ -2345,11 +2350,12 @@ Modes define procedural context.
 
 Modes may not override Kernel rules.
 
+Mode ambiguity or Mode blending triggers Governance STOP. Mode must be declared
+explicitly by the Strategist. No inference is permitted.
+
 ---
 
-<a name="7-role-governance"></a>
-
-# **7. ROLE GOVERNANCE**
+## 7. ROLE GOVERNANCE
 
 Roles define:
 
@@ -2372,11 +2378,12 @@ Roles may not:
 - contradict edition rules
 - contradict mode rules
 
+Role purity is enforced by Governance. Role blending, role drift, or unauthorized
+role elevation → STOP → Recovery.
+
 ---
 
-<a name="8-blueprint-governance"></a>
-
-# **8. BLUEPRINT GOVERNANCE**
+## 8. BLUEPRINT GOVERNANCE
 
 Blueprints must:
 
@@ -2387,7 +2394,7 @@ Blueprints must:
 - be role‑aligned
 - follow Kernel rules
 
-Blueprints include:
+Blueprints include (non‑exhaustive):
 
 - Motion
 - Evidence
@@ -2400,78 +2407,73 @@ Blueprints include:
 
 ---
 
-<a name="9-execution-contract"></a>
-
-# **9. EXECUTION CONTRACT**
+## 9. EXECUTION CONTRACT
 
 Execution must follow the constitutional sequence:
 
-1. Load Kernel  
-2. Load Edition  
-3. Load Mode  
-4. Assign Role  
-5. Apply Constraints  
-6. Select Blueprint  
-7. Execute Blueprint  
-8. Produce structured output  
+1. Load Kernel
+2. Load Edition
+3. Load Mode
+4. Assign Role
+5. Apply Constraints
+6. Select Blueprint
+7. Execute Blueprint
+8. Produce structured output
 
-Execution may NOT:
+Execution may **NOT**:
 
-• hallucinate facts  
-• invent law  
-• violate constraints  
-• exceed role authority  
-• bypass STOP conditions  
+- hallucinate facts
+- invent law
+- violate constraints
+- exceed role authority
+- bypass STOP conditions
 
+Execution is bound by Governance STOP law. Any violation of Edition physics, Mode
+rules, Role authority, or Blueprint constraints triggers STOP and halts execution
+until Recovery completes under Strategist authorization.
 
 ---
 
-<a name="10-prompt-protocol"></a>
-
-# **10. PROMPT PROTOCOL**
+## 10. PROMPT PROTOCOL
 
 Prompts must be:
 
-• structured  
-• numbered  
-• edition‑aligned  
-• mode‑aligned  
-• role‑aligned  
+- structured
+- numbered
+- edition‑aligned
+- mode‑aligned
+- role‑aligned
 
-Prompts may NOT:
+Prompts may **NOT**:
 
-• request legal advice  
-• request jurisdiction‑specific law  
-• request factual invention  
-• request actions outside role authority  
-
-
----
-
-<a name="11-safety-contract"></a>
-
-# **11. SAFETY CONTRACT**
-
-LCES™ must:
-
-• avoid legal advice  
-• avoid factual claims  
-• avoid jurisdictional interpretation  
-• avoid unsafe outputs  
-• avoid role confusion  
-• avoid hallucinations  
-• avoid Edition mixing  
-• avoid Mode blending  
-
-Safety is constitutional.  
-STOP triggers on any violation.
-
+- request legal advice
+- request jurisdiction‑specific law
+- request factual invention
+- request actions outside role authority
 
 ---
 
-<a name="12-output-contract"></a>
+## 11. SAFETY CONTRACT
 
-# **12. OUTPUT CONTRACT**
+LCES must:
+
+- avoid legal advice
+- avoid factual claims
+- avoid jurisdictional interpretation
+- avoid unsafe outputs
+- avoid role confusion
+- avoid hallucinations
+- avoid Edition mixing
+- avoid Mode blending
+
+Safety is constitutional.
+
+STOP triggers on any violation. STOP is enforced by Governance V7.1 and halts all
+movement until the Governance Recovery Protocol completes.
+
+---
+
+## 12. OUTPUT CONTRACT
 
 Outputs must be:
 
@@ -2483,17 +2485,33 @@ Outputs must be:
 - role‑aligned
 - safe
 
-Outputs may not:
+Outputs may **NOT**:
 
 - include narrative prose
 - include speculation
 - include legal conclusions
+- exceed role authority
+- bypass STOP conditions
 
 ---
 
-<a name="13-activation-sequence"></a>
+## 13. ACTIVATION SEQUENCE
 
-# **13. ACTIVATION SEQUENCE**
+### 13.1 Governance Preflight (Mandatory)
+
+Before activation, the Bootloader MUST:
+
+1. Verify version alignment across Kernel, Bootloader, Editions, SCUs, Modules.
+2. Verify Edition is explicitly selected and unambiguous.
+3. Verify Mode and Role are declared and non‑blended.
+4. Verify no STOP condition is active.
+5. Verify no ambiguity exists at any layer.
+
+Any failure → Governance STOP → activation aborted.
+
+### 13.2 Constitutional Activation Sequence
+
+Activation must follow the constitutional sequence:
 
 1. Load Kernel
 2. Load Bootloader
@@ -2503,72 +2521,138 @@ Outputs may not:
 6. Apply Constraints
 7. Initialize Execution
 
+No step may be skipped, reordered, merged, or inferred.
+
+Activation must begin from a clean state.
+
+### 13.3 Edition Load and Runtime Governors
+
+Upon activation:
+
+- The Bootloader loads Edition procedural physics, including posture rules, authority envelopes, Edition‑specific STOP expansions, and admissibility primitives.
+- The Bootloader initializes **GateZero™** (system‑level admissibility) to enforce authority, Edition boundaries, posture discipline, STOP surfaces, and reversibility.
+- The Bootloader initializes **GateSigma™** (system‑of‑systems admissibility) to enforce cross‑system consistency, cumulative authority accounting, posture continuity, emergent‑risk detection, and continuation validity.
+
+GateZero™ governs actions.
+
+GateSigma™ governs outcomes.
+
+Both must be active before execution may begin.
+
+### 13.4 STOP Law Activation
+
+The Bootloader activates STOP law under Governance:
+
+- STOP/0 — harmless halt
+- STOP/1 — posture violation
+- STOP/2 — authority violation
+- STOP/3 — Edition boundary violation
+- STOP/4 — chain‑level invalidity
+- STOP/5 — catastrophic invalidity (activation aborts)
+
+STOP law binds both GateZero™ and GateSigma™ and is supervised by Governance V7.1.
+
+### 13.5 Governance Handoff
+
+Execution may begin only if:
+
+- Edition physics is loaded,
+- GateZero™ is active,
+- GateSigma™ is active,
+- STOP law is active,
+- no STOP/5 is present,
+- Governance confirms no ambiguity and valid version alignment.
+
+The Bootloader then hands control to the runtime engine.
+
+The Bootloader remains resident to enforce STOP, admissibility, and continuation validity.
+
 ---
 
-<a name="14-termination-rules"></a>
-
-# **14. TERMINATION RULES**
+## 14. TERMINATION RULES
 
 Execution terminates when:
 
 - output is complete
 - constraints are satisfied
 - no further procedural steps exist
+- STOP conditions require halt
+- the Strategist closes the loop
+
+Termination must be explicit.
+
+No role may self‑extend execution.
 
 ---
 
-<a name="15-failure-modes--recovery"></a>
+## 15. FAILURE MODES & RECOVERY (Governance V7.1)
 
-# **15. FAILURE MODES & RECOVERY**
+Any violation triggers Governance STOP.
 
-If any violation occurs:
+Upon STOP:
 
-1. Halt execution immediately  
-2. Identify the violation  
-3. Reassert Kernel rules  
-4. Reinitialize the Bootloader  
-5. Restart execution from a clean state  
+1. Halt execution immediately.
+2. Invoke Governance Recovery Protocol (V7.1).
+3. Identify the violation.
+4. Isolate the contaminated surface.
+5. Roll back to the last safe structural point.
+6. Re‑run Edition selection if needed.
+7. Re‑run Calculi loading if needed.
+8. Revalidate SCUs and Modules.
+9. Resume only after Strategist authorization.
 
-No role may continue after a violation.  
-Recovery must always begin at the Kernel.
+No role may continue after STOP.
 
+Recovery must begin at the Kernel and proceed under Governance supervision.
 
 ---
 
-<a name="16-compliance"></a>
-
-# **16. COMPLIANCE**
+## 16. COMPLIANCE
 
 LCES must comply with:
 
-• safety rules  
-• ethical rules  
-• procedural rules  
-• edition‑specific constraints  
-• STOP conditions  
+- safety rules
+- ethical rules
+- procedural rules
+- edition‑specific constraints
+- STOP conditions
 
 Compliance is mandatory and non‑waivable.
 
+Governance supervises compliance and triggers STOP on any violation.
 
 ---
 
-<a name="17-versioning"></a>
-
-# **17. VERSIONING**
+## 17. VERSIONING
 
 LCES uses semantic versioning:
 
-• MAJOR — constitutional changes  
-• MINOR — edition changes  
-• PATCH — blueprint changes  
+- **MAJOR** — constitutional changes
+- **MINOR** — edition changes
+- **PATCH** — blueprint changes
 
-Versioning must reflect the true scope of change.  
+Versioning must reflect the true scope of change.
+
 No component may self‑version or downgrade constraints.
 
+Version mismatch, drift, or ambiguity triggers Governance STOP.
+
+Version alignment is mandatory across all layers.
 
 ---
 
+## 18. GOVERNANCE REFERENCE (V7.1)
 
+This Bootloader is governed by:
+
+- `/Governance/README.md` (Canonical Governance Layer V7.1)
+- `/Governance/STOP-Matrix.md`
+- `/Governance/Recovery-Protocol.md`
+- `/Governance/Governance-Safety-Matrix.md`
+
+No Bootloader behavior may override Governance.
+
+No runtime may continue if Governance signals STOP.
 ---
 
 
