@@ -3444,8 +3444,105 @@ Semantic versioning:
 
 **General Bootloader (The Kernel)**
 
+----
+# BOOTLOADER — Activation Layer (V7.0)
 
+The Bootloader governs activation, Edition loading, runtime admissibility boundaries,
+STOP enforcement, and the handoff into the operational runtime. It is not a doctrinal
+or constitutional document and must not be interpreted as one. The Bootloader enforces
+runtime physics and activation discipline.
 
+---
+
+## Activation Boundary
+The Bootloader establishes the activation boundary for the runtime environment. No
+execution may begin until the activation boundary is validated, version-checked, and
+cryptographically bound to the Edition in use.
+
+Activation requires:
+- a valid Edition,
+- a valid runtime environment,
+- a valid authority envelope,
+- a valid STOP baseline.
+
+If any boundary check fails, activation is aborted.
+
+---
+
+## Edition Load
+The Bootloader loads the Edition’s procedural physics, including:
+- posture rules,
+- authority envelopes,
+- reversible movement constraints,
+- Edition-specific STOP expansions,
+- Edition-bounded admissibility primitives.
+
+Edition physics must be fully loaded before runtime admissibility governors can be
+initialized.
+
+---
+
+## GateZero™ Initialization (System-Level Admissibility)
+The Bootloader initializes GateZero™ to enforce system-level admissibility. GateZero™
+evaluates every action the runtime attempts to execute and blocks any step that
+exceeds authority, violates Edition boundaries, breaks posture rules, or triggers a
+STOP condition.
+
+GateZero™ ensures that all movement inside a single system remains procedurally valid
+and reversible under the Edition’s physics.
+
+GateZero™ must be active before any runtime action is permitted.
+
+---
+
+## GateSigma™ Initialization (System-of-Systems Admissibility)
+The Bootloader initializes GateSigma™ to enforce admissibility across multi-system
+chains. While GateZero™ governs system-level actions, GateSigma™ governs the
+admissibility of composite outcomes produced by sequences of Edition-bounded or
+system-like components.
+
+GateSigma™ evaluates:
+- cross-system consistency,
+- cumulative authority consumption,
+- posture continuity across systems,
+- emergent-risk amplification,
+- continuation validity of the final chain state.
+
+GateSigma™ is activated at runtime handoff and is enforced by the Bootloader. It
+cannot be bypassed by any Edition, Mode, or workflow.
+
+No chain may finalize an outcome without passing GateSigma™.
+
+---
+
+## STOP Conditions
+The Bootloader loads and enforces STOP conditions, including:
+- STOP/0 (hard impossibility),
+- STOP/1 (authority violation),
+- STOP/2 (posture violation),
+- STOP/3 (Edition violation),
+- STOP/4 (runtime safety violation),
+- STOP/5 (continuation invalidity).
+
+STOP conditions are enforced continuously and cannot be overridden by any Edition,
+role, or runtime component.
+
+---
+
+## Runtime Handoff
+Once:
+- Edition physics are loaded,
+- GateZero™ is active,
+- GateSigma™ is active,
+- STOP conditions are bound,
+
+the Bootloader hands control to the runtime engine.
+
+The runtime engine may not begin execution unless the Bootloader completes all
+activation steps without violation.
+
+The Bootloader remains resident to enforce STOP, admissibility, and continuation
+validity throughout execution.
 ---
 
 # **🧬 LCES BOOTLOADER.md**  
