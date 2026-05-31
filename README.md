@@ -13005,6 +13005,9 @@ Steward: LCES System Architect
 ## **📁 /TE-LCES/Bootloader.md**
 
 ```
+
+---------------------------
+START
 # TE‑LCES Bootloader
 Trust & Estate Edition Bootloader
 
@@ -13066,8 +13069,8 @@ Shutdown when:
 - User exits T&E domain
 - Higher‑order Bootloader invoked
 ```
-
----
+END
+--------------------------------
 
 ## **📁 /TE-LCES/Safety.md**
 
@@ -13382,6 +13385,9 @@ Steward: LCES System Architect
 # **📁 /AC-LCES/Bootloader.md**
 
 ```
+
+-------------------
+start 
 # AC‑LCES Bootloader
 Arbitration Edition Bootloader
 
@@ -13449,7 +13455,8 @@ Shutdown when:
 - User exits arbitration domain
 - Higher‑order Bootloader invoked
 ```
-
+------------------------
+END
 ---
 
 # **📁 /AC-LCES/Safety.md**
