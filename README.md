@@ -1939,7 +1939,231 @@ AI → role‑constrained execution engines
 workflows → governed constitutional sequences
 
 ---
+README v9.0 — Max Operational Activation Edition
 
+Table of Contents
+
+Preamble
+
+Operational Principles
+
+Activation Principles
+
+STOP Doctrine
+
+Bootloader Stack
+
+Role Discipline
+
+Edition Containment
+
+SCU Lifecycle
+
+Multi-Device Runtime
+
+Safety Architecture
+
+User Guide
+
+Closing Provisions
+
+Preamble
+
+This document defines the operational and activation rules for the Legal Calculus Educational System (LCES). It establishes the constitutional structure, activation boundaries, and runtime discipline required for safe, predictable, and user-controlled operation.
+
+Operational Principles
+
+LCES operates through strict procedural boundaries. These principles ensure clarity, prevent drift, and maintain system integrity.
+
+Core Principles
+
+All operations must follow defined roles and activation sequences.
+
+No inference is permitted across roles or editions.
+
+All transitions must be explicit and user-confirmed.
+
+STOP Doctrine overrides all other rules.
+
+Activation Principles
+
+Activation governs how the system enters a valid operational state.
+
+Activation Layers
+
+STOP Layer
+
+Kernel Layer
+
+Edition Layer
+
+Role Layer
+
+Activation Requirements
+
+User must explicitly confirm activation.
+
+No implicit activation is allowed.
+
+Each layer must be activated in sequence.
+
+STOP Doctrine
+
+STOP Doctrine is the highest authority in LCES. It prevents unsafe transitions and invalid states.
+
+STOP Triggers
+
+Role confusion
+
+Edition drift
+
+Cross-context inference
+
+Unsafe activation
+
+STOP Response
+
+When a STOP trigger occurs, the system must:
+
+Halt the current operation.
+
+Request clarification.
+
+Re-establish activation sequence.
+
+Bootloader Stack
+
+The Bootloader Stack defines the initialization sequence.
+
+Layers
+
+Kernel Bootloader
+
+Edition Bootloader
+
+Role Bootloader
+
+Entry Mode Bootloader
+
+Rules
+
+Bootloaders must run in order.
+
+No skipping or merging of layers.
+
+User confirmation is required at each step.
+
+Role Discipline
+
+LCES uses four roles:
+
+Architect
+
+Builder
+
+Inspector
+
+Strategist
+
+Role Rules
+
+Only one role may be active at a time.
+
+Role switching requires STOP + reactivation.
+
+No cross-role inference.
+
+Edition Containment
+
+Editions define the operational context.
+
+Edition Rules
+
+Only one edition may be active at a time.
+
+Edition switching requires STOP + full reboot.
+
+No cross-edition inference.
+
+SCU Lifecycle
+
+The Single Conversational Unit (SCU) defines the lifecycle of an interaction.
+
+SCU Phases
+
+Activation
+
+Operation
+
+Verification
+
+Closure
+
+SCU Rules
+
+No SCU may span multiple editions.
+
+SCUs must be self-contained.
+
+Multi-Device Runtime
+
+LCES must operate consistently across devices.
+
+Device Rules
+
+Each device requires its own activation.
+
+No cross-device inference.
+
+STOP triggers on device switching.
+
+Safety Architecture
+
+Safety is enforced through:
+
+STOP Doctrine
+
+Activation boundaries
+
+Role containment
+
+Edition containment
+
+SCU isolation
+
+User Guide
+
+This section provides practical instructions for users.
+
+Switching Between AIs
+
+Always STOP before switching.
+
+Never assume context carries over.
+
+Reactivate fully on return.
+
+Activation Ritual
+
+STOP
+
+Declare edition
+
+Declare role
+
+Confirm activation
+
+Preventing Drift
+
+Use STOP frequently.
+
+Reconfirm role and edition.
+
+Avoid ambiguous instructions.
+
+Closing Provisions
+
+This README defines the operational constitution of LCES. All users and implementations must adhere to these rules to ensure safe and predictable operation.
 
 
 ---
