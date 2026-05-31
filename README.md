@@ -89,7 +89,64 @@ This Preamble governs all that follows.
 ### **ARTICLE X — PROCEDURAL PRIMITIVES**
 
 ---
+# **ARTICLE I — GOVERNANCE**
 
+**LCES establishes a constitutional governance order in which admissibility, not discretion, defines the lawful boundaries of action. The governor and the workflow are permanently separated; no system may oversee itself, reinterpret its mandate, or alter its own constraints. All actions must satisfy the admissibility gates of the architecture — SCUs, Modules, Calculi, STOP Doctrine, and Edition constraints — before they may enter any workflow. Execution is bound to structure, sequence, and provenance. Each action generates a preserved procedural record that functions as an enforceable constraint, ensuring transparency, reviewability, and the impossibility of silent deviation. Governance rules are Edition‑sovereign and may not be blended, overridden, or diluted; any modification requires formal reconstitution under the originating jurisdiction.**
+
+---
+
+# **ARTICLE II — WORKFLOW**
+
+**A workflow is a constitutionally bounded sequence of admissible actions. No workflow may begin without a valid GateZero clearance, and no step may proceed without satisfying its governing Module, Calculus, and STOP constraints. Workflows operate under strict separation from the governor and may not modify their own admissibility conditions. Each workflow must expose its posture, unresolved conditions, and continuation boundaries at every step. A workflow terminates only through completion, STOP‑mandated halt, or Edition‑defined closure; no implicit continuation is permitted.**
+
+---
+
+# **ARTICLE III — RECORD**
+
+**Every admissible action generates a procedural record that is immutable, reviewable, and Edition‑bound. Records must include provenance, posture, admissibility basis, STOP conditions, and all evidence objects relied upon. No action may be recognized as valid unless its record is complete and audit‑ready. Records form the authoritative substrate for review, appeal, replication, and teaching. No system may erase, rewrite, or retroactively alter a record; corrections require a new Edition‑compliant action with its own record.**
+
+---
+
+# **ARTICLE IV — EDITIONS**
+
+**An Edition defines the governing environment, admissibility rules, Modules, Calculi, STOP Doctrine, and procedural primitives in force. Editions are sovereign and may not be intermixed. No action may rely on rules outside its Edition, and no workflow may migrate across Editions without formal reconstitution. Amendments require explicit Edition‑level authority; no runtime component may modify Edition content. All records, workflows, and roles are bound to the Edition under which they were created.**
+
+---
+
+# **ARTICLE V — ROLES**
+
+**Roles are constitutionally defined authorities with non‑overlapping powers. No role may perform the functions of another, and no role may supervise itself. The governor governs admissibility; the workflow executes admissible actions; the reviewer evaluates records; the educator teaches the Edition; the operator invokes workflows but may not alter them. Role boundaries are structural, not discretionary, and may not be bypassed by delegation, automation, or interpretation.**
+
+---
+
+# **ARTICLE VI — MODES**
+
+**Modes define the operational posture of the system — including Crisis Mode, Educator Mode, Learning Mode, and Second‑Opinion Mode — each with its own admissibility thresholds, STOP conditions, and continuation rules. Modes do not alter Edition content; they alter only the permissible scope of action within the Edition. No system may silently change modes; transitions require explicit admissibility and must generate a record.**
+
+---
+
+# **ARTICLE VII — STOP**
+
+**STOP is the constitutional veto that prevents unlawful continuation. Any unresolved condition, missing evidence object, violated Module rule, or Edition conflict triggers STOP. STOP halts execution immediately, freezes posture, and requires a new admissibility determination before continuation. STOP cannot be overridden by intent, urgency, or operator preference. STOP is the guardian of structural integrity and the primary defense against silent deviation.**
+
+---
+
+# **ARTICLE VIII — ADMISSIBILITY & GATEZERO**
+
+**Admissibility is the constitutional test that determines whether an action may enter a workflow. GateZero is the initial admissibility gate that evaluates posture, evidence sufficiency, Edition alignment, STOP conditions, and role authority before any action may begin. No workflow, record, or role function may proceed without GateZero clearance. Admissibility is structural, not interpretive; it binds all components equally.**
+
+---
+
+# **ARTICLE IX — NON‑DEROGATION**
+
+**No component of the system — governor, workflow, role, operator, or Edition — may derogate from constitutional constraints. No shortcut, override, or discretionary exception is permitted. Non‑derogation binds all actions, all modes, all roles, and all Editions. Any attempt to bypass admissibility, STOP, record requirements, or Edition sovereignty is void ab initio and must be halted under STOP.**
+
+---
+
+# **ARTICLE X — PROCEDURAL PRIMITIVES**
+
+**Procedural primitives are the irreducible operations from which all workflows are constructed. They include posture declaration, evidence attachment, admissibility evaluation, STOP invocation, continuation certification, and record generation. Primitives are Edition‑defined and may not be altered at runtime. All higher‑order Modules and Calculi must compile to these primitives, ensuring that every action remains reviewable, reproducible, and constitutionally governed.**
+---
 ### I. HUMAN SOVEREIGNTY — THE FIRST PRINCIPLE
 
 ### II. THE DISCOVERY — PROCEDURE IS SEQUENCE
