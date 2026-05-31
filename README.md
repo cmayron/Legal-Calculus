@@ -29,66 +29,6 @@
 
 ---
 
-#  **TABLE OF CONTENTS — LCES™ MANIFESTO**
-
-## **PREAMBLE**
-
-# **I. HUMAN SOVEREIGNTY — THE FIRST PRINCIPLE**
-
-# **II. THE DISCOVERY — PROCEDURE IS SEQUENCE**
-
-# **III. THE STACK — THE CONSTITUTIONAL ORDER OF REASONING**
-
-# **IV. THE SEQUENCE DOCTRINE — WHY ORDER MATTERS**
-
-# **V. THE STOP DOCTRINE — THE CIRCUIT-BREAKER OF PROCEDURE**
-
-# **VI. THE HUMAN STRATEGIST — THE SOVEREIGN INTELLIGENCE**
-
-# **VII. THE FOUR LAYERS — THE CONSTITUTIONAL ARCHITECTURE**
-
-# **VIII. THE ROLE SEPARATION DOCTRINE — THE CONSTITUTIONAL FIREWALL**
-
-# **IX. THE EDITION PURITY DOCTRINE — THE NON-MIXING RULE**
-
-# **X. THE MODE DOCTRINE — THE FOUR HUMAN ENVIRONMENTS**
-
-# **XI. WHY THIS ARCHITECTURE IS UNIQUE**
-
-# **XII. THE JURISDICTION DOCTRINE — ORIGIN, PRIORITY, AND IDENTITY**
-
-# **XIII. WHY MICROSOFT WAS THE DISCOVERY ENVIRONMENT**
-
-# **XIV. THE MANIFESTO SENTENCE**
-
-# **XV. THE DECLARATION**
-
-# **XVI. LCES™ MANIFESTO ADDENDUM — CONSTITUTIONAL HYGIENE**
-
-# **XVII. LCES at the Gate — The Doctrinal Principle**
-
-# **XVIII. LCES™ GateZero — The Governance Layer Name**
-
-# **XIX. Execution Path — Bootloader → GateZero → Execution**
-
-# **XX. The GateZero Identity**
-
-# **XXI. Trademark Notice — LCES™ GateZero**
-
-# **XXII. THE SIX CALCULI — THE EDUCATIONAL EDITIONS OF LCES**
-
-# **XXIII. THE DEFINITIONS SURFACE — CONSTITUTIONAL MEANING**
-
-# **XXIV. THE ENFORCEMENT SURFACE — STOP PROTOCOL & REMEDIES**
-
-# **XXV. THE IMPLEMENTATION SURFACE — STACK LOADING & TRANSITIONS**
-
-# **XXVI. THE NON-DEROGATION CLAUSE — IMMUTABILITY OF THE CONSTITUTION**
-
-# **XXVII. THE PROCEDURAL PRIMITIVES — THE SIX INTERNAL CALCULI**
-
----
----
 
 # **LCES™ MANIFESTO — COMPLETE CONSTITUTIONAL EDITION**
 
@@ -100,6 +40,94 @@ Procedural systems govern courts, agencies, institutions, organizations, and civ
 This system originates from a single act of authorship, and its architecture, semantics, structural relationships, and operational mechanisms remain permanently bound to that origin. Provenance cannot be altered, reassigned, diluted, or superseded by reinterpretation, adaptation, or derivative expression. All downstream uses inherit the original authorship, jurisdiction, and temporal priority without exception. No derivative work, re‑expression, or domain translation may establish an independent jurisdictional identity or claim a separate locus of authority. Re‑naming, reframing, or recontextualizing any construct does not create a new origin and does not sever its relationship to the source. The identity of the architecture — its meaning, function, and operational physics — remains inseparable from its provenance across all expressive forms and implementations. Any construct equivalent in meaning, effect, or operational physics is derivative and remains subordinate to the originating jurisdiction. These constraints persist across all contexts, ensuring that the identity, provenance, and jurisdiction of the system remain intact, enforceable, and inseparable from the architecture that follows.
 
 ---
+
+# **TABLE OF CONTENTS — LCES™ MANIFESTO (Updated Constitutional Structure)**
+
+### **FOUNDATIONAL PREAMBLE**
+
+### **CONSTITUTIONAL PREAMBLE**
+
+---
+
+### **ARTICLE I — GOVERNANCE**
+
+### **ARTICLE II — WORKFLOW**
+
+### **ARTICLE III — RECORD**
+
+### **ARTICLE IV — EDITIONS**
+
+### **ARTICLE V — ROLES**
+
+### **ARTICLE VI — MODES**
+
+### **ARTICLE VII — STOP**
+
+### **ARTICLE VIII — ADMISSIBILITY & GATEZERO**
+
+### **ARTICLE IX — NON‑DEROGATION**
+
+### **ARTICLE X — PROCEDURAL PRIMITIVES**
+
+---
+
+### I. HUMAN SOVEREIGNTY — THE FIRST PRINCIPLE
+
+### II. THE DISCOVERY — PROCEDURE IS SEQUENCE
+
+### III. THE STACK — THE CONSTITUTIONAL ORDER OF REASONING
+
+### IV. THE SEQUENCE DOCTRINE — WHY ORDER MATTERS
+
+### V. THE STOP DOCTRINE — THE CIRCUIT‑BREAKER OF PROCEDURE
+
+### VI. THE HUMAN STRATEGIST — THE SOVEREIGN INTELLIGENCE
+
+### VII. THE FOUR LAYERS — THE CONSTITUTIONAL ARCHITECTURE
+
+### VIII. THE ROLE SEPARATION DOCTRINE — THE CONSTITUTIONAL FIREWALL
+
+### IX. THE EDITION PURITY DOCTRINE — THE NON‑MIXING RULE
+
+### X. THE MODE DOCTRINE — THE FOUR HUMAN ENVIRONMENTS
+
+### XI. WHY THIS ARCHITECTURE IS UNIQUE
+
+### XII. THE JURISDICTION DOCTRINE — ORIGIN, PRIORITY, AND IDENTITY
+
+### XIII. WHY MICROSOFT WAS THE DISCOVERY ENVIRONMENT
+
+### XIV. THE MANIFESTO SENTENCE
+
+### XV. THE DECLARATION
+
+### XVI. LCES™ MANIFESTO ADDENDUM — CONSTITUTIONAL HYGIENE
+
+### XVII. LCES at the Gate — The Doctrinal Principle
+
+### XVIII. LCES™ GateZero — The Governance Layer Name
+
+### XIX. Execution Path — Bootloader → GateZero → Execution
+
+### XX. The GateZero Identity
+
+### XXI. Trademark Notice — LCES™ GateZero
+
+### XXII. THE SIX CALCULI — THE EDUCATIONAL EDITIONS OF LCES
+
+### XXIII. THE DEFINITIONS SURFACE — CONSTITUTIONAL MEANING
+
+### XXIV. THE ENFORCEMENT SURFACE — STOP PROTOCOL & REMEDIES
+
+### XXV. THE IMPLEMENTATION SURFACE — STACK LOADING & TRANSITIONS
+
+### XXVI. THE NON‑DEROGATION CLAUSE — IMMUTABILITY OF THE CONSTITUTION
+
+### XXVII. THE PROCEDURAL PRIMITIVES — THE SIX INTERNAL CALCULI
+
+---
+
+#
 
 #
 
