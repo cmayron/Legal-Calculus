@@ -3547,7 +3547,108 @@ validity throughout execution.
 
 # **🧬 LCES BOOTLOADER.md**  
 ### **The Constitutional Activation Engine of the Legal Calculus Educational System**
+# LCES Bootloader (V7.0)
+The Bootloader is the Activation Layer of the Legal Calculus Educational System.
+It initializes Edition physics, STOP law, and the dual-governor runtime environment
+(GateZero™ and GateSigma™). No execution may begin until the Bootloader completes.
 
+---
+
+## 1. Activation Boundary
+Before activation, the Bootloader verifies:
+
+- Edition selection,
+- Environment integrity,
+- Mode and posture validity,
+- Absence of STOP/5 (catastrophic invalidity).
+
+If any boundary check fails, activation halts.
+
+---
+
+## 2. Edition Load
+The Bootloader loads the Edition’s procedural physics:
+
+- admissibility rules,
+- STOP/0 through STOP/5 definitions,
+- posture constraints,
+- authority model,
+- Edition-bounded inference limits.
+
+Edition physics must load cleanly before governors can initialize.
+
+---
+
+## 3. Runtime Admissibility Initialization
+Once Edition physics is active, the Bootloader initializes the dual-governor
+runtime environment:
+
+### 3.1 GateZero™ Initialization (System-Level Admissibility)
+GateZero™ governs admissibility within a single system. Initialization loads:
+
+- authority verification rules,
+- Edition boundary enforcement,
+- posture discipline,
+- STOP enforcement surfaces,
+- reversibility and reviewability constraints.
+
+GateZero™ must initialize successfully before GateSigma™ may activate.
+
+---
+
+### 3.2 GateSigma™ Initialization (System-of-Systems Admissibility)
+GateSigma™ governs admissibility across multi-system chains. Initialization loads:
+
+- cross-system consistency checks,
+- cumulative authority accounting,
+- posture continuity across systems,
+- emergent-risk amplification detection,
+- continuation validity for chain outcomes.
+
+GateSigma™ ensures that individually admissible steps do not combine into a
+collectively inadmissible outcome.
+
+GateZero™ governs actions.  
+GateSigma™ governs outcomes.
+
+Both must be active before execution may begin.
+
+---
+
+## 4. STOP Law Activation
+The Bootloader activates STOP/0 through STOP/5:
+
+- STOP/0 — harmless halt  
+- STOP/1 — posture violation  
+- STOP/2 — authority violation  
+- STOP/3 — Edition boundary violation  
+- STOP/4 — chain-level invalidity  
+- STOP/5 — catastrophic invalidity (activation aborts)
+
+STOP law binds both governors.
+
+---
+
+## 5. Runtime Handoff
+Execution may begin only if:
+
+- Edition physics is loaded,
+- GateZero™ is active,
+- GateSigma™ is active,
+- STOP law is active,
+- No STOP/5 is present.
+
+The Bootloader then hands control to the Runtime Layer.
+
+Execution is always bound by GateZero™ and GateSigma™.
+
+---
+
+## 6. Bootloader Completion
+Once runtime handoff occurs, the Bootloader becomes inert. It does not govern
+execution; it only initializes the environment in which governance occurs.
+
+The Runtime Layer (see README) enforces admissibility during execution.
 The LCES Bootloader governs **how every session initializes**, ensuring the system loads in a **constitutional, predictable, drift‑resistant** manner.
 
 LCES operates on a **Trilayer Inheritance Model**:
