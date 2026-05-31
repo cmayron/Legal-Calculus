@@ -163,36 +163,43 @@ No system may execute a step without passing GateZero™.
 ---
 
 ## Section 3 — GateSigma™ (System-of-Systems Admissibility)
-GateSigma™ governs the admissibility of chained outcomes produced by multiple 
-GateZero-governed systems.  
-It ensures that individually admissible steps do not combine into a collectively 
+
+GateSigma™ governs the admissibility of chained outcomes produced by multiple
+GateZero-governed systems.
+
+It ensures that individually admissible steps do not combine into a collectively
 inadmissible outcome.
 
 GateSigma™ enforces five composite admissibility domains:
 
-1. **Cross-System Consistency**  
-   The semantic, procedural, and authority trajectories across systems must remain 
-   coherent and non-contradictory.
-
-2. **Cumulative Authority**  
-   The total authority exercised across the chain must not exceed the chain’s 
-   constitutional authority envelope.
-
-3. **Emergent Risk Amplification**  
-   Multi-hop transformations must not accumulate risk beyond admissible bounds.
-
-4. **Cross-Boundary Procedural Posture**  
-   Posture transitions across systems must remain valid relative to the originating 
-   posture.
-
-5. **Continuation Validity**  
-   The final state of the chain must be constitutionally reachable from the initial 
-   state.
+1. **Cross-System Consistency**
+    
+    The semantic, procedural, and authority trajectories across systems must remain
+    coherent and non-contradictory.
+    
+2. **Cumulative Authority**
+    
+    The total authority exercised across the chain must not exceed the chain’s
+    constitutional authority envelope.
+    
+3. **Emergent Risk Amplification**
+    
+    Multi-hop transformations must not accumulate risk beyond admissible bounds.
+    
+4. **Cross-Boundary Procedural Posture**
+    
+    Posture transitions across systems must remain valid relative to the originating
+    posture.
+    
+5. **Continuation Validity**
+    
+    The final state of the chain must be constitutionally reachable from the initial
+    state.
+    
 
 GateSigma™ is the constitutional governor of **system‑of‑systems** behavior.
 
 No chain may finalize an outcome without passing GateSigma™.
-
 ---
 
 ## Section 4 — Dual Governance Mandate
