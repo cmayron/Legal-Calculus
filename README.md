@@ -16518,6 +16518,68 @@ High‑Level Constitutional System Map
 
 ==========================
 
+┌──────────────────────────────┐
+                 │        ACTIVATION LAYER       │
+                 │          (Bootloader)         │
+                 └──────────────────────────────┘
+                               │
+                               ▼
+                 ┌──────────────────────────────┐
+                 │      Activation Boundary      │
+                 │  (Edition + Environment Check)│
+                 └──────────────────────────────┘
+                               │
+                               ▼
+                 ┌──────────────────────────────┐
+                 │          Edition Load         │
+                 │ (Procedural Physics + STOP)   │
+                 └──────────────────────────────┘
+                               │
+                               ▼
+     ┌──────────────────────────────────────────────────────────┐
+     │                  RUNTIME ADMISSIBILITY                    │
+     │      (Dual-Governor Enforcement: GateZero + GateSigma)   │
+     └──────────────────────────────────────────────────────────┘
+                               │
+                               ▼
+                 ┌──────────────────────────────┐
+                 │   GateZero™ Initialization    │
+                 │  System-Level Admissibility   │
+                 │  • Authority                  │
+                 │  • Edition Boundaries         │
+                 │  • Posture Rules              │
+                 │  • STOP Enforcement           │
+                 └──────────────────────────────┘
+                               │
+                               ▼
+                 ┌──────────────────────────────┐
+                 │   GateSigma™ Initialization   │
+                 │ System-of-Systems Admissibility│
+                 │  • Cross-System Consistency   │
+                 │  • Cumulative Authority       │
+                 │  • Posture Continuity         │
+                 │  • Emergent Risk              │
+                 │  • Chain Continuation Validity│
+                 └──────────────────────────────┘
+                               │
+                               ▼
+                 ┌──────────────────────────────┐
+                 │        STOP Conditions        │
+                 │   (STOP/0 through STOP/5)     │
+                 └──────────────────────────────┘
+                               │
+                               ▼
+                 ┌──────────────────────────────┐
+                 │        RUNTIME HANDOFF        │
+                 │   (Execution Begins Only If   │
+                 │    All Governors Are Active)  │
+                 └──────────────────────────────┘
+                               │
+                               ▼
+                 ┌──────────────────────────────┐
+                 │          EXECUTION            │
+                 │  (Bound by GateZero + Sigma)  │
+                 └──────────────────────────────┘
 
 HUMAN LAYER (INITIATION + CONTROL)
 • Human initiates session
