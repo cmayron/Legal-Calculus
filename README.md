@@ -131,7 +131,7 @@ This Preamble governs all that follows.
 
 ---
 
-# **ARTICLE VIII — ADMISSIBILITY & GATEZERO**
+# **ARTICLE VIII — ADMISSIBILITY, GATEZERO™, AND GATESIGMA™**
 
 **Admissibility is the constitutional test that determines whether an action may enter a workflow. GateZero is the initial admissibility gate that evaluates posture, evidence sufficiency, Edition alignment, STOP conditions, and role authority before any action may begin. No workflow, record, or role function may proceed without GateZero clearance. Admissibility is structural, not interpretive; it binds all components equally.**
 
