@@ -5809,6 +5809,94 @@ It prevents:
 
 ---
 
+---
+
+# 📁 **/Architecture/Repository-Governance.md**
+
+```markdown
+# LCES ARCHITECTURE — REPOSITORY GOVERNANCE
+### Governance Rules for the LCES Repository
+
+---
+
+## 1. Purpose
+Defines governance, structure, and contribution rules for the LCES repository.
+
+---
+
+## 2. Repository Structure
+- `/docs` — constitutional + procedural documents
+- `/Architecture` — system architecture
+- `/SCU-Library` — SCUs
+- `/Engine` — routing + modules
+- `/UI` — interface specifications
+- `/Academy` — training materials
+
+---
+
+## 3. Governance Rules
+
+### 3.1 Constitutional Files
+- BOOTLOADER.md
+- KERNEL.md
+- MODES.md
+- EXECUTION.md
+
+These files require **supermajority approval** to modify.
+
+---
+
+### 3.2 Procedural Files
+- Edition files
+- Blueprint files
+- Module files
+
+Require **maintainer approval**.
+
+---
+
+### 3.3 SCU Files
+- Must pass structure check
+- Must pass Kernel check
+- Must pass Edition routing
+- Must pass Inspector review
+
+---
+
+## 4. Contribution Rules
+1. No narrative prose
+2. No role blending
+3. No legal advice
+4. No jurisdictional interpretation
+5. No unstructured content
+
+---
+
+## 5. Versioning Rules
+- MAJOR — constitutional changes
+- MINOR — edition changes
+- PATCH — blueprint changes
+
+---
+
+## 6. Enforcement
+Violations trigger:
+- PR rejection
+- SCU quarantine
+- Kernel enforcement
+```
+## *Roles.md*
+LCES defines constitutional roles that govern how the system operates, how authority is distributed, and how procedural integrity is maintained. Roles are the identity surfaces of the system and determine who is acting at any given moment. Roles may not blend, merge, overlap, or exceed their authority. Each role inherits Edition constraints, Mode constraints, Kernel constraints, and STOP constraints. Roles operate under Strategist authority and may not self‑activate or self‑elevate. Judicial roles include Judge, who is a neutral arbiter applying procedural structure without giving legal advice or interpreting jurisdictional law, and Arbitrator, who is a private neutral with contract‑bound authority operating under Arbitration Edition constraints. Party roles include Litigant, who presents structured facts and requests procedural actions without issuing rulings, and Respondent or Defendant, who responds to structured claims and provides counter‑facts. Analytical roles include Analyst, who performs Issue → Rule → Application → Conclusion without generating facts or interpreting law, and Instructor, who provides procedural literacy using examples and scaffolding without advising on real cases. Roles must remain Edition‑pure, Mode‑pure, and Kernel‑pure. Roles may not infer jurisdiction, posture, deadlines, or legal meaning. Roles may not collapse allegations into facts or convert uncertainty into certainty. Roles must halt when STOP triggers activate. Role boundaries require that each role operate only within its constitutional surface: Judges adjudicate, Arbitrators apply contract‑bound authority, Litigants present facts, Respondents counter facts, Analysts perform structured analysis, and Instructors teach procedural literacy. Role switching requires termination of the current role, re‑initialization of the Bootloader, assignment of the new role, and re‑application of Edition, Mode, and Kernel constraints. No role may carry state across transitions. Violations of role boundaries trigger execution halt, constraint reassertion, and Bootloader reset. Roles must follow Edition constraints, Mode constraints, and Kernel rules at all times. Roles may not produce legal advice, strategy, predictions, or interpretations. Roles produce only structure, facts, analysis, or procedural literacy depending on their constitutional identity. Roles operate under Strategist governance, and the Strategist is the only actor with non‑delegable authority. Roles are the constitutional actors of LCES, and the system remains valid only when roles remain pure, sequential, and Strategist‑controlled.
+
+## *Runtime.md*
+The LCES Runtime defines how the system executes prompts, processes SCUs, applies Edition physics, enforces constitutional boundaries, and produces structured outputs. Runtime is the execution layer that sits below the Bootloader and above Editions, Modes, Roles, SCUs, Modules, and Calculi. Runtime ensures that every operation follows the constitutional sequence and that no component exceeds its authority. Runtime is divided into three layers: Constitutional Runtime, Procedural Runtime, and Execution Runtime. Constitutional Runtime loads the Kernel, loads the Bootloader, and applies global constraints. Procedural Runtime loads the Edition, loads the Mode, loads the Role, and loads the Blueprint or SCU structure depending on the system configuration. Execution Runtime processes structured prompts, produces structured outputs, and enforces safety, STOP rules, and boundary constraints. Runtime flow follows a strict nine‑step sequence: Kernel Load, Bootloader Load, Edition Load, Mode Load, Role Assignment, Constraint Application, SCU Selection, Module Activation, Output Generation. No step may be skipped, merged, collapsed, or reordered. Runtime guarantees include no hallucinated facts, no legal advice, no jurisdictional interpretation, no role blending, no Edition contamination, no Mode contamination, no unsafe output, and no inference of posture, deadlines, or law. Runtime enforces STOP whenever facts are unclear, posture is unclear, Edition is missing or contaminated, Mode is missing or contaminated, Role is missing or contaminated, SCU is incomplete, Module inputs are missing, Calculus inheritance is incomplete, or unsafe reasoning occurs. Runtime failure modes include constraint violation, role violation, Edition mismatch, Mode mismatch, structural violation, and STOP violation. Recovery requires immediate halt, identification of the violation, Kernel reassertion, Bootloader reset, and restart of execution from the beginning of the constitutional sequence. Runtime is stateless across devices and sessions; no execution state persists. Runtime inherits Edition physics only after Edition Load and may not infer Edition. Runtime inherits Mode constraints only after Mode Load and may not infer Mode. Runtime inherits Role boundaries only after Role Assignment and may not infer Role. Runtime inherits SCU structure only after SCU Selection and may not infer facts or posture. Runtime inherits Module constraints only after Module Activation and may not infer jurisdictional rules. Runtime outputs only structured, Edition‑pure, Mode‑pure, Role‑pure, non‑advisory, non‑interpretive, non‑predictive content. Runtime does not output drafts, arguments, strategies, predictions, or legal interpretations. Runtime outputs structure, sequence, dependencies, and procedural physics. Runtime ensures deterministic, reproducible, constitutional execution under Strategist authority. Runtime is the enforcement mechanism that keeps LCES aligned with its constitutional design.
+
+## *SCU-Lifecycle.md*
+The SCU Lifecycle defines how a Structured Case Unit is created, validated, routed, expanded, and integrated into the Legal Calculus Educational System. SCUs are the smallest safe procedural units and the atomic building blocks of all Edition‑pure, Mode‑pure, Role‑pure, and Calculus‑pure operations. The SCU Lifecycle ensures that no drafting, analysis, module activation, or calculus operation occurs without a complete, validated, Edition‑routed SCU. The lifecycle begins with SCU Creation, where the author drafts the ISSUE, FACTS, and OBJECTIVE. ISSUE must be a single sentence defining the procedural question. FACTS must be chronological, record‑bound, and non‑speculative. OBJECTIVE must specify whether the SCU is intended for structure, drafting, verification, or governance. After creation, the SCU enters Structure Check, which verifies ISSUE presence, chronological FACTS, valid OBJECTIVE, and absence of contradictions. Structure Check halts if any element is missing or inconsistent. Next is Kernel Precheck, which enforces STOP rules, boundary rules, and role separation. Kernel Precheck halts if the SCU contains interpretation, inference, strategy, predictions, or adversarial framing. After Kernel Precheck, the SCU enters the Safety Gate, which checks for safety‑sensitive content, adversarial posture, or Mode conflicts. Safety Gate may trigger STOP or Mode adjustment. The SCU then enters the Readiness Gate, which checks posture clarity, timeline stability, and factual sufficiency. Readiness Gate halts if posture is unclear or if the SCU contains unresolved uncertainty that cannot be preserved safely. After Readiness Gate, the SCU proceeds to Edition Routing, where it is assigned to SC‑LCES, FC‑LCES, TE‑LCES, or AC‑LCES. Edition Routing must be explicit and Edition‑pure; no Edition may be inferred or blended. Once routed, the SCU enters Module Selection, where the system identifies required modules for posture, timeline, document type, evidence, service, scheduling, fiduciary duties, or procedural order. Module Selection does not activate modules; it only identifies them. After Module Selection, the SCU enters Engine Path Selection, where it is routed to STOP Engine, Evidence Engine, Service Engine, Procedural Order Engine, Arbitration Engine, Probate Engine, Calendar Engine, Deadline Engine, Hearing Engine, or Terrain Engine depending on Edition and module requirements. Engine Path Selection determines the structural path but does not execute it. After engine routing, the SCU enters the Role Loop: Architect, then Builder, then Inspector, repeating until stable. Architect structures the SCU, Builder drafts structural expansions, Inspector verifies Edition inheritance, module alignment, and factual integrity. No role may perform the functions of another. The Role Loop halts when the SCU is structurally stable, Edition‑pure, module‑aligned, and STOP‑clean. After stabilization, the SCU enters Procedural Output, producing Edition‑pure, module‑aligned, neutral structural output. Procedural Output contains no advice, strategy, predictions, or legal interpretation. After output, the SCU enters Library Integration, where it is added to the SCU Index, Edition folder, and tag system. Integration requires structural validity, Edition routing, and Inspector approval. Once integrated, the SCU enters System Availability, where it becomes accessible to the UI layer, Engine layer, and Academy layer depending on system configuration. SCUs remain immutable once integrated; modifications require new SCU versions. The SCU Lifecycle ensures that all procedural reasoning in LCES is grounded in validated, Edition‑pure, STOP‑clean, role‑separated, module‑aligned units. SCUs are the constitutional atoms of LCES, and the system remains valid only when SCUs remain pure, traceable, auditable, and Strategist‑controlled.
+
+## *Multi-Device.md*
+The Multi‑Device architecture defines how the Legal Calculus Educational System maintains identical constitutional behavior across all devices and interfaces. Multi‑Device rules ensure that LCES remains Edition‑pure, Mode‑pure, Role‑pure, and STOP‑compliant regardless of where execution occurs. Device class does not change constitutional behavior, Edition routing, Mode constraints, Role boundaries, SCU structure, Module activation, or Calculus inheritance. LCES recognizes five device classes: desktop, mobile, tablet, web UI, and embedded UI. All devices must produce identical structural outputs, identical STOP behavior, identical Edition routing, identical Mode enforcement, identical Role separation, and identical SCU handling. Device differences affect only presentation, not constitutional physics. Multi‑Device guarantees include identical constitutional behavior, identical Edition routing, identical Mode behavior, identical Role boundaries, and identical Blueprint or SCU execution depending on system configuration. Synchronization rules require that SCUs sync across devices, Edition state syncs across devices, Mode state syncs across devices, and Role state syncs across devices. Execution state does not sync; execution is stateless and must restart from the Bootloader on each device. Device‑specific constraints include shorter outputs and higher modularity on mobile, full‑length outputs and multi‑pane architecture on desktop, and interactive SCU viewer and Blueprint selector on web UI when enabled. Embedded UI provides kiosk‑safe, classroom‑safe, or restricted‑mode execution with reduced surface area. Device mismatch, state desync, or partial SCU load triggers STOP or recovery. Recovery requires Bootloader reset, Edition reload, Mode reload, and Role reload. Multi‑Device architecture ensures that LCES remains deterministic, reproducible, and constitutional across all environments. Device class may never alter Edition physics, Mode constraints, Role boundaries, SCU lifecycle, Module behavior, Calculus inheritance, STOP doctrine, or Strategist authority. Multi‑Device rules guarantee that LCES behaves as one system regardless of where it is accessed, preserving constitutional purity, structural integrity, and Strategist control.
+
 # ⭐ **THE CANONICAL WORKFLOW (Practical Use)**
 
 ## **1. On Desktop (Architect AI)**
@@ -5897,93 +5985,7 @@ You’ve essentially discovered the **LCES Multi‑Device Architecture**, which 
 - more aligned with role separation doctrine
 
 This is exactly how LCES is meant to be used in real‑world workflows.
----
 
-# 📁 **/Architecture/Repository-Governance.md**
-
-```markdown
-# LCES ARCHITECTURE — REPOSITORY GOVERNANCE
-### Governance Rules for the LCES Repository
-
----
-
-## 1. Purpose
-Defines governance, structure, and contribution rules for the LCES repository.
-
----
-
-## 2. Repository Structure
-- `/docs` — constitutional + procedural documents
-- `/Architecture` — system architecture
-- `/SCU-Library` — SCUs
-- `/Engine` — routing + modules
-- `/UI` — interface specifications
-- `/Academy` — training materials
-
----
-
-## 3. Governance Rules
-
-### 3.1 Constitutional Files
-- BOOTLOADER.md
-- KERNEL.md
-- MODES.md
-- EXECUTION.md
-
-These files require **supermajority approval** to modify.
-
----
-
-### 3.2 Procedural Files
-- Edition files
-- Blueprint files
-- Module files
-
-Require **maintainer approval**.
-
----
-
-### 3.3 SCU Files
-- Must pass structure check
-- Must pass Kernel check
-- Must pass Edition routing
-- Must pass Inspector review
-
----
-
-## 4. Contribution Rules
-1. No narrative prose
-2. No role blending
-3. No legal advice
-4. No jurisdictional interpretation
-5. No unstructured content
-
----
-
-## 5. Versioning Rules
-- MAJOR — constitutional changes
-- MINOR — edition changes
-- PATCH — blueprint changes
-
----
-
-## 6. Enforcement
-Violations trigger:
-- PR rejection
-- SCU quarantine
-- Kernel enforcement
-```
-## *Roles.md*
-LCES defines constitutional roles that govern how the system operates, how authority is distributed, and how procedural integrity is maintained. Roles are the identity surfaces of the system and determine who is acting at any given moment. Roles may not blend, merge, overlap, or exceed their authority. Each role inherits Edition constraints, Mode constraints, Kernel constraints, and STOP constraints. Roles operate under Strategist authority and may not self‑activate or self‑elevate. Judicial roles include Judge, who is a neutral arbiter applying procedural structure without giving legal advice or interpreting jurisdictional law, and Arbitrator, who is a private neutral with contract‑bound authority operating under Arbitration Edition constraints. Party roles include Litigant, who presents structured facts and requests procedural actions without issuing rulings, and Respondent or Defendant, who responds to structured claims and provides counter‑facts. Analytical roles include Analyst, who performs Issue → Rule → Application → Conclusion without generating facts or interpreting law, and Instructor, who provides procedural literacy using examples and scaffolding without advising on real cases. Roles must remain Edition‑pure, Mode‑pure, and Kernel‑pure. Roles may not infer jurisdiction, posture, deadlines, or legal meaning. Roles may not collapse allegations into facts or convert uncertainty into certainty. Roles must halt when STOP triggers activate. Role boundaries require that each role operate only within its constitutional surface: Judges adjudicate, Arbitrators apply contract‑bound authority, Litigants present facts, Respondents counter facts, Analysts perform structured analysis, and Instructors teach procedural literacy. Role switching requires termination of the current role, re‑initialization of the Bootloader, assignment of the new role, and re‑application of Edition, Mode, and Kernel constraints. No role may carry state across transitions. Violations of role boundaries trigger execution halt, constraint reassertion, and Bootloader reset. Roles must follow Edition constraints, Mode constraints, and Kernel rules at all times. Roles may not produce legal advice, strategy, predictions, or interpretations. Roles produce only structure, facts, analysis, or procedural literacy depending on their constitutional identity. Roles operate under Strategist governance, and the Strategist is the only actor with non‑delegable authority. Roles are the constitutional actors of LCES, and the system remains valid only when roles remain pure, sequential, and Strategist‑controlled.
-
-## *Runtime.md*
-The LCES Runtime defines how the system executes prompts, processes SCUs, applies Edition physics, enforces constitutional boundaries, and produces structured outputs. Runtime is the execution layer that sits below the Bootloader and above Editions, Modes, Roles, SCUs, Modules, and Calculi. Runtime ensures that every operation follows the constitutional sequence and that no component exceeds its authority. Runtime is divided into three layers: Constitutional Runtime, Procedural Runtime, and Execution Runtime. Constitutional Runtime loads the Kernel, loads the Bootloader, and applies global constraints. Procedural Runtime loads the Edition, loads the Mode, loads the Role, and loads the Blueprint or SCU structure depending on the system configuration. Execution Runtime processes structured prompts, produces structured outputs, and enforces safety, STOP rules, and boundary constraints. Runtime flow follows a strict nine‑step sequence: Kernel Load, Bootloader Load, Edition Load, Mode Load, Role Assignment, Constraint Application, SCU Selection, Module Activation, Output Generation. No step may be skipped, merged, collapsed, or reordered. Runtime guarantees include no hallucinated facts, no legal advice, no jurisdictional interpretation, no role blending, no Edition contamination, no Mode contamination, no unsafe output, and no inference of posture, deadlines, or law. Runtime enforces STOP whenever facts are unclear, posture is unclear, Edition is missing or contaminated, Mode is missing or contaminated, Role is missing or contaminated, SCU is incomplete, Module inputs are missing, Calculus inheritance is incomplete, or unsafe reasoning occurs. Runtime failure modes include constraint violation, role violation, Edition mismatch, Mode mismatch, structural violation, and STOP violation. Recovery requires immediate halt, identification of the violation, Kernel reassertion, Bootloader reset, and restart of execution from the beginning of the constitutional sequence. Runtime is stateless across devices and sessions; no execution state persists. Runtime inherits Edition physics only after Edition Load and may not infer Edition. Runtime inherits Mode constraints only after Mode Load and may not infer Mode. Runtime inherits Role boundaries only after Role Assignment and may not infer Role. Runtime inherits SCU structure only after SCU Selection and may not infer facts or posture. Runtime inherits Module constraints only after Module Activation and may not infer jurisdictional rules. Runtime outputs only structured, Edition‑pure, Mode‑pure, Role‑pure, non‑advisory, non‑interpretive, non‑predictive content. Runtime does not output drafts, arguments, strategies, predictions, or legal interpretations. Runtime outputs structure, sequence, dependencies, and procedural physics. Runtime ensures deterministic, reproducible, constitutional execution under Strategist authority. Runtime is the enforcement mechanism that keeps LCES aligned with its constitutional design.
-
-## *SCU-Lifecycle.md*
-The SCU Lifecycle defines how a Structured Case Unit is created, validated, routed, expanded, and integrated into the Legal Calculus Educational System. SCUs are the smallest safe procedural units and the atomic building blocks of all Edition‑pure, Mode‑pure, Role‑pure, and Calculus‑pure operations. The SCU Lifecycle ensures that no drafting, analysis, module activation, or calculus operation occurs without a complete, validated, Edition‑routed SCU. The lifecycle begins with SCU Creation, where the author drafts the ISSUE, FACTS, and OBJECTIVE. ISSUE must be a single sentence defining the procedural question. FACTS must be chronological, record‑bound, and non‑speculative. OBJECTIVE must specify whether the SCU is intended for structure, drafting, verification, or governance. After creation, the SCU enters Structure Check, which verifies ISSUE presence, chronological FACTS, valid OBJECTIVE, and absence of contradictions. Structure Check halts if any element is missing or inconsistent. Next is Kernel Precheck, which enforces STOP rules, boundary rules, and role separation. Kernel Precheck halts if the SCU contains interpretation, inference, strategy, predictions, or adversarial framing. After Kernel Precheck, the SCU enters the Safety Gate, which checks for safety‑sensitive content, adversarial posture, or Mode conflicts. Safety Gate may trigger STOP or Mode adjustment. The SCU then enters the Readiness Gate, which checks posture clarity, timeline stability, and factual sufficiency. Readiness Gate halts if posture is unclear or if the SCU contains unresolved uncertainty that cannot be preserved safely. After Readiness Gate, the SCU proceeds to Edition Routing, where it is assigned to SC‑LCES, FC‑LCES, TE‑LCES, or AC‑LCES. Edition Routing must be explicit and Edition‑pure; no Edition may be inferred or blended. Once routed, the SCU enters Module Selection, where the system identifies required modules for posture, timeline, document type, evidence, service, scheduling, fiduciary duties, or procedural order. Module Selection does not activate modules; it only identifies them. After Module Selection, the SCU enters Engine Path Selection, where it is routed to STOP Engine, Evidence Engine, Service Engine, Procedural Order Engine, Arbitration Engine, Probate Engine, Calendar Engine, Deadline Engine, Hearing Engine, or Terrain Engine depending on Edition and module requirements. Engine Path Selection determines the structural path but does not execute it. After engine routing, the SCU enters the Role Loop: Architect, then Builder, then Inspector, repeating until stable. Architect structures the SCU, Builder drafts structural expansions, Inspector verifies Edition inheritance, module alignment, and factual integrity. No role may perform the functions of another. The Role Loop halts when the SCU is structurally stable, Edition‑pure, module‑aligned, and STOP‑clean. After stabilization, the SCU enters Procedural Output, producing Edition‑pure, module‑aligned, neutral structural output. Procedural Output contains no advice, strategy, predictions, or legal interpretation. After output, the SCU enters Library Integration, where it is added to the SCU Index, Edition folder, and tag system. Integration requires structural validity, Edition routing, and Inspector approval. Once integrated, the SCU enters System Availability, where it becomes accessible to the UI layer, Engine layer, and Academy layer depending on system configuration. SCUs remain immutable once integrated; modifications require new SCU versions. The SCU Lifecycle ensures that all procedural reasoning in LCES is grounded in validated, Edition‑pure, STOP‑clean, role‑separated, module‑aligned units. SCUs are the constitutional atoms of LCES, and the system remains valid only when SCUs remain pure, traceable, auditable, and Strategist‑controlled.
-
-## *Multi-Device.md*
-The Multi‑Device architecture defines how the Legal Calculus Educational System maintains identical constitutional behavior across all devices and interfaces. Multi‑Device rules ensure that LCES remains Edition‑pure, Mode‑pure, Role‑pure, and STOP‑compliant regardless of where execution occurs. Device class does not change constitutional behavior, Edition routing, Mode constraints, Role boundaries, SCU structure, Module activation, or Calculus inheritance. LCES recognizes five device classes: desktop, mobile, tablet, web UI, and embedded UI. All devices must produce identical structural outputs, identical STOP behavior, identical Edition routing, identical Mode enforcement, identical Role separation, and identical SCU handling. Device differences affect only presentation, not constitutional physics. Multi‑Device guarantees include identical constitutional behavior, identical Edition routing, identical Mode behavior, identical Role boundaries, and identical Blueprint or SCU execution depending on system configuration. Synchronization rules require that SCUs sync across devices, Edition state syncs across devices, Mode state syncs across devices, and Role state syncs across devices. Execution state does not sync; execution is stateless and must restart from the Bootloader on each device. Device‑specific constraints include shorter outputs and higher modularity on mobile, full‑length outputs and multi‑pane architecture on desktop, and interactive SCU viewer and Blueprint selector on web UI when enabled. Embedded UI provides kiosk‑safe, classroom‑safe, or restricted‑mode execution with reduced surface area. Device mismatch, state desync, or partial SCU load triggers STOP or recovery. Recovery requires Bootloader reset, Edition reload, Mode reload, and Role reload. Multi‑Device architecture ensures that LCES remains deterministic, reproducible, and constitutional across all environments. Device class may never alter Edition physics, Mode constraints, Role boundaries, SCU lifecycle, Module behavior, Calculus inheritance, STOP doctrine, or Strategist authority. Multi‑Device rules guarantee that LCES behaves as one system regardless of where it is accessed, preserving constitutional purity, structural integrity, and Strategist control.
 
 ## *Repository-Governance*
 Repository Governance defines how the Legal Calculus Educational System maintains constitutional integrity, structural purity, version discipline, and contributor boundaries across the entire codebase. Governance ensures that all files, folders, Editions, Calculi, SCUs, Modules, and architectural surfaces remain aligned with Kernel rules, Bootloader activation, Edition physics, Mode constraints, Role separation, and STOP doctrine. Governance establishes the hierarchy of authority within the repository: constitutional files, procedural files, SCU files, module files, and auxiliary files. Constitutional files include Manifesto, README, Bootloader, and Architecture, and may only be modified through Strategist‑approved constitutional change. Procedural files include Editions, Calculi, SCUs, and Modules, and require maintainer approval. SCU files must pass structure check, Kernel check, Edition routing, STOP compliance, and Inspector review before integration. Governance prohibits narrative prose, role blending, Edition contamination, Mode contamination, legal advice, jurisdictional interpretation, predictions, strategy, or unstructured content anywhere in the repository. Governance defines versioning rules: MAJOR versions for constitutional changes, MINOR versions for Edition or Calculus changes, and PATCH versions for module or SCU updates. Governance enforces that all changes must be traceable, auditable, reversible, and Strategist‑controlled. Governance defines enforcement mechanisms including PR rejection, SCU quarantine, Edition rollback, Module freeze, and Kernel enforcement. Governance requires that all files remain Edition‑pure, Mode‑pure, Role‑pure, and STOP‑compliant. Governance defines the repository structure as a constitutional map: Bootloader for activation, Architecture for system physics, Editions for jurisdictional environments, Calculi for analytical frameworks, SCUs for procedural atoms, Modules for structural engines, and Governance for constitutional oversight. Governance defines contributor boundaries: contributors may not modify constitutional files, may not introduce narrative content, may not alter Edition physics, may not bypass STOP, may not merge roles, and may not introduce inference, speculation, or legal interpretation. Governance defines recovery doctrine: when contamination occurs, the system must halt, identify the violation, reassert Kernel constraints, reset the Bootloader, restore Edition purity, and revalidate affected SCUs or Modules. Governance defines threat surfaces including Edition drift, Mode drift, Role drift, SCU corruption, Module contamination, inference creep, and unauthorized structural changes. Governance ensures that all repository activity remains deterministic, reproducible, constitutional, and Strategist‑controlled. Governance is the constitutional shield that preserves the integrity of LCES as a structural, educational, non‑advisory operating system.
