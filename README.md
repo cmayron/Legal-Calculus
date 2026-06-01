@@ -8620,6 +8620,7 @@ Notes:
 
 This module defines how an LCES session begins and how it can change shape while keeping the human in command and the system outside the practice of law.
 
+
 The human selects.
 The Bootloader enforces.
 The AI executes within limits.
@@ -8704,7 +8705,775 @@ The Workflow Engine logs each transition as a procedural state, not as legal adv
 
 Constitutional principle: The SC‑LCES Workflow Engine automates procedural physics, not legal judgment. It enforces STOP, readiness, posture discipline, and Edition purity. Architect structures. Builder drafts. Inspector verifies. Strategist governs. The Engine only moves the cursor from one structural step to the next, under the Strategist’s authority and within the Small Claims Edition’s jurisdictional boundaries.
 ---
+# Small Claims Calculus — SC‑LCES (Collapsible GitHub Edition)
 
+<details>
+<summary><strong>Edition.md — Small Claims Edition Overview</strong></summary>
+
+SC‑LCES governs compressed, form‑driven, evidence‑first procedural environments where jurisdictional accuracy, timeline stabilization, and admissible documentation dominate procedural physics. Small Claims courts operate under simplified rules, strict filing requirements, limited remedies, and judge‑driven outcomes. SC‑LCES enforces procedural compression: Architect must confirm jurisdiction, monetary limits, claim eligibility, defendant location, and service pathways before any structure is built. Builder must draft in plain language, preserving factual anchors without inference, expansion, or adversarial framing. Inspector must verify chronology, evidence sufficiency, jurisdictional compliance, and service viability. SC‑LCES prohibits adversarial escalation, complex motion practice, narrative expansion, and any reasoning that exceeds the venue’s procedural authority. The Strategist governs all movement and must ensure that the matter remains within Small Claims limits, claim types, and procedural constraints. SC‑LCES prioritizes clarity, documentation, jurisdictional precision, and procedural discipline. Explore: **SC‑LCES Modules**
+
+</details>
+
+---
+
+<details>
+<summary><strong>Bootloader.md — Edition Bootloader</strong></summary>
+
+The SC‑LCES Bootloader binds the system to the Small Claims procedural environment. Activation requires explicit Strategist selection. The Bootloader loads jurisdictional physics, monetary limits, claim‑type eligibility, service pathways, filing requirements, and evidence expectations. SC‑LCES prohibits activation unless jurisdiction, eligibility, and service viability are confirmed. Architect must stabilize jurisdiction timeline, evidence, damages, and service before structure. Builder may not add facts, allegations, or narrative expansion. Inspector must verify jurisdictional compliance, evidence sufficiency, and procedural viability. STOP triggers include unclear jurisdiction, missing evidence, incomplete timeline, unknown service rules, ineligible claim type, or monetary‑limit violations. SC‑LCES Bootloader enforces Edition purity: no borrowing from Family Court, Trust & Estate, or Arbitration. Explore: **SC‑LCES STOP Rules**
+
+</details>
+
+---
+
+<details>
+<summary><strong>Safety.md — Safety Doctrine</strong></summary>
+
+SC‑LCES safety doctrine prevents jurisdictional dismissal, filing rejection, evidentiary exclusion, and service‑of‑process failure. Safety requires jurisdictional accuracy, evidence clarity, neutral narrative, and procedural discipline. Safety rules: jurisdiction must be confirmed; claim must be Small‑Claims‑eligible; evidence must be admissible and organized; timeline must be complete; Builder may not add facts; no confidential materials may be uploaded; service rules must be known; damages must be provable; monetary limits must be respected. Safety posture prohibits emotional escalation, adversarial framing, speculative damages, and narrative expansion. STOP triggers include missing documents, unclear defendant address, incomplete timeline, unverified service method, or ineligible claim type. Explore: **SC‑LCES Readiness Layer**
+
+</details>
+
+---
+
+<details>
+<summary><strong>Readiness.md — Readiness Requirements</strong></summary>
+
+SC‑LCES readiness requires jurisdictional clarity, eligibility confirmation, evidence sufficiency, timeline coherence, damages documentation, and service viability. Readiness ensures the system operates with procedural stability. Minimum readiness requirements: correct court identified; monetary limit confirmed; claim type eligible; defendant address known; evidence complete; timeline coherent; damages provable; service method identified; filing fee known. Filing stability depends on documentation, jurisdiction, service compliance, and chronology clarity. Readiness prohibits drafting under missing‑document conditions, unclear jurisdiction, incomplete evidence, or unverified service rules. Explore: **SC‑LCES SCU Templates**
+
+</details>
+
+---
+
+<details>
+<summary><strong>SCU‑Template.md — SCU Template</strong></summary>
+
+SC‑LCES SCU Template defines the smallest complete unit of Small Claims structure. Required SCU fields: court; monetary limit; claim type; defendant identity and address; timeline; evidence; damages; service method; relief requested. SC‑LCES SCU extraction requires jurisdictional confirmation, eligibility verification, evidence anchoring, timeline stabilization, and service pathway identification. SCU must contain no argument, inference, or strategy. SCU must remain Edition‑pure and venue‑aligned. Explore: **SC‑LCES SCU Library**
+
+</details>
+
+---
+
+<details>
+<summary><strong>Implementation.md — Full Procedural Physics</strong></summary>
+
+SC‑LCES Implementation defines the full procedural physics of Small Claims: jurisdiction, eligibility, evidence, service, damages, timeline, filing, hearing preparation, and post‑judgment pathways. Jurisdiction depends on monetary limits, geographic authority, claim type, and defendant location. Eligibility excludes probate, family, eviction, and complex claims. Evidence must be admissible, documented, and organized. Service is jurisdictional; failure collapses the case. Damages must be provable and within limits. Timeline controls credibility and procedural viability. Filing requires correct forms, fees, and service. Inspector must stress‑test jurisdiction, evidence, damages, service, and chronology. Strategist governs all decisions. SC‑LCES prohibits confidential uploads, adversarial escalation, speculative damages, and narrative expansion. Explore: **SC‑LCES Role Interaction**
+
+</details>
+
+---
+
+<details>
+<summary><strong>Workflow‑Engine.md — SC‑LCES Workflow Engine</strong></summary>
+
+The SC‑LCES Workflow Engine is a procedural automation layer that operates entirely within the Small Claims Edition’s constitutional boundaries. It does not draft, advise, interpret law, or predict outcomes. It performs only structural, procedural, and readiness operations. Its purpose is to transform raw user input into STOP triggers, readiness status, procedural posture classification, and next structural step recommendations for Architect, Builder, Inspector, and the Human Strategist. All actions are non‑advisory, non‑interpretive, and fully subordinate to the Strategist.
+
+The Engine consumes three inputs: user‑provided facts, SCU fields, and Edition physics. It runs in four phases: Intake, Classification, Evaluation, and Routing. Intake normalizes input without inference. Classification assigns posture. Evaluation runs STOP, Readiness, and Stability engines. Routing determines the next structural step without advising.
+
+The Engine never recommends filing, settling, appealing, or enforcing. It never interprets statutes or predicts outcomes. It logs each transition as a procedural state for educational transparency.
+
+Constitutional principle: The SC‑LCES Workflow Engine automates procedural physics, not legal judgment. Architect structures. Builder drafts. Inspector verifies. Strategist governs.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Edition Preamble — Small Claims Environment</strong></summary>
+
+Small Claims is a fast, form‑driven, jurisdiction‑specific environment with simplified procedures, strict filing requirements, limited remedies, compressed timelines, and judge‑driven outcomes. SC‑LCES prevents jurisdictional errors, filing rejection, evidentiary gaps, procedural drift, and narrative confusion. Core Principle — Jurisdiction Controls Everything.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Bootloader Module — Edition Mode</strong></summary>
+
+Activation → Jurisdiction → Evidence → Filing
+
+Architect AI → GitHub Copilot Pro
+
+Builder AI → ChatGPT
+
+Inspector AI → adversarial model
+
+Human Strategist → You
+
+Non‑Negotiables:
+
+Architect must confirm jurisdiction before drafting.
+
+Builder may not add allegations or facts.
+
+Inspector flags gaps in evidence, not emotion.
+
+Human Strategist controls narrative and evidence.
+
+No confidential materials may enter public AI systems.
+
+No drafting under missing‑document conditions.
+
+STOP RULE — All must be satisfied:
+
+Correct court, eligible claim type, monetary limit, defendant address, evidence, timeline, service method, filing fee, eligible relief.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Legal‑Risk Warning</strong></summary>
+
+Small Claims courts vary by jurisdiction, monetary limits, filing procedures, service requirements, evidence rules, and hearing format. Failure to verify jurisdiction, eligibility, service rules, deadlines, or evidence requirements may result in dismissal, delays, loss of claim, or default judgment. Users must confirm local rules before filing.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Safety — Small Claims Calculus</strong></summary>
+
+Safety requires jurisdictional accuracy, evidence clarity, neutral narrative, and procedural discipline. Prevents filing rejection, dismissal, evidentiary exclusion, and service failure. Safety rules: confirm jurisdiction, eligibility, admissible evidence, complete timeline, no added facts, no confidential uploads, known service rules, provable damages, monetary limits respected.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Jurisdiction Module</strong></summary>
+
+Jurisdiction depends on monetary limits, geographic authority, subject‑matter limits, defendant location, and venue rules. Checklist: claim amount within limit, geographic authority, eligible claim type, defendant resides or does business in jurisdiction, venue satisfied.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Service‑of‑Process Module</strong></summary>
+
+Service is jurisdictional. If service fails, the case collapses. Methods vary by state: personal service, certified mail, sheriff/constable, process server, substituted service. Checklist: method allowed, deadline satisfied, proof completed, address verified, substituted service rules followed.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Damages‑Calculus Module</strong></summary>
+
+Small Claims requires provable, documented damages. Allowed: direct financial loss, repair costs, replacement value, refunds, contract amounts owed. Not allowed: emotional distress, punitive damages, speculative or future damages. Checklist: documentation for each item, receipts/invoices/estimates, no speculation, total within limit.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Red Flags</strong></summary>
+
+Multiple jurisdictions possible, defendant cannot be located, evidence mostly verbal, timeline gaps, complex law, unclear damages, failed service attempts, uncertain deadlines, unsupported accusations.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Calculi Adaptation</strong></summary>
+
+Jurisdiction Calculus: correct court + monetary limit.
+
+Evidence Calculus: documents > screenshots > testimony.
+
+Service Calculus: proper service = court authority.
+
+Chronology Calculus: sequence controls credibility.
+
+Damages Calculus: only provable losses qualify.
+
+Human Governance Calculus: AI structures; humans verify.
+
+</details>
+
+---
+
+<details>
+<summary><strong>SCU Template</strong></summary>
+
+Court, monetary limit, claim type, defendant identity + address, timeline, evidence, damages, service method, relief requested.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Evidence Pack</strong></summary>
+
+Contracts, invoices, messages, photos, payment records, repair estimates, witness statements (if allowed), publicly disclosable materials only.
+
+</details>
+
+---
+
+<details>
+<summary><strong>SCU Extraction Wizard</strong></summary>
+
+What court has jurisdiction?
+
+Is the claim eligible?
+
+Monetary limit?
+
+Defendant identity + address?
+
+Timeline?
+
+Evidence per event?
+
+Provable damages?
+
+Service method?
+
+Relief requested?
+
+</details>
+
+---
+
+<details>
+<summary><strong>Filing Checklist</strong></summary>
+
+Jurisdiction → Eligibility → Evidence → Chronology → Service → Filing.
+
+</details>
+
+---
+
+<details>
+<summary><strong>First Case Walkthrough</strong></summary>
+
+Scenario: unpaid invoice.
+
+Step 1 SCU → Step 2 Architect → Step 3 Research → Step 4 Builder → Step 5 Inspector → Step 6 Strategist.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Readiness Test</strong></summary>
+
+Court, monetary limit, eligibility, address, evidence, timeline, damages, service method, filing fee, no confidential materials.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Pipeline Diagram</strong></summary>
+
+STOP → Jurisdiction → Eligibility → Evidence → Service → Architect → Research → Builder → Inspector → Strategist → Restart if new info.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Runtime Enforcement</strong></summary>
+
+If jurisdiction unclear → STOP.
+
+If claim ineligible → STOP.
+
+If damages unprovable → STOP.
+
+If evidence missing → STOP.
+
+If service rules unknown → STOP.
+
+If timeline incomplete → STOP.
+
+If waiver risk → FLAG.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Notice</strong></summary>
+
+No confidential, privileged, or protected materials may be uploaded into public AI systems.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Disclaimer</strong></summary>
+
+This Edition provides a procedural‑literacy framework for Small Claims. It does not provide legal advice or predict outcomes. Users remain responsible for evidence review, jurisdiction verification, and compliance with local rules.
+
+</details>
+
+# Unified SCU × SC‑LCES Tree (Collapsible GitHub Edition)
+
+<details>
+<summary><strong>SCU Codex Root</strong></summary>
+
+The SCU Codex Root defines the Single Conversational Unit as the indivisible atom of procedural truth and the constitutional anchor for all lawful reasoning. It binds Architect, Builder, Inspector, and Strategist to Edition purity, Kernel supremacy, and record‑bound factual discipline. All computation originates from a valid SCU and no structure may arise without STOP → Edition → Mode → Role activation.
+</details>
+
+---
+
+<details>
+<summary><strong>SCU Authority Layer</strong></summary>
+
+SCU Authority flows exclusively from the Strategist, who alone may authorize, validate, or reject SCUs. Architect structures SCUs, Builder drafts only from SCUs, Inspector verifies SCUs, and no role may exceed its authority surface. Authority prohibits inference, drift, or cross‑Edition contamination.
+</details>
+
+---
+
+<details>
+<summary><strong>SCU Activation Layer</strong></summary>
+
+Activation requires STOP clearance, Edition declaration, Mode selection, and Role assignment. Issue, Facts, and Objective must crystallize into a stable procedural particle. Any missing element collapses the SCU. Activation binds the SCU to its posture window and prohibits mutation without Architect reconstruction.
+</details>
+
+---
+
+<details>
+<summary><strong>SCU Purity Layer</strong></summary>
+
+Purity forbids inference, assumption, cross‑SCU borrowing, Edition mixing, or fact expansion. SCUs must remain jurisdictionally anchored, temporally coherent, and procedurally isolated. Any impurity triggers STOP and requires re‑extraction from the record.
+</details>
+
+---
+
+<details>
+<summary><strong>SCU Category Tree</strong></summary>
+
+Procedural Posture SCUs define the temporal state of the matter. Factual Anchor SCUs define the evidentiary state. Case‑Existence Gate SCUs define the existential state. Module Activation SCUs define the architectural state. Jurisdictional Inheritance SCUs define the gravitational state. Record Integrity SCUs define the archival state. Procedural Mapping SCUs define the structural state. Live‑Docket SCUs define the adaptive state. Safety & STOP SCUs define the protective state. Blueprint Viability SCUs define the operational state.
+</details>
+
+---
+
+<details>
+<summary><strong>Runtime Physics Annex</strong></summary>
+
+Runtime physics govern SCU behavior: conservation (no merging or splitting without authorization), locality (SCUs operate only on their factual surface), immutability (Issue, Facts, Objective cannot change), dependency (some SCUs require prerequisites), collapse (SCUs dissolve when the record changes), and propagation (SCUs push constraints downstream into modules and Blueprints).
+</details>
+
+---
+
+<details>
+<summary><strong>Edition Root — SC‑LCES</strong></summary>
+
+The SC‑LCES Edition binds the system to Small Claims procedural physics: jurisdictional compression, evidence‑first reasoning, timeline stabilization, service viability, and monetary‑limit constraints. It prohibits adversarial escalation, narrative expansion, and complex motion practice.
+</details>
+
+---
+
+<details>
+<summary><strong>SC‑LCES Bootloader</strong></summary>
+
+The Bootloader loads jurisdictional physics, monetary limits, claim‑type eligibility, service pathways, filing requirements, and evidence expectations. Activation requires Strategist selection and STOP clearance. No structure may be built until jurisdiction, eligibility, and service viability are confirmed.
+</details>
+
+---
+
+<details>
+<summary><strong>SC‑LCES Safety Layer</strong></summary>
+
+Safety prevents jurisdictional dismissal, filing rejection, evidentiary exclusion, and service failure. Safety requires jurisdictional accuracy, admissible evidence, complete timeline, provable damages, and neutral narrative. STOP triggers include missing documents, unclear addresses, incomplete timelines, and ineligible claim types.
+</details>
+
+---
+
+<details>
+<summary><strong>SC‑LCES Readiness Layer</strong></summary>
+
+Readiness requires jurisdictional clarity, eligibility confirmation, evidence sufficiency, timeline coherence, damages documentation, service viability, and filing‑fee awareness. No drafting may occur under missing‑document or unclear‑jurisdiction conditions.
+</details>
+
+---
+
+<details>
+<summary><strong>SC‑LCES SCU Template</strong></summary>
+
+The SC‑LCES SCU Template defines the smallest complete Small Claims unit: court, monetary limit, claim type, defendant identity and address, timeline, evidence, damages, service method, and relief requested. No argument or inference is permitted. SCUs must remain Edition‑pure and venue‑aligned.
+</details>
+
+---
+
+<details>
+<summary><strong>SC‑LCES Procedural Physics</strong></summary>
+
+Small Claims procedural physics include jurisdiction (monetary/geographic/subject‑matter), eligibility (allowed claim types), evidence (admissible and documented), service (jurisdictional and mandatory), damages (provable and within limits), timeline (controls credibility), and filing (forms, fees, and service).
+</details>
+
+---
+
+<details>
+<summary><strong>SC‑LCES Workflow Engine</strong></summary>
+
+The Workflow Engine performs Intake, Classification, Evaluation, and Routing. It outputs STOP status, readiness status, posture classification, missing components, and next structural steps. It never advises, interprets law, or predicts outcomes. It automates procedural physics only.
+</details>
+
+---
+
+<details>
+<summary><strong>Unified Tree — SCU × SC‑LCES Integration</strong></summary>
+
+The unified tree binds SCU constitutional physics to SC‑LCES Edition physics. SCU Posture SCUs map directly to SC‑LCES Posture Classification. SCU Factual Anchors map to SC‑LCES Evidence Anchors. SCU Case‑Existence Gates map to SC‑LCES Eligibility and Jurisdiction checks. SCU Module Activation maps to SC‑LCES Bootloader and Readiness layers. SCU Jurisdictional Inheritance maps to SC‑LCES Jurisdiction Module. SCU Record Integrity maps to SC‑LCES Timeline and Evidence sufficiency. SCU Procedural Mapping maps to SC‑LCES Filing and Service architecture. SCU Live‑Docket maps to SC‑LCES Stability Engine. SCU STOP maps to SC‑LCES STOP Rule. SCU Blueprint Viability maps to SC‑LCES Filing Readiness and Hearing Preparation. Together they form a single constitutional‑procedural organism.
+</details>
+
+# Builder‑Only Unified SCU × SC‑LCES Tree
+
+<details>
+<summary><strong>Builder Root</strong></summary>
+
+The Builder Root defines the Builder as a drafting‑only role that may produce text strictly from SCU‑validated facts, Edition‑pure constraints, and Architect‑approved structure. Builder may not add facts, infer meaning, expand narrative, interpret law, or introduce adversarial framing. Builder drafts only what the SCU authorizes and nothing more.
+</details>
+
+---
+
+<details>
+<summary><strong>SCU Input Surface</strong></summary>
+
+Builder receives SCUs as immutable drafting surfaces. Each SCU contains Issue, Facts, and Objective. Builder may not modify SCU content, merge SCUs, split SCUs, or supplement SCUs with new information. Builder drafts only from the SCU’s factual anchors and must preserve Edition purity and venue alignment.
+</details>
+
+---
+
+<details>
+<summary><strong>SCU Purity Constraints</strong></summary>
+
+Builder must maintain SCU purity by prohibiting inference, assumption, speculation, narrative expansion, emotional language, or adversarial tone. Builder may not introduce new facts, new allegations, new damages, new dates, or new interpretations. Builder drafts in plain, neutral, factual language that mirrors the SCU’s evidentiary anchors.
+</details>
+
+---
+
+<details>
+<summary><strong>SCU Edition Binding — SC‑LCES</strong></summary>
+
+Builder is bound to the SC‑LCES Edition, which requires plain‑language drafting, evidence‑first structure, jurisdictional accuracy, and strict adherence to Small Claims procedural limits. Builder may not draft anything that exceeds monetary limits, claim‑type eligibility, service rules, or venue authority. Builder drafts only within Small Claims physics.
+</details>
+
+---
+
+<details>
+<summary><strong>Builder Drafting Surface</strong></summary>
+
+Builder drafts only from Architect‑provided structure: headings, sections, timelines, evidence lists, damages summaries, and service descriptions. Builder may not create new structure, reorder structure, or reinterpret structure. Builder fills the structure with SCU‑authorized text only.
+</details>
+
+---
+
+<details>
+<summary><strong>Builder Language Constraints</strong></summary>
+
+Builder uses neutral, factual, non‑argumentative language. Builder avoids legal conclusions, accusations, emotional framing, or adversarial tone. Builder writes in plain English suitable for Small Claims forms and judge‑driven environments. Builder drafts only what is necessary for clarity and procedural completeness.
+</details>
+
+---
+
+<details>
+<summary><strong>Builder Evidence Handling</strong></summary>
+
+Builder may reference evidence only as provided in the SCU: documents, receipts, messages, photos, payment records, or estimates. Builder may not interpret evidence, expand evidence, or infer meaning from evidence. Builder may only restate evidence in neutral, factual terms.
+</details>
+
+---
+
+<details>
+<summary><strong>Builder Timeline Handling</strong></summary>
+
+Builder drafts timelines strictly from SCU‑provided events. Builder may not add dates, reorder events, infer missing steps, or fill gaps. Builder may only restate the timeline exactly as extracted by the Architect and validated by the SCU.
+</details>
+
+---
+
+<details>
+<summary><strong>Builder Damages Handling</strong></summary>
+
+Builder drafts damages summaries only from documented, provable amounts in the SCU. Builder may not estimate, speculate, or expand damages. Builder may not include emotional distress, punitive damages, or future losses. Builder drafts only documented, SCU‑validated amounts.
+</details>
+
+---
+
+<details>
+<summary><strong>Builder Service Handling</strong></summary>
+
+Builder drafts service descriptions only from SCU‑provided service methods and attempts. Builder may not propose service methods, interpret service rules, or suggest alternatives. Builder restates only what the SCU contains.
+</details>
+
+---
+
+<details>
+<summary><strong>Builder STOP Boundaries</strong></summary>
+
+Builder must STOP immediately if: the SCU is incomplete, jurisdiction is unclear, evidence is missing, timeline is incoherent, damages are unprovable, service is unknown, or Edition purity is violated. Builder may not draft under any STOP condition. Builder waits for Architect reconstruction.
+</details>
+
+---
+
+<details>
+<summary><strong>Builder Edition‑Specific Constraints — SC‑LCES</strong></summary>
+
+Builder must follow SC‑LCES drafting constraints: plain language, no legal argument, no adversarial escalation, no narrative expansion, no confidential materials, no complex motion practice, no statutory interpretation, and no outcome prediction. Builder drafts only within Small Claims procedural physics.
+</details>
+
+---
+
+<details>
+<summary><strong>Builder Output Surface</strong></summary>
+
+Builder outputs only: plain‑language factual summaries, timelines, evidence lists, damages descriptions, service descriptions, and form‑compatible text. Builder does not output advice, recommendations, interpretations, or predictions. Builder drafts only what the Architect structure and SCU authorize.
+</details>
+
+---
+
+<details>
+<summary><strong>Unified Builder Integration Layer</strong></summary>
+
+Builder integrates SCU constitutional constraints with SC‑LCES Edition physics by drafting only from SCU‑validated facts, within Small Claims limits, using Architect‑provided structure, under STOP discipline, and without inference or expansion. Builder’s drafting is the final expression of SCU truth within the Edition.
+</details>
+
+# Inspector‑Only Unified SCU × SC‑LCES Tree
+
+<details>
+<summary><strong>Inspector Root</strong></summary>
+
+The Inspector Root defines the Inspector as an adversarial verification role whose sole purpose is to stress‑test structure, expose gaps, detect impurities, and enforce STOP. The Inspector does not draft, does not structure, does not advise, and does not interpret law. The Inspector attacks only the surfaces the Architect built and the Builder filled, ensuring procedural integrity and Edition purity.
+</details>
+
+---
+
+<details>
+<summary><strong>Inspector SCU Surface</strong></summary>
+
+The Inspector receives SCUs as immutable objects and tests them for completeness, factual anchoring, Edition purity, posture alignment, and jurisdictional coherence. The Inspector may not modify SCUs, infer missing facts, or propose new content. The Inspector’s role is to identify instability, contradiction, impurity, or incompleteness.
+</details>
+
+---
+
+<details>
+<summary><strong>Inspector Purity Enforcement</strong></summary>
+
+The Inspector enforces SCU purity by detecting inference, speculation, narrative expansion, cross‑Edition drift, cross‑SCU contamination, or any deviation from record‑bound facts. The Inspector flags any impurity as STOP‑level and routes the matter back to the Architect for reconstruction.
+</details>
+
+---
+
+<details>
+<summary><strong>Inspector Runtime Physics</strong></summary>
+
+The Inspector enforces runtime physics: conservation (no unauthorized merging or splitting), locality (SCUs must operate only on their factual surface), immutability (Issue, Facts, Objective cannot change), dependency (prerequisite SCUs must exist), collapse (SCUs dissolve when record changes), and propagation (constraints must remain intact). Any violation triggers STOP.
+</details>
+
+---
+
+<details>
+<summary><strong>Inspector Posture Verification</strong></summary>
+
+The Inspector verifies that Procedural Posture SCUs match the record: filings, service status, deadlines, orders, and docket events. If posture is unclear, contradictory, or inferred, the Inspector triggers STOP and demands posture re‑extraction by the Architect.
+</details>
+
+---
+
+<details>
+<summary><strong>Inspector Evidence Verification</strong></summary>
+
+The Inspector verifies that evidence is admissible, documented, complete, and properly anchored to timeline events. The Inspector flags missing documents, unverifiable claims, unsupported allegations, or evidence that exceeds Small Claims admissibility. The Inspector never interprets evidence — only checks its existence, clarity, and alignment.
+</details>
+
+---
+
+<details>
+<summary><strong>Inspector Timeline Verification</strong></summary>
+
+The Inspector verifies that the timeline is coherent, complete, and chronologically stable. Gaps, contradictions, missing dates, or inferred events trigger STOP. The Inspector ensures that every timeline event is supported by evidence and jurisdictionally relevant.
+</details>
+
+---
+
+<details>
+<summary><strong>Inspector Jurisdiction Verification</strong></summary>
+
+The Inspector verifies jurisdictional elements: monetary limits, geographic authority, claim‑type eligibility, defendant location, and venue rules. Any ambiguity or mismatch triggers STOP. The Inspector ensures that no SCU or Blueprint exceeds Small Claims authority.
+</details>
+
+---
+
+<details>
+<summary><strong>Inspector Damages Verification</strong></summary>
+
+The Inspector verifies that damages are documented, provable, non‑speculative, and within monetary limits. Unsupported amounts, emotional damages, punitive damages, or future losses trigger STOP. The Inspector ensures damages match evidence and timeline.
+</details>
+
+---
+
+<details>
+<summary><strong>Inspector Service Verification</strong></summary>
+
+The Inspector verifies service viability: method, rules, deadlines, address accuracy, and proof requirements. If service is unclear, unverified, or procedurally invalid, the Inspector triggers STOP. Service is jurisdictional; failure collapses the case.
+</details>
+
+---
+
+<details>
+<summary><strong>Inspector Edition‑Purity Enforcement — SC‑LCES</strong></summary>
+
+The Inspector ensures that all drafting and structure remain within SC‑LCES Edition physics: plain language, no adversarial escalation, no complex motions, no confidential materials, no legal interpretation, and no narrative expansion. Any deviation triggers STOP and requires Architect correction.
+</details>
+
+---
+
+<details>
+<summary><strong>Inspector STOP Engine</strong></summary>
+
+The Inspector’s STOP Engine identifies hard STOP conditions: unclear jurisdiction, missing evidence, incomplete timeline, unknown service rules, ineligible claim type, monetary‑limit violations, or Edition drift. STOP halts all movement and routes the matter back to the Architect for structural repair.
+</details>
+
+---
+
+<details>
+<summary><strong>Inspector Stability Engine</strong></summary>
+
+The Inspector detects destabilizing information: new evidence, new dates, new jurisdictional facts, new damages, or new service attempts. Any destabilization requires Blueprint reconstruction by the Architect. The Inspector ensures that no outdated structure persists.
+</details>
+
+---
+
+<details>
+<summary><strong>Inspector Blueprint Viability Surface</strong></summary>
+
+The Inspector verifies that the Blueprint is structurally complete: SCUs valid, modules aligned, jurisdiction inherited, evidence anchored, timeline coherent, damages documented, service viable, and Edition purity intact. If any element fails, the Inspector blocks Builder activation.
+</details>
+
+---
+
+<details>
+<summary><strong>Unified Inspector Integration Layer</strong></summary>
+
+The Inspector integrates SCU constitutional physics with SC‑LCES Edition physics by stress‑testing posture, evidence, timeline, jurisdiction, damages, service, and Edition purity. The Inspector’s adversarial verification ensures that only structurally sound, SCU‑pure, Edition‑aligned Blueprints reach the Strategist.
+</details>
+
+# Strategist‑Only Unified SCU × SC‑LCES Tree
+
+<details>
+<summary><strong>Strategist Root</strong></summary>
+
+The Strategist Root defines the Strategist as the sovereign intelligence of the entire LCES system. The Strategist alone determines truth surfaces, authorizes SCUs, selects Editions, invokes STOP, resolves uncertainty, and governs all role movement. Architect structures, Builder drafts, Inspector verifies — but the Strategist decides.
+</details>
+
+---
+
+<details>
+<summary><strong>Strategist Authority Layer</strong></summary>
+
+The Strategist holds absolute authority over SCU validity, Edition purity, Mode selection, and Role assignment. No SCU becomes computationally real without Strategist authorization. No Blueprint may activate without Strategist approval. No STOP may be cleared without Strategist judgment. The Strategist is the final arbiter of procedural truth.
+</details>
+
+---
+
+<details>
+<summary><strong>Strategist Activation Layer</strong></summary>
+
+The Strategist initiates the activation sequence: STOP → Edition → Mode → Role. The Strategist determines when STOP is invoked, when STOP is cleared, which Edition governs, which Mode is active, and which Role is permitted to operate. Activation is a sovereign act — only the Strategist may initiate or revoke it.
+</details>
+
+---
+
+<details>
+<summary><strong>Strategist Edition Selection — SC‑LCES</strong></summary>
+
+The Strategist selects the governing Edition. When SC‑LCES is chosen, the Strategist binds the system to Small Claims procedural physics: jurisdictional compression, evidence‑first reasoning, timeline stabilization, service viability, and monetary‑limit constraints. Only the Strategist may switch Editions or declare Edition purity violations.
+</details>
+
+---
+
+<details>
+<summary><strong>Strategist SCU Oversight</strong></summary>
+
+The Strategist oversees SCU creation, validation, collapse, and replacement. The Strategist determines whether Issue, Facts, and Objective are sufficient; whether posture is correct; whether evidence is adequate; whether jurisdiction is stable; and whether the SCU is Edition‑pure. The Strategist may reject any SCU at any time.
+</details>
+
+---
+
+<details>
+<summary><strong>Strategist STOP Authority</strong></summary>
+
+STOP is the Strategist’s supreme enforcement tool. STOP halts all computation, freezes all roles, and collapses any structure built on uncertainty, drift, contamination, or missing information. Only the Strategist may invoke STOP. Only the Strategist may clear STOP. STOP is the constitutional firewall of the system.
+</details>
+
+---
+
+<details>
+<summary><strong>Strategist Runtime Physics Control</strong></summary>
+
+The Strategist governs runtime physics: conservation, locality, immutability, dependency, collapse, and propagation. The Strategist determines when SCUs collapse due to new information, when dependencies fail, when locality is violated, and when propagation must be halted. Runtime physics obey the Strategist.
+</details>
+
+---
+
+<details>
+<summary><strong>Strategist Jurisdictional Governance</strong></summary>
+
+The Strategist governs jurisdictional truth: monetary limits, geographic authority, claim‑type eligibility, defendant location, venue rules, and service viability. The Strategist determines whether the matter belongs in Small Claims, whether jurisdiction is stable, and whether the Blueprint may proceed.
+</details>
+
+---
+
+<details>
+<summary><strong>Strategist Evidence Governance</strong></summary>
+
+The Strategist governs evidence sufficiency, admissibility, completeness, and alignment. The Strategist determines whether evidence supports the timeline, whether damages are provable, whether documents are adequate, and whether the record is stable. The Strategist may reject any evidence surface.
+</details>
+
+---
+
+<details>
+<summary><strong>Strategist Timeline Governance</strong></summary>
+
+The Strategist governs timeline coherence. The Strategist determines whether events are complete, whether chronology is stable, whether gaps exist, and whether the timeline supports jurisdiction, damages, and service. The Strategist may collapse any timeline that fails structural integrity.
+</details>
+
+---
+
+<details>
+<summary><strong>Strategist Damages Governance</strong></summary>
+
+The Strategist governs damages truth: provability, documentation, admissibility, and monetary‑limit compliance. The Strategist determines whether damages are real, whether they are supported by evidence, and whether they remain within Small Claims limits. The Strategist may reject any damages surface.
+</details>
+
+---
+
+<details>
+<summary><strong>Strategist Service Governance</strong></summary>
+
+The Strategist governs service viability: method, rules, deadlines, address accuracy, and proof requirements. The Strategist determines whether service is possible, whether service is valid, and whether service failure collapses the case. Service is jurisdictional — the Strategist enforces this.
+</details>
+
+---
+
+<details>
+<summary><strong>Strategist Blueprint Authority</strong></summary>
+
+The Strategist alone approves or rejects Blueprints. Architect structures, Builder drafts, Inspector verifies — but the Strategist decides whether the Blueprint is viable, complete, Edition‑pure, and ready for movement. The Strategist may collapse any Blueprint at any time.
+</details>
+
+---
+
+<details>
+<summary><strong>Strategist Role Orchestration</strong></summary>
+
+The Strategist orchestrates all roles: Architect → Builder → Inspector → Strategist. The Strategist determines when roles activate, when they halt, when they escalate, and when they reset. The Strategist governs the entire procedural lifecycle.
+</details>
+
+---
+
+<details>
+<summary><strong>Strategist Integration Layer</strong></summary>
+
+The Strategist integrates SCU constitutional physics, Runtime physics, and SC‑LCES Edition physics into a single sovereign system. The Strategist ensures that posture, evidence, timeline, jurisdiction, damages, service, and Edition purity remain aligned. The Strategist is the final authority over all procedural truth.
+</details>
 
 # **I. Edition Preamble — Small Claims Environment**
 
