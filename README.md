@@ -60,7 +60,7 @@ This Constitution is non‑derogable. Nothing may supersede, override, reinterpr
 
 This Preamble governs all that follows.
 
-# **TABLE OF CONTENTS — LCES™ MANIFESTO (Updated Constitutional Structure)**
+# **TABLE OF CONTENTS — LCES™ MANIFESTO**
 
 ### **FOUNDATIONAL PREAMBLE**
 
