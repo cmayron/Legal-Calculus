@@ -7975,11 +7975,11 @@ Edition purity is mandatory.
 
 ---
 
-# ⭐ **M — Edition → SCU → Module Flow Diagram (V7.0)**
+# ⭐ ** Edition → SCU → Module Flow Diagram (V7.0)**
 
 **File:** `/Editions/Edition-Flow-Diagram.md`
 ---
-# **🗂 LCES EDITIONS (V6.3 — Publication Edition)**
+# ** LCES EDITIONS (V6.3 — Publication Edition)**
 
 ### *Environment‑Specific Procedural Layers Built on the Constitutional Core*
 
@@ -8286,7 +8286,7 @@ Each Edition contains its own:
 
 ---
 
-# **📊 Unified Readiness Table**
+# ** Unified Readiness Table**
 
 | **Edition** | **Minimum Readiness Requirement** | **Filing Stability Depends On** |
 | --- | --- | --- |
@@ -8332,7 +8332,7 @@ Each Edition contains its own:
 
 ---
 
-# **🧭 Constitutional Principle**
+# ** Constitutional Principle**
 
 > **The Edition modifies the environment.
 It does not modify the Kernel.**
@@ -8349,7 +8349,7 @@ All Editions remain **subordinate to the LCES constitutional core**.
 ---
 
 #
- ---  # 🧭 Constitutional Principle  The Edition modifies the environment.  It does not modify the Kernel.  The constitutional hierarchy remains:  Kernel → Edition → Mode → Workflow  All editions remain subordinate to the LCES constitutional core.
+ ---  # Constitutional Principle  The Edition modifies the environment.  It does not modify the Kernel.  The constitutional hierarchy remains:  Kernel → Edition → Mode → Workflow  All editions remain subordinate to the LCES constitutional core.
 ::
 
 
