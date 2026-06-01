@@ -89,6 +89,45 @@ This Preamble governs all that follows.
 ### **ARTICLE X — PROCEDURAL PRIMITIVES**
 
 ---
+## CONSTITUTIONAL SURFACES
+
+The Constitutional Surfaces define the authority boundaries that all
+LCES systems must inherit and operate within. These surfaces are not
+implementation layers; they are constitutional constraints that govern
+all computation, all roles, all modes, and all continuations.
+
+### Kernel
+
+The Kernel establishes identity, naming, structural constraints, and the
+non‑derogable constitutional boundaries that all systems must inherit.
+No system may operate outside the Kernel.
+
+### Edition Layer
+
+The Edition Layer defines the domain physics, admissibility rules,
+jurisdictional limits, and procedural authority for a given Edition.
+All systems must conform to the Edition Layer in effect.
+
+### GateZero™ — System‑Level Admissibility Surface
+
+GateZero™ governs the admissibility of every individual system step.
+No system may execute an action, transformation, or continuation unless
+it passes GateZero’s admissibility checks.
+
+### GateSigma™ — System‑of‑Systems Admissibility Surface
+
+GateSigma™ governs the admissibility of chained outcomes across multiple
+GateZero‑governed systems. Individually admissible steps must not combine
+into a collectively inadmissible outcome.
+
+### Governance Layer — GateZero™ and GateSigma™
+
+The Governance Layer unifies the two admissibility surfaces. GateZero™
+governs actions; GateSigma™ governs outcomes. Together they ensure that
+no system and no chain may produce an inadmissible state.
+
+(Insert your full Governance Layer block here.)
+---
 # **ARTICLE I — GOVERNANCE**
 
 **LCES establishes a constitutional governance order in which admissibility, not discretion, defines the lawful boundaries of action. The governor and the workflow are permanently separated; no system may oversee itself, reinterpret its mandate, or alter its own constraints. All actions must satisfy the admissibility gates of the architecture — SCUs, Modules, Calculi, STOP Doctrine, and Edition constraints — before they may enter any workflow. Execution is bound to structure, sequence, and provenance. Each action generates a preserved procedural record that functions as an enforceable constraint, ensuring transparency, reviewability, and the impossibility of silent deviation. Governance rules are Edition‑sovereign and may not be blended, overridden, or diluted; any modification requires formal reconstitution under the originating jurisdiction.**
