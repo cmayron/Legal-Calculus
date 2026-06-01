@@ -1342,6 +1342,7 @@ LCES is governed by three constitutional surfaces: the Kernel, the Edition
 Layer, and the Governance Layer (GateZero™ + GateSigma™). These surfaces
 define the authority boundaries that all computation must inherit.
 ---
+These three constitutional surfaces govern all activation, movement, and runtime admissibility.
 
 # **5. Canonical Principle**
 
