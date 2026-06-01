@@ -219,8 +219,43 @@ Workflow fidelity is the requirement that all movement must remain faithful to c
 
 # **ARTICLE III — RECORD**
 
-**Every admissible action generates a procedural record that is immutable, reviewable, and Edition‑bound. Records must include provenance, posture, admissibility basis, STOP conditions, and all evidence objects relied upon. No action may be recognized as valid unless its record is complete and audit‑ready. Records form the authoritative substrate for review, appeal, replication, and teaching. No system may erase, rewrite, or retroactively alter a record; corrections require a new Edition‑compliant action with its own record.**
+The Constitutional Architecture of Memory, Trace, and Procedural Continuity
 
+Section 1 — The Purpose of Record
+
+Record is the constitutional mechanism that preserves continuity, enforces accountability, and maintains the procedural identity of the system across time. Record is not storage, logging, or history. Record is the governed trace of cognition: the minimal, validated, Edition‑bound representation of what the system has done, why it moved, and under which constraints. Record ensures that workflow is reproducible, auditable, and jurisdictionally faithful. Without Record, the system cannot maintain coherence across SCUs, Editions, or Modes. Record is the constitutional memory of the architecture, not the memory of the model. The Record Surface is the environment where this governed trace is preserved.
+
+Section 2 — The Record Surface
+
+The Record Surface is Edition‑bound, STOP‑gated, and Mode‑aware. Only SCUs that have passed Safety and Readiness may write to it. No unvalidated movement may appear in Record. No inference, speculation, or model‑generated narrative may enter without constitutional authorization. The Record Surface captures only what is procedurally real: validated workflow steps, Edition physics applied, STOP events triggered, and admissibility decisions enforced. Record is the constitutional truth of the system.
+
+Section 3 — SCU Trace Requirements
+
+Every SCU produces a trace that reflects its validated movement. The trace must include the Edition in which it operated, the Mode that governed its cognition, the STOP events that bounded its movement, and the admissibility decisions that shaped its reasoning. SCU traces must be minimal, non‑interpretive, and contamination‑free. They must not contain unvalidated context, inferred intention, or model‑generated narrative. SCU traces are the atomic units of Record. They ensure that every movement is reconstructible and every decision is accountable. The SCU Physics that govern movement also govern trace formation.
+
+Section 4 — Edition‑Bound Record
+
+Record is Edition‑specific. Each Edition defines its own admissibility rules, timing physics, contamination boundaries, and procedural primitives. Record must reflect these Edition constraints. No Edition may write into another Edition’s Record Surface. No SCU may carry trace material across Editions without full revalidation. Edition‑bound Record ensures jurisdictional fidelity and prevents cross‑Edition contamination. Record is not a universal ledger; it is a governed, Edition‑specific procedural memory.
+
+Section 5 — Mode‑Aware Record
+
+Record must reflect the Mode in which cognition occurred. Modes define the cognitive environment, the reasoning surface, and the permissible forms of movement. Record must capture Mode activation, Mode boundaries, and Mode transitions. No Mode may overwrite another Mode’s trace. No Mode may collapse into another within Record. Mode‑aware Record ensures that cognitive environments remain distinct, governed, and reconstructible. Record preserves the cognitive physics of the system. The Mode Layer is therefore inseparable from the Record architecture.
+
+Section 6 — STOP‑Gated Recording
+
+STOP is the constitutional brake, and Record must reflect every STOP event. STOP events define the boundaries of movement, the limits of authority, and the points at which the system must halt, revalidate, or await human instruction. Record must capture STOP triggers, STOP reasons, and STOP outcomes. STOP‑gated Record ensures that the system’s behavior is accountable, bounded, and constitutionally disciplined. No movement may bypass STOP. No trace may omit STOP. The STOP Layer is therefore a mandatory component of Record.
+
+Section 7 — Admissibility‑Filtered Record
+
+Record is admissibility‑filtered. Only validated, Edition‑compliant, contamination‑free content may enter the Record Surface. Admissibility ensures that Record remains clean, minimal, and jurisdictionally faithful. No unverified evidence, no speculative reasoning, and no model‑generated narrative may enter Record without passing admissibility. Record is the constitutional memory of what was allowed, not the memory of what was generated. Admissibility ensures that Record remains a governed artifact. The GateZero mechanism enforces this filtering.
+
+Section 8 — Non‑Derogation of Record
+
+Record cannot be altered, overwritten, or retroactively modified by any SCU, Edition, Mode, or model. Record is constitutionally protected. Only the Strategist may authorize redaction, extraction, or archival movement. Non‑Derogation ensures that Record remains a faithful representation of the system’s procedural history. Record is immutable because governance requires immutability. Without Non‑Derogation, the system cannot maintain trust, reproducibility, or constitutional integrity. The Non‑Derogation Principle is therefore a core protection.
+
+Section 9 — Record as Procedural Continuity
+
+Record is the continuity layer of LCES. Models change. Editions evolve. Modes activate and deactivate. SCUs appear and complete. But Record persists. Record ensures that the system remains coherent across time, jurisdiction, and cognitive environment. Record is the constitutional memory of the architecture, not the memory of the model. It is the mechanism through which LCES maintains identity, fidelity, and reproducibility. Record is the anchor that binds all movement to constitutional truth.
 ---
 
 # **ARTICLE IV — EDITIONS**
