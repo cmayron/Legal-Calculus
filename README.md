@@ -126,7 +126,69 @@ The Governance Layer unifies the two admissibility surfaces. GateZero™
 governs actions; GateSigma™ governs outcomes. Together they ensure that
 no system and no chain may produce an inadmissible state.
 
-(Insert your full Governance Layer block here.)
+### Governance Layer — GateZero™ and GateSigma™
+
+The Governance Layer unifies the two admissibility surfaces. GateZero™
+governs actions; GateSigma™ governs outcomes. Together they ensure that
+no system and no chain may produce an inadmissible state.
+
+#### GateZero™ — System‑Level Admissibility
+
+GateZero™ governs the execution boundary of every individual system.
+No system may take an action, produce an inference, or advance a
+continuation unless it first passes GateZero’s admissibility checks.
+
+GateZero enforces:
+
+1. Admissible Action
+   Every step must fall within the system’s constitutional authority.
+
+2. Authorized Transformation
+   All transformations must be explicitly permitted by the Kernel,
+   Edition, Mode, and Role constraints.
+
+3. Valid Posture Transition
+   Posture shifts must be constitutionally compatible.
+
+4. Authority Envelope Compliance
+   No system may exceed its assigned authority or jurisdiction.
+
+5. Continuation Admissibility
+   A system may not emit a continuation that would be inadmissible
+   for any downstream system.
+
+GateZero™ is the constitutional governor of system‑level behavior.
+Nothing executes without passing GateZero.
+
+#### GateSigma™ — System‑of‑Systems Admissibility
+
+GateSigma™ governs the admissibility of chained outcomes produced by
+multiple GateZero‑governed systems. Individually admissible steps must
+not combine into a collectively inadmissible outcome.
+
+GateSigma enforces five composite admissibility domains:
+
+1. Cross‑System Consistency
+   Semantic, procedural, and authority trajectories must remain coherent.
+
+2. Cumulative Authority
+   Total authority exercised across the chain must remain within the
+   chain’s constitutional authority envelope.
+
+3. Emergent Risk Amplification
+   Multi‑hop transformations must not accumulate risk beyond admissible
+   bounds.
+
+4. Cross‑Boundary Procedural Posture
+   Posture transitions across systems must remain valid relative to the
+   originating posture.
+
+5. Continuation Validity
+   The final state of the chain must be constitutionally reachable from
+   the initial state.
+
+GateSigma™ is the constitutional governor of system‑of‑systems behavior.
+No chain may finalize an outcome without passing GateSigma™.
 ---
 # **ARTICLE I — GOVERNANCE**
 
