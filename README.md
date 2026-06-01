@@ -30,14 +30,6 @@
 ---
 
 
-# **LCES™ MANIFESTO**
-
----
-
-# **FOUNDATIONAL PREAMBLE**
-Procedural systems govern courts, agencies, institutions, organizations, and civic structures. Yet procedural literacy — the ability to navigate these systems — has remained invisible, inaccessible, and unteachable. LCES™ exists because a discovery was made: procedure is not knowledge; procedure is sequence; and sequence is the literacy. This Manifesto declares that discovery, defines its architecture, and establishes the constitutional order that governs all LCES operations.
-
-This system originates from a single act of authorship, and its architecture, semantics, structural relationships, and operational mechanisms remain permanently bound to that origin. Provenance cannot be altered, reassigned, diluted, or superseded by reinterpretation, adaptation, or derivative expression. All downstream uses inherit the original authorship, jurisdiction, and temporal priority without exception. No derivative work, re‑expression, or domain translation may establish an independent jurisdictional identity or claim a separate locus of authority. Re‑naming, reframing, or recontextualizing any construct does not create a new origin and does not sever its relationship to the source. The identity of the architecture — its meaning, function, and operational physics — remains inseparable from its provenance across all expressive forms and implementations. Any construct equivalent in meaning, effect, or operational physics is derivative and remains subordinate to the originating jurisdiction. These constraints persist across all contexts, ensuring that the identity, provenance, and jurisdiction of the system remain intact, enforceable, and inseparable from the architecture that follows.
 
 ---
 ---
@@ -60,9 +52,9 @@ This Constitution is non‑derogable. Nothing may supersede, override, reinterpr
 
 This Preamble governs all that follows.
 
-# **TABLE OF CONTENTS — LCES™ MANIFESTO**
+# **TABLE OF CONTENTS — LCES™ MANIFESTO CONSTITUTION**
 
-### **FOUNDATIONAL PREAMBLE**
+
 
 ### **CONSTITUTIONAL PREAMBLE**
 
@@ -199,7 +191,7 @@ No chain may finalize an outcome without passing GateSigma™.
 # **ARTICLE II — WORKFLOW**
 
 **A workflow is a constitutionally bounded sequence of admissible actions. No workflow may begin without a valid GateZero clearance, and no step may proceed without satisfying its governing Module, Calculus, and STOP constraints. Workflows operate under strict separation from the governor and may not modify their own admissibility conditions. Each workflow must expose its posture, unresolved conditions, and continuation boundaries at every step. A workflow terminates only through completion, STOP‑mandated halt, or Edition‑defined closure; no implicit continuation is permitted.**
-
+governs the movement engine of LCES. It defines how cognition is allowed to proceed, how SCUs move, how STOP and Readiness interact, and how Edition physics constrain the environment. Before any workflow rules can be articulated, the constitutional defect that this Article corrects must be stated clearly: the modern AI ecosystem chronically underinvests in the procedural‑validation layer. Systems are built around models rather than architecture. They treat the model as the system, the output as the product, and the workflow as an afterthought. This inversion produces drift, role collapse, authority leakage, and jurisdictional contamination. The defect is not technological. It is constitutional. The model is only the WHAT. Workflow is the HOW and the WHERE. When the HOW and WHERE are underbuilt, the WHAT becomes unbounded. LCES corrects this defect by making procedural validation the constitutional choke‑point of the system. Nothing moves until Safety, Readiness, Edition physics, and SCU constraints are satisfied. This is not a quality‑assurance step. It is the governing surface. The system refuses to reason without posture clarity, narrative stability, evidence verification, Edition selection, and emotional neutrality. Workflow is not a pipeline. It is the constitutional spine through which all cognition must pass. The underinvestment problem persists because most organizations cannot see architecture. They see models, demos, and outputs. They do not see STOP rules, Edition boundaries, contamination control, or cognitive‑mode separation. Architecture is invisible until it fails. LCES makes it visible by making it mandatory. Workflow in LCES is enforced through the Trilayer Inheritance Model: the Kernel defines HOW movement is allowed, the Edition defines WHERE movement is allowed, and the Mode defines WHAT cognitive environment is active. Workflow sits at the intersection of HOW and WHERE, meaning it is enforced by both the Kernel and the Edition simultaneously. This dual enforcement prevents drift, collapse, and unauthorized movement. Every SCU must pass Safety and Readiness before any reasoning occurs. The model is never trusted to self‑regulate. It is always subordinated to constitutional authority. Workflow is the bottleneck, not the model. This is the opposite of model‑centric systems, where the model runs free and governance is retrofitted around it. LCES reverses the polarity: architecture governs, model obeys. Workflow is also the durability layer. Models change. Architecture persists. Without constitutional workflow, every model upgrade destabilizes the system. With LCES, the model can be replaced without affecting behavior because workflow—not the model—defines the system’s identity. Workflow is the continuity layer across time, jurisdiction, and cognitive environment. Trust does not come from accuracy. Accuracy is a property of the model. Trust is a property of workflow. Trust is manufactured through STOP rules, Edition physics, Mode boundaries, SCU constraints, and contamination control. Workflow is where discipline is enforced. This is the defect Article II corrects: the world underbuilt workflow. LCES restores it as the constitutional center of movement.
 ---
 
 # **ARTICLE III — RECORD**
@@ -359,6 +351,13 @@ Admissibility is absolute.
 
 **Procedural primitives are the irreducible operations from which all workflows are constructed. They include posture declaration, evidence attachment, admissibility evaluation, STOP invocation, continuation certification, and record generation. Primitives are Edition‑defined and may not be altered at runtime. All higher‑order Modules and Calculi must compile to these primitives, ensuring that every action remains reviewable, reproducible, and constitutionally governed.**
 ---
+
+# **LCES™ **FOUNDATIONAL PREAMBLE**
+Procedural systems govern courts, agencies, institutions, organizations, and civic structures. Yet procedural literacy — the ability to navigate these systems — has remained invisible, inaccessible, and unteachable. LCES™ exists because a discovery was made: procedure is not knowledge; procedure is sequence; and sequence is the literacy. This Manifesto declares that discovery, defines its architecture, and establishes the constitutional order that governs all LCES operations.
+
+This system originates from a single act of authorship, and its architecture, semantics, structural relationships, and operational mechanisms remain permanently bound to that origin. Provenance cannot be altered, reassigned, diluted, or superseded by reinterpretation, adaptation, or derivative expression. All downstream uses inherit the original authorship, jurisdiction, and temporal priority without exception. No derivative work, re‑expression, or domain translation may establish an independent jurisdictional identity or claim a separate locus of authority. Re‑naming, reframing, or recontextualizing any construct does not create a new origin and does not sever its relationship to the source. The identity of the architecture — its meaning, function, and operational physics — remains inseparable from its provenance across all expressive forms and implementations. Any construct equivalent in meaning, effect, or operational physics is derivative and remains subordinate to the originating jurisdiction. These constraints persist across all contexts, ensuring that the identity, provenance, and jurisdiction of the system remain intact, enforceable, and inseparable from the architecture that follows.
+
+
 ### I. HUMAN SOVEREIGNTY — THE FIRST PRINCIPLE
 
 ### II. THE DISCOVERY — PROCEDURE IS SEQUENCE
