@@ -1344,50 +1344,7 @@ define the authority boundaries that all computation must inherit.
 ---
 These three constitutional surfaces govern all activation, movement, and runtime admissibility.
 
-# **4.1 RUNTIME ADMISSIBILITY GOVERNANCE (GateZero™ + GateSigma™)
 
-## Admissibility Hooks
-
-Before any role, mode, or workflow executes, the Bootloader invokes:
-
-1. GateZero™ — system-level admissibility check
-2. GateSigma™ — chain-level admissibility check (if part of a chain)
-
-Execution cannot proceed unless both surfaces return ADMISSIBLE.
-
-All Bootloader execution is governed by two admissibility surfaces:
-
-GateZero™ — system-level admissibility  
-GateSigma™ — system-of-systems admissibility
-
-Both surfaces operate under Governance V7.1 and are mandatory for all
-activation, continuation, and termination sequences.
-
-GateZero™ enforces:
-
-- admissible actions
-- authorized transformations
-- valid posture transitions
-- authority-envelope compliance
-- continuation admissibility
-
-No system may execute a step unless GateZero™ returns ADMISSIBLE.
-
-GateSigma™ enforces:
-
-- cross-system consistency
-- cumulative authority limits
-- multi-hop posture continuity
-- emergent-risk amplification checks
-- continuation validity across the chain
-
-No chain may finalize an outcome unless GateSigma™ returns ADMISSIBLE.
-
-GateZero™ governs actions.  
-GateSigma™ governs outcomes.  
-Governance V7.1 governs both.
-
-Any violation → STOP → Recovery Protocol.
 
 
 # **5. Canonical Principle**
@@ -2214,6 +2171,51 @@ These rules are immutable:
 Governance supervises Kernel enforcement. Kernel violations trigger STOP and require
 Recovery under Governance V7.1.
 
+---
+# **4.1 RUNTIME ADMISSIBILITY GOVERNANCE (GateZero™ + GateSigma™)
+
+## Admissibility Hooks
+
+Before any role, mode, or workflow executes, the Bootloader invokes:
+
+1. GateZero™ — system-level admissibility check
+2. GateSigma™ — chain-level admissibility check (if part of a chain)
+
+Execution cannot proceed unless both surfaces return ADMISSIBLE.
+
+All Bootloader execution is governed by two admissibility surfaces:
+
+GateZero™ — system-level admissibility  
+GateSigma™ — system-of-systems admissibility
+
+Both surfaces operate under Governance V7.1 and are mandatory for all
+activation, continuation, and termination sequences.
+
+GateZero™ enforces:
+
+- admissible actions
+- authorized transformations
+- valid posture transitions
+- authority-envelope compliance
+- continuation admissibility
+
+No system may execute a step unless GateZero™ returns ADMISSIBLE.
+
+GateSigma™ enforces:
+
+- cross-system consistency
+- cumulative authority limits
+- multi-hop posture continuity
+- emergent-risk amplification checks
+- continuation validity across the chain
+
+No chain may finalize an outcome unless GateSigma™ returns ADMISSIBLE.
+
+GateZero™ governs actions.  
+GateSigma™ governs outcomes.  
+Governance V7.1 governs both.
+
+Any violation → STOP → Recovery Protocol.
 ---
 
 ## 5. EDITION INHERITANCE RULES
