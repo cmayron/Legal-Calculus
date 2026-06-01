@@ -1338,6 +1338,9 @@ All three layers must remain active.
 
 No layer may collapse into another.
 
+LCES is governed by three constitutional surfaces: the Kernel, the Edition
+Layer, and the Governance Layer (GateZero™ + GateSigma™). These surfaces
+define the authority boundaries that all computation must inherit.
 ---
 
 # **5. Canonical Principle**
