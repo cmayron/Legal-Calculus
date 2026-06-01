@@ -131,7 +131,7 @@ This Preamble governs all that follows.
 
 ---
 
-# ARTICLE VIII — ADMISSIBILITY, GATEZERO™, AND GATESIGMA™
+# **ARTICLE VIII — ADMISSIBILITY, GATEZERO™, AND GATESIGMA™**
 
 ## Section 1 — Admissibility
 All computation within LCES must be admissible.  
