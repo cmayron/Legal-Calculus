@@ -1487,7 +1487,7 @@ After activation:
 
 ---
 
-# **19.  **Governs**
+# **19. Governs**
 
 This README governs:
 
