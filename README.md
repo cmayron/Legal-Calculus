@@ -118,11 +118,7 @@ The Governance Layer unifies the two admissibility surfaces. GateZero™
 governs actions; GateSigma™ governs outcomes. Together they ensure that
 no system and no chain may produce an inadmissible state.
 
-### Governance Layer — GateZero™ and GateSigma™
 
-The Governance Layer unifies the two admissibility surfaces. GateZero™
-governs actions; GateSigma™ governs outcomes. Together they ensure that
-no system and no chain may produce an inadmissible state.
 
 #### GateZero™ — System‑Level Admissibility
 
