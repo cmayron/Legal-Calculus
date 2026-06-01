@@ -1346,6 +1346,15 @@ These three constitutional surfaces govern all activation, movement, and runtime
 
 # **4.1 RUNTIME ADMISSIBILITY GOVERNANCE (GateZero™ + GateSigma™)
 
+## Admissibility Hooks
+
+Before any role, mode, or workflow executes, the Bootloader invokes:
+
+1. GateZero™ — system-level admissibility check
+2. GateSigma™ — chain-level admissibility check (if part of a chain)
+
+Execution cannot proceed unless both surfaces return ADMISSIBLE.
+
 All Bootloader execution is governed by two admissibility surfaces:
 
 GateZero™ — system-level admissibility  
