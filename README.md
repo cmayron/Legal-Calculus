@@ -43,6 +43,10 @@ systems must inherit before any Article may operate.
 
     Surface I — Preconditions for Governance
         Axiom 1: Visibility Before Authority
+## **Axiom 1 — Visibility Before Authority (Short Constitutional Paragraph)**
+
+**Visibility is the first act of governance.** No system can be governed until it is mapped, its data flows understood, its decision influence identified, and its ownership assigned. The AI register therefore functions as the boundary‑defining act that establishes the decision surface. Declared, shadow, and latent systems must all be made visible before any Article may operate. Governance, accountability, and oversight only begin once the system landscape is known.
+
 
 ARTICLE I — GOVERNANCE
 ARTICLE II — WORKFLOW
