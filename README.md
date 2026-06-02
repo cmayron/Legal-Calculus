@@ -28,7 +28,32 @@
 ### *— Foundational Doctrine*
 
 ---
+CONSTITUTIONAL PREAMBLE
 
+CONSTITUTIONAL SURFACES
+
+The Constitutional Surfaces define the authority boundaries that all LCES
+systems must inherit before any Article may operate.
+
+    Kernel
+    Edition Layer
+    GateZero™
+    GateSigma™
+    Governance Layer
+
+    Surface I — Preconditions for Governance
+        Axiom 1: Visibility Before Authority
+
+ARTICLE I — GOVERNANCE
+ARTICLE II — WORKFLOW
+ARTICLE III — RECORD
+ARTICLE IV — EDITIONS
+ARTICLE V — ROLES
+ARTICLE VI — MODES
+ARTICLE VII — STOP
+ARTICLE VIII — ADMISSIBILITY & GATEZERO
+ARTICLE IX — NON‑DEROGATION
+ARTICLE X — PROCEDURAL PRIMITIVES
 
 
 ---
