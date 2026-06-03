@@ -105,6 +105,19 @@ The Governance Layer unifies the two admissibility surfaces. GateZero™ governs
 
 **Governed systems must be capable of returning to a known, admissible state.** Recoverability requires that the system can be reset, rolled back, or restored without loss of constitutional integrity. A system that cannot be recovered cannot be governed. No workflow may continue from a corrupted, ambiguous, or unverifiable state.
 
+# **Surface V — Edition Integrity and Constitutional Continuity**
+
+## **Axiom 9 — Systems Must Declare Their Edition**
+
+**Every system must operate under a declared Edition and remain bound to it.**
+
+A system may not mix rules, authorities, admissibility standards, or procedural primitives across Editions. Edition drift, silent Edition changes, or hybridized Edition states are constitutionally prohibited. A system that cannot identify its Edition cannot be governed.
+
+## **Axiom 10 — Editions Must Be Forward‑Compatible With the Kernel**
+
+**No Edition may conflict with, weaken, or bypass the Kernel.**
+
+All Editions inherit the Kernel’s non‑derogable constraints. An Edition that contradicts the Kernel is void. Constitutional continuity requires that Edition evolution strengthens, rather than dilutes, the structural boundaries of LCES.
 
 ARTICLE I — GOVERNANCE
 ARTICLE II — WORKFLOW
