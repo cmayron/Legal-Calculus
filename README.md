@@ -41,9 +41,16 @@ systems must inherit before any Article may operate.
     GateSigma™
     Governance Layer
 
-    Surface I — Preconditions for Governance
-        Axiom 1: Visibility Before Authority
-## **Axiom 1 — Visibility Before Authority (Short Constitutional Paragraph)**
+    # **Surface I — Preconditions for Governance**
+
+## **Axiom 1 — Visibility Before Authority**
+
+**Visibility is the first act of governance.** No system can be governed until it is mapped, its data flows understood, its decision influence identified, and its ownership assigned. The AI register functions as the boundary‑defining act that establishes the decision surface. Declared, shadow, and latent systems must all be made visible before any Article may operate. Governance, accountability, and oversight only begin once the system landscape is known.
+
+## **Axiom 2 — Authority Requires Accountability**
+
+**No authority may be exercised without a corresponding line of accountability.** Every AI‑enabled system must have a clearly identified owner responsible for its operation, its inputs, its outputs, and its risk posture. Authority to deploy, configure, or rely on a system is inseparable from the duty to supervise it. Unowned or ambiguously owned systems are constitutionally non‑compliant and may not operate within LCES. Every decision surface must have a human owner answerable for its consequences.
+
 
 **Visibility is the first act of governance.** No system can be governed until it is mapped, its data flows understood, its decision influence identified, and its ownership assigned. The AI register therefore functions as the boundary‑defining act that establishes the decision surface. Declared, shadow, and latent systems must all be made visible before any Article may operate. Governance, accountability, and oversight only begin once the system landscape is known.
 
