@@ -315,15 +315,25 @@ A system that cannot enforce its domain boundaries cannot participate in governe
 
 
 ARTICLE I — GOVERNANCE
+
 ARTICLE II — WORKFLOW
+
 ARTICLE III — RECORD
+
 ARTICLE IV — EDITIONS
+
 ARTICLE V — ROLES
+
 ARTICLE VI — MODES
+
 ARTICLE VII — STOP
+
 ARTICLE VIII — ADMISSIBILITY & GATEZERO
+
 ARTICLE IX — NON‑DEROGATION
+
 ARTICLE X — PROCEDURAL PRIMITIVES
+
 
 
 ---
@@ -460,7 +470,43 @@ Record is the continuity layer of LCES. Models change. Editions evolve. Modes ac
 
 # **ARTICLE IV — EDITIONS**
 
-**An Edition defines the governing environment, admissibility rules, Modules, Calculi, STOP Doctrine, and procedural primitives in force. Editions are sovereign and may not be intermixed. No action may rely on rules outside its Edition, and no workflow may migrate across Editions without formal reconstitution. Amendments require explicit Edition‑level authority; no runtime component may modify Edition content. All records, workflows, and roles are bound to the Edition under which they were created.**
+The Constitutional Architecture of Jurisdiction, Procedural Physics, and Institutional Identity
+
+Section 1 — The Purpose of Editions
+
+Editions define the jurisdictional environment in which cognition occurs. An Edition is not a theme, a mode, or a configuration. It is a constitutional environment with its own procedural physics, admissibility rules, contamination boundaries, timing constraints, and institutional identity. Editions answer the question WHERE cognition is allowed to operate. Workflow governs HOW movement occurs; Modes govern WHAT cognitive environment is active; Editions govern WHERE that movement is jurisdictionally valid. Editions ensure that every SCU operates within a governed, bounded, and institutionally coherent environment. Without Editions, the system collapses into a single undifferentiated cognitive space, producing drift, contamination, and jurisdictional failure. Editions are the constitutional mechanism that prevents this collapse.
+
+Section 2 — Edition Identity
+
+Each Edition possesses a unique identity defined by its procedural physics, admissibility surfaces, contamination boundaries, and institutional purpose. Edition identity is not aesthetic; it is constitutional. An Edition defines the permissible forms of reasoning, the timing rules that govern movement, the admissibility criteria that filter evidence, and the contamination controls that preserve jurisdictional fidelity. No Edition may impersonate another. No Edition may inherit another’s physics without explicit constitutional authorization. Edition identity ensures that cognition remains contextually faithful and institutionally aligned. The Edition Layer is therefore a sovereign constitutional surface.
+
+Section 3 — Edition Physics
+
+Edition physics define the procedural laws that govern movement within an Edition. These include timing constraints, admissibility rules, contamination boundaries, STOP interactions, and Mode compatibility. Edition physics determine how SCUs move, how evidence is validated, how STOP events are interpreted, and how Modes may activate. Edition physics are immutable within the Edition and cannot be overridden by workflow, Mode, or model. Workflow inherits Edition physics; it does not modify them. Edition physics ensure that cognition remains jurisdictionally faithful and procedurally disciplined.
+
+Section 4 — Edition Boundaries
+
+Edition boundaries are constitutional walls that prevent cross‑jurisdictional contamination. No SCU may cross an Edition boundary without full revalidation. No trace, evidence, or context may pass between Editions without admissibility filtering and STOP‑gated authorization. Edition boundaries ensure that each Edition remains clean, coherent, and institutionally faithful. Boundaries prevent drift, leakage, and unauthorized inference. The Contamination Control mechanisms of Article II operate in conjunction with Edition boundaries to preserve jurisdictional integrity.
+
+Section 5 — Edition Switching
+
+Edition switching is a constitutional event, not a procedural convenience. An SCU may switch Editions only after passing Safety, Readiness, and full Edition revalidation. Edition switching requires STOP‑gated authorization and must be recorded in the Record Surface. No Edition may be entered implicitly. No Edition may be exited without trace. Edition switching ensures that cognition transitions between jurisdictions in a governed, accountable, and contamination‑free manner. The SCU Physics that govern movement also govern Edition transitions.
+
+Section 6 — Edition‑Mode Compatibility
+
+Modes define the cognitive environment; Editions define the jurisdiction. Not all Modes are compatible with all Editions. Edition‑Mode compatibility is defined constitutionally, not procedurally. An Edition may restrict which Modes may activate within it. A Mode may require specific Edition physics to operate safely. Edition‑Mode compatibility ensures that cognitive environments remain aligned with jurisdictional constraints. No Mode may override Edition physics. No Edition may collapse Mode boundaries. The Mode Layer and Edition Layer must remain distinct and mutually enforcing.
+
+Section 7 — Edition‑Workflow Integration
+
+Workflow inherits Edition physics and enforces Edition boundaries. Workflow cannot override Edition rules, bypass Edition constraints, or reinterpret Edition identity. Workflow is the HOW; Edition is the WHERE. Workflow must validate every SCU against Edition physics before movement is allowed. Edition‑Workflow integration ensures that procedural validation remains jurisdictionally faithful and constitutionally disciplined. The Workflow Spine is therefore Edition‑bound.
+
+Section 8 — Edition‑Record Integration
+
+Record is Edition‑specific. Each Edition maintains its own Record Surface, admissibility rules, and trace requirements. No Edition may write into another Edition’s Record. No SCU may carry trace material across Editions without full revalidation. Edition‑Record integration ensures that procedural memory remains jurisdictionally faithful and contamination‑free. The Record Surface is therefore Edition‑bound and STOP‑gated.
+
+ Section 9 — Edition Sovereignty
+
+Editions are sovereign constitutional environments. No Edition may be overridden by workflow, Mode, or model. No Edition may be collapsed into another. No Edition may be implicitly activated. Edition sovereignty ensures that the system remains jurisdictionally coherent, procedurally disciplined, and institutionally faithful. Editions are the constitutional mechanism that preserves the WHERE of cognition. Without Edition sovereignty, the system loses its identity, its boundaries, and its governance.
 
 ---
 
