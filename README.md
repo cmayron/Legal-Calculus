@@ -30,20 +30,12 @@
 ---
 # **CONSTITUTIONAL PREAMBLE**
 
-# **CONSTITUTIONAL SURFACES**
 
-# **CONSTITUTIONAL SURFACES**
-
-The Constitutional Surfaces define the authority boundaries that all LCES systems must inherit before any Article may operate. These surfaces establish the constitutional physics within which all governance, workflow, record‑keeping, admissibility, and procedural primitives must function.
 
 ---
 ## CONSTITUTIONAL SURFACES
 
-The Constitutional Surfaces define the authority boundaries that all
-LCES systems must inherit and operate within. These surfaces are not
-implementation layers; they are constitutional constraints that govern
-all computation, all roles, all modes, and all continuations.
-
+The Constitutional Surfaces define the authority boundaries that all LCES systems must inherit before any Article may operate. These surfaces establish the constitutional physics within which governance, workflow, record‑keeping, admissibility, and procedural primitives must function. They are not implementation layers but constitutional constraints that govern all computation, all roles, all modes, and all continuations. Every LCES system operates within these surfaces as its lawful medium — the field of admissible motion through which constitutional authority is preserved.
 ### Kernel
 
 The Kernel establishes identity, naming, structural constraints, and the
