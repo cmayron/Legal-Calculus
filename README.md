@@ -115,6 +115,28 @@ A system may not mix rules, authorities, admissibility standards, or procedural 
 
 ## **Axiom 10 — Editions Must Be Forward‑Compatible With the Kernel**
 
+# **Surface VI — Temporal Integrity and Continuity of Reasoning**
+
+## **Axiom 11 — Systems Must Maintain Temporal Coherence**
+
+**No system may reason, act, or record in a manner that violates temporal order.**
+
+All inputs, transformations, and outputs must be anchored to a verifiable timeline.
+
+A system may not rewrite, reorder, or obscure the sequence of events on which governed reasoning depends.
+
+Temporal ambiguity, retroactive modification, or non‑linear state transitions are constitutionally prohibited.
+
+## **Axiom 12 — Past States Must Remain Inspectable**
+
+**Every prior state of a governed system must remain accessible for reconstruction.**
+
+Temporal integrity requires that historical states, intermediate reasoning, and prior admissibility determinations remain available for audit.
+
+A system that cannot reveal its past cannot be trusted with its future.
+
+No workflow may continue if its temporal record is incomplete, corrupted, or unverifiable.
+
 **No Edition may conflict with, weaken, or bypass the Kernel.**
 
 All Editions inherit the Kernel’s non‑derogable constraints. An Edition that contradicts the Kernel is void. Constitutional continuity requires that Edition evolution strengthens, rather than dilutes, the structural boundaries of LCES.
