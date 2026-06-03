@@ -141,6 +141,28 @@ No workflow may continue if its temporal record is incomplete, corrupted, or unv
 
 All Editions inherit the Kernel’s non‑derogable constraints. An Edition that contradicts the Kernel is void. Constitutional continuity requires that Edition evolution strengthens, rather than dilutes, the structural boundaries of LCES.
 
+# **Surface VII — External Interface Integrity**
+
+## **Axiom 13 — Interfaces Must Not Expand Authority**
+
+**No external interface may grant a system more authority than the Constitution permits.**
+
+APIs, integrations, data exchanges, and external calls must inherit the same admissibility, accountability, and governance constraints as internal operations.
+
+An interface may not introduce new powers, bypass constitutional boundaries, or create decision surfaces that have not been authorized.
+
+All external interactions must remain within the system’s declared Edition, role, and Mode.
+
+## **Axiom 14 — External Inputs Must Be Constitutionally Filtered**
+
+**All information entering through an external interface must pass constitutional admissibility before it may influence any governed decision.**
+
+External data sources, third‑party systems, upstream models, and human‑provided inputs must be evaluated for provenance, integrity, relevance, and permissible use.
+
+No external input may bypass GateZero™, GateSigma™, or any Constitutional Surface.
+
+A system that cannot validate its external inputs cannot rely on them.
+
 ARTICLE I — GOVERNANCE
 ARTICLE II — WORKFLOW
 ARTICLE III — RECORD
