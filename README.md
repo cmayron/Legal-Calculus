@@ -195,6 +195,10 @@ A system may not mix rules, authorities, admissibility standards, or procedural 
 
 ## **Axiom 10 — Editions Must Be Forward‑Compatible With the Kernel**
 
+**No Edition may conflict with, weaken, or bypass the Kernel.**
+
+All Editions inherit the Kernel’s non‑derogable constraints. An Edition that contradicts the Kernel is void. Constitutional continuity requires that Edition evolution strengthens, rather than dilutes, the structural boundaries of LCES.
+
 # **Surface VI — Temporal Integrity and Continuity of Reasoning**
 
 ## **Axiom 11 — Systems Must Maintain Temporal Coherence**
