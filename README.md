@@ -137,25 +137,6 @@ No chain may finalize an outcome without passing GateSigma™.
 
 
 
-## **Kernel**
-
-The Kernel establishes identity, naming, structural constraints, and the non‑derogable constitutional boundaries that all systems must inherit. No system may operate outside the Kernel.
-
-## **Edition Layer**
-
-The Edition Layer defines the domain physics, admissibility rules, jurisdictional limits, and procedural authority for a given Edition. All systems must conform to the Edition Layer in effect.
-
-## **GateZero™ — System‑Level Admissibility Surface**
-
-GateZero™ governs the admissibility of every individual system step. No system may execute an action, transformation, or continuation unless it passes GateZero’s admissibility checks.
-
-## **GateSigma™ — System‑of‑Systems Admissibility Surface**
-
-GateSigma™ governs the admissibility of chained outcomes across multiple GateZero‑governed systems. Individually admissible steps must not combine into a collectively inadmissible outcome.
-
-## **Governance Layer — GateZero™ and GateSigma™ Unified**
-
-The Governance Layer unifies the two admissibility surfaces. GateZero™ governs actions; GateSigma™ governs outcomes. Together they ensure that no system and no chain may produce an inadmissible state.
 
 ---
 # **Surface I — Preconditions for Governance**
