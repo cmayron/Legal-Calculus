@@ -207,6 +207,29 @@ Risk escalation requires documented justification, admissibility review, and ass
 
 No system may proceed with elevated risk without human approval and constitutional compliance.
 
+# **Surface X — Domain Boundary Enforcement**
+
+## **Axiom 19 — Systems Must Not Cross Domain Boundaries Without Authorization**
+
+**No system may operate outside the domain for which it was constituted.**
+
+A system’s domain defines the scope of facts, actions, decisions, and authorities it may engage.
+
+Cross‑domain reasoning, data access, or influence requires explicit constitutional authorization and assignment of accountable ownership.
+
+A system that cannot identify or respect its domain boundary may not operate within LCES.
+
+## **Axiom 20 — Domain Boundaries Must Be Enforced at Every Interface**
+
+**All interfaces must enforce the domain limits of the systems they connect.**
+
+No workflow, integration, or data exchange may allow a system to act beyond its authorized domain.
+
+Boundary enforcement must be continuous, automatic, and non‑derogable.
+
+A system that cannot enforce its domain boundaries cannot participate in governed operations.
+
+
 ARTICLE I — GOVERNANCE
 ARTICLE II — WORKFLOW
 ARTICLE III — RECORD
