@@ -382,17 +382,9 @@ This Preamble governs all that follows.
 ---
 # **ARTICLE I — GOVERNANCE**
 
-**LCES establishes a constitutional governance order in which admissibility, not discretion, defines the lawful boundaries of action. The governor and the workflow are permanently separated; no system may oversee itself, reinterpret its mandate, or alter its own constraints. All actions must satisfy the admissibility gates of the architecture — SCUs, Modules, Calculi, STOP Doctrine, and Edition constraints — before they may enter any workflow. Execution is bound to structure, sequence, and provenance. Each action generates a preserved procedural record that functions as an enforceable constraint, ensuring transparency, reviewability, and the impossibility of silent deviation. Governance rules are Edition‑sovereign and may not be blended, overridden, or diluted; any modification requires formal reconstitution under the originating jurisdiction.**
-> **LCES operates through a closed constitutional loop in which lawful reality is defined, enforced, and learned.**
-> 
-> 
-> The Structural Completeness Unit establishes the authoritative boundaries of the legal domain; the verification layer enforces those boundaries deterministically; and the learning system internalizes them.
-> 
-> This loop ensures that artificial intelligence remains subordinate to law, incapable of inventing authority, and structurally prevented from hallucinating.
-> 
-> **The system is constitutional not because it predicts law, but because it is governed by it.**
->
----
+LCES establishes a constitutional governance order in which **admissibility, not discretion**, defines the lawful boundaries of action. The governor and the workflow are permanently separated; no system may oversee itself, reinterpret its mandate, or alter its own constraints. All actions must satisfy the admissibility gates of the architecture — **SCUs, Modules, Calculi, STOP Doctrine, and Edition constraints** — before they may enter any workflow. Execution is bound to structure, sequence, and provenance. Each action generates a preserved procedural record that functions as an enforceable constraint, ensuring transparency, reviewability, and the impossibility of silent deviation. Governance rules are **Edition‑sovereign** and may not be blended, overridden, or diluted; any modification requires formal reconstitution under the originating jurisdiction.
+
+**LCES operates through a closed constitutional loop in which lawful reality is defined, enforced, and learned.** The Structural Completeness Unit establishes the authoritative boundaries of the legal domain; the verification layer enforces those boundaries deterministically; and the learning system internalizes them. This loop ensures that artificial intelligence remains subordinate to law, incapable of inventing authority, and structurally prevented from hallucinating. **The system is constitutional not because it predicts law, but because it is governed by it.**
 
 # **ARTICLE II — WORKFLOW**
 Section 1 — The Undersupplied Layer
