@@ -59,8 +59,7 @@ GateSigma™ governs the admissibility of chained outcomes across multiple GateZ
 The Governance Layer unifies the two admissibility surfaces. GateZero™ governs actions; GateSigma™ governs outcomes. Together they ensure that no system and no chain may produce an inadmissible state.
 
 ---
-
-# **Surface I — Preconditions for Governance**
+**urface I — Preconditions for Governance**
 
 ## **Axiom 1 — Visibility Before Authority**
 
@@ -69,6 +68,43 @@ The Governance Layer unifies the two admissibility surfaces. GateZero™ governs
 ## **Axiom 2 — Authority Requires Accountability**
 
 **No authority may be exercised without a corresponding line of accountability.** Every AI‑enabled system must have a clearly identified owner responsible for its operation, its inputs, its outputs, and its risk posture. Authority to deploy, configure, or rely on a system is inseparable from the duty to supervise it. Unowned or ambiguously owned systems are constitutionally non‑compliant and may not operate within LCES. Every decision surface must have a human owner answerable for its consequences.
+
+---
+
+# **Surface II — Admissibility of Information**
+
+## **Axiom 3 — No Decision Without Admissibility**
+
+**No system may act on information that has not passed admissibility.** Every input, retrieval, inference, or external data source must be evaluated for provenance, integrity, relevance, and permissible use before it may influence any governed decision. Admissibility is a constitutional boundary: unverified, untraceable, or unauthorized information cannot enter the decision surface. A system that cannot establish admissibility cannot proceed.
+
+## **Axiom 4 — Reasoning Must Be Traceable**
+
+**Every governed decision must be supported by a traceable chain of reasoning.** The system must be able to show what information was admitted, how it was evaluated, and how it contributed to the outcome. Opaque or untraceable reasoning is constitutionally inadmissible. Decisions that cannot be reconstructed cannot be relied upon within LCES.
+
+---
+
+# **Surface III — Human Primacy in Judgment**
+
+## **Axiom 5 — Humans Retain Final Authority**
+
+**No system may substitute its judgment for that of a human decision‑maker.** Automated reasoning may inform, assist, or propose, but it may not displace human authority in any governed domain. Final judgment, responsibility, and liability remain with the human actor. Systems may not operate in a mode that obscures, replaces, or bypasses human decision authority.
+
+## **Axiom 6 — Automation Must Be Legible to Humans**
+
+**Automated processes must remain legible to the humans who oversee them.** A system may not operate in a manner that prevents a human from understanding its state, its reasoning, or its consequences. Human primacy requires human comprehension. Systems that cannot be supervised cannot be authorized.
+
+---
+
+# **Surface IV — Enforcement and Recoverability**
+
+## **Axiom 7 — Violations Must Trigger STOP**
+
+**Any violation of a Constitutional Surface requires immediate halt.** Systems must cease operation upon encountering inadmissible information, ambiguous ownership, untraceable reasoning, or any breach of constitutional authority. STOP is non‑derogable and overrides all other permissions, workflows, or system states.
+
+## **Axiom 8 — Every System Must Be Recoverable**
+
+**Governed systems must be capable of returning to a known, admissible state.** Recoverability requires that the system can be reset, rolled back, or restored without loss of constitutional integrity. A system that cannot be recovered cannot be governed. No workflow may continue from a corrupted, ambiguous, or unverifiable state.
+
 
 ARTICLE I — GOVERNANCE
 ARTICLE II — WORKFLOW
