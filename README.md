@@ -163,6 +163,28 @@ No external input may bypass GateZero™, GateSigma™, or any Constitutional Su
 
 A system that cannot validate its external inputs cannot rely on them.
 
+# **Surface VIII — System‑of‑Record Primacy**
+
+## **Axiom 15 — The System of Record Is the Single Source of Truth**
+
+**All governed reasoning must anchor to a designated System of Record.**
+
+No workflow, inference, or decision may rely on information that contradicts, bypasses, or supersedes the authoritative record.
+
+Where discrepancies arise, the System of Record prevails until admissibility review resolves the conflict.
+
+A system that cannot identify or align with its System of Record cannot participate in governed operations.
+
+## **Axiom 16 — Records Must Be Immutable Once Admitted**
+
+**Once information is admitted into the System of Record, it may not be altered except through constitutionally authorized procedures.**
+
+Corrections, amendments, and reversals must preserve the full historical trace, including the original state, the reason for change, and the authority under which the change was made.
+
+No system may rewrite or obscure the record.
+
+Immutability is required for auditability, accountability, and constitutional continuity.
+
 ARTICLE I — GOVERNANCE
 ARTICLE II — WORKFLOW
 ARTICLE III — RECORD
