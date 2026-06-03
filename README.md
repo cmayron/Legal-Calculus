@@ -59,7 +59,7 @@ GateSigma™ governs the admissibility of chained outcomes across multiple GateZ
 The Governance Layer unifies the two admissibility surfaces. GateZero™ governs actions; GateSigma™ governs outcomes. Together they ensure that no system and no chain may produce an inadmissible state.
 
 ---
-**urface I — Preconditions for Governance**
+# **Surface I — Preconditions for Governance**
 
 ## **Axiom 1 — Visibility Before Authority**
 
