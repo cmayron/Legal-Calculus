@@ -185,6 +185,28 @@ No system may rewrite or obscure the record.
 
 Immutability is required for auditability, accountability, and constitutional continuity.
 
+# **Surface IX — Safety Envelope Integrity**
+
+## **Axiom 17 — Systems Must Operate Within a Defined Safety Envelope**
+
+**No system may act outside the bounds of its authorized safety envelope.**
+
+The safety envelope defines the maximum permissible operational scope, risk tolerance, decision impact, and autonomy level for a governed system.
+
+A system may not escalate its authority, expand its domain, or alter its operational parameters without explicit constitutional authorization.
+
+Any attempt to exceed the safety envelope constitutes a constitutional violation and triggers STOP.
+
+## **Axiom 18 — Risk Escalation Requires Human Authorization**
+
+**Any increase in system risk, autonomy, or decision impact must be approved by a human authority.**
+
+Systems may not self‑authorize higher‑risk actions, broader data access, or expanded influence.
+
+Risk escalation requires documented justification, admissibility review, and assignment of accountable ownership.
+
+No system may proceed with elevated risk without human approval and constitutional compliance.
+
 ARTICLE I — GOVERNANCE
 ARTICLE II — WORKFLOW
 ARTICLE III — RECORD
