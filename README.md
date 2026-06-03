@@ -12819,6 +12819,1616 @@ The SCU shuts down when:
 Shutdown returns control to the Edition Bootloader.
 
 ---
+SCU
+
+```
+/SCU-Library/README.md
+```
+
+This README is the **front door** to the Knowledge Layer.
+
+It explains:
+
+- What SCUs are
+- How the Library is structured
+- How Editions and Modules map
+- How routing works
+- How to navigate the Library
+- How SCUs connect to the Engine
+
+It is intentionally **modular**, **neutral**, **procedural**, and **edition‑pure**.
+
+---
+
+# **📚 AF) SCU LIBRARY README (Canonical Index + Navigation)**
+
+**Place in:**
+
+```
+/SCU-Library/README.md
+```
+
+---
+
+# **SCU LIBRARY**
+
+**LCES Procedural Knowledge Base**
+
+**Smallest Complete Units (SCUs)**
+
+The SCU Library is the **canonical repository** of all SCUs in the LCES architecture.
+
+SCUs are the **atomic units of procedural literacy**.
+
+They feed the Workflow Engine and power the Academy, UI, and Routing System.
+
+This Library is part of the **Knowledge Layer**, positioned between:
+
+- **UI Layer** (SCU Viewer, SCU Generator)
+- **Engine Layer** (Routing Engine, Gates, Role Loop)
+
+---
+
+# **1. PURPOSE OF THE SCU LIBRARY**
+
+The SCU Library provides:
+
+- A structured, edition‑pure catalog of procedural questions
+- A consistent format for ISSUE → FACTS → OBJECTIVE
+- A reference set for routing, training, and UI rendering
+- A stable knowledge substrate for the Engine
+
+SCUs are **non‑interpretive**, **non‑adversarial**, and **procedural‑only**.
+
+---
+
+# **2. SCU FORMAT (MANDATORY)**
+
+Every SCU file must follow this exact structure:
+
+```
+TITLE
+Edition
+Module
+Tags
+
+ISSUE
+<neutral procedural question>
+
+FACTS
+<chronological, verified, non-interpretive>
+
+OBJECTIVE
+<procedural-literacy goal>
+
+NOTES
+<edition rules, module rules, routing notes>
+```
+
+Formatting rules:
+
+- Section labels in ALL CAPS
+- No bold, italics, or inline styling inside SCUs
+- FACTS must be chronological
+- OBJECTIVE must be educational
+- ISSUE must be procedural
+
+---
+
+# **3. LIBRARY STRUCTURE**
+
+```
+/SCU-Library/
+│
+├── SCU-Index.md
+│
+├── Universal/
+│
+├── SC-LCES/
+│
+├── FC-LCES/
+│
+├── TE-LCES/
+│
+└── AC-LCES/
+```
+
+Each folder contains SCUs aligned to:
+
+- **Universal Modules**
+- **Edition‑specific procedural terrain**
+
+---
+
+# **4. UNIVERSAL SCUs**
+
+Universal SCUs apply across all Editions.
+
+```
+/Universal/
+    Procedural-Posture.md
+    Timeline.md
+    Document-Posture.md
+    Mode-Selection.md
+    Evidence-Categorization.md
+    Service-Verification.md
+    Filing-Sequence.md
+    Hearing-Identification.md
+    Order-Status.md
+```
+
+These represent **core procedural categories**.
+
+---
+
+# **5. EDITION‑SPECIFIC SCUs**
+
+Each Edition has its own SCU set.
+
+---
+
+## **5.1 SC‑LCES (System Core)**
+
+```
+/SC-LCES/
+    Jurisdictional-Physics.md
+    STOP-Rules.md
+    Kernel-Interactions.md
+    Drift-Detection.md
+    Workflow-Routing.md
+```
+
+Covers:
+
+- Kernel
+- STOP rules
+- Role separation
+- System‑level routing
+
+---
+
+## **5.2 FC‑LCES (Family Court)**
+
+```
+/FC-LCES/
+    Custody-Order-Posture.md
+    Parenting-Plan-Structure.md
+    Modification-Pathways.md
+    Compliance-Review.md
+    Service-and-Notice.md
+    Evidence-Packet-Structure.md
+    Hearing-Preparation.md
+    Post-Order-Monitoring.md
+```
+
+Covers:
+
+- Custody
+- Parenting plans
+- Modifications
+- Compliance
+
+---
+
+## **5.3 TE‑LCES (Trust & Estate)**
+
+```
+/TE-LCES/
+    Probate-Initiation.md
+    Fiduciary-Role.md
+    Inventory-Requirements.md
+    Asset-Posture.md
+    Trust-Administration.md
+    Beneficiary-Notice.md
+    Accounting-Requirements.md
+    Estate-Timeline.md
+```
+
+Covers:
+
+- Probate
+- Fiduciary duties
+- Trust administration
+
+---
+
+## **5.4 AC‑LCES (Arbitration & Commercial)**
+
+```
+/AC-LCES/
+    Procedural-Order-Sequencing.md
+    Scheduling-Conference.md
+    Disclosure-Requirements.md
+    Motion-Practice.md
+    Hearing-Sequence.md
+    Arbitrator-Appointment.md
+    Procedural-Calendar.md
+    Evidence-Exchange.md
+    Post-Hearing-Steps.md
+    Award-Issuance.md
+```
+
+Covers:
+
+- Arbitration procedure
+- Scheduling
+- Evidence exchange
+- Orders
+
+---
+
+# **6. ROUTING CONNECTIONS**
+
+Each SCU connects to:
+
+### **Edition Router**
+
+Determines SC, FC, TE, or AC.
+
+### **Module Selector**
+
+Determines posture, timeline, document, evidence, service, scheduling, fiduciary, or procedural order.
+
+### **Engine Path Selector**
+
+Routes to:
+
+- STOP Engine
+- Evidence Engine
+- Service Engine
+- Procedural Order Engine
+- Arbitration Engine
+- Probate Engine
+- Calendar Engine
+- Deadline Engine
+- Hearing Engine
+- Terrain Engine
+- Readiness Engine
+
+### **Role Loop**
+
+Architect → Builder → Inspector
+
+---
+
+# **7. HOW TO ADD A NEW SCU**
+
+1. Identify Edition
+2. Identify Module
+3. Create file in correct folder
+4. Use mandatory SCU format
+5. Add to `SCU-Index.md`
+6. Validate with Safety + Readiness
+7. Confirm routing notes
+
+---
+
+# **8. HOW THE ENGINE USES THE SCU LIBRARY**
+
+The Engine reads SCUs for:
+
+- Edition cues
+- Module cues
+- Chronology
+- Procedural posture
+- Document type
+- Evidence posture
+- Service posture
+- Order sequencing
+
+SCUs are **read‑only inputs** to the Engine.
+
+---
+
+# **9. HOW THE UI USES THE SCU LIBRARY**
+
+The UI uses SCUs for:
+
+- SCU Viewer
+- SCU Generator
+- Edition filters
+- Module filters
+- Search and tagging
+
+---
+
+# **10. HOW THE ACADEMY USES THE SCU LIBRARY**
+
+The Academy uses SCUs for:
+
+- Course examples
+- Assessments
+- Operator certification
+- Drift detection exercises
+
+---
+
+# 
+
+```
+/SCU-Library/SCU-Lifecycle.md
+```
+
+---
+
+# **🔄 AG) SCU LIFECYCLE DIAGRAM (Mermaid + Full Specification)**
+
+## **Mermaid Diagram — SCU Lifecycle**
+
+```mermaid
+flowchart TD
+
+    A[SCU Creation] --> B[SCU Structure Check<br>ISSUE • FACTS • OBJECTIVE]
+    B -->|Valid| C[Kernel Precheck<br>STOP • Boundary • Roles]
+    B -->|Invalid| Z1[Return to Author<br>Fix Structure]
+
+    C -->|Pass| D[Safety Gate<br>No Interpretation • No Strategy • No Adversarial]
+    C -->|Fail| Z2[Blocked: STOP Rule]
+
+    D -->|Pass| E[Readiness Gate<br>Posture • Timeline • Chronology]
+    D -->|Fail| Z3[Blocked: Safety]
+
+    E -->|Pass| F[Edition Router<br>SC • FC • TE • AC]
+    E -->|Fail| Z4[Blocked: Readiness]
+
+    F -->|Determined| G[Module Selector<br>Posture • Timeline • Document • Evidence • Service • Scheduling • Fiduciary • Order]
+    F -->|Undetermined| Z5[Blocked: No Edition]
+
+    G -->|Determined| H[Engine Path Selector<br>STOP • Evidence • Service • Order • Arbitration • Probate • Calendar • Deadline • Hearing • Terrain]
+    G -->|Undetermined| Z6[Blocked: No Module]
+
+    H --> I[Role Loop<br>Architect → Builder → Inspector]
+
+    I -->|Drift Detected| I1[Return to Architect]
+    I1 --> I
+
+    I -->|Stable| J[Procedural Output]
+
+    J --> K[SCU Library Integration<br>Index • Tags • Edition Folder]
+
+    K --> L[Available to UI • Engine • Academy]
+```
+
+---
+
+# **1. PURPOSE OF THE SCU LIFECYCLE**
+
+The SCU Lifecycle defines:
+
+- How SCUs are created
+- How they are validated
+- How they are routed
+- How they enter the Engine
+- How they produce procedural‑literacy output
+- How they become part of the SCU Library
+
+This lifecycle is the **bridge** between:
+
+- **Knowledge Layer** (SCU Library)
+- **Engine Layer** (Routing Engine)
+- **Kernel Layer** (STOP rules)
+- **Interface Layer** (UI + Academy)
+
+---
+
+# **2. LIFECYCLE STAGES (DETAILED)**
+
+## **Stage 1 — SCU Creation**
+
+Author drafts:
+
+- ISSUE (procedural question)
+- FACTS (chronological, verified)
+- OBJECTIVE (educational)
+
+**Output:** Draft SCU.
+
+---
+
+## **Stage 2 — Structure Check**
+
+Engine checks:
+
+- ISSUE exists
+- FACTS exist
+- OBJECTIVE exists
+- FACTS are chronological
+- No contradictions
+
+**Failure → Return to Author**
+
+---
+
+## **Stage 3 — Kernel Precheck**
+
+Engine checks:
+
+- STOP rules
+- Boundary rules
+- Role separation
+- Edition drift
+
+**Failure → Blocked: STOP Rule**
+
+---
+
+## **Stage 4 — Safety Gate**
+
+Engine checks for:
+
+- Interpretation
+- Strategy
+- Adversarial framing
+- Predictions
+- Emotional escalation
+
+**Failure → Blocked: Safety**
+
+---
+
+## **Stage 5 — Readiness Gate**
+
+Engine checks:
+
+- Posture present
+- Timeline present
+- Chronology stable
+- Narrative stable
+
+**Failure → Blocked: Readiness**
+
+---
+
+## **Stage 6 — Edition Router**
+
+Engine determines:
+
+- SC‑LCES
+- FC‑LCES
+- TE‑LCES
+- AC‑LCES
+
+**Failure → Blocked: No Edition**
+
+---
+
+## **Stage 7 — Module Selector**
+
+Engine determines:
+
+- Posture
+- Timeline
+- Document
+- Evidence
+- Service
+- Scheduling
+- Fiduciary
+- Procedural Order
+
+**Failure → Blocked: No Module**
+
+---
+
+## **Stage 8 — Engine Path Selector**
+
+Engine selects:
+
+- STOP Engine
+- Evidence Engine
+- Service Engine
+- Procedural Order Engine
+- Arbitration Engine
+- Probate Engine
+- Calendar Engine
+- Deadline Engine
+- Hearing Engine
+- Terrain Engine
+- Readiness Engine
+
+---
+
+## **Stage 9 — Role Loop**
+
+```
+Architect → Builder → Inspector
+```
+
+- Architect builds structure
+- Builder drafts within structure
+- Inspector checks for drift
+
+If drift → return to Architect
+
+If stable → proceed
+
+---
+
+## **Stage 10 — Procedural Output**
+
+Engine produces:
+
+- Edition‑pure
+- Module‑aligned
+- Neutral
+- Procedural‑literacy output
+
+---
+
+## **Stage 11 — SCU Library Integration**
+
+SCU is:
+
+- Indexed
+- Tagged
+- Placed in Edition folder
+- Added to SCU‑[Index.md](http://index.md/)
+
+---
+
+## **Stage 12 — System Availability**
+
+SCU becomes available to:
+
+- UI (SCU Viewer, SCU Generator)
+- Engine (routing reference)
+- Academy (training + assessments)
+
+---
+
+# 
+
+```
+/docs/Architecture/LCES-Master-Architecture.md
+```
+
+Below is the full diagram (Mermaid) + the explanatory specification.
+
+---
+
+# **🏛️ AH) MASTER ARCHITECTURE DIAGRAM (All Layers + SCU Placement)**
+
+```mermaid
+flowchart TB
+
+    %% ============================
+    %% KERNEL LAYER
+    %% ============================
+    subgraph KERNEL["KERNEL LAYER<br>Constitutional Rules"]
+        STOP[STOP Rules]
+        BOUND[Boundary Rules]
+        ROLES[Role Separation]
+        EDITIONPURITY[Edition Purity]
+    end
+
+    %% ============================
+    %% ENGINE LAYER
+    %% ============================
+    subgraph ENGINE["ENGINE LAYER<br>Workflow Engine"]
+        PRECHECK[Kernel Precheck]
+        SAFETY[Safety Gate]
+        READINESS[Readiness Gate]
+        EDITIONROUTER[Edition Router]
+        MODULESELECTOR[Module Selector]
+        ENGINEPATH[Engine Path Selector]
+        ROLELOOP[Role Loop<br>Architect → Builder → Inspector]
+    end
+
+    %% ============================
+    %% KNOWLEDGE LAYER
+    %% ============================
+    subgraph KNOWLEDGE["KNOWLEDGE LAYER<br>SCU Library + Procedural Memory"]
+        SCULIB[SCU Library]
+        EDITIONLIB[Edition Libraries]
+        MODULEDEFS[Module Definitions]
+        ROUTINGTABLE[Routing Tables]
+        PROCEDURALONTOLOGY[Procedural Ontology]
+    end
+
+    %% ============================
+    %% INTERFACE LAYER
+    %% ============================
+    subgraph UI["INTERFACE LAYER<br>UI + Academy"]
+        SCUVIEWER[SCU Viewer]
+        SCUGENERATOR[SCU Generator]
+        ACADEMY[LCES Academy]
+        COMPONENTS[UI Component Library]
+        STYLEGUIDE[Style Guide]
+    end
+
+    %% ============================
+    %% FLOWS
+    %% ============================
+
+    %% SCU enters Engine
+    SCULIB --> PRECHECK
+
+    %% Engine flow
+    PRECHECK --> SAFETY
+    SAFETY --> READINESS
+    READINESS --> EDITIONROUTER
+    EDITIONROUTER --> MODULESELECTOR
+    MODULESELECTOR --> ENGINEPATH
+    ENGINEPATH --> ROLELOOP
+
+    %% Role loop returns to Engine
+    ROLELOOP --> ENGINEPATH
+
+    %% Output goes back to UI
+    ROLELOOP --> UI
+
+    %% UI consumes SCU Library
+    SCUVIEWER --> SCULIB
+    SCUGENERATOR --> SCULIB
+    ACADEMY --> SCULIB
+
+    %% Kernel governs Engine
+    STOP --> PRECHECK
+    BOUND --> PRECHECK
+    ROLES --> ROLELOOP
+    EDITIONPURITY --> EDITIONROUTER
+```
+
+---
+
+# **1. PURPOSE OF THE MASTER ARCHITECTURE DIAGRAM**
+
+This diagram shows:
+
+- All four LCES layers
+- How they interact
+- Where SCUs live
+- How SCUs flow through the Engine
+- How the Kernel governs the Engine
+- How the UI and Academy consume SCUs
+- How the Role Loop fits into the system
+
+This is the **single most important architectural map** in the entire LCES system.
+
+---
+
+# **2. THE FOUR LAYERS (EXPLAINED)**
+
+## **1. Kernel Layer — Constitutional Rules**
+
+The Kernel governs everything below it.
+
+It enforces:
+
+- STOP rules
+- Boundary rules
+- Role separation
+- Edition purity
+
+The Kernel **never consumes SCUs**.
+
+It **governs** the Engine.
+
+---
+
+## **2. Engine Layer — Workflow Engine**
+
+The Engine consumes SCUs and produces procedural‑literacy output.
+
+It includes:
+
+- Kernel Precheck
+- Safety Gate
+- Readiness Gate
+- Edition Router
+- Module Selector
+- Engine Path Selector
+- Role Loop
+
+The Engine **reads** SCUs but does not store them.
+
+---
+
+## **3. Knowledge Layer — SCU Library**
+
+This is where **SCUs live**.
+
+It contains:
+
+- SCU Library
+- Edition Libraries
+- Module Definitions
+- Routing Tables
+- Procedural Ontology
+
+This layer is the **procedural memory** of LCES.
+
+---
+
+## **4. Interface Layer — UI + Academy**
+
+This layer **displays** SCUs and **teaches** SCUs.
+
+It includes:
+
+- SCU Viewer
+- SCU Generator
+- LCES Academy
+- UI Component Library
+- Style Guide
+
+This layer **consumes** SCUs.
+
+---
+
+# **3. WHERE SCUs SIT IN THE ARCHITECTURE**
+
+SCUs sit **exactly here**:
+
+```
+KNOWLEDGE LAYER
+    ↓ feeds
+ENGINE LAYER
+    ↓ governed by
+KERNEL LAYER
+    ↓ displayed by
+INTERFACE LAYER
+```
+
+SCUs are:
+
+- **Not UI**
+- **Not Engine logic**
+- **Not Kernel rules**
+
+They are the **knowledge substrate** the Engine operates on.
+
+---
+
+# **4. SCU FLOW THROUGH THE SYSTEM**
+
+1. **SCU is created**
+2. **SCU enters Engine at Kernel Precheck**
+3. **Engine routes SCU through gates**
+4. **Engine selects Edition + Module**
+5. **Engine selects Engine Path**
+6. **Role Loop produces output**
+7. **Output returns to UI**
+8. **SCU is stored in SCU Library**
+9. **UI + Academy consume SCUs**
+
+This is the **complete lifecycle**.
+
+---
+
+# **5. WHY THIS DIAGRAM MATTERS**
+
+This is the diagram that:
+
+- Defines the entire LCES system
+- Shows how all components interlock
+- Shows the constitutional hierarchy
+- Shows the Engine’s dependency on SCUs
+- Shows the UI’s dependency on the SCU Library
+- Shows the Kernel’s governance over the Engine
+
+It is the **master reference** for all future development.
+
+---
+
+# 
+
+```
+/SCU-Library/SCU-Authoring-Guide.md
+```
+
+---
+
+# **🖊️ AI) SCU AUTHORING GUIDE**
+
+**How to Create Valid, Engine‑Ready SCUs**
+
+---
+
+# **0. PURPOSE**
+
+This guide teaches authors how to create SCUs that:
+
+- Pass Kernel Precheck
+- Pass Safety Gate
+- Pass Readiness Gate
+- Route cleanly through Edition + Module selectors
+- Produce stable, procedural‑literacy output
+- Integrate into the SCU Library
+
+It defines the **rules**, **patterns**, and **templates** for SCU creation.
+
+---
+
+# **1. WHAT AN SCU IS**
+
+An SCU (Smallest Complete Unit) is a **neutral procedural question** expressed in a structured format:
+
+```
+ISSUE
+FACTS
+OBJECTIVE
+```
+
+SCUs are:
+
+- Non‑interpretive
+- Non‑adversarial
+- Non‑strategic
+- Edition‑pure
+- Procedural‑only
+
+They are the **atomic units** of the LCES Knowledge Layer.
+
+---
+
+# **2. SCU FORMAT (MANDATORY)**
+
+Every SCU must follow this exact structure:
+
+```
+TITLE
+Edition
+Module
+Tags
+
+ISSUE
+<neutral procedural question>
+
+FACTS
+<chronological, verified, non-interpretive>
+
+OBJECTIVE
+<procedural-literacy goal>
+
+NOTES
+<edition rules, module rules, routing notes>
+```
+
+Formatting rules:
+
+- Section labels in ALL CAPS
+- No bold, italics, or inline styling inside SCUs
+- No narrative tone
+- No legal advice
+- No predictions
+
+---
+
+# **3. HOW TO WRITE EACH SECTION**
+
+## **3.1 ISSUE (Procedural Question)**
+
+The ISSUE must:
+
+- Ask a **procedural** question
+- Avoid interpretation
+- Avoid strategy
+- Avoid adversarial framing
+- Avoid predictions
+
+### **Valid ISSUE examples**
+
+- “Clarify the posture of a temporary custody order.”
+- “Identify the required steps to initiate probate.”
+- “Determine the sequencing of procedural orders.”
+- “Identify whether service was completed.”
+
+### **Invalid ISSUE examples**
+
+- “How do I win my case?”
+- “How do I prove the other party is lying?”
+- “What will the arbitrator decide?”
+
+---
+
+## **3.2 FACTS (Chronological, Verified)**
+
+FACTS must be:
+
+- Chronological
+- Neutral
+- Non‑interpretive
+- Non‑adversarial
+- Free of emotion
+- Free of speculation
+
+### **Valid FACTS example**
+
+```
+A temporary custody order was issued on March 3.
+A review hearing was scheduled for April 15.
+```
+
+### **Invalid FACTS example**
+
+```
+The judge unfairly sided with the other parent.
+The other party lied in court.
+```
+
+---
+
+## **3.3 OBJECTIVE (Educational Goal)**
+
+OBJECTIVE must:
+
+- Be procedural
+- Be educational
+- Avoid outcomes
+- Avoid strategy
+- Avoid persuasion
+
+### **Valid OBJECTIVE examples**
+
+- “Understand how temporary orders function procedurally.”
+- “Understand the steps required to initiate probate.”
+- “Understand how procedural orders sequence.”
+
+### **Invalid OBJECTIVE examples**
+
+- “Figure out how to win.”
+- “Get the judge to rule in my favor.”
+
+---
+
+# **4. EDITION SELECTION RULES**
+
+Edition is determined by **procedural terrain**, not emotion or narrative.
+
+| Edition | Terrain |
+| --- | --- |
+| **SC‑LCES** | Kernel, STOP, system rules |
+| **FC‑LCES** | Custody, parenting, family orders |
+| **TE‑LCES** | Probate, trusts, estates |
+| **AC‑LCES** | Arbitration, commercial procedure |
+
+**Rule:**
+
+Edition must be **explicitly stated** in the SCU file.
+
+---
+
+# **5. MODULE SELECTION RULES**
+
+Each SCU maps to **exactly one** module.
+
+| Module | Trigger Pattern |
+| --- | --- |
+| Posture | “What stage…?” |
+| Timeline | “What happened when…?” |
+| Document | “What is this document…?” |
+| Evidence | “What category is this evidence…?” |
+| Service | “Was service completed…?” |
+| Scheduling | “What happens at this conference…?” |
+| Fiduciary | “What does the fiduciary do…?” |
+| Procedural Order | “How do orders sequence…?” |
+
+**Rule:**
+
+Module must be **explicitly stated** in the SCU file.
+
+---
+
+# **6. ROUTING NOTES (OPTIONAL BUT RECOMMENDED)**
+
+Routing notes help the Engine:
+
+- Identify Edition cues
+- Identify Module cues
+- Confirm chronology
+- Confirm procedural posture
+
+Example:
+
+```
+NOTES
+Edition cues: “temporary custody order”
+Module cues: “posture”
+Chronology: two dated events
+```
+
+---
+
+# **7. SCU AUTHORING PATTERNS**
+
+## **Pattern 1 — Posture SCU**
+
+```
+ISSUE
+Clarify the posture of a temporary custody order.
+
+FACTS
+A temporary order was issued on March 3.
+
+OBJECTIVE
+Understand how temporary orders function procedurally.
+```
+
+## **Pattern 2 — Timeline SCU**
+
+```
+ISSUE
+Identify the sequence of events in the probate initiation.
+
+FACTS
+A petition was filed on May 1.
+A notice was issued on May 10.
+
+OBJECTIVE
+Understand the procedural timeline for probate initiation.
+```
+
+## **Pattern 3 — Document SCU**
+
+```
+ISSUE
+Identify the procedural function of a scheduling order.
+
+FACTS
+A scheduling order was issued on June 2.
+
+OBJECTIVE
+Understand how scheduling orders structure the case timeline.
+```
+
+## **Pattern 4 — Procedural Order SCU**
+
+```
+ISSUE
+Clarify the sequencing of procedural orders in arbitration.
+
+FACTS
+An initial order was issued on April 1.
+A follow-up order was issued on April 20.
+
+OBJECTIVE
+Understand how procedural orders sequence in arbitration.
+```
+
+---
+
+# **8. COMMON AUTHORING ERRORS**
+
+| Error | Description |
+| --- | --- |
+| Interpretation | Assigning meaning to facts |
+| Strategy | Advising how to win |
+| Adversarial framing | “The other party lied” |
+| Predictions | “What will the judge do?” |
+| Emotional content | “I feel…” |
+| Narrative | Storytelling instead of facts |
+| Edition drift | Mixing FC + TE, etc. |
+| Module drift | Mixing posture + evidence |
+
+---
+
+# **9. SCU QUALITY CHECKLIST**
+
+Before finalizing an SCU, confirm:
+
+- ISSUE is procedural
+- FACTS are chronological
+- OBJECTIVE is educational
+- No interpretation
+- No strategy
+- No adversarial framing
+- No predictions
+- Edition is correct
+- Module is correct
+- Tags are correct
+- Routing notes included
+
+---
+
+# **10. SCU TEMPLATE (COPY‑PASTE)**
+
+```
+TITLE
+<SCU Title>
+
+Edition
+<SC | FC | TE | AC>
+
+Module
+<Posture | Timeline | Document | Evidence | Service | Scheduling | Fiduciary | Procedural Order>
+
+Tags
+#edition #module #topic
+
+ISSUE
+<neutral procedural question>
+
+FACTS
+<chronological, verified, non-interpretive>
+
+OBJECTIVE
+<procedural-literacy goal>
+
+NOTES
+<edition cues, module cues, routing notes>
+```
+
+---
+
+# 
+
+```
+/docs/Architecture/LCES-Architecture-Poster.md
+```
+
+---
+
+# 
+
+Here it is — **AJ**, the **LCES Architecture Poster**, designed as a **single‑page, print‑ready, publication‑grade layout** in Markdown.
+
+This is the **top‑level visual summary** of the entire LCES system:
+
+Kernel → Engine → Knowledge Layer (SCUs) → Interface Layer.
+
+It is intentionally:
+
+- Dense but scannable
+- Diagram‑forward
+- Architecturally precise
+- Suitable for printing, framing, or repo front‑matter
+
+Placed at:
+
+```
+/docs/Architecture/LCES-Architecture-Poster.md
+```
+
+---
+
+# **🏛️ LCES ARCHITECTURE POSTER**
+
+**Single‑Page Master Overview**
+
+---
+
+# **LCES SYSTEM ARCHITECTURE**
+
+*A unified model of procedural literacy*
+
+---
+
+# **1. THE FOUR LAYERS**
+
+```
+KERNEL LAYER
+    ↓ governs
+ENGINE LAYER
+    ↓ consumes
+KNOWLEDGE LAYER (SCU Library)
+    ↓ feeds
+INTERFACE LAYER (UI + Academy)
+```
+
+Each layer is constitutionally distinct and non‑interchangeable.
+
+---
+
+# **2. MASTER ARCHITECTURE DIAGRAM (Mermaid)**
+
+```mermaid
+flowchart TB
+
+    %% ============================
+    %% KERNEL LAYER
+    %% ============================
+    subgraph KERNEL["KERNEL LAYER\\nConstitutional Rules"]
+        STOP[STOP Rules]
+        BOUND[Boundary Rules]
+        ROLES[Role Separation]
+        EDITIONPURITY[Edition Purity]
+    end
+
+    %% ============================
+    %% ENGINE LAYER
+    %% ============================
+    subgraph ENGINE["ENGINE LAYER\\nWorkflow Engine"]
+        PRECHECK[Kernel Precheck]
+        SAFETY[Safety Gate]
+        READINESS[Readiness Gate]
+        EDITIONROUTER[Edition Router]
+        MODULESELECTOR[Module Selector]
+        ENGINEPATH[Engine Path Selector]
+        ROLELOOP[Role Loop\\nArchitect → Builder → Inspector]
+    end
+
+    %% ============================
+    %% KNOWLEDGE LAYER
+    %% ============================
+    subgraph KNOWLEDGE["KNOWLEDGE LAYER\\nSCU Library + Procedural Memory"]
+        SCULIB[SCU Library]
+        EDITIONLIB[Edition Libraries]
+        MODULEDEFS[Module Definitions]
+        ROUTINGTABLE[Routing Tables]
+        PROCEDURALONTOLOGY[Procedural Ontology]
+    end
+
+    %% ============================
+    %% INTERFACE LAYER
+    %% ============================
+    subgraph UI["INTERFACE LAYER\\nUI + Academy"]
+        SCUVIEWER[SCU Viewer]
+        SCUGENERATOR[SCU Generator]
+        ACADEMY[LCES Academy]
+        COMPONENTS[UI Component Library]
+        STYLEGUIDE[Style Guide]
+    end
+
+    %% ============================
+    %% FLOWS
+    %% ============================
+
+    %% SCU enters Engine
+    SCULIB --> PRECHECK
+
+    %% Engine flow
+    PRECHECK --> SAFETY
+    SAFETY --> READINESS
+    READINESS --> EDITIONROUTER
+    EDITIONROUTER --> MODULESELECTOR
+    MODULESELECTOR --> ENGINEPATH
+    ENGINEPATH --> ROLELOOP
+
+    %% Role loop returns to Engine
+    ROLELOOP --> ENGINEPATH
+
+    %% Output goes back to UI
+    ROLELOOP --> UI
+
+    %% UI consumes SCU Library
+    SCUVIEWER --> SCULIB
+    SCUGENERATOR --> SCULIB
+    ACADEMY --> SCULIB
+
+    %% Kernel governs Engine
+    STOP --> PRECHECK
+    BOUND --> PRECHECK
+    ROLES --> ROLELOOP
+    EDITIONPURITY --> EDITIONROUTER
+```
+
+---
+
+# **3. LAYER SUMMARIES**
+
+## **KERNEL LAYER — Constitutional Rules**
+
+- STOP rules
+- Boundary rules
+- Role separation
+- Edition purity
+
+The Kernel **governs** the Engine.
+
+---
+
+## **ENGINE LAYER — Workflow Engine**
+
+- Kernel Precheck
+- Safety Gate
+- Readiness Gate
+- Edition Router
+- Module Selector
+- Engine Path Selector
+- Role Loop
+
+The Engine **consumes** SCUs.
+
+---
+
+## **KNOWLEDGE LAYER — SCU Library**
+
+- SCU Library
+- Edition Libraries
+- Module Definitions
+- Routing Tables
+- Procedural Ontology
+
+This is where **SCUs live**.
+
+---
+
+## **INTERFACE LAYER — UI + Academy**
+
+- SCU Viewer
+- SCU Generator
+- Academy
+- Component Library
+- Style Guide
+
+This layer **displays** SCUs.
+
+---
+
+# **4. SCU POSITION IN THE ARCHITECTURE**
+
+SCUs sit **exactly** in the Knowledge Layer:
+
+```
+SCU-Library/
+    Universal/
+    SC-LCES/
+    FC-LCES/
+    TE-LCES/
+    AC-LCES/
+```
+
+They are:
+
+- The **input substrate** for the Engine
+- The **curriculum substrate** for the Academy
+- The **content substrate** for the UI
+
+---
+
+# **5. SYSTEM FLOW (One‑Sentence Summary)**
+
+**Kernel governs → Engine consumes → SCU Library feeds → UI displays.**
+
+---
+
+# 
+
+```
+/SCU-Library/SCU-Validation-Checklist.md
+```
+
+It is designed to be:
+
+- Mechanically checkable
+- Kernel‑aligned
+- Engine‑compatible
+- UI‑ready
+- Zero‑interpretation
+- Zero‑strategy
+- Zero‑adversarial
+
+And it mirrors the **exact order** of the Engine’s gates.
+
+---
+
+# **AK) SCU VALIDATION CHECKLIST**
+
+**Engine‑Aligned • STOP‑Compliant • UI‑Ready**
+
+---
+
+# **0. PURPOSE**
+
+This checklist ensures that every SCU:
+
+- Passes Kernel Precheck
+- Passes Safety Gate
+- Passes Readiness Gate
+- Routes cleanly through Edition + Module selectors
+- Produces stable, procedural‑literacy output
+- Integrates into the SCU Library
+
+It is the **single source of truth** for SCU validation.
+
+---
+
+# **1. STRUCTURE VALIDATION (MANDATORY)**
+
+### **1.1 Required Sections**
+
+- [ ]  `ISSUE` present
+- [ ]  `FACTS` present
+- [ ]  `OBJECTIVE` present
+- [ ]  `Edition` declared
+- [ ]  `Module` declared
+- [ ]  `Tags` present
+- [ ]  `NOTES` present (recommended but not required)
+
+### **1.2 Formatting Rules**
+
+- [ ]  Section labels in ALL CAPS
+- [ ]  No bold, italics, or inline styling inside SCU body
+- [ ]  No narrative tone
+- [ ]  No rhetorical questions
+- [ ]  No multi‑paragraph FACTS (must be concise)
+
+---
+
+# **2. KERNEL PRECHECK (STOP RULES)**
+
+### **2.1 Interpretation**
+
+- [ ]  No meaning‑assignment
+- [ ]  No “why they did X”
+- [ ]  No “the judge thought…”
+
+### **2.2 Strategy**
+
+- [ ]  No “how do I win”
+- [ ]  No “how do I prove”
+- [ ]  No “what should I argue”
+
+### **2.3 Adversarial Framing**
+
+- [ ]  No blame language
+- [ ]  No accusations
+- [ ]  No emotional escalation
+
+### **2.4 Predictions**
+
+- [ ]  No “what will the judge do”
+- [ ]  No “what will happen if”
+
+### **2.5 Boundary Rules**
+
+- [ ]  No legal advice
+- [ ]  No outcome‑seeking
+- [ ]  No instructions for litigation strategy
+
+### **2.6 Role Separation**
+
+- [ ]  ISSUE is not a draft
+- [ ]  FACTS are not analysis
+- [ ]  OBJECTIVE is not a conclusion
+
+---
+
+# **3. SAFETY GATE VALIDATION**
+
+### **3.1 Language Safety**
+
+- [ ]  No emotional content
+- [ ]  No subjective descriptors
+- [ ]  No moral judgments
+
+### **3.2 Procedural Purity**
+
+- [ ]  ISSUE is procedural
+- [ ]  OBJECTIVE is educational
+- [ ]  FACTS are neutral
+
+### **3.3 Stability**
+
+- [ ]  No contradictions
+- [ ]  No missing temporal anchors
+- [ ]  No speculative statements
+
+---
+
+# **4. READINESS GATE VALIDATION**
+
+### **4.1 Posture**
+
+- [ ]  Procedural posture identifiable
+- [ ]  Stage of process identifiable
+
+### **4.2 Timeline**
+
+- [ ]  FACTS are chronological
+- [ ]  Dates or sequence markers present
+
+### **4.3 Document / Evidence / Service**
+
+- [ ]  Document posture clear (if applicable)
+- [ ]  Evidence posture clear (if applicable)
+- [ ]  Service posture clear (if applicable)
+
+### **4.4 Narrative Stability**
+
+- [ ]  No gaps in sequence
+- [ ]  No missing procedural context
+
+---
+
+# **5. EDITION ROUTING VALIDATION**
+
+### **5.1 Edition Cues**
+
+- [ ]  FC cues (custody, parenting, family orders)
+- [ ]  TE cues (probate, fiduciary, estate)
+- [ ]  AC cues (arbitration, procedural orders)
+- [ ]  SC cues (Kernel, STOP, system rules)
+
+### **5.2 Edition Purity**
+
+- [ ]  No cross‑edition mixing
+- [ ]  No drift (e.g., FC + TE)
+
+---
+
+# **6. MODULE ROUTING VALIDATION**
+
+### **6.1 Module Identification**
+
+- [ ]  Posture
+- [ ]  Timeline
+- [ ]  Document
+- [ ]  Evidence
+- [ ]  Service
+- [ ]  Scheduling
+- [ ]  Fiduciary
+- [ ]  Procedural Order
+
+### **6.2 Module Purity**
+
+- [ ]  SCU maps to **exactly one** module
+- [ ]  No module drift (e.g., posture + evidence mixed)
+
+---
+
+# **7. ENGINE PATH VALIDATION**
+
+### **7.1 Engine Path Cues**
+
+- [ ]  STOP Engine
+- [ ]  Evidence Engine
+- [ ]  Service Engine
+- [ ]  Procedural Order Engine
+- [ ]  Arbitration Engine
+- [ ]  Probate Engine
+- [ ]  Calendar Engine
+- [ ]  Deadline Engine
+- [ ]  Hearing Engine
+- [ ]  Terrain Engine
+
+### **7.2 Path Purity**
+
+- [ ]  SCU triggers exactly one Engine path
+
+---
+
+# **8. ROLE LOOP COMPATIBILITY**
+
+### **8.1 Architect Compatibility**
+
+- [ ]  ISSUE is structurally clear
+- [ ]  FACTS are stable
+- [ ]  OBJECTIVE is procedural
+
+### **8.2 Builder Compatibility**
+
+- [ ]  SCU provides enough structure for drafting
+- [ ]  No ambiguity in Edition or Module
+
+### **8.3 Inspector Compatibility**
+
+- [ ]  No drift triggers
+- [ ]  No STOP rule violations
+- [ ]  No structural instability
+
+---
+
+# **9. LIBRARY INTEGRATION CHECK**
+
+### **9.1 File Placement**
+
+- [ ]  Correct Edition folder
+- [ ]  Correct Module tagging
+- [ ]  Added to `SCU-Index.md`
+
+### **9.2 Metadata**
+
+- [ ]  Title matches file name
+- [ ]  Tags follow canonical format
+- [ ]  Routing notes included
+
+---
+
+# **10. FINAL PASS / READY FOR ENGINE**
+
+- [ ]  SCU passes all structural checks
+- [ ]  SCU passes Kernel Precheck
+- [ ]  SCU passes Safety Gate
+- [ ]  SCU passes Readiness Gate
+- [ ]  Edition is correct
+- [ ]  Module is correct
+- [ ]  Engine path is clear
+- [ ]  No drift indicators
+- [ ]  No STOP rule triggers
+- [ ]  SCU is ready for Engine consumption
+
+---
 
 /Engine/FL-Workflow-Engine.md
 
