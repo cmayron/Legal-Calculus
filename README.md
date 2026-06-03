@@ -32,16 +32,35 @@ CONSTITUTIONAL PREAMBLE
 
 CONSTITUTIONAL SURFACES
 
-The Constitutional Surfaces define the authority boundaries that all LCES
-systems must inherit before any Article may operate.
+# **CONSTITUTIONAL SURFACES**
 
-    Kernel
-    Edition Layer
-    GateZero™
-    GateSigma™
-    Governance Layer
+The Constitutional Surfaces define the authority boundaries that all LCES systems must inherit before any Article may operate. These surfaces establish the constitutional physics within which all governance, workflow, record‑keeping, admissibility, and procedural primitives must function.
 
-    # **Surface I — Preconditions for Governance**
+---
+
+## **Kernel**
+
+The Kernel establishes identity, naming, structural constraints, and the non‑derogable constitutional boundaries that all systems must inherit. No system may operate outside the Kernel.
+
+## **Edition Layer**
+
+The Edition Layer defines the domain physics, admissibility rules, jurisdictional limits, and procedural authority for a given Edition. All systems must conform to the Edition Layer in effect.
+
+## **GateZero™ — System‑Level Admissibility Surface**
+
+GateZero™ governs the admissibility of every individual system step. No system may execute an action, transformation, or continuation unless it passes GateZero’s admissibility checks.
+
+## **GateSigma™ — System‑of‑Systems Admissibility Surface**
+
+GateSigma™ governs the admissibility of chained outcomes across multiple GateZero‑governed systems. Individually admissible steps must not combine into a collectively inadmissible outcome.
+
+## **Governance Layer — GateZero™ and GateSigma™ Unified**
+
+The Governance Layer unifies the two admissibility surfaces. GateZero™ governs actions; GateSigma™ governs outcomes. Together they ensure that no system and no chain may produce an inadmissible state.
+
+---
+
+# **Surface I — Preconditions for Governance**
 
 ## **Axiom 1 — Visibility Before Authority**
 
@@ -50,10 +69,6 @@ systems must inherit before any Article may operate.
 ## **Axiom 2 — Authority Requires Accountability**
 
 **No authority may be exercised without a corresponding line of accountability.** Every AI‑enabled system must have a clearly identified owner responsible for its operation, its inputs, its outputs, and its risk posture. Authority to deploy, configure, or rely on a system is inseparable from the duty to supervise it. Unowned or ambiguously owned systems are constitutionally non‑compliant and may not operate within LCES. Every decision surface must have a human owner answerable for its consequences.
-
-
-**Visibility is the first act of governance.** No system can be governed until it is mapped, its data flows understood, its decision influence identified, and its ownership assigned. The AI register therefore functions as the boundary‑defining act that establishes the decision surface. Declared, shadow, and latent systems must all be made visible before any Article may operate. Governance, accountability, and oversight only begin once the system landscape is known.
-
 
 ARTICLE I — GOVERNANCE
 ARTICLE II — WORKFLOW
