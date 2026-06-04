@@ -21610,6 +21610,101 @@ Triggered when Safety or Readiness fails, SCU invalidates, or user exits arbitra
 
 🗺 LCES SYSTEM MAP (V6.3)
 
+flowchart TD
+
+%% =========================
+%% FOUNDATIONAL LAYER
+%% =========================
+subgraph FOUNDATION["FOUNDATIONAL LAYER"]
+direction TB
+    PURPOSE["Purpose & Legitimacy"]
+    SOVEREIGNTY["Human Sovereignty"]
+    PHILOSOPHY["Foundational Principles"]
+end
+
+%% =========================
+%% PRE-KERNEL LAYER
+%% =========================
+subgraph PREKERNEL["PRE‑KERNEL LAYER"]
+direction TB
+    SURFACES["Constitutional Surfaces (Preamble)"]
+end
+
+%% =========================
+%% CONSTITUTIONAL LAYER
+%% =========================
+subgraph CONSTITUTION["CONSTITUTIONAL LAYER (Articles I–XVIII)"]
+direction TB
+
+    %% Tier 1 — Structural Governance
+    A1["Article I — Governance"]
+    A2["Article II — Workflow"]
+    A3["Article III — Record"]
+
+    %% Tier 2 — Boundary Surfaces
+    A4["Article IV — Editions"]
+    A5["Article V — Roles"]
+    A6["Article VI — Modes"]
+    A7["Article VII — STOP"]
+    A8["Article VIII — Admissibility & GateZero"]
+
+    %% Tier 3 — Execution Physics
+    A9["Article IX — Non‑Derogation"]
+    A10["Article X — Procedural Primitives"]
+
+    %% Tier 4 — Consequence Governance
+    A11["Article XI — Consequence‑Stage Governance"]
+    A12["Article XII — SCU Consequence Governance"]
+    A13["Article XIII — CF‑Kernel Doctrine"]
+
+    %% Tier 5 — Operational Integration
+    A14["Article XIV — Operational Doctrine Integration"]
+    A15["Article XV — Bootloader Integration"]
+    A16["Article XVI — Edition/Mode/Role Integration"]
+    A17["Article XVII — Validation & Closure"]
+    A18["Article XVIII — Constitutional Lifecycle"]
+end
+
+%% =========================
+%% OPERATIONAL LAYER
+%% =========================
+subgraph OPERATIONAL["OPERATIONAL LAYER"]
+direction TB
+    RUNTIME["Operational Runtime"]
+    PROCEDURES["Procedures & Workflows"]
+end
+
+%% =========================
+%% BOOTLOADER LAYER
+%% =========================
+subgraph BOOTLOADER["BOOTLOADER LAYER"]
+direction TB
+    INIT["System Initialization"]
+    LOAD["Kernel/SCU/Edition Bring‑Up"]
+end
+
+%% =========================
+%% EXECUTION LAYER
+%% =========================
+subgraph EXECUTION["EXECUTION LAYER"]
+direction TB
+    SCU["SCU Runtime"]
+    CONSEQ["Consequence Formation"]
+    VALIDATE["Validation"]
+    CLOSE["Closure → STOP"]
+end
+
+%% =========================
+%% ALIGNMENT FLOWS
+%% =========================
+
+FOUNDATION --> PREKERNEL
+PREKERNEL --> CONSTITUTION
+CONSTITUTION --> BOOTLOADER
+BOOTLOADER --> OPERATIONAL
+OPERATIONAL --> EXECUTION
+EXECUTION --> CONSTITUTION
+
 High‑Level Constitutional System Map
 
 ==========================
