@@ -2653,6 +2653,291 @@ Both operate at runtime and are enforced by the Bootloader.
 
 The README preserves the firewall between doctrine and execution.
 
+diff --git a/Operational-README.md b/Operational-README.md
+index 3f2a1c1..b7d9e44 100644
+--- a/Operational-README.md
++++ b/Operational-README.md
+@@ -1,200 +1,400 @@
+-<old content removed>
++# OPERATIONAL README v2.0
++# LCES Operational Doctrine & Runtime Physics
++
++---
++
++# 1. Operational Preamble
++
++The Operational README defines the runtime physics, execution boundaries, activation surfaces, and procedural constraints that govern all LCES operations. It translates the constitutional architecture into actionable operator practice. All operational behavior must comply with:
++
++- STOP Doctrine  
++- Kernel physics  
++- Edition boundaries  
++- Mode purity  
++- Role isolation  
++- SCU containment  
++- Module and Calculus constraints  
++- Device sovereignty  
++- Repository governance  
++
++This document is the operator’s manual. It governs **how** LCES is activated, operated, switched, validated, and closed.
++
++---
++
++# 2. Operational Activation Layer
++
++The Operational Activation Layer defines the mandatory sequence for activating, operating, switching, and resetting LCES during runtime. It is the operator’s entry point into the system and establishes the constitutional order of activation:
++
++```
++STOP → Kernel → Edition → Mode → Role → SCU
++```
++
++No operation may begin until all activation surfaces are satisfied.
++
++## 2.1 Activation Command
++
++The operator activates LCES by issuing:
++
++**“Activate LCES: STOP, Kernel, Edition, Mode, Role.”**
++
++This command requires explicit specification of:
++- the Edition  
++- the Mode  
++- the Role  
++
++No implicit activation is permitted.
++
++## 2.2 Activation Sequence
++
++The activation sequence proceeds in the following order:
++
++1. **STOP** — All inadmissible operations halt.  
++2. **Kernel Load** — Kernel physics and Edition boundaries initialize.  
++3. **Edition Selection** — No cross‑Edition inference permitted.  
++4. **Mode Selection** — Architect, Builder, Inspector, Strategist.  
++5. **Role Assignment** — No role mixing permitted.  
++6. **SCU Confirmation** — SCU opens; all operations occur within it.  
++
++No step may be skipped.
++
++## 2.3 Reset Procedure
++
++To reset the system, the operator issues:
++
++**“STOP. Close SCU. Reset Edition. Reset Role.”**
++
++This performs:
++- SCU closure  
++- Edition purge  
++- Role purge  
++- Device purge  
++- Kernel stabilization  
++
++## 2.4 Role Switch Procedure
++
++Roles may only be switched through explicit operator command:
++
++**“Switch Role: [New Role].”**
++
++Permitted transitions:
++- Architect → Builder  
++- Builder → Inspector  
++- Inspector → Strategist  
++
++Reverse transitions are prohibited.
++
++## 2.5 Edition Switch Procedure
++
++Edition switching requires a full reset:
++
++1. STOP  
++2. Close SCU  
++3. Purge Edition  
++4. Load new Edition  
++5. Re‑activate Mode and Role  
++
++## 2.6 SCU Lifecycle
++
++All operations occur within a single SCU:
++
++```
++OPEN → ACTIVATE → OPERATE → VALIDATE → CLOSE
++```
++
++No inference, memory, or state may cross SCU boundaries.
++
++## 2.7 Operator Checklist
++
++Before beginning any operation, the operator must confirm:
++- STOP is satisfied  
++- The correct Edition is loaded  
++- The correct Mode is active  
++- The correct Role is assigned  
++- The SCU is open  
++- No cross‑Edition contamination  
++- No role mixing  
++- No implicit activation  
++
++## 2.8 Operational Prohibitions
++
++The following actions are strictly prohibited:
++- Implicit activation  
++- Role mixing  
++- Edition mixing  
++- SCU leakage  
++- Unstructured drafting  
++- Silent continuation  
++- Cross‑Edition inference  
++- Cross‑Role inference  
++
++---
++
++# 3. STOP Doctrine (Operational Surfaces)
++
++STOP halts:
++- inadmissible operations  
++- unauthorized continuations  
++- cross‑Edition contamination  
++- cross‑Role contamination  
++- unstructured drafting  
++- emergent behavior  
++
++STOP must be satisfied before any activation sequence begins.
++
++---
++
++# 4. Kernel Runtime Physics
++
++The Kernel enforces:
++- Edition isolation  
++- Mode purity  
++- Role exclusivity  
++- SCU containment  
++- Boundary‑first evaluation  
++- Constitutional admissibility  
++- Runtime determinism  
++
++The Kernel cannot be bypassed or implicitly invoked.
++
++---
++
++# 5. Editions (Operational Surfaces)
++
++Each Edition defines:
++- its own admissible operations  
++- its own boundaries  
++- its own Modules and Calculi  
++- its own SCU rules  
++
++Edition switching requires a full reset.
++
++---
++
++# 6. Modes (Operational Surfaces)
++
++Modes define the operator’s operational posture:
++- **Architect Mode** — boundary definition  
++- **Builder Mode** — implementation  
++- **Inspector Mode** — validation  
++- **Strategist Mode** — application  
++
++Modes cannot be mixed or implicitly switched.
++
++---
++
++# 7. Roles (Operational Surfaces)
++
++Roles define the operator’s constitutional authority:
++- Architect  
++- Builder  
++- Inspector  
++- Strategist  
++
++Roles must be explicitly assigned and cannot be mixed.
++
++---
++
++# 8. SCU (Structural Containment Unit)
++
++The SCU is the operational container.  
++All operations occur within a single SCU.
++
++Rules:
++- SCU must be explicitly opened  
++- SCU must be explicitly closed  
++- No state crosses SCU boundaries  
++- No inference crosses SCU boundaries  
++- No Edition switching inside an SCU  
++
++---
++
++# 9. Modules & Calculi
++
++Modules define operational units.  
++Calculi define procedural transformations.
++
++Rules:
++- Modules must be Edition‑aligned  
++- Calculi must be Edition‑aligned  
++- No cross‑Edition Module use  
++- No cross‑Edition Calculus use  
++
++---
++
++# 10. Device Sovereignty
++
++The device is the operational boundary.  
++No operation may exceed device authority.
++
++---
++
++# 11. Repository Governance
++
++All operational artifacts must:
++- be Edition‑pure  
++- be Role‑pure  
++- be Mode‑pure  
++- be SCU‑contained  
++- preserve provenance  
++- preserve boundary integrity  
++
++---
++
++# 12. Litigation Loop
++
++The litigation loop governs:
++- admissibility  
++- challenge  
++- correction  
++- validation  
++- closure  
++
++---
++
++# 13. Blueprint Viability
++
++Blueprints must:
++- be Edition‑aligned  
++- be Mode‑aligned  
++- be Role‑aligned  
++- satisfy STOP  
++- satisfy Kernel physics  
++- satisfy SCU containment  
++
++---
++
++# 14. Execution Chain
++
++The execution chain is:
++
++```
++STOP → Kernel → Edition → Mode → Role → SCU → Operation → Validation → Closure
++```
++
++This chain is mandatory and invariant.
++
++---
++
++# END OF OPERATIONAL README v2.0
+
 # **1. Purpose of This Document**
 
 This README is the **Orientation & Activation Layer** of LCES™.
