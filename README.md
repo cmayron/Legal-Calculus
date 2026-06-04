@@ -1830,6 +1830,194 @@ If governance is not enforceable, it becomes archival.
 The system must treat governance as the **substrate**, not a wrapper.
 
 ---
+# **ARTICLE XII — STRUCTURAL CONTAINMENT UNIT (SCU) — CONSEQUENCE GOVERNANCE EXTENSION**
+
+## **Section 1 — Purpose**
+
+The Structural Containment Unit (SCU) is the constitutional chamber in which all execution, state change, and consequence formation must occur.
+
+This Article extends the SCU to ensure that governance remains **continuous**, **causal**, and **enforceable** throughout consequence formation.
+
+The SCU must prevent:
+
+- authority drift
+- admissibility drift
+- boundary evaporation
+- semantic drift of intent
+- intervention unreachability
+- consequence acceleration
+- SCU leakage
+
+The SCU is the **final constitutional perimeter** for all agentic activity.
+
+---
+
+## **Section 2 — SCU Governance Membrane (SGM)**
+
+The SCU must maintain a **Governance Membrane** that regulates all ingress and egress.
+
+The SGM must:
+
+- admit only admissible reasoning
+- admit only authorized actions
+- admit only boundary‑compliant operations
+- block inadmissible or unauthorized transitions
+- prevent consequences from exiting without validation
+
+The SGM is the SCU’s constitutional skin.
+
+---
+
+## **Section 3 — SCU Consequence Buffer (SCB)**
+
+All consequences must form inside the **SCU Consequence Buffer** before commitment.
+
+The SCB must:
+
+- stage consequences prior to commitment
+- allow pre‑commit evaluation
+- allow rollback
+- allow halting
+- allow quarantine
+
+No consequence may exit the SCU without passing constitutional validation.
+
+---
+
+## **Section 4 — SCU Execution Hooks (SEH)**
+
+The SCU must implement the following execution‑time governance hooks:
+
+- **SEH‑1: Pre‑Chain Hook**
+- **SEH‑2: Pre‑Tool Hook**
+- **SEH‑3: Post‑Tool Hook**
+- **SEH‑4: Pre‑State‑Change Hook**
+- **SEH‑5: Consequence‑Formation Hook**
+- **SEH‑6: Post‑Consequence Hook**
+
+These hooks must run **inside** the SCU and must be synchronized with the CF‑Kernel.
+
+Failure at any hook triggers STOP.
+
+---
+
+## **Section 5 — SCU Quarantine Chamber (SQC)**
+
+The SCU must maintain a **Quarantine Chamber** for contaminated or unconstitutional consequences.
+
+The SQC must be used when:
+
+- admissibility collapses
+- authority drift is detected
+- boundary violations occur
+- intent drift is detected
+- consequence formation becomes unsafe
+
+The SQC must be sealed and isolated from all operational surfaces.
+
+---
+
+## **Section 6 — SCU Runtime Rules**
+
+The SCU must enforce the following runtime rules:
+
+### **Rule 1 — No Consequence Without Validation**
+
+All consequences must pass:
+
+```
+SCB → CF‑Kernel → SGM → External World
+```
+
+### **Rule 2 — No Authority Expansion Inside SCU**
+
+Authority may shrink or remain constant.
+
+It may never expand.
+
+### **Rule 3 — No Boundary Softening**
+
+Boundaries remain rigid throughout execution.
+
+### **Rule 4 — No Intent Drift**
+
+Intent must remain within constitutional distance.
+
+### **Rule 5 — No Uninterruptible Execution**
+
+Execution must remain interruptible at every step.
+
+### **Rule 6 — No SCU Leakage**
+
+No state, inference, or consequence may exit the SCU without validation.
+
+---
+
+## **Section 7 — SCU Lifecycle (Extended)**
+
+The SCU lifecycle is extended to:
+
+```
+OPEN → ACTIVATE → OPERATE → GOVERN → VALIDATE → COMMIT → CLOSE
+```
+
+### **GOVERN**
+
+Continuous enforcement of CF‑Kernel hooks.
+
+### **COMMIT**
+
+Consequences may exit the SCU only after passing:
+
+- admissibility
+- authority
+- boundary
+- intent
+- consequence evaluation
+
+---
+
+## **Section 8 — SCU Failure Responses**
+
+The SCU must support the following constitutional responses:
+
+1. **SCU‑STOP** — halt execution
+2. **SCU‑Rollback** — revert to last admissible state
+3. **SCU‑Freeze** — suspend execution for operator review
+4. **SCU‑Quarantine** — isolate contaminated consequences
+
+These responses ensure governance remains enforceable even during failure.
+
+---
+
+## **Section 9 — SCU–Kernel Interface**
+
+The SCU must expose the following interfaces to the CF‑Kernel:
+
+- **Authority Interface (AI)**
+- **Admissibility Interface (ADI)**
+- **Boundary Interface (BI)**
+- **Intent Interface (II)**
+
+These interfaces ensure that governance remains causally attached to execution.
+
+---
+
+## **Section 10 — Unifying Doctrine**
+
+The SCU is the constitutional chamber in which consequences form under continuous governance.
+
+The SCU must ensure that:
+
+- governance is continuous
+- governance is causal
+- governance is enforceable
+- consequences cannot outrun governance
+- no execution step escapes constitutional control
+
+The SCU is not a wrapper.
+
+It is the **substrate of consequence governance**.
 ---
 # **CONSTITUTIONAL INTEGRATION CLAUSE**
 
