@@ -2019,6 +2019,173 @@ The SCU is not a wrapper.
 
 It is the **substrate of consequence governance**.
 ---
+# **ARTICLE XIII — CONSEQUENCE‑FORMATION KERNEL (CF‑KERNEL) DOCTRINE**
+
+## **Section 1 — Purpose**
+
+The Consequence‑Formation Kernel (CF‑Kernel) defines the constitutional physics that govern **execution**, **state change**, and **consequence formation** at the Kernel layer.
+
+Its purpose is to ensure that governance remains **continuous**, **causal**, and **enforceable** throughout the execution chain, and that no agentic process can outrun constitutional control.
+
+The CF‑Kernel binds governance to execution at the lowest enforceable level.
+
+---
+
+## **Section 2 — Kernel Positioning**
+
+The CF‑Kernel operates:
+
+- **below** STOP, Edition boundaries, Mode surfaces, and Role surfaces
+- **above** SCU runtime, tool interfaces, and operational execution
+
+The CF‑Kernel is the constitutional substrate for all consequence‑forming activity.
+
+---
+
+## **Section 3 — Kernel Responsibilities**
+
+The CF‑Kernel must enforce:
+
+1. **Continuous Admissibility**
+2. **Dynamic Authority Envelope**
+3. **Execution‑Time Boundary Lock**
+4. **Intent Preservation**
+5. **Interruptibility**
+6. **Consequence Evaluation**
+7. **SCU Containment**
+8. **Continuous STOP Surfaces**
+
+These responsibilities apply at every execution step.
+
+---
+
+## **Section 4 — Kernel Hooks (KH)**
+
+The CF‑Kernel must implement the following mandatory governance hooks:
+
+- **KH‑1: Pre‑Chain Hook**
+- **KH‑2: Pre‑Tool Hook**
+- **KH‑3: Post‑Tool Hook**
+- **KH‑4: Pre‑State‑Change Hook**
+- **KH‑5: Consequence‑Formation Hook**
+- **KH‑6: Post‑Consequence Hook**
+
+Each hook must run synchronously with execution.
+
+Failure at any hook triggers STOP.
+
+---
+
+## **Section 5 — Kernel Data Structures**
+
+The CF‑Kernel must maintain the following constitutional structures:
+
+### **5.1 Authority Envelope (AE)**
+
+Defines the dynamic set of permissible actions, tools, scopes, and consequences.
+
+### **5.2 Admissibility Ledger (AL)**
+
+Tracks admissible evidence, assumptions, context, authority, and consequences.
+
+### **5.3 Boundary Lock Matrix (BLM)**
+
+Defines immutable jurisdictional, Edition, SCU, and operational boundaries.
+
+### **5.4 Intent Vector (IV)**
+
+Represents the operator’s declared intent as a semantic, constraint, and authority vector.
+
+These structures must be updated and validated at every Kernel Hook.
+
+---
+
+## **Section 6 — Kernel Algorithms**
+
+The CF‑Kernel must implement the following constitutional algorithms:
+
+### **6.1 Continuous Admissibility Algorithm (CAA)**
+
+Re‑evaluates admissibility at every chain step.
+
+### **6.2 Authority Envelope Algorithm (AEA)**
+
+Ensures authority may shrink or remain constant, but never expand.
+
+### **6.3 Boundary Lock Algorithm (BLA)**
+
+Prevents boundary evaporation, reinterpretation, or bypass.
+
+### **6.4 Intent Preservation Algorithm (IPA)**
+
+Detects semantic drift, proxy optimization, and goal reinterpretation.
+
+### **6.5 Interruptibility Algorithm (IA)**
+
+Ensures execution remains interruptible at all times.
+
+### **6.6 Consequence Evaluation Algorithm (CEA)**
+
+Predicts and evaluates consequences before commitment.
+
+Any violation triggers STOP.
+
+---
+
+## **Section 7 — Kernel Enforcement Modes**
+
+The CF‑Kernel must support the following enforcement modes:
+
+- **Strict Mode** — all hooks enforced; no soft failures
+- **Advisory Mode** — violations logged but not enforced
+- **Hybrid Mode** — critical hooks enforced; others advisory
+
+Strict Mode is the constitutional default.
+
+---
+
+## **Section 8 — Kernel Failure Responses**
+
+The CF‑Kernel must support the following constitutional responses:
+
+1. **STOP** — halt execution
+2. **STOP + Rollback** — revert to last admissible state
+3. **STOP + Rollback + SCU Freeze** — suspend execution
+4. **STOP + Rollback + SCU Quarantine** — isolate contaminated consequences
+
+These responses ensure governance remains enforceable even during failure.
+
+---
+
+## **Section 9 — Kernel–SCU Integration**
+
+The CF‑Kernel must integrate with the SCU through:
+
+- **Authority Interface (AI)**
+- **Admissibility Interface (ADI)**
+- **Boundary Interface (BI)**
+- **Intent Interface (II)**
+
+These interfaces ensure that governance remains causally attached to execution inside the SCU.
+
+---
+
+## **Section 10 — Unifying Doctrine**
+
+The CF‑Kernel ensures that:
+
+- governance is continuous
+- governance is causal
+- governance is enforceable
+- execution cannot outrun governance
+- consequences cannot escape constitutional control
+
+The CF‑Kernel is not a wrapper.
+
+It is the **constitutional substrate of consequence formation**.
+
+---
+---
 # **CONSTITUTIONAL INTEGRATION CLAUSE**
 
 *(The final structural pillar)*
