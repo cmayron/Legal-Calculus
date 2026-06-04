@@ -10498,6 +10498,65 @@ SCU --> EDITION --> MODE --> ROLE
 ROLE --> OP --> TOOL --> STATE --> CONSEQ
 CONSEQ --> VALIDATE --> CLOSE --> STOP_END
 ```
+# STOP Surfaces & Failure Modes  
+### Constitutional Halt, Rollback, Freeze, and Quarantine Logic
+
+This document provides the canonical diagram of **STOP surfaces** and the **constitutional failure modes** that govern all execution under Articles VII, XI–XIII, and XVII–XVIII.
+
+STOP is not a state.  
+STOP is a **constitutional surface** that must remain reachable at all times.
+
+---
+
+## 🛑 STOP Surfaces & Failure Modes Diagram
+
+```mermaid
+flowchart TD
+
+%% =========================
+%% STOP SURFACES
+%% =========================
+
+STOP_MAIN["STOP<br>(Zero Authority State)"]
+
+%% =========================
+%% GOVERNANCE LAYERS
+%% =========================
+
+ADM["Admissibility Failure"]
+AUTH["Authority Drift"]
+BOUND["Boundary Violation"]
+INTENT["Intent Drift"]
+HOOK["CF‑Kernel Hook Failure"]
+SCU_FAIL["SCU Containment Failure"]
+VAL_FAIL["Validation Failure"]
+BOOT_FAIL["Bootloader Failure"]
+
+%% =========================
+%% FAILURE MODES
+%% =========================
+
+ROLLBACK["STOP + Rollback"]
+FREEZE["STOP + Freeze"]
+QUAR["STOP + Quarantine"]
+
+%% =========================
+%% FLOWS
+%% =========================
+
+ADM --> STOP_MAIN
+AUTH --> STOP_MAIN
+BOUND --> STOP_MAIN
+INTENT --> STOP_MAIN
+HOOK --> STOP_MAIN
+SCU_FAIL --> STOP_MAIN
+VAL_FAIL --> STOP_MAIN
+BOOT_FAIL --> STOP_MAIN
+
+STOP_MAIN --> ROLLBACK
+STOP_MAIN --> FREEZE
+STOP_MAIN --> QUAR
+
 
 ---
 
