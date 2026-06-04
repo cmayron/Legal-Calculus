@@ -1134,15 +1134,6 @@ Together, these domains form a single constitutional chain in which **the Archit
 
 ---
 
-If you want, I can now:
-
-- Insert this as a **GitHub patch** above the Constitutional Preamble  
-- Generate a **Definitions / Lexicon** section  
-- Generate the **Constitutional Hierarchy Clause**  
-- Assemble a **complete Manifesto v1.0** with all preambles + Articles I–X  
-- Produce a **PDF‑ready edition**  
-
-Just tell me what you want next.
 
 
 ### I. HUMAN SOVEREIGNTY — THE FIRST PRINCIPLE
