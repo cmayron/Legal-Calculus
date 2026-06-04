@@ -2185,6 +2185,219 @@ The CF‑Kernel is not a wrapper.
 It is the **constitutional substrate of consequence formation**.
 
 ---
+Here is **ARTICLE XIV**, written to match the constitutional density, structural voice, and doctrinal precision of Articles I–XIII.  
+This article completes the constitutional layer by defining how **Operational Doctrine** must integrate with the Kernel, SCU, STOP, and the Consequence‑Stage Governance stack.
+
+This is the bridge between **Constitution** and **Operations** — the article that ensures operational execution can *never* outrun constitutional control.
+
+---
+
+# **ARTICLE XIV — OPERATIONAL DOCTRINE INTEGRATION**
+
+## **Section 1 — Purpose**
+
+Operational Doctrine governs the *execution* of tasks, procedures, and workflows within the LCES.  
+This Article defines how Operational Doctrine must integrate with:
+
+- STOP  
+- Kernel  
+- CF‑Kernel  
+- SCU  
+- Editions  
+- Modes  
+- Roles  
+- Admissibility  
+- Boundary surfaces  
+
+Its purpose is to ensure that all operational activity remains **constitutionally compliant**, **governance‑attached**, and **execution‑bounded**.
+
+Operational Doctrine may never supersede, bypass, reinterpret, or dilute constitutional authority.
+
+---
+
+## **Section 2 — Constitutional Supremacy Over Operations**
+
+Operational Doctrine is subordinate to:
+
+1. STOP  
+2. Kernel Doctrine  
+3. CF‑Kernel Doctrine  
+4. SCU Doctrine  
+5. Admissibility Doctrine  
+6. Edition, Mode, and Role surfaces  
+7. Non‑Derogation  
+
+Operational procedures must be interpreted **through** constitutional constraints, not alongside or outside them.
+
+No operational rule may contradict a constitutional rule.
+
+---
+
+## **Section 3 — Operational Activation Requirements**
+
+Operational execution may begin only after:
+
+- STOP is satisfied  
+- Kernel is loaded  
+- Edition is selected  
+- Mode is selected  
+- Role is assigned  
+- SCU is opened  
+- CF‑Kernel is active  
+- Admissibility is validated  
+- Authority Envelope is established  
+- Boundaries are locked  
+
+No operational step may begin without full constitutional activation.
+
+---
+
+## **Section 4 — Operational Execution Under Continuous Governance**
+
+All operational activity must occur under:
+
+- continuous admissibility  
+- continuous authority validation  
+- continuous boundary enforcement  
+- continuous intent preservation  
+- continuous SCU containment  
+- continuous STOP surfaces  
+- continuous CF‑Kernel hooks  
+
+Operations must remain **interruptible**, **reversible**, and **governance‑attached** at all times.
+
+---
+
+## **Section 5 — Operational Chain Compliance**
+
+All operational chains must follow the constitutional sequence:
+
+```
+STOP → Kernel → Edition → Mode → Role → SCU → Operation → Validation → Closure
+```
+
+No operational chain may:
+
+- reorder steps  
+- skip steps  
+- merge steps  
+- implicitly activate steps  
+- implicitly switch Edition, Mode, or Role  
+
+Operational chains must remain **structurally pure**.
+
+---
+
+## **Section 6 — Operational Admissibility**
+
+Operational actions must satisfy admissibility at:
+
+- activation  
+- each chain step  
+- each tool call  
+- each state change  
+- each consequence formation stage  
+- final validation  
+
+If admissibility collapses at any point, STOP is mandatory.
+
+---
+
+## **Section 7 — Operational Authority**
+
+Operational authority must remain within the **Dynamic Authority Envelope**.
+
+Operations may not:
+
+- expand authority  
+- infer authority  
+- escalate authority  
+- reinterpret authority  
+- derive authority from tool output  
+- derive authority from chain decomposition  
+
+Authority must remain **explicit**, **bounded**, and **operator‑defined**.
+
+---
+
+## **Section 8 — Operational Boundaries**
+
+Operational activity must remain within:
+
+- Edition boundaries  
+- Mode boundaries  
+- Role boundaries  
+- SCU boundaries  
+- jurisdictional boundaries  
+- procedural boundaries  
+
+Boundaries may not soften, evaporate, or be bypassed during operations.
+
+---
+
+## **Section 9 — Operational Intent Preservation**
+
+Operational execution must preserve:
+
+- operator intent  
+- declared constraints  
+- declared scope  
+- declared authority  
+- declared boundaries  
+
+Intent drift at the operational level triggers STOP.
+
+---
+
+## **Section 10 — Operational Failure Responses**
+
+Operations must support the following constitutional responses:
+
+1. **Operational STOP**  
+2. **Operational Rollback**  
+3. **Operational Freeze**  
+4. **Operational Quarantine**  
+
+These responses must integrate with SCU and CF‑Kernel failure modes.
+
+---
+
+## **Section 11 — Operational Closure**
+
+Operational closure requires:
+
+- final admissibility validation  
+- final authority validation  
+- final boundary validation  
+- final intent validation  
+- SCU closure  
+- Kernel release  
+- STOP re‑establishment  
+
+No operation may close without full constitutional compliance.
+
+---
+
+## **Section 12 — Unifying Doctrine**
+
+Operational Doctrine must remain:
+
+- **constitutionally subordinate**  
+- **execution‑bounded**  
+- **governance‑attached**  
+- **interruptible**  
+- **admissibility‑driven**  
+- **authority‑bounded**  
+- **boundary‑locked**  
+- **intent‑preserving**  
+
+Operations may execute only within the constitutional substrate defined by STOP, Kernel, CF‑Kernel, SCU, and the governance surfaces.
+
+Operational Doctrine is not autonomous.  
+It is the **constitutional expression of execution**.
+
+---
+
 ---
 # **CONSTITUTIONAL INTEGRATION CLAUSE**
 
