@@ -3016,6 +3016,216 @@ Closure is not the end of execution.
 
 Closure is the **restoration of constitutional purity**.
 ---
+# **ARTICLE XVIII — CONSTITUTIONAL LIFECYCLE DOCTRINE**
+
+## **Section 1 — Purpose**
+
+The Constitutional Lifecycle Doctrine defines the **full constitutional arc** through which every operation, execution chain, and consequence must pass.
+
+Its purpose is to unify:
+
+- STOP
+- Kernel
+- CF‑Kernel
+- SCU
+- Editions
+- Modes
+- Roles
+- Admissibility
+- Authority
+- Boundaries
+- Intent
+- Validation
+- Closure
+
+into a single, indivisible constitutional lifecycle.
+
+No part of the system may operate outside this lifecycle.
+
+---
+
+## **Section 2 — The Constitutional Lifecycle**
+
+All agentic activity must follow the invariant lifecycle:
+
+```
+STOP → Kernel → CF‑Kernel → SCU → Edition → Mode → Role → Operation → Validation → Closure → STOP
+```
+
+This lifecycle is **mandatory**, **non‑derogable**, and **non‑reorderable**.
+
+Every constitutional surface must activate and deactivate within this lifecycle.
+
+---
+
+## **Section 3 — Lifecycle Integrity**
+
+The lifecycle must remain:
+
+- continuous
+- causal
+- boundary‑locked
+- authority‑bounded
+- admissibility‑validated
+- intent‑preserving
+- SCU‑contained
+- Kernel‑governed
+- STOP‑anchored
+
+No lifecycle stage may be skipped, merged, implicitly activated, or implicitly closed.
+
+---
+
+## **Section 4 — Lifecycle Activation**
+
+Activation begins in STOP and must proceed through:
+
+1. Kernel activation
+2. CF‑Kernel activation
+3. SCU opening
+4. Edition selection
+5. Mode selection
+6. Role assignment
+
+Each activation step must pass:
+
+- admissibility
+- authority
+- boundary
+- intent
+
+before the next step may begin.
+
+---
+
+## **Section 5 — Lifecycle Execution**
+
+Execution must occur:
+
+- inside the SCU
+- under CF‑Kernel governance
+- under continuous STOP surfaces
+- under continuous admissibility
+- under continuous authority validation
+- under continuous boundary enforcement
+- under continuous intent preservation
+
+Execution must remain interruptible at all times.
+
+---
+
+## **Section 6 — Lifecycle Consequence Formation**
+
+Consequence formation must occur:
+
+- inside the SCU
+- inside the Consequence Buffer
+- under CF‑Kernel hooks
+- under SCU governance
+- under boundary lock
+- under authority envelope
+- under admissibility ledger
+- under intent vector
+
+No consequence may exit the SCU without constitutional validation.
+
+---
+
+## **Section 7 — Lifecycle Validation**
+
+Before closure, the system must validate:
+
+- admissibility
+- authority
+- boundaries
+- intent
+- SCU state
+- Kernel state
+- Edition/Mode/Role alignment
+
+Validation is a constitutional surface, not an operational step.
+
+Failure at any stage triggers STOP + rollback.
+
+---
+
+## **Section 8 — Lifecycle Closure**
+
+Closure must:
+
+- commit or discard consequences
+- empty the SCU
+- release Edition, Mode, and Role
+- release authority
+- finalize admissibility
+- finalize boundaries
+- finalize intent
+- deactivate CF‑Kernel
+- deactivate Kernel
+- return to STOP
+
+Closure restores constitutional purity.
+
+---
+
+## **Section 9 — Lifecycle Failure Responses**
+
+At any stage of the lifecycle, the system must support:
+
+1. **STOP**
+2. **Rollback**
+3. **Freeze**
+4. **Quarantine**
+
+These responses must integrate with SCU and CF‑Kernel failure modes.
+
+---
+
+## **Section 10 — Lifecycle Non‑Derogation**
+
+The lifecycle may not be:
+
+- overridden
+- bypassed
+- weakened
+- reinterpreted
+- implicitly altered
+- partially executed
+
+The lifecycle is the **constitutional spine** of the system.
+
+---
+
+## **Section 11 — Lifecycle Completeness**
+
+A lifecycle is complete only when:
+
+- STOP is restored
+- no authority survives
+- no boundary drift survives
+- no inadmissible state survives
+- no intent drift survives
+- no unvalidated consequence survives
+- no execution residue survives
+
+A lifecycle that does not end in STOP is unconstitutional.
+
+---
+
+## **Section 12 — Unifying Doctrine**
+
+The Constitutional Lifecycle Doctrine ensures that:
+
+- every operation begins in STOP
+- every execution occurs under governance
+- every consequence forms under containment
+- every state change is validated
+- every closure restores constitutional purity
+
+The lifecycle is not a workflow.
+
+It is the **constitutional physics of existence** for the system.
+---
 
 # **CONSTITUTIONAL INTEGRATION CLAUSE**
 
