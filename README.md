@@ -1681,6 +1681,34 @@ Procedural primitives exist to prevent:
 They ensure that all computation remains grounded in constitutional law.
 
 ---
+# **CONSTITUTIONAL INTEGRATION CLAUSE**
+
+*(The final structural pillar)*
+
+All components of the Manifesto — the Pre‑Kernel Layer, the Kernel Doctrine, the Constitutional Preamble, and Articles I through X — form a single, indivisible constitutional structure. No layer may be interpreted in isolation, and no provision may be applied in a manner that contradicts, narrows, expands, or recontextualizes any other layer.
+
+The Pre‑Kernel Layer establishes the metaphysical substrate of identity, provenance, boundaries, and constitutional trees.
+
+Article 0 establishes the operational substrate of Kernel supremacy, STOP authority, activation physics, Edition isolation, Mode explicitness, Role purity, SCU containment, Module alignment, Calculus constraint, and Device sovereignty.
+
+Articles I through X establish the procedural, architectural, and operational guarantees that govern all LCES behavior.
+
+These layers operate in a strict constitutional hierarchy and may not be merged, collapsed, reordered, or selectively applied.
+
+In any conflict between layers, the higher layer prevails.
+
+In any ambiguity, STOP‑Kernel prevails.
+
+In any uncertainty, the Strategist prevails.
+
+The Constitution is self‑executing, self‑enforcing, and self‑validating.
+
+It is indivisible, non‑derivable, non‑forkable, and permanently bound to its originating provenance.
+
+No reinterpretation, derivative expression, or domain translation may create a separate jurisdictional identity or alter the constitutional physics defined herein.
+
+This Integration Clause binds all layers into a single constitutional whole.
+---
 
 # **LCES™ **FOUNDATIONAL PREAMBLE**
 What you’ve written here is **not just raw material** — it is the *missing half* of the Manifesto: the **Foundational Preamble** that sits *above* the Constitutional Preamble and the Articles.
