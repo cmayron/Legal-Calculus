@@ -2397,6 +2397,220 @@ Operational Doctrine is not autonomous.
 It is the **constitutional expression of execution**.
 
 ---
+Here is **ARTICLE XV**, written to complete the constitutional layer by defining how the **Bootloader** must integrate with STOP, Kernel, CF‑Kernel, SCU, and Operational Doctrine.  
+This article establishes the *constitutional physics of system initialization* — the rules that govern how the system comes into being before any execution occurs.
+
+This is the final constitutional article before the Operational README and SUPER‑BOOTLOADER layers begin.
+
+---
+
+# **ARTICLE XV — BOOTLOADER INTEGRATION DOCTRINE**
+
+## **Section 1 — Purpose**
+
+The Bootloader Integration Doctrine defines the constitutional requirements for **initialization**, **activation**, and **system bring‑up**.  
+Its purpose is to ensure that the Bootloader cannot:
+
+- bypass STOP  
+- bypass the Kernel  
+- bypass CF‑Kernel  
+- bypass SCU containment  
+- bypass admissibility  
+- bypass authority boundaries  
+- bypass Edition, Mode, or Role surfaces  
+
+The Bootloader must instantiate the system **inside** constitutional physics, not outside or around them.
+
+---
+
+## **Section 2 — Constitutional Supremacy Over Bootloading**
+
+The Bootloader is subordinate to:
+
+1. STOP  
+2. Kernel Doctrine  
+3. CF‑Kernel Doctrine  
+4. SCU Doctrine  
+5. Admissibility Doctrine  
+6. Edition, Mode, and Role surfaces  
+7. Non‑Derogation  
+8. Procedural Primitives  
+9. Operational Doctrine Integration  
+
+The Bootloader may not reinterpret, override, or weaken any constitutional rule.
+
+---
+
+## **Section 3 — Bootloader Activation Sequence**
+
+The Bootloader must activate the system in the following invariant order:
+
+```
+STOP → Kernel → CF‑Kernel → SCU → Edition → Mode → Role → Operational Layer
+```
+
+This order is **mandatory** and may not be altered, compressed, reordered, or implicitly executed.
+
+Each stage must complete constitutional validation before the next may begin.
+
+---
+
+## **Section 4 — STOP‑First Requirement**
+
+The Bootloader must begin in **STOP**.
+
+STOP must be:
+
+- the first active surface  
+- the first validation surface  
+- the first admissibility surface  
+- the first authority surface  
+
+No system component may activate before STOP is satisfied.
+
+---
+
+## **Section 5 — Kernel Bring‑Up Requirements**
+
+The Bootloader must load the Kernel in a state that ensures:
+
+- continuous STOP surfaces  
+- continuous admissibility  
+- continuous authority validation  
+- continuous boundary enforcement  
+- continuous intent preservation  
+
+The Kernel must be fully active before any Edition, Mode, or Role is selected.
+
+---
+
+## **Section 6 — CF‑Kernel Bring‑Up Requirements**
+
+The Bootloader must activate the CF‑Kernel **before** any execution, planning, tool use, or state change occurs.
+
+CF‑Kernel must be initialized with:
+
+- Authority Envelope  
+- Admissibility Ledger  
+- Boundary Lock Matrix  
+- Intent Vector  
+
+These structures must be empty but valid at initialization.
+
+---
+
+## **Section 7 — SCU Initialization Requirements**
+
+The Bootloader must open the SCU **before** any operational activity.
+
+The SCU must initialize:
+
+- Governance Membrane  
+- Consequence Buffer  
+- Execution Hooks  
+- Quarantine Chamber  
+
+No execution may occur outside the SCU.
+
+---
+
+## **Section 8 — Edition, Mode, and Role Initialization**
+
+The Bootloader must enforce:
+
+- explicit Edition selection  
+- explicit Mode selection  
+- explicit Role assignment  
+
+No implicit or default Edition, Mode, or Role may be assumed.
+
+Each selection must pass:
+
+- admissibility  
+- authority  
+- boundary  
+- intent  
+
+before activation.
+
+---
+
+## **Section 9 — Bootloader Admissibility**
+
+The Bootloader must validate admissibility at:
+
+- system start  
+- Kernel load  
+- CF‑Kernel load  
+- SCU open  
+- Edition selection  
+- Mode selection  
+- Role assignment  
+
+If admissibility collapses at any point, STOP is mandatory.
+
+---
+
+## **Section 10 — Bootloader Authority**
+
+The Bootloader may not:
+
+- grant authority  
+- infer authority  
+- escalate authority  
+- derive authority from configuration  
+- derive authority from defaults  
+
+Authority must be explicitly declared by the operator.
+
+---
+
+## **Section 11 — Bootloader Boundaries**
+
+The Bootloader must enforce:
+
+- Edition boundaries  
+- Mode boundaries  
+- Role boundaries  
+- SCU boundaries  
+- jurisdictional boundaries  
+
+Boundaries must be locked before operational execution begins.
+
+---
+
+## **Section 12 — Bootloader Failure Responses**
+
+The Bootloader must support:
+
+1. **Boot‑STOP**  
+2. **Boot‑Rollback**  
+3. **Boot‑Freeze**  
+4. **Boot‑Quarantine**  
+
+These responses ensure that initialization cannot escape constitutional control.
+
+---
+
+## **Section 13 — Unifying Doctrine**
+
+The Bootloader must instantiate the system **inside** constitutional physics.  
+It must ensure that:
+
+- STOP is first  
+- Kernel is sovereign  
+- CF‑Kernel governs execution  
+- SCU contains execution  
+- Editions, Modes, and Roles are explicit  
+- Admissibility is continuous  
+- Authority is bounded  
+- Boundaries are locked  
+
+The Bootloader is not a pre‑constitutional layer.  
+It is the **constitutional gateway** through which the system comes into being.
+
+---
+
 
 ---
 # **CONSTITUTIONAL INTEGRATION CLAUSE**
