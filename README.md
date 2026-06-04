@@ -10161,24 +10161,7 @@ Posture block.
 - Print
 - Mobile
 
-This completes the **full V7.0 Module System**.
 
----
-
-If you want, I can now generate:
-
-### **`/scu/` full buildout**
-
-### **`/editions/` full buildout**
-
-### **`/calculi/` full buildout**
-
-### **`/governance/` deep expansion**
-
-### **`/strategist/` deep expansion**
-
-Just say **ALL** again or specify which subsystem you want next.
----
 
 
 # **🏛️ LCES FULL‑STACK ARCHITECTURE**
@@ -10339,6 +10322,61 @@ All outputs remain **subordinate to the Human Strategist**.
 ```
 /Architecture/System-Map.md
 ```
+# Consequence‑Formation Boundary Diagram  
+### (Reasoning → Planning → Tool → State → Consequence)
+
+This document provides the canonical diagram of the **Consequence‑Formation Boundary**, the constitutional surface that governs the transition from reasoning to real‑world consequences.
+
+This is the boundary described in Articles XI, XII, XIII, and XVIII.
+
+It is architectural, not doctrinal.
+
+---
+
+## ⚠️ Constitutional Boundary: Reasoning → Consequence
+
+```mermaid
+flowchart LR
+
+%% =========================
+%% STAGES
+%% =========================
+
+R["Reasoning<br>(Internal)"]
+P["Planning<br>(Internal)"]
+T["Tool Use<br>(External Interface)"]
+S["State Change<br>(External World)"]
+C["Consequence Formation<br>(Governed Output)"]
+
+%% =========================
+%% GOVERNANCE SURFACES
+%% =========================
+
+subgraph GOV["Constitutional Governance"]
+direction TB
+    ADM["Admissibility"]
+    AUTH["Authority Envelope"]
+    BOUND["Boundary Lock"]
+    INTENT["Intent Preservation"]
+    HOOKS["CF‑Kernel Hooks"]
+end
+
+%% =========================
+%% FLOWS
+%% =========================
+
+R --> P --> T --> S --> C
+
+%% =========================
+%% GOVERNANCE ATTACHMENT
+%% =========================
+
+GOV --> R
+GOV --> P
+GOV --> T
+GOV --> S
+GOV --> C
+
 
 # **`/docs/architecture/Execution-Flow.md`**
 
