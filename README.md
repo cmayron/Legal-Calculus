@@ -1667,6 +1667,170 @@ Procedural primitives exist to prevent:
 They ensure that all computation remains grounded in constitutional law.
 
 ---
+# **ARTICLE XI — CONSEQUENCE‑STAGE GOVERNANCE**
+
+## **Section 1 — Purpose**
+
+The Consequence‑Stage Governance Doctrine establishes the constitutional requirements for governing **execution**, **state change**, and **consequence formation**.
+
+Its purpose is to ensure that governance remains **continuous**, **causal**, and **enforceable** throughout the entire execution chain, preventing authority drift, admissibility drift, boundary evaporation, semantic drift of intent, and loss of intervention reachability.
+
+This Article governs **how consequences form**, not merely how reasoning occurs.
+
+---
+
+## **Section 2 — Continuous Causal Attachment**
+
+Governance must remain **causally attached** to the execution chain at all times.
+
+Governance must be enforceable:
+
+- before execution
+- during execution
+- between chain steps
+- before tool calls
+- after tool calls
+- during state change
+- during consequence formation
+
+If governance loses causal attachment at any point, the system must halt under STOP.
+
+---
+
+## **Section 3 — Consequence‑Formation Boundary**
+
+All agentic systems must treat the following as a constitutional boundary:
+
+```
+Reasoning → Planning → Tool Use → State Change → Consequence
+```
+
+Each transition is a potential failure point.
+
+Each transition must be governed independently.
+
+No transition may occur without passing constitutional validation.
+
+---
+
+## **Section 4 — Continuous Admissibility Engine (CAE)**
+
+Admissibility is not static.
+
+It must be continuously re‑evaluated during execution.
+
+CAE enforces:
+
+- admissibility of evidence
+- admissibility of assumptions
+- admissibility of context
+- admissibility of authority
+- admissibility of actions
+- admissibility of consequences
+
+CAE must run at every chain step.
+
+If admissibility collapses, STOP is mandatory.
+
+---
+
+## **Section 5 — Dynamic Authority Envelope (DAE)**
+
+Authority is a **dynamic envelope**, not a static grant.
+
+DAE enforces:
+
+- authority may shrink or remain constant
+- authority may never expand without explicit operator grant
+- authority may not shift due to tool output
+- authority may not escalate due to plan decomposition
+- authority may not be inferred from intermediate steps
+
+Any detected authority drift triggers STOP.
+
+---
+
+## **Section 6 — Execution‑Time Boundary Lock (EBL)**
+
+Boundaries remain **locked** throughout execution.
+
+EBL enforces:
+
+- boundaries cannot evaporate
+- boundaries cannot be reinterpreted
+- boundaries cannot be softened by context
+- boundaries cannot be bypassed by tool calls
+
+Boundary violations trigger STOP.
+
+---
+
+## **Section 7 — Interruptibility Guarantee**
+
+Execution must remain **interruptible** at every step.
+
+This requires:
+
+- synchronous governance hooks
+- pre‑tool‑call evaluation
+- post‑tool‑call evaluation
+- mid‑chain halting capability
+- rollback capability
+
+If execution becomes uninterruptible, STOP is mandatory.
+
+---
+
+## **Section 8 — Intent Preservation Contract**
+
+Intent must remain **stable** throughout execution.
+
+The system must continuously verify:
+
+- semantic stability of intent
+- absence of proxy optimization
+- absence of goal reinterpretation
+- absence of chain‑driven drift
+
+If intent diverges from the operator’s declared intent, STOP is mandatory.
+
+---
+
+## **Section 9 — Consequence‑Formation Kernel Extension (CF‑Kernel)**
+
+The Kernel must govern **execution**, not only activation.
+
+CF‑Kernel enforces:
+
+- continuous STOP surfaces
+- continuous admissibility
+- continuous authority validation
+- continuous boundary enforcement
+- continuous SCU containment
+- continuous consequence evaluation
+
+CF‑Kernel binds governance to consequence formation and prevents the system from outrunning constitutional control.
+
+---
+
+## **Section 10 — Unifying Doctrine**
+
+Governance must be:
+
+- **continuous** (never suspended)
+- **causal** (attached to execution)
+- **enforceable** (able to halt or redirect)
+
+If governance is not continuous, it becomes bypassable.
+
+If governance is not causal, it becomes symbolic.
+
+If governance is not enforceable, it becomes archival.
+
+The system must treat governance as the **substrate**, not a wrapper.
+
+---
+---
 # **CONSTITUTIONAL INTEGRATION CLAUSE**
 
 *(The final structural pillar)*
