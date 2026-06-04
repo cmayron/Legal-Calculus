@@ -3761,7 +3761,59 @@ and auditable implementation in the operational system.
 
 ---
 
-I
+diff --git a/README.md b/README.md
+index 3a4f2b1..9c7d8d2 100644
+--- a/README.md
++++ b/README.md
+@@ -42,6 +42,132 @@ ## Architecture Overview
+ (Closed constitutional loop diagram, SCU → Builder → Inspector)
+ 
+ 
++## Manifesto Cross‑Reference Table
++
++This table maps each constitutional Article of the **LCES Manifesto Constitution**  
++to its corresponding **implementation layer**, **repository module**, and **runtime component**.
++
++| Manifesto Article | Implementation Layer | Repository Location | Runtime Component |
++|-------------------|----------------------|---------------------|-------------------|
++| **Article I — Governance** | Governor / Admissibility Engine | `/core/governor/` | `admissibility.evaluate()` |
++| Defines separation of governor/workflow, Edition sovereignty, and constitutional loop. | Enforces admissibility gates, Edition constraints, and STOP‑first logic. | Houses admissibility rules, Edition loaders, and constitutional constraints. | First gate for all actions. |
++
++| **Article II — Workflow** | Workflow Engine | `/core/workflow/` | `workflow.execute()` |
++| Defines lawful execution, sequencing, and provenance. | Executes admissible actions and procedural sequencing. | Workflow definitions, continuation logic, execution traces. | Executes only after Governor approval. |
++
++| **Article III — Record** | SCU (Record Layer) | `/scu/` | `record.generate()` |
++| Defines the authoritative procedural record. | Stores structural reality: decisions, citations, edges, temporal validity. | SCU graph, citation edges, record validators. | Generates immutable procedural records. |
++
++| **Article IV — Editions** | Edition Loader | `/editions/` | `edition.load()` |
++| Defines Edition sovereignty and non‑mixing. | Loads Edition‑specific Modules, Calculi, STOP rules. | Edition manifests, jurisdictional constraints. | Ensures all actions occur under a single Edition. |
++
++| **Article V — Roles** | Role Engine | `/core/roles/` | `role.enforce()` |
++| Defines Governor, Workflow, Reviewer, Educator, Operator. | Enforces non‑overlapping powers and role boundaries. | Role definitions, authority maps, separation logic. | Prevents role drift and self‑supervision. |
++
++| **Article VI — Modes** | Mode Engine | `/core/modes/` | `mode.transition()` |
++| Defines Crisis, Educator, Learning, Second‑Opinion Modes. | Enforces Mode‑specific admissibility and STOP rules. | Mode manifests, posture validators, transition gates. | Prevents silent Mode changes. |
++
++| **Article VII — STOP** | STOP Engine | `/core/stop/` | `stop.invoke()` |
++| Defines STOP as constitutional veto. | Implements STOP triggers, halts, and recovery. | STOP rules, trigger detectors, posture freeze logic. | Halts unlawful continuation. |
++
++| **Article VIII — Admissibility & GateZero** | GateZero Engine | `/core/gatezero/` | `gatezero.check()` |
++| Defines first admissibility gate. | Performs structural validation before Governor. | GateZero rules, structural validators, input normalizers. | Rejects malformed or unstructured inputs. |
++
++| **Article IX — Non‑Derogation** | Constitutional Enforcement Layer | `/core/constitution/` | `constitution.enforce()` |
++| Prevents any override of constitutional constraints. | Enforces Edition sovereignty, STOP supremacy, and non‑bypass. | Constitutional rules, override detectors, violation handlers. | Ensures no component can dilute constraints. |
++
++| **Article X — Procedural Primitives** | Primitive Engine | `/core/primitives/` | `primitive.execute()` |
++| Defines irreducible atomic operations. | Ensures all Modules and Calculi compile to primitives. | Primitive definitions, compiler, record emitters. | Guarantees traceability and reproducibility. |
++
++
++> **Purpose:**  
++> This table ensures that every constitutional guarantee has a concrete, verifiable,  
++> and auditable implementation in the operational system.
++
++
+ ## System Bootloader
+ (Edition loading, SCU initialization, GateZero)
 
 
 **LCES LICENSE & NOTICE (Final Integrated Version)**
