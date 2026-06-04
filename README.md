@@ -3764,6 +3764,17 @@ Constitutional Entry Layer of the Legal Calculus Educational System
 18. Versioning
 19. Governance Reference
 
+diff --git a/SUPER-BOOTLOADER.md b/SUPER-BOOTLOADER.md
+index c9e4f77..d3a1f88 100644
+--- a/SUPER-BOOTLOADER.md
++++ b/SUPER-BOOTLOADER.md
+@@ -60,6 +60,7 @@ STOP halts:
+ - cross‑Edition contamination
+ - cross‑Role contamination
+ - unstructured drafting
++- emergent behavior
+ - silent continuation
+
 ---
 
 ## 0. PREAMBLE
