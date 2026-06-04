@@ -3647,6 +3647,123 @@ I confirm activation.
 </details>
 ---
 
+**Manifesto Cross‑Reference Table**
+
+### *Mapping Constitutional Articles to System Architecture, Runtime, and Repository Modules*
+
+This table is designed for coalition partners, engineers, and auditors who must understand **where each constitutional guarantee is implemented** in the operational system.
+
+---
+
+## **I. Governance → Governor Layer / Admissibility Engine**
+
+| Manifesto Article | Implementation Layer | Repository Location | Runtime Component |
+| --- | --- | --- | --- |
+| **Article I — Governance** | Governor / Admissibility Engine | `/core/governor/` | `admissibility.evaluate()` |
+| Defines separation of governor/workflow, Edition sovereignty, and constitutional loop. | Enforces admissibility gates, Edition constraints, and STOP‑first logic. | Houses admissibility rules, Edition loaders, and constitutional constraints. | First gate for all actions; no workflow executes without passing here. |
+
+---
+
+## **II. Workflow → Workflow Engine / Execution Layer**
+
+| Manifesto Article | Implementation Layer | Repository Location | Runtime Component |
+| --- | --- | --- | --- |
+| **Article II — Workflow** | Workflow Engine | `/core/workflow/` | `workflow.execute()` |
+| Defines lawful execution, sequencing, and provenance. | Implements admissible action execution and procedural sequencing. | Contains workflow definitions, continuation logic, and execution traces. | Executes only after Governor approval. |
+
+---
+
+## **III. Record → SCU / Structural Completeness Unit**
+
+| Manifesto Article | Implementation Layer | Repository Location | Runtime Component |
+| --- | --- | --- | --- |
+| **Article III — Record** | SCU (Record Layer) | `/scu/` | `record.generate()` |
+| Defines the authoritative procedural record. | Stores structural reality: decisions, citations, edges, temporal validity. | SCU graph, citation edges, record validators. | Generates immutable procedural records. |
+
+---
+
+## **IV. Editions → Edition Loader / Edition Sovereignty**
+
+| Manifesto Article | Implementation Layer | Repository Location | Runtime Component |
+| --- | --- | --- | --- |
+| **Article IV — Editions** | Edition Loader | `/editions/` | `edition.load()` |
+| Defines Edition sovereignty and non‑mixing. | Loads Edition‑specific Modules, Calculi, STOP rules. | Edition manifests, versioning, jurisdictional constraints. | Ensures all actions occur under a single Edition. |
+
+---
+
+## **V. Roles → Role Engine / Authority Separation**
+
+| Manifesto Article | Implementation Layer | Repository Location | Runtime Component |
+| --- | --- | --- | --- |
+| **Article V — Roles** | Role Engine | `/core/roles/` | `role.enforce()` |
+| Defines Governor, Workflow, Reviewer, Educator, Operator. | Enforces non‑overlapping powers and role boundaries. | Role definitions, authority maps, separation logic. | Prevents role drift and self‑supervision. |
+
+---
+
+## **VI. Modes → Mode Engine / Operational Posture**
+
+| Manifesto Article | Implementation Layer | Repository Location | Runtime Component |
+| --- | --- | --- | --- |
+| **Article VI — Modes** | Mode Engine | `/core/modes/` | `mode.transition()` |
+| Defines Crisis, Educator, Learning, Second‑Opinion Modes. | Enforces Mode‑specific admissibility and STOP rules. | Mode manifests, posture validators, transition gates. | Prevents silent Mode changes. |
+
+---
+
+## **VII. STOP → STOP Engine / Constitutional Veto**
+
+| Manifesto Article | Implementation Layer | Repository Location | Runtime Component |
+| --- | --- | --- | --- |
+| **Article VII — STOP** | STOP Engine | `/core/stop/` | `stop.invoke()` |
+| Defines STOP as constitutional veto. | Implements STOP triggers, halts, and recovery. | STOP rules, trigger detectors, posture freeze logic. | Halts unlawful continuation. |
+
+---
+
+## **VIII. Admissibility & GateZero → GateZero Engine**
+
+| Manifesto Article | Implementation Layer | Repository Location | Runtime Component |
+| --- | --- | --- | --- |
+| **Article VIII — Admissibility & GateZero** | GateZero Engine | `/core/gatezero/` | `gatezero.check()` |
+| Defines first admissibility gate. | Performs structural validation before Governor. | GateZero rules, structural validators, input normalizers. | Rejects malformed or unstructured inputs. |
+
+---
+
+## **IX. Non‑Derogation → Constitutional Enforcement Layer**
+
+| Manifesto Article | Implementation Layer | Repository Location | Runtime Component |
+| --- | --- | --- | --- |
+| **Article IX — Non‑Derogation** | Constitutional Enforcement Layer | `/core/constitution/` | `constitution.enforce()` |
+| Prevents any override of constitutional constraints. | Enforces Edition sovereignty, STOP supremacy, and non‑bypass. | Constitutional rules, override detectors, violation handlers. | Ensures no component can dilute constraints. |
+
+---
+
+## **X. Procedural Primitives → Primitive Engine / Atomic Operations**
+
+| Manifesto Article | Implementation Layer | Repository Location | Runtime Component |
+| --- | --- | --- | --- |
+| **Article X — Procedural Primitives** | Primitive Engine | `/core/primitives/` | `primitive.execute()` |
+| Defines irreducible atomic operations. | Ensures all Modules and Calculi compile to primitives. | Primitive definitions, compiler, record emitters. | Guarantees traceability and reproducibility. |
+
+---
+
+# **README Integration Block (Copy‑Paste Ready)**
+
+```markdown
+## Manifesto Cross‑Reference Table
+
+This table maps each constitutional Article of the LCES Manifesto to its corresponding
+implementation layer, repository module, and runtime component.
+
+[Insert table here]
+
+This ensures that every constitutional guarantee has a concrete, verifiable,
+and auditable implementation in the operational system.
+```
+
+---
+
+I
+
+
 **LCES LICENSE & NOTICE (Final Integrated Version)**
 
 ---
