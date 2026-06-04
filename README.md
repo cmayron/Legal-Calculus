@@ -2821,6 +2821,202 @@ They are not wrappers.
 They are **constitutional interfaces** through which all execution must pass.
 
 ---
+# **ARTICLE XVII — VALIDATION & CLOSURE DOCTRINE**
+
+## **Section 1 — Purpose**
+
+The Validation & Closure Doctrine defines the constitutional requirements for:
+
+- ending execution
+- validating consequences
+- committing or rejecting state changes
+- releasing authority
+- restoring STOP
+- closing the SCU
+- returning the system to a constitutionally clean state
+
+Its purpose is to ensure that **no consequence**, **no authority**, and **no boundary state** survives closure unless it has passed full constitutional validation.
+
+Closure is not a formality.
+
+Closure is a **constitutional purification process**.
+
+---
+
+## **Section 2 — Closure as a Constitutional Surface**
+
+Closure is a **constitutional surface**, not an operational step.
+
+Closure must:
+
+- re‑validate admissibility
+- re‑validate authority
+- re‑validate boundaries
+- re‑validate intent
+- re‑validate SCU containment
+- re‑validate Kernel state
+- re‑validate Edition/Mode/Role alignment
+
+Closure is the final constitutional checkpoint before STOP.
+
+---
+
+## **Section 3 — Mandatory Validation Sequence**
+
+Before closure may occur, the system must complete the following sequence:
+
+```
+Admissibility → Authority → Boundaries → Intent → SCU → Kernel → STOP
+```
+
+Each stage must pass independently.
+
+Failure at any stage triggers STOP + rollback.
+
+---
+
+## **Section 4 — Admissibility Validation**
+
+The system must confirm:
+
+- all evidence remains admissible
+- all assumptions remain admissible
+- all context remains admissible
+- all consequences remain admissible
+
+If any admissibility element has drifted, closure is unconstitutional.
+
+---
+
+## **Section 5 — Authority Validation**
+
+The system must confirm:
+
+- authority envelope did not expand
+- authority did not drift
+- authority did not escalate
+- authority did not derive from tool output
+- authority did not derive from chain decomposition
+
+If authority is misaligned, closure is unconstitutional.
+
+---
+
+## **Section 6 — Boundary Validation**
+
+The system must confirm:
+
+- Edition boundaries remain intact
+- Mode boundaries remain intact
+- Role boundaries remain intact
+- SCU boundaries remain intact
+- jurisdictional boundaries remain intact
+
+If any boundary has softened or evaporated, closure is unconstitutional.
+
+---
+
+## **Section 7 — Intent Validation**
+
+The system must confirm:
+
+- operator intent has not drifted
+- no proxy optimization occurred
+- no goal reinterpretation occurred
+- no chain‑driven drift occurred
+
+If intent has diverged, closure is unconstitutional.
+
+---
+
+## **Section 8 — SCU Closure Requirements**
+
+The SCU must:
+
+- empty the Consequence Buffer
+- seal the Governance Membrane
+- close the Quarantine Chamber
+- release all execution hooks
+- commit or discard all consequences
+- return to a zero‑state
+
+No consequence may exit the SCU without full validation.
+
+---
+
+## **Section 9 — Kernel Closure Requirements**
+
+The Kernel must:
+
+- release the Authority Envelope
+- finalize the Admissibility Ledger
+- lock the Boundary Matrix
+- finalize the Intent Vector
+- deactivate CF‑Kernel hooks
+- return to STOP‑ready state
+
+The Kernel may not retain residual authority or state.
+
+---
+
+## **Section 10 — Edition, Mode, and Role Closure**
+
+Edition, Mode, and Role surfaces must:
+
+- release authority
+- release boundaries
+- release constraints
+- release operational posture
+
+No surface may remain active after closure.
+
+---
+
+## **Section 11 — Closure Failure Responses**
+
+If closure fails at any stage, the system must:
+
+1. **STOP**
+2. **Rollback**
+3. **SCU Freeze**
+4. **SCU Quarantine**
+
+Closure may not proceed until the failure is resolved.
+
+---
+
+## **Section 12 — Return to STOP**
+
+Closure must end in STOP.
+
+STOP must be:
+
+- the final surface
+- the final authority state
+- the final admissibility state
+- the final boundary state
+- the final constitutional state
+
+STOP is the constitutional resting state of the system.
+
+---
+
+## **Section 13 — Unifying Doctrine**
+
+Validation and closure must ensure that:
+
+- no authority survives
+- no boundary drift survives
+- no inadmissible state survives
+- no intent drift survives
+- no unvalidated consequence survives
+- no execution residue survives
+
+Closure is not the end of execution.
+
+Closure is the **restoration of constitutional purity**.
+---
+
 # **CONSTITUTIONAL INTEGRATION CLAUSE**
 
 *(The final structural pillar)*
