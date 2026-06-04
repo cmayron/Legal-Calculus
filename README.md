@@ -10353,6 +10353,75 @@ It does not modify the Manifesto.
 It illustrates the runtime physics defined by Articles XI–XVIII.
 
 ---
+# Kernel ↔ SCU ↔ STOP Interaction Diagram  
+### Constitutional Execution Physics (Articles XI–XIII, XVII–XVIII)
+
+This document provides the canonical diagram of the interaction between:
+
+- **STOP**  
+- **Kernel**  
+- **CF‑Kernel**  
+- **SCU**  
+- **Consequence Formation**  
+- **Validation & Closure**
+
+This is the constitutional “inner loop” — the mechanism that ensures execution can never outrun governance.
+
+---
+
+## 🔧 Kernel–SCU–STOP Interaction Loop
+
+```mermaid
+flowchart TD
+
+%% =========================
+%% TOP-LEVEL SURFACES
+%% =========================
+
+STOP["STOP Surface<br>(Authority = 0)"]
+
+%% =========================
+%% KERNEL LAYER
+%% =========================
+
+KERNEL["Kernel<br>Constitutional Engine"]
+CFK["CF‑Kernel<br>Consequence Governance"]
+
+%% =========================
+%% SCU LAYER
+%% =========================
+
+SCU["SCU<br>Containment Chamber"]
+GM["Governance Membrane"]
+CBUF["Consequence Buffer"]
+HOOKS["Execution Hooks<br>(Pre/Post Tool, State, Consequence)"]
+QC["Quarantine Chamber"]
+
+%% =========================
+%% CONSEQUENCE + VALIDATION
+%% =========================
+
+CONSEQ["Consequence Formation"]
+VALIDATE["Validation"]
+CLOSE["Closure"]
+
+%% =========================
+%% FLOWS
+%% =========================
+
+STOP --> KERNEL --> CFK --> SCU
+SCU --> GM --> HOOKS --> CONSEQ
+CONSEQ --> VALIDATE --> CLOSE --> STOP
+
+%% =========================
+%% FAILURE PATHS
+%% =========================
+
+VALIDATE -. failure .-> QC
+HOOKS -. violation .-> QC
+GM -. boundary breach .-> QC
+CFK -. authority drift .-> STOP
+---
 
 ## ⚙️ Runtime Execution Flow (STOP → STOP)
 
