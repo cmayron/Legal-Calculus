@@ -944,13 +944,143 @@ Admissibility is absolute.
 
 # **ARTICLE IX — NON‑DEROGATION**
 
-**No component of the system — governor, workflow, role, operator, or Edition — may derogate from constitutional constraints. No shortcut, override, or discretionary exception is permitted. Non‑derogation binds all actions, all modes, all roles, and all Editions. Any attempt to bypass admissibility, STOP, record requirements, or Edition sovereignty is void ab initio and must be halted under STOP.**
+Non‑derogation is the constitutional guarantee that no component of the system — Governor, Workflow, Reviewer, Educator, Operator, Module, Calculus, or Edition — may weaken, bypass, reinterpret, or dilute constitutional constraints. No shortcut, override, exception, or discretionary deviation is permitted. Non‑derogation binds **all actions, all Modes, all Roles, all Workflows, and all Editions**. Any attempt to bypass admissibility, STOP, record requirements, or Edition sovereignty is **void ab initio** and must be halted under STOP.
+
+---
+
+## **Section 1 — Absolute Constitutional Supremacy**
+
+Constitutional constraints supersede all system components, all operator intentions, and all workflow conveniences.
+
+No authority — human or machine — may authorize an action that violates constitutional structure.
+
+All powers are subordinate to admissibility, STOP, Edition sovereignty, and procedural record.
+
+---
+
+## **Section 2 — Prohibition on Bypass**
+
+No system may:
+
+- skip admissibility,
+- suppress STOP,
+- fabricate posture,
+- infer authority,
+- collapse roles,
+- blend Editions,
+- or continue execution under uncertainty.
+
+Any such attempt is constitutionally null and must trigger STOP.
+
+---
+
+## **Section 3 — Immutable Edition Sovereignty**
+
+Edition content may not be altered, supplemented, or reinterpreted at runtime.
+
+No Mode, Role, or Workflow may modify Edition rules, Modules, Calculi, or STOP Doctrine.
+
+Any deviation from Edition sovereignty constitutes structural violation.
+
+---
+
+## **Section 4 — Structural Enforcement**
+
+Non‑derogation is enforced through:
+
+- STOP,
+- admissibility gates,
+- preserved procedural records,
+- Edition‑bound Modules and Calculi,
+- and the closed constitutional loop.
+
+These mechanisms ensure that no unlawful continuation can occur.
+
+---
+
+## **Section 5 — Constitutional Purpose**
+
+Non‑derogation exists to prevent:
+
+- silent deviation,
+- unauthorized authority,
+- structural collapse,
+- probabilistic improvisation,
+- and erosion of constitutional guarantees.
+
+It ensures that LCES remains governed by law, not convenience.
 
 ---
 
 # **ARTICLE X — PROCEDURAL PRIMITIVES**
 
-**Procedural primitives are the irreducible operations from which all workflows are constructed. They include posture declaration, evidence attachment, admissibility evaluation, STOP invocation, continuation certification, and record generation. Primitives are Edition‑defined and may not be altered at runtime. All higher‑order Modules and Calculi must compile to these primitives, ensuring that every action remains reviewable, reproducible, and constitutionally governed.**
+Procedural primitives are the **irreducible constitutional operations** from which all workflows, Modules, and Calculi are constructed. They define the lawful atomic actions of the system. Primitives are Edition‑defined and may not be altered, extended, or reinterpreted at runtime. All higher‑order structures must compile to these primitives, ensuring that every action remains reviewable, reproducible, and constitutionally governed.
+
+---
+
+## **Section 1 — Definition of Primitives**
+
+Procedural primitives include:
+
+- **posture declaration**,
+- **evidence attachment**,
+- **admissibility evaluation**,
+- **STOP invocation**,
+- **continuation certification**,
+- **record generation**,
+- and other Edition‑sovereign atomic operations.
+
+These primitives form the constitutional substrate of all workflows.
+
+---
+
+## **Section 2 — Edition‑Bound Authority**
+
+Primitives are defined exclusively by the Edition.
+
+No Role, Mode, Workflow, or operator may modify, replace, or reinterpret them.
+
+Any attempt to alter primitives is a constitutional violation and must trigger STOP.
+
+---
+
+## **Section 3 — Compilation Requirement**
+
+All Modules, Calculi, and workflows must compile to primitives.
+
+No higher‑order action may exist that cannot be reduced to a sequence of Edition‑defined primitives.
+
+This ensures that all behavior is:
+
+- traceable,
+- reviewable,
+- reproducible,
+- and structurally governed.
+
+---
+
+## **Section 4 — Record Integrity**
+
+Every primitive generates a preserved procedural record.
+
+These records form the authoritative trace of system behavior and serve as the basis for review, audit, and STOP enforcement.
+
+No primitive may execute without generating its record.
+
+---
+
+## **Section 5 — Constitutional Purpose**
+
+Procedural primitives exist to prevent:
+
+- unreviewable actions,
+- opaque workflows,
+- emergent authority,
+- runtime improvisation,
+- and structural ambiguity.
+
+They ensure that all computation remains grounded in constitutional law.
+
 ---
 
 # **LCES™ **FOUNDATIONAL PREAMBLE**
