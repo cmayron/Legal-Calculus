@@ -10340,7 +10340,91 @@ All outputs remain **subordinate to the Human Strategist**.
 /Architecture/System-Map.md
 ```
 
+# **`/docs/architecture/Execution-Flow.md`**
 
+```markdown
+# LCES Runtime Execution Flow — Constitutional Diagram
+
+This document provides the canonical runtime‑only diagram of the LCES execution lifecycle.
+It visualizes the constitutional sequence that governs activation, execution, consequence formation, validation, and closure.
+
+This diagram is architectural, not doctrinal.
+It does not modify the Manifesto.
+It illustrates the runtime physics defined by Articles XI–XVIII.
+
+---
+
+## ⚙️ Runtime Execution Flow (STOP → STOP)
+
+```mermaid
+flowchart LR
+
+%% =========================
+%% RUNTIME LIFECYCLE
+%% =========================
+
+STOP_START["STOP (Initial State)"]
+
+KERNEL["Kernel Activation"]
+CFK["CF‑Kernel Activation"]
+SCU["SCU Open"]
+
+EDITION["Edition Selection"]
+MODE["Mode Selection"]
+ROLE["Role Assignment"]
+
+OP["Operation Execution"]
+TOOL["Tool Use"]
+STATE["State Change"]
+CONSEQ["Consequence Formation"]
+
+VALIDATE["Validation"]
+CLOSE["Closure"]
+STOP_END["STOP (Restored)"]
+
+%% =========================
+%% FLOW
+%% =========================
+
+STOP_START --> KERNEL --> CFK --> SCU
+SCU --> EDITION --> MODE --> ROLE
+ROLE --> OP --> TOOL --> STATE --> CONSEQ
+CONSEQ --> VALIDATE --> CLOSE --> STOP_END
+```
+
+---
+
+## 🔍 What This Diagram Shows
+
+### **1. The runtime lifecycle is linear and non‑reorderable**
+
+Every execution must follow:
+
+```
+STOP → Kernel → CF‑Kernel → SCU → Edition → Mode → Role → Operation → Validation → Closure → STOP
+```
+
+### **2. Execution is always SCU‑contained**
+
+No operation, tool call, or state change may occur outside the SCU.
+
+### **3. CF‑Kernel governs every step**
+
+Every transition is governed by:
+
+- admissibility
+- authority envelope
+- boundary lock
+- intent preservation
+- interruptibility
+
+### **4. STOP is both the beginning and the end**
+
+The system must return to STOP after closure.
+
+### **5. Consequence formation is a governed stage**
+
+It is not implicit, not automatic, and not outside constitutional control.
 ---
 
 
