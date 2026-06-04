@@ -504,7 +504,105 @@ Editions are sovereign constitutional environments. No Edition may be overridden
 
 # **ARTICLE V — ROLES**
 
-**Roles are constitutionally defined authorities with non‑overlapping powers. No role may perform the functions of another, and no role may supervise itself. The governor governs admissibility; the workflow executes admissible actions; the reviewer evaluates records; the educator teaches the Edition; the operator invokes workflows but may not alter them. Role boundaries are structural, not discretionary, and may not be bypassed by delegation, automation, or interpretation.**
+Roles are constitutionally defined authorities with non‑overlapping powers. No role may perform the functions of another, and no role may supervise itself. Role boundaries are structural, not discretionary, and may not be bypassed by delegation, automation, or interpretation. Each role exists to preserve separation of authority, prevent self‑justification, and ensure that no component of the system may accumulate or inherit powers outside its constitutional domain.
+
+---
+
+## **Section 1 — Role Sovereignty**
+
+Each role is sovereign within its domain and blind to the internal operations of the others.
+
+No role may reinterpret, override, or dilute the authority of another.
+
+No role may collapse into another, merge functions, or inherit powers by implication or convenience.
+
+All interactions between roles must occur through admissible, Edition‑bound interfaces.
+
+---
+
+## **Section 2 — The Governor**
+
+The Governor governs **admissibility**.
+
+It determines whether an action may enter a workflow, whether a record may be recognized, and whether a continuation is lawful.
+
+The Governor does not execute workflows, evaluate records, teach Editions, or operate the system.
+
+Its authority is purely constitutional: it defines the boundary of lawful action.
+
+---
+
+## **Section 3 — The Workflow**
+
+The Workflow executes **admissible actions**.
+
+It may only act on steps that have passed GateZero and all governing Modules, Calculi, and STOP conditions.
+
+The Workflow may not determine admissibility, evaluate its own outputs, or modify its governing constraints.
+
+It is an executor, not an interpreter.
+
+---
+
+## **Section 4 — The Reviewer**
+
+The Reviewer evaluates **records**.
+
+It determines whether an action was executed lawfully, whether the record is complete, and whether STOP should have been invoked.
+
+The Reviewer may not execute workflows, govern admissibility, or teach Editions.
+
+Its authority is retrospective and structural: it ensures the integrity of the procedural trace.
+
+---
+
+## **Section 5 — The Educator**
+
+The Educator teaches the **Edition**.
+
+It exposes the governing rules, Modules, Calculi, STOP Doctrine, and procedural primitives to operators and systems.
+
+The Educator may not execute workflows, determine admissibility, or evaluate records.
+
+Its authority is pedagogical: it ensures that the Edition is understood, not altered.
+
+---
+
+## **Section 6 — The Operator**
+
+The Operator invokes **workflows** but may not alter them.
+
+The Operator may not determine admissibility, evaluate records, or modify Edition content.
+
+The Operator is the only role permitted to initiate action, but initiation does not confer authority.
+
+Its power is limited to invocation, never interpretation.
+
+---
+
+## **Section 7 — Non‑Inheritance of Authority**
+
+No role may inherit the powers of another, even temporarily or conditionally.
+
+No role may supervise itself or validate its own outputs.
+
+No role may collapse boundaries through automation, delegation, or convenience.
+
+Role separation is constitutional and absolute.
+
+---
+
+## **Section 8 — Structural Purpose**
+
+The purpose of role separation is to prevent:
+
+- self‑approval
+- self‑modification
+- self‑justification
+- silent deviation
+- concentration of authority
+
+Roles exist to ensure that every action is governed, executed, evaluated, taught, and invoked by **different authorities**, each bound to its own constitutional limits.
 
 ---
 
