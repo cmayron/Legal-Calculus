@@ -2610,7 +2610,215 @@ The Bootloader is not a pre‑constitutional layer.
 It is the **constitutional gateway** through which the system comes into being.
 
 ---
+# **ARTICLE XVI — EDITION, MODE, AND ROLE INTEGRATION DOCTRINE**
 
+## **Section 1 — Purpose**
+
+This Article defines the constitutional requirements for the selection, activation, interaction, and governance of **Editions**, **Modes**, and **Roles**.
+
+Its purpose is to ensure that these surfaces:
+
+- remain constitutionally bounded
+- cannot drift, escalate, or reinterpret themselves
+- cannot bypass STOP, Kernel, CF‑Kernel, or SCU
+- cannot implicitly activate or implicitly switch
+- cannot expand authority or soften boundaries
+
+Editions, Modes, and Roles are **constitutional surfaces**, not operational conveniences.
+
+---
+
+## **Section 2 — Explicitness Requirement**
+
+All Edition, Mode, and Role selections must be:
+
+- explicit
+- operator‑declared
+- admissibility‑validated
+- authority‑bounded
+- boundary‑locked
+
+No implicit or default Edition, Mode, or Role may be assumed.
+
+No automatic switching is permitted.
+
+---
+
+## **Section 3 — Activation Order**
+
+Edition, Mode, and Role activation must follow the constitutional sequence:
+
+```
+STOP → Kernel → CF‑Kernel → SCU → Edition → Mode → Role → Operation
+```
+
+This order is mandatory.
+
+No reordering, merging, or implicit activation is permitted.
+
+---
+
+## **Section 4 — Edition Governance**
+
+An Edition defines the **constitutional environment** in which all reasoning and execution occur.
+
+Edition activation must satisfy:
+
+- admissibility
+- authority envelope
+- boundary lock
+- intent preservation
+- SCU containment
+
+Edition boundaries are immutable during execution.
+
+Edition switching requires full STOP and re‑activation.
+
+---
+
+## **Section 5 — Mode Governance**
+
+A Mode defines the **operational posture** of the system.
+
+Mode activation must satisfy:
+
+- Edition compatibility
+- admissibility
+- authority envelope
+- boundary lock
+- intent preservation
+
+Modes may not:
+
+- escalate authority
+- reinterpret Edition boundaries
+- override Kernel or CF‑Kernel constraints
+
+Mode switching requires STOP and re‑validation.
+
+---
+
+## **Section 6 — Role Governance**
+
+A Role defines the **functional authority** of the system within the active Edition and Mode.
+
+Role activation must satisfy:
+
+- Edition boundaries
+- Mode boundaries
+- admissibility
+- authority envelope
+- boundary lock
+- intent preservation
+
+Roles may not:
+
+- expand authority
+- infer authority
+- derive authority from context
+- derive authority from tool output
+
+Role switching requires STOP and re‑validation.
+
+---
+
+## **Section 7 — Boundary Integrity**
+
+Edition, Mode, and Role boundaries must remain:
+
+- rigid
+- immutable
+- non‑porous
+- non‑derogable
+- non‑reinterpretive
+
+Boundary evaporation, softening, or bypass is unconstitutional.
+
+---
+
+## **Section 8 — Interaction Constraints**
+
+Edition, Mode, and Role interactions must satisfy:
+
+- **Edition → Mode**: Mode must remain within Edition boundaries
+- **Mode → Role**: Role must remain within Mode boundaries
+- **Role → Operation**: Operations must remain within Role authority
+
+No surface may:
+
+- override a higher surface
+- reinterpret a higher surface
+- weaken a higher surface
+- derive authority from a lower surface
+
+The hierarchy is strict and non‑derogable.
+
+---
+
+## **Section 9 — Continuous Governance**
+
+Edition, Mode, and Role surfaces must remain under:
+
+- continuous admissibility
+- continuous authority validation
+- continuous boundary enforcement
+- continuous intent preservation
+- continuous CF‑Kernel hooks
+- continuous SCU containment
+
+If any surface becomes misaligned, STOP is mandatory.
+
+---
+
+## **Section 10 — Surface Failure Responses**
+
+Edition, Mode, and Role surfaces must support:
+
+1. **Surface STOP**
+2. **Surface Rollback**
+3. **Surface Freeze**
+4. **Surface Quarantine**
+
+These responses must integrate with SCU and CF‑Kernel failure modes.
+
+---
+
+## **Section 11 — Surface Closure**
+
+Edition, Mode, and Role closure requires:
+
+- final admissibility validation
+- final authority validation
+- final boundary validation
+- final intent validation
+- SCU closure
+- Kernel release
+- STOP re‑establishment
+
+No surface may close without full constitutional compliance.
+
+---
+
+## **Section 12 — Unifying Doctrine**
+
+Edition, Mode, and Role surfaces must remain:
+
+- **explicit**
+- **bounded**
+- **admissible**
+- **authority‑limited**
+- **boundary‑locked**
+- **intent‑preserving**
+- **constitutionally subordinate**
+- **execution‑governed**
+
+These surfaces do not define the Constitution.
+
+They operate **inside** it.
+
+They are not wrappers.
+
+They are **constitutional interfaces** through which all execution must pass.
 
 ---
 # **CONSTITUTIONAL INTEGRATION CLAUSE**
