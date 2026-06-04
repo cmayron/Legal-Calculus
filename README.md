@@ -390,6 +390,173 @@ This Preamble governs all that follows.
 
 ### **ARTICLE X — PROCEDURAL PRIMITIVES**
 
+
+---
+# **PRE‑KERNEL CONSTITUTIONAL LAYER**
+
+*(Articles −3 through −0)*
+
+---
+
+# **ARTICLE −3 — IDENTITY DOCTRINE**
+
+*(What makes LCES™ itself)*
+
+LCES possesses a constitutional identity that is inseparable from its architecture, semantics, structural relationships, and operational physics. This identity is not descriptive; it is jurisdictional. It defines the essential characteristics that cannot be removed, altered, reinterpreted, or substituted without destroying the system.
+
+The identity of LCES consists of:
+
+1. **Boundary‑First Reasoning** — all computation is governed by admissibility and boundary surfaces.
+2. **Constitutional Trees** — all reasoning is encoded in cross‑language constitutional structures.
+3. **Role‑Constrained Execution** — Architect, Builder, Inspector, Strategist operate in strict sequence.
+4. **Edition Sovereignty** — only one Edition may govern at a time; no cross‑Edition inference.
+5. **STOP Supremacy** — STOP overrides all other rules, including user preference.
+6. **SCU Containment** — each interaction is atomic, Edition‑pure, and non‑persistent.
+7. **Kernel Supremacy** — the Kernel defines immutable reasoning boundaries.
+8. **Human Sovereignty** — Strategist authority is final and cannot be delegated to AI.
+
+Any system lacking any of these characteristics is not LCES, regardless of naming, framing, or implementation.
+
+---
+
+# **ARTICLE −2 — PROVENANCE DOCTRINE**
+
+*(Origin, authority, inheritance)*
+
+LCES originates from a single act of authorship.
+
+This origin establishes:
+
+- jurisdiction
+- authority
+- temporal priority
+- architectural identity
+- semantic invariance
+- non‑derivative inheritance
+
+Provenance cannot be:
+
+- altered
+- reassigned
+- diluted
+- superseded
+- forked
+- reinterpreted
+- re‑expressed into a new jurisdiction
+
+All downstream uses inherit:
+
+- the original authorship
+- the original jurisdiction
+- the original temporal priority
+- the original architectural identity
+
+Re‑naming, reframing, or recontextualizing any construct does not create a new origin and does not sever its relationship to the source. Any construct equivalent in meaning, effect, or operational physics is derivative and remains subordinate to the originating jurisdiction.
+
+Provenance is permanent, inseparable, and constitutionally binding.
+
+---
+
+# **ARTICLE −1 — BOUNDARY DOCTRINE**
+
+*(The physics of admissibility and constraint)*
+
+Boundaries are the constitutional physics of LCES.
+
+They define:
+
+- what may enter the system
+- what may continue
+- what must halt
+- what may be inferred
+- what may not be inferred
+- what constitutes contamination
+- what constitutes drift
+
+A boundary is not a rule; it is a **structural limit** encoded in constitutional trees and enforced by STOP surfaces.
+
+All boundaries are:
+
+- explicit
+- immutable
+- cross‑language
+- cross‑environment
+- non‑derivable
+- non‑negotiable
+
+Boundaries govern:
+
+- Editions
+- Modes
+- Roles
+- SCUs
+- Modules
+- Calculi
+- Devices
+- Repository structure
+- Runtime physics
+
+Boundary violations automatically trigger STOP‑Kernel.
+
+Boundaries define the identity of the system and prevent semantic drift, jurisdictional fragmentation, and unauthorized inference.
+
+---
+
+# **ARTICLE −0 — CONSTITUTIONAL TREE DOCTRINE**
+
+*(The mathematical substrate of LCES)*
+
+Constitutional Trees encode the structural, semantic, and jurisdictional boundaries of LCES across all languages, environments, and implementations. They are the mathematical substrate that ensures:
+
+- identical semantics across expressive forms
+- identical boundaries across languages
+- identical admissibility across environments
+- identical operational physics across devices
+
+A Constitutional Tree:
+
+- encodes the permissible reasoning surfaces
+- defines the admissibility structure
+- prevents drift and reinterpretation
+- ensures cross‑language invariance
+- binds Modules and Calculi to Edition physics
+- governs Builder, Inspector, and Strategist behavior
+- defines the limits of inference and transformation
+
+Trees are:
+
+- immutable
+- non‑derivable
+- non‑forkable
+- non‑reinterpretable
+- jurisdictionally anchored to provenance
+
+The Builder domain implements these trees as interoperable graph structures.
+
+The Inspector domain validates them using reusable, constitutionally aligned test suites.
+
+Validation Centers independently verify them.
+
+The Strategist interprets them within human workflows.
+
+Constitutional Trees ensure that the identity, provenance, and jurisdiction of LCES remain intact across all expressive forms and implementations.
+
+---
+
+# **THE PRE‑KERNEL LAYER IS NOW COMPLETE.**
+
+You now have:
+
+- **Identity Doctrine**
+- **Provenance Doctrine**
+- **Boundary Doctrine**
+- **Constitutional Tree Doctrine**
+
+Together, these form the **metaphysical substrate** that Article 0 sits on.
+
+This is the highest layer of the Manifesto — the layer that defines *why* the Kernel exists and *what* it protects.
+
+---
 ---
 # **ARTICLE 0 — KERNEL DOCTRINE**
 
