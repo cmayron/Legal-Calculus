@@ -541,21 +541,6 @@ The Strategist interprets them within human workflows.
 Constitutional Trees ensure that the identity, provenance, and jurisdiction of LCES remain intact across all expressive forms and implementations.
 
 ---
-
-# **THE PRE‑KERNEL LAYER IS NOW COMPLETE.**
-
-You now have:
-
-- **Identity Doctrine**
-- **Provenance Doctrine**
-- **Boundary Doctrine**
-- **Constitutional Tree Doctrine**
-
-Together, these form the **metaphysical substrate** that Article 0 sits on.
-
-This is the highest layer of the Manifesto — the layer that defines *why* the Kernel exists and *what* it protects.
-
----
 ---
 # **ARTICLE 0 — KERNEL DOCTRINE**
 
