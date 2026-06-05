@@ -5479,6 +5479,122 @@ LCES™ operates inside a version‑controlled procedural environment in which G
 # LCES CONSTITUTIONAL ACTIVATION CHAIN
 # VERSION 7.1
 
+----
+============================================================
+LCES BOOTLOADER CHAIN — PROCEDURAL FLOW
+============================================================
+
+STEP 0 — SUPER‑BOOTLOADER
+- Loads Articles I–X (Governance → Procedural Primitives)
+- Loads Manifesto Parts I–IX
+- Establishes constitutional surfaces
+- Initializes STOP baseline
+
+                ▼
+
+STEP 1 — GENERAL KERNEL BOOTLOADER
+- Loads Foundations (Articles I–X)
+- Loads STOP, GATEZERO, GATESIGMA primitives
+- Loads identity, trace, replay, justify, close
+
+                ▼
+
+STEP 2 — EDITION BOOTLOADER
+- Loads edition metadata (v7.1)
+- Loads edition‑specific constraints
+- Loads edition compatibility rules
+
+                ▼
+
+STEP 3 — ROLE BOOTLOADER
+- Loads Operator, Supervisor, Custodian, Auditor, Public Authority
+- Loads role‑specific permissions
+- Loads role‑specific constraints
+
+                ▼
+
+STEP 4 — MODE BOOTLOADER
+- Loads STOP, ACTIVE, REPLAY, REVIEW, RECONSTRUCT, RESTORE
+- Loads mode‑specific constraints
+- Loads mode‑specific termination rules
+
+                ▼
+
+STEP 5 — STOP
+- Zero‑authority baseline
+- No continuation permitted
+- All activation begins here
+
+                ▼
+
+STEP 6 — GATEZERO (ADMISSIBILITY)
+- Validates input admissibility
+- Validates authority
+- Validates procedural prerequisites
+
+                ▼
+
+STEP 7 — GATESIGMA (CAUSATION)
+- Validates causal justification
+- Validates evidentiary sufficiency
+- Validates replayability
+
+                ▼
+
+STEP 8 — EXECUTION SURFACE
+- Executes permissible operations
+- Records trace
+- Maintains chain‑of‑custody
+
+                ▼
+
+STEP 9 — GOVERNANCE SURFACE
+- Supervisory review
+- Compliance enforcement
+- Institutional accountability
+
+                ▼
+
+STEP 10 — ENFORCEMENT SURFACE
+- Violation classification
+- Corrective action
+- Constitutional restoration
+
+                ▼
+
+STEP 11 — INTEROPERABILITY SURFACE
+- Multi‑system governance
+- Cross‑system evidentiary continuity
+
+                ▼
+
+STEP 12 — DELIBERATION SURFACE
+- Human–AI co‑deliberation
+- Joint reasoning
+- Human primacy
+
+                ▼
+
+STEP 13 — PUBLIC OVERSIGHT SURFACE
+- Transparency
+- Public challenge
+- Public redress
+
+                ▼
+
+STEP 14 — INTERNATIONAL ALIGNMENT SURFACE
+- Cross‑jurisdictional compliance
+- Treaty‑level interoperability
+
+                ▼
+
+STEP 15 — CLOSE → STOP
+- Closure record
+- Replay key
+- Justification trace
+- Supervisory signature
+----
+
 ============================================================
 SECTION 0 — PURPOSE
 ============================================================
