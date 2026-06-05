@@ -6993,6 +6993,53 @@ International Alignment surfaces.
 # **PATENT**
 Certain technical mechanisms of the Legal Calculus Educational System (LCES™), including the GateZero execution‑boundary enforcement layer, bind‑point admissibility, runtime authority survival, human‑bounded intent verification, and the interposed governance architecture controlling transitions from reasoning to consequence, are the subject of one or more pending patent applications. These mechanisms constitute a novel and non‑obvious machine‑implemented system for governing AI actions at the moment of execution by evaluating candidate outputs at a governance checkpoint and permitting execution only when all governance requirements are satisfied. The pending applications cover the technical implementation of GateZero as an enforcement layer positioned between reasoning and consequence, the machine tests for admissibility, authority survival, and human‑bounded intent, and the modular governance architecture that intercepts, evaluates, authorizes, or blocks AI outputs prior to execution. Unauthorized implementation, replication, adaptation, or use of these mechanisms in commercial or non‑commercial systems may constitute patent infringement. This repository does not grant any rights under any patent or patent application. All patent rights are expressly reserved by the creator.
 
+---
+# LCES LICENSE & TRADEMARK BLOCK
+# VERSION 7.1
+
+This License applies to all LCES constitutional materials, including:
+- Articles I–X (Foundations),
+- Manifesto Parts I–IX,
+- Bootloader and Super‑Bootloader,
+- Constitutional Surfaces,
+- Governance, Enforcement, and Interoperability Doctrines,
+- Diagrams, primitives, and structural mappings.
+
+## LICENSE
+All LCES materials are released under:
+Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International (CC BY‑NC‑SA 4.0).
+
+Non‑commercial use includes academic, educational, civic, and non‑profit
+AI‑assisted analysis, provided no derivative system claims LCES compliance,
+certification, or equivalence.
+
+Any derivative work incorporating LCES doctrinal structures, surfaces, or
+governance schemas must be released under the same CC BY‑NC‑SA 4.0 license.
+
+## TRADEMARKS
+LCES™, GateZero™, GateSigma™, Execution Integrity Surface™,
+Interoperability Surface™, Deliberation Surface™, Public Oversight Surface™,
+and International Alignment Surface™ are trademarks of the LCES Project.
+
+These marks may not be used to imply endorsement, certification, or
+compatibility without explicit permission.
+
+## ANTI‑DEROGATION
+No party may create proprietary, closed‑source, commercial, or
+misrepresentative derivatives of the LCES constitutional architecture,
+including but not limited to the Execution Integrity, Governance,
+Enforcement, Interoperability, Deliberation, Public Oversight, or
+International Alignment surfaces.
+
+## VERSIONING
+This License applies to LCES Version 7.1 and all minor revisions (7.x).
+Major revisions (8.0+) will include their own updated License block.
+
+## ATTRIBUTION
+Attribution must reference:
+“LCES Constitutional Architecture, Version 7.1”
+and include a link to the canonical repository.
+---
 # ======= START MODULE — LCES GENERAL BOOTLOADER — THE KERNEL BOOTLOADER =======
 
 
