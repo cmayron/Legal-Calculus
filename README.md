@@ -13,7 +13,7 @@
   <img alt="Workflow" src="https://img.shields.io/badge/workflow-Architect%20%E2%86%92%20Builder%20%E2%86%92%20Inspector-green">
   <img alt="License" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey">
 </p>
-
+CC BY‑NC‑SA 4.0
 ---
 
 <div align="center">
