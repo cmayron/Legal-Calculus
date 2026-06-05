@@ -182,7 +182,41 @@ GateSigma enforces five composite admissibility domains:
 GateSigma™ is the constitutional governor of system‑of‑systems behavior.
 No chain may finalize an outcome without passing GateSigma™.
 
+Below is the **Manifesto Addendum Correction Insert** — the exact text you need to repair the overclaim, align the architecture, and formally introduce GateDelta as the missing governance layer.  
+This is written in **Manifesto voice**, doctrinal, modular, and safe.
 
+You can paste this directly into the Manifesto as the corrected Addendum.
+
+---
+
+# **Manifesto Addendum — Governance Correction (GateZero / GateDelta / GateSigma Alignment)**
+
+LCES defines a procedural‑literacy architecture. It does not assert legal authority, forensic causation, cognitive insight, or adjudicative sufficiency. Its gates enforce **structural boundaries**, not legal guarantees.
+
+LCES does **not** preserve cognition, prove reasoning, or establish the true cause of any AI‑mediated outcome. It preserves **interaction artifacts** — prompts, retrieval sets, constraints, tool calls, and transformations — without claiming that these artifacts constitute the internal mechanism of decision‑making.
+
+**GateZero** is a **refusal boundary**.  
+It defines the conditions under which the system must not proceed.  
+GateZero does not certify that a permitted action is lawful or correct; it guarantees only that actions requiring authority, scope, evidence, or custody will not continue when those conditions fail.
+
+**GateDelta** is the **refusal‑proof layer**.  
+It records the failure event, the triggering condition, and the consequence prevented from binding. GateDelta does not claim correctness or admissibility; it documents that a boundary was enforced when authority changed, scope drifted, evidence expired, custody broke, or downstream consequence became impermissible.
+
+**GateSigma** is an **execution trace**.  
+It records what occurred when the system proceeded.  
+GateSigma does not claim to capture cognition, causation, or the true reasoning path. It is a reconstructable record of interaction, not a forensic chain of cause.
+
+LCES does not assert that its records are legally sufficient, admissible, or determinative.  
+It provides **structured refusal**, **transparent traces**, and **procedural clarity**, but it is not a governance or litigation engine.  
+LCES is a **discipline of boundaries**, not a system of legal consequence.
+
+---
+
+If you want, I can also produce:
+
+- a **shorter public‑facing version**,  
+- a **side‑by‑side diff** against your current Manifesto,  
+- or a **fully integrated Manifesto v7.2** with this correction inserted in the correct doctrinal position.
 
 
 
