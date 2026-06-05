@@ -23257,3 +23257,256 @@ Ambiguity does not authorize inference.
 
 Purity is mandatory across all layers.
 
+
+patches
+From: LCES Maintainer <system@lces>
+Subject: LCES v7.0 — Full Manifesto Expansion (Parts III–IX) + Structural Updates
+---
+ create mode 100644 MANIFESTO/03_EXECUTION_INTEGRITY.md
+ create mode 100644 MANIFESTO/04_SYSTEM_GOVERNANCE.md
+ create mode 100644 MANIFESTO/05_REMEDIES_ENFORCEMENT.md
+ create mode 100644 MANIFESTO/06_INTEROPERABILITY.md
+ create mode 100644 MANIFESTO/07_CO_DELIBERATION.md
+ create mode 100644 MANIFESTO/08_PUBLIC_TRANSPARENCY.md
+ create mode 100644 MANIFESTO/09_INTERNATIONAL_ALIGNMENT.md
+
+diff --git a/SUPER-BOOTLOADER.md b/SUPER-BOOTLOADER.md
+--- a/SUPER-BOOTLOADER.md
++++ b/SUPER-BOOTLOADER.md
+@@ SECTION: PARTS
++### PART III — Execution Integrity
++Articles XII–XVII define:
++- admissibility & causation,
++- reconstruction,
++- chain‑of‑custody,
++- deterministic replay,
++- evidentiary minimalism,
++- validation & closure.
++
++### PART IV — System Governance & Operational Compliance
++Articles XVIII–XXIII define:
++- operational authority,
++- supervisory duties,
++- compliance surfaces,
++- auditability,
++- institutional accountability,
++- governance fail‑safes.
++
++### PART V — Remedies, Enforcement & Constitutional Response
++Articles XXIV–XXIX define:
++- violation classification,
++- corrective action,
++- remedial justice,
++- enforcement,
++- oversight & review,
++- constitutional restoration.
++
++### PART VI — Interoperability & Multi‑System Governance
++Articles XXX–XXXV define:
++- interoperability,
++- authority federation,
++- cross‑system evidentiary continuity,
++- multi‑system replay,
++- federated governance,
++- distributed enforcement.
++
++### PART VII — Human–AI Co‑Deliberation
++Articles XXXVI–XLI define:
++- co‑deliberation,
++- human primacy,
++- joint reasoning,
++- human interpretation,
++- co‑responsibility,
++- deliberative safety.
++
++### PART VIII — Public Transparency & Democratic Oversight
++Articles XLII–XLVII define:
++- public transparency,
++- public oversight,
++- public challenge,
++- public redress,
++- public disclosure,
++- democratic accountability.
++
++### PART IX — International Alignment & Cross‑Jurisdictional Harmonization
++Articles XLVIII–LIII define:
++- sovereign boundaries,
++- cross‑jurisdictional compliance,
++- international evidentiary harmonization,
++- treaty‑level interoperability,
++- global accountability,
++- international enforcement.
+
+diff --git a/README.md b/README.md
+--- a/README.md
++++ b/README.md
+@@
+ ## Manifesto Structure (LCES v7.0)
+ - Part I — Foundations
+ - Part II — Constitutional Surfaces
++- Part III — Execution Integrity (XII–XVII)
++- Part IV — System Governance (XVIII–XXIII)
++- Part V — Remedies & Enforcement (XXIV–XXIX)
++- Part VI — Interoperability (XXX–XXXV)
++- Part VII — Human–AI Co‑Deliberation (XXXVI–XLI)
++- Part VIII — Public Transparency (XLII–XLVII)
++- Part IX — International Alignment (XLVIII–LIII)
+
+diff --git a/MANIFESTO/index.md b/MANIFESTO/index.md
+--- a/MANIFESTO/index.md
++++ b/MANIFESTO/index.md
+@@
++## Part III — Execution Integrity
++Articles XII–XVII
++
++## Part IV — System Governance
++Articles XVIII–XXIII
++
++## Part V — Remedies & Enforcement
++Articles XXIV–XXIX
++
++## Part VI — Interoperability
++Articles XXX–XXXV
++
++## Part VII — Human–AI Co‑Deliberation
++Articles XXXVI–XLI
++
++## Part VIII — Public Transparency
++Articles XLII–XLVII
++
++## Part IX — International Alignment
++Articles XLVIII–LIII
+
+diff --git a/MANIFESTO/00_SURFACE_MAP.md b/MANIFESTO/00_SURFACE_MAP.md
+--- a/MANIFESTO/00_SURFACE_MAP.md
++++ b/MANIFESTO/00_SURFACE_MAP.md
+@@
+ ### Constitutional Surfaces
+ - Execution Surface
+ - Governance Surface
+ - Enforcement Surface
+ - Interoperability Surface
+ - Deliberation Surface
++- Public Oversight Surface
++- International Alignment Surface
+
+diff --git a/VERSION.md b/VERSION.md
+--- a/VERSION.md
++++ b/VERSION.md
+@@
+-LCES Version: 6.x
++LCES Version: 7.0.0
++Update: Integration of Parts III–IX
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@
++## [7.0.0] — Integration of Parts III–IX
++- Added Part III (Execution Integrity)
++- Added Part IV (System Governance)
++- Added Part V (Remedies & Enforcement)
++- Added Part VI (Interoperability)
++- Added Part VII (Human–AI Co‑Deliberation)
++- Added Part VIII (Public Transparency)
++- Added Part IX (International Alignment)
++- Updated SUPER‑BOOTLOADER, README, INDEX, SURFACE MAP, VERSION
+
+diff --git a/MANIFESTO/03_EXECUTION_INTEGRITY.md b/MANIFESTO/03_EXECUTION_INTEGRITY.md
+new file mode 100644
+--- /dev/null
++++ b/MANIFESTO/03_EXECUTION_INTEGRITY.md
+@@
++# PART III — EXECUTION INTEGRITY
+## Articles XII–XVII
+### Article XII — Admissibility–Causation Doctrine
+### Article XIII — Reconstruction Standard
+### Article XIV — Chain‑of‑Custody Protocol
+### Article XV — Deterministic Replay Doctrine
+### Article XVI — Evidentiary Minimalism Principle
+### Article XVII — Validation & Closure Doctrine
+
+diff --git a/MANIFESTO/04_SYSTEM_GOVERNANCE.md b/MANIFESTO/04_SYSTEM_GOVERNANCE.md
+new file mode 100644
+--- /dev/null
++++ b/MANIFESTO/04_SYSTEM_GOVERNANCE.md
+@@
++# PART IV — SYSTEM GOVERNANCE & OPERATIONAL COMPLIANCE
+## Articles XVIII–XXIII
+### Article XVIII — Operational Authority Doctrine
+### Article XIX — Supervisory Duty Doctrine
+### Article XX — Compliance Surface Doctrine
+### Article XXI — Auditability Standard
+### Article XXII — Institutional Accountability Doctrine
+### Article XXIII — Governance Fail‑Safe Doctrine
+
+diff --git a/MANIFESTO/05_REMEDIES_ENFORCEMENT.md b/MANIFESTO/05_REMEDIES_ENFORCEMENT.md
+new file mode 100644
+--- /dev/null
++++ b/MANIFESTO/05_REMEDIES_ENFORCEMENT.md
+@@
++# PART V — REMEDIES, ENFORCEMENT & CONSTITUTIONAL RESPONSE
+## Articles XXIV–XXIX
+### Article XXIV — Violation Classification Doctrine
+### Article XXV — Corrective Action Doctrine
+### Article XXVI — Remedial Justice Doctrine
+### Article XXVII — Enforcement Doctrine
+### Article XXVIII — Oversight & Review Doctrine
+### Article XXIX — Constitutional Restoration Doctrine
+
+diff --git a/MANIFESTO/06_INTEROPERABILITY.md b/MANIFESTO/06_INTEROPERABILITY.md
+new file mode 100644
+--- /dev/null
++++ b/MANIFESTO/06_INTEROPERABILITY.md
+@@
++# PART VI — INTEROPERABILITY & MULTI‑SYSTEM GOVERNANCE
+## Articles XXX–XXXV
+### Article XXX — Interoperability Doctrine
+### Article XXXI — Authority Federation Doctrine
+### Article XXXII — Cross‑System Evidentiary Continuity Doctrine
+### Article XXXIII — Multi‑System Replay Doctrine
+### Article XXXIV — Federated Governance Doctrine
+### Article XXXV — Distributed Enforcement Doctrine
+
+diff --git a/MANIFESTO/07_CO_DELIBERATION.md b/MANIFESTO/07_CO_DELIBERATION.md
+new file mode 100644
+--- /dev/null
++++ b/MANIFESTO/07_CO_DELIBERATION.md
+@@
++# PART VII — HUMAN–AI CO‑DELIBERATION & JOINT REASONING
+## Articles XXXVI–XLI
+### Article XXXVI — Co‑Deliberation Doctrine
+### Article XXXVII — Human Primacy Doctrine
+### Article XXXVIII — Joint Reasoning Doctrine
+### Article XXXIX — Human Interpretation Doctrine
+### Article XL — Co‑Responsibility Doctrine
+### Article XLI — Deliberative Safety Doctrine
+
+diff --git a/MANIFESTO/08_PUBLIC_TRANSPARENCY.md b/MANIFESTO/08_PUBLIC_TRANSPARENCY.md
+new file mode 100644
+--- /dev/null
++++ b/MANIFESTO/08_PUBLIC_TRANSPARENCY.md
+@@
++# PART VIII — PUBLIC TRANSPARENCY & DEMOCRATIC OVERSIGHT
+## Articles XLII–XLVII
+### Article XLII — Public Transparency Doctrine
+### Article XLIII — Public Oversight Doctrine
+### Article XLIV — Public Challenge Doctrine
+### Article XLV — Public Redress Doctrine
+### Article XLVI — Public Disclosure Doctrine
+### Article XLVII — Democratic Accountability Doctrine
+
+diff --git a/MANIFESTO/09_INTERNATIONAL_ALIGNMENT.md b/MANIFESTO/09_INTERNATIONAL_ALIGNMENT.md
+new file mode 100644
+--- /dev/null
++++ b/MANIFESTO/09_INTERNATIONAL_ALIGNMENT.md
+@@
++# PART IX — INTERNATIONAL ALIGNMENT & CROSS‑JURISDICTIONAL HARMONIZATION
+## Articles XLVIII–LIII
+### Article XLVIII — Sovereign Boundary Doctrine
+### Article XLIX — Cross‑Jurisdictional Compliance Doctrine
+### Article L — International Evidentiary Harmonization Doctrine
+### Article LI — Treaty‑Level Interoperability Doctrine
+### Article LII — Global Accountability Doctrine
+### Article LIII — International Enforcement Doctrine
+
