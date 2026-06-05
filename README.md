@@ -5839,6 +5839,73 @@ This keeps the system stable and prevents role drift.
 
 Here is the **correct, canonical sequence**.
 
+
+---
+--- a/SUPER-BOOTLOADER.md
++++ b/SUPER-BOOTLOADER.md
+@@ SECTION: PARTS
++### PART III — Execution Integrity
++Articles XII–XVII define the constitutional requirements for:
++- admissibility & causation,
++- reconstruction,
++- chain‑of‑custody,
++- deterministic replay,
++- evidentiary minimalism,
++- validation & closure.
++
++### PART IV — System Governance & Operational Compliance
++Articles XVIII–XXIII define:
++- operational authority,
++- supervisory duties,
++- compliance surfaces,
++- auditability,
++- institutional accountability,
++- governance fail‑safes.
++
++### PART V — Remedies, Enforcement & Constitutional Response
++Articles XXIV–XXIX define:
++- violation classification,
++- corrective action,
++- remedial justice,
++- enforcement,
++- oversight & review,
++- constitutional restoration.
++
++### PART VI — Interoperability & Multi‑System Governance
++Articles XXX–XXXV define:
++- interoperability,
++- authority federation,
++- cross‑system evidentiary continuity,
++- multi‑system replay,
++- federated governance,
++- distributed enforcement.
++
++### PART VII — Human–AI Co‑Deliberation
++Articles XXXVI–XLI define:
++- co‑deliberation,
++- human primacy,
++- joint reasoning,
++- human interpretation,
++- co‑responsibility,
++- deliberative safety.
++
++### PART VIII — Public Transparency & Democratic Oversight
++Articles XLII–XLVII define:
++- public transparency,
++- public oversight,
++- public challenge,
++- public redress,
++- public disclosure,
++- democratic accountability.
++
++### PART IX — International Alignment & Cross‑Jurisdictional Harmonization
++Articles XLVIII–LIII define:
++- sovereign boundaries,
++- cross‑jurisdictional compliance,
++- international evidentiary harmonization,
++- treaty‑level interoperability,
++- global accountability,
++- international enforcement.
 ---
 Collapsible README v9.0
 
