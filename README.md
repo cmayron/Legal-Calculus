@@ -10557,6 +10557,108 @@ STOP_MAIN --> ROLLBACK
 STOP_MAIN --> FREEZE
 STOP_MAIN --> QUAR
 
+flowchart TB
+
+%% =========================
+%% EDITION LAYER
+%% =========================
+subgraph EDITION["EDITION<br>(Constitutional Environment)"]
+direction TB
+    EBOUND["Edition Boundary<br>(Immutable, Non‑Porous)"]
+end
+
+%% =========================
+%% MODE LAYER
+%% =========================
+subgraph MODE["MODE<br>(Operational Posture)"]
+direction TB
+    MBOUND["Mode Boundary<br>(Must Fit Inside Edition)"]
+end
+
+%% =========================
+%% ROLE LAYER
+%% =========================
+subgraph ROLE["ROLE<br>(Functional Authority)"]
+direction TB
+    RBOUND["Role Boundary<br>(Must Fit Inside Mode)"]
+end
+
+%% =========================
+%% FLOW & CONSTRAINTS
+%% =========================
+
+EBOUND --> MBOUND --> RBOUND
+
+%% =========================
+%% GOVERNANCE ATTACHMENT
+%% =========================
+
+ADM["Admissibility"]
+AUTH["Authority Envelope"]
+BOUND["Boundary Lock"]
+INTENT["Intent Preservation"]
+
+ADM --> EBOUND
+ADM --> MBOUND
+ADM --> RBOUND
+
+AUTH --> EBOUND
+AUTH --> MBOUND
+AUTH --> RBOUND
+
+BOUND --> EBOUND
+BOUND --> MBOUND
+BOUND --> RBOUND
+
+INTENT --> EBOUND
+INTENT --> MBOUND
+INTENT --> RBOUND
+
+flowchart LR
+
+%% =========================
+%% ACTIVATION PHASE
+%% =========================
+
+STOP_START["STOP<br>(Initial Zero‑Authority State)"]
+
+KERNEL["Kernel Activation"]
+CFK["CF‑Kernel Activation"]
+SCU["SCU Open"]
+
+EDITION["Edition Selection"]
+MODE["Mode Selection"]
+ROLE["Role Assignment"]
+
+%% =========================
+%% EXECUTION PHASE
+%% =========================
+
+REASON["Reasoning"]
+PLAN["Planning"]
+TOOL["Tool Use"]
+STATE["State Change"]
+CONSEQ["Consequence Formation"]
+
+%% =========================
+%% VALIDATION & CLOSURE
+%% =========================
+
+VALIDATE["Validation"]
+CLOSE["Closure"]
+STOP_END["STOP<br>(Restored Constitutional Purity)"]
+
+%% =========================
+%% FLOWS
+%% =========================
+
+STOP_START --> KERNEL --> CFK --> SCU
+SCU --> EDITION --> MODE --> ROLE
+
+ROLE --> REASON --> PLAN --> TOOL --> STATE --> CONSEQ
+
+CONSEQ --> VALIDATE --> CLOSE --> STOP_END
+
 
 ---
 
