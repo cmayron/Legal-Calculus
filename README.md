@@ -3276,6 +3276,200 @@ What it needs is **structural consolidation** into a single, sovereign, publicat
 
 Below is the **fully integrated, polished, doctrinally aligned Foundational Preamble**, using *your exact content*, but reorganized into constitutional form without altering meaning, provenance, or authority.
 
+
+---
+From: LCES Maintainer <system@lces>
+Subject: Add Parts III–IX to Manifesto (Execution Integrity → International Alignment)
+---
+ create mode 100644 MANIFESTO/03_EXECUTION_INTEGRITY.md
+ create mode 100644 MANIFESTO/04_SYSTEM_GOVERNANCE.md
+ create mode 100644 MANIFESTO/05_REMEDIES_ENFORCEMENT.md
+ create mode 100644 MANIFESTO/06_INTEROPERABILITY.md
+ create mode 100644 MANIFESTO/07_CO_DELIBERATION.md
+ create mode 100644 MANIFESTO/08_PUBLIC_TRANSPARENCY.md
+ create mode 100644 MANIFESTO/09_INTERNATIONAL_ALIGNMENT.md
+
+diff --git a/MANIFESTO/03_EXECUTION_INTEGRITY.md b/MANIFESTO/03_EXECUTION_INTEGRITY.md
+new file mode 100644
+--- /dev/null
++++ b/MANIFESTO/03_EXECUTION_INTEGRITY.md
+@@
++# PART III — EXECUTION INTEGRITY
++## Articles XII–XVII
++
++### Article XII — Admissibility–Causation Doctrine
++Defines GateZero (admissibility) and GateSigma (causation).
++
++### Article XIII — Reconstruction Standard
++Requires forensic recoverability of all outcomes.
++
++### Article XIV — Chain‑of‑Custody Protocol
++Ensures evidentiary preservation from origin to reconstruction.
++
++### Article XV — Deterministic Replay Doctrine
++Requires exact reproduction of outcomes.
++
++### Article XVI — Evidentiary Minimalism Principle
++Preserve only what is necessary and all that is required.
++
++### Article XVII — Validation & Closure Doctrine
++Defines constitutional termination and return to STOP.
+
+diff --git a/MANIFESTO/04_SYSTEM_GOVERNANCE.md b/MANIFESTO/04_SYSTEM_GOVERNANCE.md
+new file mode 100644
+--- /dev/null
++++ b/MANIFESTO/04_SYSTEM_GOVERNANCE.md
+@@
++# PART IV — SYSTEM GOVERNANCE & OPERATIONAL COMPLIANCE
++## Articles XVIII–XXIII
++
++### Article XVIII — Operational Authority Doctrine
++Defines activation, supervisory, reliance, and revocation authority.
++
++### Article XIX — Supervisory Duty Doctrine
++Defines non‑delegable human and institutional oversight.
++
++### Article XX — Compliance Surface Doctrine
++Defines the surfaces through which compliance is enforced.
++
++### Article XXI — Auditability Standard
++Requires internal and external auditability.
++
++### Article XXII — Institutional Accountability Doctrine
++Defines organizational responsibilities and liabilities.
++
++### Article XXIII — Governance Fail‑Safe Doctrine
++Defines emergency termination and neutralization mechanisms.
+
+diff --git a/MANIFESTO/05_REMEDIES_ENFORCEMENT.md b/MANIFESTO/05_REMEDIES_ENFORCEMENT.md
+new file mode 100644
+--- /dev/null
++++ b/MANIFESTO/05_REMEDIES_ENFORCEMENT.md
+@@
++# PART V — REMEDIES, ENFORCEMENT & CONSTITUTIONAL RESPONSE
++## Articles XXIV–XXIX
++
++### Article XXIV — Violation Classification Doctrine
++Defines Classes I–IV of violations.
++
++### Article XXV — Corrective Action Doctrine
++Defines how systems return to compliance.
++
++### Article XXVI — Remedial Justice Doctrine
++Defines remedies for harm.
++
++### Article XXVII — Enforcement Doctrine
++Defines enforcement mechanisms and triggers.
++
++### Article XXVIII — Oversight & Review Doctrine
++Defines continuous and periodic review.
++
++### Article XXIX — Constitutional Restoration Doctrine
++Defines requirements for reactivation after failure.
+
+diff --git a/MANIFESTO/06_INTEROPERABILITY.md b/MANIFESTO/06_INTEROPERABILITY.md
+new file mode 100644
+--- /dev/null
++++ b/MANIFESTO/06_INTEROPERABILITY.md
+@@
++# PART VI — INTEROPERABILITY & MULTI‑SYSTEM GOVERNANCE
++## Articles XXX–XXXV
++
++### Article XXX — Interoperability Doctrine
++Defines safe system‑to‑system interaction.
++
++### Article XXXI — Authority Federation Doctrine
++Defines sequential, parallel, delegated, and revoked authority.
++
++### Article XXXII — Cross‑System Evidentiary Continuity Doctrine
++Preserves substrate across system boundaries.
++
++### Article XXXIII — Multi‑System Replay Doctrine
++Requires deterministic replay across distributed systems.
++
++### Article XXXIV — Federated Governance Doctrine
++Defines governance for multi‑system environments.
++
++### Article XXXV — Distributed Enforcement Doctrine
++Defines enforcement propagation across systems.
+
+diff --git a/MANIFESTO/07_CO_DELIBERATION.md b/MANIFESTO/07_CO_DELIBERATION.md
+new file mode 100644
+--- /dev/null
++++ b/MANIFESTO/07_CO_DELIBERATION.md
+@@
++# PART VII — HUMAN–AI CO‑DELIBERATION & JOINT REASONING
++## Articles XXXVI–XLI
++
++### Article XXXVI — Co‑Deliberation Doctrine
++Defines lawful shared reasoning.
++
++### Article XXXVII — Human Primacy Doctrine
++Humans retain final decision authority.
++
++### Article XXXVIII — Joint Reasoning Doctrine
++Requires separate, attributable reasoning paths.
++
++### Article XXXIX — Human Interpretation Doctrine
++Requires human interpretation of system outputs.
++
++### Article XL — Co‑Responsibility Doctrine
++Defines responsibility allocation.
++
++### Article XLI — Deliberative Safety Doctrine
++Prevents unsafe cognitive or operational conditions.
+
+diff --git a/MANIFESTO/08_PUBLIC_TRANSPARENCY.md b/MANIFESTO/08_PUBLIC_TRANSPARENCY.md
+new file mode 100644
+--- /dev/null
++++ b/MANIFESTO/08_PUBLIC_TRANSPARENCY.md
+@@
++# PART VIII — PUBLIC TRANSPARENCY & DEMOCRATIC OVERSIGHT
++## Articles XLII–XLVII
++
++### Article XLII — Public Transparency Doctrine
++Defines public visibility requirements.
++
++### Article XLIII — Public Oversight Doctrine
++Defines democratic oversight mechanisms.
++
++### Article XLIV — Public Challenge Doctrine
++Defines the right to challenge outcomes.
++
++### Article XLV — Public Redress Doctrine
++Defines remedies for public harm.
++
++### Article XLVI — Public Disclosure Doctrine
++Defines institutional disclosure obligations.
++
++### Article XLVII — Democratic Accountability Doctrine
++Ensures systems remain accountable to the governed.
+
+diff --git a/MANIFESTO/09_INTERNATIONAL_ALIGNMENT.md b/MANIFESTO/09_INTERNATIONAL_ALIGNMENT.md
+new file mode 100644
+--- /dev/null
++++ b/MANIFESTO/09_INTERNATIONAL_ALIGNMENT.md
+@@
++# PART IX — INTERNATIONAL ALIGNMENT & CROSS‑JURISDICTIONAL HARMONIZATION
++## Articles XLVIII–LIII
++
++### Article XLVIII — Sovereign Boundary Doctrine
++Respects jurisdictional authority.
++
++### Article XLIX — Cross‑Jurisdictional Compliance Doctrine
++Ensures multi‑regime legal compliance.
++
++### Article L — International Evidentiary Harmonization Doctrine
++Preserves evidentiary integrity across borders.
++
++### Article LI — Treaty‑Level Interoperability Doctrine
++Defines international coordination frameworks.
++
++### Article LII — Global Accountability Doctrine
++Ensures accountability across jurisdictions.
++
++### Article LIII — International Enforcement Doctrine
++Defines enforcement across borders.
 ---
 
 # **FOUNDATIONAL PREAMBLE**  
