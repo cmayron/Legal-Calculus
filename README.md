@@ -6320,6 +6320,166 @@ This keeps the system stable and prevents role drift.
 Here is the **correct, canonical sequence**.
 
 
+----
+# LCES MANIFESTO
+# VERSION 7.1
+
+============================================================
+PART I — FOUNDATIONS (ARTICLES I–X)
+============================================================
+
+ARTICLE I — GOVERNANCE  
+Defines governing authority, supervisory hierarchy, and human primacy.
+
+ARTICLE II — WORKFLOW  
+Defines constitutional workflow sequence and permissible transitions.
+
+ARTICLE III — RECORD  
+Defines evidentiary record, immutability, and forensic recoverability.
+
+ARTICLE IV — EDITIONS  
+Defines versioning, edition boundaries, and compatibility.
+
+ARTICLE V — ROLES  
+Defines Operator, Supervisor, Custodian, Auditor, Public Authority.
+
+ARTICLE VI — MODES  
+Defines STOP, ACTIVE, REPLAY, REVIEW, RECONSTRUCT, RESTORE.
+
+ARTICLE VII — STOP  
+Defines STOP as the zero‑authority baseline.
+
+ARTICLE VIII — ADMISSIBILITY & GATEZERO  
+Defines admissibility requirements for all inputs and operations.
+
+ARTICLE IX — NON‑DEROGATION  
+Defines the rule that no actor may override constitutional constraints.
+
+ARTICLE X — PROCEDURAL PRIMITIVES  
+Defines IDENTITY, TRACE, REPLAY, JUSTIFY, CLOSE.
+
+============================================================
+PART II — CONSTITUTIONAL SURFACES
+============================================================
+
+Execution Surface  
+Governance Surface  
+Enforcement Surface  
+Interoperability Surface  
+Deliberation Surface  
+Public Oversight Surface  
+International Alignment Surface  
+
+============================================================
+PART III — EXECUTION INTEGRITY (ARTICLES XII–XVII)
+============================================================
+
+Admissibility–Causation  
+Reconstruction  
+Chain‑of‑Custody  
+Deterministic Replay  
+Evidentiary Minimalism  
+Validation & Closure  
+
+============================================================
+PART IV — SYSTEM GOVERNANCE (ARTICLES XVIII–XXIII)
+============================================================
+
+Operational Authority  
+Supervisory Duty  
+Compliance Surfaces  
+Auditability  
+Institutional Accountability  
+Governance Fail‑Safes  
+
+============================================================
+PART V — REMEDIES & ENFORCEMENT (ARTICLES XXIV–XXIX)
+============================================================
+
+Violation Classification  
+Corrective Action  
+Remedial Justice  
+Enforcement  
+Oversight & Review  
+Constitutional Restoration  
+
+============================================================
+PART VI — INTEROPERABILITY (ARTICLES XXX–XXXV)
+============================================================
+
+Interoperability  
+Authority Federation  
+Cross‑System Evidentiary Continuity  
+Multi‑System Replay  
+Federated Governance  
+Distributed Enforcement  
+
+============================================================
+PART VII — HUMAN–AI CO‑DELIBERATION (ARTICLES XXXVI–XLI)
+============================================================
+
+Co‑Deliberation  
+Human Primacy  
+Joint Reasoning  
+Human Interpretation  
+Co‑Responsibility  
+Deliberative Safety  
+
+============================================================
+PART VIII — PUBLIC TRANSPARENCY (ARTICLES XLII–XLVII)
+============================================================
+
+Public Transparency  
+Public Oversight  
+Public Challenge  
+Public Redress  
+Public Disclosure  
+Democratic Accountability  
+
+============================================================
+PART IX — INTERNATIONAL ALIGNMENT (ARTICLES XLVIII–LIII)
+============================================================
+
+Sovereign Boundaries  
+Cross‑Jurisdictional Compliance  
+International Evidentiary Harmonization  
+Treaty‑Level Interoperability  
+Global Accountability  
+International Enforcement  
+
+============================================================
+MANIFESTO ADDENDUM — CONSTITUTIONAL BOUNDARIES (V7.1)
+============================================================
+
+The Manifesto defines the constitutional doctrine of LCES: its purpose,
+foundations, surfaces, authority structure, evidentiary requirements,
+and the limits of permissible operation. It establishes the principles
+that govern STOP, admissibility, causation, replay, justification,
+supervision, enforcement, and public accountability.
+
+Operational artifacts—including Bootloaders, Editions, SCUs, runtime
+movement rules, execution primitives, and implementation mechanics—are
+not constitutional surfaces and therefore do not appear in the Manifesto.
+
+The Manifesto governs doctrine.  
+The Bootloader governs activation.  
+The Editions govern procedural physics.  
+The Surfaces govern constitutional routing.  
+The SCU layer governs operational structure.
+
+No operational layer may be inferred from doctrine, and no doctrinal
+surface may collapse into an operational one. Each layer must remain
+structurally distinct to preserve constitutional integrity.
+
+Doctrine explains.  
+Runtime authorizes.  
+Execution performs.  
+Preservation protects.
+
+============================================================
+END OF MANIFESTO (V7.1)
+============================================================
+
 ---
 --- a/SUPER-BOOTLOADER.md
 +++ b/SUPER-BOOTLOADER.md
