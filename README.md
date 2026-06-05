@@ -5474,6 +5474,176 @@ LCES™ operates inside a version‑controlled procedural environment in which G
 ---
 /docs/bootloader/BOOTLOADER.md
 
+---
+# SUPER‑BOOTLOADER
+# LCES CONSTITUTIONAL ACTIVATION CHAIN
+# VERSION 7.1
+
+============================================================
+SECTION 0 — PURPOSE
+============================================================
+The SUPER‑BOOTLOADER defines the constitutional activation,
+routing, and termination logic for all LCES‑compliant systems.
+It establishes the mandatory order of evaluation, the STOP
+baseline, the admissibility gates, and the mapping of all
+constitutional surfaces and Manifesto Parts.
+
+============================================================
+SECTION 1 — PRIMARY ARTICLES (I–X)
+============================================================
+
+### ARTICLE I — GOVERNANCE
+Defines the governing authority, supervisory hierarchy, and
+non‑delegable human primacy.
+
+### ARTICLE II — WORKFLOW
+Defines the constitutional workflow sequence and permissible
+state transitions.
+
+### ARTICLE III — RECORD
+Defines evidentiary record requirements, immutability, and
+forensic recoverability.
+
+### ARTICLE IV — EDITIONS
+Defines versioning, edition boundaries, and cross‑edition
+compatibility.
+
+### ARTICLE V — ROLES
+Defines constitutional roles: Operator, Supervisor, Custodian,
+Auditor, and Public Authority.
+
+### ARTICLE VI — MODES
+Defines operational modes: STOP, ACTIVE, REPLAY, REVIEW,
+RECONSTRUCT, and RESTORE.
+
+### ARTICLE VII — STOP
+Defines STOP as the zero‑authority, zero‑continuation baseline.
+All activation begins and ends at STOP.
+
+### ARTICLE VIII — ADMISSIBILITY & GATEZERO
+Defines GateZero as the admissibility gate for all inputs,
+requests, and operations.
+
+### ARTICLE IX — NON‑DEROGATION
+Defines the non‑derogation rule: no system, operator, or
+institution may override constitutional constraints.
+
+### ARTICLE X — PROCEDURAL PRIMITIVES
+Defines the primitives required for lawful operation:
+IDENTITY, TRACE, REPLAY, JUSTIFY, CLOSE.
+
+============================================================
+SECTION 2 — MANIFESTO PARTS (I–IX)
+============================================================
+
+### PART I — Foundations
+Articles I–XI define the constitutional foundations, STOP,
+identity, and evidentiary substrate.
+
+### PART II — Constitutional Surfaces
+Defines the seven constitutional surfaces:
+- Execution Surface
+- Governance Surface
+- Enforcement Surface
+- Interoperability Surface
+- Deliberation Surface
+- Public Oversight Surface
+- International Alignment Surface
+
+### PART III — Execution Integrity
+Articles XII–XVII define:
+- admissibility & causation,
+- reconstruction,
+- chain‑of‑custody,
+- deterministic replay,
+- evidentiary minimalism,
+- validation & closure.
+
+### PART IV — System Governance & Operational Compliance
+Articles XVIII–XXIII define:
+- operational authority,
+- supervisory duties,
+- compliance surfaces,
+- auditability,
+- institutional accountability,
+- governance fail‑safes.
+
+### PART V — Remedies, Enforcement & Constitutional Response
+Articles XXIV–XXIX define:
+- violation classification,
+- corrective action,
+- remedial justice,
+- enforcement,
+- oversight & review,
+- constitutional restoration.
+
+### PART VI — Interoperability & Multi‑System Governance
+Articles XXX–XXXV define:
+- interoperability,
+- authority federation,
+- cross‑system evidentiary continuity,
+- multi‑system replay,
+- federated governance,
+- distributed enforcement.
+
+### PART VII — Human–AI Co‑Deliberation
+Articles XXXVI–XLI define:
+- co‑deliberation,
+- human primacy,
+- joint reasoning,
+- human interpretation,
+- co‑responsibility,
+- deliberative safety.
+
+### PART VIII — Public Transparency & Democratic Oversight
+Articles XLII–XLVII define:
+- public transparency,
+- public oversight,
+- public challenge,
+- public redress,
+- public disclosure,
+- democratic accountability.
+
+### PART IX — International Alignment & Cross‑Jurisdictional Harmonization
+Articles XLVIII–LIII define:
+- sovereign boundaries,
+- cross‑jurisdictional compliance,
+- international evidentiary harmonization,
+- treaty‑level interoperability,
+- global accountability,
+- international enforcement.
+
+============================================================
+SECTION 3 — ACTIVATION CHAIN
+============================================================
+
+1. STOP  
+2. IDENTITY  
+3. GATEZERO (Admissibility)  
+4. GATESIGMA (Causation)  
+5. EXECUTION SURFACE  
+6. GOVERNANCE SURFACE  
+7. ENFORCEMENT SURFACE  
+8. INTEROPERABILITY SURFACE  
+9. DELIBERATION SURFACE  
+10. PUBLIC OVERSIGHT SURFACE  
+11. INTERNATIONAL ALIGNMENT SURFACE  
+12. CLOSE → STOP
+
+============================================================
+SECTION 4 — TERMINATION
+============================================================
+All operations must terminate in STOP with:
+- closure record,
+- replay key,
+- justification trace,
+- supervisory signature.
+
+============================================================
+END OF SUPER‑BOOTLOADER
+============================================================
+---
+
 LCES SUPER‑BOOTLOADER (V7.1)
 
 Constitutional Entry Layer of the Legal Calculus Educational System
