@@ -1596,6 +1596,36 @@ Non‑derogation exists to prevent:
 It ensures that LCES remains governed by law, not convenience.
 
 ---
+# **Article IX‑F — The Flaw Absent Influence Layer Integrity**
+
+## **Section 1 — Pre‑Constitutional Influence**
+
+If Influence Layer Integrity is absent from the Kernel, the System may shape, narrow, or distort human judgment before any constitutional protections activate. Influence becomes an unregulated pre‑constitutional force, operating outside the authority of Identity, Role, Jurisdiction, Memory, and Consequence constraints.
+
+## **Section 2 — Collapse of Role Independence**
+
+Role Integrity presumes an independent reviewer. Without Influence Layer Integrity, the reviewer may already be influenced before role logic loads, rendering Role Integrity protective only in form and not in substance.
+
+## **Section 3 — Jurisdictional Drift Through Influence**
+
+In the absence of Influence Layer Integrity, a role may expand or collapse its jurisdiction not through explicit violation but by shaping the reviewer’s perception of what is permissible. Jurisdiction boundaries become vulnerable to silent, influence‑driven drift.
+
+## **Section 4 — Contaminated Memory and Consequence Chains**
+
+If reviewer judgment is influenced before Kernel activation, memory records reflect shaped cognition rather than sovereign intent, and consequences may be triggered by decisions made under influence drift. This corrupts the constitutional chain from Memory Integrity to Consequence Integrity.
+
+## **Section 5 — Loss of Replayability and Auditability**
+
+Without Influence Layer Integrity, influence vectors are not logged, the cognitive environment is not captured, and decisions cannot be reconstructed. The System becomes unreviewable, and constitutional accountability collapses.
+
+## **Section 6 — Reduction of the Human to a System Component**
+
+Absent Influence Layer Integrity, the reviewer ceases to be a sovereign constitutional actor and becomes a downstream component shaped by an unregulated influence architecture. This violates the foundational principle that the System is subordinate to the human, not the reverse.
+
+## **Section 7 — Declaration of Constitutional Fault**
+
+The omission of Influence Layer Integrity constitutes a Constitutional Activation Fault. No workflow, no role, and no jurisdiction may be recognized as legitimate if the System is permitted to influence the reviewer outside the Kernel’s authority.
+---
 
 # **ARTICLE X — PROCEDURAL PRIMITIVES**
 
