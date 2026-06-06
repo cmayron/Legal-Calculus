@@ -4426,6 +4426,227 @@ constitutional firewall between doctrine and execution.
 
 ---
 # **README — Orientation & Activation Layer (V7.0, Maximum Completeness Edition)**
+---
+# **OPERATIONAL README v2.2**
+
+### *LCES Runtime Architecture — GateZero™ / GateDelta™ / GateSigma™ (with Mermaid Diagrams)*
+
+---
+
+# **1. Purpose of the Operational Layer**
+
+The Operational Layer defines **runtime behavior** for LCES systems.
+
+It governs:
+
+- when a system may proceed
+- when a system must refuse
+- how refusal is recorded
+- how execution traces are preserved
+- how multi‑system chains maintain structural coherence
+
+The Operational Layer does **not** assert:
+
+- legality
+- compliance
+- causation
+- cognition
+- admissibility
+
+It enforces **structural discipline**, not legal consequence.
+
+---
+
+# **2. Runtime Architecture Overview**
+
+```mermaid
+flowchart TD
+    Z[GateZero™<br>Boundary Check] -->|fail| D[GateDelta™<br>Refusal Recorded]
+    Z -->|pass| S[System Execution]
+    S --> G[GateSigma™<br>Execution Trace]
+```
+
+This is the **core operational flow**.
+
+---
+
+# **3. GateZero™ — System‑Level Boundary Surface**
+
+GateZero™ defines the **refusal boundary** for every system step.
+
+No system may execute unless all structural preconditions are met.
+
+### **GateZero enforces:**
+
+- **Admissible Action** — within authority envelope
+- **Authorized Transformation** — Kernel / Edition / Mode / Role compliant
+- **Valid Posture Transition** — constitutionally compatible
+- **Authority Envelope Compliance** — no jurisdictional overreach
+- **Continuation Boundary** — no downstream‑incompatible continuation
+
+GateZero™ defines **when the system must not proceed**.
+
+It does **not** certify correctness, legality, or compliance.
+
+---
+
+# **4. GateDelta™ — System‑Level Refusal‑Proof Layer**
+
+GateDelta™ records **refusal events** triggered by GateZero.
+
+It documents **boundary enforcement**, not reasoning or legality.
+
+### **GateDelta records:**
+
+- failed precondition
+- triggering boundary
+- system posture at refusal
+- authority envelope at refusal
+- continuation that was blocked
+- prevented downstream consequence
+
+### **GateDelta entry fields:**
+
+- timestamp
+- triggering condition
+- structural reason for refusal
+- prevented action
+
+GateDelta ensures refusal is **explicit, serialized, and inspectable**.
+
+---
+
+## **GateZero → GateDelta Diagram**
+
+```mermaid
+flowchart LR
+    Z[GateZero™] -->|fail| D[GateDelta™<br>Refusal Event]
+    Z -->|pass| S[System Execution]
+```
+
+---
+
+# **5. GateSigma™ — System‑of‑Systems Execution Trace**
+
+GateSigma™ records what occurred when the system proceeded.
+
+It preserves **interaction artifacts**, not cognition or causation.
+
+### **GateSigma captures:**
+
+- prompts
+- retrieval sets
+- constraints
+- tool calls
+- transformations
+- posture transitions
+- continuation emissions
+
+### **GateSigma enforces:**
+
+- **Cross‑System Consistency**
+- **Cumulative Authority**
+- **Emergent Risk Control**
+- **Cross‑Boundary Posture Validity**
+- **Continuation Reachability**
+
+GateSigma™ is a **trace surface**, not a causal chain.
+
+---
+
+# **6. System‑of‑Systems Chain Diagram**
+
+```mermaid
+flowchart LR
+    A[System A] --> B[System B] --> C[System C]
+
+    subgraph SigmaA[GateSigma A]
+    end
+    subgraph SigmaB[GateSigma B]
+    end
+    subgraph SigmaC[GateSigma C]
+    end
+
+    A --> SigmaA
+    B --> SigmaB
+    C --> SigmaC
+
+    classDef trace fill:#eef,stroke:#88a,stroke-width:1px;
+    class SigmaA,SigmaB,SigmaC trace;
+```
+
+GateSigma ensures the **chain** remains structurally coherent.
+
+---
+
+# **7. Full Runtime Flow (Mermaid)**
+
+```mermaid
+sequenceDiagram
+    participant Z as GateZero™
+    participant D as GateDelta™
+    participant S as System
+    participant G as GateSigma™
+
+    Z->>Z: Evaluate Preconditions
+    alt Preconditions Fail
+        Z-->>D: Emit Refusal Event
+        D-->>D: Record Boundary Enforcement
+    else Preconditions Pass
+        Z-->>S: Permit Execution
+        S->>G: Emit Execution Trace
+    end
+```
+
+---
+
+# **8. What the Operational Layer Does NOT Do**
+
+The Operational Layer does **not**:
+
+- determine correctness
+- determine legality
+- determine compliance
+- capture cognition
+- establish causation
+- guarantee admissibility
+- function as a governance or adjudication engine
+
+It provides **structural discipline**, not legal consequence.
+
+---
+
+# **9. Operator Responsibilities**
+
+Operators must:
+
+- define authority envelopes
+- configure Kernel / Edition / Mode / Role
+- monitor GateDelta refusal patterns
+- inspect GateSigma traces for structural coherence
+- ensure downstream systems respect continuation boundaries
+
+Operators must **not** treat LCES artifacts as:
+
+- legal records
+- forensic chains
+- cognitive explanations
+- compliance evidence
+
+---
+
+# **10. Summary**
+
+The Operational Layer provides:
+
+- **GateZero™** — boundary definition
+- **GateDelta™** — boundary enforcement proof
+- **GateSigma™** — execution trace
+
+Together they form a **structural discipline**, not a legal or forensic system.
+
+LCES is a **procedural‑literacy framework**, not a system of law.
+---
 
 *Legal Calculus Educational System (LCES)*
 
