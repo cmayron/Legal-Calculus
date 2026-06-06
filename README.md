@@ -13,14 +13,16 @@
   <img alt="Workflow" src="https://img.shields.io/badge/workflow-Architect%20%E2%86%92%20Builder%20%E2%86%92%20Inspector-green">
   <img alt="License" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey">
 </p>
-CC BY‑NC‑SA 4.0
+
 ---
 
 <div align="center">
 
 </div>
 ---
-**LCES (Legal Calculus Execution System)** is a **structural governance architecture** for multi‑agent AI systems.
+**LCES (Legal Calculus Execution System)** 
+
+is a **structural governance architecture** for multi‑agent AI systems.
 
 It governs **authority**, **admissibility**, **progression**, **refusal**, and **artifact‑level continuity** across chains of interacting models and tools.
 
@@ -50,11 +52,8 @@ Until that proof surface is complete, LCES remains **structural governance**, no
 
 ---
 
-# **📐 DIAGRAM SECTION (GitHub‑Ready)**
-
 ### *Visual Overview of the LCES Structural Governance Architecture*
 
-Below is a clean, ASCII‑safe diagram suitable for GitHub.
 
 It visually expresses the SCU flow through the gates without implying cognition, causation, or legal consequence.
 
