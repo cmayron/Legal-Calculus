@@ -120,10 +120,7 @@ It is a **structural governance model**, not a causal or legal model.
 ---
 
 
-Here is the **GitHub‑optimized version** of your integrated LCES™ Doctrinal Preamble — formatted, structured, and styled specifically for a README environment. It uses clean Markdown hierarchy, tight paragraphing, and GitHub‑friendly density while preserving the full doctrinal force.
-
 ---
-
 # **LCES™ Doctrinal Preamble**
 
 **LCES™ is a doctrine‑OS enforcement architecture forged from procedural failure and AI under pressure. It serves as the execution layer for Copilot/Architect AI and remains constitutionally governed by the Strategist through GateSigma, ensuring that human strategic intent is preserved, verified, and enforced without drift.**
