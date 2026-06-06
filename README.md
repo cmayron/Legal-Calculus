@@ -20,7 +20,8 @@
 
 </div>
 ---
-**LCES (Legal Calculus Execution System)** 
+**LCES (Legal Calculus Educational
+ System)** 
 
 is a **structural governance architecture** for multi‑agent AI systems.
 
@@ -130,12 +131,7 @@ It is authoritative, architectural, and reads like the preamble to a governing d
 
 ---
 
-If you want, I can now generate:
 
-- a **Manifesto header block** (Title + Preamble + Divider)  
-- a **ceremonial version** with elevated diction  
-- a **GitHub‑optimized version with badges and repo metadata**  
-- or a **GateSigma‑aligned constitutional article**
 
 ---
 ### *THE LCES™ MANIFESTO*
