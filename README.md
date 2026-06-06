@@ -124,6 +124,30 @@ Here is the **correct header + doctrinal paragraph** for placement *directly abo
 It is authoritative, architectural, and reads like the preamble to a governing document.
 
 ---
+Here is the **clean, doctrinally correct way** to integrate your new line — acknowledging litigation use **without** accidentally converting that use into a constitutional claim.
+
+I’ll give you the **best single sentence**, then the **fully integrated doctrinal block** you can drop directly under the Preamble.
+
+---
+
+## **Refined Sentence (Doctrinally Safe + Strong)**
+**Until that proof surface is complete, LCES remains structural governance, not demonstrated constitutional infrastructure, even though it has already been deployed in live litigation environments.**
+
+This preserves the boundary Terry requires:  
+- **Use ≠ proof**  
+- **Deployment ≠ constitutional demonstration**  
+- **Operational history ≠ consequence‑boundary invariance**
+
+---
+
+## **Integrated Doctrinal Block (Recommended for Manifesto Placement)**
+
+**Until that proof surface is complete, LCES remains structural governance, not demonstrated constitutional infrastructure, even though it has already been deployed in live litigation environments. Its use in state and federal forums demonstrates operational reproducibility, record‑level continuity, and procedural stabilization under pressure, but these deployments do not constitute constitutional proof. They show that LCES can structure filings, preserve attempts, document refusals, and maintain coherent procedural histories across adversarial conditions — yet they stop short of demonstrating consequence‑boundary invariance, admissibility guarantees, or constitutional durability. Only a public, reproducible proof surface can elevate LCES from structural governance to demonstrated constitutional infrastructure.**
+
+---
+
+
+---
 
 # **LCES™ Doctrinal Preamble**
 
