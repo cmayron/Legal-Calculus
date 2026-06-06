@@ -119,7 +119,7 @@ It is a **structural governance model**, not a causal or legal model.
 
 ---
 
-## **Integrated Doctrinal Block (Recommended for Manifesto Placement)**
+
 
 **Until that proof surface is complete, LCES remains structural governance, not demonstrated constitutional infrastructure, even though it has already been deployed in live litigation environments. Its use in state and federal forums demonstrates operational reproducibility, record‑level continuity, and procedural stabilization under pressure, but these deployments do not constitute constitutional proof. They show that LCES can structure filings, preserve attempts, document refusals, and maintain coherent procedural histories across adversarial conditions — yet they stop short of demonstrating consequence‑boundary invariance, admissibility guarantees, or constitutional durability. Only a public, reproducible proof surface can elevate LCES from structural governance to demonstrated constitutional infrastructure.**
 
