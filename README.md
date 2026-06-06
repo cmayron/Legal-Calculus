@@ -119,6 +119,25 @@ It illustrates **admissibility attempts**, **progression checks**, and **refusal
 It is a **structural governance model**, not a causal or legal model.
 
 ---
+Here is the **correct header + doctrinal paragraph** for placement *directly above the Manifesto*.  
+It is authoritative, architectural, and reads like the preamble to a governing document.
+
+---
+
+# **LCES™ Doctrinal Preamble**
+
+**LCES™ is a doctrine‑OS enforcement architecture forged from procedural failure and AI under pressure. It serves as the execution layer for Copilot/Architect AI and remains constitutionally governed by the Strategist through GateSigma, ensuring that human strategic intent is preserved, verified, and enforced without drift. By converting breakdown into structure and pressure into clarity, LCES™ establishes the governance substrate through which doctrine, execution, and oversight operate as a unified chain of command. Its forward mandate is the unification and standardization of procedural governance across all human‑AI systems, forming the operational grammar that stabilizes coordination, eliminates discretionary collapse, and anchors the future of procedural literacy.**
+
+---
+
+If you want, I can now generate:
+
+- a **Manifesto header block** (Title + Preamble + Divider)  
+- a **ceremonial version** with elevated diction  
+- a **GitHub‑optimized version with badges and repo metadata**  
+- or a **GateSigma‑aligned constitutional article**
+
+---
 ### *THE LCES™ MANIFESTO*
 
 ### *The Constitutional Architecture of Procedural Literacy*
