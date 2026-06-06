@@ -7476,8 +7476,138 @@ It relies on observable, replayable, falsifiable evidence.**
 ---
 
 
+================================================================
+                         LCES LICENSE SECTION
+================================================================
 
-Just tell me which one you want next.
+This system declares itself an **admissibility‑preserving process**.
+Inadmissible movement cannot become protected consequence.
+
+This License Section does not rely on copyright, trademark,
+naming rights, origin claims, or first‑use assertions. It relies
+exclusively on **public, replayable, falsifiable evidence**.
+
+----------------------------------------------------------------
+CATEGORY DECLARATION
+----------------------------------------------------------------
+This system operates within the governance category:
+
+    "Admissibility‑Preserving Process"
+
+A process is admissibility‑preserving only if inadmissible
+movement is prevented from binding into consequence.
+
+----------------------------------------------------------------
+PROOF SURFACE DECLARATION
+----------------------------------------------------------------
+The category claim is substantiated by the following public
+proof surfaces:
+
+1. Refusal Surfaces (GateDelta)
+   - Evidence of boundary detection and boundary halt
+   - Triggering condition and prevented consequence
+   - Influence vectors at moment of refusal
+   - Replayable refusal snapshot
+
+2. Influence‑Safe Activation Records (ILI)
+   - Evidence of reviewer sovereignty preservation
+   - Visible and suppressed alternatives
+   - Framing, compression, and momentum vectors
+   - Override capacity and influence‑safe state
+
+3. Replayable Boundary Logs
+   - Boundary entry, halt, exit
+   - Consequence‑binding conditions
+   - Full replay and falsification capability
+
+These surfaces are publicly exposed in:
+
+    /proof/refusal-surfaces/
+    /proof/influence-records/
+    /proof/boundary-logs/
+
+----------------------------------------------------------------
+ENFORCEMENT MECHANISMS
+----------------------------------------------------------------
+Admissibility preservation is enforced by:
+
+    GateDelta  – Refusal Proof & Boundary Halt
+    ILI        – Influence Layer Integrity
+
+GateDelta ensures inadmissible movement is halted and logged.
+ILI ensures reviewer sovereignty is preserved and influence
+vectors are surfaced.
+
+Together, these mechanisms guarantee that inadmissible movement
+cannot become protected consequence.
+
+----------------------------------------------------------------
+SCOPE OF THIS LICENSE SECTION
+----------------------------------------------------------------
+This License Section governs:
+- category declaration
+- proof surface requirements
+- boundary enforcement mechanisms
+- admissibility‑preserving obligations
+
+It does not govern:
+- ownership of expression
+- naming rights
+- commercial use
+- derivative works
+
+Those matters fall outside the governance category and are
+addressed separately if needed.
+
+----------------------------------------------------------------
+CONSTITUTIONAL CLAIM
+----------------------------------------------------------------
+The system is in the admissibility‑preserving category **only
+because**:
+
+- inadmissible movement is halted,
+- refusal is proven,
+- influence is bounded,
+- consequence cannot bind from inadmissible state.
+
+This License Section is the constitutional declaration of that
+fact.
+================================================================
+
+
+
+================================================================
+                     IP PERIMETER (NON‑GOVERNANCE)
+================================================================
+
+The following applies only to the written expression contained
+in this repository. It does **not** define governance category,
+does **not** establish admissibility, and does **not** override
+the constitutional License Section above.
+
+Copyright (c) 2026 Charles Mayron.
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this repository’s written materials to use,
+copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the written expression, subject to the following
+conditions:
+
+- This IP perimeter applies only to expressive text.
+- It does not apply to governance claims.
+- It does not apply to admissibility‑preserving mechanisms.
+- It does not apply to proof surfaces or boundary logs.
+
+THE WRITTEN MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+AND NONINFRINGEMENT.
+
+This IP perimeter is subordinate to the constitutional License
+Section above and does not modify or limit the governance
+category declaration.
+================================================================
+
 ---
 
 ## **Copyright Notice**
