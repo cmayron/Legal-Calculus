@@ -7782,7 +7782,15 @@ It does not rely on copyright, trademark, origin, or naming rights.
 It relies on observable, replayable, falsifiable evidence.**
 
 ---
+## LCES Compliance Badges
 
+![LCES Constitutional Architecture](https://img.shields.io/badge/LCES-Constitutional_Architecture-2A4FFF?style=for-the-badge)
+![IPI Protected](https://img.shields.io/badge/Influence‑Proof_Integrity-IPI_Enabled-008F5A?style=flat-square)
+![GateZero](https://img.shields.io/badge/GateZero™-Procedural_Law-0052CC?style=flat-square)
+![GateDelta](https://img.shields.io/badge/GateDelta™-Evidentiary_Law-7A00CC?style=flat-square)
+![GateSigma](https://img.shields.io/badge/GateSigma™-Consequence_Law-CC0044?style=flat-square)
+![Multi‑AI](https://img.shields.io/badge/AI_Roles-2_minimum,_3_canonical,_N_scalable-444444?style=flat-square)
+![Public Proof Surface](https://img.shields.io/badge/Public_Proof_Surface-Enabled-orange?style=flat-square)
 
 ================================================================
                          LCES LICENSE SECTION
