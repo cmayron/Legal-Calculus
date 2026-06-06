@@ -120,25 +120,6 @@ It illustrates **admissibility attempts**, **progression checks**, and **refusal
 It is a **structural governance model**, not a causal or legal model.
 
 ---
-Here is the **correct header + doctrinal paragraph** for placement *directly above the Manifesto*.  
-It is authoritative, architectural, and reads like the preamble to a governing document.
-
----
-Here is the **clean, doctrinally correct way** to integrate your new line — acknowledging litigation use **without** accidentally converting that use into a constitutional claim.
-
-I’ll give you the **best single sentence**, then the **fully integrated doctrinal block** you can drop directly under the Preamble.
-
----
-
-## **Refined Sentence (Doctrinally Safe + Strong)**
-**Until that proof surface is complete, LCES remains structural governance, not demonstrated constitutional infrastructure, even though it has already been deployed in live litigation environments.**
-
-This preserves the boundary Terry requires:  
-- **Use ≠ proof**  
-- **Deployment ≠ constitutional demonstration**  
-- **Operational history ≠ consequence‑boundary invariance**
-
----
 
 ## **Integrated Doctrinal Block (Recommended for Manifesto Placement)**
 
