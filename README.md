@@ -19,6 +19,105 @@ CC BY‑NC‑SA 4.0
 <div align="center">
 
 </div>
+---
+**LCES (Legal Calculus Execution System)** is a **structural governance architecture** for multi‑agent AI systems.
+
+It governs **authority**, **admissibility**, **progression**, **refusal**, and **artifact‑level continuity** across chains of interacting models and tools.
+
+LCES does **not** claim to reconstruct cognition, prove causation, or guarantee legal consequence.
+
+It governs **structure**, not **mind**.
+
+LCES provides:
+
+- **SCUs** — structured units with explicit basis, authority, jurisdiction, and STOP‑rule boundaries
+- **GateZero** — admissibility attempts
+- **GateSigma** — structural progression checks
+- **GateDelta** — refusal surfaces
+- **IPI** — artifact continuity and inheritance checks
+
+LCES is a **candidate constitutional architecture**.
+
+Its consequence‑boundary claims require a **public, reproducible proof surface** showing:
+
+- what was attempted
+- what failed
+- what was refused
+- what effect was prevented
+- what replay demonstrates the boundary under changed conditions
+
+Until that proof surface is complete, LCES remains **structural governance**, not demonstrated constitutional infrastructure.
+
+---
+
+# **📐 DIAGRAM SECTION (GitHub‑Ready)**
+
+### *Visual Overview of the LCES Structural Governance Architecture*
+
+Below is a clean, ASCII‑safe diagram suitable for GitHub.
+
+It visually expresses the SCU flow through the gates without implying cognition, causation, or legal consequence.
+
+```
+                   ┌──────────────────────────────┐
+                   │   Structural Control Unit     │
+                   │   (SCU: basis, authority,     │
+                   │    jurisdiction, STOP rules)  │
+                   └───────────────┬──────────────┘
+                                   │
+                                   ▼
+                     ┌────────────────────────┐
+                     │       GateZero          │
+                     │  Admissibility Attempt  │
+                     │  - authority valid?      │
+                     │  - basis present?        │
+                     │  - STOP-rule safe?       │
+                     └─────────────┬───────────┘
+                                   │ pass
+                                   │
+                                   ▼
+                     ┌────────────────────────┐
+                     │       GateSigma         │
+                     │ Structural Progression  │
+                     │  - context fresh?        │
+                     │  - inheritance valid?    │
+                     │  - scope unchanged?      │
+                     └─────────────┬───────────┘
+                                   │ pass
+                                   │
+                                   ▼
+                     ┌────────────────────────┐
+                     │   Downstream System     │
+                     │   (action attempt)      │
+                     └─────────────┬───────────┘
+                                   │
+                                   ▼
+                     ┌────────────────────────┐
+                     │       GateDelta         │
+                     │     Refusal Surface     │
+                     │  - STOP-rule triggered? │
+                     │  - authority drift?     │
+                     │  - evidence expired?    │
+                     │  - custody broken?      │
+                     └─────────────┬───────────┘
+                                   │ refusal
+                                   ▼
+                     ┌────────────────────────┐
+                     │   Refusal SCU + Log     │
+                     │   (prevented effect)    │
+                     └────────────────────────┘
+```
+
+---
+
+
+**Caption:**
+
+This diagram shows the **structural flow** of an SCU through the LCES gates.
+
+It illustrates **admissibility attempts**, **progression checks**, and **refusal surfaces** without implying cognitive transparency or constitutional proof.
+
+It is a **structural governance model**, not a causal or legal model.
 
 ---
 ### *THE LCES™ MANIFESTO*
