@@ -20,8 +20,6 @@
 
 </div>
 ---
-**LCES (Legal Calculus Educational
- System)** 
 
 is a **structural governance architecture** for multi‑agent AI systems.
 
