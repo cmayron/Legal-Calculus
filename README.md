@@ -7651,7 +7651,105 @@ index 3a4f2b1..9c7d8d2 100644
 +
  ## System Bootloader
  (Edition loading, SCU initialization, GateZero)
+---
+# LCES CONSTITUTIONAL LICENSE SECTION
+# (This section governs implementation. The legal license follows below.)
 
+## 1. Human Sovereignty (Strategist Authority)
+All implementations of the Legal Calculus Educational System (LCES) must preserve
+the Strategist as the constitutional source of admissibility, constraint definition,
+category definition, and consequence boundaries. No AI system may reinterpret,
+override, or expand Strategist authority.
+
+## 2. Influence‑Proof Integrity (IPI Requirement)
+All implementations must include an Influence‑Proof Integrity (IPI) layer that
+prevents inadmissible influence, adversarial reframing, unauthorized constraint
+modification, or category‑shifting. IPI protects the Strategist’s intent and ensures
+that no external or internal actor can distort admissibility definitions.
+
+## 3. Multi‑AI Constitutional Requirement
+LCES requires a minimum of **two independent AI roles** to preserve separation of
+powers and prevent self‑review or self‑justification.  
+The **three‑role configuration** (Architect, Builder, Inspector) is the canonical
+implementation.  
+The architecture **scales to N‑agent systems** without loss of admissibility,
+provided all agents operate within the GateZero → GateDelta → GateSigma
+constitutional chain and under Strategist authority with IPI protection.
+
+## 4. GateZero™ — Procedural Admissibility
+All movement must pass through GateZero. No action may proceed unless it is
+authorized, in‑scope, constraint‑compliant, and admissible. GateZero is the
+constitutional veto on action.
+
+## 5. GateDelta™ — Evidentiary Integrity
+All refusals must be logged through GateDelta. Each refusal must produce a
+timestamped, constraint‑bound, movement‑linked record. GateDelta is the
+constitutional veto on secrecy.
+
+## 6. GateSigma™ — Consequence Admissibility
+No inadmissible consequence may bind. GateSigma evaluates all outcomes and blocks
+any consequence that violates constraints, exceeds authority, or creates inadmissible
+effects. GateSigma is the constitutional veto on consequence.
+
+## 7. Public Proof Surface Requirement
+All gates must emit public, verifiable traces:
+- GateZero authorization logs
+- GateDelta refusal records
+- GateSigma admissibility evaluations
+- IPI influence‑integrity logs
+
+These traces form the Public Proof Surface, enabling transparency, auditability,
+and external verification.
+
+## 8. Closed Constitutional Loop
+All implementations must preserve the full constitutional loop:
+
+Strategist → IPI → GateZero → AI Execution → GateDelta → GateSigma → Public Proof Surface → Strategist
+
+This loop ensures human sovereignty, admissibility preservation, and constitutional
+self‑governance.
+
+# End of Constitutional License Section
+# The legal license begins below.
+
+
+# LEGAL LICENSE (CC BY‑NC‑SA 4.0 + MIT HYBRID)
+
+## Educational Content License — Creative Commons Attribution‑NonCommercial‑ShareAlike 4.0 International
+All educational, conceptual, explanatory, and governance‑architecture content in
+this repository is licensed under the Creative Commons Attribution‑NonCommercial‑
+ShareAlike 4.0 International License (CC BY‑NC‑SA 4.0).
+
+You may:
+- Share — copy and redistribute the material in any medium or format  
+- Adapt — remix, transform, and build upon the material  
+
+Under the following terms:
+- Attribution — You must give appropriate credit.  
+- NonCommercial — You may not use the material for commercial purposes.  
+- ShareAlike — If you remix, transform, or build upon the material, you must
+  distribute your contributions under the same license.
+
+## Code License — MIT License
+All functional code, scripts, and software components in this repository are
+licensed under the MIT License:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the “Software”), to deal in the
+Software without restriction, including without limitation the rights to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+---
 
 **LCES LICENSE & NOTICE (Final Integrated Version)**
 This License applies to LCES Version 7.0 and all minor revisions
