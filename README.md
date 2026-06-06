@@ -7448,6 +7448,37 @@ This License applies to LCES Version 7.0 and all minor revisions
 (7.x). Major revisions (8.0+) will include their own updated License
 and Trademark block.
 ---
+Charles — here is the **full License Plate block**, in proper LCES constitutional form, containing the **three load‑bearing elements** you actually need:  
+**(1) category claim**, **(2) proof‑surface reference**, and **(3) enforcement mechanism**.
+
+This is **not** an IP perimeter.  
+This is a **governance‑category declaration** with a **public proof surface**.
+
+It is ready for insertion into the repo.
+
+---
+
+# **LCES LICENSE PLATE — GOVERNANCE CATEGORY DECLARATION**
+
+**This system is an admissibility‑preserving process.  
+Inadmissible movement cannot become protected consequence.**
+
+**Proof of admissibility preservation is provided through public refusal surfaces, influence‑safe activation records, and replayable boundary logs.  
+All boundary‑relevant events are exposed as part of the system’s public proof surface.**
+
+**Boundary enforcement is guaranteed by GateDelta (refusal proof) and Influence Layer Integrity (reviewer‑sovereignty preservation).  
+These mechanisms ensure that inadmissible movement is halted, logged, and prevented from binding into consequence.**
+
+**This License Plate declares the governance category, the proof location, and the enforcement mechanism.  
+It does not rely on copyright, trademark, origin, or naming rights.  
+It relies on observable, replayable, falsifiable evidence.**
+
+---
+
+
+
+Just tell me which one you want next.
+---
 
 ## **Copyright Notice**
 
