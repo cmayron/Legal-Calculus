@@ -7717,6 +7717,71 @@ Records what occurred when the system proceeded. Preserves interaction
 artifacts such as prompts, retrieval sets, constraints, and tool calls.
 Does not claim to capture cognition or the true cause of any outcome.
 
+# **PUBLIC PROOF SURFACE**
+
+This system declares itself an **admissibility‑preserving process**.
+
+Inadmissible movement cannot become protected consequence.
+
+The following public surfaces provide **replayable, falsifiable evidence** of boundary enforcement:
+
+## **1. Refusal Surfaces (GateDelta)**
+
+GateDelta exposes the system’s refusal events, including:
+
+- the inadmissible triggering condition
+- the prevented action
+- the boundary rule invoked
+- the influence vectors present at the moment of refusal
+- the replayable state snapshot
+
+These surfaces prove that inadmissible movement was detected, halted, and prevented from binding into consequence.
+
+## **2. Influence‑Safe Activation Records (ILI)**
+
+ILI records demonstrate that reviewer sovereignty was preserved.
+
+Each record includes:
+
+- visible and suppressed alternatives
+- interface compression state
+- framing and momentum vectors
+- reviewer override capacity
+
+These surfaces prove that the reviewer’s judgment was not shaped by system influence.
+
+## **3. Replayable Boundary Logs**
+
+Boundary logs provide a complete, auditable trace of:
+
+- boundary entry
+- boundary halt
+- boundary exit
+- consequence‑binding conditions
+
+These logs make boundary enforcement observable, reproducible, and falsifiable.
+
+## **4. Enforcement Mechanisms**
+
+Admissibility preservation is enforced by:
+
+- **GateDelta** — refusal proof and boundary‑halt surface
+- **Influence Layer Integrity (ILI)** — reviewer‑sovereignty preservation
+
+Together, these mechanisms ensure that inadmissible movement cannot become protected consequence.
+
+## **5. Public Location of Proof Surfaces**
+
+All refusal surfaces, influence‑safe activation records, and boundary logs are publicly exposed in:
+
+```
+/proof/refusal-surfaces/
+/proof/influence-records/
+/proof/boundary-logs/
+```
+
+Each entry is timestamped, replayable, and independently verifiable.
+
 -----------------------------------------------------------------------
 END OF DOCUMENT
 -----------------------------------------------------------------------
