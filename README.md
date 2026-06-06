@@ -5800,6 +5800,216 @@ LCES™ operates inside a version‑controlled procedural environment in which G
 /docs/bootloader/BOOTLOADER.md
 
 ---
+# **SUPER‑BOOTLOADER v3.1**
+
+### *Unified Runtime Orchestration for GateZero™ / GateDelta™ / GateSigma™*
+
+---
+
+# **0. Purpose of the SUPER‑BOOTLOADER**
+
+The SUPER‑BOOTLOADER is the **root operational orchestrator** for all LCES‑compliant systems.
+
+It governs:
+
+- system initialization
+- authority envelope loading
+- posture establishment
+- GateZero boundary checks
+- GateDelta refusal routing
+- GateSigma trace routing
+- continuation emission discipline
+
+The SUPER‑BOOTLOADER does **not** assert:
+
+- legality
+- compliance
+- cognition
+- causation
+- admissibility
+
+It enforces **structural discipline**, not legal consequence.
+
+---
+
+# **1. High‑Level Runtime Diagram (Mermaid)**
+
+```mermaid
+flowchart TD
+    Init[System Init<br>Kernel/Edition/Mode/Role Load] --> Z[GateZero™<br>Boundary Check]
+
+    Z -->|FAIL| D[GateDelta™<br>Refusal Event<br>Record + Halt]
+    Z -->|PASS| Exec[System Execution]
+
+    Exec --> G[GateSigma™<br>Execution Trace]
+    G --> Cont[Continuation Emission]
+```
+
+---
+
+# **2. Initialization Sequence**
+
+The SUPER‑BOOTLOADER initializes:
+
+- **Kernel** (constitutional substrate)
+- **Edition** (jurisdictional variant)
+- **Mode** (operational posture)
+- **Role** (functional authority)
+- **Authority Envelope** (scope + limits)
+- **Posture** (current structural state)
+
+Initialization loads **structural constraints**, not correctness or legal authority.
+
+---
+
+# **3. GateZero™ Activation Chain**
+
+GateZero is invoked **before any system action**.
+
+GateZero checks:
+
+- authority envelope
+- transformation permissions
+- posture compatibility
+- continuation boundaries
+- structural preconditions
+
+If **any** condition fails → GateDelta is invoked.
+
+```mermaid
+flowchart LR
+    Z[GateZero™] -->|FAIL| D[GateDelta™]
+    Z -->|PASS| Exec[Execute System Step]
+```
+
+GateZero defines **when the system must not proceed**.
+
+---
+
+# **4. GateDelta™ Integration (v3.1 Enhanced)**
+
+GateDelta is the **refusal‑proof layer**.
+
+It records the refusal event triggered by GateZero.
+
+### **GateDelta records:**
+
+- failed precondition
+- triggering boundary
+- system posture at refusal
+- authority envelope at refusal
+- continuation that was blocked
+- prevented downstream consequence
+
+### **GateDelta entry fields:**
+
+- timestamp
+- triggering condition
+- structural reason for refusal
+- prevented action
+
+### **Operational Rule**
+
+```
+If GateZero returns FAIL:
+    → Emit GateDelta refusal event
+    → Serialize refusal record
+    → Halt continuation emission
+    → Return control to caller
+```
+
+GateDelta does **not** assert correctness, legality, or causation.
+
+It documents **boundary enforcement only**.
+
+---
+
+# **5. System Execution Layer**
+
+If GateZero passes, the system executes:
+
+- transformations
+- retrievals
+- tool calls
+- posture transitions
+- continuation generation
+
+Execution is **structural**, not cognitive or causal.
+
+---
+
+# **6. GateSigma™ Routing**
+
+After execution, GateSigma records:
+
+- prompts
+- retrieval sets
+- constraints
+- tool calls
+- transformations
+- posture transitions
+- continuation emissions
+
+GateSigma enforces:
+
+- cross‑system consistency
+- cumulative authority limits
+- emergent risk control
+- cross‑boundary posture validity
+- continuation reachability
+
+GateSigma is a **trace surface**, not a reasoning chain.
+
+---
+
+# **7. System‑of‑Systems Chain Diagram**
+
+```mermaid
+flowchart LR
+    A[System A] --> B[System B] --> C[System C]
+
+    A --> SigmaA[GateSigma A]
+    B --> SigmaB[GateSigma B]
+    C --> SigmaC[GateSigma C]
+
+    classDef trace fill:#eef,stroke:#88a,stroke-width:1px;
+    class SigmaA,SigmaB,SigmaC trace;
+```
+
+GateSigma ensures the **chain** remains structurally coherent.
+
+---
+
+# **8. Continuation Emission Discipline**
+
+A continuation may be emitted **only if**:
+
+- GateZero passed
+- GateDelta was not triggered
+- GateSigma recorded a valid trace
+- the continuation is structurally reachable
+- the continuation is within downstream authority envelopes
+
+If any condition fails → continuation is suppressed.
+
+---
+
+# **9. SUPER‑BOOTLOADER Summary**
+
+The SUPER‑BOOTLOADER enforces:
+
+- **GateZero™** — boundary definition
+- **GateDelta™** — boundary enforcement proof
+- **GateSigma™** — execution trace
+
+The runtime sequence is:
+
+```
+Init → GateZero → (fail → GateDelta) → Execute → GateSigma → Continue
+```
+
+LCES is a **discipline of boundaries**, not a system of law.
+---
 # SUPER‑BOOTLOADER
 # LCES CONSTITUTIONAL ACTIVATION CHAIN
 # VERSION 7.1
