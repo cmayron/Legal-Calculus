@@ -7291,6 +7291,115 @@ Attribution must reference:
 “LCES Constitutional Architecture, Version 7.1”
 and include a link to the canonical repository.
 ---
+# LCES LEGAL NOTICE, LICENSE, AND TRADEMARK DECLARATION
+# GateZero™ / GateDelta™ / GateSigma™
+
+This document governs the use of the LCES gate architecture, including
+GateZero™, GateDelta™, and GateSigma™. These components form part of the
+LCES procedural‑literacy framework. They provide structural boundaries,
+refusal documentation, and execution tracing. They do not assert legal
+authority, cognitive insight, causal explanation, or forensic sufficiency.
+
+-----------------------------------------------------------------------
+SECTION 1 — NOTICE
+-----------------------------------------------------------------------
+
+GateZero™, GateDelta™, and GateSigma™ are structural components of LCES.
+They are designed to support procedural clarity by defining boundaries,
+recording refusal events, and preserving interaction traces.
+
+These components do NOT:
+• determine correctness or compliance
+• capture cognition or internal reasoning
+• establish causation or legal justification
+• guarantee admissibility or sufficiency for litigation
+• function as governance, adjudication, or regulatory mechanisms
+
+They preserve artifacts of interaction only.
+
+Use of these components does not create or imply any legal duty,
+standard of care, reliance interest, or professional obligation.
+
+-----------------------------------------------------------------------
+SECTION 2 — LICENSE
+-----------------------------------------------------------------------
+
+Permission is granted to use, reproduce, and distribute the LCES gate
+architecture under the following conditions:
+
+1. GateZero™ may be used solely to define refusal boundaries. It does
+   not certify that any permitted action is lawful, correct, or compliant.
+
+2. GateDelta™ may be used solely to document refusal events, including
+   the triggering condition and the prevented action. It does not assert
+   correctness, admissibility, cognition, or causal reasoning.
+
+3. GateSigma™ may be used solely to record execution traces, including
+   prompts, retrieval sets, constraints, and tool calls. It does not
+   represent cognition or the true cause of any outcome.
+
+4. These components may not be represented as legal safeguards,
+   compliance engines, forensic systems, or adjudicative tools.
+
+5. Derivative works must not use the GateZero™, GateDelta™, or
+   GateSigma™ names as branding or imply endorsement.
+
+6. Commercial use of the marks or their equivalents is prohibited
+   without explicit permission.
+
+These components are provided “as‑is,” without warranty of correctness,
+legality, or fitness for any purpose.
+
+-----------------------------------------------------------------------
+SECTION 3 — TRADEMARK DECLARATION
+-----------------------------------------------------------------------
+
+The names, marks, and identifiers GateZero™, GateDelta™, and GateSigma™
+are trademarks of their creator. This includes:
+
+• the names “GateZero”, “GateDelta”, “GateSigma”
+• the symbolic forms Gate0, GateΔ, GateΣ
+• associated terminology and structural labels within LCES
+
+Prohibited uses:
+• using the marks to imply endorsement or affiliation
+• selling products or services under these names
+• registering or attempting to register these marks or confusingly
+  similar marks
+• branding derivative systems with these names
+
+Permitted uses:
+• non‑commercial educational use
+• attribution‑compliant sharing
+• adaptation under CC BY‑NC‑SA 4.0, provided the marks are not used as
+  branding for derivative works
+
+All rights reserved to the extent permitted by applicable law.
+
+-----------------------------------------------------------------------
+SECTION 4 — ARCHITECTURAL DEFINITIONS
+-----------------------------------------------------------------------
+
+GateZero™ — Refusal Boundary  
+Defines the preconditions under which the system must not proceed.
+Specifies boundary conditions only. Does not assert correctness,
+legality, or compliance.
+
+GateDelta™ — Refusal‑Proof Layer  
+Documents refusal events, the triggering condition, and the prevented
+action. Records boundary enforcement. Does not assert cognition,
+causation, correctness, or forensic sufficiency.
+
+GateSigma™ — Execution Trace  
+Records what occurred when the system proceeded. Preserves interaction
+artifacts such as prompts, retrieval sets, constraints, and tool calls.
+Does not claim to capture cognition or the true cause of any outcome.
+
+-----------------------------------------------------------------------
+END OF DOCUMENT
+-----------------------------------------------------------------------
+---
+
 # ======= START MODULE — LCES GENERAL BOOTLOADER — THE KERNEL BOOTLOADER =======
 
 
