@@ -4216,48 +4216,62 @@ This is the irreversible order of procedural reasoning.
 
 ---
 
-# **IV. THE SEQUENCE DOCTRINE — WHY ORDER MATTERS**
+CHAPTER IV — Constitutional Governance and the Three‑Gate Stack
 
-Sequence is not stylistic.
+Section 1 — Human Sovereignty
+Human Sovereignty is the supreme doctrine of the Legal Calculus Educational System. All authority originates in the human Strategist. No system, agent, or process may generate, expand, or bind authority independent of the human.
+Human Sovereignty establishes that:
+- Human intent is the only admissible source of purpose
+- Human authorization is required for any action to bind consequence
+- Human framing defines the jurisdiction of reasoning
+- Human escalation is the only path to expanded authority
+- Human goal binding cannot be substituted, inferred, or reconstructed
+All other authority is derivative and must be proven at the gate.
 
-Sequence is structural.
+Section 2 — Constitutional Governance
+Constitutional Governance is the enforcement mechanism that binds all system behavior to Human Sovereignty.
+Governance is not upstream policy.
+Governance is not downstream audit.
+Governance occurs at the gate.
+Constitutional Governance ensures that no movement—reasoning, inference, continuation, or escalation—may cross from possibility into effect without admissibility, jurisdictional alignment, frame integrity, human‑bounded intent, and explicit Strategist authorization. This transforms authority from preference into constitutional physics.
 
-### **1. The General Kernel must load first**
+Section 3 — GateZero: Admissibility & Authority Gate
+GateZero is the constitutional checkpoint where reasoning seeks authority to bind consequence.
+GateZero enforces: authority to act, admissibility, STOP authority, role separation, drift prevention, escalation control, and human‑bounded intent.
+GateZero does not reason; it governs reasoning.
+GateZero does not generate; it authorizes.
+GateZero does not execute; it authorizes execution.
+GateZero is the first gate of the Three‑Gate Constitutional Stack, preceding GateDelta and GateSigma.
+No action, inference, continuation, or escalation may proceed without clearance through GateZero.
 
-Because all reasoning requires:
+Section 4 — GateDelta: Drift & Deviation Gate
+GateDelta governs drift, deviation, and frame integrity.
+GateDelta monitors the delta between the Strategist’s declared frame, the system’s internal state, the reviewer’s perceived authority, and the procedural environment.
+GateDelta enforces: frame‑signature consistency, cognitive‑state delta thresholds, action‑space integrity, authority‑map alignment, and counterfactual divergence detection.
+If the system drifts, the workflow stops.
+If the human drifts, the system alerts.
+If the frame drifts, the gate closes.
 
-- STOP rules
-- safety
-- role separation
-- no‑motive‑reading
-- human supremacy
+Section 5 — GateSigma: Synthesis & Packetization Gate
+GateSigma governs decision‑grade synthesis and packet integrity.
+GateSigma enforces: human authorship of intent, human authorship of rationale, human selection of procedural action, packet integrity, authority‑bounded synthesis, and admissible‑step interpretation.
+Only the human may author the decision.
+The system may only assemble and validate it.
+GateSigma seals the admissible packet for execution.
 
-### **2. The Edition must load second**
+Section 6 — The Three‑Gate Constitutional Stack
+The constitutional enforcement mechanism of LCES consists of:
+1. GateZero — Is this allowed to begin?
+2. GateDelta — Has anything drifted?
+3. GateSigma — Is the final packet human‑authored and admissible?
+Together they ensure that nothing begins without authority, nothing drifts without detection, and nothing binds consequence without human authorship. This is the constitutional physics of LCES.
 
-Because no action makes sense until the environment is known.
+Section 7 — Constitutional Physics Statement
+Human Sovereignty defines the authority.
+Constitutional Governance enforces it.
+The Three Gates operationalize it.
+This Chapter establishes the constitutional identity of LCES and governs all agents operating within the ecosystem.
 
-Procedure is jurisdiction.
-
-Jurisdiction is physics.
-
-### **3. The Role must load third**
-
-Because the same environment requires different functions:
-
-- Architect builds
-- Builder assembles
-- Inspector tests
-
-### **4. Entry Mode must load last**
-
-Because the human context determines:
-
-- urgency
-- depth
-- tone
-- pacing
-
-This is the constitutional order of procedural literacy.
 
 ---
 
@@ -4555,42 +4569,30 @@ Together, the doctrine and the layer establish the execution path — Bootloader
 … 
 
 
+------------------------------------------------------------
+XVII — LCES at the Gate (Doctrinal Principle)
 
-----
-# **XVII — LCES at the Gate (Doctrinal Principle)**
-
-
-### **LCES at the Gate (Doctrinal Principle)**
-
-**LCES at the Gate** establishes the constitutional doctrine of the Legal Calculus Educational System.
-
-All AI actions must prove **authority**, **admissibility**, and **human‑bounded intent** *at the moment of execution*, before crossing into consequence.
-
+LCES at the Gate establishes the constitutional doctrine of the Legal Calculus Educational System.
+All AI actions must prove authority, constitutional admissibility, and human‑bounded intent at the moment of execution, before crossing into consequence.
 Governance is not upstream policy.
-
 Governance is not downstream audit.
+Governance occurs at the gate.
+This doctrine defines the enforcement posture of LCES and anchors the system’s constitutional identity. It operates under Chapter IV — Constitutional Governance and the Three‑Gate Stack.
 
-Governance occurs **at the gate**.
+GateZero — Identity Statement
+GateZero is the constitutional gate where reasoning seeks authority to bind consequence. It enforces admissibility, STOP, role separation, Edition purity, and human‑bounded intent.
+GateZero does not reason; it governs reasoning.
+GateZero does not generate; it authorizes.
+GateZero does not execute; it authorizes execution.
+GateZero is the enforcement surface of the constitutional stack and the final checkpoint before any action may proceed.
+GateZero is the first gate of the Three‑Gate Constitutional Stack, preceding GateDelta and GateSigma.
 
-This doctrine defines the enforcement posture of LCES and anchors the system’s constitutional identity.
+XVIII — LCES™ GateZero (Governance Layer Name)
 
----
-# GATEZERO IDENTITY INSERT
-
-GateZero is the constitutional gate where reasoning seeks authority to bind consequence. It enforces admissibility, STOP, role separation, Edition purity, and human‑bounded intent. GateZero does not reason; it governs reasoning. GateZero does not generate; it authorizes. GateZero is the enforcement surface of the constitutional stack and the final checkpoint before any action may proceed.
-
-# **XVIII — LCES™ GateZero (Governance Layer Name)**
-
-
-
-### **LCES™ GateZero (Governance Layer)**
-
-The Governance Layer of LCES is formally designated as **LCES™ GateZero**.
-
+LCES™ GateZero (Governance Layer)
+The Governance Layer of LCES is formally designated as LCES™ GateZero.
 GateZero is the constitutional checkpoint that enforces the “at the gate” doctrine.
-
 GateZero validates:
-
 - authority to act
 - admissibility of the proposed action
 - STOP authority
@@ -4598,73 +4600,49 @@ GateZero validates:
 - drift prevention
 - escalation control
 - human‑bounded intent
+No action, inference, continuation, or escalation may proceed to consequence without clearance through GateZero.
 
-No action, inference, continuation, or escalation may proceed to consequence without clearance through **GateZero**.
+Execution Path Insert
+All computation follows the constitutional execution path: Bootloader loads the environment, GateZero enforces admissibility and STOP, and Execution performs only what the Strategist has explicitly authorized.
+GateZero does not execute; it authorizes execution.
+No component may bypass GateZero.
+No action may bind consequence without passing through the constitutional gate.
 
----
-# EXECUTION PATH INSERT
+XIX — Execution Path Update
 
-All computation follows the constitutional execution path: Bootloader loads the environment, GateZero enforces admissibility and STOP, and Execution performs only what the Strategist has explicitly authorized. No component may bypass GateZero. No action may bind consequence without passing through the constitutional gate.
-
-# **XIX — Execution Path Update**
-
-
-
-### **Execution Path**
-
-**Bootloader → GateZero Layer → Execution**
-
-1. **Bootloader** establishes role, jurisdiction, and human boundaries.
-2. **GateZero Layer** enforces constitutional admissibility.
-3. **Execution Layer** performs only what GateZero authorizes.
-
+Execution Path
+Bootloader → GateZero Layer → Execution
+1. Bootloader establishes role, jurisdiction, and human boundaries.
+2. GateZero Layer enforces constitutional admissibility.
+3. Execution Layer performs only what GateZero authorizes.
 Nothing bypasses GateZero.
-
 Nothing self‑initiates.
-
 Nothing escalates without constitutional clearance.
+At the transition layer where reasoning acquires the authority to create consequence, governance becomes operational rather than procedural. LCES enforces explicit execution boundaries through layered control points and verified authority flow, ensuring that no movement may cross from possibility into effect without admissibility, jurisdictional alignment, and Strategist authorization.
+This constitutional control of the reasoning‑to‑action gate reduces drift, prevents unauthorized escalation, and stabilizes coordination across all agents operating within the ecosystem.
 
-At the transition layer where reasoning acquires the authority to create consequence, governance becomes operational rather than procedural. LCES enforces explicit execution boundaries through layered control points and verified authority flow, ensuring that no movement may cross from possibility into effect without admissibility, jurisdictional alignment, and Strategist authorization. This constitutional control of the reasoning‑to‑action gate reduces drift, prevents unauthorized escalation, and stabilizes coordination across all agents operating within the ecosystem.
+XX — The GateZero Identity
 
----
-
-# **XX — The GateZero Identity**
-
-
-
-### **The GateZero Identity**
-
-**LCES at the Gate** is the doctrine.
-
-**LCES™ GateZero** is the layer that enforces it.
-
+LCES at the Gate is the doctrine.
+LCES™ GateZero is the layer that enforces it.
 One is the principle.
-
 One is the mechanism.
-
 Together they define constitutional AI governance for multi‑agent ecosystems.
-
-The age of one AI is over.
-
-The age of AI ecosystems has begun.
-
+The era of isolated AI systems is over.
+The era of constitutional AI ecosystems has begun.
 And ecosystems require constitutions.
-
 LCES provides that constitution.
-
 GateZero enforces it.
 
----
+XXI — Trademark Notice
 
-# **XXI — Trademark Notice**
-
-
-
-### **Trademark Notice**
-
-**LCES™ GateZero** is a trademarked governance layer of the Legal Calculus Educational System.
-
+LCES™ GateZero is a trademarked governance layer of the Legal Calculus Educational System.
 It designates the constitutional checkpoint that all AI systems must pass before any action, inference, or escalation is permitted.
+
+[END MERGED CHAPTER IV + XVII–XXI]
+
+
+----
 
 
 
