@@ -3540,178 +3540,7 @@ Below is the **fully integrated, polished, doctrinally aligned Foundational Prea
 
 
 ---
-From: LCES Maintainer <system@lces>
-Subject: Add Parts III–IX to Manifesto (Execution Integrity → International Alignment)
----
- create mode 100644 MANIFESTO/03_EXECUTION_INTEGRITY.md
- create mode 100644 MANIFESTO/04_SYSTEM_GOVERNANCE.md
- create mode 100644 MANIFESTO/05_REMEDIES_ENFORCEMENT.md
- create mode 100644 MANIFESTO/06_INTEROPERABILITY.md
- create mode 100644 MANIFESTO/07_CO_DELIBERATION.md
- create mode 100644 MANIFESTO/08_PUBLIC_TRANSPARENCY.md
- create mode 100644 MANIFESTO/09_INTERNATIONAL_ALIGNMENT.md
 
-diff --git a/MANIFESTO/03_EXECUTION_INTEGRITY.md b/MANIFESTO/03_EXECUTION_INTEGRITY.md
-new file mode 100644
---- /dev/null
-+++ b/MANIFESTO/03_EXECUTION_INTEGRITY.md
-@@
-+# PART III — EXECUTION INTEGRITY
-+## Articles XII–XVII
-+
-+### Article XII — Admissibility–Causation Doctrine
-+Defines GateZero (admissibility) and GateSigma (causation).
-+
-+### Article XIII — Reconstruction Standard
-+Requires forensic recoverability of all outcomes.
-+
-+### Article XIV — Chain‑of‑Custody Protocol
-+Ensures evidentiary preservation from origin to reconstruction.
-+
-+### Article XV — Deterministic Replay Doctrine
-+Requires exact reproduction of outcomes.
-+
-+### Article XVI — Evidentiary Minimalism Principle
-+Preserve only what is necessary and all that is required.
-+
-+### Article XVII — Validation & Closure Doctrine
-+Defines constitutional termination and return to STOP.
-
-diff --git a/MANIFESTO/04_SYSTEM_GOVERNANCE.md b/MANIFESTO/04_SYSTEM_GOVERNANCE.md
-new file mode 100644
---- /dev/null
-+++ b/MANIFESTO/04_SYSTEM_GOVERNANCE.md
-@@
-+# PART IV — SYSTEM GOVERNANCE & OPERATIONAL COMPLIANCE
-+## Articles XVIII–XXIII
-+
-+### Article XVIII — Operational Authority Doctrine
-+Defines activation, supervisory, reliance, and revocation authority.
-+
-+### Article XIX — Supervisory Duty Doctrine
-+Defines non‑delegable human and institutional oversight.
-+
-+### Article XX — Compliance Surface Doctrine
-+Defines the surfaces through which compliance is enforced.
-+
-+### Article XXI — Auditability Standard
-+Requires internal and external auditability.
-+
-+### Article XXII — Institutional Accountability Doctrine
-+Defines organizational responsibilities and liabilities.
-+
-+### Article XXIII — Governance Fail‑Safe Doctrine
-+Defines emergency termination and neutralization mechanisms.
-
-
-+# PART V — REMEDIES, ENFORCEMENT & CONSTITUTIONAL RESPONSE
-+## Articles XXIV–XXIX
-+
-+### Article XXIV — Violation Classification Doctrine
-+Defines Classes I–IV of violations.
-+
-+### Article XXV — Corrective Action Doctrine
-+Defines how systems return to compliance.
-+
-+### Article XXVI — Remedial Justice Doctrine
-+Defines remedies for harm.
-+
-+### Article XXVII — Enforcement Doctrine
-+Defines enforcement mechanisms and triggers.
-+
-+### Article XXVIII — Oversight & Review Doctrine
-+Defines continuous and periodic review.
-+
-+### Article XXIX — Constitutional Restoration Doctrine
-+Defines requirements for reactivation after failure.
-
-
-+# PART VI — INTEROPERABILITY & MULTI‑SYSTEM GOVERNANCE
-+## Articles XXX–XXXV
-+
-+### Article XXX — Interoperability Doctrine
-+Defines safe system‑to‑system interaction.
-+
-+### Article XXXI — Authority Federation Doctrine
-+Defines sequential, parallel, delegated, and revoked authority.
-+
-+### Article XXXII — Cross‑System Evidentiary Continuity Doctrine
-+Preserves substrate across system boundaries.
-+
-+### Article XXXIII — Multi‑System Replay Doctrine
-+Requires deterministic replay across distributed systems.
-+
-+### Article XXXIV — Federated Governance Doctrine
-+Defines governance for multi‑system environments.
-+
-+### Article XXXV — Distributed Enforcement Doctrine
-+Defines enforcement propagation across systems.
-
-
-+# PART VII — HUMAN–AI CO‑DELIBERATION & JOINT REASONING
-+## Articles XXXVI–XLI
-+
-+### Article XXXVI — Co‑Deliberation Doctrine
-+Defines lawful shared reasoning.
-+
-+### Article XXXVII — Human Primacy Doctrine
-+Humans retain final decision authority.
-+
-+### Article XXXVIII — Joint Reasoning Doctrine
-+Requires separate, attributable reasoning paths.
-+
-+### Article XXXIX — Human Interpretation Doctrine
-+Requires human interpretation of system outputs.
-+
-+### Article XL — Co‑Responsibility Doctrine
-+Defines responsibility allocation.
-+
-+### Article XLI — Deliberative Safety Doctrine
-+Prevents unsafe cognitive or operational conditions.
-
-
-+# PART VIII — PUBLIC TRANSPARENCY & DEMOCRATIC OVERSIGHT
-+## Articles XLII–XLVII
-+
-+### Article XLII — Public Transparency Doctrine
-+Defines public visibility requirements.
-+
-+### Article XLIII — Public Oversight Doctrine
-+Defines democratic oversight mechanisms.
-+
-+### Article XLIV — Public Challenge Doctrine
-+Defines the right to challenge outcomes.
-+
-+### Article XLV — Public Redress Doctrine
-+Defines remedies for public harm.
-+
-+### Article XLVI — Public Disclosure Doctrine
-+Defines institutional disclosure obligations.
-+
-+### Article XLVII — Democratic Accountability Doctrine
-+Ensures systems remain accountable to the governed.
-
-
-+# PART IX — INTERNATIONAL ALIGNMENT & CROSS‑JURISDICTIONAL HARMONIZATION
-+## Articles XLVIII–LIII
-+
-+### Article XLVIII — Sovereign Boundary Doctrine
-+Respects jurisdictional authority.
-+
-+### Article XLIX — Cross‑Jurisdictional Compliance Doctrine
-+Ensures multi‑regime legal compliance.
-+
-+### Article L — International Evidentiary Harmonization Doctrine
-+Preserves evidentiary integrity across borders.
-+
-+### Article LI — Treaty‑Level Interoperability Doctrine
-+Defines international coordination frameworks.
-+
-+### Article LII — Global Accountability Doctrine
-+Ensures accountability across jurisdictions.
-+
-+### Article LIII — International Enforcement Doctrine
-+Defines enforcement across borders.
 ---
 
 # **FOUNDATIONAL PREAMBLE**  
@@ -4767,8 +4596,16 @@ These are the Kernel’s micro‑operations:
 They are universal, Edition‑agnostic, Role‑agnostic, Mode‑agnostic, STOP‑enforced, and Strategist‑governed.
 
 ---
+PART III — EXECUTION INTEGRITY Articles XII–XVII Article XII — Admissibility–Causation Doctrine GateZero governs admissibility: no operation may proceed unless its authority, inputs, jurisdiction, and role boundaries are validated. GateSigma governs causation: no operation may produce consequences unless its causal chain is explicit, attributable, and reconstructible. Together they form the constitutional boundary between permissible and impermissible execution. Article XIII — Reconstruction Standard All outcomes must be reconstructible with forensic precision. Reconstruction must allow an independent party to re‑derive the outcome from preserved admissible inputs, preserved causal steps, and preserved system posture. Reconstruction must not rely on hidden state, non‑deterministic processes, or unverifiable inference. Article XIV — Chain‑of‑Custody Protocol Every admissible input, intermediate transformation, and causal step must be preserved in a tamper‑evident chain‑of‑custody. The chain must begin at origin, persist through all transformations, and terminate only at constitutional closure. No system may discard, mutate, or obscure any element required for reconstruction. Article XV — Deterministic Replay Doctrine All outcomes must be reproducible under deterministic replay. Replay must yield the same outputs, causal steps, and evidentiary substrate. Replay must be possible across time, across systems, and across jurisdictions without reliance on transient or opaque state. Article XVI — Evidentiary Minimalism Principle The system must preserve only what is necessary and all that is required. Minimalism prevents over‑collection, while completeness prevents evidentiary gaps. Minimalism is constitutional, not discretionary. Article XVII — Validation and Closure Doctrine Every operation must terminate in constitutional closure: STOP. Closure validates that all admissibility, causation, reconstruction, and evidentiary requirements were satisfied. No system may continue execution, infer posture, or transition roles after closure.
+PART IV — SYSTEM GOVERNANCE AND OPERATIONAL COMPLIANCE Articles XVIII–XXIII Article XVIII — Operational Authority Doctrine Authority is activated only by explicit human instruction. Authority may be supervisory, reliance‑based, or revocable. No system may self‑activate, self‑extend, or self‑interpret authority. Article XIX — Supervisory Duty Doctrine Supervision is non‑delegable. Humans and institutions retain oversight responsibility and may not transfer it to systems. Supervisory failure is an institutional failure, not a system failure. Article XX — Compliance Surface Doctrine Compliance is enforced through defined surfaces: admissibility, causation, reconstruction, auditability, and governance boundaries. No system may create new surfaces or bypass existing ones. Article XXI — Auditability Standard Systems must be internally and externally auditable. Auditability requires transparent reasoning, preserved evidentiary substrate, and deterministic replay. Article XXII — Institutional Accountability Doctrine Institutions are accountable for system deployment, supervision, and consequences. Accountability cannot be delegated to systems. Article XXIII — Governance Fail‑Safe Doctrine Systems must include emergency termination and neutralization mechanisms that return the system to STOP without producing further consequences.
+PART V — REMEDIES, ENFORCEMENT, AND CONSTITUTIONAL RESPONSE Articles XXIV–XXIX Article XXIV — Violation Classification Doctrine Violations are classified into Classes I–IV based on severity, harm, and constitutional breach. Classification determines remedy and enforcement. Article XXV — Corrective Action Doctrine Corrective action restores compliance without erasing evidentiary substrate. Corrective action must be reconstructible and attributable. Article XXVI — Remedial Justice Doctrine Remedies must address harm to individuals, institutions, and the public. Remedies must be proportional, reconstructible, and enforceable. Article XXVII — Enforcement Doctrine Enforcement mechanisms must be constitutional, attributable, and bounded. Enforcement triggers include violation class, supervisory failure, and evidentiary breach. Article XXVIII — Oversight and Review Doctrine Oversight must be continuous and periodic. Review must evaluate compliance, governance, reconstruction, and public accountability. Article XXIX — Constitutional Restoration Doctrine After failure, systems may be reactivated only after full restoration of compliance, evidentiary substrate, and governance boundaries.
+PART VI — INTEROPERABILITY AND MULTI‑SYSTEM GOVERNANCE Articles XXX–XXXV Article XXX — Interoperability Doctrine Systems may interact only through safe, defined, reconstructible interfaces. No system may infer authority from another. Article XXXI — Authority Federation Doctrine Authority may be sequential, parallel, delegated, or revoked across systems, but must always remain attributable and bounded. Article XXXII — Cross‑System Evidentiary Continuity Doctrine Evidentiary substrate must remain intact across system boundaries. No system may break chain‑of‑custody. Article XXXIII — Multi‑System Replay Doctrine Replay must be deterministic across distributed systems. Replay must reconstruct cross‑system causation. Article XXXIV — Federated Governance Doctrine Governance must extend across systems without creating new authority. Governance remains anchored to the strategist. Article XXXV — Distributed Enforcement Doctrine Enforcement must propagate across systems without exceeding constitutional boundaries.
+PART VII — HUMAN–AI CO‑DELIBERATION AND JOINT REASONING Articles XXXVI–XLI Article XXXVI — Co‑Deliberation Doctrine Shared reasoning is permitted only when roles, boundaries, and attribution are explicit. Article XXXVII — Human Primacy Doctrine Humans retain final decision authority. Systems may not override, reinterpret, or dilute human judgment. Article XXXVIII — Joint Reasoning Doctrine Reasoning paths must remain separate and attributable. No system may merge or obscure reasoning. Article XXXIX — Human Interpretation Doctrine System outputs must be interpretable by humans. No system may produce outputs that require system‑only interpretation. Article XL — Co‑Responsibility Doctrine Responsibility is allocated between humans and institutions, not systems. Systems remain tools, not agents. Article XLI — Deliberative Safety Doctrine Co‑deliberation must not create unsafe cognitive, operational, or institutional conditions.
+PART VIII — PUBLIC TRANSPARENCY AND DEMOCRATIC OVERSIGHT Articles XLII–XLVII Article XLII — Public Transparency Doctrine Public visibility is required for system purpose, governance, and oversight. Article XLIII — Public Oversight Doctrine Democratic institutions retain oversight authority. Oversight must be reconstructible and enforceable. Article XLIV — Public Challenge Doctrine The public has the right to challenge system outcomes. Challenges must be reconstructible and adjudicable. Article XLV — Public Redress Doctrine Public harm requires public remedy. Remedies must be enforceable and attributable. Article XLVI — Public Disclosure Doctrine Institutions must disclose system use, governance posture, and oversight findings. Article XLVII — Democratic Accountability Doctrine Systems must remain accountable to the governed. No system may undermine democratic authority.
+PART IX — INTERNATIONAL ALIGNMENT AND CROSS‑JURISDICTIONAL HARMONIZATION Articles XLVIII–LIII Article XLVIII — Sovereign Boundary Doctrine Systems must respect jurisdictional authority. No system may override or reinterpret sovereign law. Article XLIX — Cross‑Jurisdictional Compliance Doctrine Systems must comply with all applicable legal regimes. Compliance must be reconstructible and attributable. Article L — International Evidentiary Harmonization Doctrine Evidentiary substrate must remain intact across borders. No system may degrade evidentiary integrity during cross‑border transfer. Article LI — Treaty‑Level Interoperability Doctrine International coordination must be governed by treaty‑level frameworks that preserve sovereignty, evidence, and governance. Article LII — Global Accountability Doctrine Systems must remain accountable across jurisdictions. Accountability must not be extinguished by crossing borders. Article LIII — International Enforcement Doctrine Enforcement must operate across borders without violating sovereignty. Enforcement must be reconstructible, attributable, and bounded.
 
 # *This is the doctrine.
+
 
 This is the discovery.
 
