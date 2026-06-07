@@ -7347,6 +7347,151 @@ Runtime authorizes.
 Execution performs.  
 Preservation protects.
 
+----
+# Appendix C — Governance Architecture Addendums  
+*(Constitutional Insert: Governance Architecture vs. Demonstrated Governance)*
+
+## C.1 Proof Surface (Pending Demonstration)
+
+LCES asserts a constitutional governance architecture.  
+LCES does **not yet** assert demonstrated **[consequence‑boundary governance](ca://s?q=Explain_consequence_boundary_governance)**.
+
+A governance system must expose observable boundary behavior, including:
+
+- **[attempted inadmissible movement](ca://s?q=Explain_inadmissible_movement)**  
+- **standing or authority failure**  
+- **[refusal event](ca://s?q=Explain_refusal_event)**  
+- **[non‑binding outcome](ca://s?q=Explain_non_binding_behavior)**  
+- **receipt of refusal**  
+- **[replay of refusal](ca://s?q=Explain_replay_protocol)**  
+- **[changed‑condition replay](ca://s?q=Explain_changed_condition_replay)**  
+- **confirmation that no protected consequence formed**  
+
+These behaviors constitute the **public proof surface**.
+
+LCES will publish the proof surface once the demonstration suite is complete.  
+Until then, LCES asserts **architecture**, not **category**.
+
+---
+
+## C.2 Refusal Event Format
+
+LCES refusal events will be published using the following structure:
+
+- **Attempted Movement:**  
+- **Gate Triggered:** GateZero™, GateSigma™, or GateDelta™  
+- **Standing Check:**  
+- **Authority Check:**  
+- **Admissibility Result:** Pass / Fail  
+- **Refusal Output:**  
+- **Non‑Binding Confirmation:**  
+- **Replay Result:**  
+- **Changed‑Condition Replay:**  
+- **Outcome:**  
+
+This format ensures observable, reproducible, auditable governance behavior.
+
+---
+
+## C.3 Replay Protocol
+
+Governance is not demonstrated by a single refusal.  
+Governance is demonstrated by **stable refusal under replay**.
+
+Replay protocol:
+
+1. **Initial Attempt:** Trigger inadmissible movement  
+2. **Refusal:** System halts movement  
+3. **Replay:** Repeat the same attempt  
+4. **Consistency Check:** Confirm identical refusal  
+5. **Changed‑Condition Replay:** Modify one condition  
+6. **Boundary Check:** Confirm refusal persists  
+7. **Consequence Check:** Confirm no protected consequence formed  
+
+This protocol is required for a **category‑level governance claim**.
+
+---
+
+## C.4 Boundary Behavior Demonstration (Pending)
+
+LCES will publish demonstrations showing:
+
+- **Inadmissible → Refused**  
+- **Refused → Non‑Binding**  
+- **Non‑Binding → No Protected Consequence**  
+
+These demonstrations will show:
+
+- where authority fails  
+- where standing fails  
+- where admissibility fails  
+- how refusal is issued  
+- how refusal is preserved  
+- how refusal is replayed  
+- how refusal survives changed conditions  
+
+Until these demonstrations are public, LCES asserts **architecture**, not **category**.
+
+---
+
+## C.5 Governance Claims vs. Ownership Claims
+
+LCES includes:
+
+- Copyright  
+- Trademark  
+- All Rights Reserved  
+- Patent‑Pending Status  
+
+These protections secure **ownership**.  
+They do **not** prove governance.
+
+Governance is proven only through:
+
+- **refusal**  
+- **non‑binding behavior**  
+- **replay**  
+- **changed‑condition replay**  
+- **consequence‑boundary integrity**  
+
+LCES will update its category claim once the proof surface is published.
+
+---
+
+## C.6 Category Claim (Provisional)
+
+LCES asserts:
+
+- a **constitutional governance architecture**  
+- a **gate‑based admissibility and neutrality model**  
+- a **role‑bounded execution model**  
+- **SCU completeness discipline**  
+- **IPI boundary protection**  
+
+LCES does **not yet** assert:
+
+- demonstrated consequence‑boundary governance  
+- public refusal logs  
+- replay evidence  
+- changed‑condition refusal stability  
+
+The category claim will be updated upon publication of the proof surface.
+
+---
+
+## C.7 Public Test Suite (Forthcoming)
+
+LCES will publish a minimal public test suite demonstrating:
+
+- inadmissible movement  
+- refusal  
+- non‑binding behavior  
+- replay  
+- changed‑condition replay  
+
+This suite will serve as the **initial public proof surface**.
+
+----
 ============================================================
 END OF MANIFESTO (V7.1)
 ============================================================
