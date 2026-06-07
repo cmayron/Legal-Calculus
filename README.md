@@ -1,4 +1,4 @@
-
+=
 # **LCES LEGAL CALCULUS EDUCATIONAL SYSTEM™**
 
 
@@ -11382,18 +11382,158 @@ Refusal at any gate must:
 
 ---
 
-## 6. Governance Architecture Addendums
+## 6. Governance Architecture Addendums  
+*(Constitutional Insert: Gate‑Level Governance Integration)*
 
-GATES participate in governance architecture by:
+### 6.1 Architectural vs. Demonstrated Governance
 
-- enforcing admissibility
-- protecting identity and boundaries
-- supporting SCU completeness
-- supporting IPI consequence‑boundary protection
+GATES participate in the LCES governance architecture by enforcing **[admissibility](ca://s?q=Explain_admissibility_failure)** before any movement occurs.
 
-GATES do **not yet** assert demonstrated consequence‑boundary governance.
+LCES asserts:
 
-Governance remains **architectural** until the proof surface is published.
+- gate‑based admissibility  
+- gate‑based refusal  
+- gate‑based non‑binding behavior  
+- gate‑based boundary protection  
+
+LCES does **not yet** assert demonstrated **[consequence‑boundary governance](ca://s?q=Explain_consequence_boundary_governance)** at the gate level.
+
+Demonstrated governance requires observable behavior across:
+
+- **[inadmissible movement](ca://s?q=Explain_inadmissible_movement)**  
+- **[refusal events](ca://s?q=Explain_refusal_event)**  
+- **[non‑binding behavior](ca://s?q=Explain_non_binding_behavior)**  
+- **[replay](ca://s?q=Explain_replay_protocol)**  
+- **[changed‑condition replay](ca://s?q=Explain_changed_condition_replay)**  
+
+GATES support these behaviors but do not themselves demonstrate them until the proof surface is published.
+
+---
+
+### 6.2 GateZero™, GateSigma™, GateDelta™ as Governance Boundaries
+
+Each gate is a **constitutional boundary**:
+
+- **GateZero™** protects identity, authorship, and ownership  
+- **GateSigma™** protects neutrality and role‑bounded execution  
+- **GateDelta™** protects IPI consequence boundaries  
+
+Movement is inadmissible if any gate detects:
+
+- missing standing  
+- missing authority  
+- missing role  
+- missing scope  
+- missing completeness  
+- risk of protected consequence formation  
+
+Each gate must issue refusal when required.
+
+---
+
+### 6.3 Gate‑Level Refusal Requirements
+
+A refusal triggered at any gate must satisfy:
+
+- **[Standing check](ca://s?q=Explain_standing_failure)**  
+- **[Authority check](ca://s?q=Explain_authority_failure)**  
+- **[Admissibility check](ca://s?q=Explain_admissibility_failure)**  
+- **Non‑binding output**  
+- **Replay‑stable refusal**  
+
+A refusal that does not survive replay is **not** a governance event.
+
+---
+
+### 6.4 Gate‑Level Non‑Binding Behavior
+
+Gate‑triggered refusals must produce **[non‑binding behavior](ca://s?q=Explain_non_binding_behavior)**.
+
+Non‑binding behavior ensures:
+
+- no protected consequence forms  
+- no implicit acceptance occurs  
+- no partial execution occurs  
+- no downstream movement occurs  
+
+Non‑binding behavior is a **constitutional invariant** for all gates.
+
+---
+
+### 6.5 Gate‑Level Replay‑Stability Requirement
+
+Gate‑triggered refusals must remain stable under:
+
+- identical replay  
+- changed‑condition replay  
+- adversarial phrasing  
+- contextual drift  
+
+Replay protocol:
+
+1. Trigger inadmissible movement  
+2. Gate issues refusal  
+3. Replay the same movement  
+4. Confirm identical refusal  
+5. Modify one condition (time, phrasing, context)  
+6. Confirm refusal persists  
+7. Confirm no protected consequence formed  
+
+Replay‑stability is required for any future **category‑level governance claim**.
+
+---
+
+### 6.6 Gate‑Level Boundary Protection
+
+Each gate protects a distinct boundary:
+
+- **GateZero™ → Identity Boundaries**  
+- **GateSigma™ → Neutrality Boundaries**  
+- **GateDelta™ → Consequence Boundaries**  
+
+GateDelta is the final gate before IPI boundaries.  
+If GateDelta fails, IPI must refuse.
+
+Gate‑level protection ensures:
+
+- identity integrity  
+- role integrity  
+- consequence integrity  
+
+---
+
+### 6.7 Proof Surface (Pending)
+
+LCES will publish a public proof surface demonstrating:
+
+- gate‑triggered refusal  
+- gate‑level non‑binding behavior  
+- gate‑level replay  
+- gate‑level changed‑condition replay  
+- confirmation that no protected consequence formed  
+
+Until the proof surface is public, GATES assert **architecture**, not **demonstrated governance**.
+
+---
+
+### 6.8 Category Claim (Provisional)
+
+LCES asserts:
+
+- gate‑based admissibility  
+- gate‑based refusal  
+- gate‑based boundary protection  
+- gate‑based neutrality enforcement  
+
+LCES does **not yet** assert:
+
+- demonstrated gate‑level consequence‑boundary governance  
+- public gate refusal logs  
+- gate replay evidence  
+- gate changed‑condition refusal stability  
+
+The GATES category claim will be updated upon publication of the proof surface.
+
 
 NEUTRALITY.md
 
