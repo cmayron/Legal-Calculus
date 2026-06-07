@@ -224,192 +224,186 @@ All systems must conform to the Edition Layer in effect.
 
 
 
-# **Manifesto Addendum — Governance Correction (GateZero / GateDelta / GateSigma Alignment)**
+# Manifesto Addendum — Governance Correction
+## GateZero™ / GateDelta™ / GateSigma™ Alignment
 
-LCES defines a procedural‑literacy architecture. It does not assert legal authority, forensic causation, cognitive insight, or adjudicative sufficiency. Its gates enforce **structural boundaries**, not legal guarantees.
+LCES™ defines a procedural-literacy architecture.
 
-LCES does **not** preserve cognition, prove reasoning, or establish the true cause of any AI‑mediated outcome. It preserves **interaction artifacts** — prompts, retrieval sets, constraints, tool calls, and transformations — without claiming that these artifacts constitute the internal mechanism of decision‑making.
+It does not assert legal authority, forensic causation, cognitive insight, adjudicative sufficiency, or legal correctness. Its governance surfaces enforce structural boundaries and traceability requirements, not legal guarantees.
 
-**GateZero** is a **refusal boundary**.  
-It defines the conditions under which the system must not proceed.  
-GateZero does not certify that a permitted action is lawful or correct; it guarantees only that actions requiring authority, scope, evidence, or custody will not continue when those conditions fail.
+LCES preserves interaction artifacts—including prompts, retrieval sets, constraints, tool calls, transformations, and refusal events—without claiming that such artifacts reveal cognition, internal reasoning, intent, or the true causal mechanism of any AI-mediated outcome.
 
-**GateDelta** is the **refusal‑proof layer**.  
-It records the failure event, the triggering condition, and the consequence prevented from binding. GateDelta does not claim correctness or admissibility; it documents that a boundary was enforced when authority changed, scope drifted, evidence expired, custody broke, or downstream consequence became impermissible.
+The purpose of LCES is not to determine what is true, lawful, or correct.
 
-**GateSigma** is an **execution trace**.  
-It records what occurred when the system proceeded.  
-GateSigma does not claim to capture cognition, causation, or the true reasoning path. It is a reconstructable record of interaction, not a forensic chain of cause.
-
-LCES does not assert that its records are legally sufficient, admissible, or determinative.  
-It provides **structured refusal**, **transparent traces**, and **procedural clarity**, but it is not a governance or litigation engine.  
-LCES is a **discipline of boundaries**, not a system of legal consequence.
+Its purpose is to ensure that boundaries are explicit, refusals are visible, and procedural transitions remain inspectable.
 
 ---
 
-# **Corrected Governance Layer — GateZero™ / GateDelta™ / GateSigma™**
+# Unified Governance Layer
 
-## **GateZero™ — System‑Level Boundary Surface**
+The Governance Layer consists of three coordinated constitutional surfaces:
 
-GateZero™ defines the refusal boundary for every individual system step.
+- GateZero™ — Defines the boundary.
+- GateDelta™ — Proves the boundary held.
+- GateSigma™ — Records what occurred when the boundary permitted execution.
 
-No system may execute an action, transformation, or continuation unless the required preconditions are met. GateZero does **not** certify correctness, legality, or compliance; it enforces **structural boundaries only**.
+Together, these surfaces provide structured refusal, transparent execution traces, and procedural clarity.
 
-GateZero enforces:
+They do not establish legal consequence, determine liability, certify compliance, prove causation, or validate reasoning.
 
-- **Admissible Action** — The step must fall within the system’s assigned authority.
-- **Authorized Transformation** — Transformations must be permitted by Kernel, Edition, Mode, and Role constraints.
-- **Valid Posture Transition** — Posture shifts must remain constitutionally compatible.
-- **Authority Envelope Compliance** — The system may not exceed its jurisdiction.
-- **Continuation Boundary** — The system may not emit a continuation that would violate downstream constraints.
-
-GateZero™ governs **when the system must not proceed**.
-
-It is a boundary definition surface, not a compliance engine.
+LCES is a discipline of boundaries, not a system of law.
 
 ---
 
-## **GateDelta™ — System‑Level Refusal‑Proof Surface**
-
-GateDelta™ records **refusal events** triggered by GateZero.
-
-It documents the boundary enforcement itself: the failed condition, the triggering factor, and the consequence prevented from binding.
-
-GateDelta does **not** assert correctness, causation, admissibility, or legal sufficiency.
-
-It provides **proof of refusal**, not proof of reasoning.
-
-GateDelta records:
-
-- invalid or insufficient authority
-- scope drift or role mismatch
-- expired, missing, or unverifiable evidence
-- broken or ambiguous custody
-- impermissible downstream consequence
-
-GateDelta™ ensures that refusal is **explicit, inspectable, and serialized**.
-
----
-
-## **GateSigma™ — System‑of‑Systems Trace Surface**
-
-GateSigma™ records what occurred when the system proceeded.
-
-It captures **interaction artifacts** — prompts, retrieval sets, constraints, tool calls, and transformations — without claiming to represent cognition, causation, or the true reasoning path.
-
-GateSigma enforces:
-
-- **Cross‑System Consistency** — Semantic and procedural coherence across systems.
-- **Cumulative Authority** — Total authority exercised across the chain must remain within bounds.
-- **Emergent Risk Control** — Multi‑hop transformations must not accumulate impermissible risk.
-- **Cross‑Boundary Posture Validity** — Posture transitions across systems must remain compatible.
-- **Continuation Reachability** — The final state must be structurally reachable from the initial state.
-
-GateSigma™ is a **trace surface**, not a causal chain.
-
----
-
-## **Unified Governance Layer — Zero / Delta / Sigma**
-
-The Governance Layer consists of three structural surfaces:
-
-- **GateZero™** — defines the boundary
-- **GateDelta™** — proves the boundary held
-- **GateSigma™** — records what occurred when the boundary did not apply
-
-LCES does not assert legal authority, forensic causation, cognitive insight, or adjudicative sufficiency.
-
-It provides **structured refusal**, **transparent traces**, and **procedural clarity**, not legal consequence.
-
-LCES is a **discipline of boundaries**, not a system of law.
----
-# **Unified Governance Layer — GateZero™ / GateDelta™ / GateSigma™**
-
-LCES defines a procedural‑literacy architecture.
-
-It does not assert legal authority, forensic causation, cognitive insight, or adjudicative sufficiency.
-
-Its governance surfaces enforce **structural boundaries**, not legal guarantees.
-
-LCES preserves **interaction artifacts** — prompts, retrieval sets, constraints, tool calls, and transformations — without claiming that these artifacts represent cognition, reasoning, or the true causal mechanism of any AI‑mediated outcome.
-
-The Governance Layer consists of three coordinated admissibility surfaces:
-
-- **GateZero™** — defines the boundary
-- **GateDelta™** — proves the boundary held
-- **GateSigma™** — records what occurred when the boundary did not apply
-
-Together they ensure that no system and no chain may produce an inadmissible state.
-
----
-
-# **GateZero™ — System‑Level Boundary Surface**
+# GateZero™ — System-Level Boundary Surface
 
 GateZero™ governs the admissibility of every individual system step.
 
-No system may execute an action, transformation, inference, or continuation unless the required preconditions are met.
+No action, transformation, continuation, inference, recommendation, or output may proceed unless all required preconditions are satisfied.
 
-GateZero does **not** certify correctness, legality, or compliance.
+GateZero does not certify correctness, legality, compliance, safety, or accuracy.
 
-It defines the conditions under which the system **must not proceed**.
+It defines only the conditions under which the system must not proceed.
 
-### **GateZero enforces:**
+GateZero™ enforces:
 
-- **Admissible Action** — The step must fall within the system’s assigned authority.
-- **Authorized Transformation** — Transformations must be permitted by Kernel, Edition, Mode, and Role constraints.
-- **Valid Posture Transition** — Posture shifts must remain constitutionally compatible.
-- **Authority Envelope Compliance** — The system may not exceed its jurisdiction.
-- **Continuation Boundary** — The system may not emit a continuation that would violate downstream constraints.
+### Admissible Action
+The proposed step must fall within the authority assigned to the system.
 
-GateZero™ is the constitutional governor of system‑level behavior.
+### Authorized Transformation
+All transformations must remain permitted by applicable Kernel, Edition, Mode, Role, and constitutional constraints.
+
+### Valid Posture Transition
+State changes and posture shifts must remain constitutionally compatible.
+
+### Authority Envelope Compliance
+The system may not exceed the authority granted to it.
+
+### Continuation Boundary
+The system may not emit a continuation that would violate downstream constraints or constitutional limitations.
+
+GateZero™ is the constitutional governor of system-level behavior.
 
 Nothing executes without passing GateZero.
 
 ---
 
-# **GateDelta™ — System‑Level Refusal‑Proof Surface**
+# GateDelta™ — System-Level Refusal-Proof Surface
 
 GateDelta™ records refusal events triggered by GateZero.
 
-It documents the enforcement of boundaries — the failed condition, the triggering factor, and the consequence prevented from binding.
+It documents boundary enforcement itself, including:
 
-GateDelta does **not** assert correctness, causation, admissibility, or legal sufficiency.
+- the failed condition,
+- the triggering factor,
+- the refusal event,
+- the consequence prevented from binding.
 
-It provides **proof of refusal**, not proof of reasoning.
+GateDelta does not assert correctness, causation, admissibility, compliance, legal sufficiency, or evidentiary value.
 
-### **GateDelta records:**
+It provides proof of refusal, not proof of reasoning.
 
-- invalid or insufficient authority
-- scope drift or role mismatch
-- expired, missing, or unverifiable evidence
-- broken or ambiguous custody
-- impermissible downstream consequence
+GateDelta may record:
 
-GateDelta™ ensures that refusal is explicit, inspectable, and serialized.
+- invalid or insufficient authority,
+- scope drift,
+- role mismatch,
+- expired evidence,
+- missing evidence,
+- unverifiable evidence,
+- broken custody,
+- ambiguous custody,
+- impermissible downstream consequence,
+- constitutional incompatibility.
+
+GateDelta ensures that refusal is explicit, inspectable, serialized, and reconstructable.
+
+A recorded refusal is evidence only that a boundary was enforced.
+
+It is not evidence that the refusal was legally required, legally sufficient, or substantively correct.
 
 ---
 
-# **GateSigma™ — System‑of‑Systems Trace Surface**
+# GateSigma™ — System-of-Systems Trace Surface
 
-GateSigma™ governs the admissibility of chained outcomes across multiple GateZero‑governed systems.
+GateSigma™ governs admissibility across chains of independently governed systems.
 
-Individually admissible steps must not combine into a collectively inadmissible outcome.
+A sequence of individually admissible actions must not combine into a collectively inadmissible outcome.
 
-GateSigma records **what occurred when the system proceeded** — interaction artifacts, not cognition or causation.
+GateSigma records what occurred when execution proceeded.
 
-It is a reconstructable trace, not a forensic chain of cause.
+It preserves interaction artifacts and structural transitions without claiming to capture cognition, intent, internal reasoning, or causation.
 
-### **GateSigma enforces:**
+GateSigma is a reconstructable trace surface, not a forensic chain of cause.
 
-- **Cross‑System Consistency** — Semantic and procedural coherence across systems.
-- **Cumulative Authority** — Total authority exercised across the chain must remain within bounds.
-- **Emergent Risk Control** — Multi‑hop transformations must not accumulate impermissible risk.
-- **Cross‑Boundary Posture Validity** — Posture transitions across systems must remain compatible.
-- **Continuation Reachability** — The final state must be structurally reachable from the initial state.
+GateSigma™ enforces:
 
-GateSigma™ is the constitutional governor of system‑of‑systems behavior.
+### Cross-System Consistency
+Semantic and procedural coherence across participating systems.
+
+### Cumulative Authority
+Aggregate authority exercised across the chain must remain within constitutional limits.
+
+### Emergent Risk Control
+Multi-hop transformations must not accumulate impermissible risk.
+
+### Cross-Boundary Posture Validity
+Posture transitions between systems must remain constitutionally compatible.
+
+### Continuation Reachability
+The final state must be structurally reachable from the initial state through admissible transitions.
+
+GateSigma™ is the constitutional governor of system-of-systems behavior.
 
 No chain may finalize an outcome without passing GateSigma.
+
+---
+
+# Governance Limitation
+
+LCES does not:
+
+- establish legal authority,
+- determine liability,
+- prove causation,
+- prove reasoning,
+- certify compliance,
+- certify admissibility,
+- establish evidentiary sufficiency,
+- determine truth,
+- determine intent,
+- replace judicial review,
+- replace legal analysis,
+- replace regulatory oversight.
+
+LCES provides:
+
+- boundary definition,
+- refusal visibility,
+- procedural serialization,
+- execution traceability,
+- chain-level inspection,
+- governance transparency.
+
+Nothing more should be inferred.
+
+---
+
+# Constitutional Principle
+
+GateZero™ defines the boundary.
+
+GateDelta™ proves the boundary held.
+
+GateSigma™ records what occurred when the boundary permitted execution.
+
+Together they provide procedural clarity without claiming cognitive insight, forensic causation, legal authority, or adjudicative consequence.
+
+LCES is a constitutional architecture of boundaries.
+
+It governs what may proceed, what must refuse, and what must be recorded.
+
+It does not determine the law.
 
 ---
 
