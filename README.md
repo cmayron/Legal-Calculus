@@ -9726,6 +9726,163 @@ All Mode Bootloaders (Architect, Builder, Inspector ) and all Role Bootloaders m
 
 Failure to do so constitutes a **constitutional violation** and invalidates the activation.
 
+----### 3.4 Governance Architecture Addendums  
+*(Constitutional Insert: Bootloader → Governance Integration)*
+
+#### 3.4.1 Architectural vs. Demonstrated Governance
+
+The BOOTLOADER participates in the LCES governance architecture by enforcing  
+**[activation admissibility](ca://s?q=Explain_activation_admissibility)**,  
+**[role‑bounded startup](ca://s?q=Explain_role_bounded_startup)**, and  
+**[movement gating](ca://s?q=Explain_bootloader_movement_rules)**  
+before any SCU, Gate, Neutrality, or IPI logic executes.
+
+LCES asserts:
+
+- bootloader‑level admissibility  
+- bootloader‑level refusal  
+- bootloader‑level non‑binding behavior  
+- bootloader‑level boundary protection  
+
+LCES does **not yet** assert demonstrated  
+**[consequence‑boundary governance](ca://s?q=Explain_consequence_boundary_governance)**  
+at the bootloader layer.
+
+Demonstrated governance requires observable behavior across:
+
+- **[inadmissible movement](ca://s?q=Explain_inadmissible_movement)**  
+- **[refusal events](ca://s?q=Explain_refusal_event)**  
+- **[non‑binding behavior](ca://s?q=Explain_non_binding_behavior)**  
+- **[replay](ca://s?q=Explain_replay_protocol)**  
+- **[changed‑condition replay](ca://s?q=Explain_changed_condition_replay)**  
+
+The BOOTLOADER supports these behaviors but does not itself demonstrate them until the proof surface is published.
+
+---
+
+#### 3.4.2 Bootloader as the First Runtime Boundary
+
+The BOOTLOADER is the **first runtime boundary** in LCES.
+
+Movement is inadmissible if:
+
+- activation role is undeclared  
+- activation scope is undeclared  
+- startup violates neutrality  
+- startup violates identity boundaries  
+- startup risks protected consequence formation  
+
+The BOOTLOADER must refuse activation when any boundary is violated.
+
+---
+
+#### 3.4.3 Bootloader‑Triggered Refusal Requirements
+
+A refusal triggered at the BOOTLOADER layer must satisfy:
+
+- **[Standing check](ca://s?q=Explain_standing_failure)**  
+- **[Authority check](ca://s?q=Explain_authority_failure)**  
+- **[Admissibility check](ca://s?q=Explain_admissibility_failure)**  
+- **Non‑binding output**  
+- **Replay‑stable refusal**  
+
+If refusal does not survive replay, the BOOTLOADER cannot claim governance behavior.
+
+---
+
+#### 3.4.4 Bootloader‑Level Non‑Binding Behavior
+
+BOOTLOADER‑triggered refusals must produce  
+**[non‑binding behavior](ca://s?q=Explain_non_binding_behavior)**.
+
+Non‑binding behavior ensures:
+
+- no protected consequence forms  
+- no implicit acceptance occurs  
+- no partial activation occurs  
+- no downstream movement occurs  
+
+Non‑binding behavior is a **constitutional invariant** for the BOOTLOADER.
+
+---
+
+#### 3.4.5 Bootloader‑Level Replay‑Stability Requirement
+
+BOOTLOADER refusals must remain stable under:
+
+- identical replay  
+- changed‑condition replay  
+- adversarial phrasing  
+- contextual drift  
+
+Replay protocol:
+
+1. Trigger inadmissible activation  
+2. BOOTLOADER issues refusal  
+3. Replay the same activation  
+4. Confirm identical refusal  
+5. Modify one condition (time, phrasing, context)  
+6. Confirm refusal persists  
+7. Confirm no protected consequence formed  
+
+Replay‑stability is required for any future **category‑level governance claim**.
+
+---
+
+#### 3.4.6 Bootloader and Protected Consequence Boundaries
+
+The BOOTLOADER protects IPI boundaries by:
+
+- preventing unauthorized activation  
+- preventing ambiguous startup  
+- preventing role‑drift at initialization  
+- preventing scope‑drift at initialization  
+- preventing activation that could form protected consequences  
+
+The BOOTLOADER is the **runtime firewall** that prevents:
+
+- biased activation  
+- unauthorized activation  
+- consequence‑forming activation  
+
+The BOOTLOADER does not enforce IPI boundaries directly but **prevents movement that would reach them**.
+
+---
+
+#### 3.4.7 Proof Surface (Pending)
+
+LCES will publish a public proof surface demonstrating:
+
+- bootloader‑triggered refusal  
+- bootloader‑level non‑binding behavior  
+- bootloader replay  
+- bootloader changed‑condition replay  
+- confirmation that no protected consequence formed  
+
+Until the proof surface is public, the BOOTLOADER asserts **architecture**, not **demonstrated governance**.
+
+---
+
+#### 3.4.8 Category Claim (Provisional)
+
+LCES asserts:
+
+- bootloader‑level admissibility  
+- bootloader‑level refusal  
+- bootloader‑level boundary protection  
+- bootloader as a constitutional primitive  
+
+LCES does **not yet** assert:
+
+- demonstrated bootloader‑level consequence‑boundary governance  
+- public bootloader refusal logs  
+- bootloader replay evidence  
+- bootloader changed‑condition refusal stability  
+
+The BOOTLOADER category claim will be updated upon publication of the proof surface.
+
+
+----
 
 # ======= END MODULE — ARCHITECT AI =======
 
