@@ -7872,934 +7872,409 @@ index 3a4f2b1..9c7d8d2 100644
  ## System Bootloader
  (Edition loading, SCU initialization, GateZero)
 ---
-# LCES CONSTITUTIONAL LICENSE SECTION
-# (This section governs implementation. The legal license follows below.)
+LCES CONSTITUTION, LICENSE, TRADEMARK, AND PATENT NOTICE
 
-## 1. Human Sovereignty (Strategist Authority)
-All implementations of the Legal Calculus Educational System (LCES) must preserve
-the Strategist as the constitutional source of admissibility, constraint definition,
-category definition, and consequence boundaries. No AI system may reinterpret,
-override, or expand Strategist authority.
-
-## 2. Influence‑Proof Integrity (IPI Requirement)
-All implementations must include an Influence‑Proof Integrity (IPI) layer that
-prevents inadmissible influence, adversarial reframing, unauthorized constraint
-modification, or category‑shifting. IPI protects the Strategist’s intent and ensures
-that no external or internal actor can distort admissibility definitions.
-
-## 3. Multi‑AI Constitutional Requirement
-LCES requires a minimum of **two independent AI roles** to preserve separation of
-powers and prevent self‑review or self‑justification.  
-The **three‑role configuration** (Architect, Builder, Inspector) is the canonical
-implementation.  
-The architecture **scales to N‑agent systems** without loss of admissibility,
-provided all agents operate within the GateZero → GateDelta → GateSigma
-constitutional chain and under Strategist authority with IPI protection.
-
-## 4. GateZero™ — Procedural Admissibility
-All movement must pass through GateZero. No action may proceed unless it is
-authorized, in‑scope, constraint‑compliant, and admissible. GateZero is the
-constitutional veto on action.
-
-## 5. GateDelta™ — Evidentiary Integrity
-All refusals must be logged through GateDelta. Each refusal must produce a
-timestamped, constraint‑bound, movement‑linked record. GateDelta is the
-constitutional veto on secrecy.
-
-## 6. GateSigma™ — Consequence Admissibility
-No inadmissible consequence may bind. GateSigma evaluates all outcomes and blocks
-any consequence that violates constraints, exceeds authority, or creates inadmissible
-effects. GateSigma is the constitutional veto on consequence.
-
-## 7. Public Proof Surface Requirement
-All gates must emit public, verifiable traces:
-- GateZero authorization logs
-- GateDelta refusal records
-- GateSigma admissibility evaluations
-- IPI influence‑integrity logs
-
-These traces form the Public Proof Surface, enabling transparency, auditability,
-and external verification.
-
-## 8. Closed Constitutional Loop
-All implementations must preserve the full constitutional loop:
-
-Strategist → IPI → GateZero → AI Execution → GateDelta → GateSigma → Public Proof Surface → Strategist
-
-This loop ensures human sovereignty, admissibility preservation, and constitutional
-self‑governance.
-
-# End of Constitutional License Section
-
-================================================================
-                         LCES LICENSE SECTION
-================================================================
-
-# LCES CONSTITUTION, LICENSE, TRADEMARK, AND PATENT NOTICE
 Version 8.0
+
+Original Authorship Date: June 1, 2025
+
+Constitutional Framework Effective Date: March 1, 2026
+
+License Version 8.0 Publication Date: June 8, 2026
 
 Copyright © 2026 Charles D. Mayron. All Rights Reserved.
 
----
+Patent Rights Reserved.
 
-# PART I — LCES CONSTITUTION
+No rights are granted by implication, estoppel, exhaustion, public availability, prior disclosure, course of dealing, or course of performance.
 
-## Article 1 — Human Sovereignty
+All rights not expressly granted are reserved.
+
+----------------------------------------------------------------
+
+PART I — LCES CONSTITUTION
+
+Article 1 — Human Sovereignty
 
 All implementations of the Legal Calculus Educational System (LCES™) shall preserve the Strategist as the ultimate source of:
 
-- admissibility definition,
-- constraint definition,
-- category definition,
-- authority definition,
-- consequence boundaries.
+• admissibility definition;
+• constraint definition;
+• category definition;
+• authority definition;
+• consequence boundaries.
 
 No AI system, workflow, agent, model, or automated process may independently redefine, expand, or override Strategist authority.
 
----
-
-## Article 2 — Influence-Proof Integrity (IPI)
+Article 2 — Influence-Proof Integrity
 
 All implementations shall maintain Influence-Proof Integrity (IPI).
 
 IPI exists to prevent:
 
-- unauthorized constraint modification,
-- adversarial reframing,
-- category shifting,
-- influence-based distortion,
-- hidden authority substitution.
+• inadmissible influence;
+• adversarial reframing;
+• unauthorized constraint modification;
+• category shifting;
+• hidden authority substitution;
+• distortion of Strategist intent.
 
 IPI preserves Strategist sovereignty throughout system operation.
 
----
-
-## Article 3 — Multi-AI Constitutional Structure
+Article 3 — Multi-AI Constitutional Structure
 
 LCES requires separation of powers.
 
 The canonical implementation consists of:
 
-- Architect
-- Builder
-- Inspector
+• Architect;
+• Builder;
+• Inspector.
+
+At least two independent AI roles are required to prevent self-review, self-justification, and unchecked execution.
 
 No system may serve as sole author, sole reviewer, and sole validator of its own work.
 
-The architecture may scale to additional agents provided all agents remain subject to constitutional controls and Strategist authority.
+The architecture may scale to additional agents provided all agents remain subject to Strategist authority, IPI protection, and the GateZero™ → GateDelta™ → GateSigma™ constitutional chain.
 
----
-
-## Article 4 — GateZero™
+Article 4 — GateZero™
 
 GateZero™ serves as the constitutional admissibility boundary.
 
 No movement may proceed unless it is:
 
-- authorized,
-- in scope,
-- constraint compliant,
-- constitutionally admissible.
+• authorized;
+• in scope;
+• constraint compliant;
+• constitutionally admissible.
 
 GateZero™ functions as the constitutional veto on action.
 
----
+Article 5 — GateDelta™
 
-## Article 5 — GateDelta™
-
-GateDelta™ serves as the constitutional refusal boundary.
+GateDelta™ serves as the constitutional refusal and evidentiary-integrity boundary.
 
 Every refusal shall generate a traceable record including:
 
-- triggering condition,
-- prevented action,
-- governing constraint,
-- refusal timestamp.
+• triggering condition;
+• prevented action;
+• governing constraint;
+• refusal timestamp;
+• movement link;
+• relevant boundary state.
 
 GateDelta™ functions as the constitutional veto on secrecy.
 
----
-
-## Article 6 — GateSigma™
+Article 6 — GateSigma™
 
 GateSigma™ serves as the constitutional consequence boundary.
 
 No consequence may bind if it:
 
-- exceeds authority,
-- violates constraints,
-- originates from inadmissible movement,
-- produces inadmissible effects.
+• exceeds authority;
+• violates constraints;
+• originates from inadmissible movement;
+• creates inadmissible effects;
+• lacks required proof-surface support.
 
 GateSigma™ functions as the constitutional veto on consequence.
 
----
-
-## Article 7 — Public Proof Surface
+Article 7 — Public Proof Surface
 
 All constitutional gates shall generate observable proof surfaces.
 
 Required proof surfaces include:
 
-- GateZero authorization records
-- GateDelta refusal records
-- GateSigma consequence evaluations
-- IPI integrity records
+• GateZero™ authorization records;
+• GateDelta™ refusal records;
+• GateSigma™ consequence evaluations;
+• IPI integrity records;
+• replayable boundary logs.
 
-These records collectively form the Public Proof Surface.
+These records collectively form the Public Proof Surface™.
 
-The Public Proof Surface exists to support transparency, auditability, replayability, and independent verification.
+The Public Proof Surface™ exists to support transparency, auditability, replayability, falsifiability, and independent verification.
 
----
-
-## Article 8 — Closed Constitutional Loop
+Article 8 — Closed Constitutional Loop
 
 All implementations shall preserve the constitutional loop:
 
-Strategist → IPI → GateZero → Execution → GateDelta → GateSigma → Public Proof Surface → Strategist
+Strategist → IPI → GateZero™ → Execution → GateDelta™ → GateSigma™ → Public Proof Surface™ → Strategist
 
-This loop preserves human sovereignty and admissibility integrity.
-
----
-
-# PART II — LICENSE
-
-## Limited Noncommercial Evaluation License
-
-Subject to the terms of this License, permission is granted to:
-
-- read,
-- review,
-- study,
-- cite,
-- discuss,
-- evaluate,
-
-the LCES constitutional architecture for educational, academic, research, civic, and noncommercial purposes.
-
-No ownership rights are transferred.
-
-No rights are granted by implication.
-
-All rights not expressly granted are reserved.
-
----
-
-## Prohibited Uses
-
-Without prior written authorization from the creator, no person or entity may:
-
-- commercially deploy LCES,
-- sell LCES-based products or services,
-- provide LCES certification,
-- offer LCES training for compensation,
-- create commercial governance products derived from LCES,
-- incorporate LCES into commercial software,
-- represent any system as officially compliant with LCES.
-
-Commercial rights are expressly reserved.
-
----
-
-# PART III — TRADEMARK NOTICE
-
-The following names are claimed trademarks of the LCES Project:
-
-- LCES™
-- Legal Calculus Educational System™
-- GateZero™
-- GateDelta™
-- GateSigma™
-
-These marks identify the authentic source and governance identity of the system.
-
-No license to use these marks is granted through this document.
-
-Derivative works must not imply:
-
-- endorsement,
-- certification,
-- affiliation,
-- official status.
-
-Derivative works must clearly state that they are not official LCES materials.
-
----
-
-# PART IV — PATENT RIGHTS NOTICE
-
-Patent rights are reserved.
-
-Certain technical implementations associated with the LCES architecture, including execution-boundary controls, admissibility evaluation mechanisms, governance enforcement layers, and related machine-implemented processes, may be the subject of patent protection.
-
-No patent rights are granted under this License.
-
-All patent rights are expressly reserved.
-
----
-
-# PART V — COMMERCIAL LICENSING
-
-Commercial use of LCES requires a separate written agreement.
-
-Commercial activities include:
-
-- enterprise deployment,
-- SaaS offerings,
-- paid consulting,
-- paid training,
-- certification programs,
-- commercial integrations,
-- governance products,
-- platform implementations.
-
-Commercial licensing inquiries should be directed to the creator.
-
----
-
-# PART VI — DISCLAIMER
-
-LCES is provided “AS IS.”
-
-The creator makes no warranty, express or implied, including warranties of:
-
-- merchantability,
-- fitness for a particular purpose,
-- non-infringement,
-- legal sufficiency,
-- regulatory compliance.
-
-The creator shall not be liable for any damages arising from use of the system.
-
----
-
-# NOTICE
-
-LCES™ is a constitutional governance architecture intended to preserve admissibility, authority integrity, and consequence control within AI-assisted systems.
-
-This document governs the official constitutional identity of the LCES framework.
-
-All rights not expressly granted are reserved.
+This loop preserves human sovereignty, admissibility integrity, influence integrity, and consequence control.
 
 ----------------------------------------------------------------
-CATEGORY DECLARATION
+
+PART II — GOVERNANCE CATEGORY DECLARATION
+
+LCES™ declares the governance category:
+
+ADMISSIBILITY-PRESERVING PROCESS
+
+A process is admissibility-preserving only if inadmissible movement is prevented from binding into consequence.
+
+LCES™ belongs to this category only when:
+
+• inadmissible movement is halted;
+• refusal is proven;
+• influence is bounded;
+• consequence cannot bind from an inadmissible state;
+• public proof surfaces make the boundary decision replayable and falsifiable.
+
+This declaration describes the constitutional category of the system.
+
+It does not grant ownership rights, patent rights, trademark rights, commercial rights, certification rights, implementation rights, or any license beyond those expressly stated in this document.
+
 ----------------------------------------------------------------
-This system operates within the governance category:
 
-    "Admissibility‑Preserving Process"
+PART III — PROOF SURFACE REQUIREMENTS
 
-A process is admissibility‑preserving only if inadmissible
-movement is prevented from binding into consequence.
+The governance-category claim is substantiated by the following required proof surfaces.
 
-----------------------------------------------------------------
-PROOF SURFACE DECLARATION
-----------------------------------------------------------------
-The category claim is substantiated by the following public
-proof surfaces:
+1. Refusal Surfaces — GateDelta™
 
-1. Refusal Surfaces (GateDelta)
-   - Evidence of boundary detection and boundary halt
-   - Triggering condition and prevented consequence
-   - Influence vectors at moment of refusal
-   - Replayable refusal snapshot
+GateDelta™ refusal surfaces shall record:
 
-2. Influence‑Safe Activation Records (ILI)
-   - Evidence of reviewer sovereignty preservation
-   - Visible and suppressed alternatives
-   - Framing, compression, and momentum vectors
-   - Override capacity and influence‑safe state
+• evidence of boundary detection;
+• evidence of boundary halt;
+• triggering condition;
+• prevented action;
+• governing constraint;
+• influence vectors present at the moment of refusal;
+• replayable refusal snapshot.
+
+2. Influence-Safe Activation Records — IPI
+
+IPI records shall document:
+
+• preservation of Strategist authority;
+• visible alternatives;
+• suppressed alternatives where applicable;
+• framing vectors;
+• compression vectors;
+• momentum vectors;
+• override capacity;
+• influence-safe state.
 
 3. Replayable Boundary Logs
-   - Boundary entry, halt, exit
-   - Consequence‑binding conditions
-   - Full replay and falsification capability
 
-These surfaces are publicly exposed in:
+Boundary logs shall record:
 
-    /proof/refusal-surfaces/
-    /proof/influence-records/
-    /proof/boundary-logs/
+• boundary entry;
+• boundary halt;
+• boundary exit;
+• consequence-binding conditions;
+• full replay and falsification capacity.
+
+4. Public Location of Proof Surfaces
+
+Where publicly implemented, proof surfaces may be exposed through designated repository locations, including:
+
+• /proof/refusal-surfaces/
+• /proof/influence-records/
+• /proof/boundary-logs/
+
+Each entry should be timestamped, replayable, and independently verifiable where feasible.
 
 ----------------------------------------------------------------
-ENFORCEMENT MECHANISMS
-----------------------------------------------------------------
-Admissibility preservation is enforced by:
 
-    GateDelta  – Refusal Proof & Boundary Halt
-    ILI        – Influence Layer Integrity
-
-GateDelta ensures inadmissible movement is halted and logged.
-ILI ensures reviewer sovereignty is preserved and influence
-vectors are surfaced.
-
-Together, these mechanisms guarantee that inadmissible movement
-cannot become protected consequence.
-
---
-================================================================
-
-
-
-================================================================
-                     IP PERIMETER (NON‑GOVERNANCE)
-================================================================
-
-The following applies only to the written expression contained
-in this repository. It does **not** define governance category,
-does **not** establish admissibility, and does **not** override
-the constitutional License Section above.
-
-Copyright (c) 2026 Charles Mayron.
-
-Permission is hereby granted, free of charge, to any person
-obtaining a copy of this repository’s written materials to use,
-copy, modify, merge, publish, distribute, sublicense, and/or
-sell copies of the written expression, subject to the following
-conditions:
-
-- This IP perimeter applies only to expressive text.
-- It does not apply to governance claims.
-- It does not apply to admissibility‑preserving mechanisms.
-- It does not apply to proof surfaces or boundary logs.
-
-THE WRITTEN MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF
-ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
-WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
-AND NONINFRINGEMENT.
-
-This IP perimeter is subordinate to the constitutional License
-Section above and does not modify or limit the governance
-category declaration.
-================================================================
-
----
-
-
-# PART I — LCES CONSTITUTION
-
-## Article 1 — Human Sovereignty
-
-All implementations of the Legal Calculus Educational System (LCES™) shall preserve the Strategist as the ultimate source of:
-
-- admissibility definition,
-- constraint definition,
-- category definition,
-- authority definition,
-- consequence boundaries.
-
-No AI system, workflow, agent, model, or automated process may independently redefine, expand, or override Strategist authority.
-
----
-
-## Article 2 — Influence-Proof Integrity (IPI)
-
-All implementations shall maintain Influence-Proof Integrity (IPI).
-
-IPI exists to prevent:
-
-- unauthorized constraint modification,
-- adversarial reframing,
-- category shifting,
-- influence-based distortion,
-- hidden authority substitution.
-
-IPI preserves Strategist sovereignty throughout system operation.
-
----
-
-## Article 3 — Multi-AI Constitutional Structure
-
-LCES requires separation of powers.
-
-The canonical implementation consists of:
-
-- Architect
-- Builder
-- Inspector
-
-No system may serve as sole author, sole reviewer, and sole validator of its own work.
-
-The architecture may scale to additional agents provided all agents remain subject to constitutional controls and Strategist authority.
-
----
-
-## Article 4 — GateZero™
-
-GateZero™ serves as the constitutional admissibility boundary.
-
-No movement may proceed unless it is:
-
-- authorized,
-- in scope,
-- constraint compliant,
-- constitutionally admissible.
-
-GateZero™ functions as the constitutional veto on action.
-
----
-
-## Article 5 — GateDelta™
-
-GateDelta™ serves as the constitutional refusal boundary.
-
-Every refusal shall generate a traceable record including:
-
-- triggering condition,
-- prevented action,
-- governing constraint,
-- refusal timestamp.
-
-GateDelta™ functions as the constitutional veto on secrecy.
-
----
-
-## Article 6 — GateSigma™
-
-GateSigma™ serves as the constitutional consequence boundary.
-
-No consequence may bind if it:
-
-- exceeds authority,
-- violates constraints,
-- originates from inadmissible movement,
-- produces inadmissible effects.
-
-GateSigma™ functions as the constitutional veto on consequence.
-
----
-
-## Article 7 — Public Proof Surface
-
-All constitutional gates shall generate observable proof surfaces.
-
-Required proof surfaces include:
-
-- GateZero authorization records
-- GateDelta refusal records
-- GateSigma consequence evaluations
-- IPI integrity records
-
-These records collectively form the Public Proof Surface.
-
-The Public Proof Surface exists to support transparency, auditability, replayability, and independent verification.
-
----
-
-## Article 8 — Closed Constitutional Loop
-
-All implementations shall preserve the constitutional loop:
-
-Strategist → IPI → GateZero → Execution → GateDelta → GateSigma → Public Proof Surface → Strategist
-
-This loop preserves human sovereignty and admissibility integrity.
-
----
-
-# PART II — LICENSE
-
-## Limited Noncommercial Evaluation License
-
-Subject to the terms of this License, permission is granted to:
-
-- read,
-- review,
-- study,
-- cite,
-- discuss,
-- evaluate,
-
-the LCES constitutional architecture for educational, academic, research, civic, and noncommercial purposes.
+PART IV — LIMITED NONCOMMERCIAL EVALUATION LICENSE
+
+Subject to this License, limited permission is granted to:
+
+• read;
+• review;
+• study;
+• cite;
+• discuss;
+• evaluate;
+
+LCES™ materials for educational, academic, research, civic, and noncommercial purposes only.
+
+This limited permission does not include the right to:
+
+• commercially deploy LCES™;
+• create commercial products or services based on LCES™;
+• incorporate LCES™ into commercial software;
+• provide paid consulting based on LCES™;
+• provide paid training based on LCES™;
+• provide certification, compliance, or audit services based on LCES™;
+• represent any system as official, certified, compatible, compliant with, endorsed by, or affiliated with LCES™;
+• use LCES™ trademarks or branding;
+• create proprietary implementations of the LCES™ constitutional architecture.
 
 No ownership rights are transferred.
 
-No rights are granted by implication.
-
 All rights not expressly granted are reserved.
 
----
+----------------------------------------------------------------
 
-## Prohibited Uses
+PART V — ATTRIBUTION
+
+Any permitted citation, discussion, noncommercial evaluation, or academic reference must attribute the work as:
+
+“LCES Constitutional Architecture, Version 8.0, Charles D. Mayron.”
+
+Attribution does not create endorsement, affiliation, certification, sponsorship, compatibility, or permission for commercial use.
+
+----------------------------------------------------------------
+
+PART VI — PROHIBITED USES
 
 Without prior written authorization from the creator, no person or entity may:
 
-- commercially deploy LCES,
-- sell LCES-based products or services,
-- provide LCES certification,
-- offer LCES training for compensation,
-- create commercial governance products derived from LCES,
-- incorporate LCES into commercial software,
-- represent any system as officially compliant with LCES.
+• commercially deploy LCES™;
+• sell LCES™-based products or services;
+• provide LCES™ certification;
+• offer LCES™ training for compensation;
+• create commercial governance products derived from LCES™;
+• incorporate LCES™ into commercial software;
+• use LCES™ in enterprise systems;
+• create SaaS offerings based on LCES™;
+• market systems as LCES™-compliant, LCES™-certified, official LCES™, endorsed by LCES™, or compatible with LCES™;
+• use the LCES™ name or marks as branding;
+• imply endorsement, affiliation, sponsorship, certification, compatibility, or approval by the creator.
 
 Commercial rights are expressly reserved.
 
----
+----------------------------------------------------------------
 
-# PART III — TRADEMARK NOTICE
+PART VII — TRADEMARK NOTICE
 
-The following names are claimed trademarks of the LCES Project:
+The following names, marks, and governance identifiers are claimed as trademarks of the creator:
 
-- LCES™
-- Legal Calculus Educational System™
-- GateZero™
-- GateDelta™
-- GateSigma™
+• LCES™
+• Legal Calculus Educational System™
+• GateZero™
+• GateDelta™
+• GateSigma™
+• LCES at the Gate™
+• Execution Integrity Surface™
+• Public Proof Surface™
+• Influence-Proof Integrity™
 
-These marks identify the authentic source and governance identity of the system.
+These marks identify the authentic source, official governance identity, and constitutional architecture of LCES™.
 
-No license to use these marks is granted through this document.
+No trademark license is granted by this document.
 
-Derivative works must not imply:
+No derivative, implementation, fork, publication, product, service, or framework may use these marks to imply:
 
-- endorsement,
-- certification,
-- affiliation,
-- official status.
+• endorsement;
+• certification;
+• compatibility;
+• affiliation;
+• official status;
+• authorship;
+• sponsorship.
 
-Derivative works must clearly state that they are not official LCES materials.
+Derivative or comparative references must clearly state that they are not official LCES™ materials and are not endorsed, certified, approved, or sponsored by the creator.
 
----
+----------------------------------------------------------------
 
-# PART IV — PATENT RIGHTS NOTICE
+PART VIII — PATENT RIGHTS NOTICE
 
-Patent rights are reserved.
+Patent rights are expressly reserved.
 
-Certain technical implementations associated with the LCES architecture, including execution-boundary controls, admissibility evaluation mechanisms, governance enforcement layers, and related machine-implemented processes, may be the subject of patent protection.
+Certain technical implementations associated with LCES™, including execution-boundary controls, admissibility evaluation mechanisms, governance enforcement layers, bind-point admissibility, runtime authority survival, human-bounded intent verification, proof-surface generation, influence-integrity controls, and related machine-implemented processes may be the subject of pending or future patent applications.
 
 No patent rights are granted under this License.
 
+No license, immunity, covenant not to sue, authorization, implementation right, or other patent-related permission is granted under any patent, patent application, continuation, continuation-in-part, divisional, reissue, reexamination, foreign counterpart, or related intellectual-property right.
+
 All patent rights are expressly reserved.
 
----
+Upon filing, the first paragraph may be updated to state:
 
-# PART V — COMMERCIAL LICENSING
+“Certain technical mechanisms of the Legal Calculus Educational System (LCES™) are the subject of one or more pending patent applications.”
 
-Commercial use of LCES requires a separate written agreement.
+----------------------------------------------------------------
 
-Commercial activities include:
+PART IX — COMMERCIAL LICENSING
 
-- enterprise deployment,
-- SaaS offerings,
-- paid consulting,
-- paid training,
-- certification programs,
-- commercial integrations,
-- governance products,
-- platform implementations.
+Commercial use of LCES™ requires a separate written agreement signed by the creator.
 
-Commercial licensing inquiries should be directed to the creator.
+Commercial activities include, but are not limited to:
 
----
+• enterprise deployment;
+• SaaS offerings;
+• paid consulting;
+• paid training;
+• certification programs;
+• compliance services;
+• audit services;
+• commercial integrations;
+• governance products;
+• platform implementations;
+• professional-services offerings;
+• branded implementations;
+• domain-specific commercial adaptations.
 
-# PART VI — DISCLAIMER
+No commercial rights are granted by this public release.
 
-LCES is provided “AS IS.”
+----------------------------------------------------------------
+
+PART X — VERSION CONTROL
+
+This License governs LCES™ Version 8.0 and all 8.x minor revisions unless superseded in writing by a later official license version.
+
+Major versions, including Version 9.0 and beyond, may include updated constitutional, licensing, trademark, commercial, or patent provisions.
+
+----------------------------------------------------------------
+
+PART XI — DISCLAIMER
+
+LCES™ is provided “AS IS.”
 
 The creator makes no warranty, express or implied, including warranties of:
 
-- merchantability,
-- fitness for a particular purpose,
-- non-infringement,
-- legal sufficiency,
-- regulatory compliance.
+• merchantability;
+• fitness for a particular purpose;
+• non-infringement;
+• legal sufficiency;
+• regulatory compliance;
+• technical performance;
+• security;
+• reliability.
 
-The creator shall not be liable for any damages arising from use of the system.
+LCES™ does not constitute legal advice, compliance advice, professional advice, regulatory approval, certification, or legal governance authority.
 
----
+The creator shall not be liable for any damages arising from use, attempted use, implementation, reliance, modification, interpretation, or deployment of LCES™.
 
-# NOTICE
+----------------------------------------------------------------
 
-LCES™ is a constitutional governance architecture intended to preserve admissibility, authority integrity, and consequence control within AI-assisted systems.
+PART XII — NO WAIVER
 
-This document governs the official constitutional identity of the LCES framework.
+Failure by the creator to enforce any provision of this License, assert any right, object to any use, or pursue any remedy shall not constitute a waiver of any right, claim, protection, remedy, or future enforcement action.
+
+No waiver shall be effective unless expressly made in writing and signed by the creator.
+
+----------------------------------------------------------------
+
+PART XIII — GOVERNING LAW
+
+This License and all disputes relating to LCES™ shall be governed by and construed in accordance with the laws of the State of New York, without regard to conflict-of-law principles.
+
+Any provision determined to be unenforceable shall be modified only to the minimum extent necessary to preserve enforceability, and the remaining provisions shall remain in full force and effect.
+
+----------------------------------------------------------------
+
+PART XIV — ENTIRE AGREEMENT
+
+This document constitutes the complete public license, constitutional declaration, trademark notice, patent-rights reservation, and commercial-rights reservation governing LCES™ Version 8.0.
+
+No prior public statement, repository comment, presentation, draft, article, social-media post, discussion, or informal communication shall modify this document unless expressly incorporated into a later written version published by the creator.
+
+----------------------------------------------------------------
+
+FINAL NOTICE
+
+LCES™ is a constitutional governance architecture intended to preserve admissibility, authority integrity, influence integrity, and consequence control within AI-assisted systems.
+
+This document governs the official constitutional identity, limited evaluation license, trademark reservation, patent-rights reservation, and commercial-rights reservation for LCES™.
 
 All rights not expressly granted are reserved.
----
 
-This License applies to all LCES constitutional materials, including:
-- the Manifesto (Parts I–IX),
-- the Bootloader and Super‑Bootloader,
-- the Constitutional Surfaces,
-- the Governance and Enforcement Doctrines,
-- the Interoperability and International Alignment Doctrines,
-- and all associated diagrams, definitions, and structural mappings.
-
-# **TRADEMARKS & GOVERNANCE IDENTITY**
-
-“LCES”, “LCES Legal Calculus Educational System”, and related branding, terminology, and system identity are claimed as trademarks of the creator. All rights in these marks are reserved. These marks identify the official LCES system and its authentic source. LCES™, Legal Calculus Educational System™, LCES at the Gate™, and LCES™ GateZero are protected trademarks of the original author. These marks identify the authentic governance identity of the system and may not be used in derivative systems, frameworks, or publications without explicit permission. No use of the marks may imply endorsement, certification, authorship, or affiliation by any party other than the original author. These marks may not be used to label, brand, or describe any governance mechanism, execution‑boundary construct, or procedural architecture that is equivalent in meaning, effect, operational physics, or governance function to those defined in the originating system. Unauthorized uses include using the LCES name or marks in a way that implies endorsement, selling products or services under the LCES name, creating commercial offerings using the LCES brand, presenting derivatives as official LCES materials, using the LCES name as branding for forks, variants, or adaptations, or using confusingly similar names or marks. Permitted uses include non‑commercial educational use, attribution‑compliant sharing, adaptations under CC BY‑NC‑SA 4.0, and derivative works that do not use the LCES name or claimed marks as branding. Derivatives must clearly state they are not official LCES materials. This License governs the use of the written text of the LCES Manifesto. It does not grant permission to use any LCES trademarks, doctrinal names, architectural identifiers, or governance marks. All trademarks are governed exclusively by the Trademark section. LCES at the Gate™ is the doctrinal principle establishing that all AI actions must prove authority, admissibility, and human‑bounded intent at the moment of execution, before crossing into consequence. LCES™ GateZero is the formal name of the LCES Governance Layer, designating the constitutional checkpoint that all AI systems must pass before any action, inference, continuation, or escalation is permitted. These marks identify the unique governance identity of LCES and may not be used in derivative systems, frameworks, or publications without explicit permission. LCES at the Gate™ and LCES™ GateZero constitute the unique governance identity of the Legal Calculus Educational System. They define the constitutional enforcement posture of LCES and may not be replicated, reinterpreted, or rebranded in competing systems.
-# Trademarks — Legal Calculus Educational System (LCES)
-
-The following names and governance identifiers are protected trademarks of the
-Legal Calculus Educational System:
-
-- LCES™
-- LCES at the Gate™
-- LCES™ GateZero
-- LCES™ GateSigma
-
-These marks identify the governance architecture of LCES and may not be used in
-derivative systems, frameworks, or publications without explicit permission.
-
-Trademark protection covers:
-- governance layer names,
-- doctrinal identifiers,
-- admissibility layer names,
-- execution‑path identity markers.
-
-Trademark protection does not restrict use of the licensed content; it restricts use
-of the LCES identity.
-
-LCES™, GateZero™, GateSigma™, GateSigma Surface™, 
-Execution Integrity Surface™, Interoperability Surface™, 
-Deliberation Surface™, Public Oversight Surface™, 
-International Alignment Surface™
-are trademarks of the LCES Project and may not be used to imply
-endorsement, certification, or compatibility without explicit permission.
-
-
-# **NOTICE**
-
-This NOTICE affirms that the Legal Calculus Educational System (LCES™), including its architecture, semantics, structural relationships, operational mechanisms, governance surfaces, gate‑level controls, execution‑boundary doctrines, and all associated constructs, originates from a single act of authorship and remains permanently bound to that origin. No reinterpretation, adaptation, translation, re‑expression, or derivative use may alter, obscure, or reassign the provenance, identity, or jurisdiction of the system. All distributed or derivative materials must preserve this NOTICE in full. No derivative work, adaptation, translation, or re‑expression may claim independent origin, competing authority, or separate jurisdictional identity. Re‑expression, renaming, reframing, synonym substitution, conceptual paraphrase, structural mimicry, domain translation, or recontextualization of any construct does not create a new origin and does not sever the relationship between the derivative expression and the source. Any construct equivalent in meaning, effect, operational physics, or governance function to those defined in the originating system is treated as derivative and remains subordinate to the original authorship and jurisdiction. The execution‑boundary constructs of LCES™, including bind‑point admissibility, runtime authority survival, GateZero enforcement, and all mechanisms governing the transition from reasoning to consequence, possess unique functional identities that cannot be detached, renamed, reframed, modularized, or re‑originated in downstream systems. Their jurisdiction is inherited from the originating architecture and remains bound to that authorship across all derivative contexts. Any attempt to recreate, parallel, or re‑express these constructs under alternate terminology or structural framing is treated as derivative use and remains subordinate to the original authorship and jurisdiction. LCES™, Legal Calculus Educational System™, LCES at the Gate™, and LCES™ GateZero are protected trademarks of the original author. These marks identify the authentic governance identity of the system and may not be used in derivative systems, frameworks, or publications without explicit permission. No use of the marks may imply endorsement, certification, authorship, or affiliation by any party other than the original author. Use of LCES materials does not imply endorsement by the creator. Derivative works must clearly state they are not official LCES materials. All rights not expressly granted remain reserved to the original author. This combined document provides the authoritative legal summary and licensing terms for the LCES Legal Calculus Educational System. It affirms copyright ownership, license terms, trademark claims, commercial rights reservations, governance architecture protections, provenance locks, jurisdiction locks, identity locks, and execution‑boundary protections governing all LCES materials.
-# NOTICE — Governance Identity Protection
-
-LCES at the Gate™, LCES™ GateZero, and LCES™ GateSigma constitute the governance
-identity of the Legal Calculus Educational System. They define the constitutional
-enforcement posture of LCES and may not be replicated, reinterpreted, or rebranded
-in competing systems.
-
-This NOTICE governs identity, not content.
-The content remains licensed under CC BY‑NC‑SA 4.0.
-The identity remains protected under trademark law.
-Non-commercial use includes academic, educational, civic, and
-non-profit AI‑assisted analysis, provided that no derivative system
-claims LCES compliance, certification, or equivalence.
-# **COMMERCIAL_LICENSE**
-This Commercial License Agreement governs the authorized commercial use of the Legal Calculus Educational System (LCES™). All LCES™ materials, including the architecture, semantics, structural relationships, operational mechanisms, governance surfaces, gate‑level controls, execution‑boundary doctrines, governance identity, and all explanatory or doctrinal content, are the copyrighted works of the creator. All rights not expressly granted are reserved. Subject to the terms of this Agreement, the creator grants the Licensee a limited, non‑exclusive, non‑transferable, non‑sublicensable, revocable commercial license to use LCES™ solely for the specific commercial purpose(s) explicitly authorized in writing. No rights are granted by implication, estoppel, or exhaustion. Authorized commercial uses must be listed in the executed addendum. All other uses are prohibited. The Licensee may not modify, adapt, translate, re‑express, restructure, or create derivative works of LCES™ except as expressly permitted. Any construct equivalent in meaning, effect, operational physics, or governance function to those defined in LCES™ is treated as derivative and remains subordinate to the creator’s authorship and jurisdiction. The Licensee shall not create competing systems, frameworks, or governance architectures; replicate or approximate LCES™ execution‑boundary constructs, including GateZero enforcement, bind‑point admissibility, runtime authority survival, or human‑bounded intent verification; use LCES™ trademarks, governance identity, or branding without explicit permission; remove attribution; claim authorship; or imply endorsement. LCES™, Legal Calculus Educational System™, LCES at the Gate™, and LCES™ GateZero are protected trademarks and governance‑identity marks of the creator. No trademark rights are granted under this Agreement. Any use of these marks requires separate written authorization. The creator retains all rights, title, and interest in LCES™, including all copyrights, trademarks, governance identity, execution‑boundary constructs, and derivative rights. No ownership rights are transferred. All rights not expressly granted are reserved. Any non‑public LCES™ materials provided to the Licensee are confidential and may not be disclosed, distributed, or used except as expressly permitted. The Licensee shall pay the commercial licensing fee specified in the executed addendum. Fees are non‑refundable unless otherwise stated. The Licensee agrees to maintain accurate records of all uses of LCES™ and to permit the creator to audit compliance upon reasonable notice. This Agreement begins on the Effective Date and continues until terminated. The creator may terminate immediately upon breach. Upon termination, the Licensee must cease all use of LCES™, destroy all copies, and certify destruction. LCES™ is provided “as is” without warranties of any kind. The creator disclaims all implied warranties, including merchantability, fitness for a particular purpose, and non‑infringement. The creator is not liable for indirect, incidental, consequential, special, or punitive damages. Direct damages are limited to the amount paid under this Agreement. The Licensee shall indemnify and hold harmless the creator from any claims arising from the Licensee’s commercial use of LCES™. This Agreement is governed by the laws of the State of New York, without regard to conflict‑of‑law principles. This Agreement constitutes the entire agreement between the parties and supersedes all prior discussions. Amendments must be in writing and signed by both parties. This repository does not grant any rights under any patent or patent application. All patent rights are expressly reserved by the creator.
-
-No party may create proprietary, closed-source, commercial, or
-misrepresentative derivatives of the LCES constitutional architecture,
-including but not limited to the Execution Integrity, Governance,
-Enforcement, Interoperability, Deliberation, Public Oversight, or
-International Alignment surfaces.
-
-# **PATENT**
-Certain technical mechanisms of the Legal Calculus Educational System (LCES™), including the GateZero execution‑boundary enforcement layer, bind‑point admissibility, runtime authority survival, human‑bounded intent verification, and the interposed governance architecture controlling transitions from reasoning to consequence, are the subject of one or more pending patent applications. These mechanisms constitute a novel and non‑obvious machine‑implemented system for governing AI actions at the moment of execution by evaluating candidate outputs at a governance checkpoint and permitting execution only when all governance requirements are satisfied. The pending applications cover the technical implementation of GateZero as an enforcement layer positioned between reasoning and consequence, the machine tests for admissibility, authority survival, and human‑bounded intent, and the modular governance architecture that intercepts, evaluates, authorizes, or blocks AI outputs prior to execution. Unauthorized implementation, replication, adaptation, or use of these mechanisms in commercial or non‑commercial systems may constitute patent infringement. This repository does not grant any rights under any patent or patent application. All patent rights are expressly reserved by the creator.
-
----
-# LCES LICENSE & TRADEMARK BLOCK
-# VERSION 7.1
-
-This License applies to all LCES constitutional materials, including:
-- Articles I–X (Foundations),
-- Manifesto Parts I–IX,
-- Bootloader and Super‑Bootloader,
-- Constitutional Surfaces,
-- Governance, Enforcement, and Interoperability Doctrines,
-- Diagrams, primitives, and structural mappings.
-
-## LICENSE
-All LCES materials are released under:
-Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International (CC BY‑NC‑SA 4.0).
-
-Non‑commercial use includes academic, educational, civic, and non‑profit
-AI‑assisted analysis, provided no derivative system claims LCES compliance,
-certification, or equivalence.
-
-Any derivative work incorporating LCES doctrinal structures, surfaces, or
-governance schemas must be released under the same CC BY‑NC‑SA 4.0 license.
-
-## TRADEMARKS
-LCES™, GateZero™, GateSigma™, Execution Integrity Surface™,
-Interoperability Surface™, Deliberation Surface™, Public Oversight Surface™,
-and International Alignment Surface™ are trademarks of the LCES Project.
-
-These marks may not be used to imply endorsement, certification, or
-compatibility without explicit permission.
-
-## ANTI‑DEROGATION
-No party may create proprietary, closed‑source, commercial, or
-misrepresentative derivatives of the LCES constitutional architecture,
-including but not limited to the Execution Integrity, Governance,
-Enforcement, Interoperability, Deliberation, Public Oversight, or
-International Alignment surfaces.
-
-## VERSIONING
-This License applies to LCES Version 7.1 and all minor revisions (7.x).
-Major revisions (8.0+) will include their own updated License block.
-
-## ATTRIBUTION
-Attribution must reference:
-“LCES Constitutional Architecture, Version 7.1”
-and include a link to the canonical repository.
----
-# LCES LEGAL NOTICE, LICENSE, AND TRADEMARK DECLARATION
-# GateZero™ / GateDelta™ / GateSigma™
-
-This document governs the use of the LCES gate architecture, including
-GateZero™, GateDelta™, and GateSigma™. These components form part of the
-LCES procedural‑literacy framework. They provide structural boundaries,
-refusal documentation, and execution tracing. They do not assert legal
-authority, cognitive insight, causal explanation, or forensic sufficiency.
-
------------------------------------------------------------------------
-SECTION 1 — NOTICE
------------------------------------------------------------------------
-
-GateZero™, GateDelta™, and GateSigma™ are structural components of LCES.
-They are designed to support procedural clarity by defining boundaries,
-recording refusal events, and preserving interaction traces.
-
-These components do NOT:
-• determine correctness or compliance
-• capture cognition or internal reasoning
-• establish causation or legal justification
-• guarantee admissibility or sufficiency for litigation
-• function as governance, adjudication, or regulatory mechanisms
-
-They preserve artifacts of interaction only.
-
-Use of these components does not create or imply any legal duty,
-standard of care, reliance interest, or professional obligation.
-
------------------------------------------------------------------------
-SECTION 2 — LICENSE
------------------------------------------------------------------------
-
-Permission is granted to use, reproduce, and distribute the LCES gate
-architecture under the following conditions:
-
-1. GateZero™ may be used solely to define refusal boundaries. It does
-   not certify that any permitted action is lawful, correct, or compliant.
-
-2. GateDelta™ may be used solely to document refusal events, including
-   the triggering condition and the prevented action. It does not assert
-   correctness, admissibility, cognition, or causal reasoning.
-
-3. GateSigma™ may be used solely to record execution traces, including
-   prompts, retrieval sets, constraints, and tool calls. It does not
-   represent cognition or the true cause of any outcome.
-
-4. These components may not be represented as legal safeguards,
-   compliance engines, forensic systems, or adjudicative tools.
-
-5. Derivative works must not use the GateZero™, GateDelta™, or
-   GateSigma™ names as branding or imply endorsement.
-
-6. Commercial use of the marks or their equivalents is prohibited
-   without explicit permission.
-
-These components are provided “as‑is,” without warranty of correctness,
-legality, or fitness for any purpose.
-
------------------------------------------------------------------------
-SECTION 3 — TRADEMARK DECLARATION
------------------------------------------------------------------------
-
-The names, marks, and identifiers GateZero™, GateDelta™, and GateSigma™
-are trademarks of their creator. This includes:
-
-• the names “GateZero”, “GateDelta”, “GateSigma”
-• the symbolic forms Gate0, GateΔ, GateΣ
-• associated terminology and structural labels within LCES
-
-Prohibited uses:
-• using the marks to imply endorsement or affiliation
-• selling products or services under these names
-• registering or attempting to register these marks or confusingly
-  similar marks
-• branding derivative systems with these names
-
-Permitted uses:
-• non‑commercial educational use
-• attribution‑compliant sharing
-• adaptation under CC BY‑NC‑SA 4.0, provided the marks are not used as
-  branding for derivative works
-
-All rights reserved to the extent permitted by applicable law.
-
------------------------------------------------------------------------
-SECTION 4 — ARCHITECTURAL DEFINITIONS
------------------------------------------------------------------------
-
-GateZero™ — Refusal Boundary  
-Defines the preconditions under which the system must not proceed.
-Specifies boundary conditions only. Does not assert correctness,
-legality, or compliance.
-
-GateDelta™ — Refusal‑Proof Layer  
-Documents refusal events, the triggering condition, and the prevented
-action. Records boundary enforcement. Does not assert cognition,
-causation, correctness, or forensic sufficiency.
-
-GateSigma™ — Execution Trace  
-Records what occurred when the system proceeded. Preserves interaction
-artifacts such as prompts, retrieval sets, constraints, and tool calls.
-Does not claim to capture cognition or the true cause of any outcome.
-
-# **PUBLIC PROOF SURFACE**
-
-This system declares itself an **admissibility‑preserving process**.
-
-Inadmissible movement cannot become protected consequence.
-
-The following public surfaces provide **replayable, falsifiable evidence** of boundary enforcement:
-
-## **1. Refusal Surfaces (GateDelta)**
-
-GateDelta exposes the system’s refusal events, including:
-
-- the inadmissible triggering condition
-- the prevented action
-- the boundary rule invoked
-- the influence vectors present at the moment of refusal
-- the replayable state snapshot
-
-These surfaces prove that inadmissible movement was detected, halted, and prevented from binding into consequence.
-
-## **2. Influence‑Safe Activation Records (ILI)**
-
-ILI records demonstrate that reviewer sovereignty was preserved.
-
-Each record includes:
-
-- visible and suppressed alternatives
-- interface compression state
-- framing and momentum vectors
-- reviewer override capacity
-
-These surfaces prove that the reviewer’s judgment was not shaped by system influence.
-
-## **3. Replayable Boundary Logs**
-
-Boundary logs provide a complete, auditable trace of:
-
-- boundary entry
-- boundary halt
-- boundary exit
-- consequence‑binding conditions
-
-These logs make boundary enforcement observable, reproducible, and falsifiable.
-
-## **4. Enforcement Mechanisms**
-
-Admissibility preservation is enforced by:
-
-- **GateDelta** — refusal proof and boundary‑halt surface
-- **Influence Layer Integrity (ILI)** — reviewer‑sovereignty preservation
-
-Together, these mechanisms ensure that inadmissible movement cannot become protected consequence.
-
-## **5. Public Location of Proof Surfaces**
-
-All refusal surfaces, influence‑safe activation records, and boundary logs are publicly exposed in:
-
-```
-/proof/refusal-surfaces/
-/proof/influence-records/
-/proof/boundary-logs/
-```
-
-Each entry is timestamped, replayable, and independently verifiable.
-
+END OF DOCUMENT
 -----------------------------------------------------------------------
 END OF DOCUMENT
 -----------------------------------------------------------------------
