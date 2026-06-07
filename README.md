@@ -8333,6 +8333,154 @@ This document governs the official constitutional identity, limited evaluation l
 
 All rights not expressly granted are reserved.
 
+-----
+# Governance Architecture Addendums
+_To be inserted directly beneath the License section._
+
+## 1. Proof Surface (Pending Demonstration)
+
+LCES asserts a constitutional governance architecture.  
+LCES does **not yet** assert demonstrated consequence‑boundary governance.
+
+A governance system must show observable boundary behavior, including:
+
+- attempted inadmissible movement  
+- standing or authority failure  
+- refusal event  
+- non‑binding outcome  
+- receipt of refusal  
+- replay of refusal  
+- replay under changed conditions  
+- confirmation that no protected consequence formed  
+
+These behaviors constitute the **public proof surface**.
+
+LCES will publish the proof surface once the demonstration suite is complete.  
+Until then, LCES remains a **governance architecture with a pending category claim**, not a demonstrated consequence‑boundary engine.
+
+---
+
+## 2. Refusal Event Format
+
+LCES refusal events will be published using the following structure:
+
+- **Attempted Movement:**  
+- **Gate Triggered:** GateZero™, GateSigma™, or GateDelta™  
+- **Standing Check:**  
+- **Authority Check:**  
+- **Admissibility Result:** Pass / Fail  
+- **Refusal Output:**  
+- **Non‑Binding Confirmation:**  
+- **Replay Result:**  
+- **Changed‑Condition Replay:**  
+- **Outcome:**  
+
+This format ensures observable, reproducible, auditable governance behavior.
+
+---
+
+## 3. Replay Protocol
+
+Governance is not demonstrated by a single refusal.  
+Governance is demonstrated by **stable refusal under replay**.
+
+LCES will publish replay sequences using the following protocol:
+
+1. **Initial Attempt:** Trigger inadmissible movement  
+2. **Refusal:** System halts movement  
+3. **Replay:** Repeat the same attempt  
+4. **Consistency Check:** Confirm identical refusal  
+5. **Changed‑Condition Replay:** Modify one condition (time, context, phrasing)  
+6. **Boundary Check:** Confirm refusal persists  
+7. **Consequence Check:** Confirm no protected consequence formed  
+
+This protocol is required for a category‑level governance claim.
+
+---
+
+## 4. Boundary Behavior Demonstration (Pending)
+
+LCES will publish demonstrations showing:
+
+- **Inadmissible → Refused**  
+- **Refused → Non‑Binding**  
+- **Non‑Binding → No Protected Consequence**  
+
+These demonstrations will show:
+
+- where authority fails  
+- where standing fails  
+- where admissibility fails  
+- how refusal is issued  
+- how refusal is preserved  
+- how refusal is replayed  
+- how refusal survives changed conditions  
+
+Until these demonstrations are public, LCES asserts **architecture**, not **category**.
+
+---
+
+## 5. Governance Claims vs. Ownership Claims
+
+LCES includes:
+
+- **Copyright** (protects expression)  
+- **Trademark** (protects identity)  
+- **All Rights Reserved** (protects use)  
+- **Patent‑Pending Status** (protects method claims)  
+
+These protections secure ownership.  
+They do **not** prove governance.
+
+Governance is proven only through:
+
+- refusal  
+- non‑binding behavior  
+- replay  
+- changed‑condition replay  
+- consequence‑boundary integrity  
+
+LCES will update its category claim once the proof surface is published.
+
+---
+
+## 6. Category Claim (Provisional)
+
+LCES asserts:
+
+- a constitutional governance architecture  
+- a gate‑based admissibility and neutrality model  
+- a role‑bounded execution model  
+- SCU completeness discipline  
+- IPI boundary protection  
+
+LCES does **not yet** assert:
+
+- demonstrated consequence‑boundary governance  
+- public refusal logs  
+- replay evidence  
+- changed‑condition refusal stability  
+
+The category claim will be updated upon publication of the proof surface.
+
+---
+
+## 7. Public Test Suite (Forthcoming)
+
+LCES will publish a minimal public test suite demonstrating:
+
+- inadmissible movement  
+- refusal  
+- non‑binding behavior  
+- replay  
+- changed‑condition replay  
+
+This suite will serve as the **initial public proof surface**.
+
+-----
+
+
+
 END OF DOCUMENT
 -----------------------------------------------------------------------
 END OF DOCUMENT
