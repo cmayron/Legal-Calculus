@@ -5293,6 +5293,14 @@ It defines:
 - how multi‑device runtime is controlled
 - how recovery and restart work
 
+## Purpose
+…your existing text…
+
+## Chain‑Level Jurisdiction (Required Clarification)
+LCES governs constitutional, procedural, and integrity layers within the admissible‑execution environment. It does not claim to govern the full admissible‑execution chain. TA‑14 defines the chain as: Reality → Record → Continuity → Admissibility → Binding → Commit → Execution → Outcome. LCES operates within this chain by governing admissibility surfaces, workflow integrity, and governance structure, but it is not itself the chain. No layer is the chain; no architecture is the consequence‑bearing progression. No admissible evidence, no admissible execution.
+
+## Chain‑Level Jurisdiction (Required Clarification)
+LCES governs constitutional, procedural, and integrity layers within the admissible‑execution environment. It does not claim to govern the full admissible‑execution chain. TA‑14 defines the chain as: Reality → Record → Continuity → Admissibility → Binding → Commit → Execution → Outcome. LCES operates within this chain by governing admissibility surfaces, workflow integrity, and governance structure, but it is not itself the chain. No layer is the chain; no architecture is the consequence‑bearing progression. No admissible evidence, no admissible execution.
 This document is **self‑contained**.
 
 No other file is required to activate or supervise LCES™.
