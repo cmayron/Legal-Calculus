@@ -459,36 +459,6 @@ LCES ROOT README.md
 
 ### *— Foundational Doctrine*
 
-# **TABLE OF CONTENTS — LCES™ MANIFESTO CONSTITUTION**
-
-
-
-### **CONSTITUTIONAL PREAMBLE**
-
-### **CONSTITUTIONAL SURFACES**
-
----
-
-### **ARTICLE I — GOVERNANCE**
-
-### **ARTICLE II — WORKFLOW**
-
-### **ARTICLE III — RECORD**
-
-### **ARTICLE IV — EDITIONS**
-
-### **ARTICLE V — ROLES**
-
-### **ARTICLE VI — MODES**
-
-### **ARTICLE VII — STOP**
-
-### **ARTICLE VIII — ADMISSIBILITY & GATEZERO**
-
-### **ARTICLE IX — NON‑DEROGATION**
-
-### **ARTICLE X — PROCEDURAL PRIMITIVES**
-
 
 ---
 ### *LCES™ CONSTITUTIONAL PREAMBLE — Provenance, Authority, and Governing Mechanics*
