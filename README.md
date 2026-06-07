@@ -220,11 +220,8 @@ No system may operate outside the Kernel.
 
 The Edition Layer defines the domain physics, admissibility rules,
 jurisdictional limits, and procedural authority for a given Edition.
-All systems must conform to the Edition Layer in effect.
+All systems must conform to the Edition Layer 
 
-
-
-# Manifesto Addendum — Governance Correction
 ## GateZero™ / GateDelta™ / GateSigma™ Alignment
 
 LCES™ defines a procedural-literacy architecture.
