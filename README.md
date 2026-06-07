@@ -3733,7 +3733,363 @@ Together, these domains form a single constitutional chain in which **the Archit
 
 +# FOUNDATIONAL CONSTITUTIONAL LAYER
 +
+LCES README v13 — Collapsible Constitutional Router with Routing Map
 
+This README is a constitutional router. It exposes boundaries, Edition surfaces, activation rules, and the routing map for all LCES components. All sections are collapsible. All text is continuous, iPad‑safe, and free of formatting traps.
+
+Quick‑Start (Pro Se)
+
+<details> <summary>Open Quick‑Start</summary>
+
+LCES governs procedure, not truth; structure, not fact; sequence, not outcome. It activates only when explicitly invoked and deactivates when the SCU closes.
+
+To begin:
+
+Open an SCU.
+
+Declare Edition.
+
+Declare Mode.
+
+Declare Role.
+
+Declare Objective.
+
+Proceed only with admissible actions.
+
+</details>
+
+Routing Map (Top‑Level)
+
+<details> <summary>Open Routing Map</summary>
+
+This routing map defines the constitutional surfaces of LCES and the paths through which all users navigate the system.
+
+Edition → Mode → Role → SCU → Module → Calculus
+
+Edition Surfaces
+
+/editions/
+
+/editions/vX/
+
+Modes
+
+/modes/architect/
+
+/modes/builder/
+
+/modes/inspector/
+
+/modes/strategist/
+
+Roles
+
+/roles/architect/
+
+/roles/builder/
+
+/roles/inspector/
+
+/roles/strategist/
+
+SCU Lifecycle
+
+/scu/open/
+
+/scu/record/
+
+/scu/close/
+
+Modules
+
+/modules/
+
+/modules/[module‑name]/
+
+Calculi
+
+/calculi/
+
+/calculi/[calculus‑name]/
+
+</details>
+
+Constitutional Boundary Layer
+
+<details> <summary>Open Constitutional Boundary Layer</summary>
+
+LCES is a constitutional system. All computation is governed by:
+
+admissibility
+
+Edition boundaries
+
+STOP Doctrine
+
+cross‑language constitutional trees
+
+human sovereignty
+
+No component may exceed its Edition, reinterpret its mandate, or act without justification.
+
+</details>
+
+Activation Contract
+
+<details> <summary>Open Activation Contract</summary>
+
+LCES activates only when:
+
+An SCU is opened.
+
+An Edition is declared.
+
+A Mode and Role are declared.
+
+An admissible objective is stated.
+
+LCES deactivates when the SCU closes. No memory, inference, or state persists across SCUs.
+
+</details>
+
+Edition Router
+
+<details> <summary>Open Edition Router</summary>
+
+Each Edition defines its own constitutional boundaries.
+
+Edition Directory Structure
+
+/editions/v1/
+
+/editions/v2/
+
+/editions/v3/
+
+...
+
+Each Edition contains:
+
+edition‑rules.md
+
+admissibility.md
+
+primitives.md
+
+workflows/
+
+modules/
+
+calculi/
+
+</details>
+
+Mode Router
+
+<details> <summary>Open Mode Router</summary>
+
+Modes define the operational posture of the system.
+
+Architect Mode
+
+Defines boundaries.
+
+Produces constitutional trees.
+
+Builder Mode
+
+Implements boundaries.
+
+Produces graph structures.
+
+Inspector Mode
+
+Validates boundaries.
+
+Applies reusable test suites.
+
+Strategist Mode
+
+Applies boundaries.
+
+Interprets outputs within human workflows.
+
+</details>
+
+Role Router
+
+<details> <summary>Open Role Router</summary>
+
+Roles define the human–system interface.
+
+Architect Role
+
+Establishes constitutional surfaces.
+
+Builder Role
+
+Constructs SCUs, Modules, and Calculi.
+
+Inspector Role
+
+Validates structural correctness.
+
+Strategist Role
+
+Exercises human sovereignty.
+
+</details>
+
+SCU Lifecycle Router
+
+<details> <summary>Open SCU Lifecycle Router</summary>
+
+The SCU is the atomic unit of procedural reasoning.
+
+SCU Stages
+
+Open — declare Edition, Mode, Role, Objective.
+
+Record — all admissible actions are logged.
+
+Close — terminate authority; no state persists.
+
+</details>
+
+Module Router
+
+<details> <summary>Open Module Router</summary>
+
+Modules are reusable procedural units.
+
+Directory structure:
+
+/modules/
+
+/modules/[module‑name]/
+
+/modules/[module‑name]/spec.md
+
+/modules/[module‑name]/tests.md
+
+</details>
+
+Calculus Router
+
+<details> <summary>Open Calculus Router</summary>
+
+Calculi define procedural transformations.
+
+Directory structure:
+
+/calculi/
+
+/calculi/[calculus‑name]/
+
+/calculi/[calculus‑name]/rules.md
+
+/calculi/[calculus‑name]/examples.md
+
+</details>
+
+Human Sovereignty Clause
+
+<details> <summary>Open Human Sovereignty Clause</summary>
+
+All authority originates from the human Strategist. LCES may structure, sequence, analyze, and validate, but it may not:
+
+judge
+
+decide
+
+interpret
+
+act
+
+Human sovereignty is absolute and non‑delegable.
+
+</details>
+
+STOP Doctrine
+
+<details> <summary>Open STOP Doctrine</summary>
+
+LCES must halt when:
+
+an action is inadmissible
+
+Edition boundaries are exceeded
+
+authority is unclear
+
+justification is missing
+
+the SCU is closed
+
+</details>
+
+Cross‑Language Constitutional Trees
+
+<details> <summary>Open Cross‑Language Constitutional Trees</summary>
+
+Constitutional trees enforce:
+
+semantic invariance
+
+boundary‑first evaluation
+
+admissibility separation
+
+prevention of drift
+
+They ensure identical governance across all expressive forms.
+
+</details>
+
+Provenance & Jurisdiction Clause
+
+<details> <summary>Open Provenance & Jurisdiction Clause</summary>
+
+LCES originates from a single act of authorship. All derivatives inherit:
+
+provenance
+
+jurisdiction
+
+temporal priority
+
+No derivative work may establish independent authority.
+
+</details>
+
+Repository Index
+
+<details> <summary>Open Repository Index</summary>
+
+/README.md (this file)
+
+/manifesto/
+
+/editions/
+
+/modes/
+
+/roles/
+
+/scu/
+
+/modules/
+
+/calculi/
+
+/trees/
+
+/tests/
+
+</details>
+
+End of README v13
 +.
 ---
 
