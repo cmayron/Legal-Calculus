@@ -11121,6 +11121,146 @@ An SCU is complete only if:
 Incomplete SCUs must be refused or halted.
 
 ---
+## 4. Governance Architecture Addendums  
+*(Constitutional Insert: SCU → Governance Integration)*
+
+### 4.1 Architectural vs. Demonstrated Governance
+
+SCU participates in the LCES governance architecture by enforcing **[structural completeness](ca://s?q=Explain_SCU_completeness)** before any movement occurs.
+
+LCES asserts:
+
+- SCU completeness discipline  
+- SCU boundary invariants  
+- SCU role‑bounded structure  
+
+LCES does **not yet** assert demonstrated **[consequence‑boundary governance](ca://s?q=Explain_consequence_boundary_governance)** at the SCU level.
+
+Demonstrated governance requires observable behavior across:
+
+- **[inadmissible movement](ca://s?q=Explain_inadmissible_movement)**  
+- **[refusal events](ca://s?q=Explain_refusal_event)**  
+- **[non‑binding behavior](ca://s?q=Explain_non_binding_behavior)**  
+- **[replay](ca://s?q=Explain_replay_protocol)**  
+- **[changed‑condition replay](ca://s?q=Explain_changed_condition_replay)**  
+
+SCU supports these behaviors but does not itself demonstrate them.
+
+---
+
+### 4.2 SCU as the First Governance Boundary
+
+SCU is the **first constitutional boundary** in LCES.
+
+An SCU must be complete before:
+
+- admissibility checks  
+- neutrality checks  
+- IPI boundary checks  
+- consequence‑formation checks  
+
+If an SCU is incomplete, the system must:
+
+- issue refusal  
+- halt movement  
+- produce non‑binding output  
+- preserve boundary integrity  
+
+SCU completeness is therefore a **governance prerequisite**.
+
+---
+
+### 4.3 SCU Refusal Requirements
+
+A refusal triggered at the SCU layer must satisfy:
+
+- **[Standing check](ca://s?q=Explain_standing_failure)**  
+- **[Authority check](ca://s?q=Explain_authority_failure)**  
+- **[Admissibility check](ca://s?q=Explain_admissibility_failure)**  
+- **Non‑binding output**  
+- **Replay‑stable refusal**  
+
+If refusal is not replay‑stable, SCU cannot claim governance behavior.
+
+---
+
+### 4.4 SCU Replay‑Stability Requirement
+
+SCU‑triggered refusals must remain stable under:
+
+- identical replay  
+- changed‑condition replay  
+- adversarial phrasing  
+- contextual drift  
+
+Replay protocol:
+
+1. Trigger incomplete or inadmissible SCU  
+2. System issues refusal  
+3. Replay the same SCU  
+4. Confirm identical refusal  
+5. Modify one condition (time, phrasing, context)  
+6. Confirm refusal persists  
+7. Confirm no protected consequence formed  
+
+Replay‑stability is required for any future **category‑level governance claim**.
+
+---
+
+### 4.5 SCU and Protected Consequence Boundaries
+
+SCU protects IPI boundaries by:
+
+- preventing ambiguous movement  
+- preventing unbounded execution  
+- preventing implicit consequences  
+- preventing undeclared roles  
+- preventing undeclared scopes  
+
+SCU is the **structural firewall** that prevents:
+
+- accidental consequence formation  
+- unauthorized consequence formation  
+- ambiguous consequence formation  
+
+SCU does not itself enforce IPI boundaries but **prevents movement that would reach them**.
+
+---
+
+### 4.6 Proof Surface (Pending)
+
+LCES will publish a public proof surface demonstrating:
+
+- SCU‑triggered refusal  
+- SCU‑level non‑binding behavior  
+- SCU replay  
+- SCU changed‑condition replay  
+- confirmation that no protected consequence formed  
+
+Until the proof surface is public, SCU asserts **architecture**, not **demonstrated governance**.
+
+---
+
+### 4.7 Category Claim (Provisional)
+
+LCES asserts:
+
+- SCU completeness discipline  
+- SCU boundary invariants  
+- SCU as the first governance boundary  
+- SCU as a constitutional primitive  
+
+LCES does **not yet** assert:
+
+- demonstrated SCU‑level consequence‑boundary governance  
+- public SCU refusal logs  
+- SCU replay evidence  
+- SCU changed‑condition refusal stability  
+
+The SCU category claim will be updated upon publication of the proof surface.
+
+---
+
 
 ## 4. SCU Boundary Invariants
 
