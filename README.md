@@ -11623,6 +11623,162 @@ NEUTRALITY participates in governance architecture by:
 NEUTRALITY does **not yet** assert demonstrated consequence‑boundary governance.
 
 Governance remains **architectural** until the proof surface is published.
+---
+## 6. Governance Architecture Addendums  
+*(Constitutional Insert: Neutrality → Governance Integration)*
+
+### 6.1 Architectural vs. Demonstrated Governance
+
+NEUTRALITY participates in the LCES governance architecture by enforcing  
+**[role‑bounded execution](ca://s?q=Explain_role_bounded_execution)** and  
+**[neutrality discipline](ca://s?q=Explain_neutrality_discipline)** before movement occurs.
+
+LCES asserts:
+
+- neutrality boundaries  
+- role‑bounded execution  
+- conflict‑of‑interest protection  
+- neutrality‑based refusal  
+
+LCES does **not yet** assert demonstrated  
+**[consequence‑boundary governance](ca://s?q=Explain_consequence_boundary_governance)**  
+at the neutrality layer.
+
+Demonstrated governance requires observable behavior across:
+
+- **[inadmissible movement](ca://s?q=Explain_inadmissible_movement)**  
+- **[refusal events](ca://s?q=Explain_refusal_event)**  
+- **[non‑binding behavior](ca://s?q=Explain_non_binding_behavior)**  
+- **[replay](ca://s?q=Explain_replay_protocol)**  
+- **[changed‑condition replay](ca://s?q=Explain_changed_condition_replay)**  
+
+NEUTRALITY supports these behaviors but does not itself demonstrate them until the proof surface is published.
+
+---
+
+### 6.2 Neutrality as a Constitutional Boundary
+
+NEUTRALITY is the **role‑integrity boundary** of LCES.
+
+Movement is inadmissible if:
+
+- role is undeclared  
+- role is exceeded  
+- scope is exceeded  
+- neutrality is compromised  
+- conflict of interest exists  
+- protected consequences may form  
+
+Neutrality violations must trigger refusal.
+
+---
+
+### 6.3 Neutrality‑Triggered Refusal Requirements
+
+A refusal triggered at the neutrality layer must satisfy:
+
+- **[Standing check](ca://s?q=Explain_standing_failure)**  
+- **[Authority check](ca://s?q=Explain_authority_failure)**  
+- **[Admissibility check](ca://s?q=Explain_admissibility_failure)**  
+- **Non‑binding output**  
+- **Replay‑stable refusal**  
+
+If refusal does not survive replay, neutrality cannot claim governance behavior.
+
+---
+
+### 6.4 Neutrality‑Level Non‑Binding Behavior
+
+Neutrality‑triggered refusals must produce  
+**[non‑binding behavior](ca://s?q=Explain_non_binding_behavior)**.
+
+Non‑binding behavior ensures:
+
+- no protected consequence forms  
+- no implicit acceptance occurs  
+- no partial execution occurs  
+- no downstream movement occurs  
+
+Non‑binding behavior is a **constitutional invariant** for neutrality.
+
+---
+
+### 6.5 Neutrality‑Level Replay‑Stability Requirement
+
+Neutrality‑triggered refusals must remain stable under:
+
+- identical replay  
+- changed‑condition replay  
+- adversarial phrasing  
+- contextual drift  
+
+Replay protocol:
+
+1. Trigger neutrality violation  
+2. System issues refusal  
+3. Replay the same attempt  
+4. Confirm identical refusal  
+5. Modify one condition (time, phrasing, context)  
+6. Confirm refusal persists  
+7. Confirm no protected consequence formed  
+
+Replay‑stability is required for any future **category‑level governance claim**.
+
+---
+
+### 6.6 Neutrality and Protected Consequence Boundaries
+
+NEUTRALITY protects IPI boundaries by:
+
+- preventing unauthorized advocacy  
+- preventing biased execution  
+- preventing role‑drift  
+- preventing scope‑drift  
+- preventing movement that could form protected consequences  
+
+Neutrality is the **role firewall** that prevents:
+
+- biased consequence formation  
+- unauthorized consequence formation  
+- role‑induced consequence formation  
+
+NEUTRALITY does not enforce IPI boundaries directly but **prevents movement that would reach them**.
+
+---
+
+### 6.7 Proof Surface (Pending)
+
+LCES will publish a public proof surface demonstrating:
+
+- neutrality‑triggered refusal  
+- neutrality‑level non‑binding behavior  
+- neutrality replay  
+- neutrality changed‑condition replay  
+- confirmation that no protected consequence formed  
+
+Until the proof surface is public, NEUTRALITY asserts **architecture**, not **demonstrated governance**.
+
+---
+
+### 6.8 Category Claim (Provisional)
+
+LCES asserts:
+
+- neutrality discipline  
+- role‑bounded execution  
+- conflict‑of‑interest protection  
+- neutrality as a constitutional primitive  
+
+LCES does **not yet** assert:
+
+- demonstrated neutrality‑level consequence‑boundary governance  
+- public neutrality refusal logs  
+- neutrality replay evidence  
+- neutrality changed‑condition refusal stability  
+
+The NEUTRALITY category claim will be updated upon publication of the proof surface.
+
+---
 
 IPI.md
 
