@@ -403,8 +403,110 @@ LCES does not assert legal authority, forensic causation, cognitive insight, or 
 It provides **structured refusal**, **transparent traces**, and **procedural clarity**, not legal consequence.
 
 LCES is a **discipline of boundaries**, not a system of law.
+---
+# **Unified Governance Layer — GateZero™ / GateDelta™ / GateSigma™**
 
+LCES defines a procedural‑literacy architecture.
 
+It does not assert legal authority, forensic causation, cognitive insight, or adjudicative sufficiency.
+
+Its governance surfaces enforce **structural boundaries**, not legal guarantees.
+
+LCES preserves **interaction artifacts** — prompts, retrieval sets, constraints, tool calls, and transformations — without claiming that these artifacts represent cognition, reasoning, or the true causal mechanism of any AI‑mediated outcome.
+
+The Governance Layer consists of three coordinated admissibility surfaces:
+
+- **GateZero™** — defines the boundary
+- **GateDelta™** — proves the boundary held
+- **GateSigma™** — records what occurred when the boundary did not apply
+
+Together they ensure that no system and no chain may produce an inadmissible state.
+
+---
+
+# **GateZero™ — System‑Level Boundary Surface**
+
+GateZero™ governs the admissibility of every individual system step.
+
+No system may execute an action, transformation, inference, or continuation unless the required preconditions are met.
+
+GateZero does **not** certify correctness, legality, or compliance.
+
+It defines the conditions under which the system **must not proceed**.
+
+### **GateZero enforces:**
+
+- **Admissible Action** — The step must fall within the system’s assigned authority.
+- **Authorized Transformation** — Transformations must be permitted by Kernel, Edition, Mode, and Role constraints.
+- **Valid Posture Transition** — Posture shifts must remain constitutionally compatible.
+- **Authority Envelope Compliance** — The system may not exceed its jurisdiction.
+- **Continuation Boundary** — The system may not emit a continuation that would violate downstream constraints.
+
+GateZero™ is the constitutional governor of system‑level behavior.
+
+Nothing executes without passing GateZero.
+
+---
+
+# **GateDelta™ — System‑Level Refusal‑Proof Surface**
+
+GateDelta™ records refusal events triggered by GateZero.
+
+It documents the enforcement of boundaries — the failed condition, the triggering factor, and the consequence prevented from binding.
+
+GateDelta does **not** assert correctness, causation, admissibility, or legal sufficiency.
+
+It provides **proof of refusal**, not proof of reasoning.
+
+### **GateDelta records:**
+
+- invalid or insufficient authority
+- scope drift or role mismatch
+- expired, missing, or unverifiable evidence
+- broken or ambiguous custody
+- impermissible downstream consequence
+
+GateDelta™ ensures that refusal is explicit, inspectable, and serialized.
+
+---
+
+# **GateSigma™ — System‑of‑Systems Trace Surface**
+
+GateSigma™ governs the admissibility of chained outcomes across multiple GateZero‑governed systems.
+
+Individually admissible steps must not combine into a collectively inadmissible outcome.
+
+GateSigma records **what occurred when the system proceeded** — interaction artifacts, not cognition or causation.
+
+It is a reconstructable trace, not a forensic chain of cause.
+
+### **GateSigma enforces:**
+
+- **Cross‑System Consistency** — Semantic and procedural coherence across systems.
+- **Cumulative Authority** — Total authority exercised across the chain must remain within bounds.
+- **Emergent Risk Control** — Multi‑hop transformations must not accumulate impermissible risk.
+- **Cross‑Boundary Posture Validity** — Posture transitions across systems must remain compatible.
+- **Continuation Reachability** — The final state must be structurally reachable from the initial state.
+
+GateSigma™ is the constitutional governor of system‑of‑systems behavior.
+
+No chain may finalize an outcome without passing GateSigma.
+
+---
+
+# **LCES Governance Doctrine**
+
+LCES does not assert that its records are legally sufficient, admissible, or determinative.
+
+It provides:
+
+- structured refusal
+- transparent traces
+- procedural clarity
+
+It is not a governance engine, litigation engine, or system of legal consequence.
+
+LCES is a **discipline of boundaries**, not a system of law.
 
 ---
 # **Surface I — Preconditions for Governance**
