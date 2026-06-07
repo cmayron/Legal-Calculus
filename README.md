@@ -51,6 +51,105 @@ Its consequence‑boundary claims require a **public, reproducible proof surface
 
 Until that proof surface is complete, LCES remains **structural governance**, not demonstrated constitutional infrastructure.
 
+
+----
+graph TD
+
+    A[LCES-ROOT] --> B[README.md]
+    A --> C[LICENSE.md]
+    A --> D[TRADEMARK.md]
+
+    A --> K[/kernel]
+        K --> KC[/constitutional]
+            KC --> KC1[STOP_DOCTRINE.md]
+            KC --> KC2[KERNEL_HALT_CONDITIONS.md]
+            KC --> KC3[WORKFLOW_FIDELITY_MANDATE.md]
+            KC --> KC4[INFLUENCE_LAYER_INTEGRITY.md]
+            KC --> KC5[JURISDICTION_INTEGRITY.md]
+            KC --> KC6[ROLE_INTEGRITY.md]
+            KC --> KC7[RECORD_INTEGRITY.md]
+
+        K --> KD[/doctrinal]
+            KD --> KD1[SCU.md]
+            KD --> KD2[GATES.md]
+            KD --> KD3[NEUTRALITY.md]
+            KD --> KD4[IPI.md]
+            KD --> KD5[ARCHITECTURAL_BOOTLOADER.md]
+
+    A --> AR[/architecture]
+        AR --> AR1[SYSTEM_ROOT_DIAGRAM.md]
+        AR --> AR2[STACK_ACTIVATION_DIAGRAM.md]
+        AR --> AR3[KERNEL_PATCH_MAP.md]
+        AR --> AR4[ROLE_STACK_MAP.md]
+        AR --> AR5[EDITION_STACK_MAP.md]
+
+    A --> E[/editions]
+
+        E --> ESC[/SC-LCES]
+            ESC --> ESC1[SC_BOOTLOADER.md]
+            ESC --> ESC2[SC_STOP_RULES.md]
+            ESC --> ESC3[SC_PROCEDURAL_PHYSICS.md]
+            ESC --> ESC4[SC_README.md]
+
+        E --> EFC[/FC-LCES]
+            EFC --> EFC1[FC_BOOTLOADER.md]
+            EFC --> EFC2[FC_STOP_RULES.md]
+            EFC --> EFC3[FC_PROCEDURAL_PHYSICS.md]
+            EFC --> EFC4[FC_README.md]
+
+        E --> ETE[/TE-LCES]
+            ETE --> ETE1[TE_BOOTLOADER.md]
+            ETE --> ETE2[TE_STOP_RULES.md]
+            ETE --> ETE3[TE_PROCEDURAL_PHYSICS.md]
+            ETE --> ETE4[TE_README.md]
+
+        E --> EAC[/AC-LCES]
+            EAC --> EAC1[AC_BOOTLOADER.md]
+            EAC --> EAC2[AC_STOP_RULES.md]
+            EAC --> EAC3[AC_PROCEDURAL_PHYSICS.md]
+            EAC --> EAC4[AC_README.md]
+
+    A --> R[/roles]
+
+        R --> RA[/architect]
+            RA --> RA1[ARCHITECT_BOOTLOADER.md]
+            RA --> RA2[ARCHITECT_STOP_RULES.md]
+            RA --> RA3[ARCHITECT_WORKFLOW.md]
+
+        R --> RB[/builder]
+            RB --> RB1[BUILDER_BOOTLOADER.md]
+            RB --> RB2[BUILDER_STOP_RULES.md]
+            RB --> RB3[BUILDER_WORKFLOW.md]
+
+        R --> RI[/inspector]
+            RI --> RI1[INSPECTOR_BOOTLOADER.md]
+            RI --> RI2[INSPECTOR_STOP_RULES.md]
+            RI --> RI3[INSPECTOR_WORKFLOW.md]
+
+    A --> M[/modes]
+        M --> M1[CRISIS_MODE.md]
+        M --> M2[PRO_SE_MODE.md]
+        M --> M3[SECOND_OPINION_MODE.md]
+        M --> M4[LAWYER_EDUCATION_MODE.md]
+        M --> M5[RESEARCH_MODE.md]
+
+    A --> MV[/movement]
+        MV --> MV1[SCU_FLOW.md]
+        MV --> MV2[MODULES_INDEX.md]
+        MV --> MV3[DEEP_RESEARCH.md]
+        MV --> MV4[BLUEPRINTING.md]
+        MV --> MV5[DRAFTING.md]
+        MV --> MV6[INSPECTION.md]
+        MV --> MV7[COMMIT_PROTOCOL.md]
+
+    A --> DOC[/docs]
+        DOC --> DOC1[SYSTEM_ROOT_CHARTER.md]
+        DOC --> DOC2[KERNEL_README.md]
+        DOC --> DOC3[EDITIONS_README.md]
+        DOC --> DOC4[ROLES_README.md]
+        DOC --> DOC5[MODES_README.md]
+        DOC --> DOC6[MOVEMENT_README.md]
+
 ---
 LCES-ROOT/
 │
