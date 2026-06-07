@@ -52,6 +52,105 @@ Its consequence‑boundary claims require a **public, reproducible proof surface
 Until that proof surface is complete, LCES remains **structural governance**, not demonstrated constitutional infrastructure.
 
 ---
+LCES-ROOT/
+│
+├── README.md
+├── LICENSE.md
+├── TRADEMARK.md
+│
+├── /kernel
+│     │
+│     ├── /constitutional
+│     │       STOP_DOCTRINE.md
+│     │       KERNEL_HALT_CONDITIONS.md
+│     │       WORKFLOW_FIDELITY_MANDATE.md
+│     │       INFLUENCE_LAYER_INTEGRITY.md
+│     │       JURISDICTION_INTEGRITY.md
+│     │       ROLE_INTEGRITY.md
+│     │       RECORD_INTEGRITY.md
+│     │
+│     └── /doctrinal
+│             SCU.md
+│             GATES.md
+│             NEUTRALITY.md
+│             IPI.md
+│             ARCHITECTURAL_BOOTLOADER.md
+│
+├── /architecture
+│       SYSTEM_ROOT_DIAGRAM.md
+│       STACK_ACTIVATION_DIAGRAM.md
+│       KERNEL_PATCH_MAP.md
+│       ROLE_STACK_MAP.md
+│       EDITION_STACK_MAP.md
+│
+├── /editions
+│     │
+│     ├── /SC-LCES
+│     │       SC_BOOTLOADER.md
+│     │       SC_STOP_RULES.md
+│     │       SC_PROCEDURAL_PHYSICS.md
+│     │       SC_README.md
+│     │
+│     ├── /FC-LCES
+│     │       FC_BOOTLOADER.md
+│     │       FC_STOP_RULES.md
+│     │       FC_PROCEDURAL_PHYSICS.md
+│     │       FC_README.md
+│     │
+│     ├── /TE-LCES
+│     │       TE_BOOTLOADER.md
+│     │       TE_STOP_RULES.md
+│     │       TE_PROCEDURAL_PHYSICS.md
+│     │       TE_README.md
+│     │
+│     └── /AC-LCES
+│             AC_BOOTLOADER.md
+│             AC_STOP_RULES.md
+│             AC_PROCEDURAL_PHYSICS.md
+│             AC_README.md
+│
+├── /roles
+│     │
+│     ├── /architect
+│     │       ARCHITECT_BOOTLOADER.md
+│     │       ARCHITECT_STOP_RULES.md
+│     │       ARCHITECT_WORKFLOW.md
+│     │
+│     ├── /builder
+│     │       BUILDER_BOOTLOADER.md
+│     │       BUILDER_STOP_RULES.md
+│     │       BUILDER_WORKFLOW.md
+│     │
+│     └── /inspector
+│             INSPECTOR_BOOTLOADER.md
+│             INSPECTOR_STOP_RULES.md
+│             INSPECTOR_WORKFLOW.md
+│
+├── /modes
+│       CRISIS_MODE.md
+│       PRO_SE_MODE.md
+│       SECOND_OPINION_MODE.md
+│       LAWYER_EDUCATION_MODE.md
+│       RESEARCH_MODE.md
+│
+├── /movement
+│       SCU_FLOW.md
+│       MODULES_INDEX.md
+│       DEEP_RESEARCH.md
+│       BLUEPRINTING.md
+│       DRAFTING.md
+│       INSPECTION.md
+│       COMMIT_PROTOCOL.md
+│
+└── /docs
+        SYSTEM_ROOT_CHARTER.md
+        KERNEL_README.md
+        EDITIONS_README.md
+        ROLES_README.md
+        MODES_README.md
+        MOVEMENT_README.md
+
+---
 
 ### *Visual Overview of the LCES Structural Governance Architecture*
 
@@ -242,6 +341,16 @@ The LCES root therefore defines the entire constitutional structure of the syste
 ---
 
 
+LCES ROOT README.md
+│
+├── 1. MANIFESTO POINTER
+│       (What LCES *is* — doctrine lives in Manifesto.md)
+│
+├── 2. OPERATIONAL README
+│       (How to *use* LCES — quick start, activation, roles, editions)
+│
+└── 3. SYSTEM ROOT MAP
+        (Where everything *lives* — repo placement diagram)
 
 
 ---
@@ -7601,6 +7710,8 @@ This suite will serve as the **initial public proof surface**.
 ============================================================
 END OF MANIFESTO (V7.1)
 ============================================================
+
+
 
 ---
 --- a/SUPER-BOOTLOADER.md
