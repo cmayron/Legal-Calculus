@@ -8840,6 +8840,24 @@ LCES will publish a minimal public test suite demonstrating:
 This suite will serve as the **initial public proof surface**.
 
 -----
+## Public Proof Surface
+
+The `/PROOF_SURFACE` directory provides the public verification surfaces
+required to demonstrate that LCES is a governance engine rather than a
+documentation system. Ownership signals (copyright, trademark,
+“all rights reserved,” patent‑pending) do not prove consequence‑boundary
+behavior. Only observable, reproducible governance behavior can support a
+category claim.
+
+This directory contains:
+
+- PROOF_SURFACE.md — the canonical ten‑surface template
+- PROOF_SURFACE_EXAMPLE.md — a filled‑in demonstration of refusal,
+  non‑binding behavior, replay, changed‑condition replay, and
+  protected‑effect prevention
+- /LOG — timestamped public governance events
+
+No proof surface → No category claim.
 
 
 
