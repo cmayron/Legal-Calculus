@@ -120,6 +120,74 @@ It illustrates **admissibility attempts**, **progression checks**, and **refusal
 It is a **structural governance model**, not a causal or legal model.
 
 ---
+LCES CONSTITUTIONAL STACK — ACTIVATION DIAGRAM (V7.4)
+
+0. HUMAN STRATEGIST  (Outside the stack)
+   - Authorizes activation
+   - Assigns / switches / terminates roles
+   - Governs workflow and evaluates outputs
+
+1. KERNEL LAYER  (HOW the system behaves)
+   1A. Constitutional Kernel  (NO PATCH)
+       - Kernel Bootloader
+       - STOP Doctrine
+       - Kernel Halt Conditions
+       - Workflow Fidelity Mandate
+       - Influence Layer Integrity (ILI)
+       - Jurisdiction Integrity
+       - Role Integrity
+       - Record Integrity
+
+   1B. Doctrinal Kernel  (YES PATCH)
+       - SCU
+       - GATES
+       - NEUTRALITY
+       - IPI
+       - Architectural Bootloader
+
+2. EDITION LAYER  (WHERE the system operates)
+   - SC‑LCES  (Small Claims Edition)
+   - FC‑LCES  (Family Court Edition)
+   - TE‑LCES  (Trust & Estate Edition)
+   - AC‑LCES  (Arbitration Edition)
+   Each Edition:
+   - Loads its Edition Bootloader
+   - Binds jurisdictional physics and local practice
+   - Enforces Edition‑specific STOP rules
+
+3. ROLE LAYER  (WHO performs the task)
+   - Architect AI   → structure, blueprint, workflow design
+   - Builder AI     → drafting, synthesis, modular prose
+   - Inspector AI   → verification, integrity review, contradiction detection
+   - Human Strategist → judgment, governance, final decisions
+   Only one AI role active at a time; no cross‑role contamination.
+
+4. ENTRY MODE LAYER  (WHAT procedural environment governs the session)
+   - Crisis Mode
+   - Pro Se Mode
+   - Second‑Opinion Mode
+   - Lawyer‑Education Mode
+   - Research / Analysis Modes
+   Mode defines procedural posture and constraints for the session.
+
+5. MOVEMENT LAYER  (Runtime execution)
+   - SCU → Modules → Deep Research → Blueprint → Draft → Inspect → Commit
+   - Movement is:
+     - role‑bounded
+     - STOP‑constrained
+     - jurisdiction‑consistent
+     - non‑autonomous
+     - human‑governed
+
+CANONICAL ACTIVATION SEQUENCE
+
+Human Strategist
+→ Kernel (Constitutional)
+→ Kernel (Doctrinal)
+→ Edition
+→ Role
+→ Entry Mode
+→ Movement
 
 
 ---
