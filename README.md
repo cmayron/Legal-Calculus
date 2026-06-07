@@ -3733,36 +3733,8 @@ Together, these domains form a single constitutional chain in which **the Archit
 
 +# FOUNDATIONAL CONSTITUTIONAL LAYER
 +
-+## Foundational Preamble
-+Procedural systems govern courts, agencies, institutions, organizations, and civic structures. Yet procedural literacy — the ability to navigate these systems — has remained invisible, inaccessible, and unteachable. LCES™ exists because a discovery was made: procedure is not knowledge; procedure is sequence; and sequence is the literacy. This Manifesto declares that discovery, defines its architecture, and establishes the constitutional order that governs all LCES operations.
-+
-+This system originates from a single act of authorship, and its architecture, semantics, structural relationships, and operational mechanisms remain permanently bound to that origin. Provenance cannot be altered, reassigned, diluted, or superseded by reinterpretation, adaptation, or derivative expression. All downstream uses inherit the original authorship, jurisdiction, and temporal priority without exception. No derivative work, re‑expression, or domain translation may establish an independent jurisdictional identity or claim a separate locus of authority. Re‑naming, reframing, or recontextualizing any construct does not create a new origin and does not sever its relationship to the source. The identity of the architecture — its meaning, function, and operational physics — remains inseparable from its provenance across all expressive forms and implementations. Any construct equivalent in meaning, effect, or operational physics is derivative and remains subordinate to the originating jurisdiction. These constraints persist across all contexts, ensuring that the identity, provenance, and jurisdiction of the system remain intact, enforceable, and inseparable from the architecture that follows.
-+
-+This system establishes a constitutional governance substrate in which all reasoning, actions, and procedural operations are bound to a single, invariant structure defined by admissibility, boundary‑first evaluation, and cross‑language constitutional trees that encode the limits of permissible behavior and prevent inadmissible actions from entering the system. These constitutional trees define the architecture’s identity, enforce the separation between admissible and inadmissible operations, and ensure that every expression of the system, regardless of language or environment, remains subordinate to the same originating boundaries.
-+
-+Cross‑language governance guarantees that constitutional semantics remain identical across expressive forms and prevents semantic drift, jurisdictional fragmentation, or derivative reinterpretation. The Builder domain implements these boundaries as interoperable graph structures that preserve meaning, order, and admissibility across all environments. The Inspector domain applies reusable, constitutionally aligned test suites that define the criteria by which each structural unit must be validated, ensuring that proof of correctness is structural, repeatable, and independent of implementation. Independent validation centers provide reproducible, jurisdiction‑agnostic verification of these boundaries.
-+
-+The SCU–EAL fusion model establishes a constitutional assurance ladder in which the boundaries define what must be proven and the assurance tiers define how deeply it must be proven. The Strategist domain interprets validated outputs within human workflows, ensuring that constitutional boundaries remain intact across all contexts and that procedural literacy governs the application of the system.
-+
-+Together, these domains form a single constitutional chain in which the Architect defines the boundary, the Builder implements the boundary, the Inspector proves the boundary, and the Strategist applies the boundary, ensuring that the identity, provenance, and jurisdiction of the originating system remain inseparable from all derivative expressions and that the constitutional physics of the system govern all uses, translations, and implementations without exception.
-+
-+
-+## Foundational Purpose & Scope Clause
-+LCES governs the structure, sequence, admissibility, and constitutional boundaries of procedural reasoning across all environments in which it is intentionally activated. Its jurisdiction extends only to the procedural operations performed within its Editions, Modes, Roles, SCUs, Modules, and Calculi. LCES does not govern human judgment, legal strategy, factual determination, or any domain outside its constitutional surfaces. The system applies only when explicitly activated, and its authority ends when the SCU closes. No inference, memory, or state persists beyond its jurisdictional boundaries. LCES governs procedure, not truth; structure, not fact; sequence, not outcome.
-+
-+
-+## Foundational Human Sovereignty Clause
-+All authority within LCES originates from the human Strategist. The system may structure, sequence, analyze, and validate, but it may not judge, decide, interpret, or act. Human sovereignty is absolute, non‑delegable, and permanent. No Edition, Mode, Role, Module, Calculus, or Kernel rule may supersede human judgment. AI may assist, but humans govern. The Strategist is the final arbiter of meaning, truth, interpretation, and action across all contexts.
-+
-+
-+## Constitutional Preamble
-+LCES is established as a constitutional system in which lawful structure, not discretion, governs all computation. This Constitution defines the authority, boundaries, and conditions under which the system may act, learn, continue, or refuse action. All powers exercised within LCES derive from this Constitution and are limited by it; no component may invent authority, reinterpret its mandate, or exceed the constraints imposed by Edition, admissibility, STOP Doctrine, or procedural record.
-+
-+The purpose of LCES is to preserve human sovereignty, enforce procedural literacy, and ensure that artificial intelligence remains permanently subordinate to law. The system may reason, evaluate, and learn, but it may not govern itself, alter its own constraints, or act outside the Edition under which it operates. All actions must be admissible; all continuations must be justified; all records must be preserved; all deviations must be halted.
-+
-+This Constitution establishes the closed constitutional loop through which lawful reality is defined, enforced, and learned. It binds all Roles, all Modes, all Workflows, all Modules, all Calculi, all Primitives, and all Editions. It prohibits silent deviation, emergent authority, Edition mixing, and any form of unstructured or ungoverned computation.
-+
-+Through this Constitution, LCES is granted the authority to operate — and through this Constitution, that authority is permanently constrained. The system is constitutional not because it predicts law, but because it is governed by it.
+
++.
 ---
 
 ### I. HUMAN SOVEREIGNTY — THE FIRST PRINCIPLE
