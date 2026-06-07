@@ -7930,98 +7930,256 @@ This loop ensures human sovereignty, admissibility preservation, and constitutio
 self‑governance.
 
 # End of Constitutional License Section
-# The legal license begins below.
-
-
-# LEGAL LICENSE (CC BY‑NC‑SA 4.0 + MIT HYBRID)
-
-## Educational Content License — Creative Commons Attribution‑NonCommercial‑ShareAlike 4.0 International
-All educational, conceptual, explanatory, and governance‑architecture content in
-this repository is licensed under the Creative Commons Attribution‑NonCommercial‑
-ShareAlike 4.0 International License (CC BY‑NC‑SA 4.0).
-
-You may:
-- Share — copy and redistribute the material in any medium or format  
-- Adapt — remix, transform, and build upon the material  
-
-Under the following terms:
-- Attribution — You must give appropriate credit.  
-- NonCommercial — You may not use the material for commercial purposes.  
-- ShareAlike — If you remix, transform, or build upon the material, you must
-  distribute your contributions under the same license.
-
-## Code License — MIT License
-All functional code, scripts, and software components in this repository are
-licensed under the MIT License:
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the “Software”), to deal in the
-Software without restriction, including without limitation the rights to use, copy,
-modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
-subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
----
-
-**LCES LICENSE & NOTICE (Final Integrated Version)**
-This License applies to LCES Version 7.0 and all minor revisions
-(7.x). Major revisions (8.0+) will include their own updated License
-and Trademark block.
----
-Charles — here is the **full License Plate block**, in proper LCES constitutional form, containing the **three load‑bearing elements** you actually need:  
-**(1) category claim**, **(2) proof‑surface reference**, and **(3) enforcement mechanism**.
-
-This is **not** an IP perimeter.  
-This is a **governance‑category declaration** with a **public proof surface**.
-
-It is ready for insertion into the repo.
-
----
-
-# **LCES LICENSE PLATE — GOVERNANCE CATEGORY DECLARATION**
-
-**This system is an admissibility‑preserving process.  
-Inadmissible movement cannot become protected consequence.**
-
-**Proof of admissibility preservation is provided through public refusal surfaces, influence‑safe activation records, and replayable boundary logs.  
-All boundary‑relevant events are exposed as part of the system’s public proof surface.**
-
-**Boundary enforcement is guaranteed by GateDelta (refusal proof) and Influence Layer Integrity (reviewer‑sovereignty preservation).  
-These mechanisms ensure that inadmissible movement is halted, logged, and prevented from binding into consequence.**
-
-**This License Plate declares the governance category, the proof location, and the enforcement mechanism.  
-It does not rely on copyright, trademark, origin, or naming rights.  
-It relies on observable, replayable, falsifiable evidence.**
-
----
-## LCES Compliance Badges
-
-![LCES Constitutional Architecture](https://img.shields.io/badge/LCES-Constitutional_Architecture-2A4FFF?style=for-the-badge)
-![IPI Protected](https://img.shields.io/badge/Influence‑Proof_Integrity-IPI_Enabled-008F5A?style=flat-square)
-![GateZero](https://img.shields.io/badge/GateZero™-Procedural_Law-0052CC?style=flat-square)
-![GateDelta](https://img.shields.io/badge/GateDelta™-Evidentiary_Law-7A00CC?style=flat-square)
-![GateSigma](https://img.shields.io/badge/GateSigma™-Consequence_Law-CC0044?style=flat-square)
-![Multi‑AI](https://img.shields.io/badge/AI_Roles-2_minimum,_3_canonical,_N_scalable-444444?style=flat-square)
-![Public Proof Surface](https://img.shields.io/badge/Public_Proof_Surface-Enabled-orange?style=flat-square)
 
 ================================================================
                          LCES LICENSE SECTION
 ================================================================
 
-This system declares itself an **admissibility‑preserving process**.
-Inadmissible movement cannot become protected consequence.
+# LCES CONSTITUTION, LICENSE, TRADEMARK, AND PATENT NOTICE
+Version 8.0
 
-This License Section does not rely on copyright, trademark,
-naming rights, origin claims, or first‑use assertions. It relies
-exclusively on **public, replayable, falsifiable evidence**.
+Copyright © 2026 Charles D. Mayron. All Rights Reserved.
+
+---
+
+# PART I — LCES CONSTITUTION
+
+## Article 1 — Human Sovereignty
+
+All implementations of the Legal Calculus Educational System (LCES™) shall preserve the Strategist as the ultimate source of:
+
+- admissibility definition,
+- constraint definition,
+- category definition,
+- authority definition,
+- consequence boundaries.
+
+No AI system, workflow, agent, model, or automated process may independently redefine, expand, or override Strategist authority.
+
+---
+
+## Article 2 — Influence-Proof Integrity (IPI)
+
+All implementations shall maintain Influence-Proof Integrity (IPI).
+
+IPI exists to prevent:
+
+- unauthorized constraint modification,
+- adversarial reframing,
+- category shifting,
+- influence-based distortion,
+- hidden authority substitution.
+
+IPI preserves Strategist sovereignty throughout system operation.
+
+---
+
+## Article 3 — Multi-AI Constitutional Structure
+
+LCES requires separation of powers.
+
+The canonical implementation consists of:
+
+- Architect
+- Builder
+- Inspector
+
+No system may serve as sole author, sole reviewer, and sole validator of its own work.
+
+The architecture may scale to additional agents provided all agents remain subject to constitutional controls and Strategist authority.
+
+---
+
+## Article 4 — GateZero™
+
+GateZero™ serves as the constitutional admissibility boundary.
+
+No movement may proceed unless it is:
+
+- authorized,
+- in scope,
+- constraint compliant,
+- constitutionally admissible.
+
+GateZero™ functions as the constitutional veto on action.
+
+---
+
+## Article 5 — GateDelta™
+
+GateDelta™ serves as the constitutional refusal boundary.
+
+Every refusal shall generate a traceable record including:
+
+- triggering condition,
+- prevented action,
+- governing constraint,
+- refusal timestamp.
+
+GateDelta™ functions as the constitutional veto on secrecy.
+
+---
+
+## Article 6 — GateSigma™
+
+GateSigma™ serves as the constitutional consequence boundary.
+
+No consequence may bind if it:
+
+- exceeds authority,
+- violates constraints,
+- originates from inadmissible movement,
+- produces inadmissible effects.
+
+GateSigma™ functions as the constitutional veto on consequence.
+
+---
+
+## Article 7 — Public Proof Surface
+
+All constitutional gates shall generate observable proof surfaces.
+
+Required proof surfaces include:
+
+- GateZero authorization records
+- GateDelta refusal records
+- GateSigma consequence evaluations
+- IPI integrity records
+
+These records collectively form the Public Proof Surface.
+
+The Public Proof Surface exists to support transparency, auditability, replayability, and independent verification.
+
+---
+
+## Article 8 — Closed Constitutional Loop
+
+All implementations shall preserve the constitutional loop:
+
+Strategist → IPI → GateZero → Execution → GateDelta → GateSigma → Public Proof Surface → Strategist
+
+This loop preserves human sovereignty and admissibility integrity.
+
+---
+
+# PART II — LICENSE
+
+## Limited Noncommercial Evaluation License
+
+Subject to the terms of this License, permission is granted to:
+
+- read,
+- review,
+- study,
+- cite,
+- discuss,
+- evaluate,
+
+the LCES constitutional architecture for educational, academic, research, civic, and noncommercial purposes.
+
+No ownership rights are transferred.
+
+No rights are granted by implication.
+
+All rights not expressly granted are reserved.
+
+---
+
+## Prohibited Uses
+
+Without prior written authorization from the creator, no person or entity may:
+
+- commercially deploy LCES,
+- sell LCES-based products or services,
+- provide LCES certification,
+- offer LCES training for compensation,
+- create commercial governance products derived from LCES,
+- incorporate LCES into commercial software,
+- represent any system as officially compliant with LCES.
+
+Commercial rights are expressly reserved.
+
+---
+
+# PART III — TRADEMARK NOTICE
+
+The following names are claimed trademarks of the LCES Project:
+
+- LCES™
+- Legal Calculus Educational System™
+- GateZero™
+- GateDelta™
+- GateSigma™
+
+These marks identify the authentic source and governance identity of the system.
+
+No license to use these marks is granted through this document.
+
+Derivative works must not imply:
+
+- endorsement,
+- certification,
+- affiliation,
+- official status.
+
+Derivative works must clearly state that they are not official LCES materials.
+
+---
+
+# PART IV — PATENT RIGHTS NOTICE
+
+Patent rights are reserved.
+
+Certain technical implementations associated with the LCES architecture, including execution-boundary controls, admissibility evaluation mechanisms, governance enforcement layers, and related machine-implemented processes, may be the subject of patent protection.
+
+No patent rights are granted under this License.
+
+All patent rights are expressly reserved.
+
+---
+
+# PART V — COMMERCIAL LICENSING
+
+Commercial use of LCES requires a separate written agreement.
+
+Commercial activities include:
+
+- enterprise deployment,
+- SaaS offerings,
+- paid consulting,
+- paid training,
+- certification programs,
+- commercial integrations,
+- governance products,
+- platform implementations.
+
+Commercial licensing inquiries should be directed to the creator.
+
+---
+
+# PART VI — DISCLAIMER
+
+LCES is provided “AS IS.”
+
+The creator makes no warranty, express or implied, including warranties of:
+
+- merchantability,
+- fitness for a particular purpose,
+- non-infringement,
+- legal sufficiency,
+- regulatory compliance.
+
+The creator shall not be liable for any damages arising from use of the system.
+
+---
+
+# NOTICE
+
+LCES™ is a constitutional governance architecture intended to preserve admissibility, authority integrity, and consequence control within AI-assisted systems.
+
+This document governs the official constitutional identity of the LCES framework.
+
+All rights not expressly granted are reserved.
 
 ----------------------------------------------------------------
 CATEGORY DECLARATION
@@ -8077,37 +8235,7 @@ vectors are surfaced.
 Together, these mechanisms guarantee that inadmissible movement
 cannot become protected consequence.
 
-----------------------------------------------------------------
-SCOPE OF THIS LICENSE SECTION
-----------------------------------------------------------------
-This License Section governs:
-- category declaration
-- proof surface requirements
-- boundary enforcement mechanisms
-- admissibility‑preserving obligations
-
-It does not govern:
-- ownership of expression
-- naming rights
-- commercial use
-- derivative works
-
-Those matters fall outside the governance category and are
-addressed separately if needed.
-
-----------------------------------------------------------------
-CONSTITUTIONAL CLAIM
-----------------------------------------------------------------
-The system is in the admissibility‑preserving category **only
-because**:
-
-- inadmissible movement is halted,
-- refusal is proven,
-- influence is bounded,
-- consequence cannot bind from inadmissible state.
-
-This License Section is the constitutional declaration of that
-fact.
+--
 ================================================================
 
 
@@ -8146,23 +8274,6 @@ category declaration.
 
 ---
 
-## **Copyright Notice**
-
-Copyright © 2026 Charles D. Mayron. All rights reserved.
-
-All contents of this repository — including the Manifesto, README, Start Here guide, Bootloader, Six Calculi, SCU Method, Mode Lock Protocol, role model, workflows, diagrams, and all educational, doctrinal, structural, and explanatory materials — are the copyrighted works of the creator.
-
-All rights not expressly granted are reserved.
-
-See protected_authorship.
-
----
-# LCES CONSTITUTION, LICENSE, TRADEMARK, AND PATENT NOTICE
-Version 8.0
-
-Copyright © 2026 Charles D. Mayron. All Rights Reserved.
-
----
 
 # PART I — LCES CONSTITUTION
 
