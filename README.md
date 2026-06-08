@@ -388,7 +388,6 @@ Human Strategist
 → Movement
 
 ----
-This diagram illustrates the complete constitutional activation sequence of the Legal Calculus Educational System. Activation always begins with the Human Strategist and proceeds downward through the Kernel, Edition, Role, and Entry Mode layers before any procedural movement is permitted. Each layer enforces its own STOP conditions, binds the next layer to its constitutional constraints, and prevents unauthorized or structurally invalid execution. The stack ensures that all LCES behavior remains role‑pure, jurisdiction‑consistent, influence‑safe, and governed by the Human Strategist. The activation sequence begins outside the stack with the Human Strategist, who authorizes activation, assigns and switches roles, terminates roles, and governs workflow. Once activation begins, the system loads the Kernel Layer, which defines how the system behaves at the constitutional level. The Kernel contains two sub‑layers: the Constitutional Kernel, which governs STOP conditions, influence safety, jurisdictional physics, and workflow fidelity; and the Doctrinal Kernel, which governs admissibility, refusal, replay, and consequence‑boundary protection through surfaces such as the SCU, GATES, NEUTRALITY, IPI, and the Architectural Bootloader. After the Kernel loads, the Edition Layer activates. The Edition defines where the system operates by loading jurisdictional physics, local practice rules, edition‑specific STOP conditions, and procedural rule inheritance. Editions such as SC‑LCES, FC‑LCES, TE‑LCES, and AC‑LCES ensure that all structure, drafting, and verification occur inside the correct procedural universe. Next, the Role Layer loads. This layer defines who performs the task. Only one AI role may be active at a time. The Architect AI performs structural reasoning and blueprint design. The Builder AI performs drafting and modular synthesis. The Inspector AI performs verification and contradiction detection. The Human Strategist performs judgment and governance. Strict role separation prevents cross‑role contamination and ensures procedural integrity. The Entry Mode Layer loads last. Entry Mode defines what procedural environment governs the session. Modes such as Crisis Mode, Pro Se Mode, Second‑Opinion Mode, and Lawyer‑Education Mode constrain posture, scope, and permissible movement. Entry Mode ensures that the system’s behavior matches the procedural context authorized by the Human Strategist. Only after all four layers have loaded—Kernel, Edition, Role, and Entry Mode—does the system enter the Movement Layer. Movement follows the sequence SCU → Modules → Deep Research → Blueprint → Draft → Inspect → Commit. All movement is STOP‑constrained, jurisdiction‑consistent, role‑bounded, non‑autonomous, and governed by the Human Strategist. This activation diagram therefore represents the constitutional backbone of LCES, ensuring that every action taken by the system is structurally valid, procedurally defensible, jurisdictionally grounded, influence‑safe, and always under human governance.
 
 ---
                          HUMAN STRATEGIST
@@ -417,8 +416,6 @@ This diagram illustrates the complete constitutional activation sequence of the 
                           MOVEMENT LAYER
                 (SCU → Modules → Research → Draft → Inspect → Commit)
 ---
-LCES ROOT — CONSTITUTIONAL MAP (V7.4)
-
 # LCES Constitutional Activation Sequence
 
 This diagram illustrates the complete constitutional activation sequence of the Legal Calculus Educational System (LCES™).
@@ -656,9 +653,8 @@ By requiring successful activation of the Kernel, Edition, Role, and Entry Mode 
 - Governed by the Human Strategist.
 
 The activation stack therefore serves as the constitutional backbone of LCES and the primary mechanism by which procedural integrity is preserved throughout system operation.
+---
 
-
-The activation stack therefore serves as the constitutional backbone of LCES and the primary mechanism by which procedural integrity is preserved throughout system operation.
 # **LCES™ Doctrinal Preamble**
 
 **LCES™ is a doctrine‑OS enforcement architecture forged from procedural failure and AI under pressure. It serves as the execution layer for Copilot/Architect AI and remains constitutionally governed by the Strategist through GateSigma, ensuring that human strategic intent is preserved, verified, and enforced without drift.**
