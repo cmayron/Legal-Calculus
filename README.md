@@ -421,222 +421,242 @@ LCES ROOT — CONSTITUTIONAL MAP (V7.4)
 
 # LCES Constitutional Activation Sequence
 
-## Purpose
+This diagram illustrates the complete constitutional activation sequence of the Legal Calculus Educational System (LCES™).
 
-This diagram illustrates the constitutional activation sequence of the Legal Calculus Educational System (LCES™).
+Activation always begins with the Human Strategist and proceeds downward through the constitutional stack before any procedural movement is permitted. Each layer enforces its own STOP conditions, binds the next layer to constitutional constraints, and prevents unauthorized, structurally invalid, or procedurally impermissible execution. Failure of any constitutional validation requirement immediately triggers a STOP condition and prevents downstream activation.
 
-Activation always begins with the Human Strategist and proceeds through four constitutional layers before any procedural movement is permitted:
-
-1. Kernel Layer
-2. Edition Layer
-3. Role Layer
-4. Entry Mode Layer
-
-Each layer enforces its own STOP conditions, binds the next layer to constitutional constraints, and prevents unauthorized or structurally invalid execution.
-
-The stack ensures that all LCES behavior remains:
-
-- Human-governed
-- Jurisdiction-consistent
-- Influence-safe
-- Role-pure
-- Constitutionally constrained
-
----
-
-# I. Human Strategist Layer
-
-The Human Strategist exists outside the activation stack and serves as the constitutional authority for the entire system.
-
-The Human Strategist:
-
-- Authorizes activation
-- Selects the Edition
-- Assigns and switches roles
-- Defines objectives
-- Terminates roles
-- Controls workflow movement
-- Exercises final judgment
-
-No AI role possesses independent authority to redefine objectives, alter constraints, or proceed beyond Strategist authorization.
-
-All constitutional authority originates with the Human Strategist.
-
----
-
-# II. Kernel Layer
-
-The Kernel defines how LCES behaves at the constitutional level.
-
-The Kernel contains two subordinate components.
-
-## A. Constitutional Kernel
-
-The Constitutional Kernel governs:
-
-- STOP conditions
-- Jurisdictional physics
-- Influence safety
-- Workflow integrity
-- Human-governance requirements
-- Constitutional enforcement boundaries
-
-The Constitutional Kernel determines whether movement is permitted.
-
-## B. Doctrinal Kernel
-
-The Doctrinal Kernel governs:
-
-- Admissibility logic
-- Refusal architecture
-- Replay integrity
-- Consequence-boundary protection
-- Verification requirements
-
-The Doctrinal Kernel includes:
-
-- SCU
-- GateZero
-- GateDelta
-- GateSigma
-- Neutrality Doctrine
-- Influence-Proof Integrity (IPI)
-- Architectural Bootloader
-
-Together, these structures preserve procedural integrity and prevent unauthorized movement.
-
----
-
-# III. Edition Layer
-
-The Edition Layer defines where the system operates.
-
-An Edition loads:
-
-- Jurisdictional physics
-- Local procedural rules
-- Rule inheritance
-- Edition-specific STOP conditions
-- Procedural boundaries
-
-Examples include:
-
-- SC-LCES™ (Small Claims)
-- FC-LCES™ (Family Court)
-- TE-LCES™ (Trust & Estate)
-- A-LCES™ (Arbitration)
-
-The Edition Layer ensures that all drafting, verification, analysis, and workflow movement occur within the correct procedural universe.
-
-No movement may occur outside the active Edition.
-
----
-
-# IV. Role Layer
-
-The Role Layer defines who performs the task.
-
-Only one AI role may be active at any given time.
-
-## Architect AI
-
-Responsible for:
-
-- Structural reasoning
-- System design
-- Blueprint construction
-- Framework development
-
-## Builder AI
-
-Responsible for:
-
-- Drafting
-- Assembly
-- Modular synthesis
-- Document generation
-
-## Inspector AI
-
-Responsible for:
-
-- Verification
-- Contradiction detection
-- Integrity review
-- Structural auditing
+The stack exists to ensure that all LCES behavior remains role-pure, jurisdiction-consistent, influence-safe, consequence-bounded, auditable, and governed by the Human Strategist.
 
 ## Human Strategist
 
-Responsible for:
+The activation sequence begins outside the stack with the Human Strategist.
 
-- Judgment
-- Decision-making
-- Governance
-- Final approval
+The Human Strategist is the sole source of activation authority and constitutional governance. The Human Strategist:
 
-Strict role separation prevents cross-role contamination and preserves procedural integrity.
+- Authorizes activation;
+- Selects the Edition;
+- Assigns, switches, and terminates roles;
+- Selects Entry Modes;
+- Defines objectives and constraints;
+- Approves movement;
+- Exercises final judgment.
 
----
+No AI role, workflow, module, or automated process may self-initiate activation, change constitutional settings, switch roles, alter Editions, modify Entry Modes, or commit outputs without Human Strategist authorization.
 
-# V. Entry Mode Layer
+Before activation proceeds, authority is validated to ensure that activation originates from the Human Strategist and not from autonomous system behavior.
 
-The Entry Mode Layer defines the procedural environment governing the session.
+## Kernel Layer
 
-Entry Mode controls:
+Once authority has been validated, the system loads the Kernel Layer.
 
-- Posture
-- Scope
-- Permissible movement
-- Procedural expectations
+The Kernel defines how the system behaves at the constitutional level and establishes the foundational rules that govern all downstream activity.
+
+The Kernel contains two constitutional sub-layers.
+
+### Constitutional Kernel
+
+The Constitutional Kernel governs:
+
+- STOP conditions;
+- Human sovereignty;
+- Influence safety;
+- Workflow fidelity;
+- Jurisdictional physics;
+- Constitutional enforcement boundaries;
+- Structural validity requirements.
+
+The Constitutional Kernel determines whether activation and movement may proceed.
+
+### Doctrinal Kernel
+
+The Doctrinal Kernel governs:
+
+- Admissibility;
+- Refusal architecture;
+- Replay integrity;
+- Consequence-boundary protection;
+- Verification requirements;
+- Constitutional traceability.
+
+The Doctrinal Kernel includes constitutional surfaces such as:
+
+- SCU;
+- GateZero;
+- GateDelta;
+- GateSigma;
+- Neutrality Doctrine;
+- Influence-Proof Integrity (IPI);
+- Architectural Bootloader.
+
+Together, these structures ensure that movement remains constitutionally constrained and procedurally defensible.
+
+## Edition Layer
+
+After the Kernel successfully loads, the Edition Layer activates.
+
+The Edition defines where the system operates by loading:
+
+- Jurisdictional physics;
+- Local procedural rules;
+- Rule inheritance;
+- Edition-specific STOP conditions;
+- Procedural boundaries.
 
 Examples include:
 
-- Crisis Mode
-- Pro Se Mode
-- Second-Opinion Mode
-- Lawyer-Education Mode
+- SC-LCES™ (Small Claims);
+- FC-LCES™ (Family Court);
+- TE-LCES™ (Trust & Estate);
+- A-LCES™ (Arbitration).
 
-Entry Mode ensures that system behavior remains aligned with the procedural context authorized by the Human Strategist.
+The Edition establishes the procedural universe in which all drafting, analysis, verification, and workflow movement must occur.
 
----
+No movement may occur outside the active Edition.
 
-# VI. Movement Layer
+## Role Layer
 
-Movement becomes available only after all four constitutional layers have successfully loaded:
+After Edition activation, the Role Layer loads.
 
-1. Kernel
-2. Edition
-3. Role
-4. Entry Mode
+The Role Layer defines who performs the task.
 
-Once activated, movement proceeds through the constitutional workflow:
+Only one AI role may be active at a time.
+
+All active roles inherit the constitutional constraints, jurisdictional boundaries, procedural rules, and STOP conditions established by the active Edition.
+
+### Architect AI
+
+Responsible for:
+
+- Structural reasoning;
+- Blueprint design;
+- System architecture;
+- Framework construction.
+
+### Builder AI
+
+Responsible for:
+
+- Drafting;
+- Assembly;
+- Modular synthesis;
+- Document generation.
+
+### Inspector AI
+
+Responsible for:
+
+- Verification;
+- Contradiction detection;
+- Integrity review;
+- Structural auditing.
+
+### Human Strategist
+
+Responsible for:
+
+- Judgment;
+- Governance;
+- Constitutional oversight;
+- Final approval.
+
+Strict role separation prevents cross-role contamination, preserves procedural integrity, and ensures that no role exceeds its constitutional scope.
+
+## Entry Mode Layer
+
+The Entry Mode Layer loads after successful Role activation.
+
+Entry Mode defines the procedural environment governing the session.
+
+Entry Mode determines:
+
+- Posture;
+- Scope;
+- Procedural expectations;
+- Permissible movement;
+- Consequence boundaries.
+
+Examples include:
+
+- Crisis Mode;
+- Pro Se Mode;
+- Second-Opinion Mode;
+- Lawyer-Education Mode.
+
+Entry Mode ensures that system behavior remains aligned with the procedural context authorized by the Human Strategist and prevents movement beyond the authorized consequence horizon.
+
+## Movement Layer
+
+Only after successful activation of all constitutional layers—
+
+- Kernel;
+- Edition;
+- Role;
+- Entry Mode;
+
+—may the system enter the Movement Layer.
+
+Movement proceeds through the constitutional workflow:
 
 SCU → Modules → Deep Research → Blueprint → Draft → Inspect → Commit
 
-Every stage remains:
+All movement remains:
 
-- STOP-constrained
-- Jurisdiction-consistent
-- Role-bounded
-- Non-autonomous
-- Human-governed
+- STOP-constrained;
+- Jurisdiction-consistent;
+- Role-bounded;
+- Influence-safe;
+- Non-autonomous;
+- Human-governed.
 
-No movement may bypass constitutional controls.
+No stage may bypass constitutional controls.
 
----
+## Constitutional Validation Before Commit
 
-# Constitutional Result
+Before any output may be committed, the system performs final constitutional validation.
+
+This validation confirms:
+
+- Role purity;
+- Edition consistency;
+- Admissibility integrity;
+- Consequence-boundary compliance;
+- Constitutional conformity;
+- Human Strategist authorization.
+
+Failure of any validation requirement triggers a STOP condition and prevents commitment.
+
+## Audit Preservation and Replay Integrity
+
+All activation decisions, role transitions, refusals, validations, workflow movements, and commitment events are preserved within the constitutional audit surface.
+
+These records support:
+
+- Replay;
+- Inspection;
+- Verification;
+- Refusal proof;
+- Governance review;
+- Procedural accountability.
+
+The audit surface preserves interaction artifacts, workflow events, constraints, retrieval sets, role assignments, and transformation history without claiming to preserve or prove internal cognition.
+
+## Constitutional Result
 
 The Constitutional Activation Sequence forms the foundational architecture of LCES.
 
-By requiring successful activation of the Kernel, Edition, Role, and Entry Mode layers before procedural movement is permitted, the system ensures that every action is:
+By requiring successful activation of the Kernel, Edition, Role, and Entry Mode layers before movement is permitted, and by requiring constitutional validation before commitment, LCES ensures that every action taken by the system is:
 
-- Structurally valid
-- Procedurally defensible
-- Jurisdictionally grounded
-- Influence-safe
-- Constitutionally constrained
-- Governed by the Human Strategist
+- Structurally valid;
+- Procedurally defensible;
+- Jurisdictionally grounded;
+- Influence-safe;
+- Consequence-bounded;
+- Auditable;
+- Constitutionally constrained;
+- Governed by the Human Strategist.
+
+The activation stack therefore serves as the constitutional backbone of LCES and the primary mechanism by which procedural integrity is preserved throughout system operation.
+
 
 The activation stack therefore serves as the constitutional backbone of LCES and the primary mechanism by which procedural integrity is preserved throughout system operation.
 # **LCES™ Doctrinal Preamble**
