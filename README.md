@@ -2954,10 +2954,7 @@ The CF‑Kernel is not a wrapper.
 It is the **constitutional substrate of consequence formation**.
 
 ---
-Here is **ARTICLE XIV**, written to match the constitutional density, structural voice, and doctrinal precision of Articles I–XIII.  
-This article completes the constitutional layer by defining how **Operational Doctrine** must integrate with the Kernel, SCU, STOP, and the Consequence‑Stage Governance stack.
 
-This is the bridge between **Constitution** and **Operations** — the article that ensures operational execution can *never* outrun constitutional control.
 
 ---
 
