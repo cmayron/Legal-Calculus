@@ -23,34 +23,29 @@
 </div>
 ---
 
-is a **structural governance architecture** for multi‑agent AI systems.
+LCES™ (Legal Calculus Educational System™)
 
-It governs **authority**, **admissibility**, **progression**, **refusal**, and **artifact‑level continuity** across chains of interacting models and tools.
+LCES™ is a structural governance architecture for multi-agent AI systems. It defines how authority is granted, how outputs are admitted, how work progresses, when refusal is required, and how artifacts preserve continuity across chains of interacting models, agents, and tools.
 
-LCES does **not** claim to reconstruct cognition, prove causation, or guarantee legal consequence.
+LCES is not a theory of cognition and does not claim causal, legal, factual, or adjudicative consequence by assertion. It does not purport to explain how an AI system reasons, thinks, understands, or reaches an internal conclusion. LCES governs structure, not mind.
 
-It governs **structure**, not **mind**.
+Where consequence-boundary claims are made, LCES defines those claims as requiring a public, reproducible proof surface that records what was attempted, what failed, what was refused, what effect was prevented, and what replay demonstrates under changed conditions. The existence of a proof surface does not establish correctness, legality, causation, admissibility, or truth; it preserves the artifacts necessary for independent review.
 
-LCES provides:
+At its core, LCES organizes work into Structured Control Units (SCUs). Each SCU contains an explicit basis, authority, jurisdiction, scope, admissibility conditions, inheritance rules, consequence boundaries, and STOP-rule constraints. SCUs are moved through a constitutional governance sequence that determines whether work may proceed, must be refused, or requires escalation to the Human Strategist.
 
-- **SCUs** — structured units with explicit basis, authority, jurisdiction, and STOP‑rule boundaries
-- **GateZero** — admissibility attempts
-- **GateSigma** — structural progression checks
-- **GateDelta** — refusal surfaces
-- **IPI** — artifact continuity and inheritance checks
+LCES evaluates progression through governance surfaces including:
+	•	GateZero — admissibility and authority validation;
+	•	GateSigma — structural progression and execution integrity;
+	•	GateDelta — refusal recording and consequence-prevention documentation;
+	•	IPI (Inheritance-Proof Integrity) — continuity, custody, inheritance, and artifact-preservation verification.
 
-LCES is a **candidate constitutional architecture**.
+These governance surfaces do not certify correctness. They record whether constitutional conditions for progression, refusal, inheritance, and continuity were satisfied.
 
-Its consequence‑boundary claims require a **public, reproducible proof surface** showing:
+LCES further preserves replayability through documented execution artifacts, allowing independent observers to evaluate whether equivalent inputs, constraints, authorities, and conditions produce equivalent structural outcomes. Replay demonstrates reproducibility of workflow behavior under specified conditions; it does not establish cognition, causation, intent, legality, or factual truth.
 
-- what was attempted
-- what failed
-- what was refused
-- what effect was prevented
-- what replay demonstrates the boundary under changed conditions
+LCES may be deployed across multiple editions, roles, jurisdictions, and operational modes. Regardless of implementation, the Human Strategist remains the ultimate source of authority, admissibility definition, scope definition, category definition, constraint definition, and consequence-boundary determination. No model, agent, workflow, or automated process may independently redefine or supersede Strategist authority.
 
-Until that proof surface is complete, LCES remains **structural governance**, not demonstrated constitutional infrastructure.
-
+Accordingly, LCES functions as a governance and procedural-integrity architecture for multi-agent systems. Its purpose is to preserve authority boundaries, workflow integrity, refusal accountability, artifact continuity, and reproducible structural review without asserting cognitive insight, legal sufficiency, causal proof, or adjudicative authority.
 
 ----
 graph TD
