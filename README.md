@@ -647,7 +647,7 @@ By requiring successful activation of the Kernel, Edition, Role, and Entry Mode 
 - Constitutionally constrained;
 - Governed by the Human Strategist.
 
-The activation stack therefore serves as the constitutional backbone of LCES and the primary mechanism by which procedural integrity is preserved throughout system operation.
+- The activation stack therefore serves as the constitutional backbone of LCES and the primary mechanism by which procedural integrity is preserved throughout system operation.
 ---
 
 # **LCES™ Doctrinal Preamble**
