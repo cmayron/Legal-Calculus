@@ -27620,3 +27620,40 @@ new file mode 100644
 ### Article LII — Global Accountability Doctrine
 ### Article LIII — International Enforcement Doctrine
 
+### What This Demonstrates
+
+### What This Demonstrates
+
+### **Refusal + No-Effect**
+
+An attempted withdrawal exceeding the balance is refused, and the world state
+remains unchanged.
+
+### **Replay Invariance**
+
+The same refusal produces the same trace even under changed external conditions.
+
+### **Invalid Movement**
+
+An attempted withdrawal is refused because the account is locked, demonstrating
+constitutional admissibility enforcement.
+
+This constitutes the minimal, public, timestamped proof surface required to
+support a consequence-boundary governance claim.
+
+### **Refusal + No-Effect**
+
+An attempted withdrawal exceeding the balance is refused, and the world state
+remains unchanged.
+
+### **Replay Invariance**
+
+The same refusal produces the same trace even under changed external conditions.
+
+### **Invalid Movement**
+
+An attempted withdrawal is refused because the account is locked, demonstrating
+constitutional admissibility enforcement.
+
+This constitutes the minimal, public, timestamped proof surface required to
+support a consequence-boundary governance claim.
