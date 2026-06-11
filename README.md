@@ -496,6 +496,7 @@ The Doctrinal Kernel includes constitutional surfaces such as:
 - GateZero;
 - GateDelta;
 - GateSigma;
+- Gate of consequence
 - Neutrality Doctrine;
 - Influence-Proof Integrity (IPI);
 - Architectural Bootloader.
