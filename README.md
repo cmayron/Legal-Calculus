@@ -940,21 +940,31 @@ Nothing more should be inferred.
 
 ---
 
-# Constitutional Principle
+# **Gate of Consequence™ — Binding‑Authority Surface**
 
-GateZero™ defines the boundary.
+The **Gate of Consequence™** is the terminal constitutional boundary at which LCES determines whether an attempted action may bind into the world.
 
-GateDelta™ proves the boundary held.
+It evaluates:
 
-GateSigma™ records what occurred when the boundary permitted execution.
+- **identity** of the acting system,
+- **authority** to attempt the action,
+- **admissibility** of inputs and conditions,
+- **justification** under the edition‑in‑force,
+- **scope** of the attempted effect,
+- **consequence** and permissibility of the outcome,
+- **receipt and replay** consistency.
 
-Together they provide procedural clarity without claiming cognitive insight, forensic causation, legal authority, or adjudicative consequence.
+If any condition fails, the action is refused and recorded as a prevented effect.
 
-LCES is a constitutional architecture of boundaries.
+If all conditions are satisfied, the system may authorize the binding action.
 
-It governs what may proceed, what must refuse, and what must be recorded.
+The Gate of Consequence does not assert legal effect, causation, liability, or correctness.
 
-It does not determine the law.
+It defines only the structural conditions under which an attempted action may or may not bind.
+
+Gate of Consequence™ is the constitutional governor of binding authority.
+
+Nothing binds without passing the Gate of Consequence.
 
 ---
 
