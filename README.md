@@ -866,6 +866,32 @@ GateSigma™ enforces:
 ### Cross-System Consistency
 Semantic and procedural coherence across participating systems.
 
+# **Gate of Consequence™ — Binding‑Authority Surface**
+
+The **Gate of Consequence™** is the terminal constitutional boundary at which LCES determines whether an attempted action may bind into the world.
+
+It evaluates:
+
+- **identity** of the acting system,
+- **authority** to attempt the action,
+- **admissibility** of inputs and conditions,
+- **justification** under the edition‑in‑force,
+- **scope** of the attempted effect,
+- **consequence** and permissibility of the outcome,
+- **receipt and replay** consistency.
+
+If any condition fails, the action is refused and recorded as a prevented effect.
+
+If all conditions are satisfied, the system may authorize the binding action.
+
+The Gate of Consequence does not assert legal effect, causation, liability, or correctness.
+
+It defines only the structural conditions under which an attempted action may or may not bind.
+
+Gate of Consequence™ is the constitutional governor of binding authority.
+
+Nothing binds without passing the Gate of Consequence.
+
 ### Cumulative Authority
 Aggregate authority exercised across the chain must remain within constitutional limits.
 
