@@ -262,8 +262,8 @@ It visually expresses the SCU flow through the gates without implying cognition,
 ```
                    ┌──────────────────────────────┐
                    │   Structural Control Unit     │
-                   │   (SCU: basis, authority,     │
-                   │    jurisdiction, STOP rules)  │
+                   │ (SCU: basis, authority,       │
+                   │  jurisdiction, STOP rules)    │
                    └───────────────┬──────────────┘
                                    │
                                    ▼
@@ -301,13 +301,25 @@ It visually expresses the SCU flow through the gates without implying cognition,
                      │  - evidence expired?    │
                      │  - custody broken?      │
                      └─────────────┬───────────┘
+                                   │ pass
+                                   │
+                                   ▼
+                     ┌────────────────────────┐
+                     │   Gate of Consequence   │
+                     │  Binding-Authority Test │
+                     │  - identity verified?   │
+                     │  - authority sufficient?│
+                     │  - justification valid? │
+                     │  - scope permissible?   │
+                     │  - consequence allowed? │
+                     │  - receipt + replay?    │
+                     └─────────────┬───────────┘
                                    │ refusal
                                    ▼
                      ┌────────────────────────┐
                      │   Refusal SCU + Log     │
-                     │   (prevented effect)    │
+                     │ (prevented effect)      │
                      └────────────────────────┘
-```
 
 ---
 
