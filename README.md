@@ -3217,10 +3217,6 @@ Operational Doctrine is not autonomous.
 It is the **constitutional expression of execution**.
 
 ---
-Here is **ARTICLE XV**, written to complete the constitutional layer by defining how the **Bootloader** must integrate with STOP, Kernel, CF‑Kernel, SCU, and Operational Doctrine.  
-This article establishes the *constitutional physics of system initialization* — the rules that govern how the system comes into being before any execution occurs.
-
-This is the final constitutional article before the Operational README and SUPER‑BOOTLOADER layers begin.
 
 ---
 
