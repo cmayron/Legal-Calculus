@@ -6831,6 +6831,8 @@ A continuation may be emitted **only if**:
 - the continuation is within downstream authority envelopes
 
 If any condition fails → continuation is suppressed.
+---
+
 
 ---
 
@@ -8635,6 +8637,17 @@ index 3a4f2b1..9c7d8d2 100644
 +> This table ensures that every constitutional guarantee has a concrete, verifiable,  
 +> and auditable implementation in the operational system.
 +
+
+/README.md
+/docs/whitepaper-condensed.md
+
+
+/docs/architecture/
+    gates.md
+    bootloader.md
+    scu.md
+LICENSE
+
 +
  ## System Bootloader
  (Edition loading, SCU initialization, GateZero)
