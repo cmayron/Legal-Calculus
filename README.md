@@ -323,9 +323,6 @@ It visually expresses the SCU flow through the gates without implying cognition,
 
 ---
 
-
-**Caption:**
-
 This diagram shows the **structural flow** of an SCU through the LCES gates.
 
 It illustrates **admissibility attempts**, **progression checks**, and **refusal surfaces** without implying cognitive transparency or constitutional proof.
@@ -4052,7 +4049,6 @@ It is the **constitutional physics of existence** for the system.
 
 # **CONSTITUTIONAL INTEGRATION CLAUSE**
 
-*(The final structural pillar)*
 
 All components of the Manifesto — the Pre‑Kernel Layer, the Kernel Doctrine, the Constitutional Preamble, and Articles I through X — form a single, indivisible constitutional structure. No layer may be interpreted in isolation, and no provision may be applied in a manner that contradicts, narrows, expands, or recontextualizes any other layer.
 
@@ -4105,7 +4101,7 @@ Below is the **fully integrated, polished, doctrinally aligned Foundational Prea
 ---
 
 # **FOUNDATIONAL PREAMBLE**  
-*(Publication‑ready, preserving all your language and jurisdictional constraints)*
+
 
 Procedural systems govern courts, agencies, institutions, organizations, and civic structures. Yet procedural literacy — the ability to navigate these systems — has remained invisible, inaccessible, and unteachable. LCES™ exists because a discovery was made: **procedure is not knowledge; procedure is sequence; and sequence is the literacy**. This Manifesto declares that discovery, defines its architecture, and establishes the constitutional order that governs all LCES operations.
 
