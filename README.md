@@ -8630,19 +8630,10 @@ index 3a4f2b1..9c7d8d2 100644
 +> and auditable implementation in the operational system.
 +
 
-/README.md
-/docs/whitepaper-condensed.md
+----
 
-
-/docs/architecture/
-    gates.md
-    bootloader.md
-    scu.md
-LICENSE
-
-+
- ## System Bootloader
- (Edition loading, SCU initialization, GateZero)
+LCES NOTICE. LCES is a proprietary constitutional-physics architecture created and owned by Charles Mayron, MD, FACS. All mechanisms, structures, and operational concepts described in this repository, including the constitutional stack, surfaces, boundaries, gates, movements, Z-node proofing, STOP conditions, neutrality enforcement, the deterministic bootloader, and all related constitutional-physics components, are protected intellectual property. A patent application covering these mechanisms has been filed, and all rights are reserved. This repository provides a limited, non-commercial, informational overview of the LCES architecture. It does not grant any rights to implement, deploy, reproduce, modify, distribute, or create derivative works of any LCES mechanism in whole or in part. Any system that performs constitutional activation, authority validation, admissibility validation, gate-based transitions, binding transitions, Z-node proofing, STOP enforcement, neutrality enforcement, or a layered constitutional stack may fall within the scope of the patent. Unauthorized use may constitute patent infringement, misappropriation, or unlawful derivative replication. Accessing or using this repository constitutes acknowledgment of these restrictions. For licensing inquiries, contact the rights holder directly.
+ 
 ---
 LCES CONSTITUTION, LICENSE, TRADEMARK, AND PATENT NOTICE
 
