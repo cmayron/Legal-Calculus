@@ -12,6 +12,8 @@
   <img alt="Framework" src="https://img.shields.io/badge/type-procedural--literacy%20framework-black">
   <img alt="Workflow" src="https://img.shields.io/badge/workflow-Architect%20%E2%86%92%20Builder%20%E2%86%92%20Inspector-green">
     
+    LCES is a constitutional-physics architecture designed to ensure that digital systems operate under explicit authority, validated admissibility, and provable neutrality. This repository provides a high-level, non-implementation overview of the LCES framework, its governance model, and its conceptual foundations. All mechanisms described here, including the constitutional stack, surfaces, boundaries, gates, movements, Z-node proofing, STOP conditions, and neutrality enforcement, are protected intellectual property and may not be implemented or reproduced without a commercial license. For a deeper conceptual explanation, see the white paper. For legal boundaries and permitted use, review the LICENSE and NOTICE.
+    
     
   Copyright © 2026 Charles D. Mayron. All Rights Reserved.
 </p>
