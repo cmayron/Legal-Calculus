@@ -728,8 +728,50 @@ LCES ROOT README.md
 │
 └── 3. SYSTEM ROOT MAP
         (Where everything *lives* — repo placement diagram)
+---
+# **### Architectural Progression: Milestones 1–119**
 
+The LCES architecture progresses through five distinct surfaces, each establishing a higher level of structural maturity, stability, and reviewability. Together, Milestones **1–119** define the complete constitutional substrate.
 
+---
+
+## **1–39 — Substrate Construction**
+
+Defines the foundational components of LCES, including STOP logic, admissibility rules, enforcement pathways, constitutional boundaries, and the core identity of the system.
+
+**Outcome:** The substrate exists and has a stable architectural identity.
+
+---
+
+## **40–79 — Coherence & Enforcement**
+
+Validates internal consistency across modules, ensures enforcement logic is correct, and establishes the substrate–harness distinction.
+
+**Outcome:** The system functions coherently as a unified governance architecture.
+
+---
+
+## **80–99 — Reviewability Surface**
+
+Introduces the claim surface, evidence surface, and audit boundaries. Ensures the system is externally interpretable, testable, and suitable for independent evaluation.
+
+**Outcome:** The architecture becomes reviewable and externally verifiable.
+
+---
+
+## **100–118 — Stress & Boundary Integrity**
+
+Tests the system under adversarial, contradictory, and drift‑inducing conditions. Confirms that constitutional rules, STOP logic, and invariants remain intact under pressure.
+
+**Outcome:** The substrate demonstrates resilience and non‑drift behavior.
+
+---
+
+## **119 — Discover Surface (Architectural Completion)**
+
+Final checkpoint confirming that LCES cannot be moved off its constitutional foundation. The system demonstrates identity permanence, non‑reinterpretation, and full substrate immovability.
+
+**Outcome:** LCES is certified as a **constitutional substrate** and is ready for external architectural review.
 ---
 ### *THE LCES™ MANIFESTO*
 
