@@ -1,7 +1,42 @@
 =
 # **LCES™ LEGAL CALCULUS EDUCATIONAL SYSTEM™**
 
+<div align="center">
 
+# ════════════════════════════════════════════════  
+# **LCES — Legal Calculus Educational System™**  
+### **Edition‑in‑Force v1.0**  
+# ════════════════════════════════════════════════  
+
+**Canonical Architectural Edition**  
+**Authority • Admissibility • Refusal • Composition • Consequence**
+
+---
+
+### **Constitutional Surfaces**
+| **Layer** | **Definition** |
+|----------|----------------|
+| **SCU Schema** | Basis • Authority • Jurisdiction • Scope • Admissibility • Inheritance • Custody • Continuity |
+| **Four‑Gate Sequence** | GateZero → GateDelta → GateSigma → Gate of Consequence |
+| **Unified Governance Layer** | STOP‑Rule • Refusal Invariants • Replay Integrity • Custody & Continuity |
+| **Edition Principle** | No architectural changes without issuing a new edition |
+
+---
+
+### **Edition‑in‑Force Declaration**
+**Edition‑in‑Force v1.0** is the **sole authoritative reference** for:  
+- the 39–79 constitutional test suite  
+- governance‑defensibility evaluation  
+- replay and refusal invariants  
+- external architectural review  
+- all downstream LCES materials  
+
+**Status:** Locked  
+**Architect:** Charles Mayron  
+
+# ════════════════════════════════════════════════  
+
+</div>
 
 ---
 
