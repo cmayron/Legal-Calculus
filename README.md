@@ -4714,62 +4714,68 @@ End of README v13
 +.
 ---
 
-### I. HUMAN SOVEREIGNTY — THE FIRST PRINCIPLE
-
-### II. THE DISCOVERY — PROCEDURE IS SEQUENCE
-
-### III. THE STACK — THE CONSTITUTIONAL ORDER OF REASONING
-
-### IV. THE SEQUENCE DOCTRINE — WHY ORDER MATTERS
-
-### V. THE STOP DOCTRINE — THE CIRCUIT‑BREAKER OF PROCEDURE
-
-### VI. THE HUMAN STRATEGIST — THE SOVEREIGN INTELLIGENCE
-
-### VII. THE FOUR LAYERS — THE CONSTITUTIONAL ARCHITECTURE
-
-### VIII. THE ROLE SEPARATION DOCTRINE — THE CONSTITUTIONAL FIREWALL
-
-### IX. THE EDITION PURITY DOCTRINE — THE NON‑MIXING RULE
-
-### X. THE MODE DOCTRINE — THE FOUR HUMAN ENVIRONMENTS
-
-### XI. WHY THIS ARCHITECTURE IS UNIQUE
-
-### XII. THE JURISDICTION DOCTRINE — ORIGIN, PRIORITY, AND IDENTITY
-
-### XIII. WHY MICROSOFT WAS THE DISCOVERY ENVIRONMENT
-
-### XIV. THE MANIFESTO SENTENCE
-
-### XV. THE DECLARATION
-
-### XVI. LCES™ MANIFESTO ADDENDUM — CONSTITUTIONAL HYGIENE
-
-### XVII. LCES at the Gate — The Doctrinal Principle
-
-### XVIII. LCES™ GateZero — The Governance Layer Name
-
-### XIX. Execution Path — Bootloader → GateZero → Execution
-
-### XX. The GateZero Identity
-
-### XXI. Trademark Notice — LCES™ GateZero
-
-### XXII. THE SIX CALCULI — THE EDUCATIONAL EDITIONS OF LCES
-
-### XXIII. THE DEFINITIONS SURFACE — CONSTITUTIONAL MEANING
-
-### XXIV. THE ENFORCEMENT SURFACE — STOP PROTOCOL & REMEDIES
-
-### XXV. THE IMPLEMENTATION SURFACE — STACK LOADING & TRANSITIONS
-
-### XXVI. THE NON‑DEROGATION CLAUSE — IMMUTABILITY OF THE CONSTITUTION
-
-### XXVII. THE PROCEDURAL PRIMITIVES — THE SIX INTERNAL CALCULI
-
 ---
+# TABLE OF CONTENTS
 
+## PART I — FOUNDATIONS
+### I.  Purpose of LCES
+### II. Constitutional Substrate Definition
+### III. Structural Governance Architecture
+### IV. Constitutional Governance & the Three‑Gate Stack
+
+## PART II — DOCTRINAL SURFACES
+### V.  STOP Doctrine
+### VI. Influence, Jurisdiction, Role, and Record Integrity
+### VII. LCES at the Gate (Doctrinal Principle)
+### VIII. Admissibility & Constitutional Authority
+### IX. Non‑Derogation & Drift Prevention
+### X. Procedural Primitives
+
+## PART III — GATE ARCHITECTURE
+### XI.  GateZero — Constitutional Enforcement Layer
+### XII. GateDelta — Jurisdiction & Escalation Control
+### XIII. GateSigma — Consequence‑Level Clearance
+### XIV. The Gate of Consequence — Binding Boundary
+### XV.  Execution Path (Bootloader → GateZero → Execution)
+### XVI. Constitutional Control of Reasoning‑to‑Action Transitions
+
+## PART IV — KERNEL STRUCTURE
+### XVII. Constitutional Kernel
+### XVIII. Doctrinal Kernel
+### XIX. Kernel Bootloader & SCU Activation
+### XX. Kernel Patch & Integrity Maps
+
+## PART V — EDITIONS
+### XXI. SC‑LCES (Strict Constitutional Edition)
+### XXII. FC‑LCES (Full Constitutional Edition)
+### XXIII. TE‑LCES (Technical Edition)
+### XXIV. AC‑LCES (Applied Constitutional Edition)
+
+## PART VI — ROLES
+### XXV. Architect Role
+### XXVI. Builder Role
+### XXVII. Inspector Role
+
+## PART VII — ENTRY MODES
+### XXVIII. Crisis Mode
+### XXIX. Pro Se Mode
+### XXX. Second Opinion Mode
+### XXXI. Lawyer Education Mode
+### XXXII. Research Mode
+
+## PART VIII — MOVEMENT LAYER
+### XXXIII. SCU Flow
+### XXXIV. Module Activation
+### XXXV. Research → Draft → Inspect → Commit Cycle
+### XXXVI. Constitutional Continuity Across Agents
+
+## PART IX — APPENDICES
+### XXXVII. System Root Charter
+### XXXVIII. Kernel README
+### XXXIX. Editions README
+### XL. Roles README
+### XLI. Modes README
+### XLII. Movement README
 #
 
 #
