@@ -93,102 +93,290 @@ LCES may be deployed across multiple editions, roles, jurisdictions, and operati
 Accordingly, LCES functions as a governance and procedural‑integrity architecture for multi‑agent systems. Its purpose is to preserve authority boundaries, workflow integrity, refusal accountability, artifact continuity, and reproducible structural review without asserting cognitive insight, legal sufficiency, causal proof, or adjudicative authority. The addition of the **Gate of Consequence** completes the constitutional stack by defining the precise boundary at which attempted actions may or may not bind into the world.
 
 ----
-graph TD
+# 📁 **ASCII Directory Tree — LCES Repository Structure**
 
-    A[LCES-ROOT] --> B[README.md]
-    A --> C[LICENSE.md]
-    A --> D[TRADEMARK.md]
+```
+LCES-ROOT
+├── README.md
+├── LICENSE.md
+├── TRADEMARK.md
+│
+├── kernel/
+│   ├── constitutional/
+│   │   ├── STOP_DOCTRINE.md
+│   │   ├── KERNEL_HALT_CONDITIONS.md
+│   │   ├── WORKFLOW_FIDELITY_MANDATE.md
+│   │   ├── INFLUENCE_LAYER_INTEGRITY.md
+│   │   ├── JURISDICTION_INTEGRITY.md
+│   │   ├── ROLE_INTEGRITY.md
+│   │   └── RECORD_INTEGRITY.md
+│   │
+│   └── doctrinal/
+│       ├── SCU.md
+│       ├── GATES.md
+│       ├── NEUTRALITY.md
+│       ├── IPI.md
+│       └── ARCHITECTURAL_BOOTLOADER.md
+│
+├── architecture/
+│   ├── SYSTEM_ROOT_DIAGRAM.md
+│   ├── STACK_ACTIVATION_DIAGRAM.md
+│   ├── KERNEL_PATCH_MAP.md
+│   ├── ROLE_STACK_MAP.md
+│   └── EDITION_STACK_MAP.md
+│
+├── editions/
+│   ├── SC-LCES/
+│   │   ├── SC_BOOTLOADER.md
+│   │   ├── SC_STOP_RULES.md
+│   │   ├── SC_PROCEDURAL_PHYSICS.md
+│   │   └── SC_README.md
+│   │
+│   ├── FC-LCES/
+│   │   ├── FC_BOOTLOADER.md
+│   │   ├── FC_STOP_RULES.md
+│   │   ├── FC_PROCEDURAL_PHYSICS.md
+│   │   └── FC_README.md
+│   │
+│   ├── TE-LCES/
+│   │   ├── TE_BOOTLOADER.md
+│   │   ├── TE_STOP_RULES.md
+│   │   ├── TE_PROCEDURAL_PHYSICS.md
+│   │   └── TE_README.md
+│   │
+│   └── AC-LCES/
+│       ├── AC_BOOTLOADER.md
+│       ├── AC_STOP_RULES.md
+│       ├── AC_PROCEDURAL_PHYSICS.md
+│       └── AC_README.md
+│
+├── roles/
+│   ├── architect/
+│   │   ├── ARCHITECT_BOOTLOADER.md
+│   │   ├── ARCHITECT_STOP_RULES.md
+│   │   └── ARCHITECT_WORKFLOW.md
+│   │
+│   ├── builder/
+│   │   ├── BUILDER_BOOTLOADER.md
+│   │   ├── BUILDER_STOP_RULES.md
+│   │   └── BUILDER_WORKFLOW.md
+│   │
+│   └── inspector/
+│       ├── INSPECTOR_BOOTLOADER.md
+│       ├── INSPECTOR_STOP_RULES.md
+│       └── INSPECTOR_WORKFLOW.md
+│
+├── modes/
+│   ├── CRISIS_MODE.md
+│   ├── PRO_SE_MODE.md
+│   ├── SECOND_OPINION_MODE.md
+│   ├── LAWYER_EDUCATION_MODE.md
+│   └── RESEARCH_MODE.md
+│
+├── movement/
+│   ├── SCU_FLOW.md
+│   ├── MODULES_INDEX.md
+│   ├── DEEP_RESEARCH.md
+│   ├── BLUEPRINTING.md
+│   ├── DRAFTING.md
+│   ├── INSPECTION.md
+│   └── COMMIT_PROTOCOL.md
+│
+└── docs/
+    ├── SYSTEM_ROOT_CHARTER.md
+    ├── KERNEL_README.md
+    ├── EDITIONS_README.md
+    ├── ROLES_README.md
+    ├── MODES_README.md
+    └── MOVEMENT_README.md
+```
 
-    A --> K[/kernel]
-        K --> KC[/constitutional]
-            KC --> KC1[STOP_DOCTRINE.md]
-            KC --> KC2[KERNEL_HALT_CONDITIONS.md]
-            KC --> KC3[WORKFLOW_FIDELITY_MANDATE.md]
-            KC --> KC4[INFLUENCE_LAYER_INTEGRITY.md]
-            KC --> KC5[JURISDICTION_INTEGRITY.md]
-            KC --> KC6[ROLE_INTEGRITY.md]
-            KC --> KC7[RECORD_INTEGRITY.md]
+---
 
-        K --> KD[/doctrinal]
-            KD --> KD1[SCU.md]
-            KD --> KD2[GATES.md]
-            KD --> KD3[NEUTRALITY.md]
-            KD --> KD4[IPI.md]
-            KD --> KD5[ARCHITECTURAL_BOOTLOADER.md]
+---
 
-    A --> AR[/architecture]
-        AR --> AR1[SYSTEM_ROOT_DIAGRAM.md]
-        AR --> AR2[STACK_ACTIVATION_DIAGRAM.md]
-        AR --> AR3[KERNEL_PATCH_MAP.md]
-        AR --> AR4[ROLE_STACK_MAP.md]
-        AR --> AR5[EDITION_STACK_MAP.md]
+# 📘 **Repository Structure Overview**
 
-    A --> E[/editions]
+This repository is organized as a **constitutional system**, not a traditional software project.
 
-        E --> ESC[/SC-LCES]
-            ESC --> ESC1[SC_BOOTLOADER.md]
-            ESC --> ESC2[SC_STOP_RULES.md]
-            ESC --> ESC3[SC_PROCEDURAL_PHYSICS.md]
-            ESC --> ESC4[SC_README.md]
+Each directory represents a **governance layer**, **role**, or **edition** of the LCES substrate.
 
-        E --> EFC[/FC-LCES]
-            EFC --> EFC1[FC_BOOTLOADER.md]
-            EFC --> EFC2[FC_STOP_RULES.md]
-            EFC --> EFC3[FC_PROCEDURAL_PHYSICS.md]
-            EFC --> EFC4[FC_README.md]
+The structure is intentionally modular, hierarchical, and doctrinal — mirroring the architecture of LCES itself.
 
-        E --> ETE[/TE-LCES]
-            ETE --> ETE1[TE_BOOTLOADER.md]
-            ETE --> ETE2[TE_STOP_RULES.md]
-            ETE --> ETE3[TE_PROCEDURAL_PHYSICS.md]
-            ETE --> ETE4[TE_README.md]
+The following sections explain the purpose of each top‑level directory and how they relate to the system as a whole.
 
-        E --> EAC[/AC-LCES]
-            EAC --> EAC1[AC_BOOTLOADER.md]
-            EAC --> EAC2[AC_STOP_RULES.md]
-            EAC --> EAC3[AC_PROCEDURAL_PHYSICS.md]
-            EAC --> EAC4[AC_README.md]
+---
 
-    A --> R[/roles]
+# 📁 **Root Files**
 
-        R --> RA[/architect]
-            RA --> RA1[ARCHITECT_BOOTLOADER.md]
-            RA --> RA2[ARCHITECT_STOP_RULES.md]
-            RA --> RA3[ARCHITECT_WORKFLOW.md]
+### [**README.md**](http://readme.md/)
 
-        R --> RB[/builder]
-            RB --> RB1[BUILDER_BOOTLOADER.md]
-            RB --> RB2[BUILDER_STOP_RULES.md]
-            RB --> RB3[BUILDER_WORKFLOW.md]
+Primary orientation document for the entire system.
 
-        R --> RI[/inspector]
-            RI --> RI1[INSPECTOR_BOOTLOADER.md]
-            RI --> RI2[INSPECTOR_STOP_RULES.md]
-            RI --> RI3[INSPECTOR_WORKFLOW.md]
+Explains purpose, architecture, and activation.
 
-    A --> M[/modes]
-        M --> M1[CRISIS_MODE.md]
-        M --> M2[PRO_SE_MODE.md]
-        M --> M3[SECOND_OPINION_MODE.md]
-        M --> M4[LAWYER_EDUCATION_MODE.md]
-        M --> M5[RESEARCH_MODE.md]
+### [**LICENSE.md**](http://license.md/)
 
-    A --> MV[/movement]
-        MV --> MV1[SCU_FLOW.md]
-        MV --> MV2[MODULES_INDEX.md]
-        MV --> MV3[DEEP_RESEARCH.md]
-        MV --> MV4[BLUEPRINTING.md]
-        MV --> MV5[DRAFTING.md]
-        MV --> MV6[INSPECTION.md]
-        MV --> MV7[COMMIT_PROTOCOL.md]
+Defines the legal terms governing use, distribution, and derivative works.
 
-    A --> DOC[/docs]
-        DOC --> DOC1[SYSTEM_ROOT_CHARTER.md]
-        DOC --> DOC2[KERNEL_README.md]
-        DOC --> DOC3[EDITIONS_README.md]
-        DOC --> DOC4[ROLES_README.md]
-        DOC --> DOC5[MODES_README.md]
-        DOC --> DOC6[MOVEMENT_README.md]
+### [**TRADEMARK.md**](http://trademark.md/)
+
+Protects the LCES name, marks, and identity.
+
+---
+
+# 🧩 **/kernel — The Core Constitutional Engine**
+
+The `kernel` directory contains the **constitutional and doctrinal foundations** of LCES.
+
+This is the heart of the system — the part that must remain stable, immutable, and reviewable.
+
+### **/kernel/constitutional**
+
+These files define the **constitutional rules** that govern all LCES behavior:
+
+- STOP doctrine
+- Halt conditions
+- Workflow fidelity
+- Influence layer integrity
+- Jurisdiction integrity
+- Role integrity
+- Record integrity
+
+These documents form the **non‑negotiable substrate** of the system.
+
+### **/kernel/doctrinal**
+
+These files define the **doctrinal logic** that supports the constitutional layer:
+
+- SCU (System Control Unit)
+- Gates
+- Neutrality doctrine
+- IPI (Interpretive Protocol Interface)
+- Architectural bootloader
+
+This layer ensures the kernel behaves consistently and predictably.
+
+---
+
+# 🏛️ **/architecture — System Maps & Structural Diagrams**
+
+This directory contains the **visual and structural representations** of the LCES system:
+
+- System root diagram
+- Stack activation diagram
+- Kernel patch map
+- Role stack map
+- Edition stack map
+
+These documents help readers understand how the system fits together.
+
+---
+
+# 🧬 **/editions — LCES Variants**
+
+LCES supports multiple **editions**, each tailored to a specific operational context:
+
+- **SC‑LCES** — Strict Constitutional
+- **FC‑LCES** — Full Constitutional
+- **TE‑LCES** — Technical Edition
+- **AC‑LCES** — Applied Constitutional
+
+Each edition includes:
+
+- Bootloader
+- STOP rules
+- Procedural physics
+- Edition‑specific README
+
+This allows LCES to adapt to different environments without altering the core substrate.
+
+---
+
+# 🧑‍🏭 **/roles — Operational Personas**
+
+LCES defines three primary operational roles:
+
+### **Architect**
+
+Designs and maintains the constitutional substrate.
+
+### **Builder**
+
+Implements structures, modules, and workflows.
+
+### **Inspector**
+
+Verifies compliance, integrity, and correctness.
+
+Each role includes:
+
+- Bootloader
+- STOP rules
+- Workflow
+
+This ensures role‑based separation of powers.
+
+---
+
+# 🧠 **/modes — Specialized Operational Modes**
+
+Modes define **context‑specific behaviors** for the system:
+
+- Crisis Mode
+- Pro Se Mode
+- Second Opinion Mode
+- Lawyer Education Mode
+- Research Mode
+
+These modes allow LCES to adapt its behavior while remaining constitutionally anchored.
+
+---
+
+# 🔧 **/movement — The LCES Work Cycle**
+
+This directory documents the **LCES movement cycle**, which governs how work flows through the system:
+
+- SCU flow
+- Module index
+- Deep research
+- Blueprinting
+- Drafting
+- Inspection
+- Commit protocol
+
+This is the operational backbone of LCES.
+
+---
+
+# 📚 **/docs — System‑Level Documentation**
+
+High‑level documentation for the entire system:
+
+- System Root Charter
+- Kernel README
+- Editions README
+- Roles README
+- Modes README
+- Movement README
+
+These documents provide orientation for new contributors and external reviewers.
+
+---
+
+# 🧭 **Summary**
+
+This repository is structured as a **constitutional governance system**, not a software codebase.
+
+Each directory corresponds to a **layer of authority**, **role**, or **edition**, and the entire structure mirrors the architecture of LCES itself.
+
+It is designed for:
+
+- clarity
+- auditability
+- modularity
+- constitutional integrity
+- long‑term stability
 
 ---
 LCES-ROOT/
