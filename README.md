@@ -5255,6 +5255,87 @@ And ecosystems require constitutions.
 LCES provides that constitution.
 GateZero enforces it.
 
+## **XXI — The Three‑Gate Constitutional Stack**
+
+The LCES constitutional substrate governs all reasoning‑to‑action transitions through a three‑gate enforcement stack.
+
+Each gate enforces a distinct constitutional surface.
+
+Together, they prevent unauthorized escalation, drift, or consequence‑binding behavior.
+
+### **1. GateZero — Authority & Admissibility**
+
+GateZero is the constitutional checkpoint where reasoning must prove:
+
+- authority to act
+- admissibility under STOP
+- role separation
+- Edition purity
+- human‑bounded intent
+
+GateZero does not execute; it authorizes execution.
+
+No movement may proceed without GateZero clearance.
+
+### **2. GateDelta — Jurisdiction & Escalation Control**
+
+GateDelta governs **scope**, **jurisdiction**, and **escalation boundaries**.
+
+It ensures that:
+
+- no agent exceeds its mandate
+- no chain escalates without explicit human authorization
+- no model crosses into a domain it does not constitutionally hold
+
+GateDelta prevents horizontal drift across agents and vertical drift across authority layers.
+
+### **3. GateSigma — Consequence Binding & Final Clearance**
+
+GateSigma is the final constitutional gate before any action may bind into the world.
+
+It enforces:
+
+- consequence‑level admissibility
+- jurisdictional alignment
+- human‑explicit authorization
+- final STOP review
+
+GateSigma is the last checkpoint before the system reaches the Gate of Consequence.
+
+---
+
+# 
+
+## **XXII — The Gate of Consequence**
+
+The Gate of Consequence is the constitutional boundary where attempted actions may or may not bind into the world.
+
+It is not a model layer.
+
+It is not a reasoning step.
+
+It is the **constitutional boundary between possibility and effect**.
+
+Nothing crosses the Gate of Consequence unless:
+
+- GateZero has authorized admissibility
+- GateDelta has validated jurisdiction
+- GateSigma has cleared consequence‑level authority
+- the Human Strategist has explicitly granted permission
+
+The Gate of Consequence is where governance becomes operational rather than procedural.
+
+It is the point at which LCES prevents:
+
+- unauthorized execution
+- unbounded escalation
+- drift into unintended consequence
+- cross‑agent contamination
+- self‑initiated action
+
+The Gate of Consequence is the **final enforcement surface** of the constitutional substrate.
+
+
 XXI — Trademark Notice
 
 LCES™ GateZero is a trademarked governance layer of the Legal Calculus Educational System.
