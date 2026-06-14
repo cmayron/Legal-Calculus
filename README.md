@@ -5676,12 +5676,7 @@ Your voice is consistent with the Manifesto and the Constitution.
 
 If you want, I can now:
 
-- integrate this Addendum into the full Manifesto  
-- produce a V7.0‑aligned, publication‑ready Manifesto  
-- generate a diagram of the constitutional vs. operational layers  
-- produce a “Constitutional Firewall Doctrine” as a standalone article  
 
-Just tell me which direction you want to go.
 ════════════════════════════════════════════════
 ════════════════════════════════════════════════
 ════════════════════════════════════════════════---════════════════════════════════════════════════
@@ -5980,13 +5975,7 @@ GateSigma™ governs outcomes.
 Both operate at runtime and are enforced by the Bootloader.
 
 ---
-If you want, I can now:
 
-- integrate this into **README V7.0**
-- generate a **four‑gate mermaid diagram**
-- produce a **runtime flowchart** including GateZero, GateDelta, GateSigma, and Gate of Consequence
-- or restructure the README to include a **Four‑Gate Operational Model** section
----
 
 
 The README preserves the firewall between doctrine and execution.
@@ -7071,7 +7060,216 @@ Speed does not override sequence.
 The record is the remedy.**
 
 ---
-LCES is a constitutional, version‑controlled reasoning system where GitHub serves as the canonical Library, Copilot operates as a role‑constrained execution engine, and the Human Strategist holds final authority over truth, judgment, interpretation, and action. The Kernel Doctrine defines the system’s immutable boundaries, including role purity, edition isolation, mode explicitness, SCU containment, module alignment, calculus constraint, and device sovereignty. STOP Doctrine is the supreme safety mechanism and halts the system whenever role confusion, edition drift, cross‑context inference, unsafe activation, or ambiguous instruction appears. All activity requires explicit activation through STOP, Kernel, Edition, Mode, and Role, with no implicit activation permitted. Editions define jurisdiction and only one may be active at a time; modes define operational posture; roles—Architect, Builder, Inspector, Strategist—operate exclusively and require STOP to switch. SCUs are self‑contained, edition‑pure, and non‑persistent, with no state crossing devices, roles, or sessions. Modules attach to SCUs and Blueprints and activate only within Kernel constraints after Architect authorization. Calculi such as JC and LCa provide analytical engines for risk and mischaracterization but may not generate facts, strategy, or legal conclusions. Runtime Physics enforces a nine‑step deterministic sequence from Kernel Load to Output Generation. Users must avoid ambiguity, verify all facts, maintain strategic judgment, and never upload privileged or sensitive material. AI may structure, organize, and analyze but may not provide legal advice or exercise legal judgment. Execution follows Architect to Builder to Inspector to Strategist, and Blueprint viability requires SCU Extraction, Module Enhancement, and Deep Research Embellishment. In litigation, every new docket event routes to Architect first, and Builder must halt on un‑architected data. The guiding principle is that the record is the case and the record is the remedy.
+# **I. Unified Constitutional Runtime + Execution Integrity (V7.0 Master Section)**
+
+The V7.0 Constitutional Runtime operates under the supreme authority of Part III — Execution Integrity. Execution Integrity defines the constitutional physics of admissibility, causation, reconstruction, replay, evidentiary minimalism, and closure. The Runtime expresses these primitives procedurally through Kernel, Edition, Mode, Role, SCU, Module, Calculus, and Runtime Physics.
+
+Execution Integrity governs **whether** the system may move.
+
+The Runtime governs **how** the system moves.
+
+Together they form a single governed continuum.
+
+## **1. Constitutional Substrate — Execution Integrity**
+
+All execution is bound by:
+
+- **GateZero (Admissibility)** — no operation may begin without validated authority, jurisdiction, inputs, and role boundaries.
+- **GateSigma (Causation)** — no consequence may be produced unless its causal chain is explicit, attributable, and reconstructible.
+- **Reconstruction Standard** — all outcomes must be independently re‑derivable.
+- **Chain‑of‑Custody** — every admissible input and causal step must be preserved.
+- **Deterministic Replay** — identical outcomes must be reproducible across time and systems.
+- **Evidentiary Minimalism** — preserve only what is necessary and all that is required.
+- **STOP (Constitutional Closure)** — no system may continue execution after closure.
+
+These primitives are immutable and override all other doctrines.
+
+---
+
+## **2. Constitutional Runtime — V7.0 Operational Choreography**
+
+The Runtime is the procedural expression of Execution Integrity. It enforces explicit activation, jurisdictional boundaries, role purity, and deterministic movement.
+
+### **Kernel Doctrine**
+
+Defines immutable boundaries:
+
+- role purity
+- edition isolation
+- mode explicitness
+- SCU containment
+- module alignment
+- calculus constraint
+- device sovereignty
+
+No operational layer may override Kernel constraints.
+
+### **STOP Doctrine**
+
+The supreme safety mechanism.
+
+Triggers on:
+
+- role confusion
+- edition drift
+- cross‑context inference
+- unsafe activation
+- ambiguous instruction
+
+STOP is both procedural and constitutional.
+
+### **Editions**
+
+Define jurisdiction.
+
+Only one Edition may be active at a time.
+
+### **Modes**
+
+Define operational posture.
+
+Modes must be explicit and cannot be inferred.
+
+### **Roles**
+
+Architect → Builder → Inspector → Strategist
+
+Roles operate exclusively and require STOP to switch.
+
+### **SCUs**
+
+Self‑contained, edition‑pure, non‑persistent.
+
+No state may cross devices, roles, or sessions.
+
+### **Modules**
+
+Attach to SCUs and Blueprints.
+
+Activate only after Architect authorization and within Kernel constraints.
+
+### **Calculi**
+
+(JC, LCa, etc.)
+
+Provide analytical engines for risk and mischaracterization.
+
+They may not generate facts, strategy, or legal conclusions.
+
+---
+
+## **3. Unified Principle**
+
+**Execution Integrity governs the legality of movement.
+Runtime governs the choreography of movement.
+STOP governs the termination of movement.**
+
+This is the most complete and collapse‑proof architecture.
+
+---
+
+# **II. Constitutional Hierarchy Diagram (Text‑Based)**
+
+```
+                ┌────────────────────────────────────┐
+                │        PART III — EXECUTION        │
+                │            INTEGRITY               │
+                │ (Admissibility, Causation, Replay) │
+                └────────────────────────────────────┘
+                               ▲
+                               │  Constitutional Supremacy
+                               │
+                ┌────────────────────────────────────┐
+                │      V7.0 CONSTITUTIONAL RUNTIME   │
+                │ Kernel → Edition → Mode → Role     │
+                │ SCU → Module → Calculus → Physics  │
+                └────────────────────────────────────┘
+                               ▲
+                               │  Operational Expression
+                               │
+                ┌────────────────────────────────────┐
+                │      OPERATIONAL ARTIFACTS         │
+                │ SCUs, Blueprints, Modules, Calculi │
+                └────────────────────────────────────┘
+                               ▲
+                               │  Human Authority
+                               │
+                ┌────────────────────────────────────┐
+                │        HUMAN STRATEGIST            │
+                │  Final authority over truth/action │
+                └────────────────────────────────────┘
+```
+
+This diagram shows the **complete constitutional stack**.
+
+---
+
+# **III. Rewritten Runtime Physics (Integrated with GateZero + GateSigma)**
+
+Here is the **nine‑step deterministic sequence**, now constitutionally anchored:
+
+### **Step 1 — Kernel Load**
+
+Load Kernel constraints.
+
+Validate device sovereignty and role purity.
+
+### **Step 2 — GateZero (Admissibility Check)**
+
+Validate authority, jurisdiction, inputs, Edition, Mode, and Role.
+
+If any element is ambiguous → STOP.
+
+### **Step 3 — Edition Activation**
+
+Activate one Edition only.
+
+Edition defines jurisdiction and permissible operations.
+
+### **Step 4 — Mode Activation**
+
+Set explicit operational posture.
+
+No inference permitted.
+
+### **Step 5 — Role Activation**
+
+Architect → Builder → Inspector → Strategist.
+
+Role switching requires STOP.
+
+### **Step 6 — SCU Initialization**
+
+Create a self‑contained, edition‑pure SCU.
+
+No state may cross devices, roles, or sessions.
+
+### **Step 7 — Module Attachment**
+
+Modules attach to SCUs only after Architect authorization.
+
+All module activity must satisfy Kernel constraints.
+
+### **Step 8 — GateSigma (Causation Check)**
+
+Before producing any consequence:
+
+- causal chain must be explicit
+- steps must be attributable
+- reconstruction must be possible
+- replay must be deterministic
+
+If any condition fails → STOP.
+
+### **Step 9 — Output Generation + Constitutional Closure**
+
+Produce the consequence.
+
+Preserve evidentiary substrate.
+
+Execute STOP.
+
+No further execution is permitted.
 ════════════════════════════════════════════════
 ════════════════════════════════════════════════
 ════════════════════════════════════════════════
