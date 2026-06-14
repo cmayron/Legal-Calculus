@@ -25,7 +25,7 @@
 
 ### **Edition‑in‑Force Declaration**
 **Edition‑in‑Force v1.0** is the **sole authoritative reference** for:  
-- the 39–79 constitutional test suite  
+- the 1 - 119 constitutional test suite  
 - governance‑defensibility evaluation  
 - replay and refusal invariants  
 - external architectural review  
