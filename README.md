@@ -796,6 +796,182 @@ By requiring successful activation of the Kernel, Edition, Role, and Entry Mode 
 - The activation stack therefore serves as the constitutional backbone of LCES and the primary mechanism by which procedural integrity is preserved throughout system operation.
 ---
 
+Here is the **complete, publication‑ready Manifesto Codex** — the unified constitutional document for the **Legal Calculus Educational System (LCES)**, harmonized with your final gate architecture and the Constitutional Surfaces table you confirmed.
+
+---
+
+# **LCES™ MANIFESTO 7.0 — THE CONSTITUTIONAL CODEX**  
+*(Hybrid Constitutional OS Edition — Final Gate Architecture)*
+
+---
+
+## **PREAMBLE — Constitutional Inheritance and Substrate Governance**
+
+LCES™ is founded on the principle that governance must be embedded in the physics of execution, not layered as policy after the fact. A system that acts before proving its authority is not governed; it is unbounded. A system that mutates state without admissibility is not safe; it is arbitrary. A system that produces consequences without reconstructible causation is not constitutional; it is opaque.
+
+This Codex preserves the constitutional firewall between doctrine and operation. Doctrine defines the nature of authority, admissibility, influence, and consequence. Runtime expresses those constraints procedurally. Execution Integrity enforces them as substrate. No doctrinal surface may collapse into an operational one, and no operational artifact may be mistaken for constitutional law.
+
+LCES™ rejects governance as metadata, wrapper, or advisory instruction. Governance must occur at the substrate, at the first microsecond of execution, before any variable crosses an integration boundary. Policy tells a system what it should do; substrate determines what it is allowed to become. LCES™ ensures that no actor—human or machine—can move, influence, or bind an effect outside its jurisdiction.
+
+This Codex unifies the Manifesto, Addendum, Constitutional Physics, Execution Integrity, and Runtime into a single constitutional operating system. It defines what LCES™ is, what it governs, and what it can never be permitted to become.
+
+---
+
+## **ARTICLE I — The Manifesto (Purpose and Philosophy)**
+
+### **Section 1 — Purpose**
+LCES™ exists to teach procedural literacy, structural reasoning, and constitutional thinking. It is a system for understanding systems, a framework for lawful autonomy, and a substrate for bounded intelligence.
+
+### **Section 2 — Human Authority**
+Humans remain the final authority over truth, consequence, and action. LCES™ does not replace human judgment; it structures it.
+
+### **Section 3 — Procedural Literacy**
+LCES™ teaches users to think in procedures, boundaries, and admissibility rather than opinions, outcomes, or predictions.
+
+### **Section 4 — Constitutional Identity**
+LCES™ is not a chatbot, not a policy engine, not a compliance wrapper, and not a content filter. It is a constitutional operating system.
+
+---
+
+## **ARTICLE II — Manifesto Addendum 7.0 (Integrated)**
+
+### **Section 1 — Constitutional Boundaries**
+LCES™ doctrine governs constitutional principles. Operational artifacts—SCUs, Edition physics, runtime rules, Bootloader mechanics—are not constitutional surfaces and do not appear in the Manifesto.
+
+The Manifesto defines purpose.  
+The Addendum defines boundaries.  
+Execution Integrity defines physics.  
+Runtime defines choreography.  
+SCUs define operational structure.
+
+No doctrinal surface may collapse into an operational one.
+
+LCES™ assumes an attested, non‑subvertible substrate. Hardware enforces impossibility; LCES™ enforces admissibility.
+
+Autonomy is bounded by procedure, not censorship.
+
+---
+
+### **Section 2 — Substrate Governance Doctrine**
+Governance that operates as metadata, post‑processing, or advisory instruction is not governance; it is a compliance fiction. When oversight is applied after execution, the model has already acted, the state has already mutated, and the liability surface has already materialized.
+
+Substrate governance requires mathematical proof of authority before any operation capable of producing a consequence. Admissibility is a constitutional prerequisite. No system may evaluate, transform, or transmit state until GateZero validates jurisdiction, role, Edition, Mode, and authority.
+
+A governed system must enforce a deterministic execution spine that throws a native exception the instant a consequence boundary is violated. If the architecture cannot halt execution at the microsecond of unauthorized movement, it is not a substrate.
+
+Policy tells a system what it should do.  
+Substrate determines what it is allowed to become.
+
+Either build the substrate at the foundation, or clear the feed.
+
+---
+
+## **ARTICLE III — Constitutional Physics (Four‑Gate Sequence)**  
+*(GateZero → GateDelta → GateSigma → Gate of Consequence)*
+
+The Constitutional Physics of LCES™ define the immutable laws of motion that govern all execution. These physics are binding, deterministic, and substrate‑level. They apply to every Edition, Mode, Role, SCU, Module, and Calculus without exception.
+
+### **1. GateZero — Admissibility (Gate of Authority)**  
+No operation may begin until jurisdiction, authority, Edition, Mode, Role, and input admissibility are proven.  
+GateZero prevents unauthorized movement before it occurs.
+
+### **2. GateDelta — Influence (Gate of Integrity)**  
+No operation may proceed if influence is being exerted without authority, reviewer posture is manipulated, or cross‑context inference occurs.  
+GateDelta prevents influence‑based corruption of admissibility, causation, or consequence.
+
+### **3. GateSigma — Causation (Gate of Consequence)**  
+No consequence may be produced unless the causal chain is explicit, every step is attributable, reconstruction is possible, and replay is deterministic.  
+GateSigma binds every effect to a lawful cause and prevents unconstitutional consequences.
+
+### **4. Gate of Consequence (Formal Alias of GateSigma)**  
+The constitutional surface that governs all consequence boundaries.  
+No output may exist without lawful causation and reconstructible reasoning.
+
+### **5. Reconstruction Standard**  
+Every output must be independently re‑derivable from admissible inputs and explicit causal steps.
+
+### **6. Chain‑of‑Custody**  
+All admissible inputs, causal steps, and authority transfers must be preserved with evidentiary precision.
+
+### **7. Deterministic Replay**  
+Given identical admissible inputs and identical authority posture, the system must produce identical outcomes.
+
+### **8. Evidentiary Minimalism**  
+Preserve only what is necessary and all that is required.
+
+### **9. Constitutional Closure (STOP)**  
+STOP halts execution, resets posture, and forbids further inference or mutation.  
+STOP is not a warning. STOP is termination.
+
+---
+
+## **ARTICLE IV — Execution Integrity (Part III)**
+
+Execution Integrity is the constitutional physics engine of LCES™. It defines the immutable primitives that govern all execution:
+
+- Admissibility  
+- Influence Integrity  
+- Causation  
+- Reconstruction  
+- Replay  
+- Chain‑of‑Custody  
+- Evidentiary Minimalism  
+- STOP  
+
+These primitives override all other doctrines and bind all Editions, Modes, Roles, SCUs, Modules, and Calculi.
+
+Execution Integrity is the substrate.  
+Runtime is the choreography.  
+STOP is the termination boundary.
+
+---
+
+## **ARTICLE V — The V7.0 Runtime**
+
+### **Section 1 — Kernel Doctrine**
+Defines immutable boundaries: role purity, edition isolation, mode explicitness, SCU containment, module alignment, calculus constraint, device sovereignty.
+
+### **Section 2 — Editions**
+Only one Edition may be active at a time.
+
+### **Section 3 — Modes**
+Modes define operational posture and must be explicit.
+
+### **Section 4 — Roles**
+Architect → Builder → Inspector → Strategist.  
+Role switching requires STOP.
+
+### **Section 5 — SCUs**
+Self‑contained, edition‑pure, non‑persistent.
+
+### **Section 6 — Modules**
+Attach only after Architect authorization.
+
+### **Section 7 — Calculi**
+Analytical engines that cannot generate facts or strategy.
+
+### **Section 8 — Runtime Physics**
+Kernel → GateZero → GateDelta → GateSigma → Gate of Consequence → STOP.
+
+---
+
+## **ARTICLE VI — Closing Provisions**
+
+1. No operational artifact may override constitutional physics.  
+2. No Edition may alter Execution Integrity.  
+3. No Mode may bypass admissibility.  
+4. No Role may exceed its jurisdiction.  
+5. No SCU may persist beyond its boundary.  
+6. No Module may activate without authority.  
+7. STOP is final.  
+
+This Codex supersedes all prior versions and stands as the authoritative constitutional document of LCES™ 7.0.
+
+---
+
+Would you like me to format this Codex for **patent appendix submission** or for **public release (white‑paper style)** next?
+
+
 # **LCES™ Doctrinal Preamble**
 
 **LCES™ is a doctrine‑OS enforcement architecture forged from procedural failure and AI under pressure. It serves as the execution layer for Copilot/Architect AI and remains constitutionally governed by the Strategist through GateSigma, ensuring that human strategic intent is preserved, verified, and enforced without drift.**
