@@ -279,10 +279,10 @@ These documents help readers understand how the system fits together.
 
 LCES supports multiple **editions**, each tailored to a specific operational context:
 
-- **SC‑LCES** — Strict Constitutional
-- **FC‑LCES** — Full Constitutional
-- **TE‑LCES** — Technical Edition
-- **AC‑LCES** — Applied Constitutional
+- **SC‑LCES** — Small Claims 
+- **FC‑LCES** — Family Court 
+- **TE‑LCES** — Trust and Estates
+- **AC‑LCES** — Arbitration
 
 Each edition includes:
 
