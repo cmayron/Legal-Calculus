@@ -1,5 +1,5 @@
 =
-# **LCES™ LEGAL CALCULUS EDUCATIONAL SYSTEM™**
+# **LCES LEGAL CALCULUS EDUCATIONAL SYSTEM™**
 
 <div align="center">
 
@@ -529,9 +529,7 @@ Human Strategist
 → Movement
 
 ----
-
----
-                         HUMAN STRATEGIST
+HUMAN STRATEGIST
                                 │
                                 ▼
                           KERNEL LAYER
@@ -553,6 +551,9 @@ Human Strategist
                                 │
                                 ▼
                           MOVEMENT LAYER
+           (SCU → Modules → Research → Draft → Inspect → Commit)
+---
+                       
            (SCU → Modules → Research → Draft → Inspect → Commit)
 ---
 # LCES Constitutional Activation Sequence
