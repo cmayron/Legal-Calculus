@@ -534,28 +534,26 @@ Human Strategist
                          HUMAN STRATEGIST
                                 │
                                 ▼
-                        [Kernel Layer](ca://s?q=Explain_Kernel_Layer)
+                          KERNEL LAYER
                                 │
         ┌───────────────────────┴────────────────────────┐
         ▼                                                 ▼
-[Constitutional Kernel](ca://s?q=Explain_Constitutional_Kernel)     [Doctrinal Kernel](ca://s?q=Explain_Doctrinal_Kernel)
-        │                                                 │
-        │                                                 │
-  (STOP, ILI, JI, WFM, RI, etc.)        (SCU, GATES, NEUTRALITY, IPI, Architectural Bootloader)
+              CONSTITUTIONAL KERNEL                           DOCTRINAL KERNEL
+        (STOP, ILI, JI, WFM, RI, etc.)        (SCU, GATES, NEUTRALITY, IPI, Bootloader)
         │                                                 │
         └───────────────────────┬─────────────────────────┘
                                 ▼
-                     [Edition Layer](ca://s?q=Explain_Edition_Layer)
+                          EDITION LAYER
                                 │
                                 ▼
-                       [Role Layer](ca://s?q=Explain_Role_Layer)
+                           ROLE LAYER
                                 │
                                 ▼
-                 [Entry Mode Layer](ca://s?q=Explain_Entry_Mode_Layer)
+                       ENTRY MODE LAYER
                                 │
                                 ▼
                           MOVEMENT LAYER
-                (SCU → Modules → Research → Draft → Inspect → Commit)
+           (SCU → Modules → Research → Draft → Inspect → Commit)
 ---
 # LCES Constitutional Activation Sequence
 
