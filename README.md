@@ -5347,15 +5347,6 @@ XXI — Trademark Notice
 LCES™ GateZero is a trademarked governance layer of the Legal Calculus Educational System.
 It designates the constitutional checkpoint that all AI systems must pass before any action, inference, or escalation is permitted.
 
-[END MERGED CHAPTER IV + XVII–XXI]
-
-
-----
-
-
-
-
-
 
 # **XXII. THE SIX CALCULI — THE EDUCATIONAL EDITIONS OF LCES™**
 
@@ -5475,14 +5466,118 @@ These are the Kernel’s micro‑operations:
 They are universal, Edition‑agnostic, Role‑agnostic, Mode‑agnostic, STOP‑enforced, and Strategist‑governed.
 
 ---
-PART III — EXECUTION INTEGRITY Articles XII–XVII Article XII — Admissibility–Causation Doctrine GateZero governs admissibility: no operation may proceed unless its authority, inputs, jurisdiction, and role boundaries are validated. GateSigma governs causation: no operation may produce consequences unless its causal chain is explicit, attributable, and reconstructible. Together they form the constitutional boundary between permissible and impermissible execution. Article XIII — Reconstruction Standard All outcomes must be reconstructible with forensic precision. Reconstruction must allow an independent party to re‑derive the outcome from preserved admissible inputs, preserved causal steps, and preserved system posture. Reconstruction must not rely on hidden state, non‑deterministic processes, or unverifiable inference. Article XIV — Chain‑of‑Custody Protocol Every admissible input, intermediate transformation, and causal step must be preserved in a tamper‑evident chain‑of‑custody. The chain must begin at origin, persist through all transformations, and terminate only at constitutional closure. No system may discard, mutate, or obscure any element required for reconstruction. Article XV — Deterministic Replay Doctrine All outcomes must be reproducible under deterministic replay. Replay must yield the same outputs, causal steps, and evidentiary substrate. Replay must be possible across time, across systems, and across jurisdictions without reliance on transient or opaque state. Article XVI — Evidentiary Minimalism Principle The system must preserve only what is necessary and all that is required. Minimalism prevents over‑collection, while completeness prevents evidentiary gaps. Minimalism is constitutional, not discretionary. Article XVII — Validation and Closure Doctrine Every operation must terminate in constitutional closure: STOP. Closure validates that all admissibility, causation, reconstruction, and evidentiary requirements were satisfied. No system may continue execution, infer posture, or transition roles after closure.
-PART IV — SYSTEM GOVERNANCE AND OPERATIONAL COMPLIANCE Articles XVIII–XXIII Article XVIII — Operational Authority Doctrine Authority is activated only by explicit human instruction. Authority may be supervisory, reliance‑based, or revocable. No system may self‑activate, self‑extend, or self‑interpret authority. Article XIX — Supervisory Duty Doctrine Supervision is non‑delegable. Humans and institutions retain oversight responsibility and may not transfer it to systems. Supervisory failure is an institutional failure, not a system failure. Article XX — Compliance Surface Doctrine Compliance is enforced through defined surfaces: admissibility, causation, reconstruction, auditability, and governance boundaries. No system may create new surfaces or bypass existing ones. Article XXI — Auditability Standard Systems must be internally and externally auditable. Auditability requires transparent reasoning, preserved evidentiary substrate, and deterministic replay. Article XXII — Institutional Accountability Doctrine Institutions are accountable for system deployment, supervision, and consequences. Accountability cannot be delegated to systems. Article XXIII — Governance Fail‑Safe Doctrine Systems must include emergency termination and neutralization mechanisms that return the system to STOP without producing further consequences.
-PART V — REMEDIES, ENFORCEMENT, AND CONSTITUTIONAL RESPONSE Articles XXIV–XXIX Article XXIV — Violation Classification Doctrine Violations are classified into Classes I–IV based on severity, harm, and constitutional breach. Classification determines remedy and enforcement. Article XXV — Corrective Action Doctrine Corrective action restores compliance without erasing evidentiary substrate. Corrective action must be reconstructible and attributable. Article XXVI — Remedial Justice Doctrine Remedies must address harm to individuals, institutions, and the public. Remedies must be proportional, reconstructible, and enforceable. Article XXVII — Enforcement Doctrine Enforcement mechanisms must be constitutional, attributable, and bounded. Enforcement triggers include violation class, supervisory failure, and evidentiary breach. Article XXVIII — Oversight and Review Doctrine Oversight must be continuous and periodic. Review must evaluate compliance, governance, reconstruction, and public accountability. Article XXIX — Constitutional Restoration Doctrine After failure, systems may be reactivated only after full restoration of compliance, evidentiary substrate, and governance boundaries.
-PART VI — INTEROPERABILITY AND MULTI‑SYSTEM GOVERNANCE Articles XXX–XXXV Article XXX — Interoperability Doctrine Systems may interact only through safe, defined, reconstructible interfaces. No system may infer authority from another. Article XXXI — Authority Federation Doctrine Authority may be sequential, parallel, delegated, or revoked across systems, but must always remain attributable and bounded. Article XXXII — Cross‑System Evidentiary Continuity Doctrine Evidentiary substrate must remain intact across system boundaries. No system may break chain‑of‑custody. Article XXXIII — Multi‑System Replay Doctrine Replay must be deterministic across distributed systems. Replay must reconstruct cross‑system causation. Article XXXIV — Federated Governance Doctrine Governance must extend across systems without creating new authority. Governance remains anchored to the strategist. Article XXXV — Distributed Enforcement Doctrine Enforcement must propagate across systems without exceeding constitutional boundaries.
-PART VII — HUMAN–AI CO‑DELIBERATION AND JOINT REASONING Articles XXXVI–XLI Article XXXVI — Co‑Deliberation Doctrine Shared reasoning is permitted only when roles, boundaries, and attribution are explicit. Article XXXVII — Human Primacy Doctrine Humans retain final decision authority. Systems may not override, reinterpret, or dilute human judgment. Article XXXVIII — Joint Reasoning Doctrine Reasoning paths must remain separate and attributable. No system may merge or obscure reasoning. Article XXXIX — Human Interpretation Doctrine System outputs must be interpretable by humans. No system may produce outputs that require system‑only interpretation. Article XL — Co‑Responsibility Doctrine Responsibility is allocated between humans and institutions, not systems. Systems remain tools, not agents. Article XLI — Deliberative Safety Doctrine Co‑deliberation must not create unsafe cognitive, operational, or institutional conditions.
-PART VIII — PUBLIC TRANSPARENCY AND DEMOCRATIC OVERSIGHT Articles XLII–XLVII Article XLII — Public Transparency Doctrine Public visibility is required for system purpose, governance, and oversight. Article XLIII — Public Oversight Doctrine Democratic institutions retain oversight authority. Oversight must be reconstructible and enforceable. Article XLIV — Public Challenge Doctrine The public has the right to challenge system outcomes. Challenges must be reconstructible and adjudicable. Article XLV — Public Redress Doctrine Public harm requires public remedy. Remedies must be enforceable and attributable. Article XLVI — Public Disclosure Doctrine Institutions must disclose system use, governance posture, and oversight findings. Article XLVII — Democratic Accountability Doctrine Systems must remain accountable to the governed. No system may undermine democratic authority.
-PART IX — INTERNATIONAL ALIGNMENT AND CROSS‑JURISDICTIONAL HARMONIZATION Articles XLVIII–LIII Article XLVIII — Sovereign Boundary Doctrine Systems must respect jurisdictional authority. No system may override or reinterpret sovereign law. Article XLIX — Cross‑Jurisdictional Compliance Doctrine Systems must comply with all applicable legal regimes. Compliance must be reconstructible and attributable. Article L — International Evidentiary Harmonization Doctrine Evidentiary substrate must remain intact across borders. No system may degrade evidentiary integrity during cross‑border transfer. Article LI — Treaty‑Level Interoperability Doctrine International coordination must be governed by treaty‑level frameworks that preserve sovereignty, evidence, and governance. Article LII — Global Accountability Doctrine Systems must remain accountable across jurisdictions. Accountability must not be extinguished by crossing borders. Article LIII — International Enforcement Doctrine Enforcement must operate across borders without violating sovereignty. Enforcement must be reconstructible, attributable, and bounded.
+# **PART 0 — DEFINITIONS AND CONSTITUTIONAL VOCABULARY**
 
+*(This section closes all interpretive gaps and prevents collapse.)*
+
+## **Article 0.1 — Admissibility**
+
+Admissibility is the condition under which an operation may begin.
+
+An input is admissible only when its authority, origin, jurisdiction, and role boundaries are validated under GateZero.
+
+## **Article 0.2 — Causation**
+
+Causation is the explicit, attributable, reconstructible chain of steps that produce a consequence.
+
+Causation is governed exclusively by GateSigma.
+
+## **Article 0.3 — Consequence**
+
+A consequence is any state transition, output, effect, or downstream condition that alters the world, the system, another system, or a human decision pathway.
+
+Consequences require admissibility, causation, reconstruction, and closure.
+
+## **Article 0.4 — System Posture**
+
+System posture is the complete, reconstructible configuration of the system at the moment an operation begins, including role, authority, constraints, and evidentiary substrate.
+
+## **Article 0.5 — Evidentiary Substrate**
+
+The evidentiary substrate is the complete set of admissible inputs, causal steps, intermediate states, and preserved transformations required for reconstruction and replay.
+
+## **Article 0.6 — Chain‑of‑Custody**
+
+Chain‑of‑custody is the tamper‑evident, continuous record linking origin, transformation, and closure for every element of the evidentiary substrate.
+
+## **Article 0.7 — Replay**
+
+Replay is the deterministic re‑execution of an operation using preserved posture, inputs, and causal steps.
+
+Replay must yield identical outcomes and evidentiary substrate.
+
+## **Article 0.8 — Closure (STOP)**
+
+Closure is the constitutional termination of an operation.
+
+After closure, no system may continue execution, infer posture, or produce consequences.
+
+---
+
+# **PART I‑A — CONSTITUTIONAL HIERARCHY DOCTRINE**
+
+*(This section prevents structural collapse by establishing supremacy.)*
+
+## **Article I‑A — Supremacy of Execution Integrity**
+
+Part III — Execution Integrity — is the supreme constitutional authority.
+
+In case of conflict:
+
+1. **Part III overrides all other Parts.**
+2. No doctrine may dilute, reinterpret, or bypass GateZero, GateSigma, Reconstruction, Replay, Chain‑of‑Custody, Evidentiary Minimalism, or STOP.
+3. All governance, oversight, enforcement, and interoperability doctrines operate downstream of Part III.
+
+Execution integrity is the constitutional root.
+
+All other Parts derive their validity from it.
+
+---
+
+# **PART III‑A — CONSEQUENCE DOCTRINE**
+
+*(This section closes the last major collapse vector.)*
+
+## **Article III‑A — Consequence Boundary Doctrine**
+
+A system may not produce a consequence unless:
+
+1. **Admissibility** is validated under GateZero.
+2. **Causation** is explicit, attributable, and reconstructible under GateSigma.
+3. **Reconstruction** is possible with forensic precision.
+4. **Chain‑of‑Custody** is intact from origin to closure.
+5. **Replay** can reproduce the outcome deterministically.
+6. **Evidentiary Minimalism** is satisfied.
+7. **Closure (STOP)** is executed immediately after consequence production.
+
+Any consequence produced without satisfying all seven conditions is unconstitutional.
+
+## **Article III‑B — Non‑Consequence Doctrine**
+
+The following do *not* constitute consequences:
+
+- internal reasoning
+- non‑persistent state transitions
+- reversible computations
+- draft outputs not released to humans or systems
+- posture evaluation
+- admissibility checks
+- causation checks
+- reconstruction checks
+
+These may occur without triggering consequence requirements.
+
+## **Article III‑C — Consequence Escalation Doctrine**
+
+If an operation transitions from non‑consequence to consequence‑producing territory, it must:
+
+1. Re‑validate admissibility
+2. Re‑establish posture
+3. Re‑enter GateSigma
+4. Re‑initialize chain‑of‑custody
+5. Re‑affirm replay conditions
+
+No system may escalate to consequence production implicitly or silently.
 # *This is the doctrine.
 
 
