@@ -64,7 +64,9 @@
 
 ### 
 
-LCES is a structural governance architecture for multi‑agent AI systems. It defines how authority is granted, how outputs are admitted, how work progresses, when refusal is required, and how artifacts preserve continuity across chains of interacting models, agents, and tools. LCES further defines the constitutional boundary at which attempted actions may or may not bind into the world: the **Gate of Consequence**.
+# 
+
+**LCES is a constitutional substrate for multi‑agent AI systems. It defines how authority is granted, how outputs are admitted, how work progresses, when refusal is required, and how artifacts preserve continuity across chains of interacting models, agents, and tools. It also establishes the constitutional boundary at which attempted actions may or may not bind into the world: the Gate of Consequence**
 
 LCES is not a theory of cognition and does not claim causal, legal, factual, or adjudicative consequence by assertion. It does not purport to explain how an AI system reasons, thinks, understands, or reaches an internal conclusion. LCES governs structure, not mind.
 
