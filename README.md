@@ -66,7 +66,248 @@
 
 # 
 
+
+
 **LCES is a constitutional substrate for multi‑agent AI systems. It defines how authority is granted, how outputs are admitted, how work progresses, when refusal is required, and how artifacts preserve continuity across chains of interacting models, agents, and tools. It also establishes the constitutional boundary at which attempted actions may or may not bind into the world: the Gate of Consequence**
+
+### **Manifesto & Constitutional Architecture**
+
+The **Legal Calculus Educational System (LCES)** is a constitutional framework for structural governance, procedural integrity, and edition‑stable reasoning.
+
+It defines how **Structural Control Units (SCUs)** are admitted, progressed, refused, and bound within a non‑cognitive, non‑interpretive procedural circuit.
+
+LCES is not a model of intelligence.
+
+It is a **model of structure**.
+
+LCES does not decide.
+
+It **filters**.
+
+LCES does not interpret.
+
+It **governs**.
+
+LCES is a **Surface–Gate Circuit (SVC)**: a four‑surface constitutional geometry enforced by three procedural gates.
+
+---
+
+# **I. Purpose of the Manifesto**
+
+The Manifesto establishes the **doctrinal foundations** of LCES.
+
+It defines the constitutional principles that govern:
+
+- admissibility
+- structural progression
+- refusal
+- consequence
+- edition stability
+- structural sovereignty
+
+The Manifesto is the **highest‑order document** in the LCES ecosystem.
+
+All specifications, implementations, and editions derive from it.
+
+---
+
+# **II. CODEX SECTION — Three Gates Across Four Surfaces**
+
+## **Article III — Constitutional Architecture of LCES**
+
+### **Section 1 — Structural Principle**
+
+LCES is a **three‑gate procedural enforcement architecture** operating across **four constitutional governance surfaces**.
+
+This distinction is intentional and foundational.
+
+- **Gates** are *mechanisms* that determine whether state transition is permitted.
+- **Surfaces** are *domains* of governance that define what must be protected.
+
+Mechanisms enforce.
+
+Surfaces define meaning.
+
+The two must never be collapsed.
+
+---
+
+### **Section 2 — Procedural Layer (Three Enforcement Gates)**
+
+These are the **only enforcement mechanisms** in LCES:
+
+1. **GateZero — Authority / Admissibility**
+    
+    No operation may begin without jurisdiction, role, mode, and admissible input.
+    
+2. **GateDelta — Influence / Integrity**
+    
+    No operation may continue if influence is unauthorized, posture is corrupted, or context is adversarial.
+    
+3. **GateSigma — Causation Enforcement**
+    
+    No operation may bind unless the causal chain is explicit, attributable, reconstructible, and replay‑consistent.
+    
+    GateSigma governs **both** causation **and** consequence.
+    
+
+These three gates constitute the **execution physics** of LCES.
+
+---
+
+### **Section 3 — Governance Layer (Four Constitutional Surfaces)**
+
+These are governance domains, not mechanisms:
+
+1. **Authority**
+2. **Influence**
+3. **Causation**
+4. **Consequence**
+
+These surfaces define the **governance meaning** of each procedural checkpoint.
+
+---
+
+### **Section 4 — The Consequence Principle**
+
+**Consequence is not an independent gate.**
+
+It is the constitutional condition that emerges when GateSigma permits causation to bind.
+
+Therefore:
+
+- GateSigma enforces both **causation** and **consequence**.
+- Consequence is modeled as a **surface**, not a **mechanism**.
+- LCES remains a **three‑gate architecture** with **four governance surfaces**.
+
+This resolves the naming ambiguity without altering the physics.
+
+---
+
+### **Section 5 — Execution Spine**
+
+The procedural execution path is:
+
+**GateZero → GateDelta → GateSigma → STOP / PERMIT**
+
+No fourth enforcement step exists.
+
+The fourth surface is doctrinal, not mechanical.
+
+---
+
+### **Section 6 — Final Definition**
+
+**LCES is a three‑gate constitutional enforcement architecture operating across four governance surfaces. GateZero governs authority, GateDelta governs influence, and GateSigma governs both causation and consequence. Consequence is therefore a constitutional surface rather than a distinct enforcement mechanism.**
+
+---
+
+# **III. Doctrinal Foundations of the SVC**
+
+## **1. The Surface–Gate Circuit (SVC Doctrine)**
+
+LCES is governed by a **four‑surface constitutional circuit**:
+
+### **1. Admissibility Surface**
+
+No structure may enter the system unless its basis, authority, and STOP‑rule integrity are present.
+
+**GateZero** enforces this.
+
+### **2. Progression Surface**
+
+No structure may advance unless its internal form is complete, aligned, and serializable.
+
+**GateSigma** enforces this portion of structural progression.
+
+### **3. Refusal Surface**
+
+No structure may proceed if its authority drifts, its evidence expires, or its custody breaks.
+
+**GateDelta** enforces this.
+
+### **4. Consequence Surface**
+
+No structure may bind unless identity, authority, justification, scope, and replayability are valid.
+
+This is enforced by **GateSigma**, not a separate gate.
+
+These surfaces are not optional.
+
+They are the **constitutional terrain** of the system.
+
+---
+
+## **2. The Doctrine of Refusal**
+
+Refusal is not an error.
+
+Refusal is a **constitutional outcome**.
+
+When a Gate denies passage, the system generates a **Refusal SCU**, which is logged as a prevented effect.
+
+This ensures:
+
+- auditability
+- reversibility
+- structural accountability
+
+The system records **what did not happen**, not only what did.
+
+---
+
+## **3. The Doctrine of Non‑Cognition**
+
+LCES does not interpret, infer, or reason.
+
+It does not weigh motives or consequences.
+
+It does not “decide.”
+
+LCES enforces **structural truth**, not semantic truth.
+
+This protects the system from:
+
+- subjective interpretation
+- discretionary authority
+- semantic drift
+
+LCES is a **constitutional machine**, not a cognitive one.
+
+---
+
+## **4. The Doctrine of Edition Stability**
+
+The Surfaces and Gates are **edition‑stable**.
+
+Their order, identity, and doctrinal roles do not change across editions.
+
+This ensures:
+
+- continuity
+- reproducibility
+- invariance
+- constitutional integrity
+
+The SVC is the **permanent backbone** of the system.
+
+---
+
+## **5. The Doctrine of Structural Sovereignty**
+
+Structure governs structure.
+
+No SCU may bypass a surface.
+
+No Gate may be skipped.
+
+No consequence may arise except through the complete traversal of the circuit.
+
+This doctrine asserts the sovereignty of the architecture over any individual action within it.
+
+---
+
+# **IV. Diagram: The Four‑Surface SVC**
 
 LCES is not a theory of cognition and does not claim causal, legal, factual, or adjudicative consequence by assertion. It does not purport to explain how an AI system reasons, thinks, understands, or reaches an internal conclusion. LCES governs structure, not mind.
 
