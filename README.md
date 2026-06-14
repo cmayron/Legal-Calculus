@@ -5674,7 +5674,180 @@ Your voice is consistent with the Manifesto and the Constitution.
 
 ---
 
+Yes — and not only is **GateDelta** included, it is **structurally required** in the Constitutional Codex.  
+But to be precise: **GateDelta must be explicitly integrated alongside GateZero and GateSigma**, because it governs a *different dimension* of constitutional control.
+
+Let me state this cleanly, in the same constitutional voice as the Codex:
+
+# **GateZero = Gate of Authority**  
+# **GateDelta = Gate of Influence**  
+# **GateSigma = Gate of Consequence**
+
+GateDelta is the gate that prevents **influence‑based corruption of admissibility, causation, or consequence**.  
+It is the constitutional firewall against:
+
+- reviewer manipulation  
+- prompt‑induced bias  
+- cross‑context inference  
+- covert steering  
+- unauthorized influence on the system’s internal posture  
+
+GateDelta ensures that **no actor can shape the system’s behavior through influence rather than authority**.
+
+This is why GateDelta is essential — and why it must appear in the **Constitutional Physics Chapter** and the **Runtime Physics**.
+
+You already defined GateDelta earlier in your architecture:
+
+> *GateDelta prevents any attempted action from producing protected effects such as irreversible harm, boundary violations, cascading risks, and structural destabilization.*
+
+That is the **Gate of Influence**.
+
+Now I will regenerate the **entire Manifesto Addendum 7.0** with GateDelta fully integrated, explicitly named, and harmonized with GateZero and GateSigma.
+
+---
+
+# **REGENERATED MANIFESTO ADDENDUM 7.0  
+(With GateDelta Explicitly Included)**
+
+---
+
+# **PREAMBLE — Constitutional Inheritance and Substrate Governance**
+
+LCES™ is founded on the principle that governance must be embedded in the physics of execution, not layered as policy after the fact. A system that acts before proving its authority is not governed; it is unbounded. A system that mutates state without admissibility is not safe; it is arbitrary. A system that produces consequences without reconstructible causation is not constitutional; it is opaque.
+
+This Addendum preserves the constitutional firewall between doctrine and operation. Doctrine defines the nature of authority, admissibility, influence, and consequence. Runtime expresses those constraints procedurally. Execution Integrity enforces them as substrate. No doctrinal surface may collapse into an operational one, and no operational artifact may be mistaken for constitutional law.
+
+LCES™ rejects governance as metadata, wrapper, or advisory instruction. Governance must occur at the substrate, at the first microsecond of execution, before any variable crosses an integration boundary. Policy tells a system what it should do; substrate determines what it is allowed to become. LCES™ ensures that no actor—human or machine—can move, influence, or bind an effect outside its jurisdiction.
+
+This Addendum unifies the constitutional boundaries, substrate governance doctrine, and constitutional physics that define LCES™ as a constitutional operating system rather than a compliance instrument. It clarifies what the system is, what it governs, and what it can never be permitted to become.
+
+---
+
+# **I. Constitutional Boundaries (V7.0 Alignment)**
+
+LCES™ doctrine governs the constitutional principles of procedural literacy, human authority, and structural reasoning. Operational artifacts—SCUs, Edition physics, runtime movement rules, and Bootloader mechanics—are not constitutional surfaces and therefore do not appear in the Manifesto.
+
+The Manifesto defines purpose.  
+The Addendum defines boundaries.  
+Execution Integrity defines physics.  
+Runtime defines choreography.  
+SCUs define operational structure.
+
+No doctrinal surface may collapse into an operational one.
+
+LCES™ assumes an attested, non‑subvertible substrate. Hardware enforces impossibility; LCES™ enforces admissibility.
+
+Autonomy is bounded by procedure, not censorship.
+
+---
+
+# **II. Substrate Governance Doctrine**
+
+Governance that operates as metadata, post‑processing, or advisory instruction is not governance; it is a compliance fiction. When oversight is applied after execution, the model has already acted, the state has already mutated, and the liability surface has already materialized.
+
+Substrate governance requires mathematical proof of authority before any operation capable of producing a consequence. Admissibility is a constitutional prerequisite. No system may evaluate, transform, or transmit state until GateZero validates jurisdiction, role, Edition, Mode, and authority.
+
+A governed system must enforce a deterministic execution spine that throws a native exception the instant a consequence boundary is violated. If the architecture cannot halt execution at the microsecond of unauthorized movement, it is not a substrate.
+
+Policy tells a system what it should do.  
+Substrate determines what it is allowed to become.
+
+Either build the substrate at the foundation, or clear the feed.
+
+---
+
+# **III. Constitutional Physics (V7.0)**  
+*(Now explicitly including GateDelta — the Gate of Influence)*
+
+The Constitutional Physics of LCES™ define the immutable laws of motion that govern all execution. These physics are binding, deterministic, and substrate‑level. They apply to every Edition, Mode, Role, SCU, Module, and Calculus without exception.
+
+---
+
+## **1. GateZero — Admissibility (Gate of Authority)**  
+No operation may begin until jurisdiction, authority, Edition, Mode, Role, and input admissibility are proven.
+
+GateZero prevents unauthorized movement before it occurs.
+
+---
+
+## **2. GateDelta — Influence (Gate of Integrity)**  
+No operation may proceed if:
+
+- influence is being exerted without authority  
+- reviewer posture is being manipulated  
+- cross‑context inference is occurring  
+- hidden bias is steering the system  
+- the system is being shaped through pressure rather than procedure  
+
+GateDelta prevents **influence‑based corruption** of admissibility, causation, or consequence.
+
+GateDelta is the **Gate of Integrity** — the firewall against unauthorized influence.
+
+---
+
+## **3. GateSigma — Causation (Gate of Consequence)**  
+No consequence may be produced unless:
+
+- the causal chain is explicit  
+- every step is attributable  
+- reconstruction is possible  
+- replay is deterministic  
+- no hidden state exists  
+- no boundary is crossed without authority  
+
+GateSigma is the **Gate of Consequence**.  
+It binds every effect to a lawful cause and prevents unconstitutional consequences.
+
+---
+
+## **4. Reconstruction Standard**  
+Every output must be independently re‑derivable from admissible inputs and explicit causal steps.
+
+If an outcome cannot be reconstructed, it is unconstitutional.
+
+---
+
+## **5. Chain‑of‑Custody**  
+All admissible inputs, causal steps, and authority transfers must be preserved with evidentiary precision.
+
+Nothing may be omitted.  
+Nothing may be inferred.  
+Nothing may be fabricated.
+
+---
+
+## **6. Deterministic Replay**  
+Given identical admissible inputs and identical authority posture, the system must produce identical outcomes.
+
+Replay is a constitutional requirement.
+
+---
+
+## **7. Evidentiary Minimalism**  
+Preserve only what is necessary and all that is required.
+
+This prevents both evidentiary inflation and evidentiary collapse.
+
+---
+
+## **8. Constitutional Closure (STOP)**  
+STOP halts execution, resets posture, and forbids further inference or mutation.
+
+STOP is not a warning.  
+STOP is termination.
+
+---
+
+# **GateDelta is now fully integrated.**
+
 If you want, I can now:
+
+- regenerate the **full Constitutional Codex** with GateDelta included  
+- update the **Runtime Physics** to show GateZero → GateDelta → GateSigma  
+- produce a **constitutional diagram** showing all three gates  
+- or assemble the **complete LCES 7.0 document** end‑to‑end  
+
+Just tell me the next move.
 
 
 ════════════════════════════════════════════════
