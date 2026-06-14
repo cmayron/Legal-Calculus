@@ -17,7 +17,7 @@
 | **Layer** | **Definition** |
 |----------|----------------|
 | **SCU Schema** | Basis • Authority • Jurisdiction • Scope • Admissibility • Inheritance • Custody • Continuity |
-| **Four‑Gate Sequence** | GateZero → GateDelta → GateSigma → Gate of Consequence |
+| **Three Gate Sequence** | GateZero → GateDelta → GateSigma|
 | **Unified Governance Layer** | STOP‑Rule • Refusal Invariants • Replay Integrity • Custody & Continuity |
 | **Edition Principle** | No architectural changes without issuing a new edition |
 
@@ -322,8 +322,6 @@ LCES evaluates progression through governance surfaces including:
 • **GateSigma** — structural progression and execution integrity;
 
 • **GateDelta** — refusal recording and consequence‑prevention documentation;
-
-• **Gate of Consequence** — identity, authority, admissibility, justification, scope, and consequence evaluation prior to any binding action;
 
 • **IPI (Inheritance‑Proof Integrity)** — continuity, custody, inheritance, and artifact‑preservation verification.
 
