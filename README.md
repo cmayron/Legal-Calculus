@@ -307,31 +307,46 @@ This doctrine asserts the sovereignty of the architecture over any individual ac
 
 ---
 
+# 
 # **IV. Diagram: The Four‑Surface SVC**
 
-LCES is not a theory of cognition and does not claim causal, legal, factual, or adjudicative consequence by assertion. It does not purport to explain how an AI system reasons, thinks, understands, or reaches an internal conclusion. LCES governs structure, not mind.
+LCES is not a theory of cognition and does not claim causal, legal, factual, or adjudicative consequence by assertion. It does not purport to explain how an AI system reasons, thinks, understands, or reaches an internal conclusion. **LCES governs structure, not mind.**
 
-Where consequence‑boundary claims are made, LCES defines those claims as requiring a public, reproducible proof surface that records what was attempted, what failed, what was refused, what effect was prevented, and what replay demonstrates under changed conditions. The existence of a proof surface does not establish correctness, legality, causation, admissibility, or truth; it preserves the artifacts necessary for independent review.
+Where consequence‑boundary claims are made, LCES defines those claims as requiring a **public, reproducible proof surface** that records what was attempted, what failed, what was refused, what effect was prevented, and what replay demonstrates under changed conditions. The existence of a proof surface does not establish correctness, legality, causation, admissibility, or truth; it preserves the artifacts necessary for independent review.
 
-At its core, LCES organizes work into Structured Control Units (SCUs). Each SCU contains an explicit basis, authority, jurisdiction, scope, admissibility conditions, inheritance rules, consequence boundaries, and STOP‑rule constraints. SCUs are moved through a constitutional governance sequence that determines whether work may proceed, must be refused, or requires escalation to the Human Strategist.
+At its core, LCES organizes work into **Structured Control Units (SCUs)**. Each SCU contains an explicit basis, authority, jurisdiction, scope, admissibility conditions, inheritance rules, consequence boundaries, and STOP‑rule constraints. SCUs are moved through a **constitutional governance sequence** that determines whether work may proceed, must be refused, or requires escalation to the Human Strategist.
 
-LCES evaluates progression through governance surfaces including:
+LCES evaluates progression through **four governance surfaces**, collectively forming the **Four‑Surface SVC (Structural Verification Cycle)**:
 
-• **GateZero** — admissibility and authority validation;
+- **GateZero — Admissibility & Authority Validation**
+    
+    Establishes whether the SCU may proceed by validating authority, admissibility, jurisdiction, and Strategist‑defined scope.
+    
+- **GateSigma — Structural Progression & Execution‑Integrity Verification**
+    
+    Records whether internal transformations, procedural steps, and structural progressions conformed to constitutional constraints and STOP‑rule limitations.
+    
+- **GateDelta — Refusal Recording & Consequence‑Prevention Documentation**
+    
+    Captures refusals, prevented effects, disallowed progressions, and the structural justification for non‑binding outcomes.
+    
+- **IPI (Inheritance‑Proof Integrity) — Continuity, Custody, & Artifact‑Preservation Verification**
+    
+    Ensures continuity, custody, inheritance, and artifact preservation across SCU transitions, enabling independent replay and review.
+    
 
-• **GateSigma** — structural progression and execution integrity;
+These governance surfaces do **not** certify correctness. They document whether constitutional conditions for progression, refusal, inheritance, continuity, and binding authority were satisfied.
 
-• **GateDelta** — refusal recording and consequence‑prevention documentation;
+The **Gate of Consequence** functions as the **terminal constitutional boundary**:
 
-• **IPI (Inheritance‑Proof Integrity)** — continuity, custody, inheritance, and artifact‑preservation verification.
+> No attempted action may bind into the world unless all required conditions are met and the system issues an authoritative receipt and a replay‑consistent ruling.
+> 
 
-These governance surfaces do not certify correctness. They record whether constitutional conditions for progression, refusal, inheritance, continuity, and binding authority were satisfied. The **Gate of Consequence** serves as the terminal constitutional boundary: no attempted action may bind into the world unless all required conditions are met and the system issues an authoritative receipt and replay‑consistent ruling.
-
-LCES further preserves replayability through documented execution artifacts, allowing independent observers to evaluate whether equivalent inputs, constraints, authorities, and conditions produce equivalent structural outcomes. Replay demonstrates reproducibility of workflow behavior under specified conditions; it does not establish cognition, causation, intent, legality, or factual truth.
+LCES preserves replayability through documented execution artifacts, enabling independent observers to determine whether equivalent inputs, constraints, authorities, and conditions produce equivalent structural outcomes. Replay demonstrates reproducibility of workflow behavior under specified conditions; it does **not** establish cognition, causation, intent, legality, or factual truth.
 
 LCES may be deployed across multiple editions, roles, jurisdictions, and operational modes. Regardless of implementation, the Human Strategist remains the ultimate source of authority, admissibility definition, scope definition, category definition, constraint definition, and consequence‑boundary determination. No model, agent, workflow, or automated process may independently redefine or supersede Strategist authority.
 
-Accordingly, LCES functions as a governance and procedural‑integrity architecture for multi‑agent systems. Its purpose is to preserve authority boundaries, workflow integrity, refusal accountability, artifact continuity, and reproducible structural review without asserting cognitive insight, legal sufficiency, causal proof, or adjudicative authority. The addition of the **Gate of Consequence** completes the constitutional stack by defining the precise boundary at which attempted actions may or may not bind into the world.
+Accordingly, LCES functions as a **governance and procedural‑integrity architecture** for multi‑agent systems. Its purpose is to preserve authority boundaries, workflow integrity, refusal accountability, artifact continuity, and reproducible structural review without asserting cognitive insight, legal sufficiency, causal proof, or adjudicative authority. The addition of the **Gate of Consequence** completes the constitutional stack by defining the precise boundary at which attempted actions may or may not bind into the world.
 
 # **I. DIAGRAM — Three Procedural Gates, Four Governance Surfaces**
 
