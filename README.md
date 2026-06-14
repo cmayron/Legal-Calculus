@@ -5870,6 +5870,14 @@ GateSigma™ governs outcomes.
 Both operate at runtime and are enforced by the Bootloader.
 
 ---
+If you want, I can now:
+
+- integrate this into **README V7.0**
+- generate a **four‑gate mermaid diagram**
+- produce a **runtime flowchart** including GateZero, GateDelta, GateSigma, and Gate of Consequence
+- or restructure the README to include a **Four‑Gate Operational Model** section
+---
+
 
 The README preserves the firewall between doctrine and execution.
 
