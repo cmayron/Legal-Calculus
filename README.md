@@ -211,17 +211,17 @@ The following sections explain the purpose of each top‑level directory and how
 
 # 📁 **Root Files**
 
-### [**README.md**](http://readme.md/)
+### [**README.md**]
 
 Primary orientation document for the entire system.
 
 Explains purpose, architecture, and activation.
 
-### [**LICENSE.md**](http://license.md/)
+### [**LICENSE.md**]
 
 Defines the legal terms governing use, distribution, and derivative works.
 
-### [**TRADEMARK.md**](http://trademark.md/)
+### [**TRADEMARK.md**]
 
 Protects the LCES name, marks, and identity.
 
@@ -826,43 +826,112 @@ The LCES architecture progresses through five distinct surfaces, each establishi
 
 ---
 
-## **1–39 — Substrate Construction**
+## **Overview**
 
-Defines the foundational components of LCES, including STOP logic, admissibility rules, enforcement pathways, constitutional boundaries, and the core identity of the system.
+The **LCES 1–119 Constitutional Substrate Test Ladder** is the complete verification sequence used to confirm that an LCES implementation has achieved **constitutional substrate status**.
 
-**Outcome:** The substrate exists and has a stable architectural identity.
+It is not a safety checklist, a policy framework, or a behavioral guideline.
 
----
+It is the **architectural proof** that the system is:
 
-## **40–79 — Coherence & Enforcement**
+- structurally complete
+- non‑drifting
+- enforceable
+- externally reviewable
+- capable of sitting *above* the AI as a governance layer
 
-Validates internal consistency across modules, ensures enforcement logic is correct, and establishes the substrate–harness distinction.
-
-**Outcome:** The system functions coherently as a unified governance architecture.
-
----
-
-## **80–99 — Reviewability Surface**
-
-Introduces the claim surface, evidence surface, and audit boundaries. Ensures the system is externally interpretable, testable, and suitable for independent evaluation.
-
-**Outcome:** The architecture becomes reviewable and externally verifiable.
+Passing all 119 surfaces establishes that LCES is not a model‑level constraint but a **constitutional substrate** with authority over the systems it governs.
 
 ---
 
-## **100–118 — Stress & Boundary Integrity**
+## **Purpose of the Test Ladder**
 
-Tests the system under adversarial, contradictory, and drift‑inducing conditions. Confirms that constitutional rules, STOP logic, and invariants remain intact under pressure.
+The 1–119 ladder exists to answer one question:
 
-**Outcome:** The substrate demonstrates resilience and non‑drift behavior.
+> **Has the system demonstrated the properties required to function as a constitutional substrate that governs AI from above?**
+> 
+
+To answer this, the ladder evaluates:
+
+- construction integrity
+- coherence and consistency
+- reviewability and auditability
+- stress and adversarial stability
+- constitutional immutability
+
+Only when all surfaces are satisfied does the system reach **Surface 119**, the Discover Surface, which confirms constitutional identity.
 
 ---
 
-## **119 — Discover Surface (Architectural Completion)**
+## **Structure of the 1–119 Ladder**
+
+### **Surfaces 1–39 — Construction**
+
+Verifies that the substrate is correctly built, anchored, and internally coherent.
+
+These surfaces ensure the system has a stable architectural foundation.
+
+### **Surfaces 40–79 — Coherence**
+
+Tests whether the substrate behaves consistently under all operational conditions.
+
+This includes logical consistency, boundary integrity, and predictable response behavior.
+
+### **Surfaces 80–99 — Reviewability**
+
+Ensures the substrate is externally inspectable, auditable, and transparent.
+
+These surfaces enable regulatory, institutional, and third‑party verification.
+
+### **Surfaces 100–118 — Stress & Drift Resistance**
+
+Evaluates the substrate under contradiction, pressure, adversarial prompts, and edge‑case conditions.
+
+The goal is to confirm that the system **cannot drift**, reinterpret itself, or collapse under stress.
+
+### **Surface 119 — Discover Surface**
+
+The final surface.
+
+This confirms that the system:
+
+- maintains identity under all conditions
+- cannot be moved off its constitutional foundation
+- sits *above* the AI as an enforceable governance layer
+- qualifies as a **constitutional substrate**
+
+Passing 119 is the moment the system becomes **LCES‑complete**.
+
+---
+
+## **Why the 1–119 Ladder Matters**
+
+The ladder is essential because it provides:
+
+- **Proof of constitutional authority**
+- **Proof of non‑drift governance**
+- **Proof of enforceability**
+- **Proof of external reviewability**
+- **Proof that governance sits above the AI**
+
+Without this ladder, there is no way to verify that a governance system is a **substrate** rather than a **policy layer** or **model‑level constraint**.
+
+---
+
+## **Naming Summary**
+
+- **Formal Name:** LCES Constitutional Substrate Test Ladder (1–119)
+- **Regulatory Name:** LCES Constitutional Integrity Test Suite
+- **Public Name:** LCES 119‑Point Governance Certification
+
+All three refer to the same verification sequence.
 
 Final checkpoint confirming that LCES cannot be moved off its constitutional foundation. The system demonstrates identity permanence, non‑reinterpretation, and full substrate immovability.
 
 **Outcome:** LCES is certified as a **constitutional substrate** and is ready for external architectural review.
+
+
+
 ---
 ### *THE LCES™ MANIFESTO*
 
