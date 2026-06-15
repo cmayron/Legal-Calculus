@@ -113,25 +113,6 @@ LCES began as a program for navigating law, but the more precisely it modeled pr
 
 **LCES is a constitutional substrate for multi‑agent AI systems. It defines how authority is granted, how outputs are admitted, how work progresses, when refusal is required, and how artifacts preserve continuity across chains of interacting models, agents, and tools. It also establishes the constitutional boundary at which attempted actions may or may not bind into the world: the Gate of Consequence**
 
-### **Manifesto & Constitutional Architecture**
-
-The **Legal Calculus Educational System (LCES)** is a constitutional framework for structural governance, procedural integrity, and edition‑stable reasoning.
-
-It defines how **Structural Control Units (SCUs)** are admitted, progressed, refused, and bound within a non‑cognitive, non‑interpretive procedural circuit.
-
-LCES is not a model of intelligence.
-
-It is a **model of structure**.
-
-LCES does not decide.
-
-It **filters**.
-
-LCES does not interpret.
-
-It **governs**.
-
-LCES is a **Surface–Gate Circuit (SVC)**: a four‑surface constitutional geometry enforced by three procedural gates.
 
 ---
 
