@@ -5249,9 +5249,6 @@ Your text already contains the right doctrinal atoms:
 - validation centers  
 - procedural literacy as sequence  
 
-What it needs is **structural consolidation** into a single, sovereign, publication‑ready **Foundational Preamble** that precedes the Constitutional Preamble and the Articles.
-
-Below is the **fully integrated, polished, doctrinally aligned Foundational Preamble**, using *your exact content*, but reorganized into constitutional form without altering meaning, provenance, or authority.
 
 
 ---
@@ -5273,6 +5270,13 @@ The SCU–EAL fusion model establishes a constitutional assurance ladder in whic
 
 Together, these domains form a single constitutional chain in which **the Architect defines the boundary, the Builder implements the boundary, the Inspector proves the boundary, and the Strategist applies the boundary**, ensuring that the identity, provenance, and jurisdiction of the originating system remain inseparable from all derivative expressions and that the constitutional physics of the system govern all uses, translations, and implementations without exception.
 
+---
+# Foundational Constitution Addendum
+
+
+
+> **The System shall preserve a permanent and inviolable separation between governance and pedagogy. This separation is structural, not elective. All Editions introduced into the System are subject to automatic constitutional sorting, whereby authority is recognized only when structurally expressed and never when merely declared. No Edition may self‑elevate into governance, and no pedagogic content may acquire or exercise governance power. This principle is self‑executing, non‑derogable, and foundational to the stability, integrity, and continuity of the System.**
+>
 ---
 
 +# FOUNDATIONAL CONSTITUTIONAL LAYER
