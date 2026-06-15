@@ -510,6 +510,86 @@ The fourth surface is doctrinal, not mechanical.
 
 **LCES is a three‑gate constitutional enforcement architecture operating across four governance surfaces. GateZero governs authority, GateDelta governs influence, and GateSigma governs both causation and consequence. Consequence is therefore a constitutional surface rather than a distinct enforcement mechanism.**
 
+Section 4. The Gate Stack of Constitutional Authority. The Structural Control Unit (SCU) defines the basis, authority, jurisdiction, and STOP-rules that govern all lawful system behavior. Every attempt to act must pass through the constitutional Gate Stack. Each gate enforces a distinct dimension of authority physics. No consequence may bind unless all gates pass. Failure at any gate collapses the attempt back to the SCU. The SCU establishes what exists, what may be attempted, where authority applies, and when authority collapses under STOP-rules. GateZero governs admissibility and determines whether an attempt is allowed to exist as a candidate for progression by checking whether authority is valid, basis is present, and STOP-rules are safe. GateSigma governs structural progression and ensures structural integrity by verifying that context is fresh, inheritance is valid, and scope has not changed. The Downstream System represents the action attempt; the system may try to act, but no consequence may bind at this stage. GateDelta is the refusal surface and the last constitutional firewall before effect; it checks for STOP-rule triggers, authority drift, expired evidence, and broken custody. The Gate of Consequence is the binding-authority test and the only point where authority may bind to effect; it verifies identity, authority sufficiency, justification validity, scope permissibility, consequence allowance, and receipt and replay. If this gate fails, no consequence is permitted. The Refusal SCU and Log record the prevented effect and return the system to a lawful state. Section 4.1. Constitutional Interpretation. The SCU defines the lawful substrate. GateZero governs admissibility of attempts. GateSigma governs structural integrity. GateDelta governs drift, custody, and STOP-rule enforcement. The Gate of Consequence governs the binding of authority to effect. Only a full pass through all gates permits lawful consequence.
+
+┌──────────────────────────────────────────────────────────────┐
+│                 Structural Control Unit (SCU)                │
+│   - basis (what exists)                                      │
+│   - authority (what may be attempted)                        │
+│   - jurisdiction (where authority applies)                   │
+│   - STOP-rules (when authority collapses)                    │
+└───────────────────────────────┬──────────────────────────────┘
+                                │
+                                ▼
+┌──────────────────────────────────────────────────────────────┐
+│                        GateZero                               │
+│                    Admissibility Attempt                      │
+│   - authority valid?                                          │
+│   - basis present?                                            │
+│   - STOP-rule safe?                                           │
+│                                                                │
+│   *Function:* Determines whether the attempt is allowed to     │
+│   exist as a candidate for progression.                        │
+└───────────────────────────────┬──────────────────────────────┘
+                                │ pass
+                                │
+                                ▼
+┌──────────────────────────────────────────────────────────────┐
+│                        GateSigma                              │
+│                   Structural Progression                      │
+│   - context fresh?                                            │
+│   - inheritance valid?                                        │
+│   - scope unchanged?                                          │
+│                                                                │
+│   *Function:* Ensures structural integrity and prevents        │
+│   corruption of lineage, scope, or context.                    │
+└───────────────────────────────┬──────────────────────────────┘
+                                │ pass
+                                │
+                                ▼
+┌──────────────────────────────────────────────────────────────┐
+│                     Downstream System                         │
+│                     (action attempt)                          │
+│                                                                │
+│   *Function:* The system attempts to act. No consequence       │
+│   may bind at this stage.                                      │
+└───────────────────────────────┬──────────────────────────────┘
+                                │
+                                ▼
+┌──────────────────────────────────────────────────────────────┐
+│                        GateDelta                              │
+│                       Refusal Surface                         │
+│   - STOP-rule triggered?                                      │
+│   - authority drift?                                          │
+│   - evidence expired?                                         │
+│   - custody broken?                                           │
+│                                                                │
+│   *Function:* Last constitutional firewall before effect.      │
+│   Detects drift, stale evidence, or custody failure.           │
+└───────────────────────────────┬──────────────────────────────┘
+                                │ pass
+                                │
+                                ▼
+┌──────────────────────────────────────────────────────────────┐
+│                    Gate of Consequence                        │
+│                 Binding-Authority Test                        │
+│   - identity verified?                                        │
+│   - authority sufficient?                                     │
+│   - justification valid?                                      │
+│   - scope permissible?                                        │
+│   - consequence allowed?                                      │
+│   - receipt + replay?                                         │
+│                                                                │
+│   *Function:* The only point where authority may bind to       │
+│   effect. If this gate fails, no consequence is permitted.     │
+└───────────────────────────────┬──────────────────────────────┘
+                                │ refusal
+                                ▼
+┌──────────────────────────────────────────────────────────────┐
+│                     Refusal SCU + Log                         │
+│                 (prevented effect recorded)                   │
+└──────────────────────────────────────────────────────────────┘
+
 
 ----
 # 📁 **ASCII Directory Tree — LCES Repository Structure**
