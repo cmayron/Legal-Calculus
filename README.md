@@ -1890,6 +1890,74 @@ Through this Constitution, LCES is granted the authority to operate — and thro
 
 This Preamble governs all that follows.
 
+Absolutely — if you have placed the **principle** in the **Foundational Constitution**, then the **Constitutional Layer** must also contain its own version.  
+
+But the Constitutional version must be:
+
+- **more operational**  
+- **more procedural**  
+- **less philosophical**  
+- **binding on Articles and Surfaces**  
+- **consistent with the Foundation but not duplicative**  
+
+Below is the **Constitutional‑Layer Addendum**, written at the correct altitude for the *Constitution*, not the Foundation.
+
+This is the version you paste directly into the **Constitution** (not the Foundation).
+
+---
+
+# **📘 CONSTITUTIONAL ADDENDUM  
+(Place inside the Constitution, not the Foundation)**
+
+> **The Constitution shall implement the foundational separation of governance and pedagogy through mandatory lane assignment. All Editions introduced into the System shall undergo automatic structural analysis to determine whether they operate within the Governance Lane or the Pedagogic Lane. Lane assignment shall be executed by the constitutional machinery and shall not be subject to user selection, Edition labeling, or external override. Governance authority shall be recognized only when structurally expressed through authority‑bearing mechanisms, and pedagogic Editions shall be structurally barred from exercising governance power. Mixed‑authority Editions shall be segmented, sandboxed, or rejected according to constitutional procedure.**
+
+---
+
+# **📌 Why this belongs in the Constitution**
+Because the Constitution:
+
+- **implements** the Foundation  
+- defines **procedural rules**  
+- governs **Articles, Surfaces, and Lanes**  
+- binds the system’s operational behavior  
+
+The Foundation declares the *principle*.  
+The Constitution enforces the *mechanism*.
+
+This Addendum is the enforcement layer.
+
+---
+
+
+
+
+
+---
+
+# **📌 Summary of the Two Layers (so you see the hierarchy)**
+
+### **FOUNDATION (meta‑constitutional principle)**  
+- Declares the separation as inviolable  
+- States governance cannot be self‑assigned  
+- Establishes the separation as non‑derogable  
+- Anchors system stability  
+
+### **CONSTITUTION (operational enforcement)**  
+- Implements automatic lane assignment  
+- Defines structural authority detection  
+- Defines segmentation/sandboxing/rejection  
+- Binds all Editions and Articles  
+
+They work together exactly like:
+
+- **Natural Law → Constitution**  
+- **First Principles → Articles**  
+- **Meta‑Authority → Procedural Authority**
+
+---
+
+
+
 ## CONSTITUTIONAL SURFACES.    
 
 
