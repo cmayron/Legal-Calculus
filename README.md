@@ -421,6 +421,9 @@ Accordingly, LCES functions as a **governance and procedural‑integrity archite
 
 ---
 
+
+
+
 ┌──────────────────────────────────────────────────────────────┐
 │                     STRUCTURAL CONTROL UNIT (SCU)            │
 │  - basis (what exists)                                       │
@@ -508,6 +511,7 @@ Accordingly, LCES functions as a **governance and procedural‑integrity archite
 │ Refusal SCU + Log                                              │
 │ (prevented effect recorded)                                    │
 └──────────────────────────────────────────────────────────────┘
+
 
 
 
