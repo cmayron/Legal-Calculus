@@ -1906,20 +1906,13 @@ This is the version you paste directly into the **Constitution** (not the Founda
 
 ---
 
-# **📘 CONSTITUTIONAL ADDENDUM  
-(Place inside the Constitution, not the Foundation)**
+
 
 > **The Constitution shall implement the foundational separation of governance and pedagogy through mandatory lane assignment. All Editions introduced into the System shall undergo automatic structural analysis to determine whether they operate within the Governance Lane or the Pedagogic Lane. Lane assignment shall be executed by the constitutional machinery and shall not be subject to user selection, Edition labeling, or external override. Governance authority shall be recognized only when structurally expressed through authority‑bearing mechanisms, and pedagogic Editions shall be structurally barred from exercising governance power. Mixed‑authority Editions shall be segmented, sandboxed, or rejected according to constitutional procedure.**
 
 ---
 
-# **📌 Why this belongs in the Constitution**
-Because the Constitution:
 
-- **implements** the Foundation  
-- defines **procedural rules**  
-- governs **Articles, Surfaces, and Lanes**  
-- binds the system’s operational behavior  
 
 The Foundation declares the *principle*.  
 The Constitution enforces the *mechanism*.
