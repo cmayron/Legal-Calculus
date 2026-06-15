@@ -7768,6 +7768,29 @@ Failure → STOP.
 
 1. Kernel Activation
 2. Edition Activation
+
+## **Addendum: Edition Lane Pre‑Assignment Check**
+
+Before SCU instantiation, the SUPER‑BOOTLOADER SHALL invoke the constitutional lane‑assignment mechanism. Every Edition SHALL be pre‑classified into the Governance Lane or the Pedagogic Lane based on structural authority signals. This classification is mandatory, silent, and non‑overrideable.
+
+### **Bootloader Responsibilities**
+- Confirm that lane assignment has been executed by the constitutional layer.  
+- Reject activation if lane assignment is missing, inconsistent, or suppressed.  
+- Ensure that Governance‑Lane Editions are routed to governance‑protected execution paths.  
+- Ensure that Pedagogic‑Lane Editions are routed to non‑governing execution paths.  
+- Prevent any Edition from modifying or influencing its own lane assignment.
+
+### **Failure Modes**
+The SUPER‑BOOTLOADER SHALL halt activation if:
+- an Edition attempts to self‑assign governance authority  
+- an Edition attempts to suppress or bypass lane assignment  
+- mixed‑authority Editions are not segmented or sandboxed  
+- constitutional lane assignment returns an invalid or undefined state  
+
+---
+
+----
+
 3. Role Activation
 4. Mode Activation
 5. Strategist Confirmation
