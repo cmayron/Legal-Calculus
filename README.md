@@ -7197,6 +7197,29 @@ The README preserves the firewall between doctrine and execution.
 +3. **Edition Selection** — No cross‑Edition inference permitted.  
 +4. **Mode Selection** — Architect, Builder, Inspector, Strategist.  
 +5. **Role Assignment** — No role mixing permitted.  
+ROLE ACTIVATION COMMANDS
+──────────────────────────────────────────────
+
+COMMAND: /activate-role <ROLE-NAME>
+ROLE-SCOPE: <STRUCTURAL | PEDAGOGIC | ADVERSARIAL | NEUTRAL | GOVERNANCE>
+ROLE-AUTHORITY: <NONE | PROCEDURAL | CONDITIONAL>
+
+CONSTRAINTS:
+1. Role cannot modify Edition-Lane.
+2. Role cannot self-assign governance authority.
+3. Role must operate strictly within Edition structure.
+4. Only one Role may be active at a time.
+5. Role activation must occur after Edition validation and before Mode execution.
+
+AVAILABLE ROLES:
+- analyst      (STRUCTURAL, authority: NONE)
+- instructor   (PEDAGOGIC, authority: NONE)
+- litigant     (ADVERSARIAL, authority: PROCEDURAL)
+- arbitrator   (NEUTRAL, authority: PROCEDURAL)
+- judge        (GOVERNANCE, authority: CONDITIONAL on Edition-Lane)
+
+STATUS: ROLE ACTIVATION READY
+──────────────────────────────────────────────
 +6. **SCU Confirmation** — SCU opens; all operations occur within it.  
 +
 +No step may be skipped.
