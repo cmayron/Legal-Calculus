@@ -7319,6 +7319,23 @@ The README preserves the firewall between doctrine and execution.
 +
 +Edition switching requires a full reset.
 +
+
+## **Operational Addendum: Automatic Edition Lane Assignment**
+
+During activation, LCES automatically assigns every Edition to either the **Governance Lane** or the **Pedagogic Lane**. This assignment is based on structural authority signals detected within the Edition and is **not user‑selectable**.
+
+### **Operational Rules**
+
+- If the Edition contains authority‑bearing structures (constraints, overrides, rule‑setting, adjudication, or constitutional interaction), it is routed to the **Governance Lane**.
+- If the Edition contains only instructional or explanatory content, it is routed to the **Pedagogic Lane**.
+- Mixed‑authority Editions are **segmented, sandboxed, or rejected** according to constitutional procedure.
+
+### **Runtime Guarantees**
+
+- Lane assignment occurs **before SCU instantiation**.
+- Lane assignment is **silent**, **automatic**, and **non‑overrideable**.
+- Re‑activation yields the same lane unless the Edition’s structure changes.
++
 +---
 +
 +# 6. Modes (Operational Surfaces)
