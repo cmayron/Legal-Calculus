@@ -11349,6 +11349,28 @@ No role may:
 - collapse allegations into established facts  
 - silently convert uncertainty into certainty  
 
+-## **Addendum: Lane Assignment Integrity Requirement**
+
+The Kernel Bootloader SHALL verify that every SCU presented for activation includes a valid, constitutionally‑assigned lane designation. The Kernel Bootloader SHALL NOT activate any SCU whose lane assignment is missing, undefined, inconsistent, or in conflict with the constitutional lane‑assignment mechanism.
+
+### **Kernel Responsibilities**
+
+- Confirm that the Edition’s lane assignment has been completed by the constitutional layer.
+- Reject activation if the SCU lacks a valid lane or if the lane conflicts with structural authority signals.
+- Route Governance‑Lane SCUs to governance‑protected kernel pathways.
+- Route Pedagogic‑Lane SCUs to non‑governing kernel pathways.
+- Prevent any SCU from modifying or influencing its own lane designation.
+
+### **Failure Conditions**
+
+The Kernel Bootloader SHALL halt activation if:
+
+- lane assignment is absent or corrupted
+- the SCU attempts to override or alter its lane
+- the SCU’s structural signals contradict its assigned lane
+- the Edition bypassed or suppressed constitutional lane assignment
+
+
 -----------------------
 NO MOTIVE‑READING RULE
 -----------------------
