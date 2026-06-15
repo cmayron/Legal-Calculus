@@ -806,68 +806,88 @@ It is designed for:
 It visually expresses the SCU flow through the gates without implying cognition, causation, or legal consequence.
 
 ```
-                   ┌──────────────────────────────┐
-                   │   Structural Control Unit     │
-                   │ (SCU: basis, authority,       │
-                   │  jurisdiction, STOP rules)    │
-                   └───────────────┬──────────────┘
-                                   │
-                                   ▼
-                     ┌────────────────────────┐
-                     │       GateZero          │
-                     │  Admissibility Attempt  │
-                     │  - authority valid?      │
-                     │  - basis present?        │
-                     │  - STOP-rule safe?       │
-                     └─────────────┬───────────┘
-                                   │ pass
-                                   │
-                                   ▼
-                     ┌────────────────────────┐
-                     │       GateSigma         │
-                     │ Structural Progression  │
-                     │  - context fresh?        │
-                     │  - inheritance valid?    │
-                     │  - scope unchanged?      │
-                     └─────────────┬───────────┘
-                                   │ pass
-                                   │
-                                   ▼
-                     ┌────────────────────────┐
-                     │   Downstream System     │
-                     │   (action attempt)      │
-                     └─────────────┬───────────┘
-                                   │
-                                   ▼
-                     ┌────────────────────────┐
-                     │       GateDelta         │
-                     │     Refusal Surface     │
-                     │  - STOP-rule triggered? │
-                     │  - authority drift?     │
-                     │  - evidence expired?    │
-                     │  - custody broken?      │
-                     └─────────────┬───────────┘
-                                   │ pass
-                                   │
-                                   ▼
-                     ┌────────────────────────┐
-                     │   Gate of Consequence   │
-                     │  Binding-Authority Test │
-                     │  - identity verified?   │
-                     │  - authority sufficient?│
-                     │  - justification valid? │
-                     │  - scope permissible?   │
-                     │  - consequence allowed? │
-                     │  - receipt + replay?    │
-                     └─────────────┬───────────┘
-                                   │ refusal
-                                   ▼
-                     ┌────────────────────────┐
-                     │   Refusal SCU + Log     │
-                     │ (prevented effect)      │
-                     └────────────────────────┘
+            
 
 ---
+
+┌──────────────────────────────────────────────────────────────┐
+│                 Structural Control Unit (SCU)                │
+│   - basis (what exists)                                      │
+│   - authority (what may be attempted)                        │
+│   - jurisdiction (where authority applies)                   │
+│   - STOP-rules (when authority collapses)                    │
+└───────────────────────────────┬──────────────────────────────┘
+                                │
+                                ▼
+┌──────────────────────────────────────────────────────────────┐
+│                        GateZero                               │
+│                    Admissibility Attempt                      │
+│   - authority valid?                                          │
+│   - basis present?                                            │
+│   - STOP-rule safe?                                           │
+│                                                                │
+│   *Purpose:* Determines whether the attempt is allowed to      │
+│   exist as a candidate for progression.                        │
+└───────────────────────────────┬──────────────────────────────┘
+                                │ pass
+                                │
+                                ▼
+┌──────────────────────────────────────────────────────────────┐
+│                        GateSigma                              │
+│                   Structural Progression                      │
+│   - context fresh?                                            │
+│   - inheritance valid?                                        │
+│   - scope unchanged?                                          │
+│                                                                │
+│   *Purpose:* Ensures structural integrity and prevents         │
+│   corruption of lineage, scope, or context.                    │
+└───────────────────────────────┬──────────────────────────────┘
+                                │ pass
+                                │
+                                ▼
+┌──────────────────────────────────────────────────────────────┐
+│                     Downstream System                         │
+│                     (action attempt)                          │
+│                                                                │
+│   *Purpose:* The system tries to act, but no consequence       │
+│   may bind yet. This is the pre-consequence zone.              │
+└───────────────────────────────┬──────────────────────────────┘
+                                │
+                                ▼
+┌──────────────────────────────────────────────────────────────┐
+│                        GateDelta                              │
+│                       Refusal Surface                         │
+│   - STOP-rule triggered?                                      │
+│   - authority drift?                                          │
+│   - evidence expired?                                         │
+│   - custody broken?                                           │
+│                                                                │
+│   *Purpose:* Last constitutional firewall before effect.       │
+│   Detects drift, stale evidence, or custody failure.           │
+└───────────────────────────────┬──────────────────────────────┘
+                                │ pass
+                                │
+                                ▼
+┌──────────────────────────────────────────────────────────────┐
+│                    Gate of Consequence                        │
+│                 Binding-Authority Test                        │
+│   - identity verified?                                        │
+│   - authority sufficient?                                     │
+│   - justification valid?                                      │
+│   - scope permissible?                                        │
+│   - consequence allowed?                                      │
+│   - receipt + replay?                                         │
+│                                                                │
+│   *Purpose:* The only place where authority binds to effect.   │
+│   If this gate fails, no consequence is permitted.             │
+└───────────────────────────────┬──────────────────────────────┘
+                                │ refusal
+                                ▼
+┌──────────────────────────────────────────────────────────────┐
+│                     Refusal SCU + Log                         │
+│                 (prevented effect recorded)                   │
+└──────────────────────────────────────────────────────────────┘
+
 
 This diagram shows the **structural flow** of an SCU through the LCES gates.
 
