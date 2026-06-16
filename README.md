@@ -412,7 +412,8 @@ Its purpose is not to replace human agency, but to preserve it—ensuring that m
 
 
 
-**LCES is a constitutional substrate for multi‑agent AI systems. It defines how authority is granted, how outputs are admitted, how work progresses, when refusal is required, and how artifacts preserve continuity across chains of interacting models, agents, and tools. It also establishes the constitutional boundary at which attempted actions may or may not bind into the world: the Gate of Consequence**
+**LCES is a constitutional substrate* for multi‑agent AI systems. It defines how authority is granted, how outputs are admitted, how work progresses, when refusal is required, and how artifacts preserve continuity across chains of interacting models, agents, and tools. It also establishes the constitutional boundary at which attempted actions may or may not bind into the world: the Gate of Consequence**
+*pending external validation 
 
 
 ---
