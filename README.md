@@ -820,8 +820,56 @@ Accordingly, LCES functions as a **governance and procedural‑integrity archite
 
 Section 4.2. Gate Stack Commentary. The Gate Stack expresses the constitutional physics that govern all lawful system behavior. Each gate enforces a distinct dimension of authority, and each failure mode returns the system to the Structural Control Unit (SCU), which remains the root of basis, authority, jurisdiction, and STOP-rule supremacy. The Gate Stack is not a pipeline but a constitutional sequence: each gate evaluates a different form of admissibility, and no gate may substitute for another. GateZero governs admissibility of the attempt itself. It determines whether the system is permitted to consider the attempt as a candidate for progression. If authority is invalid, basis is missing, or STOP-rules are unsafe, the attempt cannot exist in the constitutional domain. GateSigma governs structural progression. It ensures that the attempt inherits only what is lawful, that context is fresh, and that scope has not expanded beyond what the SCU authorized. GateSigma prevents structural corruption and ensures that no hidden drift or unauthorized inheritance can propagate downstream. The Downstream System represents the zone of attempted action. It is not a site of authority but a site of execution intent. No consequence may bind here; the system may only prepare to act. GateDelta governs drift, custody, and STOP-rule enforcement. It is the refusal surface and the last constitutional firewall before effect. GateDelta detects authority drift, expired evidence, broken custody, or any STOP-rule trigger. If any such condition is present, the attempt is refused and returned to the SCU. The Gate of Consequence governs the binding of authority to effect. It verifies identity, authority sufficiency, justification validity, scope permissibility, consequence allowance, and receipt and replay. This is the only point in the system where authority may bind to real-world effect. If the Gate of Consequence fails, the effect is not permitted, and the refusal is logged. The Refusal SCU and Log record the prevented effect and restore the system to a lawful state. The Gate Stack ensures that no system behavior can bypass constitutional authority, that no drift can accumulate, and that no consequence can occur without explicit, validated, SCU-grounded authorization. Only a full pass through all gates permits lawful consequence.
 
+---
+# **LCES README — Glossary (Safe Pre‑Otani Version)**
 
+### **ISDAIRE**
 
+The Independent Structural Determination and AI‑Reasoning Engine.
+
+Forms one of the two independent claim backbones of LCES.
+
+Defines the system’s core reasoning substrate.
+
+### **ARETABA**
+
+The Analytical Rule‑Extraction and Tiered‑Assessment Behavioral Architecture.
+
+Second independent claim backbone.
+
+Provides structured, multi‑layered evaluation of reasoning outputs.
+
+### **GateZero**
+
+The foundational dependent gate.
+
+Performs initial constraint application and baseline filtering.
+
+First dependent claim in the chain.
+
+### **GateDelta**
+
+The differential transformation gate.
+
+Applies structured modifications, deltas, or shifts to intermediate reasoning states.
+
+Second dependent claim in the chain.
+
+### **GateSigma**
+
+The integrative synthesis gate.
+
+Combines, reconciles, or aggregates outputs from prior gates.
+
+Third dependent claim in the chain.
+
+### **MGAG (Multi‑Gate Authority Graph)**
+
+The architectural integration layer.
+
+Defines how all gates and reasoning engines interconnect.
+
+Forms the architectural claim of the system.
 ----
 # 📁 **ASCII Directory Tree — LCES Repository Structure**
 
