@@ -1189,6 +1189,44 @@ The architectural integration layer.
 Defines how all gates and reasoning engines interconnect.
 
 Forms the architectural claim of the system.
+
+## Addendum: The Gate of Consequence Surface (Boundary Layer)
+
+The Gate of Consequence Surface is the final constitutional boundary in the LCES
+engine. It is the point where an internally validated action becomes an external,
+world‑binding consequence. Everything inside LCES—pressure, movement, the
+representation (“this”), the 3 Gates, ISDAIRE, ARETABA, and MGUG—operates on the
+internal side of this boundary.
+
+The Gate of Consequence Surface enforces three constitutional rules:
+
+1. **No action may bind into the world unless it has passed the entire LCES cycle.**  
+   This prevents unauthorized actions, ontology drift, invented authority, and
+   irreversible harm.
+
+2. **Reversibility must be proven before crossing the boundary.**  
+   ISDAIRE requires explicit reversibility; the surface enforces it. If an action
+   cannot be reversed, it cannot cross the surface.
+
+3. **Traceability must be complete and audit‑ready.**  
+   ARETABA ensures that every consequence has a full evaluative lineage. The
+   surface is the audit boundary where this lineage becomes binding.
+
+In the full constitutional pipeline, the Gate of Consequence Surface appears as:
+
+**Pressure → Movement → “This” → GateZero → GateSigma → GateDelta →  
+ISDAIRE → Validated Ontology → ARETABA → Trusted Evaluation → MGUG →  
+⬛ Gate of Consequence Surface → Real‑World Consequence**
+
+The surface is not a fourth gate. It is a **constitutional reporting layer** that
+documents the moment an attempted action becomes a binding consequence. It is the
+terminal boundary of GateSigma and the enforcement point for Ontological
+Separation. Nothing may cross this boundary unless it is admissible, coherent,
+safe, authorized, reversible, and fully traceable.
+
+The Gate of Consequence Surface is therefore the final safeguard that ensures all
+system behavior remains explicit, legitimate, and constitutionally governed.
+
 ----
 # 📁 **ASCII Directory Tree — LCES Repository Structure**
 
