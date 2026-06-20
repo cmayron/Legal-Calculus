@@ -60,6 +60,185 @@
 </div>
 ---
 
+## START HERE
+
+LCES is a constitutional governance engine.  
+It prevents systems from drifting, over‑reaching, or producing irreversible harm by enforcing a strict sequence:
+
+**Pressure → Movement → “This” → 3 Gates → ISDAIRE → Validated Ontology → ARETABA → Trusted Evaluation → MGUG**
+
+This is the entire system in one line.
+
+- **Pressure** is any demand placed on the system.  
+- **Movement** is the system’s attempt to act.  
+- **“This”** is the structured representation of that attempted action.  
+- The **3 Gates** (Zero, Sigma, Delta) block anything inadmissible, incoherent, or unsafe.  
+- **ISDAIRE** validates the ontology (what exists, what is allowed).  
+- **ARETABA** evaluates only what ISDAIRE has authorized.  
+- **MGUG** oversees the entire process and prevents any layer from rewriting its own rules.
+
+LCES works because **evaluation can never outrun ontology**, and **authority can never be invented**.  
+Every action, every evaluation, every consequence must pass through the constitutional cycle.
+
+If you understand this cycle, you understand the entire system.
+
+# LCES Constitutional Engine — Unified Architecture
+
+The Legal Calculus Educational System (LCES) is a constitutional governance engine
+designed to prevent governance drift, illegitimate authority, irreversible harm,
+and unreliable evaluation. It does this by enforcing a strict separation between:
+
+- what the system **is allowed to define** (ontology), and  
+- what the system **is allowed to evaluate** (reasoning, testing, auditing).  
+
+At the core of LCES is a layered constitutional cycle:
+
+**Pressure → Movement → “This” → 3 Gates → ISDAIRE → Validated Ontology → ARETABA → Trusted Evaluation → MGUG**
+
+This README section explains how each component fits together.
+
+---
+
+## 1. Pressure Layer — The Force Entering the System
+Pressure is any demand placed on the system:
+
+- a request  
+- a requirement  
+- a dependency  
+- a reasoning step  
+- a proposed action  
+
+Pressure is **raw energy**.  
+It tries to push the system forward, but cannot act on its own.
+
+---
+
+## 2. Movement Layer — The System’s Attempt to Act
+Movement is the system’s impulse:
+
+> “I want to do something.”
+
+Movement is **not yet allowed**.  
+It is only the attempt to act.
+
+Movement produces a candidate action.
+
+---
+
+## 3. Representation Layer — “This”
+Movement produces a structured object:
+
+**“This” = the formal representation of the attempted action.**
+
+“This” contains:
+
+- the action  
+- its dependencies  
+- its authority  
+- its reversibility  
+- its consequences  
+
+The system never evaluates raw pressure — only the represented action.
+
+---
+
+## 4. Gate Layer — The Constitutional Firewall
+“This” is passed through the three constitutional gates:
+
+### **GateZero — Inadmissible**
+Stops anything structurally invalid:
+- missing action  
+- missing dependency  
+- missing authority  
+- missing reversibility  
+
+### **GateSigma — Incoherent**
+Stops anything logically inconsistent:
+- circular dependencies  
+- contradictory states  
+- incoherent authority chains  
+
+### **GateDelta — Unsafe**
+Stops anything harmful or irreversible:
+- unbounded consequences  
+- irreversible outcomes  
+- illegitimate authority escalation  
+
+If any gate fails → **movement stops**.  
+If all gates pass → “this” is allowed to proceed.
+
+---
+
+## 5. Safeguard Layer — ISDAIRE + ARETABA (Tri‑Panel)
+This is the operational safeguard layer.
+
+### **ISDAIRE — Ontological Safeguard**
+Ensures “this” is:
+
+- Identified  
+- Declared  
+- Authorized  
+- Reversible  
+- Validated  
+
+ISDAIRE produces the **Validated Ontology**.
+
+### **ARETABA — Evaluative Safeguard**
+Ensures evaluation:
+
+- stays inside the ontology  
+- cannot invent new actions  
+- cannot bypass authority  
+- cannot produce irreversible outcomes  
+
+ARETABA produces **Trusted Evaluation**.
+
+Together they enforce:
+
+**Ontological Separation — evaluation must never outrun ontology.**
+
+---
+
+## 6. MGUG — Meta‑Governance Under Governance
+MGUG is the **constitutional ceiling** that governs the entire engine.
+
+MGUG ensures:
+
+- the gates cannot drift  
+- ISDAIRE cannot be bypassed  
+- ARETABA cannot mutate ontology  
+- authority cannot be invented  
+- irreversibility cannot slip through  
+- no layer can rewrite its own rules while operating inside them  
+
+MGUG is the **governance of governance**.
+
+---
+
+## 7. The Complete Constitutional Cycle
+Putting it all together:
+
+**Pressure** tries to push the system →  
+**Movement** attempts to act →  
+Movement produces **“this”** →  
+“This” is filtered by **GateZero, GateSigma, GateDelta** →  
+If admissible, coherent, and safe →  
+**ISDAIRE** validates the ontology →  
+**ARETABA** evaluates only what ISDAIRE authorized →  
+**MGUG** oversees the entire process and enforces constitutional invariants.
+
+This cycle ensures that all system behavior remains:
+
+- explicit  
+- reversible  
+- auditable  
+- legitimate  
+- authority‑bounded  
+- ontology‑first  
+
+This is the LCES Constitutional Engine.
+
+
 # **LCES (Legal Calculus Educational System)**
 
 ### 
