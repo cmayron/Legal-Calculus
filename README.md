@@ -820,6 +820,69 @@ Accordingly, LCES functions as a **governance and procedural‑integrity archite
 
 Section 4.2. Gate Stack Commentary. The Gate Stack expresses the constitutional physics that govern all lawful system behavior. Each gate enforces a distinct dimension of authority, and each failure mode returns the system to the Structural Control Unit (SCU), which remains the root of basis, authority, jurisdiction, and STOP-rule supremacy. The Gate Stack is not a pipeline but a constitutional sequence: each gate evaluates a different form of admissibility, and no gate may substitute for another. GateZero governs admissibility of the attempt itself. It determines whether the system is permitted to consider the attempt as a candidate for progression. If authority is invalid, basis is missing, or STOP-rules are unsafe, the attempt cannot exist in the constitutional domain. GateSigma governs structural progression. It ensures that the attempt inherits only what is lawful, that context is fresh, and that scope has not expanded beyond what the SCU authorized. GateSigma prevents structural corruption and ensures that no hidden drift or unauthorized inheritance can propagate downstream. The Downstream System represents the zone of attempted action. It is not a site of authority but a site of execution intent. No consequence may bind here; the system may only prepare to act. GateDelta governs drift, custody, and STOP-rule enforcement. It is the refusal surface and the last constitutional firewall before effect. GateDelta detects authority drift, expired evidence, broken custody, or any STOP-rule trigger. If any such condition is present, the attempt is refused and returned to the SCU. The Gate of Consequence governs the binding of authority to effect. It verifies identity, authority sufficiency, justification validity, scope permissibility, consequence allowance, and receipt and replay. This is the only point in the system where authority may bind to real-world effect. If the Gate of Consequence fails, the effect is not permitted, and the refusal is logged. The Refusal SCU and Log record the prevented effect and restore the system to a lawful state. The Gate Stack ensures that no system behavior can bypass constitutional authority, that no drift can accumulate, and that no consequence can occur without explicit, validated, SCU-grounded authorization. Only a full pass through all gates permits lawful consequence.
 
+flowchart LR
+    %% ---------------------------------------------------------
+    %% LCES Constitutional Architecture — Tri‑Panel Synthesis
+    %% Styled for GitHub (Discovery Map Aesthetic)
+    %% ---------------------------------------------------------
+
+    %% PANEL COLORS
+    classDef failure fill:#d0e7ff,stroke:#4a90e2,color:#000,stroke-width:1px;
+    classDef ontology fill:#fff7d6,stroke:#e6a500,color:#000,stroke-width:1px;
+    classDef evaluation fill:#d9f5e5,stroke:#2e8b57,color:#000,stroke-width:1px;
+    classDef divider fill:#ffffff,stroke:#999,color:#333,stroke-dasharray: 3 3;
+
+    %% ---------------------------------------------------------
+    %% LEFT PANEL — GOVERNANCE FAILURE CHAIN
+    %% ---------------------------------------------------------
+    subgraph GFC[Governance Failure Chain]
+        direction TB
+        A1[Ontological Defects<br>• Incomplete Actions<br>• Missing Dependencies<br>• Authority Gaps]
+        A2[Governance Drift<br>• Misalignment<br>• False Approvals<br>• Audit Failures]
+        A3[Illegitimate Authority<br>• Invalid Credibility<br>• Policy Misbinding<br>• Reversibility Errors]
+        A4[Irreversible Consequences<br>• Cascade Failures<br>• Permanent Harm]
+        A5[Unreliable Evaluation<br>• Flawed Decisions<br>• Safety Violations<br>• Traceability Loss]
+    end
+    class GFC,A1,A2,A3,A4,A5 failure;
+
+    %% ---------------------------------------------------------
+    %% CENTER PANEL — ONTOLOGICAL SAFEGUARD (ISDAIRE)
+    %% ---------------------------------------------------------
+    subgraph ISDAIRE[Ontological Safeguard — ISDAIRE Layer]
+        direction TB
+        B1[Identify Actions]
+        B2[Declare Dependencies]
+        B3[Establish Authority]
+        B4[Ensure Reversibility]
+        B5([Validated Ontology])
+    end
+    class ISDAIRE,B1,B2,B3,B4,B5 ontology;
+
+    %% ---------------------------------------------------------
+    %% RIGHT PANEL — EVALUATIVE SAFEGUARD (ARETABA)
+    %% ---------------------------------------------------------
+    subgraph ARETABA[Evaluative Safeguard — ARETABA Layer]
+        direction TB
+        C1[Trusted Evaluation]
+        C2[Assess & Reason]
+        C3[Test & Verify]
+        C4[Audit & Enforce]
+        C5[Ensure Traceability]
+    end
+    class ARETABA,C1,C2,C3,C4,C5 evaluation;
+
+    %% ---------------------------------------------------------
+    %% FLOW CONNECTIONS
+    %% ---------------------------------------------------------
+    GFC --> ISDAIRE --> ARETABA
+
+    %% ---------------------------------------------------------
+    %% DIVIDER
+    %% ---------------------------------------------------------
+    D[Ontological Separation<br><i>(Evaluation must never outrun ontology.)</i>]
+    class D divider;
+    ARETABA --> D
+
 ---
 # **LCES README — Glossary (Safe Pre‑Otani Version)**
 
