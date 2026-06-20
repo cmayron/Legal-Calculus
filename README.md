@@ -883,6 +883,16 @@ flowchart LR
     class D divider;
     ARETABA --> D
 
+**Caption — Explanation of the LCES Constitutional Architecture (Tri‑Panel Synthesis)**  
+This diagram explains how LCES prevents governance failure by enforcing a strict constitutional separation between ontology and evaluation. The left panel models the Governance Failure Chain, showing that all major failures originate in ontological defects—undefined actions, missing dependencies, invalid authority, or irreversible operations. These defects propagate into governance drift, illegitimate authority, irreversible consequences, and unreliable evaluation.
+
+The center panel (ISDAIRE) defines the Ontological Safeguard. It requires every system to explicitly identify its actions, declare all dependencies, establish legitimate authority, and ensure reversibility before any evaluation is allowed. This produces a Validated Ontology, which becomes the constitutional foundation for all downstream reasoning.
+
+The right panel (ARETABA) defines the Evaluative Safeguard. It ensures that all reasoning, testing, auditing, and traceability operate strictly within the boundaries of the validated ontology. Evaluation cannot invent new actions, bypass authority, or produce irreversible outcomes that were never authorized.
+
+The bottom divider enforces Ontological Separation: evaluation must never outrun, override, or invent ontology. Together, these three panels form the constitutional architecture that keeps system behavior explicit, reversible, auditable, and aligned with legitimate authority.
+
+
 ---
 # **LCES README — Glossary (Safe Pre‑Otani Version)**
 
