@@ -64,7 +64,47 @@ Here is the invention explained
 
 Arbib‑style neural architectures provide activations and transitions but no constitutional surfaces or boundaries, which is why drift and hallucination are inevitable in current runtimes. Runtime governance today operates only at the output layer — filtering, rewriting, or blocking text after the model has already reasoned — but it cannot govern the reasoning substrate itself. LCES adds the missing substrate: ISADORE governs ontology at the Authority Surface, where GateZero prevents unauthorized states from entering the chain; ARETABA governs evaluation at the Influence Surface, where GateDelta prevents unauthorized transitions and contamination from propagating; and MGUG governs the entire constitutional ceiling, enforcing invariants and boundaries so no gate or surface can be bypassed. At the top of this substrate sits the Gate of Consequence, GateSigma, which enforces traceability, attribution, replayability, and consequence authority at the Consequence Surface. Together, these three gates and their surfaces form the constitutional boundaries that Arbib‑style systems never had, ensuring that drift (the hallucination of action) cannot enter, hallucination (the drift of facts) cannot propagate, and no drift can ever become actionable — because LCES governs the substrate of reasoning itself, not merely the runtime outputs.
 
-
+┌──────────────────────────────────────────┐
+                     │        MGUG — CONSTITUTIONAL CEILING      │
+                     │  (Global Invariant & Bypass Prevention)   │
+                     └──────────────────────────────────────────┘
+                                        ▲
+                                        │  Pc Projection
+                                        │  (State must remain in C)
+                                        │
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                         CONSEQUENCE SURFACE                                   │
+│──────────────────────────────────────────────────────────────────────────────│
+│  GateSigma — Irreversibility Gate                                             │
+│    • Verifies full lineage S₀→Sₙ                                              │
+│    • Ensures replayability                                                    │
+│    • Blocks unauthorized consequences                                         │
+│    • Hard Halt on failure                                                     │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                        ▲
+                                        │  Authorized Transition Chain
+                                        │
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                           INFLUENCE SURFACE                                   │
+│──────────────────────────────────────────────────────────────────────────────│
+│  ARETABA — Transition Governor                                                │
+│  GateDelta — Transition Enforcement Gate                                      │
+│    • Validates each state transition                                          │
+│    • Severs contamination pathways                                            │
+│    • Prevents propagation drift                                               │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                        ▲
+                                        │  Authorized Entry State
+                                        │
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                           AUTHORITY SURFACE                                   │
+│──────────────────────────────────────────────────────────────────────────────│
+│  ISADORE — Ontology Governor                                                  │
+│  GateZero — Admissibility Gate                                                │
+│    • Validates initial state S₀                                               │
+│    • Enforces ontology Oₛ                                                     │
+│    • Hard Zero on unauthorized entry                                          │
+└──────────────────────────────────────────────────────────────────────────────┘
 
 ## START HERE
 
