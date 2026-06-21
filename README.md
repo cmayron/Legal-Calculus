@@ -106,6 +106,34 @@ Arbib‑style neural architectures provide activations and transitions but no co
 │    • Hard Zero on unauthorized entry                                          │
 └──────────────────────────────────────────────────────────────────────────────┘
 
+## Proof Structure: Why the LCES Primitives Are Mathematically Inevitable
+
+The diagram below summarizes the formal proof that the six constitutional
+primitives of LCES are not design choices, stylistic preferences, or borrowed
+constructs. They are *mathematically forced* by the structural constraints of
+governed reasoning.
+
+Any system that must enforce:
+
+- admissibility  
+- representation integrity  
+- consequence safety  
+- boundary consistency  
+- meta‑governance invariants  
+
+is compelled to implement operators functionally equivalent to:
+
+**ISIDORE, GateZero, GateSigma, GateDelta, ARETABA, and MGUG.**
+
+The diagram shows the flow:
+
+**Constraints → Lemmas → Inevitability Theorem → Minimality → Uniqueness → Primitives**
+
+This establishes that the LCES constitutional architecture emerges from first
+principles and is the unique minimal solution to the problem of governed
+reasoning under uncertainty, irreversibility, and multi‑boundary interaction.
+
+
 ## START HERE
 
 LCES is a constitutional governance engine.  
