@@ -290,6 +290,17 @@ QED.
 ⭐ Final Result
 The LCES primitives are mathematically inevitable because they are the unique minimal operators required to satisfy the structural constraints of governed reasoning under admissibility, representation integrity, consequence safety, boundary conflict, and meta‑governance invariants.
 
+Figure: Proof Structure Demonstrating the Mathematical Inevitability of the LCES Primitives.
+This diagram shows how the constitutional primitives of LCES emerge from first principles.
+Starting from the four structural constraints required for any governed reasoning system
+(admissibility, representation integrity, consequence safety, boundary consistency, and
+meta‑governance invariants), the diagram traces the logical progression through the
+corresponding lemmas, the inevitability theorem, and the minimality and uniqueness proofs.
+The result is the final constitutional set—ISIDORE, GateZero, GateSigma, GateDelta,
+ARETABA, and MGUG—which is shown to be the unique minimal architecture capable of
+satisfying all required constraints.
+
+
 
 ## START HERE
 
