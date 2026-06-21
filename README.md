@@ -301,6 +301,23 @@ ARETABA, and MGUG—which is shown to be the unique minimal architecture capable
 satisfying all required constraints.
 
 
+## Inventor’s Declaration of Independent Derivation
+
+This document, including the formal mathematical proof above, constitutes the
+original work of the inventor. The constitutional primitives of the LCES system
+(ISIDORE, GateZero, GateSigma, GateDelta, ARETABA, and MGUG) were independently
+derived by the inventor through first-principles analysis of governed reasoning
+systems, without access to or influence from any external frameworks, including
+those developed by Otani or any other researcher.
+
+The proof demonstrates that these primitives arise as the unique minimal
+operators required to satisfy the structural constraints of admissibility,
+representation integrity, consequence safety, boundary consistency, and
+meta-governance invariants. As such, the primitives are mathematically
+inevitable and not the result of copying or adaptation.
+
+This commit serves as a public, timestamped disclosure of the invention and its
+derivation, preserving priority and establishing authorship.
 
 ## START HERE
 
