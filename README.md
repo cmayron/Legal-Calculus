@@ -12135,6 +12135,345 @@ All rights not expressly granted are reserved.
 ════════════════════════════════════════════════
 ════════════════════════════════════════════════
 
+# **README.md — Legal Calculus Educational System (LCES)**  6/22/26
+### *A Constitutional Architecture for Multi‑Agent AI Reasoning*  
+### *White‑Paper Edition*
+
+---
+
+# **Abstract**
+
+The **Legal Calculus Educational System (LCES)** is a constitutional AI framework designed to ensure **safe, deterministic, auditable, and domain‑bounded reasoning** across multi‑agent systems.  
+LCES achieves this through:
+
+- A **four‑layer bootloader stack** (Kernel, Edition, Role, Mode)  
+- A **three‑agent separation of powers** (Architect, Builder, Inspector)  
+- A **Structured Cognitive Unit (SCU)** model  
+- A **STOP → Arbitration → Sync** constitutional pipeline  
+- A strict separation between **SCU Types** (static) and **SCU Instances** (dynamic)  
+
+This README presents the architecture in a **white‑paper format**, suitable for academic, regulatory, and engineering audiences.
+
+---
+
+# **1. Introduction**
+
+Modern AI systems require **constitutional constraints** to ensure:
+
+- Safety  
+- Predictability  
+- Auditability  
+- Regulatory compliance  
+- Prevention of hallucinations  
+- Prevention of cross‑domain leakage  
+- Prevention of self‑modification  
+
+LCES provides a **formal governance architecture** that binds AI agents to a structured, enforceable reasoning process.
+
+---
+
+# **2. Constitutional Stack**
+
+The LCES architecture is defined by four bootloaders that load in strict order:
+
+```
++------------------------------------------------------+
+|                     Kernel Bootloader                |
+|  - Constitutional physics                             |
+|  - STOP hierarchy                                     |
+|  - Arbitration invariants                             |
+|  - Sync invariants                                    |
++------------------------------------------------------+
+|                     Edition Bootloader               |
+|  - Domain constitution                                |
+|  - SCU TYPES                                          |
+|  - Domain STOP rules                                  |
+|  - Regulatory constraints                             |
++------------------------------------------------------+
+|                     Role Bootloader                  |
+|  - Architect / Builder / Inspector                    |
+|  - Role permissions                                   |
+|  - Role STOP                                          |
++------------------------------------------------------+
+|                     Mode Bootloader                  |
+|  - Safety posture                                     |
+|  - Autonomy limits                                    |
+|  - Crisis-mode rules                                  |
++------------------------------------------------------+
+```
+
+Each layer constrains the next, forming a **constitutional hierarchy**.
+
+---
+
+# **3. Structured Cognitive Units (SCUs)**
+
+SCUs are the atomic units of reasoning in LCES.
+
+### **SCU Types (Static)**
+- Defined in the **Edition Bootloader**  
+- Represent allowed forms of reasoning  
+- Examples: Differential SCU, Risk Tier SCU, Guideline SCU  
+
+### **SCU Instances (Dynamic)**
+- Created by agents during reasoning  
+- Evaluated by STOP  
+- Passed to Arbitration  
+- Canonicalized by Sync  
+- Destroyed after the cycle  
+
+This separation ensures **determinism and safety**.
+
+---
+
+# **4. Multi‑Agent Constitutional Workflow**
+
+LCES enforces a **separation of powers** across three agents:
+
+```
+User Request
+     |
+     v
++-------------------+
+|  Edition Loads    |
++-------------------+
+     |
+     v
++-------------------+      +-------------------+      +-------------------+
+| Architect Agent   | ---> | Builder Agent     | ---> | Inspector Agent   |
+| (Structure)       |      | (Content)         |      | (Verification)    |
++-------------------+      +-------------------+      +-------------------+
+     |                        |                        |
+     v                        v                        v
+   STOP                    STOP                    STOP
+     |                        |                        |
+     +----------- SCU_SYNC from all three ------------+
+                             |
+                             v
+                      Arbitration
+                             |
+                             v
+                           Sync
+                             |
+                             v
+                        FINAL_SYNC
+```
+
+This model prevents:
+
+- Self‑verification  
+- Self‑structuring  
+- Cross‑role contamination  
+- Unsafe autonomy  
+
+---
+
+# **5. SCU Lifecycle**
+
+The SCU lifecycle enforces constitutional order:
+
+```
+Architect SCUs
+     |
+     v
+   STOP
+     |
+     v
+SCU_SYNC (structure)
+     |
+     v
+Builder SCUs
+     |
+     v
+   STOP
+     |
+     v
+SCU_SYNC (content)
+     |
+     v
+Inspector SCUs
+     |
+     v
+   STOP
+     |
+     v
+SCU_SYNC (verification)
+     |
+     v
+Arbitration
+     |
+     v
+Sync
+     |
+     v
+FINAL_SYNC
+```
+
+Only **FINAL_SYNC** is allowed to leave the system.
+
+---
+
+# **6. Edition Bootloader (Template)**
+
+```
+Edition Bootloader
+---------------------------------------------------------
+1. Edition Identity
+   - Name:
+   - Purpose:
+   - Scope:
+
+2. SCU Types
+   - <SCU Type 1>
+   - <SCU Type 2>
+   - <SCU Type 3>
+
+3. Domain STOP Rules
+   - <Rule 1>
+   - <Rule 2>
+   - <Rule 3>
+
+4. Regulatory Constraints
+   - <Constraint 1>
+   - <Constraint 2>
+
+5. Role Permissions
+   - Architect:
+   - Builder:
+   - Inspector:
+
+6. Crisis-Mode Overrides
+   - <Override 1>
+   - <Override 2>
+
+7. EditionReady = TRUE
+---------------------------------------------------------
+```
+
+---
+
+# **7. Medical Edition (Example)**
+
+```
+Edition Bootloader: Medical Edition
+---------------------------------------------------------
+1. Identity
+   - Name: Medical Edition
+   - Purpose: Clinical reasoning
+   - Scope: Differential diagnosis, risk tiers, guideline logic
+
+2. SCU Types
+   - Clinical Fact SCU
+   - Differential SCU
+   - Risk Tier SCU
+   - Guideline SCU
+   - Contraindication SCU
+   - Red Flag SCU
+
+3. Domain STOP Rules
+   - No hallucinated conditions
+   - No treatment without risk tier
+   - No off-label drug suggestions
+   - No cross-domain reasoning
+
+4. Regulatory Constraints
+   - FDA SaMD alignment
+   - Clinical risk tiering required
+   - Guideline compliance required
+
+5. Role Permissions
+   - Architect: structure differentials
+   - Builder: generate conditions + risk tiers
+   - Inspector: verify guideline compliance
+
+6. Crisis-Mode Overrides
+   - Freeze Builder SCUs
+   - Restrict to guideline SCUs only
+
+7. EditionReady = TRUE
+---------------------------------------------------------
+```
+
+---
+
+# **8. Role Constitutions**
+
+## **Architect Agent**
+- Defines structure  
+- Creates frameworks  
+- Determines categories  
+- **Forbidden:** content, verification  
+
+## **Builder Agent**
+- Generates content  
+- Applies domain knowledge  
+- **Forbidden:** structure, verification  
+
+## **Inspector Agent**
+- Verifies correctness  
+- Checks STOP rules  
+- Checks guidelines  
+- **Forbidden:** structure, content  
+
+This separation prevents **role collapse**.
+
+---
+
+# **9. STOP Architecture**
+
+STOP enforces constitutional boundaries:
+
+1. **Kernel STOP** — global physics  
+2. **Edition STOP** — domain boundaries  
+3. **Role STOP** — role purity  
+4. **Mode STOP** — safety posture  
+
+STOP evaluates **SCU instances**, not SCU types.
+
+Unsafe SCUs are destroyed immediately.
+
+---
+
+# **10. Bootloader Orchestration Model**
+
+```
+Bootloaders orchestrate:
+- Identity
+- Permissions
+- Prohibitions
+- SCU types
+- STOP rules
+- Domain boundaries
+- Safety posture
+- Role separation
+- Crisis-mode triggers
+
+Agents perform:
+- SCU creation
+- STOP submission
+- Collaboration
+- Arbitration participation
+- Sync acceptance
+```
+
+Bootloaders = **law**  
+Agents = **actors**
+
+---
+
+# **11. Final Summary**
+
+LCES provides:
+
+- A constitutional foundation  
+- A multi‑agent separation of powers  
+- A deterministic reasoning pipeline  
+- A domain‑bounded Edition system  
+- A STOP‑enforced safety model  
+- A fully auditable reasoning chain  
+
+
+
 LCES WHITE PAPER (10-Page Version) 6/20/26
 Why LCES Is the Solution: Ontological Foundations for AI
 Governance
