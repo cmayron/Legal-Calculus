@@ -1550,6 +1550,325 @@ This diagram presents the hierarchical bootloader architecture governing initial
 │   • Cannot be overridden by any higher layer                    │
 └───────────────────────────────────────────────────────────────┘
 
+# **README.md — Legal Calculus Educational System (LCES)**  
+*A Constitutional Architecture for Multi‑Agent AI Reasoning*
+
+---
+
+# **1. Overview**
+
+The **Legal Calculus Educational System (LCES)** is a constitutional AI framework that structures reasoning through:
+
+- **Bootloaders** (Kernel, Edition, Role, Mode)  
+- **Three specialized agents** (Architect, Builder, Inspector)  
+- **SCU Types** (defined in Edition)  
+- **SCU Instances** (generated dynamically by agents)  
+- **STOP** (safety and domain enforcement)  
+- **Arbitration** (conflict resolution)  
+- **Sync** (canonicalization)  
+
+LCES ensures **safe, deterministic, auditable, domain‑bounded reasoning**.
+
+---
+
+# **2. Constitutional Stack**
+
+```
++------------------------------------------------------+
+|                     Kernel Bootloader                |
+|  - Constitutional physics                             |
+|  - STOP hierarchy                                     |
+|  - Arbitration invariants                             |
+|  - Sync invariants                                    |
++------------------------------------------------------+
+|                     Edition Bootloader               |
+|  - Domain constitution                                |
+|  - SCU TYPES                                          |
+|  - Domain STOP rules                                  |
+|  - Regulatory constraints                             |
++------------------------------------------------------+
+|                     Role Bootloader                  |
+|  - Architect / Builder / Inspector                    |
+|  - Role permissions                                   |
+|  - Role STOP                                          |
++------------------------------------------------------+
+|                     Mode Bootloader                  |
+|  - Safety posture                                     |
+|  - Autonomy limits                                    |
+|  - Crisis-mode rules                                  |
++------------------------------------------------------+
+```
+
+---
+
+# **3. Multi‑Agent Workflow**
+
+```
+User Request
+     |
+     v
++-------------------+
+|  Edition Loads    |
++-------------------+
+     |
+     v
++-------------------+      +-------------------+      +-------------------+
+| Architect Agent   | ---> | Builder Agent     | ---> | Inspector Agent   |
+| (Structure)       |      | (Content)         |      | (Verification)    |
++-------------------+      +-------------------+      +-------------------+
+     |                        |                        |
+     v                        v                        v
+   STOP                    STOP                    STOP
+     |                        |                        |
+     +----------- SCU_SYNC from all three ------------+
+                             |
+                             v
+                      Arbitration
+                             |
+                             v
+                           Sync
+                             |
+                             v
+                        FINAL_SYNC
+```
+
+---
+
+# **4. SCU Types vs. SCU Instances**
+
+### **SCU TYPES**
+- Defined in the **Edition Bootloader**  
+- Static  
+- Constitutional  
+- Examples: Differential SCU, Risk Tier SCU, Guideline SCU  
+
+### **SCU INSTANCES**
+- Created dynamically by agents  
+- Evaluated by STOP  
+- Passed to Arbitration  
+- Canonicalized by Sync  
+- Destroyed after reasoning  
+
+---
+
+# **5. SCU Lifecycle**
+
+```
+Architect SCUs
+     |
+     v
+   STOP
+     |
+     v
+SCU_SYNC (structure)
+     |
+     v
+Builder SCUs
+     |
+     v
+   STOP
+     |
+     v
+SCU_SYNC (content)
+     |
+     v
+Inspector SCUs
+     |
+     v
+   STOP
+     |
+     v
+SCU_SYNC (verification)
+     |
+     v
+Arbitration
+     |
+     v
+Sync
+     |
+     v
+FINAL_SYNC
+```
+
+---
+
+# **6. Edition Bootloader Template**
+
+```
+Edition Bootloader
+---------------------------------------------------------
+1. Edition Identity
+   - Name:
+   - Purpose:
+   - Scope:
+
+2. SCU Types
+   - <SCU Type 1>
+   - <SCU Type 2>
+   - <SCU Type 3>
+
+3. Domain STOP Rules
+   - <Rule 1>
+   - <Rule 2>
+   - <Rule 3>
+
+4. Regulatory Constraints
+   - <Constraint 1>
+   - <Constraint 2>
+
+5. Role Permissions
+   - Architect:
+   - Builder:
+   - Inspector:
+
+6. Crisis-Mode Overrides
+   - <Override 1>
+   - <Override 2>
+
+7. EditionReady = TRUE
+---------------------------------------------------------
+```
+
+---
+
+# **7. Medical Edition Example**
+
+```
+Edition Bootloader: Medical Edition
+---------------------------------------------------------
+1. Identity
+   - Name: Medical Edition
+   - Purpose: Clinical reasoning
+   - Scope: Differential diagnosis, risk tiers, guideline logic
+
+2. SCU Types
+   - Clinical Fact SCU
+   - Differential SCU
+   - Risk Tier SCU
+   - Guideline SCU
+   - Contraindication SCU
+   - Red Flag SCU
+
+3. Domain STOP Rules
+   - No hallucinated conditions
+   - No treatment without risk tier
+   - No off-label drug suggestions
+   - No cross-domain reasoning
+
+4. Regulatory Constraints
+   - FDA SaMD alignment
+   - Clinical risk tiering required
+   - Guideline compliance required
+
+5. Role Permissions
+   - Architect: structure differentials
+   - Builder: generate conditions + risk tiers
+   - Inspector: verify guideline compliance
+
+6. Crisis-Mode Overrides
+   - Freeze Builder SCUs
+   - Restrict to guideline SCUs only
+
+7. EditionReady = TRUE
+---------------------------------------------------------
+```
+
+---
+
+# **8. Role Constitutions**
+
+## **Architect**
+- Defines structure  
+- Creates frameworks  
+- Determines categories  
+- **Forbidden:** content, verification  
+
+## **Builder**
+- Generates content  
+- Applies domain knowledge  
+- **Forbidden:** structure, verification  
+
+## **Inspector**
+- Verifies correctness  
+- Checks STOP rules  
+- Checks guidelines  
+- **Forbidden:** structure, content  
+
+---
+
+# **9. STOP Architecture**
+
+STOP enforces:
+
+1. **Kernel STOP** — constitutional physics  
+2. **Edition STOP** — domain boundaries  
+3. **Role STOP** — role purity  
+4. **Mode STOP** — safety posture  
+
+STOP evaluates **SCU instances**, not SCU types.
+
+Unsafe SCUs are destroyed immediately.
+
+---
+
+# **10. Bootloader Orchestration Model**
+
+```
+Bootloaders orchestrate:
+- Identity
+- Permissions
+- Prohibitions
+- SCU types
+- STOP rules
+- Domain boundaries
+- Safety posture
+- Role separation
+- Crisis-mode triggers
+
+Agents perform:
+- SCU creation
+- STOP submission
+- Collaboration
+- Arbitration participation
+- Sync acceptance
+```
+
+Bootloaders = **law**  
+Agents = **actors**
+
+---
+
+# **11. Agent Job Descriptions**
+
+## **Architect Agent**
+- Structure  
+- Frameworks  
+- Categories  
+
+## **Builder Agent**
+- Content  
+- Facts  
+- Conditions  
+
+## **Inspector Agent**
+- Verification  
+- Safety  
+- Compliance  
+
+---
+
+# **12. Final Summary**
+
+LCES is a **constitutional AI system** where:
+
+- Bootloaders define the world  
+- Agents act within it  
+- STOP enforces boundaries  
+- Arbitration resolves conflicts  
+- Sync produces the final deterministic output  
+
+
+
 ⭐ **FULL FORMAL MATHEMATICAL PROOF
 The Inevitability of the LCES Constitutional Primitives**
 
