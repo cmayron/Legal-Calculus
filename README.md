@@ -1399,7 +1399,7 @@ The bottom divider enforces Ontological Separation: evaluation must never outrun
 
 
 ---
-# **LCES README — Glossary (Safe Pre‑Otani Version)**
+# **LCES README — 
 
 ### **ISDAIRE**
 
@@ -1485,6 +1485,51 @@ safe, authorized, reversible, and fully traceable.
 
 The Gate of Consequence Surface is therefore the final safeguard that ensures all
 system behavior remains explicit, legitimate, and constitutionally governed.
+
+                          ┌──────────────────────────────────────────┐
+                          │        Multi‑AI Ecosystem Layer          │
+                          │  (Multiple AI Agents + Shared Services)  │
+                          └──────────────────────────────────────────┘
+                                           ▲
+                                           │
+                     ┌──────────────────────────────────────────────┐
+                     │        Bootloader Controlling Actors         │
+                     │ (Agent activation, permissions, arbitration) │
+                     └──────────────────────────────────────────────┘
+                                           ▲
+                                           │
+     ┌──────────────────────────────────────────────────────────────────────────────┐
+     │                         LCES‑Derived Bootloaders                             │
+     │  • Kernel Bootloader (core runtime, safety, scheduling)                       │
+     │  • Role Bootloaders (persona, capabilities, constraints)                      │
+     └──────────────────────────────────────────────────────────────────────────────┘
+                                           ▲
+                                           │
+                ┌──────────────────────────────────────────────────────────┐
+                │   Edition Bootloader (Company Governing the AI)         │
+                │  Policy, compliance, governance, telemetry, licensing   │
+                └──────────────────────────────────────────────────────────┘
+                                           ▲
+                                           │
+                ┌──────────────────────────────────────────────────────────┐
+                │     Mode Bootloader (Company Hosting the AI)            │
+                │  Deployment mode, environment config, tenancy, routing  │
+                └──────────────────────────────────────────────────────────┘
+                                           ▲
+                                           │
+                ┌──────────────────────────────────────────────────────────┐
+                │     Per‑AI‑Agent Bootloader (Local Agent Loader)        │
+                │  Identity, memory, tools, local safety, startup logic   │
+                └──────────────────────────────────────────────────────────┘
+                                           ▲
+                                           │
+                ┌──────────────────────────────────────────────────────────┐
+                │   SCU (System Control Unit)                              │
+                │  Stop, Pause, Kill, Reset, Audit, Override mechanisms    │
+                └──────────────────────────────────────────────────────────┘
+Formal Diagram Caption — Multi‑AI Bootloader Architecture
+
+This diagram presents the hierarchical bootloader architecture governing initialization, configuration, and operational control within a multi‑agent AI ecosystem. The sequence begins with the System Control Unit (SCU), which provides authoritative safety, halt, reset, and audit functions. Each AI agent is then initialized through a Per‑AI‑Agent Bootloader responsible for identity establishment, memory loading, and local capability registration. The Mode Bootloader configures the hosting environment, including deployment mode, tenancy isolation, and runtime parameters. The Edition Bootloader applies governance from the owning organization, enforcing policy, compliance, licensing, and telemetry requirements. The LCES‑derived Kernel and Role Bootloaders subsequently initialize the core runtime, global safety mechanisms, scheduling, and role‑specific capability constraints. The Actor Control Bootloader orchestrates agent activation, task routing, and inter‑agent communication. Collectively, these layers form a deterministic and auditable boot chain that enables controlled, compliant, and coordinated operation of the multi‑AI ecosystem.
 
 ----
 # 📁 **ASCII Directory Tree — LCES Repository Structure**
