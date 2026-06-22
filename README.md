@@ -1486,6 +1486,9 @@ safe, authorized, reversible, and fully traceable.
 The Gate of Consequence Surface is therefore the final safeguard that ensures all
 system behavior remains explicit, legitimate, and constitutionally governed.
 
+
+
+### *CONTROL SURFACE MAP — TEXT DIAGRAM*
                           ┌──────────────────────────────────────────┐
                           │        Multi‑AI Ecosystem Layer          │
                           │  (Multiple AI Agents + Shared Services)  │
@@ -1530,6 +1533,198 @@ system behavior remains explicit, legitimate, and constitutionally governed.
 Formal Diagram Caption — Multi‑AI Bootloader Architecture
 
 This diagram presents the hierarchical bootloader architecture governing initialization, configuration, and operational control within a multi‑agent AI ecosystem. The sequence begins with the System Control Unit (SCU), which provides authoritative safety, halt, reset, and audit functions. Each AI agent is then initialized through a Per‑AI‑Agent Bootloader responsible for identity establishment, memory loading, and local capability registration. The Mode Bootloader configures the hosting environment, including deployment mode, tenancy isolation, and runtime parameters. The Edition Bootloader applies governance from the owning organization, enforcing policy, compliance, licensing, and telemetry requirements. The LCES‑derived Kernel and Role Bootloaders subsequently initialize the core runtime, global safety mechanisms, scheduling, and role‑specific capability constraints. The Actor Control Bootloader orchestrates agent activation, task routing, and inter‑agent communication. Collectively, these layers form a deterministic and auditable boot chain that enables controlled, compliant, and coordinated operation of the multi‑AI ecosystem.
+
+🧭 CONTROL SURFACE MAP — TEXT DIAGRAM
+
+“How authority, governance, and constitutional power are distributed across the AI bootloader stack.”
+
+┌───────────────────────────────────────────────────────────────┐
+│                    MULTI‑AI ECOSYSTEM LAYER                    │
+│   (Agents executing tasks under all lower‑layer constraints)   │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Soft orchestration
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│                ACTOR CONTROL BOOTLOADER (Soft)                │
+│  • Agent activation / deactivation                             │
+│  • Task arbitration                                            │
+│  • Message routing                                             │
+│  • Priority management                                         │
+│  (Cannot issue hard stops; obeys all lower layers)             │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Constitutional constraints
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│             LCES‑DERIVED BOOTLOADERS (Constitutional)         │
+│  • Role assignment                                              │
+│  • Capability limits                                            │
+│  • Inter‑agent permissions                                      │
+│  (Define what agents *may* do, not system‑level controls)       │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Policy influence (soft)
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│                EDITION BOOTLOADER (Corporate Policy)           │
+│  • Compliance gating                                            │
+│  • Licensing enforcement                                        │
+│  • Telemetry requirements                                       │
+│  • Policy enforcement                                           │
+│  (Can *request* stop/pause but cannot enforce them)             │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Hard runtime control
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│                 MODE BOOTLOADER (Host Runtime)                 │
+│  • STOP  ←─── (Hard control owned here)                        │
+│  • Runtime mode configuration                                   │
+│  • Tenancy / sandboxing                                         │
+│  (Delegates stronger controls downward to SCU)                  │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Root‑of‑trust hard controls
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│        SCU — SYSTEM CONTROL UNIT (Root Safety Layer)           │
+│  • PAUSE  — freeze execution                                    │
+│  • KILL   — immediate termination                               │
+│  • RESET  — restore safe baseline                               │
+│  • AUDIT  — system‑wide logging & forensics                     │
+│  (Overrides all layers above; cannot be overridden)             │
+└───────────────────────────────────────────────────────────────┘
+
+⚡ INITIALIZATION FLOW DIAGRAM 
+“How the multi‑AI ecosystem boots from zero to full coordinated operation.” 
+┌───────────────────────────────────────────────────────────────┐
+│                    7. MULTI‑AI ECOSYSTEM LAYER                 │
+│   • Agents execute coordinated tasks                           │
+│   • All constraints from lower layers are active               │
+│   • Actor Control orchestrates communication & arbitration     │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Ecosystem activation
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│                6. ACTOR CONTROL BOOTLOADER                     │
+│   • Activates agents                                            │
+│   • Routes messages                                             │
+│   • Arbitrates conflicts                                        │
+│   • Applies LCES constraints                                    │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Constitutional role assignment
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│              5. LCES‑DERIVED BOOTLOADERS (Kernel)             │
+│   • Architect: defines structure                                │
+│   • Builder: instantiates roles                                 │
+│   • Inspector: enforces constraints                             │
+│   • Establishes constitutional limits for all agents            │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Corporate governance injection
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│                4. EDITION BOOTLOADER (Governance)              │
+│   • Loads corporate policy                                      │
+│   • Enforces compliance & licensing                             │
+│   • Enables telemetry & reporting                               │
+│   • Applies organization‑specific constraints                   │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Runtime environment setup
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│                3. MODE BOOTLOADER (Host Runtime)               │
+│   • Configures runtime mode                                     │
+│   • Sets tenancy & sandboxing                                   │
+│   • Loads STOP control                                          │
+│   • Establishes execution environment                           │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Agent identity & local safety
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│              2. PER‑AI‑AGENT BOOTLOADER (Identity)             │
+│   • Loads agent identity                                        │
+│   • Loads memory & tools                                        │
+│   • Applies local safety rules                                  │
+│   • Initializes per‑agent capabilities                          │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Root‑of‑trust initialization
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│      1. SCU — SYSTEM CONTROL UNIT (Root Safety Layer)          │
+│   • Initializes system‑level safety                             │
+│   • PAUSE / KILL / RESET / AUDIT controls                       │
+│   • Verifies system integrity                                   │
+│   • Authorizes boot sequence to proceed                         │
+└───────────────────────────────────────────────────────────────┘
+
+🏛️ CONSTITUTIONAL GOVERNANCE DIAGRAM 
+“How authority, governance, and constitutional power are distributed across the AI bootloader stack.”
+┌───────────────────────────────────────────────────────────────┐
+│                     MULTI‑AI ECOSYSTEM (Citizens)              │
+│   • Agents act as citizens within the constitutional system     │
+│   • Their behavior is governed by all lower layers              │
+│   • They cannot override any constitutional authority           │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Executive coordination
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│           ACTOR CONTROL BOOTLOADER (Executive Branch)          │
+│   • Executes policy and constitutional rules                    │
+│   • Coordinates agents, tasks, and communication                │
+│   • Enforces arbitration and priority decisions                 │
+│   • Cannot change laws or override SCU/Mode                     │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Constitutional authority
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│      LCES‑DERIVED BOOTLOADERS (Constitutional Judiciary)       │
+│   • Architect: defines structural law                           │
+│   • Builder: instantiates lawful roles                          │
+│   • Inspector: audits compliance with the constitution          │
+│   • Interprets and enforces constitutional constraints          │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Legislative policy authority
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│         EDITION BOOTLOADER (Corporate Legislature)             │
+│   • Creates organizational policy                               │
+│   • Enforces compliance & licensing                             │
+│   • Defines telemetry and reporting requirements                │
+│   • Cannot override constitutional or safety law                │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Runtime executive authority
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│             MODE BOOTLOADER (Runtime Executive)                │
+│   • Controls runtime mode                                       │
+│   • Sets tenancy & sandboxing                                   │
+│   • Owns STOP (runtime halt)                                    │
+│   • Executes within SCU‑defined safety boundaries               │
+└───────────────────────────────────────────────────────────────┘
+                                ▲
+                                │ Root‑of‑trust constitutional power
+                                │
+┌───────────────────────────────────────────────────────────────┐
+│   SCU — SYSTEM CONTROL UNIT (Emergency Powers / Root of Trust) │
+│   • PAUSE — freeze system                                       │
+│   • KILL  — immediate termination                               │
+│   • RESET — restore safe baseline                               │
+│   • AUDIT — system‑wide forensic authority                      │
+│   • Cannot be overridden by any higher layer                    │
+└───────────────────────────────────────────────────────────────┘
+
 
 ----
 # 📁 **ASCII Directory Tree — LCES Repository Structure**
