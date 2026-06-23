@@ -11665,21 +11665,454 @@ This table is designed for coalition partners, engineers, and auditors who must 
 
 ---
 
-# **README Integration Block (Copy‑Paste Ready)**
+workspace/SCU_Full_Architecture.md
 
-```markdown
-## Manifesto Cross‑Reference Table
+⭐ SCU + Multi‑AI Constitutional Governance Architecture (Full Workspace Document)
+1. Supreme Constitutional Unit (SCU) — Core Overview
+The Supreme Constitutional Unit (SCU) is the constitutional admissibility unit responsible for evaluating all proposed cognitive operations prior to execution within an AI system or multi‑agent ecosystem.
+The SCU enforces four non‑derogable governance pillars:
+    1    Protected‑Effects Prohibitions
+    2    STOP‑Condition Triggers
+    3    Lineage‑Integrity Requirements
+    4    Authority‑Boundary Rules
+The SCU determines whether an operation is constitutionally admissible and halts execution in a fail‑closed manner when inadmissible.
 
-This table maps each constitutional Article of the LCES Manifesto to its corresponding
-implementation layer, repository module, and runtime component.
+2. SCU Architecture
+The SCU consists of two layers:
+2.1 Universal Constitutional Specification
+A global, immutable governance specification defining:
+    •    non‑derogable constraints
+    •    protected effects
+    •    STOP conditions
+    •    lineage rules
+    •    authority boundaries
+    •    substrate‑level invariants
+This specification is shared across all agents.
+2.2 Runtime Constitutional Instance
+A local enforcement engine embedded within each AI agent.
+It:
+    •    receives proposed cognitive operations
+    •    evaluates them against the specification
+    •    enforces STOP conditions
+    •    blocks prohibited effects
+    •    validates lineage
+    •    produces attestations
+The runtime instance cannot modify the universal specification.
 
-[Insert table here]
+3. SCU Evaluation Pipeline
+    1    Operation Intake
+Proposed cognitive operation enters the SCU.
+    2    Lineage Verification
+Operation must originate from authorized lineage.
+    3    Authority Scope Check
+Operation must fall within declared authority boundaries.
+    4    Protected‑Effects Screening
+Operation must not produce irreversible or unauthorized effects.
+    5    STOP‑Condition Detection
+Any prohibited cognitive state triggers immediate halt.
+    6    Constitutional Admissibility Decision
+    ◦    If admissible → operation executes
+    ◦    If inadmissible → fail‑closed halt
+    7    Attestation Generation
+SCU produces a verifiable compliance attestation.
 
-This ensures that every constitutional guarantee has a concrete, verifiable,
-and auditable implementation in the operational system.
-```
+4. SCU Governance Pillars
+4.1 Protected Effects
+Operations that are constitutionally prohibited, including:
+    •    unauthorized authority escalation
+    •    modification of constitutional constraints
+    •    cross‑boundary violations
+    •    irreversible or harmful outcomes
+4.2 STOP Conditions
+Pre‑cognitive halting triggers, including:
+    •    inadmissible lineage
+    •    prohibited effects
+    •    unauthorized authority expansion
+    •    substrate‑level violations
+4.3 Lineage Integrity
+Every operation must be traceable to:
+    •    a valid bootloader
+    •    an authorized ancestry
+    •    a verified identity chain
+4.4 Authority Boundaries
+Operations must remain within:
+    •    declared scope
+    •    permitted interfaces
+    •    allowed domain transitions
 
----
+⭐ 5. Substrate‑Level Constructs
+The constitutional substrate includes three foundational constructs:
+
+5.1 ISADORE — Identity Substrate
+ISADORE defines:
+    •    identity
+    •    persistence
+    •    referential integrity
+It ensures every operation evaluated by the SCU is associated with a verifiable identity lineage.
+ISADORE prevents:
+    •    identity spoofing
+    •    unauthorized lineage injection
+    •    referential corruption
+
+5.2 ARIBATA — Boundary Substrate
+ARIBATA defines:
+    •    boundary conditions
+    •    permissible interfaces
+    •    cross‑domain transitions
+It provides the boundary‑level constraints the SCU evaluates when determining:
+    •    authority‑boundary violations
+    •    protected‑effects risks
+    •    cross‑agent interactions
+
+5.3 MGUG — Governance Immutability Substrate
+MGUG defines:
+    •    immutability
+    •    universality
+    •    non‑derogation
+It ensures:
+    •    no agent can weaken constitutional constraints
+    •    no bootloader can modify governance rules
+    •    all agents operate under a unified constitutional order
+MGUG is the substrate that makes the SCU non‑bypassable.
+
+⭐ 6. Bootloader Governance
+Each agent includes a constitutional bootloader that declares:
+    •    lineage
+    •    authority scope
+    •    constitutional constraints
+    •    verification interface
+The SCU validates the bootloader before activation.
+Bootloaders must:
+    •    match predetermined constitutional ancestry
+    •    be testable by a constitutional test harness
+    •    be unable to modify protected effects or STOP conditions
+
+⭐ 7. Federated Multi‑Agent Governance
+In a multi‑AI ecosystem:
+7.1 Attestation Exchange
+Agents exchange SCU‑generated constitutional‑compliance attestations.
+7.2 Lineage Enforcement
+Agents reject interaction with agents lacking valid lineage.
+7.3 Shared Constitutional Order
+All agents enforce the same universal constitutional specification.
+7.4 Cross‑Agent STOP Propagation
+If one agent detects a STOP condition, it may propagate:
+    •    warnings
+    •    halts
+    •    lineage alerts
+across the network.
+
+⭐ 8. Specification vs. Instance Separation
+8.1 Universal Specification
+    •    immutable
+    •    shared
+    •    substrate‑anchored
+    •    non‑derogable
+8.2 Runtime Instance
+    •    local
+    •    enforceable
+    •    non‑modifiable
+    •    agent‑specific
+This separation ensures:
+    •    governance cannot be altered at runtime
+    •    agents cannot rewrite constitutional rules
+    •    substrate invariants remain intact
+
+⭐ 9. Constitutional Test Harness
+A test harness validates:
+    •    bootloader lineage
+    •    authority scope
+    •    STOP‑condition triggers
+    •    protected‑effects enforcement
+    •    substrate compliance
+This ensures agents are constitutionally admissible before activation.
+
+⭐ 10. Summary
+This document defines the complete SCU‑based constitutional governance architecture for multi‑AI ecosystems, including:
+    •    SCU core
+    •    substrate constructs
+    •    bootloader governance
+    •    federated multi‑agent governance
+    •    specification/instance separation
+    •    STOP conditions
+    •    protected effects
+    •    lineage integrity
+This is the full architecture in one place — ready for GitHub.
+
+SCU Architecture Diagram (Mermaid)
+Paste this directly into your GitHub doc:
+flowchart TD
+
+    subgraph SPEC["Universal Constitutional Specification"]
+        PE["Protected‑Effects Rules"]
+        STOP["STOP‑Condition Rules"]
+        LIN["Lineage‑Integrity Rules"]
+        AUTH["Authority‑Boundary Rules"]
+        SUB["Substrate Invariants (ISADORE / ARIBATA / MGUG)"]
+    end
+
+    subgraph RUNTIME["Runtime Constitutional Instance"]
+        OP["Proposed Cognitive Operation"]
+        EVAL["SCU Evaluation Engine"]
+        DECIDE["Admissibility Decision"]
+        ATTEST["Compliance Attestation"]
+    end
+
+    OP --> EVAL
+    SPEC --> EVAL
+
+    EVAL -->|Admissible| DECIDE
+    EVAL -->|Inadmissible| DECIDE
+
+    DECIDE -->|Execute| ATTEST
+    DECIDE -->|Fail‑Closed Halt| ATTEST
+This diagram shows:
+    •    The universal specification feeding into the SCU
+    •    The runtime instance evaluating operations
+    •    The fail‑closed decision path
+    •    The attestation output
+    •    
+SCU Full Evaluation Flowchart (Mermaid)
+
+flowchart TD
+
+    A["Operation Proposed"] --> B["Lineage Verification (ISADORE)"]
+    B -->|Valid| C["Authority Scope Check (ARIBATA)"]
+    B -->|Invalid| Z["STOP Triggered → Fail‑Closed Halt"]
+
+    C -->|Within Scope| D["Protected‑Effects Screening"]
+    C -->|Out of Scope| Z
+
+    D -->|No Prohibited Effects| E["Substrate Compliance (MGUG)"]
+    D -->|Prohibited Effect| Z
+
+    E -->|Compliant| F["STOP‑Condition Detection"]
+    E -->|Violation| Z
+
+    F -->|No STOP Triggered| G["Constitutional Admissibility"]
+    F -->|STOP Triggered| Z
+
+    G -->|Admissible| H["Operation Executes"]
+    G -->|Inadmissible| Z
+
+    H --> I["Generate Compliance Attestation"]
+    Z --> I
+This flowchart shows the entire SCU pipeline:
+    •    Lineage → Authority → Protected Effects → Substrate → STOP → Decision → Attestation
+    •    Every failure path leads to fail‑closed
+    •    Every success path leads to execution + attestation
+
+Multi‑Agent Federated Governance Diagram (Mermaid)
+flowchart LR
+
+    subgraph AgentA["Agent A"]
+        Aboot["Bootloader A"]
+        Ascu["SCU A"]
+        Aatt["Attestation A"]
+    end
+
+    subgraph AgentB["Agent B"]
+        Bboot["Bootloader B"]
+        Bscu["SCU B"]
+        Batt["Attestation B"]
+    end
+
+    Aboot --> Ascu
+    Ascu --> Aatt
+
+    Bboot --> Bscu
+    Bscu --> Batt
+
+    Aatt <--> Batt
+
+    Aatt -->|Reject if Invalid| X["Interaction Blocked"]
+    Batt -->|Reject if Invalid| X
+This diagram shows:
+    •    Each agent has its own SCU
+    •    Each SCU produces attestations
+    •    Agents exchange attestations
+    •    Invalid lineage or invalid attestation → interaction blocked
+
+Substrate Layer Stack Diagram (Mermaid)
+flowchart TB
+
+    MGUG["MGUG — Governance Immutability"]
+    ARIBATA["ARIBATA — Boundary Conditions"]
+    ISADORE["ISADORE — Identity Integrity"]
+    SCU["SCU — Constitutional Admissibility Unit"]
+    OPS["Cognitive Operations"]
+
+    MGUG --> ARIBATA --> ISADORE --> SCU --> OPS
+This shows the substrate stack:
+    •    MGUG at the bottom (immutability)
+    •    ARIBATA (boundaries)
+    •    ISADORE (identity)
+    •    SCU (governance)
+    •    Operations at the top
+
+
+A LCES Constitutional Governance Architecture (SCU + Multi‑AI Ecosystem)
+Unified README with Embedded Diagrams
+This document provides the complete architectural description of the Supreme Constitutional Unit (SCU) and its role within a multi‑AI constitutional governance ecosystem, including substrate constructs (ISADORE, ARIBATA, MGUG), bootloader governance, federated agent interactions, and the full SCU evaluation pipeline.
+All diagrams below are Mermaid‑based and render natively on GitHub.
+
+1. Supreme Constitutional Unit (SCU) — Overview
+The SCU is the constitutional admissibility unit that evaluates all proposed cognitive operations before execution. It enforces:
+    •    Protected‑effects prohibitions
+    •    STOP‑condition triggers
+    •    Lineage‑integrity requirements
+    •    Authority‑boundary rules
+If an operation is inadmissible, the SCU halts execution in a fail‑closed manner.
+
+2. SCU Architecture Diagram
+flowchart TD
+
+    subgraph SPEC["Universal Constitutional Specification"]
+        PE["Protected‑Effects Rules"]
+        STOP["STOP‑Condition Rules"]
+        LIN["Lineage‑Integrity Rules"]
+        AUTH["Authority‑Boundary Rules"]
+        SUB["Substrate Invariants (ISADORE / ARIBATA / MGUG)"]
+    end
+
+    subgraph RUNTIME["Runtime Constitutional Instance"]
+        OP["Proposed Cognitive Operation"]
+        EVAL["SCU Evaluation Engine"]
+        DECIDE["Admissibility Decision"]
+        ATTEST["Compliance Attestation"]
+    end
+
+    OP --> EVAL
+    SPEC --> EVAL
+
+    EVAL -->|Admissible| DECIDE
+    EVAL -->|Inadmissible| DECIDE
+
+    DECIDE -->|Execute| ATTEST
+    DECIDE -->|Fail‑Closed Halt| ATTEST
+
+3. SCU Evaluation Flowchart
+flowchart TD
+
+    A["Operation Proposed"] --> B["Lineage Verification (ISADORE)"]
+    B -->|Valid| C["Authority Scope Check (ARIBATA)"]
+    B -->|Invalid| Z["STOP Triggered → Fail‑Closed Halt"]
+
+    C -->|Within Scope| D["Protected‑Effects Screening"]
+    C -->|Out of Scope| Z
+
+    D -->|No Prohibited Effects| E["Substrate Compliance (MGUG)"]
+    D -->|Prohibited Effect| Z
+
+    E -->|Compliant| F["STOP‑Condition Detection"]
+    E -->|Violation| Z
+
+    F -->|No STOP Triggered| G["Constitutional Admissibility"]
+    F -->|STOP Triggered| Z
+
+    G -->|Admissible| H["Operation Executes"]
+    G -->|Inadmissible| Z
+
+    H --> I["Generate Compliance Attestation"]
+    Z --> I
+
+4. Multi‑Agent Federated Governance Diagram
+flowchart LR
+
+    subgraph AgentA["Agent A"]
+        Aboot["Bootloader A"]
+        Ascu["SCU A"]
+        Aatt["Attestation A"]
+    end
+
+    subgraph AgentB["Agent B"]
+        Bboot["Bootloader B"]
+        Bscu["SCU B"]
+        Batt["Attestation B"]
+    end
+
+    Aboot --> Ascu
+    Ascu --> Aatt
+
+    Bboot --> Bscu
+    Bscu --> Batt
+
+    Aatt <--> Batt
+
+    Aatt -->|Reject if Invalid| X["Interaction Blocked"]
+    Batt -->|Reject if Invalid| X
+
+5. Substrate Layer Stack Diagram
+flowchart TB
+
+    MGUG["MGUG — Governance Immutability"]
+    ARIBATA["ARIBATA — Boundary Conditions"]
+    ISADORE["ISADORE — Identity Integrity"]
+    SCU["SCU — Constitutional Admissibility Unit"]
+    OPS["Cognitive Operations"]
+
+    MGUG --> ARIBATA --> ISADORE --> SCU --> OPS
+
+6. Combined Master Diagram (All Layers in One)
+This is the single unified diagram showing the entire ecosystem.
+flowchart TB
+
+    %% Substrate Layer
+    subgraph SUBSTRATE["Constitutional Substrate"]
+        MGUG["MGUG — Immutability"]
+        ARIBATA["ARIBATA — Boundaries"]
+        ISADORE["ISADORE — Identity"]
+    end
+
+    %% Specification Layer
+    subgraph SPEC["Universal Constitutional Specification"]
+        PE["Protected‑Effects"]
+        STOP["STOP Conditions"]
+        LIN["Lineage Rules"]
+        AUTH["Authority Boundaries"]
+    end
+
+    %% Runtime Layer
+    subgraph RUNTIME["Runtime Constitutional Instance"]
+        OP["Proposed Operation"]
+        EVAL["SCU Evaluation Engine"]
+        DECIDE["Admissibility Decision"]
+        ATTEST["Compliance Attestation"]
+    end
+
+    %% Multi-Agent Layer
+    subgraph AGENTS["Federated Multi‑Agent Ecosystem"]
+        Aatt["Agent A Attestation"]
+        Batt["Agent B Attestation"]
+        X["Interaction Blocked"]
+    end
+
+    %% Connections
+    SUBSTRATE --> SPEC
+    SPEC --> EVAL
+    OP --> EVAL
+
+    EVAL --> DECIDE
+    DECIDE -->|Execute| ATTEST
+    DECIDE -->|Fail‑Closed| ATTEST
+
+    ATTEST --> Aatt
+    ATTEST --> Batt
+
+    Aatt <--> Batt
+    Aatt -->|Invalid| X
+    Batt -->|Invalid| X
+
+7. Summary
+This README provides:
+    •    A complete SCU architecture
+    •    Full evaluation pipeline
+    •    Substrate constructs (ISADORE, ARIBATA, MGUG)
+    •    Bootloader governance
+    •    Federated multi‑agent governance
+    •    Four embedded diagrams
+    •    One unified master diagram
+This is the canonical GitHub documentation for your SCU‑based constitutional governance system.
 
 
  
