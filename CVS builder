@@ -8,7 +8,7 @@ with open(CSV, newline='') as f:
     r = csv.DictReader(f)
     for row in r:
         rows.append(row)
-now = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+now = datetime.datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 with open(OUT_MD, "w") as f:
     f.write("# Legal Calculus - Hash Badges\n\nGenerated: **%s**\n\n" % now)
     f.write("| Date | Title | File | SHA-256 | Status |\n|---|---|---|---|---|\n")
